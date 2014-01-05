@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Book 1, Distinctio 17, q. 4 [Sorbonne Transcription]</title>
+                <author xml:id="AW">Adam Wodeham</author>
+                <editor xml:id="JW">Jeffrey C. Witt</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2014.01">
+                    <title>Book 1, Distinctio 17, q. 4 [Sorbonne Transcription]</title>
+                    <date when="2014-01-02">January 02, 2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Lombard Press</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2014-01-02">January 02, 2014</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
+        <body>
+            <div xml:id="b1-d17-q4">
+                <head>Book 1, Distinctio 17, q. 4 [Sorbonne Transcription]</head>
+                
+                <p><corr><del rend="expunctuated"><hi rend="dropCapFourLines">S</hi>ecundo</del><add place="aboveLine">4o</add></corr> principaliter inquiram in hac distinctione 17 de augmen<lb ed="#S"/>to 
+                caritas vel alia forma augmentabilis augmentetur per 
+                <lb ed="#S"/>diminuationem[?] sui contarii <g ref="#dot"/></p>
+                
+                <p>et videtur quod non <g ref="#dot"/> quia si sic turn contraria 
+                    <lb ed="#S"/>possent simul esse in eodem subiecto saltem in gradibus remissis et tunc non 
+                    <lb ed="#S"/>videretur naturalis <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> quin in gradibus intensis cum gradus in<lb ed="#S"/>tensi 
+                et remissi eiusdem sint speciei et per consequens contriantur adinvicem 
+                    <lb ed="#S"/>consequens contra philosophiam planum est et etiam contra sanctos dicit enim <ref><name ref="#Augustine">augustinus</name> <title>euchi[?]</title> 
+                    <lb ed="#S"/>c 17</ref> et ponitur <ref>3o sent distinctione 34 c 6</ref> ubi inquit cibus aut 
+                    <lb ed="#S"/>potius simul dulcis est et amarus nullum simul ubi album ibi et nigrum 
+                    <lb ed="#S"/>et in multis ac pene omnibus hoc reperitur contrariis ut in una 
+                    <lb ed="#S"/>re simul esse non possint</p>
+                
+                <p><g ref="#pilcrow"/>ad oppositum 3o copi?orum[?] dicit <name ref="#Aristotle">philosophus</name> 
+                    <lb ed="#S"/>quod illud est albius quod est ing?o[?] inpermixtius et 5 philosophorum habetur 
+                    <lb ed="#S"/>quod medium inter contraria potest <corr><g ref="#carrot"/><add>respectu[?]</add><del rend="expunctuated">fieri</del></corr> unius ex?mi[?] nominari nomine alicuius 
+                    <lb ed="#S"/>et econverso hoc non videretur nisi in remisso alto miscerentur extrema 
+                    <lb ed="#S"/>illius contrarietis in gradibus saltem remissis etc</p>
+                
+                <p><g ref="#pilcrow"/>praterea quod ita sit 
+                    <lb ed="#S"/>etiam in proposito de augmento caritatis videtur quia secundum <ref><name ref="#Augustine">augustinus</name> in <title>euth</title> 
+                    <lb ed="#S"/>capitulo ultimo vel penultimo</ref> secundum alium modum <corr>quo<del rend="expunctuated">d</del>tandi</corr> crescente 
+                    <lb ed="#S"/>caritate minuitur cupiditas</p>
+                
+                <p><g ref="#pilcrow"/>In ita conclusione primo videndum est pro hiis 
+                    <lb ed="#S"/>quae tangunt argumenta utriusque partis utrum contrariae qualitates in remissis 
+                    <lb ed="#S"/>gradibus se compati possunt in eadem parte adaequata subiectiva 
+                    <lb ed="#S"/><choice><orig>2o</orig><reg>secundo</reg></choice> solventur argumenta multa contra tendentia <choice><orig>3o</orig><reg>tertio</reg></choice> ponam conclusiones 
+                    <lb ed="#S"/>ad quaestionem</p>
+                <div>
+                    <head>Primus articulus</head>
+                <p><g ref="#pilcrow"/>De primo articulo ponam duas conclusiones prima est quod sic 
+                    <lb ed="#S"/>de potentia dei etiam in gradibus intensis <g ref="#dot"/><choice><orig>2a</orig><reg>secunda</reg></choice> quod non de potentia agentium 
+                    <lb ed="#S"/>naturalium naturaliter</p>
+                    
+                    <p><g ref="#pilcrow"/>primam suadeo quia non est maior <choice><orig>repugnatia</orig><reg>repugnatia</reg></choice> quod 
+                        <lb ed="#S"/>idem per deum simul sit album et nigrum quam quod <corr><del rend="scratchedout">per</del></corr> aliquid per naturam 
+                        <lb ed="#S"/>simul <corr>inco?at</corr> localiter et quiescat localiter sed secundum non includit 
+                        <lb ed="#S"/>repungnantiam quia naturaliter et sine miraculo potest <corr><g ref="#carrot"/><add place="marginLeft">anima<g ref="#carrot"/></add></corr> intensiva ad 
+                        <lb ed="#S"/>mot[?] manus dexcre moveri de situ ad situm et tamen 
+                        <lb ed="#S"/>simul adquietem leve quiescere ubi situaliter quiescit leva 
+                        <lb ed="#S"/>hic est secundum philosophiam et secundum theologiam patet hoc de corpore christi in caelo 
+                        <lb ed="#S"/>vel in una hostia quiescente et tamen simul ad infimos aliqui[?] 
+                        <lb ed="#S"/>per presbyteros departato igitur</p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea si non hoc potissime vi<cb ed="#S" n="106vb"/><lb ed="#S"/>deretur 
+                        propter accidentem invicem corruptivam vel expulsivam unius ab 
+                        <lb ed="#S"/>alio sed illud movere non debet quia quaedam <corr><del rend="expunctuated">in</del></corr> contraria sunt quae non sunt na<lb ed="#S"/>ta 
+                        mutuo se corrumpere <choice><orig>sicud</orig><reg>sicut</reg></choice> patet de albedine et ingratione[?] quae in m?ldo?s[?] 
+                        <lb ed="#S"/>et in multis aliis in infinitum <corr>quae<del rend="expunctuated">m</del></corr> possent iuxta se poni abs<lb ed="#S"/>que 
+                        hoc quod destruerent se mutuo nisi aliud esset in tam et etiam quia 
+                        <lb ed="#S"/>activitatem istam ad mutuam corruptionem posset deus suspendere ipsis 
+                        <lb ed="#S"/>non coagendo etc ista causa non obstaret quin comparaterentur se 
+                        <lb ed="#S"/>in eodem</p>
+                    
+                    <p><g ref="#pilcrow"/><choice><orig>3o</orig><reg>tertio</reg></choice> probo quod nihil omnino obstet quin possint a deo 
+                        <lb ed="#S"/>subiective simul fieri in eodem quia deus secundum veritatem simul facere potest <corr><g ref="#carrot"/><add place="marginBottom"><g ref="#carrot"/>quod idem corpus sit in diversis locis simul et potest ferre[?]</add></corr> de 
+                            <lb ed="#S"/>sua potentia absoluta quod istud in uno illorum locorum haberet aliquam  
+                            <lb ed="#S"/>formam informantem et in alio istorum locorum careret illa forma et 
+                        <lb ed="#S"/>tunc non apparet quare non possit in loco ubi caret ista forma inpri<lb ed="#S"/>mere 
+                        sibi contrariam immo et actum naturale sufficienter in loco isto 
+                        <lb ed="#S"/>et non in alio sibi approximatam hoc facere poterit etiam non corrumpen<lb ed="#S"/>do 
+                        formam contrariam sibi alibi inhaerentem quia iste alius locus 
+                        <lb ed="#S"/>poterit ab eo inproportionaliter distare ad corrumpendum ibi talem 
+                        <lb ed="#S"/>formam</p>
+                
+                <p><g ref="#pilcrow"/>Sed contra hoc tamen tunc restat dubium <g ref="#dot"/> utrum repungnatia 
+                    <lb ed="#S"/><unclear>formalis</unclear> <choice><orig>inpediat</orig><reg>impediat</reg></choice> ita quod idem in eodem loco adaequeto esset 
+                    <lb ed="#S"/>simul album et nigrum <unclear>quoniam[?]</unclear> <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> formalis non <choice><orig>inpedit</orig><reg>impedit</reg></choice> ut dictum 
+                    <lb ed="#S"/>est in diversis locis videtur quod sic <g ref="#dot"/> quia alioquin idem posset de facto 
+                    <lb ed="#S"/>simul esset album et nigrum idem in quam non existens simul in pluribus lo<lb ed="#S"/>cis 
+                nec secundum se totum nec secundum aliquam partem sui <g ref="#dot"/> contra quia nec albedo 
+                    <lb ed="#S"/>nata est corrumpere active nigredinem nec econverso ut visum est et dato 
+                    <lb ed="#S"/>quod sic adhuc posset suspendi eorum activitas ut videtur quia 
+                    <lb ed="#S"/>ut iam visum est idem potest esse simul in uno loco album et in alio 
+                    <lb ed="#S"/>loco per potentiam dei nigrum sed deus nulla destructa entitiate absoluta 
+                    <lb ed="#S"/>potest facere quod cesset esse in alio loco de illis duobus igitur retinebit ambo 
+                    <lb ed="#S"/>contraria in uno loco</p>
+                    
+                    <p><g ref="#pilcrow"/>hic apparet mihi dicendum quod <choice><orig>idemptitas</orig><reg>identitas</reg></choice> loci non impe<lb ed="#S"/>dit  
+                    quia non est maior ratio quod deus posset haec duo corpora facere 
+                        <lb ed="#S"/>simul aliquibus dematis[?] in eodem loco quam ista duo corpora et ita 
+                        <lb ed="#S"/>corpus album et corpus nigrum et per consequens albedinem et nigredinem poterit ad 
+                        <lb ed="#S"/>hoc activitas corruptiva posset a deo suspendi nec etiam <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> 
+                        <lb ed="#S"/>subiecti <choice><orig>inpedit</orig><reg>impedit</reg></choice> ut patet prius igitur nulla videtur tam quin a deo possint simul 
+                        <lb ed="#S"/>fieri in eodoem subiecto adaequato quod concedo et licet possit cavillari quod ambo 
+                        <lb ed="#S"/>simul <choice><orig>repungnat</orig><reg>repugnat</reg></choice> et tamen neutrorum per se quia pro hanc cavillatione non 
+                        <lb ed="#S"/>est evidentia ideo apparet quod non deberet negari de potentia dei quin possunt 
+                        <lb ed="#S"/>esse de facto simul contraria in eodem subiecto et hoc in eodem loco vel parte <corr><del rend="expunctuated">omnino</del><add place="marginRight">ipsius</add></corr> 
+                        <lb ed="#S"/>totius et secundum totum et secundum quamlibet partem</p>
+                    
+                    <p><g ref="#pilcrow"/>Dico tamen ultimo quod non est mihi 
+                        <lb ed="#S"/>evidens quod hoc possit fieri quia multae possent esset mihi <unclear>occul<lb ed="#S"/>te[?]</unclear> 
+                    tales repungnantiae sed probabilius est mihi quod sic quia aliquae probabiles 
+                        <lb ed="#S"/>coniecturae sunt ad hoc et nulla potens in contrarium et tamen probas 
+                        <lb ed="#S"/>quod sic <g ref="#dot"/> et quod non</p>
+                    
+                    <p><g ref="#pilcrow"/>dico quod neutra ratio habet plenam evidentiam non enim 
+                        <lb ed="#S"/>convincti quod earum causae contrariantur active et virtualiter licet enim alibedo non 
+                        <lb ed="#S"/>sit accidentia ad corrptionem nigredinis nec econverso eo quod neutra est 
+                        <lb ed="#S"/>quantitas activa nisi respectu specierum et cognitionum et huiusmodi immo forte pauce 
+                        <lb ed="#S"/>sunt qualitates corpore active generative similium et corruptive contrariarum 
+                        <lb ed="#S"/>nisi primae <choice><orig>4or</orig><reg>quattuor</reg></choice> qualitates et ideo forsan nulla est repugnantia ex earum propria[?] 
+                        <lb ed="#S"/>activitate quin species contrariorum possint simul esse in medio etiam dato 
+                        <lb ed="#S"/>quod essent eiusdem speciei cum illis a quibus causantur etiam in potentiis 
+                        <lb ed="#S"/>cognitiviis si ibi reciperentur species nisis quod contraria tunc essent simul 
+                        <lb ed="#S"/>naturaliter in eodem quod glossari posset per oppositum causae iam dandae licet inquam 
+                        <lb ed="#S"/>neutra sit corruptiva alterius procedunt tamen a causis virtualiter contra<lb ed="#S"/>riis 
+                        unde idem <unclear>i?dium[?]</unclear>sicut patet in agnis <corr><g ref="#carrot"/><add place="aboveLine">et</add></corr> in multis aliis 
+                        <lb ed="#S"/>animalibus est primo unius coloris et postea alterius propter variationem complex<lb ed="#S"/>ionis <g ref="#dot"/> 
+                        augmentum vel detrimentum humorum naturalium quibus appropriantur 
+                        <lb ed="#S"/>qualitates primae vel in quibus dominantur inter quas pars qualitates est vera 
+                        <cb ed="#S" n="107ra"/><lb ed="#S"/>activitas seu virtualis contrarietas et non formalis tamen et forsan secundum 
+                        <lb ed="#S"/>veritatem albedo et nigredo et sic de aliis multis qualitatibus non sunt quali<lb ed="#S"/>tates 
+                        natae primo causari in alico ab extrinseco quin scilicet simul tenetur in 
+                        <lb ed="#S"/>eo causa partialis et totalis et haec est causa quare album <unclear>diu[?]</unclear> poni potest iuxta 
+                        <lb ed="#S"/>nigrum absque hoc quod albedo vel nigredo corrumpatur quia isti colores 
+                        <lb ed="#S"/>fiunt a principiis subiecti vel qualitatis prioris in subiecto et non ab extra 
+                        <lb ed="#S"/>nis maneat ibi alia contrarietas prior virtute cuius album et ni<lb ed="#S"/>grum 
+                        iuxta se posita mutuo agant et patiantur ab invicem</p>
+                    
+                    <p><lb ed="#S"/><g ref="#pilcrow"/>Sed cum isto dicto non potest teneri primum dictum de <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> specifica 
+                    experientia est in contrariam quia multa alba videmus ab extra denigrari 
+                        <lb ed="#S"/>et nigra dealbari utpote nigredo per calorem et albedo per frigiditatem <corr><add place="marginBottom">quare in primo folio ad signum tale [?] illud ad tale signum</add></corr> 
+                        <lb ed="#S"/>cum frigidum natum sit agere inca?dum[?] sequitur quod non diu possent iuxta 
+                        <lb ed="#S"/>se poni sine corruptione causarum albedinis et nigredinis vel alterius earum <g ref="#dbslash"/> dicendum 
+                        <lb ed="#S"/>quod albedo et nigredo sunt formae permanere in absentia natae causae earum 
+                        <lb ed="#S"/>primo productive vel causarum suarum talius dummodo per causam contrariam non 
+                        <lb ed="#S"/>corrpantur ad productionem contrarii quia nulla raro corrumpit nisi producat 
+                        <lb ed="#S"/>et hic est quod si causae productive earum cessent esse et ille permaneant 
+                        <lb ed="#S"/>non oportet quod una earum corrumpat reliquam nec econtra</p>
+                    
+                    <p><g ref="#pilcrow"/>ad rationem pro 
+                        <lb ed="#S"/>parte composita huius dubii diceretur ab eo a quo contrarium teneretur quia <corr><add><unclear>??</unclear></add></corr> 
+                        <lb ed="#S"/><corr>corpus[?]</corr> illud simul desineret esse vel <corr>transfertur<add place="aboveLine">cat</add></corr> ad locum alium ubi est <g ref="#dot"/> vel 
+                        <lb ed="#S"/>aliam ubi non erat <corr><g ref="#carrot"/><add place="aboveLine">et</add></corr> quod quolibet istorum modorum aliqua entitas destrueretur 
+                        <lb ed="#S"/>scilicet accidens vel compositum ex accidente et illo subiecto per istum modum quo 
+                        <lb ed="#S"/>transferetur ad situm alium in quo prius erat et in quo uniformiter 
+                        <lb ed="#S"/>informaretur ipsum <choice><orig>sicud</orig><reg>sicut</reg></choice> in priori loco informabatur quod forsan sine mi<lb ed="#S"/>raculo 
+                        speciali fieri non posset etiam si non informaretur ibi forma contraria 
+                        <lb ed="#S"/>et modo non propter <choice><orig>repungnantiam</orig><reg>repugnantiam</reg></choice> ad simul essendum communia in eode subiecto 
+                        <lb ed="#S"/>et in eodem situ secundum hanc <corr><del rend="expunctuated">pterva</del><add place="inLine">proterviam</add></corr></p>
+                    
+                    <p><g ref="#pilcrow"/></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
