@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -31,6 +33,12 @@
         </fileDesc>
     </teiHeader>
     <text xml:lang="la">
+    <front>
+    <div xml:id="includeList">
+    <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+    <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+    </div>
+    </front>
 <body>
 <div xml:id="b1-d3-qun">
     <head subtype="title">Distinctio 3</head>
@@ -58,7 +66,7 @@
 <lb ed="#S"/>mentem suam. Igitur mens humana non est imago Dei.</p>
 
 <p xml:id="b1d3qun-idteit">Item, 14 
-<lb ed="#S"/><title>De Trinitate</title>, c. 7, de parvis<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 2, n. 6 (CCSL ?), “‘quamquam’ inquit ‘in imagine ambulat homo, tamen vane conturbatur . . .”</note> dicit iuxta illud psalmum “verumtamen in imagine 
+<lb ed="#S"/><title ref="#deTrinitate">De Trinitate</title>, c. 7, de parvis<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 2, n. 6 (CCSL ?), “‘quamquam’ inquit ‘in imagine ambulat homo, tamen vane conturbatur . . .”</note> dicit iuxta illud psalmum “verumtamen in imagine 
 <lb ed="#S"/>pertransit homo, quia haec imago ita deformis et obscura 
 <lb ed="#S"/>facta est, ut penae  nulla sit.” Ipsa autem mens humana secundum 
 <lb ed="#S"/>substantiam suam integre manet, igitur secundum substantiam suam non est 
@@ -67,12 +75,12 @@
 <p xml:id="b1d3qun-immnsm">Item, mens magis esset imago Dei quam homo, quia 
 <lb ed="#S"/>unumquodque propter quod et illud magis. Consequens falsum, quia homo magis est similis 
 <lb ed="#S"/>Deo quam mens, et exprimitur ab eo, igitur magis est eius imago. 
-<lb ed="#S"/>Haec consequentia patet per distinctionem imaginis quam ponit <name>Augustinus</name> <title>De 83 
+<lb ed="#S"/>Haec consequentia patet per distinctionem imaginis quam ponit <name ref="#Augustine">Augustinus</name> <title>De 83 
 <lb ed="#S"/>Questionibus</title>, questione 78,<note type="editorialNote"><name>Augustinus</name>, <title>De diversis quaestionibus octingenta</title>, q. 74 (CCSL ?; PL 40:86), “ut in speculo est imago hominis, quia de illo expressa est.”</note> ubi dicit quod: imago est expressa similitudo illius 
 <lb ed="#S"/>cuius est imago. Assumptum probatur, quia homo est ens nobilior quam mens 
-<lb ed="#S"/>hominis, igitur est magis similis Deo. Consequentia patet per <name>Anselmum</name> <title>Monlogion</title> c. 
-<lb ed="#S"/>81 et 66, <note type="editorialNote"><name>Anselmus</name>, <title>Monologion</title>, c. 66 (Schmitt 1:77), “Quidquid enim inter creata constat illi esse similius, id necesse est esse natura praestantius.”</note> ubi dicit <name>Anselmus</name> “<add place="margin">quicquid</add> inter creata Deo constat esse 
-<lb ed="#S"/>similius, illud necesse est esse natura praestantius.” Assumptum probatur quia 1 <title>Ethicorum</title> 
+<lb ed="#S"/>hominis, igitur est magis similis Deo. Consequentia patet per <ref corresp="#b1d3qun-Qqicenp"><name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monlogion</title> c. 
+<lb ed="#S"/>81 et 66</ref>,<note corresp="#b1d3qun-Qqicenp"><name>Anselmus</name>, <title>Monologion</title>, c. 66 (Schmitt 1:77), “Quidquid enim inter creata constat illi esse similius, id necesse est esse natura praestantius.”</note> ubi dicit <name>Anselmus</name> <quote xml:id="b1d3qun-Qqicenp">“<add place="margin">quicquid</add> inter creata Deo constat esse 
+<lb ed="#S"/>similius, illud necesse est esse natura praestantius.”</quote> Assumptum probatur quia 1 <title>Ethicorum</title> 
 <lb ed="#S"/>c. 8 in fine,<note type="editorialNote"><name>Aristoteles</name>, <title>N. Ethica</title>, Bk. I, c. 7 (1097b21)</note> dicit <name>Philosophus</name> quod “felicitas connumerata cum minimo bonorum 
 <lb ed="#S"/>est eligibilior quam ipsa felicitas, et addit, quod semper maius bonum 
 <lb ed="#S"/>est eligibilius.” Ergo, pari ratione, mens humana cum quocumque 
@@ -94,40 +102,40 @@
 <lb ed="#S"/>realis distinctio, tunc faceret estimare personas non realiter distingui. </p>
 
 <p xml:id="b1d3qun-isqati">Item 
-<lb ed="#S"/>specialiter quod mens non sit imago ratione suorum accidentium, quia 14 <title>De 
-<lb ed="#S"/>Trinitate</title>, c. 6, de parvis<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040) “ea est invenienda in anima hominis, id est rationali, sive intellectuali, imago creatoris, quae immortaliter immortalitati eius est insita.”</note> dicit <name>Augustinus</name> quod “imago creatoris immortaliter 
+<lb ed="#S"/>specialiter quod mens non sit imago ratione suorum accidentium, quia <ref>14 <title ref="#deTrinitate">De 
+<lb ed="#S"/>Trinitate</title>, c. 6, de parvis dicit <name ref="#Augustine">Augustinus</name></ref><note corresp="#b1d3qun-Qiciani"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040) “ea est invenienda in anima hominis, id est rationali, sive intellectuali, imago creatoris, quae immortaliter immortalitati eius est insita.”</note> quod <quote xml:id="b1d3qun-Qiciani">“imago creatoris immortaliter 
 <lb ed="#S"/>inserta est animae hominis rationali seu intellectuali, sed actus non 
-<lb ed="#S"/>immortaliter.” Et ibidem etiam c. 4 vult <name>Augustinus</name><note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038) “Ex quo colligitur, ut si iam imago Dei est ista trinitas, etiam ipsa non in eis quae semper sunt, sed in rebus sit habenda transeuntibus”</note> quod imago illa 
+<lb ed="#S"/>immortaliter.”</quote> Et ibidem etiam <ref>c. 4 vult <name>Augustinus</name></ref><note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038) “Ex quo colligitur, ut si iam imago Dei est ista trinitas, etiam ipsa non in eis quae semper sunt, sed in rebus sit habenda transeuntibus”</note> quod imago illa 
 <lb ed="#S"/>non est attendenda in rebus transeuntibus, sed actus transeunt, igitur.</p>
 </div>
     <div>
         
 <head>Oppositum</head>
 
-    <p xml:id="b1d3qun-aopmld">Ad oppositum: <title>Genesis</title> primo,<note type="editorialNote"><title>Genesis</title> 1:26</note> “faciamus hominem ad imaginem” 
-<lb ed="#S"/>etc., et <name>Augustinus</name>, <title>Super Genesem ad litteram</title> c. 23, de parvis dicit:<note type="editorialNote"><name>Augustinus</name>, <title>De Genesi ad litteram</title>, Bk. VI, c. 28, n. 39 (CCSL ?; PL 34:356-357) “quamvis in interiore homine fuerit spiritualis, secundum imaginem eius qui creavit eum; quod amisit peccando, meruitque etiam corporis mortem, qui non peccando mereretur et in corpus spirituale commutationem. Nam si et interius animaliter vixit, non possumus dici ad hoc ipsius renovari. Quibus enim dicitur, ‘Renovamini spiritu mentis vestrae’, hoc eis dicitur, ut spirituales fiant; quod si ille nec in ipsa mente fuit quomodo nos renovamur ad id quod homo nunquam fuit?”</note> 
-<lb ed="#S"/>hominem factum esse ad imaginem Dei, secundum mentem, secundum illud Apostoli:<note type="editorialNote"><title>Ad Ephesios</title> 4:23</note> “renovamini 
-<lb ed="#S"/>spiritu mentis vestrae.” Et c. 26 concludit quod in mente, factus 
-<lb ed="#S"/>est homo ad imaginem Dei. Eiusdem opinionis est Magister, libro 2, 
-<lb ed="#S"/>distinctione 16.<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk II, d. 16, c. 3 (Quarachi, 1:408), “Factus est igitur homo secundum animam ad imaginem et similitudinem, non Patris vel Filii vel Spiritus Sancti, sed totius Trinitatis.”</note></p>
+    <p xml:id="b1d3qun-aopmld">Ad oppositum: <ref corresp="#b1d3qun-Qfhahai"><title ref="#Genesis">Genesis</title> primo</ref>,<note corresp="#b1d3qun-Qfhahai"><title>Genesis</title> 1:26</note> <quote xml:id="b1d3qun-Qfhahai">“faciamus hominem ad imaginem”</quote> 
+<lb ed="#S"/>etc., et <ref><name ref="#Augustine">Augustinus</name>, <title>Super Genesem ad litteram</title> c. 23, de parvis dicit</ref>:<note type="editorialNote"><name>Augustinus</name>, <title>De Genesi ad litteram</title>, Bk. VI, c. 28, n. 39 (CCSL ?; PL 34:356-357) “quamvis in interiore homine fuerit spiritualis, secundum imaginem eius qui creavit eum; quod amisit peccando, meruitque etiam corporis mortem, qui non peccando mereretur et in corpus spirituale commutationem. Nam si et interius animaliter vixit, non possumus dici ad hoc ipsius renovari. Quibus enim dicitur, ‘Renovamini spiritu mentis vestrae’, hoc eis dicitur, ut spirituales fiant; quod si ille nec in ipsa mente fuit quomodo nos renovamur ad id quod homo nunquam fuit?”</note> 
+<lb ed="#S"/>hominem factum esse ad imaginem Dei, secundum mentem, secundum illud <name ref="#Paul">Apostoli</name>:<note corresp="#b1d3qun-Qrsmsmv"><title>Ad Ephesios</title> 4:23</note> <quote xml:id="b1d3qun-Qrsmsmv">“renovamini 
+<lb ed="#S"/>spiritu mentis vestrae.”</quote> Et <ref corresp="#b1d3qun-Qimfaid">c. 26 concludit</ref> quod <quote xml:id="b1d3qun-Qimfaid">"in mente factus 
+<lb ed="#S"/>est homo ad imaginem Dei"</quote>. Eiusdem opinionis est <ref><name ref="#Lombard">Magister</name>, libro 2, 
+<lb ed="#S"/>distinctione 16</ref>.<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk II, d. 16, c. 3 (Quarachi, 1:408), “Factus est igitur homo secundum animam ad imaginem et similitudinem, non Patris vel Filii vel Spiritus Sancti, sed totius Trinitatis.”</note></p>
 
-    <p xml:id="b1d3qun-aieqce">Ad idem est <name>Augustinus</name> 12 <title>De Trinitate</title>, c. 17, de parvis,<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XII, c. 7, n. 12 (PL 42:1004-1005) “nulli dubium est, non secundum corpus, neque secundum quamlibet animi partem, sed secundum rationalem mentem, ubi potest esse agnitio Dei, hominem factum ad imaginem eius qui creavit eum.”</note> “nulli,” 
+    <p xml:id="b1d3qun-aieqce">Ad idem est <ref corresp="#b1d3qun-Qndeqce"><name ref="#Augustine">Augustinus</name> 12 <title>De Trinitate</title>, c. 17, de parvis</ref>,<note corresp="#b1d3qun-Qndeqce"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XII, c. 7, n. 12 (PL 42:1004-1005) “nulli dubium est, non secundum corpus, neque secundum quamlibet animi partem, sed secundum rationalem mentem, ubi potest esse agnitio Dei, hominem factum ad imaginem eius qui creavit eum.”</note> <quote xml:id="b1d3qun-Qndeqce">“nulli,” 
 <lb ed="#S"/>inquit, “dubium est non secundum corpus neque secundum quamlibet aliam partem, 
 <lb ed="#S"/>sed secundum mentem rationalem ubi potest esse agnitio Dei ‘factum hominem 
-<lb ed="#S"/>ad imaginem eius qui creavit eum’.”</p>
+<lb ed="#S"/>ad imaginem eius qui creavit eum’.”</quote></p>
 
 <p xml:id="b1d3qun-iehpep">Item et haec auctoritas recte 
-<lb ed="#S"/>praetendit argumentum primae et secundae. Ad primam partem dicit enim <name>Augustinus</name> 14 
-<lb ed="#S"/><title>De Trinitate</title> c. 14 de parvis,<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 8, n. 11 (CCSL ?; PL 42:1044) Sed prius mens in se ipsa consideranda est antequam sit particeps Dei, et in ea reperienda est imago eius. Diximus enim eam etsi amissa Dei participatione obsoletam atque deformem, Dei tamen imaginem permanere. Eo quippe ipso imago eius est, quo eius capax est, eiusque particeps esse potest.</note> quod “Prius mens in se ipsa consideranda est 
+<lb ed="#S"/>praetendit argumentum primae et secundae. Ad primam partem dicit enim <ref corresp="#b1d3qun-Qpmipep"><name ref="#Augustine">Augustinus</name> 14 
+<lb ed="#S"/><title ref="#deTrinitate">De Trinitate</title> c. 14 de parvis</ref>,<note corresp="#b1d3qun-Qpmipep"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 8, n. 11 (CCSL ?; PL 42:1044) Sed prius mens in se ipsa consideranda est antequam sit particeps Dei, et in ea reperienda est imago eius. Diximus enim eam etsi amissa Dei participatione obsoletam atque deformem, Dei tamen imaginem permanere. Eo quippe ipso imago eius est, quo eius capax est, eiusque particeps esse potest.</note> quod <quote xml:id="b1d3qun-Qpmipep">“Prius mens in se ipsa consideranda est 
 <lb ed="#S"/>antequam sit particeps Dei et in ea recipienda est imago eius. Diximus 
 <lb ed="#S"/>enim eam esse amissa Dei participatione abolitam atque deformem 
 <lb ed="#S"/>Dei tamen imaginem permanere. Eo quippe proprie est quo capax 
-<lb ed="#S"/>est eiusque particeps esse potest.”</p>
+<lb ed="#S"/>est eiusque particeps esse potest.”</quote></p>
 
 <p xml:id="b1d3qun-qsalpd">Quinto, sunt ad idem istam partem 
 <lb ed="#S"/>auctoritates aliae multae tam quo ad imaginem quam quo ad vestigium 
-<lb ed="#S"/>quas ponit Magister in littera praesentis distinctionis;<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 1-3 (Quarachi, 1:70-76)</note> et libro etiam 2 aliquas alias 
-<lb ed="#S"/>distinctione 16.<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk II, d. 16, c. 1-4 (Quarachi, 1:406-409)</note></p> 
+<lb ed="#S"/>quas ponit <ref><name ref="#Lombard">Magister</name> in littera praesentis distinctionis</ref>;<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 1-3 (Quarachi, 1:70-76)</note> et <ref>libro etiam 2 aliquas alias 
+<lb ed="#S"/>distinctione 16</ref>.<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk II, d. 16, c. 1-4 (Quarachi, 1:406-409)</note></p> 
 </div>
 <div>
 <head>Divisio questionis</head>
@@ -160,7 +168,7 @@
 <head>Opinio Ockham</head>
 
 <p xml:id="b1d3qun-idovis">Istud declarat 
-<lb ed="#S"/><name>Ockham</name><note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:544s.)</note> per experientiam et bene. Posito enim quod<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:545)</note> si “aliquis nullam penitus 
+<lb ed="#S"/><name ref="#Ockham">Ockham</name><note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:544s.)</note> per experientiam et bene. Posito enim quod<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:545)</note> si “aliquis nullam penitus 
 <lb ed="#S"/>habeat cognitionem de Hercule, si videat statuam Herculis non 
 <lb ed="#S"/>plus cogitabit de Hercule quam de Socrates. Si autem prius videat 
 <lb ed="#S"/>Herculem, et retineat habitualem notitiam Herculis” vel per studium 
@@ -205,11 +213,11 @@
 <p xml:id="b1d3qun-ntqiqr">Nota tamen quod strictissime seu propriissime et non sic 
 <lb ed="#S"/>communiter ut prius loquendo de imagine de ratione imaginis 
 <lb ed="#S"/>est quod ipsa sit similitudo expressa seu genita ab eo cuius est 
-<lb ed="#S"/>imago sicut dicit <name>Augustinus</name>, <title>De 83 Quaestionibus</title>, questione 74,<note type="editorialNote"><name>Augustinus</name>, <title>De diversis quaestionibus octingenta</title>, q. 74 (PL 40:86), “ut in speculo est imago hominis, quia de illo expressa est; . . . ut in parentibus et filiis inveniretur imago et aequalitas et similitudo, si intervallum temporis defuisset; nam et de parente expressa est similitudo filii, ut recte dicatur imago.”</note> sicut ibi exemplificat: 
-<lb ed="#S"/>“ut in speculo” inquit, “est imago hominis quia de illo expressa 
-<lb ed="#S"/>est.” Similiter “de parentibus et filiis nam et de parente expressa 
-<lb ed="#S"/>est similitudo filii ut recte dicatur  imago.” Et tamen proprie 
-<lb ed="#S"/>etiam sumitur imago, sicut praeaccepi teste Magistro libro 2, distinctione 16, c. 2,<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. II, d. 16, c. 3 (Quarachi I:407)</note> 
+<lb ed="#S"/>imago sicut dicit <ref><name ref="#Augustine">Augustinus</name>, <title>De 83 Quaestionibus</title>, questione 74</ref>,<note type="editorialNote"><name>Augustinus</name>, <title>De diversis quaestionibus octingenta</title>, q. 74 (PL 40:86), “ut in speculo est imago hominis, quia de illo expressa est; . . . ut in parentibus et filiis inveniretur imago et aequalitas et similitudo, si intervallum temporis defuisset; nam et de parente expressa est similitudo filii, ut recte dicatur imago.”</note> sicut ibi exemplificat: 
+<lb ed="#S"/><quote>“ut in speculo” inquit, “est imago hominis quia de illo expressa 
+<lb ed="#S"/>est.”</quote> Similiter <quote>“de parentibus et filiis nam et de parente expressa 
+<lb ed="#S"/>est similitudo filii ut recte dicatur  imago.”</quote> Et tamen proprie 
+<lb ed="#S"/>etiam sumitur imago, sicut praeaccepi teste <ref><name ref="#Lombard">Magistro</name> libro 2, distinctione 16, c. 2</ref>,<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. II, d. 16, c. 3 (Quarachi I:407)</note> 
 <lb ed="#S"/>ubi dicit pro quadam auctoritate Bedae super hoc<note type="editorialNote"><name>Beda</name>, <title>In Genesim</title>, I, 26 (PL 91:29b; CCL 188A:25)</note> quod Trinitas ipsa 
 <lb ed="#S"/>“improprie imago dicitur.” Cuius causa est, “quia imago” inquit “relative 
 <lb ed="#S"/>ad aliud dicitur, cuius similitudinem gerit et ad quod repraesentandum facta est; 
@@ -224,28 +232,28 @@
 <lb ed="#S"/>de bove habitualiter noto, sed ducit communiter in credulitatem conformem 
 <lb ed="#S"/>huic complexo contingenti ‘bos hic  transivit’, sed imago Petri 
 <lb ed="#S"/>non in hanc ‘Petrus hic transivit’ vel huiusmodi. Vestigium autem 
-<lb ed="#S"/>et imago multipliciter accipiuntur sicut patet in <name>Ockham</name>.<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9-10 (OTh 2:544-549, 553)</note></p> 
+<lb ed="#S"/>et imago multipliciter accipiuntur sicut patet in <name ref="#Ockham">Ockham</name>.<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9-10 (OTh 2:544-549, 553)</note></p> 
 
 <p xml:id="b1d3qun-qaqndr">Qualiter autem quaelibet creatura 
 <lb ed="#S"/>potest dici vestigium Trinitatis pro quanto, scilicet, quaedam in ea, 
 <lb ed="#S"/>sicut unitas, species et ordo, possit aliquo modo ducere in notitiam 
 <lb ed="#S"/>appropriatorum in divinis personis incomplexam rememorativam, et etiam 
-<lb ed="#S"/>in notitiam complexam contingentem, docet satis bene Ockham, questione 
-<lb ed="#S"/>de vestigio, articulo secundo,<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh 2:549)</note> et etiam ibidem, in quibus<note type="editorialNote">Wood, in <title>Lectura Secunda</title>, hic legit in conclusionibus (Wood 2:210)</note> creaturae consistit 
+<lb ed="#S"/>in notitiam complexam contingentem, docet satis bene <ref><name ref="#Ockham">Ockham</name>, questione 
+<lb ed="#S"/>de vestigio, articulo secundo</ref>,<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh 2:549)</note> et etiam ibidem, in quibus<note type="editorialNote">Wood, in <title>Lectura Secunda</title>, hic legit in conclusionibus (Wood 2:210)</note> creaturae consistit 
 <cb ed="#S" n="80ra"/><lb ed="#S"/>vestigium, quia aliquando indistinctis realiter, aliquando in non distinctis realiter.</p> 
 
 <p xml:id="b1d3qun-esiidp">Et similiter 
-<lb ed="#S"/>in questione de imagine articulo secundo.<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh 2:557s)</note> Primo,<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh 2:555)</note> illius in opinione propria, docet qualiter in creatura rationali magis dicitur esse imago quam in aliqua alia creatura. Et secundo,<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (Oth 2:557)</note> consequenter 
-<lb ed="#S"/>docet quomodo “imago Dei imperfecta et quasi radicaliter et originaliter consistit in 
+<lb ed="#S"/>in <ref>questione de imagine articulo secundo</ref>.<note><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh 2:557s)</note> Primo,<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh 2:555)</note> illius in opinione propria, docet qualiter in creatura rationali magis dicitur esse imago quam in aliqua alia creatura. Et secundo,<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (Oth 2:557)</note> consequenter 
+<lb ed="#S"/>docet quomodo <quote xml:id="b1d3qun-Qididap">“imago Dei imperfecta et quasi radicaliter et originaliter consistit in 
 <lb ed="#S"/>ipsa anima secundum suam substantiam” sed “completive perfectio imaginis consistit 
-<lb ed="#S"/>in ipsa substantia animae et duobus actibus productis,” respectu utriusque quorum 
+<lb ed="#S"/>in ipsa substantia animae et duobus actibus productis,”</quote> respectu utriusque quorum 
 <lb ed="#S"/>anima habet fecunditatem; sed ad actum volendi mediante actu intellegendi, 
 <lb ed="#S"/>qui cum substantia animae et obiecto comproducit actum volendi, et per consequens 
 <lb ed="#S"/>exprimit anima cum illis actibus ordinem et originem inter diversas 
 <lb ed="#S"/>personas.</p>
 
-<p xml:id="b1d3qun-qaacee">“Quod autem actus volendi sit effective ab actu intellegendi,” probat 
-<lb ed="#S"/>et bene.<note type="editorialNote"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh 2:559)</note> Et ego concedo conclusionem et teneo eam pro illa distinctione prima,<note type="editorialNote">[Cross reference to dist. 1] Vide Wodeham, <title>Lectura Secunda</title>, d. 1, q. 5, s. 11 (Wood 1:293)</note> quia “omne 
+<p xml:id="b1d3qun-qaacee"><quote xml:id="b1d3qun-Qqaaaai">“Quod autem actus volendi sit effective ab actu intellegendi,”</quote> probat 
+<lb ed="#S"/>et bene.<note corresp="#b1d3qun-Qqaaaai"><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh 2:559)</note> Et ego concedo conclusionem et teneo eam pro illa distinctione prima,<note type="editorialNote">[Cross reference to dist. 1] Vide Wodeham, <title>Lectura Secunda</title>, d. 1, q. 5, s. 11 (Wood 1:293)</note> quia “omne 
 <lb ed="#S"/>absolutum necessario praesuppositum alteri habet respectu illius rationem causae in aliquo genere causae.” 
 <lb ed="#S"/>Sed ita est de actu intelligendi respectu actus volendi, igitur. Maiorem etiam concedit 
 <lb ed="#S"/>Scotus, distinctione tertia primi,<note type="editorialNote"><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. I, d. 3, pars 3, q. 4, n. 589 (Vatican 3:348)</note> et utitur ista, quia, secundum eum, omnis effectus alicuius sufficienter 
@@ -269,19 +277,19 @@
 <lb ed="#S"/>partes imaginis debet esse consubstantialitas. Sed inter substantiam animae et illos actus, 
 <lb ed="#S"/>nulla est consubstantialitas, igitur etc.</p>
     
-    <p xml:id="b1d3qun-tisine">Tertio. Item secundum <name>Augustinus</name> XIV <title>De Trinitatis</title>, c. 3, 
-<lb ed="#S"/>de magnis:<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040) “ea est invenienda in anima hominis, id est rationali, sive intellectuali, imago creatoris, quae immortaliter immortalitati eius est insita.”</note> “imago Dei in creatura rationali est immortalis,” sed isti 
+    <p xml:id="b1d3qun-tisine">Tertio. Item secundum <ref corresp="#b1d3qun-Qidirei"><name ref="#Augustine">Augustinus</name> XIV <title ref="#deTrinitate">De Trinitatis</title>, c. 3, 
+    <lb ed="#S"/>de magnis</ref>:<note corresp="#b1d3qun-Qidirei"><name>Augustinus</name>, <title>De Trinitate</title>, Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040) “ea est invenienda in anima hominis, id est rationali, sive intellectuali, imago creatoris, quae immortaliter immortalitati eius est insita.”</note> <quote xml:id="b1d3qun-Qidirei">“imago Dei in creatura rationali est immortalis,”</quote> sed isti 
 <lb ed="#S"/>actus secundi non sunt immortales nec incorporales. </p>
     
     <p xml:id="b1d3qun-qisqfe">Quarto. Item, secundum hoc posset 
 <lb ed="#S"/>in mente rationali inveniri imago respectu cuiuscumque obiecti intelligibilis et diligibilis, cuius
-        oppositum innuit <name>Augustinus</name> XII <title>De Trinitate</title>, c. 4,<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, XII, c. 4, n. 4 (CCSL 50:358; PL 42:1000)</note> “in eo solo” inquit, “quod ad 
+        oppositum innuit <ref corresp="#b1d3qun-Qiesdip"><name ref="#Augustine">Augustinus</name> XII <title ref="#deTrinitate">De Trinitate</title>, c. 4</ref>,<note corresp="#b1d3qun-Qiesdip"><name>Augustinus</name>, <title>De Trinitate</title>, XII, c. 4, n. 4 (CCSL 50:358; PL 42:1000)</note> <quote xml:id="b1d3qun-Qiesdip">“in eo solo” inquit, “quod ad 
 <lb ed="#S"/>contemplationem pertinet aeternorum, non [solum] trinitas sed etiam imago Dei. In hoc 
 <lb ed="#S"/>autem quod derivatum est in actione temporalium, etiamsi trinitas possit,  
-<lb ed="#S"/>non tamen imago Dei inveniri potest.” Et XIV <title>De Trinitate</title>, c. 23 de parvis,<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, XIV, c. 12, n. 15 (CCSL 50A:442-443; PL 42:1048)</note> 
-<lb ed="#S"/>dicit quod “non propterea est trinitas mentis imago Dei, quia sui 
+<lb ed="#S"/>non tamen imago Dei inveniri potest.”</quote> Et <ref corresp="#b1d3qun-Qnpeqfe">XIV <title ref="#deTrinitate">De Trinitate</title>, c. 23 de parvis</ref>,<note corresp="#b1d3qun-Qnpeqfe"><name>Augustinus</name>, <title>De Trinitate</title>, XIV, c. 12, n. 15 (CCSL 50A:442-443; PL 42:1048)</note> 
+<lb ed="#S"/>dicit quod <quote xml:id="b1d3qun-Qnpeqfe">“non propterea est trinitas mentis imago Dei, quia sui 
 <lb ed="#S"/>meminit mens et intelligit ac diligit se, sed quia meminire et intelligere 
-<lb ed="#S"/>et amare potest eum a quo facta est.”</p>
+<lb ed="#S"/>et amare potest eum a quo facta est.”</quote></p>
     
     <p xml:id="b1d3qun-qqscie">Quinto. Quinto, quia eadem ratione in parte 
 <lb ed="#S"/>sensitiva esset imago Trinitatis, nam etiam ibi substantia animae cum obiecto principat 
@@ -295,16 +303,16 @@
     <p xml:id="b1d3qun-rapaoe">Responsio ad primum. Ad primum verum est 
 <lb ed="#S"/>quod ad salvandum rationem imaginis in mente rationali, aliqui 
 <lb ed="#S"/>ponit aliquam distinctionem vel non-identitatem inter substantiam animae et intellectum 
-<lb ed="#S"/>et voluntatem, sicut Scotus in II, distinctione 16.<note type="editorialNote"><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. II, d. 16, pars. ?, q. ? (Vatican ?:??)</note> Sed per eundem ibidem nulla ratio 
+<lb ed="#S"/>et voluntatem, sicut <ref><name ref="#Scotus">Scotus</name> in II, distinctione 16</ref>.<note type="editorialNote"><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. II, d. 16, pars. ?, q. ? (Vatican ?:??)</note> Sed per eundem ibidem nulla ratio 
 <lb ed="#S"/>potest talem distinctionem ibi probare sufficienter, ut supra tetigi, ultima 
 <lb ed="#S"/>questione primae distinctionis.<note type="editorialNote">(cross reference)</note> Nec ad salvandum imaginem videtur mihi hoc necessarium, quia 
 <lb ed="#S"/>si plures potentiae essent idem realiter, non salvaretur inter illas potentias 
 <lb ed="#S"/>aliqua originatio, etc.</p>
     
     <p xml:id="b1d3qun-sqeesa">Sed quia ego non teneo talem distinctionem 
-<lb ed="#S"/>inter potentias animae, dico cum Doctore Subtili et Magistro in littera, in ista 
+<lb ed="#S"/>inter potentias animae, dico cum <name ref="#Scotus">Doctore Subtili</name> et <name ref="#Lombard">Magistri</name> in littera, in ista 
 <lb ed="#S"/>distinctione 3, quod non potest reperiri in nobis similitudo imaginis ad 
-<lb ed="#S"/>plenum, quia secundum Magistrum magis est dissimilitudo.<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 3 (Quarachi, 1:74-75)</note> Ideo dico quod 
+<lb ed="#S"/>plenum, quia secundum <name ref="#Lombard">Magistrum</name> magis est dissimilitudo.<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 3 (Quarachi, 1:74-75)</note> Ideo dico quod 
 <lb ed="#S"/>nulla tria sunt in mente nostra realiter distincta inter quae sit similis ratio 
 <lb ed="#S"/>imaginis duorum ab uno et unius a duobus cum substantialitate, 
 <lb ed="#S"/>id est, essentiali identitate istorum trium realiter distinctorum. Oportet igitur quod ratio imaginis 
@@ -317,19 +325,19 @@
 <lb ed="#S"/>expressiva illarum partium distinctarum quae vere affirmantur de eadem 
 <lb ed="#S"/>substantia, et ista est consubstantialitas quam auctores ibi intendunt 
 <lb ed="#S"/>forte habere. Eadem enim substantia est memoria, intelligentia, et voluntas, ita 
-<lb ed="#S"/>enim secundum Augustinum<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, IX, c. 5, n. 8 (CCSL 50: 301; PL 42:965) “Miro itaquae modo tria ista inseparabilia sunt a semetipsis, et tamen eorum singulum quidque substantia est et simul omnia una substantia vel essentia cum et relative dicantur ad invicem.”</note> et allegatur in littera, distinctione 3, Ii, <note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 2, n.7 (Quaracchi, 1:73-74)</note> relative dicuntur 
+<lb ed="#S"/>enim secundum <name ref="#Augustine">Augustinum</name><note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, IX, c. 5, n. 8 (CCSL 50: 301; PL 42:965) “Miro itaquae modo tria ista inseparabilia sunt a semetipsis, et tamen eorum singulum quidque substantia est et simul omnia una substantia vel essentia cum et relative dicantur ad invicem.”</note> et allegatur in littera, <ref>distinctione 3, Ii</ref>,<note type="editorialNote"><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 2, n.7 (Quaracchi, 1:73-74)</note> relative dicuntur 
 <lb ed="#S"/>ad invicem quod non esset nisi significarent aliqua distincta quae <add>non</add> sunt substantia 
 <lb ed="#S"/>animae.</p>
     
     <p xml:id="b1d3qun-atdmiv">Ad tertium, dico quod aliqua, per quae exprimuntur distinctae partes 
-<lb ed="#S"/>imaginis, numquam vere removentur ab anima <add place="margin">rationali</add> Tamen haec per se est 
+<lb ed="#S"/>imaginis, numquam vere removentur ab anima rationali Tamen haec per se est 
 <lb ed="#S"/>vera et necessaria, si formetur anima. Est memoria, intelligentia, et voluntas, 
-<lb ed="#S"/><cb ed="#S" n="80rb"/>si anima saltem sit. Nec aliud intelligit <name>Augustinus</name> per ‘imaginem esse immortalem’ 
+<cb ed="#S" n="80rb"/><lb ed="#S"/>si anima saltem sit. Nec aliud intelligit <name ref="#Augustine">Augustinus</name> per ‘imaginem esse immortalem’ 
 <lb ed="#S"/>quam quod ‘anima necessario et immortaliter, ipsa manente, sit talis qualis exprimitur 
 <lb ed="#S"/>esse cum dicitur ‘esse memoria, intelligentia, voluntas’.</p>
     
         <p xml:id="b1d3qun-aqbiao">Ad quartum bene respondet 
-<lb ed="#S"/>Scotus<note type="editorialNote"><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. I, d. 3, pars 3, q. 4, n. 590 (Vatican, 3:349)</note> quod respectu Dei, ut obiecti, in mente habetur ultima et perfectissima ratio 
+<lb ed="#S"/><name ref="#Scotus">Scotus</name><note type="editorialNote"><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. I, d. 3, pars 3, q. 4, n. 590 (Vatican, 3:349)</note> quod respectu Dei, ut obiecti, in mente habetur ultima et perfectissima ratio 
 <lb ed="#S"/>imaginis, quia tunc illa tria non solum sunt expressa similitudo Trinitatis 
 <lb ed="#S"/>increatae, ex quo sunt tres tales res sic se habentes 
 <lb ed="#S"/>inter se, sed ultra hoc, quia omnis actus est vere similitudo 
@@ -365,17 +373,17 @@
 <p xml:id="b1d3qun-pqqsee">Primo, 
 <lb ed="#S"/>quia quid vocaretur ibi memoria vel nuda substantia animae, et illa non 
 <lb ed="#S"/>sufficit sine obiecto vel specie vel habitu principare actum, tunc enim semper 
-<lb ed="#S"/>intelligeret, sicut arguit <name>Philosophus</name> IIo <title>De anima</title>,<note type="editorialNote"><name>Aristoteles</name>, <title>De anima</title> II, c. 5 (417a6-9)</note> quod sensus semper sentiret, 
+<lb ed="#S"/>intelligeret, sicut arguit <ref corresp="#b1d3qun-Qssssss"><name ref="#Aristotle">Philosophus</name> IIo <title>De anima</title></ref>,<note corresp="#b1d3qun-Qssssss"><name>Aristoteles</name>, <title>De anima</title> II, c. 5 (417a6-9)</note> quod <quote xml:id="b1d3qun-Qssssss">"sensus semper sentiret"</quote>, 
 <lb ed="#S"/>si se solo ageret sensationes nec intellectus, cum specie vel 
 <lb ed="#S"/>habitu, quia actualis intellectio non distinguitur ab habitu vel specie, sicut non 
 <lb ed="#S"/>producitur ab eo. Assumptum patet quod actualis sensatio est species in sensu, 
-<lb ed="#S"/>igitur aliter in intellectu. Antecedens patet per Philosophum et Commentatorem II <title>De anima</title> per 136, 
+<lb ed="#S"/>igitur aliter in intellectu. Antecedens patet per <ref><name ref="#Aristotle">Philosophum</name> et <name ref="#Averroes">Commentatorem</name> II <title ref="#deAnima">De anima</title> per 136</ref>, 
 <lb ed="#S"/>ubi dicunt et probant quod eadem est actio sensibilis et sensus ut 
-<lb ed="#S"/>est in actu. Ut exponit <name>Commentator</name>,<note type="editorialNote"><name>Averroes</name>, <title>In Aristot. De anima</title>, II, 138 (Crawford, 340-341)</note> “actio sensibilis extra animam in movendo sensum, 
+<lb ed="#S"/>est in actu. Ut exponit <ref corresp="#b1d3qun-Qaseeea"><name>Commentator</name></ref>,<note corresp="#b1d3qun-Qaseeea"><name>Averroes</name>, <title>In Aristot. De anima</title>, II, 138 (Crawford, 340-341)</note> <quote xml:id="b1d3qun-Qaseeea">“actio sensibilis extra animam in movendo sensum, 
 <lb ed="#S"/>et actio sensus, quae est in sentiente, scilicet, qualitas qua sentiens 
-<lb ed="#S"/>qualificatur, est eadem actio.” Haec Commentator et, in commentis duobus proximo 
-<lb ed="#S"/>sequentibus,<note type="editorialNote"><name>Averroes</name>, <title>In Aristot. De anima</title>, II, 139-140 (Crawford, 342-343) (check latin for proper quote)</note> exemplificat in auditu: “sicut” inquit, “actio auditus, id est audire, et actio sonatus, 
-<lb ed="#S"/>id est sonare, eadem est.”</p> 
+<lb ed="#S"/>qualificatur, est eadem actio.”</quote> Haec <ref corresp="#b1d3qun-Qsaasee"><name ref="#Averroes">Commentator</name> et in commentis duobus proximo 
+<lb ed="#S"/>sequentibus</ref>,<note corresp="b1d3qun-Qsaasee"><name>Averroes</name>, <title>In Aristot. De anima</title>, II, 139-140 (Crawford, 342-343) (check latin for proper quote)</note> exemplificat in auditu: <quote xml:id="b1d3qun-Qsaasee">“sicut” inquit, “actio auditus, id est audire, et actio sonatus, 
+<lb ed="#S"/>id est sonare, eadem est.”</quote></p> 
 
 <p xml:id="b1d3qun-ssqsap">Secundo Similiter quod 
 <lb ed="#S"/>actualis intellectio non distinguatur ab habitu videtur, quia iste generaretur 
@@ -400,19 +408,19 @@
 <lb ed="#S"/>praesentiam obiecti respectu primi actus naturaliter in illo causabilis. Respectu talis obiecti vel 
 <lb ed="#S"/>per speciem aut habitum postea in absentia obiecti respectu cogitationis 
 <lb ed="#S"/>abstractivae gignendae respectu talis obiecti absentis. Unde de actu 
-<lb ed="#S"/>primo intellectivo (scilicet respectu talis obiecti naturalis) causando, verbum est—illud <name>Augustinus</name> 
-<lb ed="#S"/>IX <title>De Trinitate</title> 30 de parvis:<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, IX, c. 12, n. 18 (CCSL 50:309; PL 42:970)</note> “ab utroque notitia paritur, <add place="aboveLine">id est</add> gignitur, a 
-<lb ed="#S"/>cognoscente scilicet et igitur cognito,” et proximo dicto loquitur XV <title>De Trinitate</title> c. 24 
-<lb ed="#S"/>de parvis<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title> XV, c. 10, n. 19 (CCSL 50A:486; PL 42:1071)</note> dicens cum “quod scimus loquimur ex scientia cum memoria, 
+<lb ed="#S"/>primo intellectivo (scilicet respectu talis obiecti naturalis) causando, verbum est—illud <ref corresp="#b1d3qun-Qauneic"><name ref="#Augustine">Augustinus</name> 
+<lb ed="#S"/>IX <title ref="#deTrinitate">De Trinitate</title> 30 de parvis</ref>:<note corresp="#b1d3qun-Qauneic"><name>Augustinus</name>, <title>De Trinitate</title>, IX, c. 12, n. 18 (CCSL 50:309; PL 42:970)</note> <quote xml:id="b1d3qun-Qauneic">“ab utroque notitia paritur, id est gignitur, a 
+<lb ed="#S"/>cognoscente scilicet et igitur cognito,”</quote> et <ref corresp="#b1d3qun-Qqsldqn">proximo dicto loquitur XV <title>De Trinitate</title> c. 24 
+<lb ed="#S"/>de parvis</ref><note corresp="#b1d3qun-Qqsldqn"><name>Augustinus</name>, <title>De Trinitate</title> XV, c. 10, n. 19 (CCSL 50A:486; PL 42:1071)</note> dicens cum <quote xml:id="b1d3qun-Qqsldqn">“quod scimus loquimur ex scientia cum memoria, 
 <lb ed="#S"/>nascitur verbum quod eiusdem modi est omnino, supple obiecti, cuiusmodi 
-<lb ed="#S"/>est  scientia de qua nascitur.” Statim enim sequitur, unde habetur 
+<lb ed="#S"/>est  scientia de qua nascitur.”</quote> Statim enim sequitur, unde habetur 
 <lb ed="#S"/>quod ly “eiusdem modi et cuiusmodi” referunt obiectum et denotant 
 <lb ed="#S"/>obiectum cognitionis, formata quippe cum sit cogitatio ab ea 
 <lb ed="#S"/>re quam scimus, verbum est quod in corde dicimus.</p>
 
-<p xml:id="b1d3qun-icdpad">Item capitulo 28 dicit quod “verbum gignitur de scientia quae manet in anima,” etc.<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, XV, c. 11, n. 20 (CCSL 50A:488; PL 42:1072), “. . . sed quod omnia quibus significatur signa praecedit et gignitur de scientia quae manet in animo quando eadem scientia intus dicitur sicuti est.” Wodeham palam innitur Scoti hic. Cf. <title>Ordinatio</title>, I, d. III, pars 3, q. 1, n. 345 (3:208): “Haec etiam ponitur intentio Augustini, qui vult quod verbum gignatur non ex specie intelligibili, sed ex habitu. Dicit enim XV <title>De Trinitate </title>cap. 10 vel 24, quod ‘ex ipsa scientia quam memoria tenemus, nascitur verbum’, et eodem libro, cap. 12 vel 28a, ‘gignitur verbum de scientia quae manet in anima’.”</note> 
-<cb ed="#S" n="80va"/><lb ed="#S"/> 36 simile.<note type="editorialNote">Forte <name>Augustinus</name>, <title>De Trinitate</title>, XV, c. 14, n. 24 (CCSL 50A:497; PL 42:1077)</note> Ex quibus et multis similibus eius auctoritatibus satis patet quod beatus 
-<lb ed="#S"/><name>Augustinus</name> assensit actualem intellectionem distingui realiter a specie vel scientia habituali 
+    <p xml:id="b1d3qun-icdpad">Item <ref corresp="#b1d3qun-Qvgdmia">capitulo 28</ref> dicit quod <quote xml:id="b1d3qun-Qvgdmia">“verbum gignitur de scientia quae manet in anima,”</quote> etc.<note corresp="#b1d3qun-Qvgdmia"><name>Augustinus</name>, <title>De Trinitate</title>, XV, c. 11, n. 20 (CCSL 50A:488; PL 42:1072), “. . . sed quod omnia quibus significatur signa praecedit et gignitur de scientia quae manet in animo quando eadem scientia intus dicitur sicuti est.” Wodeham palam innitur Scoti hic. Cf. <title>Ordinatio</title>, I, d. III, pars 3, q. 1, n. 345 (3:208): “Haec etiam ponitur intentio Augustini, qui vult quod verbum gignatur non ex specie intelligibili, sed ex habitu. Dicit enim XV <title>De Trinitate </title>cap. 10 vel 24, quod ‘ex ipsa scientia quam memoria tenemus, nascitur verbum’, et eodem libro, cap. 12 vel 28a, ‘gignitur verbum de scientia quae manet in anima’.”</note> 
+<cb ed="#S" n="80va"/><lb ed="#S"/><ref>36 simile</ref>.<note>Forte <name>Augustinus</name>, <title>De Trinitate</title>, XV, c. 14, n. 24 (CCSL 50A:497; PL 42:1077)</note> Ex quibus et multis similibus eius auctoritatibus satis patet quod <name ref="#Augustine">beatus 
+<lb ed="#S"/>Augustinus</name> assensit actualem intellectionem distingui realiter a specie vel scientia habituali 
 <lb ed="#S"/>ex qua, secundum eum, gignitur, tamquam proles a parente, sed 
 <lb ed="#S"/>a mente, sicut verbum et proles a dicente.</p>
     </div>
@@ -429,11 +437,11 @@
 <lb ed="#S"/>fit actualis cogitatio cum anima ceperit cogitare, igitur 
 <lb ed="#S"/>frustra poneretur species vel habitus distinctus a tali actuali cogitatione, 
 <lb ed="#S"/>et per consequens frustra poneretur realis partus[?] secundae partis imaginis a specie 
-<lb ed="#S"/>vel habitu intellectus <add>naturaliter</add> praesupponentis sibi in eodem. Assumptum probatur quia aliter 
+<lb ed="#S"/>vel habitu intellectus naturaliter praesupponentis sibi in eodem. Assumptum probatur quia aliter 
 <lb ed="#S"/>quando aliquis actu intelligeret, haberet simul distinctas similitudines respectu 
-<lb ed="#S"/>eiusdem quod videtur superfluum. Consequentia patet quia etiam secundum Augustinum, ubi sequi videtur 
+<lb ed="#S"/>eiusdem quod videtur superfluum. Consequentia patet quia etiam secundum <ref><name ref="#Augustine">Augustinum</name>, ubi sequi videtur 
 <lb ed="#S"/>illam distinctionem actus ab habitu vel specie 29[?] <title>De Trinitate</title>, c. 15 et multis 
-<lb ed="#S"/>locis,<note type="editorialNote">non invenimus</note> actualis cogitatio est similissima speciei de qua gignitur.</p>
+<lb ed="#S"/>locis</ref>, actualis cogitatio est similissima speciei de qua gignitur.</p>
 
 <p xml:id="b1d3qun-siecva"><supplied>Secundus.</supplied> Item, 
 <lb ed="#S"/>eodem actu aliquando cognoscitur verbum et res alia in verbo et alias non illa 
@@ -443,7 +451,7 @@
 <lb ed="#S"/>alterius.</p>
 
 <p xml:id="b1d3qun-tpcrdi"><supplied>Tertius.</supplied> Praeterea cum diligo uno actu virtuoso omnes bonos, si quis 
-<lb ed="#S"/>eorum me ignorante fiat malus <add>cesso</add> illum illo amore 
+<lb ed="#S"/>eorum me ignorante fiat malus cesso illum illo amore 
 <lb ed="#S"/>diligere quo diligebam omnes bonos tamquam tales, et ideo non 
 <lb ed="#S"/>cessat actus, igitur pari ratione de intellectione.</p>
 
@@ -452,22 +460,22 @@
 <lb ed="#S"/>quae est dilectio, igitur tunc illa manebit et tamen non tunc erit 
 <lb ed="#S"/>dilectio pari ratione de intellectione.</p>
 
-<p xml:id="b1d3qun-qppepv"><supplied>Quintus.</supplied> Praeterea ponatur dilectio qua Socrates diligit 
-<lb ed="#S"/>seipsum in Platone, tunc Plato experietur se diligere igitur tunc 
+<p xml:id="b1d3qun-qppepv"><supplied>Quintus.</supplied> Praeterea ponatur dilectio qua <name ref="#Socrates">Socrates</name> diligit 
+<lb ed="#S"/>seipsum in <name ref="#Plato">Platone</name>, tunc <name ref="#Plato">Plato</name> experietur se diligere igitur tunc 
 <lb ed="#S"/>aliquid diligetur per istam dilectionem quod non prius et non diligetur per eam 
-<lb ed="#S"/>idem quod prius. Assumptum probatur, quia si Socrates velit sic se diligere angelum 
-<lb ed="#S"/>et haec volitio ponatur in Platone per illam, Plato volet[velet?] se diligere 
+<lb ed="#S"/>idem quod prius. Assumptum probatur, quia si <name ref="#Socrates">Socrates</name> velit sic se diligere angelum 
+<lb ed="#S"/>et haec volitio ponatur in <name ref="#Plato">Platone</name> per illam, <name ref="#Plato">Plato</name> volet[velet?] se diligere 
 <lb ed="#S"/>angelum, igitur similiter improposito et probatur hoc ultimum assumptum, quia 
-<lb ed="#S"/>per intellectionem qua Sortes experitur se intelligere angelum positam in 
-<lb ed="#S"/>Platone, Plato experietur se intelligere angelum, igitur similiter et per volitionem.</p>
+<lb ed="#S"/>per intellectionem qua <name ref="#Sortes">Sortes</name> experitur se intelligere angelum positam in 
+<lb ed="#S"/><name ref="#Plato">Platone</name>, <name ref="#Plato">Plato</name> experietur se intelligere angelum, igitur similiter et per volitionem.</p>
 
-<p xml:id="b1d3qun-spdsdv"><supplied>Sextus.</supplied> Praeterea dilectio Socrates et odium Platonis naturaliter se compati possunt in voluntate 
-<lb ed="#S"/>Sortis, igitur cum odium Sortis et odium Platonis sint qualitates speciei, eiusdem 
+<p xml:id="b1d3qun-spdsdv"><supplied>Sextus.</supplied> Praeterea dilectio <name>Socrates</name> et odium <name>Platonis</name> naturaliter se compati possunt in voluntate 
+<lb ed="#S"/><name>Sortis</name>, igitur cum odium <name>Sortis</name> et odium <name>Platonis</name> sint qualitates speciei, eiusdem 
 <lb ed="#S"/>si in subiecto aliquo potest una stare et alia, sed in voluntate Sortis cum dilectione 
-<lb ed="#S"/>terminata ad Sortem stat odium Platonis, igitur in eodem intellectu 
-<lb ed="#S"/>cum volitione terminata ad Sortem potest stare odium Sortis, sed non 
-<lb ed="#S"/>potest cum dilectione Sortis esse odium Sortis, igitur odium Sortis potest esse in 
-<lb ed="#S"/>voluntate Sortis quando ipsam non erit odium Sortis et pari ratione potest hoc 
+<lb ed="#S"/>terminata ad <name>Sortem</name> stat odium <name>Platonis</name>, igitur in eodem intellectu 
+<lb ed="#S"/>cum volitione terminata ad Sortem potest stare odium <name>Sortis</name>, sed non 
+<lb ed="#S"/>potest cum dilectione <name>Sortis</name> esse odium <name>Sortis</name>, igitur odium <name>Sortis</name> potest esse in 
+<lb ed="#S"/>voluntate <name>Sortis</name> quando ipsam non erit odium <name>Sortis</name> et pari ratione potest hoc 
 <lb ed="#S"/>contingere de cogitatione sicut de volitione.</p>
 
 <p xml:id="b1d3qun-spvive">Septimus. Praeterea visio aliqua potest esse 
@@ -529,9 +537,9 @@
 <lb ed="#S"/>conveniens et repugnans aliis infinitis eiusdem speciei. Consequens falsum 
 <lb ed="#S"/>aliter enim periret via probandi aliquam universalem.</p>
 
-<p xml:id="b1d3qun-sidapi">Similiter Io <title>De 
-<lb ed="#S"/>caelo</title> arguitur quod,<note type="editorialNote"><name>Aristoteles</name>, <title>De caelo et mundo</title>, I, ? (276b9-276b18)</note> si haec terra nata sit descendere ad hoc centrum, 
-<lb ed="#S"/>et sicut habetur ibi per Commentatorem commento 80 dicere quod:<note type="editorialNote"><name>Averroes</name>, <title>In Aristot. De caelo et mundo</title>, I, 79 [80] (Carmody, 1:147), “si natura terrae illius mundi positae eadem fuerit cum natura istius terrae, necessarium est ut moveatur ad medium quo movetur ista terra.”</note> terra alterius mundi movetur 
+<p xml:id="b1d3qun-sidapi">Similiter <ref>Io <title ref="#deCaelo">De 
+<lb ed="#S"/>caelo</title></ref> arguitur quod,<note type="editorialNote"><name>Aristoteles</name>, <title>De caelo et mundo</title>, I, ? (276b9-276b18)</note> si haec terra nata sit descendere ad hoc centrum, 
+<lb ed="#S"/>et sicut habetur ibi per <ref><name ref="#Averroes">Commentatorem</name> commento 80</ref> dicere quod:<note type="editorialNote"><name>Averroes</name>, <title>In Aristot. De caelo et mundo</title>, I, 79 [80] (Carmody, 1:147), “si natura terrae illius mundi positae eadem fuerit cum natura istius terrae, necessarium est ut moveatur ad medium quo movetur ista terra.”</note> terra alterius mundi movetur 
 <lb ed="#S"/>ad centrum illius  et non ad centrum illius quia est proprii 
 <lb ed="#S"/>quibus illi centro illud est extra norma nec indiget disputatione 
 <lb ed="#S"/>ubi habetur etiam quod propinquitas non variat <add place="margin">speciem</add>. Et nota pro 
@@ -576,7 +584,7 @@
 <lb ed="#S"/>suis, non <add place="aboveLine">essent</add> cognitiones, igitur quod sint cognitiones, nunc accidit eis, cum 
 <lb ed="#S"/>antecedens sit possibile.</p>
 
-<p xml:id="b1d3qun-sdipie"><supplied>Sextus decimus.</supplied> Item per <name>Philosopohum</name> VII <title>Physicorum</title><note type="editorialNote">cf. <name>Aristoteles</name>, <title>De physicis</title>, VII, c. 3</note> ad qualitates de prima 
+<p xml:id="b1d3qun-sdipie"><supplied>Sextus decimus.</supplied> Item per <ref><name ref="#Aristotle">Philosopohum</name> VII <title>Physicorum</title></ref><note type="editorialNote">cf. <name>Aristoteles</name>, <title>De physicis</title>, VII, c. 3</note> ad qualitates de prima 
 <lb ed="#S"/>specie non est motus, quia sunt ‘ad aliquid’. Istud autem non sufficit 
 <lb ed="#S"/>nisi specialiter intellectum, quia omnia de mundo sunt ‘ad aliquid’ generaliter loquendo 
 <lb ed="#S"/>vel relationes quaedam. Si vere intelligat quod res quae est notitia potest esse 
@@ -592,10 +600,10 @@
     
         <p xml:id="b1d3qun-inoads">Istis non obstantibus, teneo 
 <lb ed="#S"/>conclusionem contrariam quam alias declaravi et probavi prima distinctione,<note type="editorialNote">cross reference</note> licet haec conclusio 
-<lb ed="#S"/>sit multorum modernorum. Et arguit <name>Fitzralph</name> contra eam per auctoritates 
-<lb ed="#S"/><name>Beati Augustini</name>,<note type="editorialNote"><name>Richardus Fitzralph</name>, <title>Comment. in Sent.</title>, I, q. 6, a. 2 (Paris BN lat. 15853, ff. 30d); cf. <name>Augustinus</name>, <title>De Trinitate</title>, XI, c. 8, n.13 (CCSL 50:350; PL 42:994) “. . . sed ex eadem memoria qua unum memini formatur acies multos cogitantis.”</note> qui XI <title>De Trinitate</title> c. 22 dicit quod,“illud quod formatur in 
+        <lb ed="#S"/>sit multorum modernorum. Et arguit <ref><name ref="#RichardFitzRalph">Fitzralph</name></ref><note><name>Richardus Fitzralph</name>, <title>Comment. in Sent.</title>, I, q. 6, a. 2 (Paris BN lat. 15853, ff. 30d);</note>  contra eam per auctoritates 
+      <lb ed="#S"/><ref corresp="#b1d3qun-Qiqfpap"><name ref="#Augustine">Beati Augustini</name>, qui XI <title>De Trinitate</title> c. 22 </ref><note corresp="#b1d3qun-Qiqfpap">cf. <name>Augustinus</name>, <title>De Trinitate</title>, XI, c. 8, n.13 (CCSL 50:350; PL 42:994) “. . . sed ex eadem memoria qua unum memini formatur acies multos cogitantis.”</note>dicit quod,<quote xml:id="b1d3qun-Qiqfpap">“illud quod formatur in 
 <lb ed="#S"/>acie cogitantis est aliud ab eo quod in memoria conservatur, et fit 
-<lb ed="#S"/>ab eo sicut proles a parente” et in multis passibus, quos asseret, 
+<lb ed="#S"/>ab eo sicut proles a parente”</quote> et in multis passibus, quos asseret, 
 <lb ed="#S"/>dicit similia.</p> 
 
 <p xml:id="b1d3qun-ipresq">Item per rationes, si qualitas, quae est actualis cogitatio, potest 
@@ -603,7 +611,7 @@
 <lb ed="#S"/>ratione poterit iterato reincipere esse actualis cogitatio, et tunc intellectus 
 <lb ed="#S"/>noviter intelligeret sine hoc quod noviter esset causa illius intellectionis in 
 <lb ed="#S"/>aliquo intellectu, quia nihil noviter ageret aut noviter reciperet. Et 
-<lb ed="#S"/>sine dubio, inquit, hoc non videtur intelligere. Plura<note type="editorialNote">Cf. <name>Richardus Fitzralph</name>, <title>Comment. in Sent.</title>, I, q. 6, a. 2 (Paris BN lat. 15853, ff. 30a-32b)</note> autem arguit, <add place="margin">quae</add> omitto,
+<lb ed="#S"/>sine dubio, inquit, hoc non videtur intelligere. Plura<note type="editorialNote">Cf. <name>Richardus Fitzralph</name>, <title>Comment. in Sent.</title>, I, q. 6, a. 2 (Paris BN lat. 15853, ff. 30a-32b)</note> autem arguit, quae omitto,
 sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradictorium 
 <lb ed="#S"/>et quod rationabilius poneretur hoc de ipsa potentia animae quam de 
 <lb ed="#S"/>accidente, receptio et similia quaedam.</p>
@@ -634,30 +642,30 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <lb ed="#S"/>cognitio, et ideo nego consequentiam illam.</p>
 
         <p xml:id="b1d3qun-aqdcaa">Ad quintum dicendum quod si dilectio, 
-<lb ed="#S"/>qua Socrates diligit Socratem ipsum, poneretur in Platone, Plato per istam 
-<lb ed="#S"/>non diligeret Platonem sed Socratem. Et similiter, si dilectio, qua Socrates 
-<lb ed="#S"/>vult se diligere angelum, poneretur in Platone, Plato per illam vellet 
-<lb ed="#S"/>Socratem diligere angelum. Et eodem modo, si intellectio, qua Socrates 
-<lb ed="#S"/>experitur se intelligere, poneretur in Platone, ille iudicaret Socratem intelligere 
+<lb ed="#S"/>qua <name>Socrates</name> diligit <name>Socratem</name> ipsum, poneretur in <name>Platone</name>, <name>Plato</name> per istam 
+<lb ed="#S"/>non diligeret <name>Platonem</name> sed <name>Socratem</name>. Et similiter, si dilectio, qua Socrates 
+<lb ed="#S"/>vult se diligere angelum, poneretur in <name>Platone</name>, <name>Plato</name> per illam vellet 
+<lb ed="#S"/><name>Socratem</name> diligere angelum. Et eodem modo, si intellectio, qua <name>Socrates</name> 
+<lb ed="#S"/>experitur se intelligere, poneretur in <name>Platone</name>, ille iudicaret <name>Socratem</name> intelligere 
 <lb ed="#S"/>vel experiretur nisi experientia cognoscat aliquid aliud.</p>
 
                 <p xml:id="b1d3qun-asbpeo"> Ad sextum 
-<lb ed="#S"/>bene concedo quod dilectio Socrates et odium Platonis naturaliter compatiuntur 
+<lb ed="#S"/>bene concedo quod dilectio <name>Socrates</name> et odium <name>Platonis</name> naturaliter compatiuntur 
 <lb ed="#S"/>se in eodem. Dici tamen potest quod non omne idem eiusdem speciei cum 
-<lb ed="#S"/>odio Platonis compatitur se cum dilectionem Socrates naturaliter quia aliquod eiusdem 
+<lb ed="#S"/>odio <name>Platonis</name> compatitur se cum dilectionem <name>Socrates</name> naturaliter quia aliquod eiusdem 
 <lb ed="#S"/>speciei contrariatur  et istud non quia ad contrarietatem actuum 
 <lb ed="#S"/>huiusmodi individualium vel cognitionum requiritur identitas numeralis 
 <lb ed="#S"/>obiecti unde etiam illi iudicio quo iudicarem hunc hominem 
-<lb ed="#S"/>esse Socratem demonstrato Socrates repugnaret contrarie iudicium quo 
-<lb ed="#S"/>iudicarem eundem non esse Socratem et tamen secum compateretur 
-<lb ed="#S"/>illud iudicium quo iudicarem istum hominem non esse Socratem demonstrando 
-<lb ed="#S"/>Platonem. Unde amor et odium error et scientia non 
+<lb ed="#S"/>esse <name>Socratem</name> demonstrato <name>Socrates</name> repugnaret contrarie iudicium quo 
+<lb ed="#S"/>iudicarem eundem non esse <name>Socratem</name> et tamen secum compateretur 
+<lb ed="#S"/>illud iudicium quo iudicarem istum hominem non esse <name>Socratem</name> demonstrando 
+<lb ed="#S"/><name>Platonem</name>. Unde amor et odium error et scientia non 
 <lb ed="#S"/>contrariantur nisi sint respectu eiusdem, licet sint eiusdem speciei 
 <lb ed="#S"/>cum quibusdam quae invicem contrariantur et in hoc est speciale in 
 <cb ed="#S" n="81rb"/><lb ed="#S"/> actibus vitalibus qui sunt ipsi motus et ordines primorum erga 
 <lb ed="#S"/>obiecta.</p>
 
-<p xml:id="b1d3qun-pcscqe">Praeterea contrarietas, si esset <add>inter illas</add> qualitates, non 
+<p xml:id="b1d3qun-pcscqe">Praeterea contrarietas, si esset inter illas qualitates, non 
 <lb ed="#S"/>cessarent esse contrariae ex hoc quod cessarent referri ad ea 
 <lb ed="#S"/>quae prius. Ita videretur posse dici uno modo aut etiam quod 
 <lb ed="#S"/>non sunt eiusdem speciei quia ex alia et alia causa concepta 
@@ -697,7 +705,7 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <lb ed="#S"/>Sed non hanc, omnis talis visio est visio albedinis.</p>
 
 <p xml:id="b1d3qun-aspcmd">Ad 
-<lb ed="#S"/>secundum propositionem de <name>Philosopho</name> et <name>Commentatore</name> I <title>De caelo</title> et <title>Metaphysica</title> nullus Catholicus decet tenere 
+<lb ed="#S"/>secundum propositionem de <ref><name ref="#Aristotle">Philosopho</name> et <name ref="#Averroes">Commentatore</name> I <title ref="#deCaelo">De caelo</title> et <title ref="#Metaphysics">Metaphysica</title></ref> nullus Catholicus decet tenere 
 <lb ed="#S"/>argumentum tale, nisi qui negaret Dei omnipotentiam esse extra hunc 
 <lb ed="#S"/>mundum posse alium omnino similem producere. Et posito quod sic 
 <lb ed="#S"/>fiat, consequentia, quam philosophus probare ibi nititur, falsa esset et erronea 
@@ -753,8 +761,8 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <lb ed="#S"/>nec quin sit sibi cognitio.</p>
 
  <p xml:id="b1d3qun-addvvf">Ad sextum decimum dicendum quod ista conceptio non 
-<lb ed="#S"/>salvat in talibus non esse motum ad mentem Philosophi, quia illa 
-<lb ed="#S"/>conceptio ponit omnem formam, in quam Philosophus ponit motum secundum qualitatem, 
+<lb ed="#S"/>salvat in talibus non esse motum ad mentem <name ref="#Aristotle">Philosophi</name>, quia illa 
+<lb ed="#S"/>conceptio ponit omnem formam, in quam <name ref="#Aristotle">Philosophus</name> ponit motum secundum qualitatem, 
 <lb ed="#S"/>esse sine additione rei vel subtractione, sed verior fantasia[?] pro Philosopho est 
 <lb ed="#S"/>quod aliquando scientia fit vel fieri potest scientia sine aliqua mutatione scientis 
 <lb ed="#S"/>vocando scientiam omnem notitiam verum iudicativam. Si enim stante 
@@ -804,7 +812,7 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <lb ed="#S"/>intuitiva. Et si quis vocet illam sensationem vel intellectionem 
 <lb ed="#S"/>speciem obiecti, id est, similitudinem seu imaginem eius, certe concedendum est quod 
 <lb ed="#S"/>a specie sic: data non distinguitur actualis sensatio. Sed sic 
-<cb ed="#S" n="81vb"/><lb ed="#S"/> loqui est extra propositum. Loqui et eodem modo est eadem actio 
+<cb ed="#S" n="81vb"/><lb ed="#S"/>loqui est extra propositum. Loqui et eodem modo est eadem actio 
 <lb ed="#S"/>auditus et sonantis, scilicet, ipsum audire, sicut ipsamet exprimit 
 <lb ed="#S"/>auctoritas.</p>
 </div>
@@ -828,7 +836,7 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <lb ed="#S"/>illa portiuncula addita primo actui abstractivo B, tunc 
 <lb ed="#S"/>B est multo minor quam actus cui additur, et per consequens minorem 
 <lb ed="#S"/>portionem causabit de habitu quam erat portio A. Et ita continue proceditur 
-<lb ed="#S"/>hinc inde ad minus et minus semper quam prius donec <add place="margin">utrumque</add> finaliter omnis 
+<lb ed="#S"/>hinc inde ad minus et minus semper quam prius donec utrumque finaliter omnis 
 <lb ed="#S"/>deficiat ulterior additio et sic sistetur in aliquo forsan 
 <lb ed="#S"/>citra summum ibi causabile ex omnibus illis portionibus per illum modum 
 <lb ed="#S"/>additis compositum. Ita est ut communiter saltem et hoc dixi de primo 
@@ -873,7 +881,7 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <cb ed="#S" n="82ra"/><lb ed="#S"/>habitu composito ex parte habitus nunc genita et priori in actum 
 <lb ed="#S"/>perfectiorem quam sit ille quae nunc elicit mediante priori habitus 
 <lb ed="#S"/>parte. Huius responsionis sive sic vera sive non et difficile reddere 
-<lb ed="#S"/>claram <add>causam</add> aliam qua nunc dictam  sive illa sufficiat sive non.</p>
+<lb ed="#S"/>claram causam aliam qua nunc dictam  sive illa sufficiat sive non.</p>
 
 <p xml:id="b1d3qun-ctpasd">Contra tamen priorem responsionem est argumentum unum probabile quia quantumcumque 
 <lb ed="#S"/>sic decrescat augmentum habitus ex una parte et actus 
@@ -886,10 +894,10 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <lb ed="#S"/>actus causabatur ex habitu isto qui totus pervenerat ex 
 <lb ed="#S"/>actu illo prius habito et sequentibus compositis per portiones habitus 
 <lb ed="#S"/>vel non. Si sic, videtur esse circulus in causis et quod idem per consequens erit a se. 
-<lb ed="#S"/>Si non, contra totus B est causatus a quo. Igitur et similiter totus A<add type="variant" hand="different">et D</add> 
+<lb ed="#S"/>Si non, contra totus B est causatus a quo. Igitur et similiter totus A et D  
 <lb ed="#S"/>est causatus a quo. Igitur sit habitus iste totus B, et primus actus, 
 <lb ed="#S"/>qui omnem praecessit habitum, sit A, et actus compositus ex illo 
-<lb ed="#S"/>et sequentibus sit <add place="aboveLine">C</add> et compositus ex residuis partibus praeter A 
+<lb ed="#S"/>et sequentibus sit C et compositus ex residuis partibus praeter A 
 <lb ed="#S"/>sit D.</p>
 
 <p xml:id="b1d3qun-prhmvm"><supplied>Prima responsio[?]</supplied> Hic poterit responderi secundum duplicem fantasiam. Una 
@@ -931,7 +939,7 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <lb ed="#S"/>nihil agit quod non esset, ut mihi videtur rationabile.</p>
 
 <p xml:id="b1d3qun-apftpr"><supplied>Secunda Responsio</supplied> aliter poterit fantasari 
-<lb ed="#S"/>quod non sit dare ultimam portionem habitus quae sufficiat causare liquid 
+<lb ed="#S"/>quod non sit dare ultimam portionem habitus quae sufficiat causare liquid[?] 
 <lb ed="#S"/>de actu nec econtra, sed sit utrerque processus hinc inde sine fine 
 <lb ed="#S"/>ex ea parte versus quam hinc inde itur semper ad minus et minus 
 <lb ed="#S"/>sicut est de proportionibus partibus pedalis lineae quarum partium prima 
@@ -941,7 +949,7 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 
 <p xml:id="b1d3qun-aapeas">Ad argumentum principale cui innixus sum in 
 <lb ed="#S"/><cb ed="#S" n="82rb"/> respondendo dimittere et se ponere ad secundam. Sed hanc sustinendo cum 
-<lb ed="#S"/>quaeretur aut totus habitus ille <add place="margin">B</add> causatur ibi ab aliquo vel non. <add place="margn">B</add> constat 
+<lb ed="#S"/>quaeretur aut totus habitus ille B causatur ibi ab aliquo vel non. B constat 
 <lb ed="#S"/>enim quod causatus sic ab aliquo vel aliquibus actibus vel dabitur aliquis 
 <lb ed="#S"/>actus causatus naturaliter et non ab actu vel actibus quibuscumque quod mihi non 
 <lb ed="#S"/>videtur dandum, mihi videtur quod melius dicitur dicendo quod ab actibus quam quod 
@@ -989,7 +997,7 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <lb ed="#S"/>pedalis calefaciat ignem circumstantem usque ad aliquam 
 <lb ed="#S"/>distantiam et calor ab illo posito causatus ulteriorem et ita deinceps 
 <lb ed="#S"/>donec semper pars posterior remissius agendo quam prior ita 
-<lb ed="#S"/>suas protedant actiones usque modo cessent agere isto modo totus 
+<lb ed="#S"/>suas procedant[?] actiones usque modo cessent agere isto modo totus 
 <lb ed="#S"/>calor compositus secundum extentionem ex omnibus illis quorum quaelibet 
 <lb ed="#S"/>pertingere imaginatur usque ad remotiorem est calor  ita perfectus 
 <lb ed="#S"/>sicut sua prima pars et tamen non potest agere in passum sibi 
@@ -1001,8 +1009,8 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 <lb ed="#S"/>protensionem quem in proposito de quo inquiritur nisi quod ibi magis 
 <lb ed="#S"/>patet qualiter quaelibet portio illarum in quibus processit illa mutua 
 <lb ed="#S"/>reproductio sistet alicubi circa finem processus habet effectum 
-<lb ed="#S"/>sibi aequatum quem et continuat in  <add>casu</add> argumenti, et ideo non 
-<lb ed="#S"/>potest plus <corr><add>quasi</add></corr> agere illo remanente in illa potentia quam C istam egit</p>
+<lb ed="#S"/>sibi aequatum quem et continuat in casu argumenti, et ideo non 
+<lb ed="#S"/>potest plus quasi agere illo remanente in illa potentia quam C istam egit</p>
     </div>
     </div>
     </div>
@@ -1020,32 +1028,32 @@ sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradi
 
             <p xml:id="b1d3qun-evqtej">Et videtur quod non, 
 <lb ed="#S"/>sic, tunc amor angeli qui peccavit quo affectavit aequalitatem 
-<lb ed="#S"/>Dei processit ab alia notitia, aut igitur ab ob[82va]scura
+<lb ed="#S"/>Dei processit ab alia notitia, aut igitur ab ob<cb ed="#S" n="82va"/>scura
 notitia Dei aut a clara. Si ab obscura notitia Dei, 
 <lb ed="#S"/>igitur cum obscura notitia in illo fuerit pena peccati, sequitur quod ipsum 
 <lb ed="#S"/>peccatum angeli processit a pena peccati, et ita sequitur quod pena naturaliter saltem 
-<lb ed="#S"/>praecessit culpam, contra <name>Augustinum</name> 11 <title>Super Genesi ad Litteram</title> c. 24.<note type="editorialNote">non invenimus</note> Si 
+<lb ed="#S"/>praecessit culpam, contra <ref><name ref="#Augustine">Augustinum</name> 11 <title>Super Genesi ad Litteram</title> c. 24</ref>.<note type="editorialNote">non invenimus</note> Si 
 <lb ed="#S"/>amor illius angeli iste processit a clara notitia Dei, igitur angelus 
 <lb ed="#S"/>malus clare vidit Deum quando fuit in maximo peccato, et per 
 <lb ed="#S"/>consequens simul fuit et miser et beatus, quod nullus potest Deum videre clare 
-<lb ed="#S"/>nisi beatus, quia “haec est vita aeterna ut cognoscant te” etc., 
-<lb ed="#S"/>Johannes 17.<note type="editorialNote"><title>Secundum Johannes</title> 17:3</note></p>
+<lb ed="#S"/>nisi beatus, quia <quote xml:id="b1d3qun-Qhevuct">“haec est vita aeterna ut cognoscant te”</quote> etc., 
+<lb ed="#S"/><ref corresp="#b1d3qun-Qhevuct"><title ref="#JohnGospel">Johannes</title> 17</ref>.<note corresp="b1d3qun-Qhevuct"><title>Secundum Johannes</title> 17:3</note></p>
 
 <p xml:id="b1d3qun-itpics"><supplied>Secundum.</supplied> Item, tunc primus amor in mente alicuius procederet a notitia 
 <lb ed="#S"/>et supposito, quod iste amor sit respectu alicuius delectabilis, cum 
 <lb ed="#S"/>tunc illa sit verbum, quia est cogitatio alicuius respectu placentis, igitur est 
 <lb ed="#S"/>verbum per definitionem verbi. Ex quo sequitur quod primus amor mentis in illo 
 <lb ed="#S"/>casu procedit a verbo. Consequens falsum, quia tunc idem esset causa et effectus 
-<lb ed="#S"/>respectu eiusdem, quia omne verbum procedit ab amore secundum <name>Augustinus</name> IX 
-<lb ed="#S"/><title>De Trinitate</title> c. 14, 21.<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title> IX, c. 9, n. 14 (CCSL 50: 305; PL 42:968) “Conceptum autem verbum et natum idipsum est cum voluntas in ipsa notitia conquiescit, quod fit in amore spiritalium.” Non invenimus c. 21.</note> Et per consequens, si amor iste primus procedit ab aliquo 
+<lb ed="#S"/>respectu eiusdem, quia omne verbum procedit ab amore secundum <ref><name ref="#Augustine">Augustinus</name> IX 
+<lb ed="#S"/><title ref="#deTrinitate">De Trinitate</title> c. 14, 21</ref>.<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title> IX, c. 9, n. 14 (CCSL 50: 305; PL 42:968) “Conceptum autem verbum et natum idipsum est cum voluntas in ipsa notitia conquiescit, quod fit in amore spiritalium.” Non invenimus c. 21.</note> Et per consequens, si amor iste primus procedit ab aliquo 
 <lb ed="#S"/>amore tunc primus amor procederet a primo amore, et ita idem causa sui.</p>
 
 <p xml:id="b1d3qun-pqppaa"><supplied>Tertium.</supplied> Praeterea quod primus amor non <sic>procecedat</sic> ab aliqua 
 <lb ed="#S"/>notitia videtur, quia prima notitia procedit ab amore, igitur non econtra, primus 
 <lb ed="#S"/>amor a notitia. Assumptum probatur, quia prima notitia sensitiva procedit ab 
 <lb ed="#S"/>amore, igitur et prima [intuitiva][intellectiva]. Ultimum assumptum probatur, quia prima notitia sensitiva 
-<lb ed="#S"/>sit a voluntate copulante sensum cum sensibili secundum <name>Augustinum</name> XI <title>De Trinitate</title> 
-<lb ed="#S"/>c. 2[?], 4, 7, 9, 21, 29, et quasi per totum librum.<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, XI passsim (CCSL 50: 333-355; PL 42:983-998).</note> Sed voluntas non copulat 
+<lb ed="#S"/>sit a voluntate copulante sensum cum sensibili secundum <ref><name ref="#Augustine">Augustinum</name> XI <title ref="#deTrinitate">De Trinitate</title> 
+<lb ed="#S"/>c. 2[?], 4, 7, 9, 21, 29,</ref> et quasi per totum librum.<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, XI passsim (CCSL 50: 333-355; PL 42:983-998).</note> Sed voluntas non copulat 
 <lb ed="#S"/>nisi per amorem, cum non habeat aliquem actum quo sic copulet, 
 <lb ed="#S"/>igitur quaelibet cogitatio sensitiva procedit ab amore.</p>
 
@@ -1054,7 +1062,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>naturaliter haberet quis famem et sitim et si numquam sentiret aliquid ab 
 <lb ed="#S"/>extrinseco. Sed fames et sitis sunt appetitus sensitivi, igitur appetitus 
 <lb ed="#S"/>sensitivus potest esse sine cogitatione, et igitur appetitus intellectivus. Assumptum probo, quia naturaliter 
-<lb ed="#S"/>haberet quis famem et sitim, etc., <add>secundum <name>Commentatorem</name> II <title>De animo</title>, commento 28, igitur.</add><note type="editorialNote"><name>Averroes</name>, <title>In Aristot. De anima</title>, II, 28 (Crawford, 170-172 check latin)</note></p>
+<lb ed="#S"/>haberet quis famem et sitim, etc., secundum <ref><name ref="#Averroes">Commentatorem</name> II <title>De animo</title>, commento 28</ref>, igitur.<note type="editorialNote"><name>Averroes</name>, <title>In Aristot. De anima</title>, II, 28 (Crawford, 170-172 check latin)</note></p>
 
 <p xml:id="b1d3qun-qiqecc"><supplied>Quintum.</supplied> Item quinto, sit talis dilectio haec elicita 
 <lb ed="#S"/>a voluntate aut <add place="margin">esset</add> eadem cum intellectione praesupposita ad hoc quod 
@@ -1066,46 +1074,46 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>dilectionem istam destructa ista intellectione et pari ratione cum intellectione 
 <lb ed="#S"/>destructa et tunc voluntas posset diligere incognitum contra 
 <lb ed="#S"/><name>Augustinum</name> et contra experientiam. Et iuxta hoc de libertate voluntatis potest 
-<lb ed="#S"/>idem inconveniens deduci. <add place="margin">Confirmatur</add> quia tunc voluntas vere posset imperare 
+<lb ed="#S"/>idem inconveniens deduci. Confirmatur quia tunc voluntas vere posset imperare 
 <lb ed="#S"/>cogitationem de aliquo de quo non cogitatur actu. Aut igitur illud apprehenditur 
 <lb ed="#S"/>actu aut non. Si non, voluntas operatur volitione circa incognitum. 
-<lb ed="#S"/>Si sic, frustra praeciperet quod <corr><add place="margin">fieret</add></corr> prius quam perciperetur et 
+<lb ed="#S"/>Si sic, frustra praeciperet quod fieret prius quam perciperetur et 
 <lb ed="#S"/>propterea, hoc erat contra casum.</p>
 </div>
             <div>
 <head>Oppositum</head>
 
-            <p xml:id="b1d3qun-aocdim">Ad oppositum, XV <title>De Trinitate</title> c. 67 et 77 
+            <p xml:id="b1d3qun-aocdim">Ad oppositum, <ref>XV <title ref="#deTrinitate">De Trinitate</title> c. 67 et 77</ref> 
 <lb ed="#S"/>utrobique,<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title>, XV, c. 23, n. 43, (CCSL 50A:520; PL 42:1090) “. . .et amor hominis de scientia procedens et memoriam intellegentiamque coniungens tamquam parenti prolique communis . . .”</note> enim dicit quod amor procedit de scientia de ipsa mente.</p>
 
-<p xml:id="b1d3qun-pnppan">Praeterea, notitia praesupponitur amori sicut probat <name>Augustinus</name> VIII <title>De Trinitate</title> c. 16, et 
-<lb ed="#S"/>X <title>De Trinitate</title> c. 48 et quasi per totum librum,<note type="editorialNote"><name>Augustinus</name>, <title>De Trinitate</title> X, c. 1, n. 2 (CCSL 50: 312; PL 42: 973) “certe enim amari aliquid nisi notum non potest”; cf. X, c. 1, n. 3 “non potest amare quod nescit” (CCSL ?); non invenimus VIII, 16 vel X, 48.</note> et 3o De libro arbitrio dicit<note type="editorialNote">?? can’t tell where correct place is??</note> hoc 
-<lb ed="#S"/>c. <corr><add>4</add></corr> quod nihil potest amari nisi cognitum quamvis aliquid possit 
-<lb ed="#S"/>cognosci et non amari, sicut vult <name>Augustinus</name> omnibus locis 
+<p xml:id="b1d3qun-pnppan">Praeterea, notitia praesupponitur amori sicut probat <ref><name ref="#Augustine">Augustinus</name> VIII <title ref="#deTrinitate">De Trinitate</title> c. 16</ref>, et 
+<lb ed="#S"/><ref>X <title ref="#deTrinitate">De Trinitate</title> c. 48</ref> et quasi per totum librum,<note><name>Augustinus</name>, <title>De Trinitate</title> X, c. 1, n. 2 (CCSL 50: 312; PL 42: 973) “certe enim amari aliquid nisi notum non potest”; cf. X, c. 1, n. 3 “non potest amare quod nescit” (CCSL ?); non invenimus VIII, 16 vel X, 48.</note> et <ref>3o <title>De libro arbitrio</title> dicit hoc 
+<lb ed="#S"/>c. 4</ref> quod <quote xml:id="b1d3qun-Qnpaanc">"nihil potest amari nisi cognitum"</quote> quamvis aliquid possit 
+<lb ed="#S"/>cognosci et non amari, sicut vult <name ref="#Augustine">Augustinus</name> omnibus locis 
 <lb ed="#S"/>praeallegatis. Igitur, cogitatio aliquo modo est causa amoris et certum 
 <lb ed="#S"/>est quod non malis nec finalis, igitur effectiva, igitur amor procedit 
 <lb ed="#S"/>a notitia. </p>
 
 <p xml:id="b1d3qun-pnadtc">Praeterea, nisi amor procederet a notitia actuali seu cogitatione, 
-<lb ed="#S"/>non esset amor inter <corr><add place="aboveLine">ista</add></corr> proportionaliter, scilicet, <unclear>8[?]</unclear>. <add place="aboveLine"><unclear>sexta[?]</unclear><desc>also added in margin</desc></add> Cuius oppositum declarat
-<name>Augustinus</name> IX <title>De Trinitate</title> c. 29 et XV <title>De Trinitate</title> c. 67.</p>
+<lb ed="#S"/>non esset amor inter ista proportionaliter, scilicet, <unclear>8[?]</unclear>. <add place="aboveLine"><unclear>sexta[?]</unclear><desc>also added in margin</desc></add> Cuius oppositum declarat
+<ref><name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> c. 29</ref> et <ref>XV <title ref="#deTrinitate">De Trinitate</title> c. 67</ref>.</p>
 
-<p xml:id="b1d3qun-ppeeac">Praeterea, <name>Philosophus</name> et <name>Commentator</name> III 
-<lb ed="#S"/>De anima, commento <corr><add>50</add></corr> determinantes modum per quem generantur 
+<p xml:id="b1d3qun-ppeeac">Praeterea, <ref><name ref="#Aristotle">Philosophus</name> et <name ref="#Averroes">Commentator</name> III 
+<lb ed="#S"/><title>De anima</title>, commento 50</ref> determinantes modum per quem generantur 
 <lb ed="#S"/>in animali desiderium sive appetitus, dicunt<note type="editorialNote">Averroes, In Aristot. De anima III, 50 (Crawford, 519, check latin); cf. <name>Aristoteles</name>, <title>De anima</title>, III, c. ? (433a19-26) </note> quod hoc fit ex hoc quod imaginatio 
 <lb ed="#S"/>imaginatur rem primo vel intellectus et postea res ipsa concupiscitur 
 <lb ed="#S"/>vel res praesentatur[?], igitur ipsi volunt quod amor sive desiderium 
 <lb ed="#S"/>quod ipsi vocant ibi <corr><add>appetitum</add></corr> intellectivum, sicut ibi dicit Commentator fiat 
 <lb ed="#S"/>ex actuali cognitione.</p>
 
-<p xml:id="b1d3qun-pcdiia">Praeterea, commento 54 dicit <name>Commentator</name> quod:<note type="editorialNote">Averroes, In Aristot. De anima III, 54, (Crawford, 524, double check wint)</note> omnis 
+<p xml:id="b1d3qun-pcdiia">Praeterea, <ref>commento 54 dicit <name ref="#Averroes">Commentator</name></ref> quod:<note type="editorialNote">Averroes, In Aristot. De anima III, 54, (Crawford, 524, double check wint)</note> omnis 
 <lb ed="#S"/>appetitus fuit ab intellectu in actu. </p>
 
-<p xml:id="b1d3qun-pcdqsp">Praeterea, commento 56 dicit <name>Commentator</name> 
-<lb ed="#S"/>quod:<note type="editorialNote">Averroes, In Aristot. De anima III, 56, (Crawford, 528)</note> “omnis appetitus fit ex imaginatione, et imaginatio ex quinque sensibilibus 
-<cb ed="#S" n="82vb"/><lb ed="#S"/>partibus.”</p>
+            <p xml:id="b1d3qun-pcdqsp">Praeterea, <ref corresp="#b1d3qun-Qoafqsp">commento 56 dicit <name ref="#Averroes">Commentator</name></ref> 
+<lb ed="#S"/>quod:<note corresp="#b1d3qun-Qoafqsp">Averroes, In Aristot. De anima III, 56, (Crawford, 528)</note> <quote xml:id="b1d3qun-Qoafqsp">“omnis appetitus fit ex imaginatione, et imaginatio ex quinque sensibilibus 
+<cb ed="#S" n="82vb"/><lb ed="#S"/>partibus.”</quote></p>
 
-<p xml:id="b1d3qun-pmcdie">Praeterea, 12 <title>Metaphysicae</title> commento 36 sicut appetitus in brutis animalibus est 
+<p xml:id="b1d3qun-pmcdie">Praeterea, <ref>12 <title ref="#MetaphysicsCommentary">Metaphysicae</title> commento 36</ref> sicut appetitus in brutis animalibus est 
 <lb ed="#S"/>propter sensum qui apprehendit voluptuosum, ita voluntas sive desiderium 
 <lb ed="#S"/>intellectus est propter intellectum et statim post desiderium, enim est propter estimationem eius 
 <lb ed="#S"/>quod est aliquid esse bonum vel quod nos estimamus aliquid esse bonum propter quod desideramus 
@@ -1115,16 +1123,14 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
             <div>
 <head>Responsio ad tertium dubium</head>
 
-
-
 <p xml:id="b1d3qun-aidaps">Ad istud dubium dicendum quod sic loquendo de amore quae 
 <lb ed="#S"/>est actus amandi vel appetendi per viam naturae causatus, et ideo amor 
 <lb ed="#S"/>huiusmodi inter partes imaginis proportionaliter Spiritu Sancto in imagine increata 
-<lb ed="#S"/>secundum <name>Augustinus</name>, ubi prius arguendo ad partem oppositam dubitationis huius. 
+<lb ed="#S"/>secundum <name ref="#Augustine">Augustinus</name>, ubi prius arguendo ad partem oppositam dubitationis huius. 
 <lb ed="#S"/>Haec conclusio satis patet per argumentum supra positum in primo articulo et per <corr><add>hic[?]</add></corr> ad argumenta 
 <lb ed="#S"/>ad partem secundam.</p>
 
-<p xml:id="b1d3qun-siptap">Si instes per beatum Augustinum 9 <title>De Trinitate</title> ibi, quasi per totum, 
+<p xml:id="b1d3qun-siptap">Si instes per <ref><name ref="#Augustine">beatum Augustinum</name> 9 <title ref="#deTrinitate">De Trinitate</title></ref> ibi, quasi per totum, 
 <lb ed="#S"/>dicit quod mens humana est imago Trinitatis increatae ratione 
 <lb ed="#S"/>illius Trinitatis, scilicet, mentis notitiae et amoris in qua Trinitate, notitia procedit 
 <lb ed="#S"/>de mente et amor de notitia. Et tamen secundum eum ibi tam amor 
@@ -1132,11 +1138,11 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>actuali a qua procedit nec notitia actualis quae est ibi proles 
 <lb ed="#S"/>a mente ipsa tamquam a parente.</p>
 
-<p xml:id="b1d3qun-rudtau">Respondet unus doctor<note type="editorialNote">[a name is written in the margin but I can’t tell who it is]</note> quod amor, et 
+<p xml:id="b1d3qun-rudtau">Respondet <rs>unus doctor</rs> quod amor, et 
 <lb ed="#S"/>similiter notitia, tripliciter accipiuntur. Uno modo pro potentiis; secundo modo 
 <lb ed="#S"/>pro habitibus; et tertio modo pro actibus. Et ultra secundum hanc distinctionem esset dicendum 
 <lb ed="#S"/>quod secundum imaginationem solum est illa Trinitas non secundum rem cuius 
-<lb ed="#S"/>partes imaginatae sunt secundum Augustinum ipsa substantia animae nec est processus 
+<lb ed="#S"/>partes imaginatae sunt secundum <name ref="#Augustine">Augustinum</name> ipsa substantia animae nec est processus 
 <lb ed="#S"/>unius ab alio in ipsa substantia mentis secundum veritatem rei 
 <lb ed="#S"/>extra nisi virtualiter solum, quia, scilicet, mens ipsa continet partialiter illa quorum 
 <lb ed="#S"/>unum procedit realiter ab alio et tertium ab utroque.</p>
@@ -1149,7 +1155,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <div>
     <head>Ad primam rationem</head>
 <p xml:id="b1d3qun-apapai">Ad primum argumentum 
-<lb ed="#S"/>in contrarium respondet <name>Fitzralph</name> quod ista notitia actualis quae primo fuit 
+<lb ed="#S"/>in contrarium respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod ista notitia actualis quae primo fuit 
 <lb ed="#S"/>clara Dei notitia, scilicet, quando Deus ostendit se clare illi angelo, 
 <lb ed="#S"/>postea fuit obscura notitia, scilicet, quando Deus se subtraxit ab 
 <lb ed="#S"/>angelo cum peccavit. Et ideo amor suus, qui fuit primum peccatum suum, 
@@ -1194,46 +1200,46 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <div>                
 <head>Ad secundam rationem</head>
 
-<p xml:id="b1d3qun-asbscd">Ad secundum bene respondet <name>Fitzralph</name>. 
+<p xml:id="b1d3qun-asbscd">Ad secundum bene respondet <name ref="#RichardFitzRalph">Fitzralph</name>. 
 <lb ed="#S"/>Concedo quod primus amor processit a notitia accidentali vel verbo, communiter loquendo 
 <lb ed="#S"/>de verbo. Unde verbum communiter accipitur pro quacumqe cogitatione 
-<lb ed="#S"/>actuali sicut loquitur Anselmus Monologion c. 10. Alio modo, accipitur verbum 
+<lb ed="#S"/>actuali sicut loquitur <ref><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> c. 10</ref>. Alio modo, accipitur verbum 
 <lb ed="#S"/>magis proprie pro cogitatione actuali respectu placiti, et sic loquitur 
-<cb ed="#S" n="83ra"/><lb ed="#S"/><name>Augustinus</name> 9 <title>De Trinitate</title> c. penultimo[?]. Et primo modo loquendi de verbo non omne 
-<lb ed="#S"/>verbum procedit ab amore actuali, sed secundo <add place="margin">modo</add> sic, sicut dicit auctoritas 
-<lb ed="#S"/>Augustini allegata et primus amor non procedit de verbo proprie dicto, sed communiter dicto.</p>
+<cb ed="#S" n="83ra"/><lb ed="#S"/><ref><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c. penultimo[?]</ref>. Et primo modo loquendi de verbo non omne 
+<lb ed="#S"/>verbum procedit ab amore actuali, sed secundo modo sic, sicut dicit auctoritas 
+<lb ed="#S"/><name ref="#Augustine">Augustini</name> allegata et primus amor non procedit de verbo proprie dicto, sed communiter dicto.</p>
 
 <p xml:id="b1d3qun-hnqmgi">Hic tamen notandum quod “verbum” multiplicius sumitur quam 
 <lb ed="#S"/>istis modis. Octo, scilicet, modis in universo. Primo generaliter pro omni actu 
-<lb ed="#S"/>imaginandi vel cogitandi. Isto modo accipit <name>Augustinus</name> in Sermone de Sancto 
-<lb ed="#S"/>Iohanno Baptista. Similiter illud verbum vox clamantis verbi dicit quod vox exterior 
-<lb ed="#S"/>est vehiculum verbi verbum, autem ipsa cogitatio et 15 <title>De Trinitate</title> c. 10 
-<lb ed="#S"/>dicit adque qui cogitat unde illud in Libro Sapientiae dixerunt apud 
+<lb ed="#S"/>imaginandi vel cogitandi. Isto modo accipit <ref><name ref="#Augustine">Augustinus</name> in <title>Sermone de Sancto 
+<lb ed="#S"/>Iohanno Baptista</title></ref>. Similiter illud verbum vox clamantis verbi dicit quod vox exterior 
+<lb ed="#S"/>est vehiculum verbi verbum, autem ipsa cogitatio et <ref>15 <title ref="#deTrinitate">De Trinitate</title> c. 10</ref> 
+<lb ed="#S"/>dicit adque qui cogitat unde illud in <title ref="#WisdomBook">Libro Sapientiae</title> dixerunt apud 
 <lb ed="#S"/>se cogitantes non recte, et c. 5 in principio, verbum quod foris signum 
 <lb ed="#S"/>est verbi quod intellectus latet et 10 c.[?] per signa corporalia verbum quod 
 <lb ed="#S"/>mente gessimus innotesceret.</p>
 
 <p xml:id="b1d3qun-smlvee">Secundo modo latius ad haec sumitur pro 
-<lb ed="#S"/>praedictis et actu fantasiendi[?] unde 8 <title>De Trinitate</title> c. 10 fantasia vel carnis 
+<lb ed="#S"/>praedictis et actu fantasiendi[?] unde <ref>8 <title ref="#deTrinitate">De Trinitate</title> c. 10</ref> fantasia vel carnis 
 <lb ed="#S"/>in memoria mea verbum eius est.</p> 
 
 <p xml:id="b1d3qun-tmsdqd">Tertio modo sumitur ab isto specialius 
-<lb ed="#S"/>pro omni actu assentiendi vel dissentiendi vero vel falso, sic loquitur 15 <title>De Trinitate</title> c. 15. Falsum est verbum nostrum cum falluntur et isto modo dubio 
+<lb ed="#S"/>pro omni actu assentiendi vel dissentiendi vero vel falso, sic loquitur <ref>15 <title ref="#deTrinitate">De Trinitate</title> c. 15</ref>. Falsum est verbum nostrum cum falluntur et isto modo dubio 
 <lb ed="#S"/>non est verbum primo modo quia ibidem dicit cum autem dubitamus 
 <lb ed="#S"/>non est verbum de re de qua dubitamus.</p>
 
 <p xml:id="b1d3qun-qmptnv">Quarto modo pro actu 
 <lb ed="#S"/>qui natus est gigni vel <add place="margin">ex</add> habitu scientifico vel saltem vero; 
-<lb ed="#S"/>15 <title>De Trinitate</title>, c. 10 necesse est cum verbum loquimur, id est, quod scimus loquitur, 
+<lb ed="#S"/><ref>15 <title ref="#deTrinitate">De Trinitate</title>, c. 10</ref> necesse est cum verbum loquimur, id est, quod scimus loquitur, 
 <lb ed="#S"/>ex ipsa scientia quam memoria tenemus nascitur verbum.</p>
 
 <p xml:id="b1d3qun-qmscan">Quinto modo 
-<lb ed="#S"/>sumitur pro amata notitia. 9 <title>De Trinitate</title> c. 8 verbum amor concipitur. Et 
-<lb ed="#S"/>c. 10 recte, quaeritur an omnis notitia vel verbum an tantum amata 
-<lb ed="#S"/>notitia, et concludit naturaliter quod verbum, quod nunc insinuare volumus, 
+<lb ed="#S"/>sumitur pro amata notitia. <ref corresp="#b1d3qun-Qvacvac">9 <title ref="#deTrinitate">De Trinitate</title> c. 8</ref><note>Augustine, De Trinitate, 9.7.13</note> <quote xml:id="b1d3qun-Qvacvac">"verbum amor[amore?] concipitur"</quote>. Et 
+<lb ed="#S"/><ref corresp="#b1d3qun-Qrqtan">c. 10</ref><note corresp="#b1d3qun-Qrqtan">Augustine, De Trinitate, 9.10.15</note> <quote xml:id="b1d3qun-Qrqtan">"recte, quaeritur an omnis notitia vel verbum an tantum amata 
+<lb ed="#S"/>notitia"</quote>, et concludit naturaliter quod verbum, quod nunc insinuare volumus, 
 <lb ed="#S"/>est cum amore notitia.</p>
 
-<p xml:id="b1d3qun-sspfse">Sexto sumitur pro obiecto cogitato 15 <title>De Trinitate</title> c. 15 tunc 
+<p xml:id="b1d3qun-sspfse">Sexto sumitur pro obiecto cogitato <ref><title ref="#deTrinitate">De Trinitate</title> c. 15</ref> tunc 
 <lb ed="#S"/>sit[?sic] verbum verum quando illud quod nos diximus voluntabili motione iactare 
 <lb ed="#S"/>ad illud quod scimus pervenit ut quomodo res quae scitur sic etiam 
 <lb ed="#S"/>cogitetur, id est, sine voluntate sine etiam cognitione vocis quae pro facto alicuius 
@@ -1244,7 +1250,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>adductum in primo sensu verbum quod foris sonat etc.</p>
 
 <p xml:id="b1d3qun-ssveve">Septimo sumitur 
-<lb ed="#S"/>“verbum” pro definitione alicuius iuxta illud <name>Augustinus</name> 9 <title>De Triniate</title> c. 10 definitio, 
+<lb ed="#S"/>“verbum” pro definitione alicuius iuxta illud <ref><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c. 10</ref> definitio, 
 <lb ed="#S"/>quid sit temperantia, et haec est verbum eius.</p>
 
 <p xml:id="b1d3qun-osaviv">Octavo sumitur ab eo pro verbo vocabili 
@@ -1277,7 +1283,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
                 <div>
 <head>Ad quartam rationem</head>
                     
-<p xml:id="b1d3qun-aqropt">Ad quartum respondet <name>Fitzralph</name> quod appetitus sensitivus 
+<p xml:id="b1d3qun-aqropt">Ad quartum respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod appetitus sensitivus 
 <lb ed="#S"/>non potest esse sine cogitatione, nec fames, nec sitis. Cum dicit probabiliter 
 <lb ed="#S"/>quod fames et sitis possunt esse in animali absque alia sensatione alicuius 
 <lb ed="#S"/>rei extra corpus animalis ex hoc, scilicet, quod pars animalis quae patitur defectum 
@@ -1422,7 +1428,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>eiusdem obiecti naturaliter sibi praesupposita volitionem concauset. Sed hoc videtur 
 <lb ed="#S"/>falsum, quia causa naturalis non potest causare in idem passum uniformiter 
 <lb ed="#S"/>dispositum contrarios effectus. Sed stante eadem intellectione potest voluntas 
-<lb ed="#S"/>velle vel nolle indifferenter illud quod intelligitur, igitur non <add place="aboveLine">est</add> causa naturalis 
+<lb ed="#S"/>velle vel nolle indifferenter illud quod intelligitur, igitur non est causa naturalis 
 <lb ed="#S"/>utriusque.</p>
             
             <p xml:id="b1d3qun-ichrca"><supplied>Sextum.</supplied> Item cogitatio habitualis videtur sufficere quia habitibus uti 
@@ -1432,13 +1438,13 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
             <p xml:id="b1d3qun-idqaid"><supplied>Septimum.</supplied> Item dato quod intellectio actualis requireretur ad 
 <lb ed="#S"/>causationem volitionis, tamen videtur quod voluntas ex sua libertate, postquam 
 <lb ed="#S"/>actus est causatus, possit istum continuare cessante intellectione 
-<lb ed="#S"/><add>quacumque.</add> Nam species sensibilis in organo sensus exterioris non 
+<lb ed="#S"/>quacumque. Nam species sensibilis in organo sensus exterioris non 
 <lb ed="#S"/>minus dependet a receptivo sensibili quam volitio ab intellectione. 
 <lb ed="#S"/>Sed hoc non obstante licet res extra requiratur 
 <lb ed="#S"/>ad causandum speciem istam et visionem consequentem, tamen illa species, 
 <lb ed="#S"/>postquam est causata, per aliquod tempus potest conservari sine praesentia 
 <lb ed="#S"/>istius rei sensibilis, sicut patet per experientiam perspectivae de claudente 
-<lb ed="#S"/>oculos postquam vidit res lucidas. Et <name>Augustinus</name> idem 
+<lb ed="#S"/>oculos postquam vidit res lucidas. Et <name ref="#Augustine">Augustinus</name> idem 
 <lb ed="#S"/>dicit.</p>
             
             <p xml:id="b1d3qun-idqsie"><supplied>Octavum.</supplied> Item dato quod requiratur cogitatio actualis obiecti illius quod 
@@ -1458,7 +1464,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>intellectione potest voluntas velle istam intellectionem, et tamen intellectio 
 <lb ed="#S"/>isto casu posito non est obiectum intellectus actualiter, igitur. Probo assumptum 
 <lb ed="#S"/>quia cogitatio ista potest esse conveniens, licet sit respectu alicuius odibilis 
-<lb ed="#S"/>[83vb] et stante ista cognitione voluntas potest delectari sicut patet per experientiam 
+<cb ed="#S" n="83vb"/><lb ed="#S"/>et stante ista cognitione voluntas potest delectari sicut patet per experientiam 
 <lb ed="#S"/>ista delectatio non est respectu obiecti cogitati quia illud imaginatum 
 <lb ed="#S"/>non est sibi delectabile per positam, igitur est respectu istius cogitationis, 
 <lb ed="#S"/>et per consequens voluntas potest velle istam cogitationem licet istam non 
@@ -1504,7 +1510,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>si detur alia pars non sequitur quin ipsa sit libera quia potest cessare 
 <lb ed="#S"/>ab actu quolibet intelligendi, forte saltem non habet libertatem 
 <lb ed="#S"/>cessandi ab omni intellectione nisi cessando simul vel prius 
-<lb ed="#S"/>ab omni non volitione. </p>
+<lb ed="#S"/>ab omni non volitione.</p>
             
             <p xml:id="b1d3qun-aqmeip">Ad quintum minor falsa est de causa 
 <lb ed="#S"/>partiali ad varios effectus determinabili libere ab alia causa sicut 
@@ -1577,8 +1583,8 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <div>
     <head>Principales rationes</head>
         <p xml:id="b1d3qun-qdphev">Quintum dubium principale est 
-<lb ed="#S"/>an partes imaginis creatae sint aequales. Quod non quia <name>Augustinus</name> 15 <title>De Trinitate</title> 
-<lb ed="#S"/>c. 68 a singulis bina, et a binis singula, maioribus minora 
+<lb ed="#S"/>an partes imaginis creatae sint aequales. Quod non quia <ref><name ref="#Augustine">Augustinus</name> 15 <title ref="#deTrinitate">De Trinitate</title> 
+<lb ed="#S"/>c. 68</ref> a singulis bina, et a binis singula, maioribus minora 
 <lb ed="#S"/>vincuntur et per hoc probat quod non sunt aequales. Sed respondetur quod ipse 
 <lb ed="#S"/>probat haec secundum suos actus in via et hoc est verum.</p>
 
@@ -1587,14 +1593,14 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>actu, memoria meminit suo modo actu.</p>
 
         <p xml:id="b1d3qun-sisnac">Secundum. Item si sint, 
-<lb ed="#S"/>aequales quicquid memoria memineret intellectus intelligeret sicut dicit <name>Augustinus</name> 
-<lb ed="#S"/>10 <title>De Trinitate</title>, c. 28 et Magister allegat primo libro, d. 3, et hoc ibidem ponitur 
+<lb ed="#S"/>aequales quicquid memoria memineret intellectus intelligeret sicut dicit <ref><name ref="#Augustine">Augustinus</name> 
+<lb ed="#S"/>10 <title ref="#deTrinitate">De Trinitate</title>, c. 28</ref> et <ref><name ref="#Lombard">Magister</name> allegat primo libro, d. 3</ref>, et hoc ibidem ponitur 
 <lb ed="#S"/>aequalitas partium imaginis quia sic possunt saltem, sed consequens videntur falsum, 
-<lb ed="#S"/>quia aut intelligeret <name>Augustinus</name> de intelligere actu primo aut de actu 
+<lb ed="#S"/>quia aut intelligeret <name ref="#Augustine">Augustinus</name> de intelligere actu primo aut de actu 
 <lb ed="#S"/>secundo. Non primo, quia intelligere in actu primo non est nisi meminere manifestum est. 
 <lb ed="#S"/>Et tunc nihil declararet per illud dictum, si intellegat de intelligere in 
 <lb ed="#S"/>actu secundo, tunc accipit falsum quia, scilicet, quicquid meminit intelligit quia multa 
-<lb ed="#S"/>habeo in memoria quae non actualiter cogito. </p>
+<lb ed="#S"/>habeo in memoria quae non actualiter cogito.</p>
 
         <p xml:id="b1d3qun-titedr">Tertium. Item tunc 
 <lb ed="#S"/>memoria, intelligentia, et voluntas essent aequales. Consequens falsum, quia ista non distinguntur realiter. Igitur ista non sunt aequalia. Consequentia patet per Hillary 3 <title>De Trinitate</title> et per Magistrum primo libro, d. 31, ubi dicit quod “aequalitas et similitudo 
@@ -1602,7 +1608,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 
         <p xml:id="b1d3qun-qisqii">Quartum. Item si sic, tunc istae partes 
 <lb ed="#S"/>forent aequales ratione suorum actuum. In patria, tamen, ibi erunt sanatae 
-<lb ed="#S"/>a languore sicut dicit <name>Augustinus</name> 15[?] <title>De Trinitate</title> c. 68, sed hoc 
+<lb ed="#S"/>a languore sicut dicit <ref><name ref="#Augustine">Augustinus</name> 15[?] <title>De Trinitate</title> c. 68</ref>, sed hoc 
 <lb ed="#S"/>est falsum, quia tunc in patria amor naturaliter esset aequalis cogitationi, si voluntas 
 <lb ed="#S"/>non impediretur, quia voluntas potest ibi tantum amare quantum intellectus potest 
 <lb ed="#S"/>videre, et per consequens, cum voluntas ibi habeat adiuvans ipsam, puta 
@@ -1611,7 +1617,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 
         <p xml:id="b1d3qun-qitqei">Quintum. Item tunc, in patria, cogitatio mentis 
 <lb ed="#S"/>et eius amor forent aequales. Consequens videtur inconveniens quia 
-<lb ed="#S"/>ibi amor eius erit perfectus sicut dicit <name>Augustinus</name> 9 <title>De Trinitate</title> c. 9 
+        <lb ed="#S"/>ibi <quote xml:id="b1d3qun-Qaeeeep">"amor eius erit perfectus"</quote> sicut dicit <ref corresp="#b1d3qun-Qaeeeep"><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c. 9</ref><note corresp="#b1d3qun-Qaeeeep">Augustine, De Trinitate, 9.4.4</note> 
 <lb ed="#S"/>de parvis. Si igitur cogitatio sit aequalis amori, sequitur quod ibi 
 <lb ed="#S"/>mens tantum se cognoscit quantum est. Sed Deus ibi ipsam non cognoscit 
 <lb ed="#S"/>nisi tantum quantum ipsa mens est, igitur mens est ibi tantum se cognoscit quantum Deus eam 
@@ -1629,34 +1635,34 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <head>Ad oppositum</head>
 
 <p xml:id="b1d3qun-aoavsa">Ad oppositum 
-<lb ed="#S"/>arguitur per <name>Augustinum</name> 10 <title>De Trinitate</title> c. 28 et <name>Magister</name> allegat d. 3 primi libri, ubi 
-<lb ed="#S"/>probat <name>Augustinus</name> quod memoria, intelligentia, et voluntas sunt aequales.</p>
+<lb ed="#S"/>arguitur per <ref><name ref="#Augustine">Augustinum</name> 10 <title ref="#deTrinitate">De Trinitate</title> c. 28</ref> et <ref><name ref="#Lombard">Magister</name> allegat d. 3 primi libri</ref>, ubi 
+<lb ed="#S"/>probat <name ref="#Augustine">Augustinus</name> quod memoria, intelligentia, et voluntas sunt aequales.</p>
 
-<p xml:id="b1d3qun-pdtols">Praeterea 15 
-<lb ed="#S"/><title>De Trinitate</title> c. 68 dicit quod erunt haec aequalia quando erunt ab omni 
-<lb ed="#S"/>languore sanata. </p>
+        <p xml:id="b1d3qun-pdtols">Praeterea <ref corresp="#b1d3qun-Qehaols">15 
+<lb ed="#S"/><title ref="#deTrinitate">De Trinitate</title> c. 68</ref><note>Augustine, De Trinitate 15.23.43</note> dicit quod <quote xml:id="b1d3qun-Qehaols">erunt haec aequalia quando erunt ab omni 
+<lb ed="#S"/>languore sanata</quote>.</p>
 
-<p xml:id="b1d3qun-pifase">Praeterea 9 <title>De Trinitate</title>, in fine, mens, amor, et notitia, 
+        <p xml:id="b1d3qun-pifase">Praeterea <ref corresp="#b1d3qun-Qmaeeas">9 <title>De Trinitate</title>, in fine,</ref><note corresp="#b1d3qun-Qehaols">Augustine, De Trinitate, 9.4.4</note> <quote xml:id="b1d3qun-Qmaeeas">mens, amor, et notitia, 
 <lb ed="#S"/>eius tria quaedam sunt, et tamen perfecta sunt et aequalia sunt. Si enim 
 <lb ed="#S"/>mens minus se amat quam est, verbi gratia, si se tantum amet hominis 
 <lb ed="#S"/>mens quantum amandum est corpus hominis, cum plus sit ipsa 
-<lb ed="#S"/>quam corpus, peccat et non amat perfectum amorem sui etc.</p>
+        <lb ed="#S"/>quam corpus, peccat et non amat perfectum amorem sui,"</quote> etc.</p>
 
-<p xml:id="b1d3qun-enbida">Et notitia bene hanc auctoritatem Augustini, qui probat solutionem 
+<p xml:id="b1d3qun-enbida">Et notitia bene hanc auctoritatem <name ref="#Augustine">Augustini</name>, qui probat solutionem 
 <lb ed="#S"/>quam alias respondi quod tunc compraehendit intellectus creatus aliquid 
 <lb ed="#S"/>cum cognoscit illud ita perfecte, sicut ipsum est ens, non autem sicut 
 <lb ed="#S"/>ipsum est cognoscibile, quia infinite est cognoscibile. Ita dicit hic 
-<lb ed="#S"/><name>Augustinus</name> quod partes imaginis cum sunt perfectae, tunc mens non minus 
+<lb ed="#S"/><name ref="#Augustine">Augustinus</name> quod partes imaginis cum sunt perfectae, tunc mens non minus 
 <lb ed="#S"/>amat se quam est et non dicit non minus amat se quam 
 <lb ed="#S"/>est amabilis, nam est infinite amabilis infinite divini amoris.</p>
 <div>
         <head>Responsio Fitzralph</head>
 
 
-        <p xml:id="b1d3qun-aidadt">Ad istum dubium respondet et bene in quibusdam bene Fitzralph 
-<lb ed="#S"/>dicens quod pars dupliciter <add place="margin">pars dupliciter <desc>rep. in marg cum figuricula</desc></add> sumitur pro parte secundum fidem et pro parte secundum 
-<lb ed="#S"/>imaginationem. Hanc distinctionem de parte ponit Commentator primo Physicorum 
-<lb ed="#S"/>commento 11, et voto, inquit, partem secundum fidem illud quod in re est pars, et 
+        <p xml:id="b1d3qun-aidadt">Ad istum dubium respondet et bene in quibusdam bene <name ref="#RichardFitzRalph">Fitzralph</name> 
+<lb ed="#S"/>dicens quod pars dupliciter pars dupliciter sumitur pro parte secundum fidem et pro parte secundum 
+<lb ed="#S"/>imaginationem. Hanc distinctionem de parte ponit <ref><name ref="#Averroes">Commentator</name> primo <title ref="#PhysicsCommentary">Physicorum</title> 
+<lb ed="#S"/>commento 11</ref>, et voto, inquit, partem secundum fidem illud quod in re est pars, et 
 <lb ed="#S"/>partem secundum imaginationem, voco ipsum totum consideratum per 
 <lb ed="#S"/>modum partis. Et suppono quod per imaginationem creatam intelligamus 
 <lb ed="#S"/>mentem humanam et per partes potentias naturales eiusdem, scilicet, memoriam, 
@@ -1665,15 +1671,13 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>per modum partis. Quod autem istae sint aequales potest multipliciter 
 <lb ed="#S"/>intelligi. Uno modo ratione obiecti, scilicet, quod quicquid potest esse obiectum unius potest 
 <lb ed="#S"/>esse obiectum cuiuslibet earum et quicquid est obiectum unius est obiectum alterius 
-<lb ed="#S"/>eodem modo habitu, scilicet, vel actu, et sic loquitur <name>Augustinus</name> 9 <title>De Trinitate</title> c. 
-<lb ed="#S"/>14.</p> 
-
-
+<lb ed="#S"/>eodem modo habitu, scilicet, vel actu, et sic loquitur <ref><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c. 
+<lb ed="#S"/>14</ref>.</p> 
 
 <p xml:id="b1d3qun-ampced">Alio modo possunt intelligi esse aequales ratione suorum actuum 
 <lb ed="#S"/>sic, scilicet, quod nulla earum sit magis impedita a suo actu quam 
 <lb ed="#S"/>alia a suo, sed quod habeat completam dispositionem naturalem in nullo impedita 
-<lb ed="#S"/>a suo proprio actu, et isto modo loquitur <name>Augustinus</name> 18 <title>De Trinitate</title> c. 68, 
+<lb ed="#S"/>a suo proprio actu, et isto modo loquitur <ref><name ref="#Augustine">Augustinus</name> 18 <title ref="#deTrinitate">De Trinitate</title> c. 68</ref>, 
 <lb ed="#S"/>ubi dicit quod memoria, intellegentia, et voluntas in via aliquando 
 <lb ed="#S"/>sunt inaequales, quia videmus in aliquo maiorem memoriam quam 
 <lb ed="#S"/>intelligentiam, in aliquo econtra, et in aliquo duo hoc amore magis superari. 
@@ -1687,12 +1691,12 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>vel ad subtiliter intelligendum. Sed in patria erunt aequalis et ab 
 <lb ed="#S"/>omni languore sanatae, id est, in nullo erit mens impedita 
 <lb ed="#S"/>ibi ab aliquo istorum actuum, sed erit incompleta dispositione 
-<lb ed="#S"/>naturali. Unde <name>Augustinus</name> secundum istum modum loquens 10 <title>De Trinitate</title> c. 26, dicit 
+<lb ed="#S"/>naturali. Unde <ref><name ref="#Augustine">Augustinus</name> secundum istum modum loquens 10 <title ref="#deTrinitate">De Trinitate</title> c. 26</ref>, dicit 
 <lb ed="#S"/>quod in hiis tertibus, memoria, intelligentia, et voluntate solent inspici 
 <lb ed="#S"/>ingenia parvulorum cuius praeferant indolem, quanto enim 
 <lb ed="#S"/>tenacius et facilius puer meminit quanto alterius intelligit 
 <lb ed="#S"/>et studet ardentius tanto est laudabilioris ingenii, 
-<lb ed="#S"/>ubi satis patet quod comperat ista facilitatem et difficultatem quantum ad 
+<lb ed="#S"/>ubi satis patet quod comparat ista facilitatem et difficultatem quantum ad 
 <lb ed="#S"/>actus suos et hoc accidit eis ex dispositione corporum  
 <cb ed="#S" n="84va"/><lb ed="#S"/>certum est et virtutibus sensitivis secundum earum dispositionem in bonitate comprehensionis 
 <lb ed="#S"/>et debilitate. </p>
@@ -1703,21 +1707,19 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>dicta, scilicet, quae attenditur penes obiecta sic partes imaginis sunt 
 <lb ed="#S"/>semper aequales tam in via quam in patria. Sed loquendo de aequalitate 
 <lb ed="#S"/>secundo modo non oportet quod sint actu aequales in via sed sit in patria 
-<lb ed="#S"/>aequantur sicut probatum est auctoritatibus Augustini tam de aequalitate 
+<lb ed="#S"/>aequantur sicut probatum est auctoritatibus <name ref="#Augustine">Augustini</name> tam de aequalitate 
 <lb ed="#S"/>patriae quam de inaequalitate viae in secundo sensu aequalitatis.</p>
-
-
 
 <p xml:id="b1d3qun-tmpepc">Tertio 
 <lb ed="#S"/>modo possunt intelligi sic esse aequales ratione actuum quia respectu eiusdem 
 <lb ed="#S"/>obiecti habeant actus aeque intensos. Et de isto sensu est speciale dubium, 
-<lb ed="#S"/>et videtur quod sic, quia dicit Magister libro 2, d. 23, c. 4 tantum ut 
+<lb ed="#S"/>et videtur quod sic, quia dicit <ref><name ref="#Lombard">Magister</name> libro 2, d. 23, c. 4</ref> tantum ut 
 <lb ed="#S"/>tradit auctoritas quisque ibi cognoscit quantum diligit. 
 <lb ed="#S"/>Sed respondetur quod non immo quod hoc est impossibile quantum potest rationaliter 
-<lb ed="#S"/>videri et quod Magister et si qui alii dicunt hoc intelligunt quod 
+<lb ed="#S"/>videri et quod <name ref="#Lombard">Magister</name> et si qui alii dicunt hoc intelligunt quod 
 <lb ed="#S"/>ibi sic erit amor proportionalis cogitationi  respectu Dei quod qui plus ibi 
 <lb ed="#S"/>alio diliget Deum clarius cognoscet et econverso. Et iste sensus seu expositio 
-<lb ed="#S"/>sufficit ad illud quod Magister intendit ibi probare, videlicet 
+<lb ed="#S"/>sufficit ad illud quod <name ref="#Lombard">Magister</name> intendit ibi probare, videlicet 
 <lb ed="#S"/>quod Seraphim plus cognoscat Deum quam Cherubim, quia plus 
 <lb ed="#S"/>diligunt ergo plus cognoscunt.</p>
 
@@ -1739,14 +1741,14 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>videtur quod voluntas possit tam fruenter amare sicut intellectus de 
 <lb ed="#S"/>facto intelligit obiectum summe delectabile. Igitur addita caritate 
 <lb ed="#S"/>voluntas intensius amat, nisi forte quis dicat quod caritas non 
-<lb ed="#S"/>attendit actum amoris nec se habet <add>actu</add> respectu illius.</p>
+<lb ed="#S"/>attendit actum amoris nec se habet actu respectu illius.</p>
 
 <p xml:id="b1d3qun-saddie">Secundo arguit 
 <lb ed="#S"/>doctor ille ad idem sic: aliqua claritate cogitationis cognoscitur Deus, 
-<lb ed="#S"/>sit illa A; et Petrus etiam cognoscitur aliqua claritate cogitationis, 
+<lb ed="#S"/>sit illa A; et <name ref="#Peter">Petrus</name> etiam cognoscitur aliqua claritate cogitationis, 
 <lb ed="#S"/>sit illa B. A ad B est aliqua certa proportio sic quod dupla, tunc 
-<lb ed="#S"/>duplato B et duplata bonitate Petri erit duplatus 
-<lb ed="#S"/>amor respectu Petri ut videtur igitur respectu istius erit tantus amor intensive 
+<lb ed="#S"/>duplato B et duplata bonitate <name ref="#Peter">Petri</name> erit duplatus 
+<lb ed="#S"/>amor respectu <name ref="#Peter">Petri</name> ut videtur igitur respectu istius erit tantus amor intensive 
 <lb ed="#S"/>ut videtur sicut respectu Dei. Consequens non est dandum de 
 <lb ed="#S"/>beatis. Igitur amor respectu Dei est intensior quam cogitatio respectu Dei, 
 <lb ed="#S"/>igitur etc.</p> 
@@ -1791,7 +1793,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>quod ita intensum amorem posset causare voluntas respectu summae delectabilis 
 <lb ed="#S"/>visi, sicut esset visio illa intensa, quae imaginaretur 
 <lb ed="#S"/>causari mere naturaliter ex natura obiecti et potentiae intellectivae secundum imaginationem 
-<lb ed="#S"/><add>falsam</add> praehabitam, quae imaginaretur Deum agere mere naturaliter quicquid ageret 
+<lb ed="#S"/>falsam praehabitam, quae imaginaretur Deum agere mere naturaliter quicquid ageret 
 <lb ed="#S"/>et ita de aliis amabilibus et placibilibus causatis naturaliter cum 
 <lb ed="#S"/>intellectu vel sensu suarum visionum. De illa tamen visione quae beatifica 
 <lb ed="#S"/>est quae non et talis sed excellentioris forte specie 
@@ -1826,13 +1828,13 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>eodem patet planissime ad secundum, dato enim quod dupletur visio 
 <lb ed="#S"/>Petri et etiam eius bonitas, dummodo non duplicetur activitas propria 
 <lb ed="#S"/>voluntatis sit duplatio clarius videntis eum, non sequitur quod duplabitur 
-<lb ed="#S"/>dilectio erga Petrum, quia ut prius duplatio partis causae non infert 
+<lb ed="#S"/>dilectio erga <name ref="#Peter">Petrum</name>, quia ut prius duplatio partis causae non infert 
 <lb ed="#S"/>duplationem effectus naturaliter, consequenter ex causa collecta vel collectione 
 <lb ed="#S"/>causarum ex illa et alia vel aliis cum causis.</p>
 
-<p xml:id="b1d3qun-aeddar">Aliter etiam dici potest ex eodem primo respondendo quod licet duplaretur bonitas Petri 
-<lb ed="#S"/>vel caperetur bonum aliud duplatum Petro quod obiceretur eidem 
-<lb ed="#S"/>intellectivi cui primo obiciebatur Petrus non sequeretur ceteris permanentibus, 
+<p xml:id="b1d3qun-aeddar">Aliter etiam dici potest ex eodem primo respondendo quod licet duplaretur bonitas <name ref="#Peter">Petri</name> 
+<lb ed="#S"/>vel caperetur bonum aliud duplatum <name ref="#Peter">Petro</name> quod obiceretur eidem 
+<lb ed="#S"/>intellectivi cui primo obiciebatur <name ref="#Peter">Petrus</name> non sequeretur ceteris permanentibus, 
 <lb ed="#S"/>sicut ante duplex visio dupli boni, quia licet dupletur 
 <lb ed="#S"/>obiectum, et per consequens activitas, non tamen duplatur alia principior visionis 
 <lb ed="#S"/>causa, scilicet, intellectus actus, et tamen a cognoscentis et cogitatio pariter notitia, 
@@ -1846,16 +1848,16 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <div>
     <head>Responsio Fitzralph ad rationes principales</head>        
     
-    <p xml:id="b1d3qun-apliqa">Ad primum argumentum istius dubii, <name>Augustinus</name> loquendo de aequalitate 
+    <p xml:id="b1d3qun-apliqa">Ad primum argumentum istius dubii, <name ref="#Augustine">Augustinus</name> loquendo de aequalitate 
 <lb ed="#S"/>secundo modo dicta in positione, et isto modo verum est quod non 
 <lb ed="#S"/>sunt partes istae imaginis aequales in viatoribus communiter quia, 
 <lb ed="#S"/>ut saepius, una pars sic loquendo est in viatore plus impedita 
     <cb ed="#S" n="85ra"/><lb ed="#S"/>quam alia.</p>
 
-        <p xml:id="b1d3qun-ascaqo"> Ad secundum respondet <name>Fitzralph</name> cum accipitur quod tunc intellectus 
+        <p xml:id="b1d3qun-ascaqo"> Ad secundum respondet <name ref="#RichardFitzRalph">Fitzralph</name> cum accipitur quod tunc intellectus 
 <lb ed="#S"/>intelligeret quicquid memoria memineret dico, inquit, quod intelligere 
-<lb ed="#S"/>est duobus modis, scilicet, in actu et in habitu. Et secundo modo ibi loquendo <name>Augustinus</name> 
-<lb ed="#S"/>et cum accipitur quod sic intelligere non est, nisi meminere, <add place="margin">et tamen secundum aliam rationem dicitur intelligere</add> et secundum aliam meminere, 
+<lb ed="#S"/>est duobus modis, scilicet, in actu et in habitu. Et secundo modo ibi loquendo <name ref="#Augustine">Augustinus</name> 
+<lb ed="#S"/>et cum accipitur quod sic intelligere non est, nisi meminere, et tamen secundum aliam rationem dicitur intelligere et secundum aliam meminere, 
 <lb ed="#S"/>dicitur enim meminere conceptus est cogitatio conservata et dicitur intelligere 
 <lb ed="#S"/>quatenus absolute est habitus cogitativus quae rationes diversae sunt sicut 
 <lb ed="#S"/>intellectus et memoria. Unde bene probatur per idem medium quod memoria et intelligentia 
@@ -1872,13 +1874,13 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>proprie distinguuntur aequales, quia non realiter distinguuntur, et hoc totum conceditur. </p>
 
 <p xml:id="b1d3qun-aqrtei">Ad 
-<lb ed="#S"/>quartum respondet <name>Fitzralph</name> quod amor est intensior in patria propter causam 
+<lb ed="#S"/>quartum respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod amor est intensior in patria propter causam 
 <lb ed="#S"/>superius improbatam. Sed patuit quod illud medium non necessitat illud ponere, 
 <lb ed="#S"/>sed argumentum tangit unum dubium facti ubi posset esse sic et aliter, et ideo 
 <lb ed="#S"/>qualiter sit de facto nobis totaliter est incertum. </p>
 
         <p xml:id="b1d3qun-aqrdai">Ad quintum respondet 
-<lb ed="#S"/><name>Fitzralph</name> quod <name>Augustinus</name> dicens quod quando amor erit perfectus, tunc mens 
+<lb ed="#S"/><name ref="#RichardFitzRalph">Fitzralph</name> quod <name ref="#Augustine">Augustinus</name> dicens quod quando amor erit perfectus, tunc mens 
 <lb ed="#S"/>amat se quantum est, intelligit quod amat se quantum ipsa sit amanda 
 <lb ed="#S"/>a se, et ideo non sequitur ad intellectum Augustini quod ipsa tantum amet se 
 <lb ed="#S"/>quantum Deus amat ipsum</p>
@@ -1886,7 +1888,7 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <p xml:id="b1d3qun-shrimo">Sed haec responsio est glossa obscurior 
 <lb ed="#S"/>textu vel potius obscuratio textus clari, cuius causa non est alia 
 <lb ed="#S"/>nisi quod conatur vere vitare unum verum conclusio. Enim deducta per illud 
-<lb ed="#S"/>quintum argumentum est ad  <seg>est ad<desc>something going on here</desc></seg> intellectum <name>Augustini</name> vera 
+<lb ed="#S"/>quintum argumentum est ad  <seg>est ad<desc>something going on here</desc></seg> intellectum <name ref="#Augustine">Augustini</name> vera 
 <lb ed="#S"/>ad litteram sicut sonat, sicut enim nos actu finito Deum 
 <lb ed="#S"/>diligimus infinite ad intellectum saepe datum quia, scilicet, praeponimus eum 
 <lb ed="#S"/>in amore vel per amorem infinitis amabilibus, si darentur illa,  
@@ -1927,18 +1929,18 @@ notitia Dei aut a clara. Si ab obscura notitia Dei,
 <lb ed="#S"/>Deum et aliud vel alia, quia cogitatione aeque intensa in specie sua 
 <lb ed="#S"/>cognoscit Deum sicut facit creaturam vel aliud ibi visum vel quam intense 
 <lb ed="#S"/>cognoscit aliud in specie visionis congrua creaturae. Et dico quod 
-<lb ed="#S"/>[85rb] non est sic quia Deum videt visione{m} suam capacitatem specie 
+<cb ed="#S" n="85rb"/><lb ed="#S"/>non est sic quia Deum videt visione[?m] suam capacitatem specie 
 <lb ed="#S"/>visionis in qua Deum videt replente nihil autem aliud, ita intense 
 <lb ed="#S"/>ibi videt per cogitationem in genere proprio quia talis non videt 
 <lb ed="#S"/>nisi visione quam ipse cum obiecto causare naturaliter sufficiunt  ibi et ista 
-<lb ed="#S"/>multum deficit a tanta secundum <corr><add>intensionem</add></corr> quanta est illa quae habetur 
+<lb ed="#S"/>multum deficit a tanta secundum intensionem quanta est illa quae habetur 
 <lb ed="#S"/>respectu Dei cuius est probatio plana, quia si imaginetur duplari entitas 
 <lb ed="#S"/>creaturae datae ipsa cum eodem intellectu sufficeret ad causandum cogitationem 
 <lb ed="#S"/>eiusdem speciei priori intensiorem, licet non duplo intensiorem quia 
 <lb ed="#S"/>altera causa: puta obiectum est idem quod primo creatum totale, igitur 
 <lb ed="#S"/>principium non duplatur.</p>
 
-<p xml:id="b1d3qun-deiipe">Dicendum est igitur quod nihil aliud a Deo potest {cognosci} in 
+<p xml:id="b1d3qun-deiipe">Dicendum est igitur quod nihil aliud a Deo potest [cognosci?] in 
 <lb ed="#S"/>genere proprio ita clare, id est, ita intense in specie visionis sibi congrue 
 <lb ed="#S"/>videri seu cognosci a creatura creata sicut cognoscitur ab ea 
 <lb ed="#S"/>Deus et hoc cogitatione in gradu naturaliter ab ipsa causabili et obiecto. Et 
@@ -1974,12 +1976,12 @@ actus hinc, inde nam, si Deus in ea duplaret respectu creaturae
 <lb ed="#S"/>finaliter de tali pro quo orant et eius salutem optant.</p> 
 
 <p xml:id="b1d3qun-iilfis">Item 
-<lb ed="#S"/>in legenda Beati Johannes Evangelo habetur vidi angelos viros flentes, 
+<lb ed="#S"/>in <title ref="#JohnGospel">legenda Beati Johannes Evangelo</title> habetur vidi angelos viros flentes, 
 <lb ed="#S"/>igitur illi angulis displicuit ruina illorum iuvenum 
 <lb ed="#S"/>de quibus fit ibi sermo.</p>
 
-<p xml:id="b1d3qun-iieids">Item in Evangelo “magnum gaudium est 
-<lb ed="#S"/>angelis in caelo super uno peccatore”, etc. Credo quod tales displicentiae 
+        <p xml:id="b1d3qun-iieids">Item in <ref corresp="#b1d3qun-Qmgesup"><title ref="#LukeGospel">Evangelo</title></ref><note corresp="#b1d3qun-Qmgesup">Lucam 15:7</note> <quote xml:id="b1d3qun-Qmgesup">“magnum gaudium est 
+<lb ed="#S"/>angelis in caelo super uno peccatore”</quote>, etc. Credo quod tales displicentiae 
 <lb ed="#S"/>quae procederunt ex caritate ad proximos viatores non 
 <lb ed="#S"/>repungunt eorum statui beatifico, nec credo quod omnia fient circa alios 
 <lb ed="#S"/>quae fieri optant circa alios, sed circa se concedo quod quicquid optant sibi 
@@ -1996,7 +1998,7 @@ actus hinc, inde nam, si Deus in ea duplaret respectu creaturae
 <lb ed="#S"/>corporibus in tantum ut semper sint minus beati quam post erunt quia hic non 
 <lb ed="#S"/>distentio[?] qualiter debeant {intelligi}. Consequenter tamen quicquid volunt de hiis 
 <lb ed="#S"/>in quibus aequaliter sunt beati, quia non possunt desiderare nisi quod ratio secundum legem divinae iustitiae dictat eos licite posse velle 
-<lb ed="#S"/>[85va] vel nisi quod Deus eis liberaliter confere voluit quod dum in via viverent 
+<cb ed="#S" n="85va"/><lb ed="#S"/>vel nisi quod Deus eis liberaliter confere voluit quod dum in via viverent 
 <lb ed="#S"/>meruerent[?].</p>
         </div>
         <div>
@@ -2007,7 +2009,7 @@ actus hinc, inde nam, si Deus in ea duplaret respectu creaturae
 <lb ed="#S"/>etc.’ Dicendum quod imago Dei sumitur uno modo pro substantia mentis creaturae rationalis, 
 <lb ed="#S"/>quae semper dum est, est memoria, intelligentia, et voluntas, et illud bonum non 
 <lb ed="#S"/>perdidit homo quoad substantiam per peccatum, licet perdiderit efficientiam bene 
-<lb ed="#S"/>operandi <corr><add>ex impedimentis</add></corr> quae incurrit et hic sit sua in naturalibus vulneratio. 
+<lb ed="#S"/>operandi ex impedimentis quae incurrit et hic sit sua in naturalibus vulneratio. 
 <lb ed="#S"/>Alio modo pro ista substantia cum actibus cogitationis et dilectionis Dei, et 
 <lb ed="#S"/>actus illos perdidit in qua licet forte creatus fuit vel 
 <lb ed="#S"/>etiam quales poterat in statu innocentiae et semper, si non delinquerent, 
@@ -2026,7 +2028,7 @@ actus hinc, inde nam, si Deus in ea duplaret respectu creaturae
 <lb ed="#S"/>per antecedens, et per consequens magis imago.</p> 
 
 <p xml:id="b1d3qun-rqhpms">Respondet quod homo est ens nobilius 
-<lb ed="#S"/>extensive, sed mens intensive. Et secundo modo loquitur <name>Anselmus</name>, 
+<lb ed="#S"/>extensive, sed mens intensive. Et secundo modo loquitur <name ref="#Anselm">Anselmus</name>, 
 <lb ed="#S"/>quia tamen illud non apparet esse verum, cum nobilitas inter sit aequalis 
 <lb ed="#S"/>pars humanae nobilitatis, et per consequens, quod homo sit aeque nobilis 
 <lb ed="#S"/>vel nobilius mente sua. Ideo potest dici quod sicut homo 
@@ -2050,15 +2052,15 @@ actus hinc, inde nam, si Deus in ea duplaret respectu creaturae
 <lb ed="#S"/>in primam notitiam illius cuius est imago vel cuius est vestigium.</p>
 
 <p xml:id="b1d3qun-arcasd">Ad rationes contra in arguendo factas, patet supra quod non est ibi, 
-<lb ed="#S"/>secundum Magistrum, tanta similitudo quin in aliquo sit dissimilitudo. </p>
+<lb ed="#S"/>secundum <name ref="#Lombard">Magistrum</name>, tanta similitudo quin in aliquo sit dissimilitudo. </p>
 
 <p xml:id="b1d3qun-aqrcme">Ad quintum respondetur et bene quod quoad aliquid, cogitatio eius 
-<lb ed="#S"/><add place="margin">est</add> nata abducere <add place="margin">et quo</add> ad aliquid nata est iuvare ad cogitationem per 
+<lb ed="#S"/>est nata abducere et quo ad aliquid nata est iuvare ad cogitationem per 
 <lb ed="#S"/>factam Trinitatis, quantum enim ad hoc quod in Deo sit alia Trinitas 
 <lb ed="#S"/>ex hoc, quod meminit, intelligit, et amat, iuvat etc., et etiam quantum 
 <lb ed="#S"/>ad hoc, ut cognoscatur distinctius modus emanationis, similes 
 <lb ed="#S"/>emanationes inveniuntur in actu intellectus et in actu voluntatis, 
-<lb ed="#S"/>sicut <name>Augustinus</name> declarat 5 <title>De Trinitate</title> c. 15 in fine, sed quantum ad hoc abducit 
+<lb ed="#S"/>sicut <ref><name ref="#Augustine">Augustinus</name> declarat 5 <title ref="#deTrinitate">De Trinitate</title> c. 15 in fine</ref>, sed quantum ad hoc abducit 
 <lb ed="#S"/>ut sciatur, scilicet, an Pater et Spiritus Sanctus sint distincti, quia cum 
 <lb ed="#S"/>hoc unum ens se ipsum abducit, inquam, nisi quia fides firmus 
 <lb ed="#S"/>facit adhaere, quia sit sicut quam argumentum, a simili abducat 
