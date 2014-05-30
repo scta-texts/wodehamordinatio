@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Book 1, Distinctio 17, q. 3 [Mazarine Transcription]</title>
+                <author xml:id="AW">Adam Wodeham</author>
+                <editor xml:id="JW">Jeffrey C. Witt</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2013.11">
+                    <title>Book 1, Distinctio 17, q. 3 [Mazarine Transcription]</title>
+                    <date when="2013-11-27">November 27, 2013</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Lombard Press</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref
+                            target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+                            Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2013-11-27">November 27, 2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="M">Mazarine</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
+        <body>
+            <div xml:id="b1-d17-q3">
+                <head>Book 1, Distinctio 17, q. 3 [Mazarine Transcription]</head>
+                <p><lb ed="#M"/><hi rend="dropCapFourLines">T</hi>ertio circa distinctionem 17 quaero <corr><add place="aboveLine">utrum de peccatore</add></corr> possit fieri non peccator 
+                    <lb ed="#M"/>et acceptatus deo sine tali habitu sibi infuso per 
+                    <lb ed="#M"/>gratiam increatam</p>
+                
+                <p>videtur quod non de quacumque potentia quia 
+                    <lb ed="#M"/>nullus de peccatore possit fieri non peccator per quam<lb ed="#M"/>cumque 
+                    potentiam nisi sibi remittitur culpa sed culpa non potest pec<lb ed="#M"/>catori 
+                    remitti sine omni dono sibi collato igitur probatio mi<lb ed="#M"/>noris 
+                    quia expulsio culpae et infusio gratiae sunt eadem 
+                    <lb ed="#M"/>mutatio nam si alia erit <sic>erit</sic> expulsio sive remissio culpae 
+                    <lb ed="#M"/>mutatio acquisitiva et hoc non nisi detur intentum quia mutationis 
+                    <lb ed="#M"/>acquisitive sive positive terminis ad quem est aliquid positivum istius 
+                    <lb ed="#M"/>autem expulsionis non est terminus ad quem positivus alius a gratia igitur 
+                    <lb ed="#M"/>aut erit mutatio privativa aut deperditiva et hoc non quia tunc terminus 
+                    <lb ed="#M"/>a quo esset positivus sed culpa non semper est aliquid positivum igitur etc <g ref="#dot"/></p>
+                
+                <p><lb ed="#M"/><g ref="#pilcrow"/>Contra non minus posset deus alicui cui offenditur <choice><orig>remictere</orig><reg>remittere</reg></choice> 
+                    <lb ed="#M"/>offensam sine eius mutatione ad instantiam alterius alicuius 
+                    <lb ed="#M"/>quam homo possit facere sed homines frequenter ad preces aliorum 
+                    <lb ed="#M"/>remittunt offensas igitur etc <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>Item non est idem esse 
+                    <lb ed="#M"/>amatum et non esse inimicum <g ref="#dot"/> igitur alicui posset deus offen<lb ed="#M"/>sam 
+                    sine culpa remittere ita quod iam non haberet eum pro inimico 
+                    <lb ed="#M"/>absque hoc quod reciperet eum ad gratiam amicitiae quae est acceptatio 
+                    <lb ed="#M"/>ad vitam aeternam et ita posset de peccatore fieri non peccator 
+                    <lb ed="#M"/>sine gratiae infusione <g ref="#dot"/></p>
+                <div>
+                    <head>Divisio quaestionis</head>
+                <p><g ref="#pilcrow"/>hic primo notanda sunt aliqua dubia 
+                    <lb ed="#M"/>quibus videretur quod non <g ref="#dot"/> <g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice> tenebitur conclusio opposita et <choice><orig>3o</orig><reg>tertio</reg></choice> solventur 
+                    <lb ed="#M"/>rationes in contrarium <g ref="#dot"/> <choice><orig>4o</orig><reg>quarto</reg></choice> moventur dubia <g ref="#dot"/></p>
+                </div>
+                <div xml:id="aw-b1d17q3a1" type="articulus"> 
+                    <head>primus articulus</head>
+                
+                    <p><g ref="#pilcrow"/>ad primum arguitur primo sic 
+                        <lb ed="#M"/>non est transitus a contradictorio in contradictorium sine mutatione quia si 
+                        <lb ed="#M"/>nulla sit <corr><del>trans</del>mutatio</corr> nulla est ratio quare nunc una pars contradictionis 
+                        <lb ed="#M"/>est vera quam alia et prius quam <choice><orig>alica</orig><reg>aliqua</reg></choice> etc <g ref="#pilcrow"/>Sed quando isti remittitur 
+                        <lb ed="#M"/>culpa est transitus talis quia antequam culpa remittatur est 
+                        <lb ed="#M"/>dignus vita aeterna igitur talis transitus esse non poterit sine muta<lb ed="#M"/>tione 
+                        reali quia mutatio rationis si quae sit oportet quod reducetur 
+                        <lb ed="#M"/>ad mutationem realem cum igitur ista mutatio non sit in voluntate 
+                        <lb ed="#M"/>divina nec in actu eius igitur erit in <choice><orig>alico</orig><reg>aliquo</reg></choice> cui culpa remittitur et 
+                        <lb ed="#M"/>per consequens remissio culpae in isto est <choice><orig>alica</orig><reg>aliqua</reg></choice> eius <corr><del>trans</del>mutatio</corr> re<lb ed="#M"/>alis 
+                        et ita habebit terminum realem ad quem cum non habeat terminum realem 
+                        <cb ed="#M" n="87vb"/><lb ed="#M"/>a quo <corr><del rend="expunctuated">quem cum non habeat</del></corr> saltem oportet quod habeat et ille terminus 
+                        <lb ed="#M"/>vocatur gratia <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>Item peccator ante <choice><orig>penitentiam</orig><reg>poenitentiam</reg></choice> est iniustus 
+                    <lb ed="#M"/>post <choice><orig>penitentiam</orig><reg>poenitentiam</reg></choice> vero iustus sicut communiter scriptura peccatorem est 
+                    <lb ed="#M"/>vocat iniustum et liberato a peccato iustum <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>et ex 
+                    <lb ed="#M"/>hoc arguitur sic iniustitia cum sit formaliter privatio non potest <choice><orig>auf<lb ed="#M"/>ferri</orig><reg>au<lb ed="#M"/>ferri</reg></choice> 
+                    ab <choice><orig>alico</orig><reg>aliquo</reg></choice> nisi detur eius habitus oppositus quia pri<lb ed="#M"/>vare 
+                    privatione est ponere habitum quia sunt immediate op<lb ed="#M"/>posita 
+                    circa subiectum aptum natum <g ref="#dot"/> anima autem est apta na<lb ed="#M"/>ta 
+                    recipere iustitiam igitur iste qui iustificatus factus est de iniusto 
+                    <lb ed="#M"/>iustum recipit habitum oppositum illi privationi si enim 
+                    <lb ed="#M"/>nihil inesset sibi formaliter plus nunc quam prius non plus careret 
+                    <lb ed="#M"/>nunc privatione quam prius caruit <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>praeterea peccator dum est 
+                    <lb ed="#M"/>peccator non est dignus vita aeterna igitur cum de peccatore 
+                    <lb ed="#M"/>fit acceptus aliquid formaliter recipit <g ref="#dot"/> <g ref="#pilcrow"/>probatio consequentiae 
+                    <lb ed="#M"/>quia ipse nunc est dignus vita aeterna reddere et nihil 
+                    <lb ed="#M"/>tale prius habuit dum erat peccator igitur <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>praeterea deus non 
+                    <lb ed="#M"/>acceptat peccatorem ad vitam aeternam institutam[iustificatum?] ac<lb ed="#M"/>ceptat 
+                    quaero igitur quid est acceptare istum ad vitam 
+                    <lb ed="#M"/>aeternam hoc non est velle voluntati beneplaciti beatificare pro tunc quia tunc 
+                    <lb ed="#M"/>statim beatificaret <g ref="#dot"/>igitur hoc velle istum secundum dispositionem quam nunc habet 
+                    <lb ed="#M"/>esse dignum tali praemio <g ref="#dot"/> illa diversitas non potest poni ut videtur 
+                    <lb ed="#M"/>in voluntate divina quia est immutabilis igitur propter diversitatem ex parte istius 
+                    <lb ed="#M"/>quia isto omni modo eodem se habente voluntas divina vult ipsum 
+                    <lb ed="#M"/>eodem modo se habere <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>confirmatur ita ratio quia volitio divina quae 
+                    <lb ed="#M"/>est unus actus in se non habet rationem oppositorum seu distinctorum 
+                    <lb ed="#M"/>actuum ut velle et nolle absque omni distinctione obiectorum contrariorum 
+                    <lb ed="#M"/>haec enim velle divinum non est velle quod de beneplaciti et nolle 
+                    <lb ed="#M"/>similiter[?] respectu <choice><orig>alicorum</orig><reg>aliquorum</reg></choice> nisi ista opposita distinguantur alioquin contra<lb ed="#M"/>dictoria 
+                    erunt vera absque omni distinctione causante illam veritatem 
+                    <lb ed="#M"/>igitur cum deus velit istum institutum ad aliquid ad quod non vult 
+                    <lb ed="#M"/>peccatorem propter quam diversitatem dicitur diligere istos et odire 
+                    <lb ed="#M"/>peccatores in scriptura sequitur quod illa distinctio secundum rationem ex parte 
+                    <lb ed="#M"/>volitionis divinae <choice><orig>neccessario</orig><reg>necessario</reg></choice> requiritur <sic>volitionem</sic> accidentalem ex parte ipsorum 
+                    <lb ed="#M"/>obiectorum aliter igitur se habet in se quando dicitur dilectus deo et aliter 
+                    <lb ed="#M"/>quando oditus <g ref="#dot"/></p>
+                
+                    <p><g ref="#pilcrow"/>Item si nihil aliud esset in anima istius quando ac<lb ed="#M"/>ceptatur 
+                        quam quando erat peccator non videtur quod <choice><orig>alico</orig><reg>aliquo</reg></choice> modo se 
+                        <lb ed="#M"/>habeat aliter ad deum nec deus ad ipsum quam prius quia non 
+                        <lb ed="#M"/>videtur esse illa <sic>alietas</sic> propter mutationem <choice><orig>alicam</orig><reg>aliquam</reg></choice> factam ex parte 
+                        <lb ed="#M"/>dei igitur si concedatur sicut videtur <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> quod <choice><orig>alico</orig><reg>aliquo</reg></choice> modo se habeat 
+                        <lb ed="#M"/>ad deum et econverso hoc erit propter mutationem istius et ita aliquid 
+                        <lb ed="#M"/><choice><orig>in fiet</orig><reg>infiet</reg></choice> sibi de novo formaliter non autem infieret sibi de novo 
+                        <lb ed="#M"/>fides et spes quia iste manserunt in peccatore igitur 
+                        <lb ed="#M"/>caritas haec sit in sententia et fieri in verbis <g ref="#dot"/></p>
+                     
+                     <p><g ref="#pilcrow"/>Item quod 
+                         <lb ed="#M"/>contradictio sit quod deus tollat peccatum quod modo de facto est 
+                         <lb ed="#M"/>peccatum secundum leges nunc statutas sine collatione licet 
+                         <lb ed="#M"/>via opposita esset probabilis non loquendo de isto peccato quod 
+                         <lb ed="#M"/>modo de facto secundum leges de facto statutas est peccata <g ref="#dot"/> 
+                         <lb ed="#M"/>sed quod esset peccatum si deus alias leges ordinavit quod utique 
+                         <lb ed="#M"/>non esset contradictio videtur et tenetur primo quia peccatum quod modo de 
+                         <lb ed="#M"/>facto est peccatum mortale formaliter includit privationem habitus in<lb ed="#M"/>fusi 
+                         igitur non tollitur sine infusione habitus <g ref="#dot"/> <g ref="#pilcrow"/>consequentia patet 
+                         <lb ed="#M"/>quia privatio non tollitur nisi per habitum antecedens probatur quia nisi 
+                         <lb ed="#M"/>peccatum includeret privationem gratiae nullus teneretur de facto 
+                         <lb ed="#M"/>habere gratiam et caritatem quia nullus tenetur nisi vitare omne 
+                         <lb ed="#M"/>peccatum commissionis et omissionis</p>
+                
+                        <p><g ref="#pilcrow"/>Item <choice><orig>2o</orig><reg>secundo</reg></choice> sic homo 
+                            <lb ed="#M"/>non potest ex naturalibus vitare peccatum omne peccatum igitur peccatum 
+                            <lb ed="#M"/>privat aliquam formam quae non est in potestate naturali hominis tunc 
+                            <lb ed="#M"/>haberet ex naturalibus omne positivum requisitum ad hoc quod 
+                            <lb ed="#M"/>vitetur omne peccatum quod est error <name ref="#Pelagius">pelagii</name> <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>Item omne 
+                    <lb ed="#M"/>peccatum privat actum bonum igitur gratiam consequentia patet quia actus 
+                    <lb ed="#M"/>bonus requirit tamquam circumstantiam requisitam gratiam inhaerere eliciti 
+                    <lb ed="#M"/>actum bonum antecedens patet quia peccatum <choice><orig>repungnat</orig><reg>repugnat</reg></choice> praecepto 
+                    <lb ed="#M"/>quo obligamur ad implendum manifesta[?] ex caritate et ideo eo ipso 
+                    <cb ed="#M" n="88ra"/><lb ed="#M"/>conclusio ponitur peccatum committitur et omittitur aliquid cui oppositum 
+                    <lb ed="#M"/>requirit actus bonus bonitate requisita ad impletionem praecepti</p>
+                
+                    <p><g ref="#pilcrow"/><lb ed="#M"/>Item viator meretur quod deus multum praemiet[?] eum aliter 
+                        <lb ed="#M"/>deus esset acceptor personarum sed sit mereari[?] non potest homo 
+                        <lb ed="#M"/>ex puris naturalibus quod est error <name ref="#Pelagius">pelagii</name> de quo habetur 
+                        <lb ed="#M"/>diffuse quo ad omnes articulos sui erroris in <ref><sic>12o</sic> <!--probably 2o --> libro <title>sententiarum</title> 
+                        <lb ed="#M"/>distinctione 28</ref> nota ibi sed peccatum privat meritam igitur oportet quod pri<lb ed="#M"/>vat 
+                        aliquid supernaturale</p>
+                
+                <p><g ref="#pilcrow"/>Item ubi est denominatio intrinseca 
+                    <lb ed="#M"/>impossibile est transire de contradictorio in contradictorium sine mutatione 
+                    <lb ed="#M"/>subiecti illius de quo vel pro quo verificatur[?] contradictoria verificantur 
+                    <lb ed="#M"/>successive sed cum de peccatore et non accepto sit ac<lb ed="#M"/>ceptatus 
+                    ibi est transitus de contradictorio et in contradictorium secundum denominationem 
+                    <lb ed="#M"/>intrinsecam igitur maior patet in extremis quia quod aliquid fiat album 
+                    <lb ed="#M"/>de non albo sine mutatione eius subiectiva et intrinseca de non 
+                    <lb ed="#M"/>habente gratiam fiat habens gratiam sine forma gratiae in ipso re<lb ed="#M"/>cepta 
+                    <g ref="#dot"/> <g ref="#pilcrow"/>minor patet quia peccatum quod modo est peccatum pri<lb ed="#M"/>vat 
+                    gratiam et ideo peccator non sit non peccator sine collatione 
+                    <lb ed="#M"/>gratiae quidquid enim feceris si non <choice><orig>inpleas</orig><reg>impleas</reg></choice> praecepta ex gratia 
+                    <lb ed="#M"/>est peccatum aliter posset homo mereri ex puris naturalibus vel 
+                    <lb ed="#M"/>vitare omne peccatum ex puris naturalibus et etiam implere omnia prae<lb ed="#M"/>cepta 
+                    ex naturalibus iste igitur transitus sine infusione gratiae est impossibilis 
+                    <lb ed="#M"/>quia gratia seu caritas quam privat peccatum et cetera <g ref="#dot"/> huius dona 
+                    <lb ed="#M"/>sunt formae realiter infusae animae in consilio ex baptismo <name>gratianus[?]</name> 7 de<lb ed="#M"/>creta 
+                    <g ref="#dot"/>et qui aliter sentit de sacramentis ecclesiae quam sancta romana 
+                    <lb ed="#M"/>ecclesia etc <g ref="#dot"/></p>
+                </div>
+                <div xml:id="aw-d17q3a2" type="articulus"> <!-- article 2 here ? -->
+                    <head>Secundus articulus</head>
+                     <p><g ref="#pilcrow"/>Sed quamvis 
+                         de facto et de potentia dei ordinata nullius de peccatore fiat non peccator 
+                         et quatenus argumenta ad hic deducta et quae duci possunt et auctoritates multae 
+                         etiam valeant et verum concludant <g ref="#dot"/> tamen quin de dei potentia absoluta aliter 
+                         valeat fieri non video nec credo <g ref="#slash"/> sed firmiter oppositum teneo <g ref="#dot"/> opinando 
+                         tam de isto peccato loquendo quod de facto peccatum est <g ref="#dot"/> tam de illo quod 
+                         esset peccatum hodie[?] non obligato ad habendum donum supernaturale caritatis 
+                         quod scilicet talis posset esse vel fieri carus et accptatus deo sine infusione 
+                         alicuius doni supernaturalis etiam ad statutum de certo tempore secundum quod supra 
+                         expositum erat <g ref="#dot"/> tamen ad novitatem b?torum[?] motuum quos voluntas 
+                         elicere posset ex naturalibus <g ref="#dot"/> cum <choice><orig>3o</orig><reg>tertio</reg></choice> quia ad preces vel mutationem in alio 
+                         posset deus originale vel actuale peccatum alicui <choice><orig>remictere</orig><reg>remittere</reg></choice> et ad 
+                         vitam aeternam ordinare quod licet illorum posset deus ordinare hodie 
+                         vel cras certa quemcumque peccatorem et tenere cum omnibus posset 
+                         quae de facto sunt peccata vel fuerint <choice><orig>ymo</orig><reg>immo</reg></choice> quod plus est dico quod 
+                         nec de possibili posset homo tantum peccare quin deus posset <choice><orig>remictere</orig><reg>remittere</reg></choice> 
+                         totum sibi sine omni dono supernaturaliter inhaerente sibi deus enim 
+                         per nullas leges ordinatas privait se sua pussima[?] misericordia[?] 
+                         et omnipotentia quin plene et liberrime posset ad huc de quibus continet 
+                         futuris ita ad omnem partem contradictionis ordinatae sicut 
+                         potuit ab aeterno licet non valeat incipere ordinare sed 
+                         potest modo contingentissime et liberrime  ordinasse de qualibet parte contradictionis 
+                         futurorum causabilium <choice><orig>sicud</orig><reg>sicut</reg></choice> sibi placet licet hoc solo privetur deus 
+                         sicut recte dixit agaton secundum <ref type="citation"><name>philosophum</name> 6 <title>ethicorum</title></ref> ingenita posse <!-- another example of in text citation --> 
+                         facere quae utique sunt iam facta Et praeter istas <choice><orig>3</orig><reg>tres</reg></choice> vias et 
+                         media ex prioribus plenius patentia articulo aliter sic sicut arguit 
+                         <ref type="citation"><name>scotus</name> 4 libro distinctione 16 quaestione 2</ref> remissio culpae et infusio gratiae non 
+                         sunt eadem mutatio et hoc probat <choice><orig>4r</orig><reg>quattuor</reg></choice> ubi ad levius loquendum et expressius 
+                         accipio quod remissio culpae <corr><add place="marginBottom">non est realiter idem cum infusione gratiae nec includit eam formaliter igitur culpa</add></corr> posset <choice><orig>remicti</orig><reg>remitti</reg></choice> absque infusione 
+                         gratiae</p>
+                
+                <p><g ref="#pilcrow"/>Praeterea bono assumpti quia <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> est idem plurificari <corr><add place="marginRight">vero esse conum</add><del rend="underline">plura</del></corr> sed remissiones culparum 
+                sunt multae quando infusio gratiae non est nisi una eo modo 
+                    quo aliquis dicitur peccator propter actum peccati transeuntem et dicitur peccator 
+                    a multis culpis postquam multas commisit et illarum quaelibet habet 
+                    propriam remissionem et quaelibet remissio posset esse sine alia si tantum 
+                    illam culpam commisisset et non aliam</p>
+                
+                <p><g ref="#pilcrow"/>Item idem non potest 
+                    separari ab eodem uniformaliter accipiendo <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> et separationem 
+                    quia hoc includit compositum primi principii scilicet quod idem ut est idem sit simul 
+                    et non sit sed remissio culpae et infusio gratiae posset separari quod 
+                    patet tam cooperando primum ad <choice><orig>2m</orig><reg>secundum</reg></choice> quam econverso posset enim in statu innocentiae 
+                    in genere humano et ita factum est angelis qui non 
+                    peccaverunt gratia infundi sine remissione alicuius culpae quia 
+                    nulla culpa infuit similiter potest culpa <choice><orig>remicti</orig><reg>remitti</reg></choice> absque hoc quod 
+                    infundatur gratia</p>
+                
+                <p><g ref="#pilcrow"/><sic>probatio</sic> deus potest de potentia absoluta creare hominem 
+                    in puris naturalibus sine culpa et sine gratia igitur et post lapsum talem 
+                    reparare et ita <choice><orig>remictere</orig><reg>remittere</reg></choice> culpam sine infusione gratiae 
+                    sed quemcumque qui esset sine culpa posset deus ulterius de potentia absoluta 
+                    immediate acceptare ad vitam aeternam igitur</p>
+                
+                <p><g ref="#pilcrow"/>Item culpa et supra[?] 
+                    non sunt formaliter opposita nec formaliter <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> igitur tollere culpam non 
+                    est idem quod ponere gratiam nec econtra igitur posset de dei omnipotentia culpa 
+                    tolli absque hoc quod poneretur gratia <corr><add place="marginRight">et hoc est propositum</add></corr></p>
+                
+                <p>probatio assumpti quia tunc 
+                    omne agens effective vel defective potens super esse unus oppositorum 
+                    posset effective vel defective super esse alterius sicut patet <corr>ve<add place="aboveLine">r</add>um<del rend="expunctuated">formaliter</del><desc>uniformaliter is corrected to verum</desc> <del rend="expunctuated">de</del><add place="marginRight">in incompossibilibus</add> 
+                    <del rend="underline">omnibus</del></corr> voluntas aut creata potest effecitve vel defectiv super esse alterius 
+                    culpae scilicet quia ab ipsa est culpa igitur ipsa posset effective vel 
+                    defective super non esse gratiae quod falsum est <g ref="#dot"/> quia gratia non destruitur nisi 
+                    adnihiletur creatura autem non potest aliquid praecise per creationem producibile adnihilare 
+                    quidquid sic de aliis patet igitur prima propositio quod non est <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> 
+                    inter culpam et gratiam sed non est praecise unica mutatio ab <choice><orig>alico</orig><reg>aliquo</reg></choice> 
+                    ut a termino vel aliud ut ad terminum ad quem nisi sint formaliter <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> 
+                    igitur etc</p>
+                
+                <p><g ref="#pilcrow"/>Istud potest confirmari quia deus non <choice><orig>neccessario</orig><reg>necessario</reg></choice> <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> absoluta 
+                    quando ille vult furari vel fornicari destruit donum positivum quod 
+                    ipse solus potest destruere vel creare ergo Item ubi termino a quo 
+                    privationis eset mutatio unica talis mutatio non est ad formam 
+                    nisi a propria privatione eius sed culpa qua post actum aliquis dicitur peccator 
+                    non est propria privatio gratiae sed habitio potius non gratiae in apto nato 
+                    cui accidit totaliter omnis talis culpa quia unica gratia non habet 
+                    nisi unicam privationem propriam multae autem sunt culpae</p>
+                
+                <p><g ref="#pilcrow"/>Isto modo <g ref="#dot"/> 
+                    secus esset de culpa qua aliquas dicitur peccator non ab actu praevio 
+                    sed eo praecise quod non haberet gratiam quam teneretur habere ex praecepto 
+                    etc</p>
+                
+                <p><g ref="#pilcrow"/>Tamen diceretur leviter forte ad illud quod omnis culpae tales 
+                    etiam privant formas eiusdem rationis</p>
+                
+                <p><g ref="#pilcrow"/>contra licet ita sic de facto non 
+                    tamen ex natura rei nec <choice><orig>neccessario</orig><reg>necessario</reg></choice> sed ad ordinationem contingentem quia aliter ordinare 
+                    posset tamen et gratia possit poni sine remissione cuiuscumque 
+                    culpae ut praeostensum est et econverso de quacumque culpa a qua sicut ab 
+                    actu transeunte communis dicitur peccator <choice><orig>ymmo</orig><reg>ymo</reg></choice> et culpa quae est carentia 
+                    gratiae quae praecipitur haberi quia posset aliquis absolvi ab <choice><orig>alico</orig><reg>aliquo</reg></choice> peccato sive 
+                    ab isto debito et tunc esset carus ad vitam aeternam sine infusione 
+                    gratiae vel esse posset</p>
+                
+                <p><g ref="#pilcrow"/>Item omnibus illis privationibus correspondebant 
+                    proprii habitus vel rectitudines vel circumstantiae quas privabant 
+                    vel privant praeter gratiam quam communiter ex sta?to[?] dei hoc et oc?tei[?] 
+                    privant <choice><orig>sicud</orig><reg>sicut</reg></choice> patuit praecedenti quaestione Item illa forma quae gratia vocatur et 
+                    est de facto gratia posset manere in anima de potentia absoluta dei absque 
+                    hoc quod culpa quaecumque commissa <choice><orig>remicteretur</orig><reg>remitteretur</reg></choice> vel absque hoc quod 
+                    unquam infuturm daretur gloria nulla enim forma creabilis in anima viatorum 
+                    potest <choice><orig>neccessitare</orig><reg>necessitare</reg></choice> deum ad beatitudinem conferendam vel <corr><del>cum</del></corr> culpam 
+                    dimissam <choice><orig>remictendam</orig><reg>remittendam</reg></choice> et sicut non <choice><orig>neccessitatur</orig><reg>necessitatur</reg></choice> ad positionem gratiae id est 
+                    istius qualitas ad cuius positionem non <choice><orig>remicteret</orig><reg>remitteret</reg></choice> culpam nec obligationem 
+                    ad <choice><orig>penam</orig><reg>poenam</reg></choice> perpetuam nisi vellet ex mera liberalitate 
+                    sua ita posset <choice><orig>remictere</orig><reg>remittere</reg></choice> culpam sine ulteriori gratia infundenda 
+                    quia aliter processus in infinitum cum ita arguerem de illa <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+                    de deata ista poterit si sibi placebit primam culpam transeuntem 
+                    actu <choice><orig>remicteret</orig><reg>remitteret</reg></choice> aut gratiam actualiter <choice><orig>remictere</orig><reg>remittere</reg></choice> nullam gratiam 
+                    <corr><del rend="underline">qualitatem</del> quae fit <g ref="#carrot"/><add><g ref="#carrot"/>qualitas</add></corr> infundendo non dico absque omni gratia quia <choice><orig>remictere</orig><reg>remittere</reg></choice> 
+                    culpam vel acceptare ad beatitudinem est gratia magna 
+                    de sed ista nullius qualitatis vel formae supernaturalis praevie[?] 
+                    beatitudini <choice><orig>inpressionis</orig><reg>impressionis</reg></choice> animae ipsa requirit de potentia dei 
+                    absoluta</p>
+                
+                <p><g ref="#pilcrow"/>Item sicut ostendi <name>scotus</name> libro 4 post actum culpae transeuntem 
+                interiorem et exteriorem praeter iniustitiam habitualem quae 
+                    est carentia gratiae quam teneretur quis habere non remanet 
+                    aliqua iniustitia actualis propria[?] a qua dicatur peccator tali peccato 
+                    quia anima non est immediate receptiva illius obliquitatis quae nata 
+                    est esse in peccato actuali vel non est nata esse ipsum met peccatum 
+                    actuale secundum diversas via<del rend="blackout">s</del> loquendo sed tantum mediante actu proximo 
+                    in quo sic ista obliquitas vel qui sit eius obliquitas 
+                    ad modum quo poneretur albedo esse similitudo igitur post actum transeuntem 
+                    tantum remanet anima obligata ad positionem propriam 
+                    correspondentem illi culpae remissae et illa obligo dicitur reatus 
+                    qui manet in anima post actum transeuntem intrinsece sed istam 
+                    obligationem posset deus de omnipotentia sua tollere seu <choice><orig>remictere</orig><reg>remittere</reg></choice> 
+                    sine gratiae infusione et <choice><orig>remictere</orig><reg>remittere</reg></choice> <choice><orig>penam</orig><reg>poenam</reg></choice> debitam et etiam 
+                    statuere quod non teneretur habere grataim et ita sine infusione gratiae 
+                    posset de omnipotentia sua tollere tam iniustitiam habitualem 
+                    quam istum reatum sine gratiae collatione inhaerentis igitur et ad 
+                    vitam aeternam acceptare quia non est dubium quin illum qui 
+                    esset sine omni culpa posset de omnipotentia sua fre[?] de peccatore 
+                    non peccatorem sine infusione cuiuscumque doni formaliter inhaerentis</p>
+                
+                <p><g ref="#pilcrow"/>Et haec omnia ultimo confirmo quia nisi hic posset deus de omnipotentia 
+                    sua cum nulla videantur iam dicta contradictionem includere 
+                    frustramen videtur distinguunt doctores de potentia dei absoluta 
+                    ordinata nisi scilicet aliter posset facere et disponere de rebus qua 
+                    faciet vel facere disposuerit de facto <g ref="#slash"/> motus quo praedicta fieri 
+                    possint p?bit[?] post ex solutione rationum contrariorum ad quarum primam 
+                    solvendo laborat et subicitis et <corr>diff<del rend="expunctuated">i</del><add place="aboveLine">u</add>use</corr> <ref><name>scotus</name> libro 4 distinctione 16 
+                    quaestione 2</ref> et ibi habetur plene illud quod tenet <name>okam</name> de solo transitu 
+                    temporis</p>
+                </div>
+                <div xml:id="aw-b1d17q3a3" type="articulus">
+                    <head>Tertius articulus</head>
+                <p><g ref="#pilcrow"/>Respondendum est hic igitur sicut supra praecedenti quaestione quod tripliciter potest 
+                    esse transitus de contradictorio ad contradictorium vel propter mutationem in illo 
+                    de quo successive verificantur contradictoria et ita posset si placeret 
+                    deo esse indiferrener ad formam naturalem scilicet actum <choice><orig>penitendi</orig><reg>poenitendi</reg></choice> et dolendi 
+                    de omisso vel commisso vel ad formam supernaturalem vel ad 
+                    mutationem in alio vel ad successionem temporis praesupposito statuto 
+                    conditionali de tempore utpote si iste qui peccavit decedat 
+                    citra tale vel tantum tempus punietur <choice><orig>pena</orig><reg>poena</reg></choice> perpetua ita quod per tantum 
+                    tempus remanebit obligatus et dignus <corr><del>pnae</del><add place="marginBottom">tali pena et quod ex tunc non puniretur pena perpetua si discederet si sit statueret d?6[?] iste primo quam peccavit usque ad a erat dignus praevisione[?]</add></corr> secundum legem 
+                    dei ex tunc non nec propter istam successivam verificaitonem istorum contradictorum 
+                    in complexorum de isto oportet[?or?] ponere mutationem in deo quantumque 
+                    certum est quod ab aeterno simul potuisse et semper voluisse 
+                    utrumque istorum scilicet punire istum pena perpetua si decederet 
+                    in <c>a</c><g ref="#dot"/> vel post <c>a</c> nec etiam or[?oportet?] propter hoc mutationem in isto ponere 
+                    nec inquocumque alio sed tantum modo quod tempus transeat nam et homo offensus 
+                    homini vult ad hominem[?] istum esse dignum priviatione alitus boni 
+                    vel <choice><orig>pena</orig><reg>poena</reg></choice> aliqua ita quod si citra tamen tempus posset eum promovere 
+                    per tota vita non vaceret vel si posset eum liberare ab <choice><orig>alico</orig><reg>aliquo</reg></choice> 
+                    infortunio non faceret et hoc ad <choice><orig>penam</orig><reg>poenam</reg></choice> tempus 
+                    certum quare non ita poterit deus cum eodem actum posset hoc homo <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>dices dum iste erat peccator nec remissum sibi peccatum deus 
+                    praescivit <corr><g ref="#carrot"/><add place="marginCenter">sit<g ref="#carrot"/></add></corr> ita quod alteram partem absolute scivit quod scilicet faceret 
+                    vel non faceret determinate praescivit in quam quod proce[?] l[?] aue?tur[?] 
+                    vta illius ultra <c>a</c> et per consequens quod actus peccati praeteritus non <choice><orig>inputatur</orig><reg>imputatur</reg></choice> 
+                    sibi finaliter sed ex tunc si superviveret foret carus vel 
+                    non inimicus quia ad propositum de hiis duobus est eadem difficultas 
+                    sed deus hic non praescivit nisi et hic praevoluerit et si hic igitur semper praeordinavit 
+                    eum ad vitam aeternam igitur semper fuit carus et acceptus 
+                    deo ergo non transivit de non accepto ad acceptum</p>
+                
+                <p><g ref="#pilcrow"/>Item in <c>a</c> instanti et deinceps iste est carus et acceptus et non 
+                    ante quare modo et non ante ex quo nihil habet quod non ante habuit 
+                    Item aut isit <choice><orig>remicti</orig><reg>remitti</reg></choice> poeccatum et ipsum non esse inimicum est esse 
+                    causarum et praeparatum ad vitam aeternam aut non si sic igitur non est 
+                    medium inter esse carum amicum et esse inimicum si non</p>
+                
+                <p><g ref="#pilcrow"/>praeterea ponatur 
+                    ergo quod iste decedat in illo statu quem ponis mediare 
+                    inter statum amicitiae et inimicitiae iste statim erit extra 
+                    statum viae et meriti igitur carebit vita aeterna et hoc praescivit 
+                    et voluit per consequens igitur voluit eum carere vita aeterna sed 
+                    hoc est eum habere inimicum aliter parvulis decedens in originali 
+                    non esset inimicus quia tamen puniretur <choice><orig>sicud</orig><reg>sicut</reg></choice> ille <choice><orig>pena</orig><reg>poena</reg></choice> <choice><orig>dampni</orig><reg>damni</reg></choice> 
+                    perpetui igitur iste nunc scivit scilicet ante decessum in isto quem 
+                    ponis medium</p>
+                
+                <p><g ref="#pilcrow"/>ad primum dicendum quod idem argumentum est de peccatore 
+                    <corr><del rend="underline">et de actum peccati et de omni universaliter in peccato perseverante tunc</del><add place="bottom">dum actu peccat et actu vult in peccato perseverare</add></corr> 
+                    enim scit determinate utrum dabit sibi gratiam suam in qua debuit 
+                    ille finaliter <corr>confirmari[?]</corr> aut non et si scit se finaliter daturum 
+                    vult hic determinate igitur et vult isti vitam igitur dum iste 
+                    actu peccatu est carus et acceptus ad vitam aeternam</p>
+                
+                <p><g ref="#pilcrow"/>dicendum igitur 
+                    ad utrumque quod iste consequentiae deus novit finaliter <corr><g ref="#carrot"/><add place="marginCenter"><g ref="#carrot"/>istum</add></corr> habiturum vitam 
+                    aeternam igitur sive dum actum peccat sive postquam peccat et manet 
+                    reus ipsum determinate acceptat deus ad vitam aeternam sed 
+                    non secundum statum praesentem <g ref="#dot"/>quia non secundum istum est dignus gloria 
+                    aeterna et si in isto actu moreitur quod non esset <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> <choice><orig>pena</orig><reg>poena</reg></choice> perpetua 
+                    plecteretur sed deus praescit et praeordinavit quod iste 
+                    mutabitur et <corr><del rend="expunctuated">et</del><add place="aboveLine">vel</add></corr> subiective mutatus vel secundum statutum de transitu temporis 
+                    reconciliatus vel ad preces aliorum et hoc est quod antiqui dicebant 
+                    de actu <corr><del rend="expunctuated">penitentiae</del></corr> etiam quod scilicet est acceptatus et praedestinatus 
+                    ad vitam aeternam secundum praescientiam sed non secundum praesentem iustitiam</p>
+                
+                <p><g ref="#pilcrow"/>ad <choice><orig>2m</orig><reg>secundum</reg></choice> q?ar[?] est modo carus et non ante quia placet deo libere 
+                    et <corr><del rend="expunctuated">non</del> semper <add place="marginLeft">quia</add> <del rend="expunctuated">pro tunc</del></corr> placuit quod si modo decederet haberet beatitudinem 
+                    et non si ante et hco vel mediante mutatione illius vel alterius vel secundum 
+                    statutum cadens super tempus ut praedictum est et non est hoc propter <choice><orig>alicam</orig><reg>aliquam</reg></choice> 
+                    mutationem quae modo contingeret et prius non contigisset et quare hoc quia ita simul 
+                    semper placuit deo ita quod non est variatio aliqua ex 
+                    parte actus divini nec etiam in isto de facto sed tantum de possibili quae 
+                    scilicet nunc continget et prius non contigisset et hic et nihil aliud explicant 
+                    contradictoria quorum unum prius verificabatur et modo reliquum</p>
+                
+                <p><g ref="#pilcrow"/>ad <choice><orig>3m</orig><reg>tertium</reg></choice> dico 
+                    quod si ille nec amicus nec inimicus secundum statum praesentem sive[?] <del rend="expunctuated">i</del> iustitiam praesentem 
+                    sic morietur s?na[?] nulla lata esset contra eum de <choice><orig>pena</orig><reg>poena</reg></choice> propterea <choice><orig>dapni</orig><reg>damni</reg></choice> 
+                    et ideo nihil alius posset semper post mortem sibi mereri vitam aeternam 
+                    vel ipsemet ex quo sententia[?] non est latat contra eum vel ipse 
+                    maneret sub pendulo in differentes gratiae divinae it quod clara 
+                    differentia eset inter statum ipsius et parvuli decedentis in originali sic 
+                    igitur patet quod non est absolute <choice><orig>neccesse</orig><reg>necesse</reg></choice> quod ille ad hoc quod de peccatore fiat 
+                    acceptatus recipiat donum supernaturale de facto aliter tamen stat de 
+                    potentia dei ordinata</p>
+                
+                <p><g ref="#pilcrow"/>ad <choice><orig>2m</orig><reg>secundum</reg></choice> principale illud procedit de facto quia scriptura 
+                    loquitur sicut congruit divinae potentiae et legibus dei ordinatis et ideo 
+                    verum est quod de iniustitia quae est privatio cuiusdam qualitas in mente secundum 
+                    veritatem de facto quod ita privatio non tollitur sine positione iustitiae 
+                    quae sit illa qualitas et eodem modo nec privatio <del rend="expunctuated">qualitatis quae est</del> 
+                    caritas quae est qualitas potest tolli per quamcumque potentiam in <choice><orig>alico</orig><reg>aliquo</reg></choice> apto 
+                    nato recipere sine positione illius qulitatis nisi plus inalligamus 
+                    per privationem huius quam carentiam formae huius in apto nato 
+                    recipere eam quod addo propter hoc quod privatio caritatis vel iustitiae dupliciter 
+                    potest accipi vero modo praecise pro carentia talis formae in subiecto nato eam 
+                    recipere et sicut dixi <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> est tollere privationem iustitiae vel 
+                    caritatis in <choice><orig>alico</orig><reg>aliquo</reg></choice> subiecto apto nato talem recipere sine hoc quod 
+                    subiectum recipiat formam qua caruit et hoc idem dico generaliter 
+                    de quacumque privatione sic dicta</p>
+                
+                <p><g ref="#pilcrow"/>alio modo potest vocari privatio iustitiae 
+                    non hoc sive addito sed carentia iustitiae sive caritatis in apto 
+                    nato illam recipere quando tenetur istam habere iuxta modum etiam philosophi 
+                    etiam in <title>praedicamentis</title> et <choice><orig>5o</orig><reg>Vo</reg></choice> <title>metaphysicae</title> et isto modo iustitia et privatio iustitiae 
+                    non sunt immediata circa idem subiectum <choice><orig>ymmo</orig><reg>immo</reg></choice> posset aliquis non habere iustitia 
+                    nec obligari ad habendum eam et tunc nec esset privatus iustitia 
+                    nec haberet iustitia sic sumpta privatione iustitiae isto modo fuisset 
+                    de homine in puris naturalibus</p>
+                
+                <p><g ref="#pilcrow"/>Ad formam igitur argumenti dicendum 
+                    de loquendo de iustitiae privatione primo modo maior vera est sed non 
+                    talis praecise est illa iustitia se privatio iustitiae aliqua peccator actu 
+                    praeterito denominatur in iustus sed est privatio iustitiae ad quam 
+                    obligatur et tenetur habere quia igitur potest iste de potentia dei absoluta 
+                    liberari ab ista obligatione <corr><del rend="expunctuated">hoc</del></corr> absque hoc quod aliquid sibi inprimatur 
+                    ideo hic transibitur a privari iustitia ad non privari 
+                    sine positione cuiuscumque habitus sequitur enim tunc sic sumpta privatione 
+                    iustitiae iste est iniustus sive privatus iustitia igitur tenetur habere iustitiam 
+                    et non habet eam igitur ex opposito consequentis sequitur oppositum antecedentis sed 
+                    oppositum consequentis habetur vel ad negationem primae partis istius copulative vel 
+                    ad sublationem negationis secundae igitur etc igitur sic loquendo de privatione 
+                    iustitiae sine positione cuiuscumque habitus potest tolli et privatio sit 
+                    dicta et habitus non sunt immediate opposita tunc idem et ideo sicut 
+                    patet ex dictis iste poterit carere privatione iustitiae sine positione 
+                    cuiuscumque habitus</p>
+                
+                <p><g ref="#pilcrow"/>ad <choice><orig>3m</orig><reg>tertium</reg></choice> primam consequentiam concedo si procedat <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+                    quia procedit de facto sed non or[?] quod aliquid formaliter reciperet ad probationem 
+                    quia ipse non est dignus etc <g ref="#dot"/> primum est de facto sed aliter posset deus 
+                    ordinare</p>
+                
+                <p><g ref="#pilcrow"/>ad <choice><orig>4m</orig><reg>quartum</reg></choice> dicendum quod licet ista diversitas quae posset sine <choice><orig>inpressione</orig><reg>impressione</reg></choice> 
+                    in eo quae non si prius <g ref="#dot"/>tamen a voluntate divina oritur illa diversitas <g ref="#dot"/> 
+                    et hoc per istum modum quia ex quo deus aeternaliter 
+                    praeordinavit sic ita quod non loquar nunc absolute de isto 
+                    quod sic <g ref="#dot"/> sed quod fieri posset quod iste si moretur citra <c></c><g ref="#dot"/> puniretur 
+                    perpetuo et privaretur vita aeterna et ita de <c>a</c><g ref="#dot"/> et deinceps 
+                    non sequitur quod iste pro toto tempore citra <g ref="#dot"/><c>a</c><g ref="#dot"/> est dignus punitione 
+                    aeterna et indignus vita aeterna secundum praesentem statum nisi forte 
+                    <choice><orig>actingat</orig><reg>attingat</reg></choice> <g ref="#dot"/> et hoc non propter variationem vel diversitatem in actum 
+                    dei nec in isto de facto sed propter solum transitu cuius ratio patet 
+                    quia sequitur <g ref="#dot"/> deus ab aeterno disposuit quod iste qui omisit vel 
+                    commisit quod non debuit non foret citra <c>a</c> absolutus tunc absolveretur 
+                    et foret dignus et iste ad hoc sit citra <c>a</c><g ref="#dot"/> igitur non est dignus 
+                    sed adveniente <g ref="#dot"/><c>a</c><g ref="#dot"/> igitur accipiatur eadem praemissa deus ab 
+                    aeterno disposuit etc sed iste <choice><orig>actigit </orig><reg>attigit</reg></choice> <corr><add place="marginRight">a vel transit igitur est dignus vita aeterna</add></corr> sit igitur patet quomodo ex 
+                    eodem divino actu dispositionis omnino uniformi et uniformiter se 
+                    habente cum solo transitu temporis vel cum obiectis contradictionis de t?[e] 
+                    scilicet ille <choice><orig>actingit</orig><reg>attingit</reg></choice> <c>a</c><g ref="#dot"/> et iste non attigit <c>a</c><g ref="#dot"/> quae duo ad solum 
+                    transitum temporis absque mutatione quacumque subiectam istius de facto 
+                    succedunt sibi in veritate sequitur istum de peccatore fieri non peccatorem 
+                    et acceptum</p>
+                
+                <p><g ref="#pilcrow"/>Ex hac declaratione potest evidenter inferri 
+                    propositum principale de potentia dei absoluta quod unitus actus 
+                    divinus immutatus omnino cum illis <corr><add place="marginRight">appositis prius infert dictas oppositas contradictiones se iste prae[?]se[?] possunt successive verificari</add><del rend="expunctuated">contradictoris</del></corr> absque hoc quod ille peccator 
+                    illam formam supernaturalem vel naturaelm ad hoc recipiat igitur absque hoc 
+                    quod iste de facto mutetur ad hoc potuerunt conclusiones ille successive 
+                    verificari sed conclusiones sunt iste <corr><g ref="#carrot"/><add><g ref="#carrot"/>iste est peccator igitur non eest peccator vel non</add></corr> est dignus vita aeterna etc</p>
+                
+                <p><g ref="#pilcrow"/>Ad 
+                    <choice><orig>5m</orig><reg>quintum</reg></choice> dicendum quod hic est ut tangit argumentum alietas et diversitas 
+                    ex parte oppositorum quia actus iste divinus est collatus illius peccatoris 
+                    ad diversa tempora et dispositis de eo aliter et aliter secundum alietatem 
+                    unius temporis et alterius ideo ad successionem alium temporem circa 
+                    istum ille absque omni mutatione facta circa eum sed non sine mutatione 
+                    quae fieret si decederet aliter si habet et aliter quo ad non acceptari <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>ad <choice><orig>6m</orig><reg>sextum</reg></choice> per idem</p>
+                
+                <p><g ref="#pilcrow"/>ad <choice><orig>7m</orig><reg>septimum</reg></choice> concedo quod peccatum quod de facto est peccatum 
+                    includit privationem alicuius habitus supernaturalis quia includit 
+                    carentiam gratiae quam iste tenetur habere qua per omissum vel commissum 
+                    demeritorie se privavit loquendo de peccatore a peccato actuali 
+                    denominatio et ideo verum est quod peccatum quod modo de facto est peccatum 
+                    non tollitur sine infusione gratiae sine tamen illa infusio est tolli 
+                    posset de potentia dei absoluta quod si fieret licet ille non haberet caritatem 
+                    quia tamen non teneretur eam habere non <choice><orig>inputaretur</orig><reg>imputaretur</reg></choice> sibi ad peccatum 
+                    non includeretur in peccato suo ideo posset sine infusione gratiae 
+                    de peccatore fieri non peccator</p>
+                
+                <p><g ref="#pilcrow"/>dices si dui eum absolveret 
+                    ab obligatione habendi caritatem cum peccatum quod modo est peccatum 
+                    de facto includat non habere caritatem quam tenetur habere et per consequens includat 
+                    contradictionem istam igitur non maneret peccatum quod modo de 
+                    facto est peccatum et ideo nec loquendo de tali peccato per quod posset 
+                    fieri de peccatore non peccator sine infusione gratiae <choice><orig>ymmo</orig><reg>immo</reg></choice> hoc videtur includere 
+                    contradictionem</p>
+                
+                <p><g ref="#pilcrow"/>Respondeo argumentum solvit seipsum quia <choice><orig>sicud</orig><reg>sicut</reg></choice> ostensus est et 
+                    argumentum sumit peccatum quod modo de facto est peccatum posset cessare 
+                    esse peccatum vel esse quod modo de facto est peccatum ad solam in axa?om[?] 
+                    obligationis absque cuiuslibet doni infusione hoc est plene et 
+                    plane intentum quod scilicet peccatum quod modo de facto est peccatum posset 
+                    a deo <choice><orig>remicti</orig><reg>remitti</reg></choice> absque infusione gratiae et ita hoc non includit 
+                    contradictionem aliquam <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>tenuis multum est illa deductio</add><del rend="expunctuated">vel est contradictio</del><g ref="#carrot"/></corr> ad contradictoria inferenda</p>
+                
+                <p><g ref="#pilcrow"/>ad formam 
+                    etiam consequentiam nulla est si inferat quod sic oporteat esse sed opteret ipsum 
+                    inferre ex quo deberet probare propositum includere contradictionem secundum eum 
+                    Et ad probationem consequentiae privatio non tollitur nisi per habitum illud declaratum 
+                    est quo debeat intelligi et veritatem habere et quomodo non respondeo 
+                    ad <choice><orig>2m</orig><reg>secundo</reg></choice> principale</p>
+                
+                <p><g ref="#pilcrow"/>ad <choice><orig>8m</orig><reg>octavum</reg></choice> dicendum quod licet non subsit possibilitati hominis 
+                    ex puris naturalibus sine gratia infusa vitare omne peccatum cuius oppositum 
+                    dicit <name>pelagius</name> quia non est in potestate naturali hominum obligari ad 
+                    habendum huiusmodi gratiam tamen in potestate dei est hominem in puris naturalibus <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>acce[?]</add></corr> parare[?] non plus igitur probat argumentum nisi quod peccatum privat gratiam 
+                    sed hoc non obstante remicti posset de potentia dei sine infusione gratiae quia sine ista potest tolli obiecto de habendo caritatem 
+                    ut dictum est et ideo posset tolli ista privatio scilicet non habere caritatem 
+                    quam tenetur habere absque infusione caritatis</p>
+                
+                <p>ad nonum per idem omnino 
+                    vel circa aliter potest dici quod maior est falsa cum dicitur quod omne peccatum 
+                    privat actum bonum si intelligatur de actu distincto contra habitum 
+                    quia aliquod est peccatum positio actus prohabiti et hoc forte videtur[?] homo 
+                    non tenebatur ponere actum bonum pro illo tunc sed abstine 
+                    a malo actu nisi dicatur quod peccatum potest esse peccatum commissionis 
+                    sine peccato omissionis sicut est valde probabile et tunc posset 
+                    et tunc posset maior ita collerari[?] ad hunc sensum omne peccatum privat 
+                    actum bonum id est habet annexam privatoionem actus boni quo deberet 
+                    cavere istam prohabitam commissionem actualem</p>
+                
+                <p><g ref="#pilcrow"/><ref type="crossref">ad <choice><orig>10m</orig><reg>decimum</reg></choice></ref> <!-- example of using crossref but maybe it should just be sentences ref so that all sentences commentaries references are treated the same --> 
+                    etiam per idem et praeter hic accipit falsum quia aliter deus esset acceptor personarum nisi 
+                    viator meretur quod deus iuste praemiaret enim <g ref="#dot"/>Instantia est 
+                    enim de parvulis quibus absque eorum merito confert viam aeterna 
+                    nec propter hoc est acceptor personarum <choice><orig>ymo</orig><reg>immo</reg></choice> et facit hoc de communi lege 
+                    omnibus parvulis baptizatis</p>
+                
+                <p><g ref="#pilcrow"/><ref type="sentencesref" target="b1_d17-q3.xml#">ad <choice><orig>11m</orig><reg>undecimum</reg></choice></ref> minor est falsa si intelligat <!-- example of using sentencesref instead of cross ref, target should filestem plus paragraph id --> 
+                    quod secundum istam contradictorio quae exprimit sit transitus de contradictorio in 
+                    contradictorium secundum denominationem intrinseca quia carus vel acceptus et ita significativa ista 
+                    important relative vel consignative aliquid extrinsecum scilicet acceptantem et acceptionem 
+                    et ita de potentia dei absoluta fieri posset respectu personae huius absque hoc 
+                    quod illi <choice><orig>inprimeretur</orig><reg>imprimeretur</reg></choice> aliqua qualitas supernaturalis verum est tamen quod de facto 
+                    transitu istum de non aceptari ad acceptari concomitatur sed 
+                    non <choice><orig>neccessario</orig><reg>necessario</reg></choice> secundum potentiam dei absolutam transitus a non qualificari 
+                    ad qualificari ubi est denominatio intrinseca a forma inhaerente et ideo 
+                    bene concedo et volo quod <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> et contradictio esset quod manente subiecto 
+                    qualificali[?] transiretur a non qualificari ad qualificari ubi est denominatio 
+                    formalis et intrinseca ad modum quo denominatio subiecti ab albedine sibi inharente 
+                    est formalis et intrinseca sine mutatione subiecti qualificalis cum 
+                    igitur iste <choice><orig>2us</orig><reg>secundsu</reg></choice> transitus scilicet a non qualificari ad qualificari non contingenter 
+                    et non absolute <choice><orig>neccessario</orig><reg>necessario</reg></choice> concomicetur[?] priorem transitum qui est a non acceptari 
+                    ad acceptari</p>
+                
+                <p><g ref="#pilcrow"/>hinc est quod illum transitum qui posset de potentia dei 
+                    absoluta fieri sine mutaitone subiectiva absque conditione ita tamen concomitantia[?] 
+                    istorum transituum est tantum de facto et de potentia dei ordinata 
+                    non de potenia dei absoluta prior transitus posset esse sine <choice><orig>2o</orig><reg>secundo</reg></choice> et ideo 
+                    verum est quod accipit minor et quod tamen de peccatore et non accepto 
+                    fit <corr><g ref="#carrot"/><add place="aboveLine">non</add></corr> peccator et acceptus ibi fit concomitanter[?] transitus de contradictione 
+                    ad contradictorium secundum denominationem extrinsecam sed iste non exprmitur per se per 
+                    ita contradictoria peccator non peccator acceptus non acceptus et ideo minor ad 
+                    intellectum quo accipitur falsa est ut praedixi pro quo advertendum est quod 
+                    causare gratia non est eo ipso sine pluri peccare sed oportet[?] addi 
+                    debitum habendi eam ad istam carentiam et cum probatur minor quia 
+                    peccatum quod modo est peccatum privat gratiam verum est modo supra ex 
+                    posito quia tamen gratia volendo gratiam istam caritatem quae communiter infunditur 
+                    a deo in iustificatione peccatorum et caritas sic absolute dicta et ita 
+                    privatio non sunt in mediata opposita tunc idem ut superius circa idem ut superius est satis declaratum 
+                    ideo posset tolli ista privatio quae est non sola carentia istius 
+                    qualitatis sed carentia cum debito habendi vel carentia illius pro tempore pro 
+                    quo teneretur[?] habere eam absque positione istius qualitatis per sublationem 
+                    obligationis de habendo istam qualitatem et ita esset transitus ab esse 
+                    peccatorem peccato quod modo de facto est peccatum ad non esse peccatorem 
+                    absque positione illius quantitatis quod est propositum sed non abque transitu a privari 
+                    sic ad non sic privari sed iste transitus a privari sit ad 
+                    non sic privari potest esse basque positione illius qualitatis ut declaratum est quia scilicet 
+                    inter non habere cum intentione habendi et habere mediat simpliciter non 
+                    habere sine intentione habendi immo quod plus est quod posset esse econtra quod ita 
+                    qualitas poneretur et tamen quod iste maneret peccator et non acceptus deo 
+                    de potentia dei absoluta ideo posset esset transitus de non qualificari ita qualitate quam 
+                    vocamus gratiam ad sic qualificari absque hoc quod iste peccator fieret non 
+                    peccator quia nulla forma actualis est in anima qua posita deus 
+                    <choice><orig>neccessitetur</orig><reg>necessitetur</reg></choice> ipsum acceptare ad vitam aeternam</p>
+            </div>
+        <div xml:id="aw-b1d17q3a4" type="articulus">
+            <head>Articulus quartus</head>
+            
+                <p><g ref="#pilcrow"/><choice><orig>4us</orig><reg>quartus</reg></choice> articulus est movere 
+                    dubia et solvere <g ref="#dot"/></p> 
+            
+            
+            <div>
+                <head>Primum dubium</head>
+            <p>primum dubium est si peccatum mortale et gratia informans 
+                    non habent ex naturis suis formalem respectu gratiam ut praedixisti 
+                    igitur pari ratione posset de potentia absoluta sua acceptare 
+                    aliquem actum bonum ex genere illius qui remaneret in culpa mortali 
+                    ad vitam consequens falsum consequentia patet quia omnem habentem talem gratiam potest deus 
+                    de potentia absoluta acceptare ad praemium aeternum pro actu bono ex genere 
+                    a voluntate et caritate proveniente non obstante quocumque quod stare posset per 
+                    eandem absoluta dei potentiam cum illa caritate maxime quia non plus repungnaret 
+                    formaliter visio dei ac beatifica fruitio peccato ut videtur qua ipsa 
+                    gratia non saltem tali peccato mortali quo quis est debitor <choice><orig>penae</orig><reg>poenae</reg></choice> 
+                    aeternae pro actu practico solum modo non dum remisso <g ref="#dot"/> falsas probatur quia 
+                    susce[?] est in peccato mortali propositio[?] et accidentali distincto contra originale 
+                    ipse erit debitor <choice><orig>penae</orig><reg>poenae</reg></choice> aeternae tam sensus quam <choice><orig>dampni</orig><reg>damni</reg></choice> sed si 
+                    aliquis bonus actus <corr><add place="marginRight">i?tius[?]</add><del rend="expunctuated">intellectus</del></corr> est a deo secundum praesentem statum acceptatus 
+                    ad praemium aeternum sibi debetur praemium aeternum <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>igitur sibi debetur praemium aeternum</add></corr> et habiturus est 
+                    aeternam beatitudinem si non recedat a praesenti iustitia etiam si est debitor <choice><orig>penae</orig><reg>poenae</reg></choice> 
+                    aeternae sensus et <choice><orig>dampni</orig><reg>damni</reg></choice> secundum praesentem valorem seu iniustitiam suam igitur 
+                    nisi <choice><orig>peniteat</orig><reg>poeniteat</reg></choice> et recedat a praesenti statu carit?us[?] esset <choice><orig>pena</orig><reg>poena</reg></choice> aeterna 
+                    quia aliter non esset habiturus <choice><orig>penam</orig><reg>poenam</reg></choice> <choice><orig>dampni</orig><reg>damni</reg></choice> ita sunt <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> igitur et culpa 
+                    mortalis et gratia cuius oppositum cum <name>scoto</name> et <name>okam</name> dixisti</p>
+                
+                <p><g ref="#pilcrow"/>ad illud respondeo 
+                    quod non praedixi quod aliquis habens gratiam increatam et quem deus secundum praesentem valorem 
+                    acceptat ad beatitudinem aeternam posset simul cum hoc esse in 
+                    culpa mortali de dei potentia absoluta sed est dictum quod gratia informans 
+                    id est ista qualitas quae infunditur in baptismo non habet formalem contrarietatem 
+                    ex natura sui ad culpam mortalem et ideo dicendum est consequenter quod si deus 
+                    peccatori mortaliter etc per consequens nisi <choice><orig>peniteat</orig><reg>poeniteat</reg></choice> vel donec <choice><orig>peniteat</orig><reg>poeniteat</reg></choice> debetur 
+                    <choice><orig>pena</orig><reg>poena</reg></choice> aeterna tam sensus quam <choice><orig>dampni</orig><reg>damni</reg></choice> non subtraheret istam gratiam quod 
+                    ipsa remaneret sed desineret esse gratia manens tamen eadem qualitas 
+                    quia ipsa non est gratia nisiex dei acceptatione in homine viatore et 
+                    non ex naturali proprietate eiusdem qualitatis qualiter albedo et omnis bonus 
+                    actus vel habitus naturaliter causabilis posset de dei omnipotentia esse gratia et 
+                    ideo dicendum est etiam quod non stant simul haec duo ille habet gratiam 
+                    creatam et ille peccat mortaliter nec hic repungnat huic quod praedixi quod scilicet 
+                    gratia creata non <choice><orig>repungnat</orig><reg>repugnat</reg></choice> ex natura sui culpae mortalis vel potest 
+                    simul stare de potentia de absoluta cum culpa mortali quia per illud 
+                    non plus significatur nisi quod ita qualitas quae de facto est gratia potest 
+                    secum compati sine <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> ex natura talis qualitas culpam mortalem sed si 
+                    haberet secum culpam mortalem ipsa non esset gratia sed veni?te[?] tali culpa 
+                    desineret esse gratia et ideo dubio hic has conclusiones primam superius probatam quod 
+                    gratia creata de dei omnipotentia stare potest tamen culpa mortali <choice><orig>2a</orig><reg>secunda</reg></choice> quod 
+                    non est possibile quod aliquis simul sic in gratia et in mortali culpa quia tunc 
+                    esset possibile quod esset carus et acceptatus secundum praesentem iustitiam ad vitam aeternam 
+                    semper tamen creaturus vita aeterna nisi em[?]det se</p>
+                
+                <p><g ref="#pilcrow"/>Iste conclusiones patent in extremis 
+                    mani?tis[?] album potest naturaliter esse ingenium[?] quia ita res quae est alba potest desinere esse 
+                    alba[?] et fieri ing?a[?] et tamen non est possibile quod aliquis sit simul albus et ingi[?]</p>
+                
+                <p><g ref="#pilcrow"/>Aliud 
+                    exemplum peccatum in spiritum sanctum quod est simul inp?n[?]a est remissibile quod potest <choice><orig>remicti</orig><reg>remitti</reg></choice> 
+                    sed si <choice><orig>remictetur</orig><reg>remittetur</reg></choice> non erat finalis inp?a[?] et ideo non stant 
+                    simul quod aliquis habeat finalem inpuniam[?] et quod <choice><orig>penitebit</orig><reg>poenitebit</reg></choice> et quod <choice><orig>remictetur</orig><reg>remittetur</reg></choice> 
+                    ei et quia si est peccatum tale in spiritu sancto est peccatum quod non <choice><orig>remictetur</orig><reg>remittetur</reg></choice> 
+                    nec hic nec in futuro ex <choice><orig>euvangelio</orig><reg>evangelio</reg></choice> et tam est quia finalis inpin[?]a potest 
+                    non esse finalis inpni?a[?] ipsa manifest ita gratia poteat numquam fuisse 
+                    ergo ut quaestione praecedenti probavi quod deus posset istam in aliquo causare non 
+                    volens illum aeternaliter praemiare</p>
+                
+                <p><g ref="#pilcrow"/>Et tunc ulterius ad dubium iam praetactum 
+                    ante actum bonum ex genere illius qui est in culpa mortali 
+                    posset deus ad vitam aeternam acceptare illo remanente in culpa 
+                    mortali ita quod simul sit inculpa mortali et in gratia id est g?rosus[?] 
+                    deo</p>
+                
+                <p><g ref="#pilcrow"/>dicendum quod non volendo sicut omnis vocant culpam actualem 
+                    mortalem pro qua dabitur isti mors aeterna sensus et <choice><orig>dampni</orig><reg>damni</reg></choice> nisi se evi?det[?] 
+                    et ideo si deus actum bonum ex genere illius qui immediate ante fuit in 
+                    sic in culpa mortali acceptet ad vitam aeternam sicut et potest de 
+                    sua potentia bsoulta et forte etiam de ordinata tunc <choice><orig>remictit</orig><reg>remittit</reg></choice> sibi culpam 
+                    mortalem pro qua nisi peniteat dabitur mors gehene[?] ignis 
+                    id est <choice><orig>pena</orig><reg>poena</reg></choice> sensus ab extra sine pluris tunc non video quin 
+                    sicut anima christi pro hora passionis habuit de dei omnipotentia et visionem 
+                    et fruitionem beatificam et tamen maximam <choice><orig>penam</orig><reg>poenam</reg></choice> ita posset unus 
+                    alius per totum tempus futurum simul habere beatitudinem et talem <choice><orig>penam</orig><reg>poenam</reg></choice> et per consequens 
+                    simul de dei omnipotentia esset dignus aeterno tali praemio beatifico et tamen habiturus 
+                    sine termino <choice><orig>pena</orig><reg>poena</reg></choice> sensus</p>
+                
+                <p><g ref="#pilcrow"/>Contra tamen ita potest obici probando quod simul stant 
+                    quod aliquis permaneat carus dicendum et tamen quod pro culpa sua simul secundum praesentem 
+                    iniustitiam naturale eui?det[?] sit puniendus aeternaliter tam <choice><orig>pena</orig><reg>poena</reg></choice> sensus 
+                    quam <choice><orig>dampni</orig><reg>damni</reg></choice> quia damp[?] vocatur aeternaliter carentia fruitionis et visionis 
+                    beatificae hanc enim carentiam voco et vocavi supra <choice><orig>sicud</orig><reg>sicut</reg></choice> et omnes faciunt 
+                    <choice><orig>pena</orig><reg>poena</reg></choice> <choice><orig>dampni</orig><reg>damni</reg></choice> debitam pro mortali</p>
+                
+                <p><g ref="#pilcrow"/>Istud arguo supposito illo casu 
+                    possibili quod deus praecipiat alicui sub <choice><orig>pena</orig><reg>poena</reg></choice> unius diei in igne purgatorio 
+                    quod non permaneat in a culpa veniali per totam primam partem 
+                    proportionalem crastine diei quae pars sit illius mediatas diei persona vel persona 
+                    eius <choice><orig>3a</orig><reg>tertia</reg></choice> vel persona eius <choice><orig>4a</orig><reg>quarta</reg></choice> vel <choice><orig>sicud</orig><reg>sicut</reg></choice> placebit capere et sub <choice><orig>pena</orig><reg>poena</reg></choice> duorum 
+                    ainerum[?] in purgatorio quod non permaneat in <c>a</c><g ref="#dot"/> per duas personas partes 
+                    proportionales diei crastine et sub <choice><orig>pena</orig><reg>poena</reg></choice> trium quod non per est et sit sine 
+                    fine[?] consequenter et de aliis omnibus posterioribus infinitis et tamen in contrarium 
+                    perserveret iste per totum die crastinam in culpa illa veniali 
+                    tunc arguitur iste habebit tam <choice><orig>penari</orig><reg>poenari</reg></choice> sensus quam <choice><orig>dampni</orig><reg>damni</reg></choice> ponatur casus 
+                    de utraque per infinitos dies et percabit[?] utrumque <choice><orig>penam</orig><reg>poenam</reg></choice> et pro consequens 
+                    sine fine et tamen ille non desiit habere gratiam culpa sua per casum 
+                    erit solum venialis ergo exposito simul habet iste gratiam et tamen eset 
+                    dignus <choice><orig>pena</orig><reg>poena</reg></choice> aeterna tam sensus quam <choice><orig>dampni</orig><reg>damni</reg></choice> <g ref="#dot"/> est dicendum quod ille peccavit 
+                    mortaliter <g ref="#dot"/> icet solum venialiter peccavit usque ad finem diei illius vel 
+                    usque ad instans praecedentis finem illius diei per minimum tempus ab eo perceptibile 
+                    vel maximum ab eo non perceptibile secundum circumstantias tunc praesentes 
+                    tamen ex tunc est culpabilis mortaliter quia non cessavit in falsa[?] tempus quod 
+                    sibi praecipiatur sub incinatione[?] <choice><orig>penae</orig><reg>poenae</reg></choice> aeternae quod cessaret et talem praeceptum 
+                    <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>de libereate</add><del rend="expunctuated">tale</del></corr> per trig?di[?] est mortaliter peccare ii[?] sic autem peccavit quam <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>diu</add></corr> plene[?] 
+                    potuit <corr><del rend="expunctuated">dui</del></corr> scienter et de liberate in partibus futuri temporis sibi praesciti 
+                    actum illum <choice><orig>dimictere</orig><reg>dimittere</reg></choice> venialem et consequenter dicendum est ulterius praeterea per 
+                    omnia <choice><orig>sicud</orig><reg>sicut</reg></choice> ad illud <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>de peccato</add></corr> anna dictum est prius loco suo</p>
+            </div>
+            <div>
+                <head>Secundum dubium</head>
+                <p><g ref="#pilcrow"/><choice><orig>2m</orig><reg>secundum</reg></choice> dubium 
+                    principale sic utrum in baptismo cum de peccatore sic iustus et de non 
+                    caro et accepto ad vitam aeternam carus et acceptus de facto infundatur 
+                    gratia creata quod sic videtur quia tam adulti quam parvulit recipiunt 
+                    in baptismo informantem gratiam et virtutes <choice><orig>sicud</orig><reg>sicut</reg></choice> dicit <ref type="citation"><title>decretalis</title> 7i</ref> <!-- another example of using ref --> 
+                    praeallegata</p>
+                
+                <p><g ref="#pilcrow"/>praeterea ut supra nullus transit de privatione iustitiae ad 
+                    iustitiam sine iustitia inhaerente quia spiritus sanctus non inhaeret animae formaliter igitur 
+                    iustificatus recipit aliquem habitum iustitiae vel gratiae informantis</p>
+                
+                <p><g ref="#pilcrow"/>ad 
+                    oppositum quod gratia informans poni debeat hoc praecise argueret <ref type="citaiton"><title>decretalis</title> 
+                        7i</ref> saepius allegata sed ita hic ponere non cogit quia ita non asserit 
+                    gratiam in baptismo creari sed approbat opinionem quae ponit quod in baptismo virtutes 
+                    et informans gratia infunduntur et quod non solum sed ibi remittitur 
+                    peccatum sed haec possunt salvari sine gratia creata quia ipsemet 
+                    spiritus sanctus ut videtur est gratia informans quaelibet fidelem deo causarum et spiritus sanctus est 
+                    caritas sua et ipse est templum spiritus sancti et habitulum[?] eius ut docet scriptura</p> 
+                    
+                <p><g ref="#pilcrow"/>Et per hoc respondetur ad argumenta praetacta quae concludent verum requiri scilicet gratiam 
+                    informantem et ipsa informans gratia est ipse spiritus sanctus et hoc tenet <name ref="#RichardFitzRalph">fi ranfi[s]</name></p>
+                    
+                <p><g ref="#pilcrow"/>In contrarium tamen movet me quod omnes antiqui scribentes posuerunt 
+                    deum nec compositum secundum se nec alteri compossibilem vel materiam vel formam informantem 
+                    nec ab <choice><orig>alico</orig><reg>aliquo</reg></choice> audivi contrarium praeer quam ab uno qui a suis compulsus 
+                    est istam sententiam retractare cuius motum fuit quia dare 
+                    perfectionem non arguit imperfectionem in dante sed formam informare materiam 
+                    non est nisi sibi dare perfectionem igitur etc</p>
+                
+                <p><g ref="#pilcrow"/>??[?] potest dici quod esse partem 
+                    essentialem arguit <choice><orig>inperfectionem</orig><reg>imperfectionem</reg></choice> etc</p>
+                
+                <p><g ref="#pilcrow"/>Item tunc quia ex deo et homine per ipsum 
+                    informali fieret per se unum sicut ex materia et sua forma et per consequens cum omne 
+                    per se unum sic vera entitatis <corr><add place="marginRight">per se una vel per partes eius <choice><orig>alica</orig><reg>aliqua</reg></choice> entitas</add></corr> per se una esset melior deo quia in 
+                    bonis commune totum est melius sua parte</p>
+                
+                <p><g ref="#pilcrow"/>Item tunc cum operationem 
+                    formae verae licet mediante et quasi per accidens communicant informato <choice><orig>sicud</orig><reg>sicut</reg></choice> disgregari 
+                    vel vi?ri[?] convenit subiecto albedinis sequitur quod quaelibet fidelis iustus licet non per se 
+                    sed per spiritum sanctum formam suam creet mundum vel gubernet et conservet et 
+                    faciet omnia quae et deus consequens non est dandum</p>
+                
+                <p><g ref="#pilcrow"/>Item si deus posset 
+                    esse forma informans intellectum creatum igitur potest esse intellectio qua formaliter 
+                    talis intellectus intelligat et dilectio qua diligat et delectatio qua formaliter 
+                    delectentur nam ideo per creatam intellectionem creatura intelligit quia ipsa cum 
+                    hoc <corr><del rend="expunctuated">est</del></corr> quod est intellectio est forma intellectus</p>
+                
+                <p><g ref="#pilcrow"/>Et si dicas quod 
+                    conclusio huius rationis vera est secundum illum quia in quaestio qua quaerit an sic ponenda in anima 
+                    alia creatura quam spiritus sanctus <corr><add place="marginRight">ubi respondens</add><del rend="expunctuated">dicens</del></corr> in opere correctio argumento <name>scoti</name> de transitu 
+                    a contradictorio ad contradictorium supra tracto dicit quod contradictorio possint successive 
+                    esse vera sine nova igitur quod patet inquit in exemplo manifeste ponatur quod deus 
+                    faciat aliequem cognoscere scilicet deum postquam non cognovit nihil in ipso 
+                    causando sed solum sibi illabendo tunc enim inquit est haec vera iste cognoscit 
+                    deum et tamen <choice><orig>nichil</orig><reg>nihil</reg></choice> est de novo causatum haec illae</p>
+                
+                <p><g ref="#pilcrow"/>Si responsio haec 
+                    quo ad exemplum quod foret haec ad propositum tamen non est vera <choice><orig>sicud</orig><reg>sicut</reg></choice> ostendi distinctione 
+                    prima et ostendam alias suo loco licet bene ista responsio evacuaret argumentum 
+                    hic</p>
+                
+                <p><g ref="#pilcrow"/>Item etiam contra istum in materia de revelationibus futurorum intrando 
+                    ad beatificam[?] et etiam <corr><del>magister</del><add place="marginRight">lectura</add></corr> sententiarum tenet contrarium et bene ut alias recitabo</p>
+                
+                <p><g ref="#pilcrow"/>Item etiam in quaestione an accidentalis cogitatio distinguatur realiter 
+                    a speciei in memoria tenet quod verbum divinum non est cogitatio angeli unde si 
+                    non esset in angelo aliquid praeter verbum <choice><orig>nichil</orig><reg>nihil</reg></choice> cogitaret neque intelligeret 
+                    in actum <choice><orig>2o</orig><reg>secundo</reg></choice> sicut consequenter intendit ibi probare et alias saepe superius suis 
+                    locis recitavi tenet idem haec omnia in opere correcto igitur haec 
+                    est responsio et licet hic ponat et dicat hic esse manifeste verum cum tamen aliquali 
+                    teneat contrarium quasi ubique nec sit verum quod hic dicit propter argumenta  distinctione 
+                    prima per me posita et alia multa per eum contra hic suis locis recitata 
+                    et recitanda non <choice><orig>inpeditur</orig><reg>impeditur</reg></choice> in aliquo ratio iam praefata quia 
+                    si esset deus forma animae per ipsum formaliter posset anima intelligere 
+                    quod verum non est</p>
+                
+                <p><g ref="#pilcrow"/><choice><orig>6o</orig><reg>sexto</reg></choice> sequitur quod anima tais vel angelis eset deus vel deitas 
+                    omnis enim forma nata est dare denominationem secundum suam entitatem 
+                    suo perfectionali sicut corpus ab anima animatur vel est animatum et 
+                    superficies per albedinem alba etc</p>
+                
+                <p><g ref="#pilcrow"/>praeterea tunc anima talis non minus informaretur 
+                    patre et filio quam spiritus sanctus et per consequens tum actio formae tribuatur mediante 
+                    illi quod informat sequitur non solum quod anima talis operetur mediante ad extra 
+                    quidquid ageret deus <choice><orig>ymo</orig><reg>immo</reg></choice> et quod generet filium et spiraret spiritum sanctum nec plus 
+                    scirem rationabiliter hoc vitare quam quod subiectum albedinis videatur Et si 
+                    dicatur secundum eum quod aequivoce est forma talis cum aliis formis illud 
+                    non valet quia non potest istam aequivocator[?] ponere nisi in hoc quod non dependet 
+                    a sua forma materia <choice><orig>sicud</orig><reg>sicut</reg></choice> multae aliae formae faciunt ita certe nec anima 
+                    intuitiva dependet tamen per naturam possit manere sine subiecto ut patet in 
+                    morte naturali et cum anima est sic forma quod est pars essentialis hominis 
+                    componens cum corpore sicut forma inhaerens subiective et si ex hoc quod 
+                    taliter informet deus animam sequuntur omnia inconvenientia praeillata 
+                    igitur vel <choice><orig>2o</orig><reg>secundo</reg></choice> est falsa vel ista omnia essent vera</p>
+                
+                <p><corr><g ref="carrot"/><add place="marginLeft" hand="different"><g ref="#pilcrow"/>Contra tamen ista pro <unclear>op[?]</unclear> <unclear>trina[?]</unclear></add><del rend="expunctuated">sicud</del></corr> arguit doctor iste certum 
+                    est enim inquit quod deus et nobis et angelis inhaeret formaliter licet aequivoce 
+                    cum dependentia a subiecto hic enim ait manifestum est ex theologia et 
+                    philosophia</p>
+                
+                <p><g ref="#pilcrow"/>Ex theologia patet hic dicit enim <ref><name ref="#Augustine">augustinus</name> 2 libro <title>de libro arbitrio</title> capitulo 28</ref> 
+                    conferetur itaque ut et corpus et animus forma quadam incommunicabili et semper manente 
+                    formentur cui formae dictum est mutabis ea et mutabuntur tu aut[?] 
+                    idem ipse es etc Ecce quod deus non solum est forma ante sed corporis</p>
+                
+                <p><g ref="#pilcrow"/>Item 
+                    <ref><name>linco[?]</name> super 3 c <title>caelestis Iearchiae</title> parte 3</ref> pulchre et ex intn?one[?] de 
+                    cla?c[?] quod deitas est esset existentium et virtus vivifica viventium et sensitiva 
+                    sensentium et sapientia sapientium</p>
+                
+                <p>Item <ref><name>commentator</name> est[?] <title>de anima</title> commeto 
+                    5</ref> versus finem dicit quod quemadmodum[?] esse sensibile dividitur in formam et 
+                    materiam sic ens intelligibile oportet dividi in similia hiis duobus scilicet in aliquid similem 
+                    materiae et in aliquid simile formae et alico 14 intelligentiae abstracte perficiuntur 
+                    per se invicem et recipiunt se praeter[?] pm[?] quae linea est ab hac nulla 
+                    et quia negant p?a?m[?] formam informare alias <choice><orig>remicto</orig><reg>remitto</reg></choice> eos ad 12 
+                    <title>metaphysicae</title> ut addiscant in <ref>commento 45</ref> quomodo unusquisque motorum 
+                    orbium centium[?] perficiter per primum motiorem et ut addiscant in <choice><orig>alico</orig><reg>aliquo</reg></choice> 52 
+                    quomodo ostensis praeter primam formam componitur[?] est potentia et actum nec est 
+                    alia causa nisi quia superior informat inferiorem et praetera a nulla informatur</p>
+                
+                <p><g ref="#pilcrow"/>ad ista omnia dico quod deus est forma abstracta quae formantur omnia 
+                    active et qua sentimus et movemur et summus secundum <name>apostolum</name> ipso 
+                    active nos formante et nobis cooperante et cum omnibus et quia formae 
+                    solent dare esse specificum informando et operationem etiam ideo quia haec proprietas 
+                    formae qua forma dicitur alicui pn?im[?] operandet active arguit[?] deo 
+                    dicitur deus forma omnium aliorum agentium non autem ab inofmrando 
+                    ea</p>
+                
+                <p><g ref="#pilcrow"/>Quia autem allegatur de arguere[?] quod omnes intelligentiae[?] informantur ab aliis 
+                    praeter primam quae sola secundum eum libera est ab hac nulla acceptionis ulterioris 
+                    verum est quod omnis sunt receptive cognitionum[?] et amororum ab 
+                    aliis praeter primam vel ut ita loquar recipiunt ipsum suum esse si ipsum 
+                    sic cognitio et amore prima non sic nec est verisimile licet <name>commentor</name> ponat 
+                    intellectum materialem perfici in esse per agentem quod ille intellectus agens posset 
+                    secundum eum perfici per aliam et sic usque ad primam alioquin ex omnibus 
+                    intelligentiis posset componi ex se unum <choice><orig>sicud</orig><reg>sicut</reg></choice> ex perfectionibus et perfectibilibus 
+                    nec etiam illud quod perficiunt se invicem et recipiunt se circulatio 
+                    enim huius est in hoc impossibilis haec igitur non possunt habere veritatem nisi de 
+                    receptione mutua in ratione obiectorum et cognoscibilium et amabilium et haec 
+                    videtur si se intelligit mutuo per accidentia superaddita vel receptione 
+                    sola methaphysica si una per se ipsam intelligit aliam sibi praesentem 
+                    sine verba receptione accidentis</p>
+                
+                <p><g ref="#pilcrow"/>Eodem modo intelligendum est illud dictum contraris[?] quod 
+                    omnis perficiuntur per p?am[?] obiective scilicet et per illius activam etiam manu[?] tenentiam 
+                    conservantur et active perficiuntur si quas secundum eum recipiunt 
+                    inhaerentes actiones quorumcumque</p>
+            </div>
+            <div>
+                <head>Tertium dubium</head>
+                <p><g ref="#pilcrow"/><choice><orig>3m</orig><reg>tertium</reg></choice> dubium est quod si de peccato 
+                    re et indigno vita aeterna secundum legem dei ordinatam non fiat 
+                    dignus sine mutatione ad formam supernaturalem in eo positam contra quia 
+                    si haec propositio fuisset ab aeterno si peccatus mortaliter peccaturus iustificabitur 
+                    sibi infundetur in vita gratia informans tunc ipsa ab aeterno fuisset 
+                    vera igitur per nullam dei potentiam poterit esse falsa igitur de nulla potentia 
+                    poterit iustificari sine infusione gratiae si enim per aliquam potentiam 
+                    poterit illa propositio esse falsa vel igitur ab aeterno et tunc simul vera et falsa quia 
+                    ponatur in esse cum igitur per te ab aeterno fuerit vera ab aeterno fuisset 
+                    simul vera et falsa et si ex tempore vel in <choice><orig>alico</orig><reg>aliquo</reg></choice> instanti primo poterit incipere 
+                    esset falsa igitur usque tunc semper fuisset vera nunc primo falsa sed non est transitus 
+                    talis sine novitate et non est novitas aliqua vel mutatio ibi ex parte 
+                    creaturae possibilite igitur ex parte dei sed hoc falsum et impossibile quia secundum <ref><name>augustinum</name> 12 
+                    <title>confessionum</title></ref> deus non potest modo velle unum et modo velle aliud <choice><orig>sicud</orig><reg>sicut</reg></choice> et creatura</p>
+                
+                <p><g ref="#pilcrow"/>ad illud dicendum quod ista propositio si ab aeterno fuisset ab aeterno 
+                    fuisset vera contingenter tamen et non absolute <choice><orig>neccessario</orig><reg>necessario</reg></choice> fuisset vera et ideo potuisset 
+                    esset falsa <corr><add place="marginBottom">et potest et ab aeterno et ex tempore primum tamen non infert quod simul fuerit vera et falsa sed quod simul fuerit nota[?] et potuerit esse falsa</add></corr> et si <choice><orig>2a</orig><reg>secunda2a</reg></choice> pars ponatur in esse ante peccatum respectu futurae de qua est 
+                    sermo eo ipso numquam fuit ita propositio vera cum ista fortissime repungnent 
+                    scilicet quod ab aeterno fuerit vera et ponatur in esse quod ab aeterno fuerit 
+                    falsa et ideo positio huius <corr><g ref="#carrot"/><add place="aboveLine">in esse</add></corr> quod ab aeterno fuerit falsa est positio quod ipsa nunquam fuerit 
+                    ante positionem sui in esse vera sed cum positione in esse quod ab aeterno 
+                    fuerit falsa stat bene quod ab aeterno potuit esse vera et ex tempore etiam potest 
+                    incipere esse falsa per potentiam rei significatae in esse sicut dato quod deus ab 
+                    aeterno scivit me esse sessiorum[?] in <c>a</c> instanti <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>tamen veniente <c>a</c> instanti[?]</add></corr> haec propositio incipit esse falsa deus 
+                    scit me sessiorum[?] in <c>a</c> quae ante <c>a</c> ab aeterno semper fuisset vera si sed?o[?] 
+                    in <c>a</c> si ab aeterno fuisset scripta vel formata</p>
+                
+                <p><g ref="#pilcrow"/>dices contra hoc est dictum 
+                    <name ref="#Augustine">augustinus</name> quod deus non vult modo unum et modo aliud etc dicendum quod hoc est 
+                    sic introducendum quod non vult modo per unam volitionem modo per aliam <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+                    nos sed semper eadem quia non est in deo successio aliqua volu?num[?] 
+                    sicut est in nobis in quibus volutiones sunt inhaerentes qualitates 
+                    diversae numero</p>
+                
+                <p><g ref="#pilcrow"/>dicendum est etiam quod ante positionem rei novae vel destructionem 
+                    praeexistentis vel transmutationem temporis ubi iste sufficit et requiritur 
+                    non est possibile quod deus velit sic fore nec etiam econverso sed per potentiam 
+                    rei bene potest esset talis transitus sicut patuit in exemplo</p>
+                
+            </div>
+            <div>
+                <head>Quartum dubium</head>
+                <p><g ref="#pilcrow"/><choice><orig>4um</orig><reg>quartum</reg></choice> dubium 
+                    quia si gratia requiritur ad iustificationem peccatoris de communi lege requiretur 
+                    ad meriotire operandum antecedens falsum quia sine talis potest quis reddere deo 
+                    omnem horem debitum et per consequens mereri probatur assumptum alioquin 
+                    habens gratiam et carens gratia tenerentur ad omnia paria quod videtur absurdum 
+                    patet contra quia capio <corr>duo<add place="aboveLine">s</add></corr> pares innatrualiber[?] unum habentem 
+                    gratiam alium carentem ea si ervus teneretur ad meritorie operandum 
+                    et non ad plus tenetur prius nisi ad meritorie operandum igitur ad paria 
+                    tenentur scilicet meritorie operari</p>
+                
+                <p><g ref="#pilcrow"/>alius autem potest ex puris naturalibus <choice><orig>sicud</orig><reg>sicut</reg></choice> et 
+                    primus igitur potest deo reddere omnem horem a se deo debitum sicut 
+                    potest primus ex quo non tenetur meritorie operari igitur <corr><add place="marginRight"/>tenetur ad paria</corr></p>
+                
+                <p><g ref="#pilcrow"/>ad illud negandum 
+                    est assumptum scilicet sine gratia potest quis reddere etc Et ad probationem 
+                    neganda est consequentia et ad probationem omnem dicendum quod licet utrique teneatur ad 
+                    meritorie operandum tamen unus immedaite ex hiis quae habet alii teneretur laborare 
+                    ad apprehendendum <g ref="#slash"/>gratiam quam non habet et in multis similibus posset 
+                    excogitari differentia</p>
+                
+                <p><g ref="#pilcrow"/>Dubitari tamen posse hic ad quid tenetur ille quid numquam 
+                habuit caritatem et ad quid minus unum tamen certum est quod tenetur habere <g ref="#slash"/> optare 
+                eam ea ad hoc inti[?] <g ref="#dot"/> non tenetur autem regratiari deo de gratia 
+                praehabita sint alter non tenetur deo regratiari de hoc quod incepit eam desiderare 
+                et sit de similibus</p>
+            </div>
+            <div>
+                <head>Quintum dubium</head>
+                <p><g ref="#pilcrow"/><choice><orig>5m</orig><reg>quintum</reg></choice> dubium quia si nullus iustificatur nisi per 
+                    gratiam habitam igitur pari ratione econtra de iusto non fit iniustus nisi perdendo 
+                    gratiam et tunc tamen gratia non perdatur nisi propter peccatum mortale 
+                    et ita non nisi propter demeritum personale istius cui tollitur tunc quaero aut 
+                    deus aufert gratiam propter demeritum ab habente gratiam aut a non habente 
+                    eam quia tunc simul in eodem essent mortale peccatum et gratia de lege 
+                    communi dei praeconcessa nec tollit a non habente edam quia hoc est oppositum 
+                    inaddito ut videtur</p>
+                
+                <p><g ref="#pilcrow"/>praetera deus scit distincte in quo instanti est ultimo gratia 
+                    in isto cui propter demeritum aufert gratiam aut igitur illud instantiis est primum instans 
+                    demeriti et tunc simul gratia et mortale peccatum saltem per instans vel ultimum 
+                    instans gratiae sicut primum instans culpae et ad huc sequitur idem vel praecedit 
+                    et tunc est tempus medium inter ista duo <choice><orig>instancia</orig><reg>instantia</reg></choice> nisi ita ponantur immediata 
+                    in quo nec erit iste in peccato nec in gratia et tunc etiam ante demeritum 
+                    per tempus per debet gratiam et ita non propter demeritum</p>
+                
+                <p><g ref="#pilcrow"/>ad primum illorum 
+                    dicendum quod deus primo aufert gratiam praexuntem[?] quando ipsa potentia non est quia 
+                    non est aliud deum eam auferre nisi praexistentem gratiam immediate tunc 
+                    non consecare</p>
+                
+                <p><g ref="#pilcrow"/>ad <choice><orig>2m</orig><reg>secundum</reg></choice> dicendum quod non est aliquod ultimum instans esse gratiae quae 
+                    propter culpam perditur sed primum non esse eius post eius esset et ideo ratio non 
+                    procedit que oppostium supponebat nec hoc est hic speciale sed commune in omnibus 
+                    ubi est primum esse formae sequentis cuius introductio est formae prioris concomitantis 
+                    expulsio formae inquam <choice><orig>repungnantis</orig><reg>repugnantis</reg></choice> formaliter priori <choice><orig>sicud</orig><reg>sicut</reg></choice> ex 
+                    statuto est <choice><orig>repungnantia</orig><reg>repugnantia</reg></choice> mutua in proposito sed in contrarium quod possit de 
+                    communi lege etiam poni ultimum instans gratiae praehbitae arguitur quia dato quod aliquis habeat 
+                    gratiam in hoc instanti sicut possibile talis potest peccare immediate post 
+                    hoc instans quia immediate post hoc instans potest aliquid velle et non plus potest immediate 
+                    post velle bene quam velle male <corr><add place="marginLeft">poterit</add><del rend="expunctuated">potest</del></corr> igitur potest immediate <corr><add place="marginCenter">poterit</add></corr> 
+                    male velle et ita peccare et per cuius gratiam non habere et ita hoc instans 
+                    potest de communi lege esse ultimum instans gratiae in isto</p>
+                
+                <p><g ref="#pilcrow"/>dicendum mihi videtur quod habens 
+                nunc gratiam non potest immediate post hoc peccare mortaliter nisi forsan 
+                    venialiter nisi et modo sic peccet sed <choice><orig>2m</orig><reg>secundum</reg></choice> non es ad propositum discutire 
+                    quia veniale non facti per dei gratiam praehabitam et tamen probas quod sic quia 
+                    immediate post potest male velle nam voluntas potest immediate post 
+                    hoc movere se localiter etiam dato quod nunc non moveat se localiter 
+                vel aliquid aliud igitur multo fortius velle licet non velit quia nihil 
+                    tam <choice><orig>inpossibilitate</orig><reg>impossibilitate</reg></choice> voluntatis etc</p>
+                
+                <p><g ref="#pilcrow"/>dicendum quod hoc est falsum scilicet quod voluntas potest 
+                    immediate post hoc male velle si ly male notet malitiam 
+                    criminalem rarus etiam esset carus ubi posset naturaliter contingere ubi 
+                    voluntas nunc non volens possit in mediate velle intelligendo quod 
+                    per aliquod totum tempus inchoandae ab hoc instanti velit et tamen quod 
+                    modo non velit quia fere semper est primum instans quo vult voluntas postquam non 
+                    voluit volitione deliberata maxime tamen bene concedo hoc esset 
+                    possibile sicut declaratum est in prima distinctione</p>
+                
+                <p><g ref="#pilcrow"/>dico tamen quod in omni casu 
+                    illo in quod voluntas in hoc instanti <corr><add place="marginBottom">non volens est immediate post hoc instans</add></corr> <corr>volitu<add>m<desc>line is added over "u" to indicate addtion of "m"</desc></add><del rend="expunctuated">ra</del></corr> non est dare aliquod velle 
+                    quo immediate post volet nam si aliqua volitio nunc non est et immediate 
+                    post per aliquod tempus totum ipsa esset ipsa simul caperet esse seu instantiae 
+                    producere iuxta alias declarata et ita foret instans instanti immediatum 
+                    quod est impossibile sed in tali casu immediate post volet et tamen non 
+                    erit alia volitio qua immediate volet sed fiet in ea aliquod velle 
+                    crescendo et intendendo ita quod non erit aliquod velle remissimum 
+                    quo volet post hoc instans et quia non volet male <choice><orig>malicia</orig><reg>malitia</reg></choice> 
+                    mortali donec huic actum alicuius determinate incen?ois[?] ita enim 
+                    remissus esse poterit ut videtur actus quod non esset peccatum mortale ideo et concedendum 
+                    videtur quod et si immediate post hoc volet nun non volens tamen 
+                    non immediate post volet volitione quae fit peccatum mortale 
+                    sed erit tempus antequam peccet mortaliter etiam dato quod aliquis actus talis secundum 
+                    speciem sic peccatum mortale secus est quando vult in instanti primo quia tunc 
+                    simul et subito produci poterit in ipso volitio in gradu in quo 
+                    velle huius sic peccatum mortale</p>
+                
+                <p><g ref="#pilcrow"/>ad argumentum informa non est simile ibi 
+                    per volitionem praetestatem potest incipere aliquid localiter movere nec iste 
+                    modus est <choice><orig>inpossibilitate</orig><reg>impossibilitate</reg></choice> voluntatis nisi quia et ipsa volitio <unclear>immixit[?]</unclear> illum <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+                    alias est ostensum per <name>augustinum</name> praecipit voluntas in actu et <unclear>exetur[?]</unclear> etc 
+                    praecipit sibi et non <unclear>exetur[?]</unclear> quia non <unclear>efficaciter</unclear> praecipit sibi nam si efficaciter 
+                    modo pro futuro sed pro praesenti praeciperet a actualiter per consequens vellet quia 
+                    potest simul velle non autem potest simul movere eam nam ad 
+                    hoc nulla est potentia nec ad hic etiam ut individuali mus[?]ti[?]o sine tempore sine 
+                    motu succedat ndivisibile non potest aut voluntas in hoc instanti facere 
+                    aliquid moveri primo post commento sicut potest facere primo se nunc velle 
+                    <c>a</c> postquam non voluit <c>a</c> et ita facit si cum effectum vult hoc velle 
+                    et habeat nunc alia requisita quia velle prius positum est causa naturalis 
+                    mere respectu motus causandi</p>
+                
+                <p><g ref="#pilcrow"/>Contra tamen istam responsionem potest obici 
+                quia cum actu volendi est possibile dare remissiorem qui sit vel 
+                    esse possit culpa moralis igitur responsio nulla assumptum probatur quia detur praeceptum 
+                illi quod post hoc instans nec simul nec successive causet volitionem <c>a</c> 
+                    et tamen scient contrarium solum causando in se volitionem sibi pro habita 
+                    sicut concedit voluntatem posset immediate post hoc instans velle <c>a</c> licet 
+                    non modo velit per successivam cau[?]com[?] talis volitionis non 
+                    autem per subitam</p>
+                
+                <p><g ref="#pilcrow"/>Respondeo quod omnis deliberate vel per deliberationem 
+                    causans volitionem causat simul et subito istam vel aliquam eius partem illa 
+                    autem possibilis pro causari totaliter succesive est volitio consequens naturaliter 
+                    cogitationem quae similiter successive causabitur in talibus quod prima distinctione probavi esse 
+                    possibiles et certe nec talis congrtio nec talis amore est perceptibilis deo 
+                    nec venerit ad gradum bene notabilem et per consequens enim  <choice><orig>inputabiles</orig><reg>imputabiles</reg></choice> ante 
+                    eorum <corr><add place="marginRight">habitiones</add><del rend="expunctuated">habitudines</del></corr> rationabiliter vel si sic hoc erit quia non cauentur per rem[?] entia 
+                    quae sub sunt dmo[?] voluntatis et tunc peccatur primo pro omissione remedii 
+                    in contrarium ad habendi semper quod reme?m[?] vel non[?] est vel nunc ponitur voluntas 
+                    in culpa et ita instantia non procedit</p>
+                
+            </div>
+            <div>
+                <head>Sextum dubium</head>
+                <p><g ref="#pilcrow"/><choice><orig>6m</orig><reg>sextum</reg></choice> dubium est quia si gratia 
+                    sit <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> modo dicto iniustificato a peccato mortali videretur ad hoc 
+                    esse <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ut mediate ipsa meritorie resistatur temptationi accipiatur 
+                    ergo gratia minima quam solet dos[?] creare et quaero utrum ista 
+                    sufficiat cum naturalibus ut ista mediate resisti valeat maxime 
+                    temptationi vel non si non igitur saltem in hoc casu aliquis esset in 
+                    gratia et tamen non posset meritorie per eam vitare peccatum si sic igitur frustra 
+                    auget deus in miribus[?] et aliis sacntis gratiam quia frustra sic 
+                    per maius quod potest fieri per minus</p>
+                
+                <p><g ref="#pilcrow"/>dicendum etiam quod propter causam illam <corr><g ref="#carrot"/><add place="marginRight">non</add></corr> est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> gratia 
+                    et concedo quod minima gratia quam deus solet dare baptismum[?] cuius est 
+                    gratia parvulorum non utentium libro arbitrio licet maiore sic illorum gratia 
+                    quam erat parvulorum circumscisorum solum sufficeret cum naturalibus ad 
+                    resistendum fortissime temptationi utpote ubi mors imminet ne 
+                    peccetur tamen nec sequitur quod mairo gratia superfluat cum quia facilius per eam 
+                    resistitur tamen quia magis meritorie et fruentius per maiorem gratiam resisci 
+                    potest si naturalia sint paria</p>
+            </div>
+            <div>
+                <head>Septimum dubium</head>
+                <p><g ref="#pilcrow"/>Item 7 dubium quod gratia non requiratur 
+                    quia in potentia rationali ita sunt de lege communi post mortem imme?ta[?] habere 
+                    gloriam vel habere penam sed <corr><del rend="expunctuated">vita</del></corr> viator potest ex solis naturalibus 
+                    vitare omnem poenam[?] post mortem etiam sine gratia quia ex solis 
+                    naturalibus potest homo vitare omem culpam per <name ref="#Lombard">magistrum</name> libro 2 distinctioni 24 
+                    c 1 sequitur enim iste vitat omne peccatum igitur omnem poenam[?] et ultra 
+                    pertinget igitur ad gloriam quia lqiui sunt in poena qui non sunt in gloria et 
+                    primum antecedens potest homo sine gratia tali informante igitur et ultimum consequens sine 
+                    tali gratia informante</p>
+                
+                <p><g ref="#pilcrow"/>dicendum quod pro tempore nulla lapsae sunt ita immediata 
+                    post mortem poena vel gloria et hoc sub poena concipiendo causa poena 
+                    sensus quam poena dampni tamen pro statu innocentiae non erat sit quia homo 
+                    pro statu pure creationis in solis naturalibus non erant dignus pena 
+                    nec gloria ideo si mortuus tunc fuisset neutra fuisset sibi debita 
+                    pro isto igitur statu primo et si non potuit meritorie proficere potuit tamen 
+                    omne peccatum vitare et si intelligit <name ref="#Lombard">magister</name> pro illo autem statu nullae lapsae 
+                    non est ita et ita sancti tenet <ref><name ref="#Anselm">anselmus</name> etiam valde plane vult 
+                        hoc libro <title>de concordia gratiae</title></ref> et <ref><title>liberi arbitrii</title> c 17</ref> ubi dicit sic cum paulus 
+                    inquit de illis qui cranem id est concupias sentiunt <corr><g ref="#corr"/><add place="marginRight"/>nolentes</corr> ait nihil 
+                    dampnationis et hiis qui sunt in christo ihesu qui non secundum cranem ambulant 
+                    hoc est non volente conservit sine dubio significat eos qui non sunt 
+                    in christo sequi dampnationem quotiens sentiunt cranem etc si non secundum istam ambulant 
+                    etc et certe istos motus cranis non est secundum <name ref="#Paul">apostolum</name> in 
+                    nobis id est nostra littera potestate non sentire igitur</p>
+                
+            </div>
+            <div type="dubium">
+                <head>Octavum dubium</head>
+                <p><g ref="#pilcrow"/><choice><orig>8m</orig><reg>octavum</reg></choice> dubium quod gratia 
+                    non requiratur de lege communi ad iustitiam et rectitudinem voluntatis 
+                    quia hanc non potest sibi auferre deus de lege ordinata 
+                    ipsa etiam vita secundum <name ref="#Anselm">anselmum</name> ut supra habitum 9 id est huius distinctionem 17 Sed 
+                    deus potest de potentia sua ordinata auferre voluntati gratiam et per consequens actualem 
+                    rectitudinem si ista includit gratiam ipsa in vita igitur gratia ad rectitudinem 
+                    de commune lege dei non requitur minor probatur quia pono quod deus praecipiat 
+                    alicui pro <choice><orig>alica</orig><reg>aliqua</reg></choice> mensura utpotest quod per unam horam[?] nullaum actum 
+                    volendi vel nolendi causet non abstante isto praecept volo quod 
+                    voluntas cui illud praecipitur habeat in hora illa volitionem servandi rectitudinem 
+                    et non servat rectitudinem igitur ipsa in vita caret rectitudine vel aufertur 
+                    sibi rectitudo seu caritas</p>
+                
+                <p><g ref="#pilcrow"/>dicendum quod non ipsa in vita simpliciter 
+                    nego enim <name ref="#Anselm">anselmum</name> ut allegavi in vice vult quia libere et 
+                    voluntarie demeretur demerito a quo aufertur gratia libere 
+                    enim et scienter agit vel elicit actum sibi prohabitum pro hora pro qua sibi in[?] 
+                    tridicitur[?] actus iste dices vult servare rectitudinem et tamen rectitudo 
+                    sibi aufertur igitur ipsa in vita sibi aufertur Et est dicendum quod in hoc volendo libere 
+                    male vult quia tunc velle non deberet ideo libere demerente 
+                et male voluntate perdit rectitudinem et ita antecedentis voluntarie 
+                    licet formaliter et actu elicito et voluntarie hoc est contra inclinationem actus 
+                    quam habet actualiter sed male quia tenetur istum non habere unde antecedentis vel 
+                    virtualiter voluntarie formaliter et consequenter involuntarie</p>
+                
+                <p><g ref="#pilcrow"/>ad argumentum principalem minor 
+                    neganda est si intelligatur de dono quod informet voluntatem ad 
+                    probationem assumptum est negandum quamqaum de facto secundum leges potentiae dei 
+                    ordinate concomitentur se remissio culpae et infusio gratiae et cum 
+                    probas quod sic quia si est alia mutatio aut deperditiva[?] aut acquisitiva</p>
+                
+                <p><g ref="#pilcrow"/>dicendum quod licet de facto concomitetur remissionem culpae mutatio 
+                    subiectiva quam iste de non habente caritatem seu gratiam qualificatur tamen 
+                    de possibili nec remissio culpae esset mutatio acquisitiva nec concomitaretur 
+                    eam mutatio subiectiva in peccatore posita sed ita remissio non 
+                    esset isto casu posito nisi deum ab aeterno sic ordinasse quod si 
+                    iste <choice><orig>actingeret</orig><reg>attingeret</reg></choice> <c>a</c> instans iste deinceps non obligaretur ad potentiam 
+                    perpetuam <corr>n<add place="aboveLine">ec</add><del rend="expunctuated">on</del></corr> ad habendum caritatem quae est qualitas modo de facto 
+                    requisita ad gratificationem peccatorum et simul cum hoc <choice><orig>actingere</orig><reg>attingere</reg></choice> ipsum <c>a</c> 
+                    unde novitas ipsius <c>a</c> vel quod <c>a</c> iam poneretur si tempus esset sufficit 
+                    ad istam remissionem de potentia dei absoluta faciendam ab aeterna 
+                    dei ordinatione praedicta cum si quis velit vocare illud ab 
+                    solvi ab ita duplici obligatione mutari deperditive et ita uti 
+                    extensive vocabuli signficato mutationis deperdite <choice><orig>sicud</orig><reg>sicut</reg></choice> facit <name ref="#Scotus">scotus</name> non 
+                    iusto cum voces sint signficative ad placitum</p>
+            
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
