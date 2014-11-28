@@ -31,6 +31,16 @@
         </fileDesc>
     </teiHeader>
     <text xml:lang="la">
+        <front>
+            <div type="status">
+                <note type="status">Draft</note>
+                <note type="collobaration">Yes</note>
+            </div>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
     <body>
 <div xml:id="b1-d8-qun">
     <head>Book I, Distinctio 8, q. un.</head>
@@ -50,26 +60,26 @@
         <lb ed="#S"/>est posse moveri.</p>
             
         <p xml:id="b1d8qun-iadcvd">Item aliquid dicitur 
-        <lb ed="#S"/>de Deo per accidens, igitur Deus est mutabilis. Consequentia patet per <name>Augustinus</name> V <title>De Trinitate</title> capitulo 
-        <lb ed="#S"/>11, de <corr><del>prov</del><add>parvis</add></corr> in principio:<note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 4, n. 5 (CAG ?)</note> <quote>"in Deo nihil est secundum accidens dicitur, quia nihil in Deo 
+        <lb ed="#S"/>de Deo per accidens, igitur Deus est mutabilis. Consequentia patet per <ref><name ref="#Augustine">Augustinus</name> V <title ref="#deTrinitate">De Trinitate</title> capitulo 
+        <lb ed="#S"/>11, de <corr><del>prov</del><add>parvis</add></corr> in principio:</ref><note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 4, n. 5 (CAG ?)</note> <quote>"in Deo nihil est secundum accidens dicitur, quia nihil in Deo 
         <lb ed="#S"/>est mutabile, igitur in Deo nihil secundum accidens dicitur."</quote> Sequitur ex op<lb ed="#S"/>posito 
         <lb ed="#S"/>consequentis, si aliquid dicitur de Deo <corr><del>stat</del><add>secundum</add></corr> accidens, Deus 
         <lb ed="#S"/>est mutabilis vel aliquid in Deo. Sed hoc assumptum est verum, 
-        <lb ed="#S"/>igitur propositum. Probo huius minor, quia 30 distinctione, primi in principio dicit <name>Magister</name> 
+        <lb ed="#S"/>igitur propositum. Probo huius minor, quia 30 distinctione, primi in principio dicit <name ref="#Lombard">Magister</name> 
         <lb ed="#S"/>quod:<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 30, c. 1 (I:519)</note> <quote>"quaedam sunt, quae ex tempore de Deo dicuntur eique temporaliter 
         <lb ed="#S"/>conveniunt et relative dicuntur secundum accidens, ut 'creator', et 'dominus', re<lb ed="#S"/>fugium', 
         'non sit <sic>creatum</sic>' vel 'donatum'."</quote></p>
   
         <p xml:id="b1d8qun-ahftad">Ad hoc,<note type="marginalNote">A: De illis quae de Deo dicuntur ex tempore. A: Item probatur quod Deus sit mutabilis per aliqua media. S</note> <unclear>facit[?]</unclear> auctoritas 
-            <lb ed="#S"/><name>Augustinus</name> V <title>De Trinitate</title>, c. 36,<note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 16, n. 17 (CAG ?)</note> quae allegatur idem distinctione 30, primi, de 
-            <lb ed="#S"/>parvis:<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 30, c. 1 (I:519)</note> <quote>"certe in quid, ut dominus <corr><del>homo</del><add>hominis</add></corr> <add place="margin">ex tempore accidit Deo [...] et certe ut tuus Dominus esset</add> aut meus [...] ex tempore ac<lb ed="#S"/>cidit 
+            <lb ed="#S"/><ref><name ref="#Augustine"><unclear>Augustini</unclear></name> V <title ref="#deTrinitate">De Trinitate</title>, c. 36,</ref><note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 16, n. 17 (CAG ?)</note> quae allegatur <ref>idem distinctione 30, primi, de 
+            <lb ed="#S"/>parvis:</ref><note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 30, c. 1 (I:519)</note> <quote>"certe in quid, ut dominus <corr><del>homo</del><add>hominis</add></corr> <add place="margin">ex tempore accidit Deo [...] et certe ut tuus Dominus esset</add> aut meus [...] ex tempore ac<lb ed="#S"/>cidit 
             <lb ed="#S"/>Deo."</quote></p> 
 
 <div>
     <head>Responsio ad secundum rationem principalem</head>
            
     <p xml:id="b1d8qun-shasad">Sed<note type="marginalNote">responsio</note> huic aequivomodi[??] responderi praeter, ut videtur sicut 
-    <lb ed="#S"/>ipsemet <name>Augustinus</name> ibidem respondet in primo c. 37:<note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 16, n. 17 (CAG ?)</note> <quote>"Quomodo igitur," inquit, 
+    <lb ed="#S"/>ipsemet <ref><name ref="#Augustine">Augustinus</name> ibidem respondet in primo c. 37:</ref><note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 16, n. 17 (CAG ?)</note> <quote>"Quomodo igitur," inquit, 
     <lb ed="#S"/>obtinebimus <add>nihil</add> secundum accidens dici Deum nisi quia ipsius naturae <corr><add>nihil</add><del>non</del></corr> 
     <lb ed="#S"/>accidit quo mutetur, <corr><del>sed</del><add>ut</add></corr> ea sint accidentia relativa, quae cum a<lb ed="#S"/>liqua 
     mutatione rerum de quibus dicuntur accidunt? Sicut amicus 
@@ -88,7 +98,7 @@
     <cb ed="#S" n="91rb"/><lb ed="#S"/>contingere, sed sufficit mutatio vel <corr><del>novit</del><add>novitas</add></corr> alterius ad quod relative no<lb ed="#S"/>iter 
     et secundum accidens dicitur, sicut <add place="margin">esse</add> omne praetium accidit minimo ta<lb ed="#S"/>liter 
     secundum accidens. Non enim oportet aliquid ab eo removere et quod nummus 
-    <lb ed="#S"/>sit praetium secundum accidens patet per <name>Augustinus</name> V <title>De Trinitate</title> 10 de parvis, ubi 
+    <lb ed="#S"/>sit praetium secundum accidens patet per <ref><name ref="#Augustine">Augustinus</name> V <title ref="#deTrinitate">De Trinitate</title> 10 de parvis,</ref> ubi 
     <lb ed="#S"/>dicit quod:<note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 4, n. 6</note> <quote>"in rebus creatis atque mutabilibus quod non secundum substantiam dicitur 
     <lb ed="#S"/>restat ut secundum accidens dicatur."</quote></p>
 </div>
@@ -113,7 +123,7 @@
         <lb ed="#S"/>usque post aliis illud diu a quo actus retentus impu<lb ed="#S"/>tabitur[?] 
         ad mortale iste in nullo mutatur in instanti vel tempore 
         <lb ed="#S"/>quo fit de amico non amicus secundum istum causm igitur vel hoc 
-        <lb ed="#S"/>fiet sine omni <choice><orig>mutacione</orig><reg>mutatione</reg></choice> contra auctoritatem praeallegatum <name>augustini</name> et 
+        <lb ed="#S"/>fiet sine omni <choice><orig>mutacione</orig><reg>mutatione</reg></choice> contra auctoritatem praeallegatum <name ref="#Augustine">augustini</name> et 
         <lb ed="#S"/>processum ibi sequentem vel sequitur quod erit mutatio in deo quia de<lb ed="#S"/>sinit 
         amare quem amavit sine medio quod est inten<lb ed="#S"/>tum 
         igitur et cetera</p>
@@ -136,17 +146,17 @@
                 <lb ed="#S"/>est in?cce[?] et a multis aliis notibus movebatur igitur deus 
                 <lb ed="#S"/>est vere mutabilis probo consequentiae nullum idem simplex et indivisibile 
                 <lb ed="#S"/>est mutabile et in mutabile quia tunc idem simplex <g ref="#carrot"/><add place="marginRight">esset mutabile</add> et non muta<lb ed="#S"/>bile 
-            quia ex termino[?] privatio sequitur terminus infinitus secundum <name>philosophus</name> primo <title>prior</title></p>
+            quia ex termino[?] privatio sequitur terminus infinitus secundum <ref><name ref="#Aristotle">philosophus</name> primo <title ref="#PriorAnalytics">prior</title></ref></p>
 </div>             
             
         </div> 
         <div>
             <head>Oppositum</head>
-            <p xml:id="b1d8qun-aoeenm">Ad oppositum est <name>Magister</name>, in hac distinctione octava, c. 4, dicit quod:<note><name>Petrus Lombardus</name>, <title>Sententia</title>, d. 8, c. 2 (I:147)</note> <quote>"Dei 
+            <p xml:id="b1d8qun-aoeenm">Ad oppositum est <ref><name ref="#Lombard">Magister</name>, in hac distinctione octava, c. 4,</ref> dicit quod:<note><name>Petrus Lombardus</name>, <title>Sententia</title>, d. 8, c. 2 (I:147)</note> <quote>"Dei 
             <lb ed="#S"/>solius essentia proprie et incommutabilis dicitur, quia nec mutatur, nec mutari potest."</quote> 
-            <lb ed="#S"/>Et probat hoc convenienter ibi per <name>Beatum Augustinus</name>. Ad idem est illud <title>Iacobi</title> 
-            <lb ed="#S"/>primo capitulo:<note><title>Epistola Iacobi Apostoli</title> I:17</note> <quote>"apud quem" inquit "non est transmutatio nec vicissitu<lb ed="#S"/>dinis 
-            obumbratio."</quote> Et illud etiam <title>Malachiae</title> ex persona[?] Deum dictum:<note><title>Prophetia Malachiae</title> III:6</note> <quote>"Ego 
+                <lb ed="#S"/>Et probat hoc convenienter ibi per <name ref="#Augustine">Beatum Augustinus</name>. Ad idem est illud <ref corresp="#b1d8qun-Qaqnnvo"><title ref="#iac">Iacobi</title> 
+                <lb ed="#S"/>primo capitulo:</ref><note corresp="#b1d8qun-Qaqnnvo"><title>Epistola Iacobi Apostoli</title> 1:17</note> <quote xml:id="b1d8qun-Qaqnnvo" ana="iac1_17">"apud quem" inquit "non est transmutatio nec vicissitu<lb ed="#S"/>dinis 
+                    obumbratio."</quote> Et <ref corresp="#b1d8qun-Aedeenm">illud etiam <title>Malachiae</title></ref> ex persona[?] Deum dictum:<note corresp="#b1d8qun-Aedeenm"><title>Prophetia Malachiae</title> 3:6</note> <quote xml:id="b1d8qun-Aedeenm" ana="mal3_6">"Ego 
             Deus et non mutor"</quote>.</p>
          <div>
         <div>
@@ -167,14 +177,14 @@
         <lb ed="#S"/>pro desinere habere formam praehi[?]tam[?], et isto modo materia diceretur mutari 
         <lb ed="#S"/>in primo instanti[obiecti?], esse si crearetur sub forma et sic in diceretur materia mutari 
         <lb ed="#S"/>si totum compositum ex ea et forma adnihilaretur, quia tunc disineret habere 
-        <lb ed="#S"/>quod praehabuit[?], et isto modo loquitur saepe <name>Augustinus</name> de materia prima quod 
+        <lb ed="#S"/>quod praehabuit[?], et isto modo loquitur saepe <name ref="#Augustine">Augustinus</name> de materia prima quod 
         <lb ed="#S"/>fuerit mutata in principio creationis.</p>
 
             <p xml:id="b1d8qun-tmpqnp">Tertio modo proprie sumitur pro omni re<lb ed="#S"/>ceptione 
             nova formae vel situs <unclear>praehi?nti[?]</unclear> non in subiecto praesupposito 
             <lb ed="#S"/>vel pro <unclear>perdictione[?]</unclear> formae informantis vel situs <unclear>praehici[?]</unclear> subiecto eodem 
-            <lb ed="#S"/>remanente, et sic sumitur <name>Aristoteles</name> ut communiter dicit VI <title>Physicorum</title> quod mutare 
-            <lb ed="#S"/>est aliter se habere quam nunc prius.</p>
+            <lb ed="#S"/>remanente, et sic sumitur <ref><name ref="#Aristotle">Aristoteles</name> ut communiter dicit VI <title ref="#Physics">Physicorum</title></ref> quod <quote>mutare 
+            <lb ed="#S"/>est aliter se habere quam nunc prius.</quote></p>
         </div>            
         <div>
             <head>Secundus articulus</head>
@@ -189,26 +199,26 @@
             <lb ed="#S"/>saltem, quod posset facere ipsum esse et ipsum non esse, et per consequens quod pone<lb ed="#S"/>batur 
             <lb ed="#S"/>Deus non esset Deus.</p>
             
-            <p xml:id="b1d8qun-pisacm">Pro istis simul facit <name>Magister</name><note><name>Petrus Lombardus</name>, <title>Sententia</title> I, d. 8, c. 2, (I:147)</note> ubi prius distinctione octava 
-            <lb ed="#S"/>primi probans dictum suum per <name>Augustinum</name> V <title>De Trinitate</title>:<note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 2, n. 3</note> <quote>"sola essentia," inquit, "quae est Deus, 
+            <p xml:id="b1d8qun-pisacm">Pro istis simul facit <name ref="#Lombard">Magister</name><note><name>Petrus Lombardus</name>, <title>Sententia</title> I, d. 8, c. 2, (I:147)</note> ubi prius distinctione octava 
+            <lb ed="#S"/>primi probans dictum suum per <name ref="#Augustine">Augustinum</name> V <title ref="#deTrinitate">De Trinitate</title>:<note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 2, n. 3</note> <quote>"sola essentia," inquit, "quae est Deus, 
             <lb ed="#S"/>incommutabilis est, cui maxime ac verissime competit 'esse'. Quod enim 
             <lb ed="#S"/>mutatur non ipsum servat 'esse' et quod mutari potest, et si non mutetur, 
             <lb ed="#S"/>potest quod fuerat non esse." Ideoque "illud solum quod non tantum non mutatur 
             <lb ed="#S"/>verum etiam mutari non potest omnino verissime dicitur esse", id est, substantia Patris et 
             <lb ed="#S"/>Filii, et Spiritus Sancti. "Et ideo," ut postea infert, "solus Deus, ut ait 
-            <lb ed="#S"/><name>Apostolus</name>, habet immortalitatem, qui non terminus quam arte, sed natura sua nec 
+            <lb ed="#S"/><name ref="#Paul">Apostolus</name>, habet immortalitatem, qui non terminus quam arte, sed natura sua nec 
             <lb ed="#S"/>potest nec potuit aliqua conversione mutari."</quote></p>
             
             <p xml:id="b1d8qun-ahfnoe">Ad hoc facit philosophia 
             <lb ed="#S"/>ponens primum motorem esse omnino immobilem per se et per accidens. Et de 
-            <lb ed="#S"/>hoc loquens <name>Augustinus</name> Io <title>De Trinitate</title>,<note><name>Augustinus</name>, <title>De Trinitate</title>, I, c. 1, n. 3 (CAG ?)</note> ut recitat <name>Magister</name>,<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 8, c. 2 (I:147</note> ubi prius dicit: <quote>"substantiam 
+            <lb ed="#S"/>hoc loquens <name ref="#Augustine">Augustinus</name> Io <title>De Trinitate</title>,<note><name>Augustinus</name>, <title>De Trinitate</title>, I, c. 1, n. 3 (CAG ?)</note> ut recitat <name>Magister</name>,<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 8, c. 2 (I:147</note> ubi prius dicit: <quote>"substantiam 
             <lb ed="#S"/>Dei sine ulla sui commutatione <sic>commutabilia</sic> facientem nosse, oportet,"</quote> etc.</p>
             </div>
             <div>
                 <head>Secunda conclusio</head>
             <p xml:id="b1d8qun-scespr">Secunda<note type="summary">D: Secunda conclusio quod Deus secundum se est immutabilis ad formam et ad situm</note> conclusio<note type="marginalNote">secunda conclusio S</note> est quod Deus est secundum se immutabilis secundo modo et tertio modo, quia Deus non potest 
             <lb ed="#S"/>secundum se formam aliquam subiective recipere nec transferri de situ ad situm. 
-            <lb ed="#S"/>Et hoc probatur per <name>Augustinus</name> V <title>De Trinitate</title>, <sic>c.</sic>,<note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 2, n. 3 (CAG ?)</note> et ponitur, ubi supra in textu[?],<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 8, c. 2 (I:147)</note> "aliae," 
+            <lb ed="#S"/>Et hoc probatur per <ref><name ref="#Augustine">Augustinus</name> V <title ref="#deTrinitate">De Trinitate</title>, <sic>c.</sic>,</ref><note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 2, n. 3 (CAG ?)</note> et ponitur, ubi supra in textu[?],<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 8, c. 2 (I:147)</note> "aliae," 
             <lb ed="#S"/>inquit, <quote>"essentiae vel substantiae capiunt <sic>accidentia</sic> quibus in eis <add place="margin">fiat</add> vel magna vel 
             <lb ed="#S"/><sic>quantumcumque</sic> mutatio,"</quote> Deus non, cum Deus sit actus purus ita, scilicet, quod 
             <lb ed="#S"/>nullius per se perfectionis receptivus.</p>
@@ -237,7 +247,7 @@
                 <lb ed="#S"/>posset motu recto, quia dicere oppositum est articulus Parisiensis excommuni<lb ed="#S"/>catus; 
                 de angelis docet hoc scriptura, quia omnes sunt administra<lb ed="#S"/>torii 
                     <lb ed="#S"/>spiritus in ministerium missi, vel saltem missibilis, de accidentibus. 
-                <lb ed="#S"/>Iterum patet <corr><del>in</del><add>et</add></corr> de partibus in suis totis, quia secundum <name>Philosophus</name> motis <unclear>nobis[?]</unclear> 
+                <lb ed="#S"/>Iterum patet <corr><del>in</del><add>et</add></corr> de partibus in suis totis, quia secundum <name ref="#Aristotle">Philosophus</name> motis <unclear>nobis[?]</unclear> 
                 <lb ed="#S"/>moventur omnia, quae in nobis sunt.</p>
             </div>
             <div>
@@ -256,7 +266,7 @@
                 <lb ed="#S"/>ante tactis. Sed ista sunt vera de Dei Filio secundum communicationem[?] idioticum, 
                 <lb ed="#S"/>sicut clamant omnes doctores, id est, nec secundum se movebatur de 
                 <lb ed="#S"/>loco ad locum, ita quod secundum se et quodlibet sui Deus homo dimi??teret[?] 
-                <lb ed="#S"/>unum locum et accederet ad alium, sicut fit de Socrate, qui per se trans<lb ed="#S"/>fertur 
+                <lb ed="#S"/>unum locum et accederet ad alium, sicut fit de <name ref="#Sortes">Socrate</name>, qui per se trans<lb ed="#S"/>fertur 
                 de situ ad situm, vel de anima eius, vel accidentibus, aut 
                 <lb ed="#S"/>partibus quibuscumque, quae per accidens transfertur de situ ad situm, 
                 <lb ed="#S"/>sed movebatur et ista et alia omnia passus est secundum communicationem idioticum, 
@@ -295,7 +305,7 @@
                 <lb ed="#S"/>sit aliud a Deo vel distinctus a Deo, et ita de similibus et pari ratione, 
                 <lb ed="#S"/>quia Deus non est aliquid factum de nihilo, quia convenietur quid et non invenitur. 
                 <lb ed="#S"/>Ideo non est creatura, et quia etiam ipse non est illud quod resultat ex? Chri<lb ed="#S"/>stans[??] 
-                nec illud fuit ab aeterno, quod pulchre tractat <name>Beatus Hieronymus[?]</name> in 
+                nec illud fuit ab aeterno, quod pulchre tractat <name ref="#Jerome">Beatus Hieronymus[?]</name> in 
                 <lb ed="#S"/><title>Sermone de assumptione Beatae Virginis</title>, et non est assignare aliquod 
                 <lb ed="#S"/>aliud compositum quod est Dei Filius non posset poni esse compositum summendo compositum 
                 <lb ed="#S"/>pro resultante ex partibus, sicut communiter solet sumi. Ideo Dei Filius nullum 
@@ -415,7 +425,7 @@
                 <lb ed="#S"/>sic quod Deus sit mutabilis secundum se contra secundum conclusionem de mutabilitate 
                 <lb ed="#S"/>tertio modo dicta: quia Deus est primus motor, aut igitur movet modo 
                 <lb ed="#S"/>naturae aut libere. Si modo naturae, cum non semper moverit secundum fidem, immo 
-                <lb ed="#S"/>"in principio creavit caelum et terram", sequitur quod non semper caelum poteuerit 
+                <lb ed="#S"/><quote ana="#gen1_1">"in principio creavit caelum et terram,"</quote> sequitur quod non semper caelum poteuerit 
                 <lb ed="#S"/>movere nec creature, quia omne actum mere naturaliter sine concursu 
                 <lb ed="#S"/>principii libere agentis vel moventis agit secundum ultimum potentiae 
                 <lb ed="#S"/>suae. Et per consequens, si potuerit agere et non prius egit, igitur non est 
@@ -519,8 +529,8 @@
                 <lb ed="#S"/>B compleat mille ad hoc in eodem instanti D simul pertingerent ad 
                 <lb ed="#S"/>F si F terminus spatii, licet hoc mirabile videatur cuius ratio et causa 
                 <lb ed="#S"/>est praetacta quodlibet[?] partem primam et aliquot[?] alias B velotius pertran<lb ed="#S"/>seat 
-                <lb ed="#S"/>quam A et velotius moveatur quam A in illis cito, tamen fiet e contra 
-                <lb ed="#S"/>ut praeostendi et intellectus statim assetit huic causa ultimo dicta, quia 
+                <lb ed="#S"/>quam A et velocius moveatur quam A in illis cito, tamen fiet e contra 
+                <lb ed="#S"/>ut praeostendi et intellectus statim <unclear>assentit</unclear> huic causa ultimo dicta, quia 
                 <lb ed="#S"/>quanto plures partes pertransibit B in illo processu dum A unam 
                 <lb ed="#S"/>tanto plus cito infra illum processum velocior abitur modus[motus?] 
                 <lb ed="#S"/>A super B. Et per consequens recompensabitur, ut ista in eodem instanti ipsum at<lb ed="#S"/>tingant 
@@ -533,7 +543,7 @@
                 <lb ed="#S"/>et ad probationem commune quae fundatur super distinctionem velocioris 
                 <lb ed="#S"/>dicendum quod licet in omni parte temporis inchoata A, C, B moveatur 
                 <cb ed="#S" n="92vb"/><lb ed="#S"/>velocius quam A, non tamen in omni parte illius temporis posterius inchoata. 
-                <lb ed="#S"/>Et ideo iuxta illam descriptioneem semper invenitur quod in alia parte tar<lb ed="#S"/> 
+                <lb ed="#S"/>Et ideo iuxta illam descriptionem semper invenitur quod in alia parte tar<lb ed="#S"/> 
                 dius movetur B. Ideo concedo quod in omni toto tempore, categorimatice sumendo 
                 <lb ed="#S"/>li 'toto' inchoato A, C non pertingente ad D, B velocius 
                 <lb ed="#S"/>movetur quam A, et tamen non in omni tempore toto inchoato A, C sumendo 
@@ -788,16 +798,16 @@
                 <lb ed="#S"/>caelum nec extra nec sua immensitas hoc permittit.</p>
                 
                 <p xml:id="b1d8qun-asdsie">Ad secundum 
-                    <lb ed="#S"/>dico supposita divisione <name>Augustini</name> in argumento de hiis quae secundum ac<lb ed="#S"/>cidens 
+                    <lb ed="#S"/>dico supposita divisione <name ref="#Augustine">Augustini</name> in argumento de hiis quae secundum ac<lb ed="#S"/>cidens 
                 <lb ed="#S"/>dicuntur de aliquis quod ista consequentia non valet de Deo dicitur aliquid 
                 <lb ed="#S"/>secundum accidens, igitur Deus est mutabilis et hoc sumpto antecedente 
-                <lb ed="#S"/>ad sensum verum concess[?] a negro[?] et <name>Augustinus</name>, sicut ibi exprimitur.</p>
+                <lb ed="#S"/>ad sensum verum concess[?] a negro[?] et <name ref="#Augustine">Augustinus</name>, sicut ibi exprimitur.</p>
                 
                 <p xml:id="b1d8qun-ecpsea">Et cum 
-                <lb ed="#S"/>probatur consequentia quod secundum <name>Augustinus</name> in Deo nihil secundum accidens dicitur, quia nihil in eo est 
+                <lb ed="#S"/>probatur consequentia quod secundum <name ref="#Augustine">Augustinus</name> in Deo nihil secundum accidens dicitur, quia nihil in eo est 
                 <lb ed="#S"/>mutabile dico quod non dicit quod propter illam causam nihil secundum accidens 
                 <lb ed="#S"/>dicitur de Deo, sed quod in Deo nihil nihil[?] secundum accidens dicitur et sic est consequentia 
-                <lb ed="#S"/><name>Augustini</name> valde bona, sed non ad propositum et praeter hoc et si dicerent quod 
+                <lb ed="#S"/><name ref="#Augustine">Augustini</name> valde bona, sed non ad propositum et praeter hoc et si dicerent quod 
                 <lb ed="#S"/>nihil de Deo secundum accidens dicitur etc., glosaretur de accidente quod est forma 
                 <lb ed="#S"/>inhaerens alicui subiecto non aut quod non inhaeret alicuius subiecto, 
                 <lb ed="#S"/>sed est quod dam[?] accidentis probabile de ipso vel potius per accidentale 
@@ -805,7 +815,7 @@
                 <lb ed="#S"/>de similibus quando[?] secundum substantiam suam Deo conveniunt[?], id est, non essentialiter sed tempora<lb ed="#S"/>liter 
                 et accidentaliter ex hoc quod habet servum vel creatam[?] ab ipso produc<lb ed="#S"/>ta 
                 de nihilo et similia, sicut accidit minimo esse praetium vel pignus, sicut 
-                <lb ed="#S"/>exemplificat <name>Augustinus</name>.</p>
+                <lb ed="#S"/>exemplificat <name ref="#Augustine">Augustinus</name>.</p>
                 
                 <p xml:id="b1d8qun-aprtfp">Ad<note type="marginalNote">ad reductiones S</note> primam reductionem de minimo bene concedere 
                 <lb ed="#S"/>est quod in illo casu non oportet fieri mutationem aliquam secundum formam 
@@ -820,7 +830,7 @@
                 <p xml:id="b1d8qun-piafna">Per<note type="summary">X: Quomodo de non amico Dei potest alius amicus Dei et e contra nulla mutatione factam in quocumque. S</note> idem ad secundum reductionem de noviter 
                 <lb ed="#S"/>facto amico de non amico et non amico de amico. Dicendum quod 
                 <lb ed="#S"/>licet homo fiat de non amico amicus et e contra sine mutatione ut ibi ex<lb ed="#S"/>primit 
-                <name>Augustinus</name>, tamen dicendum qoud secus est de Deo de quo loquitur <name>Augustinus</name> 
+                <name ref="#Augustine">Augustinus</name>, tamen dicendum qoud secus est de Deo de quo loquitur <name ref="#Augustine">Augustinus</name> 
                 <lb ed="#S"/>et aliis, quia nec Deus incipit amare amore sibi inhaerente 
                 <lb ed="#S"/>et si faceret mutaretur ulterius, igitur dico quod Dei statutum quo dispo<lb ed="#S"/>suit 
                 <lb ed="#S"/>punire perseverantem in delectione[?] vel cogitatione morosa 
@@ -880,8 +890,8 @@
                 <lb ed="#S"/>in terrane[?] vere mortua per carentiam vitae prius eam 
                 <lb ed="#S"/>vivificantis vel animantis et cum hoc stat vera summa et aeter<lb ed="#S"/>na 
                 <lb ed="#S"/>simplicitas, quia simplici uniri potest compositum et ne de 
-                <lb ed="#S"/>terminoniis[???] aliorum. Unde <name>Ambrosus</name> ut recitat <name>Magister</name> libro III, distinctione 
-                <lb ed="#S"/>21, c. penultimo[?] in fine emisit Christus spritum, sed unde emisit 
+                <lb ed="#S"/>terminoniis[???] aliorum. Unde <name ref="#Ambrose">Ambrosus</name> ut recitat <ref><name ref="#Lombard">Magister</name> libro III, distinctione 
+                <lb ed="#S"/>21, c. penultimo[?] in fine</ref> emisit Christus spiritum, sed unde emisit 
                 <lb ed="#S"/>ex carne, et consequenter in principio ca[?]i[?} sequentis inquirens per quod mo<lb ed="#S"/>dum 
                 <lb ed="#S"/>mortuus est Christus Dei Filius dicit recedente, inquit, anima mor<lb ed="#S"/>tua 
                 est Christus caro, et quia caro mortua est mortuus est Christus, 
@@ -892,7 +902,7 @@
                 <lb ed="#S"/>passus cum Dei vita omnis doloris exsors[?] existebat 
                 <lb ed="#S"/>hoc iste.</p>
                 
-                <p xml:id="b1d8qun-hpiehi">Hoc probat ibi <name>Magister</name> per <name>Augustinus</name> dicentem quicquid passus 
+                <p xml:id="b1d8qun-hpiehi">Hoc probat ibi <name ref="#Lombard">Magister</name> per <name ref="#Augustine">Augustinus</name> dicentem quicquid passus 
                 <lb ed="#S"/>est homo non potest dici non passus Deus, quia Deus erat homo. 
                 <lb ed="#S"/>Et quare hoc sit statim declarat quomodo non <add place="margin">potes</add> Pater <del>non</del> dicere non 
                 <lb ed="#S"/>te passum inviriam[?] si vestis tua conscindatur quamvis ves<lb ed="#S"/>tis 
@@ -901,15 +911,15 @@
                 <lb ed="#S"/>nec mutari potuerit, sed quicquid horum passus est in terrane[?] passus 
                 <lb ed="#S"/><cb ed="#S" n="94ra"/>est haec istae.</p>
                 
-                <p xml:id="b1d8qun-idhume">Item de hoc <name>Ambro</name> in libro IVo de Spiritu Sancto, ut quid, 
+                <p xml:id="b1d8qun-idhume">Item de hoc <name ref="#Ambrose">Ambro</name> in libro IVo de Spiritu Sancto, ut quid, 
                 <lb ed="#S"/>ubi caro patiebatur manens in terrane[?[ Verbum in se per cor<lb ed="#S"/>poris 
                 assumptionem <corr><del>inferebat</del><add>referebat</add></corr>, ut pat diceretur, quia caro patiebatur 
-                <lb ed="#S"/>sicut Scriptum est Christo, igitur in terrane[?] passo hic, inquit <add place="margin"><name>Magister</name></add> magister[?] docetur 
+                <lb ed="#S"/>sicut Scriptum est Christo, igitur in terrane[?] passo hic, inquit <add place="margin"><name ref="#Lombard">Magister</name></add> magister[?] docetur 
                 <lb ed="#S"/>qua ratione deus vel Dei Filius passus vel mortuus dicitur non, 
                 <lb ed="#S"/>quia mortem senserit inquantum Deus est, sed quia caro ei unica 
                 <lb ed="#S"/>mortua est.</p>
                 
-                <p xml:id="b1d8qun-sqrhus">S?m[?] quam rationem dicit <name>Augustinus</name> in expositiono[???] 
+                <p xml:id="b1d8qun-sqrhus">S?m[?] quam rationem dicit <name ref="#Augustine">Augustinus</name> in expositiono[???] 
                     <lb ed="#S"/>symboli, ut ibi totatur[??] vel in Sermone de fide, si quis dix<lb ed="#S"/>erit 
                 <lb ed="#S"/>atque crediderit Filium dei Deum passum anach?ea[?] sit 
                 <lb ed="#S"/>cuius dicit causam ex qua intelligentia sumenda est aperiens 
