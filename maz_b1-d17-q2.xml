@@ -42,6 +42,8 @@
         <body>
             <div xml:id="b1-d17-q2">
                 <head>Book 1, Distinctio 17, q. 2 [Mazarine Transcription]</head>
+                <div>
+                    <head>Quaestio</head>
                   <p><hi rend="fourLineDropCap">S</hi>ecundo iuxta priorem cyculum[?] quaero utrum caritas seu 
                       gratia increata sine alio possit sufficere ad salutem<g ref="#dot"/></p>
                 
@@ -75,11 +77,13 @@
                     creata deus enim non est forma informans igitur recipiunt aliam 
                     caritatem a spiritu sancto</p>
                 
-                <p><g ref="#pilcrow"/>In hac quaesetione <choice><orig>sicud</orig><reg>sicut</reg></choice> <sic>inpriori</sic> ponam primo conclusiones aliquas 
+                <p><g ref="#pilcrow"/>In hac quaestione <choice><orig>sicud</orig><reg>sicut</reg></choice> <sic>inpriori</sic> ponam primo conclusiones aliquas 
                     <choice><orig>2o</orig><reg>secundo</reg></choice> movebo dubia contra illas</p>
-                
-                <p><g ref="#pilcrow"/>Prima conclusio primi arti?ur[?] 
-                    est haec de dei potentia ordintat sola gratia vel gratia increata non 
+                </div>
+                <div type="articulus">
+                    <head>Primus articulus</head>
+                <p><g ref="#pilcrow"/>Prima conclusio primi articuli[?] 
+                    est haec de dei potentia ordinata[?] sola gratia vel gratia increata non 
                     potest viatoribus sufficere ad salutem haec patet praecedenti quaestione per argumentum 
                     ibi positum et hoc ad partem oppositam quaestionis</p>
                 
@@ -133,7 +137,7 @@
                     alias tandem illam conferret vellet nollet</p>
                 
                 <p><g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice> arguitur ad 
-                    eandem conclusionem sit deus potest velle alicui creaturae rationali conferre fina<cb ed="#S" n="99va"/>lem 
+                    eandem conclusionem sit deus potest velle alicui creaturae rationali conferre finalem 
                     beatitudinem sine hoc quod velit illi prius conferre formam aliam supernaturalem 
                     igitur potest aliquem disponere et praeparare ad vitam aeternam et 
                     acceptare nullam sibi formam supernaturalem praeviam conferrendo et creatura quae sit 
@@ -386,8 +390,10 @@
                     caritativa quae est acceptio et dispositio alicuius ad 
                     <lb ed="#M"/>vitam aeternam igitur etc <g ref="#dot"/></p>
             </div>
-            <div>
+            <div type="articulus">
                 <head>Secundus articulus</head>
+                <div type="dubium">
+                    <head>Primum dubium</head>
                 <p>Secundus articulus habet movere dubia 
                 <lb ed="#M"/>et solvere <g ref="#dot"/> <g ref="#pilcrow"/>primum igitur dubium <g ref="#dot"/> potest esse utrum simul stet quod 
                     <lb ed="#M"/>caritas quae est qualitas quaedam supernaturalis informet animam viatoris 
@@ -508,7 +514,9 @@
                     <lb ed="#M"/>argumenta ad primum cum dicitur formae oppositae etc <g ref="#pilcrow"/>Sufficienter respondet <ref><name ref="#Ockham">okam</name> 
                     <lb ed="#M"/>distinctione 17 primi questione 1</ref> Et ad <choice><orig>2m</orig><reg>secundum</reg></choice> similiter ibidem et similiter ad <choice><orig>3m</orig><reg>tertium</reg></choice> et <choice><orig>4m</orig><reg>quartum</reg></choice> 
                     <lb ed="#M"/>cum quibusdam additis quae primo occursu se offerunt cogitati</p>
-                
+                </div>
+                <div type="dubium">
+                    <head ref="#pilcrow">Secundum dubium</head>
                 <p><g ref="#pilcrow"/>aliud 
                     <lb ed="#M"/>dubium est si praeter caritatem increatam sit ponenda alia caritas informans <corr><add place="marginCenter" hand="different">et videtur primo quod non</add></corr> 
                     <lb ed="#M"/><corr><add place="marginLeft" hand="different">quia</add></corr> arguit igitur propter substantiam tunc actus et hoc non quia carus non experitur in se 
@@ -769,8 +777,8 @@
                     de facto ceteris paribus sicut semper et tamen libere orga<lb ed="#M"/>nizato 
                     corpore infundit animam <g ref="#dot"/></p>
             </div>
-            <div>
-                <head>Tertium dubium</head>
+            <div type="dubium">
+                <head type="dubium">Tertium dubium</head>
                 
                 <p><g ref="#pilcrow"/><choice><orig>3m</orig><reg>tertium</reg></choice> dubium principale est utrum 
                     <lb ed="#M"/>omnis actus meritorius diligendi deum propter se vel proximum propter deum <corr>principaliter</corr> 
@@ -821,7 +829,7 @@
                     <lb ed="#M"/>et similiter provenientibus non a caritate infusa secundum <name>gregorium</name> etc</p>
                     
             </div>
-                <div>
+                <div type="dubium">
                     <head>Quartum dubium</head>
                     <p><g ref="#pilcrow"/><choice><orig>4</orig><reg>quartum</reg></choice> dubium 
                         <lb ed="#M"/>potest esse utrum omnis actus eiusdem speciei cum actu meritorio sit 
@@ -856,7 +864,7 @@
                         <lb ed="#M"/>de quo est sermo non posset secundum statuta a deo iam ordinata non esse 
                         <lb ed="#M"/>meritorius <g ref="#dot"/></p>
                 </div>
-            <div>
+            <div type="dubium">
                 <head>Quintum dubium</head>
                 
                     <p><choice><orig>5m</orig><reg>quintum</reg></choice> dubium potest esse quid in actu meritorio vel quae ipsius 
@@ -875,7 +883,7 @@
                         <lb ed="#M"/>ipso sed acceptatione speciali quae in voluntate divina ordinatio huius actus 
                         <lb ed="#M"/>ad vitam aeternam tamquam meriti condigni ad praemium</p>
             </div>
-            <div>
+            <div type="dubium">
                 <head>Sextum dubium</head>
                 
                 <p><g ref="#pilcrow"/>Sed ultimo 
@@ -922,7 +930,7 @@
                     deo vel tinerentur[?] displicere et ideo pro divisis omnibus incli<lb ed="#M"/>naret 
                     etiam naturaliter immediate tamen ad opposita ita etiam facit prudentia</p>
             </div>
-            <div>
+            <div type="dubium">
                 <head>Septimum dubium</head>
                 
                 <p><g ref="#pilcrow"/>Septimum dubium quae istarum causarum sit prima et principior respectu actus 
@@ -959,7 +967,7 @@
                     <lb ed="#M"/>gratia est sicut sessor et voluntas sicut equus et quomodo voluntas 
                     <lb ed="#M"/>etiam respectu gratiae est <choice><orig>pedissequa</orig><reg>pedisequa</reg></choice> nota <g ref="#dot"/></p>
             </div>
-            <div>
+            <div type="dubium">
                 <head>Octavum dubium</head>
                 <p><g ref="#pilcrow"/><choice><orig>8vum</orig><reg>octavum</reg></choice> dubium est quia aliquis ut 
                     <lb ed="#M"/>videtur potest meritum <corr><del>e</del>mereri</corr> gradum certum beatitudinis extra gratiam 
@@ -1135,7 +1143,8 @@
                     <lb ed="#M"/>patet inquit quod non vult per istam dictionem exclusivam excludere 
                     <lb ed="#M"/>nisi ista dona ex quibus non sequitur spiritus sanctus haberi ab habente ista quia 
                     <lb ed="#M"/>sic procedunt ibi verba <name ref="#Paul">apostoli</name></p>
-                
+            </div>
+                </div>
             </div>
         </body>
     </text>
