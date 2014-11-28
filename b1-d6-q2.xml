@@ -32,6 +32,16 @@
         </fileDesc>
     </teiHeader>
     <text xml:lang="la">
+        <front>
+            <div type="status">
+                <note type="status">Draft</note>
+                <note type="collobaration">Yes</note>
+            </div>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
         <body>
             <div xml:id="b1-d6-q2">
                 <head>Distinctio 6</head>
@@ -52,15 +62,15 @@
                 </div>
                 <div>
                     <head>Oppositum</head>
-                    <p xml:id="b2-d6-q2-y2s_jwc_cl">Contra: saepissime dicit <name>Augustinus</name>
+                    <p xml:id="b2-d6-q2-y2s_jwc_cl">Contra: saepissime dicit <name ref="#Augustine">Augustinus</name>
                         et <lb/>recitatur in multis locis primi libri <title>Sententiarum</title>,
                         quicquid de Deo ad <lb/>se dicitur secundum substantiam, dicitur sicut quod
                         sit sapiens, quod bonus, et huiusmodi. Et <lb/>libro VI <title>De
                             Trinitate</title>, sicut allegatur, distinctione 8, primi: Deo hoc est
                         esse quod est fortem <lb/>esse vel sapientem esse vel iustum esse, et si
                         quid de ista simplici multiplice <lb/>et multiplici simplicitate dixeris,
-                        quo substantia illius significetur. Et distinctione <lb/>45, dicit
-                            <name>Magister</name>, c. primo:<note><name>Petrus Lombardus</name>,
+                        quo substantia illius significetur. Et <ref>distinctione <lb/>45, dicit
+                            <name ref="#Lombard">Magister</name>, c. primo:</ref><note><name>Petrus Lombardus</name>,
                                 <title>Sententia</title>, I, d. 45, c. 1 (I:194) [double check p.
                             number] </note>
                         <quote>"Sciendum est ergo quod 'voluntas' sive 'volens' de Deo <lb/>secundum
@@ -71,7 +81,7 @@
                                 volentem'</mentioned>
                             <lb/>quod <mentioned>'esse Deum'</mentioned>."</quote> Haec ille.</p>
                     <p xml:id="b2-d6-q2-afs_jwc_cl"><lb/>Hoc iterum patet planissime per
-                            <name>Anselmus</name> in quinta proba<lb ed="#S"/>tione <lb/>tertiae
+                            <name ref="#Anselm">Anselmus</name> in quinta proba<lb ed="#S"/>tione <lb/>tertiae
                         conclusionis praecedentis quaestionis.<note>vice supra, d. 6, q.
                         1</note></p>
                 </div>
@@ -132,7 +142,7 @@
                         communis sapientiae, intellectionis, volitionis, et sic de <lb ed="#S"
                         />similibus convenit Deo et creaturae, et ideo nomina ista absoluta univoce
                             <lb ed="#S"/>dicuntur de Deo et aliquibus creaturis.</p>
-                    <p xml:id="b2-d6-q2-kfs_jwc_cl">Hiis suppositis, arguo <lb ed="#S"/>pro conclusione primo per auctoritatem <name>Anselmi</name> supra <seg>positam<desc>looks like something has been scratech and the suprapositam has been written over</desc></seg> in praecedenti quaestione, id est, quinta <lb ed="#S"/>ratione pro tertia ratione, quae plana est.<note>vide supra, d. 6., q. 1, 3rd conclusion, argument five [cross ref, currently para 27]</note></p>
+                    <p xml:id="b2-d6-q2-kfs_jwc_cl">Hiis suppositis, arguo <lb ed="#S"/>pro conclusione primo per auctoritatem <name ref="#Anselm">Anselmi</name> supra <seg>positam<desc>looks like something has been scratech and the suprapositam has been written over</desc></seg> in praecedenti quaestione, id est, quinta <lb ed="#S"/>ratione pro tertia ratione, quae plana est.<note>vide supra, d. 6., q. 1, 3rd conclusion, argument five [cross ref, currently para 27]</note></p>
                     <p xml:id="b2-d6-q2-mfs_jwc_cl"><lb ed="#S"/>Item omnis talis conceptus ab<lb
                             ed="#S"/>stractus est quidditativus respectu cuiuslibet sui per se
                         individui a <lb ed="#S"/>quibus est immediate abstractabilis vel habet
@@ -217,10 +227,10 @@
                         />nomina aequivoca et possunt dupliciter accipi, scilicet, absolute et
                         relative. Nam ex <lb ed="#S"/><unclear>praedicantis[??]</unclear> magnum et
                         parvum ad unum sensum sumpta sunt relativa, <lb ed="#S"/>et ideo idem modos
-                        secundum <name>Philosophus</name> qui respectu unius est parvus respectu
+                        secundum <name ref="#Aristotle">Philosophus</name> qui respectu unius est parvus respectu
                         alterius <lb ed="#S"/>est magnus. Et <seg>patet<desc>Can't tell if something
                                 is added here</desc></seg> haec <unclear>aequivoco[???]</unclear>
-                        per <name>Commentatorem</name> super V <title>Metaphysicae</title>, ita est
+                        per <name ref="#Averroes">Commentatorem</name> super V <title>Metaphysicae</title>, ita est
                         de <lb ed="#S"/>longitudine et latitudine et longe et lato. Et alia
                         longitudo longa et <lb ed="#S"/>alia <unclear>buis[?]</unclear> et certe
                         longum quod <unclear>apoonitur[?]</unclear> verum non subordinatru in
@@ -239,7 +249,7 @@
                         probatur de A. Sit <lb ed="#S"/>A conceptus proprius illius rei simpliciter
                         simplicis, quae Deus est, ita quod idem <lb ed="#S"/>sit tam
                             <unclear>modo[?]taliter</unclear> quam vocaliter dicere 'hoc est A' ad
-                        modum quo <lb ed="#S"/>idem est dicere <name>Socrates</name> et hoc
+                        modum quo <lb ed="#S"/>idem est dicere <name ref="#Sortes">Socrates</name> et hoc
                         demanstrato Socrates omnis inquam talis conceptus qui <lb ed="#S"
                         />praedicatur de A aeque essentialiter quod essentialius sicut conceptus
                         concretus ad<lb ed="#S"/>iectus qui sicut pars diffinitionis alicuius rei
@@ -594,8 +604,8 @@
                             ed="#S"/>Et ad primum exemplum adductum in propositione maioris, cum
                         dicitur quod sapiens <lb ed="#S"/><unclear>unice[?]</unclear> significat cum
                         dicitur 'Deus est sapiens' et 'angelus est sapi<lb ed="#S"/>ens'. Dico quod
-                        secundum doctrinam <name>Aristotelis</name> VII <title>Metaphysicae</title>
-                        per 21, sapiens, <lb ed="#S"/>sicut et album dupliciter habet significare,
+                        secundum doctrinam <ref><name ref="#Aristotle">Aristotelis</name> VII <title>Metaphysicae</title>
+                        per 21</ref>, sapiens, <lb ed="#S"/>sicut et album dupliciter habet significare,
                         sed in <unclear>praedicatis[???]</unclear> habens
                             <unclear>oculum[?]</unclear> ad <lb ed="#S"/><cb ed="#S" n="89rb"
                         />aliquid de distincte facit venire ad mentem, dicit quod album solam
