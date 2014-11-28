@@ -42,6 +42,8 @@
         <body>
             <div xml:id="b1-d17-q3">
                 <head>Book 1, Distinctio 17, q. 3 [Mazarine Transcription]</head>
+                <div>
+                    <head>Quaestio</head>
                 <p><lb ed="#M"/><hi rend="dropCapFourLines">T</hi>ertio circa distinctionem 17 quaero <corr><add place="aboveLine">utrum de peccatore</add></corr> possit fieri non peccator 
                     <lb ed="#M"/>et acceptatus deo sine tali habitu sibi infuso per 
                     <lb ed="#M"/>gratiam increatam</p>
@@ -69,27 +71,26 @@
                     <lb ed="#M"/>absque hoc quod reciperet eum ad gratiam amicitiae quae est acceptatio 
                     <lb ed="#M"/>ad vitam aeternam et ita posset de peccatore fieri non peccator 
                     <lb ed="#M"/>sine gratiae infusione <g ref="#dot"/></p>
-                <div>
-                    <head>Divisio quaestionis</head>
+                
                 <p><g ref="#pilcrow"/>hic primo notanda sunt aliqua dubia 
                     <lb ed="#M"/>quibus videretur quod non <g ref="#dot"/> <g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice> tenebitur conclusio opposita et <choice><orig>3o</orig><reg>tertio</reg></choice> solventur 
                     <lb ed="#M"/>rationes in contrarium <g ref="#dot"/> <choice><orig>4o</orig><reg>quarto</reg></choice> moventur dubia <g ref="#dot"/></p>
                 </div>
                 <div xml:id="aw-b1d17q3a1" type="articulus"> 
-                    <head>primus articulus</head>
+                    <head>Primus articulus</head>
                 
                     <p><g ref="#pilcrow"/>ad primum arguitur primo sic 
                         <lb ed="#M"/>non est transitus a contradictorio in contradictorium sine mutatione quia si 
                         <lb ed="#M"/>nulla sit <corr><del>trans</del>mutatio</corr> nulla est ratio quare nunc una pars contradictionis 
                         <lb ed="#M"/>est vera quam alia et prius quam <choice><orig>alica</orig><reg>aliqua</reg></choice> etc <g ref="#pilcrow"/>Sed quando isti remittitur 
-                        <lb ed="#M"/>culpa est transitus talis quia antequam culpa remittatur est 
+                        <lb ed="#M"/>culpa est transitus talis quia antequam culpa remittitur non est 
                         <lb ed="#M"/>dignus vita aeterna igitur talis transitus esse non poterit sine muta<lb ed="#M"/>tione 
                         reali quia mutatio rationis si quae sit oportet quod reducetur 
                         <lb ed="#M"/>ad mutationem realem cum igitur ista mutatio non sit in voluntate 
                         <lb ed="#M"/>divina nec in actu eius igitur erit in <choice><orig>alico</orig><reg>aliquo</reg></choice> cui culpa remittitur et 
                         <lb ed="#M"/>per consequens remissio culpae in isto est <choice><orig>alica</orig><reg>aliqua</reg></choice> eius <corr><del>trans</del>mutatio</corr> re<lb ed="#M"/>alis 
                         et ita habebit terminum realem ad quem cum non habeat terminum realem 
-                        <cb ed="#M" n="87vb"/><lb ed="#M"/>a quo <corr><del rend="expunctuated">quem cum non habeat</del></corr> saltem oportet quod habeat et ille terminus 
+                        <cb ed="#M" n="87vb"/><lb ed="#M"/>a quo <corr><del rend="expunctuated">quem cum non habeat</del></corr> saltem oportet quod non habeat et ille terminus 
                         <lb ed="#M"/>vocatur gratia <g ref="#dot"/></p>
                 
                 <p><g ref="#pilcrow"/>Item peccator ante <choice><orig>penitentiam</orig><reg>poenitentiam</reg></choice> est iniustus 
@@ -199,8 +200,8 @@
                     <g ref="#dot"/>et qui aliter sentit de sacramentis ecclesiae quam sancta romana 
                     <lb ed="#M"/>ecclesia etc <g ref="#dot"/></p>
                 </div>
-                <div xml:id="aw-d17q3a2" type="articulus"> <!-- article 2 here ? -->
-                    <head>Secundus articulus</head>
+                <div xml:id="aw-d17q3a2" type="articulus"> 
+                    <head>Secundus articulus</head> <!-- article 2 here ? -->
                      <p><g ref="#pilcrow"/>Sed quamvis de facto et de potentia dei ordinata nullus 
                          <lb ed="#M"/><corr><del>re</del>fiat</corr> de non peccator <sic>peccator</sic> et quatenus argumenta ad hic deduc<lb ed="#M"/>ta 
                          vel duci possunt et auctoritates multae etiam valeant et 
@@ -638,12 +639,12 @@
                     <lb ed="#M"/>istum ad vitam aeternam <g ref="#dot"/></p>
             </div>
         <div xml:id="aw-b1d17q3a4" type="articulus">
-            <head>Articulus quartus</head>
+            <head>Quartus articulus</head>
             
                 <p><g ref="#pilcrow"/><choice><orig>4us</orig><reg>quartus</reg></choice> articulus est movere dubia et 
                     <lb ed="#M"/>solvere ea<g ref="#dot"/></p> 
             
-            <div>
+            <div type="dubium">
                 <head>Primum dubium</head>
             
                 <p><g ref="#pilcrow"/>primum dubium <g ref="#dot"/> est si peccatum mortale et gratia infor<lb ed="#M"/>mans 
@@ -763,7 +764,7 @@
                     <lb ed="#M"/>venialem <g ref="#dot"/> Et consequenter dicendum est ulterius quasi per omnia sicut ad istud 
                     <lb ed="#M"/>anna[?] <g ref="#dot"/><c>a</c><g ref="#dot"/> dictum est prius loco suo</p>
             </div>
-            <div>
+            <div type="dubium">
                 <head>Secundum dubium</head>
                 <p><g ref="#pilcrow"/><choice><orig>2m</orig><reg>secundum</reg></choice> dubium principale est 
                     <lb ed="#M"/>utrum in baptismo cum de peccatore fiat iustus et de non 
@@ -935,7 +936,7 @@
                     <lb ed="#M"/>scilicet et per illius activam etiam manutenentiam[?] conservatur et etiam active perfi<lb ed="#M"/>ciuntur 
                     si quas secundum eum recipiunt inhaerentes actiones quorumcumque <g ref="#dot"/></p>
             </div>
-            <div>
+            <div type="dubium">
                 <head>Tertium dubium</head>
                 <p><cb ed="#M" n="90va"/><lb ed="#M"/><g ref="#pilcrow"/><choice><orig>3m</orig><reg>tertium</reg></choice> dubium est quod si de peccatore et in digno vita aeterna 
                     <lb ed="#M"/>secundum legem dei ordinatam non sit iustus sine mutatione ad formam super<lb ed="#M"/>naturalem 
@@ -978,7 +979,7 @@
                     <lb ed="#M"/>rei bene potest esset talis transitus sicut potest esse in exemplo</p>
                 
             </div>
-            <div>
+            <div type="dubium">
                 <head>Quartum dubium</head>
                 <p><g ref="#pilcrow"/><choice><orig>4um</orig><reg>quartum</reg></choice> dubium 
                     <lb ed="#M"/>potest esse quod si gratia requiritur ad iustificationem peccatoris de communi lege re<lb ed="#M"/>quiretur 
@@ -1007,7 +1008,7 @@
                     <lb ed="#M"/>alter tamen tenetur regratiari deo hoc quod incepit eam desiderare 
                     <lb ed="#M"/>et sic de similibus <g ref="#dot"/></p>
             </div>
-            <div>
+            <div type="dubium">
                 <head>Quintum dubium</head>
                 <p><g ref="#pilcrow"/><choice><orig>5m</orig><reg>quintum</reg></choice> quia si nullus iustificabitur nisi per 
                     <lb ed="#M"/>gratiam praehabitam igitur pari ratione econtra de iusto non sit iniustus 
@@ -1115,7 +1116,7 @@
                     <lb ed="#M"/>procedit <g ref="#dot"/></p>
                 
             </div>
-            <div>
+            <div type="dubium">
                 <head>Sextum dubium</head>
                 <p><g ref="#pilcrow"/><choice><orig>6m</orig><reg>sextum</reg></choice> dubium est quia si gratia sit <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> modo iniustificato[?] 
                     <lb ed="#M"/>a peccato mortali videretur ad hoc esse <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ut mediate 
@@ -1137,7 +1138,7 @@
                     <lb ed="#M"/>et fruentius[?] per maiorem gratiam resisti potest si naturalia sint 
                     <lb ed="#M"/>paria <g ref="#dot"/></p>
             </div>
-            <div>
+            <div type="dubium">
                 <head>Septimum dubium</head>
                 <p><g ref="#pilcrow"/>Item 7 dubium quod gratia non requiratur quod in potentia 
                     <lb ed="#M"/>rationali ita sunt de lege communi post mortem immediata habere 
