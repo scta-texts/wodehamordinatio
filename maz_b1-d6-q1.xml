@@ -30,6 +30,16 @@
         </fileDesc>
     </teiHeader>
     <text xml:lang="la">
+        <front>
+            <div type="status">
+                <note type="status">Draft</note>
+                <note type="collobaration">Yes</note>
+            </div>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
         <body>
         <div xml:id="b1-d6-q1">
             <head>Liber I, Distinctio 6, Quaestio 1 [Sorbonne Transcription]</head>
@@ -42,7 +52,7 @@
                     
                     <p>Quaero primo utrum a parte 
                         <lb ed="#M"/>rei in divinis sit aliqua non ydentitas inter naturam dei et voluntatem divinam et ita ceteris perfectioni<lb ed="#M"/>bus 
-                        quae ponuntur in deo vel deus nec moveat quod pluraliter loquor antequam habeatur quod ibi sit pluralitas sine enim hac im<lb ed="#M"/>proprietate 
+                        quae ponuntur in deo <sic>vel deus</sic> nec moveat quod pluraliter loquor antequam habeatur quod ibi sit pluralitas sine enim hac im<lb ed="#M"/>proprietate 
                         loquendi non potest homo in hac materia leviter exprimere illud quod vellet <g ref="#dot"/></p>
 </div>
                     <div>
@@ -52,32 +62,19 @@
                             <lb ed="#M"/>in littera capitulo 1 huius distinctionis</ref> et probat per <ref><name ref="#Augustine">augustinus</name> 15 <title ref="#deTrinitate">trinitate</title> capitulo 20</ref> <!-- doublecheck --> 
                             <lb ed="#M"/><quote ana="#Augustine_DeTrinitate_15_20_38_a">verbum dei esse filium dei natura non voluntate</quote><!-- Augustine, De Trinitate XV, c. 20, n. 38 (PL 42:1097; CCL 50A:515) --> sed <unclear cert="medium">hoc</unclear> stare non 
                             <lb ed="#M"/>posset nisi a parte rei praeter operationem intellectus esset aliquis modus 
-                            <lb ed="#M"/>non <choice><orig>ydemptitatis</orig><reg>identitatis</reg></choice> voluntatis ad naturam qualis non est naturae ad naturam igitur</p>
+                            <lb ed="#M"/>non <choice><orig>ydemptitatis</orig><reg>identitatis</reg></choice> voluntatis ad naturam qualis non est naturae ad naturam igitur <g ref="#dot"/></p>
                       
-                        <p>Item, Filius in divinis procedit modo naturae et 
-intellectus, non modo voluntatis, quia procedit non quomodo natus, sed quomodo 
-datus, secundum <name>Augustinum</name>, V <title>De Trinitate</title>, c. 32 de parvis,<note><name>Augustinus</name>, <title>De Trinitate</title>, c. 14, n. 15 (PL 42:921; CCL 50:222)</note> et ponitur distinctione 13 primo, 
-c. 2.<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 13, c. 2</note> Sed Spiritus Sanctus procedit modo voluntatis, non modo naturae, igitur a parte rei 
-est aliquis modus non-identitatis inter naturam et voluntatem in divinis, 
-quia distinctio rationis nihil facit ad processionem illam realem personalem 
-in divinis.</p>
+                        <p><lb ed="#M"/><g ref="#pilcrow"/>Item filius in divinis procedit modo naturae intellectus vel voluntatis 
+                            <lb ed="#M"/>quia procedit quomodo natus non quomodo datus secundum <ref><name ref="#Augustine">augustinum</name> 5 <title ref="#deTrinitate">trinitate</title> capitulo 32 
+                                <cb ed="#M" n="72ra"/><lb ed="#M"/>de parvis</ref> <!-- Augustine, De Trinitate, 5, c. 14, n. 15 (PL 42:921; CCL 50:222) --> et ponitur <ref>distinctione 13 1 <!--book 1--> capitulo 2</ref> <!-- <name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 13, c. 2 --> sed spiritus sanctus procedit 
+                            <lb ed="#M"/>modo voluntatis non modo naturae igitur a parte rei est aliquis modus 
+                            <lb ed="#M"/>vel distinctio non ydemptitatis inter naturam in divinis et voluntatem 
+                            <lb ed="#M"/>quia distinctio rationis nichil facit ad processionem istam 
+                            <lb ed="#M"/>realem <g ref="#dot"/></p>
                         
-                        <p>Et hoc iterum arguo sic tertio: si inter naturam et voluntatem 
-in divinis sit sola distinctio <seg>rei<desc>should probably be rationis in edited text</desc></seg> creata ab aliquo intellectu, 
-aut igitur creato vel increato. Si creato et ista distinctio praesupponitur vel 
-coexigitur processioni personarum in divinis, ut probat argumentum <sic>procedens</sic> 
-igitur intellectus creatus praesupponitur vel coexigitur emanationi personarum in 
-divinis, quod est erroneum. Si ab intellectu increato, scilicet divino, 
-causetur illa distinctio, aut igitur causat eam ut distinctus ab essentia secundum 
-rationem aut ut indistinctus ab essentia secundum rationem. Si secundum, igitur aeque essentia causabit 
-illam distinctionem, et tunc erat distinctio <corr><del>correspondens</del><add place="margin">oriens</add></corr> ex natura rei, quia 
-ex natura essentiae, quod est intentum. Et praeter hoc, qua ratione intellectus 
-esset indistinctus re et ratione ab essentia sive a natura, eadem ratione voluntas 
-esset indistincta re et ratione ab essentia sive a natura. Sed huius oppositum videtur 
-deducere praecedens argumentum: si intellectus divinus causet istam distinctionem 
-ut distinguitur ab essentia secundum rationem, quicquid causat illam distinctionem? 
-De illo enim quaeretur, sicut de primo, et erit processus
-in infinitum.</p>
+                        <p><g ref="#pilcrow"/>Item si inter naturam et voluntatem in divinis sit 
+                            <lb ed="#M"/>sola distinctio rationis causata ab <choice><orig>alico</orig><reg>aliquo</reg></choice> intellectu aut igitur causato 
+                            <lb ed="#M"/>vel incausato Si a creato et ista distinctio praesupponitur vel coexigitur processioni personarum in divinis, ut probat argumentum <sic>procedens</sic> igitur intellectus creatus praesupponitur vel coexigitur emanationi personarum in divinis, quod est erroneum. Si ab intellectu increato, scilicet divino, causetur illa distinctio, aut igitur causat eam ut distinctus ab essentia secundum rationem aut ut indistinctus ab essentia secundum rationem. Si secundum, igitur aeque essentia causabit illam distinctionem, et tunc erat distinctio <corr><del>correspondens</del><add place="margin">oriens</add></corr> ex natura rei, quia ex natura essentiae, quod est intentum. Et praeter hoc, qua ratione intellectus esset indistinctus re et ratione ab essentia sive a natura, eadem ratione voluntas esset indistincta re et ratione ab essentia sive a natura. Sed huius oppositum videtur deducere praecedens argumentum: si intellectus divinus causet istam distinctionem ut distinguitur ab essentia secundum rationem, quicquid causat illam distinctionem? De illo enim quaeretur, sicut de primo, et erit processus in infinitum.</p>
                      
                     </div>
                     <div>
