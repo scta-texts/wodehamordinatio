@@ -57,13 +57,13 @@
     <body>
       <div xml:id="b1-prol-q2">
         <head>Librum I, Prologus, Quaestio 2 [Sorbonne Transcription]</head>
-        <p><lb ed="#S"/>Secundo pro completo <corr><unclear>disbe?ri</unclear></corr> materiae tactae in dubiis 
+        <p xml:id="b1prolq2-spccsm"><lb ed="#S"/>Secundo pro completo <corr>distinctiori</corr> materiae tactae in dubiis 
           <lb ed="#S"/>nondum solutis quaero utrum studium sacrae scripturae im<lb ed="#S"/>positum 
           alicui in foro poenitentiae pro omissione contraria 
-          <lb ed="#S"/>sic meritorium</p>
+          <lb ed="#S"/>sit meritorium</p>
         
-        <p>videtur quod non <g ref="#dot"/> quia non magis meritorium nec 
-          <lb ed="#S"/>aeque <g ref="#dot"/> nec minus quam in alio ex caritate aequali <unclear>studente</unclear> in omnibus aliis 
+        <p xml:id="b1prolq2-vqndpq">videtur quod non <g ref="#dot"/> quia non magis meritorium nec 
+          <lb ed="#S"/>aeque <g ref="#dot"/> nec minus quam in alio ex caritate aequali studente in omnibus aliis 
           <lb ed="#S"/>paribus non habente satisfacere pro peccato secundum argumenta 5 dubii primae quaestionis</p>
         
         <p><lb ed="#S"/><g ref="#pilcrow"/>contra nisi studium sic impositum sic meritorium non expedit poenitenti 
@@ -97,26 +97,26 @@
           <lb ed="#S"/><unclear>minime</unclear> erga vere <choice><orig>penitentem</orig><reg>poenitentem</reg></choice> quod pro redimenda <choice><orig>pena</orig><reg>poena</reg></choice> intensive 
           <lb ed="#S"/>vel extensive finita amitteret primum vitae aeternae quantumlibet 
           <lb ed="#S"/>parvum intensive immo talem poenam per solvere plenarie esset incomparabiliter 
-          <lb ed="#S"/>minus malusm quam amittere tantum bonum ergo etc</p>
+          <lb ed="#S"/>minus malum quam amittere tantum bonum ergo etc</p>
         
         <p><g ref="#pilcrow"/>tum 4o quia vere <choice><orig>peni<lb ed="#S"/>tens</orig><reg>poeni<lb ed="#S"/>tens</reg></choice> 
-          de peccatus suis et faciens bonum opus ex caritate ex 
+          de peccatis suis et faciens bonum opus ex caritate ex 
           <lb ed="#S"/>capite suo proprio et sponte sine tali impositione meretur praemium <g ref="#dot"/> 
           <lb ed="#S"/>sed obedientia <choice><orig>penalis</orig><reg>poenalis</reg></choice> et gratia sacramenti adveniens tali operi vel ipsum 
           <lb ed="#S"/>praeveniens ipsius bonitatem meritoriam si cetera sint paria non videtur 
-          <lb ed="#S"/>minuere sed augere ergo vere <choice><orig>penitens</orig><reg>poenitens</reg></choice> studium sibi <unclear><choice><orig>inpositum</orig><reg>impositum</reg></choice></unclear> <unclear>ex?qu?s</unclear> 
+          <lb ed="#S"/>minuere sed augere ergo vere <choice><orig>penitens</orig><reg>poenitens</reg></choice> studium sibi <unclear><choice><orig>inpositum</orig><reg>impositum</reg></choice></unclear> <unclear>exequens</unclear> 
           <lb ed="#S"/>non solum merebitur sed plus merebitur etiam quam si alias ex proprio ca<lb ed="#S"/>pite 
           in caritate faceret opus tale</p>
-        
+        <!-- margin identifies as corollary -->
         <p><g ref="#pilcrow"/>concedo ergo quo <choice><orig>inplens</orig><reg>implens</reg></choice> ex 
-          <lb ed="#S"/>capite opus satisfactionem sibi <choice><orig>inpositum</orig><reg>impositum</reg></choice> in foro <choice><orig>penitentiae</orig><reg>poenitentiae</reg></choice> meretur praemium 
+          <lb ed="#S"/>caritate opus satisfactorium sibi <choice><orig>inpositum</orig><reg>impositum</reg></choice> in foro <choice><orig>penitentiae</orig><reg>poenitentiae</reg></choice> meretur praemium 
           <lb ed="#S"/>aeternum</p>
-        
+        <!-- margin identifies as dubium -->
         <p><g ref="pilcrow"/>Sed contra hoc potest argui sic <g ref="#dot"/> opus tale bonum sufficientissime compen<lb ed="#S"/>satur 
           in remissione <choice><orig>penae</orig><reg>poenae</reg></choice> debite pro mortali ergo ulterius non debetur 
-          <lb ed="#S"/>ei praemium <g ref="#dot"/> consequentia patet <g ref="#slash"/> quia <unclear>i?ti?a</unclear> non plus requirit ad proportionem nisi 
+          <lb ed="#S"/>ei praemium <g ref="#dot"/> consequentia patet <g ref="#slash"/> quia <unclear>iustitia</unclear> non plus requirit ad proportionem nisi 
           <lb ed="#S"/>quod opus bonum sufficientissime praemietur <g ref="#dot"/> antecedens probo sic <g ref="#dot"/> quia <choice><orig>pena</orig><reg>poena</reg></choice> aeter<lb ed="#S"/>na 
-          debita pro mortali habet ad gradum aliquem primi vitae aeternae 
+          debita pro mortali habet ad gradum aliquem praemii vitae aeternae 
           <lb ed="#S"/>finitam proportionem sic scilicet quod ipsa non est in infinitum minus mala 
           <lb ed="#S"/>quam illud sic bonum sed finite tantum <g ref="#dot"/> dupletur igitur talis <choice><orig>pena</orig><reg>poena</reg></choice> <g ref="#dot"/> vel 
           <lb ed="#S"/>quadrupletur <g ref="#dot"/> et ita deinceps secundum intensionem secundum quod potuerint 
@@ -125,11 +125,11 @@
           <lb ed="#S"/>deinceps donec <g ref="#slash"/>sibi correspondeant <choice><orig>pena</orig><reg>poena</reg></choice> ad quam deveneretur 
           <lb ed="#S"/>et gradus habitudinis ad quem stabitur quod ita mala vel peior 
           <lb ed="#S"/>sic <choice><orig>pena</orig><reg>poena</reg></choice> ista et aeque odibilis vel odibilior <choice><orig>sicud</orig><reg>sicut</reg></choice> gradus 
-          <cb ed="#S" n="7va"/><lb ed="#S"/>illae beatitudinis et bonus et amabilis totum hic possibile est ut videtur satis esse notum 
+          <cb ed="#S" n="7va"/><lb ed="#S"/>illae beatitudinis est bonus et amabilis totum hic possibile est ut videtur satis esse notum 
           <lb ed="#S"/>suppositum primo assumpto de proportione finita inter primo sumpta <g ref="#dot"/> quod sup<lb ed="#S"/>positum 
           satis videtur evidens hoc toto facto ita bonum erit illi vel 
           <lb ed="#S"/>melius qui peccando mortaliter meruit <choice><orig>penam</orig><reg>poenam</reg></choice> ad quam perventum est 
-          <lb ed="#S"/>quae vocetur <c>a</c><g ref="#dot"/> ab ita liberari <choice><orig>sicud</orig><reg>sicut</reg></choice> esset sibi bonum si <corr>nulla</corr> <choice><orig>pena</orig><reg>poena</reg></choice> esset sibi de<lb ed="#S"/>bita 
+          <lb ed="#S"/>quae vocetur <c>a</c><g ref="#dot"/> ab illa liberari <choice><orig>sicud</orig><reg>sicut</reg></choice> esset sibi bonum si <corr>nulla</corr> <choice><orig>pena</orig><reg>poena</reg></choice> esset sibi de<lb ed="#S"/>bita 
           in gradu illius beatitudinis quae vocetur <g ref="#dot"/><c>b</c><g ref="#dot"/> ad quem stabitur praemiari igitur illi 
           <lb ed="#S"/>bono operi satisfactorio cui alias praecise secundum divinam iustitiam debetur 
           <lb ed="#S"/>gradus <c>b</c><g ref="#dot"/> beatitudinis sufficientissime compensatur et retribuitur si remissio 
@@ -138,7 +138,7 @@
           <lb ed="#S"/><corr>sicu<add place="aboveLine">d</add></corr> fieret dando sibi praemium <c>b</c> <g ref="#dot"/> si sibi nulla <choice><orig>pena</orig><reg>poena</reg></choice> huius deberetur</p>
         
         <p><lb ed="#S"/><g ref="#pilcrow"/>praeterea faciant <name ref="#Sortes">sortes</name> et <name ref="#Plato">plato</name> actiones meritorias <unclear>similes</unclear> <g ref="#dot"/> et sic ita 
-          <lb ed="#S"/>quod <name ref="#Sortes">sortes</name> prius fecerit peccatum cui tanta <choice><orig>pena</orig><reg>poena</reg></choice> et causa gravis <unclear>detur <!-- debetur --></unclear> <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+          <lb ed="#S"/>quod <name ref="#Sortes">sortes</name> prius fecerit peccatum cui tanta <choice><orig>pena</orig><reg>poena</reg></choice> et causa gravis <unclear cert="high">debetur</unclear> <choice><orig>sicud</orig><reg>sicut</reg></choice> 
           <lb ed="#S"/>praemium <name ref="#Plato">platoni</name> pro suo actu vel <choice><orig>sicud</orig><reg>sicut</reg></choice> sibi ipsi deberetur si non peccasset 
           <lb ed="#S"/>et sic <choice><orig>pena</orig><reg>poena</reg></choice> <name ref="#Sortes">sortes</name> <c>a</c> <g ref="#dot"/> tunc sic <g ref="#dot"/> tam utile esset <name ref="#Sortes">sorti</name> non habere <c>a</c> 
           <lb ed="#S"/><choice><orig>sicud</orig><reg>sicut</reg></choice> <name ref="#Plato">platoni</name> habere <c>b</c> <g ref="#dot"/> sic <c>b</c> praemium sibi debitum <g ref="#dot"/> igitur <choice><orig>sicud</orig><reg>sicut</reg></choice> <name ref="#Plato">plato</name> sufficienter 
@@ -151,7 +151,7 @@
           <lb ed="#S"/><name ref="#Plato">platonis</name> quo meretur <c>b</c><g ref="#dot"/></p>
         
         <p><g ref="#pilcrow"/>Si conceditur conclusio quod bene potest esse quod aliquis existens 
-          <lb ed="#S"/>in caritate habeat operationem meritoriam quae sit solum <unclear>sacrificiens</unclear> et 
+          <lb ed="#S"/>in caritate habeat operationem meritoriam quae sit solum <unclear>satisfaciens</unclear> et 
           <lb ed="#S"/>ei non debetur propter hoc praemium aliquod in vita aeterna secundum <unclear>in tn?om <!-- intenstionem --></unclear> 
           <lb ed="#S"/>sed bene vivabit quod citius pertingat ad gradum beatitudinis alias 
           <lb ed="#S"/>sibi debitum quam sine illo merito pertingeret</p>
@@ -192,7 +192,7 @@
           <lb ed="#S"/><corr><add place="marginLeft">sic</add><del rend="expunctuated">sibi</del></corr> <corr>contrit<del rend="expunctuated">i</del>o</corr> vel <choice><orig>penitenti</orig><reg>poenitenti</reg></choice> <choice><orig>pena</orig><reg>poena</reg></choice> nisi temporalis et finita in 
           <cb ed="#S" n="7vb"/>vita hac solvenda vel in purgatorio <g ref="#dot"/> nulla autem <choice><orig>pena</orig><reg>poena</reg></choice> 
           <lb ed="#S"/>finita intensive et extensive est ita mala et ita secundum rectam rationem 
-          <lb ed="#S"/>odibilis <choice><orig>sicud</orig><reg>sicut</reg></choice> gradus beatitudinis aeternae esset bonus vel bonum commodi et 
+          <lb ed="#S"/>odibilis <choice><orig>sicud</orig><reg>sicut</reg></choice> gradus beatitudinis aeternae esset <unclear>bonus vel bonum <!-- possibily indicating uncertainty of scribe --></unclear> commodi et 
           <lb ed="#S"/>desiderabile igitur pro nullo actu meritorio proveniente ex gratia est suf<g ref="#dash"/><lb ed="#S"/>ficiens 
           compensatio sue praemium absolvi a pena quantumcum<lb ed="#S"/>que 
           gravi absque collatione alicuius gradus beatitudinis pro eodem</p>
@@ -205,12 +205,12 @@
           beatitudinis Sed in omni vere <choice><orig>penitente</orig><reg>poenitente</reg></choice> <choice><orig>sicud</orig><reg>sicut</reg></choice> patet ex <ref>4o <title ref="#Sentences">sententiarum</title></ref> 
           in materia de <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> in <title>decretis</title> per auctoritatem sanctorum <unclear>reminiscit</unclear> 
           <lb ed="#S"/>omnia merita quae unquam fuerunt <unclear>viva<!-- unia --></unclear> igitur in tali <unclear>reminiscit</unclear> 
-          <lb ed="#S"/><unclear>plura?erie</unclear> meritum gratiae baptismalis quale et quantum sibi debebatur 
-          <lb ed="#S"/>quando erat parvulus noviter baptizatus et simul cum hoc ut est <unclear>p?artum</unclear> 
-          <lb ed="#S"/>habet nunc meritum proprium ex usu liberi arbitrii <choice><orig>penitendo</orig><reg>poenitendo</reg></choice> igitur tlai debetur 
+          <lb ed="#S"/>plenarie meritum gratiae baptismalis quale et quantum sibi debebatur 
+          <lb ed="#S"/>quando erat parvulus noviter baptizatus et simul cum hoc ut est <unclear>probatum</unclear> 
+          <lb ed="#S"/>habet nunc meritum proprium ex usu liberi arbitrii <choice><orig>penitendo</orig><reg>poenitendo</reg></choice> igitur tali debetur 
           <lb ed="#S"/>maior gloria quam infanti noviter baptizato</p>
         
-        <p><g ref="#pilcrow"/>Et si <unclear>hic</unclear> sequitur 
+        <p><g ref="#pilcrow"/>Et si hoc sequitur 
           <lb ed="#S"/>quod non est inconveniens <choice><orig>ymmo</orig><reg>immo</reg></choice> veritas firmiter tenenda quod unus talis 
           <lb ed="#S"/>moriens foret in caelo gloriosior quam si <sic>docessisset</sic> parvulus 
           <lb ed="#S"/>innocens noviter baptizatus</p>
@@ -221,7 +221,7 @@
           <lb ed="#S"/>puero noviter baptizato</p>
         
         <p><g ref="#pilcrow"/>praeterea non minus misericorditer agit deus 
-          <lb ed="#S"/>cum elementis qui peccaverunt mortaliter si postea <choice><orig>penitentes</orig><reg>poenitentes</reg></choice> in bono 
+          <lb ed="#S"/>cum <unclear>electis</unclear> qui peccaverunt mortaliter si postea <choice><orig>penitentes</orig><reg>poenitentes</reg></choice> in bono 
           <lb ed="#S"/>finaliter perseverent quam cum reprobis et dampnatis qui aliquando 
           <lb ed="#S"/>meruerunt sed post peccantes mortaliter in illis peccatis sine <choice><orig>pena</orig><reg>poena</reg></choice> 
           <lb ed="#S"/>finaliter decesserunt <g ref="#dot"/> sed dampnatos pro peccatis suis de 
