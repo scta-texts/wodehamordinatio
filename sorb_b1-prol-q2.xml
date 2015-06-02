@@ -26,7 +26,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
+          <witness xml:id="S" n="sorb">Paris, Bibl. de la Sorbonne, MS 193</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -66,31 +66,33 @@
           <lb ed="#S"/>aeque <g ref="#dot"/> nec minus quam in alio ex caritate aequali studente in omnibus aliis 
           <lb ed="#S"/>paribus non habente satisfacere pro peccato secundum argumenta 5 dubii primae quaestionis</p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>contra nisi studium sic impositum sic meritorium non expedit poenitenti 
+        <p xml:id="b1prolq2-cnsfnm"><lb ed="#S"/><g ref="#pilcrow"/>contra nisi studium sic impositum sic meritorium non expedit poenitenti 
           <lb ed="#S"/>quod aliquod bonum opus sibi in foro poenitentiae iniungatur cuius oppositum de facto 
           <lb ed="#S"/>docet ecclesia et facit <g ref="#dot"/>consequentia probatur <g ref="#dot"/> quia nulli expedit sibi <choice><orig>inponi</orig><reg>imponi</reg></choice> unde opera 
           <lb ed="#S"/>sua bona quae essent alias meritoria fierent non meritoria</p>
         <!-- divisio quaestionis -->
-        <p><g ref="#pilcrow"/>In ista quaestione 
+        <p xml:id="b1prolq2-ihqiev"><g ref="#pilcrow"/>In ista quaestione 
           <lb ed="#S"/>primo discutienda est veritas quaestionis <g ref="#dot"/> 2o solvere 6 dubium primae quaestionis 
           <lb ed="#S"/>quod <choice><orig>inprobat</orig><reg>improbat</reg></choice> veritatem hic tenendam <g ref="#dot"/> 3o solvetur 7 dubium ibidem 
           <lb ed="#S"/>positum quod similiter <choice><orig>inpungnat</orig><reg>impugnat</reg></choice> eandem veritatem</p>
         
         <!-- article 1 -->
-        <p>Ad quaestionem inconcus<lb ed="#S"/>se 
+        <p xml:id="b1prolq2-aqipva">Ad quaestionem inconcus<lb ed="#S"/>se 
           tenendum est quod si vere poenitenti inponatur in foro poenali pro sa<lb ed="#S"/>tisfactione 
           peccati sui quod studeat et ille <choice><orig>inpositum</orig><reg>impositum</reg></choice> sibi ex caritate exequatur 
-          <lb ed="#S"/>quod talis in ista executione meretur primum vitae aeternae <g ref="#dot"/> tum quia 
+          <lb ed="#S"/>quod talis in ista executione meretur primum vitae aeternae <g ref="#dot"/></p> 
+          
+        <p xml:id="b1prolq2-tqovae">tum quia 
           <lb ed="#S"/>omnis actus bonus viatoris ex caritate procedens est sicut meritorius 
           <lb ed="#S"/>sive iste actus sic amore dei super omnia propter se <g ref="#dot"/> vel sui aut 
           <lb ed="#S"/>proximi propter deum vel actus <corr><add place="marginRight">exterior</add><del rend="expunctuated">posterior</del></corr> ex tali amore illatus igitur <unclear>9</unclear> 
-          <lb ed="#S"/>ex supposito <unclear>talis</unclear> ex caritate ex sequitur sibi iniunctum igitur etc
+          <lb ed="#S"/>ex supposito <unclear>talis</unclear> ex caritate ex sequitur sibi iniunctum igitur etc <g ref="#dot"/></p>
           <!-- possibly num 2 somewhere in here -->
-          <g ref="#dot"/> <unclear>tum <!-- cum --></unclear> 
+        <p xml:id="b1prolq2-tqisde">tum  
           <lb ed="#S"/>quia inplens illud ad quod tenetur sicut debet in hoc meretur primum 
           <lb ed="#S"/>vitae aeternae sed <unclear>studium</unclear> sic facit illud aliquid quod tenetur et <choice><orig>sicud</orig><reg>sicut</reg></choice> debet ergo etc</p>
         <!-- num 3 -->
-        <p><lb ed="#S"/><g ref="#pilcrow"/>tamen 3o quia si non <g ref="#dot"/> haec non esset nisi quia ipse sufficienter <unclear>praemiaretur</unclear> ita 
+        <p xml:id="b1prolq2-ttqbee"><lb ed="#S"/><g ref="#pilcrow"/>tamen 3o quia si non <g ref="#dot"/> haec non esset nisi quia ipse sufficienter <unclear>praemiaretur</unclear> ita 
           <lb ed="#S"/>relaxatione <choice><orig>penae</orig><reg>poenae</reg></choice> quae tali restat hic per tales actus <unclear>sacrif?co?<lb ed="#S"/>rios</unclear> 
           redimenda <g ref="#dot"/> vel in purgatorio solvenda <g ref="#dot"/> sed hoc non est verum <g ref="#dot"/> 
           <lb ed="#S"/>quia non esset expediens compensatio nec etiam conveniens summae dei 
@@ -99,7 +101,7 @@
           <lb ed="#S"/>parvum intensive immo talem poenam per solvere plenarie esset incomparabiliter 
           <lb ed="#S"/>minus malum quam amittere tantum bonum ergo etc</p>
         
-        <p><g ref="#pilcrow"/>tum 4o quia vere <choice><orig>peni<lb ed="#S"/>tens</orig><reg>poeni<lb ed="#S"/>tens</reg></choice> 
+        <p xml:id="b1prolq2-tqqfot"><g ref="#pilcrow"/>tum 4o quia vere <choice><orig>peni<lb ed="#S"/>tens</orig><reg>poeni<lb ed="#S"/>tens</reg></choice> 
           de peccatis suis et faciens bonum opus ex caritate ex 
           <lb ed="#S"/>capite suo proprio et sponte sine tali impositione meretur praemium <g ref="#dot"/> 
           <lb ed="#S"/>sed obedientia <choice><orig>penalis</orig><reg>poenalis</reg></choice> et gratia sacramenti adveniens tali operi vel ipsum 
@@ -108,11 +110,11 @@
           <lb ed="#S"/>non solum merebitur sed plus merebitur etiam quam si alias ex proprio ca<lb ed="#S"/>pite 
           in caritate faceret opus tale</p>
         <!-- margin identifies as corollary -->
-        <p><g ref="#pilcrow"/>concedo ergo quo <choice><orig>inplens</orig><reg>implens</reg></choice> ex 
+        <p xml:id="b1prolq2-ceqmpa"><g ref="#pilcrow"/>concedo ergo quo <choice><orig>inplens</orig><reg>implens</reg></choice> ex 
           <lb ed="#S"/>caritate opus satisfactorium sibi <choice><orig>inpositum</orig><reg>impositum</reg></choice> in foro <choice><orig>penitentiae</orig><reg>poenitentiae</reg></choice> meretur praemium 
           <lb ed="#S"/>aeternum</p>
         <!-- margin identifies as dubium -->
-        <p><g ref="pilcrow"/>Sed contra hoc potest argui sic <g ref="#dot"/> opus tale bonum sufficientissime compen<lb ed="#S"/>satur 
+        <p xml:id="b1prolq2-schphd"><g ref="pilcrow"/>Sed contra hoc potest argui sic <g ref="#dot"/> opus tale bonum sufficientissime compen<lb ed="#S"/>satur 
           in remissione <choice><orig>penae</orig><reg>poenae</reg></choice> debite pro mortali ergo ulterius non debetur 
           <lb ed="#S"/>ei praemium <g ref="#dot"/> consequentia patet <g ref="#slash"/> quia <unclear>iustitia</unclear> non plus requirit ad proportionem nisi 
           <lb ed="#S"/>quod opus bonum sufficientissime praemietur <g ref="#dot"/> antecedens probo sic <g ref="#dot"/> quia <choice><orig>pena</orig><reg>poena</reg></choice> aeter<lb ed="#S"/>na 
@@ -137,7 +139,7 @@
           <lb ed="#S"/>bene aut melius secus agitur liberando eum a <choice><orig>pena</orig><reg>poena</reg></choice> <g ref="#dot"/><c>a</c><g ref="#dot"/> si sibi deberetur 
           <lb ed="#S"/><corr>sicu<add place="aboveLine">d</add></corr> fieret dando sibi praemium <c>b</c> <g ref="#dot"/> si sibi nulla <choice><orig>pena</orig><reg>poena</reg></choice> huius deberetur</p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>praeterea faciant <name ref="#Sortes">sortes</name> et <name ref="#Plato">plato</name> actiones meritorias <unclear>similes</unclear> <g ref="#dot"/> et sic ita 
+        <p xml:id="b1prolq2-pfsqmb"><lb ed="#S"/><g ref="#pilcrow"/>praeterea faciant <name ref="#Sortes">sortes</name> et <name ref="#Plato">plato</name> actiones meritorias <unclear>similes</unclear> <g ref="#dot"/> et sic ita 
           <lb ed="#S"/>quod <name ref="#Sortes">sortes</name> prius fecerit peccatum cui tanta <choice><orig>pena</orig><reg>poena</reg></choice> et causa gravis <unclear cert="high">debetur</unclear> <choice><orig>sicud</orig><reg>sicut</reg></choice> 
           <lb ed="#S"/>praemium <name ref="#Plato">platoni</name> pro suo actu vel <choice><orig>sicud</orig><reg>sicut</reg></choice> sibi ipsi deberetur si non peccasset 
           <lb ed="#S"/>et sic <choice><orig>pena</orig><reg>poena</reg></choice> <name ref="#Sortes">sortes</name> <c>a</c> <g ref="#dot"/> tunc sic <g ref="#dot"/> tam utile esset <name ref="#Sortes">sorti</name> non habere <c>a</c> 
@@ -150,13 +152,13 @@
           pro suo merito cum suum meritum <corr><add place="marginLeft">ex</add></corr> posito si aequale merito 
           <lb ed="#S"/><name ref="#Plato">platonis</name> quo meretur <c>b</c><g ref="#dot"/></p>
         
-        <p><g ref="#pilcrow"/>Si conceditur conclusio quod bene potest esse quod aliquis existens 
+        <p xml:id="b1prolq2-sccimp"><g ref="#pilcrow"/>Si conceditur conclusio quod bene potest esse quod aliquis existens 
           <lb ed="#S"/>in caritate habeat operationem meritoriam quae sit solum <unclear>satisfaciens</unclear> et 
-          <lb ed="#S"/>ei non debetur propter hoc praemium aliquod in vita aeterna secundum <unclear>in tn?om <!-- intenstionem --></unclear> 
+          <lb ed="#S"/>ei non debetur propter hoc praemium aliquod in vita aeterna secundum <unclear>intensionem</unclear> 
           <lb ed="#S"/>sed bene vivabit quod citius pertingat ad gradum beatitudinis alias 
           <lb ed="#S"/>sibi debitum quam sine illo merito pertingeret</p>
         
-        <p><g ref="#pilcrow"/>Istud non potest 
+        <p xml:id="b1prolq2-inpgbl"><g ref="#pilcrow"/>Istud non potest 
           <lb ed="#S"/>stare <g ref="#dot"/> quia ex hoc sequeretur quod aliquis tot bona opera et meritoria existens 
           <lb ed="#S"/>in caritate operans posset facere <choice><orig>sicud</orig><reg>sicut</reg></choice> unquam fecit <name ref="#Peter">petrus</name> vel 
           <lb ed="#S"/><name ref="#Paul">paulus</name> et tamen secundum legem ordinatam non plus haberet de 
@@ -169,7 +171,7 @@
           <lb ed="#S"/><choice><orig>pene</orig><reg>poene</reg></choice> sibi debite tunc enim omnia bona ita opera possent <g ref="#dot"/> secundum illam 
           <lb ed="#S"/>responsionem esse satisfactoria et nullius gradus beatitudinis lucrativa</p>
         
-        <p><g ref="#pilcrow"/>Sed 
+        <p xml:id="b1prolq2-sfceps"><g ref="#pilcrow"/>Sed 
           <lb ed="#S"/>forte concedetur conclusio quia aliter vilissimus peccator et <unclear>peccatus</unclear> <choice><orig>penitens</orig><reg>poenitens</reg></choice> 
           <lb ed="#S"/>in ultimo instanti <g ref="#dot"/> quo in vita sua haberet usum liberi arbitrii 
           <lb ed="#S"/>ita remisse quo posset sufficere ad salutem foret in caelo 
@@ -184,7 +186,7 @@
           <lb ed="#S"/>ista contritio pari ratione et quibus alius donec esset plenariae 
           <lb ed="#S"/>satisfactum</p>
         
-        <p><g ref="#pilcrow"/>Sed nec hoc stare potest primo quia secundum legem dei or<lb ed="#S"/>dinatam 
+        <p xml:id="b1prolq2-snhbpe"><g ref="#pilcrow"/>Sed nec hoc stare potest primo quia secundum legem dei or<lb ed="#S"/>dinatam 
           statim cum habetur minima contritio post peccata 
           <lb ed="#S"/>quantumcumque multa et gravia ex quo nullus actus est contritio 
           <lb ed="#S"/>vel <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> etiam minima ad salutem sufficiens si esset dare 
@@ -197,7 +199,7 @@
           compensatio sue praemium absolvi a pena quantumcum<lb ed="#S"/>que 
           gravi absque collatione alicuius gradus beatitudinis pro eodem</p>
         
-        <p><g ref="#pilcrow"/>praeterea omnis actus <choice><orig>penitendi</orig><reg>poenitendi</reg></choice> qui est vera contritio est dignus aliquo gradu 
+        <p xml:id="b1prolq2-poainb"><g ref="#pilcrow"/>praeterea omnis actus <choice><orig>penitendi</orig><reg>poenitendi</reg></choice> qui est vera contritio est dignus aliquo gradu 
           <lb ed="#S"/>beatitudinis quia omnis sufficienter <choice><orig>penitens</orig><reg>poenitens</reg></choice> est dignus praemio aeterno <g ref="#slash"/>et posset poni 
           <lb ed="#S"/>casus in quo vere <choice><orig>penitens</orig><reg>poenitens</reg></choice> nihil differret secundum statum meriti vel 
           <lb ed="#S"/>demeriti per aliquid quod in eius potestate <corr><add place="marginRight">naturali et</add></corr> libera sic ab existente in 
@@ -210,17 +212,15 @@
           <lb ed="#S"/>habet nunc meritum proprium ex usu liberi arbitrii <choice><orig>penitendo</orig><reg>poenitendo</reg></choice> igitur tali debetur 
           <lb ed="#S"/>maior gloria quam infanti noviter baptizato</p>
         
-        <p><g ref="#pilcrow"/>Et si hoc sequitur 
+        <p xml:id="b1prolq2-eshpnb"><g ref="#pilcrow"/>Et si hoc sequitur 
           <lb ed="#S"/>quod non est inconveniens <choice><orig>ymmo</orig><reg>immo</reg></choice> veritas firmiter tenenda quod unus talis 
           <lb ed="#S"/>moriens foret in caelo gloriosior quam si <sic>docessisset</sic> parvulus 
-          <lb ed="#S"/>innocens noviter baptizatus</p>
-        
-        <p><g ref="#pilcrow"/>Quod concedo non nego tamen quin pa<lb ed="#S"/>ganus 
+          <lb ed="#S"/>innocens noviter baptizatus <g ref="#pilcrow"/>Quod concedo non nego tamen quin pa<lb ed="#S"/>ganus 
             posset sic conteri de peccatis sufficienter ad salutem et tamen ita 
           <lb ed="#S"/>remissae quod si moriatur haberet minus praemium quam deberetur 
           <lb ed="#S"/>puero noviter baptizato</p>
         
-        <p><g ref="#pilcrow"/>praeterea non minus misericorditer agit deus 
+          <p xml:id="b1prolq2-pnmcsp"><g ref="#pilcrow"/>praeterea non minus misericorditer agit deus 
           <lb ed="#S"/>cum <unclear>electis</unclear> qui peccaverunt mortaliter si postea <choice><orig>penitentes</orig><reg>poenitentes</reg></choice> in bono 
           <lb ed="#S"/>finaliter perseverent quam cum reprobis et dampnatis qui aliquando 
           <lb ed="#S"/>meruerunt sed post peccantes mortaliter in illis peccatis sine <choice><orig>pena</orig><reg>poena</reg></choice> 
@@ -233,17 +233,17 @@
           per culpam mortalem sufficienter re compensatur a <choice><orig>pena</orig><reg>poena</reg></choice> restante 
           <lb ed="#S"/>et hic est concedendum sicut prius</p>
         
-        <p><g ref="#pilcrow"/>Sed hoc supposito est dubium ulterius 
+          <p xml:id="b1prolq2-shsadp"><g ref="#pilcrow"/>Sed hoc supposito est dubium ulterius 
           <lb ed="#S"/>utrum opus satisfactionum sic ita praemiandum in caelo si simul cum hoc 
           <lb ed="#S"/>quod esset meritorium non esset <unclear>satisfactionem <!-- unclear about spelling for "satisfactory" --></unclear> pro peccato aliquo et <unclear>hoc</unclear> ceteris 
           <lb ed="#S"/>omnibus paribus <choice><orig>sicud</orig><reg>sicut</reg></choice> tangit argumenta dubii principalis</p>
         
         <!-- margin says "2a conclusio"-->
-        <p><g ref="#slash"/>Et hic primo videtur mihi tenendum 
+          <p xml:id="b1prolq2-ehpppd"><g ref="#slash"/>Et hic primo videtur mihi tenendum 
           <lb ed="#S"/>quod nulla actio meritoria est minus meritoria praemii aeterni ex hoc praecise 
           <lb ed="#S"/>quod est satisfactio vel redemptio <choice><orig>pena</orig><reg>poena</reg></choice> peccato debite</p>
         
-        <p><g ref="#pilcrow"/>pro hac conclusione 
+          <p xml:id="b1prolq2-phcrna"><g ref="#pilcrow"/>pro hac conclusione 
           <lb ed="#S"/>et contra tenentes oppositum arguo primo quod sicut ultimo praeargutum est deus 
           <lb ed="#S"/>tunc plus puniret electos pro peccatis quam praemiaret malos pro bonis 
           <lb ed="#S"/>actibus cum meritum in illis praecedens illa peccata pro quibus postea 
@@ -253,12 +253,12 @@
           <lb ed="#S"/>gradu <unclear reason="smudged">??lis</unclear> alias consequendo si crimina praecedentia pro alius satis<lb ed="#S"/>factio 
           restat non obstarent</p>
         
-        <p><g ref="#pilcrow"/>2o sequeretur quod non solum electos 
+        <p xml:id="b1prolq2-ssqqpt"><g ref="#pilcrow"/>2o sequeretur quod non solum electos
           <lb ed="#S"/>puniret plus pro peccatis quam reprobos praemiaret pro meritis 
           <lb ed="#S"/>aliquando habitis <choice><orig>ymmo</orig><reg>immo</reg></choice> quod in infinitum plus puniret electos quia subtractio 
           <lb ed="#S"/>partis praemii aeterni extendit in infinitum quamcumque <choice><orig>pena</orig><reg>poena</reg></choice> temporalem</p> 
           
-        <p><lb ed="#S"/><g ref="#pilcrow"/>praeterea si sic tunc <unclear>indistincte</unclear> et male <unclear>fatent</unclear> confessiones in po<lb ed="#S"/>nentes 
+          <p xml:id="b1prolq2-pssmdp"><lb ed="#S"/><g ref="#pilcrow"/>praeterea si sic tunc <unclear>indistincte</unclear> et male <unclear>fatent</unclear> confessiones in po<lb ed="#S"/>nentes 
           <choice><orig>penientibus</orig><reg>poenientibus</reg></choice> in satisfactionem opera devotionis et meritoria vi<lb ed="#S"/>tae 
           aeternae quia hoc tolleret partem praemii debiti illi merito <g ref="#dot"/> 
           <lb ed="#S"/><choice><orig>ymmo</orig><reg>immo</reg></choice> potius esset talibus <unclear cert="high">confessis</unclear> consulendum quod talia opera 
@@ -269,7 +269,7 @@
           <lb ed="#S"/>sint eis in remissionem peccatorum <g ref="#dot"/> et hoc est <unclear cert="high">confessoribus</unclear> consultum per 
           <lb ed="#S"/><name>hostensium</name> tractantem materiam de <choice><orig>penitentia</orig><reg>poenitentia</reg></choice></p>
         
-        <p><g ref="#pilcrow"/>praeterea <choice><orig>sicud</orig><reg>sicut</reg></choice> supra deus semper miseri<lb ed="#S"/>cordius 
+          <p xml:id="b1prolq2-pssftp"><g ref="#pilcrow"/>praeterea <choice><orig>sicud</orig><reg>sicut</reg></choice> supra deus semper miseri<lb ed="#S"/>cordius 
           agit nobiscum quam mereamur si vere simus <choice><orig>penitentes</orig><reg>poenitentes</reg></choice> <choice><orig>ymmo</orig><reg>immo</reg></choice> 
           <lb ed="#S"/>ita benigne et misericorditer <choice><orig>sicud</orig><reg>sicut</reg></choice> communius iustitia punitiva per<lb ed="#S"/>mittit 
           <g ref="#dot"/> sed benignius et mitius et tamen iustissime ageret nobiscum 
@@ -279,10 +279,8 @@
           remittendae ergo sua <unclear cert="low">minima</unclear> non permittit diminui 
           <lb ed="#S"/>de praemio vitae aeternae pro relaxatione facienda talis <choice><orig>penae</orig><reg>poenae</reg></choice></p>
         
-        <p><g ref="#pilcrow"/>Sed hiis omnibus forte respondebitur quod nulla iustitia exigit pro actu 
-          <lb ed="#S"/>minus laudabili deberi praemium aequale</p>
-        
-        <p><g ref="#pilcrow"/>Sed dato quod cetera omnia 
+        <p xml:id="b1prolq2-shontc"><g ref="#pilcrow"/>Sed <choice><orig>hiis</orig><reg>his</reg></choice> omnibus forte respondebitur quod nulla iustitia exigit pro actu 
+          <lb ed="#S"/>minus laudabili deberi praemium aequale <g ref="#pilcrow"/>Sed dato quod cetera omnia 
           <lb ed="#S"/>sint paria reatus <choice><orig>penae</orig><reg>poenae</reg></choice> et obligatio ad tantam <choice><orig>penam</orig><reg>poenam</reg></choice> sol<lb ed="#S"/>vendam 
           et ad tam diu carendum beatitudine et circumstantia quae reddit 
           <lb ed="#S"/>actum alias aeque bonum minus <unclear>meritorium</unclear> simpliciter et simpliciter minus lau<lb ed="#S"/>dabilem 
@@ -293,14 +291,14 @@
           <lb ed="#S"/>et exclusio a conspectu dei aequale praemium sicut illi 
           <lb ed="#S"/>qui esset dignus statim deo assistere et non taliter cruciari</p>
         
-        <p><g ref="#pilcrow"/>Sed 
+          <p xml:id="b1prolq2-scsvmp"><g ref="#pilcrow"/>Sed 
           <lb ed="#S"/>contra <choice><orig>sicud</orig><reg>sicut</reg></choice> supra acceptatum est et notum theologis in prima contritione et culpae 
-          <lb ed="#S"/>mortalis remissione reducitir <choice><orig>penitens</orig><reg>poenitens</reg></choice> ad gradum perfectum gratiae 
+          <lb ed="#S"/>mortalis remissione reducitur <choice><orig>penitens</orig><reg>poenitens</reg></choice> ad gradum perfectum gratiae 
           <lb ed="#S"/>ponatur igitur quod gradus pristinus nunc <choice><orig>penitentis</orig><reg>poenitentis</reg></choice> et cui restat solvenda <choice><orig>pena</orig><reg>poena</reg></choice>  
           <lb ed="#S"/>magna in purgatorio sic <unclear>ista <!-- ita --></unclear> magus <choice><orig>sicud</orig><reg>sicut</reg></choice> gradus caritatis illius qui nihil habet sol<lb ed="#S"/>vere 
           de <choice><orig>pena</orig><reg>poena</reg></choice> purgatorii nec redimere tunc probo quod opera bona et bona velle 
           <lb ed="#S"/>utriusque sint aeque bona et aeque laudabilia apud deum quia meritum proportionatur 
-          <lb ed="#S"/>gratiae mereritis <g ref="#dot"/> sic scilicet quod quanto quis habet maiorem gratiam 
+          <lb ed="#S"/>gratiae <unclear>merentis</unclear> <g ref="#dot"/> sic scilicet quod quanto quis habet maiorem gratiam 
           <lb ed="#S"/>tanto sunt opera eius si ex aequali conatu procedant et sic de aliis 
           <lb ed="#S"/>conditionibus magis <corr>meritori<g ref="#dot"/>a</corr> sed per positum iste habens <choice><orig>penam</orig><reg>poenam</reg></choice> solvere 
           <lb ed="#S"/>et redimere habet tantam gratiam sicut alius qui non indiget re<lb ed="#S"/>dimere 
@@ -314,7 +312,7 @@
           <lb ed="#S"/>corinthios</title> 13</ref> <quote ana="#Icor13_3">si tradidero corpus meum ita ut ardeam</quote> <g ref="#dot"/> glossa <quote>bona 
           <lb ed="#S"/>inquit opera non ex quantitate sui sed ex caritate plus vel minus prosunt<!-- this quote seems to be from Lombard rather than the gloss; it is quoted on p. 211 of Theologie und philosophie, 1978, volume 53 Zumkellar in III "Sermo quartus dominicae quinquagesimae, p. 210 ff attributes this to Lombard Collect. in epist. de Pauli, In epist. primam ad Cor. 13, 1-9 PL 191, 1660A --></quote></p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>ad hoc etiam est ratio quia gratia ideo dicitur gratia quia ex hoc quod aliquis habet eam 
+        <p xml:id="b1prolq2-aheagi"><lb ed="#S"/><g ref="#pilcrow"/>ad hoc etiam est ratio quia gratia ideo dicitur gratia quia ex hoc quod aliquis habet eam 
           <lb ed="#S"/>est deo gratiosus nec est aliquis secundum legem communem alio magis vel 
           <lb ed="#S"/>minus gratiosus vel gratus nisi proportionaliter ad quantitatem gratiae sibi datae 
           <lb ed="#S"/>igitur quicumque aequalem habent gratiam <unclear>gratitudinem</unclear> sue caritatem quae apud 
@@ -323,7 +321,7 @@
           <lb ed="#S"/>aeque carus et gratiosus <g ref="#dot"/> Isti autem de quibus est sermo per 
           <lb ed="#S"/>positum habent <corr><add place="marginLeft">gratias aequales</add></corr> igitur etc</p>
         
-        <p><g ref="#pilcrow"/>Nec valet exemplum ductum in contrarium quia si 
+        <p xml:id="b1prolq2-nveipi"><g ref="#pilcrow"/>Nec valet exemplum ductum in contrarium quia si 
           <lb ed="#S"/>rex non <corr><add place="marginLeft">quia</add></corr> ofensus ad hoc sed solum ut iustitiam expleret 
           <lb ed="#S"/>pro offensa praeterita plenarie remissa quo ad offensam 
           <lb ed="#S"/>faceret sibi carissimum ad tempus in carcere detineri <g ref="#dot"/> non sequitur 
@@ -345,7 +343,7 @@
           <lb ed="#S"/><choice><orig>penae</orig><reg>poenae</reg></choice> suae in qua ipsa est maior persolvetur et hoc fuit 
           <lb ed="#S"/>iam proximo <choice><orig>inprobatum</orig><reg>improbatum</reg></choice></p>
         
-        <p><g ref="#pilcrow"/>Ex praecedent negativa scilicet quod nulla actio meritoria 
+          <p xml:id="b1prolq2-epnehp"><g ref="#pilcrow"/>Ex praecedenti negativa scilicet quod nulla actio meritoria 
           <lb ed="#S"/>est minus meritoria ex hoc quod simul est satisfactio et ex affirmativa 
           <lb ed="#S"/>data ad principale dubium quod actio satisfactoria ex caritate proce<lb ed="#S"/>dens 
           est meritoria praemi aeterni sequitur haec affirmativa quod cuilibet actioni 
@@ -354,7 +352,7 @@
           <lb ed="#S"/><choice><orig>penae</orig><reg>poenae</reg></choice> redemptio quae tamen sic aeque bona per omnia hoc ex praecepto 
           <lb ed="#S"/>quod ipsa non est satisfactio et satis iam est haec probata</p>
         
-        <p><g ref="#pilcrow"/>Sed contra hoc 
+          <p xml:id="b1prolq2-schqvi"><g ref="#pilcrow"/>Sed contra hoc 
           <lb ed="#S"/>argui potest sicut supra argutum est contra unam responsionem <choice><orig>inprobatam</orig><reg>improbatam</reg></choice> 
           <lb ed="#S"/>quod si <name ref="#Sortes">sortes</name> et <name ref="#Plato">plato</name> habentes aequales gratias faciant actiones similes 
           <lb ed="#S"/>in omnibus excepto haec quod actio <name ref="#Sortes">sortis <!-- sortes? --></name> simul sic<!-- sit --> satisfactoria <g ref="#dot"/> tunc si 
@@ -363,16 +361,16 @@
           peccantes si <choice><orig>peniteant</orig><reg>poeniteant</reg></choice> quam non peccantes ceteris paribus 
           <lb ed="#S"/>quod videtur inconveniens</p>
         
-        <p><g ref="#pilcrow"/>praeterea sequitur ut videtur quod peccatum <name ref="#Sortes">sortis <!-- sortes? --></name> remanet <choice><orig>in<lb ed="#S"/>punitum</orig><reg>im<lb ed="#S"/>punitum</reg></choice> 
+          <p xml:id="b1prolq2-psupps"><g ref="#pilcrow"/>praeterea sequitur ut videtur quod peccatum <name ref="#Sortes">sortis <!-- sortes? --></name> remanet <choice><orig>in<lb ed="#S"/>punitum</orig><reg>im<lb ed="#S"/>punitum</reg></choice> 
           quia <name ref="#Sortes">sortes</name> non plus punitur quam <name ref="#Plato">plato</name> <g ref="#dot"/> <name ref="#Plato">plato</name> autem <corr><add place="marginRight">omninonon punitur sicut non demeruit igitur</add></corr> 
           <lb ed="#S"/><corr><add place="marginCenter">et <name ref="#Sortes">sortes</name></add></corr> omnino non punitur pro peccato suo</p>
         
-        <p><g ref="#dbslash"/><corr><add place="aboveLine">ad</add></corr> Istud forte diceretur quod virtute 
+        <p xml:id="b1prolq2-aifaqm"><g ref="#dbslash"/><corr><add place="aboveLine">ad</add></corr> Istud forte diceretur quod virtute 
           <lb ed="#S"/>sacramenti quod subiit <choice><orig>penitens</orig><reg>poenitens</reg></choice> et virtute obedientiae est quo ad redemptionem 
           <lb ed="#S"/><choice><orig>penae</orig><reg>poenae</reg></choice> actus bonus <choice><orig>penitentis</orig><reg>poenitentis</reg></choice> melior quam illius qui ex proprio motu faceret 
           <lb ed="#S"/>talem actum <g ref="#dot"/> vel alio quovis modo</p>
         
-        <p><g ref="#pilcrow"/>Sed illud non videtur posse stare 
+        <p xml:id="b1prolq2-sindaa"><g ref="#pilcrow"/>Sed illud non videtur posse stare 
           <lb ed="#S"/>primo quia haec responsio recedit a casu posito quod omnia alia sint paria 
           <lb ed="#S"/>nisi quod unus habeat satisfacere et alter non hoc autem non potest con<lb ed="#S"/>tigere 
           nisi sicut unus facit ex obedientia et alter <g ref="#dot"/> et uni apponatur 
@@ -387,13 +385,13 @@
           <lb ed="#S"/>se <g ref="#dot"/> obediat igitur et recipiat sacramentalem gratiam qui nihil debet de 
           <lb ed="#S"/><choice><orig>pena</orig><reg>poena</reg></choice> sicut alter qui debet et tunc nihil dicitur ad argumentum</p>
         
-        <p><g ref="#pilcrow"/><g ref="#pilcrow"/>prima virtute 
+        <p xml:id="b1prolq2-pvscsg"><g ref="#pilcrow"/><g ref="#pilcrow"/>prima virtute 
           <lb ed="#S"/>sacramenti non fit iste melior quam prius nisi quatenus virtute sacramenti 
           <lb ed="#S"/>infunditur sibi nova gratia vel augetur praecedens vel quatenus at<lb ed="#S"/>tritio 
           sua fit actio et actus bonus meritorius et per consequens non 
           <lb ed="#S"/>virtute sacramenti tantum sed etiam virtute meriti crescit sua gratia <g ref="#dot"/></p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>Ex omnibus istis simul iunctis non est iste melior qua prius 
+        <p xml:id="b1prolq2-eoiqpr"><lb ed="#S"/><g ref="#pilcrow"/>Ex omnibus istis simul iunctis non est iste melior qua prius 
           <lb ed="#S"/>si prius erat in gratia nisi pro quanto et in tanto quanto habet ma<g ref="#dash"/><lb ed="#S"/>iorem 
           gratiam sicut supra per <name ref="#Augustine">augustinus</name> probavi <g ref="#dot"/> capiatur igitur alius qui numquam 
           <lb ed="#S"/>peccavit cuius gratia tanta sic per omnia sicut gratia alterius ex 
@@ -407,7 +405,7 @@
           <lb ed="#S"/>aequali tantum retribuet praemium in caelo et simul cum hoc peccatum illi 
           <lb ed="#S"/>qui peccaverat relaxabit</p>
         
-        <p><g ref="#pilcrow"/>praeterea si actus sic <choice><orig>penitentis</orig><reg>poenitentis</reg></choice> melioratur 
+        <p xml:id="b1prolq2-psaaaa"><g ref="#pilcrow"/>praeterea si actus sic <choice><orig>penitentis</orig><reg>poenitentis</reg></choice> melioratur 
           <lb ed="#S"/>ex illis circumstantiis quas ponit responsio sic ita quod ex aequali gratia 
           <lb ed="#S"/>vel obedientia aliunde reddatur actus similis et aequalis in illo qui 
           <lb ed="#S"/>numquam peccat mortaliter ita meritorius sicut est ille <g ref="#dot"/> tunc sequitur primo 
@@ -424,9 +422,9 @@
           <lb ed="#S"/>non sunt magis meritoria beatitudinis vel alterius boni dandi sibi quam 
           <lb ed="#S"/>innocentis operantis aequaliter quod valde videtur absurdum quia tunc ex<lb ed="#S"/>pediret 
           fuisse peccatorem ex quo innocens non potest tali per 
-          <lb ed="#S"/>actus bonos alias aequales <unclear>e?perari</unclear></p>
-        
-        <p><g ref="#pilcrow"/>praeterea ut sic <unclear>communius</unclear> <choice><orig>peni<lb ed="#S"/>tentes</orig><reg>poeni<lb ed="#S"/>tentes</reg></choice> 
+          <lb ed="#S"/>actus bonos alias aequales <unclear>aequipari</unclear></p>
+          
+        <p xml:id="b1prolq2-pussso"><g ref="#pilcrow"/>praeterea ut sit <unclear>communius</unclear> <choice><orig>peni<lb ed="#S"/>tentes</orig><reg>poeni<lb ed="#S"/>tentes</reg></choice> 
           ex privata affectione commodi proprii seu potius vitandi 
           <lb ed="#S"/>incommodum proprium <choice><orig>penam</orig><reg>poenam</reg></choice> scilicet sensus vel dampni quam meruerunt 
           <lb ed="#S"/>faciunt illa quae ipsis inponuntur et nollent ista facere si 
@@ -438,9 +436,9 @@
           divinam sponte faciunt talia vel gaudent talia imponi 
           <lb ed="#S"/>sibi ab illis quibus habent <unclear>obedire</unclear> ut per hoc plus deo place<g ref="#dash"/><lb ed="#S"/>ant 
           igitur ut communiter non plus merentur ex sequentes opera satisfactoria 
-          <lb ed="#S"/>ex <unclear>iniuncto</unclear> foro <unclear>pine[?] <!-- review all instances of for "foro p??" above --></unclear> quam alii similia sponte operantes</p>
+          <lb ed="#S"/>ex <unclear>iniuncto</unclear> foro <unclear>penitentiae</unclear> quam alii similia sponte operantes</p>
         
-        <p><g ref="#pilcrow"/>praeterea casus potest ponit in quo stat tota difficultas et tamen in illo dicta 
+        <p xml:id="b1prolq2-pcpccp"><g ref="#pilcrow"/>praeterea casus potest ponit in quo stat tota difficultas et tamen in illo dicta 
           <lb ed="#S"/>evasio non habet locum utpote dato quod aliquis vere <choice><orig>peniteret</orig><reg>poeniteret</reg></choice> de 
           <lb ed="#S"/>moralibus extra omnem habitationem fidelium ubi nulla esset opertunitas 
           <lb ed="#S"/>conformis et tamen ut deum placaret de offensa et ut redi<lb ed="#S"/>meret 
@@ -451,10 +449,10 @@
           <lb ed="#S"/>quod si primus non haberet satisfacere actus eorum essent totaliter aequalis 
           <lb ed="#S"/>beatitudinis meritorii modo aut est actus unius satisfactio et alterius 
           <lb ed="#S"/>non quaerendum est an actus <unclear>satsifacientis</unclear> de <choice><orig>pena</orig><reg>poena</reg></choice> sic simul 
-          <lb ed="#S"/>cum hoc aequalis beatitudinis meritorius et tunc dupliciter praemabitur et plus quam 
+          <lb ed="#S"/>cum hoc aequalis beatitudinis meritorius et tunc dupliciter praemiabitur et plus quam 
           <lb ed="#S"/>innocens pro bono opere aequali vel minus et hoc contra conclusiones probatas</p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>Aliter forte resopndebitur ad rationem contra ultimam conclusionem iuxta ista quae 
+          <p xml:id="b1prolq2-afrtds"><lb ed="#S"/><g ref="#pilcrow"/>Aliter forte respondebitur ad rationem contra ultimam conclusionem iuxta ista quae 
           <lb ed="#S"/>dicta sunt in <ref>solutione 3ii principalis dubii</ref> quod opera satisfactoria sic 
           <lb ed="#S"/>iniuncta cuius sunt ieiunare <g ref="#dot"/> orare <g ref="#dot"/> dare elemosinam <!-- can also be spelled eleemosyna or elemosina or elemosyna check for instances this above perhaps under "electa" or "elementa"--> <g ref="#slash"/> etc huius 
           <lb ed="#S"/>non sunt de satisfactoria vel meritoria sed per aliud tantum <g ref="#dot"/> ex hoc scilicet 
@@ -474,23 +472,23 @@
           <lb ed="#S"/>non incurrisse mortale aliquod vel qui novit omnem <choice><orig>penam</orig><reg>poenam</reg></choice> sibi dimis<lb ed="#S"/>sam 
           alias pro talibus debitam sibi</p>
         
-        <p><g ref="#pilcrow"/>Et per idem ad 2m quod <name ref="#Sortes">sortes</name> 
+          <p xml:id="b1prolq2-epiams"><g ref="#pilcrow"/>Et per idem ad 2m quod <name ref="#Sortes">sortes</name> 
           <lb ed="#S"/>plus punitur quam <name ref="#Plato">plato</name> quia <name ref="#Sortes">sortes</name> propter culpam suam <unclear>praete?tem</unclear> iam obligatur 
           <lb ed="#S"/>ad actum obedientiae quo vult <choice><orig>inplere</orig><reg>implere</reg></choice> iniunctum non sic <name ref="#Plato">plato</name> <g ref="#slash"/> et 
           <lb ed="#S"/>est magna <choice><orig>pena</orig><reg>poena</reg></choice> ipsum tantum ex culpa sua <choice><orig>neccessitari</orig><reg>necessitari</reg></choice> ad aliquid 
           <lb ed="#S"/>ad quod alius vel non <choice><orig>neccessitatur</orig><reg>necessitatur</reg></choice> vel non ex culpa sua sed ad 
           <lb ed="#S"/>meritum suum</p>
         
-        <p><g ref="#pilcrow"/>Sed haec responsio non evadit rationem primam contra priorem 
+          <p xml:id="b1prolq2-shrusa"><g ref="#pilcrow"/>Sed haec responsio non evadit rationem primam contra priorem 
           <lb ed="#S"/>responsionem quia in illo casu <unclear>illa <!-- ita --></unclear> credit se unus ex culpa sua obli<g ref="#dash"/><lb ed="#S"/>gari 
           ad <choice><orig>inplendum</orig><reg>implendum</reg></choice> tale iniunctum sicut alter et per consequens ibi 
           <lb ed="#S"/>aequaliter puniretur unus sicut alius</p>
         
-        <p><g ref="#pilcrow"/>Si dicas quod <choice><orig>ymmo</orig><reg>immo</reg></choice> vere obli<lb ed="#S"/>gari 
+        <p xml:id="b1prolq2-sdqsso"><g ref="#pilcrow"/>Si dicas quod <choice><orig>ymmo</orig><reg>immo</reg></choice> vere obli<lb ed="#S"/>gari 
           ex culpa sua ad tale velle respectu iniuncti est <choice><orig>pe<lb ed="#S"/>nalius</orig><reg>poe<lb ed="#S"/>nalius</reg></choice> 
           quam credere sic se obligari</p>
         
-        <p><g ref="#pilcrow"/>contra quia maior <choice><orig>pena</orig><reg>poena</reg></choice> sensus 
+          <p xml:id="b1prolq2-cqmcqn"><g ref="#pilcrow"/>contra quia maior <choice><orig>pena</orig><reg>poena</reg></choice> sensus 
           <lb ed="#S"/>non est huic iniuncta <unclear>ita <!-- compare with above "illa" --></unclear> si cetera sint utrobique paria nec 
           <lb ed="#S"/>utrobique fuit maior <choice><orig>pena</orig><reg>poena</reg></choice> sensus ex quo ille qui vere obligatur 
           <lb ed="#S"/>satis facit nec est maior <choice><orig>pena</orig><reg>poena</reg></choice> dampni si utrique in caelo pro tali 
@@ -500,11 +498,13 @@
           <lb ed="#S"/>sic peccavit et totum per bona opera alia vel aliquorum praeces 
           <lb ed="#S"/>dimissum est sibi sed timet vel credit quod non <g ref="#dot"/></p>
         
-        <p><g ref="#pilcrow"/>Et praeterea 
+          <p xml:id="b1prolq2-eprnes"><g ref="#pilcrow"/>Et praeterea 
           <lb ed="#S"/>redit difficultas ubi actiones vere sunt satisfactoriae apud 
           <lb ed="#S"/>deum et ad hoc acceptantur et cum non fiunt sic ex iniuncto 
           <lb ed="#S"/>et tamen in illis est aeque dubium sicut prius an illis debeatur aequale praemium 
-          <lb ed="#S"/>in caelo sicut si simul non essent satisfactiones <g ref="#dot"/> Ideo aliter posset dici 
+          <lb ed="#S"/>in caelo sicut si simul non essent satisfactiones</p>
+          
+          <p xml:id="b1prolq2-iapsrp"><g ref="#dot"/> Ideo aliter posset dici 
           <lb ed="#S"/>sicut nunc scribit <rs>unus doctor modernus</rs> corrigens responsionem suam 
           <lb ed="#S"/>aliam contra quam supra ponitur illa conclusio <corr>negativa</corr> dico inquit sine praeiudicio 
           <lb ed="#S"/>melioris <unclear>fm?e</unclear> quod actio meritoria satisfactoria semper est aequalis meriti 
@@ -516,13 +516,13 @@
           <lb ed="#S"/>recompensatione <choice><orig>penae</orig><reg>poenae</reg></choice> pro peccato sibi debite cui circumstnatiae 
           <lb ed="#S"/>non debetur praemium aliquod aeternum sed sola remissio <choice><orig>penae</orig><reg>poenae</reg></choice></p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>Contra <g ref="#dot"/> haec responsio non respondet de bonis operibus habentis <unclear>satisfacere</unclear> non 
+        <p xml:id="b1prolq2-chrqni"><lb ed="#S"/><g ref="#pilcrow"/>Contra <g ref="#dot"/> haec responsio non respondet de bonis operibus habentis <unclear>satisfacere</unclear> non 
           <lb ed="#S"/>ex intentione satisfaciendi de <choice><orig>pena</orig><reg>poena</reg></choice> debita sed satis placendi 
           <lb ed="#S"/>deo vel alia bona et caritativa intentione facit et tamen pie cre<lb ed="#S"/>dendum 
           est quod talia bona opera <choice><orig>penam</orig><reg>poenam</reg></choice> etiam redimit etiam quando non 
           <lb ed="#S"/>intenditur</p>
         
-        <p><g ref="#pilcrow"/>Item arguo sic <g ref="#dot"/> omnis circumstantia ex qua redditur actus 
+        <p xml:id="b1prolq2-iasfps"><g ref="#pilcrow"/>Item arguo sic <g ref="#dot"/> omnis circumstantia ex qua redditur actus 
           <lb ed="#S"/>caritatis redditur ex eadem meritorius praemii aeterni <g ref="#dot"/> sed ex hac 
           <lb ed="#S"/>conditione vel circumstantia <corr>qua</corr> quis per bonum actum suum si cetera sicut 
           <lb ed="#S"/>paria vult redimere <choice><orig>penam</orig><reg>poenam</reg></choice> suam redditur talis actus magis ca<lb ed="#S"/>ritativus 
@@ -541,7 +541,7 @@
           <lb ed="#S"/>sic cogitatio per defunctis exorare etc et <ref><title ref="#Enchiridion">enchiridion</title> 12</ref> igitur 
           <lb ed="#S"/>meritorium est illud ferre pro seipso</p>
         
-        <p><g ref="#pilcrow"/>praeterea <g ref="#dot"/> omne illud cuius omissio 
+        <p xml:id="b1prolq2-poisrs"><g ref="#pilcrow"/>praeterea <g ref="#dot"/> omne illud cuius omissio 
           <lb ed="#S"/>libera <corr><del rend="expunctuated">positio meritoria</del></corr> esset demeritoria esset in habente caritatem 
           <lb ed="#S"/>libera positio meritoria <g ref="#dot"/> sed scito ab habente caritatem se obligant 
           <lb ed="#S"/>ad <choice><orig>penam</orig><reg>poenam</reg></choice> gravem solidam sensus vel dampni quae forte gravior 
@@ -554,7 +554,7 @@
           <lb ed="#S"/>alteri sed si alium posset ita faciliter liberare et nollet peccaret 
           <lb ed="#S"/>contra instinctum caritatis <g ref="#dot"/> similiter respectu sui</p>
         
-        <p><g ref="#pilcrow"/>aliter igitur responsio 
+        <p xml:id="b1prolq2-airpap"><g ref="#pilcrow"/>aliter igitur responsio 
           <lb ed="#S"/>licet sit multum difficile plene satisfacere et dico quod <choice><orig>pe<lb ed="#S"/>nitens</orig><reg>poe<lb ed="#S"/>nitens</reg></choice> 
           de mortali cui restat <choice><orig>pena</orig><reg>poena</reg></choice> temporalis solum nam 
           <lb ed="#S"/>eo ipso quod <choice><orig>penitet</orig><reg>poenitet</reg></choice> vere <unclear>commutata</unclear> est <choice><orig>pena</orig><reg>poena</reg></choice> aeterna prius ei de<lb ed="#S"/>bita 
@@ -568,9 +568,9 @@
           <lb ed="#S"/><!--possible correction/addition here -->quosdam scilicet pura et sola affectione iustitiae <g ref="#slash"/> quosdam sola affectio<lb ed="#S"/>ne 
           commodi prius privati sibi liciti <g ref="#slash"/>et 3os mixtos qui 
           <lb ed="#S"/>simul sint affectiones commodi et iustitiae vel procedentes ex talibus 
-          <lb ed="#S"/>et <unclear>ita<!-- illa? --></unclear> proportionaliter exprocedentibus a prioribus <g ref="#dot"/></p>
+          <lb ed="#S"/>et ita proportionaliter ex procedentibus a prioribus <g ref="#dot"/></p>
         
-        <p><g ref="#pilcrow"/>Loquendo de prius qui sunt 
+        <p xml:id="b1prolq2-ldpptm"><g ref="#pilcrow"/>Loquendo de prius qui sunt 
           <lb ed="#S"/>purae affectiones iustitiae puta amore dei propter se <g ref="#slash"/> vel 
           <lb ed="#S"/>aliorum pro amore dei et ad deo placendum et huius <g ref="#slash"/>qui sunt 
           <lb ed="#S"/>actus purae caritativi et hoc sive habeant personam propriam sive 
@@ -590,12 +590,11 @@
           <lb ed="#S"/>posse habere <corr>quo optet</corr> vel intendat <choice><orig>penam</orig><reg>poenam</reg></choice> redimere quam 
           <lb ed="#S"/>talem igitur talis vel nullus videtur dignus <choice><orig>penae</orig><reg>poenae</reg></choice> talis mitigatione <g ref="#dot"/></p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>Sed tunc restat ad dicere quomodo non lucretur de peccato 
+        <p xml:id="b1prolq2-strrsp"><lb ed="#S"/><g ref="#pilcrow"/>Sed tunc restat ad dicere quomodo non lucretur de peccato 
           <lb ed="#S"/>suo ex quo dabitur ei par gloria sicut innocenti haben<lb ed="#S"/>ti 
           aeque bonos actus et simul cum hoc remittitur sibi <choice><orig>pena</orig><reg>poena</reg></choice></p>
         
-        
-        <p><cb ed="#S" n="9rb"/><lb ed="#S"/><g ref="#pilcrow"/>ubi primo dico quod innocens vel non habens <choice><orig>penam</orig><reg>poenam</reg></choice> sibi debitam quam 
+        <p xml:id="b1prolq2-updpav"><cb ed="#S" n="9rb"/><lb ed="#S"/><g ref="#pilcrow"/>ubi primo dico quod innocens vel non habens <choice><orig>penam</orig><reg>poenam</reg></choice> sibi debitam quam 
           <lb ed="#S"/>redimat et hoc sciens non potest rationaliter <!-- unclear if corrected --> talem actum causare 
           <lb ed="#S"/>quo <corr>sic propter deum optet</corr> liberari a <choice><orig>pena</orig><reg>poena</reg></choice> sibi debita <g ref="#slash"/> et ideo hoc 
           <lb ed="#S"/>recedere et <g ref="#dot"/> a casu <g ref="#slash"/> quia tunc non sunt similes omnino <choice><orig>ymmo</orig><reg>immo</reg></choice> nec 
@@ -620,17 +619,15 @@
           <lb ed="#S"/>frigidam non solum quandoque calefacit sed etiam desiccat 
           <lb ed="#S"/>et tamen aliam similem aeque frigidam non tamen humidam aeque calefacti 
           <lb ed="#S"/>sed non desiccat quia non est ibi humiditas quam corrumpat <choice><orig>ymmo</orig><reg>immo</reg></choice> 
-          <lb ed="#S"/>iam est antea optime desiccata</p>
-        
-        <p><g ref="#pilcrow"/><unclear>a simili</unclear> in proposito <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+          <lb ed="#S"/>iam est antea optime desiccata <g ref="#pilcrow"/><unclear>a simili</unclear> in proposito <choice><orig>sicud</orig><reg>sicut</reg></choice> 
           <lb ed="#S"/>patet applicare volent</p>
         
-        <p><g ref="#pilcrow"/>Et nota quod primum tantum ex <choice><orig>hiis</orig><reg>his</reg></choice> du<lb ed="#S"/>obus 
+          <p xml:id="b1prolq2-enqqac"><g ref="#pilcrow"/>Et nota quod primum tantum ex <choice><orig>hiis</orig><reg>his</reg></choice> du<lb ed="#S"/>obus 
           ex naturae patria institutione et statu merendi si homo 
           <lb ed="#S"/>non cecidesset sibi correspondisset et ita videtur multum gratiosum quod alter 
           <lb ed="#S"/><corr>correspondet</corr><g ref="#dot"/></p>
         
-        <p><g ref="#pilcrow"/>Et tunc ad formam non sequitur quod <choice><orig>penitens</orig><reg>poenitens</reg></choice> talis <unclear>repo<lb ed="#S"/>rtet</unclear> 
+        <p xml:id="b1prolq2-etasih"><g ref="#pilcrow"/>Et tunc ad formam non sequitur quod <choice><orig>penitens</orig><reg>poenitens</reg></choice> talis <unclear>repo<lb ed="#S"/>rtet</unclear> 
           <unclear>lucrum</unclear> de hoc quod fuit peccator <choice><orig>ymmo</orig><reg>immo</reg></choice> ex ipso patitur iacturam 
           <lb ed="#S"/>quia est dignus ad tempus privari <corr><del rend="expunctuated">deo</del></corr> dei beatifica fruitione et 
           <lb ed="#S"/>etiam affligi sensibiliter nisi iuvetur specialiter sed de bono facto suo lu<lb ed="#S"/>cratur 
@@ -639,7 +636,7 @@
           <lb ed="#S"/>qui ante satisfecit qui non habet malum a quo liberetur <choice><orig>sicud</orig><reg>sicut</reg></choice> ille 
           <lb ed="#S"/>habet</p>
         
-        <p><g ref="#pilcrow"/>Exemplum sint hic duo quorum unus ex culpa sua 
+        <p xml:id="b1prolq2-eshssp"><g ref="#pilcrow"/>Exemplum sint hic duo quorum unus ex culpa sua 
           <lb ed="#S"/>habet turpitudinem in corpore vel corpus turpe <g ref="#dot"/> et alius habeat pulchrum 
           <lb ed="#S"/>corpus <g ref="#dot"/> et mereatur utrique nudus existens apud aliquem directe 
           <lb ed="#S"/>aequale <unclear>indi?tum</unclear> contrario frigus instans <g ref="#dot"/> istud <unclear>indu?tum</unclear> u<lb ed="#S"/>trique 
@@ -652,14 +649,14 @@
           <lb ed="#S"/>meruit bonum sibi utilius quam alteri <g ref="#slash"/> Sed hic exemplum non est usque 
           <lb ed="#S"/>quaque simile sicut praecedens</p>
         
-        <p><g ref="#pilcrow"/>Aliud exemplum est de indulgentia 
+        <p xml:id="b1prolq2-aeemmc"><g ref="#pilcrow"/>Aliud exemplum est de indulgentia 
           <lb ed="#S"/>7e partis <choice><orig>penae</orig><reg>poenae</reg></choice> debitae concessae a papa ex <unclear>ch?auro</unclear> ecclesiae 
           <lb ed="#S"/>vel sufficientia mortis christi propter bonum opus aliquod simile in duobus <g ref="#dot"/> 
           <lb ed="#S"/>quorum uni plus in centuplo valebit quam alteri <g ref="#dot"/> et tamen 
           <lb ed="#S"/>ille non lucratur istum valorem ex peccato suo sed potius ex 
           <lb ed="#S"/>bono opere suo et merito mortis christi <corr><add place="marginBottom"><!-- large block of text added here --></add></corr></p>
         
-        <p><g ref="#pilcrow"/>alio modo videtur etiam 
+        <p xml:id="b1prolq2-amvppd"><g ref="#pilcrow"/>alio modo videtur etiam 
           <lb ed="#S"/>mihi posse dici probabiliter quod sicut in priori responsione praemium aeter<lb ed="#S"/>num 
           aequale per omnia debetur utrique qui habet vel non habet sa<lb ed="#S"/>tisfacere 
           de <choice><orig>pena</orig><reg>poena</reg></choice> <corr><add place="marginBottom">si omnia alia sint paria Sed ultra hoc <choice><orig>sicud</orig><reg>sicut</reg></choice> videtur bonum opus huius habentis satisfacere de <choice><orig>pena</orig><reg>poena</reg></choice></add></corr> ad illius <choice><orig>penae</orig><reg>poenae</reg></choice> mitigationem vel redemptionem 
@@ -670,7 +667,7 @@
           <lb ed="#S"/><unclear>caritativis</unclear> patet quid dicendum sicut est dilectio dei gratuita super 
           <lb ed="#S"/>omnia et cuiuscumque alterius praecise propter deum</p>
         
-        <p><g ref="#pilcrow"/>Sed de actibus 2i modi 
+        <p xml:id="b1prolq2-sdasdl"><g ref="#pilcrow"/>Sed de actibus 2i modi 
           <lb ed="#S"/>quos ille saepe habet qui habet satisfacere de <choice><orig>pena</orig><reg>poena</reg></choice> temporali debita 
           <lb ed="#S"/>pro mortali ex sola affectione commodi qua ex amore naturali pri<lb ed="#S"/>vato 
           respectu sui vult facere aliqua opera hic afflictam sibi iniuncta 
@@ -693,24 +690,22 @@
           <lb ed="#S"/>naturali hoc erit ex mera dei gratia non ex via iustitiae 
           <lb ed="#S"/>sed ex via solius die liberationis</p>
         
-        <p><g ref="#pilcrow"/>Istud probo per <name ref="#GregoryGreat">beatum gregorium</name> 
+        <p xml:id="b1prolq2-ippuoh"><g ref="#pilcrow"/>Istud probo per <name ref="#GregoryGreat">beatum gregorium</name> 
           <lb ed="#S"/>nam in <choice><orig>omelia</orig><reg>homelia</reg></choice> <g ref="#dot"/> <!-- i think quote start here --> <unclear>c?ium</unclear> de apostolis cum descripsisset modum gratuitae 
           <lb ed="#S"/>caritatis dici ille <unclear>realiter</unclear> caritatem habet <unclear>quid</unclear> et amicum diligit in deum et in<lb ed="#S"/>imicum 
           propter deum <g ref="#dot"/> adducit nam sunt non nulli qui diligit proximos per affectum 
           <lb ed="#S"/>cogitationis et carnis quibus tamen in hac dilectione sacra eloqui non contradicunt 
           <lb ed="#S"/>Sed aliud est quod sponte <choice><orig>inpenditur</orig><reg>impenditur</reg></choice> negatur alio quod praeceptis <unclear>di?ntis</unclear> ex 
           <lb ed="#S"/>caritate debetur <unclear>obedientiae</unclear> nimirum et proximum <unclear>diligit</unclear> et tamen illa sum<lb ed="#S"/>ma
-          dilectionis praemia non assetuntur quia amorem suum non 
+          dilectionis praemia non <unclear>assequuntur</unclear> quia amorem suum non 
           <lb ed="#S"/>spiritualiter sed carnaliter <choice><orig>inpendunt</orig><reg>impendunt</reg></choice> <!-- this could be the end of gregory quote --> <g ref="#dot"/> haec illae Eodem modo et multo 
-          <lb ed="#S"/>fortius est de affectione naturali comodi respectu sui de qua per ex<lb ed="#S"/>clusionem 
-          contrarii loquitur <name ref="#Plato">apostolus</name> <title ref="#eph">ad ephaesios 5</title> dicens <quote ana="#eph5_29">nemo enim carnem 
-          <lb ed="#S"/>suam unquam odio habuit</quote></p>
-        
-        <p><g ref="#pilcrow"/>De talibus igitur actibus loquendo 
+          <lb ed="#S"/>fortius est de affectione naturali commodi respectu sui de qua per ex<lb ed="#S"/>clusionem 
+          contrarii loquitur <name ref="#Paul">apostolus</name> <title ref="#eph">ad ephaesios 5</title> dicens <quote ana="#eph5_29">nemo enim carnem 
+          <lb ed="#S"/>suam unquam odio habuit</quote> <g ref="#pilcrow"/>De talibus igitur actibus loquendo 
           <lb ed="#S"/>ex quo non sunt ex iustitia digni praemio aeterno licet forte ex 
           <lb ed="#S"/>mera gratia permittente et non contradicente iustitia</p>
         
-        <p><g ref="#pilcrow"/>Similiter dicendum est 
+        <p xml:id="b1prolq2-sdesli"><g ref="#pilcrow"/>Similiter dicendum est 
           <lb ed="#S"/>ut prius quod velle redimere <choice><orig>penam</orig><reg>poenam</reg></choice> pro culpa debitam 
           <lb ed="#S"/>pro culpa mortali non congruit illi qui scit se non habere pro tali 
           <lb ed="#S"/>satisfacere <g ref="#slash"/> et ideo talis actus similis utrobique de quali est difficultas <g ref="#slash"/> 
@@ -722,13 +717,11 @@
           <lb ed="#S"/>alteri <g ref="#slash"/> et si non ad redemptionem <choice><orig>penae</orig><reg>poenae</reg></choice> saltem in aliquo modo bono temporali 
           <lb ed="#S"/>aequivalenter compensaretur secundum ultimum modum satisfaciendi conclusionem prius datam 
           <lb ed="#S"/>de actibus primi modi de quibus supra proximo vel iuxta illud 
-          <lb ed="#S"/>scripturae ut sis longemus <unclear>incera</unclear></p>
-        
-        <p><g ref="#pilcrow"/>vel secundum priorem modum 
+          <lb ed="#S"/>scripturae ut sis longemus <unclear>incera</unclear> <g ref="#pilcrow"/>vel secundum priorem modum 
           <lb ed="#S"/>valent illi ad redemptionem <choice><orig>penae</orig><reg>poenae</reg></choice> quoniam inveniunt dispositum ad 
           <lb ed="#S"/>illum effectum et alteri non quia non est aptus pro tunc <g ref="#dot"/></p>
         
-        <p><g ref="#pilcrow"/>de actibus 
+        <p xml:id="b1prolq2-dataql"><g ref="#pilcrow"/>de actibus 
           <lb ed="#S"/>3ii modi qui habent aliquid de affectione commodi et aliquid de 
           <lb ed="#S"/>affectione iustitiae dico quod si in talibus de qualibus prius locutum 
           <cb ed="#S" n="9vb"/><lb ed="#S"/>est si tales actus sint aequaliter gratuiti <g ref="#slash"/>sive aequaliter affectiones <unclear>iusti<g ref="#slash"/>tunt</unclear> 
@@ -744,17 +737,17 @@
           <lb ed="#S"/>ad relaxationem <choice><orig>penae</orig><reg>poenae</reg></choice> <g ref="#slash"/> ex iam dictis satis apparet ad omnia argumenta 
           <lb ed="#S"/>tam in principali ad quaestionem argumenta quam <unclear>lateraliter</unclear></p>
         <!-- begining of article 2 -->
-        <p><g ref="#pilcrow"/>Quo ad ar<lb ed="#S"/>ticulum 
+        <p xml:id="b1prolq2-qaaenp"><g ref="#pilcrow"/>Quo ad ar<lb ed="#S"/>ticulum 
           2m ad quem pertinet solvere <ref>6m <unclear>dubie<!-- dubium --> </unclear> primae quaestionis</ref> concedendum 
           <lb ed="#S"/>est quod visio dei est nobis possibilis</p> 
         
         <!-- ad primam probationem -->
-        <p>Et cum probatur quod non <g ref="#dot"/> quia talis visio 
+        <p xml:id="b1prolq2-ecpipq">Et cum probatur quod non <g ref="#dot"/> quia talis visio 
           <lb ed="#S"/>esset infinitae perfectionis neganda est <unclear>consequentia</unclear> quia non oportet quod inter cognitiones 
           <lb ed="#S"/>intellectus creati respectu obiectorum sic similis proportio qualis est obiectorum inter 
           <lb ed="#S"/>se sicut magis declarabitur in proxima quaestioni</p>
         
-        <p><g ref="#pilcrow"/>ad 2am probationem cum arguitur quod 
+        <p xml:id="b1prolq2-aspspu"><g ref="#pilcrow"/>ad 2am probationem cum arguitur quod 
           <lb ed="#S"/>visio dei ab intellectu creato si daretur esset infinita quia visio 
           <lb ed="#S"/>obiectorum infinitorum aliorum a deo cuiuslibet distincte esset infinitae perfectionis 
           <lb ed="#S"/>concedo si aliqua talis esset possibilis Sed dico quod sola cognitio divina est talis 
@@ -773,7 +766,7 @@
           perfectionis illius quae est respectu dei quia cetera tunc non sunt paria 
           <lb ed="#S"/>utrobique</p>
         
-        <p><g ref="#pilcrow"/>ad 3am probationem dicendum quod <corr><unclear>mediante</unclear></corr> tali visione sui appare<lb ed="#S"/>ret 
+        <p xml:id="b1prolq2-atpced"><g ref="#pilcrow"/>ad 3am probationem dicendum quod <corr><unclear>mediante</unclear></corr> tali visione sui appare<lb ed="#S"/>ret 
           deus id quod est et ita apparet bonum infinitum <g ref="#dot"/> tum per visionem huius 
           <lb ed="#S"/><corr><del rend="expunctuated">perceptum visione huius</del></corr> ex hoc praescise quod clara dei visio 
           <lb ed="#S"/>est nec apparet esse bonum finitum nec infinitum nec magnum nec parvum 
@@ -784,7 +777,7 @@
           <lb ed="#S"/>divisionem eo modo alio loquitur <ref><name ref="#Aristotle">philosophus</name> 3o <title ref="#deAnima">de anima</title></ref> <quote>vocaris aliquem actum intellectus 
           <lb ed="#S"/>simplicem intelligentiam et aliquem compositionem et divisionem <!-- this quote, if it is a quote, seem most likely a paraphrase --></quote></p>
         
-        <p><g ref="#pilcrow"/><choice><orig>verumptamen</orig><reg>verumtamen</reg></choice> concedendum 
+        <p xml:id="b1prolq2-vcenpf"><g ref="#pilcrow"/><choice><orig>verumptamen</orig><reg>verumtamen</reg></choice> concedendum 
           <lb ed="#S"/>est quod habita clara dei visione potest quilibet <g ref="#slash"/> talem habens 
           <lb ed="#S"/>aliunde non distractus nec <choice><orig>inpeditus</orig><reg>impeditus</reg></choice> evidenter iudicare deum esse 
           <lb ed="#S"/>infinitae perfectionis Et sic loquendo concedendo quod deus mediante clara sui 
@@ -804,39 +797,37 @@
           <lb ed="#S"/>sequitur quod aliqua creatura intellectui divini clare videnti appareret me<g ref="#dash"/><lb ed="#S"/>lior 
           nisi deus apparet bonum infinitum vel non praecise finitum</p>
         
-        <p>Et 
+        <p xml:id="b1prolq2-epafql">Et 
           <lb ed="#S"/>prima alia <g ref="#slash"/> non appareret beatis omnibus aeque bonus et aeque amabilis 
           <lb ed="#S"/>contra <ref><name ref="#Lombard">magistrum</name> versu finem 4i libri</ref></p>
         
-        <p><g ref="#pilcrow"/>Sed huic forte diceretur quod 
+        <p xml:id="b1prolq2-shficv"><g ref="#pilcrow"/>Sed huic forte diceretur quod 
           <lb ed="#S"/>licet deus mediante clara sui visione intuitive appareret minor 
           <lb ed="#S"/>esse quam et apparet etiam abstractive tantus esse quatenus est clare videnti 
           <lb ed="#S"/>deum et ita diligibilis et <unclear>appreciabilis <!-- see appreciari below --></unclear> <choice><orig>sicud</orig><reg>sicut</reg></choice> est et ideo nulla creatura posset 
           <lb ed="#S"/>apparere melior quam deus clare visus <g ref="#dot"/> nec per consequens plus 
           <lb ed="#S"/>appreciari vel diligi a voluntate ipsum clare videntis</p>
         
-        <p><g ref="#pilcrow"/>Sed contra 
+        <p xml:id="b1prolq2-scicqa"><g ref="#pilcrow"/>Sed contra 
           <lb ed="#S"/><unclear>illa <!-- again illa, ista, ita, hard to distinguish here --></unclear> cognitio abstractiva qua habita clara visione apparet deus infinite bonus aut 
           <lb ed="#S"/>esset realiter ipsamet visio ac cognitio aliqua posterior naturaliter si ipsa hoc 
           <lb ed="#S"/>videtur mirabile quod eodem actu cognoscatur obiectum beatificum intuitive et 
           <lb ed="#S"/>abstractive et tamen inperfectius ex hoc quod intuitive quam ex hoc quod 
           <lb ed="#S"/>abstractive maxime cum nulla cognitio ponatur esse beatifica nisi 
-          <lb ed="#S"/>ex hoc quod ipsa est clara dei visio <g ref="#slash"/> Si ist abstractiva ponatur 
+          <lb ed="#S"/>ex hoc quod ipsa est clara dei visio <g ref="#slash"/> Si ista abstractiva ponatur 
           <lb ed="#S"/>esse alia ab ipsa dei visione ac igitur est simplex dei intelli<lb ed="#S"/>gentia 
           aut compositio et divisio si simplex intelligentia et non potest poni communis 
           <lb ed="#S"/>deo et aliis quia per conceptionem simplicem <unclear>praeviam</unclear> omni componi et divisioni 
           <lb ed="#S"/>communem deo et aliis non plus apparet deus esse infinitus quam 
-          <lb ed="#S"/>alia cum per illam non distinctius cognoscatur quam alia <g ref="#dot"/></p>
-        
-        <p><g ref="#pilcrow"/>oportet igitur 
-          <lb ed="#S"/>quod ipsa sic propria simplex dei conceptio abstractiva Et hoc non quia 
+          <lb ed="#S"/>alia cum per illam non distinctius cognoscatur quam alia <g ref="#dot"/> <g ref="#pilcrow"/>oportet igitur 
+          <lb ed="#S"/>quod ipsa sit propria simplex dei conceptio abstractiva Et hoc non quia 
           <lb ed="#S"/>generaliter talis abstractiva simplex et propria <choice><orig>inperfectius</orig><reg>imperfectius</reg></choice> repraesentat obiectum 
           <lb ed="#S"/>cuius est quam intuitiva <corr><del rend="strikethrough">nc</del></corr> correspondens naturaliter sibi praevia <g ref="#slash"/> prima 
           <lb ed="#S"/>omne argumentum si quod esset quod probaret deum non apparere intuitive 
           <lb ed="#S"/>per visionem claram eius bonum infinitum aeque probaret quod per 
           <lb ed="#S"/>talem abstractivam non appareret bonum infinitum</p>
         
-        <p><g ref="#pilcrow"/>Si vero ista 
+        <p xml:id="b1prolq2-sviaam"><g ref="#pilcrow"/>Si vero ista 
           <lb ed="#S"/>abstractiva posterior naturaliter visione ponatur compositio vel divisio seu iudicium 
           <lb ed="#S"/>illud non poterit poni iudicium evidens ex terminis ab illo qui 
           <lb ed="#S"/>cavillaret <corr>quid</corr> esset <corr><add place="marginLeft"><unclear>ponere</unclear></add><del rend="expunctuated">inpossibile</del></corr> illud quo <corr>ten<del rend="expunctuated">tu</del><add place="aboveLine">ui</add></corr> et maxime hoc poni 
@@ -861,7 +852,7 @@
           <g ref="#dot"/> et <corr><add place="marginBottom"><!-- large paragraph in bottom margin --></add></corr> exsecutio dictaminis rectae rationis potest praecavere omnem 
           <lb ed="#S"/>culpam igitur etc</p>
         
-        <p><g ref="#pilcrow"/>dico ergo <choice><orig>sicud</orig><reg>sicut</reg></choice> prius quod licet clara dei visio 
+        <p xml:id="b1prolq2-desids"><g ref="#pilcrow"/>dico ergo <choice><orig>sicud</orig><reg>sicut</reg></choice> prius quod licet clara dei visio 
           <lb ed="#S"/>non sic evidens iudicium quod deus est bonum infinitum quia 
           <lb ed="#S"/>ipsa non est iudicium vel saltem potest non esse iudicium sed simplex 
           <lb ed="#S"/>intelligentia solum tamne ipsa posita statim potest haberi iudicium quod 
@@ -870,19 +861,19 @@
           <lb ed="#S"/>cuius pars in aqua et pars supra facit apparere baculum frac<lb ed="#S"/>tum 
           licet ipsa corporalis visio non sic iudicum de hoc et ita de similibus</p>
         <!-- 5 dubitaitones against conclusion; num 1 -->
-        <p><g ref="#pilcrow"/>Sed contra hanc conclusionem stat ratio 5 dubitationis praecedentis de incomprehensibilitate 
+        <p xml:id="b1prolq2-schbhd"><g ref="#pilcrow"/>Sed contra hanc conclusionem stat ratio 5 dubitationis praecedentis de incomprehensibilitate 
           <lb ed="#S"/>dei secundum sanctos nam dicit <ref><name ref="#Ambrose">ambrosius</name> <title>super lucam</title></ref> quod <quote ana="#Ambrose_ExpositioSecundumLucam_1_25_a">plenitudinem deitatis 
           <lb ed="#S"/>quae habitat in christo nemo mente comprehendit</quote> <g ref="#dot"/> Item <ref><name ref="#GregoryGreat">gregorius</name> <title>Moralia</title> libro 
           <lb ed="#S"/>3 <g ref="#dot"/></ref> <quote>deitatis <unclear>celsi?em</unclear> quamvis elevatae videant nec virtutes angelicae 
           <lb ed="#S"/>comprehendunt ad idem</quote> etiam ponitur in <ref><title>??</title> <name ref="#Origen">origenis</name> 10</ref> magna copia autoritatum 
           <lb ed="#S"/><name ref="#Augustine">augustini</name> <name ref="#Boethius">boetii</name> <name ref="#HughOfStVictor">hugonis</name> idem exprimentium <g ref="#slash"/>
           <!-- num 2 --></p>
-        <p>Item ad <corr><del rend="expunctuated">pp</del>oppositum</corr> datae conclusionis 
+        <p xml:id="b1prolq2-iaosii">Item ad <corr><del rend="expunctuated">pp</del>oppositum</corr> datae conclusionis 
           <lb ed="#S"/>potest argui per exemplum licet enim tota quantitas solis videatur occulariter 
           <lb ed="#S"/><choice><orig>sicud</orig><reg>sicut</reg></choice> dei immensitas videtur ab <choice><orig>alico</orig><reg>aliquo</reg></choice> intellectualiter non tamen sol sic visus 
           <lb ed="#S"/>apparet intuitive tantus quantus est <g ref="#dot"/> igitur simpliciter potest esse de deo <corr><add place="marginRight"><!-- added stuff --></add></corr> infinitus intensive</p>
         <!-- num 3 -->
-          <p><lb ed="#S"/><g ref="#dbslash"/>Item taliter potest augeri sol quod apparebit maior quam nunc est et taliter mi<lb ed="#S"/>nui 
+        <p xml:id="b1prolq2-ptpqnv"><lb ed="#S"/><g ref="#dbslash"/>Item taliter potest augeri sol quod apparebit maior quam nunc est et taliter mi<lb ed="#S"/>nui 
           quod apparebit minor quam nunc apparet et videtur quod secundum qualibet proportionem me<lb ed="#S"/>diam 
           inter minimum visibile si detur vel maximum <corr><add place="marginRight">non</add></corr> visibile si minimum  
           <lb ed="#S"/>non detur ex una parte et veram quantitatem solis poterit haec proportio 
@@ -897,7 +888,7 @@
           <lb ed="#S"/>aliqua in divina eiusdem speciei <choice><orig>inproportionalia</orig><reg>improportionalia</reg></choice> inter se possent successive 
           <lb ed="#S"/>recipi in eodem quod non videtur</p>
         <!-- num 4 -->
-        <p><g ref="#pilcrow"/>praeterea iuxta responsionem ad primum argumenta <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+        <p xml:id="b1prolq2-piriqe"><g ref="#pilcrow"/>praeterea iuxta responsionem ad primum argumenta <choice><orig>sicud</orig><reg>sicut</reg></choice> 
           <lb ed="#S"/>aliquod obiectum sic extendit visu corporalem sicut lux solis quod tale 
           <lb ed="#S"/>non potest perfecte intueri Et aliquod in minus deficit et ideo non potest 
           <lb ed="#S"/>ab eo perfecte cognosci et aliquod est in medio visui optime propor<lb ed="#S"/>tionatum 
@@ -909,12 +900,12 @@
           <lb ed="#S"/>tantum et tale quantum et quale est <g ref="#dot"/> Sed deus distat infinite ab 
           <lb ed="#S"/>illa proportione optima ergo in infinitum apparet minor intuitive quam est</p>
         <!-- num 5 -->
-        <p><g ref="#pilcrow"/>praeterea 
+        <p xml:id="b1prolq2-pqlafi"><g ref="#pilcrow"/>praeterea 
           <lb ed="#S"/>quantitas luminosa infinita <corr><del rend="expunctuated">per</del><add place="aboveLine">secundum</add></corr> extensionem si <corr><del>in</del>infinite</corr> distaret 
           <lb ed="#S"/>ab oculo appareret sibi finita ergo pari ratione possibile quod obiectum infinitum 
           <lb ed="#S"/><unclear>in transitive</unclear> appareat finitum <unclear>intransitive</unclear> <g ref="dbslash"/></p>
         <!-- num 6 (above it said only 5 dubitaitones so maybe this should be part of 5th even though margin says 6)-->
-        <p><!-- possible paragraph break -->Idem potest probari per experientiam 
+        <p xml:id="b1prolq2-ippiqe"><!-- possible paragraph break -->Idem potest probari per experientiam 
           <lb ed="#S"/>nam caecutiens iudicat colorem vel lucem intuitive sibi apparen<lb ed="#S"/>tem 
           esse remissionem quam sit vel quam iudicet bene viendo <g ref="#dot"/> ergo 
           <lb ed="#S"/>cum <unclear>omnis acucies</unclear> cuiuslibet intellectus creati distet in infinitum respectu acu<lb ed="#S"/>ciei 
@@ -923,7 +914,7 @@
           <lb ed="#S"/>infinitae acuciei est comprehnesibile tantae perfectionis esse 
           <lb ed="#S"/>in tali intuitione quantae est</p>
         <!-- resonse to first of dubitationes -->
-        <p><g ref="#pilcrow"/>Ad primum aliorum dicendum quod cum hic quod intellectus 
+        <p xml:id="b1prolq2-apidce"><g ref="#pilcrow"/>Ad primum aliorum dicendum quod cum hic quod intellectus 
           <lb ed="#S"/>creatus habita clara dei visione iudicat mediante illa evidenter 
           <lb ed="#S"/>deum esse infinitae perfectionis bene stat quod deus sic in comprehensibilis cuilibet 
           <lb ed="#S"/>creato intellectui quia ipsi sancti deum esse incomprehensibilem intelligunt et quod a <corr><add place="marginRight">nullo</add> 
@@ -931,7 +922,7 @@
           <lb ed="#S"/>suam intelligibilis ad hanc intellectum quod nulla creat cognitio sit <unclear>ita <!-- ita vs illa/ista still remains difficult --></unclear> 
           <lb ed="#S"/>perfecta dei cognitio sicut deus cognoscibilis est</p>
         
-        <p><g ref="#pilcrow"/>Tunc patet ad argumentum 
+        <p xml:id="b1prolq2-tpavep"><g ref="#pilcrow"/>Tunc patet ad argumentum 
           <lb ed="#S"/>in contrarium procedit enim ab in sufficienti licet enim nulla creatura ita perfecta 
           <lb ed="#S"/>cognitione possit cognosci ab intellectu creato sicut ipsa est intelligibilis 
           <lb ed="#S"/>quia ipsa est infinita cognitione intelligibilis tamen ipsa est ab 
@@ -951,11 +942,11 @@
           <lb ed="#S"/>vel illius quod potest esse ens <choice><orig>sicud</orig><reg>sicut</reg></choice> risible hominis nihil ergo est plus intelligibile 
           <lb ed="#S"/>quam ipsum sic ens vel esse possit</p>
         
-        <p><g ref="#pilcrow"/>contra quodlibet aliud a deo est 
+        <p xml:id="b1prolq2-cqaqse"><g ref="#pilcrow"/>contra quodlibet aliud a deo est 
           <lb ed="#S"/>finite ens <g ref="#slash"/> et tamen infinite intelligibile ergo aliud a deo est plus intelligibile 
           <lb ed="#S"/>quam sit ens</p>
         
-        <p><g ref="#pilcrow"/>dicendum quod si ly <mentioned>infinite</mentioned> in 2a propositione notat 
+        <p xml:id="b1prolq2-dqsiee"><g ref="#pilcrow"/>dicendum quod si ly <mentioned>infinite</mentioned> in 2a propositione notat 
           <lb ed="#S"/>magnitudinem intelligibilitatis falsa est Si vero notat magnitudinem cognitionis 
           <lb ed="#S"/>vel perfectionem modi cognitionis qua ipsum est cognoscibile potest con<lb ed="#S"/>cedi 
           cum quodlibet sit a deo cognoscibile qui nihil finite cognoscit <corr><add place="marginLeft">sed quodlibet infinite et ad hunc intellective concedenda est conclusio illata <g ref="#dot"/></add></corr> Sic enim 
@@ -965,7 +956,7 @@
           <lb ed="#S"/>aliter non quando ipsum ita perfecte cognoscitur a tali intellectu <choice><orig>sicud</orig><reg>sicut</reg></choice> ipsum 
           <lb ed="#S"/>est ens</p>
         <!-- response to second dubitatio -->
-        <p><g ref="#pilcrow"/>ad 2m contra est neganda quia non est simile ad propositionum de 
+        <p xml:id="b1prolq2-ascsqs"><g ref="#pilcrow"/>ad 2m contra est neganda quia non est simile ad propositionum de 
           <lb ed="#S"/>finito et infinito tum quia dato per <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> quod sol esset infinitus 
           <lb ed="#S"/>extensive ad huc non esset simile quia non quaelibet pars illius infiniti 
           <lb ed="#S"/>esset sufficienter praesens oculo corporali nec alicui creato oculo menta<lb ed="#S"/>li 
@@ -974,11 +965,11 @@
           corporaliter quia non potest videri nisi sic aliqualiter opatum et tunc non 
           <lb ed="#S"/>videtur secundum quodlibet sui</p>
         <!-- response to third dubitatio -->
-        <p><g ref="#pilcrow"/>per idem ad 3m quia non est simile de bono in<lb ed="#S"/>finito 
+        <p xml:id="b1prolq2-piaeei"><g ref="#pilcrow"/>per idem ad 3m quia non est simile de bono in<lb ed="#S"/>finito 
           sic sufficienter praesenti oculo mentali videntis et de 
           <lb ed="#S"/>solo etiam dato quod sol esset extensive infinitus</p>
         <!-- respone to fourth dubitatio -->
-        <p><g ref="#pilcrow"/>ad 4m concedendum 
+        <p xml:id="b1prolq2-aqcamb"><g ref="#pilcrow"/>ad 4m concedendum 
           <lb ed="#S"/>est quod deus non potest comprehensive videri ab intellectu creato et 
           <lb ed="#S"/>hoc probat argumentum non autem quod appareat minus bonum intellectui creato 
           <lb ed="#S"/>quam increato sed tantum quod minus appareat creato quam increato ut 
@@ -986,17 +977,17 @@
           <lb ed="#S"/>istius <unclear>medii</unclear> melius argueret si bene deduceretur quod deus non 
           <lb ed="#S"/>esset clare visibilis quam quod visus deberet apparere minus bonum</p>
         <!-- response to fifth dubitatio -->
-        <p><lb ed="#S"/><g ref="#pilcrow"/>Ad <corr><add place="aboveLine">5</add><del>dubium</del></corr> quod illud quod conditum est sicut includens contradictionem in<lb ed="#S"/>digeret 
+        <p xml:id="b1prolq2-aqdepi"><lb ed="#S"/><g ref="#pilcrow"/>Ad <corr><add place="aboveLine">5</add><del>dubium</del></corr> quod illud quod conditum est sicut includens contradictionem in<lb ed="#S"/>digeret 
           probatione nisi supponendo quod ex impossibili sequitur quodlibet <g ref="#dot"/> et tamen 
           <lb ed="#S"/>dato antecedente consequentia neganda est sicut in primo et 2o argumento solu<lb ed="#S"/>to 
           et propter idem</p>
         <!-- resopnse to sixth -->
-        <p><g ref="#pilcrow"/>ad 6m quod apud me est difficilius dicendum <g ref="#slash"/>quod haec 
+        <p xml:id="b1prolq2-asqlip"><g ref="#pilcrow"/>ad 6m quod apud me est difficilius dicendum <g ref="#slash"/>quod haec 
           <lb ed="#S"/>est propter indispositionem organi ipsius caecutientis sed haec causa non 
           <lb ed="#S"/>habet locum in proposito</p>
         
         <!-- possible new section; obiection to solution of first dubii of first question -->
-        <p><g ref="#pilcrow"/>contra dicta in primo articulo et 2o et contra solutionem 
+        <p xml:id="b1prolq2-cdicap"><g ref="#pilcrow"/>contra dicta in primo articulo et 2o et contra solutionem 
           <lb ed="#S"/>primi dubii primae quaestionis potest obici quia si deus potest apparere in<lb ed="#S"/>tellectui 
           creato bonum infinitum aut igitur illud apparere vel visio qua 
           <lb ed="#S"/>sic apparet est deus ipse vel visio creata <g ref="#dot"/> non deus ipse <g ref="#dot"/> 
@@ -1019,7 +1010,7 @@
           <lb ed="#S"/>ad deum videndum intra sententiam condempnatam et cum hoc non apparet 
           <lb ed="#S"/>scilicet quod frustra illam particulam <unclear>copulet</unclear> ad priorem <g ref="#dot"/></p>
         
-        <p><g ref="#pilcrow"/>Eandem veri<g ref="#dash"/>tatem 
+        <p xml:id="b1prolq2-evamae"><g ref="#pilcrow"/>Eandem veri<g ref="#dash"/>tatem 
           <lb ed="#S"/>alias intendo prolixius sub illo met <unclear>tyciao</unclear> suadere nec 
           <lb ed="#S"/>potest dici quod clare videndum deum per visionem creatam appreat deus bonum 
           <lb ed="#S"/>et amabile infinitum creato intellectui sic videnti quia si sic cum 
@@ -1030,7 +1021,7 @@
           <lb ed="#S"/>subiecto potest anima beata videri verbum et creaturam in verbo per modum 
           <lb ed="#S"/>alias explanandum</p>
         
-        <p><g ref="#pilcrow"/>Sed contra hoc arguit <name>ille socius</name> primo sic <g ref="#dot"/> quia tunc vel per 
+        <p xml:id="b1prolq2-schpeb"><g ref="#pilcrow"/>Sed contra hoc arguit <name>ille socius</name> primo sic <g ref="#dot"/> quia tunc vel per 
           <lb ed="#S"/>eundem actum quo videt verbum praecise una vice potest vi<lb ed="#S"/>dere 
           aliam creaturam alia vice et pari ratione eodem actu quo una 
           <lb ed="#S"/>vice <corr>vid<del rend="expunctuated">i</del><add place="aboveLine">e</add>t</corr> verbum et aliquam creaturam vel aliquas sed non omnis potest aliam 
@@ -1048,7 +1039,7 @@
           <lb ed="#S"/>12 <quote>nullus actus deficiens et non semper permansurus est beatitudo <!-- pretty sure the citation is correct, city of God, book 11, c. 12; probably not a direct quote though. Check florilegia. Another example of the quotation is in questio 26 on mirecourt site: http://www.filosofia.unimi.it/mparodi/mirecourt/testi/questioni/questio26.htm --></quote>
         </p>
         <!-- num 1; begin 9 or so arguments of socius which are then answered -->
-        <p><lb ed="#S"/><g ref="#pilcrow"/>Et primo quod non sic talis successio actuum arguit per <ref><name ref="#Augustine">augustinum</name> 15 
+        <p xml:id="b1prolq2-epqivs"><lb ed="#S"/><g ref="#pilcrow"/>Et primo quod non sic talis successio actuum arguit per <ref><name ref="#Augustine">augustinum</name> 15 
           <lb ed="#S"/><title ref="#deTrinitate">de trinitate</title> capitulo 41 et est 16 <unclear>capitulus</unclear> de magnis</ref> ubi dicit quod <quote ana="#Augustine_DeTrinitate_15_16_26_a">non erunt 
           <lb ed="#S"/>ibi volubiles cogitationes nostrae ab aliis in alias euntes 
           <lb ed="#S"/>atque redeuntes sed omnem scientiam nostrum uno simul aspectum 
@@ -1061,12 +1052,12 @@
           <lb ed="#S"/>ponere ibi tot similitudines simul in intellectu cum aeque possit et melius 
           <lb ed="#S"/>salvari per unam <corr><del rend="expunctuated">increaa</del></corr> increatam videtur superfluum</p>
         
-        <p>Similiter <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+        <p xml:id="b1prolq2-sshqnv">Similiter <choice><orig>sicud</orig><reg>sicut</reg></choice> 
           <lb ed="#S"/>haberet aliquando plures cognitiones beatificas et aliquando pauciores secundum 
           <lb ed="#S"/>istam partem argumenti ita sequitur quod aliquando haberet plures delectiones et 
           <lb ed="#S"/>quandoque pauciores quod non videtur</p>
         <!-- num 2 -->
-        <p><g ref="#pilcrow"/>2o principaliter arguit sic et illud praecipue 
+        <p xml:id="b1prolq2-spasfp"><g ref="#pilcrow"/>2o principaliter arguit sic et illud praecipue 
           <lb ed="#S"/>ponderat quia si visio verbi esset actus distinctus a verbo tunc sequitur 
           <lb ed="#S"/>quod summe beatus non posset stante sua <unclear>beatitudine</unclear> in summo habere 
           <lb ed="#S"/>ita perfectam notitiam de <unclear>creatura</unclear> aliqua in genere proprio <choice><orig>sicud</orig><reg>sicut</reg></choice> 
@@ -1081,11 +1072,11 @@
           <lb ed="#S"/>simul stantibus posset stare 3a intensissima et 4a et 5a et sic sine fine 
           <lb ed="#S"/>procedendo</p>
         
-        <p><g ref="#pilcrow"/><corr>E<del rend="expunctuated">x</del><add place="aboveLine">t</add></corr> hoc iterum est contra experientia quia una cognitio multum 
+        <p xml:id="b1prolq2-ehisca"><g ref="#pilcrow"/><corr>E<del rend="expunctuated">x</del><add place="aboveLine">t</add></corr> hoc iterum est contra experientia quia una cognitio multum 
           <lb ed="#S"/>intensa circa aliquid delectabile multum placens sibi vel notabiliter re<lb ed="#S"/>mittit 
           vel totaliter suspendit vel aufert cognitionem simul circa aliud</p>
         
-        <p><g ref="#pilcrow"/>Et 
+        <p xml:id="b1prolq2-eichep"><g ref="#pilcrow"/>Et 
           <lb ed="#S"/>iterum confirmari posset per <ref><name ref="#Augustine">beatum augustinum</name> 7 <title ref="#onGenesis">super genese ad litteram</title> capitulo 15</ref> ubi 
           <lb ed="#S"/>docet quod potentiae animae in actibus suis mutuo se <choice><orig>inpediunt</orig><reg>impediunt</reg></choice> ergo 
           <lb ed="#S"/>multo fortius actus intensus eiusdem potentiae <choice><orig>inpedit</orig><reg>impedit</reg></choice> intensionem 
@@ -1095,7 +1086,7 @@
           cum remissa beatitudine sua oportebit remitti beatitudinem 
           <lb ed="#S"/>animae christi et hoc erat probandum</p>
         <!-- num 3 -->
-        <p><g ref="#pilcrow"/>praeterea <ref><name ref="#Augustine">augustinus</name> 8 <title ref="#supraGenesim">super genese ad litteram</title> 
+        <p xml:id="b1prolq2-paosec"><g ref="#pilcrow"/>praeterea <ref><name ref="#Augustine">augustinus</name> 8 <title ref="#supraGenesim">super genese ad litteram</title> 
           <lb ed="#S"/>capitulo 12 de magnis vel 34 de <choice><orig>parviis</orig><reg>parvis</reg></choice></ref> ostendens quomodo diversimode 
           <lb ed="#S"/>loquitur deus creaturis super illud <title ref="#gen">genese</title> qua die comederitis ex 
           <lb ed="#S"/>ligno scilicet prohibito morte <unclear>moriemini</unclear> <g ref="#dot"/> <quote><!-- likely begining of quote -->Si modum inquit quaerimus 
@@ -1111,19 +1102,19 @@
           media et hoc est quod ipsa dei subiecta sit talibus spiri<lb ed="#S"/>tibus 
           eorum cognitio</p>
         <!-- num 4 -->
-        <p><g ref="#pilcrow"/>ad idem potest argui ex modo ponendi <name>illius socii</name> 
+        <p xml:id="b1prolq2-aipdqa"><g ref="#pilcrow"/>ad idem potest argui ex modo ponendi <name>illius socii</name> 
           <lb ed="#S"/>quia si aliquid obstaret hoc potissime videntur quod non posset sal<lb ed="#S"/>vari 
           tunc quod unus beatus clarius videret quam alius <corr><add place="marginBottom">sed hoc non obstat quia aeque faciliter salvabitur hoc <choice><orig>sicud</orig><reg>sicut</reg></choice> secundum <name>magistrum</name> quod <unclear>s</unclear> scilicet sit gratia animae seu caritas et tamen unus est carior deo quam alius</add></corr></p>
         <!-- num 5 -->
-        <p>praeterea deus 
+        <p xml:id="b1prolq2-pdeiep">praeterea deus 
           <lb ed="#S"/>est summe per illapsum praesens intelligentibus beatis et ipse est <unclear>cognitio<!-- congruo?? --></unclear> 
           <lb ed="#S"/>igitur <unclear>quia</unclear> non poterit ita bene esse tali intellectui <unclear>cognitio</unclear> <choice><orig>sicud</orig><reg>sicut</reg></choice> unus actus creatus 
           <lb ed="#S"/>qui non esset <unclear>intimius</unclear> ei praesens</p>
         <!-- num 6 -->
-        <p>Item quia non poterit ita bene poni 
+        <p xml:id="b1prolq2-iqnvse">Item quia non poterit ita bene poni 
           <lb ed="#S"/>verbum supplere vicem actus creati <choice><orig>sicud</orig><reg>sicut</reg></choice> vicem speciei</p>
         <!-- num 7 -->
-        <p><g ref="#pilcrow"/>Item ex argumentis 
+        <p xml:id="b1prolq2-ieaeee"><g ref="#pilcrow"/>Item ex argumentis 
           <lb ed="#S"/>ad principale quaestionis suae si natura intellectualis creata posset videre res in 
           <lb ed="#S"/>verbo per actum a verbo distinctum tunc poterit noviter aliquid cognoscere in 
           <lb ed="#S"/>verbo per talem actum et ita poterit proficere in cognitione creaturarum a<lb ed="#S"/>liter 
@@ -1141,7 +1132,7 @@
           <lb ed="#S"/>dilectione consistit beatitudo <corr>quanto</corr> autem plura in verbo ostendit 
           <lb ed="#S"/>beatus intellectui tanto plus facit pro eo ergo etc</p>
         <!-- num 8 -->
-        <p><g ref="#pilcrow"/>praeterea videtur quod 
+        <p xml:id="b1prolq2-pvqdie"><g ref="#pilcrow"/>praeterea videtur quod 
           <lb ed="#S"/>per actum beatificum si habetur <choice><orig>neccessario</orig><reg>necessario</reg></choice> distincte cognoscit quodlibet 
           <lb ed="#S"/>distincte cognoscibile et per consequens actus est infinitae perfectionis <g ref="#dot"/> ergo non 
           <lb ed="#S"/>est creatura sed deus assumptum potest argui sic <g ref="#dot"/> quia nullus actus esset 
@@ -1152,7 +1143,7 @@
           <cb ed="#S" n="11rb"/><lb ed="#S"/>de magnis vel 17 de parvis</ref> <corr><add place="marginTop">loquentis de beata felicitate et quod est inquit omnino <unclear>beati?m</unclear> ita semper fore certum erit</add></corr> sed constant quod nullus est certus quod semper erit 
           <lb ed="#S"/>beatus nisi cognoscat aliud a deo ergo etc</p>
         <!-- number 9 -->
-        <p><g ref="#pilcrow"/>praeterea aliquod cognoscibile aliud 
+        <p xml:id="b1prolq2-pacivv"><g ref="#pilcrow"/>praeterea aliquod cognoscibile aliud 
           <lb ed="#S"/>a deo non potest in verbo cognosci id est per <g ref="#slash"/> <unclear>ma?nem</unclear> verbi <choice><orig>sicud</orig><reg>sicut</reg></choice> obiecti et 
           <lb ed="#S"/>cum non fit maior ratio de uno quam de alio ergo nullum aliud a deo est 
           <lb ed="#S"/>cognoscibile in verbo probo assumpti quia se non esse bonum est cognoscibile quibusdam 
@@ -1161,10 +1152,10 @@
           <lb ed="#S"/>et non haberet aut non stante visione verbi et hoc non quia tunc 
           <lb ed="#S"/>nihil in verbo videret</p>
         
-        <p><lb ed="#S"/>praeterea <ref><name ref="#Anselm">anselmus</name> <title ref="#Anselm_DeLiberoArbitrio">de libero arbitrio</title> capitulo 7</ref> quodlibet cognoscibile 
+        <p xml:id="b1prolq2-padspc"><lb ed="#S"/>praeterea <ref><name ref="#Anselm">anselmus</name> <title ref="#Anselm_DeLiberoArbitrio">de libero arbitrio</title> capitulo 7</ref> quodlibet cognoscibile 
           <lb ed="#S"/>scitur propria cognitione</p>
         <!-- beginning of 8-10 responses -->
-        <p><g ref="#pilcrow"/>ad primum istorum bene concedo quod per eundem actum 
+        <p xml:id="b1prolq2-apifsc"><g ref="#pilcrow"/>ad primum istorum bene concedo quod per eundem actum 
           <lb ed="#S"/>creatum bene potest cognosci verum et aliqua creatura vel multae <g ref="#dot"/> non tamen omnes 
           <lb ed="#S"/>distinctae <g ref="#dot"/> ideo concedo quod si una <corr><add place="marginRight">vice</add><del rend="expunctuated">visione</del></corr> videret solum verum id est 
           <lb ed="#S"/>solum deum <g ref="#dot"/> quia non ponerem quod <corr>verum</corr> <corr><del rend="strikethrough">non</del></corr> posset videri nisi simul vi<lb ed="#S"/>so 
@@ -1194,13 +1185,13 @@
           <lb ed="#S"/>sicut materia prima numquam cessat esse informata licet multae ipsius formae 
           <lb ed="#S"/>successive corrumpantur</p>
         
-        <p><g ref="#pilcrow"/>ad 2am in probationem de illo dicto <name ref="#Augustine">augustini</name> potest dici 
+        <p xml:id="b1prolq2-asicnd"><g ref="#pilcrow"/>ad 2am in probationem de illo dicto <name ref="#Augustine">augustini</name> potest dici 
           <lb ed="#S"/>multipliciter primo et <name ref="#Augustine">augustinus</name> hoc non determinat nec assentit sed loquitur dubitative 
           <lb ed="#S"/><quote ana="#Augustine_DeTrinitate_15_16_26_a">fortasse inquit non erunt ibi volubiles nostrae cognitiones</quote> etc 
           <lb ed="#S"/>et iterum statim post cum hoc fuerit si et hoc fuerit etc Ecce quod profert hoc 
           <lb ed="#S"/>semper cum nota dubitationis</p>
         
-        <p><g ref="#pilcrow"/>2o quod non negat ibi successionem <unclear>accidentium</unclear> 
+        <p xml:id="b1prolq2-sqncis"><g ref="#pilcrow"/>2o quod non negat ibi successionem <unclear>accidentium</unclear> 
           <lb ed="#S"/>sed quod <quote ana="#Augustine_DeTrinitate_15_16_26_a">non erunt ibi volubiles nostrae cognitiones ab aliis in alia e<lb ed="#S"/>untes
           atque redeuntes</quote> et hoc est verum de illis cogitatis respectu quorum 
           <lb ed="#S"/>consistit beatitudo essentialis sicut de deitate <g ref="#dot"/> et tribus personis a 
@@ -1209,14 +1200,14 @@
           <lb ed="#S"/>etiam dato quod non per actum creatum sed per verbum ipsum videret <corr>ver<lb ed="#S"/>bum</corr> 
           anima beata talis ut statim probabo contra <name>istum socium</name></p>
         
-        <p><g ref="#pilcrow"/>3o 
+        <p xml:id="b1prolq2-tdqmfe"><g ref="#pilcrow"/>3o 
           <lb ed="#S"/>dico quod auctoritas est plane contra eum tum quia statim addit ibi <name ref="#Augustine">augustinus</name> 
           <lb ed="#S"/>cum hoc fuerit si hoc fuerit formata erit creatura quae formabilis fuit <g ref="#dot"/> 
           <lb ed="#S"/>sed apud me est <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> quod deus sit eius forma ergo hoc erti per 
           <lb ed="#S"/><g ref="#dot"/>aliam rem a deo qua nunc sic formata cum sic videt et prius tantum 
           <lb ed="#S"/>isto modo formabilis erat</p>
         
-        <p><g ref="#pilcrow"/>praeterea 2o est ista auctoritas concedo <name>istum 
+        <p xml:id="b1prolq2-pseaci"><g ref="#pilcrow"/>praeterea 2o est ista auctoritas concedo <name>istum 
           <lb ed="#S"/>socium</name> quia secundum eum per ipsam visionem quae est ipsum verbum videt 
           <lb ed="#S"/>intellectus beati res alias et hoc est videre in verbo et hoc distincte 
           <lb ed="#S"/>quia alias cognitio matutina respectu alterius creaturae non esset ita perfecta illius 
@@ -1245,7 +1236,7 @@
           <lb ed="#S"/>clare videt sicut est de quolibet beato secundum ita nullus posset clarius 
           <lb ed="#S"/>et perfectius videre igitur stat auctoritas contra illum <g ref="#dot"/></p>
         
-        <p><g ref="#pilcrow"/>ad 2m argumentum suum 
+        <p xml:id="b1prolq2-asapna"><g ref="#pilcrow"/>ad 2m argumentum suum 
           <lb ed="#S"/>quod ipse plus ponderat nego consequentia <g ref="#dot"/> quia actus qui est cognitio creaturae in 
           <lb ed="#S"/>genere proprie est alterius speciei totaliter ab illo qui est visio verbi <g ref="#slash"/> ideo in 
           <lb ed="#S"/>nullo gradu sibi repugnat nec requirit ipsam remitti non plus 
@@ -1260,12 +1251,12 @@
           <lb ed="#S"/>speciebus secundum actos simul <corr>habitu<add>ari</add></corr> quin adhuc pluribus <g ref="#dot"/> quia ergo foret 
           <lb ed="#S"/>repugnantia de actibus ex natura actuum vel potentiae non apparet</p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>Quia autem arguitur de experientia mihi videtur quod difficultas in contrarium ex 
+        <p xml:id="b1prolq2-qaaaea"><lb ed="#S"/><g ref="#pilcrow"/>Quia autem arguitur de experientia mihi videtur quod difficultas in contrarium ex 
           <lb ed="#S"/>parta est <choice><orig>pena</orig><reg>poena</reg></choice> peccati sicut <unclear>oblivio</unclear> vel ignorantia et <choice><orig>inpotentia</orig><reg>impotentia</reg></choice> quia dif<lb ed="#S"/>ficultas 
           et similes defectus huius vitae in futuro auferentur Et idem 
           <lb ed="#S"/>responsio ad experientiam <name ref="#Augustine">augustini</name></p>
         
-        <p><g ref="#pilcrow"/>Ad 3m responsio quod deus loquitur angelis 
+        <p xml:id="b1prolq2-atrama"><g ref="#pilcrow"/>Ad 3m responsio quod deus loquitur angelis 
           <lb ed="#S"/>secundam suam substantiam et <corr><del rend="expunctuated">non</del></corr> per suam substantiam illuminat eos sicut creat 
           <lb ed="#S"/>eos et dicendum ad auctoritate quod auctoritas solvit se <g ref="#slash"/> et ostendit quod non 
           <lb ed="#S"/>est ad propositum arguentis vult enim dicere quod sicut per suam 
@@ -1289,7 +1280,7 @@
           <lb ed="#S"/>faciunt ad propositum illius nisi ab utendo verbis non ad mentem 
           <lb ed="#S"/><name ref="#Augustine">augustini</name></p>
         
-        <p><g ref="#pilcrow"/>praeterea si vult ire ad vim verborum advertat quod <name ref="#Augustine">augustinus</name> 
+        <p xml:id="b1prolq2-psviar"><g ref="#pilcrow"/>praeterea si vult ire ad vim verborum advertat quod <name ref="#Augustine">augustinus</name> 
           <lb ed="#S"/>dicit quod deus loquitur per substantiam suam non aut dicit quod angelus au<lb ed="#S"/>dit 
           istum locutionem per substantiam suam Cum hic aut quod deus per substantiam 
           <lb ed="#S"/>suam loquitur ostendendo sine omni medio ex parte sui semet ipsum stat 
@@ -1298,7 +1289,7 @@
           <lb ed="#S"/>ex parte obiecti audiuntur et tamen per auditionem rem distinctam in auditu 
           <lb ed="#S"/>receptam</p>
         
-        <p><g ref="#pilcrow"/>ad 4m iam probatum est quod <corr><add place="aboveLine">i</add>n<del rend="expunctuated">o</del></corr> ponatur <corr><add place="inLine">aliter 
+        <p xml:id="b1prolq2-aqihvc"><g ref="#pilcrow"/>ad 4m iam probatum est quod <corr><add place="aboveLine">i</add>n<del rend="expunctuated">o</del></corr> ponatur <corr><add place="inLine">aliter 
           <lb ed="#S"/>quam posuerit</add></corr> anima beata non videt omnia distincte in verbo 
           <lb ed="#S"/><choice><orig>ymmo</orig><reg>immo</reg></choice> nihil distinctum a verbo <corr><del rend="expunctuated">distinctum</del></corr> et hoc distincte sucipiendo 
           <lb ed="#S"/>dicta sua et per consequens per fruitionem quae deus est non diligit aliud 
@@ -1312,11 +1303,11 @@
           <lb ed="#S"/>non tenetur et decretalis de plano <ref>extra <!-- liber extra ?? --> de su? trinitate libro 7</ref> ponit in 
           <lb ed="#S"/>baptismo aliam gratiam informantem et hanc vocamus caritatem <g ref="#dot"/></p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>ad 5am dicendum quod per illapsum essentiae suae <unclear>coni</unclear> rei <unclear>intime</unclear> 
+        <p xml:id="b1prolq2-aqdipc"><lb ed="#S"/><g ref="#pilcrow"/>ad 5am dicendum quod per illapsum essentiae suae <unclear>coni</unclear> rei <unclear>intime</unclear> 
           <lb ed="#S"/>praesens est etiam animabus in purgatorio et omnibus in infero quibus tamen propter 
           <lb ed="#S"/>istam praesentiam non est visio igitur medium illud parum cogit <g ref="#dot"/></p>
         
-        <p><g ref="#pilcrow"/>ad 6 
+        <p xml:id="b1prolq2-asnpsp"><g ref="#pilcrow"/>ad 6 
           <lb ed="#S"/>non pono usquam speciem aliquam recipi in potentia quae sic praevia primo 
           <lb ed="#S"/>actui sed solum in medio et organis sensuum <g ref="#dot"/> et si ponatur negatur tamen 
           <lb ed="#S"/>a speciebus ponentibus ubi res cognoscenda est ita praesens animae sicut foret 
@@ -1331,18 +1322,18 @@
           <lb ed="#S"/>et non per speciem</quote> innunes quod in vita beata non solum per fidem 
           <lb ed="#S"/>sed etiam per speciem habetur <corr><unclear>donus</unclear></corr> sed tantum intelligit per speciem primam</p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>ad 7 dicendum quod in isto amore qui praesupponit compositionem et divisionem 
+        <p xml:id="b1prolq2-asdqer"><lb ed="#S"/><g ref="#pilcrow"/>ad 7 dicendum quod in isto amore qui praesupponit compositionem et divisionem 
           <lb ed="#S"/>cuius est iste de quo procedit argumentum non consistit essentialis beatitudo 
           <lb ed="#S"/><unclear>beati?es</unclear> autem esse accidentales bene possunt intendi ibi et remitti etiam 
           <lb ed="#S"/>cessare quandoque et resumi</p>
         
-        <p><g ref="#pilcrow"/>ad 8 <g ref="#dot"/> assumptum est negandum et ad 
+        <p xml:id="b1prolq2-aoapab"><g ref="#pilcrow"/>ad 8 <g ref="#dot"/> assumptum est negandum et ad 
           <lb ed="#S"/>eius probationem negandum est antecedens <g ref="#dot"/> verum est aut quod sola deitas obiective 
           <lb ed="#S"/>beatificat essentiali beatissime <choice><orig>sicud</orig><reg>sicut</reg></choice> patet auctoris <ref><name ref="#Augustine">augustinus</name> 5 <title ref="#Confessions">confessionum</title></ref> 
           <lb ed="#S"/>allegata nec securitas perpetuitas est pars <g ref="#dot"/> vel obiectum huius beatitudinis 
           <lb ed="#S"/>sed beatitudinis congregatae ex omni parte accidentalis beatitudinis</p>
         
-        <p><g ref="#pilcrow"/>ad <unclear>14m</unclear> 
+        <p xml:id="b1prolq2-anpneb"><g ref="#pilcrow"/>ad <unclear>14m</unclear> 
           <lb ed="#S"/>potest dupliciter dici primo quod visio verbi vel etiam creaturae in verbo non componit 
           <lb ed="#S"/>aut dividit <g ref="#dot"/> sed est solummodo simplex intelligentia verbi vel 
           <lb ed="#S"/>alterius quod in verbo videtur ideo ipsam esse beatificam vel non beatificam non 
@@ -1354,32 +1345,32 @@
           quia cum talis clara dei visione posset stare quod non 
           <lb ed="#S"/>semper esset habiturus beatitudinem et per consequens non esset beatus <g ref="#dot"/></p>
         
-        <p><g ref="#dbslash"/><choice><orig>verumptamen</orig><reg>verumtamen</reg></choice> bene 
+        <p xml:id="b1prolq2-vbcipg"><g ref="#dbslash"/><choice><orig>verumptamen</orig><reg>verumtamen</reg></choice> bene 
           <lb ed="#S"/>concedendum est auod non potest videndo verbum per istam visionem scire quod<lb ed="#S"/>libet 
           ab eo cognoscibile quia non scire <corr><del rend="expunctuated">se</del></corr> non videre verbum quia tunc 
           <lb ed="#S"/>posset scire falsum quod non est dandum <corr><add place="marginBottom">ad 10 <name ref="#Anselm">anselmus</name> quando dicitur quodlibet cognoscitur propria cognitione dicendum quod non loquitur nisi de cognitione impossibile <corr><del rend="expunctuated">in</del>possibili</corr> in proprio genere</add></corr></p> 
         <!-- more objections to wodeham -->
-        <p>Item contra praedictam arguit 
+        <p xml:id="b1prolq2-icpouv">Item contra praedictam arguit 
           <lb ed="#S"/>quidam alius et etiam contra <name>socium</name> iam recitatum specialiter in hoc quod 
           <lb ed="#S"/>ille auferre videtur negatur intellectuali propriam operationem circa deum et iterum in 
           <lb ed="#S"/>eo quod ipse videtur ponere deum esse operationem creaturae quod videtur priori 
           <lb ed="#S"/>dicto repugnare cum deus a creatura non procedat <choice><orig>sicud</orig><reg>sicut</reg></choice> 
           <lb ed="#S"/>facit opus ab esse cuius est operatio <corr><add place="marginLeft"><unclear>ut videtur</unclear></add></corr></p>
         
-        <p><g ref="#pilcrow"/>Item contra me et illum simul si eodem 
+        <p xml:id="b1prolq2-icmqnv"><g ref="#pilcrow"/>Item contra me et illum simul si eodem 
           <lb ed="#S"/>actu videretur deus set creatura non est maior ratio de una creatura 
           <lb ed="#S"/>quam de quamvis alia quod posset isto modo videri eodem actu quo verum 
           <lb ed="#S"/>igitur ipsamet visio poterit in verbo vieri et tunc sequitur quod idem actus 
           <lb ed="#S"/>est rectus et reflexus intensus et remissus <corr><del rend="expunctuated">scientia et operatio</del></corr> 
           <lb ed="#S"/>scientia et opinio quod non videtur</p>
         
-        <p><g ref="#pilcrow"/>Item diversarum <unclear>rerum</unclear> diversae sunt et 
+        <p xml:id="b1prolq2-idrvhi"><g ref="#pilcrow"/>Item diversarum <unclear>rerum</unclear> diversae sunt et 
           <lb ed="#S"/>distinctae rationes id est cognitiones alioquin eadem cognitio posset esse af<lb ed="#S"/>firmativa 
           et negativa et illud tetigit prior <name>socius</name> secundum <ref><name ref="#Anselm">anselmus</name> <title ref="#Anselm_DeLiberoArbitrio">de libero arbitrio</title> 
           <lb ed="#S"/>capitulo 7</ref> <!-- probably beginning of quote here --> ista voluntas quae est opus instrumenti volendi causa <unclear>numerosus</unclear> est 
           <lb ed="#S"/>quam numerosa et quam numerosum videmus <!-- end anselm quote: I cant find this quote  --> <g ref="#dot"/> haec illae</p>
         
-        <p><g ref="#pilcrow"/>praeterea dixi quod 
+        <p xml:id="b1prolq2-pdqmmf"><g ref="#pilcrow"/>praeterea dixi quod 
           <lb ed="#S"/>homo potest ultra omnem gratiam habitam proficere ultra ad maiorem vel 
           <lb ed="#S"/>meliorem ergo cum aliqua gratia viae ut videtur possit tanta 
           <lb ed="#S"/>esse quod ita habita potest homo ex tunc vivere sine hoc quod peccet 
@@ -1388,13 +1379,13 @@
           quam veniale sed consequens est falsum apud me ut probabo et minor 
           <lb ed="#S"/>vera ut probavit <name>2us socius</name> ergo mea maior falsa</p>
         
-        <p><g ref="#pilcrow"/>Quod minor 
+        <p xml:id="b1prolq2-qmscnc"><g ref="#pilcrow"/>Quod minor 
           <lb ed="#S"/>sit vera arguebatur sic primo <ref><name ref="#Augustine">augustinus</name> in libello <title>de beato virginali</title> 
           <lb ed="#S"/>non multum ante finem</ref> dicit sic <g ref="#dot"/> non concedo cum illis qui asserunt 
           <lb ed="#S"/>homine posse in hac vita sine ullo peccato vivere nec <unclear>commen<lb ed="#S"/>do</unclear> 
           nec contradico</p>
         
-        <p><g ref="#pilcrow"/>Item secundum <name ref="#Anselm">anselm</name> <g ref="#dot"/> <quote>homo potest semper si habet eam serva<lb ed="#S"/>re 
+        <p xml:id="b1prolq2-isapii"><g ref="#pilcrow"/>Item secundum <name ref="#Anselm">anselmum</name> <g ref="#dot"/> <quote>homo potest semper si habet eam serva<lb ed="#S"/>re 
         rectitudine</quote> Item deus vult hominem esse sine peccato <g ref="#dot"/> Item 
           <lb ed="#S"/>si non potest omnia venialia vitare aut haec <choice><orig>inpotentia</orig><reg>impotentia</reg></choice> provenit sibi 
           <lb ed="#S"/>ex culpa propria vel ex cupa aliena si ex aliena ita non 
@@ -1403,20 +1394,20 @@
           <lb ed="#S"/><choice><orig>inpotentiam</orig><reg>impotentiam</reg></choice> si non potuit illam vitare vel evenit sibi hoc ex 
           <lb ed="#S"/>culpa propria vel aliena et sic processus in infinitum</p>
         
-        <p><g ref="#pilcrow"/>praeterea <unclear>ista <!-- indistinguishable from ita --></unclear> <choice><orig>inpotentia</orig><reg>impotentia</reg></choice> 
+        <p xml:id="b1prolq2-piipie"><g ref="#pilcrow"/>praeterea <unclear>ista <!-- indistinguishable from ita --></unclear> <choice><orig>inpotentia</orig><reg>impotentia</reg></choice> 
           <lb ed="#S"/>esset <choice><orig>pena</orig><reg>poena</reg></choice> alicuius culpae vel igitur venialis et hoc esset nimis durum 
           <lb ed="#S"/>dicere <g ref="#dot"/> vel moralis et hoc non <g ref="#dot"/> quia secundum sanctos omnis culpa moralis 
           <lb ed="#S"/>habita ita gratia vitari potest igitur etc</p>
         
-        <p><g ref="#pilcrow"/>dices quod ista <choice><orig>inpotentia</orig><reg>inpotentia</reg></choice> pro<lb ed="#S"/>venit 
+        <p xml:id="b1prolq2-dqiqac"><g ref="#pilcrow"/>dices quod ista <choice><orig>inpotentia</orig><reg>inpotentia</reg></choice> pro<lb ed="#S"/>venit 
           ex peccato originali quod manet <unclear>inrenatis</unclear> quantum ad <choice><orig>penam</orig><reg>poenam</reg></choice> 
           <lb ed="#S"/>licet non quantum ad culpam</p>
         
-        <p><g ref="#pilcrow"/>contra nulla <choice><orig>pena</orig><reg>poena</reg></choice> iuste remanet 
+        <p xml:id="b1prolq2-cnpuvs"><g ref="#pilcrow"/>contra nulla <choice><orig>pena</orig><reg>poena</reg></choice> iuste remanet 
           <lb ed="#S"/>culpa deleta ut videtur <name>illi socio</name> <g ref="#dot"/> Item originali solum debetur <choice><orig>pena</orig><reg>poena</reg></choice> 
           <lb ed="#S"/><choice><orig>dampni</orig><reg>damni</reg></choice> ut videtur sibi</p>
         
-        <p><g ref="#pilcrow"/><choice><orig>michi</orig><reg>mihi</reg></choice> videntur duae contrariae conclusiones conclusionibus 
+        <p xml:id="b1prolq2-mvdasd"><g ref="#pilcrow"/><choice><orig>michi</orig><reg>mihi</reg></choice> videntur duae contrariae conclusiones conclusionibus 
           <lb ed="#S"/>huius <name>socii</name> tenendae prima quod eodem actu creato potest videri 
           <lb ed="#S"/>verbum et creatura quia sicut arguebat <name>alius socius</name> sancti dicunt quod creaturae 
           <lb ed="#S"/>a beatis videntur in verbo et non solum sicut in lumine nec sicut in 
@@ -1424,7 +1415,7 @@
           rationis ab omni cognitione vespertina <choice><orig>sicud</orig><reg>sicut</reg></choice> de quolibet in speciali 
           <lb ed="#S"/>posset argui si daretur</p>
         
-        <p><g ref="#pilcrow"/>praeterea si quid obstaret hoc esset ut 
+        <p xml:id="b1prolq2-psqhns"><g ref="#pilcrow"/>praeterea si quid obstaret hoc esset ut 
           <lb ed="#S"/>iste arguit quia tunc actus rectus et reflexus non distinguerentur 
           <lb ed="#S"/>ista particularis vera est <g ref="#dot"/> cognitio transcendens cui subordinatur 
           <cb ed="#S" n="12r"/><lb ed="#S"/>in significando hoc vocabulum ens ita est transcendens cognitio sui 
@@ -1434,7 +1425,7 @@
           <lb ed="#S"/>inferre universaliter quod tunc numquam aliquis actus rectus et reflexus 
           <lb ed="#S"/>distingueretur hoc non sequitur</p>
         
-        <p><g ref="#pilcrow"/>praeterea <g ref="#dot"/> si aliquid ex hoc dictum suum contra<lb ed="#S"/>rium 
+        <p xml:id="b1prolq2-psanec"><g ref="#pilcrow"/>praeterea <g ref="#dot"/> si aliquid ex hoc dictum suum contra<lb ed="#S"/>rium 
           meae conclusioni moveret hoc videretur sicut ipse arguit quia distinctarum 
           <lb ed="#S"/>rerum cognoscibilium distincte sunt cognitiones <g ref="#dot"/> sed hoc non oportet movere <g ref="#dot"/> 
           <lb ed="#S"/>quia verum est iuxta auctoritate <name ref="#Anselm">anselmi</name> quod ut communiter tales distincte 
@@ -1449,21 +1440,21 @@
           <lb ed="#S"/>Similiter eodem actu simplici qui sic una qualitas iudicat anima 
           <lb ed="#S"/>beati deum non esse creaturam</p>
         
-        <p><g ref="#pilcrow"/>Item eadem visione videt beatus quilibet 
+        <p xml:id="b1prolq2-ievtdp"><g ref="#pilcrow"/>Item eadem visione videt beatus quilibet 
           <lb ed="#S"/>3 distinctas particulas</p>
         
-        <p><g ref="#pilcrow"/>Item quicumque vidi aliquod quantum eodem actu in<lb ed="#S"/>dividua 
+        <p xml:id="b1prolq2-iqvuee"><g ref="#pilcrow"/>Item quicumque vidi aliquod quantum eodem actu in<lb ed="#S"/>dividua 
           videt mediantem vel saltem aliquam licet indistinctius et pari 
           <lb ed="#S"/>ratione aliam partem illius partis visae et sic in infinitum aliquin re<lb ed="#S"/>spiciens 
           ad caelum nullam partem <unclear>superficialem</unclear> illius partis videret et non videret 
           <lb ed="#S"/>ibi infinitas partes ut videtur actibus infinitis non componentibus 
-          <lb ed="#S"/>unum  ergo etc</p>
+          <lb ed="#S"/>unum ergo etc</p>
         
-        <p><g ref="#pilcrow"/>Praeterea eodem actu videt quis colorem et eius 
+        <p xml:id="b1prolq2-peavlv"><g ref="#pilcrow"/>Praeterea eodem actu videt quis colorem et eius 
           <lb ed="#S"/>magnitudinem sive sensibile proprium et commune alioquin posset <unclear>albedo</unclear> de potentia dei 
           <lb ed="#S"/>videri per se nullam magnitudinem vel lucem videndo</p>
         
-        <p><g ref="#pilcrow"/>Item pari ratione 
+        <p xml:id="b1prolq2-iprprd"><g ref="#pilcrow"/>Item pari ratione 
           <lb ed="#S"/>qua plurium potest esse unica species secundum ponentes species praevias 
           <lb ed="#S"/>actibus pari ratione et idem actus <g ref="#dot"/> sed secundum ponentes eas eadem 
           <lb ed="#S"/>species repraesentat multa quia secundum eos ut patet per <name ref="#Aquinas">doctorem communem</name> 
@@ -1473,14 +1464,14 @@
           <lb ed="#S"/><unclear>plurum</unclear> et similitudo adaequata sed tamen si sic excellens potest idem 
           <lb ed="#S"/>accipi ut propria ratio diversorum</p>
         
-        <p><g ref="#pilcrow"/>praeterea eadem ratione qua una dilectione 
+        <p xml:id="b1prolq2-pereac"><g ref="#pilcrow"/>praeterea eadem ratione qua una dilectione 
           <lb ed="#S"/>quae est actus utendi quo diligitur creatura propter deum diligitur tam creatura quam deus 
           <lb ed="#S"/>potest utrumque eodem actu cognosci</p>
         
-        <p><g ref="#pilcrow"/>Similiter intelligentia secundum <name ref="#Aristotle">philosophum</name> eodem actu 
+        <p xml:id="b1prolq2-sisaee"><g ref="#pilcrow"/>Similiter intelligentia secundum <name ref="#Aristotle">philosophum</name> eodem actu 
           <lb ed="#S"/><unclear>puta</unclear> substantia sua intelligit se et deum et similiter deus se <g ref="#slash"/> et alia ergo etc</p>
         
-        <p><g ref="#pilcrow"/>ad primum in contrarium quod est contra <name>alium socium</name> negaret forte <name>ille socius</name> <unclear>consequentiam</unclear> 
+        <p xml:id="b1prolq2-apiiev"><g ref="#pilcrow"/>ad primum in contrarium quod est contra <name>alium socium</name> negaret forte <name>ille socius</name> <unclear>consequentiam</unclear> 
           <lb ed="#S"/>tum quia posset tunc habere circa deum plures operationes quales nunc <g ref="#dot"/> tum 
           <lb ed="#S"/>quia cognitio quae deus est esset secundum <name>istum socium</name> sua operatio id est sua cognitio 
           <lb ed="#S"/>nam modo si deus <choice><orig>inprimeret</orig><reg>imprimeret</reg></choice> nobis omnis actus vitales cognoscendi 
@@ -1489,36 +1480,36 @@
           solum passivam et similiter voluntatem ad hoc simul cum hoc po<lb ed="#S"/>suerunt 
           intelligere et velle operationes esse intellectus et voluntatis</p>
         
-        <p><g ref="#pilcrow"/>per idem 
+        <p xml:id="b1prolq2-pipsce"><g ref="#pilcrow"/>per idem 
           <lb ed="#S"/>patet ad 2m contra eum</p>
         <!-- ad primum contra me -->
-        <p><g ref="#pilcrow"/>ad primum contra me aliquid <unclear>ece?tis</unclear> creaturam posse 
+        <p xml:id="b1prolq2-apcaad"><g ref="#pilcrow"/>ad primum contra me aliquid <unclear>ece?tis</unclear> creaturam posse 
           <lb ed="#S"/>videri in verbo per visionem creatam negarent hoc de ipso met actu 
           <lb ed="#S"/>et ideo negarent consequentiam Similiter potest dici ut <unclear>substantia</unclear> argui quod aliquis actus 
           <lb ed="#S"/>rectus et reflexus non distinguitur ut supra probavi aliquid autem 
-          <lb ed="#S"/>distinguntur</p>
+          <lb ed="#S"/>distinguuntur</p>
         
-        <p><g ref="#pilcrow"/>2a particula arguenti inferens quod idem actus esset 
+        <p xml:id="b1prolq2-spapdd"><g ref="#pilcrow"/>2a particula arguenti inferens quod idem actus esset 
           <lb ed="#S"/>intensus et remissus non habet colorem non est tamen apud 
           <lb ed="#S"/>me inconveniens quod idem actus sic remisse cognitio unius obiecti 
           <lb ed="#S"/>et intense alterius sicut idem actus qui est usus respectu creaturae 
           <cb ed="#S" n="12va"/><lb ed="#S"/>et quo minus etiam diligitur creatura et fruitio respectu dei et quo plus 
           <lb ed="#S"/>diligitur deus</p>
         
-        <p><g ref="#pilcrow"/>aliud quod idem actus esset scientia et opinio non habet co<lb ed="#S"/>lorem 
+        <p xml:id="b1prolq2-aqiaso"><g ref="#pilcrow"/>aliud quod idem actus esset scientia et opinio non habet co<lb ed="#S"/>lorem 
           contra illos qui dicunt quod visio non est respectu alicuius obiecti nisi <unclear>s?rum</unclear> 
           <lb ed="#S"/>intelligentia non autem compositio aut divisio apud me aut non est inconveni<lb ed="#S"/>ens 
           deum posse facere aliquem actum qui respectu unius complexe 
           <lb ed="#S"/>apprehensibilis sit scientia et respectu alterius sit opinio</p>
         <!-- ad 2m -->
-        <p><g ref="#pilcrow"/>ad 2m patet per idem quod 
+        <p xml:id="b1prolq2-axpned"><g ref="#pilcrow"/>ad 2m patet per idem quod 
           <lb ed="#S"/>eadem cognitio a deo factibilis potest esse cognitio affirmativa respectu unius 
           <lb ed="#S"/>puta quod <c>a</c> est <c>b</c> et negativa respectu alterius puta quod <c>c</c> non est <c>d</c></p>
         
-        <p><g ref="#pilcrow"/>ad aliam partem de rationibus <unclear>al</unclear> diversis respectu diversorum satis iam 
+        <p xml:id="b1prolq2-aapace"><g ref="#pilcrow"/>ad aliam partem de rationibus <unclear>al</unclear> diversis respectu diversorum satis iam 
           <lb ed="#S"/>patet quid sit dicendum ex argumentis contra eum</p>
         <!-- 2nd conclusio contra eum -->
-        <p><g ref="#pilcrow"/>2a conclusio contra eum sit ista quod non 
+        <p xml:id="b1prolq2-sccnhi"><g ref="#pilcrow"/>2a conclusio contra eum sit ista quod non 
           <lb ed="#S"/>est in potestate naturali hominis et habita gratia sine miraculo speciali qua<lb ed="#S"/>le 
           fiebat circa <name ref="#Mary">beatam virginem</name> vel simile istam vitam transire 
           <lb ed="#S"/>sine omni peccato veniali non <corr>ne<add>g</add><del rend="expunctuated">i</del>o</corr> quin possit aliquando esse sine omni 
@@ -1529,30 +1520,30 @@
           <lb ed="#S"/>quod nec peccent cavere possunt quodammodo ex humana <corr><add place="marginLeft">fragilitate</add><del rend="expunctuated">se<lb ed="#S"/>licitate</del></corr> 
           peccata quamvis parva quamvis pauca non tamen nulla</quote> <!-- end of quote by socius --> haec illae</p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>Item hoc probat <name ref="#Augustine">augustini</name> ibi <quote>sic <name ref="#John">iohannes</name> inqui hic dixit <!-- bible quote within an augustine quote --><quote ana="#Iio1_8">Si dixerimus 
+        <p xml:id="b1prolq2-ihpdhi"><lb ed="#S"/><g ref="#pilcrow"/>Item hoc probat <name ref="#Augustine">augustini</name> ibi <quote>sic <name ref="#John">iohannes</name> inqui hic dixit <!-- bible quote within an augustine quote --><quote ana="#Iio1_8">Si dixerimus 
           <lb ed="#S"/><sic>quia</sic> peccatum non habemus nos ipsos se <g ref="#dot"/> et veritas in nobis non est</quote> 
           <lb ed="#S"/>hic certe non illis aut illis sed christianis omnibus hoc dicitur</quote> haec illae</p>
         
-        <p><g ref="#pilcrow"/>Item <ref>3o <title ref="#DeLiberoArbitrio">de libero arbitrio</title> capitulo 29</ref> <quote>sunt inquit <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> facta <choice><orig>in<lb ed="#S"/>probanda</orig><reg>im<lb ed="#S"/>probanda</reg></choice> 
+        <p xml:id="b1prolq2-itdepp"><g ref="#pilcrow"/>Item <ref>3o <title ref="#DeLiberoArbitrio">de libero arbitrio</title> capitulo 29</ref> <quote>sunt inquit <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> facta <choice><orig>in<lb ed="#S"/>probanda</orig><reg>im<lb ed="#S"/>probanda</reg></choice> 
           ubi vult homo recte facere et non potest nam unde sunt ille voces non quod volo facio bonum sed quod nolo malum hoc 
           <lb ed="#S"/>ago</quote> et dicit <ref>ibidem</ref> plane quod de talibus non intelligit illud quod 
           <lb ed="#S"/>nullus peccat in eo quod vitare non potest <!-- possible end of another Augustine quote --> Similiter id est <title ref="#Retractationum">retractionum</title> capitulo 12 
           <lb ed="#S"/>dicit sic <g ref="#dot"/> sicut hic quod non intelligitur de peccato <g ref="#slash"/>quod etiam est <choice><orig>pena</orig><reg>poena</reg></choice> <unclear>peccati</unclear></p>
         
-        <p><g ref="#pilcrow"/>praeterea idem <title ref="#OnFaithToPeter">de fide ad petrum</title> firmissime tene et nullatenus dubi<lb ed="#S"/>tes 
+        <p xml:id="b1prolq2-pidhnv"><g ref="#pilcrow"/>praeterea idem <title ref="#OnFaithToPeter">de fide ad petrum</title> firmissime tene et nullatenus dubi<lb ed="#S"/>tes 
           etiam iustos atque sanctos homines exceptis parvulis baptizatis 
           <lb ed="#S"/>sine peccato hic neminem vivere</p>
         
-        <p><g ref="#pilcrow"/>Item <name ref="#GregoryGreat">gregorius</name> <title>moralium</title> 18 
+        <p xml:id="b1prolq2-igmdpc"><g ref="#pilcrow"/>Item <name ref="#GregoryGreat">gregorius</name> <title>moralium</title> 18 
           <lb ed="#S"/>quaedam sunt peccata quae a iustis vitari possunt et sunt non nulla 
           <lb ed="#S"/>quae ab eis vitari non possunt et <unclear>existat</unclear> de peccato cognitionis</p>
         
-        <p><g ref="#pilcrow"/>Item <ref><corr><add place="marginLeft"><name ref="#Bernard">bernardus</name></add></corr> <title>super <corr><del rend="expunctuated">illud</del></corr> cantica</title> secundum 59</ref> quantumlibet in hoc corpore manens 
+        <p xml:id="b1prolq2-ibsene"><g ref="#pilcrow"/>Item <ref><corr><add place="marginLeft"><name ref="#Bernard">bernardus</name></add></corr> <title>super <corr><del rend="expunctuated">illud</del></corr> cantica</title> secundum 59</ref> quantumlibet in hoc corpore manens 
           <lb ed="#S"/>profeceris erras si vitia putes enormia evitare velis 
           <lb ed="#S"/>noleris intra fines tuos habitat <unclear>iebuse?o</unclear> subiugari potest 
           <lb ed="#S"/>et non exterminari</p>
         
-        <p><g ref="#pilcrow"/>praeterea <ref><name ref="#Lombard">magister</name> 2o distinctione 26 capitulo illud autem recitans 
+        <p xml:id="b1prolq2-pmsdhi"><g ref="#pilcrow"/>praeterea <ref><name ref="#Lombard">magister</name> 2o distinctione 26 capitulo illud autem recitans 
           <lb ed="#S"/><name ref="#Jerome">ieromium</name> et <name ref="#Augustine">augustinum</name> <!-- jerome and augustine may be part of ref incipit --></ref> dicens sic <g ref="#dot"/> Ecce <name ref="#Jerome">ieromus</name> dicit errorem esse si quis dicat 
           <lb ed="#S"/>hominem peccatum vitare non posse qui autem dicit quaedam 
           <lb ed="#S"/><choice><orig>neccessitate</orig><reg>necessitate</reg></choice> fieri quaedam dicit non posse vitari cum igitur illud <name ref="#Augustine">augustini</name> di<lb ed="#S"/>cat 
@@ -1564,22 +1555,22 @@
           vitare valet vel de homine secundum statum liberi arbitrii <unclear>ante</unclear> peccatum 
           <lb ed="#S"/>illud dicit <!-- end of quote --> haec illae</p>
         <!-- ad 1 -->
-        <p><g ref="#pilcrow"/>ad primum argumentum in contrarium responsum est quod <name ref="#Augustine">augustinus</name> ibi et in 
+        <p xml:id="b1prolq2-apacca"><g ref="#pilcrow"/>ad primum argumentum in contrarium responsum est quod <name ref="#Augustine">augustinus</name> ibi et in 
           <lb ed="#S"/>multis locis tenet contrarium licet nolit ibi contendere<!-- check compare contendere to instances of concedere above --> contra contrarium 
           <lb ed="#S"/>asserentes <g ref="#dot"/></p>
         <!-- ad 2 -->
-        <p><g ref="#pilcrow"/>ad 2m <name ref="#Anselm">anselmus</name> vult quod gratia ipsa est rectitudo 
+        <p xml:id="b1prolq2-asabsv"><g ref="#pilcrow"/>ad 2m <name ref="#Anselm">anselmus</name> vult quod gratia ipsa est rectitudo 
           <lb ed="#S"/>ista et verum est quod illa habita semper poterit servari ab habente 
           <lb ed="#S"/>sed certe cum gratia bene stant venialia</p>
         <!-- ad 3 -->
-        <p><g ref="#pilcrow"/>ad 3m deus vult 
+        <p xml:id="b1prolq2-atddcp"><g ref="#pilcrow"/>ad 3m deus vult 
           <lb ed="#S"/>hac voluntate signi qua praecipit vel monet ne peccet non 
           <lb ed="#S"/>autem voluntate <unclear>efficienti</unclear> et consequente beneplaciti ad modum <ref><name ref="#Lombard">magistri</name> libro 1o</ref> 
           <lb ed="#S"/>et tamen voluntate permissionis et cooperationis ad substantiam actus qui est 
           <lb ed="#S"/>peccatum vult hominem peccare id est permittit et <unclear>facit</unclear> ad substantiam 
           <lb ed="#S"/>actus prohibiti quem male et demeritorie causat peccans</p>
         <!-- ad 4 -->
-        <p><g ref="#pilcrow"/>ad 
+        <p xml:id="b1prolq2-aqqpaq"><g ref="#pilcrow"/>ad 
           <cb ed="#S" n="12vb"/><lb ed="#S"/>4m quod culpa aliena et etiam propria eo modo quod originale est culpa 
           <lb ed="#S"/>propria et vere et subiective sed originaliter aliena dicit enim <ref><name ref="#Anselm">anselmus</name> <g ref="#dot"/> <title ref="#deConceptuVirginali">de conceptu 
           <lb ed="#S"/>virginali</title> capitulo 26</ref> nam non portant infantes peccatum <name ref="#Adam">adae</name> sed suum 
@@ -1597,28 +1588,28 @@
           <lb ed="#S"/>numeris auctoritatibus <choice><orig>ymmo</orig><reg>immo</reg></choice> etiam mors et multa alia sunt <choice><orig>pena</orig><reg>poena</reg></choice> 
           <lb ed="#S"/>illi culpae remanens et per idem patet ad 5</p>
         
-        <p><g ref="#pilcrow"/>contra hoc arguit 
+        <p xml:id="b1prolq2-chassm"><g ref="#pilcrow"/>contra hoc arguit 
           <lb ed="#S"/>idem <name>socius</name> qui homo malus semper si vult potest esse malus et numquam 
           <lb ed="#S"/>facere bene rog pari ratione homo bonus semper potest esse bonus et numquam ma<lb ed="#S"/>le 
           facere <g ref="#slash"/> verum est quod potuit numquam mala facere si in statu 
           <lb ed="#S"/>innocentiae permansisset sed non in statu naturae lapsae <g ref="#dot"/> consequentia 
           <lb ed="#S"/>non valet <g ref="#dot"/> quia non est ita facile semper facere bene <choice><orig>sicud</orig><reg>sicut</reg></choice> semper male</p>
         
-        <p><lb ed="#S"/><g ref="#pilcrow"/>Item naturalia inclinant ad bonum magis quam ad malum unde et 
+        <p xml:id="b1prolq2-iniiii"><lb ed="#S"/><g ref="#pilcrow"/>Item naturalia inclinant ad bonum magis quam ad malum unde et 
           <lb ed="#S"/>peccatum ponitur esse contra naturam ergo  homo semper potet vitare malum <g ref="#dbdash"/> dicendum 
           <lb ed="#S"/>quod natura in statu primo non inclinat ad malum sed in 
           <lb ed="#S"/>statu miseriae iam <unclear>infecta</unclear> <unclear>inclinat</unclear></p>
         
-        <p><g ref="#pilcrow"/>Item homo potest declinare 
+        <p xml:id="b1prolq2-ihpnoe"><g ref="#pilcrow"/>Item homo potest declinare 
           <lb ed="#S"/>omne peccatum in verbo igitur et alia <g ref="#dot"/> consequentia patet <g ref="#dot"/> per <title ref="#iac">iacobum</title> <g ref="#dot"/> quia <quote ana="#iac3_2">si quis 
           <lb ed="#S"/>in verbo non offendit</quote> etc</p>
         
-        <p><g ref="#pilcrow"/>dicendum quod difficilius est vitare 
+        <p xml:id="b1prolq2-dqdndp"><g ref="#pilcrow"/>dicendum quod difficilius est vitare 
           <lb ed="#S"/>peccatum cognitionis quam locutionis et tamen hoc 2m est nimis difficile 
           <lb ed="#S"/>vel <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> si quis multum debet loqui <g ref="#dot"/> qui in <unclear>multilo?o</unclear> non <unclear>deerit</unclear> 
           <lb ed="#S"/>peccatum</p>
         <!-- 3rd article -->
-        <p><g ref="#pilcrow"/>pro 3o articulo quem hic prosequi esset nimis quia iam est 
+        <p xml:id="b1prolq2-ptaqpr"><g ref="#pilcrow"/>pro 3o articulo quem hic prosequi esset nimis quia iam est 
           <lb ed="#S"/>quaestio nimis protensa pro dictis sociorum demerito ad praesens in 
           <lb ed="#S"/>proxima quaestione seriosius responsurus quod nec de bono increato potest 
           <lb ed="#S"/>voluntas creata infinite gaudere <g ref="#dot"/> nec de malo infinite do<lb ed="#S"/>lere 
