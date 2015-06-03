@@ -59,23 +59,94 @@
     <body>
       <div xml:id="b1-prol-q2">
         <head>Librum I, Prologus, Quaestio 2</head>
-        <p xml:id="b1prolq2-spccsm">Secundo pro <corr>com<del rend="expunctuated">con</del>pleto</corr> <corr><del rend="strikethrough">dist <unclear>materia</unclear></del><add place="aboveLine">distinctiori</add></corr> materiae tactae in dubiis nondum solutis  quaero 
-          utrum studium sacrae scripturae impositum alicui in foro poenitentiae pro <corr><add place="marginRight">satisfactione</add></corr> omissionis contrariae sit meritorium 
-          <corr><add place="marginLeft">vitae aeternae</add></corr></p>
+        <div>
+          <head>
+            <supplied>Rationes principales</supplied>
+          </head>
+          <p xml:id="b1prolq2-spccsm">Secundo pro 
+            <app>
+              <lem>complemento</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>contemplatione</del>
+                  <add>complemento</add>
+                </corr>
+              </rdg>
+            </app>
+            <app>
+              <lem>distinctiori</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>dist <unclear>materia</unclear></del>
+                  <add place="aboveLine">distinctiori</add>
+                </corr>
+              </rdg>
+            </app>
+            materiae tactae in dubiis nondum solutis, quaero 
+            utrum studium sacrae scripturae impositum alicui in foro poenitentiae pro 
+            <app>
+              <lem>satisfactione</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="marginRight">satisfactione</add>
+                </corr>
+              </rdg>
+              <rdg wit="#S #M" type="om."/>
+            </app> 
+            <app>
+              <lem>omissionis contrariae</lem>
+              <rdg wit="#S #M">omissione contraria</rdg>
+            </app> 
+            sit meritorium 
+            <app>
+              <lem>vitae aeternae.</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="marginLeft">vitae aeternae</add>
+                </corr>
+              </rdg>
+              <rdg wit="#S" type="om."/>
+            </app>
+            </p>
+          <p xml:id="b1prolq2-vqndpq">Videtur quod non, quia non magis meritorium nec 
+            aeque nec minus quam in alio ex caritate aequali studente in omnibus 
+            aliis paribus 
+            <app>
+              <lem>non</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="marginLeft">non</add>
+                </corr>
+              </rdg>
+            </app>
+            habente satisfacere pro peccato secundum argumenta quinque dubii primae quaestionis.</p>
         
-        <p xml:id="b1prolq2-vqndpq">videtur quod non quia non magis meritorium nec aeque nec minus quam in alio ex caritate aequali <unclear>studente</unclear> in omnibus aliis 
-          aliis paribus <corr><add place="marginLeft">non</add></corr> habente satisfacere pro peccato secundum argumenta 5 dubii primae quaestionis</p>
-        
-        <p xml:id="b1prolq2-cnsfnm">contra nisi studium huius sit impositum <unclear>sic</unclear> meritorium non <unclear>expedit</unclear> poenitenti quod aliquod bonum opus sibi in foro poenitentiae iniungatur cuius oppositum 
-          de facto docet ecclesia et facit consequentia probatur quia nulli sibi expedit <corr><add place="aboveLine">sibi</add></corr> imponi unde opera sua bona quae essent 
+        <p xml:id="b1prolq2-cnsfnm">Contra nisi studium huius sic impositum sit meritorium, non expedit poenitenti quod aliquod bonum opus sibi in foro poenitentiae iniungatur, cuius oppositum 
+          de facto docet ecclesia et facit. Consequentia probatur quia nulli sibi expedit 
+          <app>
+            <lem>sibi</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add place="aboveLine">sibi</add>
+              </corr>
+            </rdg>
+          </app> 
+          imponi unde opera sua bona quae essent 
           alias meritoria fiant non meritoria</p>
-        <!-- divisio quaestionis -->
-        <p xml:id="b1prolq2-ihqiev">In hac quaestione primo discutienda est veritas quaestionis secundo solvere 6m dubium 
-          primae quaestionis quod improbat veritatem hic tenendam  3o solvetur 7m dubium ibidem positum super similiter impugnat eandem 
+        </div>
+        <div>
+          <head>
+            <supplied>Divisio quaestionis</supplied>
+          </head>
+          <p xml:id="b1prolq2-ihqiev">In hac quaestione, primo discutienda est veritas quaestionis. Secundo solvere sextum dubium 
+          primae quaestionis quod improbat veritatem hic tenendam. Tertio solvetur septimum dubium ibidem positum super similiter impugnat eandem 
           veritatem</p>
-        
-        <!-- article 1 -->
-        <p xml:id="b1prolq2-aqipva">Ad quaestionem inconcussae tenendum est quod si vere poenitenti imponatur in foro poenitentiali pro satisfactione 
+        </div>
+        <div>
+          <head>
+            <supplied>Articulus primus</supplied>
+          </head>
+          <p xml:id="b1prolq2-aqipva">Ad quaestionem inconcussae tenendum est quod si vere poenitenti imponatur in foro poenitentiali pro satisfactione 
           peccati sui quod studeat et ille sibi impositum ex caritate exequatur quod talis in ista executione meretur 
           primum vitae aeternae</p> 
           <!-- argument 1 notice "tum quia" structure -->
@@ -558,8 +629,13 @@
           quantum duo distincti actus quorum alter esset aequaliter affectio iusti sicut ille et aliter aeque affectio commodi <corr><add place="marginRight">sicut ille</add></corr> 
           et per consequens <corr>dupliciter</corr> <corr>valeret</corr> ad relaxationem poenae   Ex iam dictis satis apparet ad omnia argumenta tam in principali ad 
           quaestionem quam lateraliter </p>
-        <!-- begining of article 2 -->
-        <p xml:id="b1prolq2-qaaenp">Quo ad articulum 2m ad quem pertinet solvere <ref>6m dubium primae quaestionis</ref> concedendum est quod 
+        </div>
+        <div>
+          <head>
+            <supplied>Articulus secundus</supplied>
+          </head>
+        
+          <p xml:id="b1prolq2-qaaenp">Quo ad articulum 2m ad quem pertinet solvere <ref>6m dubium primae quaestionis</ref> concedendum est quod 
           visio dei est nobis possibilis</p> 
         
         <!-- ad primam probationem -->
@@ -1170,12 +1246,16 @@
         
         <p xml:id="b1prolq2-dqdndp">dicendum quod difficilius est vitare peccatum cognitionis quam locutionis et tamen hoc secundum 
           est nimis difficile vel impossibile Si quis multum debet loqui qui in <unclear>multi loco</unclear> non de est peccatum</p>
-        <!-- 3rd article -->
-        <p xml:id="b1prolq2-ptaqpr">pro 3o articulo quem <corr><add place="aboveLine">hic</add></corr> prosequi esset nimis quia iam est quaestio nimis protensa pro dictis sociorum dico ad 
+        </div>
+        <div>
+          <head>
+            <supplied>Articulus tertius</supplied>
+          </head>
+        
+          <p xml:id="b1prolq2-ptaqpr">pro 3o articulo quem <corr><add place="aboveLine">hic</add></corr> prosequi esset nimis quia iam est quaestio nimis protensa pro dictis sociorum dico ad 
           praesens in proxima quaestione seriosius Responsurus quod nec de bono increato potest voluntas creata infinite 
           gaudere nec de malo infinite dolere sed ad argumenta in contrarium in quaestione proxima Respondebo</p>
-
-        
+        </div>
       </div>
     </body>
   </text>
