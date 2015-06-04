@@ -121,7 +121,7 @@
             </app>
             habente satisfacere pro peccato secundum argumenta quinque dubii primae quaestionis.</p>
         
-        <p xml:id="b1prolq2-cnsfnm">Contra nisi studium huius sic impositum sit meritorium, non expedit poenitenti quod aliquod bonum opus sibi in foro poenitentiae iniungatur, cuius oppositum 
+        <p xml:id="b1prolq2-cnsfnm">Contra, nisi studium huius sic impositum sit meritorium, non expedit poenitenti quod aliquod bonum opus sibi in foro poenitentiae iniungatur, cuius oppositum 
           de facto docet ecclesia et facit. Consequentia probatur quia nulli sibi expedit 
           <app>
             <lem>sibi</lem>
@@ -146,33 +146,105 @@
           <head>
             <supplied>Articulus primus</supplied>
           </head>
-          <p xml:id="b1prolq2-aqipva">Ad quaestionem inconcussae tenendum est quod si vere poenitenti imponatur in foro poenitentiali pro satisfactione 
-          peccati sui quod studeat et ille sibi impositum ex caritate exequatur quod talis in ista executione meretur 
-          primum vitae aeternae</p> 
+          <!-- this should be a new section titled: prima conclusio -->
+          <p xml:id="b1prolq2-aqipva">Ad quaestionem inconcusse tenendum est quod si vere poenitenti imponatur in foro poenitentiali pro satisfactione 
+          peccati sui quod studeat, et ille sibi impositum ex caritate, exequatur quod talis in ista executione meretur 
+          praemium vitae aeternae</p> 
           <!-- argument 1 notice "tum quia" structure -->
-        <p xml:id="b1prolq2-tqovae"> tum quia omnis actus bonus viatoris ex caritate procedens est sicut meritorius sive ille actus 
-          sic amore dei super omnia propter se vel sui aut proximi propter deum vel actus exterior ex tali amore illatus 
-          igitur <unclear>non</unclear> ex supposito talis ex caritate exequitur sibi iniunctum <corr><add place="marginRight">sua talis executio erit meritoria vitae aeternae</add></corr> etc</p>
+         <p xml:id="b1prolq2-tqovae">Tum quia omnis actus bonus viatoris ex caritate procedens est sicut meritorius: sive ille actus 
+          sit amor dei super omnia propter se, vel sui aut proximi propter deum, vel actus 
+           <app>
+             <lem>exterior</lem>
+             <rdg wit="#S" type="corrReplace">
+               <corr>
+                 <del>posterior</del>
+                 <add>exterior</add>
+               </corr>
+             </rdg>
+           </app> 
+           ex tali amore illatus. 
+          Igitur <unclear>cum</unclear> ex supposito talis ex caritate exequitur sibi iniunctum 
+           <app>
+             <lem>sua talis executio erit meritoria vitae aeternae.</lem>
+             <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <add place="marginRight">sua talis executio erit meritoria vitae aeternae etc.</add>
+                </corr>
+             </rdg>
+             <rdg wit="#S" type="om."/>
+           </app> 
+           <app>
+             <lem wit="#V">etc.</lem>
+             <rdg wit="#S">igitur etc.</rdg>
+           </app>
+         </p>
          <!-- possibly num 2 somewhere in here -->
-        <p xml:id="b1prolq2-tqisde">tum quia implens illud ad 
-          quod tenetur sicut debet in hoc meretur primum vitae aeternae Sed <corr><del rend="strikethrough">studium sic</del><add place="marginRight">ex caritate exequens quod sibi iniungi pro satisfactione in foro poenitentiae</add></corr> facit illud ad quod tenetur et sicut debet 
-          etc </p>
+        <p xml:id="b1prolq2-tqisde">Tum quia implens illud ad 
+          quod tenetur sicut debet in hoc meretur praemium vitae aeternae. Sed 
+          <app>
+            <lem wit="#S">studens sic</lem>
+            <rdg wit="#V">
+              <corr>
+                <del rend="strikethrough">studens sic</del>
+                <add place="marginRight">ex caritate exequens quod sibi iniungi pro satisfactione in foro poenitentiae</add>
+              </corr>
+            </rdg>
+          </app>
+          facit illud ad quod tenetur et sicut debet 
+          <app>
+            <lem>ergo</lem>
+            <rdg wit="#V" type="om."/>
+          </app> 
+          etc. </p>
         <!-- num 3 -->
-        <p xml:id="b1prolq2-ttqbee">tum 3o quia si non hoc non esset nisi quia ipse sufficienter praemiaretur in relaxatione poenae quae tali restat 
-          hic per tales actus <corr><del>sati factorios</del><add place="belowLine">satisfactorios</add></corr> redimenda vel in purgatorio solvenda sed hoc non est 
-          <pb ed="#V" n="7v"/>verum quia non esset expediens compensatio nec etiam conveniens summae dei <unclear>misericordiae <!-- not sure but could read nor it is it sutiable to the highest mercy of God --></unclear> erga vere poenitentes 
-          quod pro redimenda poena intensive vel extensive finita amitteret praemium vitae aeternae quantumlibet parum intensive 
-          immo talem poenam plenarie per solvere esset incomparabiliter minus malum quam amittere <unclear>tantum</unclear> bonum 
+        <p xml:id="b1prolq2-ttqbee">Tum tertio, quia si non, hoc non esset nisi quia ipse sufficienter praemiaretur in relaxatione poenae quae tali restat 
+          hic per tales actus 
+          <app>
+            <lem>satisfactorios</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>sati factorios</del>
+                <add place="belowLine">satisfactorios</add>
+              </corr>
+            </rdg>
+          </app> 
+          redimenda vel in purgatorio solvenda. Sed hoc non est 
+          <pb ed="#V" n="7v"/>verum quia non esset expediens compensatio nec etiam conveniens summae dei <unclear>misericordiae</unclear> erga vere poenitentes 
+          quod pro redimenda poena intensive vel extensive finita amitteret praemium vitae aeternae quantumlibet parvum intensive; 
+          immo talem poenam plenarie persolvere esset incomparabiliter minus malum quam amittere tantum bonum 
           ergo etc</p>
         
-        <p xml:id="b1prolq2-tqqfot">Tum 4o quia vere <corr>peniten<del rend="expunctuated">te</del>s</corr> de peccatis suis et faciens bonum opus ex caritate ex <sic>capide</sic> 
-          suo proprio et sponte sine tali impositione meretur praemium sed obedientia poenitentialis in gratia sacramenti adveniens 
-          tali operi vel ipsum praeveniens ipsius bonitatem meritoriam si cetera sint paria non videtur minuere sed augere 
-          ergo vere poenitens et sibi impositum ex caritate exequens non solum merebitur sed etiam plus merebitur quam si alias 
-          ex proprio capite faceret opus tale</p>
+        <p xml:id="b1prolq2-tqqfot">Tum quarto quia vere 
+          <app>
+            <lem wit="#S">poenitens</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>poenitentes</del>
+                <add>poenitens</add>
+              </corr>
+            </rdg>
+          </app> 
+          de peccatis suis et faciens bonum opus ex caritate ex <sic>capide</sic> 
+          suo proprio et sponte sine tali impositione meretur praemium. Sed obedientia poenitentialis et gratia sacramenti adveniens 
+          tali operi vel ipsum praeveniens ipsius bonitatem meritoriam si cetera sint paria non videtur minuere sed augere. 
+          Ergo vere poenitens et sibi impositum ex caritate exequens non solum merebitur sed etiam plus merebitur quam si alias 
+          ex proprio capite faceret opus tale.</p>
         
-        <p xml:id="b1prolq2-ceqmpa">concedo ergo <corr><add place="aboveLine">quod</add></corr> implens ex caritate opus satisfactorium sibi <sic>positum</sic> 
-          in foro poenitentiae meretur praemium aeternum</p>
+        <p xml:id="b1prolq2-ceqmpa">Concedo ergo 
+          <app>
+            <lem wit="#S">quod</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add place="aboveLine">quod</add>
+              </corr>
+            </rdg>
+          </app> 
+          implens ex caritate opus satisfactorium sibi 
+          <app>
+            <lem wit="#S">impositum</lem>
+            <rdg wit="#V">positum</rdg>
+          </app> 
+          in foro poenitentiae meretur praemium aeternum.</p>
         <!-- dubium/contra -->
         <p xml:id="b1prolq2-schphd">Sed contra hoc potest argui sic opus tale bonum sufficientissime compensatur 
           in remissione poenae debite pro mortali igitur ulterius ei non debetur praemium consequentia patet quia 
