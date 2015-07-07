@@ -247,17 +247,59 @@
           in foro poenitentiae meretur praemium aeternum.</p>
         <!-- dubium/contra -->
         <p xml:id="b1prolq2-schphd">Sed contra hoc potest argui sic opus tale bonum sufficientissime compensatur 
-          in remissione poenae debite pro mortali igitur ulterius ei non debetur praemium consequentia patet quia 
-          <unclear>iustitia</unclear> non plus requirit ad proportionem nisi quod opus bonum sufficientissime praemietur  antecedens probo sic  quia poena debita 
-          pro mortali habet ad gradum aliquem praemii vitae aeternae finitam proportionem sic videlicet quod ipsa non est 
-          in infinitum minus mala quam illud sic bonum sed finite solum  dupletur igitur talis <corr>p<del rend="expunctuated">l</del>oena</corr> <corr><add place="aboveLine">vel</add></corr> vel quadrupletur 
-          et ita deinceps secundum intensionem secundum quod potuerint exigere moralia graviora vel similia frequentata 
-          et ex parte alia subdupletur praemium dandum et subquadrupletur et sic deinceps donec sic 
+          in remissione poenae debitae pro mortali, igitur --
+          <app>
+            <lem>si per ipsum satisfaciat pro tali poena</lem>
+            <rdg wit="#V" type="corrAddition">           
+              <corr>
+                <add place="marginLeft">si per ipsum satisfaciat pro tali poena</add>
+              </corr>
+            </rdg>
+            <rdg wit="#S" type="om."/>
+          </app>
+          -- ulterius ei non debetur praemium. Consequentia patet quia 
+          iustitia non plus requirit ad proportionem nisi quod opus bonum sufficientissime praemietur. Antecedens probo sic: quia poena debita 
+          pro mortali habet ad gradum aliquem praemii vitae aeternae finitam proportionem, sic 
+          <app>
+            <lem wit="#S">scilicet</lem>
+            <rdg wit="#V">videlicet</rdg>
+          </app> 
+          quod ipsa non est 
+          in infinitum minus mala quam illud <unclear>sic<!-- could be sit --></unclear> bonum, sed finite solum. Dupletur igitur talis 
+          <app>
+            <lem>poena</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del rend="expunctuated">ploena</del>
+                <add>poena</add>
+              </corr>
+            </rdg>
+          </app>
+          <app>
+            <lem>vel</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add place="aboveLine">vel</add>
+              </corr>
+            </rdg>
+          </app>
+          vel quadrupletur 
+          et ita deinceps secundum intensionem secundum quod potuerint exigere mortalia graviora vel similia frequentata, 
+          et ex parte alia subdupletur praemium dandum et subquadrupletur, et sic deinceps donec sic 
           sibi correspondeant poena ad quam deveneretur et gradus habitudinis ad quem stabitur quod ita mala vel peior 
-          sic poena ista et aeque odibilis vel odibilior sicut gradus illae beatitudinis est bonus et amabilis totum hoc possibile 
+          sic poena ista et aeque odibilis vel odibilior sicut gradus illae beatitudinis est bonus et amabilis. Totum hoc possibile 
           est ut videtur satis esse notum supposito primo assumpto de proportione finita inter primo sumpta quod suppositum 
-          satis videtur evidens hoc toto facto ita bonum erit <corr><add place="aboveLine">illi</add></corr> vel melius qui peccando mortaliter meruit 
-          poenam ad quam perventum est  quae vocetur <c>a</c> ab illa liberari  sicut esset sibi bonum si nulla <!-- might be something added here --> 
+          satis videtur evidens hoc toto facto ita bonum erit 
+          <app>
+            <lem>illi</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add place="aboveLine">illi</add>
+              </corr>
+            </rdg>
+          </app> 
+          vel melius qui peccando mortaliter meruit 
+          poenam ad quam perventum est quae vocetur <c>a</c> ab illa liberari  sicut esset sibi bonum si nulla <!-- might be something added here --> 
           poena esset sibi debita in gradu <unclear>illius <!-- doesn't really look like illius --></unclear> beatitudinis qui vocetur <c>b</c> ad quem statur praemiari igitur illi 
           operi bono satisfactorio cui alias praecise secundum divinam iustitiam deberetur gradus <c>b</c> beatitudinis sufficientissime 
           compensatur et retribuitur si remissio poenae <c>a</c> debite pro mortali vel mortalibus sibi fiat quia sicut 
@@ -899,7 +941,7 @@
         <p xml:id="b1prolq2-evamae">eandem veritatem alias intendo <corr>prol<add place="aboveLine">i</add>xius</corr> sub illo met <unclear>titulo</unclear> suadere Nec potest dici quod clare 
           <unclear>videnti</unclear> deum per visionem creatam appareat deus bonum et amabile infinitum creato intellectui sic videnti 
           quia si sic cum creaturae videantur in verbo <unclear>in haec</unclear> sit earum <corr><add place="marginRight">cognitio <unclear>intuitiva</unclear> distincta contra earum cognitionem</add></corr> <unclear>vepertinam</unclear> in genere proprie sicut potest colligi ex 
-          multis capitulis <ref><name ref="#Augustine">beati augustinus</name> 4 <title ref="#supraGenesim">super genese ad littera</title></ref> et <ref><title>si?ter</title> libro 8</ref> cum creaturae videantur in verbo a beatis et 
+          multis capitulis <ref><name ref="#Augustine">beati augustinus</name> 4 <title ref="#DeGenesiAdLitteram">super genesim ad littera</title></ref> et <ref><title>si?ter</title> libro 8</ref> cum creaturae videantur in verbo a beatis et 
           non solum sicut in lumine nec praecise sicut in imagine sicut probavit <name>socius iste</name> contra <name ref="#Lombard">magistrum</name> <title ref="#Sentences">sententiarum</title> et bene arguit hoc et secum idem 
           teneo ergo oportet quod hoc sit eodem actu cognitio quo cognoscit verbum et creaturam et <corr><add place="aboveLine">hoc</add></corr> sibi etiam concedendo quia eodem actu creato potest anima beata 
           videri verbum et creaturam in verbo per modum alias explanandum</p>
@@ -944,13 +986,13 @@
         <p xml:id="b1prolq2-ehisca"><corr><add place="marginRight">et hoc iterum est contra experientiam quia una cognitio multum intensa circa</add></corr> aliquod delectabile 
           multum placens vel notabiliter remittit vel totaliter suspendit et aufert cognitionem simul circa <unclear>aliud simul</unclear></p>
         
-        <p xml:id="b1prolq2-eichep">et iterum confirmari posset per <ref><name ref="#Augustine">beatum augustinum</name> 7 <title ref="#onGenesis">super genese ad litteram</title> capitulo 15</ref> ubi docet quod potentiae animae in actibus 
+        <p xml:id="b1prolq2-eichep">et iterum confirmari posset per <ref><name ref="#Augustine">beatum augustinum</name> 7 <title ref="#DeGenesiAdLitteram">super genesim ad litteram</title> capitulo 15</ref> ubi docet quod potentiae animae in actibus 
           suis mutuo <corr><add place="aboveLine">se</add></corr> impediunt ergo multo fortius actus intensus eiusdem potentiae impedit intensionem actus alterius 
           igitur anima christi habens beatitudinem intensissimam cuius est capax si habebit cognitionem creaturae in genere proprie ita 
           <pb ed="#V" n="13v"/>perfectam sicut potest habere anima lini sibi per <unclear>ponit</unclear> aequalis in naturalibus cum remissa beatitudine sua oportebit remitti 
           beatitudinem animae christi et hoc erat probandum</p>
         <!-- num 3 -->
-        <p xml:id="b1prolq2-paosec">praeterea <ref><name ref="#Augustine">augustinus</name> 8 <title ref="#supraGenesim">super genese ad litteram</title> capitulo 12 de magnis 
+        <p xml:id="b1prolq2-paosec">praeterea <ref><name ref="#Augustine">augustinus</name> 8 <title ref="#DeGenesiAdLitteram">super genesim ad litteram</title> capitulo 12 de magnis 
           vel 34 de parvis</ref> ostendit quomodo deus <corr>divers<del rend="expunctuated">e</del><add place="aboveLine">i</add>mode</corr> loquitur deus creaturis super illud <title ref="#gen">genese</title> qua die comederitis 
           ex ligno sibi prohibito morte <unclear>moriemini<!-- possibily corrected --></unclear> <quote><!-- likely begining of quote -->si modum inquit quaerimus 
             quomodo <corr>si</corr> locutus <unclear>sit</unclear> deus certissime 
@@ -1037,7 +1079,7 @@
         <p xml:id="b1prolq2-pseaci">praeterea 2o est illa auctoritas contra <name>istum 
           socium</name> quia secundum eum per ipsam visionem quae est ipsum verbum videt intellectus <corr>beat<del>us</del><add rend="aboveLine">i</add></corr> res alias et hoc est eas videre in verbo 
           et hoc distincte quia alias cognitio matutina respectu creaturae alicuius non esset ita perfecta illius cognitio sicut ipsius cognitio 
-          vespertina cuius oppositum vult <ref><name ref="#Augustine">augustinus</name> in locis praenotis <title ref="#supraGenesim">super genese ad litteram</title></ref>  quaero igitur ab eo an per <corr>ver<add>bum</add> 
+          vespertina cuius oppositum vult <ref><name ref="#Augustine">augustinus</name> in locis praenotis <title ref="#DeGenesiAdLitteram">super genesim ad litteram</title></ref>  quaero igitur ab eo an per <corr>ver<add>bum</add> 
             <del rend="expunctuated">bum</del></corr> supplens vicem cognitionis videat intellectus creatus beatus omnia alia a deo simul <corr><add place="marginRight">quod licet distinctione et aeque distinctione sicut videt in genere proprio vel non</add></corr> si non cum non sit 
           alia creatura quin ita distincte possit in verbo cognosci et ita de rebus infinitis igitur est ibi <sic>icio</sic> ab aliis in alia eundo 
           et ad priora si voluerit redeundo contra auctoritatem quia ibi est voluntas quam exprimit <name ref="#Augustine">augustinus</name> si 
