@@ -1080,6 +1080,7 @@
           </app> 
           sepulchrum et caelum non divisa. 
           <app>
+            <lem>Igitur</lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginRight">igitur</add>
@@ -1375,6 +1376,7 @@
           </app> 
           quantitas non est accidens 
           <app>
+            <lem>earum</lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginLeft">earum</add>
@@ -1518,7 +1520,8 @@
             <lem>corrumpere</lem>
             <rdg wit="#S" type="corrReplace">
               <corr>
-                <del rend="expunctuated">corpore</del> <add place="inLine">corrumpere</add>
+                <del rend="expunctuated">corpore</del> 
+                <add place="inLine">corrumpere</add>
               </corr>
             </rdg>
           </app> 
@@ -1562,6 +1565,7 @@
           et alius vel istarum a quibus partes in essendo conservative dependent 
           simul. Unde maior argumenti non est vera nisi de efficiente proprie 
           <app>
+            <lem>quod</lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginRight">quod</add>
@@ -1766,6 +1770,7 @@
         <p>Dicendum est quod est quanta per quantitate suam, id est per partes suas 
           ad invicem continuatas divisibilis aut nec per se nec per aliud 
           <app>
+            <lem>ad</lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginRight">ad</add>
@@ -1863,7 +1868,7 @@
           potest aliter fieri non per naturam. 
           <ref>
             <seg><name ref="#Aristotle">Philosophus</name> tamen <title ref="#Categories">Praedicamentis</title></seg>
-            <bibl>Aristoteles, De praedicamentis, XXX</bibl>
+            <bibl>Aristoteles, De Praedicamentis, XXX</bibl>
           </ref> 
           credidit quod sic 
           oportuisset esse, quia de miraculis fidei <unclear cert="low">parvi</unclear> scivit per miraculum 
@@ -2007,8 +2012,9 @@
           situali distantia quarumdam partium ab invicem. Sed fide <unclear>certifica materia <!-- could be one word --></unclear> <unclear>p <!-- could be philosopher --></unclear> a 
           veritate defecisse in hoc, et per illud patet ad 
           <ref>
-            <seg><name>Philosophum</name> in <title ref="#Categories">Praedicamentis</title>.</seg></ref>
+            <seg><name>Philosophum</name> in <title ref="#Categories">Praedicamentis</title>.</seg>
             <bibl>Aristoteles, De praedicamentis, XXX</bibl>
+          </ref>
         </p>
         
         <p>Ad tertium, quod 
@@ -2237,6 +2243,7 @@
               <seg><name ref="#Ockham">Ockham</name> ponentem huiusmodi quantitatem substantiam esse 
               libro primo de 
                 <app>
+                  <lem>tertia</lem>
                   <rdg wit="#S" type="corrAddition">
                     <corr>
                       <add place="marginLeft">tertia</add>
@@ -2254,6 +2261,7 @@
           </ref> 
           <!-- could be a quote here, but it is complicated by corss nesting then the app -->
           <app>
+            <lem>de accidente, ubi dicitur quod impossibile est quantitatem sive divisione</lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginLeft">de accidente, ubi dicitur quod impossibile est quantitatem sive divisione</add>
@@ -2416,7 +2424,7 @@
           potest naturale agens ibi producere novas qualitates et non 
           <app>
             <lem>sine</lem>
-            <rdg>
+            <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginRight">sine</add>
               </corr>
@@ -2502,6 +2510,7 @@
           simul quod substantia sit extensa sine omni accidente absoluto et tamen quod non habeat 
           incompossibilitatem suarum partium existendi ex natura sua simul 
           <app>
+            <lem>secundum istum</lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginRight">secundum istum</add>
@@ -2519,7 +2528,7 @@
           a substantiis omnibus et qualitatibus 
           <app>
             <lem>quia si multa posset alia teneri inconvenientia.</lem>
-            <rdg>
+            <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginBottom">quia sic multa posset alia teneri inconvenientia</add>
               </corr>
@@ -2618,7 +2627,7 @@
           nec substantia extensa nec qualitas aliqua 
           <app>
             <lem>est quanta.</lem>
-            <rdg>
+            <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginLeft">est quanta</add>
               </corr>
@@ -2745,7 +2754,7 @@
           alterationem ponis naturaliter 
           <app>
             <lem>posse</lem>
-            <rdg wit="#S" type="corrReplace">
+            <rdg wit="#S" type="corrDeletion">
               <corr>
                 <del rend="underline">etc</del>
               </corr>
@@ -2985,21 +2994,24 @@
               </corr>
             </rdg>
           </app> 
-          quia virtus activa quae necessitat partes ad distandum 
+          quia virtus activa quae necessitat partes ad distandum
+          <!-- this is causing problems in latex 
           <app>
+            <lem>plus quam prius</lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
-                <add place="marginLeft">plus quam prius</add>
+                <add>plus quam prius</add>
               </corr>
-            </rdg>
-          </app> 
+            </rdg> 
+          </app>
+           above causing problems -->
           certe 
           remitteretur multo magis ne una magis daretur in loco alterius non 
           motae de isto loco. Minorem probo quia si aer vel ignis condensatur 
           ultra per violentiam quam sibi competeret naturaliter absolute principio tali 
           quo actualiter condensatur rarefaceret seipsum et ferret partes suas 
-          extremas 
           <app>
+            <lem>extremas</lem>
             <rdg wit="#S" type="corrDeletion">
               <corr>
                 <del rend="expunctuated">et</del>
@@ -3014,6 +3026,7 @@
         
         <p>Praeterea, talis quantitas necessitatur secundum cursum 
           <app>
+            <lem>communem</lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginLeft">communem</add>
@@ -3025,7 +3038,7 @@
           partes distare in toto per tuam quantitatem 
           <app>
             <lem>distinctam,</lem>
-            <rdg>
+            <rdg wit="#S" type="corrAddition">
               <corr>
                 <add place="marginLeft"><unclear>distinctam</unclear></add>
               </corr>
@@ -3046,7 +3059,6 @@
           distare quod ad nullam quantitatem eas distare determinat. 
           Sed illud potius quod sit ad certam extensionis et distantiae magnitudinem 
           necessitat cessante violentia 
-          <cb ed="#M" n=""/> 
           exteriori. Sed quantitas quae esset sic 
           res distincta esset sic indifferens penitus ad varias magnitudines 
           extensionis et distantiae si non violentetur in igne et in terra 
@@ -3219,162 +3231,277 @@
         </div>
         <div>
           <head>
-            <supplied>Septimus articulus</supplied>
+            <supplied>Septimus articulus: Responsio ad argumenta Chattonis</supplied>
           </head>
         <p>Ad primum argumentum 
-          in contrarium dicendum quod articulus dampnat conclusionem sicut patet ex articulo proximo 
-          ubi dicitur quod facere accidens esse sine subiecto habet rationem inplicitatem contra 
-          dictionem <unclear>supp?</unclear> errorem unde sicut plane patet ex prima parte prioris 
-          articuli cuius cauda allegatur illi errantes dixerunt accidens non 
-          posse fieri a deo sine subiecto suo hoc non est inquantum in quiunt si fiat 
-          sermo de accidente quod est quantitatem seu accides esse substantiam unde 
-          istud medium non fuit <unclear>condemnatum</unclear> ratio sicut ille pratendit se credere 
-          sed motum errantium sicut notum est cuilibet articulum advertenti 
-          sed dampnatur ibi quod accidens non possit a deo fieri sine subiecto et etiam 
-          consequentia quam fecerunt et cum probat iste quod non quia consequentia est evidens 
-          <cb ed="#S" n="172ra"/>negandum est et ad probationem dico quod planum est ex principio illius articuli quod principium 
-          iste omittit principium aut istius articuli erronei est illud Cum inquiunt 
-          isti deus non comparatur ad entia in ratione causae materialis vel formalis igitur non facit accidens 
-          esse sine subiecto et tunc addunt ille errantes quid inpossibile est quantitatem sine 
-          divisione esse per se quia hoc esset ipsam est substantia secundum eos igitur patet ex principio 
-          isto prioris articuli et ex 2o articulo quem iam positum <unclear>prius</unclear> quod articulus loquitur de 
-          quantitate quae sit accidens non de ista quae poneretur a principio et substantia vel 
-          partes substantiae quia <corr><del rend="strikethrough/expunctuated">s</del></corr> totus error stabat in hoc quod accidens non 
-          posset fieri a deo sine subiecto</p>
+          in contrarium dicendum quod articulus dampnat conclusionem, sicut patet ex articulo proximo 
+          ubi dicitur quod facere accidens esse sine subiecto habet rationem implicitatem contra 
+          dictionem, supple errorem. Unde sicut plane patet ex prima parte prioris 
+          articuli, cuius cauda allegatur, illi errantes dixerunt accidens non 
+          posse fieri a Deo sine subiecto suo, hoc non est inquantum inquiunt si fiat 
+          sermo de accidente quod est quantitatem seu accidens esse substantiam unde 
+          istud medium non fuit condemnatum ratio sicut ille praetendit se credere. 
+          Sed motum errantium sicut notum est cuilibet articulum advertenti. 
+          Sed dampnatur ibi quod accidens non possit a Deo fieri sine subiecto et etiam 
+          consequentia quam fecerunt. Et cum probat iste quod non quia consequentia est evidens 
+          <cb ed="#S" n="172ra"/> 
+          negandum est. Et ad probationem dico quod planum est ex principio illius articuli quod principium 
+          iste omittit principium aut istius articuli erronei est illud. Cum, inquiunt, 
+          isti Deus non comparatur ad entia in ratione causae materialis vel formalis, igitur non facit accidens 
+          esse sine subiecto. Et tunc addunt illi errantes quod impossibile est quantitatem sine 
+          divisione esse per se, quia hoc esset ipsam esse substantia secundum eos. Igitur patet 
+          <ref>
+            <seg>ex principio 
+            isto prioris articuli</seg>
+            <bibl>Vide supra, XXXX</bibl>
+          </ref> 
+          et 
+          <ref>
+            <seg>ex secundo articulo quem iam positum prius</seg>
+            <bibl>Vide supra, XXX</bibl>
+          </ref> 
+          quod articulus loquitur de 
+          quantitate quae sit accidens, non de ista quae poneretur a principio et substantia vel 
+          partes substantiae, 
+          <app>
+            <lem>quia</lem>
+            <rdg wit="#S" type="corrDeletion">
+              <corr>
+                <del rend="strikethrough/expunctuated">s</del>
+              </corr>
+            </rdg>
+          </app> 
+          totus error stabat in hoc quod accidens non 
+          posset fieri a deo sine subiecto.</p>
         
-        <p>ad 2m dicendum quod iste qui negaret substantiam 
-          panis in transubstantione annihilari Et qui concedit 2m habet concedere primum et isti 
-          2i negarent istam suam consequentiam si substantia panis annihilaretur non substantia 
-          requiritur nec repugnant termini dicerentur illi quia annihilari secundum istos non est nisi 
-          totaliter desinere esse secundum materiam et formam et hoc non repugnat transubstantioni 
-          sed infertur ex ea nec est hic vis in re sed in verbis tantum secundum istos</p>
+        <p>
+          <cb ed="#M" n="216va"/>
+          Ad secundum dicendum quod iste qui negaret substantiam 
+          panis in transubstantione annihilari, et qui concedit secundum habet concedere primum. Et isti 
+          secundi negarent istam suam consequentiam <mentioned>si substantia panis annihilaretur, non substantia 
+          requiritur nec repugnant termini</mentioned>. Dicerentur illi quia annihilari secundum istos non est nisi 
+          totaliter desinere esse secundum materiam et formam et hoc non repugnat transubstantioni, 
+          sed infertur ex ea, nec est hic vis in re sed in verbis tantum secundum istos.</p>
         
-        <p>Ego autem dico quod transubstantio non est annihilatio conversio substantiae 
-          panis in corpus christi ex vi consecrationis sacramentlais ita quod in 
-          instanti conversionis cessat esse sub illis speciebus panis et vini substantia 
-          quae praeerat et succedit pro eisdem corpus et anguis christi ex vi consecrationis 
-          sacramentalis nec est ibi aliqua conversio proris inposterius 
+        <p>Ego autem dico quod transubstantio non est annihilatio, sed conversio substantiae 
+          panis in corpus Christi ex vi consecrationis sacramentalis, ita quod in 
+          instanti conversionis cessat esse sub illis speciebus panis et vini substantia, 
+          quae praeerat et succedit pro eisdem corpus et sanguis Christi ex vi consecrationis 
+          sacramentalis. Nec est ibi aliqua conversio prioris in posterius 
           nisi quod ad non esse priori succedit sub illis speciebus ex vi consecrationis 
-          substantia posterior et quia motus vel mutatio vel facio unica quaelibet 
-          denominanda est ab ultimo termino ad quem per se intento non est 
-          igitur ista conversio annihilatio licet substantia panis nihil fieret sed transubstantio 
-          id est successio unius substantiae in loco alterius Descriptio autem iam posita excludit 
-          huius veramque reductionem sicut patet applicanti</p>
+          substantia posterior. Et quia motus vel mutatio vel facio unica quaelibet 
+          denominanda est ab ultimo termino ad quem per se intento. Non est 
+          igitur ista conversio annihilatio, licet substantia panis nihil fieret, sed transubstantio, 
+          id est successio unius substantiae in loco alterius. Descriptio autem iam posita excludit 
+          huius veramque reductionem, sicut patet applicanti.</p>
         
-        <p>ad 3m patet Responsio respondendo 
-          prius ad 3am obiectionem lateralium opinantium</p>
+        <p>Ad tertium patet responsio, respondendo 
+          prius 
+          <ref>
+            <seg>ad tertiam obiectionem</seg>
+            <bibl>Vide supra</bibl>
+          </ref> 
+          lateralium opinantium.</p>
         
-        <p>ad 4m concedo quod multae 
+        <p>Ad quartum concedo quod multae 
           qualitates educibiles de potentia eiusdem subiecti sive eiusdem rationis sive alterius 
           comparantur se naturaliter et inter se et cum quantitate essentiali subiecti de cuius 
-          potentia educuntur aliquae autem quantitates multae etiam si ponerentur a deo in diversis 
-          sitibus non possent se ferre <corr><add place="marginLeft">in eodem situ</add></corr> sicut patet ex christo argumento contra istum Et ex 
-          eodem patet quod nec substantia panis si in situ <corr>distin<add>cto</add><del>guendo</del></corr> a situ specierum 
-          recrearetur vel poneretur nec aliqua substantia etiam corporea posset per causas 
-          naturales fieri in eodem situ cum illis speciebus  a deo aut solo posset tam illa quam 
-          ista sicut sibi placeret Illud autem quod additur de passione specifica 
-          supra solutum est</p>
-        
-        <p>ad 3m lateralem respondendo et post hic illud contra hanc 
-          responsionem non habet colorem quia haec responsio est quod etiam repugnaret priori 
+          potentia educuntur aliquae autem quantitates, multae etiam si ponerentur a Deo in diversis 
+          sitibus non possent se facere 
+          <app>
+            <lem>in eodem situ</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginLeft">in eodem situ</add>
+              </corr>
+            </rdg>
+          </app> 
+          sicut patet ex christo argumento contra istum. Et ex 
+          eodem patet quod nec substantia panis si in situ 
+          <app>
+            <lem>distincto</lem>
+            <rdg wit="#S" type="corrReplace">
+              <corr>
+                <del>distinguo</del>
+                <add>distincto</add>
+              </corr>
+            </rdg>
+          </app> 
+          a situ specierum 
+          recrearetur vel poneretur, nec aliqua substantia etiam corporea posset per causas 
+          naturales fieri in eodem situ cum illis speciebus a Deo aut solo posset tam illa quam 
+          ista sicut sibi placeret. Illud autem quod additur de passione specifica 
+          supra solutum est. Ad tertium lateralem respondendo et post hic illud contra hanc 
+          responsionem non habet colorem, quia haec responsio est quod etiam repugnaret priori 
           substantiae facere se realiter in eodem situ cum speciebus dato quod indistinctis 
-          sitibus a deo ponerentur</p>
+          sitibus a Deo ponerentur.</p>
         
-        <p>ad 5m negat <name ref="#Scotus">scotus</name> et econverso cum eo illud quod assumitur 
-          nec hic est plus dare occasionem non credendi quam quod sint ibi accidentia 
-          sine subiecto vel de transitione vel de generatione substantiali quae potest <corr><add place="marginRight">fieri</add></corr> 
+        <p>Ad quintum negat <name ref="#Scotus">scotus</name> et econverso cum eo illud quod assumitur. 
+          Nec hic est plus dare occasionem non credendi quam quod sint ibi accidentia 
+          sine subiecto vel de transitione vel de generatione substantiali quae potest 
+          <app>
+            <lem>fieri</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginRight">fieri</add>
+              </corr>
+            </rdg>
+          </app> 
           ibi quantum dat sensus vel quam quod in hostia non consecrata videatur 
-          substantia et inconsecrata non  posito enim et credito principali nullum rationalem 
-          retraheretur a fide dicere quod deus faceret omnia talia quae sequuntur et si ponderent 
-          istam maneret inevitabilibere concluderet tibi nam tu <name ref="#Chatton">chatton</name> 
-           ponis quod albedo et ceterae qualitates possunt esse ita magnae et extensae 
-          et figuratae sicut modo circumscripta ista tua quantitate Circumscribat 
-          igitur deus eam et appropinquent deus ignem ad calefaciendum <unclear>s?s</unclear> 
-          istas panis vel vini quaero utrum calefacient vel non  si sic et non 
-          a terminata per te igitur a deo  et hic ut tu arguis per omnia esset occasio per se 
-          verandi in infidelitatis errore  si non calefaciant tunc possunt experimentaliter 
-          probari quae hostia consecrata sic et quae non sic quia consecrata 
-          non recipit calorem alia <unclear>recipit</unclear>  consequens videtur absurdum</p>
+          substantia et inconsecrata non posito enim et credito principali nullum rationalem 
+          retraheretur a fide dicere quod Deus faceret omnia talia quae sequuntur et si ponderent 
+          istam maneret inevitabilibere concluderet tibi. Nam tu, <name ref="#Chatton">chatton</name>, 
+          ponis quod albedo et ceterae qualitates possunt esse ita magnae et extensae 
+          et figuratae, sicut modo circumscripta ista tua quantitate. Circumscribat 
+          igitur Deus eam et appropinquent Deus ignem ad calefaciendum species 
+          istas panis vel vini. Quaero utrum calefacient vel non. Si sic et non 
+          a terminata per te, igitur a Deo. Et hic, ut tu arguis, per omnia esset occasio perseverandi 
+          in infidelitatis errore. Si non calefaciant, tunc possunt experimentaliter 
+          probari quae hostia consecrata sit et quae non sit, quia consecrata 
+          non recipit calorem, alia recipit. Consequens videtur absurdum.</p>
         
-        <p>praeterea secundum hoc 
-          omnes qualitates corporeae essent naturaliter educibiles de potentia qualitatis <corr><add place="marginLeft">et per consequens</add></corr> substantia in 
+        <p>Praeterea secundum hoc 
+          omnes qualitates corporeae essent naturaliter educibiles de potentia qualitatis 
+          <app>
+            <lem>et per consequens</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginLeft">et per consequens</add>
+              </corr>
+            </rdg>
+          </app> 
+          substantia in 
           qua primo essent sicut in subiecto remoto esset materia prima quae per illum est secundum quantitatis 
-          et non compositum neque forma consequens videtur inpossibile et inconveniens quia non videtur quin 
-          aliqua qualitates corporeae ita recipiantur immediate in aliqua forma corporea 
-          sicut qualitates in corporeae puta intentiones et nolitiones habitus in forma 
-          spirituali et in corporea unde etiam secundum <name ref="#Aristotle">philosophum</name> et <name ref="#Averroes">commentatorem</name> corpus <unclear>ce?te <!-- caeleste or teste --></unclear> non componitur ex 
-          materia prima et forma corporea sed forma corporea extenditur ibi</p>
+          et non compositum neque forma consequens. Videtur impossibile et inconveniens, quia non videtur quin 
+          aliqua qualitates corporeae ita recipiantur immediate in aliqua forma corporea, 
+          sicut qualitates in corporeae, puta intentiones et nolitiones habitus in forma 
+          spirituali et in corporea. Unde etiam 
+          <ref>
+            <seg>secundum <name ref="#Aristotle">philosophum</name></seg>
+            <bibl>Aristoteles, XXX</bibl>
+          </ref> et 
+          <ref>
+            <seg><name ref="#Averroes">commentatorem</name></seg>
+            <bibl>Averroes, XXX</bibl>
+          </ref> 
+          corpus caeleste non componitur ex 
+          materia prima et forma corporea, sed forma corporea extenditur ibi.</p>
         
-        <p>praeterea 3o sicut 
-          ad praesentiam ignis aliqualem possunt istae <unclear>s?s</unclear> calefieri sicut experimur 
-          secundum te  <name>Chatton</name>  et verum est ad intellectum bonum loquendo 
-          non ad vim sermonis forte ita possunt quantum dat sensus igne 
-          maiori approximato comburi et incinerari  vel ibi igitur <unclear>tangitur <!-- causatur --></unclear> substantia alia 
-          incorruptione specierum sicut alibi ubi poneretur hotia non consecrata 
-          vel non  si non datur occasio erroris si tenet contra tua quod no 
-          credo  si sic cum ignis non possit agere substantiam nisi de potentia 
-          subiecti quaero subiectum istius novae formae substantialis materia prima non 
-          est <corr><add place="belowLine">ibi</add></corr> quia haec dicere ut tu arguis contra illud esset quod tenemus de sacramento 
-          <cb ed="#S" n="172rb"/>si educatur de potentia quantitatis tunc quantitas esset receptum formae substantialis 
+        <p>Praeterea, tertio, sicut 
+          ad praesentiam ignis aliqualem possunt istae species calefieri sicut experimur 
+          secundum te, <name>Chatton</name>, et verum est ad intellectum bonum loquendo 
+          non ad vim sermonis forte, ita possunt quantum dat sensus igne 
+          maiori approximato comburi et incinerari vel ibi. Igitur <unclear>tangitur</unclear> substantia alia 
+          incorruptione specierum sicut alibi ubi poneretur hostia non consecrata 
+          vel non. Si non, datur occasio erroris si tenet contra tua quod non 
+          credo. Si sic, cum ignis non possit agere substantiam nisi de potentia 
+          subiecti quaero: subiectum istius novae formae substantialis materia prima non 
+          est 
+          <app>
+            <lem>ibi</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="belowLine">ibi</add>
+              </corr>
+            </rdg>
+          </app> 
+          quia haec dicere, ut tu arguis contra illud esset quod tenemus de sacramento. 
+          <cb ed="#S" n="172rb"/> 
+          Si educatur de potentia quantitatis, tunc quantitas esset receptum formae substantialis, 
           et certe hoc dicere esset quantitatem ponere substantiam esse materiae primae vel partis eius 
-          vel esset asininum  Si enim de potentia quantitatis potest naturaliter educi omnia alia materia 
+          vel esset asininum. Si enim de potentia quantitatis potest naturaliter educi omnia alia materia 
           circumscripta omnis quantitas omnis substantialis forma corporea quae ab aliis ponitur immediate 
-          recipi in materia prima furstra et superflue poneretur alia materia prima</p>
+          recipi in materia prima, frustra et superflue poneretur alia materia prima.</p>
         
-        <p>praeterea ista maior 
+        <p>Praeterea, ista maior 
           argueret quod substantia produci posset a solis accidentibus circumscripta omni substantia coagente 
-          vel virtute cuius ageret contra patet quia nihil agit in virtute 
-          illius quod falsum est et constat quod <unclear>vinum purum</unclear> potest guttam aquae in vinum 
-          convertere aut igitur species vini post consecrationem hic possunt et 
-          habetur intentum quam est bona aut non et tunc ut arguis daretur 
-          errandi occasio</p>
+          vel virtute cuius ageret. Contra: patet quia nihil agit in virtute 
+          illius, quod falsum est et constat quod vinum purum potest guttam aquae in vinum 
+          convertere. Aut igitur species vini post consecrationem hic possunt et 
+          habetur intentum quam est bona. Aut non et tunc, ut arguis, daretur 
+          errandi occasio.</p>
         
-        <p>ad secundum patet <corr><add place="marginRight">ex</add></corr> argumentis XIo et XII contra eum</p>
+        <p>Ad secundum patet 
+          <app>
+            <lem>ex</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginRight">ex</add>
+              </corr>
+            </rdg>
+          </app> 
+          <ref>
+            <seg>argumentis XI et XII contra eum.</seg>
+            <bibl>Vide supra, XXX</bibl>
+          </ref>
+        </p>
         
-        <p>ad 7m nego assumptum 
-          non enim haberet substantiam nec habere posset naturaliter partes sit situaliter distantes 
-          quin eo ipso istae partes haberent in composibilitatem essendi in eodem 
-          situ adaequato ut superius arguendo contra eum deductum est  sed si 
-          per solum deum distare possunt active tunc bene stant simul Nam dato quod 
-          substantia posset intendi et remitti sicut ponit <name ref="#Averroes">commentator</name> de formis elementaribus 
-          possit deus mentem secundum intensionem auferre a mente alia 
-          et unire eam alteri menti tantum secundum extensionem et ita distarent 
-          vel situm licet non haberent incompossibilitatem simul essendi sed natura eius potius exigeret 
-          quod essent simul  verumtamen ut praeostensum est postquam per miraculum 
+        <p>Ad septimum, nego assumptum. 
+          Non enim haberet substantiam nec habere posset naturaliter partes sic situaliter distantes 
+          quin eo ipso istae partes haberent incomposibilitatem essendi in eodem 
+          situ adaequato ut superius arguendo contra eum deductum est. Sed si 
+          per solum Deum distare possunt active, tunc bene stant simul. Nam dato quod 
+          substantia posset intendi et remitti sicut ponit 
+          <ref>
+            <seg><name ref="#Averroes">Commentator</name> de formis elementaribus</seg>
+            <bibl>Averroes, XXX</bibl>
+          </ref> 
+          possit 
+          <app>
+            <lem wit="#M"><unclear>duas</unclear></lem>
+            <rdg wit="#S">deus</rdg>
+          </app> 
+          medietate secundum intensionem auferre a medietate alia 
+          et unire eam alteri medietate tantum secundum extensionem, et ita distarent 
+          vel situm, licet non haberent incompossibilitatem simul essendi. Sed natura eius potius exigeret 
+          quod essent simul verumtamen ut praeostensum est postquam per miraculum 
           posita essent in distinctis sitibus non possunt se facere in eodem 
-          situ</p>
+          situ.</p>
         
-        <p>Et idem per omnia dico de qualitatibus intensionibus corporalibus omnes 
+        <p>Et idem per omnia dico de qualitatibus intensionibus corporalibus, omnes 
           autem formae quae sunt naturaliter educibiles de potentia eiusdem materiae mediate vel 
-          immediate si sumit corporales habentes naturalem repugnantiam ad simul essendum 
-          id est non possunt simul esse per aliquas causas naturales citra omnipotentia dei quod 
-          in eodem situ adaequato essent ad 2m datum concedo <unclear>pro?o</unclear> aut procedit <unclear>dicens</unclear> 
-          de sensu negato et non habet calorem contra ibi facta</p>
+          immediate, si sumit corporales habentes naturalem repugnantiam ad simul essendum, 
+          id est non possunt simul esse per aliquas causas naturales citra omnipotentia Dei quod 
+          in eodem situ adaequato essent. Ad secundum datum concedo 
+          <app>
+            <lem wit="#M">probationem</lem>
+            <rdg wit="#S">probatio</rdg>
+          </app> 
+          aut procedit <unclear>dicens</unclear> 
+          de sensu negato et non habet calorem contra ibi facta.</p>
         
         <p>Nota aliter responderi 
           potest quia dato quod simul starent ista duo absque formali repugnantia et 
           quod ex uno non posset formali consequentia inferri oppositum alterius hic non 
-          facit  ad probandum alterum talium sicut in extremis <unclear>in materiis</unclear> patere potest</p>
+          facit  ad probandum alterum talium sicut in extremis in materiis patere potest.</p>
         
-        <p>ad illud de consecratione verum est quod posse evadere sit neminem 
-          debet movere sicut iste <unclear>sup?t</unclear> quod moveat sed alium de motum 
-          iuvat</p>
+        <p>Ad illud de consecratione verum est quod posse evadere sit neminem 
+          debet movere sicut iste supponit quod moveat sed alium de motum 
+          iuvat.</p>
         
-        <p>ad 8m et ad illud in contrarium de violentare respondendum est 2ae 
-          autem propositionis nego consequentiam et ad probationem licet antecedens sic falsum dato 
-          quod substantia posset intendi et remitti tamen consequentia ista non valet Exemplum 
-          forma substantialis corporeitatis humanae non compatitur secum naturaliter aliam formam 
-          substantialem eiusdem rationis ergo nec anima intellectiva quae est forma substantialis 
-          alterius rationis non sequitur</p>
+        <p>Ad octavum et ad illud in contrarium de violentare respondendum est. Secundae 
+          autem propositionis, nego consequentiam. Et ad probationem, licet antecedens sit falsum dato 
+          quod substantia posset intendi et remitti, tamen consequentia ista non valet. Exemplum: 
+          <mentioned>forma substantialis corporeitatis humanae non compatitur secum naturaliter aliam formam 
+          substantialem eiusdem rationis, ergo nec anima intellectiva quae est forma substantialis 
+          alterius rationis</mentioned>, non sequitur.</p>
         
-        <p>ad illud aliud quod additur de qualitate satis dictum 
-          est ad</p>
+        <p>Ad illud aliud quod additur de qualitate satis dictum 
+          <app>
+            <lem>est</lem>
+            <rdg wit="#S" type="intext">ad</rdg>
+          </app>
+        </p>
         
-        <p>ad 9m responsum est in simili in <ref>3o londonesis</ref> in materia de revolutionisbus 
+        <p>Ad nonum, responsum est in simili in 
+          <ref>
+            <seg>III Londoniensis in materia de revolutionibus</seg>
+            <bibl>Wodeham, Lectura Londoniensis, III, XXX</bibl>
+          </ref> 
           et dictum suum habet manifestam instantiam de omni individuo 
-          figurae huius ignis cum omne figuratum posset conservari a deo 
+          figurae huius ignis, cum omne figuratum posset conservari a Deo 
           absque hoc quod figuraretur et de omni contento sub hoc communi extendo 
-          vel protensio vel expansio et sic de pluribus</p>
+          vel protensio vel expansio et sic de pluribus.</p>
         </div>
       </div>
     </body>
