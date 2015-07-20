@@ -2226,251 +2226,542 @@
           <head>
             <supplied>Quintus articulus: Argumenta Chattoni contra Ockham</supplied>
           </head>
-          <p>Contra tamen istam viam tenentem quantitatem essentialem possunt fieri argumenta 
-          <name ref="#Chatton">Chatton</name> quae facit contra <ref><name ref="#Ockham">Ockham</name> ponentem huiusmodi quantitatem substantiam esse 
-          libro primo de <corr><add place="marginLeft">3a</add></corr> in reparatione</ref></p>
+          <p>Contra tamen istam viam tenentem quantitatem essentialem 
+            <app>
+              <lem><unclear>sic</unclear> esse eius <unclear>substantiae</unclear> partes continatas,</lem>
+              <rdg wit="#S" type="om."/>
+            </app> 
+            possunt fieri argumenta 
+            <name ref="#Chatton">Chatton</name> quae facit contra 
+            <ref>
+              <seg><name ref="#Ockham">Ockham</name> ponentem huiusmodi quantitatem substantiam esse 
+              libro primo de 
+                <app>
+                  <rdg wit="#S" type="corrAddition">
+                    <corr>
+                      <add place="marginLeft">tertia</add>
+                    </corr>
+                  </rdg>
+                </app> 
+                in Reportatione</seg></ref>
+            <bibl>Ockham, Reportatio, XXX</bibl>
+          </p>
         
-        <p>primo arguitur per articulum <sic>parysius</sic> positum capitulo 15 <corr><add place="marginLeft">de accidente ubi dicitur quod impossibile est quantitatem sive divisione</add></corr> 
-          esse per se hoc enim esset ipsam esse substantiam  supple error Et secundum istud 
-          motum opinantium et condempnantium est quia tunc substantia esset quantitas et 
-          econverso</p>
+        <p>Primo arguitur per 
+          <ref>
+            <seg>articulum <sic>Parisius</sic> positum capitulo 15</seg>
+            <bibl>XXX</bibl>
+          </ref> 
+          <!-- could be a quote here, but it is complicated by corss nesting then the app -->
+          <app>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginLeft">de accidente, ubi dicitur quod impossibile est quantitatem sive divisione</add>
+              </corr>
+            </rdg>
+          </app> 
+          esse per se. Hoc enim esset ipsam esse substantiam. Supple, error. Et secundum istud 
+          motum opinantium et condemnantium est, quia tunc substantia esset quantitas et 
+          econverso.</p>
         
-        <p>Nec valet secundum istum dicere quod ibi condempnetur contra et non quod substantia 
-          sit quantitas quia inquit contra est evidens quia si ista quantitas 
+        <p>Nec valet secundum istum dicere quod ibi condemnetur contra et non quod substantia 
+          sit quantitas, quia inquit contra est evidens quia si ista quantitas 
           qua substantia esset quanta omni accidente circumscripto sic substantia inpossibile est divisionem 
-          esse hoc <corr><add place="belowLine">est</add></corr> sine substantia ex quo ipsa esset substantia</p>
+          esse hoc 
+          <app>
+            <lem>est</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="belowLine">est</add>
+              </corr>
+            </rdg>
+          </app> 
+          sine substantia ex quo ipsa esset substantia.</p>
         
         <p>Istud argumentum si 
-          valeret ita iret contra me <corr><del rend="expunctuated">positive</del></corr> ponentem quantitatem esse partes 
-          substantiae sicut contra <name ref="#Ockham">hokam</name> ponentem quantitatem esse substantiam et ita etiam de sequentibus 
-          argumentis ideo ipsa pono ut solvam ea</p>
+          valeret ita iret contra 
+          <app>
+            <lem>me</lem>
+            <rdg wit="#S" type="corrDeletion">
+              <corr>
+                <del rend="expunctuated">positive</del>
+              </corr>
+            </rdg>
+          </app> 
+          ponentem quantitatem esse partes 
+          substantiae sicut contra <name ref="#Ockham">Ockham</name> ponentem quantitatem esse substantiam et ita etiam de sequentibus 
+          argumentis, ideo ipsa pono ut solvam ea.</p>
         
-        <p>Item tunc in transubstantione 
-          panis sicut quantitas ita essentialis substantiae annihilatur ita substantia panis 
-          annihilaretur contra patet de se  falsitas consequentis patet quia <ref><title>extra</title> de 
-            summa t? et si ca <!-- pretty sure this is decretal reference --></ref> dicitur quod panis transubstantiatur in corpus christi et vinum 
-          in sanguine posita dei si autem annihilarentur non transsubstantiarentur 
-        nam <unclear>t?i</unclear> repugnat Nec sufficit dicere ut iste arguit quod 
-          <corr><add place="marginLeft">transubstantiari</add></corr> non est <unclear>nullo</unclear> in accidentibus manentibus substantiam panis capere 
-          non esse et sub eisdem corpus christi succedere  quia si hic esset 
-          transubstantiari tunc si hodie annihilaretur substantia panis a cras 
-          ibi succederet corpus christi sub eisdem speciebus ad huc esset transsubstantio</p>
+        <p>Item, tunc in transubstantione 
+          panis, sicut quantitas ista essentialis substantiae annihilatur, ita substantia panis 
+          annihilaretur. Contra: patet de se falsitas consequentis. Patet, quia 
+          <ref>
+            <seg><title><supplied>Liber</supplied> Extra</title> de 
+            summa <unclear>tri et side ca</unclear></seg>
+            <bibl>Liber Extra, XXX</bibl>
+          </ref> 
+          dicitur quod panis transubstantiatur in corpus Christi et vinum 
+          in sanguine potentia Dei. Si autem annihilarentur, non transubstantiarentur, nam <unclear cert="low">tibi</unclear> repugnat. Nec sufficit dicere ut iste arguit quod 
+          <app>
+            <lem>transubstantiari</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr><add place="marginLeft">transubstantiari</add></corr>
+            </rdg>
+          </app> 
+          non est <unclear>nullo</unclear> in accidentibus manentibus substantiam panis capere 
+          non esse et sub eisdem corpus christi succedere, quia si hic esset 
+          transubstantiari, tunc si hodie annihilaretur substantia panis a cras 
+          ibi succederet corpus Christi sub eisdem speciebus adhuc esset transubstantio.</p>
         
-        <p>Item tunc non plus convertetur in corpus christi quam in 
-          animam eius quia non aliter succedit corpus sub illis speciebus 
+        <p>Item, tunc non plus convertetur in corpus Christi quam in 
+          animam eius, quia non aliter succedit corpus sub illis speciebus 
           quam anima nec tunc plus veritatis esset hic <mentioned>hic est corpus meum</mentioned>  
-          quam hic  <mentioned>hic est anima mea</mentioned></p>
+          quam hic <mentioned>hic est anima mea</mentioned>.</p>
         
-        <p>Dices forte inquit quod non est simile 
-          <cb ed="#S" n="170vb"/>quia corpus succedit per se ita quod si separaretur ab anima corpus ibi succederet 
-          et non anima de facto aut anima succedit quia illud corpus <corr><del rend="underline">quod</del></corr> quod per se succedit 
-          facit unum cum anima</p>
+        <p>Dices forte inquit quod non est simile, 
+          <cb ed="#S" n="170vb"/> 
+          quia corpus succedit per se ita quod si separaretur ab anima corpus ibi succederet 
+          et non anima de facto aut anima succedit quia illud 
+          <app>
+            <lem>corpus</lem>
+            <rdg wit="#S" type="corrDeletion">
+              <corr>
+                <del rend="underline">quod</del>
+              </corr>
+            </rdg>
+          </app> 
+          quod per se succedit 
+          facit unum cum anima.</p>
         
-        <p>Contra si de facto ista succedit ibi anima sicut corpus 
-          igitur de facto non aliter transubstantiatur panis in corpus christi quam in animam</p>
+        <p>Contra: si de facto ista succedit ibi anima sicut corpus, 
+          igitur de facto non aliter transubstantiatur panis in corpus Christi quam in animam.</p>
         
-        <p>4o 
-          sic in eucharistia post transubstantionem est aliqua res cuius partes sunt incompossibiles 
-          si naturaliter esse in eodem situ adaequato quod patet  quia significantur et 
-          expellunt se invicem Ista naturalis incompossibilitas non conventi sibi 
-          per qualitatem quia albedo potest intendi per additionem partium eiusdem rationis 
+        <p>Quarto 
+          sic: in eucharistia post transubstantionem est aliqua res cuius partes sunt 
+          <app>
+            <lem>incompossibiles</lem>
+            <rdg wit="#S" type="intextu">si</rdg>
+          </app>
+          naturaliter esse in eodem situ adaequato, quod patet, quia significantur et 
+          expellunt se invicem. Ista naturalis incompossibilitas non convenit sibi 
+          per qualitatem, quia albedo potest intendi per additionem partium eiusdem rationis, 
           igitur plures partes albedinis possunt esse in eodem situ sive secundum eundem situm 
-          naturaliter compossibiles et ita arguam de aliis qualitatibus igitur si non sic ista 
-          res quam intendo probare oportet ponere istam in compossibilitatem per substantiam 
-          ibi et hoc est contra illud quod <unclear>tentus</unclear> de sacramentis</p>
+          naturaliter compossibiles. Et ita arguam de aliis qualitatibus. Igitur, si non sit ista 
+          res quam intendo probare, oportet ponere istam incompossibilitatem per substantiam 
+          ibi, et hoc est contra illud quod tenemus de sacramentis.</p>
         
-        <p>Item substantia panis color 
-          et sapor et huiusmodi <corr><del rend="expunctuated">fi</del></corr> sunt per causas naturales compossibilia in eodeum situ  
-          sed hoc non  si quod licet istorum esset quantitas una igitur etc</p>
+        <p>Item, substantia panis color 
+          et sapor et 
+          <app>
+            <lem>huiusmodi</lem> 
+            <rdg wit="#S" type="corrDeletion">
+              <corr>
+                <del rend="expunctuated">fi</del>
+              </corr>
+            </rdg>
+          </app> 
+          sunt per causas naturales compossibilia in eodem situ,  
+          sed hoc non si quodlibet istorum esset quantitas una, igitur etc.</p>
         
         <p>Dices 
           forte quod plura eiusdem rationis in talibus distincta situ saltem non sunt 
-          compossibilia in eodem situ sed satis bene ita quae sutn alterius rationis multa 
-          saltem talia <corr><add place="marginCenter">sic</add></corr> compatiuntur se naturaliter sint dummodo educantur de eadem 
-          posita <unclear>substantia</unclear> eiusdem</p>
+          compossibilia in eodem situ, sed satis bene ita quae sunt alterius rationis multa 
+          saltem talia 
+          <app>
+            <lem>sic</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginCenter">sic</add>
+              </corr>
+            </rdg>
+          </app> 
+          compatiuntur se naturaliter sint dummodo educantur de eadem 
+          posita <unclear>substantia</unclear> eiusdem.</p>
         
-        <p>Contra si albedo in eucharistia sit una talis res quae habet 
+        <p>Contra: si albedo in eucharistia sit una talis res quae habet 
           naturalem incompossibilitatem coexistendi creatis corporalibus vel qualitatibus non eductis 
-          de eadem potentia <unclear>subiecti</unclear> vel nisi unum istorum respectu alterius sit subiectum tunc 
-          volo quod deus ponat aliam substantiam panis sine talibus accidentibus 
-          communibus et quaero an ista habeat naturalem incompossibilitatem ut per causam naturalem 
-          fiat in eodem situ cum illis accidentibus separatis  aut non  
-          si sic igitur et substantia panis quae praefuit habuit talem incompossibilitatem essendi 
-          cum eis quia incompossibilitas huius est passio specifica et ideo si <unclear>convenit</unclear> 
+          de eadem potentia <unclear>subiecti</unclear> vel nisi unum istorum respectu alterius sit subiectum, tunc 
+          volo quod Deus ponat aliam substantiam panis sine talibus accidentibus 
+          communibus, et quaero an ista habeat naturalem incompossibilitatem, ut per causam naturalem 
+          fiat in eodem situ cum illis accidentibus separatis aut non.  
+          Si sic, igitur et substantia panis quae praefuit habuit talem incompossibilitatem essendi 
+          cum eis, quia incompossibilitas huius est passio specifica, et ideo si <unclear>convenit</unclear> 
           uni individuo et cuilibet alteri individuo eiusdem speciei saltem 
-          aeque intenso potest competere <corr><add place="marginRight">simile</add></corr> secundum regulam eorum Si non quaero ad hoc quod 
-          ista albedo sit in compossibilis naturaliter ad essendum cum ista substantia alia requiratur 
-          alia res et tunc cum nulla qualitas sufficiat nec substantia etc  igitiru hoc erit 
-          per potentiam aliquam rem quam ego voco quantitatem et hoc est propositum</p>
+          aeque intenso potest competere 
+          <app>
+            <lem>simile</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginRight">simile</add>
+              </corr>
+            </rdg>
+          </app> 
+          secundum regulam eorum. Si non quaero 
+          <app>
+            <lem>an</lem>
+            <rdg wit="#S">ad</rdg>
+          </app> 
+          <!-- another word might be added here from witness M -->
+          hoc quod 
+          ista albedo sit incompossibilis naturaliter ad essendum cum ista substantia alia requiratur 
+          alia res et tunc cum nulla qualitas sufficiat nec substantia etc. Igitur hoc erit 
+          per potentiam aliquam rem quam ego voco quantitatem et hoc est propositum.</p>
         
-        <p>Item 
-          tam naturalis potest in eucharistia habere actionem et passionem ita quod alia corporea 
-          per qualitates possunt transire istas qualitates vel ibi producere novas quia 
+        <p>Item, 
+          tam naturalis potest in eucharistia habere actionem et passionem, ita quod alia corporea 
+          per qualitates possunt transire istas qualitates vel ibi producere novas, quia 
           hoc negare esset tollere omnem certitudinem possibile haberi per viam sensus in omni 
-          alia consimli transmutatione et per consequens hoc negare esset ministrare nisi 
-          delibet occasionem ne crederent quae tenemus circa hoc sacramentum igitur 
-          potest naturale agens ib producere novas qualitates et non <corr><add place="marginRight">sine</add></corr> <unclear>conreceptivo</unclear> 
-          ergo est ibi <unclear>subiectum</unclear> et non substantia nec qualitas igitur quantitas</p>
+          alia consimili transmutatione. Et per consequens hoc negare esset ministrare nisi 
+          delibet occasionem ne crederent quae tenemus circa hoc sacramentum. Igitur 
+          potest naturale agens ibi producere novas qualitates et non 
+          <app>
+            <lem>sine</lem>
+            <rdg>
+              <corr>
+                <add place="marginRight">sine</add>
+              </corr>
+            </rdg>
+          </app> 
+          <unclear cert="low">conreceptivo</unclear>, 
+          <cb ed="#M" n="215ra"/> 
+          ergo est ibi <unclear>subiectum</unclear> et non substantia nec qualitas, igitur quantitas.</p>
         
-        <p>dices 
-          forte quod qualitates quae ibi producuntur ad <unclear>pn?am</unclear> <unclear>act?m</unclear> naturalis non producuntur 
-          per agens naturale sed per deum immediate et miraculo 
-          se haec est opinio  <name ref="#Scotus">scoti</name> et Responsio eius libro 4 de illis qualitatibus quae requirunt 
+        <p>Dices 
+          forte quod qualitates quae ibi producuntur ad <unclear>praesentiam</unclear> <unclear>activi</unclear> naturalis non producuntur 
+          per agens naturale sed per Deum immediate et miraculose. Haec est 
+          <ref>
+            <seg>opinio <name ref="#Scotus">Scoti</name> et responsio eius libro IV</seg>
+            <bibl>Scotus, XXX</bibl>
+          </ref> 
+          de illis qualitatibus quae requirunt 
           condensationem et rarefactionem et maxime de formis substantialibus taliter 
-          prodictis ad praesentiam ignis vel alterius corrumpti unius alterius <unclear>al</unclear> 
-          hostiae non consecratae</p>
+          productis ad praesentiam ignis vel alterius corrumpti unius 
+          <app>
+            <lem>alterius</lem>
+            <rdg wit="#S" type="intextu">al</rdg>
+          </app>  
+          hostiae non consecratae.</p>
         
-        <p>contra quia hoc ministraret materiam erroris 
-          ut substantia nec certe potest dic quod sapore vel aliqua quantitas cum ad 
+        <p>Contra: quia hoc ministraret materiam erroris 
+          ut substantia nec certe potest dici quod sapor vel aliqua quantitas, cum ad 
           praesentia ignis calefaciunt species vini et calor <unclear>intenditur</unclear> recipiunt 
-          istos novos gradus caloris quia quomodocumque iste varientur potest ignes 
-          intendere calorem vel saltem potest fieri ad praesentiam ignis calor 
-          autem praetedens istos novos gradus <corr><add place="marginRight">non recipit</add></corr> cum sit eiusdem rationis 
-          cum eiusdem</p>
+          istos novos gradus caloris, quia quomodocumque istae varientur potest ignes 
+          intendere calorem vel saltem potest fieri ad praesentiam ignis. Calor 
+          autem praetendens istos novos gradus 
+          <app>
+            <lem>non recipit</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginRight">non recipit</add>
+              </corr>
+            </rdg>
+          </app> 
+          cum sit eiusdem rationis 
+          cum eiusdem.</p>
         
-        <p>Item si substantia corporis humani haberet naturalem incompossibilitatem ad 
-          extendum cum alio corpore per naturam propriam tunc corporis bonorum vel non 
+        <p>Item, si substantia corporis humani haberet naturalem incompossibilitatem ad 
+          extendendum cum alio corpore per naturam propriam, tunc corporis bonorum vel non 
           movebuntur aliis corporibus per quae transibunt non divisis vel violenter 
-          et contra naturalem inclinationem erunt <corr><add place="marginRight">cum</add></corr> aliis corporibus puta quando transibunt caelum 
-          et huiusmodi nec <corr><add place="aboveLine">est</add></corr> illud argumentum contra  me de quantitate <corr><del rend="underline">quia idem ista non movebit</del></corr> 
+          et contra naturalem inclinationem erunt 
+          <app>
+            <lem>cum</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginRight">cum</add>
+              </corr>
+            </rdg>
+          </app> 
+          aliis corporibus puta quando transibunt caelum 
+          et huiusmodi. Nec 
+          <app>
+            <lem>est</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="aboveLine">est</add>
+              </corr>
+            </rdg>
+          </app> 
+          illud argumentum contra me de 
+          <app>
+            <lem>quantitate</lem>
+            <rdg wit="#S" type="corrDeletion">
+              <corr>
+                <del rend="underline">quia idem ista non movebit</del>
+              </corr>
+            </rdg>
+          </app> 
           quia vel ista non manebit sed loco eius dabitur dos subtilitatis 
-          vel si sic hic erit aliter ut in 4o habet <unclear>d?i</unclear></p> 
+          vel si sic hic erit aliter ut 
+          <ref>
+            <seg>in quarto habet dici.</seg>
+            <bibl>cf. XXX</bibl>
+          </ref>
+        </p> 
         
-        <p>Item stant 
+        <p>Item, stant 
           simul quod substantia sit extensa sine omni accidente absoluto et tamen quod non habeat 
-          incompossibilitatem suarum partium existendi ex natura sua simul <corr><add place="marginRight">secundum istum</add></corr> situm igitur 
-          ex primo non contingit concludere quod substantia sit quaedam qualitas antecedens 
-          probo quia deus potest ferre  partes quantitatis factum vel et tamen habent naturalem 
-          incompossibilitatem ad essendum simul ergo econverso multo fortius potest ferre partes 
+          incompossibilitatem suarum partium existendi ex natura sua simul 
+          <app>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginRight">secundum istum</add>
+              </corr>
+            </rdg>
+          </app> 
+          situm. Igitur 
+          ex primo non contingit concludere quod substantia sit quaedam qualitas antecedens. 
+          Probo, <!-- what distinguishes this from early instancs of "probatio, quia" --> quia Deus potest ferre partes quantitatis factum vel, et tamen habent naturalem 
+          incompossibilitatem ad essendum simul. Ergo econverso multo fortius potest facere partes 
           distare substantiae secundum situm sine omni accidente absolute et si non habeat 
           naturalem incompossibilitatem habendi partes in eodem situ per causas naturales per 
-          incompossibilitatem intrinsecam ad hic Confirmatur quia posset evadere per connotiones 
+          incompossibilitatem intrinsecam ad hic. Confirmatur quia posset evadere per connotationes 
           non debet aliquem movere ad negandum quantitatem realiter distinctam 
-          a substantiis omnibus et qualitatibus <corr><add place="marginBottom">quia sit multa posset alia teneir inconvenientia</add></corr></p>
+          a substantiis omnibus et qualitatibus 
+          <app>
+            <lem>quia si multa posset alia teneri inconvenientia.</lem>
+            <rdg>
+              <corr>
+                <add place="marginBottom">quia sic multa posset alia teneri inconvenientia</add>
+              </corr>
+            </rdg>
+          </app>
+        </p>
         
-        <p>Praeterea accipio propositionem convertibilem cum 
-          illis connotationibus sicut substantia habet partem extra partem ex incompossibilitate 
-          intrinseca et propria habendi partes in eodem situ haec videretur non ex natura 
-          substantiae quia ex natura substantiae haec non competit sibi quia tunc violentaretur quando esset 
-          <cb ed="#S" n="171ra"/>simul cum alia substantia in beatis et tunc etiam ex natura substantiae esset sibi incompossibilis omnis quantitas 
-          qui ex quo quantitas eiusdem rationis multo fortius alterius rationis nec hoc 
-          est ex natura qualitatis ut supra argumentum est in 3a ratione igitur per aliud et illud voco 
-          quantitatem</p>
+        <p>Praeterea, accipio propositionem convertibilem cum 
+          illis connotationibus, sicut <mentioned>substantia habet partem extra partem ex incompossibilitate 
+          intrinseca et propria habendi partes in eodem situ</mentioned>. Haec videretur non ex natura 
+          substantiae, quia ex natura substantiae haec non competit sibi, quia tunc violentaretur quando esset 
+          <cb ed="#S" n="171ra"/> 
+          simul cum alia substantia in beatis et tunc etiam ex natura substantiae esset sibi incompossibilis omnis quantitas 
+          qui ex quo quantitas eiusdem rationis multo fortius alterius rationis. Nec hoc 
+          est ex natura qualitatis ut 
+          <ref>
+            <seg>supra argumentum est in tertia,</seg>
+            <bibl>Vide supra, XXX</bibl>
+          </ref> 
+          ratione igitur per aliud. Et illud voco 
+          quantitatem.</p>
         
-        <p>praeterea per argumentum saepe factum <corr><add place="marginLeft">sicut</add></corr> impossibile est quod idem sit individuum praedicati 
-          substantiae et quantitatis ita inpossibile est quod idem sit individuum substantiae et qualitatis quia si quantitas 
-          sit essentiale praedicatum istius rei <unclear>ita</unclear> inquit et per se convenit ei quod aeque inpossibile 
-          erit quod existat res ista et tamen quod non sit quantitas sicut de qualibet substantia quod 
-          existat et tamen quod non sit substantia</p>
+        <p>Praeterea, per argumentum saepe factum: 
+          <app>
+            <lem>sicut</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginLeft">sicut</add>
+              </corr>
+            </rdg>
+          </app> 
+          impossibile est quod idem sit individuum praedicati 
+          substantiae et quantitatis, ita impossibile est quod idem sit individuum substantiae et qualitatis, quia si quantitas 
+          sit essentiale praedicatum istius rei ita inquit et per se convenit ei quod aeque impossibile 
+          erit quod existat res ista, et tamen quod non sit quantitas, sicut de qualibet substantia quod 
+          existat, et tamen quod non sit substantia.</p>
         
-        <p>Sed istis non obstantibus dico idem 
-          quod prius scilicet quod quantitas non est res distincta a partibus substantiae et qualitatis 
-          quia nihil potest esse quantum sine quantitate sed omni tali quod poneretur quantitas substantiae inhaerens 
-          circumscripto omni alio potest substantia corporea esse quanta quia sine omni 
+        <p>Sed istis non obstantibus, dico idem 
+          quod prius, scilicet quod quantitas non est res distincta a partibus substantiae et qualitatis, 
+          quia nihil potest esse quantum sine quantitate, sed omni tali quod poneretur quantitas substantiae inhaerens 
+          circumscripto omni alio potest substantia corporea esse quanta, quia sine omni 
           tali potest habere partem extra partem et extendi et esse longa lata et 
-          profunda et <unclear>esse</unclear> circumscriptive in loco et per consequens sicut sufficienter probat <ref><name ref="#Ockham">hokam</name> 
-            in <title>reportatione</title> 4i questione 6</ref> et similiter <ref>in utroque tractatu de quantitate</ref> potissime 
+          profunda et <unclear>esse</unclear> circumscriptive in loco. Et per consequens, sicut sufficienter probat 
+          <ref><seg><name ref="#Ockham">Ockham</name> 
+            in <title>Reportatione</title> IV, questione 6</seg>
+            <bibl>Ockham, Reportatio, IV, q. 6</bibl>
+          </ref> 
+          et similiter 
+          <ref>
+            <seg>in utroque tractatu de quantitate</seg>
+            <bibl>Ockham, XXX</bibl>
+          </ref> 
+          potissime 
           per illud medium quod deus de potentia sua possit tenere res substantiae 
-          demonstratae in <unclear>soci?bus</unclear> in quibus sunt <corr><add place="marginLeft">sine</add></corr> omni motu et mutatione locali 
-          earumdem destruendo quodlibet tale accidens si poneretur igitur etc </p>
+          demonstratae in sitibus in quibus sunt 
+          <app>
+            <lem>sine</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add place="marginLeft">sine</add></corr>
+            </rdg>
+          </app> 
+          omni motu et mutatione locali 
+          earumdem destruendo quodlibet tale accidens si poneretur, igitur etc.</p>
         
-        <p>ad istud videtur respondere <ref><name ref="#Chaton">chaton</name> per diffinitionem positam in pede 
-          quaestionis suae</ref></p>
+        <p>Ad istud videtur respondere 
+          <ref>
+            <seg><name ref="#Chatton">Chatton</name> per diffinitionem positam in pede 
+              quaestionis suae.</seg>
+            <bibl>Chatton, XXX</bibl>
+          </ref>
+        </p>
         
-        <p>distinguo inquit de quantitate potest enim accipi vel 
+        <p>Distinguo, inquit, de quantitate potest enim accipi vel 
           pro isto quo posito hoc est magnum vel maius illo et extensum 
-          et habens partem <corr><del rend="expunctuated">partem</del></corr> extra partem et hoc in generali sive per mutuam 
-          incompossibilitatem ad simul essendum in eodem situ sive non</p>
+          et habens 
+          <app>
+            <lem>partem</lem>
+            <rdg wit="#S" type="corrDeletion">
+              <corr>
+                <del rend="expunctuated">partem</del>
+              </corr>
+            </rdg>
+          </app> 
+          extra partem et hoc in generali sive per mutuam 
+          incompossibilitatem ad simul essendum in eodem situ sive non.</p>
         
         <p>Et in 
-          hoc sensu inquit concedo conclusionem quod scilicet omnis res extensa est quanta per 
+          hoc sensu, inquit, concedo conclusionem quod scilicet omnis res extensa est quanta per 
           seipsam et partes suas et esse posset quanta et extensa omni alio amoto 
-          vel accidente circumscripto</p>
+          vel accidente circumscripto.</p>
         
-        <p>alio modo sumi potest quod una res quae de 
-          acto habet naturalem inclinationem vel incompossibilitatem coexistendi tum 
-          alia in eodem situ adaequato et hoc ex natura sua propria Et isto modo 
-          nec substantia extensa nec qualitas aliqua <corr><add place="marginLeft">et quanta</add></corr> talis enim incompossibilitas ad 
-          coexistendum vel coessendum cum aliis situaliter non <unclear>convenit</unclear> ei cirumscripto <corr><add place="marginCenter">omni alio</add> 
-          <add place="marginLeft">accidente</add></corr> <unclear>absoluto</unclear></p>
+        <p>Alio modo sumi potest quod una res quae de 
+          facto habet naturalem inclinationem vel incompossibilitatem coexistendi cum 
+          alia in eodem situ adaequato et hoc ex natura sua propria. Et isto modo 
+          nec substantia extensa nec qualitas aliqua 
+          <app>
+            <lem>est quanta.</lem>
+            <rdg>
+              <corr>
+                <add place="marginLeft">est quanta</add>
+              </corr>
+            </rdg>
+          </app> 
+          Talis enim incompossibilitas ad 
+          coexistendum vel coessendum cum aliis situaliter non <unclear>convenit</unclear> ei circumscripto 
+          <app>
+            <lem>omni alio accidente</lem>
+            <rdg wit="#S" type="corrAddition">
+              <corr>
+                <add>omni alio accidente</add>
+              </corr>
+            </rdg>
+          </app> 
+          <unclear>absoluto</unclear>.</p>
         
-        <p>Et si dicas non repugnat secundum te <name ref="#Chatton">chatton</name> partes quantitatis 
-          esse simul secunum situm cum deus posset ferre partes quantitatis simul</p>
+        <p>Et si dicas: non repugnat, secundum te <name ref="#Chatton">Chatton</name>, partes quantitatis 
+          esse simul secundum situm, cum Deus posset ferre partes quantitatis simul. Concedo, inquit 
+          iste, sed tamen quando placeret Deo relinquere quantitatem naturae suae expelleret 
+          se mutuo.</p>
         
-        <p>Concedendo inquit 
-          iste sed tamen quando placeret deo relinquere quantitatem naturae suae expelleret 
-          se mutuo et ideo cum dicis quod substantia posset esse quanta sine quantitate 
-          <unclear>Responde</unclear> inquit quid intelligis per esse quantum si habere talem incompossibilitatem nego 
-          si habere partem extra partem concedo et quod de facto sit esse possit quantum vel 
-          magnum vel parvum et omnia huiusmodi sed non haberet aliquid in se quare si una pars 
+          <p>Et ideo cum dicis quod substantia posset esse quanta sine quantitate 
+          respondeo, inquit, quid intelligis per esse quantum? Si habere talem incompossibilitatem, nego. 
+          Si habere partem extra partem, concedo et quod de facto sit esse possit quantum vel 
+          magnum vel parvum et omnia huiusmodi, sed non haberet aliquid in se quare si una pars 
           moveretur ad aliam vel ad alia corpora inquam non possent se compati 
-          in eodem situ per causas naturales Et ideo cum experiamur quod unum corpus 
-          expellit aliud oportet ibi ponere aliquam causam naturalem incompossibilitatis eorum in eodem 
-          situ et non substantiam nec <corr><del rend="expunctuated">quantitatem</del> <add place="inline">qualitatem</add></corr> igitur etc</p>
+          in eodem situ per causas naturales. Et ideo cum experiamur quod unum corpus 
+          expellit aliud, oportet ibi ponere aliquam causam naturalem incompossibilitatis eorum in eodem 
+          situ, et non substantiam nec 
+            <app>
+              <lem>qualitatem,</lem>
+              <rdg wit="#S" type="corrReplace">
+                <corr>
+                  <del rend="expunctuated">quantitatem</del> <add place="inline">qualitatem</add>
+                </corr>
+              </rdg>
+            </app> igitur etc.</p>
         
         <p>Et si quaeras ab 
           eo utrum quantitas quam ponit sit passio substantiae corporeae compossibilitate ita quod partes 
           talis substantiae <unclear>praecedant</unclear> partes quantitatis cum oporteat ponere partes quantitatis 
-          actualiter extensas in partibus subiecti distinctis</p>
+          actualiter extensas in partibus subiecti distinctis.</p>
         
         <p>Respondet quod partes substantiae 
-          compositae ex materia et forma non praecedunt duratione <corr><add place="marginLeft">partes</add> <del rend="underline">per omnis</del></corr> <corr>quantitat<del>e</del><add place="aboveLine">i</add>s</corr> 
-          quia sicut volo in 4o dicere inquit quantitas est passio materiae et 
-          coaeva sibi et non passio totius <unclear>passio <!-- possibly corrected to primo --></unclear> Et si dicas partes substantiae quo <!-- possible correction or addition here --> 
-          <unclear>nichil <!-- possibily corrected --></unclear> quibus distant  dico inquam quod distant semet ipsis 
-          de facto et etiam pro quantitatione sed aliter immo iam praetacto</p>
+          compositae ex materia et forma non praecedunt duratione 
+          <app>
+            <lem>partes</lem>
+            <rdg wit="#S" type="corrReplace">
+              <corr>
+                <add place="marginLeft">partes</add> 
+                <del rend="underline">per omnis</del>
+              </corr>
+            </rdg>
+          </app> 
+          <app>
+            <lem>quantitatis,</lem>
+            <rdg wit="#S" type="corrReplace">
+              <corr>
+                <del>quantitates</del>
+                <add>quantitatis</add>
+              </corr>
+            </rdg>
+          </app> 
+          quia sicut volo in quarto dicere, inquit, quantitas est passio materiae et 
+          coaeva sibi et non passio totius 
+          <app>
+            <lem>primo.</lem>
+            <rdg wit="#S" type="corrReplace">
+              <corr>
+                <del>passio</del>
+                <add>primo</add>
+              </corr>
+            </rdg>
+           </app>
+        </p>
+          <p>Et si dicas partes substantiae quo  
+            <unclear>nihil</unclear> quibus distant, dico, inquit, quod distant semet ipsis 
+            de facto et etiam per quantitatem sed aliter immo iam praetacto.</p>
         
         <p>Et si quaeras ab 
           eo ex quo quantitas secundum eum potest esse tota in toto alio loco et tota in 
-          qualibet parte eius quomodo sit ordo partium in toto quae est differentia quantitatis 
-          sine ordine partium in loco</p>
+          qualibet parte eius, quomodo sit ordo partium in toto quae est differentia quantitatis 
+          sine ordine partium in loco?</p>
         
-        <p>dico inquit quod per ordinem partium in 
+        <p>Dico, inquit, quod per ordinem partium in 
           toto quae est differentia quantitatis non intelligo nisi quantitatem esse in toto et addit 
           de corporibus beatorum quod non ponit in eis quantitatem unitate differentiam cum 
-          quantitate corruptibilium corporalium quia talem <unclear>inquit</unclear> rem non pono ibi per 
+          quantitate corruptibilium corporalium, quia talem, <unclear>inquit</unclear>, rem non pono ibi per 
           quam corpus illud habeat incompossibilitatem naturalem ad simul essendum situ 
-          aliter cum alio corpore quia tunc violentaretur quando fieret cum alio corpore</p>
+          aliter cum alio corpore quia tunc violentaretur quando fieret cum alio corpore.</p>
         
-        <p>dico 
-          igitur inquit quod vel habebunt decem subtilitatis loco quantitatis vel qualitatem 
-          alterius rationis et secundum hoc in corporibus beatorum erit ordo partium 
-          quid inquam ordo ubicumque sic non est nisi quantitas vel aliquid loco quantitatis 
-          de hoc dicit iste in fine suae quaestionis quod non erit ibi talis 
-          <unclear>g?officies</unclear> id est dico inquit ergo eadem quantitas</p>
+        <p>Dico 
+          igitur, inquit, quod vel habebunt dotum subtilitatis loco quantitatis vel qualitatem 
+          alterius rationis. Et secundum hoc in corporibus beatorum erit ordo partium, 
+          qui inquam ordo ubicumque sit non est nisi quantitas vel aliquid loco quantitatis. 
+          De hoc dicit iste in fine suae quaestionis quod non erit ibi talis 
+          grossities, id est, dico, inquit, ergo eadem quantitas.</p>
         
-        <p>vel aliter inquit 
+        <p>Vel aliter inquit 
           dico quod qui ponit ibi manere eandem quantitatem habet dicere quod a deo 
-          praeservatur ab actione qua non compatitur secum per nullam aliud corpus et talis 
+          praeservatur ab actione qua non compatitur secum per nullam aliud corpus. Et talis 
           habet dicere quod non est inconveniens quod illud accidens violentaretur sed de substantia esset 
-          magnum inconveniens</p>
+          magnum inconveniens.</p>
         
         <p>Dices in condensatione corporis minoratur quantitas 
-          eius et in rarefactione augetur igitur si quantitas sit res distincta etc 
+          eius et in rarefactione augetur. Igitur si quantitas sit res distincta etc., 
           oportet ibi ponere aliquam novam quantitatem et natura plus in una parte 
-          <cb ed="#S" n="171rb"/>quam in alia et fit rarefactio uniformis igitur in qualibet vel in nulla</p>
+          <cb ed="#S" n="171rb"/> 
+          quam in alia et fit rarefactio uniformis, igitur in qualibet vel in nulla.</p>
         
-        <p>ad 
-          istud respondet non pono inquit novam quantitatem fieri nisi quando materia nova 
-          additur quia pono quod quantitas est primo passio materiae</p>
+        <p>Ad 
+          istud respondet: non pono, inquit, novam quantitatem fieri nisi quando materia nova 
+          additur, quia pono quod quantitas est primo passio materiae.</p>
         
-        <p>Et si dicas hoc 
-          est maius quam prius ergo habet maneret quantitatem dico inquit non habet maiorem 
-          quantitatem id est maiorem incompossibilitatem essendi simul cum aliis situaliter 
-          bene tamen est maius id est extensius</p>
+        <p>Et si dicas: hoc 
+          est maius quam prius, ergo habet maneret quantitatem, dico, inquit, non habet maiorem 
+          quantitatem, id est, maiorem incompossibilitatem essendi simul cum aliis situaliter, 
+          bene tamen est maius, id est extensius.</p>
         
-        <p>dices in alteratione et generatione 
-          variatur quantitas ergo et omnia accidentia quae tu ponis recipi in quantitate 
+        <p>Dices in alteratione et generatione 
+          variatur quantitas, ergo et omnia accidentia quae tu ponis recipi in quantitate, 
           et ita etiam alteratis speciebus sacramentalibus nihil remanebit illud et istam 
-          alterationem ponis naturaliter posse <corr><del rend="underline">etc</del></corr> fieri ergo etc</p>
+          alterationem ponis naturaliter 
+          <app>
+            <lem>posse</lem>
+            <rdg wit="#S" type="corrReplace">
+              <corr>
+                <del rend="underline">etc</del>
+              </corr>
+            </rdg>
+          </app> 
+          fieri, ergo etc.</p>
         
         <p>Et pro hac tam ponit 
           <unclear>pe auris</unclear> quod qualitates eucharistiae non sunt subiective in quantitate sed potius 
-          econverso</p>
+          econverso.</p>
         
-        <p>dico inquit quod antecedens non est verum quia quantitas manet 
-          in generato et corrumpto dummodo materia sit eadem haec sunt rationes et 
-          evasiones <name>istius magistri</name> <unclear>collte</unclear> ex tota sua quaestione</p>
+        <p>Dico, inquit, quod antecedens non est verum, quia quantitas manet 
+          in generato et corrumpto dummodo materia sit eadem.</p> 
+          
+       <p>Haec sunt rationes et 
+          evasiones <name ref="#Chatton">istius magistri</name> collate ex tota sua quaestione.</p>
         </div>
         <div>
           <head>
