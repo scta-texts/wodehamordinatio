@@ -70,7 +70,12 @@
             <supplied>Rationes principales</supplied>
           </head>
           <p xml:id="b4q5-d1e3486">Quod sic videtur per argumenta <name>cuiusdam doctoris</name> alias facta contra me, 
-            quia sic se habet quantitas continua permanens ad <unclear>subiectam <!-- could be substantiam --></unclear> sicut successiva 
+            quia sic se habet quantitas continua permanens ad substantiam sicut 
+            <app>
+              <lem wit="#M">quantitas</lem>
+              <rdg wit="#S" type="om."/>
+            </app> 
+            successiva 
             ad motum et econverso. Sed quantitas successiva est totaliter alia res a 
             motu, quia est terminus motus augmenti vel decrementi vel est substantiam eius vel 
             mensura eius. Ergo et quantitas continua permanens est alia res a substantia.</p>
@@ -94,8 +99,12 @@
           </head>
           <p xml:id="b4q5-d1e3559">In ista quaestione primo respondebo ad 
             titulum quaestionis et ad rationes principales. Secundo, ponam <name>magistri praedicti</name> contra 
-            meas responsiones argumenta sua reducentes positionem meam impugnantes. 
-            Tertio, recitabo rationes aliarum opinionum et respondebo ad 
+            meas responsiones argumenta sua reducentes et positionem meam impugnantes. 
+            <app>
+              <lem wit="#S">Tertio,</lem>
+              <rdg wit="#M">Secundo,</rdg>
+            </app> 
+            recitabo rationes aliarum opinionum et respondebo ad 
             istas. Quarto, ponam obiectiones aliquas contra me sigillatim oppositas et solvam 
             eas. Quinto, ponam rationes <name ref="#Chatton">Gualteri</name> quibus arguit contra me quantitatem esse 
             distinctam a substantia et qualitatibus. Sexto, inpugnabo opinionem <name ref="#Chatton">illius</name>. Septimo, respondebo 
@@ -137,9 +146,13 @@
                 </corr>
               </rdg>
             </app>
-            est ipse partes 
+            est ipsae partes 
             <cb ed="#S" n="168va"/> 
-            continuatae in toto et istae eadem partes si discontinuentur fit quantitas discreta. 
+            <unclear>continuae <!-- possible corrected in S --></unclear> in toto et istae eaedem partes, si discontinuentur, 
+            <app>
+              <lem wit="#M">fiunt</lem>
+              <rdg wit="#S">fit</rdg>
+            </app> quantitas discreta. 
             Hanc 
             <app>
               <lem>viam</lem>
@@ -154,7 +167,17 @@
             et qualitatem, licet non ex scientia procedat talis calumnia.</p>
         
           <p xml:id="b4q5-d1e3668">Quod autem non distinguatur 
-            ab ipsis et a partibus earum alias tractabitur forte 
+            ab 
+            <cb ed="#M" n="212ra"/> ipsis 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#M" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">et</add>
+                </corr>
+              </rdg>
+            </app> 
+            a partibus earum alias tractabitur forte 
             <app>
               <lem>et</lem>
               <rdg wit="#S" type="corrAddition">
@@ -168,7 +191,7 @@
               <seg>in quaestione speciali</seg>
               <bibl>XXX, quaestio specialis, XXX</bibl>
             </ref> 
-            quamvis non hic oporteat, quia <name ref="#Ockham">Ockham</name> satis probat hanc conclusione in 
+            quamvis non hic oporteat, quia <name ref="#Ockham">Ockham</name> satis probat hanc conclusionem in 
             <ref>
               <seg>tractatu super hoc</seg>
               <bibl>Ockham, XXX</bibl>
@@ -218,7 +241,7 @@
                 </corr>
               </rdg>
             </app> 
-            non conveniret eis <unclear>univoce <!-- unitate --></unclear> 
+            non conveniret eis <unclear>univoce</unclear> 
             et per consequens non esset genus earum, contra 
             <ref>
               <seg><name ref="#Aristotle">Philosophum</name> in <title ref="#Categories">Praedicamentis</title></seg>
@@ -299,8 +322,12 @@
                 <add>modus</add></corr>
             </rdg>
           </app> 
-          non arguit discontinuationem realem. Vel est mensura et 
-          iste modus bene arguit discontinuationem realem quantitatis successivae a toto cuius 
+          non arguit discontinuationem realem. 
+            <app>
+              <lem>Vel est mensura et iste modus bene arguit discontinuationem realem</lem>
+              <rdg wit="#M" type="om." cause="homeoteleuton"/>
+            </app> 
+            quantitatis successivae a toto cuius 
           est primo, non autem a partibus illius. Bene tamen per tempus ipsum distinguitur a multis 
           motibus et a partibus eorum.</p>
         
