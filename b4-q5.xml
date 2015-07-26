@@ -452,10 +452,10 @@
         
           <p xml:id="b4q5-d1e4025">Item, contra maiorem dicentem quod omnis substantia 
           <app>
-            <lem>nihil qualitas</lem>
+            <lem>vel qualitas</lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
-                <add place="marginCenter">nihil qualitas</add>
+                <add place="marginCenter">vel qualitas</add>
               </corr>
             </rdg>
           </app> 
@@ -478,22 +478,22 @@
               </corr>
             </rdg>
           </app> 
-          una univoce <!-- unitate --> totius ut dicitur realiter a 
-          suis partibus, aut de univocibus <!-- unitatibus --> partium. 
+          una <unclear>unitate</unclear> totius ut distinguitur realiter a 
+          suis partibus, aut de <unclear>unitatibus</unclear> partium. 
           <app>
-            <lem>Si de univocibus <!-- unitatibus --></lem>
+            <lem>Si de <unclear>unitatibus</unclear></lem>
             <rdg wit="#S" type="corrAddition">
               <corr>
-                <add place="marginLeft">si de <unclear>univocibus <!-- unitatibus --></unclear></add>
+                <add place="marginLeft">si de <unclear>unitatibus</unclear></add>
               </corr>
             </rdg>
           </app> 
           partium, cum illae <unclear>sunt <!-- possibly corrected in S --></unclear> realiter plures, 
           omnis substantia vel qualitas primo una realiter esset, primo plures realiter, quod est contra 
-          positionem et contra maiorem. Si sint vere vera unitate reali totius ut 
-          totum distinguitur a partibus, ergo ponitur secundo in praemissa.</p>
+          positum et contra maiorem. Si sint vere una unitate reali totius ut 
+          totum distinguitur a partibus, ergo ponitur converso in praemissa.</p>
         
-          <p xml:id="b4q5-d1e4078">Item, contra illud quod dicitur quod aliter qualitas non diceretur <unclear>univoce <!-- unitate --></unclear> de continua et discreta.</p>
+          <p xml:id="b4q5-d1e4078">Item, contra illud quod dicitur quod aliter qualitas non diceretur <unclear>unitate</unclear> de continua et discreta.</p>
         
           <p xml:id="b4q5-d1e4089">Contra: quaecumque 
           species determinatae continentur per se sub genere, sicut per se conveniunt in ratione 
@@ -508,7 +508,7 @@
           <p xml:id="b4q5-d1e4117">Contra: nulla res distinguitur realiter a quantitate nisi sit res alia a 
           quantitate, quia non distinguitur ab aliquo ut res a re per hoc quod nihil 
           est in re vel penitus idem realiter alteri rei. Ergo si figura non addat 
-          rem super quantitas, igitur nullo modo distinguitur a quantitate.</p>
+          rem super quantitatem, igitur nullo modo distinguitur a quantitate.</p>
         
           <p xml:id="b4q5-d1e4138">Contra responsionem ad secundum cum dicitur quod substantia nata 
           <app>
@@ -592,7 +592,7 @@
               </corr>
             </rdg>
           </app> 
-          illa infert quod vi essent 
+          illa infert quod sex essent 
           <app>
             <lem>tria</lem>
             <rdg wit="#S" type="corrDeletion">
@@ -611,7 +611,7 @@
             <seg><name ref="#Averroes">commentator</name></seg>
             <bibl>Averroes, XXX</bibl>
           </ref> 
-          dicunt, ut aestimo, quod semel vi non sunt sex unitates, <!-- all univoces above need to be check and likely changed to unitates --> 
+          dicunt, ut aestimo, quod semel sex non sunt sex unitates, <!-- all univoces above need to be check and likely changed to unitates --> 
           quia falsum differunt ad proprietatem sermonis, vel etiam diffinitive loquendo, 
           quia si sint sex quae sex non erit 
           <app>
@@ -719,7 +719,7 @@
         
           <p xml:id="b4q5-d1e4423">Ad octavum verum 
           est quod omnis quantitas est accidens substantiae vel qualitati vel substantiis vel qualitatibus 
-          ad intellectum superius datum in responsione ad prima obiectionem. 
+          ad intellectum superius datum in responsione ad primam obiectionem. 
           Sed cum hoc stat quod aliqua sit essentialis, aliqua accidentalis substantiae. Et tamen probatur 
           quod nulla est ei essentialis quia substantia eadem manente potest esse nunc maior 
           nunc minor.</p>
@@ -766,9 +766,18 @@
           
           <p xml:id="b4q5-d1e4536">Item, si ratione quantitatis 
           distinctae a substantia et qualitatibus et partibus earum, habetur intentum quod quantitas 
-          sit alia res tam a partibus substantiae quam qualitatibus. Non potest dici 
+          sit alia res tam a partibus substantiae quam 
+            <app>
+              <lem wit="#M">qualitatis</lem>
+              <rdg wit="#S">qualitatibus</rdg>
+            </app> 
+          <app>
+            <lem wit="#M">distincta</lem>
+            <rdg wit="#S" type="om."/>
+          </app>  
+          Non potest dici 
           quod ratione partium qualitatis, quia tales possunt naturaliter fieri in eodem situ adaequato 
-          per intentionem talis formae.</p>
+          per intensionem talis formae.</p>
         
           <p xml:id="b4q5-d1e4550">Item, quodlibet continuum est vere unum. 
           Sed aliquod continuum est quantitas continua. Ergo aliqua quantitas vel magnitudo est vere 
@@ -869,10 +878,15 @@
             <lem wit="#M">rarefaciat</lem>
             <rdg wit="#S">rarefafiat</rdg>
           </app> 
-          Deus a pedale. Quo facto erit transitus a contradictorio in contradictorium sine aliquam 
+          Deus a pedale. Quo facto erit transitus a contradictorio in contradictorium sine aliqua 
           tuarum causarum. Constat enim quod nulla ibi sufficeret nisi motus vel mutatio 
           localis et ista non est ibi quia nec <c>a</c> nec aliqua pars <c>a</c> fit modo ubi non 
-          erat. Et per consequens nullum locum acquirit ibi et ista non localiter mutatur.</p>
+          erat. Et per consequens nullum locum acquirit ibi et ista non 
+            <app>
+              <lem wit="#S">localiter</lem>
+              <rdg wit="#M">totaliter</rdg>
+            </app> 
+            mutatur.</p>
         
           <p xml:id="b4q5-d1e4791">Item
           ad idem, aliquid potest nunc esse ab aliquo et immediate non esse ab ipso sine 
@@ -1177,7 +1191,7 @@
               </corr>
             </rdg>
           </app> 
-          quod prius non egit nec <unclear>attemptaret</unclear> 
+          quod prius non egit nec attemptaret 
           quod prius attemptavit et similia, ita quod sit quies ab omni tali alienate, 
           tunc omnia essent vera ut prius. Alioquin etiam apud philosophum <!-- i don't think this refers to Aristotle --> caperet contra <unclear>inni?cis</unclear> 
           instantiam et multo fortius in istis et in multis aliis casibus apud 
@@ -1185,9 +1199,9 @@
             <lem>theologum.</lem>
             <rdg wit="#S">theologos</rdg>
           </app> 
-          Nam dato quod rex ordinaret quod minimus <unclear>argentenus</unclear> cessaret 
-          esse partium ex tunc minimus <unclear>argentenus</unclear> non esset partium etiam omnibus 
-          <unclear>quiestentibus</unclear> et <unclear>praetio</unclear> et <unclear>praetiato</unclear>.</p>
+          Nam dato quod rex ordinaret quod minimus <unclear>argenteus</unclear> cessaret 
+          esse praetium ex tunc minimus <unclear>argenteus</unclear> non esset praetium etiam omnibus 
+          quiescentibus et <unclear>praetio</unclear> et <unclear>praetiato</unclear>.</p>
         
           <p xml:id="b4q5-d1e5469">Similiter si rex ordinaret quod quilibet inventus 
           in <unclear>camera</unclear> 
@@ -1200,11 +1214,11 @@
             </rdg>
           </app> 
           meridiei puniretur morte, eo ipso nulla facta 
-          novitate praeter solum transitu temporis ille qui ibi fuit prius et post uniformiter 
+          novitate praeter solum transitum temporis ille qui ibi fuit prius et post uniformiter 
           in ea se habens ex tunc esset dignus morte et prius non.</p>
         
           <p xml:id="b4q5-d1e5489">Item si 
-          rex ordinaret quod circumque in carcerato propter ipsum claudatur hostium 
+          rex ordinaret quod circumque incarcerato propter ipsum claudatur hostium 
           carceris donec ibi compleat tempus taxatum a rege  et 
           ponat duos simul in carcere de quorum uno <unclear>donec</unclear> stet ibi per 
           annum et de alio quod per mensem usque ad finem mensis omnibus uniformaliter 
@@ -1270,8 +1284,7 @@
           ab extrinseco. 
           <cb ed="#M" n="213rb"/> 
           Sed ubi est denominatio formalis et ab intrinseco, videtur talis 
-          transitus omnino impossibilis sine aliqua causa concurrente utpote de non 
-          intelligente intellectus de non <unclear>albedo albus</unclear> et sit de similibus.</p>
+          transitus omnino impossibilis sine aliqua causa concurrente utpote de non-intelligente intellectus de non-albo albus, et sic de similibus.</p>
           
         
           <p xml:id="b4q5-d1e5635">
@@ -1311,11 +1324,11 @@
               </corr>
             </rdg>
           </app> 
-          tum angelus primo producitur tunc terminatur et non conservatur et immediate 
-          post conservatur et non terminatur.</p>
+          cum angelus primo producitur tunc creatur et non conservatur et immediate 
+          post conservatur et non creatur.</p>
         
           <p xml:id="b4q5-d1e5703">Aliquando vero transitus cum quibuscumque etiam incomplexe 
-          significantibus solum uniformaliter manentibus non sufficit, sic quod transitu terminis 
+          significantibus solum uniformiter manentibus non sufficit, sic quod transitu temporis 
           posito transeatur a contradictorio in contradictorium, sicut patet in exemplis propositis 
           in 4, 5, et 6. In illis enim licet Deus de facto sic vel sic ordinavit fore 
           et cum hoc quod sic ordinavit non stat transitus temporis quin transeatur 
@@ -1352,7 +1365,7 @@
               </corr>
             </rdg>
           </app> 
-          cadit directe super tempus. Et ideo dato quod deus sit ordinaret 
+          cadit directe super tempus. Et ideo dato quod deus sic ordinaret 
           et tempus transeat eo ipso transitur a veritate in falsitatem et econverso id est 
           a significabili sic vel sic.</p>
         
@@ -1363,7 +1376,7 @@
           </ref>
         </p>
         
-          <p xml:id="b4q5-d1e5773">Ad octavum antecedens verum est a hunc sensum tantum vel aequivalentem partes 
+          <p xml:id="b4q5-d1e5773">Ad octavum antecedens verum est ad hunc sensum tantum vel aequivalentem partes 
           se naturaliter praecedunt quantitatem vel partes quantitatis, id est prius naturaliter sunt partes 
           substantiae talis naturae, puta substantiae, quam quantitas sic vel partes quantitatis, quia prius natura 
           quam 
@@ -1453,7 +1466,7 @@
           </ref> 
           quod allegat <unclear cert="high">confirmatio</unclear> et esset consequenter respondendum sicut in 
           <ref>
-            <seg>tertio loquendum in prima distinctione questione 2</seg>
+            <seg>tertio Londoniensis, de prima distinctione, questione 2</seg>
             <bibl>Wodeham, XXX <!-- cross references --></bibl>
           </ref> 
           respondendo 
