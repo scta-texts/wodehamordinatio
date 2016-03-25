@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Librum III, Quaestio 1 [Sorbonne Transcription]</title>
+                <author xml:id="AW">Adam Wodeham</author>
+                <editor xml:id="AB">Andrew Belfield</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.0.0-dev">
+                    <title>Librum III, Quaestio 1 [Sorbonne Transcription]</title>
+                    <date when="2016-03-25">March 25, 2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LombardPress</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+                        Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2016-03-25">March 25, 2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="la">
+      <front>
+        <div xml:id="includeList">
+          <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+          <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+        </div>
+        <div type="startsOn">
+        	<cb ed="#S" n="124vb"/>      
+        </div>
+      </front>
+      <body>
+        <div xml:id="b3-q1">
+          <head>Librum III, quaestio 1</head>
+          <p><lb ed="#S"/>Circa <choice><orig>1m</orig><reg>primum</reg></choice> librum <choice><orig>3m</orig><reg>tertium</reg></choice> quia alias londoniensis toto anno pertrac<lb ed="#S"/>tavi 
+            quaestiones 13 primarum distinctionum ideo nunc incipio 
+            <lb ed="#S"/>a distinctione 14 in qua <name ref="#Lombard">magister</name> tractat de scientia animae 
+            <lb ed="#S"/>christi et eius potentia Et de eius scientia quaero primo et eadem forma 
+            <lb ed="#S"/>qua quaerit <name ref="#Lombard">magister</name> utrum anima christi habuerit et habeat sa<lb ed="#S"/>pientiam 
+            aequalem deo</p>
+        
+          <p>et videtur quod sic quia <pc ana="#punctus"/> anima christi habet sapientiam tantam 
+            <lb ed="#S"/>vel maiorem quantam deus et non maiorem constat igitur aequalem maior proba<lb ed="#S"/>bilis 
+            est quia anima christi ut videtur est sapiens duplici sapientia creata 
+            <lb ed="#S"/>scilicet et increata et iste dua <corr><del rend="expunctuated">nisi</del></corr> iunctae sunt tanta vel maior sapientia 
+            per aequivalentiam saltem sint est sapientia dei igitur etc</p>
+        	
+        	<p><pc ana="#pilcrow"/>assumptum de dup<lb ed="#S"/>lici 
+        		sapientia animae christi videtur patere per auctoritates sanctorum quas ponit 
+        		<lb ed="#S"/><ref><name>magister</name> distinctione 13 3ii aequibus in capitulo 4</ref> infert <name ref="#Lombard">magister</name> sic evidenter 
+        		<lb ed="#S"/><unclear>traditur</unclear> duos esse principales <unclear>sensus <!-- possible correction here --></unclear> <unclear>sive</unclear> <unclear>geniam</unclear> sapientiam nam iuxta naturas 
+        		<lb ed="#S"/>duas <sic>duas</sic> habet sapientias <pc ana="#punctus"/> unam creatam sed genitas <pc ana="#punctus"/> sine tempore 
+        		<lb ed="#S"/>alteram non genitam sed creatam et per gratiam tollatam ei haec ille <!-- end of lombard quote ? --> et per 
+        		<lb ed="#S"/>utramque istarum fuit anima christi sapiens ut videtur quia ideo per creatam 
+        		<lb ed="#S"/>quia illa fuit unita illie animae igitur et per increatam quia et illa fu<lb ed="#S"/>it 
+        		unita non minus perfecte illi animae vel ista sibi.</p>
+        </div>
+      </body>
+    </text>
+</TEI>
