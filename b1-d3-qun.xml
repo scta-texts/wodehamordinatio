@@ -62,7 +62,7 @@
     </front>
     <body>
       <div xml:id="b1-d3-qun">
-        <head subtype="title">Distinctio 3</head>
+        <head>Distinctio 3</head>
         <div>
           <head>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in rebus aliis 
             factis propter hominem est vestigium eiusdem Trinitatis</head>
@@ -149,15 +149,15 @@
                 verumtamen in imagine 
                 pertransit 
                 <app>
-                  <lem wit="#S #V #M">homo</lem>
-                  <rdg wit="#T" type="add.">sed etc.</rdg>  <!-- Check whether add = in textu ?-->
+                  <lem wit="#S #V #M #T">homo</lem>
+                  <rdg wit="#T" type="intextu">sed etc.</rdg>  <!-- Check whether add = intextu ?-->
                 </app>
               </quote>
               <bibl>Psalmus 38:7</bibl>
             </cit>,
             <app>
               <lem wit="#T #S">quia</lem>
-              <rdg wit="#M #V">quod</rdg> <!-- Double check -->
+              <rdg wit="#M #V">quod</rdg> <!-- Doublecheck -->
             </app> 
             haec imago ita deformis et obscura 
             facta est, ut 
@@ -172,27 +172,103 @@
               </rdg>
             </app>
             nulla sit. 
-            Ipsa autem mens humana secundum 
+            Ipsa 
+            <app>
+              <lem wit="#S #T #M">autem</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <add>autem</add>
+                  <del>quod</del>
+                </corr>
+              </rdg>
+            </app> 
+            mens humana secundum 
             substantiam suam integre manet, 
-            igitur secundum substantiam suam non est 
+            <app> <!-- Doublecheck the reading in #M -->
+              <lem wit="#S #T #V">igitur</lem>
+              <rdg wit="#M">cui</rdg>
+            </app>
+            secundum substantiam suam non est 
             imago Trinitatis.</p>
           
-          <p xml:id="b1d3qun-immnsm">Item, mens magis esset imago Dei quam homo, quia 
+          <p xml:id="b1d3qun-immnsm">Item,
+            <app>
+              <lem wit="#V">tunc</lem>
+              <rdg wit="#T #M #S" type="om."/>
+              <note xml:lang="en">We chose "tunc" here because we thought 
+                this to be the more explicit reading which most clearly 
+                communicates that this opening line is a consequence that 
+                follows an unstated "if"-clause.</note>
+            </app>
+            mens 
+            <app> <!-- Doublecheck #M -->
+              <lem wit="#V #T #S">magis</lem>
+              <rdg wit="#M">maius</rdg>
+            </app> 
+            esset imago 
+            <app> <!-- Doublecheck #T -->
+              <lem wit="#V #S #M">Dei</lem>
+              <rdg wit="#T" type="om."/>
+            </app> 
+            quam homo, quia 
             unumquodque propter quod et illud magis. 
-            Consequens falsum, quia homo magis est similis 
-            Deo quam mens, et exprimitur ab eo, igitur magis est eius imago. 
-            Haec consequentia patet per distinctionem imaginis quam ponit 
-            <ref>
-              <seg><name ref="#Augustine">Augustinus</name> <title ref="#deDiversisQuaestionibus">De 83 Questionibus</title>, questione 78,</seg>
-              <bibl><name>Augustinus</name>, <title>De diversis quaestionibus octingenta</title>, 
-                q. 74 (CCSL ?; PL 40:86), "ut in speculo est imago hominis, quia de illo expressa est."</bibl>
-            </ref> 
-            ubi dicit quod: imago est expressa similitudo illius 
-            cuius est imago. 
+            Consequens falsum
+            <app>
+              <lem wit="#M #T">est</lem>
+              <rdg wit="#S #V" type="om."/>
+            </app>, 
+            quia homo magis est similis 
+            Deo quam mens, et exprimitur ab eo, igitur
+            <app> <!-- Double check #M -->
+              <lem wit="#V #T #S">magis</lem>
+              <rdg wit="M">maius</rdg>
+            </app> 
+            est eius imago. 
+            <app>
+              <lem wit="#V #S #T">Haec</lem>
+              <rdg wit="#M" type="om."/>
+            </app> 
+            consequentia 
+            <app>
+              <lem wit="#V #S #M #T">patet</lem>
+              <rdg wit="#T" type="intextu">quia</rdg>
+            </app> 
+<!--        (Check out this way of encoding an inline added.)    
+            <app>
+              <lem wit="#V #S #M">patet</lem>
+              <rdg wit="#T" type="intextu">
+                patet 
+                <add>quia</add></rdg>
+            </app> -->
+            per 
+            <app> <!-- Doublecheck -->
+              <lem wit="#S #V">definitionem</lem>
+              <rdg wit="#T #M">distinctionem</rdg>
+            </app>
+            imaginis quam ponit 
+            <cit>
+              <ref corresp="#b1d3qun-Qieecei"><name ref="#Augustine">Augustinus</name> <title ref="#deDiversisQuaestionibus">De 83 Quaestionibus</title>, quaestione 
+                <app>
+                  <lem wit="#M #T #V">74</lem>
+                  <rdg wit="#S">78</rdg>
+                </app>,
+              </ref>
+              <bibl> <!-- This goes into app. fontium -->
+                <name ref="#Augustine">Augustinus</name>, 
+                <title ref="#deDiversisQuaestionibus">De diversis quaestionibus octingenta</title>, 
+                q. 74 (CCSL ?; PL 40:86), "ut in speculo est imago hominis, quia de illo expressa est."
+              </bibl>
+            </cit> 
+            ubi dicit quod 
+            <quote type="indirect" xml:id="b1d3qun-Qieecei">imago est expressa similitudo illius 
+              cuius est imago</quote>.
+            <!-- 15/06/2016 --> 
             Assumptum probatur, quia homo est ens nobilior quam mens 
             hominis, igitur est magis similis Deo. Consequentia patet per 
             <ref corresp="#b1d3qun-Qqicenp">
-              <name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monlogion</title> capitulo 81 et 66</ref>,
+              <name ref="#Anselm">Anselmum</name> 
+              <title ref="#Monologion">Monologion</title> capitulo 81 et 66
+            </ref>,
             ubi dicit <name ref="#Anselm">Anselmus</name> 
             <cit>
               <quote xml:id="b1d3qun-Qqicenp">
@@ -211,7 +287,8 @@
                 <name>Anselmus</name>, 
                 <title>Monologion</title>, 
                 c. 66 (Schmitt 1:77), 
-                "Quidquid enim inter creata constat illi esse similius, id necesse est esse natura praestantius."</bibl>
+                "Quidquid enim inter creata constat illi esse similius, id necesse est esse natura praestantius."
+              </bibl>
             </cit> 
             Assumptum probatur quia 
             <ref>
@@ -222,15 +299,18 @@
             <cit>
               <quote>felicitas connumerata cum minimo bonorum 
                 est eligibilior quam ipsa felicitas, et addit, quod semper maius bonum 
-                est eligibilius.</quote>
+                est eligibilius.
+              </quote>
               <bibl>
                 <name>Aristoteles</name>, 
                 <title>N. Ethica</title>, 
-                Bk. I, c. 7 (1097b21)</bibl>
+                Bk. I, c. 7 (1097b21)
+              </bibl>
             </cit> 
             Ergo, pari ratione, mens humana cum quocumque 
             bono est melior quam ipsa solitaria. Igitur, compositum ex ipsa mente 
-            et corpore, scilicet homo, est nobilius sola mente.</p>
+            et corpore, scilicet homo, est nobilius sola mente.
+          </p>
           
           <p xml:id="b1d3qun-ismnrd">Item, si mens humana 
             sit imago Trinitatis increatae, igitur aut ratione substantiae suae, et hoc 
