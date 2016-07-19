@@ -5,19 +5,21 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
+
       <titleStmt>
         <title>Distinctio 3, q. un.</title>
         <author xml:id="AW">Adam Wodeham</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
         <editor xml:id="NV">Nicolas Vaughan</editor>
-        <editor xml:id="GB">Gemma Bernadó i Ferrer</editor>
       </titleStmt>
+
       <editionStmt>
         <edition n="2016.06">
           <title>Distinctio 3, q. un.</title>
           <date when="2016-06-10">June 10, 2016</date>
         </edition>
       </editionStmt>
+
       <publicationStmt>
         <publisher>Lombard Press</publisher>
         <pubPlace>Baltimore, MD</pubPlace>
@@ -28,6 +30,7 @@
         </availability>
         <date when="2016-06-10">June 10, 2016</date>
       </publicationStmt>
+
       <sourceDesc>
         <listWit>
           <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
@@ -37,9 +40,11 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+
     <encodingDesc>
       <variantEncoding method="parallel-segmentation" location="internal"/>
     </encodingDesc>
+
     <revisionDesc status="draft">
       <listChange>
         <change when="2011-06-26" who="#JW" status="draft" n="2011.06">
@@ -61,6 +66,7 @@
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
       </div>
     </front>
+
     <body>
       <div xml:id="b1-d3-qun">
         <head>Distinctio 3</head>
@@ -80,16 +86,15 @@
             <cit>
               <quote>si servasset in se 
                 <app>
-                  <lem wit="#S #V">homo</lem>
-                  <rdg wit="#M #T" type="om."/>
+                  <lem>homo</lem>
+                  <rdg wit="#M #T" type="variation-absent"/>
                 </app> 
                 bonum 
                 <app>
-                  <lem wit="#S #V">quod in illo creavit Deus, 
-                    id est imaginem suam, 
-                    semper laudaret dictum non 
-                    solum lingua sed et vita</lem>
-                  <rdg wit="#T #M" type="om."/>
+                  <lem>
+                    quod in illo creavit Deus, id est imaginem suam, semper laudaret dictum non solum lingua sed et vita
+                  </lem>
+                  <rdg wit="#T #M" type="variation-absent"/>
                 </app>
               </quote>
               <bibl>Auctor incertus (forte <name>Augustinus Hipponensis</name>) <title>Sermo</title> CCCXV (PL 39:2349)</bibl>
@@ -98,26 +103,24 @@
             <cb ed="#S" n="79va"/> 
             igitur non 
             <app> <!-- Needs double checking -->
-              <lem wit="#S #M">servavit</lem>
-              <rdg wit="#T #V">servat</rdg>
+              <lem>servavit</lem>
+              <rdg wit="#T #V" type="variation-substance">servat</rdg>
             </app> 
             in se bonum illud 
             <app> <!-- Needs double checking -->
-              <lem wit="#S #M">secundum</lem>
-              <rdg wit="#T #V">scilicet</rdg>
+              <lem>secundum</lem>
+              <rdg wit="#T #V" type="variation-substance">scilicet</rdg>
             </app> 
-            imaginem Dei, et
+            imaginem Dei, et tamen
             <app>
-              <lem wit="#S #T #V"> 
-                <app>
-                  <lem wit="#S #M #V">tamen</lem>
-                  <rdg wit="#T" type="corrDeletion">
-                    <del>in</del>
-                  </rdg>
-                </app> 
-                servat 
-                mentem suam. Igitur mens humana non est imago Dei.</lem>
-              <rdg wit="#M" type="om."/>
+              <lem/>
+              <rdg wit="#T" type="correction-deletion">
+                <del>in</del>
+              </rdg>
+            </app>
+            <app>
+              <lem>servat mentem suam. Igitur mens humana non est imago Dei.</lem>
+              <rdg wit="#M" type="variation-absent"/>
             </app>
           </p>
           
@@ -125,47 +128,47 @@
             <ref>
               <seg>14 <title ref="#deTrinitate">
                 <app>
-                  <lem wit="#S #V #T">De</lem> 
-                  <rdg wit="#M" type="om."/>
+                  <lem>De</lem> 
+                  <rdg wit="#M" type="variation-absent"/>
                 </app>
-                Trinitate</title>, c. 7, de parvis</seg>
+                Trinitate</title>, c. 7, de parvis
+              </seg>
               <bibl>
-                <name>Augustinus</name>, 
-                <title>De Trinitate</title>, 
-                Bk. XIV, c. 4, n. 6 (PL 42:XXX CCSL XXX)</bibl>
+                <name ref="#Augustine">Augustinus</name>, 
+                <title ref="#DeTrinitate">De Trinitate</title>, 
+                Bk. XIV, c. 4, n. 6 (PL 42:??? CCSL ???)</bibl>
             </ref> 
             dicit 
             <app>
-              <lem wit="#S #T #V">iuxta</lem>
-              <rdg wit="#M" type="corrReplace">
-                <corr> <!-- change for subst -->
+              <lem>iuxta</lem>
+              <rdg wit="#M" type="correction-substitution">
+                <subst>
                   <del>niuxta</del>
                   <add>iuxta</add>
-                </corr>
+                </subst>
               </rdg>
             </app> 
             <ref>illud <title ref="#ps">Psalmum</title></ref> 
             <cit>
               <quote ana="#ps38_7">
-                verumtamen in imagine 
-                pertransit 
+                verumtamen in imagine pertransit homo
                 <app>
-                  <lem wit="#S #V #M #T">homo</lem>
-                  <rdg wit="#T" type="intextu">sed etc.</rdg>  <!-- Check whether add = intextu ?-->
+                  <lem/>
+                  <rdg wit="#T" type="variation-present">sed etc.</rdg>
                 </app>
               </quote>
               <bibl>Psalmus 38:7</bibl>
             </cit>,
             <app>
-              <lem wit="#T #S">quia</lem>
-              <rdg wit="#M #V">quod</rdg> <!-- Doublecheck -->
+              <lem>quia</lem>
+              <rdg wit="#M #V" type="variation-substance">quod</rdg>
             </app> 
             haec imago ita deformis et obscura 
             facta est, ut 
             <app>
-              <lem wit="#V #T">poenae</lem> 
-              <rdg wit="#M">pote</rdg>
-              <rdg wit="#S" type="corrReplace">
+              <lem>poenae</lem> 
+              <rdg wit="#M" type="correction-substance">pote</rdg>
+              <rdg wit="#S" type="correction-substitution">
                 <corr>
                   <del>poena</del>
                   <add>poenae</add>
@@ -175,8 +178,8 @@
             nulla sit. 
             Ipsa 
             <app>
-              <lem wit="#S #T #M">autem</lem>
-              <rdg wit="#V" type="corrReplace">
+              <lem>autem</lem>
+              <rdg wit="#V" type="correction-substitution">
                 <corr>
                   <add>autem</add>
                   <del>quod</del>
@@ -185,85 +188,78 @@
             </app> 
             mens humana secundum 
             substantiam suam integre manet, 
-            <app> <!-- Doublecheck the reading in #M -->
-              <lem wit="#S #T #V">igitur</lem>
-              <rdg wit="#M">cui</rdg>
+            <app>
+              <lem>igitur</lem>
+              <rdg wit="#M" type="variation-substance">cui</rdg>
             </app>
             secundum substantiam suam non est 
             imago Trinitatis.</p>
           
           <p xml:id="b1d3qun-immnsm">Item,
             <app>
-              <lem wit="#V">tunc</lem>
-              <rdg wit="#T #M #S" type="om."/>
+              <lem>tunc</lem>
+              <rdg wit="#T #M #S" type="variation-absent"/>
               <note xml:lang="en">We chose "tunc" here because we thought 
                 this to be the more explicit reading which most clearly 
                 communicates that this opening line is a consequence that 
                 follows an unstated "if"-clause.</note>
             </app>
             mens 
-            <app> <!-- Doublecheck #M -->
-              <lem wit="#V #T #S">magis</lem>
-              <rdg wit="#M">maius</rdg>
+            <app>
+              <lem>magis</lem>
+              <rdg wit="#M" type="variation-substance">maius</rdg>
             </app> 
             esset imago 
-            <app> <!-- Doublecheck #T -->
-              <lem wit="#V #S #M">Dei</lem>
-              <rdg wit="#T" type="om."/>
+            <app>
+              <lem>Dei</lem>
+              <rdg wit="#T" type="variation-absent"/>
             </app> 
             quam homo, quia 
             unumquodque propter quod et illud magis. 
             Consequens falsum
             <app>
-              <lem wit="#M #T">est</lem>
-              <rdg wit="#S #V" type="om."/>
+              <lem>est</lem>
+              <rdg wit="#S #V" type="variation-absent"/>
             </app>, 
             quia homo magis est similis 
             Deo quam mens, et exprimitur ab eo, igitur
-            <app> <!-- Double check #M -->
-              <lem wit="#V #T #S">magis</lem>
-              <rdg wit="M">maius</rdg>
+            <app>
+              <lem>magis</lem>
+              <rdg wit="M" type="variation-substance">maius</rdg>
             </app> 
             est eius imago. 
             <app>
-              <lem wit="#V #S #T">Haec</lem>
-              <rdg wit="#M" type="om."/>
+              <lem>Haec</lem>
+              <rdg wit="#M" type="variation-absent"/>
             </app> 
-            consequentia 
+            consequentia patet
             <app>
-              <lem wit="#V #S #M #T">patet</lem>
-              <rdg wit="#T" type="intextu">quia</rdg>
+              <lem/>
+              <rdg wit="#T" type="variation-present">quia</rdg>
             </app> 
-<!--        (Check out this way of encoding an inline added.)    
-            <app>
-              <lem wit="#V #S #M">patet</lem>
-              <rdg wit="#T" type="intextu">
-                patet 
-                <add>quia</add></rdg>
-            </app> -->
             per 
-            <app> <!-- Doublecheck -->
-              <lem wit="#S #V">definitionem</lem>
-              <rdg wit="#T #M">distinctionem</rdg>
+            <app>
+              <lem>definitionem</lem>
+              <rdg wit="#T #M" type="variation-substance">distinctionem</rdg>
             </app>
-            imaginis quam ponit 
+            <mentioned>imaginis</mentioned> quam ponit 
             <cit>
               <ref corresp="#b1d3qun-Qieecei"><name ref="#Augustine">Augustinus</name> <title ref="#deDiversisQuaestionibus">De 83 Quaestionibus</title>, quaestione 
                 <app>
-                  <lem wit="#M #T #V">74</lem>
-                  <rdg wit="#S">78</rdg>
+                  <lem>74</lem>
+                  <rdg wit="#S" type="variation-substance">78</rdg>
                 </app>,
               </ref>
-              <bibl> <!-- This goes into app. fontium -->
+              <bibl>
                 <name ref="#Augustine">Augustinus</name>, 
                 <title ref="#deDiversisQuaestionibus">De diversis quaestionibus octoginta</title>, 
-                q. 74 (CCSL ?; PL 40:86), "ut in speculo est imago hominis, quia de illo expressa est."
+                q. 74 (CCSL ???; PL 40:86), "ut in speculo est imago hominis, quia de illo expressa est."
               </bibl>
             </cit> 
             ubi dicit quod 
             <quote type="indirect" xml:id="b1d3qun-Qieecei">imago est expressa similitudo illius 
               cuius est imago</quote>.
-            <!-- 15/06/2016 --> 
+            <!-- 19/07/2016 --> 
             Assumptum probatur, quia homo est ens nobilior quam mens 
             hominis, igitur est magis similis Deo. Consequentia patet per 
             <ref corresp="#b1d3qun-Qqicenp">
