@@ -3117,7 +3117,7 @@
             	</app>
             	in 
             	<app>
-            		<lem>qualibet</lem>
+            		<lem>qualibet</lem> <!-- abbreviatio suggests "quibus" here -->
             		<rdg wit="#S">qua licet</rdg> <!-- most likely a miss reading in S that needs to be corrected -->
             	</app> 
             	forte 
@@ -3144,32 +3144,69 @@
               </app> 
               non potest, et maxime non tunc 
             	<app>
-            		<lem>conservit</lem>
-            		<rdg wit="#S #V">cum servit</rdg> <!-- mostly likely a missing reading in S and V that needs to be corrected -->
+            		<lem>cum servit</lem> <!-- supported by abbrevatio -->
+            		<rdg wit="#T #M">conservit</rdg> <!-- mostly likely a missing reading in T and M that needs to be corrected -->
             	</app> 
-            	peccatis et a Dei 
-              notitia et amore distractus et advertitur ad terrena.</p>
+            	peccatis 
+            	<app>
+            		<lem>et</lem>
+            		<rdg wit="#M" type="variation-absent"/>
+            	</app> 
+            	a Dei 
+              notitia et 
+            	<app>
+            		<lem>amore</lem>
+            		<rdg wit="#M">amoris</rdg>
+            	</app> 
+            	<app>
+            		<lem>distrahitur</lem>
+            		<rdg wit="#S">distractus</rdg> <!-- this reading seemed supported by abbreviatio (dbcheck), but distrahitur seems better -->
+            	</app> 
+            	et advertitur ad terrena.</p>
              
             <p xml:id="b1d3qun-asp">
             	<cit>
-            		<ref type="commentary" target="http://scta.inof/resource/b1d3qun-idteit">Ad secundum
+            		<ref type="commentary" target="http://scta.info/resource/b1d3qun-idteit">Ad secundum
             		</ref>
-            		<bibl><ref type="commentary" target="http://scta.inof/resource/b1d3qun-idteit">Cf. secundum argumentum</ref></bibl>
+            		<bibl><ref type="commentary" target="http://scta.info/resource/b1d3qun-idteit">Cf. secundum argumentum</ref></bibl>
             	</cit> 
-            	patet per 
+            	<app>
+            		<lem>patet</lem>
+            		<rdg wit="#M" type="variation-absent"/>
+            	</app> 
+            	per 
             	<cit>
             		<ref type="commentary" target="http://scta.info/resource/b1d3qun-apaaat">idem.</ref>
             		<bibl><ref type="commentary" target="http://scta.info/resource/b1d3qun-apaaat">Cf. responsio ad primum argumentum</ref></bibl>
             	</cit>
             </p>
             
-            <p xml:id="b1d3qun-atccmi">Ad tertium concedendum est quod tam mens est imago 
-              Dei quam homo secundum mentem, quia mens seu anima rationalis est melius 
-              et nobilius inter partes hominis aequales. Et cum quaeritur, utrum homo 
-              magis vel anima sit imago Dei. Respondet unus doctor quod mens, et 
+            <p xml:id="b1d3qun-atccmi">
+            	<cit>
+            		<ref type="commentary" target="http://scta.info/resource/b1d3qun-immnsm">Ad tertium</ref>
+            		<bibl><ref type="commentary" target="http://scta.info/resource/b1d3qun-immnsm">Cf. tertium argumentum</ref></bibl>
+            	</cit> 
+            	concedendum est quod tam mens est imago 
+              Dei quam homo secundum mentem, quia mens seu anima rationalis est 
+            	<app>
+            		<lem>melius et</lem>
+            		<rdg wit="#M #V" type="variation-absent"/>
+            	</app> 
+            	nobilius inter partes hominis 
+            	<app>
+            		<lem>aequales</lem> <!-- not sure what the best reading is here -->
+            		<rdg wit="#M #V" type="variation-absent"/>
+            	</app>.
+            	Et 
+            	<app>
+            		<lem>cum</lem>
+            		<rdg wit="#M">tamen</rdg> <!-- likely misreading in M that just needs to be changed to "cum" -->
+            	</app> 
+            	quaeritur, utrum homo 
+              magis vel anima sit imago Dei, respondet <name>unus doctor</name> quod mens, et 
               cum arguitur quod non, ‘quia homo est ens nobilius, et per consequens, Deo similius 
               per antecedens, et per consequens magis imago.</p> 
-            
+            <!-- I think this this paragraph break should be removed -->
             <p xml:id="b1d3qun-rqhpms">Respondet quod homo est ens nobilius 
               extensive, sed mens intensive. Et secundo modo loquitur <name ref="#Anselm">Anselmus</name>, 
               quia tamen illud non apparet esse verum, cum nobilitas inter sit aequalis 
@@ -3177,7 +3214,7 @@
               vel nobilius mente sua. Ideo potest dici quod sicut homo 
               ita perfecte intelligit sicut anima sua et nec perfectius nec inperfectius 
               nec magis nec minus quam mens humana secundum perfectionem, licet 
-              mens primo vel principalius quam homo, quia  homo non est Dei imago 
+              mens primo vel principalius quam homo, quia homo non est Dei imago 
               ut nunc loquimur, nisi secundum mentem suam et unumquodque propter quod et 
               illud maius vel prius aliquo modo sicut nec intelligit nisi per mentem suam.</p>
             
