@@ -3070,20 +3070,98 @@
           <div>
             <head>Ad rationes principales</head>
             
-            <p xml:id="b1d3qun-apaaat">Ad primum argumentum principale quaestionis, <quote>si servasset in se bonum 
-              etc.</quote> Dicendum quod imago Dei sumitur uno modo pro substantia mentis creaturae rationalis, 
-              quae semper dum est, est memoria, intelligentia, et voluntas, et illud bonum non 
-              perdidit homo quoad substantiam per peccatum, licet perdiderit efficientiam bene 
-              operandi ex impedimentis quae incurrit et hic sit sua in naturalibus vulneratio. 
-              Alio modo pro ista substantia cum actibus cogitationis et dilectionis Dei, et 
-              actus illos perdidit in qua licet forte creatus fuit vel 
-              etiam quales poterat in statu innocentiae et semper, si non delinquerent, 
-              potuissent. Nunc autem pro statu naturae lapsae in 
-              tales non potest, et maxime non tunc cum servit peccatis et a Dei 
+            <p xml:id="b1d3qun-apaaat">
+            	<cit>
+            		<ref type="commentary" target="http://scta.info/resource/b1d3qun-qnveid">
+            			Ad primum argumentum principale quaestionis, <seg type="incipit">si servasset in se bonum</seg> 
+            			etc.
+            		</ref>
+            		<bibl><ref type="commentary" target="http://scta.info/resource/b1d3qun-qnveid">Cf. primum argumentum</ref></bibl>
+            	</cit>, 
+            	dicendum quod imago Dei sumitur uno modo pro substantia mentis creaturae rationalis, 
+              quae semper, dum est, est memoria, intelligentia, et voluntas, et illud bonum non 
+              perdidit 
+              <app>
+              	<lem>homo quoad substantiam</lem>
+              	<rdg wit="#M">bonum quoad salutem</rdg> <!-- needs dbcheck -->
+              </app> 
+            	per peccatum, licet perdiderit efficientiam bene 
+              operandi ex impedimentis quae incurrit et 
+            	<app>
+            		<lem wit="#T #V">haec</lem>
+            		<rdg wit="#S">hic</rdg> <!-- db check, mostly likely this could just be read as haed -->
+            		<rdg wit="#M">hoc</rdg> <!-- db check, mostly likely this could just be read as haed -->
+            	</app> 
+            	<app>
+            		<lem>sit</lem>
+            		<rdg wit="#M">fit</rdg> <!-- probably could be read as sit -->
+            		<rdg wit="#T" type="variation-absent"/>
+            	</app> 
+            	sua in naturalibus vulneratio. 
+              Alio modo pro ista 
+            	<app>
+            		<lem>substantia</lem>
+            		<rdg wit="#M">sib</rdg> <!-- check -->
+            	</app> 
+            	cum actibus cogitationis et dilectionis 
+            	<app>
+            		<lem>Dei</lem>
+            		<rdg wit="#M" type="variation-absent"/>
+            	</app>, 
+            	et 
+              actus illos <!-- only S seems to have "illos"; check if istos can be read in S --> 
+            	perdidit 
+            	<app>
+            		<lem n="perdidit"/>
+            		<rdg wit="#M" type="variation-present">forte</rdg> <!-- check; could be mistake in M transcriptions -->
+            	</app>
+            	in 
+            	<app>
+            		<lem>qualibet</lem>
+            		<rdg wit="#S">qua licet</rdg> <!-- most likely a miss reading in S that needs to be corrected -->
+            	</app> 
+            	forte 
+            	<app>
+            		<lem>creatus</lem>
+            		<rdg wit="#M">causatus</rdg>
+            	</app> 
+            	fuit 
+            	<app>
+            		<lem>vel 
+            			<app>
+            				<lem wit="#S">etiam</lem> <!-- notice how wit on lemma is required here -->
+            				<rdg wit="#T">in</rdg>
+            			</app> 
+            			quales poterat in statu innocentiae et semper, si non delinquerent, 
+            			potuissent</lem>
+            		<rdg wit="#M #V" type="variation-absent"/>
+            	</app>. 
+            	Nunc autem pro statu naturae lapsae in 
+              tales 
+              <app>
+              	<lem>actus</lem> <!-- i prefer to include actus here, as it makes the reading more explicit -->
+              	<rdg wit="#S #T" type="variation-absent"/> 
+              </app> 
+              non potest, et maxime non tunc 
+            	<app>
+            		<lem>conservit</lem>
+            		<rdg wit="#S #V">cum servit</rdg> <!-- mostly likely a missing reading in S and V that needs to be corrected -->
+            	</app> 
+            	peccatis et a Dei 
               notitia et amore distractus et advertitur ad terrena.</p>
-            
-            <p xml:id="b1d3qun-asp">Ad 
-              secundum patet per idem.</p>
+             
+            <p xml:id="b1d3qun-asp">
+            	<cit>
+            		<ref type="commentary" target="http://scta.inof/resource/b1d3qun-idteit">Ad secundum
+            		</ref>
+            		<bibl><ref type="commentary" target="http://scta.inof/resource/b1d3qun-idteit">Cf. secundum argumentum</ref></bibl>
+            	</cit> 
+            	patet per 
+            	<cit>
+            		<ref type="commentary" target="http://scta.info/resource/b1d3qun-apaaat">idem.</ref>
+            		<bibl><ref type="commentary" target="http://scta.info/resource/b1d3qun-apaaat">Cf. responsio ad primum argumentum</ref></bibl>
+            	</cit>
+            </p>
             
             <p xml:id="b1d3qun-atccmi">Ad tertium concedendum est quod tam mens est imago 
               Dei quam homo secundum mentem, quia mens seu anima rationalis est melius 
