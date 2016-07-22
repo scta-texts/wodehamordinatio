@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
-      
       <titleStmt>
         <title>Distinctio 3, q. un.</title>
         <author xml:id="AW">Adam Wodeham</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
         <editor xml:id="NV">Nicolas Vaughan</editor>
       </titleStmt>
-      
       <editionStmt>
-        <edition n="2016.06">
-          <title>Distinctio 3, q. un.</title>
-          <date when="2016-07-19">July 19, 2016</date>
+        <edition n="0.0.0-dev">
+         <date when="2016-07-19">July 19, 2016</date>
         </edition>
       </editionStmt>
-      
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+      	<authority>An SCTA Project</authority>
         <availability status="free">
           <p>Published under a <ref
             target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
             Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
         </availability>
-        <date when="2016-06-10">June 10, 2016</date>
       </publicationStmt>
-      
       <sourceDesc>
         <listWit>
           <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
@@ -40,39 +33,34 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
-    
     <encodingDesc>
       <variantEncoding method="parallel-segmentation" location="internal"/>
+    	<schemaRef n="lbp-critical-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/critical.rng"/>
+    	<editorialDecl>
+    		<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a critical edition.</p>
+    	</editorialDecl>
     </encodingDesc>
-    
     <revisionDesc status="draft">
       <listChange>
-        <change when="2011-06-26" who="#JW" status="draft" n="2011.06">
+        <change when="2011-06-26" status="draft" n="0.0.0">
           <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">critical</note>
-          </note>
         </change>
       </listChange>
     </revisionDesc>
-    
   </teiHeader>
-  <text xml:lang="la">
+  <text type="critical" xml:lang="la">
     <front>
       <div xml:id="includeList">
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
       </div>
       <div xml:id="startOn">
-        <pb ed="#M" n="66-r" facs="M66rb"/><cb ed="#M" n="b"/>
-        <pb ed="#S" n="79-r" facs="S79rb"/><cb ed="#S" n="b"/> 
-        <pb ed="#T" n="56-r" facs="T56ra"/><cb ed="#T" n="a"/> 
-        <pb ed="#V" n="106-r" facs="V106r"/><!-- #V has only one column -->
+        <pb ed="#M" n="66-r" facs="M66r"/><cb ed="#M" n="b"/>
+        <pb ed="#S" n="79-r" facs="S79r"/><cb ed="#S" n="b"/> 
+        <pb ed="#T" n="56-r" facs="T56r"/><cb ed="#T" n="a"/> 
+        <pb ed="#V" n="106-r" facs="V106"/><!-- #V has only one column -->
       </div>
     </front>
-    
     <body>
       <div xml:id="b1-d3-qun">
         <head>Distinctio 3</head>
