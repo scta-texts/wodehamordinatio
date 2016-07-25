@@ -3204,21 +3204,87 @@
             	</app> 
             	quaeritur, utrum homo 
               magis vel anima sit imago Dei, respondet <name>unus doctor</name> quod mens, et 
-              cum arguitur quod non, ‘quia homo est ens nobilius, et per consequens, Deo similius 
-              per antecedens, et per consequens magis imago.</p> 
+              cum arguitur quod
+            	<app>
+            		<lem>non, quia homo est ens nobilius, et per consequens, Deo similius 
+            			per 
+            			<app> <!-- dbcheck -->
+            				<lem wit="#S #T"><name ref="#Anselm">Anselmum</name></lem>
+            				<rdg wit="#V">antecedens</rdg>
+            			</app>
+            		</lem>
+            		<rdg wit="#M">homo sit nobilius</rdg>
+            	</app>, 
+            	et per consequens magis imago.</p> 
             <!-- I think this this paragraph break should be removed -->
             <p xml:id="b1d3qun-rqhpms">Respondet quod homo est ens nobilius 
-              extensive, sed mens intensive. Et secundo modo loquitur <name ref="#Anselm">Anselmus</name>, 
-              quia tamen illud non apparet esse verum, cum nobilitas inter sit aequalis 
-              pars humanae nobilitatis, et per consequens, quod homo sit aeque nobilis 
+              extensive, sed mens intensive. Et secundo modo loquitur 
+            	<app>
+            		<lem><name ref="#Anselm">Anselmus</name></lem>
+            		<rdg wit="#M" type="variation-absent"/>
+            	</app>
+              quia tamen illud non apparet esse verum, cum nobilitas 
+            	<app>
+            		<lem>mentis</lem>
+            		<rdg wit="#S #M">inter</rdg> <!-- needs dbcheck; likely misreading --> 
+            	</app> 
+            	sit aequalis 
+              pars humanae nobilitatis, et per consequens, 
+            	<app>
+            		<lem>quod</lem>
+            		<rdg wit="#M #V" type="variation-absent"/>
+            	</app> 
+            	homo sit aeque nobilis 
               vel nobilius mente sua. Ideo potest dici quod sicut homo 
-              ita perfecte intelligit sicut anima sua et nec perfectius nec inperfectius 
-              nec magis nec minus quam mens humana secundum perfectionem, licet 
-              mens primo vel principalius quam homo, quia homo non est Dei imago 
-              ut nunc loquimur, nisi secundum mentem suam et unumquodque propter quod et 
-              illud maius vel prius aliquo modo sicut nec intelligit nisi per mentem suam.</p>
+            	<app>
+            		<lem n="homo"/>
+            		<rdg wit="#M" type="variation-present">aeque perfecte vel</rdg>
+            	</app> 
+              ita perfecte intelligit sicut anima sua et nec perfectius nec imperfectius 
+              <app> <!-- needs full dbcheck -->
+              	<lem wit="#V">licet non aeque primo, ita est homo imago Dei neque magis neque minus</lem> <!-- neque maybe should be nec for consistence -->
+              	<rdg wit="#S #T">nec magis nec minus</rdg>
+              	<rdg wit="#M">maius neque minus sed aeque primo ita est homo imago dei neque</rdg>
+              </app> 
+            	quam mens humana secundum perfectionem, licet 
+              mens primo 
+            	<app>
+            		<lem>et</lem>
+            		<rdg wit="#S">vel</rdg>
+            	</app> 
+            	principalius quam homo, quia
+            	<app> <!-- needs major dbcheck; could be mistake in S transcription -->
+            		<lem ana="#quia"/>
+            		<rdg wit="#S" type="variation-present">non</rdg>
+            	</app>
+            	homo non est imago 
+            	<app>
+            		<lem>dei</lem>
+            		<!-- needs db check; pssibily two instances of "dei" in maz -->
+            	</app> 
+              ut nunc loquimur, nisi secundum mentem 
+            	<app>
+            		<lem>suam</lem>
+            		<rdg wit="#M" type="variation-absent"/>
+            	</app> 
+            	et unumquodque propter quod et 
+              illud
+            	<app>
+            		<lem>magis</lem>
+            		<rdg wit="#S">maius</rdg> <!-- dbcheck could be transcription error -->
+            	</app>
+            	<app>
+            		<lem>vel prius aliquo modo sicut nec intelligit nisi per mentem suam</lem>
+            		<rdg wit="#M #V">etc</rdg>
+            	</app>.
+            </p>
             
-            <p xml:id="b1d3qun-aqacev">Ad quartam ait ratione substantiae suae aut ratione actuum respondetur 
+            <p xml:id="b1d3qun-aqacev">
+            	<cit>
+            		<ref type="commentary" target="http://scta.info/resource/b1d3qun-ismnrd">Ad quartum</ref> <!-- dbcheck; vat might have "quartam" -->
+            		<bibl><ref type="commentary" target="http://scta.info/resource/b1d3qun-ismnrd">Cf. quartum argumentum</ref></bibl>
+            	</cit> 
+            	ait ratione substantiae suae aut ratione actuum, respondetur 
               et bene quod magis ratione essentiae suae seu substantiae suae, quia ipsa substantia 
               mentis est imago Dei, actus autem non sunt imago Dei, 
               sed tantum ipsa mens in comparatione ad actus quos potest secundum 
