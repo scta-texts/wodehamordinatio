@@ -3284,18 +3284,139 @@
             		<ref type="commentary" target="http://scta.info/resource/b1d3qun-ismnrd">Ad quartum</ref> <!-- dbcheck; vat might have "quartam" -->
             		<bibl><ref type="commentary" target="http://scta.info/resource/b1d3qun-ismnrd">Cf. quartum argumentum</ref></bibl>
             	</cit> 
-            	ait ratione substantiae suae aut ratione actuum, respondetur 
-              et bene quod magis ratione essentiae suae seu substantiae suae, quia ipsa substantia 
-              mentis est imago Dei, actus autem non sunt imago Dei, 
-              sed tantum ipsa mens in comparatione ad actus quos potest secundum 
-              ordinem supra tactum, quia, scilicet, potest Deum per actus suos capere, 
-              et ideo maius et expressius est mens ipsa imago Dei cum 
-              actualiter habet actus huius quam cum non habet. Et ideo, per oppositum, potest una 
-              vice[?] imperfectius et minus expresse dici imago quam alias, 
-              quia magis ducit in notitiam Trinitatis quoad personalem distinctionem 
-              et ordinem personarum, prius habitualiter fide vel revelatione cogitatum, 
-              non est enim, ut supra tactum est, de ratione imaginis vel vestigium ducere 
-              in primam notitiam illius cuius est imago vel cuius est vestigium.</p>
+            	ait ratione 
+            	<app>
+            		<lem>substantiae</lem>
+            		<rdg wit="#T">essentiae</rdg>
+            	</app>
+            	suae <!-- in T suae comes before essentiae -->
+            	<app>
+            		<lem/>
+            		<rdg wit="#T" type="variation-present">vel</rdg>
+            	</app>
+            	aut ratione 
+            	<app> 
+            		<lem>actuum</lem>
+            		<rdg wit="#M">accidentium</rdg> <!-- dbcheck; likely misreading in M -->
+            	</app>, 
+            	respondetur 
+              <app>
+              	<lem>et</lem>
+              	<rdg wit="#M #V" type="variation-absent"/>
+              </app> 
+            	bene quod magis ratione essentiae suae 
+            	<app>
+            		<lem>seu substantiae suae</lem>
+            		<rdg wit="#M #V" type="variation-absent"/>
+            	</app>, 
+            	quia 
+            	<app>
+            		<lem>ipsa</lem>
+            		<rdg wit="#T" type="variation-orthography"/>
+            	</app> 
+            	substantia 
+              mentis 
+            	<app>
+            		<lem>est</lem>
+            		<rdg wit="#V" type="correction-substitution">
+            			<subst>
+            				<del>et</del>
+            				<add place="above-line">est</add>
+            			</subst>
+            		</rdg>
+            	</app> 
+            	<app>
+            		<lem>imago Dei, actus autem non sunt imago Dei</lem>
+            		<rdg wit="#T" type="correction-addition">
+            			<add>imago Dei, actus autem non sunt imago Dei</add>
+            		</rdg>
+            	</app>, 
+              sed tantum ipsa mens in comparatione ad actus 
+              <app>
+              	<lem n="actus"/>
+              	<rdg wit="#M" type="variation-present">in</rdg>
+              </app>
+            	quos potest secundum 
+              ordinem supra tactum, quia, scilicet, potest 
+            	<app>
+            		<lem>Deum</lem>
+            		<rdg wit="#M">Deus</rdg>
+            	</app> 
+            	per actus suos capere, 
+              <app>
+              	<lem>et</lem>
+              	<rdg wit="#M" type="variation-absent"/>
+              </app> 
+            	ideo 
+            	<app>
+            		<lem>maius</lem>
+            		<rdg wit="#M">magis</rdg> <!-- dbcheck; could easily be misreading in Maz -->
+            	</app> 
+            	et expressius est mens ipsa imago Dei cum 
+              actualiter habet actus huius quam cum non habet. 
+            	<app>
+            		<lem>Et ideo</lem>
+            		<rdg wit="#M">unde</rdg> <!-- dbcheck -->
+            		<rdg wit="#V">unum</rdg> <!-- likely misreading; might be better as "unde" -->
+            	</app>, 
+            	per oppositum, potest una 
+              <app> <!--this is mess; each reading needs to be check and corrected; very unsure about "vice" -->
+            		<lem wit="#S">vice imperfectius et minus expresse dici</lem>
+              	<rdg wit="#T">vice imperfectius et minus expresse dei</rdg> <!-- dei is mostly like a transcription error, making this reading identical with S -->
+            		<rdg wit="#V">vice unus perfecte dicit</rdg>
+            		<rdg wit="#M">vitae minus perfecte dici</rdg>
+              </app> 
+            	imago quam alias, 
+              quia magis 
+            	<app>
+            		<lem>ducit</lem>
+            		<rdg wit="#V">ductam</rdg>
+            	</app> 
+            	<app>
+            		<lem/>
+            		<rdg wit="#M" type="variation-present">in</rdg>
+            	</app>
+            	in notitiam Trinitatis quoad 
+            	<app>
+            		<lem>personalem</lem> 
+            		<rdg wit="#M #V">personarum</rdg>
+            	</app> 
+            	distinctionem 
+              et ordinem 
+            	<app>
+            		<lem>personarum</lem>
+            		<rdg wit="#M #V" type="variation-absent"/>
+            	</app>, 
+            	prius habitualiter fide vel 
+            	<app>
+            		<lem>revelatione</lem>
+            		<rdg wit="#T">revelationes</rdg> <!-- dbcheck -->
+            	</app> 
+            	<app>
+            		<lem>cogitatum</lem>
+            		<rdg wit="#S #M">cognitum</rdg> <!-- these readings could easily be mistake or be read as cogitatum; dbcheck --> 
+            	</app>, 
+              non est enim, ut supra tactum est, de ratione imaginis 
+            	<app>
+            		<lem>vel</lem>
+            		<rdg wit="#M" type="variation-absent"/>
+            	</app> 
+            	vestigium 
+            	<app>
+            		<lem>ducere</lem>
+            		<rdg wit="#T" type="variation-absent"/>
+            	</app> 
+              in primam notitiam 
+            	<app>
+            		<lem>illius cuius est imago vel cuius est 
+            			<app>
+            				<lem wit="#S">vestigium</lem>
+            				<rdg wit="#T">vestra</rdg><!-- dbcheck could be a misreading in T -->
+            			</app>
+            		</lem>
+            		<rdg wit="#M #V">istius cuius est</rdg>
+            	</app>.
+            </p>
             
             <p xml:id="b1d3qun-arcasd">Ad rationes contra in arguendo factas, patet supra quod non est ibi, 
               secundum <name ref="#Lombard">Magistrum</name>, tanta similitudo quin in aliquo sit dissimilitudo.</p>
