@@ -305,7 +305,12 @@
           <p xml:id="b1d3qun-ismnrd">Item, si mens humana 
             sit imago Trinitatis increatae, igitur aut ratione substantiae suae, et hoc 
             non, quia illa non repraesentat distinctionem personarum, aut ratione actuum, 
-            quos causat et recipit, et hoc non, quia illi non sunt consubstantiales. Et 
+            quos causat et recipit, et hoc non, quia illi non sunt consubstantiales. 
+            <!-- 
+            	possibly argument 5 
+            	I think we need a paragraph break here -->
+            -->
+            Et 
             hoc idem, quia in re arguitur sub alia forma sic, quia si sic, tunc 
             cognitio perfecta illius imaginis nata esset inducere vel saltem 
             iuvare 
@@ -318,8 +323,8 @@
             magis adducit in cognitionem verum ipsius Trinitatis increatae quam 
             aliud. Probo sive enim in anima sit realis distinctio sive non videtur  abducere. 
             Si enim sic, tunc sunt diversae res et per consequens vel sunt partes 
-            mentis vel accidentia in ipsa, et ita ista cognitio faceret estimare quod 
-            personae essent partes Dei vel accidentia in eo, et 
+            mentis vel <unclear>accidentia <!-- acta --></unclear> in ipsa, et ita ista cognitio faceret estimare quod 
+            personae essent partes Dei vel <unclear>accidentia <!-- acta --></unclear> in eo, et 
             <app>
               <rdg wit="#S" type="correction-addition">
               	<add place="aboveLine">quod</add>
@@ -330,7 +335,7 @@
             tunc faceret aestimare personas non realiter distingui.</p>
           
           <p xml:id="b1d3qun-isqati">Item 
-            specialiter quod mens non sit imago ratione suorum accidentium, 
+            specialiter quod mens non sit imago ratione suorum <unclear>accidentium <!-- actuum; see end of this paragaraph and paragraph above --></unclear>, 
             quia 
             <ref>14 <title ref="#deTrinitate">De Trinitate</title>, 
               c. 6, de parvis 
@@ -3417,30 +3422,197 @@
             		<rdg wit="#M #V">istius cuius est</rdg>
             	</app>.
             </p>
+            <!-- consider collapsing paragraphs -->
+            <p xml:id="b1d3qun-arcasd">Ad rationes contra in 
+            	<app>
+            		<lem>argumento</lem>
+            		<rdg wit="#S">arguendo</rdg> <!-- likely misreading in S that just needs to be corrected -->
+            	</app> 
+            	factas, patet supra 
+            	<app>
+            		<lem>quia</lem>
+            		<rdg wit="#S #M">quod</rdg> <!-- seems like a trivial variant that should be ignored -->
+            	</app> 
+            	non est ibi, 
+              secundum <name ref="#Lombard">Magistrum</name>, tanta similitudo quin 
+            	<app>
+            		<lem>maior</lem>
+            		<rdg wit="#S">in aliquo</rdg> <!-- undoubtedly a misreading in S that needs to be corrected -->
+            	</app> 
+            	sit dissimilitudo.</p>
             
-            <p xml:id="b1d3qun-arcasd">Ad rationes contra in arguendo factas, patet supra quod non est ibi, 
-              secundum <name ref="#Lombard">Magistrum</name>, tanta similitudo quin in aliquo sit dissimilitudo.</p>
-            
-            <p xml:id="b1d3qun-aqrcme">Ad quintum respondetur et bene quod quoad aliquid, cogitatio eius 
-              est nata abducere et quo ad aliquid nata est iuvare ad cogitationem per 
-              factam Trinitatis, quantum enim ad hoc quod in Deo sit alia Trinitas 
-              ex hoc, quod meminit, intelligit, et amat, iuvat etc., et etiam quantum 
-              ad hoc, ut cognoscatur distinctius modus emanationis, similes 
-              emanationes inveniuntur in actu intellectus et in actu voluntatis, 
+            <p xml:id="b1d3qun-aqrcme">
+            	<cit>
+            		<ref type="commentary" target="http://scta.info/resource/b1d3qun-ismnrd">Ad quintum</ref>
+            		<bibl>Cf. <ref type="commentary" target="http://scta.info/resource/b1d3qun-ismnrd">Quintum argumentum</ref></bibl>
+            	</cit> 
+            	respondetur et bene 
+            	<app>
+            		<lem>quod</lem>
+            		<rdg wit="#M" type="variation-absent"/>
+            	</app> 
+            	quoad aliquid, cognitio 
+            	<app>
+            		<lem>eius</lem>
+            		<rdg wit="#T" type="variation-absent"/>
+            	</app> 
+              est nata abducere et quoad aliquid 
+              <app>
+              	<lem n="aliquid"/>
+              	<rdg wit="#V" type="correction-deletion">
+              		<del>est</del>
+              	</rdg>
+              </app>
+              nata est iuvare ad cogitationem 
+            	<app>
+            		<lem>perfectam</lem>
+            		<rdg wit="#S">per factam</rdg> <!--likely misreading in S that needs to be fixed -->
+            		<rdg wit="#M">perfectum</rdg> <!-- possible misreading -->
+            	</app> 
+            	Trinitatis, quantum enim ad hoc 
+            	<app>
+            		<lem>quod</lem>
+            		<rdg wit="#M" type="variation-absent"/>
+            	</app> 
+            	in Deo sit 
+            	<app> <!--review; could be a misreading; also not sure which reading would be better -->
+            		<lem>alia</lem>
+            		<rdg wit="#M #T">aliqua</rdg>
+            	</app> 
+            	Trinitas 
+              ex hoc, 
+            	<app>
+            		<lem>quod</lem>
+            		<rdg wit="#V">quia</rdg> <!-- possibly trivial, perhaps variation-orthography type or it could be just ignored -->
+            	</app> 
+            	meminit, 
+            	<app>
+            		<lem n="meminit"/>
+            		<rdg wit="#V" type="variation-present">et</rdg>
+            	</app>
+            	intelligit, 
+            	<app> <!-- unsure if this reading should be added into the text -->
+            		<lem n="intelligit"/>
+            		<rdg wit="#T" type="variation-present">vult vel</rdg>
+            	</app> 
+            	et amat, iuvat 
+            	<app>
+            		<lem>etc.</lem>
+            		<rdg wit="#M #V" type="variation-absent"/>
+            	</app>, 
+            	et etiam quantum 
+              ad hoc, ut 
+            	<app>
+            		<lem>cognoscatur distinctius</lem>
+            		<rdg wit="#M">distinctio</rdg>
+            	</app> 
+            	modus emanationis 
+            	<app>
+            		<lem>Filii a Patre et Spiritu Sancto ab utraque, 
+            			<app>
+            				<lem wit="#M #T">et</lem>
+            				<rdg wit="#V">quia</rdg>
+            			</app>
+            		</lem>
+            		<rdg wit="#S" type="variation-absent"/>
+            	</app>
+            	similes 
+              emanationes 
+            	<app>
+            		<lem>inveniuntur</lem>
+            		<rdg wit="#T">inveniunt</rdg> <!-- dbcheck; possibile misreading in T -->
+            	</app> 
+            	in actu intellectus et in actu voluntatis, 
               sicut 
               <cit>
                 <ref><name ref="#Augustine">Augustinus</name> declarat 5 <title ref="#deTrinitate">De Trinitate</title> c. 15 in fine,</ref>
-                <bibl>Augustine, De Trinitate, V, 15, ???</bibl>
+                <bibl>Augustinus, De Trinitate, V, 15, xxx</bibl>
               </cit> 
               sed quantum ad hoc abducit 
-              ut sciatur, scilicet, an Pater et Spiritus Sanctus sint distincti, quia cum 
-              hoc unum ens se ipsum abducit, inquam, nisi quia fides firmus 
-              facit adhaere, quia sit sicut quam argumentum, a simili abducat 
-              ad contrarium fidei, igitur excludit abductionem, et hoc facto 
-              iuvatur cogitatio mentis, etc.</p>
+              ut sciatur, scilicet, an Pater 
+            	<app>
+            		<lem>et Filius</lem> <!-- possibly important app where V alone has added a missing phrase (assuming this is the best reading) -->
+            		<rdg wit="#S #M #T" type="variation-absent"/>
+            	</app> 
+            	et Spiritus Sanctus sint distincti, 
+            	<app> <!-- this app needs serious review; transcriptions may have errors and best reading is not obvious. -->
+            		<lem>
+            			<app>
+	            			<lem>quia</lem>
+	            			<rdg wit="#V">quod</rdg> <!-- possible trivial or orthograhic difference -->
+	            		</app> 
+            			cum</lem>
+            		<rdg wit="#T">et tamen</rdg>
+            	</app> 
+              hoc 
+            	<app>
+            		<lem>sint</lem> <!-- possibile important addition only present in V -->
+            		<rdg wit="#S #M #T" type="variation-absent"/>
+            	</app> 
+            	unum ens 
+            	<app>
+            		<lem>se ipsum</lem>
+            		<rdg wit="#T"> si simplicissimum</rdg>
+            	</app> 
+            	abducit, inquam, nisi quia fides firmus 
+              facit 
+            	<app>
+            		<lem>adhaerere</lem>
+            		<rdg wit="#S #M">adhaere</rdg> <!-- almost certainly a transcription mistake in S and M -->
+            	</app>, 
+            	quia 
+            	<app>
+            		<lem>sit 
+            			<app>
+            				<lem>sicut</lem>
+            				<rdg wit="#M">sint</rdg> <!-- this is almost undoubteldy a mistake in M transcription -->
+            			</app>
+            		</lem>
+            		<rdg wit="#T">sic sit</rdg>
+            	</app> 
+            	quam argumentum, a simili 
+            	<app>
+            		<lem>abducat</lem>
+            		<rdg wit="#M #T #V">in mente</rdg> <!-- needs review; this seems like a strange difference -->
+            	</app> 
+              ad 
+            	<app>
+            		<lem>contrarium</lem>
+            		<rdg wit="#M">contrariam</rdg> <!-- contrariam diff coudld easily be transcription error -->
+            	</app>,
+            	<app>
+            		<lem>fidei</lem> <!-- if fidei, then contrarium is probably correct -->
+            		<rdg wit="#M #T #V">fides</rdg> <!-- fides, then contrariam is probably better --> <!-- there is also an correction-addition here in V; unsure if it belongs -->
+            	</app>
+            	igitur excludit 
+            	<app>
+            		<lem n="excludit"/>
+            		<rdg wit="#V" type="variation-present">istam</rdg>
+            	</app> 
+            	abductionem, et hoc facto 
+              <app>
+              	<lem>iuvatur</lem>
+              	<rdg wit="#M">magis illuminatur</rdg>
+              	<rdg wit="#V">magis iuvat</rdg>
+              </app> 
+            	cogitatio mentis, etc.</p>
             
-            <p xml:id="b1d3qun-asqrpd">Ad sextum quod immortaliter insita 
-              est, etc. Responsum est supra in solvendo rationes primi dubii.</p> 
+            <p xml:id="b1d3qun-asqrpd">
+          		<cit>
+          			<ref type="commentary" target="http://scta.info/resource/b1d3qun-isqati">Ad sextum</ref>
+          			<bibl>Cf. <ref type="commentary" target="http://scta.info/resource/b1d3qun-isqati">supra</ref></bibl>
+          		</cit> 
+            	quod 
+            	<app>
+            		<lem>immortaliter insita</lem>
+            		<rdg wit="#M">intelligit infinita</rdg>
+            	</app> 
+              est, etc. Responsum 
+            	<app>
+            		<lem>est</lem>
+            		<rdg wit="#T">sed</rdg>
+            	</app> 
+            	supra in solvendo rationes primi dubii.</p> 
           </div>
         </div>
       </div>
