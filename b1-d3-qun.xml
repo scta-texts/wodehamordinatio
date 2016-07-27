@@ -2,6 +2,7 @@
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -54,25 +55,28 @@
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
       </div>
-      <div xml:id="startOn">
+      <div xml:id="starts-on">
         <pb ed="#M" n="66-r" facs="M66r"/><cb ed="#M" n="b"/>
         <pb ed="#S" n="79-r" facs="S79r"/><cb ed="#S" n="b"/> 
         <pb ed="#T" n="56-r" facs="T56r"/><cb ed="#T" n="a"/> 
         <pb ed="#V" n="106-r" facs="V106"/><!-- #V has only one column -->
       </div>
     </front>
+
+
+
     <body>
       <div xml:id="b1-d3-qun">
-        <head>Distinctio 3</head>
+        <head><supplied>Distinctio 3</supplied></head>
         <div>
-          <head>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in rebus aliis 
-            factis propter hominem est vestigium eiusdem Trinitatis</head>
+          <head><supplied>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in rebus aliis 
+            factis propter hominem est vestigium eiusdem Trinitatis</supplied></head>
           <p xml:id="b1d3qun-cdtvet">Circa distinctionem tertiam quaero, 
             utrum mens humana sit imago Trinitatis increatae sicut 
             in rebus aliis factis propter hominem est vestigium eiusdem Trinitatis.</p>
         </div>
         <div type="rationes-principales">
-          <head xml:id="b1d3qun-Hratles">Rationes principales</head>
+          <head xml:id="b1d3qun-Hratles"><supplied>Rationes principales</supplied></head>
           <p xml:id="b1d3qun-qnveid">Quod non videtur, quia secundum 
             <ref>
               <name ref="#Augustine">Augustinus</name> in <title>Sermone communi de uno martyre</title>
@@ -91,7 +95,8 @@
                   <rdg wit="#T #M" type="variation-absent"/>
                 </app>
               </quote>
-              <bibl>Auctor incertus (forte <name>Augustinus Hipponensis</name>) <title>Sermo</title> CCCXV (PL 39:2349)</bibl>
+              <bibl>Auctor incertus (forte <name ref="#Augustine">Augustinus</name>) 
+                <title>Sermo</title> CCCXV (PL 39:2349)</bibl>
             </cit> 
             etc. Igitur ex opposito: non sic laudat, 
             <pb ed="#S" n="79-v" />
@@ -148,7 +153,7 @@
               <quote ana="#ps38_7">
                 verumtamen in imagine pertransit homo
                 <app>
-                  <lem/>
+                  <lem n="homo" />
                   <rdg wit="#T" type="variation-present">sed etc.</rdg>
                 </app>
               </quote>
@@ -190,123 +195,135 @@
             secundum substantiam suam non est 
             imago Trinitatis.</p>
           
-          <p xml:id="b1d3qun-immnsm">Item,
-            <app>
+          <p xml:id="b1d3qun-immnsm">Item, <app>
               <lem>tunc</lem>
               <rdg wit="#T #M #S" type="variation-absent"/>
-              <note xml:lang="en">We chose "tunc" here because we thought 
-                this to be the more explicit reading which most clearly 
-                communicates that this opening line is a consequence that 
-                follows an unstated "if"-clause.</note>
-            </app>
-            mens 
-            <app>
+              <note xml:lang="en">We chose "tunc" here because we thought this to be the more
+                explicit reading which most clearly communicates that this opening line is a
+                consequence that follows an unstated "if"-clause.</note>
+            </app> mens <app>
               <lem>magis</lem>
               <rdg wit="#M">maius</rdg>
-            </app> 
-            esset imago 
-            <app>
+            </app> esset imago <app>
               <lem>Dei</lem>
               <rdg wit="#T" type="variation-absent"/>
-            </app> 
-            quam homo, quia 
-            unumquodque propter quod et illud magis. 
-            Consequens falsum
-            <app>
+            </app> quam homo, quia unumquodque propter quod et illud magis. Consequens falsum <app>
               <lem>est</lem>
               <rdg wit="#S #V" type="variation-absent"/>
-            </app>, 
-            quia homo magis est similis 
-            Deo quam mens, et exprimitur ab eo, igitur
-            <app>
+            </app>, quia homo magis est similis Deo quam mens, et exprimitur ab eo, igitur <app>
               <lem>magis</lem>
               <rdg wit="#M">maius</rdg>
-            </app> 
-            est eius imago. 
-            <app>
+            </app> est eius imago. <app>
               <lem>Haec</lem>
               <rdg wit="#M" type="variation-absent"/>
-            </app> 
-            consequentia patet
-            <app>
-              <lem/>
+            </app> consequentia patet <app>
+              <lem n="patet"/>
               <rdg wit="#T" type="variation-present">quia</rdg>
-            </app> 
-            per 
-            <app>
+            </app> per <app>
               <lem>definitionem</lem>
               <rdg wit="#T #M">distinctionem</rdg>
             </app>
-            <mentioned>imaginis</mentioned> quam ponit 
-            <cit>
-              <ref corresp="#b1d3qun-Qieecei"><name ref="#Augustine">Augustinus</name> <title ref="#deDiversisQuaestionibus">De 83 Quaestionibus</title>, quaestione 
-                <app>
+            <mentioned>imaginis</mentioned> quam ponit <cit>
+              <ref corresp="#b1d3qun-Qieecei"><name ref="#Augustine">Augustinus</name>
+                <title ref="#deDiversisQuaestionibus">De 83 Quaestionibus</title>, quaestione <app>
                   <lem>74</lem>
                   <rdg wit="#S">78</rdg>
-                </app>,
-              </ref>
+                </app>, </ref>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#deDiversisQuaestionibus">De diversis quaestionibus octoginta</title>, 
-                q. 74 (CCSL ???; PL 40:86), "ut in speculo est imago hominis, quia de illo expressa est."
-              </bibl>
-            </cit> 
-            ubi dicit quod 
-            <quote type="indirect" xml:id="b1d3qun-Qieecei">imago est expressa similitudo illius 
-              cuius est imago</quote>.
-            <!-- 19/07/2016 --> 
-            Assumptum probatur, quia homo est ens nobilior quam mens 
-            hominis, igitur est magis similis Deo. Consequentia patet per 
-            <ref corresp="#b1d3qun-Qqicenp">
-              <name ref="#Anselm">Anselmum</name> 
-              <title ref="#Monologion">Monologion</title> capitulo 81 et 66
-            </ref>,
-            ubi dicit <name ref="#Anselm">Anselmus</name> 
-            <cit>
+                <name ref="#Augustine">Augustinus</name>, <title ref="#deDiversisQuaestionibus">De
+                  diversis quaestionibus octoginta</title>, q. 74 (CCSL ???; PL 40:86), "ut in
+                speculo est imago hominis, quia de illo expressa est." </bibl>
+            </cit> ubi dicit quod <quote type="indirect" xml:id="b1d3qun-Qieecei">imago est expressa
+              similitudo illius cuius est imago</quote>. Assumptum probatur quia homo est ens <app>
+              <lem>nobilius</lem>
+              <rdg wit="#S">nobilior</rdg>
+            </app> quam mens hominis, igitur est magis similis Deo. <!-- 25/07/2016 --> Consequentia
+            patet per <ref corresp="#b1d3qun-Qqcenp">
+              <name ref="#Anselm">Anselmum</name>
+              <title ref="#Monologion">Monologion</title> capitulis <app>
+                <lem>31</lem>
+                <rdg wit="#S">81</rdg>
+              </app> et 66 </ref>, ubi dicit <app>
+              <lem>
+                <name ref="#Anselm">Anselmus</name>
+              </lem>
+              <rdg wit="#M #T"/>
+            </app>: <cit>
               <quote xml:id="b1d3qun-Qqicenp">
                 <app>
                   <lem>quidquid</lem>
                   <rdg wit="#S" type="correction-addition">
-                      <add>quidquid</add>
+                    <add>quidquid</add>
                   </rdg>
-                </app> 
-                inter creata Deo constat esse 
-                similius, illud necesse est esse natura praestantius. 
-              </quote>
+                </app> inter creata <app>
+                  <lem>Deo</lem>
+                  <rdg type="variation-absent" wit="#M #T"/>
+                </app> constat esse similius <app>
+                  <lem/>
+                  <rdg wit="#M #T">Deo</rdg>
+                </app>, illud necesse 
+                <app>
+                  <lem>est</lem>
+                  <rdg wit="#T" type="variation-absent" />
+                </app> esse natura praestantius. </quote>
               <bibl>
-                <name>Anselmus</name>, 
-                <title>Monologion</title>, 
-                c. 66 (Schmitt 1:77), 
-                "Quidquid enim inter creata constat illi esse similius, id necesse est esse natura praestantius."
-              </bibl>
-            </cit> 
-            Assumptum probatur quia 
-            <ref>
-              1 <title ref="#Ethics">Ethicorum</title> c. 8 in fine, dicit 
-              <name ref="#Aristotle">Philosophus</name>
-            </ref> 
-            quod 
-            <cit>
-              <quote>felicitas connumerata cum minimo bonorum 
-                est eligibilior quam ipsa felicitas, et addit, quod semper maius bonum 
-                est eligibilius.
-              </quote>
+                <name>Anselmus</name>, <title>Monologion</title>, c. 66 (Schmitt I:77), “Quidquid
+                enim inter creata constat illi esse similius, id necesse est esse natura
+                praestantius.” </bibl>
+            </cit> Assumptum probatur quia <ref corresp="#b1d3qun-fccstb"> 1 <title ref="#Ethics">Ethicorum</title> c. 8 in fine, dicit <name ref="#Aristotle">Philosophus</name>
+            </ref> quod <cit>
+              <quote xml:id="b1d3qun-fccstb">felicitas 
+                <app>
+                  <lem>connumerata</lem>
+                  <rdg wit="#M">communicata</rdg>
+                </app>
+                cum minimo bonorum 
+                <app>
+                  <lem>est</lem>
+                  <rdg wit="#T" type="correction-addition">
+                    <add place="above-line">est</add>
+                  </rdg>
+                </app>
+                eligibilior quam ipsa felicitas, 
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#M">est</rdg>
+                </app>
+                addit quod semper maius bonum est eligibilius. </quote>
               <bibl>
-                <name>Aristoteles</name>, 
-                <title>N. Ethica</title>, 
-                Bk. I, c. 7 (1097b21)
+                <name ref="#Aristotle">Aristoteles</name>, <title ref="#Ethics">N. Ethica</title>, Bk. I, c. 7 (1097b21) 
               </bibl>
-            </cit> 
-            Ergo, pari ratione, mens humana cum quocumque 
-            bono est melior quam ipsa solitaria. Igitur, compositum ex ipsa mente 
-            et corpore, scilicet homo, est nobilius sola mente.
-          </p>
+            </cit>      
+            <app>
+              <lem>Igitur</lem>
+              <rdg wit="#S" type="variation-orthography">Ergo</rdg>
+            </app>
+            , pari ratione, mens humana cum quocumque bono est
+            <app><!-- #T has "est est", the second "est" being strikenthough -->
+              <lem n="est"/>
+              <rdg type="correction-deletion" wit="#T">
+                <del>est</del>
+              </rdg>
+            </app>
+            melior quam ipsa
+            solitaria. Igitur, compositum ex ipsa 
+            <app>
+              <lem>mente</lem>
+              <rdg wit="#T #M"/>
+            </app>
+            et corpore, scilicet homo, est nobilius sola
+            mente. </p>
           
           <p xml:id="b1d3qun-ismnrd">Item, si mens humana 
-            sit imago Trinitatis increatae, igitur aut ratione substantiae suae, et hoc 
-            non, quia illa non repraesentat distinctionem personarum, aut ratione actuum, 
-            quos causat et recipit, et hoc non, quia illi non sunt consubstantiales. Et 
-            hoc idem, quia in re arguitur sub alia forma sic, quia si sic, tunc 
+            sit imago Trinitatis increatae, 
+            <app>
+              <lem>igitur aut</lem>
+              <rdg type="variation-inversion" wit="#T #M">aut igitur</rdg>
+            </app>
+            ratione substantiae suae, et hoc 
+            non, quia illa non repraesentat distinctionem personarum; aut ratione actuum, 
+            quos causat et recipit, et hoc non, quia illi non sunt consubstantiales. 
+            Et hoc idem, quia in re arguitur sub alia forma sic, quia si sic, tunc 
             cognitio perfecta illius imaginis nata esset inducere vel saltem 
             iuvare 
             <app>
@@ -361,7 +378,7 @@
             sed actus transeunt, igitur.</p>
         </div>
         <div>
-          <head>Oppositum</head>
+          <head><supplied>Oppositum</supplied></head>
           <p xml:id="b1d3qun-aopmld">Ad oppositum: 
             <ref>
               <title ref="#gen">Genesis</title> primo,
@@ -486,15 +503,15 @@
           </p>
         </div>
         <div>
-          <head type="divisio-quaestionis">Divisio questionis</head>
+          <head type="divisio-quaestionis"><supplied>Divisio questionis</supplied></head>
           <p xml:id="b1d3qun-iiqadm">In ista questione est conclusio certa quod sic. Sed videndum est primo quare 
             sit in creatura vestigium Trinitatis, in homine imago Trinitatis. Et secundo, contra 
             dicta alia dubia movebantur.</p> 
         </div>
         <div type="articulus">
-          <head xml:id="b1d3qun-Hprilus">Primus articulus</head>
+          <head xml:id="b1d3qun-Hprilus"><supplied>Primus articulus</supplied></head>
           <div>
-            <head>Conditiones communes vestigio et imagini</head> 
+            <head><supplied>Conditiones communes vestigio et imagini</supplied></head> 
             
             <p xml:id="b1d3qun-cpcscc">Circa primum, sciendum quod aliquae sunt 
               conditiones communes tam vestigio quam imagini et aliquae proprie 
@@ -503,7 +520,8 @@
               tamquam causativum notitiae illius cuius est imago vel vestigium 
               <pb ed="#S" n="79-v" />
               <cb ed="#S" n="b" /> 
-              mediante notitia sua. Sed non ducit in primam notitiam distinctam et propriam 
+              mediante notitia sua.
+              Sed non ducit in primam notitiam distinctam et propriam 
               istius cuius est imago vel vestigium, quia ex <add place="margin">alibi</add> <add>determinatis</add> 
               patet quod notitia incomplexa unius rei non ducit in primam notitiam 
               incomplexam distinctam et propriam et simplicem alterius rei, sed illo 
@@ -512,7 +530,7 @@
               habitualis necessario concurrit sicut causa compartialis.</p>
           </div>
           <div>
-            <head>Opinio Ockham</head>
+            <head><supplied>Opinio Ockham</supplied></head>
             <p xml:id="b1d3qun-idovis">Istud declarat 
               <cit>
                 <ref><name ref="#Ockham">Ockham</name> per experientiam et bene.</ref>
@@ -522,9 +540,9 @@
               si 
               <cit>
                 <quote>aliquis nullam penitus 
-                  habeat cognitionem de <name ref="#Hercules">Hercule</name>, si videat statuam <name ref="#Hercules">Herculis</name> non 
-                  plus cogitabit de <name ref="#Hercules">Hercule</name> quam de <name ref="#Socrates">Socrates</name>. Si autem prius videat 
-                  <name ref="#Hercules">Herculem</name>, et retineat habitualem notitiam <name ref="#Hercules">Herculis</name></quote>
+                  habeat cognitionem de <name ref="#Hercules" type="variable">Hercule</name>, si videat statuam <name ref="#Hercules" type="variable">Herculis</name> non 
+                  plus cogitabit de <name ref="#Hercules" type="variable">Hercule</name> quam de <name ref="#Socrates" type="variable">Socrates</name>. Si autem prius videat 
+                  <name ref="#Hercules" type="variable">Herculem</name>, et retineat habitualem notitiam <name ref="#Hercules" type="variable">Herculis</name></quote>
                 <bibl>
                   <name>Guillelmus de Ockham</name>, 
                   <title>Scriptum in Sent.</title>, 
@@ -584,7 +602,7 @@
               in quibus conveniunt, sed sunt minoris ponderis, ideo transeo.</p>
             
             <div>
-              <head>Differentia inter vestigium et imaginem</head>
+              <head><supplied>Differentia inter vestigium et imaginem</supplied></head>
               <p xml:id="b1d3qun-advqah">Atque 
                 <cit>
                   <quote>differunt vestigium et imago, quia de ratione vestigii est quod causetur 
@@ -748,9 +766,9 @@
           </div>
         </div>
         <div xml:id="b1d3qun-Dseclus" type="articulus">
-          <head xml:id="b1d3qun-Hseclus">Secundus articulus</head>
+          <head xml:id="b1d3qun-Hseclus"><supplied>Secundus articulus</supplied></head>
           <div xml:id="b1d3qun-Dsaprdu">
-            <head xml:id="b1d3qun-Hpridub">Primum dubium</head>
+            <head xml:id="b1d3qun-Hpridub"><supplied>Primum dubium</supplied></head>
             <p xml:id="b1d3qun-scihri">Sed contra istam est primum dubium 
               contra illud in quo dicitur consistere ratio imaginis, quia non videtur quod in substantia animae aliquo 
               modo, etiam imperfecte, consistat ratio imaginis, quia imago necessario requirit 
@@ -815,7 +833,7 @@
               est originatio et ordo conformis Trinitati sicut in intellectu, dato quod 
               sic sit assignanda ratio imaginis. Consequens non conceditur igitur, etc.</p>
             <div>
-              <head>Responsio ad argumenta pro primo dubio</head>
+              <head><supplied>Responsio ad argumenta pro primo dubio</supplied></head>
               <p xml:id="b1d3qun-rapaoe">Responsio ad primum. Ad primum verum est 
                 quod ad salvandum rationem imaginis in mente rationali, aliqui 
                 ponit aliquam distinctionem vel non-identitatem inter substantiam animae et intellectum 
@@ -941,11 +959,11 @@
             </div>
           </div>
           <div xml:id="b1d3qun-Dsasedu">
-            <head xml:id="b1d3qun-Hsecdub">Secundum Dubium</head>
+            <head xml:id="b1d3qun-Hsecdub"><supplied>Secundum Dubium</supplied></head>
             <p xml:id="b1d3qun-spevqn">Secundum dubium principale est utrum secunda pars imaginis increatae, 
               scilicet, actualis intellectio gignatur a prima, scilicet a memoria, et videtur quod non.</p> 
             <div> 
-              <head xml:id="b1d3qun-Hrpppds">Rationes principales pro dubio secundo</head> 
+              <head xml:id="b1d3qun-Hrpppds"><supplied>Rationes principales pro dubio secundo</supplied></head> 
               <p xml:id="b1d3qun-pqqsee">Primo, 
                 quia quid vocaretur ibi memoria vel nuda substantia animae, et illa non 
                 sufficit sine obiecto vel specie vel habitu principare actum, tunc enim semper 
@@ -1018,7 +1036,7 @@
                 memoria sicut a parente.</p>
             </div>
             <div>
-              <head>Responsio ad secundum dubium</head>
+              <head><supplied>Responsio ad secundum dubium</supplied></head>
               <p xml:id="b1d3qun-aidicd">Ad illud dubium, dico ad praesens quod immo 
                 intellectio actualis distinguitur, sicut proles, a memoria, id est, ab intellectu 
                 existente in actu primo sufficienti respectu intellectionis gignendae, vel per 
@@ -1083,7 +1101,7 @@
                 a mente, sicut verbum et proles a dicente.</p>
             </div>
             <div>
-              <head>Argumenta contra responsionem</head>
+              <head><supplied>Argumenta contra responsionem</supplied></head>
               <p xml:id="b1d3qun-pctdqg"><supplied>Primus.</supplied> Contra tamen hanc sententiam 
                 <app>
                   <lem>eius</lem>
@@ -1287,7 +1305,7 @@
                 habent, ideo  omittantur.</p>
             </div>
             <div>
-              <head>Responsio propria ad argumenta</head>
+              <head><supplied>Responsio propria ad argumenta</supplied></head>
               <p xml:id="b1d3qun-inoads">Istis non obstantibus, teneo 
                 conclusionem contrariam quam 
                 <cit>
@@ -1512,9 +1530,9 @@
                 subtractione ab illa vel illis quae erunt pulchritudo vel sanitas.</p>
             </div>
             <div>
-              <head>Responsio ad principales argumenta</head>
+              <head><supplied>Responsio ad principales argumenta</supplied></head>
               <div>
-                <head>Ad prima argumenta</head>
+                <head><supplied>Ad prima argumenta</supplied></head>
                 <p xml:id="b1d3qun-apasis">
                   <cit>
                     <ref>Ad primum argumentum principale istius dubii</ref>
@@ -1554,7 +1572,7 @@
                   auctoritas.</p>
               </div>
               <div>
-                <head>Ad secundum principale argumentum huius dubii secundi</head>
+                <head><supplied>Ad secundum principale argumentum huius dubii secundi</supplied></head>
                 <p xml:id="b1d3qun-asanis">
                   <cit>
                     <ref>Ad secundum</ref>
@@ -1779,11 +1797,11 @@
             </div>
           </div>
           <div xml:id="a2tertiumdubium">
-            <head>Tertium Dubium</head>
+            <head><supplied>Tertium Dubium</supplied></head>
             <p xml:id="b1d3qun-tdsan">Tertium dubium secundi articuli est utrum tertia pars imaginis 
               procedat realiter a secunda, amor, scilicet, a notitia.</p>
             <div>
-              <head>Rationes principales</head>
+              <head><supplied>Rationes principales</supplied></head>
               <p xml:id="b1d3qun-evqtej">Et videtur quod non, 
                 sic, tunc amor angeli qui peccavit quo affectavit aequalitatem 
                 Dei processit ab alia notitia, aut igitur ab ob<pb ed="#S" n="82-v" />
@@ -1891,7 +1909,7 @@
                 propterea, hoc erat contra casum.</p>
             </div>
             <div>
-              <head>Oppositum</head>
+              <head><supplied>Oppositum</supplied></head>
               <p xml:id="b1d3qun-aocdim">Ad oppositum, 
                 <cit>
                   <ref>XV <title ref="#deTrinitate">De Trinitate</title> c. 67 et 77</ref>
@@ -2001,7 +2019,7 @@
                 ipsum etc.</p>
             </div>
             <div>
-              <head>Responsio ad tertium dubium</head>
+              <head><supplied>Responsio ad tertium dubium</supplied></head>
               <p xml:id="b1d3qun-aidaps">Ad istud dubium dicendum quod sic loquendo de amore quae 
                 est actus amandi vel appetendi per viam naturae causatus, et ideo amor 
                 huiusmodi inter partes imaginis proportionaliter Spiritu Sancto in imagine increata 
@@ -2041,9 +2059,9 @@
                 unum procedit realiter ab alio et tertium ab utroque.</p>
             </div>
             <div>
-              <head>Ad rationes principales</head>
+              <head><supplied>Ad rationes principales</supplied></head>
               <div>
-                <head>Ad primam rationem</head>
+                <head><supplied>Ad primam rationem</supplied></head>
                 <p xml:id="b1d3qun-apapai">Ad primum argumentum 
                   in contrarium respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod ista notitia actualis quae primo fuit 
                   clara Dei notitia, scilicet, quando Deus ostendit se clare illi angelo, 
@@ -2088,7 +2106,7 @@
                   Dei notitia clara vel obscura.</p>
               </div>
               <div>
-                <head>Ad secundam rationem</head>
+                <head><supplied>Ad secundam rationem</supplied></head>
                 <p xml:id="b1d3qun-asbscd">Ad secundum bene respondet <name ref="#RichardFitzRalph">Fitzralph</name>. 
                   Concedo quod primus amor processit a notitia accidentali vel verbo, communiter loquendo 
                   de verbo. Unde verbum communiter accipitur pro quacumque cogitatione 
@@ -2204,7 +2222,7 @@
                   vocem extra vocat ibi verbum.</p>
               </div>
               <div>
-                <head>Ad tertium argumentum</head>
+                <head><supplied>Ad tertium argumentum</supplied></head>
                 <p xml:id="b1d3qun-atvoac">Ad tertium, verum est quod primus amor 
                   procedit a notitia aliqua actuali et per consequens notitia praesupposita 
                   primo amori non procedit ab amore actuali aliquo et, 
@@ -2221,7 +2239,7 @@
                   obiecti alicuius certi.</p>
               </div>
               <div>
-                <head>Ad quartam rationem</head>
+                <head><supplied>Ad quartam rationem</supplied></head>
                 <p xml:id="b1d3qun-aqropt">Ad quartum respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod appetitus sensitivus 
                   non potest esse sine cogitatione, nec fames, nec sitis. Cum dicit probabiliter 
                   quod fames et sitis possunt esse in animali absque alia sensatione alicuius 
@@ -2273,7 +2291,7 @@
                   sicut quilibet experitur.</p>
               </div>
               <div>
-                <head>Ad quintam rationem</head>
+                <head><supplied>Ad quintam rationem</supplied></head>
                 <p xml:id="b1d3qun-aqqenc">Ad quintum 
                   <app>
                     <lem>dicendum</lem>
@@ -2335,9 +2353,9 @@
             </div>
           </div>
           <div xml:id="a2quartumdubium">
-            <head>Quartum dubium</head>
+            <head><supplied>Quartum dubium</supplied></head>
             <div>
-              <head>Opinio Adam</head>
+              <head><supplied>Opinio Adam</supplied></head>
               <p xml:id="b1d3qun-uavpin">Utrum autem 
                 <pb ed="#S" n="83-v" />
                 <cb ed="#S" n="a" /> 
@@ -2368,7 +2386,7 @@
                 igitur.</p>
             </div>
             <div>
-              <head>Contra opinionem Adam</head>
+              <head><supplied>Contra opinionem Adam</supplied></head>
               <p xml:id="b1d3qun-schehp"><supplied>Primum.</supplied> Sed contra hoc arguitur quia voluntas praecipit intellectui quod consideret 
                 A, aut igitur tunc A est actu consideratum et tunc superflue 
                 praeciperet voluntas, aut non et habetur propositum. </p>
@@ -2446,7 +2464,7 @@
                 non intellectio.</p>
             </div>
             <div>
-              <head>Responsio</head>
+              <head><supplied>Responsio</supplied></head>
               <!-- double check this paragraph -->
               <p xml:id="b1d3qun-apiivh">Ad primum istorum responsum est inmediate ante
                 ultimam dubitationem vel enim non dicente vult voluntas A nec intellectus 
@@ -2550,9 +2568,9 @@
             </div>
           </div>
           <div xml:id="a2quintumdubium">
-            <head>Quintum Dubium</head>
+            <head><supplied>Quintum Dubium</supplied></head>
             <div>
-              <head>Principales rationes</head>
+              <head><supplied>Principales rationes</supplied></head>
               <p xml:id="b1d3qun-qdphev">Quintum dubium principale est 
                 an partes imaginis creatae sint aequales. Quod non quia 
                 <cit>
@@ -2648,7 +2666,7 @@
                 talem actum cognoscit, igitur non aequantur in eo, igitur etc.</p> 
             </div>
             <div>
-              <head>Ad oppositum</head>
+              <head><supplied>Ad oppositum</supplied></head>
               <p xml:id="b1d3qun-aoavsa">Ad oppositum 
                 arguitur per 
                 <cit>
@@ -2691,7 +2709,7 @@
                 amat se quam est et non dicit non minus amat se quam 
                 est amabilis, nam est infinite amabilis infinite divini amoris.</p>
               <div>
-                <head>Responsio Fitzralph</head>
+                <head><supplied>Responsio Fitzralph</supplied></head>
                 <p xml:id="b1d3qun-aidadt">Ad istum dubium respondet et bene in quibusdam bene <name ref="#RichardFitzRalph">Fitzralph</name> 
                   dicens quod pars dupliciter pars dupliciter sumitur pro parte secundum fidem et pro parte secundum 
                   imaginationem. Hanc distinctionem de parte ponit 
@@ -2814,7 +2832,7 @@
               </div>
             </div>
             <div>
-              <head>Contra</head>
+              <head><supplied>Contra</supplied></head>
               <p xml:id="b1d3qun-shfaap">Sed haec faciliter potest impediri sic: quod caritas viae, id est, 
                 quae communiter habetur a viatore in via, non est mensura[?] beatitudinis conferendae 
                 tam cogitative quam fruitive, et potest esse, ut videtur, 
@@ -2842,7 +2860,7 @@
                 in aliquo.</p>
             </div>
             <div>
-              <head>Responsio ad primum</head>
+              <head><supplied>Responsio ad primum</supplied></head>
               <p xml:id="b1d3qun-ecpvac">Et cum probatur quod voluntas semper potest aeque ferventer, id est, aeque 
                 intense obiectum summe delectabile et placibile diligere sicut intellectus 
                 illud intelligit, etiam amota caritate negandum est illud, haec tamen concedendum est 
@@ -2877,7 +2895,7 @@
                 a proportione aequalitatis huiusmodi nisi aliud adiuvet, sicut credo.</p>
             </div>
             <div>
-              <head>Responsio ad secundum</head>
+              <head><supplied>Responsio ad secundum</supplied></head>
               <p xml:id="b1d3qun-eepacc">Ex 
                 eodem patet planissime ad secundum, dato enim quod dupletur visio 
                 Petri et etiam eius bonitas, dummodo non duplicetur activitas propria 
@@ -2900,7 +2918,7 @@
                 revelatum.</p>
             </div>
             <div>
-              <head>Responsio Fitzralph ad rationes principales</head>
+              <head><supplied>Responsio Fitzralph ad rationes principales</supplied></head>
               <p xml:id="b1d3qun-apliqa">Ad primum argumentum istius dubii, <name ref="#Augustine">Augustinus</name> loquendo de aequalitate 
                 secundo modo dicta in positione, et isto modo verum est quod non 
                 sunt partes istae imaginis aequales in viatoribus communiter quia, 
@@ -2965,7 +2983,7 @@
                 bonum quantum ipsa meruit optinere.</p> 
             </div>
             <div>
-              <head>Responsio Wodeham</head> 
+              <head><supplied>Responsio Wodeham</supplied></head> 
               <p xml:id="b1d3qun-sicffa">Sic igitur concedenda est conclusio quod, sic loquendo, 
                 mens, quando amor eius erit perfectus, ipsa tantum amat se quantum 
                 est et Deus ipsam etiam tantum quantum ipsa est. Et ideo ipsa seipsam quantum 
@@ -3068,7 +3086,7 @@
             </div>
           </div>
           <div>
-            <head>Ad rationes principales</head>
+            <head><supplied>Ad rationes principales</supplied></head>
             
             <p xml:id="b1d3qun-apaaat">Ad primum argumentum principale quaestionis, <quote>si servasset in se bonum 
               etc.</quote> Dicendum quod imago Dei sumitur uno modo pro substantia mentis creaturae rationalis, 
@@ -3145,4 +3163,3 @@
     </body>
   </text>
 </TEI>
-
