@@ -2559,40 +2559,131 @@
             <div>
               <head>Principales rationes</head>
               <p xml:id="b1d3qun-qdphev">Quintum dubium principale est 
-                an partes imaginis creatae sint aequales. Quod non quia 
+                an partes imaginis 
+              	<app>
+              		<lem>creatae</lem>
+              		<rdg wit="#M">causatae</rdg>
+              	</app> 
+              	sint aequales. 
+              	<app>
+              		<lem>Et videtur</lem>
+              		<rdg wit="#S" type="variation-absent"/>
+              	</app> 
+              	quod non quia 
                 <cit>
-                  <ref><name ref="#Augustine">Augustinus</name> 15 <title ref="#deTrinitate">De Trinitate</title> c. 68</ref>
+                  <ref>
+                  	<name ref="#Augustine">Augustinus</name> 
+                  	15 
+                  	<title ref="#deTrinitate">De Trinitate</title> c. 
+                  	<app>
+                  		<lem>68</lem>
+                  		<rdg wit="#T">66</rdg>
+                  	</app>
+                  </ref>
                   <bibl>Augustine, De Trinitate, XIV, c. 68, ???</bibl>
                 </cit> 
-                a singulis bina, et a binis singula, maioribus minora 
-                vincuntur et per hoc probat quod non sunt aequales. Sed respondetur quod ipse 
-                probat haec secundum suos actus in via et hoc est verum.</p>
+                a singulis bina, et a binis singula, 
+              	<app> <!-- Lombard I, d. 3, c. 2, p. 4, for a possible similar phrase -->
+              		<lem>et a singulis singula</lem> <!-- this is also not present in abbreviatio; i'm not sure if it should be included or not -->
+              		<rdg wit="#S #V" type="variation-absent"/>
+              	</app>, 
+              	maioribus minora 
+                vincuntur et per hoc 
+              	<app>
+              		<lem>probatur</lem>
+              		<rdg wit="#S #M #V">probat</rdg> <!-- possible transcription errors in S M and V, probatur seems best, but re-reading is required -->
+              	</app>
+              	quod non sunt aequales. 
+              	<!-- possible new paragraph break -->
+              	Sed respondetur quod ipse 
+                probat 
+              	<app>
+              		<lem>per hoc quod non sunt aequales</lem>
+              		<rdg wit="#S">haec</rdg>
+              	</app> 
+              	secundum suos actus in via et hoc est verum.</p>
               
-              <p xml:id="b1d3qun-pcssma">Primum. Contra: si haec intelligit, tunc acciperit falsum quod a singulis singula vincuntur quia 
+              <p xml:id="b1d3qun-pcssma">Primum. Contra: si 
+              	<app>
+              		<lem>hoc</lem>
+              		<rdg wit="#S">haec</rdg> <!-- dbcheck; likely misreading in S -->
+              	</app> 
+              	intelligit, tunc 
+              	<app>
+              		<lem>acceperit</lem>
+              		<rdg wit="#M">accipit</rdg>
+              		<rdg wit="#S">acciperit</rdg> <!-- dbcheck -->
+              	</app> 
+              	falsum quod a singulis singula vincuntur quia 
                 numquam vincitur memoria ab intellegentia quod quicquid intelligentia intelligit 
-                actu, memoria meminit suo modo actu.</p>
+                actu, memoria 
+                <app>
+                	<lem/>
+                	<rdg wit="#T" type="variation-present">retinet</rdg> <!-- definitley present in T, but does not seem to belong here -->
+                </app> 
+              	meminit suo modo actu.</p>
               
               <p xml:id="b1d3qun-sisnac">Secundum. Item si sint, 
-                aequales quicquid memoria memineret intellectus intelligeret sicut dicit 
+                <app>
+                	<lem>tunc</lem> <!-- I prefer this reading because it makes the argument more explicit -->
+                	<rdg wit="#S #T" type="variation-absent"/> 
+                </app> 
+                aequales quicquid memoria 
+              	<unclear>meminerit <!-- all diplomatic readings currrently have memineret, but this seems like a mistake; dbcheck and fix --></unclear>, 
+              	<app>
+              		<lem>intellectus</lem>
+              		<rdg wit="#T">intelligentia</rdg>
+              	</app> 
+              	intelligeret, sicut dicit 
                 <cit>
                   <ref>
                     <name ref="#Augustine">Augustinus</name> 10 <title ref="#deTrinitate">De Trinitate</title>, c. 28
                   </ref>
-                  <bibl>Augustine, De Trinitate, X, c. 28, ???</bibl>
+                  <bibl>Augustine, De Trinitate, X, c. 28, ???</bibl> <!-- possibily chapter 11, n. 18; see lombard -->
                 </cit> 
                 et 
                 <cit>
-                  <ref>
+                	<ref type="commentary" target="http://scta.info/resource/pll1d3c2-d1e3545"> <!-- type=commentary is depreciated; and needs to be removed in code -->
                     <name ref="#Lombard">Magister</name> allegat primo libro, d. 3,
                   </ref>
-                  <bibl>Lombard, Sententia, I, d. 3, ???</bibl>
+                	<bibl><ref type="commentary" target="http://scta.info/resource/pll1d3c2-d1e3545">Lombard, Sententia, I, d. 3, c. 2, n. 4</ref></bibl> <!-- dbcheck ref. This is my best guess right now-->
                 </cit> 
-                et hoc ibidem ponitur 
-                aequalitas partium imaginis quia sic possunt saltem, sed consequens videntur falsum, 
-                quia aut intelligeret <name ref="#Augustine">Augustinus</name> de intelligere actu primo aut de actu 
-                secundo. Non primo, quia intelligere in actu primo non est nisi meminere manifestum est. 
-                Et tunc nihil declararet per illud dictum, si intellegat de intelligere in 
-                actu secundo, tunc accipit falsum quia, scilicet, quicquid meminit intelligit quia multa 
+                et 
+                <app>
+                	<lem>in</lem> <!-- I prefer this as I think it makes the sense more explicit -->
+                	<rdg wit="#S #M #T" type="variation-absent"/>
+                </app> 
+              	hoc ibidem ponitur 
+                aequalitas partium imaginis quia sic possunt saltem. Sed consequens 
+              	<app>
+              		<lem>videtur</lem>
+              		<rdg wit="#S #T #V">videntur</rdg> <!-- most likely an error in transcription; dbheck -->
+              	</app> 
+              	falsum, 
+                quia aut intelligeret <name ref="#Augustine">Augustinus</name> de 
+              	<mentioned>intelligere</mentioned> actu primo aut
+              	<app>
+              		<lem wit="#T">de <mentioned>intelligere</mentioned> actu</lem>
+              		<rdg wit="#M #V">actu</rdg>
+              		<rdg wit="#S">de actu</rdg>
+              		<note xml:lang="en">The reading from S is the only reading that really seems to be mistake as it suggestions that Wodeham 
+              		is discussion Augustine's understanding of the "term" "actu" rather than "intelligere". The reading from M and V rely on the 
+              		earlier part of the disjunct, but T restates the full meaning in the second side of the disjunct. While redundant 
+              		it is also more explicit, so we follow the reading of intelligere here.</note>
+              	</app> 
+              	secundo. Non primo, quia intelligere in actu primo non est nisi meminere manifestum est, 
+                et tunc nihil 
+              	<app>
+              		<lem>declararet</lem>
+              		<rdg wit="#M">declarat</rdg> <!-- dbcheck; not sure what the best reading is, but subjunctive ssems better -->
+              	</app> 
+              	per illud dictum. Si intellegat de <mentioned>intelligere</mentioned> in 
+                actu secundo, tunc accipit falsum, 
+              	<app>
+              		<lem/>
+              		<rdg wit="#S #T">quia</rdg> <!-- dbcheck, but this doesn't seem correct because the "quia" seems stated again before multa -->
+              	</app> 
+              	scilicet quicquid meminit intelligit, quia multa 
                 habeo in memoria quae non actualiter cogito.</p>
               
               <p xml:id="b1d3qun-titedr">Tertium. Item tunc 
