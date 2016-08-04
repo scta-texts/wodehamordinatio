@@ -2680,44 +2680,112 @@
               	per illud dictum. Si intellegat de <mentioned>intelligere</mentioned> in 
                 actu secundo, tunc accipit falsum, 
               	<app>
-              		<lem/>
-              		<rdg wit="#S #T">quia</rdg> <!-- dbcheck, but this doesn't seem correct because the "quia" seems stated again before multa -->
+              		<lem n="falsum"/>
+              		<rdg wit="#S #T">quia</rdg> <!-- dbcheck, but this doesn't seem correct because the "quia" seems stated again before "multa" -->
               	</app> 
               	scilicet quicquid meminit intelligit, quia multa 
                 habeo in memoria quae non actualiter cogito.</p>
               
               <p xml:id="b1d3qun-titedr">Tertium. Item tunc 
-                memoria, intelligentia, et voluntas essent aequales. Consequens falsum, quia ista non distinguuntur realiter. 
+                memoria, 
+                <app>
+                	<lem n="memoria"/>
+                	<rdg wit="#V #T">et</rdg>
+                </app> 
+              	intelligentia, et voluntas essent aequales. Consequens 
+              	<app>
+              		<lem>est</lem> <!-- I prefer this even though supported by only one witness because it si more explicit -->
+              		<rdg wit="#S #V #T" type="variation-absent"/>
+              	</app> 
+              	falsum, quia ista non distinguuntur realiter. 
                 Igitur ista non sunt aequalia. Consequentia patet per 
                 <cit>
-                  <ref><name ref="#HilaryOfPoitiers">Hilarius</name> 3 <title>De Trinitate</title></ref>
-                  <bibl>Hilarius de Poitiers, De Trinitate, IIII, ???</bibl>
+                  <ref><name ref="#HilaryOfPoitiers">Hilarium</name> III <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title></ref>
+                  <bibl>Hilarius de Poitiers, De Trinitate, III, ???</bibl>
                 </cit> 
                 et per 
                 <ref><name ref="#Lombard">Magistrum</name> primo libro, distinctione 31,</ref> 
                 ubi dicit quod 
                 <cit>
-                  <quote>aequalitas et similitudo non sunt, nisi ubi est distinctio realis.</quote>
-                  <bibl>Lombard, Sententia, I, d. 31</bibl>
-                </cit>
+                	<!-- @type should be changed to "paraphrase" as I cannot find a direct quote here -->
+                	<!-- I also can't narrow this quote down to a specific paragraph; so I have targetd just chapter 1 -->
+                  <quote type="commentary" source="http://scta.info/resource/pl-l1d31c1">aequalitas et similitudo non sunt, nisi ubi est distinctio realis</quote>
+                	<bibl><ref type="commentary" target="http://scta.info/resource/pl-l1d31c1">Lombard, Sententia, I, d. 31, c. 1, c1</ref></bibl>
+                </cit>.
               </p>
               
               <p xml:id="b1d3qun-qisqii">Quartum. Item si sic, tunc istae partes 
-                forent aequales ratione suorum actuum. In patria, tamen, ibi erunt sanatae 
-                a languore sicut dicit 
+                forent aequales ratione suorum actuum. In patria, 
+              	<app>
+              		<lem>tamen</lem>
+              		<rdg wit="#V #T">cum</rdg> <!-- dbcheck; most likely a transcription error somewhere -->
+              	</app>, 
+              	ibi 
+              	<app>
+              		<lem>erunt</lem> <!-- future tense makes more sense in discussion of "in patria" -->
+              		<rdg wit="#V #T">erant</rdg> <!-- dbcheck -->
+              	</app> 
+              	sanatae 
+                a languore, sicut dicit 
                 <cit>
-                  <ref><name ref="#Augustine">Augustinus</name> <unclear>15</unclear> <title ref="#deTrinitate">De Trinitate</title> c. 68,</ref>
+                  <ref><name ref="#Augustine">Augustinus</name> 
+                  	<app>
+                  		<lem><num>15</num></lem>
+                  		<rdg wit="#S"><num>3</num></rdg> <!-- unclear dbcheck -->
+                  	</app> 
+                  	<title ref="#deTrinitate">De Trinitate</title> c. 68</ref>
                   <bibl>Augustine, De Trinitate, XV, c. 68, ???</bibl>
-                </cit> 
+                </cit>, 
                 sed hoc 
-                est falsum, quia tunc in patria amor naturaliter esset aequalis cogitationi, si voluntas 
-                non impediretur, quia voluntas potest ibi tantum amare quantum intellectus potest 
-                videre, et per consequens, cum voluntas ibi habeat adiuvans ipsam, puta 
-                caritatem, quae non excidit secundum <name ref="#Paul">Apostolum,</name> sequitur quod voluntas plus 
-                amabit quam intellectus intelliget.</p>
+                est falsum, quia tunc in patria amor 
+              	<app>
+              		<lem>naturaliter</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+              	esset aequalis cogitationi, si voluntas 
+                non impediretur, 
+                <app>
+                	<lem> <!-- seems like a pretty significant omission on the part of S and V -->
+                		<app>
+                			<lem wit="#T">sed voluntas ibi</lem>
+                			<rdg wit="#M">quia voluntas</rdg>
+                		</app> 
+                		non impeditur</lem>
+                	<rdg wit="#S #V" type="variation-absent"/>
+                </app>
+                quia voluntas potest ibi tantum amare 
+              	<app>
+              		<lem>quantum</lem>
+              		<rdg wit="#M">sicut</rdg>
+              	</app> 
+              	intellectus potest 
+                videre. Et per consequens, cum voluntas ibi 
+              	<app>
+              		<lem>habeat</lem>
+              		<rdg wit="#M">habebit</rdg>
+              	</app> 
+              	adiuvans ipsam, puta 
+                caritatem, quae non excidit secundum <name ref="#Paul">Apostolum,</name> 
+              	sequitur quod voluntas plus 
+                amabit quam 
+              	<app>
+              		<lem>intellectus</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	intelliget.</p>
               
-              <p xml:id="b1d3qun-qitqei">Quintum. Item tunc, in patria, cogitatio mentis 
-                et eius amor forent aequales. Consequens videtur inconveniens quia 
+              <p xml:id="b1d3qun-qitqei">Quintum. Item tunc, in patria, 
+              	<app>
+              		<lem>cognitio</lem>
+              		<rdg wit="#S">cogitatio</rdg> <!-- this is most likely a mistake in the S transcription or at most an orthographic variant that should be ignored -->
+              	</app> 
+              	mentis 
+                et eius amor forent aequales. Consequens videtur 
+              	<app>
+              		<lem>inconveniens</lem>
+              		<rdg wit="#V">falsum</rdg>
+              	</app> 
+              	quia 
                 ibi 
                 <cit>
                   <quote xml:id="b1d3qun-Qaeeeep">amor eius erit perfectus</quote>
@@ -2725,23 +2793,90 @@
                 </cit> 
                 sicut dicit 
                 <ref corresp="#b1d3qun-Qaeeeep">
-                  <name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c. 9 de parvis.
-                </ref> 
-                Si igitur cogitatio sit aequalis amori, sequitur quod ibi 
-                mens tantum se cognoscit quantum est. Sed Deus ibi ipsam non cognoscit 
-                nisi tantum quantum ipsa mens est, igitur mens est ibi tantum se cognoscit quantum Deus eam 
+                  <name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> c. 9, de parvis
+                </ref>. 
+                Si igitur cognitio sit aequalis amori, sequitur quod 
+              	<app>
+              		<lem>ibi</lem>
+              		<rdg wit="#M">nisi</rdg> <!-- dbcheck transcript -->
+              	</app> 
+                mens tantum se cognoscit 
+                <app>
+                	<lem n="cognoscit"/>
+                	<rdg wit="#M" type="variation-present">se</rdg> <!-- dbcheck if this is a transcription error -->
+                </app> 
+              	quantum est. Sed Deus ibi ipsam non cognoscit 
+                nisi tantum quantum ipsa 
+              	<app>
+              		<lem>mens</lem>
+              		<rdg wit="#V" type="variation-absent"/>
+              	</app> 
+              	<app> <!-- this is a difficult sequnece, best reading needs review -->
+              		<lem>est, igitur 
+              			<app>
+              				<lem wit="#S" n="igitur"/>	
+              				<rdg wit="#V" type="variation-present">ipsa</rdg>
+              			</app> 
+              			mens 
+              			<app>
+              				<lem wit="#S">est</lem>
+              				<rdg wit="#V" type="variation-absent"/>
+              			</app>
+              		</lem>
+              		<rdg wit="#M #T" type="variation-absent"/>
+              	</app> 
+              	ibi tantum se cognoscit quantum Deus eam 
                 cognoscit quod est impossibile.</p>
               
               <p xml:id="b1d3qun-isseie">
                 <pb ed="#S" n="84-r" />
                 <cb ed="#S" n="b" /> 
-                Sextum. Item si sic, tunc beatus in patria aequaliter amaret Deum et omnia alia 
-                posito quod aequae clare cognoscat Deum et omnia alia quod est impossibile quia cogitatis 
-                bonis in aequalibus aequaliter magis amat beatus magis bonum manifestum[?] est. Praeterea 
-                actus malus hic in via non est volitus a beato, quia tunc 
-                ipse peccaret nec est nolitus, quia tunc non esset in omnibus sicut vellet 
-                et per consequens non haberet quicquid vult, et ita non esset beatus, et tamen 
-                talem actum cognoscit, igitur non aequantur in eo, igitur etc.</p> 
+                Sextum. Item si sic, tunc beatus in 
+              	<app>
+              		<lem>patria</lem>
+              		<rdg wit="#M">purum</rdg> <!-- dbcheck; likely mistake in transcription -->
+              	</app> 
+              	aequaliter amaret Deum et omnia alia 
+                posito quod 
+              	<app>
+              		<lem>aequae clare</lem>
+              		<rdg wit="#T">aeque claro</rdg> <!-- review diplomatic transcriptions here -->
+              	</app> 
+              	cognoscat Deum et omnia alia quod est impossibile quia 
+              	<app>
+              		<lem>cogitatis</lem>
+              		<rdg wit="#S">cognitis</rdg> <!-- dbchk; possible transcription error or orthographic variant -->
+              	</app> 
+                bonis in aequalibus aequaliter 
+                magis amat beatus 
+                magis bonum manifestum est. 
+              	<app>
+              		<lem>Praeterea</lem>
+              		<rdg wit="#T">Item</rdg>
+              	</app> 
+                actus malus hic in via non est 
+              	<app>
+              		<lem>volitus</lem>
+              		<rdg wit="#S #V">nolitus</rdg> <!-- dbcheck; likely transcription error -->
+              	</app> 
+              	a beato quia tunc 
+                ipse peccaret, nec est nolitus quia tunc non esset in omnibus sicut 
+                <app>
+                	<lem>ipse</lem>
+                	<rdg wit="#S #M #V" type="variation-absent"/>
+                </app> 
+              	vellet, 
+                <app>
+                	<lem>et</lem>
+                	<rdg wit="#T" type="variation-absent"/>
+                </app> 
+              	per consequens non haberet quicquid vult, et ita non esset beatus, et tamen 
+                talem actum cognoscit, igitur non aequantur 
+              	<app>
+              		<lem>in</lem> <!-- unsure if this is best reading -->
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+              	eo, igitur etc.</p> 
             </div>
             <div>
               <head>Ad oppositum</head>
