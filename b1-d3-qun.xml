@@ -2905,16 +2905,80 @@
               <p xml:id="b1d3qun-pifase">Praeterea 
                 <ref corresp="#b1d3qun-Qmaeeas">9 <title ref="#deTrinitate">De Trinitate</title>, in fine,</ref> 
                 <cit>
-                  <quote xml:id="b1d3qun-Qmaeeas">mens, amor, et notitia, 
-                    eius tria quaedam sunt, et tamen perfecta sunt et aequalia sunt. Si enim 
-                    mens minus se amat quam est, verbi gratia, si se tantum amet hominis 
-                    mens quantum amandum est corpus hominis, cum plus sit ipsa 
-                    quam corpus, peccat et non amat perfectum amorem sui,</quote>
-                  <bibl>Augustine, De Trinitate, 9.4.4</bibl>
-                </cit> 
-                etc.
+                  <quote xml:id="b1d3qun-Qmaeeas">mens, amor, et notitia,
+                  	<app xml:id="b1d3qun-Aasasas" next="#b1d3qun-Apdtcdp">
+                  		<lem>aequales sunt</lem>
+                  		<rdg wit="#S #M #T" type="variation-absent" cause="homeoteleuton"/>
+                  	</app>
+                  </quote>
+                	<bibl>Augustine, De Trinitate, 9, xxx</bibl>
+                </cit>
+              <!-- consider new paragraph break -->
+              	<app xml:id="b1d3qun-Apdtcdp" prev="#b1d3qun-Aasasas" next="#b1d3qun-Aipmaen">
+              		<lem>Praeterea 9 de trinitate capitulo 9 de parvi</lem>
+              		<rdg wit="#S #M #T" type="variation-absent" cause="homeoteleuton"/>
+              	</app>
+              	<cit>
+              		<quote>
+              			<app xml:id="b1d3qun-Aipmaen" prev="#b1d3qun-Apdtcdp">
+              				<lem>in principio mens amore et notitia</lem>
+              				<rdg wit="#S #M #T" type="variation-absent" cause="homeoteleuton"/>
+              			</app>
+              			<app>
+              				<lem>eius</lem>
+              				<rdg wit="#M" type="variation-absent"/>
+              				<rdg wit="#T">aequales sunt</rdg>
+              			</app>
+              			tria quaedam sunt, et 
+              			<app>
+              				<lem>tamen</lem>
+              				<rdg wit="#V">cum</rdg> <!-- dbcheck; could be transcription error -->
+              			</app> 
+              			perfecta sunt
+              			<app>
+              				<lem>et</lem>
+              				<rdg wit="#M #T #V" type="variation-absent"/>
+              			</app> 
+              			<app>
+              				<lem>aequalia</lem>
+              				<rdg wit="#V">entia</rdg>
+              			</app> 
+              			sunt.
+              			Si enim 
+				            mens minus se amat quam est, verbi gratia, si se tantum 
+              			<app>
+              				<lem>amet</lem>
+              				<rdg wit="#T">amat</rdg> <!-- note in T "amat" also comes before "tantum" and not after -->
+              			</app> 
+              			hominis 
+				            mens quantum amandum est corpus hominis, <!-- T has "est" after corpus instead of before; M has "est" before "amandum"--> 
+				            cum plus sit ipsa  
+				            quam corpus 
+              			<app>
+              				<lem>hominis</lem> <!-- not sure if this should be included or not -->
+              				<rdg wit="#S #M #T" type="variation-absent"/> 
+              			</app>, peccat et non 
+				            <!-- a big variation in Vat begins here -->
+				            amat 
+              			<app>
+              				<lem>perfectum</lem>
+              				<rdg wit="#T">perfectus</rdg> <!-- dbcheck -->
+              			</app> 
+              			<app>
+              				<lem>amorem</lem>
+              				<rdg wit="#M">amoris</rdg>
+              			</app> 
+              			sui,</quote>
+              		<bibl>Augustine, De Trinitate, 9 xxx</bibl>
+              	</cit>
+              	etc.
               </p>
-              <p xml:id="b1d3qun-enbida">Et notitia bene hanc auctoritatem <name ref="#Augustine">Augustini</name>, qui probat solutionem 
+              <p xml:id="b1d3qun-enbida">Et 
+              	<app>
+              		<lem>nota</lem>
+              		<rdg wit="#S #M #V">notitia</rdg> <!-- dbcheck; this is probably a transcription error -->
+              	</app> 
+              	bene hanc auctoritatem <name ref="#Augustine">Augustini</name>, qui probat solutionem 
                 quam alias respondi quod tunc compraehendit intellectus creatus aliquid 
                 cum cognoscit illud ita perfecte, sicut ipsum est ens, non autem sicut 
                 ipsum est cognoscibile, quia infinite est cognoscibile. Ita dicit hic 
