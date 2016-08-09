@@ -2888,7 +2888,13 @@
                 </cit> 
                 et 
                 <cit>
-                  <ref><name ref="#Lombard">Magister</name> allegat d. 3 primi libri,</ref>
+                  <ref>
+                  	<name ref="#Lombard">Magister</name> allegat d. 3 primi 
+                  	<app>
+                  		<lem>libri</lem>
+                  		<rdg wit="#M" type="variation-absent"/>
+                  	</app>,
+                  </ref>
                   <bibl>Lombard, Sententia, I, d. 3</bibl>
                 </cit> 
                 ubi 
@@ -2897,9 +2903,9 @@
               <p xml:id="b1d3qun-pdtols">Praeterea 
                 <ref corresp="#b1d3qun-Qehaols">15 <title ref="#deTrinitate">De Trinitate</title> c. 68</ref> dicit quod 
                 <cit>
-                  <quote xml:id="b1d3qun-Qehaols">erunt haec aequalia quando erunt ab omni languore sanata.</quote>
+                  <quote xml:id="b1d3qun-Qehaols">erunt haec aequalia quando erunt ab omni languore sanata</quote>
                   <bibl>Augustine, De Trinitate 15.23.43</bibl>
-                </cit>
+                </cit>.
               </p>
               
               <p xml:id="b1d3qun-pifase">Praeterea 
@@ -2969,41 +2975,145 @@
               				<rdg wit="#M">amoris</rdg>
               			</app> 
               			sui,</quote>
-              		<bibl>Augustine, De Trinitate, 9 xxx</bibl>
+              		<bibl>Augustine, De Trinitate, 9, xxx</bibl>
               	</cit>
-              	etc.
+              	etc. <!-- this etc is not in V; not sure if it should be marked -->
+              	<app>
+              		<lem>Item, si <unclear><name ref="#Paul">Apostolus</name></unclear> se amet quam est <unclear>velut</unclear>, si tamen se amet quam amandum est Deus 
+		              	etiam sic 
+		              	<app>
+		              		<lem>minimum</lem>
+		              		<rdg wit="#V" type="correction-substitution">
+		              			<subst>
+		              				<del>minimim</del>
+		              				<add>minimum</add>
+		              			</subst>
+		              		</rdg>
+		              	</app>
+		              	peccat et non habet perfectum amorem sui etc.</lem>
+              		<rdg wit="#S #M #T" type="variation-absent"/>
+              	</app>
               </p>
               <p xml:id="b1d3qun-enbida">Et 
               	<app>
               		<lem>nota</lem>
               		<rdg wit="#S #M #V">notitia</rdg> <!-- dbcheck; this is probably a transcription error -->
               	</app> 
-              	bene hanc auctoritatem <name ref="#Augustine">Augustini</name>, qui probat solutionem 
-                quam alias respondi quod tunc compraehendit intellectus creatus aliquid 
-                cum cognoscit illud ita perfecte, sicut ipsum est ens, non autem sicut 
-                ipsum est cognoscibile, quia infinite est cognoscibile. Ita dicit hic 
-                <name ref="#Augustine">Augustinus</name> quod partes imaginis cum sunt perfectae, tunc mens non minus 
-                amat se quam est et non dicit non minus amat se quam 
-                est amabilis, nam est infinite amabilis infinite divini amoris.</p>
+              	bene hanc 
+              	<app>
+              		<lem>auctoritatem</lem>
+              		<rdg wit="#T">auctoritate</rdg> <!-- likely mistake in T -->
+              	</app> 
+              	<app>
+              		<lem><name ref="#Augustine">Augustini</name></lem>
+              		<rdg wit="#M">cuius</rdg>
+              	</app>, 
+              	<app>
+              		<lem>quia</lem>
+              		<rdg wit="#S #V">qui</rdg>
+              	</app> 
+              	probat solutionem 
+                quam alias respondi 
+              	<app>
+              		<lem>quod</lem>
+              		<rdg wit="#T">quia</rdg> <!-- not sure if this is worth noting -->
+              	</app> 
+              	tunc 
+              	<app>
+              		<lem>compraehendit</lem> <!-- note T has "comprehedit" but it comes after "creatus" -->
+              		<rdg wit="#M #V">apprehendit</rdg>
+              	</app> 
+              	intellectus creatus aliquid 
+                cum cognoscit illud ita perfecte, 
+              	<app xml:id="b1d3qun-Asieida" next="#b1d3qun-Aaidvip">
+              		<lem>sicut ipsum est ens, non autem sicut 
+		                ipsum est cognoscibile, quia infinite est cognoscibile. Ita dicit hic 
+		                <name ref="#Augustine">Augustinus</name> quod partes imaginis cum sunt perfectae, tunc mens non minus 
+		                amat se quam est et non dicit non minus amat se quam 
+		                est amabilis, nam est infinite amabilis infinite divini amoris</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app>.
+              </p>
               <div>
                 <head>Responsio Fitzralph</head>
-                <p xml:id="b1d3qun-aidadt">Ad istum dubium respondet et bene in quibusdam bene <name ref="#RichardFitzRalph">Fitzralph</name> 
-                  dicens quod pars dupliciter pars dupliciter sumitur pro parte secundum fidem et pro parte secundum 
-                  imaginationem. Hanc distinctionem de parte ponit 
-                  <cit>
-                    <ref><name ref="#Averroes">Commentator</name> primo <title ref="#PhysicsCommentary">Physicarum</title> commento 11,</ref>
-                    <bibl>Averroes, Comm. de physica, I, c. 11, ???</bibl>
-                  </cit>
-                  <!-- probably quote here -->
-                  et voto, inquit, partem secundum fidem illud quod in re est pars, et 
+                <p xml:id="b1d3qun-aidadt">
+                	<app xml:id="b1d3qun-Aaidvip" prev="#b1d3qun-Asieida">
+                		<lem>Ad istum dubium 
+                			<app>
+                				<lem>respondet</lem>
+                				<rdg wit="#T">respondetur</rdg>
+                			</app> 
+                			et bene in quibusdam bene 
+                			<app>
+                				<lem><name ref="#RichardFitzRalph">Fitzralph</name></lem>
+                				<rdg wit="#S" type="correction-addition">
+                					<add>Fitzralph</add>
+                				</rdg>
+                			</app> 
+		                  dicens quod <mentioned>pars</mentioned> dupliciter sumitur, 
+                			<app>
+                				<lem>scilicet</lem>
+                				<rdg wit="#S" type="variation-absent"/>
+                			</app> 
+                			pro parte secundum fidem et pro parte secundum 
+		                  imaginationem. Hanc distinctionem de parte ponit 
+		                  <cit>
+		                    <ref><name ref="#Averroes">Commentator</name> primo <title ref="#PhysicsCommentary">Physicarum</title> commento 
+		                    	<app>
+		                    		<lem>11</lem>
+		                    		<rdg wit="#V">4</rdg> <!-- dbcheck -->
+		                    	</app>,
+		                    </ref>
+		                    <bibl>Averroes, Comm. de physica, I, c. 11, ???</bibl>
+		                  </cit>
+		                  <!-- probably quote here -->
+		                  et 
+                			<app>
+                				<lem>voco</lem>
+                				<rdg wit="#S">voto</rdg> <!-- almost certainly a transcription error in T -->
+                			</app>, 
+                			inquit, 
+                			partem</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	secundum fidem illud quod in re est pars, et 
                   partem secundum imaginationem, voco ipsum totum consideratum per 
-                  modum partis. Et suppono quod per imaginationem creatam intelligamus 
+                  modum partis. Et suppono quod per imaginationem 
+                	<app>
+                		<lem>creatam</lem>
+                		<rdg wit="#M">causatam</rdg>
+                	</app> 
+                	intelligamus 
                   mentem humanam et per partes potentias naturales eiusdem, scilicet, memoriam, 
-                  intelligentiam, et voluntatem, quarum quaelibet est tota substantia animae 
-                  ut patet ex ista quaestione sed significatur ipsa per quamcumque istarum intellectionum 
+                  intelligentiam, et voluntatem, quarum quaelibet est tota substantia animae, 
+                  <app>
+                  	<lem>ut patet</lem>
+                  	<rdg wit="#M #T #V" type="variation-absent"/>
+                  </app> 
+                	ex 
+                	<app>
+                		<lem>alia</lem>
+                		<rdg wit="#S">ista</rdg>
+                	</app> 
+                	quaestione sed significatur ipsa per quamcumque istarum intellectionum 
                   per modum partis. Quod autem istae sint aequales potest multipliciter 
-                  intelligi. Uno modo ratione obiecti, scilicet, quod quicquid potest esse obiectum unius potest 
-                  esse obiectum cuiuslibet earum et quicquid est obiectum unius est obiectum alterius 
+                  intelligi. Uno modo ratione 
+                	<app>
+                		<lem>obiecti</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app>, 
+                	scilicet 
+                	<app>
+                		<lem>quod</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	quicquid potest esse obiectum unius potest 
+                  esse obiectum cuiuslibet 
+                	<app>
+                		<lem>earum</lem>
+                		<rdg wit="#M">eorum</rdg>
+                	</app> 
+                	et quicquid est obiectum unius est obiectum alterius 
                   eodem modo habitu, scilicet, vel actu, et sic loquitur 
                   <cit>
                     <ref><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c.14.</ref>
