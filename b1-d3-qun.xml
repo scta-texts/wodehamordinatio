@@ -3116,46 +3116,266 @@
                 	et quicquid est obiectum unius est obiectum alterius 
                   eodem modo habitu, scilicet, vel actu, et sic loquitur 
                   <cit>
-                    <ref><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c.14.</ref>
+                    <ref><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c.14</ref>
                     <bibl>Augustine, De Trinitate, 9, c. 14, ???</bibl>
-                  </cit>
+                  </cit>.
                 </p> 
                 
-                <p xml:id="b1d3qun-ampced">Alio modo possunt intelligi esse aequales ratione suorum actuum 
-                  sic, scilicet, quod nulla earum sit magis impedita a suo actu quam 
-                  alia a suo, sed quod habeat completam dispositionem naturalem in nullo impedita 
-                  a suo proprio actu, et isto modo loquitur 
+                <p xml:id="b1d3qun-ampced">Alio modo possunt intelligi esse 
+                	<app>
+                		<lem>aequales</lem>
+                		<rdg wit="#M">tales</rdg>
+                	</app> 
+                	ratione suorum actuum 
+                  <app>
+                  	<lem>sic</lem>
+                  	<rdg wit="#M" type="variation-absent"/>
+                  </app>, 
+                	scilicet, quod nulla earum sit magis impedita a suo actu quam 
+                  alia a suo, sed quod 
+                	<app> <!-- this seems to be the beginning of a sequence in which V seems to disagree about singular and plural forms -->
+                		<!-- the sequence needs to be read carefully, and each transcription needs to be rechecked -->
+                		<lem/>
+                		<rdg wit="#V" type="correction-addition">
+                			<add>omnes</add>
+                		</rdg>
+                	</app>
+                	<app>
+                		<lem>habeat</lem>
+                		<rdg wit="#V">habeant</rdg> <!-- dbcheck -->
+                	</app> 
+                	completam dispositionem naturalem in nullo 
+                	<app>
+                		<lem>impedita</lem>
+                		<rdg wit="#V">impeditam</rdg> <!-- dbcheck -->
+                	</app> 
+                  a suo proprio actu, <!-- actu precedes proprio in T --> 
+                  et isto modo loquitur 
                   <ref>
-                    <name ref="#Augustine">Augustinus</name> 18 <title ref="#deTrinitate">De Trinitate</title> c. 68,
+                    <name ref="#Augustine">Augustinus</name> 
+                  	<app>
+                  		<lem>15</lem>
+                  		<rdg wit="#S">18</rdg>
+                  	</app> 
+                  	<title ref="#deTrinitate">De Trinitate</title> c. 68,
                   </ref> 
-                  ubi dicit quod memoria, intellegentia, et voluntas in via aliquando
-                  sunt inaequales, quia videmus in aliquo maiorem memoriam quam 
-                  intelligentiam, in aliquo econtra, et in aliquo duo hoc amore magis superari. 
+                	ubi dicit quod memoria, intellegentia, et voluntas in via aliquando 
+                	sunt inaequales, quia 
+                	<cit>
+                		<quote>videmus in aliquo <!-- alio --> maiorem memoriam quam 
+                			intelligentiam, in aliquo <!-- alio --> econtra, et in aliquo <!-- alio --> duo 
+                			<app>
+                				<lem wit="#V">haec amoris magnitudine</lem> <!-- this reading concurs with actual augustine quote; readings below could be simply transcription errors -->
+                				<rdg wit="#S">hoc amore magis</rdg>
+                				<rdg wit="#M">hoc amores magnae</rdg>
+                				<rdg wit="#T">hic amore magis</rdg>
+                			</app> 
+                			superari</quote> 
+                		<bibl>Augustinus, De Trinitate, XV, 43, 23)
+                			<!-- Ista uero tria quae sunt in impari imagine, 
+                				etsi non locis quoniam non sunt corpora, 
+                				tamen inter se nunc in ista uita magnitudinibus separantur. 
+                				Neque enim quia moles nullae ibi sunt ideo non uidemus in alio maiorem esse memoriam quam intellegentiam, 
+                				in alio contra; in alio duo haec amoris magnitudine superari siue sint ipsa duo inter se aequalia siue non sint. -->
+                		</bibl>
+                	</cit>. 
                   Sed in patria erunt aequales quando erunt ab omni languore 
-                  sanatae et vult dicere quod mens humana quae est sua 
-                  memoria, et intelligentia, et voluntas respectu actus memoriae, scilicet, ad 
+                  sanatae et vult dicere quod mens humana 
+                	<app>
+                		<lem>quae</lem>
+                		<rdg wit="#M">non</rdg>
+                	</app> 
+                	est sua 
+                  memoria, et 
+                	<app>
+                		<lem>intelligentia</lem>
+                		<rdg wit="#M">intellectus</rdg>
+                	</app>, 
+                	et voluntas 
+                	<app>
+                		<lem>respectu</lem>
+                		<rdg wit="#M">illius</rdg>
+                	</app> 
+                	actus memoriae, scilicet, ad 
                   conservandum species in aliquo viatore est magis tenax 
-                  et facilioris receptionis minus impedita quam ad subtiliter 
-                  intelligendum et in aliquo econtra, et in alio ipsa est maius 
-                  prona et minus impedita ad amandum quam ad conservandum 
-                  vel ad subtiliter intelligendum. Sed in patria erunt aequalis et ab 
-                  omni languore sanatae, id est, in nullo erit mens impedita 
+                  et facilioris receptionis 
+                	<app>
+                		<lem>et</lem>
+                		<rdg wit="#S #T" type="variation-absent"/>
+                	</app> 
+                	minus impedita quam ad 
+                	<app>
+                		<lem/>
+                		<rdg>actualiter</rdg>
+                	</app> 
+                	subtiliter 
+                  intelligendum 
+                	<app>
+                		<lem>et</lem>
+                		<rdg wit="#V #T" type="variation-absent"/>
+                	</app> 
+                	in 
+                	<app>
+                		<lem>
+                			<app> 
+		                		<lem>aliquo</lem>
+		                		<rdg wit="#V">alio</rdg> <!-- dbcheck transcriptions -->
+		                	</app> 
+		                	<app>
+		                		<lem>econtra</lem>
+		                		<rdg wit="#V">econverso</rdg> <!-- dbcheck transcriptions -->
+		                	</app>, 
+		                	et in</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	alio 
+                	<app>
+                		<lem>ipsa est</lem>
+                		<rdg wit="#V" type="variation-absent"/> <!-- dbcheck transcriptions -->
+                	</app> 
+                	<app>
+                		<lem>magis</lem>
+                		<rdg wit="#S">maius</rdg> <!-- dbcheck transcriptions -->
+                	</app> 
+                  prona 
+                	<app>
+                		<lem>et</lem>
+                		<rdg wit="#T" type="variation-absent"/>
+                	</app> 
+                	minus impedita ad amandum quam ad conservandum 
+                  vel 
+                	<app>
+                		<lem>ad</lem>
+                		<rdg wit="#M #V #T" type="variation-absent"/>
+                	</app> 
+                	subtiliter intelligendum. 
+                	<app>
+                		<lem>Sed</lem>
+                		<rdg wit="#M">Et</rdg>
+                	</app> 
+                	in patria erunt 
+                	<app>
+                		<lem wit="#V #T">aequales</lem>
+                		<rdg wit="#S #M">aequalis</rdg>
+                	</app> 
+                	<app>
+                		<lem>et</lem>
+                		<rdg wit="#T">cum</rdg>
+                	</app> 
+                	ab 
+                  omni languore 
+                	<app>
+                		<lem>sanatae</lem>
+                		<rdg wit="#S" type="correction-substitution">
+                			<subst>
+                				<del>sanata</del>
+                				<add>sanatae</add>
+                			</subst>
+                		</rdg>
+                	</app>, 
+                	id est, 
+                	<app>
+                		<lem>in</lem>
+                		<rdg wit="#V" type="correction-addition">
+                			<add>in</add>
+                		</rdg>
+                	</app> 
+                	nullo erit mens impedita 
                   ibi ab aliquo istorum actuum, sed erit incompleta dispositione 
                   naturali. Unde 
                   <ref>
-                    <name ref="#Augustine">Augustinus</name> secundum istum modum loquens 10 <title ref="#deTrinitate">De Trinitate</title> c. 26,
-                  </ref> 
+                  	<name ref="#Augustine">Augustinus</name> 
+                  	secundum istum 
+                  	<app>
+                  		<lem>modum</lem>
+                  		<rdg wit="#M" type="variation-absent"/>
+                  	</app> 
+                  	<app>
+                  		<lem/>
+                  		<rdg wit="#T" type="variation-present">loquendi</rdg>
+                  	</app>
+                  	loquens 
+                  	10 <title ref="#deTrinitate">De Trinitate</title> c. 
+                  	<app>
+                  		<lem>26</lem>
+                  		<rdg wit="#M">28</rdg>
+                  	</app>
+                  </ref>, 
+                	<app>
+                		<lem/>
+                		<rdg wit="#T" type="variation-present">loquens</rdg>
+                	</app>
                 	dicit 
-                  quod in his <unclear>tribus <!-- might be corrupted in S --></unclear> memoria, intelligentia, et voluntate solent inspici 
-                  ingenia parvulorum cuius praeferant indolem, quanto enim 
-                  tenacius et facilius puer meminit quanto alterius intelligit 
-                  et studet ardentius tanto est laudabilioris ingenii, 
-                  ubi satis patet quod comparat ista facilitatem et difficultatem quantum ad 
-                  actus suos et hoc accidit eis ex dispositione corporum  
+                  quod 
+                	<cit>
+                		<quote>in his tribus 
+                			<app>
+	                			<lem/>
+	                			<rdg wit="#V" type="variation-present">scilicet</rdg>
+	                		</app> 
+                			memoria, intelligentia, et voluntate solent inspici 
+		                  ingenia parvulorum cuius 
+                			<app>
+                				<lem>praeferant</lem>
+                				<rdg wit="#V #T">praeferunt</rdg> <!-- dbcheck -->
+                			</app> 
+                			<app>
+                				<lem>indolem</lem>
+                				<rdg wit="#M">in dolare</rdg> <!-- dbcheck; likely mistake in M -->
+                			</app>, 
+                			quanto enim 
+		                  tenacius et facilius 
+                			<app>
+                				<lem>puer</lem>
+                				<rdg wit="#T">praeteriti</rdg> <!-- dbcheck -->
+                			</app> 
+                			meminit 
+                			<app>
+                				<lem>quanto</lem>
+                				<rdg wit="#M">quando</rdg>
+                			</app> 
+                			<app>
+                				<lem>alterius</lem> <!-- very unsure about this reading; others might be more correct -->
+                				<rdg wit="#M">acrius</rdg>
+                				<rdg wit="#V #T">actus</rdg>
+                			</app> 
+                			<app>
+                				<lem>intelligit</lem>
+                				<rdg wit="#M" type="variation-absent"/>
+                			</app> 
+		                  et studet ardentius tanto est laudabilioris ingenii</quote>
+                		<bibl>Augustinus, De Trinitate, X, 11, 17</bibl>
+                	</cit>, 
+                  ubi satis patet quod 
+                	<app>
+                		<lem>comparat</lem> <!-- dbcheck -->
+                		<rdg wit="#V #T">cooperat</rdg> <!-- dbcheck -->
+                	</app> 
+                	<app> <!-- review and revise -->
+                		<lem>ista</lem>
+                		<rdg wit="#V">penes</rdg>
+                	</app> 
+                	facilitatem et difficultatem quantum ad 
+                  actus suos et hoc accidit eis ex dispositione 
+                	<app>
+                		<lem>corporis</lem>
+                		<rdg wit="#S #M">corporum</rdg> <!-- dbcheck -->
+                	</app> 
+                	<app>
+                		<lem/>
+                		<rdg wit="#S">
+                			<del rend="strikethrough">est</del>
+                		</rdg>
+                	</app>  
                   <pb ed="#S" n="84-v" />
                   <cb ed="#S" n="a" />
                   certum est et virtutibus sensitivis secundum earum dispositionem in bonitate comprehensionis 
-                  et debilitate.</p>
+                  et 
+                	<app>
+                		<lem>debilitate</lem>
+                		<rdg wit="#V #T">debilitatem</rdg>
+                	</app>.
+                </p>
                 
                 <p xml:id="b1d3qun-eshssa">Et secundum hoc et bene respondet doctor 
                   iste ad dubium praenotatum, quod loquendo de partibus secundum imaginationem 
