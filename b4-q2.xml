@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, quaestio 2</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Ueli Zahnd</editor>
+        <editor xml:id="NV"></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+         <date when="2016-08-16">August 16, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a <ref
+            target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+            Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
+          <witness xml:id="M">Paris, Bibl. Mazarine, Ms. 915</witness>    
+          <witness xml:id="V">Vatican Library, Cod. Vat. lat. 955</witness>
+          <witness xml:id="T">Tarazona, Bibl. de la Catedral, Cod. 7</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    	<schemaRef n="lbp-critical-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/critical.rng"/>
+    	<editorialDecl>
+    		<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a critical edition.</p>
+    	</editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-08-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="critical" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+      <div xml:id="startOn">
+       <!-- <pb ed="#M" n="66-r" facs="M66r"/><cb ed="#M" n="b"/>
+        <pb ed="#S" n="79-r" facs="S79r"/><cb ed="#S" n="b"/> 
+        <pb ed="#T" n="56-r" facs="T56r"/><cb ed="#T" n="a"/> 
+        <pb ed="#V" n="106-r" facs="V106"/> #V has only one column -->
+      </div>
+    </front>
+    <body>
+      <div xml:id="b4-q2">
+        <head>Librum IV, Quaestio 2</head>
+      	<p>
+      		<app>
+      			<lem/>
+      			<rdg wit="#M #T" type="variation-addition">Secundo circa idem quaero</rdg>
+      		</app> 
+      		posse insufficientiam cuilibet creature.
+      	</p>
+      	<div>
+      		<head>Argumenta</head>
+      		<div>
+      			<head>Quod non</head>
+      			<p>Et videtur hic primo quod non repugnat creare, quia sol potest creare lumen in 
+      				medio, ergo etc. Antecedens potest sic argui: ponatur quod deus suppleat actionem 
+      				solis in una parte medii, puta a, ita quod non agat nisi supplendo vicem solis. Et 
+      				creet deus proprie unum aliud lumen in alia parte medij, et sit b, et causet sol 
+      				lumen in tertia parte et sit c. Tunc lumen in b est vere creatum, ergo lumen in 
+      				a similiter est vere creatum. Et per consequens et lumen in c est creatum, quia 
+      				lumen in a et in c sunt simili modo producta per positione, quia deus non creat 
+      				lumen in a nisi praecise supplendo vicem solis.</p>
+      			<p>Et prima consequentia probatur, scilicet quod si lumen in b sit creatum, ergo et 
+      				lumen in a, cum ista duo lumina simili modo 
+      				<pb ed="#B" n="5-v"/>
+      				<cb ed="#S" n="a"/> 
+      				per omnia generentur et sint eiusdem 
+      				speciei. Et assumptum probatur, cum deus <cb ed="#U" n=""/> non aliter agat in b medium quam in 
+      				a, cum per assumptum sit idem, et agens idem, et productum omnino simile numero 
+      				solo differens, et omnis alia circumstantia consimilis. Ergo nec aliter agit deus in 
+      				b quam in a, ergo creat lumen in a.</p>
+      			<p>Respondetur negando conclusionem, quia et si sint similia per omnia ea quae in una 
+      				actione habens et ea quae in alia, tamen deus facit lumen in a de a, sed facit b de 
+      				nihilo, non de b. Contra: facere lumen de a non est aliud quam facere lumen in a 
+      				respectu cuius materia ipsius a habet potentiam naturalem. Non enim videtur aliud 
+      				lumen facere de a. Sed sic facit deus lumen de b, quia b est in potentia naturali 
+      				respectu luminis receptivi generis. Igitur facit deus lumen de b, non de nihilo.</p>
+      			<p>Praeterea quod hoc non repugnant cuiuslibet creaturae propter virtutis insufficientiam 
+      				videtur quia aliqua individua eiusdem speciei extensa sunt improportionalia secundum 
+      				extensionem proportione naturali, sicut patet de costa de dyametro in quadrato. 
+      				Ergo pari ratione de potentia dei absoluta aliqua individua sunt possibilia naturali 
+      				proportione proportionalia secundum perfectionem.</p>
+      			<p>Praeterea nihil excedit finitum secundum perfectionem infinite nisi infinitum. Sed 
+      				substantia corporalis excedit suum accidens infinite et sine proportione. Ergo qualibet 
+      				talis substantia est perfectionaliter infinita. Maior probatur quia aliter allegata 
+      				substantia corporalis excedi posset ab albedinem <unclear>aliqua possibili substantia</unclear>. Consequens 
+      				firmum quia quodcumque accidens tale positum in tali modica substantia 
+      				natum esset dependere ab ea. Si enim poneretur per potentiam divinam quecumque 
+      				partes pedales albedinis in ligno pedali eadem ratione qua una earum dependeret 
+      				ab ea et alia quaecumque substantia. <unclear>Ergo umanter naturali</unclear> haec omnia exceditur 
+      				<unclear>hpom</unclear> ex omnibus quotquot umantis et habetur intentum. Vel non sed exceditur a 
+      				tali composito et tunc accidens posset suum substratum excedere. Quod non videtur 
+      				concedendum aliquatenus.</p>
+      		</div>
+      		<div>
+      		<head>In oppositum</head>
+      			<p>Ad oppositum</p>
+      		</div>
+      	</div>
+      	<div type="articulus">
+      		<head>Primus articulus – conclusiones</head>
+      		<div>
+      			<head>Conclusiones</head>
+      			<div>
+      				<head>Prima conclusio</head>
+      				<p>Prima</p>
+      			</div>
+      			<div>
+      				<head>Secunda conclusio</head>
+      				<p>Secunda</p>
+      			</div>
+      			<div>
+      				<head>Tertia conclusio</head>
+      				<p>Tertia</p>
+      			</div>
+      			<div>
+      				<head>Quarta conclusio</head>
+      				<p>Quarta</p>
+      			</div>
+      		</div>
+      	</div>
+      	<div type="articulus">
+      		<head>Secundus articulus – dubia</head>
+      		<p>Contra praedicta sunt dubia aliqua nondum soluta in praecedentibus conclusionibus 
+      			de hac materia.</p>
+      		<div type="dubium">
+      			<head>Primum dubium</head>
+      			<p>Primum tangitur in primo articulo principali contra prima conclusionem praemissam. 
+      				Ad quod respondet quidam doctor praenotans tamen quod aliud est producere 
+      				aliquid de materia, et aliud est producere aliquid in materia. Potest enim 
+      				produci aliquid in materia in aliquo instanti, quavis non producatur de materia 
+      				sicut intellectus humanus, sicut patet libro secundo, distinctione decima septima, capitulo 
+      				secundo. Et sic posset deus facere formas materiales in materiis si vellet, 
+      				scilicet quod essent in materiis et quod non dependerent in esse ab illis. Et tunc 
+      				crearentur quia tunc non fierent de materia. Non enim intelligo aliquid fieri de materia 
+      				vel ex materia quasi sit fieri in materia, ut de facto forma quae facta sit peneat 
+      				in esse a materia illa. Et ideo si deus formas materiales crearet a materia proprie 
+      				loquendo, sine dubio in primo instanti non penderent in esse a materia. Immo si 
+      				materia tunc annihilaretur, forme tamen tunc essent, quia deus per suam propriam 
+      				substantiam istas in isto instanti sustentaret et semper postea, nisi faceret ut in 
+      				esse dependeant a materia.</p>
+      			<p>Per hoc argumentum quod arguitur quod lumen in b est creatum et tunc non fit 
+      				de materia ut prius ibidem responsum est, sed lumen in a non creatur sicut ponit 
+      				argumentum, sed fit a deo praecise sicut posset fieri a creatura in primo instanti 
+      				secundum esse, dicendum est tamen de secundo <unclear>no</unclear> et quod omnes circumstantiae in 
+      				generatione luminis a et luminis b sunt similes, quia circumstantiae non fierent nisi res 
+      				istae naturae existentes quae res similes sunt.</p>
+      		</div>
+      		<div type="dubium">
+      			<head>Secundum dubium</head>
+      			<p>Secundum</p>
+      		</div>
+      		<div type="dubium">
+      			<head>Tertium dubium</head>
+      			<p>Tertium</p>
+      		</div>
+      		<div type="dubium">
+      			<head>Quartum dubium</head>
+      			<p>Quartum</p>
+      		</div>
+      		<div type="dubium">
+      			<head>Quintum dubium</head>
+      			<p>Quintum</p>
+      		</div>
+      		<div>
+      			<head>Sextum dubium</head>
+      			<p>Sextum</p>
+      		</div>
+      		<div>
+      			<head>Septimum dubium</head>
+      			<p>Septimum</p>
+      		</div>
+      	</div>
+      	<div>
+      		<head>Ad argumenta</head>
+      		<p>Ad argumenta...</p>
+      	</div>
+      </div>
+    </body>
+  </text>
+</TEI>
+
