@@ -3377,32 +3377,122 @@
                 	</app>.
                 </p>
                 
-                <p xml:id="b1d3qun-eshssa">Et secundum hoc et bene respondet doctor 
-                  iste ad dubium praenotatum, quod loquendo de partibus secundum imaginationem 
-                  quae sunt memoria, intelligentia, et voluntas, et de aequalitate primo modo 
+                <p xml:id="b1d3qun-eshssa">Et secundum hoc et bene respondet <name>Doctor 
+                  iste</name> ad dubium praenotatum, quod loquendo de partibus secundum imaginationem 
+                  quae sunt memoria, 
+                	<app>
+                		<lem n="memoria"/>
+                		<rdg wit="#T" type="variation-present">et</rdg>
+                	</app> 
+                	intelligentia, et voluntas, et de aequalitate primo modo 
                   dicta, scilicet, quae attenditur penes obiecta sic partes imaginis sunt 
                   semper aequales tam in via quam in patria. Sed loquendo de aequalitate 
-                  secundo modo non oportet quod sint actu aequales in via sed sit in patria 
-                  aequantur sicut probatum est auctoritatibus <name ref="#Augustine">Augustini</name> tam de aequalitate 
+                  <app>
+                  	<lem>secundo</lem>
+                  	<rdg wit="#M">tertio</rdg> <!-- dbcheck -->
+                  </app> 
+                	modo non oportet quod sint 
+                	<app>
+                		<lem n="sint"/>
+                		<rdg wit="#T" type="variation-present">aequales</rdg> <!-- dbcheck; possible transcription error -->
+                	</app> 
+                	actu aequales in via sed 
+                	<app>
+                		<lem>sic</lem>
+                		<rdg wit="#S #M">sit</rdg> <!-- dbcheck; most likely a transcription difference that should be corrected -->
+                	</app> 
+                	in patria 
+                  aequantur sicut probatum est 
+                	<app>
+                		<lem>auctoritate</lem> <!-- seems like a better reading even though only supported in M -->
+                		<rdg wit="#S #T #V">auctoritatibus</rdg>
+                	</app> 
+                	<name ref="#Augustine">Augustini</name> tam de aequalitate 
                   patriae quam de inaequalitate viae in secundo sensu aequalitatis.</p>
                 
                 <p xml:id="b1d3qun-tmpepc">Tertio 
-                  modo possunt intelligi sic esse aequales ratione actuum quia respectu eiusdem 
-                  obiecti habeant actus aeque intensos. Et de isto sensu est speciale dubium, 
-                  et videtur quod sic, quia dicit 
+                  modo possunt intelligi sic: esse aequales ratione 
+                	<app>
+                		<lem>actuum</lem>
+                		<rdg wit="#V" type="correction-substitution">
+                			<subst>
+                				<del>actum</del>
+                				<add>actuum</add>
+                			</subst>
+                		</rdg>
+                	</app> 
+                	<app>
+                		<lem>quia</lem>
+                		<rdg wit="#V">quod</rdg> <!-- this maybe a meaningless orthographic variant that should be ignored -->
+                	</app> 
+                	respectu eiusdem 
+                  obiecti habeant actus aeque intensos. Et de isto 
+                	<app>
+                		<lem>sensu</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	est speciale dubium. 
+                  Et videtur quod sic, quia dicit 
+                	<ref corresp="#b1d3qun-Qtutcqd"><name ref="#Lombard">Magister</name> libro II, 
+                		<app>
+                			<lem wit="#V">distinctione 9, capitulo 4</lem> <!-- still wrong; should be chapter 3; V reading is closests. -->
+                			<rdg wit="#S #M #T">distinctione 23, capitulo 4</rdg>
+                		</app>
+                	</ref>
                   <cit>
-                    <ref><name ref="#Lombard">Magister</name> libro 2, d. 23, c. 4</ref>
-                    <bibl>Lombard, Sententia, II, d. 23, c. 4, ???</bibl>
-                  </cit> 
-                  tantum ut 
-                  tradit auctoritas quisque ibi cognoscit quantum diligit. 
-                  Sed respondetur quod non immo quod hoc est impossibile quantum potest rationaliter 
-                  videri et quod <name ref="#Lombard">Magister</name> et si qui alii dicunt hoc intelligunt quod 
-                  ibi sic erit amor proportionalis cogitationi  respectu Dei quod qui plus ibi 
-                  alio diliget Deum clarius cognoscet et econverso. Et iste sensus seu expositio 
-                  sufficit ad illud quod <name ref="#Lombard">Magister</name> intendit ibi probare, videlicet 
-                  quod Seraphim plus cognoscat Deum quam Cherubim, quia plus 
+                  	<quote xml:id="b1d3qun-Qtutcqd" type="commentary" source="http://scta.info/resource/pl-l2d9c3">tantum, ut 
+                  		<app>
+                  			<lem>tradit</lem>
+                  			<rdg wit="#V">teradit</rdg>
+                  			<rdg wit="#M">tendit</rdg>
+                  		</app> 
+                  		auctoritas, quisque ibi cognoscit quantum diligit</quote> <!-- eventually paragraph id should replace this -->
+                  	<bibl><ref type="commentary" target="http://scta.info/resource/pl-l2d9c3">Lombard, Sententia, II, d. 9, c. 3</ref></bibl> <!-- eventually paragraph id should replace this -->
+                  </cit>.
+                  Sed respondetur quod non, immo quod 
+                	<app>
+                		<lem>hoc</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	est impossibile quantum potest rationaliter 
+                  videri, et quod <name ref="#Lombard">Magister</name>, et si qui 
+                	<app>
+                		<lem>alii</lem>
+                		<rdg wit="#V #T">aliqui</rdg>
+                	</app>
+                	dicunt hoc <!-- only S has "hoc" after dicunt; other mss have "hoc" before "dicunt"; not sure if this should be ignored or not --> 
+                	intelligunt quod 
+                  ibi sic erit <!-- M has "sic" and "erit" inverted; not sure if this should be included --> 
+                  amor proportionalis 
+                	<app>
+                		<lem>cognitioni</lem>
+                		<rdg wit="#M">visioni</rdg>
+                	</app> 
+                	respectu Dei quod qui plus ibi 
+                  <app>
+                  	<lem>alio</lem>
+                  	<rdg wit="#M">quo</rdg>
+                  </app> 
+                	diliget Deum clarius cognoscet et econverso. Et iste sensus seu 
+                	<app>
+                		<lem>expositio</lem>
+                		<rdg wit="#M">dispositio</rdg>
+                	</app> 
+                  sufficit ad illud quod <name ref="#Lombard">Magister</name> intendit 
+                	<app>
+                		<lem>ibi</lem> <!-- in M, "ibi" precedes intendit -->
+                		<rdg wit="#V #T" type="variation-absent"/>
+                	</app> 
+                	probare, 
+                	videlicet 
+                  quod Seraphim plus 
+                	<app>
+                		<lem>cognoscant</lem>
+                		<rdg wit="#S #M #V">cognoscat</rdg> <!-- dbcheck, could be transcription oversight -->
+                	</app> 
+                	Deum quam Cherubim, quia plus 
                   diligunt ergo plus cognoscunt.</p>
+              	
                 <p xml:id="b1d3qun-eqicfs">Et quod impossibile sit ibi amorem 
                   esse aequalis praecise intensioris cum cogitatione probatur per hoc: quod caritas 
                   intendit actum dilectionis, ita quod sit dilectio intensior 
