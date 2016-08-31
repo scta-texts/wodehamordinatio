@@ -3494,37 +3494,166 @@
                   diligunt ergo plus cognoscunt.</p>
               	
                 <p xml:id="b1d3qun-eqicfs">Et quod impossibile sit ibi amorem 
-                  esse aequalis praecise intensioris cum cogitatione probatur per hoc: quod caritas 
-                  intendit actum dilectionis, ita quod sit dilectio intensior 
-                  quam foret, ceteris paribus, remota caritate habituali ad hoc 
-                  esset amor ad minus ita fruens et intensus sicut cogitatio vel visio, 
-                  quia voluntas ita intensa tantum ad minus potest diligere obiectum summe 
+                  esse 
+                  aequalis praecise <!-- M and V have "pracise aequalis --> 
+                  intensioris cum 
+                	<app>
+                		<lem>cognitione</lem>
+                		<rdg wit="#M">cogitatione</rdg> <!-- check transcrip; probably should be normalized and removed -->
+                	</app> 
+                	probatur per hoc: quod caritas 
+                  intendit actum dilectionis, ita quod sit 
+                	<app>
+                		<lem>dilectio</lem>
+                		<rdg wit="#M">distinctio</rdg> <!-- also in M distinctio comes after "intensior" -->
+                	</app> 
+                	intensior 
+                  quam foret, ceteris paribus, remota caritate habituali,
+                  <app> <!-- not sure what hte bes reading is -->
+                  	<lem wit="#V">sed actus dilectionis foret ibi amota caritate habituali</lem>
+                  	<rdg wit="#M">ad minus influens sed actus dilectionis foret ibi amota caritate habituali</rdg>
+                  	<rdg wit="#S">ad hoc esset amor</rdg>
+                  	<rdg wit="#T" type="variation-absent"/>
+                  </app>
+                  ad minus ita 
+                	<app>
+                		<lem>fruens</lem>
+                		<rdg wit="#V #T">feruens</rdg> <!-- dbcheck; possible transcription mistake -->
+                	</app> 
+                	et intensus sicut cogitatio vel visio, 
+                  quia voluntas ita 
+                	<app>
+                		<lem wit="#M #V #T">intense</lem>
+                		<rdg wit="#S">intensa tantum</rdg>
+                	</app> 
+                	ad minus potest 
+                	<app>
+                		<lem>diligere</lem>
+                		<rdg wit="#M">intelligere</rdg>
+                	</app> 
+                	obiectum summe 
                   delectabile apprehensum quam intense apprehenditur, quia solet etiam dici 
                   quod 
                   <cit>
                     <quote>amor intrat, ubi cognitio foris stat.</quote>
-                    <bibl>Common saying[?]; examples found in Gerson and Denis the Carthusian</bibl>
+                    <note>Common saying; examples found in Gerson and Denis the Carthusian</note>
                   </cit>
                 </p>
+              	
                 <p xml:id="b1d3qun-nvdari">Nec valet  
-                  instare quod in patria tantum promovetur intellectus ad intensionem 
+                  <app> <!-- really good piece of evidence for supporting strong connectiong between S and T both of which have some connection to stemma that at some point included the erroneous "dicere"-->
+                  	<lem>instare</lem>
+                  	<rdg wit="#S" type="correction-substitution">
+                  		<subst>
+                  			<del>dicere</del>
+                  			<add>instare</add>
+                  		</subst>
+                  	</rdg>
+                  	<rdg wit="#T" type="variation-choice">
+                  		<choice>
+                  			<seg>dicere</seg> <!-- actual line in T is "dicere vel instare" -->
+                  			<seg>instare</seg>
+                  		</choice>
+                  	</rdg>
+                  </app> 
+                	quod in patria tantum promovetur intellectus ad intensionem 
                   visionis per lumen gloriae quantum caritas promovet voluntatem ad 
-                  intendendum actum suum ultra illud quod posset sine ea, quia posita illa 
-                  illuminatione adhuc amota caritate habituali esset amor 
+                  intendendum 
+                	<app>
+                		<lem>actum suum</lem>
+                		<rdg wit="#M #V">actus suos</rdg>
+                	</app> 
+                	ultra illud quod posset sine ea, quia posita illa 
+                  illuminatione adhuc 
+                	<app>
+                		<lem>amota</lem>
+                		<rdg wit="#M">amore</rdg>
+                	</app> 
+                	caritate habituali esset amor 
                   ita intensus sicut cogitatio, quia semper, ut praetactum est, 
-                  videtur quod voluntas possit tam fruenter amare sicut intellectus de 
-                  facto intelligit obiectum summe delectabile. Igitur addita caritate 
-                  voluntas intensius amat, nisi forte quis dicat quod caritas non 
-                  attendit actum amoris nec se habet actu respectu illius.</p>
+                  videtur quod voluntas possit 
+                	<app>
+                		<lem>tam</lem>
+                		<rdg wit="#M">tamen</rdg> <!-- dbcheck; could easily be transcription error -->
+                	</app> 
+                	fruenter amare sicut de 
+                  facto 
+                  <app>
+                  	<lem>intellectus</lem> <!-- "intellectus" comes before "de facto" in S, but this position seems better -->
+                  	<rdg wit="#M #T" type="variation-absent"/>
+                  </app>
+                  intelligit obiectum 
+                	<app>
+                		<lem n="obiectum"/>
+                		<rdg wit="#M" type="variation-present">suum</rdg>
+                  </app> 
+                	summe delectabile. Igitur addita caritate 
+                  voluntas intensius 
+                	<app>
+                		<lem>amat</lem>
+                		<rdg wit="#M">amatus</rdg>
+                	</app>, 
+                	nisi forte quis dicat quod caritas non 
+                  <app>
+                  	<lem>intendit</lem>
+                  	<rdg wit="#S">attendit</rdg>
+                  </app> 
+                	actum amoris nec se habet 
+                	<app>
+                		<lem>actu</lem>
+                		<rdg wit="#M">active</rdg> <!-- possible transcription error in M -->
+                	</app> 
+                	respectu illius.</p>
                 
                 <p xml:id="b1d3qun-saddie">Secundo arguit 
-                  <name>doctor ille</name> ad idem sic: aliqua claritate cogitationis cognoscitur Deus, 
+                  <name>doctor ille</name> 
+                	<app>
+                		<lem>ad idem</lem>
+                		<rdg wit="#M #V" type="variation-absent"/>
+                	</app> 
+                	sic: 
+                	<app>
+                		<lem>aliqua</lem>
+                		<rdg wit="#T">alia</rdg>
+                	</app> 
+                	claritate cogitationis cognoscitur Deus, 
                   sit illa A; et <name ref="#Peter">Petrus</name> etiam cognoscitur aliqua claritate cogitationis, 
-                  sit illa B. A ad B est aliqua certa proportio sic quod dupla, tunc 
-                  duplato B et duplata bonitate <name ref="#Peter">Petri</name> erit duplatus 
+                  sit illa B. A ad B est 
+                	<app>
+                		<lem>aliqua</lem>
+                		<rdg wit="#V">aliquo</rdg>
+                	</app> 
+                	certa proportio 
+                	<app>
+                		<lem>sic</lem>
+                		<rdg wit="#T">sit</rdg> <!-- most likely a transcription error somewhere here -->
+                	</app> 
+                	quod dupla, 
+                	tunc 
+                  duplato B et 
+                	<app>
+                		<lem>duplata</lem>
+                		<rdg wit="#T">duplicata</rdg>
+                	</app> 
+                	bonitate <name ref="#Peter">Petri</name> 
+                	<app>
+                		<lem>erit</lem>
+                		<rdg wit="#T">est</rdg>
+                	</app> 
+                	duplatus 
                   amor respectu <name ref="#Peter">Petri</name> ut videtur igitur respectu istius erit tantus amor intensive 
-                  ut videtur sicut respectu Dei. Consequens non est dandum de 
-                  beatis. Igitur amor respectu Dei est intensior quam cogitatio respectu Dei, 
+                  ut videtur sicut respectu Dei. Consequens non est 
+                	<app>
+                		<lem>dandum</lem>
+                		<rdg wit="#M">dicendum</rdg>
+                	</app> 
+                	de beatis. 
+                	Igitur amor respectu Dei est 
+                	<app>
+                		<lem>intensior</lem>
+                		<rdg wit="#S">intentior</rdg> <!-- dbcheck, possibily an orthographic difference that should be ignored. -->
+                	</app> 
+                	quam cogitatio respectu Dei, 
                   igitur etc.</p>
               </div>
             </div>
