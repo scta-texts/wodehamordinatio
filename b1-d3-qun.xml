@@ -3659,49 +3659,373 @@
             </div>
             <div>
               <head>Contra</head>
-              <p xml:id="b1d3qun-shfaap">Sed haec faciliter potest impediri sic: quod caritas viae, id est, 
-                quae communiter habetur a viatore in via, non est mensura[?] beatitudinis conferendae 
-                tam cogitative quam fruitive, et potest esse, ut videtur, 
-                quod tanta visio sibi correspondeat pro merito et causa clara quod voluntas 
+              <p xml:id="b1d3qun-shfaap">Sed 
+              	<app> <!-- best reading is not clear -->
+              		<lem wit="#V #T">primum movtum</lem>
+              		<rdg wit="#M">primum motivm</rdg>
+              		<rdg wit="#S">haec faciliter</rdg> <!-- check for transcription error -->
+              	</app> 
+              	potest impediri sic: 
+              	<app> <!-- this might be trivial and should therefore be ignored -->
+              		<lem>quia</lem> 
+              		<rdg wit="#S">quod</rdg>
+              	</app> 
+              	caritas viae, id est 
+                quae 
+              	<app>
+              		<lem>acquiritur</lem>
+              		<rdg wit="#S">communiter</rdg>
+              	</app> 
+              	<app>
+              		<lem>vel</lem>
+              		<rdg wit="#S" type="variation-absent"/>
+              	</app>
+              	habetur a viatore in via, 
+              	<app>
+              		<lem>non</lem>
+              		<rdg wit="#M #V" type="variation-absent"/>
+              	</app> 
+              	est mensura beatitudinis conferendae 
+                tam <unclear>cognitive <!-- MVT currently have "cogitative" but these are like mistakes or orthographic differences --></unclear> 
+              	quam 
+              	<app>
+              		<lem>sensitive</lem> <!-- despite only being supported by M, this reading makes more sense to me -->
+              		<rdg wit="#S #T #V">fruitive</rdg>
+              	</app>, 
+              	et potest esse, ut videtur, 
+                <app>
+                	<lem>quod</lem>
+                	<rdg wit="#M" type="variation-absent"/>
+                </app> 
+              	tanta visio sibi correspondeat pro merito et 
+              	<app>
+              		<lem>tam</lem> <!-- tam seems to make more sense -->
+              		<rdg wit="#S #T #V">causa</rdg> <!-- likely just a transcription difference -->
+              	</app> 
+              	clara quod voluntas 
                 non sufficeret sine caritate naturaliter ad causandum ista visione 
-                habita amorem aeque intensum in specie amoris fruitivi, 
+                habita amorem aeque intensum in specie amoris 
+              	<app>
+              		<lem>fruitivi</lem>
+              		<rdg wit="#M">fruendi</rdg>
+              	</app>, 
                 sicut ista visio est clara et intensa in specie visionis. Et per 
-                consequens, si habebit ex se quasi naturaliter amorem aequalis intensionis 
-                intensioni visionis, requirit aliquod aliud promotum. </p>
+                consequens, si habebit ex se quasi naturaliter amorem 
+              	<app>
+              		<lem>aequalis</lem>
+              		<rdg wit="#M #V" type="variation-absent"/>
+              	</app> 
+              	<app>
+              		<lem>intensionis</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+                <app>
+                	<lem>intensioni</lem>
+                	<rdg wit="#V">intensoni</rdg> <!-- likely a transcription error in V that simply needs to be fixed. -->
+                </app> 
+              	<app>
+              		<lem>visionis</lem>
+              		<rdg wit="#M">ubi omnis</rdg> <!-- likely a transcription error in M that simply needs to be fixed. -->
+              	</app>, 
+              	requirit aliquod aliud 
+              	<app>
+              		<lem>promotum</lem>
+              		<rdg wit="#M">promotivum</rdg>
+              	</app>. 
+              </p>
               
               <p xml:id="b1d3qun-aasria">Assumptum  
                 arguo sic, ubi multae causae effectivae alterius rationis concurrunt 
-                et requiruntur ad naturalem causationem alicuius effectus. Duplatio 
-                alterius earumdem sine alia non sufficit, ut videtur, ad duplationem 
-                effectus, licet sufficiat ad notabilem eius meliorem, 
-                ergo cum sola Dei visio non sufficiat, licet sit inter causas 
-                creatas, principior requisitas cum ista visione. Ideo licet dupletur 
+                et requiruntur ad naturalem causationem alicuius effectus. <!-- M an V referse the order of alicuius and effectus --> 
+                Duplatio 
+                alterius 
+              	<app>
+              		<lem>earumdem</lem>
+              		<rdg wit="#M">eorumdem</rdg>
+              	</app> 
+              	sine 
+              	<app>
+              		<lem>alia</lem>
+              		<rdg wit="#M">alio</rdg>
+              	</app> 
+              	non sufficit, ut videtur, ad duplationem 
+                effectus, licet sufficiat ad notabilem eius 
+              	<app>
+              		<lem>meliorem</lem>
+              		<rdg wit="#S">melioriem</rdg> <!--likley transcription error in S -->
+              		<rdg wit="#T">meliorationem</rdg>
+              	</app>, 
+                ergo 
+              	<app>
+              		<lem>cum</lem>
+              		<rdg wit="T">ii</rdg> <!--unclear about reading here -->
+              	</app> 
+              	sola Dei visio non 
+              	<app><!-- review, best reading is unclear -->
+              		<lem wit="#S">sufficiat, licet sit</lem>
+              		<rdg wit="#T">sufficiat ibi</rdg>
+              		<rdg wit="#M #V">efficiat ibi</rdg>
+              	</app> 
+              	inter causas 
+                creatas, 
+                <app> <!-- complicated sequence that needs review -->
+                	<lem>
+                		<app>
+                			<lem wit="#T">ad</lem>
+                			<rdg wit="#M #V" type="variation-absent"/>
+                		</app> 
+                		beatificam 
+                		<app>
+                			<lem>dei</lem>
+                			<rdg wit="#T" type="variation-absent"></rdg>
+                		</app> 
+                		<app>
+                			<lem>fruitionem</lem>
+                			<rdg wit="#V">finitorum</rdg> <!-- possibile transcription error -->
+                		</app> 
+                		sed ipsa voluntas sicut causa 
+                		<app>
+                			<lem>creata</lem>
+                			<rdg wit="#M">causata</rdg>
+                		</app> 
+                		<app>
+                			<lem>principalior</lem>
+                			<rdg wit="#M">principior</rdg> <!-- possible transcription error -->
+                		</app> <!-- in T "creata" comes after "principalior" -->
+                	</lem>
+                	<rdg wit="#S">principior requisitas</rdg>
+                </app> 
+                cum ista visione. 
+              	<app>
+              		<lem>Ideo</lem>
+              		<rdg wit="#M #T #V" type="variation-absent"/>
+              	</app> 
+              	licet dupletur 
                 <pb ed="#S" n="84-v" />
                 <cb ed="#S" n="b" />
-                huius, quia cum manet praecise eadem voluntas et eius virtutis 
-                non duplatae, non sequitur quod duplabitur fruitio. Igitur ad hoc quod dupletur 
+                <app>
+                	<lem>huius</lem>
+                	<rdg wit="#V">huius visio</rdg>
+                	<rdg wit="#M">eius visio</rdg>
+                </app>, 
+              	quia 
+              	<app>
+              		<lem>cum</lem>
+              		<rdg wit="#V #T">tamen</rdg> <!-- could be just a transcription difference, best reading unclear -->
+              	</app> 
+              	manet praecise eadem voluntas et 
+              	<app>
+              		<lem>eiusdem</lem>
+              		<rdg wit="#S #M">eius</rdg>
+              	</app> 
+              	virtutis 
+              	<app>
+              		<lem>et</lem>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>et</add>
+              		</rdg>
+              		<rdg wit="#S #M #T" type="variation-absent"></rdg>
+              	</app>
+                <app>
+                	<lem>non</lem>
+                	<rdg wit="#T">tamen</rdg>
+                </app> 
+              	duplatae, non sequitur quod 
+              	<app>
+              		<lem>duplabitur</lem>
+              		<rdg wit="#T">duplicetur</rdg>
+              	</app> 
+              	fruitio. Igitur ad hoc quod dupletur 
                 fruitio ad duplationem visionis per naturalem actionem voluntatis 
-                oportet eius activitatem promoveri per caritatem vel aliquod principium promotum 
-                in tali proportione, ut ad hoc sufficiat et sic excluditur prima huius ratio 
-                in aliquo.</p>
+                oportet eius activitatem promoveri per caritatem vel 
+              	<app>
+              		<lem>aliquod</lem>
+              		<rdg wit="#T">aliud</rdg>
+              		<rdg wit="#V" type="correction-substitution">
+              			<subst>
+              				<del>aliquod</del>
+              				<add>aliud</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	principium 
+              	<app>
+              		<lem>promotum</lem>
+              		<rdg wit="#M">promotivum</rdg>
+              		<rdg wit="#T" type="correction-substitution">
+              			<subst>
+              				<del>motum</del>
+              				<add>promotum</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+                in tali proportione, 
+                ut ad hoc sufficiat et sic excluditur prima 
+              	<app>
+              		<lem>huius</lem>
+              		<rdg wit="#M #T">eius</rdg>
+              	</app> 
+              	ratio 
+                <app>
+                	<lem>manifeste</lem>
+                	<rdg wit="#M">in aliquo</rdg> <!-- possibile transcription error in M -->
+                </app>.
+              </p>
             </div>
             <div>
               <head>Responsio ad primum</head>
-              <p xml:id="b1d3qun-ecpvac">Et cum probatur quod voluntas semper potest aeque ferventer, id est, aeque 
-                intense obiectum summe delectabile et placibile diligere sicut intellectus 
-                illud intelligit, etiam amota caritate negandum est illud, haec tamen concedendum est 
-                quod ita intensum amorem posset causare voluntas respectu summae delectabilis 
+              <p xml:id="b1d3qun-ecpvac">Et cum 
+              	<app>
+              		<lem>probatur</lem>
+              		<rdg wit="#M #V">arguitur</rdg>
+              	</app> 
+              	quod voluntas 
+              	semper potest <!-- M has "potest semper" --> 
+              	aeque 
+              	<app>
+              		<lem>ferventer</lem>
+              		<rdg wit="#M">ferventur</rdg> <!-- ferventur is probably a mistake in transcription -->
+              	</app> 
+              	<app> <!-- only V has "diligere" in both places; "diligere" below -->
+              		<lem>diligere</lem>
+              		<rdg wit="#S" type="variation-absent"/>
+              	</app>, 
+              	<app>
+              		<lem>id est aeque intense</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+                obiectum summe delectabile et placibile 
+              	<app>
+              		<lem>diligere</lem>
+              		<rdg wit="#M #T" type="variation-absent"/>
+              	</app> 
+              	<app> 
+              		<lem>sicut</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	intellectus 
+                illud intelligit, 
+              	<app>
+              		<lem>etiam</lem>
+              		<rdg wit="#T">et</rdg>
+              	</app> 
+              	amota caritate istud <!-- only S M and T have "istud" or "illud" after "negandum est", but it makes better sense here. --> 
+              	negandum est. <unclear>Haec <!-- gender and number, doesn't really match concedendum, but M seems to have "concedenda" --></unclear> tamen 
+              	<app> <!-- dbcheck and check relation to "haec" -->
+              		<lem wit="#M">concedenda</lem>
+              		<rdg wit="#S #T #V">concedendum</rdg>
+              	</app> 
+              	est 
+                quod ita intensum amorem posset causare 
+              	<app>
+              		<lem>voluntas</lem>
+              		<rdg wit="#M">voluntatem</rdg>
+              	</app> 
+              	respectu summae delectabilis 
                 visi, sicut esset visio illa intensa, quae imaginaretur 
                 causari mere naturaliter ex natura obiecti et potentiae intellectivae secundum imaginationem 
-                falsam praehabitam, quae imaginaretur Deum agere mere naturaliter quicquid ageret 
-                et ita de aliis amabilibus et placibilibus causatis naturaliter cum 
-                intellectu vel sensu suarum visionum. De illa tamen visione quae beatifica 
-                est quae non et talis sed excellentioris forte specie 
-                quam talis esse imaginaretur quae et voluntariae et non naturaliter est causabilis 
-                ab obiecto credibile est mihi, quod in multis beatis sit talis clarior 
-                et intensior quam esset intensio amoris, quae tamen illa visione 
-                sive promotivo sufficeret voluntas ad causandum.</p>
-              <p xml:id="b1d3qun-ehqasc">Exemplum huius, qui velim 
+                <app>
+                	<lem>falsam</lem>
+                	<rdg wit="#S" type="correction-substitution">
+                		<subst>
+                			<del>secundum</del>
+                			<add>falsam</add>
+                		</subst>
+                	</rdg>
+                </app>
+              	<app>
+              		<lem/>
+              		<rdg wit="#V" type="correction-deletion">
+              			<del rend="strikethrough">prae</del>
+              		</rdg>
+              	</app>
+              	<app>
+              		<lem>praehabitam</lem>
+              		<rdg wit="#T">physicam</rdg>
+              	</app>, 
+              	quae imaginaretur Deum 
+              	<app>
+              		<lem>agere <!-- "agere" comes after "naturaliter" in M --> 
+              			mere</lem>
+              		<rdg wit="#T">agerendae</rdg> <!-- dbchk for transcription error -->
+              	</app> 
+              	naturaliter quicquid 
+              	<app>
+              		<lem>ageret</lem>
+              		<rdg wit="#M">agit</rdg>
+              	</app> 
+                et ita 
+              	<app>
+              		<lem>est</lem>
+              		<rdg wit="#S #M #V" type="variation-absent"/>
+              	</app> 
+              	de aliis amabilibus et placibilibus causatis naturaliter cum 
+                intellectu vel sensu suarum visionum. De illa tamen visione quae beatifica est
+                quae non 
+              	<app>
+                	<lem>est</lem>
+                	<rdg wit="#S #M">et</rdg>
+                </app> 
+              	talis sed 
+              	<app>
+              		<lem>excellentioris</lem>
+              		<rdg wit="#V" type="correction-substitution">
+              			<subst>
+              				<del>excellentius</del>
+              				<add>excellentioris</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	forte specie 
+                quam talis 
+              	<app>
+              		<lem>esse</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	imaginaretur quae et voluntariae et 
+              	<app>
+              		<lem>non</lem>
+              		<rdg wit="#T" type="correction-substitution">
+              			<subst>
+              				<del>vero</del>
+              				<add>non</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	naturaliter est causabilis 
+                ab 
+                <app>
+                	<lem n="ab"/>
+                	<rdg wit="#T" type="variation-present">ipso</rdg>
+                </app> 
+              	obiecto credibile est mihi, quod 
+              	<app>
+              		<lem>in</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> multis beatis sit talis clarior 
+              	<app>
+              		<lem>visio</lem>
+              		<rdg wit="#S" type="variation-absent"/>
+              	</app>
+                et intensior quam esset intensio amoris, 
+              	<app> <!-- check for transcription errors -->
+              		<lem>quae</lem>
+              		<rdg wit="#M">quam</rdg>
+              		<rdg wit="#T">cum</rdg> 
+              	</app> 
+              	<app> <!-- check for transcription errors -->
+              		<lem>tamen</lem>
+              		<rdg wit="#M">cum</rdg>
+              	</app> 
+              	ista <!-- S has "illa" --> visione 
+                sive promotivo sufficeret voluntas 
+              	<app>
+              		<lem>ad causandum</lem>
+              		<rdg wit="#M">causandi</rdg>
+              	</app>.
+              </p>
+              
+            	<p xml:id="b1d3qun-ehqasc">Exemplum huius, qui velim 
                 dicere: ecce, brutum animal vel homo videt rem multum placibilem 
                 visione naturaliter causata vel causabili  a tali re placibili 
                 et potentia cognitiva, bene volo quod appetitus correspondens tali potentiae cogitativae 
