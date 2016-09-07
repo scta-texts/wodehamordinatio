@@ -4025,23 +4025,137 @@
               	</app>.
               </p>
               
-            	<p xml:id="b1d3qun-ehqasc">Exemplum huius, qui velim 
-                dicere: ecce, brutum animal vel homo videt rem multum placibilem 
-                visione naturaliter causata vel causabili  a tali re placibili 
-                et potentia cognitiva, bene volo quod appetitus correspondens tali potentiae cogitativae 
-                potest, si nihil obstet obiectum illud, sibi naturaliter placibile et conveniens 
-                seu delectabile, ita fruenter seu ita intense diligere vel appetere 
-                quam intense apprehenditur. Dico tamen iuxta rationem praefatam 
-                quod si Deus duplet huius apprehensionem ultra intensionem illam quam 
-                posset natura talis potentiae cogitativae virtute sui et obiecti sic praesentis, appetitus 
+            	<p xml:id="b1d3qun-ehqasc">Exemplum huius, 
+            		<app>
+            			<lem>qui</lem>
+            			<rdg wit="#M">quod</rdg>
+            		</app> 
+            		velim 
+                dicere: ecce, 
+            		<app>
+            			<lem n="ecce"/>
+            			<rdg wit="#T" type="variation-present">unum</rdg>
+            		</app> 
+            		brutum animal vel homo videt rem multum placibilem 
+                visione naturaliter causata vel 
+            		<app>
+            			<lem>causabili</lem>
+            			<rdg wit="#S" type="correction-substitution">
+            				<subst>
+            					<del>causabilitate</del> <!-- review this in S transcription. S transcription records something slightly different, but is probably a mistake and should be changed to relflect this correction; but make sure to dbcheck -->
+            					<add>causabili</add>
+            				</subst>
+            			</rdg>
+            		</app> a tali re placibili 
+                et potentia cognitiva, bene volo quod appetitus correspondens tali potentiae 
+            		<app> <!-- dbcheck; this might be just a transcription/orthographical difference -->
+            			<lem>cogitativae</lem>
+            			<rdg wit="#S">cognitivae</rdg>
+            			<rdg wit="#T" type="correction-addition">
+            				<add>cogitativae</add>
+            			</rdg>
+            		</app> 
+                potest, si nihil obstet obiectum 
+            		<app>
+            			<lem>illud</lem>
+            			<rdg wit="#V" type="correction-substitution">
+            				<subst>
+            					<del>sicud</del>
+            					<add>illud</add>
+            				</subst>
+            			</rdg>
+            		</app>, 
+            		sibi naturaliter placibile et conveniens <!-- M has "naturaliter sibi conveniens et placibile"; bascically unimportant inversion, unclear if it should be noted. V also has "conveniens et placibile" --> 
+                seu delectabile, ita 
+            		<app>
+            			<lem>fruenter</lem> 
+            			<rdg wit="#M">ferventer</rdg>
+            		</app> 
+            		<app>
+            			<lem>seu ita intense</lem>
+            			<rdg wit="#V #M" type="variation-absent"/>
+            		</app>
+            		diligere vel appetere 
+                quam intense apprehenditur. Dico tamen iuxta rationem 
+            		<app>
+            			<lem>praefatam</lem>
+            			<rdg wit="#V">
+            				<subst> <!-- unclear if this is not actually a correction-cancellation; maybe it was deleted and then readded -->
+            					<del>praefatam</del>
+            					<add>praefatam</add>
+            				</subst>
+            			</rdg>
+            		</app> 
+                quod si Deus 
+            		<app>
+            			<lem>duplaret</lem>
+            			<rdg wit="#S">duplet</rdg>
+            		</app> 
+            		huius apprehensionem ultra intensionem 
+            		<app>
+            			<lem wit="#M #T">in</lem>
+            			<rdg wit="#S">illam</rdg>
+            			<rdg wit="#V" type="variation-absent"/>
+            		</app> 
+            		quam 
+                posset 
+                <app>
+                	<lem n="posset"/>
+                	<rdg wit="#V" type="correction-deletion">
+                		<del>quam</del>
+                	</rdg>
+                </app> 
+            		<app>
+            			<lem>natura</lem>
+            			<rdg wit="#M">naturae</rdg>
+            		</app> 
+            		talis potentiae 
+            		<app>
+            			<lem>cogitativae</lem>
+            			<rdg wit="#S">cognitivae</rdg> <!-- again, probably just a transcription/ orthographical difference that should be ignored -->
+            		</app> 
+            		virtute sui et obiecti sic praesentis, appetitus 
                 iste idem manens non sufficeret sine alio promotivo 
-                duplare appetitum seu amorem priorem cum illa duplata cogitatione, 
-                quia totalis causa non est duplata, sed solum pars eius minus. 
-                Principalis causa autem et ratio, quare potuerunt aequari in primis naturaliter 
-                causabilibus est quia ita fecunda et potens est talis natura respectu amoris 
-                a se causandi, sicut respectu cogitationis a se causandae respectu eiusdem obiecti, 
-                quamdiu promotiva hinc inde fuerunt paria. Sed cum duplatur 
-                actus non ex natura potentiae et obiecti, sed a causa voluntariae vel tali modo receditur 
+                duplare 
+                appetitum seu amorem <!-- M has "amorem sue appetitum --> 
+                priorem cum illa <!-- MVT have "ista" --> 
+            		duplata cogitatione, 
+                quia totalis causa non est duplata, sed solum pars 
+            		<app> <!-- I'n not positive about best reading; but the variation seems significant for the sense -->
+            			<lem n="pars"/>
+            			<rdg wit="#M #T" type="variation-present">et</rdg>
+            		</app>
+            		eius minus. 
+                Principalis causa <!-- M has "causa principalis --> 
+                autem 
+            		<app>
+            			<lem>et ratio</lem>
+            			<rdg wit="#M #V" type="variation-absent"/>
+            			<rdg wit="#T">et non</rdg>
+            		</app> 
+            		<app>
+            			<lem>quare</lem>
+            			<rdg wit="#M">quando</rdg>
+            		</app>
+            		potuerunt aequari in primis naturaliter 
+                causabilibus est quia <!-- V has "quod" --> ita fecunda et potens est talis natura respectu amoris 
+                a se causandi, sicut respectu 
+            		<app> <!-- another example of likely orthographic difference; these should all be standardized to either "cognit..." or cogitat..." -->
+            			<lem>cognitionis</lem>
+            			<rdg wit="#M">cogitationis</rdg>
+            		</app> a se causandae respectu eiusdem obiecti, 
+                quamdiu promotiva hinc inde fuerunt paria. Sed 
+            		<app>
+            			<lem>cum</lem>
+            			<rdg wit="#T">tamen</rdg> <!-- likely just a transcription difference -->
+            		</app> 
+            		duplatur 
+                actus non ex natura potentiae et obiecti, sed a causa 
+            		<app>
+            			<lem>voluntaria</lem>
+            			<rdg wit="#S #T #V">voluntariae</rdg> <!-- dbcheck all these; doesn't "voluntaria" make more sense here? -->
+            		</app> 
+            		vel tali modo receditur 
                 a proportione aequalitatis huiusmodi nisi aliud adiuvet, sicut credo.</p>
             </div>
             <div>
