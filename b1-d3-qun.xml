@@ -693,7 +693,7 @@
               </app>
               Dei participatione 
               <app> <!-- Check out syntax !!! -->
-                <lem n="participatione">
+                <lem n="participatione"/>
                 <rdg wit="#V" type="variation-present">
                   <add place="margin-left">abolitam</add>
                 </rdg>
@@ -779,11 +779,48 @@
         <div>
           <head type="divisio-quaestionis"><supplied>Divisio questionis</supplied></head>
           <p xml:id="b1d3qun-iiqadm">
-            In ista questione est conclusio certa quod sic. Sed videndum est primo quare 
-            sit in creatura vestigium Trinitatis, in homine imago Trinitatis. Et secundo, contra 
-            dicta alia dubia movebantur.
+            In ista questione est conclusio certa quod sic. Sed videndum 
+            <app>
+              <lem>est</lem>
+              <rdg wit="#V #T #M" type="variation-absent"/>
+            </app>
+            <app>
+              <lem>primo</lem>
+              <rdg wit="#M" type="variation-absent"/>
+            </app>   
+            <app>
+              <lem>quare</lem>
+              <rdg wit="#S" type="variation-substance">et qualiter</rdg>
+            </app>     
+            sit in 
+            <app>
+              <lem>creaturis</lem>
+              <rdg wit="#S #M" type="variation-substance">creatura</rdg>
+            </app>
+            vestigium 
+            <app>
+              <lem>Trinitatis</lem>
+              <rdg wit="#M" type="variation-substance">Trinitati</rdg>
+            </app>
+            <app>
+              <lem>vel</lem>
+              <rdg wit="#M #S" type="variation-absent"/>
+            </app>
+            in homine imago 
+            <app>
+              <lem>Trinitatis</lem>
+              <rdg wit="#M" type="variation-absent"/>
+            </app>. 
+            Et secundo, contra 
+            dicta 
+            <app>
+              <lem>alia</lem>
+              <rdg wit="#T" type="variation-substance">aliqua</rdg>
+            </app>
+            dubia movebantur.
           </p> 
         </div>
+        
         
         <div type="articulus">
           <head xml:id="b1d3qun-Hprilus"><supplied>Primus articulus</supplied></head>
