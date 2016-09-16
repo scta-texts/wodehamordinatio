@@ -4309,27 +4309,182 @@
             </div>
             <div>
               <head>Responsio Fitzralph ad rationes principales</head>
-              <p xml:id="b1d3qun-apliqa">Ad primum argumentum istius dubii, <name ref="#Augustine">Augustinus</name> loquendo de aequalitate 
-                secundo modo dicta in positione, et isto modo verum est quod non 
-                sunt partes istae imaginis aequales in viatoribus communiter quia, 
-                ut saepius, una pars sic loquendo est in viatore plus impedita 
+              <p xml:id="b1d3qun-apliqa">Ad primum argumentum istius dubii, <name ref="#Augustine">Augustinus</name> 
+              	<app>
+              		<lem>loquendo</lem>
+              		<rdg wit="#M #T">loquitur</rdg>
+              	</app> 
+              	<app>
+              		<lem n="loquendo"/>
+              		<rdg wit="#M #V" type="variation-present">ibi</rdg>
+              	</app>
+              	de aequalitate 
+                secundo 
+              	<app>
+              		<lem>modo</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	dicta in positione, et isto modo verum est quod non 
+                sunt partes 
+                istae <!-- M T V have "illae"; I'm not sure what's best  --> 
+                imaginis aequales in viatoribus communiter 
+              	<app>
+              		<lem>quando</lem> <!-- quando seems to go better with saepius than quia -->
+              		<rdg wit="#S #M #T">quia</rdg>
+              	</app>, 
+                ut saepius, una pars sic loquendo est in viatore 
+              	<app>
+              		<lem wit="#M #V">magis</lem>
+              		<rdg wit="#S">plus</rdg>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+              	impedita 
                 <pb ed="#S" n="85-r" />
                 <cb ed="#S" n="a" /> 
                 quam alia.</p>
               
               <p xml:id="b1d3qun-ascaqo"> Ad secundum respondet <name ref="#RichardFitzRalph">Fitzralph</name> cum accipitur quod tunc intellectus 
                 intelligeret quicquid memoria memineret dico, inquit, quod intelligere 
-                est duobus modis, scilicet, in actu et in habitu. Et secundo modo ibi loquendo <name ref="#Augustine">Augustinus</name> 
-                et cum accipitur quod sic intelligere non est, nisi meminere, et tamen secundum aliam rationem dicitur intelligere et secundum aliam meminere, 
-                dicitur enim meminere conceptus est cogitatio conservata et dicitur intelligere 
-                quatenus absolute est habitus cogitativus quae rationes diversae sunt sicut 
-                intellectus et memoria. Unde bene probatur per idem medium quod memoria et intelligentia 
-                sunt aequales quoad obiecta.</p>
+                est duobus modis, scilicet, in actu et 
+              	<app>
+              		<lem>in</lem>
+              		<rdg wit="#V" type="variation-absent"/>
+              	</app> 
+              	habitu. 
+              	Et 
+              	<app>
+              		<lem n="et"/>
+              		<rdg wit="#M">in</rdg>
+              	</app> 
+              	secundo modo 
+              	ibi <!-- ibi comes after loquitur in M --> 
+              	<app>
+              		<lem>loquitur</lem>
+              		<rdg wit="#S">loquendo</rdg> 
+              	</app> 
+              	<name ref="#Augustine">Augustinus</name>, 
+                et cum accipitur quod 
+              	<app>
+              		<lem>sic</lem>
+              		<rdg wit="#T">sicut</rdg>
+              	</app> 
+              	intelligere non est, 
+              	<app>
+              		<lem>nisi</lem>
+              		<rdg wit="#V" type="correction-substitution">
+              			<subst>
+              				<del>tantum</del>
+              				<add>nisi</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	meminere, 
+              	<app>
+              		<lem>dicendo inquit quod hoc est verum sed</lem>
+              		<rdg wit="#S" type="variation-absent"/>
+              	</app> 
+              	<app> <!-- VERY COMPLICATED SEQUENCE HERE -->
+              		<lem>et tamen 
+              			<app xml:id="b1d3qun-Asarrdi" next="#b1d3qun-Aesasam">
+              				<lem>secundum aliam rationem dicitur intelligere</lem>
+              				<rdg wit="#V" type="correction-addition">
+              					<add>secundum aliam rationem dicitur intelligere</add>
+              				</rdg>
+              				<!-- this is first  of the addition made by V that has a second part below -->
+              			</app>
+              		</lem> <!-- T has "intelligere" switched with "meminere" below -->
+              		<rdg wit="#S" type="correction-addition">
+              			<add>et tamen secundum aliam rationem dicitur intelligere</add>
+              		</rdg>
+              	</app> 
+              	<app xml:id="b1d3qun-Aesasam" prev="#b1d3qun-Asarrdi">
+              		<lem>et secundum aliam meminere</lem>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>et secundum aliam meminere</add>
+              		</rdg>
+              		<!-- note; this app is apart of the addition made by V started above -->
+              	</app>, 
+                dicitur 
+              	<app>
+              		<lem>enim</lem>
+              		<rdg wit="#V" type="correction-substitution">
+              			<subst>
+              				<del>nisi</del>
+              				<add>enim</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	<app>
+              		<lem>meminere</lem>
+              		<rdg wit="#T">intelligere</rdg>
+              	</app> 
+              	<app>
+              		<lem>quatenus</lem>
+              		<rdg wit="#S">conceptus</rdg> <!-- dbcheck for transcription error here -->
+              	</app> 
+              	<app>
+              		<lem>est cognitio conservata</lem>
+              		<rdg wit="#T">est habitus cognitativus</rdg> <!-- dbcheck -->
+              	</app> 
+              	et dicitur intelligere 
+                quatenus absolute est habitus 
+              	<app>
+              		<lem>cognitivus</lem>
+              		<rdg wit="#V">cogitativus</rdg>
+              	</app> 
+              	quae rationes diversae sunt sicut 
+                intellectus et memoria. Unde bene probatur per idem medium quod memoria 
+              	<app>
+              		<lem>et</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	intelligentia 
+                sunt aequales quoad 
+              	<app>
+              		<lem>obiecta</lem>
+              		<rdg wit="#M">obiectum</rdg>
+              	</app>.</p>
               
-              <p xml:id="b1d3qun-atpvac">Aliter tamen potest responderi quod illa auctoritas 
-                et consimiles intelligendi sunt sic quod quicquid meminerit potest intelligere et 
-                econtra, et ita de velle vel nolle sub distinctione respectu eiusdem 
-                subiecti vel alterius cuiuscumque.</p>
+              <p xml:id="b1d3qun-atpvac">
+              	<app>
+              		<lem>Aliter tamen potest responderi quod illa auctoritas 
+              			et consimiles 
+              			<app>
+              				<lem>intelligendi</lem>
+              				<rdg wit="#M">intelligendae</rdg>
+              				<rdg wit="#T">intenduntur vel intendendae</rdg> <!-- this might be a good example of "variation-choice" -->
+              			</app> 
+              			sunt sic quod quicquid 
+              			<app>
+              				<lem>meminerit</lem>
+              				<rdg wit="#T">meminere</rdg>
+              			</app> 
+              			potest intelligere et 
+              			econtra, <!-- T has "econverso" --> 
+              			<app>
+              				<lem>et</lem>
+              				<rdg wit="#T" type="variation-absent"/>
+              			</app> 
+              			ita de velle vel 
+              			<app>
+              				<lem>de</lem>
+              				<rdg wit="#S #T" type="variation-absent"/>
+              			</app> 
+              			nolle sub 
+              			<app> <!-- db check for transcription errors -->
+              				<lem>distinctione</lem>
+              				<rdg wit="#S">disiunctione</rdg>
+              				<rdg wit="#T">disiuntive</rdg>
+              			</app> 
+              			respectu eiusdem 
+              			<app>
+              				<lem>subiecti</lem>
+              				<rdg wit="#M #T">sui</rdg> <!-- check for transcription error -->
+              			</app> 
+              			vel alterius cuiuscumque.</lem>
+              		<rdg wit="#V" type="variation-absent"/>
+              	</app>
+              </p>
               
               <p xml:id="b1d3qun-atphtc">Ad tertium patet quod memoria, intelligentia, et voluntas 
                 in eadem mente non sunt aequales per modum in positione dictum, scilicet, 
