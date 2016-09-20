@@ -4486,22 +4486,121 @@
               	</app>
               </p>
               
-              <p xml:id="b1d3qun-atphtc">Ad tertium patet quod memoria, intelligentia, et voluntas 
-                in eadem mente non sunt aequales per modum in positione dictum, scilicet, 
-                quo ad obiecta. Et secundo modo similiter et auctoritas <name ref="#HilaryOfPoitiers">Hilarius</name> solum probat quod non 
-                proprie distinguuntur aequales, quia non realiter distinguuntur, et hoc totum conceditur. </p>
+              <p xml:id="b1d3qun-atphtc">Ad tertium patet quod memoria, 
+              	<app>
+              		<lem>intelligentia, et</lem>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>intelligentia, et</add>
+              		</rdg>
+              	</app> 
+              	voluntas 
+                in eadem mente non sunt aequales 
+                <app>
+                	<lem>
+                		<app>
+                			<lem>proprietas</lem>
+                			<rdg wit="#M">naturales proprie</rdg>
+                		</app> 
+                		sicut nec sicut sunt 
+                		<app>
+                			<lem>partes</lem>
+                			<rdg wit="#M">partis</rdg> <!-- likely transcription error -->
+                		</app> 
+                		mentis sed sunt aquales</lem>
+                	<rdg wit="#S #T" type="variation-absent"/> <!-- likely homeoteluton -->
+                </app>
+                per modum 
+              	<app>
+              		<lem>in positione</lem>
+              		<rdg wit="#V" type="correction-addition"> <!-- db check; the added "in positionem" appears to come after "dictum" in V transcription -->
+              			<add>in positione</add>
+              		</rdg>
+              	</app> 
+              	dictum, scilicet, 
+                quo ad 
+              	<app>
+              		<lem>obiecta</lem>
+              		<rdg wit="#V">obiectum</rdg>
+              	</app>. 
+              	Et secundo modo similiter 
+              	<app>
+              		<lem>et</lem>
+              		<rdg wit="#M">sed</rdg>
+              	</app> 
+              	auctoritas 
+              	<name ref="#HilaryOfPoitiers">Hilarii</name> <!-- S and V seems to have nominative forms; dbcheck as they should probably be genetive --> 
+              	solum probat quod non 
+                proprie distinguuntur aequales, quia non realiter 
+              	<app>
+              		<lem>distinguuntur</lem>
+              		<rdg wit="#T">dicuntur</rdg>
+              	</app>, 
+              	et hoc 
+              	<app>
+              		<lem>totum 
+              			<app>
+              				<lem>conceditur</lem>
+              				<rdg wit="#M" type="variation-absent"/>
+              			</app>
+              		</lem>
+              		<rdg wit="#V">est verum</rdg>
+              		<rdg wit="#T">concedo</rdg>
+              	</app>. 
+              </p>
               
               <p xml:id="b1d3qun-aqrtei">Ad 
-                quartum respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod amor est intensior in patria propter causam 
+                quartum respondet 
+              	<app>
+              		<lem><name ref="#RichardFitzRalph">Fitzralph</name></lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	quod amor est 
+              	intensior in patria <!-- V has "in patria intensior --> 
+              	propter causam 
                 superius improbatam. Sed patuit quod illud medium non necessitat illud ponere, 
-                sed argumentum tangit unum dubium facti ubi posset esse sic et aliter, et ideo 
-                qualiter sit de facto nobis totaliter est incertum.</p>
+                sed argumentum tangit 
+                unum dubium <!-- M has dubium unum --> 
+                facti ubi posset esse sic et aliter, et ideo 
+                qualiter sit de facto nobis totaliter 
+              	<app>
+              		<lem>est</lem>
+              		<rdg wit="#T">fit</rdg>
+              	</app> 
+              	incertum.</p>
               
               <p xml:id="b1d3qun-aqrdai">Ad quintum respondet 
-                <name ref="#RichardFitzRalph">Fitzralph</name> quod <name ref="#Augustine">Augustinus</name> dicens quod quando amor erit perfectus, tunc mens 
-                amat se quantum est, intelligit quod amat se quantum ipsa sit amanda 
-                a se, et ideo non sequitur ad intellectum Augustini quod ipsa tantum amet se 
-                quantum Deus amat ipsum</p>
+                <name ref="#RichardFitzRalph">Fitzralph</name> quod 
+              	<name ref="#Augustine">Augustinus</name> dicens quod 
+              	<cit>
+              		<quote>quando amor erit perfectus, tunc mens 
+              			amat se quantum est</quote>
+              		<bibl>Augustinus, xxx</bibl>
+              	</cit>, 
+              	intelligit quod amat se quantum 
+              	<app> <!-- quite difficult; not sure how best to encode; also depends on what the best reading is -->
+              		<lem>ipsa sit amanda 
+              			a se, et</lem>
+              		<rdg wit="#M">a se tunc amanda sed deus multo magis amat eam quantum sit amanda a se</rdg> <!-- unsure what the better reading is -->
+              		<rdg wit="#T">est a se</rdg>
+              		<rdg wit="#V">ipsa est a se tunc amanda <del>a se</del><add>sed deus multo magis amat eam quam ipsa sit amanda a se</add></rdg>
+              	</app> 
+              	ideo non sequitur ad 
+              	<app>
+              		<lem>intellectum</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+              	<name ref="#Augustine">Augustini</name> quod ipsa 
+              	<app>
+              		<lem>tantum</lem>
+              		<rdg wit="#V #T">tamen</rdg> <!-- dbcheck; possible transcription errors -->
+              	</app> 
+              	amet se 
+                quantum Deus amat 
+              	<app>
+              		<lem>ipsum</lem>
+              		<rdg wit="#T">ipsam</rdg>
+              	</app>.
+              </p>
               
               <p xml:id="b1d3qun-shrimo">Sed haec responsio est glossa obscurior 
                 textu vel potius obscuratio textus clari, cuius causa non est alia 
