@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!--
+  <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -46,14 +54,14 @@
       <div xml:id="b1-d3-qun">
         <head>Distinctio 3</head>
         <div>
-          <head>Quaestio unica: Utrum mens humana sit ymago trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium eiusdem trinitatis</head>
+          <head>Quaestio unica: Utrum mens humana sit imago trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium eiusdem trinitatis</head>
           
           <div>
             <!--This question begins near the bottom of p.56va, l.42.-->
             <p xml:id="b1d3qun-cdtvet">
               <!--<cb ed="#T" n="56va"/>-->
               <note type="marginalNote" place="marginLeft">distinctio tertia</note>
-              <lb ed="#T" n="42"/><hi rend="ii-3">C</hi>irca distinctionem tertiam quaero utrum mens humana sit ymago trinitatis increatae sicut 
+              <lb ed="#T" n="42"/><hi rend="ii-3">C</hi>irca distinctionem tertiam quaero utrum mens humana sit imago trinitatis increatae sicut 
               <lb ed="#T" n="43"/>in rebus aliis factis propter hominem est vestigium eiusdem trinitatis</p>
           </div>
           <div>
@@ -61,23 +69,23 @@
             
             <p xml:id="b1d3qun-qnveid">quod non videtur quia secundum <name ref="#Augustine">augustinum</name>
               <lb ed="#T" n="44"/>in <ref><title>sermone communi de uno martyre</title></ref><pc ana="#punctus"/> <quote>si servasset in se bonum</quote> 
-              <lb ed="#T" n="45"/>etc. igitur ex opposito non sic laudat igitur non <unclear>servat</unclear> in se bonum illud scilicet ymaginem dei 
-              <lb ed="#T" n="46"/>et tamen <corr><del rend="erasure"><unclear>in</unclear></del></corr> servat mentem suam<pc ana="#punctus"/> igitur mens humana non est ymago dei</p>
+              <lb ed="#T" n="45"/>etc. igitur ex opposito non sic laudat igitur non <unclear>servat</unclear> in se bonum illud scilicet imaginem dei 
+              <lb ed="#T" n="46"/>et tamen <corr><del rend="erasure"><unclear>in</unclear></del></corr> servat mentem suam<pc ana="#punctus"/> igitur mens humana non est imago dei</p>
             
             <p xml:id="b1d3qun-idteit"><pc ana="#pilcrow"/>Item <ref>14 <title ref="#deTrinitate">de trinitate</title> c. 
-              <lb ed="#T" n="46"/>7 de parvis</ref> dicit iuxta illud <unclear>psalmum <!-- it was ambiguous between "psalmus" and "psalmum", since the abbr. is simply "ps" --></unclear> <pc ana="#punctus"/> <quote>verumtamen in ymagine pertransit homo sed etc. quia haec ymago 
+              <lb ed="#T" n="46"/>7 de parvis</ref> dicit iuxta illud <unclear>psalmum <!-- it was ambiguous between "psalmus" and "psalmum", since the abbr. is simply "ps" --></unclear> <pc ana="#punctus"/> <quote>verumtamen in imagine pertransit homo sed etc. quia haec imago 
                 <lb ed="#T" n="47"/>ita deformis et obscura facta est ut penae nulla sit</quote><pc ana="#punctus"/> ipsa autem mens humana secundum substantiam 
-              <lb ed="#T" n="48"/>suam integre manet <pc ana="#punctus"/> igitur secundum substantiam suam non est ymago trinitatis<pc ana="#punctus"/></p>
+              <lb ed="#T" n="48"/>suam integre manet <pc ana="#punctus"/> igitur secundum substantiam suam non est imago trinitatis<pc ana="#punctus"/></p>
             
             
             <p xml:id="b1d3qun-immnsm"><pc ana="#pilcrow"/>Item mens magis 
-              <lb ed="#T" n="49"/>esset ymago quam homo quia unumquodque <pc ana="#punctus"/> propter quod et illud magis<pc ana="#punctus"/> consequens falsum est quia homo magis 
-              <lb ed="#T" n="50"/>est similis deo quam mens et exprimitur ab eo<pc ana="#virgula"/> igitur magis est eius ymago <pc ana="#punctus"/> haec consequentia patet <pc ana="#punctus"/> quia per 
-              <lb ed="#T" n="51"/>definitionem ymaginis quam ponit <ref><name ref="#Augustine">augustinus</name> <title ref="deDiversisQuaestionibus">De 83 quaestionibus</title> quaestione 74</ref> ubi dicit quod ymago est expressa 
+              <lb ed="#T" n="49"/>esset imago quam homo quia unumquodque <pc ana="#punctus"/> propter quod et illud magis<pc ana="#punctus"/> consequens falsum est quia homo magis 
+              <lb ed="#T" n="50"/>est similis deo quam mens et exprimitur ab eo<pc ana="#virgula"/> igitur magis est eius imago <pc ana="#punctus"/> haec consequentia patet <pc ana="#punctus"/> quia per 
+              <lb ed="#T" n="51"/>definitionem imaginis quam ponit <ref><name ref="#Augustine">augustinus</name> <title ref="deDiversisQuaestionibus">De 83 quaestionibus</title> quaestione 74</ref> ubi dicit quod imago est expressa 
               <!-- -->
               <!-- -->
               <!-- --> 
-              <cb ed="#T" n="56rb"/><lb ed="#T" n="1"/>similitudo illius cuius est ymago <pc ana="#pilcrow"/> Assumptum probatur quia homo est ens nobilius quam mens hominis igitur est magis 
+              <cb ed="#T" n="56rb"/><lb ed="#T" n="1"/>similitudo illius cuius est imago <pc ana="#pilcrow"/> Assumptum probatur quia homo est ens nobilius quam mens hominis igitur est magis 
               <lb ed="#T" n="2"/>similis deo consequentia patet<pc ana="#punctus"/> per <ref><name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monologion</title> c. 31 et 66</ref> ubi dicit <quote>quidquid inter creata constat esse 
                 <lb ed="#T" n="3"/>similius</quote> deo <quote><pc ana="#punctus"/> illud necesse est esse <!-- this should be and "ex", not an "esse"--> natura praestantius</quote> Assumptum probatur quia <ref>primus <title ref="#Ethics">Ethicorum</title> c. 8 in fine dicit <name ref="#Aristotle">Philosophus</name></ref> 
               <lb ed="#T" n="4"/>quod <quote>felicitas connumerata cum minimo bonorum <corr><add place="aboveLine">est</add></corr> eligibilior quam ipsa felicitas</quote> et addit quod <quote>semper 
@@ -88,7 +96,7 @@
               <pc ana="#virgula"/><pc ana="#virgula"/>Item si mens humana sit 
               yma<lb ed="#T" n="7"/>go trinitatis increatae aut igitur ratione substantiae suae et hoc non quia illa repraesentat distinctionem personarum aut 
               <lb ed="#T" n="8"/>ratione actuum quos causat et recipit et hoc non<pc ana="#punctus"/> quia illi non sunt consubstantiales et hoc idem quia 
-              <lb ed="#T" n="9"/>in re arguitur sub alia forma sic <unclear>et sic</unclear><pc ana="#punctus"/> tunc cognitio perfecta illius ymaginis nata esset inducere 
+              <lb ed="#T" n="9"/>in re arguitur sub alia forma sic <unclear>et sic</unclear><pc ana="#punctus"/> tunc cognitio perfecta illius imaginis nata esset inducere 
               <lb ed="#T" n="10"/>vel saltem iuvare trinitatem esse in deo 
               <!--  -->
               consequens falsum quia eius cognitio magis abducit a cognitione 
@@ -103,19 +111,19 @@
             
             
             <p xml:id="b1d3qun-isqati">
-              <pc ana="#pilcrow"/>Item specialiter quod mens non sit ymago ratione suorum
-              <lb ed="#T" n="15"/>accidentium quia <ref>14 <title ref="#deTrinitate">de trinitate</title> c. 16 de parvis dicit <name ref="#Augustine">augustinus</name></ref> quod <quote> ymago creatoris immortaliter inserta est animae
+              <pc ana="#pilcrow"/>Item specialiter quod mens non sit imago ratione suorum
+              <lb ed="#T" n="15"/>accidentium quia <ref>14 <title ref="#deTrinitate">de trinitate</title> c. 16 de parvis dicit <name ref="#Augustine">augustinus</name></ref> quod <quote> imago creatoris immortaliter inserta est animae
                 <lb ed="#T" n="16"/>hominis rationali seu intellectuali sed actus non immortaliter</quote> <corr><add place="aboveLine">igitur</add></corr> et ibidem etiam <ref>c. 4 vult <name ref="#Augustine">augustinus</name></ref> 
-              <lb ed="#T" n="17"/>quod ymago illa non est attendenda in rebus transeuntibus sed actus transeunt igitur<pc ana="#punctus"/></p>
+              <lb ed="#T" n="17"/>quod imago illa non est attendenda in rebus transeuntibus sed actus transeunt igitur<pc ana="#punctus"/></p>
           </div>
           
           <div>
             <head>Oppositum</head>
             <p xml:id="b1d3qun-aopmld">
               <pc ana="#pilcrow"/>Ad oppositum 
-              <lb ed="#T" n="18"/><ref><title ref="#gen">genesis</title> primo</ref> <quote>faciamus hominem ad ymaginem</quote> etc. et <ref><name ref="Augustine">Augustinus</name> <title ref="#supraGenesim">super genesim ad litteram</title> c. 23 de 
-                <lb ed="#T" n="19"/>parvis</ref> dicit hominem factum esse ad ymaginem dei secundum mentem secundum illud <ref><name ref="#Paul">apostoli</name><title ref="#eph"/></ref> <quote ana="#eph4_23">Renovamini spiritu 
-                  <lb ed="#T" n="20"/>mentis vestrae</quote> etc. et <ref>c. 26</ref> concludit quod in mente factus est homo ad ymaginem dei eiusdem 
+              <lb ed="#T" n="18"/><ref><title ref="#gen">genesis</title> primo</ref> <quote>faciamus hominem ad imaginem</quote> etc. et <ref><name ref="Augustine">Augustinus</name> <title ref="#supraGenesim">super genesim ad litteram</title> c. 23 de 
+                <lb ed="#T" n="19"/>parvis</ref> dicit hominem factum esse ad imaginem dei secundum mentem secundum illud <ref><name ref="#Paul">apostoli</name><title ref="#eph"/></ref> <quote ana="#eph4_23">Renovamini spiritu 
+                  <lb ed="#T" n="20"/>mentis vestrae</quote> etc. et <ref>c. 26</ref> concludit quod in mente factus est homo ad imaginem dei eiusdem 
               <lb ed="#T" n="21"/>sententiae est <ref><name ref="#Lombard">magister</name><title ref="#Sentences"/> libro 2 distinctione 26</ref>
             </p>
             
@@ -123,7 +131,7 @@
             <p xml:id="b1d3qun-aieqce">
               <pc ana="#pilcrow"/>Ad idem est <ref><name ref="#Augustine">augustinus</name> 12 <title ref="#deTrinitate">de trinitate</title> c. 17 de parvis</ref> 
               <lb ed="#T" n="22"/><quote>nulli</quote> inquit <quote>dubium est non secundum corpus neque secundum quamlibet aliam partem<pc ana="#punctus"/> sed secundum mentem rationalem ubi potest esse 
-                <lb ed="#T" n="23"/>agnitio dei factum hominem ad ymaginem eius qui creavit eum</quote>
+                <lb ed="#T" n="23"/>agnitio dei factum hominem ad imaginem eius qui creavit eum</quote>
             </p>
             
             
@@ -132,7 +140,7 @@
               <lb ed="#T" n="24"/>recte praetendit contrarium primae et secundae<pc ana="#punctus"/> ad primam partem dicit enim <ref><name ref="#Augustine">augustinus</name> 14 <title ref="#deTrinitate">de trinitate</title> c. 19 de parvis</ref> 
               <lb ed="#T" n="25"/>quod <quote>prius mens in se ipsa consideranda est antequam sit particeps dei et in ea recipienda est 
                 ima<lb ed="#T" n="26"/>go eius diximus enim eam esse amissa dei participatione abolitam atque deformem 
-                <lb ed="#T" n="27"/>atque deformem dei tamen ymaginem permanere eo quippe proprie est quo capax eius est 
+                <lb ed="#T" n="27"/>atque deformem dei tamen imaginem permanere eo quippe proprie est quo capax eius est 
                 <lb ed="#T" n="28"/>eiusque particeps esse potest</quote>
             </p>
             
@@ -151,21 +159,24 @@
             <p xml:id="b1d3qun-iiqadm">
               <pc ana="#virgula"/><pc ana="#virgula"/>In ista questione est conclusio certa quod sic 
               <pc ana="#pilcrow"/> Sed videndum primo quare sit in creaturis <corr><add place="aboveLine">in quibus <unclear><gap quantity="2" unit="words"/></unclear></add></corr> vestigium 
-              <lb ed="#T" n="31"/>trinitatis vel in homine ymago trinitatis et secundo contra dicta aliqua dubia movebantur
+              <lb ed="#T" n="31"/>trinitatis vel in homine imago trinitatis et secundo contra dicta aliqua dubia movebantur
             </p>
             
           </div>
           <div>
             <head>Primus articulus</head> <div>
-              <head>Conditiones communes vestigio et ymagini</head>
+              <head>Conditiones communes vestigio et imagini</head>
               
               
               <p xml:id="b1d3qun-cpcscc">
                 <pc ana="#pilcrow"/>Circa primum sciendum 
-                <lb ed="#T" n="32"/>quod aliae sunt conditiones communes tam vestigio quam ymagini <pc ana="#punctus"/> et aliquae proprie huic vel illi 
-                <lb ed="#T" n="33"/>una de communibus est <corr><del rend="strikethrough"><unclear>aliqua</unclear></del><add place="marginRight"><unclear>quae utraque differt ab illo cuius est vestigia vel <gap quantity="3" unit="words"></gap></unclear></add></corr> quia tam vestigium quam ymago ducit in cognitionem vel notitiam 
-                <lb ed="#T" n="34"/>illius cuius est imago vel notitia tanquam <unclear><gap unit="words" quantity="1"/></unclear> notitiae illius cuius est imago vel vestigium mediante 
-                <lb ed="#T" n="35"/>notitia sua non utique in primam notitiam distinctam et propriam illius cuius est ymago vel vestigium quia ex 
+                <lb ed="#T" n="32"/>quod aliae sunt conditiones communes tam vestigio quam imagini <pc ana="#punctus"/> et aliquae proprie huic vel illi 
+                <lb ed="#T" n="33"/>una de communibus est 
+                <corr>
+                  <del rend="strikethrough">aliqua</del>
+                  <add place="marginRight">quae utrumque differt ab illo cuius est vestigium vel </add></corr> quia tam vestigium quam imago ducit in cognitionem vel notitiam 
+                <lb ed="#T" n="34"/>illius cuius est imago vel notitia tanquam causativum notitiae illius cuius est imago vel vestigium mediante 
+                <lb ed="#T" n="35"/>notitia sua non utique in primam notitiam distinctam et propriam illius cuius est imago vel vestigium quia ex 
                 <lb ed="#T" n="36"/>alibi determinatis patet quod notitia incomplexa unius rei non ducit in primam notitiam incomplexam distinctam 
                 <lb ed="#T" n="37"/>et propriam et simplicem alterius rei sed per illum modum quo una res mediante notitia sua incomplexa 
                 <lb ed="#T" n="38"/>potest esse causa partialis rememorationis alterius rei habitualiter notae ita quod notitia 
@@ -173,15 +184,18 @@
               </p>
               
             </div>
+            
+            
+            
             <div>
               <head>Opinio Ockham</head>
+            
               <p xml:id="b1d3qun-idovis">
-                
                 <pc ana="#pilcrow"/>Istud declarat <name ref="#Ockham">Ockham</name> per experientiam 
                 <lb ed="#T" n="40"/>et bene posito enim <quote>quod si quis nullam penitus habeat cognitionem de Hercule si videat <!--Ockham Ord d3 q10 OT I:545 quasi verbatim--> 
-                  sta<lb ed="#T" n="41"/>tuam Herculis non plus cogitabit de Hercule quam de Sortes si autem videtur Herculem 
-                  <lb ed="#T" n="42"/>prius et retineat habitualem notitiam Herculis</quote> etiam per auditum didicerit conditiones proprias 
-                <lb ed="#T" n="43"/>quasdam sine quantas in ymagine eius <quote>et postea videat statuam sibi similem in accidentibus exterioribus 
+                  sta<lb ed="#T" n="41"/>tuam Herculis non plus cogitabit de Hercule quam de Sorte si autem videat Herculem 
+                  <lb ed="#T" n="42"/>prius et retineat habitualem notitiam Herculis</quote> vel per auditum didicerit conditiones proprias 
+                <lb ed="#T" n="43"/>quasdam similatas in imagine eius <quote>et postea videat statuam sibi similem in accidentibus exterioribus 
                   <lb ed="#T" n="44"/>virtute visionis statuae</quote> poterit recordari Herculis etiam posito quod numquam prius vidisset 
                 <lb ed="#T" n="45"/>illam statuam
               </p>
@@ -196,7 +210,7 @@
               
               
               <p xml:id="b1d3qun-eseqda">
-                Et sicut est de ymagine Herculis respectu rememorationis 
+                Et sicut est de imagine Herculis respectu rememorationis 
                 Her<lb ed="#T" n="49"/>culis <quote>ita est de vestigio quod si aliquis videat vestigium bovis recordabitur de bove 
                   <lb ed="#T" n="50"/>habitualiter viso sed si numquam prius habuisset aliquam notitiam de bove non plus recordaretur 
                   <lb ed="#T" n="51"/>de bove quam de asino</quote><!--Ockham ibidem-->
@@ -224,28 +238,28 @@
               </p>
               
               <div>
-                <head>Differentia inter vestigium et ymaginem</head>
+                <head>Differentia inter vestigium et imaginem</head>
                 
                 <p xml:id="b1d3qun-advqah">
-                  <note place="marginLeft" type="marginalNote">differentia inter vestigium et ymaginem</note>
-                  <quote>Sed differunt vestigium et ymago 
+                  <note place="marginLeft" type="marginalNote">differentia inter vestigium et imaginem</note>
+                  <quote>Sed differunt vestigium et imago 
                     <lb ed="#T" n="3"/>quia de ratione vestigii est quod causetur ab isto in specie cuius est vestigium</quote><!--Ockham id p547--> aliquo modo sicut patet inductive 
                   <lb ed="#T" n="4"/>de vestigio bovis <pc ana="#virgula"/> combustionis et sic de similibus <pc ana="#punctus"/> et hinc est quod vestigium dicitur aliquid 
-                  dere<lb ed="#T" n="5"/>lictum ex alio <quote>de ratione autem ymaginis non est quod causetur ab illo cuius est ymago <pc ana="#punctus"/> sufficit 
-                    <lb ed="#T" n="6"/>enim quod ymago Herculis ab alio causetur quam ab Hercule</quote>
+                  dere<lb ed="#T" n="5"/>lictum ex alio <quote>de ratione autem imaginis non est quod causetur ab illo cuius est imago <pc ana="#punctus"/> sufficit 
+                    <lb ed="#T" n="6"/>enim quod imago Herculis ab alio causetur quam ab Hercule</quote>
                 </p>
                 
                 
                 <!--Ockham ibidem--><p xml:id="b1d3qun-ntqiqr">
                   <pc ana="#pilcrow"/>Nota tamen quod strictissime 
-                  <lb ed="#T" n="7"/>seu proprissime et non sic communiter ut prius loquendo de ymagine de ratione ymaginis est quod ipsa sit 
-                  <lb ed="#T" n="8"/>similitudo expressa seu genita ab eo cuius est ymago sicut dicit <ref><name ref="#Augustine">augustinus</name> <title>de 83 Quaestionibus</title> questione <unclear>74</unclear></ref> 
-                  <lb ed="#T" n="9"/>sicut ibi exemplificat <quote>ut in speculo</quote> inquit <quote>est ymago hominis quia de illo expressa est</quote> similiter <quote>de 
+                  <lb ed="#T" n="7"/>seu proprissime et non sic communiter ut prius loquendo de imagine de ratione imaginis est quod ipsa sit 
+                  <lb ed="#T" n="8"/>similitudo expressa seu genita ab eo cuius est imago sicut dicit <ref><name ref="#Augustine">augustinus</name> <title>de 83 Quaestionibus</title> questione <unclear>74</unclear></ref> 
+                  <lb ed="#T" n="9"/>sicut ibi exemplificat <quote>ut in speculo</quote> inquit <quote>est imago hominis quia de illo expressa est</quote> similiter <quote>de 
                     <lb ed="#T" n="10"/>parentibus et filiis <pc ana="#punctus"/> nam et de parente expressa est similitudo filii ut recte dicatur 
-                    <lb ed="#T" n="11"/>ymago</quote> et tunc proprie <pc ana="#punctus"/> sumitur ymago sicut praeaccepi <pc ana="#punctus-interrogativus"/> teste <ref><name ref="#Lombard">Magistro</name><title ref="#Sentences"/> libro 2 distinctione 16 
-                      <lb ed="#T" n="12"/>c. 2</ref> ubi dicit quod quadam auctoritate Bedae super hoc quod trinitas ipsa <quote>improprie ymago dicitur</quote> <pc ana="#punctus"/> cuius causa 
-                  <lb ed="#T" n="13"/>est <quote>quia ymago</quote> inquit <quote>relative ad aliud aliud cuius similitudinem gerit et ad quod repraesentandum facta 
-                    <lb ed="#T" n="14"/>est <pc ana="#punctus"/> sicut ymago Caesaris quae ipsius similitudinem praeferebat ipsum quodammodo repraesentabat</quote>
+                    <lb ed="#T" n="11"/>imago</quote> et tunc proprie <pc ana="#punctus"/> sumitur imago sicut praeaccepi <pc ana="#punctus-interrogativus"/> teste <ref><name ref="#Lombard">Magistro</name><title ref="#Sentences"/> libro 2 distinctione 16 
+                      <lb ed="#T" n="12"/>c. 2</ref> ubi dicit quod quadam auctoritate Bedae super hoc quod trinitas ipsa <quote>improprie imago dicitur</quote> <pc ana="#punctus"/> cuius causa 
+                  <lb ed="#T" n="13"/>est <quote>quia imago</quote> inquit <quote>relative ad aliud aliud cuius similitudinem gerit et ad quod repraesentandum facta 
+                    <lb ed="#T" n="14"/>est <pc ana="#punctus"/> sicut imago Caesaris quae ipsius similitudinem praeferebat ipsum quodammodo repraesentabat</quote>
                 </p>
                 
                 
@@ -253,10 +267,10 @@
                   <pc ana="#pilcrow"/>Ex 
                   <lb ed="#T" n="15"/>hac differentia sequitur alia quod vestigium ducit vel ducere potest non tantum in notitiam complexam 
                   <lb ed="#T" n="16"/>recordativam illius cuius est habitualiter noti <pc ana="#punctus-interrogativus"/> sed etiam in complexis alias contingentis et assensus sibi conformes 
-                  <lb ed="#T" n="17"/>alios in quorum consimiles non potest sufficienter ymago ducere verbi gratia vestigium bovis non tantum 
+                  <lb ed="#T" n="17"/>alios in quorum consimiles non potest sufficienter imago ducere verbi gratia vestigium bovis non tantum 
                   <lb ed="#T" n="18"/>facit recordari de bove habitualiter noto <pc ana="#punctus"/> sed ducit communiter in credulitatem conformem 
-                  <lb ed="#T" n="19"/>huic complexo contingenti <mentioned>bos hic pertransivit</mentioned> sed ymago petri non ducit in hanc 
-                  <lb ed="#T" n="20"/><mentioned>petrus hic transivit</mentioned> et huiusmodi <pc ana="#pilcrow"/>Vestigium autem et ymago multipliciter accipiuntur sicut patet in <name ref="#Ockham">Ockham</name> <!--Cf. Ockham, Ord. I, d.3, q.9, OT 2: 543-552 -->
+                  <lb ed="#T" n="19"/>huic complexo contingenti <mentioned>bos hic pertransivit</mentioned> sed imago petri non ducit in hanc 
+                  <lb ed="#T" n="20"/><mentioned>petrus hic transivit</mentioned> et huiusmodi <pc ana="#pilcrow"/>Vestigium autem et imago multipliciter accipiuntur sicut patet in <name ref="#Ockham">Ockham</name> <!--Cf. Ockham, Ord. I, d.3, q.9, OT 2: 543-552 -->
                 </p>
                 
                 
@@ -271,10 +285,10 @@
                 
                 
                 <p xml:id="b1d3qun-esiidp">
-                  et similiter in questione de ymagine articulo secundo primo illius in opinione propria docet <pc ana="#punctus"/> 
-                  <lb ed="#T" n="26"/>qualiter in creatura rationali magis dicitur esse ymago quam in aliqua alia creatura et secundo consequenter docet 
-                  <lb ed="#T" n="27"/>quomodo ymago dei imperfecta et quasi radicaliter et originaliter consistit in ipsa anima secundum 
-                  <lb ed="#T" n="28"/>suam substantiam sed completive perfectio ymaginis consistit in ipsa substantia animae et duobus actibus 
+                  et similiter in questione de imagine articulo secundo primo illius in opinione propria docet <pc ana="#punctus"/> 
+                  <lb ed="#T" n="26"/>qualiter in creatura rationali magis dicitur esse imago quam in aliqua alia creatura et secundo consequenter docet 
+                  <lb ed="#T" n="27"/>quomodo imago dei imperfecta et quasi radicaliter et originaliter consistit in ipsa anima secundum 
+                  <lb ed="#T" n="28"/>suam substantiam sed completive perfectio imaginis consistit in ipsa substantia animae et duobus actibus 
                   <lb ed="#T" n="29"/>productis respectu utriusque quorum anima habet fecunditatem sed ad actum volendi mediante actu intellegendi 
                   <lb ed="#T" n="30"/>qui cum substantia animae et obiecto comproducit actum volendi et per consequens exprimit anima cum illis actibus 
                   <lb ed="#T" n="31"/>ordinem et originem inter diversas personas
@@ -301,51 +315,51 @@
               
               <p xml:id="b1d3qun-scihri">
                 <pc ana="#pilcrow"/>Sed contra ista est primum dubium contra illud in quo 
-                <lb ed="#T" n="36"/>dicitur consistere ratio ymaginis quia non videtur quod in substantia animae aliquo modo etiam imperfecte consistat 
-                <lb ed="#T" n="37"/>ratio ymaginis quia ymago necessario requirit distinctionem aliquam sed in substantia animae nulla est distinctio igitur nullo modo habet 
-                <lb ed="#T" n="38"/>rationem ymaginis
+                <lb ed="#T" n="36"/>dicitur consistere ratio imaginis quia non videtur quod in substantia animae aliquo modo etiam imperfecte consistat 
+                <lb ed="#T" n="37"/>ratio imaginis quia imago necessario requirit distinctionem aliquam sed in substantia animae nulla est distinctio igitur nullo modo habet 
+                <lb ed="#T" n="38"/>rationem imaginis
               </p>
               
               
               <p xml:id="b1d3qun-siqcie">
-                <pc ana="#pilcrow"/>Item quod nec in substantia animae et duobus actibus videtur quia inter partes ymaginis 
+                <pc ana="#pilcrow"/>Item quod nec in substantia animae et duobus actibus videtur quia inter partes imaginis 
                 <lb ed="#T" n="39"/>videtur esse consubstantialitas sed inter substantiam animae et illos actus nulla est consubstantialitas igitur etc.
               </p>
               
               
               <p xml:id="b1d3qun-tisine">
                 <pc ana="#pilcrow"/>Item ut supra 
-                <lb ed="#T" n="40"/>secundum <ref><name ref="#Augustine">augustinus</name> 14 <title ref="#deTrinitate">de trinitate</title> c. 3 de magnis</ref> <quote>ymago dei in creatura rationali est immortalis</quote> sed isti actus 
+                <lb ed="#T" n="40"/>secundum <ref><name ref="#Augustine">augustinus</name> 14 <title ref="#deTrinitate">de trinitate</title> c. 3 de magnis</ref> <quote>imago dei in creatura rationali est immortalis</quote> sed isti actus 
                 <lb ed="#T" n="41"/>secundi non sunt immortales nec incorporales igitur
               </p>
               
               
               <p xml:id="b1d3qun-qisqfe">
                 <pc ana="#pilcrow"/>Item secundum hoc posset in mente rationali 
-                <lb ed="#T" n="42"/>inveniri ymago respectu cuiuslibet obiecti intelligibilis et diligibilis cuius oppositum innuit <ref><name ref="#Augustine">augustinus</name> 12 <title ref="#deTrinitate">de trinitate</title> c. 4</ref>
-                <lb ed="#T" n="43"/><quote>in eo solo</quote> inquit <quote>quod ad contemplationem pertinet aeternorum non trinitas sed etiam ymago dei 
-                  <lb ed="#T" n="44"/>in hoc autem quod derivatum est in actione temporalium etiam si trinitas possit non tamen ymago dei 
+                <lb ed="#T" n="42"/>inveniri imago respectu cuiuslibet obiecti intelligibilis et diligibilis cuius oppositum innuit <ref><name ref="#Augustine">augustinus</name> 12 <title ref="#deTrinitate">de trinitate</title> c. 4</ref>
+                <lb ed="#T" n="43"/><quote>in eo solo</quote> inquit <quote>quod ad contemplationem pertinet aeternorum non trinitas sed etiam imago dei 
+                  <lb ed="#T" n="44"/>in hoc autem quod derivatum est in actione temporalium etiam si trinitas possit non tamen imago dei 
                   <lb ed="#T" n="45"/>inveniri potest</quote> 
                 <pc ana="#pilcrow"/>Et <ref>XIV <title ref="#deTrinitate">de trinitate</title> c. 23 de parvis <name ref="#Augustine"/></ref> dicit quod <quote>non propterea est trinitas mentis 
-                  <lb ed="#T" n="46"/>dei ymago <pc ana="#punctus"/> quia sui meminit mens et intelligit ac diligit se <pc ana="#punctus"/> sed quia meminire
+                  <lb ed="#T" n="46"/>dei imago <pc ana="#punctus"/> quia sui meminit mens et intelligit ac diligit se <pc ana="#punctus"/> sed quia meminire
                   <lb ed="#T" n="47"/><corr><add place="marginLeft">intelligere et amare</add></corr> potest eum <corr><add place="marginLeft">a quo facta sunt <pc ana="#punctus"/></add></corr></quote>
               </p>
               
               
               <p xml:id="b1d3qun-qqscie">
-                <pc ana="#pilcrow"/><corr><add place="marginLeft">quinto quia eadem</add></corr> ratione in parte sensitiva esset ymago trinitatis nam etiam <unclear>ibi</unclear> substantia animae cum obiecto principat cognitionem et 
+                <pc ana="#pilcrow"/><corr><add place="marginLeft">quinto quia eadem</add></corr> ratione in parte sensitiva esset imago trinitatis nam etiam <unclear>ibi</unclear> substantia animae cum obiecto principat cognitionem et 
                 <lb ed="#T" n="48"/>cum cognitione actum apprehendi sensitivum ibi igitur aeque est originatio et ordo conformis trinitati 
-                <lb ed="#T" n="49"/>sicut intellectu dato quod <unclear>sic sit</unclear> assignanda ratio ymaginis <pc ana="#punctus"/> consequens non conceditur igitur etc.
+                <lb ed="#T" n="49"/>sicut intellectu dato quod <unclear>sic sit</unclear> assignanda ratio imaginis <pc ana="#punctus"/> consequens non conceditur igitur etc.
               </p>
               
               <div>
                 <head>responsio ad argumenta pro primo dubio</head>
                 <p xml:id="b1d3qun-rapaoe">
                   
-                  <lb ed="#T" n="50"/><note place="marginLeft" type="marginalNote">Ad primum</note>Ad primum verum est quod ad salvandum rationem ymaginis in mente rationali aliqui ponunt aliquam distinctionem 
+                  <lb ed="#T" n="50"/><note place="marginLeft" type="marginalNote">Ad primum</note>Ad primum verum est quod ad salvandum rationem imaginis in mente rationali aliqui ponunt aliquam distinctionem 
                   <lb ed="#T" n="51"/>inter substantiam animae et intellectum et voluntatem sicut <ref><name ref="#Scotus">Scotus</name> in 2 distinctione 16</ref> sed per eundem ibi nulla ratio potest 
                   <lb ed="#T" n="52"/>talem distinctionem ibi probare sufficienter ut supra tetigi ultima questione primae distinctionis nec ad salvandum 
-                  <lb ed="#T" n="53"/>ymaginem videtur hoc mihi necessarium quia si plures potentiae essent idem realiter non salvaretur
+                  <lb ed="#T" n="53"/>imaginem videtur hoc mihi necessarium quia si plures potentiae essent idem realiter non salvaretur
                   
                   <cb ed="#T" n="57rb"/>
                   <lb ed="#T" n="1"/>inter illas potentias aliqua originatio etc. <pc ana="#virgula"/><pc ana="#virgula"/>
@@ -355,17 +369,17 @@
                 <p xml:id="b1d3qun-sqeesa">
                   Sed quia ego non teneo talem distinctionem inter potentias animae sicut cum 
                   <lb ed="#T" n="2"/><name ref="#Scotus">Doctore Subtili</name> et <ref><name ref="#Lombard">Magistro</name> in littera in ista distinctione 3</ref> quod non potest in nobis reperiri similitudo 
-                  <lb ed="#T" n="3"/>ymaginis ad prototipum quia secundum <name ref="#Lombard">Magistrum</name> magis est dissimilitudo et ideo dico quod nulla tria sunt 
+                  <lb ed="#T" n="3"/>imaginis ad prototipum quia secundum <name ref="#Lombard">Magistrum</name> magis est dissimilitudo et ideo dico quod nulla tria sunt 
                   <lb ed="#T" n="4"/>in mente realiter distincta inter quae sit similis ratio originis duorum ab uno et unius a duobus 
-                  <lb ed="#T" n="5"/>consubstantialitate id est essentiali ydentitate istorum trium realiter distinctorum oportet igitur vel quod ratio ymaginis definiat 
+                  <lb ed="#T" n="5"/>consubstantialitate id est essentiali ydentitate istorum trium realiter distinctorum oportet igitur vel quod ratio imaginis definiat 
                   <lb ed="#T" n="6"/>vel quoad originationem et distinctionem vel quoad consubstantialitatem et maxime hoc non est inconveniens de 
-                  <lb ed="#T" n="7"/>illo in quo tantum principiative et virtualiter consistit ratio ymaginis cuius est substantia animae
+                  <lb ed="#T" n="7"/>illo in quo tantum principiative et virtualiter consistit ratio imaginis cuius est substantia animae
                 </p>
                 
                 
                 <p xml:id="b1d3qun-asdssa">
                   <pc ana="#pilcrow"/>Ad secundum dico 
-                  <lb ed="#T" n="8"/>quod in consubstantialitate deficit ymago a trinitate personarum inter quas est consubstantialitas verum est tamen quod aliqua possunt 
+                  <lb ed="#T" n="8"/>quod in consubstantialitate deficit imago a trinitate personarum inter quas est consubstantialitas verum est tamen quod aliqua possunt 
                   <lb ed="#T" n="9"/>haberi signa expressiva istarum partium distinctarum quae vere affirmantur de eadem substantia et illa est 
                   <lb ed="#T" n="10"/>consubstantialitas quam auctores ibi intendunt forte habere eadem enim substantia animae est memoria intelligentia et voluntas 
                   <lb ed="#T" n="11"/>ita enim secundum <ref><name ref="#Augustine">augustinum</name> et allegatur in littera distinctione 3 prima</ref> relativa dicuntur ad invicem quod non esset 
@@ -375,29 +389,29 @@
                 
                 <p xml:id="b1d3qun-atdmiv">
                   <pc ana="#pilcrow"/>Ad tertium dico quod aliqua per quae exprimuntur distinctae 
-                  <lb ed="#T" n="13"/><sic>per quae exprimuntur distinctae</sic> partes ymaginis numquam vere removentur ab anima rationali unde haec per se 
+                  <lb ed="#T" n="13"/><sic>per quae exprimuntur distinctae</sic> partes imaginis numquam vere removentur ab anima rationali unde haec per se 
                   <lb ed="#T" n="14"/>est vera et necessaria si formetur anima est memoria intelligentia et voluntas si anima saltem sit nec <unclear>quod</unclear> 
-                  <lb ed="#T" n="15"/>intendit <name ref="#Augustine">augustinus</name> per <quote>ymaginem esse immortalem</quote> quam quod anima necessario et immortaliter ipsa manente sit 
+                  <lb ed="#T" n="15"/>intendit <name ref="#Augustine">augustinus</name> per <quote>imaginem esse immortalem</quote> quam quod anima necessario et immortaliter ipsa manente sit 
                   <lb ed="#T" n="16"/>talis qualis exprimitur cum dicitur <quote>esse memoria intelligentia voluntas</quote>
                 </p>
                 
                 
                 <p xml:id="b1d3qun-aqbiao">
                   <pc ana="#pilcrow"/>Ad quartum respondet <name ref="#Scotus">Scotus</name> quod respectu 
-                  <lb ed="#T" n="17"/>dei ut obiecti in mente habetur creata et ultima et perfectissima ratio ymaginis <pc ana="#punctus"/> quia tunc illa tria non solum 
+                  <lb ed="#T" n="17"/>dei ut obiecti in mente habetur creata et ultima et perfectissima ratio imaginis <pc ana="#punctus"/> quia tunc illa tria non solum 
                   <lb ed="#T" n="18"/>sunt expressiva similitudo trinitatis increatae ex hoc quo sunt tres res tales sic se habentes inter se <corr><add place="marginRight">sicut <name ref="#Peter">petrus</name> dicit se habent inter se sed ultra</add></corr> 
-                  <lb ed="#T" n="19"/><sic>sed ultra</sic> hoc quia omnis actus est vere similitudo obiecti cuius est et quaedam expressa ymago ipsius licet 
-                  aequivo<lb ed="#T" n="20"/>ca ideo quando actus illi <unclear>illiciti</unclear> sunt respectu dei ut obiecti tunc perfectius habere ymago et conformitas ad 
+                  <lb ed="#T" n="19"/><sic>sed ultra</sic> hoc quia omnis actus est vere similitudo obiecti cuius est et quaedam expressa imago ipsius licet 
+                  aequivo<lb ed="#T" n="20"/>ca ideo quando actus illi <unclear>illiciti</unclear> sunt respectu dei ut obiecti tunc perfectius habere imago et conformitas ad 
                   <lb ed="#T" n="21"/>trinitatem increatam maxime cum etiam tunc in obiecto inveniatur trinitas obiectiva correspondens quodam modo in 
                   <lb ed="#T" n="22"/>mente trinitati subiectivae quod non contingit in aliis obiectis
                 </p>
                 
                 
                 <p xml:id="b1d3qun-aqetis">
-                  <pc ana="#pilcrow"/>Per idem patet ad quintum quod perfectissima ratio ymaginis 
+                  <pc ana="#pilcrow"/>Per idem patet ad quintum quod perfectissima ratio imaginis 
                   <lb ed="#T" n="23"/>possibilis haberi in creatura respectu trinitatis non est in anima et actibus sensitivis quia illi actus non possunt habere 
                   <lb ed="#T" n="24"/>deum pro obiecto tamen videtur mihi quod in sensitiva humana quae est eadem cum intellectiva magnis potest poni 
-                  <lb ed="#T" n="25"/>ymago trinitatis in substantia et actibus sensitivis sic ordinatis ut supra tactus est quamquam imperfectior quam respectu obiecti 
+                  <lb ed="#T" n="25"/>imago trinitatis in substantia et actibus sensitivis sic ordinatis ut supra tactus est quamquam imperfectior quam respectu obiecti 
                   <lb ed="#T" n="26"/>mere intelligibilis quia actus sensitivi et appetitivi humani sunt simplices et inextensi ita bene sicut actus 
                   <lb ed="#T" n="27"/>intellectivi et volitivi sed <unclear>secus</unclear> est de bruto <pc ana="#punctus"/> ubi tales actus sunt formae extensae et ideo est perfectior 
                   <lb ed="#T" n="28"/>similitudo ad trinitatem increatam simplicissimam
@@ -408,7 +422,7 @@
               <head>Secundum Dubium</head>
               <p xml:id="b1d3qun-spevqn">
                 <note type="marginalNote" place="marginRight">secundum dubium</note>
-                <pc ana="#pilcrow"/>secundum dubium principale est utrum secunda pars ymaginis increatae 
+                <pc ana="#pilcrow"/>secundum dubium principale est utrum secunda pars imaginis increatae 
                 <lb ed="#T" n="29"/>scilicet actualis intellectio <unclear>gignatur</unclear> <corr><add place="marginRight">a prima</add></corr> scilicet a memoria et videtur quod non
               </p>
               
@@ -471,7 +485,7 @@
                   <lb ed="#T" n="6"/>quod tunc remaneat ista qualitas non existendo tunc intellectio sed species vel habitus igitur illud idem quod 
                   <lb ed="#T" n="7"/>est species vel habitus anima non actu cogitante fit <sic>actu</sic> cognitio cum anima ceperit cogitare 
                   <lb ed="#T" n="8"/>igitur frustra poneretur species vel habitus distinctus a tali actuali cognitione et per consequens frustra 
-                  <lb ed="#T" n="9"/>poneretur realis partus secundae partis ymaginis a specie vel habitu <pc ana="#punctus"/> intellectus naturaliter sibi praesupponentis in eodem 
+                  <lb ed="#T" n="9"/>poneretur realis partus secundae partis imaginis a specie vel habitu <pc ana="#punctus"/> intellectus naturaliter sibi praesupponentis in eodem 
                   <lb ed="#T" n="10"/>assumptum probatur <pc ana="#punctus"/> quia aliter quando aliquis actu intelligeret haberet simul distinctas similitudines respectu eiusdem quod 
                   <lb ed="#T" n="11"/>videtur superfluum <pc ana="#punctus"/> consequentia patet quia etiam ubi secundum <name ref="#Augustine">augustinum</name> <unclear>sequitur</unclear> videtur illam distinctionem actus ab habitu vel 
                   <lb ed="#T" n="12"/>specie <ref>29 <title ref="#deTrinitate">de trinitate</title> c. 15 et multis locis</ref> actualis cognitio sit simillima speciei de qua 
@@ -838,7 +852,7 @@
                 <p xml:id="b1d3qun-arvssc">
                   <pc ana="#pilcrow"/>Ad quintum decimum verum est quod omnis cognitio repraesentat 
                   <lb ed="#T" n="9"/>alicui illud <unclear>quidem</unclear> repraesentat vel cuius est signum et ideo si in nullo est subiective nullius est signum tale 
-                  <lb ed="#T" n="10"/>naturaliter offerens obiectum cuius natum est esse signum nisi forte per modum obiecti sicut ymago Herculis 
+                  <lb ed="#T" n="10"/>naturaliter offerens obiectum cuius natum est esse signum nisi forte per modum obiecti sicut imago Herculis 
                   <lb ed="#T" n="11"/>repraesentat Herculem et facit Herculem habitualiter cogitatum venire in actualem cogitationem 
                   <lb ed="#T" n="12"/>sed de taliter signare <unclear>naturaliter</unclear> ad propositum et tamen concedendum est quod eo modo quo accidit illi rei 
                   <lb ed="#T" n="13"/>quae est intellectio quod ipsa sic accidens non enim est accidens nisi quando accidit et sicut accidit 
@@ -892,7 +906,7 @@
                     <lb ed="#T" n="39"/>sensationis requisita necessario ad naturalem causationem sensationis exterioris licet ipsa non sufficiat 
                     <lb ed="#T" n="40"/>cum sensu sine actione propria obiecti et hoc est quod additur quod in sensu eadem est actio sensus et sensibilis 
                     <lb ed="#T" n="41"/>quia ista sensatio est actio utriusque et eodem modo proportionaliter est de intellectione intuitiva et si quis 
-                    <lb ed="#T" n="42"/>vocet illam sensationem vel intellectionem speciem obiecti id est similitudinem seu ymaginem eius certe concedendum est 
+                    <lb ed="#T" n="42"/>vocet illam sensationem vel intellectionem speciem obiecti id est similitudinem seu imaginem eius certe concedendum est 
                     <lb ed="#T" n="43"/>a specie sic data <unclear>non distinguitur</unclear> sensatio actualis sed sic loqui est extra propositum loqui et eodem <unclear>modo</unclear> 
                     <lb ed="#T" n="44"/>est eadem actio <corr><del>habitus</del><add>auditus</add></corr> et sonantis scilicet ipsum audire sicut ipsamet exprimit auctoritas
                   </p>
@@ -1070,11 +1084,11 @@
                     <lb ed="#T" n="44"/><unclear>aerem</unclear> circumstantem usque ad aliquam distantiam et calor ab isto causatus ulteriorem et ita deinceps 
                     <lb ed="#T" n="45"/>donec semper pars posterior remissius agendo quam prior ita suas protedant actiones usque quo 
                     <lb ed="#T" n="46"/>cessent agere isto modo totus calor compositus secundum extentionem ex omnibus illis quorum quilibet prior pertingere 
-                    <lb ed="#T" n="47"/>igitur ymaginatur usque ad remotiorem est calor ita perfectus sicut sua prima pars et tamen non potest 
+                    <lb ed="#T" n="47"/>igitur imaginatur usque ad remotiorem est calor ita perfectus sicut sua prima pars et tamen non potest 
                     <lb ed="#T" n="48"/>agere in passum sibi immediatum secundum situm et cum prima pars eius egit in passum sibi immediatus secundum 
                     <lb ed="#T" n="49"/>situm et est ibi causa proportionalis priori quod quaelibet eius pars sistens circa finem huius protensionis egit 
                     <lb ed="#T" n="50"/>quantum potuit et ex remissioritate continua venitur usque ad defectionem et in potentiam ulterius sit agendi 
-                    <lb ed="#T" n="51"/>hic tamen in exemplo est illud ymaginabilius sed protensionem quam in proposito de quo inquiritur nisi quod ibi magis 
+                    <lb ed="#T" n="51"/>hic tamen in exemplo est illud imaginabilius sed protensionem quam in proposito de quo inquiritur nisi quod ibi magis 
                     <lb ed="#T" n="52"/>patet qualiter quaelibet portio istarum in quibus processit ista mutua reproductio sistens alicubi circa 
                     <lb ed="#T" n="53"/>finem processus habet effectum sibi aequatum quem et continuat in casu argumenti et ideo non potest plus quasi agere isto
                     <!-- jeff i started here -->
@@ -1808,7 +1822,7 @@
                   <lb ed="#T"/>verum cum nobilitas mentis sit essentialis pars humanae nobilitatis et per consequens quod homo sit aeque nobilis 
                   <cb ed="#T" n="61vb"/><lb ed="#T"/>vel nobilius mente sua Ideo potest dici quod sicut homo ita perfecte intelligit sicut anima sua et neque perfectius 
                   <lb ed="#T"/>neque imperfectius neque magis neque minus <add place="aboveLine">licet non aeque primo ita est homo imago dei neque magis neque minus</add> quam mens humana secundum perfectionem licet mens primo et principalius 
-                  <lb ed="#T"/>quam homo quia homo non est dei <choice><orig>ymago</orig><reg>ymago</reg></choice> ut nunc loquimur <pc ana="#punctus"/> nisi secundum mentem suam et unumquodque propter 
+                  <lb ed="#T"/>quam homo quia homo non est dei <choice><orig>imago</orig><reg>imago</reg></choice> ut nunc loquimur <pc ana="#punctus"/> nisi secundum mentem suam et unumquodque propter 
                   <lb ed="#T"/>quod et illud magis <pc ana="#punctus"/> vel prius <choice><orig>alico</orig><reg>aliquo</reg></choice> modo sicut nec intelligit nisi per mentem suam</p>
                 
                 <p xml:id="b1d3qun-aqacev"><pc ana="#pilcrow"/>Ad <choice><orig>4</orig><reg>quartum</reg></choice> ait ratione 

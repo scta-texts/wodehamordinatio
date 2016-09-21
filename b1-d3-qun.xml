@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+  <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
@@ -71,7 +75,9 @@
         <div>
           <head><supplied>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in rebus aliis 
             factis propter hominem est vestigium eiusdem Trinitatis</supplied></head>
-          <p xml:id="b1d3qun-cdtvet">Circa distinctionem tertiam quaero, 
+          
+          <p xml:id="b1d3qun-cdtvet">
+            Circa distinctionem tertiam quaero, 
             utrum mens humana sit imago Trinitatis increatae sicut 
             in rebus aliis factis propter hominem est vestigium eiusdem Trinitatis.</p>
         </div>
@@ -258,13 +264,16 @@
             </cit> 
             ubi dicit quod 
             <quote type="paraphrase" xml:id="b1d3qun-Qieecei">
-              imago est expressa similitudo illius cuius est imago.
+              imago est expressa 
+              <cb ed="#T" n="b" />               
+              similitudo illius cuius est imago.
             </quote>
             Assumptum probatur quia homo est ens 
             <app>
               <lem>nobilius</lem>
               <rdg wit="#S">nobilior</rdg>
-            </app> quam mens hominis, igitur est magis similis Deo. 
+            </app> 
+            quam mens hominis, igitur est magis similis Deo. 
             Consequentia patet per
             <ref corresp="#b1d3qun-Qqcenp">
               <name ref="#Anselm">Anselmum</name>
@@ -414,7 +423,7 @@
               <lem>quam aliud</lem>
               <rdg wit="#M #T #V" type="variation-absent"/>
             </app>. 
-            Probo sive enim <!-- There's something strange about the grammar here... --> 
+            Probo sive enim <!-- There's something strange about the grammar here. "Enim" is usually the second word of the sentence, so I thinks I haven't understood this quite correctly. [NV] --> 
             <app>
               <lem>in</lem>
               <rdg wit="#T" type="correction-addition">
@@ -445,15 +454,15 @@
             </app> 
             quod personae essent partes Dei 
             vel accidentia in eo, et 
-            <app> <!-- Check this out -->
-              <lem/>
-              <rdg wit="#S" type="correction-addition">
-              	<add place="aboveLine">quod</add>
+            <app>
+              <lem wit="#M #T" n="et"/>
+              <rdg wit="#S #V" type="correction-addition">
+                <add place="aboveLine">quod</add>
               </rdg>
             </app> 
             ita  
-            <app> <!-- Check this out -->
-              <lem/>
+            <app>
+              <lem n="ita" />
               <rdg wit="#V" type="variation-substance">
                 <add place="above-line">quod</add>
               </rdg>
@@ -806,7 +815,9 @@
               <lem>vel</lem>
               <rdg wit="#M #S" type="variation-absent"/>
             </app>
-            in homine imago 
+            in homine imago
+            <pb ed="#M" n="66-v"/>
+            <cb ed="#M" n="a"/>
             <app>
               <lem>Trinitatis</lem>
               <rdg wit="#M" type="variation-absent"/>
@@ -827,49 +838,158 @@
           <div>
             <head><supplied>Conditiones communes vestigio et imagini</supplied></head> 
             
-            <p xml:id="b1d3qun-cpcscc">Circa primum, sciendum quod aliquae sunt 
-              conditiones communes tam vestigio quam imagini et aliquae proprie 
-              huic vel illi.<add place="margin">ita concedo</add> Una de communibus est ista quod tam vestigium 
-              quam imago ducit in notitiam illius cuius est imago et vestigium 
-              tamquam causativum notitiae illius cuius est imago vel vestigium 
+            <p xml:id="b1d3qun-cpcscc">
+              <app>
+                <lem>Circa</lem>
+                <rdg wit="#M" type="variation-substance">Contra</rdg>
+              </app>
+              primum, sciendum quod 
+              <app>
+                <lem>aliquae</lem>
+                <rdg wit="#T" type="variation-substance">aliae</rdg>
+              </app>
+              sunt conditiones communes tam vestigio quam imagini et aliquae proprie 
+              huic vel illi              
+              <app>
+                <lem n="illi" />
+                <rdg wit="#S">
+                  <add place="margin">ita concedo</add>
+                </rdg>
+              </app>. 
+              Una de communibus est quod
+              <app>
+                <lem/>
+                <rdg wit="#S" type="variation-substance">ista quod</rdg>
+                <rdg wit="#T" type="variation-substance">aliqua quia</rdg>
+                <rdg wit="#M" type="variation-substance">aliqua quod</rdg>
+              </app>
+              tam vestigium quam imago ducit         
+              <app>
+                <lem>ab illo cuius est alia quae tam vestigium quam imago sunt</lem>
+                <rdg wit="#S #M #T" type="variation-absent"/>
+              </app>
+              in 
+              <app>
+                <lem>cognitionem vel</lem>
+                <rdg wit="#S #V" type="variation-absent"/>
+              </app>
+              notitiam illius cuius est imago 
+              <app>
+                <lem>vel</lem>
+                <rdg wit="#S" type="variation-substance">et</rdg>
+              </app>
+              <app>
+                <lem>vestigium tamquam causativum notitiae illius cuius est imago vel</lem>
+                <rdg wit="#S" type="correction-addition">
+                  <add place="margin">vestigium tamquam causativum notitiae illius cuius est imago vel</add>
+                </rdg>
+              </app>
+              vestigium 
               <pb ed="#S" n="79-v" />
               <cb ed="#S" n="b" /> 
-              mediante notitia sua.
-              Sed non ducit in primam notitiam distinctam et propriam 
-              istius cuius est imago vel vestigium, quia ex <add place="margin">alibi</add> <add>determinatis</add> 
+              mediante notitia sua.       
+              <app>
+                <lem>Sed non ducit</lem>
+                <rdg wit="#M #V #T" type="variation-substance">non utique</rdg>
+              </app>
+              in primam notitiam distinctam et propriam 
+              istius cuius est imago vel vestigium, quia ex 
+              <app>
+                <lem>alibi</lem>
+                <rdg wit="#M">aliter</rdg>
+                <rdg wit="#S" type="correction-substitution">
+                  <subst>
+                    <del rend="expunctuated">certibus</del>
+                    <add place="margin">alibi</add>
+                  </subst>
+                </rdg>
+              </app>    
+              determinatis
               patet quod notitia incomplexa unius rei non ducit in primam notitiam 
-              incomplexam distinctam et propriam et simplicem alterius rei, sed illo 
-              modo quo una res mediante notitia sua incomplexa potest esse 
+              incomplexam distinctam et propriam et simplicem alterius rei, sed 
+              <app>
+                <lem>per illum modum</lem>
+                <rdg wit="#S" type="variation-substance">illo modo</rdg>
+              </app>
+              quo una res mediante notitia sua incomplexa potest esse 
               causa partialis rememorationis alterius rei habitualiter notae, ita quod notitia 
               habitualis necessario concurrit sicut causa compartialis.</p>
           </div>
+          
+          
+          
           <div>
             <head><supplied>Opinio Ockham</supplied></head>
-            <p xml:id="b1d3qun-idovis">Istud declarat 
+            <p xml:id="b1d3qun-idovis">
+              <pb ed="#V" n="107-r"/>
+              Istud declarat 
               <cit>
                 <ref><name ref="#Ockham">Ockham</name> per experientiam et bene.</ref>
-                <bibl><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:544s.)</bibl>
+                <bibl>
+                  <name>Guillelmus de Ockham</name>, 
+                  <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:544s.)
+                </bibl>
               </cit> 
-              Posito enim quod
-              si 
+              Posito enim quod 
               <cit>
-                <quote>aliquis nullam penitus 
-                  habeat cognitionem de <name ref="#Hercules" type="variable">Hercule</name>, si videat statuam <name ref="#Hercules" type="variable">Herculis</name> non 
-                  plus cogitabit de <name ref="#Hercules" type="variable">Hercule</name> quam de <name ref="#Socrates" type="variable">Socrates</name>. Si autem prius videat 
-                  <name ref="#Hercules" type="variable">Herculem</name>, et retineat habitualem notitiam <name ref="#Hercules" type="variable">Herculis</name></quote>
+                <quote>                 
+                  <app>
+                    <lem n="quod" />
+                    <rdg wit="#S #M" type="variation-absent">si</rdg>
+                  </app>                  
+                  <app>
+                    <lem>aliquis</lem>
+                    <rdg wit="#M #T" type="variation-substance">quis</rdg>
+                  </app>
+                  nullam penitus 
+                  habeat cognitionem de <name ref="#Hercules" type="variable">Hercule</name>, 
+                  si videat statuam <name ref="#Hercules" type="variable">Herculis</name> non 
+                  plus cogitabit de <name ref="#Hercules" type="variable">Hercule</name> quam de 
+                  <name ref="#Socrates" type="variable">Sorte</name>. 
+                  Si autem prius 
+                  <app>
+                    <lem wit="#V">viderit</lem>
+                    <rdg wit="#V" type="correction-substitution">
+                      <subst>
+                        <add>viderit</add>
+                        <del rend="strikethrough">videat</del>
+                      </subst>
+                    </rdg>
+                    <rdg wit="#S #M #T" type="variation-substance">videat</rdg>
+                  </app>           
+                  <name ref="#Hercules" type="variable">Herculem</name>, 
+                  et retineat habitualem notitiam 
+                  <name ref="#Hercules" type="variable">Herculis</name>,
+                </quote>
                 <bibl>
                   <name>Guillelmus de Ockham</name>, 
                   <title>Scriptum in Sent.</title>, 
-                  Bk. I, d. 3, q. 9 (OTh II:545)</bibl>
-              </cit> 
-              vel per studium didicerit conditiones proprias quasdam symeatas in imagine eius 
+                   Bk. I, d. 3, q. 9 (OTh II:545)
+                </bibl>
+              </cit>       
+              vel per 
+              <app>
+                <lem>auditum</lem>
+                <rdg wit="#S" type="variation-substance">studium</rdg>
+              </app>
+              didicerit conditiones proprias quasdam 
+              <app>
+                <lem wit="#T">similatas</lem>
+                <rdg wit="#S" type="variation-substance">symeatas</rdg>
+                <rdg wit="#M" type="variation-orthography">simiatas</rdg>
+                <rdg wit="#S" type="variation-substance">sine quantas</rdg>
+              </app>
+              in imagine eius 
               <cit>
                 <quote>et postea videat statuam sibi similem in accidentibus exterioribus, 
                   virtute visionis statuae</quote>
-                <bibl>ibidem</bibl>
+                <bibl>ibidem,
+                  “Unde si aliquis videret statuam Herculis, et nullam notitiam penitus haberet de Hercule, non plus per hoc cogitaret de Hercule quam de Achille. Sed quia prius novit Herculem, et remanet in eo notitia habitualis Herculis, ideo quando postea videt similitudinem suam, virtute illius notitiae habitualis et istius visionis similitudinis ducitur in actum rememorandi de Hercule et non in notitiam primam ipsius Herculis.”
+                </bibl>
               </cit> 
               potuit recordari Herculis et posito 
               quod numquam prius vidisset illam statuam.</p>
+            
             
             <p xml:id="b1d3qun-sehids">Similem 
               <app>

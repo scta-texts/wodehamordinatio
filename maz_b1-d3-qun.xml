@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!--
+  <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -146,13 +153,15 @@
           <head>Primus articulus</head>
           <div>
             <head>Conditiones communes vestigio et imagini</head>
-            <p xml:id="b1d3qun-cpcscc"><sic>Contra</sic>
+            
+            <p xml:id="b1d3qun-cpcscc">
+              <sic>Contra</sic>
               <note type="marginalNote" place="marginLeft">primus articulus</note>
               <note type="marginalNote" place="marginBottom">Qui est vestigium et qui imago et quodammodo in creaturis sit vestigium et in anima imago trinitatis</note> 
               primum sciendum quod 
               <lb ed="#M"/>aliquae sunt conditiones communes tam vestigio quam imagini et aliquae proprie 
               <lb ed="#M"/>huic vel illi una de communibus est aliqua quod tam vestigium quam 
-              <lb ed="#M"/>imago ducit in cognitionem vel notitiam illius cuius est imago vel vestigiam tamquam 
+              <lb ed="#M"/>imago ducit in cognitionem vel notitiam illius cuius est imago vel vestigium tamquam 
               <lb ed="#M"/>causativum notitiae illius cuius est imago vel vestigium mediante notitia 
               <lb ed="#M"/>sua non utique in primam notitiam distinctam et propriam illius cuius est 
               <lb ed="#M"/>imago vel vestigium quia ex aliter determinatis patet quod notitia incomplexa 
@@ -161,6 +170,8 @@
               <lb ed="#M"/>res mediante notitia sua incomplexa potest esse causa partialis rememo<lb ed="#M"/>rationis 
               alterius rei habitualiter notae ita quod notitia habitualis <choice><orig>neccessario</orig><reg>necessario</reg></choice> 
               concurrit sicut causa compartialis <g ref="#dot"/></p>
+            
+            
             <div>
               <head>Opinio Ockham</head>
               <p xml:id="b1d3qun-idovis">Istud declarat <name ref="#Ockham">Ockham</name>

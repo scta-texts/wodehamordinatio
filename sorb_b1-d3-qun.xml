@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!--
+  <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -45,7 +54,7 @@
       </front>
       <body>
         <div xml:id="b1-d3-qun">
-          <head subtype="title">Distinctio 3</head>
+          <head type="title">Distinctio 3</head>
           <div>
             <head>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in rebus aliis 
               factis propter hominem est vestigium eiusdem Trinitatis</head>
@@ -172,7 +181,12 @@
                   <lb ed="#S"/>quam imago ducit in notitiam illius cuius est imago et vestigium 
                   <lb ed="#S"/>tamquam causativum notitiae illius cuius est imago vel vestigium  
                   <cb ed="#S" n="79vb"/><lb ed="#S"/>mediante notitia sua Sed non ducit in primam notitiam distinctam et propri<lb ed="#S"/>am
-                  istius cuius est imago vel vestigium quia ex <corr><add place="marginRight">alibi</add><del rend="expunctuated">certibus</del></corr> determinatis 
+                  istius cuius est imago vel vestigium quia ex 
+                  <corr>
+                    <add place="marginRight">alibi</add>
+                    <del rend="expunctuated">certibus</del>
+                  </corr> 
+                  determinatis 
                   <lb ed="#S"/>patet quod notitia <choice><orig>in complexa</orig><reg>incomplexa</reg></choice> unius rei non ducit in primam no<lb ed="#S"/>titiam 
                   incomplexam distinctam et propriam et simplicem alterius rei sed illo modo quo una res mediante notitia sua incomplexa potest esse 
                   <lb ed="#S"/>causa partialis rememorationis alterius rei habitualiter notae ita quod notitia 
