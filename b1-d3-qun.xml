@@ -935,7 +935,7 @@
                 <quote>                 
                   <app>
                     <lem n="quod" />
-                    <rdg wit="#S #M" type="variation-absent">si</rdg>
+                    <rdg wit="#S #M" type="variation-present">si</rdg>
                   </app>                  
                   <app>
                     <lem>aliquis</lem>
@@ -981,41 +981,98 @@
               </app>
               in imagine eius 
               <cit>
-                <quote>et postea videat statuam sibi similem in accidentibus exterioribus, 
-                  virtute visionis statuae</quote>
-                <bibl>ibidem,
+                <quote>
+                  et postea videat statuam sibi similem in accidentibus exterioribus, 
+                  virtute visionis 
+                  <app>
+                    <lem n="visionis"/>
+                    <rdg wit="#M" type="variation-present">et</rdg>
+                  </app>
+                  statuae
+                </quote>
+                <bibl>
+                  ibidem,
                   “Unde si aliquis videret statuam Herculis, et nullam notitiam penitus haberet de Hercule, non plus per hoc cogitaret de Hercule quam de Achille. Sed quia prius novit Herculem, et remanet in eo notitia habitualis Herculis, ideo quando postea videt similitudinem suam, virtute illius notitiae habitualis et istius visionis similitudinis ducitur in actum rememorandi de Hercule et non in notitiam primam ipsius Herculis.”
                 </bibl>
-              </cit> 
-              potuit recordari Herculis et posito 
+              </cit>        
+              <app>
+                <lem>poterit</lem>
+                <rdg wit="#S" type="variation-substance">potuit</rdg>
+              </app>
+              recordari         
+              <app>
+                <lem n="recordari"/>
+                <rdg wit="#V" type="correction-deletion">
+                  <del rend="strikethrough">et</del>
+                </rdg>
+              </app>       
+              Herculis 
+              <app>
+                <lem>etiam</lem>
+                <rdg wit="#M" type="variation-substance">et</rdg>
+              </app>
+              posito 
               quod numquam prius vidisset illam statuam.</p>
             
             
             <p xml:id="b1d3qun-sehids">Similem 
               <app>
-                <lem>exemplum aliud</lem>
+                <lem n="Similem"/>
                 <rdg wit="#S" type="correction-addition">
                 	<add place="margin">exemplum aliud</add>
                 </rdg>
-              </app> etiam 
-              huius est quod aliquando videntes arborem vel lapidem a remotis, 
+              </app> 
+              etiam huius est quod aliquando videntes arborem vel lapidem a remotis, 
               statim cogitamus de homine et aestimamus ibi stare hominem, quod utique 
               non contingeret nisi praehabita  notitia habituali hominis, cum arbor 
-              vel lapis non contineat virtualiter primam notitiam hominis, et ita 
+              vel lapis non contineat virtualiter 
+              <app>
+                <lem>primam</lem>
+                <rdg wit="#V" type="correction-addition">
+                  <add place="above-line">primam</add>
+                </rdg>
+              </app>
+              notitiam hominis, et 
+              <app>
+                <lem>ita</lem>
+                <rdg wit="#M" type="variation-substance">tertia</rdg>
+              </app>
               de similibus.</p>
             
-            <p xml:id="b1d3qun-eseqda">Et sicut est de imagine <name ref="#Hercules">Herculis</name> 
+            <p xml:id="b1d3qun-eseqda">
+              Et sicut est de imagine <name ref="#Hercules" type="variable">Herculis</name> 
               respectu rememorationis 
-              <name ref="#Hercules">Herculis</name>, 
+              <name ref="#Hercules" type="variable">Herculis</name>, 
               <cit>
-                <quote>ita est de vestigio, quod si aliquis videns vestigium bovis, 
-                  recordabitur de bove habitualiter viso, sed si numquam prius 
+                <quote>
+                  ita est de vestigio, quod si 
+                  <app>
+                    <lem>aliquis</lem>
+                    <rdg wit="#M" type="variation-substance">quis</rdg>
+                  </app>           
+                  <app>
+                    <lem>videat</lem>
+                    <rdg wit="#S" type="variation-substance">videns</rdg>
+                  </app>
+                  vestigium 
+                  <app>
+                    <lem>bovis</lem>
+                    <rdg wit="#M" type="variation-substance">bovia</rdg>
+                  </app>, 
+                  recordabitur de bove habitualiter 
+                  <app>
+                    <lem>viso</lem>
+                    <rdg wit="#V" type="variation-substance">cognito</rdg>
+                  </app>; 
+                  sed si numquam prius 
                   habuisset aliquam notitiam de bove, non plus recordaretur 
-                  de bove quam de asino.</quote>
+                  de bove quam de asino.
+                </quote>
                 <bibl>
                   <name>Guillelmus de Ockham</name>, 
                   <title>Scriptum in Sent.</title>, 
-                  Bk. I, d. 3, q. 9 (OTh II:545)
+                  Bk. I, d. 3, q. 9 (OTh II:545):
+                  “Et ita est de vestigio, quod si aliquis videat vestigium bovis recordabitur de bove habitualiter cognito, sed si nunquam prius habuisset aliquam notitiam de bove non plus recordaretur de bove quam de asino.”
                 </bibl>
               </cit>
             </p>
@@ -1024,13 +1081,40 @@
               <cit>
                 <ref>Per istum etiam modum</ref>
                 <bibl>
-                  <name ref="#Ockham">Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:545-546)
+                  <name ref="#Ockham">Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:545s)
                 </bibl>
               </cit> 
-              duo similia possent mutuo ducere in notitiam recordativam sui apud illum qui 
-              haberet notitiam habitualem utriusque, et similiter unum similium postea 
-              visum potest ducere in notitiam similis recordativam prius noti 
-              propter similitudinem unius ad aliud.</p>
+              duo similia possent mutuo ducere in notitiam 
+              <app>
+                <lem>recordativam sui apud illum qui 
+                  haberet notitiam habitualem utriusque, 
+                  et similiter unum similium 
+                  <app>
+                    <lem>postea</lem>
+                    <rdg wit="#V #T" type="variation-substance">posterius</rdg>
+                  </app>           
+                  <app>
+                    <lem n="postea" />
+                    <rdg wit="#V" type="correction-deletion">
+                      <del rend="strikethrough">non</del>
+                    </rdg>
+                  </app>                  
+                  visum 
+                  <app>
+                    <lem>posset</lem>
+                    <rdg wit="#M #S #V" type="variation-substance">potest</rdg>
+                  </app>
+                  ducere in notitiam</lem>
+                <rdg wit="#M" type="variation-absent"/>
+              </app>
+              similis recordativam prius noti 
+              propter 
+              <app>
+                <lem>similitudinem</lem>
+                <rdg wit="#M" type="variation-substance">similem</rdg>
+              </app>
+              unius ad aliud.
+            </p>
             
             <p xml:id="b1d3qun-aeppit">Aliae etiam possent assignari conditiones 
               in quibus conveniunt, sed sunt minoris ponderis, ideo transeo.</p>
@@ -1580,19 +1664,19 @@
                 quae est dilectio, igitur tunc illa manebit et tamen non tunc erit 
                 dilectio pari ratione de intellectione.</p>
               
-              <p xml:id="b1d3qun-qppepv"><supplied>Quintus.</supplied> Praeterea ponatur dilectio qua <name ref="#Socrates">Socrates</name> diligit 
-                seipsum in <name ref="#Plato">Platone</name>, tunc <name ref="#Plato">Plato</name> experietur se diligere igitur tunc 
+              <p xml:id="b1d3qun-qppepv"><supplied>Quintus.</supplied> Praeterea ponatur dilectio qua <name ref="#Socrates" type="variable">Socrates</name> diligit 
+                seipsum in <name ref="#Plato" type="variable">Platone</name>, tunc <name ref="#Plato" type="variable">Plato</name> experietur se diligere igitur tunc 
                 aliquid diligetur per istam dilectionem quod non prius et non diligetur per eam 
-                idem quod prius. Assumptum probatur, quia si <name ref="#Socrates">Socrates</name> velit sic se diligere angelum 
-                et haec volitio ponatur in <name ref="#Plato">Platone</name> per illam, <name ref="#Plato">Plato</name> volet[velet?] se diligere 
+                idem quod prius. Assumptum probatur, quia si <name ref="#Socrates" type="variable">Socrates</name> velit sic se diligere angelum 
+                et haec volitio ponatur in <name ref="#Plato" type="variable">Platone</name> per illam, <name ref="#Plato" type="variable">Plato</name> volet[velet?] se diligere 
                 angelum, igitur similiter improposito et probatur hoc ultimum assumptum, quia 
                 per intellectionem qua <name ref="#Sortes">Sortes</name> experitur se intelligere angelum positam in 
-                <name ref="#Plato">Platone</name>, <name ref="#Plato">Plato</name> experietur se intelligere angelum, igitur similiter et per volitionem.</p>
+                <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> experietur se intelligere angelum, igitur similiter et per volitionem.</p>
               
-              <p xml:id="b1d3qun-spdsdv"><supplied>Sextus.</supplied> Praeterea dilectio <name ref="#Sortes">Socrates</name> et odium <name ref="#Plato">Platonis</name> naturaliter se compati possunt in voluntate 
-                <name ref="#Sortes">Sortis</name>, igitur cum odium <name ref="#Sortes">Sortis</name> et odium <name ref="#Plato">Platonis</name> sint qualitates speciei, eiusdem 
+              <p xml:id="b1d3qun-spdsdv"><supplied>Sextus.</supplied> Praeterea dilectio <name ref="#Sortes">Socrates</name> et odium <name ref="#Plato" type="variable">Platonis</name> naturaliter se compati possunt in voluntate 
+                <name ref="#Sortes">Sortis</name>, igitur cum odium <name ref="#Sortes">Sortis</name> et odium <name ref="#Plato" type="variable">Platonis</name> sint qualitates speciei, eiusdem 
                 si in subiecto aliquo potest una stare et alia, sed in voluntate Sortis cum dilectione 
-                terminata ad <name ref="#Sortes">Sortem</name> stat odium <name ref="#Plato">Platonis</name>, igitur in eodem intellectu 
+                terminata ad <name ref="#Sortes">Sortem</name> stat odium <name ref="#Plato" type="variable">Platonis</name>, igitur in eodem intellectu 
                 cum volitione terminata ad Sortem potest stare odium <name ref="#Sortes">Sortis</name>, sed non 
                 potest cum dilectione <name ref="#Sortes">Sortis</name> esse odium <name ref="#Sortes">Sortis</name>, igitur odium <name ref="#Sortes">Sortis</name> potest esse in 
                 voluntate <name ref="#Sortes">Sortis</name> quando ipsam non erit odium <name ref="#Sortes">Sortis</name> et pari ratione potest hoc 
@@ -1812,24 +1896,24 @@
                 cognitio, et ideo nego consequentiam illam.</p>
               
               <p xml:id="b1d3qun-aqdcaa">Ad quintum dicendum quod si dilectio, 
-                qua <name ref="#Sortes">Socrates</name> diligit <name ref="#Sortes">Socratem</name> ipsum, poneretur in <name ref="#Plato">Platone</name>, <name ref="#Plato">Plato</name> per istam 
-                non diligeret <name ref="#Plato">Platonem</name> sed <name ref="#Sortes">Socratem</name>. Et similiter, si dilectio, qua Socrates 
-                vult se diligere angelum, poneretur in <name ref="#Plato">Platone</name>, <name ref="#Plato">Plato</name> per illam vellet 
+                qua <name ref="#Sortes">Socrates</name> diligit <name ref="#Sortes">Socratem</name> ipsum, poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per istam 
+                non diligeret <name ref="#Plato" type="variable">Platonem</name> sed <name ref="#Sortes">Socratem</name>. Et similiter, si dilectio, qua Socrates 
+                vult se diligere angelum, poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per illam vellet 
                 <name ref="#Sortes">Socratem</name> diligere angelum. Et eodem modo, si intellectio, qua <name ref="#Sortes">Socrates</name> 
-                experitur se intelligere, poneretur in <name ref="#Plato">Platone</name>, ille iudicaret <name ref="#Sortes">Socratem</name> intelligere 
+                experitur se intelligere, poneretur in <name ref="#Plato" type="variable">Platone</name>, ille iudicaret <name ref="#Sortes">Socratem</name> intelligere 
                 vel experiretur nisi experientia cognoscat aliquid aliud.</p>
               
               <p xml:id="b1d3qun-asbpeo"> Ad sextum 
-                bene concedo quod dilectio <name ref="#Sortes">Socrates</name> et odium <name ref="#Plato">Platonis</name> naturaliter compatiuntur 
+                bene concedo quod dilectio <name ref="#Sortes">Socrates</name> et odium <name ref="#Plato" type="variable">Platonis</name> naturaliter compatiuntur 
                 se in eodem. Dici tamen potest quod non omne idem eiusdem speciei cum 
-                odio <name ref="#Plato">Platonis</name> compatitur se cum dilectionem <name ref="#Sortes">Socrates</name> naturaliter quia aliquod eiusdem 
+                odio <name ref="#Plato" type="variable">Platonis</name> compatitur se cum dilectionem <name ref="#Sortes">Socrates</name> naturaliter quia aliquod eiusdem 
                 speciei contrariatur  et istud non quia ad contrarietatem actuum 
                 huiusmodi individualium vel cognitionum requiritur identitas numeralis 
                 obiecti unde etiam illi iudicio quo iudicarem hunc hominem 
                 esse <name ref="#Sortes">Socratem</name> demonstrato <name ref="#Sortes">Socrates</name> repugnaret contrarie iudicium quo 
                 iudicarem eundem non esse <name ref="#Sortes">Socratem</name> et tamen secum compateretur 
                 illud iudicium quo iudicarem istum hominem non esse <name ref="#Sortes">Socratem</name> demonstrando 
-                <name ref="#Plato">Platonem</name>. Unde amor et odium error et scientia non 
+                <name ref="#Plato" type="variable">Platonem</name>. Unde amor et odium error et scientia non 
                 contrariantur nisi sint respectu eiusdem, licet sint eiusdem speciei 
                 cum quibusdam quae invicem contrariantur et in hoc est speciale in 
                 <pb ed="#S" n="81-r" />
