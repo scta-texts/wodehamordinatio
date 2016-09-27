@@ -4604,27 +4604,231 @@
               
               <p xml:id="b1d3qun-shrimo">Sed haec responsio est glossa obscurior 
                 textu vel potius obscuratio textus clari, cuius causa non est alia 
-                nisi quod conatur vere vitare unum verum conclusio. Enim deducta per illud 
-                quintum argumentum est ad  <unclear>est ad</unclear> intellectum <name ref="#Augustine">Augustini</name> vera 
+                nisi 
+                quia <!-- S has "quod" --> 
+                conatur 
+              	<app>
+              		<lem>vere</lem>
+              		<rdg wit="#M #V" type="variation-absent"/>
+              	</app> 
+              	vitare unum verum conclusio. Enim deducta per illud <!-- T has "istud" --> 
+                quintum argumentum est ad 
+              	<app>
+              		<lem/>
+              		<rdg wit="#S" type="correction-deletion">
+              			<del>illud quintum argumentum est ad</del> <!-- dbcheck -->
+              		</rdg>
+              	</app> 
+              	intellectum 
+              	<name ref="#Augustine">Augustini</name> 
+              	vera 
                 ad litteram sicut sonat, sicut enim nos actu finito Deum 
-                diligimus infinite ad intellectum saepe datum quia, scilicet, praeponimus eum 
-                in amore vel per amorem infinitis amabilibus, si darentur illa,  
-                e contra non est negandum quin Deus suo amore infinito finite 
-                diligat Petrum vel mentem de qua loquimur et appretiatur eam 
-                quantum est. Et quantum valet valore naturali et gratuito et non ultra et secundum illum 
-                valorem praeparat vel confert sibi bonum, et isto modo loquendo plus diligit 
-                Petrum quam linum secundum istum excessum secundum quam valet Petrus 
-                et plus meruit quam meruerit huius, eodem modo 
-                sic loquendo mens ipsa iam beata licet infinite appretiationis passive, 
-                et, ut ita loquar, diligat Deum et infinite plus gaudium 
-                et omne bonum illi possibile optet Deo quam sibi vel infinitum, sic 
-                loquendo, plus complacet in eo quod Deus habet gaudium et gaudet 
-                gaudio sibi proportionali quam facit in gaudio quod ipsa habet cum ipsa 
-                praecise diliget seipsam quantum ipsa valet appretiative[?] et praecise 
-                ad tantum bonum quantum ipsa meruit et minus seipsam quam animam 
-                Christi vel beatae virginis quia, isto modo loquendo, unumquodque diligit et 
-                appretiatur secundum gradum valoris sui et secundum hoc optat et proportionaliter tantum  
-                bonum quantum ipsa meruit optinere.</p> 
+                diligimus 
+              	<app>
+              		<lem>infinite</lem>
+              		<rdg wit="#M">infinito</rdg> <!-- dbcheck -->
+              	</app> 
+              	ad intellectum saepe datum quia, scilicet, praeponimus eum 
+                <app>
+                	<lem>in amore vel</lem>
+                	<rdg wit="#M" type="variation-absent"/>
+                </app> 
+              	per amorem infinitis amabilibus, si darentur 
+              	illa, <!-- M has "ista" -->  
+                <app> <!-- dbcheck; this might be trivial and worthy of ignoring -->
+                	<lem>econtrario</lem>
+                	<rdg wit="#S">econtra</rdg>
+                	<rdg wit="#M">econverso</rdg>
+                </app>  
+                non est negandum quin Deus suo amore infinito 
+                <app>
+                	<lem>finite</lem>
+                	<rdg wit="#M">fiere</rdg>
+                	<rdg wit="#V">infinite</rdg>
+                </app> 
+                diligat 
+                <name>Petrum</name> vel mentem de qua loquimur et appretiatur eam 
+                quantum est. Et quantum valet 
+              	<app>
+              		<lem>valore</lem>
+              		<rdg wit="#M">laborare</rdg>
+              	</app> 
+              	<app>
+              		<lem>naturali et gratuito</lem>
+              		<rdg wit="#M">naturale in gratuite</rdg>
+              	</app> 
+              	et non ultra et secundum 
+              	<app>
+              		<lem>istum</lem> <!-- S have "illum" -->
+              		<rdg wit="#T" type="correction-addition">
+              			<add>istum</add>
+              		</rdg>
+              	</app>
+                valorem 
+                praeparat vel confert sibi bonum, et isto modo loquendo plus diligit 
+                <name ref="#Peter">Petrum</name> quam linum secundum istum excessum 
+              	<app>
+              		<lem>secundum</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	<app> <!-- very unsure about best reading here -->
+              		<lem>quam</lem>
+              		<rdg wit="#M">quem</rdg>
+              		<rdg wit="#V #T">quaestionem</rdg>
+              	</app> 
+              	<app>
+              		<lem>plus</lem>
+              		<rdg wit="#S #M" type="variation-absent"/>
+              	</app>
+              	valet 
+              	<name ref="#Peter">Petrus</name> 
+              	<app> <!-- dbcheck -->
+                	<lem wit="#S #M">et plus meruit quam meruerit huius</lem>
+                	<rdg wit="#T">quam bonus et plus meruit Petrus quam bonus</rdg>
+                	<rdg wit="#V">et plus meruit</rdg>
+                </app>
+              	eodem modo 
+                <app>
+                	<lem>sic</lem>
+                	<rdg wit="#M #V" type="variation-absent"/>
+                </app> 
+              	loquendo mens ipsa iam beata licet infinite
+              	<app>
+              		<lem n="infinite"/>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>infinitorum</add> <!-- dbcheck -->
+              		</rdg>
+              	</app> 
+              	appreciationis passive, 
+                <app>
+                	<lem>et</lem>
+                	<rdg wit="#M #T" type="variation-absent"/>
+                </app>, 
+              	ut ita loquar, diligat Deum et 
+              	<app>
+              		<lem>infinite</lem>
+              		<rdg wit="#M #V">in infinitum</rdg>
+              	</app> 
+              	plus gaudium 
+                et omne bonum illi possibile 
+              	<app>
+              		<lem>optet</lem>
+              		<rdg wit="#T">competet</rdg>
+              	</app> 
+              	Deo 
+              	<app xml:id="b1d3qun-Aqsiqsi" next="#b1d3qun-Aviiqih">
+              		<lem>quam sibi</lem>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>quam sibi</add>
+              		</rdg>
+              	</app> 
+              	<app>
+              		<lem>
+              			<app xml:id="b1d3qun-Aviiqih" prev="#b1d3qun-Aqsiqsi">
+              				<lem>vel 
+              					<app>
+              						<lem>infinitum</lem>
+              						<rdg wit="#V #T">in infinitum</rdg> <!-- can V be reused here, even though it is used in the outside reading -->
+              					</app>, 
+              					sic 
+              					loquendo, plus complacet in eo quod Deus habet gaudium 
+              					<app>
+              						<lem>et</lem>
+              						<rdg wit="#T">sed</rdg> <!-- dbcheck if this should be seu; otherwise this might be point at which T shows corruption of V -->
+              						<rdg wit="#V">seu</rdg> <!-- can V be reused here, even though it is used in the outside reading -->
+              					</app> 
+              					gaudet gaudio sibi 
+              					<app>
+              						<lem>proportionali</lem>
+              						<rdg wit="T">proportionale</rdg>
+              					</app> 
+              					quam facit in gaudio quod ipsa 
+              					<app>
+              						<lem>habet</lem>
+              						<rdg wit="#T">obtenet</rdg>
+              					</app>
+              				</lem> 
+              				<rdg wit="#V" type="correction-addition">
+              					<add place="margin-right">
+              						vel in infinitum, sic 
+              						loquendo, plus complacet in eo quod Deus habet gaudium seu gaudet 
+              						gaudio sibi proportionali quam facit in gaudio quod ipsa <unclear>optimum</unclear>
+              					</add>
+              				</rdg>
+              			</app>
+              			<app>
+              				<lem n="habet"/>
+              				<rdg wit="#V" type="correction-deletion">
+              					<del>quam sibi</del>
+              				</rdg>
+              			</app> 
+              			<app>
+              				<lem>cum</lem>
+              				<rdg wit="#T">tamen</rdg>
+              			</app> 
+              			ipsa 
+              			praecise diliget seipsam quantum ipsa 
+              			<app>
+              				<lem>valet</lem>
+              				<rdg wit="#T">vellet</rdg>
+              			</app> 
+              			<unclear cert="high">appreciative</unclear> et praecise 
+              			ad tantum bonum quantum ipsa meruit et minus seipsam</lem>
+              		<rdg wit="#M">et tamen ipsa praecise diligat se ipsam</rdg>
+              	</app> 
+              	<app>
+              		<lem>quam</lem>
+              		<rdg wit="#V" type="correction-substitution">
+              			<subst>
+              				<del>quantum</del>
+              				<add>quam</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	animam 
+                Christi vel beatae virginis 
+              	<app>
+              		<lem>isto modo</lem>
+              		<rdg wit="#S" type="variation-absent"/>
+              	</app> 
+              	quia, isto modo 
+              	<app>
+              		<lem>loquendo</lem>
+              		<rdg wit="#M #V" type="variation-absent"/>
+              	</app>, 
+              	unumquodque diligit et 
+                appretiatur secundum 
+              	<app>
+              		<lem>gradum</lem>
+              		<rdg wit="#T">gaudium</rdg>
+              	</app> 
+              	valoris 
+              	<app>
+              		<lem>sui</lem>
+              		<rdg wit="#T">suis</rdg> <!-- dbcheck; seems like an obvious error -->
+              	</app> <!-- in M and V "sui" is before valoris -->
+              	<app>
+              		<lem>et secundum hoc optat 
+              			<app>
+              				<lem>sibi</lem>
+              				<rdg wit="#S">et</rdg>
+              			</app> 
+              			proportionaliter tantum 
+              			bonum 
+              			<app>
+              				<lem>quantum</lem>
+              				<rdg wit="#T">quam</rdg>
+              			</app> 
+              			ipsa 
+              			<app>
+              				<lem>meruit optinere</lem>
+              				<rdg wit="#M">meretur obiective</rdg>
+              			</app>.
+              		</lem>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>et secundum hoc optat sibi proportionaliter quantum bonum ipsa meruit optinere</add> <!-- some slight variations in here (should they be added above in the lemma as second level variants; see similar situation with comments above -->
+              		</rdg>
+              	</app></p> 
             </div>
             <div>
               <head>Responsio Wodeham</head> 
