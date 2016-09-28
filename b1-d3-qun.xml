@@ -4833,33 +4833,255 @@
             <div>
               <head>Responsio Wodeham</head> 
               <p xml:id="b1d3qun-sicffa">Sic igitur concedenda est conclusio quod, sic loquendo, 
-                mens, quando amor eius erit perfectus, ipsa tantum amat se quantum 
-                est et Deus ipsam etiam tantum quantum ipsa est. Et ideo ipsa seipsam quantum 
-                Deus ipsam quia neuter, nisi quantum valet, licet Deus diligat ipsam in infinitum 
-                plus quam ipsa seipsam, si augmentationem perfectionis ipsius dilectionis 
-                quia Deus, quicquid amat, amat infinite infinitae amoris, et 
+                mens, quando amor 
+              	<app>
+              		<lem>eius</lem>
+              		<rdg wit="#M">suus</rdg>
+              		<rdg wit="#V">sumus</rdg> <!-- possible type here; dbcheck -->
+              	</app> 
+              	erit perfectus, ipsa tantum amat 
+              	<app>
+              		<lem>se</lem>
+              		<rdg wit="#M">sed</rdg>
+              	</app> 
+              	quantum 
+                est et Deus 
+              	<app> <!-- best reading in this app and children app is unclear -->
+              		<lem>ipsam etiam 
+              			<app>
+              				<lem>ipsum</lem>
+              				<rdg wit="#S" type="variation-absent"/>
+              			</app> 
+              			tantum quantum</lem>
+              		<rdg wit="#M">etiam ipsa unde quantumcumque</rdg>
+              	</app> 
+              	ipsa est. Et ideo ipsa seipsam quantum 
+                Deus ipsam quia neuter, nisi quantum valet, licet Deus diligat 
+              	<app>
+              		<lem>ipsam</lem>
+              		<rdg wit="#M">eam</rdg>
+              	</app> 
+              	in infinitum 
+                plus quam ipsa seipsam, 
+              	<app>
+              		<lem>secundum magnitudinem</lem>
+              		<rdg wit="#S">si augmentationem</rdg> <!-- check for transcription error -->
+              	</app> 
+              	perfectionis ipsius dilectionis <!-- in Maz it is: secundum magnitudinem dilectionis et ipsius perfectionis -->
+                quia 
+              	<app>
+              		<lem>Deus, quidquid amat, amat infinite infinitae amoris</lem>
+              		<rdg wit="#M">quidquid amat infinite amoris</rdg>
+              	</app>, 
+              	et 
                 creatura nihil diligit, nec Deum nec creaturam, nisi finite finitae amoris.</p>
               
-              <p xml:id="b1d3qun-asdpnd">Ad sextum dicendum quod mente aequae clare cognoscere Deum, et 
-                alia potest dupliciter intelligi. Uno modo quod aeque proportionate et aeque comprehensive, 
-                et dixi alias quod isto modo in infinitum minus perfecte et minus clare 
-                cognoscit Deum quam seipsam et aliam creaturam visam a se et 
-                hoc quamvis visione multo intensiore videatur Deus 
-                quam aliquid aliud. Alio modo potest intelligi quod aeque clare cognoscat 
-                Deum et aliud vel alia, quia cogitatione aeque intensa in specie sua 
-                cognoscit Deum sicut facit creaturam vel aliud ibi visum vel quam intense 
-                cognoscit aliud in specie visionis congrua creaturae. Et dico quod 
+              <p xml:id="b1d3qun-asdpnd">Ad 
+              	<app>
+              		<lem>sextum</lem>
+              		<rdg wit="#M">sexta</rdg> <!-- could be a transcription error -->
+              	</app> 
+              	dicendum quod mente aequae <!-- is this "aequae or aeque; we have aequae in S and M but aeque in V and T --> 
+              	clare cognoscere Deum, et 
+                alia potest 
+                dupliciter intelligi. <!-- T has "intelligi dupliciter" --> 
+                <app>
+                	<lem>Uno modo</lem>
+                	<rdg wit="#T #M #V">vel</rdg>
+                </app> 
+              	<app>
+              		<lem>quod</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	aeque 
+              	<app>
+              		<lem>proportionate</lem>
+              		<rdg wit="#M">proportionare</rdg> <!-- likely transcription error somewhere -->
+              	</app> 
+              	et aeque 
+              	<app>
+              		<lem>comprehensive</lem>
+              		<rdg wit="#M">comprehensare</rdg> <!-- dbhcheck -->
+              	</app>,
+              	<app>
+              		<lem n="comprehensive"/>
+              		<rdg wit="#M" type="variation-present">ut</rdg>
+              	</app>
+                et dixi alias quod isto modo 
+              	<app>
+              		<lem>in infinitum</lem>
+              		<rdg wit="#M">infinite</rdg>
+              	</app> 
+              	minus perfecte et minus clare 
+                <app>
+                	<lem>cognoscit</lem>
+                	<rdg wit="#M #V #T" type="variation-absent"/>
+                </app> 
+              	<app>
+              		<lem>Deum</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+              	quam seipsam 
+              	<app>
+              		<lem>et</lem>
+              		<rdg wit="#V">vel</rdg>
+              	</app> 
+              	aliam creaturam visam 
+              	<app>
+              		<lem>a se</lem>
+              		<rdg wit="#M">amat</rdg>
+              	</app> et 
+                hoc quamvis visione multo 
+                <app>
+                	<lem>intensiore</lem>
+                	<rdg wit="#M">intensiori</rdg>
+                </app> 
+                videatur Deus 
+                quam 
+              	<app>
+              		<lem>aliquid</lem>
+              		<rdg wit="#M">ad</rdg>
+              	</app> 
+              	aliud. Alio modo potest intelligi quod aeque clare cognoscat 
+                Deum et 
+              	<app>
+              		<lem>aliud vel</lem>
+              		<rdg wit="#M #V" type="variation-absent"/> <!-- does this show that S's aliud vel alia might a scribe's uncertainty about the correct word; if this so, this should probably change to a variation-choice -->
+              	</app> 
+              	alia, quia 
+              	<app>
+              		<lem>cogitatione</lem>
+              		<rdg wit="#M">cognoscere</rdg>
+              	</app> 
+              	aeque intensa in 
+              	<app>
+              		<lem>sua</lem>
+              		<rdg wit="#S" type="variation-absent"/>
+              	</app> 
+              	specie 
+              	<app> <!-- not sure about correct reading -->
+              		<lem>sua</lem>
+              		<rdg wit="#M #V #T" type="variation-absent"/>
+              	</app> 
+                <app> <!-- not sure which is the correct reading -->
+                	<lem>diligit</lem>
+                	<rdg wit="#T">diligat</rdg> <!-- dbcheck transcription -->
+                	<rdg wit="#S">cognoscit</rdg>
+                </app> 
+              	Deum sicut facit creaturam vel aliud ibi visum vel quam intense 
+                <app>
+                	<lem>diligit</lem>
+                	<rdg wit="#S">cognoscit</rdg>
+                </app> 
+              	aliud in specie visionis congrua creaturae. Et dico quod 
                 <pb ed="#S" n="85-r" />
                 <cb ed="#S" n="b" />
-                non est sic quia Deum videt visione[?m] suam capacitatem specie 
-                visionis in qua Deum videt replente nihil autem aliud, ita intense 
-                ibi videt per cogitationem in genere proprio quia talis non videt 
-                nisi visione quam ipse cum obiecto causare naturaliter sufficiunt  ibi et ista 
-                multum deficit a tanta secundum intensionem quanta est illa quae habetur 
-                respectu Dei cuius est probatio plana, quia si imaginetur duplari entitas 
-                creaturae datae ipsa cum eodem intellectu sufficeret ad causandum cogitationem 
-                eiusdem speciei priori intensiorem, licet non duplo intensiorem quia 
-                altera causa: puta obiectum est idem quod primo creatum totale, igitur 
+                non est sic quia Deum videt 
+              	<app> <!-- best reading is unclear -->
+              		<lem>visione</lem>
+              		<rdg wit="#M">visionem</rdg> 
+              	</app> 
+              	suam capacitatem
+              	<app>
+              		<lem>in</lem>
+              		<rdg wit="#S #T" type="variation-absent"/>
+              	</app> 
+              	<app>
+              		<lem>specie</lem>
+              		<rdg wit="#M">fine</rdg>
+              	</app> 
+                visionis in qua Deum videt replente 
+              	<app>
+              		<lem>nihil</lem>
+              		<rdg wit="#T">vel</rdg>
+              	</app> 
+                autem aliud, <!-- M has "aliud autem" dbcheck punctuation as well.  -->  
+                ita intense 
+                ibi videt per cogitationem in genere proprio quia 
+              	<app>
+              		<lem>talis</lem>
+              		<rdg wit="#T">tali</rdg>
+              	</app> 
+              	non 
+              	<app>
+              		<lem>videt</lem>
+              		<rdg wit="#T">utique</rdg>
+              	</app> 
+                nisi visione quam 
+              	<app>
+              		<lem>ipse cum obiecto</lem>
+              		<rdg wit="#M #V">ipsa</rdg>
+              		<rdg wit="#T">ipsa cum subiecto</rdg>
+              	</app> 
+              	causare naturaliter sufficiunt 
+              	<app>
+              		<lem>ibi et ista</lem>
+              		<rdg wit="#M">illa</rdg>
+              	</app> 
+                multum deficit a tanta secundum 
+              	<app>
+              		<lem>intensionem</lem>
+              		<rdg wit="#S" type="correction-substitution">
+              			<subst>
+              				<del>extensionem</del>
+              				<add>intentsionem</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	<app>
+              		<lem>quanta est illa</lem>
+              		<rdg wit="#M">quantum ipsa</rdg>
+              		<rdg wit="#V #T">cum ista</rdg>
+              	</app> 
+              	quae habetur 
+                respectu Dei cuius 
+              	<app>
+              		<lem>est</lem>
+              		<rdg wit="#M #V" type="variation-absent"></rdg>
+              	</app> 
+              	probatio 
+              	<app>
+              		<lem>plana</lem>
+              		<rdg wit="#M">plane</rdg>
+              	</app>, 
+              	quia si 
+              	<app>
+              		<lem>imaginetur</lem>
+              		<rdg wit="#M">imaginaretur</rdg>
+              	</app> 
+              	duplari entitas 
+                <app>
+                	<lem>creaturae datae</lem>
+                	<rdg wit="#T">creata</rdg>
+                	<rdg wit="#M">creaturae causatae</rdg>
+                </app> 
+              	ipsa cum eodem intellectu sufficeret ad causandum 
+              	<app>
+              		<lem>cognitionem</lem>
+              		<rdg wit="#M">causationem</rdg>
+              	</app> 
+                eiusdem speciei priori 
+              	<app>
+              		<lem>intensiorem</lem>
+              		<rdg wit="#V">intendere</rdg>
+              		<rdg wit="#T">intenderem</rdg>
+              	</app>, 
+              	licet non duplo intensiorem quia 
+                altera causa: puta obiectum est 
+              	<app> <!-- best reading unclear -->
+              		<lem>idem quod</lem>
+              		<rdg wit="#M #V #T">actius quam</rdg>
+              	</app> 
+              	primo 
+              	<app> <!-- best reading unclear -->
+              		<lem>creatum</lem>
+              		<rdg wit="#M #V #T">datum</rdg>
+              	</app> 
+              	totale, 
+              	<app> <!-- best reading unclear -->
+              		<lem>igitur</lem>
+              		<rdg wit="#M #V #T">tamen</rdg>
+              	</app> 
                 principium non duplatur.</p>
               
               <p xml:id="b1d3qun-deiipe">Dicendum est igitur quod nihil aliud a Deo potest [cognosci?] in 
