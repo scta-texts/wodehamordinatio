@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -54,25 +53,30 @@
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
       </div>
-      <div xml:id="startOn">
+      <div xml:id="starts-on">
         <pb ed="#M" n="66-r" facs="M66r"/><cb ed="#M" n="b"/>
         <pb ed="#S" n="79-r" facs="S79r"/><cb ed="#S" n="b"/> 
         <pb ed="#T" n="56-r" facs="T56r"/><cb ed="#T" n="a"/> 
         <pb ed="#V" n="106-r" facs="V106"/><!-- #V has only one column -->
       </div>
     </front>
+
+
+
     <body>
       <div xml:id="b1-d3-qun">
-        <head>Distinctio 3</head>
+        <head><supplied>Distinctio 3</supplied></head>
         <div>
-          <head>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in rebus aliis 
-            factis propter hominem est vestigium eiusdem Trinitatis</head>
-          <p xml:id="b1d3qun-cdtvet">Circa distinctionem tertiam quaero, 
+          <head><supplied>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in rebus aliis 
+            factis propter hominem est vestigium eiusdem Trinitatis</supplied></head>
+          
+          <p xml:id="b1d3qun-cdtvet">
+            Circa distinctionem tertiam quaero, 
             utrum mens humana sit imago Trinitatis increatae sicut 
             in rebus aliis factis propter hominem est vestigium eiusdem Trinitatis.</p>
         </div>
         <div type="rationes-principales">
-          <head xml:id="b1d3qun-Hratles">Rationes principales</head>
+          <head xml:id="b1d3qun-Hratles"><supplied>Rationes principales</supplied></head>
           <p xml:id="b1d3qun-qnveid">Quod non videtur, quia secundum 
             <ref>
               <name ref="#Augustine">Augustinus</name> in <title>Sermone communi de uno martyre</title>
@@ -91,7 +95,9 @@
                   <rdg wit="#T #M" type="variation-absent"/>
                 </app>
               </quote>
-              <bibl>Auctor incertus (forte <name>Augustinus Hipponensis</name>) <title>Sermo</title> CCCXV (PL 39:2349)</bibl>
+              <bibl>Auctor incertus (forte <name ref=”#Augustine”>Augustinus</name>, 
+                <title>Sermo</title> CCCXV (PL 39:2349)).
+              </bibl>
             </cit> 
             etc. Igitur ex opposito: non sic laudat, 
             <pb ed="#S" n="79-v" />
@@ -129,9 +135,10 @@
                 Trinitate</title>, c. 7, de parvis
               </ref>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#DeTrinitate">De Trinitate</title>, 
-                Bk. XIV, c. 4, n. 6 (PL 42:??? CCSL ???)</bibl>
+                <name ref=”#Augustine”>Augustinus</name>, 
+                <title ref=”#DeTrinitate”>De Trinitate</title>, 
+                Bk. XIV, c. 4, n. 6 (PL 42:??? CCSL ???).
+              </bibl>
             </cit> 
             dicit 
             <app>
@@ -148,11 +155,11 @@
               <quote ana="#ps38_7">
                 verumtamen in imagine pertransit homo
                 <app>
-                  <lem/>
+                  <lem n="homo" />
                   <rdg wit="#T" type="variation-present">sed etc.</rdg>
                 </app>
               </quote>
-              <bibl>Psalmus 38:7</bibl>
+              <bibl>Psalmus 38:7.</bibl>
             </cit>,
             <app>
               <lem>quia</lem>
@@ -190,15 +197,15 @@
             secundum substantiam suam non est 
             imago Trinitatis.</p>
           
-          <p xml:id="b1d3qun-immnsm">Item,
+          
+          <p xml:id="b1d3qun-immnsm">Item, 
             <app>
               <lem>tunc</lem>
               <rdg wit="#T #M #S" type="variation-absent"/>
-              <note xml:lang="en">We chose "tunc" here because we thought 
-                this to be the more explicit reading which most clearly 
-                communicates that this opening line is a consequence that 
-                follows an unstated "if"-clause.</note>
-            </app>
+              <note xml:lang="en">We chose "tunc" here because we thought this to be the more
+                explicit reading which most clearly communicates that this opening line is a
+                consequence that follows an unstated "if"-clause.</note>
+            </app> 
             mens 
             <app>
               <lem>magis</lem>
@@ -209,15 +216,12 @@
               <lem>Dei</lem>
               <rdg wit="#T" type="variation-absent"/>
             </app> 
-            quam homo, quia 
-            unumquodque propter quod et illud magis. 
-            Consequens falsum
+            quam homo, quia unumquodque propter quod et illud magis. Consequens falsum 
             <app>
               <lem>est</lem>
               <rdg wit="#S #V" type="variation-absent"/>
             </app>, 
-            quia homo magis est similis 
-            Deo quam mens, et exprimitur ab eo, igitur
+            quia homo magis est similis Deo quam mens, et exprimitur ab eo, igitur 
             <app>
               <lem>magis</lem>
               <rdg wit="#M">maius</rdg>
@@ -227,9 +231,9 @@
               <lem>Haec</lem>
               <rdg wit="#M" type="variation-absent"/>
             </app> 
-            consequentia patet
+            consequentia patet 
             <app>
-              <lem/>
+              <lem n="patet"/>
               <rdg wit="#T" type="variation-present">quia</rdg>
             </app> 
             per 
@@ -237,186 +241,405 @@
               <lem>definitionem</lem>
               <rdg wit="#T #M">distinctionem</rdg>
             </app>
-            <mentioned>imaginis</mentioned> quam ponit 
-            <cit>
-              <ref corresp="#b1d3qun-Qieecei"><name ref="#Augustine">Augustinus</name> <title ref="#deDiversisQuaestionibus">De 83 Quaestionibus</title>, quaestione 
-                <app>
+            <mentioned>imaginis</mentioned> quam ponit <cit>
+              <ref corresp="#b1d3qun-Qieecei"><name ref="#Augustine">Augustinus</name>
+                <title ref="#deDiversisQuaestionibus">De 83 Quaestionibus</title>, quaestione <app>
                   <lem>74</lem>
                   <rdg wit="#S">78</rdg>
-                </app>,
-              </ref>
+                </app>, </ref>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#deDiversisQuaestionibus">De diversis quaestionibus octoginta</title>, 
-                q. 74 (CCSL ???; PL 40:86), "ut in speculo est imago hominis, quia de illo expressa est."
+                <name ref=”#Augustine”>Augustinus</name>,
+                <title ref=”#deDiversisQuaestionibus”>
+                  De diversis quaestionibus octoginta
+                </title>,
+                q. 74 (CCSL ???; PL 40:86): 
+                “ut in speculo est imago hominis, quia de illo expressa est.”
               </bibl>
             </cit> 
             ubi dicit quod 
-            <quote type="indirect" xml:id="b1d3qun-Qieecei">imago est expressa similitudo illius 
-              cuius est imago</quote>.
-            <!-- 19/07/2016 --> 
-            Assumptum probatur, quia homo est ens nobilior quam mens 
-            hominis, igitur est magis similis Deo. Consequentia patet per 
-            <ref corresp="#b1d3qun-Qqicenp">
-              <name ref="#Anselm">Anselmum</name> 
-              <title ref="#Monologion">Monologion</title> capitulo 81 et 66
-            </ref>,
-            ubi dicit <name ref="#Anselm">Anselmus</name> 
+            <quote type="paraphrase" xml:id="b1d3qun-Qieecei">
+              imago est expressa 
+              <cb ed="#T" n="b" />               
+              similitudo illius cuius est imago.
+            </quote>
+            Assumptum probatur quia homo est ens 
+            <app>
+              <lem>nobilius</lem>
+              <rdg wit="#S">nobilior</rdg>
+            </app> 
+            quam mens hominis, igitur est magis similis Deo. 
+            Consequentia patet per
+            <ref corresp="#b1d3qun-Qqcenp">
+              <name ref="#Anselm">Anselmum</name>
+              <title ref="#Monologion">Monologion</title> capitulis <app>
+                <lem>31</lem>
+                <rdg wit="#S">81</rdg>
+              </app> et 66 </ref>, 
+            ubi dicit 
+            <app>
+              <lem>
+                <name ref="#Anselm">Anselmus</name>
+              </lem>
+              <rdg wit="#M #T"/>
+            </app>: 
             <cit>
               <quote xml:id="b1d3qun-Qqicenp">
                 <app>
                   <lem>quidquid</lem>
                   <rdg wit="#S" type="correction-addition">
-                      <add>quidquid</add>
+                    <add>quidquid</add>
                   </rdg>
+                </app> inter creata <app>
+                  <lem>Deo</lem>
+                  <rdg type="variation-absent" wit="#M #T"/>
+                </app> constat esse similius <app>
+                  <lem/>
+                  <rdg wit="#M #T">Deo</rdg>
+                </app>, illud necesse 
+                <app>
+                  <lem>est</lem>
+                  <rdg wit="#T" type="variation-absent" />
                 </app> 
-                inter creata Deo constat esse 
-                similius, illud necesse est esse natura praestantius. 
+                esse natura praestantius. 
               </quote>
               <bibl>
                 <name>Anselmus</name>, 
                 <title>Monologion</title>, 
-                c. 66 (Schmitt 1:77), 
-                "Quidquid enim inter creata constat illi esse similius, id necesse est esse natura praestantius."
+                c. 66 (Schmitt I:77):
+                “Quidquid enim inter creata constat illi esse similius, id necesse est esse natura
+                praestantius.”
               </bibl>
             </cit> 
             Assumptum probatur quia 
-            <ref>
-              1 <title ref="#Ethics">Ethicorum</title> c. 8 in fine, dicit 
+            <ref corresp="#b1d3qun-fccstb"> 1 
+              <title ref="#Ethics">Ethicorum</title> c. 8 in fine, 
+              dicit 
               <name ref="#Aristotle">Philosophus</name>
             </ref> 
             quod 
             <cit>
-              <quote>felicitas connumerata cum minimo bonorum 
-                est eligibilior quam ipsa felicitas, et addit, quod semper maius bonum 
-                est eligibilius.
-              </quote>
+              <quote xml:id="b1d3qun-fccstb">felicitas 
+                <app>
+                  <lem>connumerata</lem>
+                  <rdg wit="#M">communicata</rdg>
+                </app>
+                cum minimo bonorum 
+                <app>
+                  <lem>est</lem>
+                  <rdg wit="#T" type="correction-addition">
+                    <add place="above-line">est</add>
+                  </rdg>
+                </app>
+                eligibilior quam ipsa felicitas, 
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#M">est</rdg>
+                </app>
+                addit quod semper maius bonum est eligibilius. </quote>
               <bibl>
-                <name>Aristoteles</name>, 
-                <title>N. Ethica</title>, 
-                Bk. I, c. 7 (1097b21)
+                <name ref=”#Aristotle”>Aristoteles</name>, <title ref=”#Ethics”>N. Ethica</title>, Bk. I, c. 7 (1097b21). 
               </bibl>
-            </cit> 
-            Ergo, pari ratione, mens humana cum quocumque 
-            bono est melior quam ipsa solitaria. Igitur, compositum ex ipsa mente 
-            et corpore, scilicet homo, est nobilius sola mente.
-          </p>
+            </cit>      
+            <app>
+              <lem>Igitur</lem>
+              <rdg wit="#S" type="variation-orthography">Ergo</rdg>
+            </app>
+            , pari ratione, mens humana cum quocumque bono est
+            <app><!-- #T has "est est", the second "est" being strikenthough -->
+              <lem n="est"/>
+              <rdg type="correction-deletion" wit="#T">
+                <del>est</del>
+              </rdg>
+            </app>
+            melior quam ipsa
+            solitaria. Igitur, compositum ex ipsa 
+            <app>
+              <lem>mente</lem>
+              <rdg wit="#T #M"/>
+            </app>
+            et corpore, scilicet homo, est nobilius sola
+            mente. </p>
+          
+          
           
           <p xml:id="b1d3qun-ismnrd">Item, si mens humana 
-            sit imago Trinitatis increatae, igitur aut ratione substantiae suae, et hoc 
-            non, quia illa non repraesentat distinctionem personarum, aut ratione actuum, 
-            quos causat et recipit, et hoc non, quia illi non sunt consubstantiales. 
-            <!-- 
-            	possibly argument 5 
-            	I think we need a paragraph break here -->
-            -->
-            Et 
-            hoc idem, quia in re arguitur sub alia forma sic, quia si sic, tunc 
-            cognitio perfecta illius imaginis nata esset inducere vel saltem 
-            iuvare 
+            sit imago Trinitatis increatae, 
             <app>
-              <rdg wit="#S" type="correction-addition">
-              	<add>ad cognoscendum</add>
+              <lem>igitur aut</lem>
+              <rdg type="variation-inversion" wit="#T #M">aut igitur</rdg>
+            </app>
+            ratione substantiae suae, et hoc non, quia illa 
+            <app>
+              <lem>non</lem>
+              <rdg wit="#T #M" type="variation-absent"/>
+            </app>
+            repraesentat distinctionem personarum; aut ratione actuum 
+            quos causat et recipit, et hoc 
+            <app>
+              <lem>non</lem>
+              <rdg wit="#V" type="variation-absent"/>
+            </app>
+            quia illi non sunt consubstantiales. 
+            Et hoc idem
+            <app> <!-- Double check MSS. -->
+              <lem>quia</lem>
+              <rdg wit="#M" type="variation-substance">quaestione</rdg>
+              <rdg wit="#S" type="variation-substance">quasi</rdg>
+            </app>
+            in 
+            <app> <!-- Double check MS. -->
+              <lem>re</lem>
+              <rdg wit="#M" type="variation-substance">rei</rdg>
+            </app>
+            arguitur sub alia forma sic: 
+            <app>
+              <lem>si</lem>
+              <rdg wit="#M #T" type="variation-substance">et</rdg>
+              <rdg wit="#S" type="variation-substance">quia si</rdg>
+            </app>
+            sic, tunc cognitio perfecta illius imaginis nata esset inducere vel saltem iuvare 
+            <app>
+              <lem>ad cognoscendum</lem>
+              <rdg wit="#S #V" type="correction-addition">
+              	<add place="margin">ad cognoscendum</add>
               </rdg>
+              <rdg wit="#M #T" type="variation-absent"/>
             </app> 
-            Trinitatem esse in Deo. Consequens falsum, quia eius cognitio non 
-            magis adducit in cognitionem verum ipsius Trinitatis increatae quam 
-            aliud. Probo sive enim in anima sit realis distinctio sive non videtur  abducere. 
+            Trinitatem esse in Deo. 
+            Consequens falsum <supplied>est</supplied>, 
+            quia eius cognitio non magis             
+            <app>
+              <lem wit="#S">adducit in cognitionem veram</lem>
+              <rdg wit="#M #T #V" type="variation-substance">abducit a cognitione vera</rdg>
+            </app>
+            ipsius Trinitatis increatae 
+            <app>
+              <lem>quam aliud</lem>
+              <rdg wit="#M #T #V" type="variation-absent"/>
+            </app>. 
+            Probo sive enim <!-- There's something strange about the grammar here. "Enim" is usually the second word of the sentence, so I thinks I haven't understood this quite correctly. [NV] --> 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#T" type="correction-addition">
+                <add place="above-line">in</add>
+              </rdg>
+              <rdg wit="#M" type="variation-absent" />
+            </app> anima sit realis distinctio 
+            <app>
+              <lem>potentiarum</lem>
+              <rdg wit="#M" type="variation-substance">personarum</rdg>
+              <rdg wit="#S" type="variation-absent"/>
+            </app>
+            sive non videtur 
+            <app>
+              <lem>abducere</lem>
+              <rdg wit="#S" type="correction-substitution">
+                <subst>
+                  <del rend="expunctuated">adducere</del>
+                  <add place="above-line">abducere</add>
+                </subst>
+              </rdg>
+            </app>. 
             Si enim sic, tunc sunt diversae res et per consequens vel sunt partes 
-            mentis vel <unclear>accidentia <!-- acta --></unclear> in ipsa, et ita ista cognitio faceret estimare quod 
-            personae essent partes Dei vel <unclear>accidentia <!-- acta --></unclear> in eo, et 
+            mentis vel accidentia in ipsa, et ita ista cognitio faceret 
             <app>
-              <rdg wit="#S" type="correction-addition">
-              	<add place="aboveLine">quod</add>
+              <lem>aestimare</lem>
+              <rdg wit="#M" type="variation-substance">aestimari</rdg>
+            </app> 
+            quod personae essent partes Dei 
+            vel accidentia in eo, et 
+            <app>
+              <lem wit="#M #T" n="et"/>
+              <rdg wit="#S #V" type="correction-addition">
+                <add place="aboveLine">quod</add>
               </rdg>
             </app> 
-            ita non Deus. Si non sit 
-            realis distinctio, 
+            ita  
+            <app>
+              <lem n="ita" />
+              <rdg wit="#V" type="variation-substance">
+                <add place="above-line">quod</add>
+              </rdg>
+            </app>
+            non Deus. 
+            Si 
+            <app>
+              <lem>autem</lem>
+              <rdg wit="#S #T" type="variation-absent"/>
+            </app>non sit 
+            <app>
+              <lem />
+              <rdg wit="#S">realis distinctio</rdg>
+            </app>, 
             tunc faceret aestimare personas non realiter distingui.</p>
           
-          <p xml:id="b1d3qun-isqati">Item 
-            specialiter quod mens non sit imago ratione suorum <unclear>accidentium <!-- actuum; see end of this paragaraph and paragraph above --></unclear>, 
+          
+          
+          <p xml:id="b1d3qun-isqati">
+            Item specialiter quod mens non sit imago 
+            <app>
+              <lem>ratione</lem>
+              <rdg wit="#M" type="variation-absent"/> 
+            </app> 
+            suorum 
+            <app>
+              <lem>actuum</lem>
+              <rdg wit="#S #T #V" type="variation-substance">accidentium</rdg>
+            </app>, 
             quia 
-            <ref>14 <title ref="#deTrinitate">De Trinitate</title>, 
-              c. 6, de parvis 
+            <ref>
+              <app>
+                <lem>14</lem>
+                <rdg wit="#M" type="variation-substance">48</rdg>
+              </app> 
+              <title ref="#deTrinitate">De Trinitate</title>, 
+              c. 
+              <app>
+                <lem>6</lem>
+                <rdg wit="#T" type="variation-substance">16</rdg>
+              </app> de parvis, 
               dicit <name ref="#Augustine">Augustinus</name>
             </ref> 
             quod 
             <cit>
               <quote xml:id="b1d3qun-Qiciani">imago creatoris immortaliter 
-                inserta est animae hominis rationali seu intellectuali, sed actus non 
-                immortaliter.</quote>
+                <app>
+                  <lem>inserta</lem>
+                  <rdg wit="#M" type="variation-substance">infinita</rdg>
+                </app> 
+                est animae hominis rationali seu intellectuali, sed actus non 
+                immortaliter,
+                <app>
+                  <lem>igitur</lem>
+                  <rdg wit="#M #T #S" type="variation-absent"/>
+                </app>.
+              </quote>
               <bibl>
-                <name>Augustinus</name>, <title>De Trinitate</title>, 
-                Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040) 
-                "ea est invenienda in anima hominis, id est rationali, 
+                <name ref=”#Augustine”>Augustinus</name>, <title ref=”#deTrinitate”>De Trinitate</title>, 
+                Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040): 
+                “ea est invenienda in anima hominis, id est rationali, 
                 sive intellectuali, imago creatoris, quae immortaliter 
-                immortalitati eius est insita."</bibl>
+                immortalitati eius est insita.”</bibl>
             </cit> 
+            
             Et ibidem etiam 
             <cit>
-              <ref>c. 4 vult <name ref="#Augustine">Augustinus</name></ref>
+              <ref>c. 
+                <app>
+                  <lem>4</lem>
+                  <rdg wit="#V #T" type="variation-substance">5</rdg>
+                </app> vult <name ref="#Augustine">Augustinus</name></ref>
               <bibl>
-                <name>Augustinus</name>, 
-                <title>De Trinitate</title>, 
-                Bk. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038) "Ex quo colligitur, ut si iam imago Dei est ista trinitas, etiam ipsa non in eis quae semper sunt, sed in rebus sit habenda transeuntibus"</bibl>
+                <name ref=”#Augustine”>Augustinus</name>, 
+                <title ref=”#deTrinitate”>De Trinitate</title>, 
+                Bk. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038): “Ex quo colligitur, ut si iam imago Dei est ista Trinitas, etiam ipsa non in eis quae semper sunt, sed in rebus sit habenda transeuntibus”.
+              </bibl>
             </cit> 
             quod imago illa 
             non est attendenda in rebus transeuntibus, 
-            sed actus transeunt, igitur.</p>
+            sed actus transeunt, igitur.
+          </p>
         </div>
+        
+        
+        
+        
         <div>
-          <head>Oppositum</head>
+          <head><supplied>Ad oppositum</supplied></head>
           <p xml:id="b1d3qun-aopmld">Ad oppositum: 
             <ref>
-              <title ref="#gen">Genesis</title> primo,
+              <title ref="#gen">Genesis</title> I,
             </ref>
             <cit>
-              <quote xml:id="b1d3qun-Qfhahai" ana="#gen1_1">faciamus hominem ad imaginem</quote>
-              <bibl corresp="#b1d3qun-Qfhahai"><title>Genesis</title> 1:26</bibl>
+              <quote ana="#gen1_1">faciamus hominem ad imaginem</quote>
+              <bibl>
+                <name ref=”#Augustine”>Augustinus</name>,
+                <title ref=”#gen”>Genesis</title> 1:26
+              </bibl>
             </cit> 
             etc., 
             et 
             <cit>
               <ref>
                 <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#DeGenesiAdLitteram">Super Genesem ad litteram</title> 
-                c. 23, de parvis
+                <title ref="#DeGenesiAdLitteram">Super 
+                  <app>
+                    <lem>Genesem</lem>
+                    <rdg wit="#T" type="variation-orthography">Genesim</rdg>
+                  </app> 
+                  ad litteram</title> 
+                c. 23 de parvis
               </ref>
               <bibl>
-                <name>Augustinus</name>, 
-                <title>De Genesi ad litteram</title>, 
-                Bk. VI, c. 28, n. 39 (CCSL ?; PL 34:356-357) "quamvis in interiore homine fuerit spiritualis, 
+                <name ref=”#Augustine”>Augustinus</name>, 
+                <title ref=”#DeGenesiAdLitteram”>De Genesi ad litteram</title>, 
+                Bk. VI, c. 28, n. 39 (CCSL ???; PL 34:356-357) “quamvis in interiore homine fuerit spiritualis, 
                 secundum imaginem eius qui creavit eum; quod amisit peccando, 
                 meruitque etiam corporis mortem, qui non peccando mereretur et in corpus spirituale commutationem. 
                 Nam si et interius animaliter vixit, non possumus dici ad hoc ipsius renovari. 
                 Quibus enim dicitur, ‘Renovamini spiritu mentis vestrae’, hoc eis dicitur, ut spirituales fiant; 
-                quod si ille nec in ipsa mente fuit quomodo nos renovamur ad id quod homo nunquam fuit?"</bibl>
+                quod si ille nec in ipsa mente fuit quomodo nos renovamur ad id quod homo nunquam fuit?”</bibl>
             </cit> 
-            dicit: hominem factum esse ad imaginem Dei, secundum mentem, secundum illud 
+            dicit hominem factum esse ad imaginem Dei, secundum mentem, secundum illud 
             <name ref="#Paul">Apostoli</name>: 
             <cit>
               <quote xml:id="b1d3qun-Qrsmsmv" ana="#eph4_23">
-                renovamini vestrae.</quote>
-              <bibl><title>Ad Ephesios</title> 4:23</bibl>
-            </cit> 
-            Et 
-            <ref corresp="#b1d3qun-Qimfaid">c. 26 concludit</ref> quod 
-            <cit>
-              <quote xml:id="b1d3qun-Qimfaid">in mente factus est homo ad imaginem Dei.</quote>
-              <bibl>Augustinus, ???</bibl>
-            </cit> 
-            Eiusdem opinionis est 
-            <cit>
-              <ref><name ref="#Lombard">Magister</name>, libro 2, distinctione 16.</ref>
+                renovamini vestrae.
+              </quote>
               <bibl>
-                <name>Petrus Lombardus</name>, 
-                <title>Sententiae</title>, 
-                Bk II, d. 16, c. 3 (Quarachi, 1:408), 
-                "Factus est igitur homo secundum animam ad imaginem et similitudinem, 
-                non Patris vel Filii vel Spiritus Sancti, sed totius Trinitatis."</bibl>
+                <name ref=”#Paul”>Paulus</name>,
+                <title>Ad Ephesios</title> 4:23.
+              </bibl>
+            </cit> 
+            
+            Et 
+            <ref corresp="#b1d3qun-Qimfaid">c. 26</ref> 
+            <app>
+              <lem>concludit</lem>
+              <rdg wit="#M" type="variation-substance">qui dicit</rdg>
+            </app>
+            quod 
+            <cit>
+              <quote xml:id="b1d3qun-Qimfaid">in mente factus est homo ad imaginem Dei</quote>
+              <bibl>
+                <name ref=”#Augustine”>Augustinus</name>, 
+                <title ref=”#DeGenesiAdLitteram”>De Genesi ad litteram</title>,
+                Bk. VI, c. 12, n. 22 (CCSL ???; PL 34: ???): “Sed hoc excellit in homine, quia Deus ad imaginem suam hominem fecit, propter hoc quod ei dedit mentem intellectualem, qua praestat pecoribus; unde iam superiore loco disseruimus.”
+              </bibl>
+            </cit>
+            <app>
+              <lem>etc.</lem>
+              <rdg wit="#M #S #V" type="variation-absent"/>
+            </app>.
+            
+            Eiusdem 
+            <app>
+              <lem>opinionis</lem>
+              <rdg wit="#M #T" type="variation-substance">sententiae</rdg>
+            </app>
+            est 
+            <cit>
+              <ref>
+                <name ref="#Lombard">Magister</name>, 
+                <app>
+                  <lem>in littera,</lem>
+                  <rdg wit="#S #V #T" type="variation-absent"/>
+                </app>
+                libro 2, distinctione 
+                <app>
+                  <lem>16</lem>
+                  <rdg wit="#M #T" type="variation-substance">26</rdg>
+                </app>.
+                </ref>
+              <bibl>
+                <name ref=”#Lombard”>Petrus Lombardus</name>, 
+                <title ref=”#Sentences”>Sententiae</title>, 
+                Bk II, d. 16, c. 3 (Quarachi, 1:408):
+                “Factus est igitur homo secundum animam ad imaginem et similitudinem, 
+                non Patris vel Filii vel Spiritus Sancti, sed totius Trinitatis.”</bibl>
             </cit>
           </p>
+          
           
           <p xml:id="b1d3qun-aieqce">Ad idem est 
             <ref corresp="#b1d3qun-Qndeqce">
@@ -432,143 +655,418 @@
                   ad imaginem eius qui creavit eum.</seg>
               </quote>
               <bibl>
-                <name>Augustinus</name>, 
-                <title>De Trinitate</title>, 
-                Bk. XII, c. 7, n. 12 (PL 42:1004-1005) 
-                "nulli dubium est, non secundum corpus, 
+                <name ref=”#Augustine”>Augustinus</name>, 
+                <title ref=”#deTrinitate”>De Trinitate</title>, 
+                Bk. XII, c. 7, n. 12 (PL 42:1004--1005):
+                “nulli dubium est, non secundum corpus, 
                 neque secundum quamlibet animi partem, 
                 sed secundum rationalem mentem, 
                 ubi potest esse agnitio Dei, 
-                hominem factum ad imaginem eius qui creavit eum."
+                hominem factum ad imaginem eius qui creavit eum.”
               </bibl>
             </cit>
           </p>
           
-          <p xml:id="b1d3qun-iehpep">Item et haec auctoritas recte 
-            praetendit argumentum primae et secundae. Ad primam partem dicit enim 
+          
+          <p xml:id="b1d3qun-iehpep">
+            <app>
+              <lem>Item</lem>
+              <rdg wit="#M" type="variation-substance">Tunc</rdg>
+            </app>
+            et haec auctoritas recte 
+            praetendit contrarium primae et secundae. 
+            Ad primam partem dicit enim 
             <ref corresp="#b1d3qun-Qpmipep">
               <name ref="#Augustine">Augustinus</name> 14 
               <title ref="#deTrinitate">De Trinitate</title> c. 14 de parvis,
             </ref> 
             quod 
-            <quote xml:id="b1d3qun-Qpmipep">Prius mens in se ipsa consideranda est 
-              antequam sit particeps Dei et in ea recipienda est imago eius. Diximus 
-              enim eam esse amissa Dei participatione abolitam atque deformem 
-              Dei tamen imaginem permanere. Eo quippe proprie est quo capax 
-              est eiusque particeps esse potest.</quote>
+            <quote xml:id="b1d3qun-Qpmipep">
+              Prius mens in se ipsa consideranda est 
+              antequam sit particeps Dei et 
+              <app>
+                <lem>in</lem>
+                <rdg wit="#M" type="variation-absent"/>
+              </app>
+              ea recipienda est imago eius. Diximus 
+              enim eam esse 
+              <app>
+                <lem>amissa</lem>
+                <rdg wit="#M" type="variation-substance">amissam</rdg>
+              </app>
+              Dei participatione 
+              <app> <!-- Check out syntax !!! -->
+                <lem n="participatione"/>
+                <rdg wit="#V" type="variation-present">
+                  <add place="margin-left">abolitam</add>
+                </rdg>
+              </app>
+              atque deformem 
+              Dei tamen imaginem permanere. 
+              Eo quippe proprie 
+              <app>
+                <lem>imago eius</lem>
+                <rdg wit="#M #S #T" type="variation-absent"/>
+              </app>
+              est, quo capax 
+              <app>
+                <lem>eius</lem>
+                <rdg wit="#S" type="variation-absent"/>
+              </app>
+              est, eiusque particeps esse potest.
+            </quote>
             <bibl>
-              <name>Augustinus</name>, 
-              <title>De Trinitate</title>, 
-              Bk. XIV, c. 8, n. 11 (CCSL ?; PL 42:1044) 
-              Sed prius mens in se ipsa consideranda est antequam sit particeps Dei, 
+              <name ref=”#Augustine”>Augustinus</name>,
+              <title ref=”#deTrinitate”>De Trinitate</title>, 
+              Bk. XIV, c. 8, n. 11 (CCSL ????; PL 42:1044):
+              “Sed prius mens in se ipsa consideranda est antequam sit particeps Dei, 
               et in ea reperienda est imago eius. 
               Diximus enim eam etsi amissa Dei participatione obsoletam atque deformem, 
-              Dei tamen imaginem permanere. Eo quippe ipso imago eius est, 
-              quo eius capax est, eiusque particeps esse potest.</bibl>
+              Dei tamen imaginem permanere. 
+              Eo quippe ipso imago eius est, 
+              quo eius capax est, eiusque particeps esse potest.”
+            </bibl>
           </p>
           
-          <p xml:id="b1d3qun-qsalpd">Quinto, sunt ad idem istam partem 
-            auctoritates aliae multae tam quo ad imaginem quam quo ad vestigium 
+          
+          <p xml:id="b1d3qun-qsalpd">
+            Quinto, sunt ad 
+            <app>
+              <lem/>
+              <rdg wit="#M #S" type="variation-present">idem</rdg>
+            </app>
+            
+            <app>
+              <lem>istam</lem>
+              <rdg wit="#V" type="correction-addition">
+                <add place="above-line">istam</add>
+              </rdg>
+            </app>
+            partem auctoritates aliae multae tam quo ad imaginem quam quo ad vestigium 
             quas ponit 
             <cit>
-              <ref><name ref="#Lombard">Magister</name> in littera praesentis distinctionis;</ref>
+              <ref>
+                <name ref="#Lombard">Magister</name> 
+                in littera praesentis distinctionis;
+              </ref>
               <bibl>
-                <name>Petrus Lombardus</name>, 
-                <title>Sententiae</title>, 
-                Bk. I, d. 3, c. 1-3 
-                (Quarachi, 1:70-76)
+                <name ref=”#Lombard”>Petrus Lombardus</name>, 
+                <title ref=”#Sentences”>Sententiae</title>, 
+                Bk. I, d. 3, c. 1--3 
+                (Quarachi, 1:70--76).
               </bibl>
             </cit> 
             et 
             <cit>
-              <ref>libro etiam 2 aliquas alias distinctione 16.</ref>
+              <ref>libro 
+                <app>
+                  <lem>etiam</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app>
+                2 
+                <app>
+                  <lem n="2"/>
+                  <rdg wit="#M" type="variation-present">et</rdg>
+                </app>
+                aliquas alias <supplied>auctoritates</supplied> distinctione 16.</ref>
               <bibl>
-                <name>Petrus Lombardus</name>, 
-                <title>Sententiae</title>, 
-                Bk II, d. 16, c. 1-4 (Quarachi, 1:406-409)
+                <name ref=”#Lombard”>Petrus Lombardus</name>, 
+                <title ref=”#Sentences”>Sententiae</title>, 
+                Bk II, d. 16, c. 1--4 (Quarachi, 1:406--409).
               </bibl>
             </cit>
           </p>
         </div>
+        
+        
         <div>
-          <head type="divisio-quaestionis">Divisio questionis</head>
-          <p xml:id="b1d3qun-iiqadm">In ista questione est conclusio certa quod sic. Sed videndum est primo quare 
-            sit in creatura vestigium Trinitatis, in homine imago Trinitatis. Et secundo, contra 
-            dicta alia dubia movebantur.</p> 
+          <head type="divisio-quaestionis"><supplied>Divisio questionis</supplied></head>
+          <p xml:id="b1d3qun-iiqadm">
+            In ista questione est conclusio certa quod sic. Sed videndum 
+            <app>
+              <lem>est</lem>
+              <rdg wit="#V #T #M" type="variation-absent"/>
+            </app>
+            <app>
+              <lem>primo</lem>
+              <rdg wit="#M" type="variation-absent"/>
+            </app>   
+            <app>
+              <lem>quare</lem>
+              <rdg wit="#S" type="variation-substance">et qualiter</rdg>
+            </app>     
+            sit in 
+            <app>
+              <lem>creaturis</lem>
+              <rdg wit="#S #M" type="variation-substance">creatura</rdg>
+            </app>
+            vestigium 
+            <app>
+              <lem>Trinitatis</lem>
+              <rdg wit="#M" type="variation-substance">Trinitati</rdg>
+            </app>
+            <app>
+              <lem>vel</lem>
+              <rdg wit="#M #S" type="variation-absent"/>
+            </app>
+            in homine imago
+            <pb ed="#M" n="66-v"/>
+            <cb ed="#M" n="a"/>
+            <app>
+              <lem>Trinitatis</lem>
+              <rdg wit="#M" type="variation-absent"/>
+            </app>. 
+            Et secundo, contra 
+            dicta 
+            <app>
+              <lem>alia</lem>
+              <rdg wit="#T" type="variation-substance">aliqua</rdg>
+            </app>
+            dubia movebantur.
+          </p> 
         </div>
+        
+        
         <div type="articulus">
-          <head xml:id="b1d3qun-Hprilus">Primus articulus</head>
+          <head xml:id="b1d3qun-Hprilus"><supplied>Primus articulus</supplied></head>
           <div>
-            <head>Conditiones communes vestigio et imagini</head> 
+            <head><supplied>Conditiones communes vestigio et imagini</supplied></head> 
             
-            <p xml:id="b1d3qun-cpcscc">Circa primum, sciendum quod aliquae sunt 
-              conditiones communes tam vestigio quam imagini et aliquae proprie 
-              huic vel illi.<add place="margin">ita concedo</add> Una de communibus est ista quod tam vestigium 
-              quam imago ducit in notitiam illius cuius est imago et vestigium 
-              tamquam causativum notitiae illius cuius est imago vel vestigium 
+            <p xml:id="b1d3qun-cpcscc">
+              <app>
+                <lem>Circa</lem>
+                <rdg wit="#M" type="variation-substance">Contra</rdg>
+              </app>
+              primum, sciendum quod 
+              <app>
+                <lem>aliquae</lem>
+                <rdg wit="#T" type="variation-substance">aliae</rdg>
+              </app>
+              sunt conditiones communes tam vestigio quam imagini et aliquae proprie 
+              huic vel illi              
+              <app>
+                <lem n="illi" />
+                <rdg wit="#S">
+                  <add place="margin">ita concedo</add>
+                </rdg>
+              </app>. 
+              Una de communibus est quod
+              <app>
+                <lem/>
+                <rdg wit="#S" type="variation-substance">ista quod</rdg>
+                <rdg wit="#T" type="variation-substance">aliqua quia</rdg>
+                <rdg wit="#M" type="variation-substance">aliqua quod</rdg>
+              </app>
+              tam vestigium quam imago ducit         
+              <app>
+                <lem>ab illo cuius est alia quae tam vestigium quam imago sunt</lem>
+                <rdg wit="#S #M #T" type="variation-absent"/>
+              </app>
+              in 
+              <app>
+                <lem>cognitionem vel</lem>
+                <rdg wit="#S #V" type="variation-absent"/>
+              </app>
+              notitiam illius cuius est imago 
+              <app>
+                <lem>vel</lem>
+                <rdg wit="#S" type="variation-substance">et</rdg>
+              </app>
+              <app>
+                <lem>vestigium tamquam causativum notitiae illius cuius est imago vel</lem>
+                <rdg wit="#S" type="correction-addition">
+                  <add place="margin">vestigium tamquam causativum notitiae illius cuius est imago vel</add>
+                </rdg>
+              </app>
+              vestigium 
               <pb ed="#S" n="79-v" />
               <cb ed="#S" n="b" /> 
-              mediante notitia sua. Sed non ducit in primam notitiam distinctam et propriam 
-              istius cuius est imago vel vestigium, quia ex <add place="margin">alibi</add> <add>determinatis</add> 
+              mediante notitia sua.       
+              <app>
+                <lem>Sed non ducit</lem>
+                <rdg wit="#M #V #T" type="variation-substance">non utique</rdg>
+              </app>
+              in primam notitiam distinctam et propriam 
+              istius cuius est imago vel vestigium, quia ex 
+              <app>
+                <lem>alibi</lem>
+                <rdg wit="#M">aliter</rdg>
+                <rdg wit="#S" type="correction-substitution">
+                  <subst>
+                    <del rend="expunctuated">certibus</del>
+                    <add place="margin">alibi</add>
+                  </subst>
+                </rdg>
+              </app>    
+              determinatis
               patet quod notitia incomplexa unius rei non ducit in primam notitiam 
-              incomplexam distinctam et propriam et simplicem alterius rei, sed illo 
-              modo quo una res mediante notitia sua incomplexa potest esse 
+              incomplexam distinctam et propriam et simplicem alterius rei, sed 
+              <app>
+                <lem>per illum modum</lem>
+                <rdg wit="#S" type="variation-substance">illo modo</rdg>
+              </app>
+              quo una res mediante notitia sua incomplexa potest esse 
               causa partialis rememorationis alterius rei habitualiter notae, ita quod notitia 
               habitualis necessario concurrit sicut causa compartialis.</p>
           </div>
+          
+          
+          
           <div>
-            <head>Opinio Ockham</head>
-            <p xml:id="b1d3qun-idovis">Istud declarat 
+            <head><supplied>Opinio Ockham</supplied></head>
+            <p xml:id="b1d3qun-idovis">
+              <pb ed="#V" n="107-r"/>
+              Istud declarat 
               <cit>
                 <ref><name ref="#Ockham">Ockham</name> per experientiam et bene.</ref>
-                <bibl><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:544s.)</bibl>
+                <bibl>
+                  <name>Guillelmus de Ockham</name>, 
+                  <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:544s.)
+                </bibl>
               </cit> 
-              Posito enim quod
-              si 
+              Posito enim quod 
               <cit>
-                <quote>aliquis nullam penitus 
-                  habeat cognitionem de <name ref="#Hercules">Hercule</name>, si videat statuam <name ref="#Hercules">Herculis</name> non 
-                  plus cogitabit de <name ref="#Hercules">Hercule</name> quam de <name ref="#Socrates">Socrates</name>. Si autem prius videat 
-                  <name ref="#Hercules">Herculem</name>, et retineat habitualem notitiam <name ref="#Hercules">Herculis</name></quote>
+                <quote>                 
+                  <app>
+                    <lem n="quod" />
+                    <rdg wit="#S #M" type="variation-present">si</rdg>
+                  </app>                  
+                  <app>
+                    <lem>aliquis</lem>
+                    <rdg wit="#M #T" type="variation-substance">quis</rdg>
+                  </app>
+                  nullam penitus 
+                  habeat cognitionem de <name ref="#Hercules" type="variable">Hercule</name>, 
+                  si videat statuam <name ref="#Hercules" type="variable">Herculis</name> non 
+                  plus cogitabit de <name ref="#Hercules" type="variable">Hercule</name> quam de 
+                  <name ref="#Socrates" type="variable">Sorte</name>. 
+                  Si autem prius 
+                  <app>
+                    <lem wit="#V">viderit</lem>
+                    <rdg wit="#V" type="correction-substitution">
+                      <subst>
+                        <add>viderit</add>
+                        <del rend="strikethrough">videat</del>
+                      </subst>
+                    </rdg>
+                    <rdg wit="#S #M #T" type="variation-substance">videat</rdg>
+                  </app>           
+                  <name ref="#Hercules" type="variable">Herculem</name>, 
+                  et retineat habitualem notitiam 
+                  <name ref="#Hercules" type="variable">Herculis</name>,
+                </quote>
                 <bibl>
                   <name>Guillelmus de Ockham</name>, 
                   <title>Scriptum in Sent.</title>, 
-                  Bk. I, d. 3, q. 9 (OTh II:545)</bibl>
-              </cit> 
-              vel per studium didicerit conditiones proprias quasdam symeatas in imagine eius 
+                   Bk. I, d. 3, q. 9 (OTh II:545)
+                </bibl>
+              </cit>       
+              vel per 
+              <app>
+                <lem>auditum</lem>
+                <rdg wit="#S" type="variation-substance">studium</rdg>
+              </app>
+              didicerit conditiones proprias quasdam 
+              <app>
+                <lem wit="#T">similatas</lem>
+                <rdg wit="#S" type="variation-substance">symeatas</rdg>
+                <rdg wit="#M" type="variation-orthography">simiatas</rdg>
+                <rdg wit="#S" type="variation-substance">sine quantas</rdg>
+              </app>
+              in imagine eius 
               <cit>
-                <quote>et postea videat statuam sibi similem in accidentibus exterioribus, 
-                  virtute visionis statuae</quote>
-                <bibl>ibidem</bibl>
-              </cit> 
-              potuit recordari Herculis et posito 
+                <quote>
+                  et postea videat statuam sibi similem in accidentibus exterioribus, 
+                  virtute visionis 
+                  <app>
+                    <lem n="visionis"/>
+                    <rdg wit="#M" type="variation-present">et</rdg>
+                  </app>
+                  statuae
+                </quote>
+                <bibl>
+                  ibidem,
+                  “Unde si aliquis videret statuam Herculis, et nullam notitiam penitus haberet de Hercule, non plus per hoc cogitaret de Hercule quam de Achille. Sed quia prius novit Herculem, et remanet in eo notitia habitualis Herculis, ideo quando postea videt similitudinem suam, virtute illius notitiae habitualis et istius visionis similitudinis ducitur in actum rememorandi de Hercule et non in notitiam primam ipsius Herculis.”
+                </bibl>
+              </cit>        
+              <app>
+                <lem>poterit</lem>
+                <rdg wit="#S" type="variation-substance">potuit</rdg>
+              </app>
+              recordari         
+              <app>
+                <lem n="recordari"/>
+                <rdg wit="#V" type="correction-deletion">
+                  <del rend="strikethrough">et</del>
+                </rdg>
+              </app>       
+              Herculis 
+              <app>
+                <lem>etiam</lem>
+                <rdg wit="#M" type="variation-substance">et</rdg>
+              </app>
+              posito 
               quod numquam prius vidisset illam statuam.</p>
+            
             
             <p xml:id="b1d3qun-sehids">Similem 
               <app>
-                <lem>exemplum aliud</lem>
+                <lem n="Similem"/>
                 <rdg wit="#S" type="correction-addition">
                 	<add place="margin">exemplum aliud</add>
                 </rdg>
-              </app> etiam 
-              huius est quod aliquando videntes arborem vel lapidem a remotis, 
+              </app> 
+              etiam huius est quod aliquando videntes arborem vel lapidem a remotis, 
               statim cogitamus de homine et aestimamus ibi stare hominem, quod utique 
               non contingeret nisi praehabita  notitia habituali hominis, cum arbor 
-              vel lapis non contineat virtualiter primam notitiam hominis, et ita 
+              vel lapis non contineat virtualiter 
+              <app>
+                <lem>primam</lem>
+                <rdg wit="#V" type="correction-addition">
+                  <add place="above-line">primam</add>
+                </rdg>
+              </app>
+              notitiam hominis, et 
+              <app>
+                <lem>ita</lem>
+                <rdg wit="#M" type="variation-substance">tertia</rdg>
+              </app>
               de similibus.</p>
             
-            <p xml:id="b1d3qun-eseqda">Et sicut est de imagine <name ref="#Hercules">Herculis</name> 
+            <p xml:id="b1d3qun-eseqda">
+              Et sicut est de imagine <name ref="#Hercules" type="variable">Herculis</name> 
               respectu rememorationis 
-              <name ref="#Hercules">Herculis</name>, 
+              <name ref="#Hercules" type="variable">Herculis</name>, 
               <cit>
-                <quote>ita est de vestigio, quod si aliquis videns vestigium bovis, 
-                  recordabitur de bove habitualiter viso, sed si numquam prius 
+                <quote>
+                  ita est de vestigio, quod si 
+                  <app>
+                    <lem>aliquis</lem>
+                    <rdg wit="#M" type="variation-substance">quis</rdg>
+                  </app>           
+                  <app>
+                    <lem>videat</lem>
+                    <rdg wit="#S" type="variation-substance">videns</rdg>
+                  </app>
+                  vestigium 
+                  <app>
+                    <lem>bovis</lem>
+                    <rdg wit="#M" type="variation-substance">bovia</rdg>
+                  </app>, 
+                  recordabitur de bove habitualiter 
+                  <app>
+                    <lem>viso</lem>
+                    <rdg wit="#V" type="variation-substance">cognito</rdg>
+                  </app>; 
+                  sed si numquam prius 
                   habuisset aliquam notitiam de bove, non plus recordaretur 
-                  de bove quam de asino.</quote>
+                  de bove quam de asino.
+                </quote>
                 <bibl>
                   <name>Guillelmus de Ockham</name>, 
                   <title>Scriptum in Sent.</title>, 
-                  Bk. I, d. 3, q. 9 (OTh II:545)
+                  Bk. I, d. 3, q. 9 (OTh II:545):
+                  “Et ita est de vestigio, quod si aliquis videat vestigium bovis recordabitur de bove habitualiter cognito, sed si nunquam prius habuisset aliquam notitiam de bove non plus recordaretur de bove quam de asino.”
                 </bibl>
               </cit>
             </p>
@@ -577,46 +1075,121 @@
               <cit>
                 <ref>Per istum etiam modum</ref>
                 <bibl>
-                  <name ref="#Ockham">Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:545-546)
+                  <name ref=”#Ockham”>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:545s)
                 </bibl>
               </cit> 
-              duo similia possent mutuo ducere in notitiam recordativam sui apud illum qui 
-              haberet notitiam habitualem utriusque, et similiter unum similium postea 
-              visum potest ducere in notitiam similis recordativam prius noti 
-              propter similitudinem unius ad aliud.</p>
+              duo similia possent mutuo ducere in notitiam 
+              <app>
+                <lem>recordativam sui apud illum qui 
+                  haberet notitiam habitualem utriusque, 
+                  et similiter unum similium 
+                  <app>
+                    <lem>postea</lem>
+                    <rdg wit="#V #T" type="variation-substance">posterius</rdg>
+                  </app>           
+                  <app>
+                    <lem n="postea" />
+                    <rdg wit="#V" type="correction-deletion">
+                      <del rend="strikethrough">non</del>
+                    </rdg>
+                  </app>                  
+                  visum 
+                  <app>
+                    <lem>posset</lem>
+                    <rdg wit="#M #S #V" type="variation-substance">potest</rdg>
+                  </app>
+                  ducere in notitiam</lem>
+                <rdg wit="#M" type="variation-absent"/>
+              </app>
+              similis recordativam prius noti 
+              propter 
+              <app>
+                <lem>similitudinem</lem>
+                <rdg wit="#M" type="variation-substance">similem</rdg>
+              </app>
+              unius ad aliud.
+            </p>
             
-            <p xml:id="b1d3qun-aeppit">Aliae etiam possent assignari conditiones 
-              in quibus conveniunt, sed sunt minoris ponderis, ideo transeo.</p>
+            <p xml:id="b1d3qun-aeppit">
+              Aliae etiam 
+              <app>
+                <lem>possent</lem>
+                <rdg wit="#V" type="variation-substance">possunt</rdg>
+              </app>
+              assignari conditiones 
+              in quibus conveniunt, sed sunt minoris ponderis, 
+              <app>
+                <lem>ideo</lem>
+                <rdg wit="#V #T" type="variation-substance">illo</rdg>
+              </app>
+              transeo.
+            </p>
             
             <div>
-              <head>Differentia inter vestigium et imaginem</head>
-              <p xml:id="b1d3qun-advqah">Atque 
+              <head><supplied>Opinio Ockham de differentia inter vestigium et imaginem</supplied></head>
+              <p xml:id="b1d3qun-advqah">
+                Atque 
                 <cit>
-                  <quote>differunt vestigium et imago, quia de ratione vestigii est quod causetur 
-                    ab illo in specie cuius est vestigium</quote>
+                  <quote>
+                    <seg type="qs">
+                      differunt vestigium et imago, quia de 
+                      ratione vestigii est quod causetur 
+                      ab illo in specie cuius est vestigium
+                    </seg>
+                    aliquo modo, 
+                    <seg type="qs">
+                      sicut patet inductive
+                    </seg> 
+                    de vestigio bovis, 
+                    <app>
+                      <lem>de vestigio </lem>
+                      <rdg wit="#M #T" type="variation-absent"/>
+                    </app>
+                    combustionis, et 
+                    sic de similibus. Et hinc est quod vestigium 
+                    <seg type="qs">
+                      dicitur 
+                      <app>
+                        <lem>aliquod</lem>
+                        <rdg wit="#S" type="variation-substance">aliquid</rdg>
+                      </app>
+                      derelictum ex alio.       
+                      De ratione autem imaginis non est quod causetur 
+                      ab illo cuius est imago, sufficit enim quod imago 
+                      Herculis ab alio causetur quam ab Hercule.
+                    </seg>
+                  </quote>
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 9 (OTh II:547)
+                    Bk. I, d. 3, q. 9 (OTh II:547):
+                    “Sed differunt vestigium et imago, quia de ratione vestigii est quod sit causatum ab illo cuius est vestigium, sicut patet inductive, quia dicitur esse derelictum ex alio. De ratione autem imaginis non est quod sit causata ab illo cuius est imago, sicut imago Herculis sufficit quod causetur ab alio quam ab Hercule.”
                   </bibl>
                 </cit> 
-                aliquo modo, sicut patet inductive 
-                de vestigio bovis, de vestigio combustionis, et 
-                sic de similibus. Et hinc est quod vestigium dicitur aliquid derelictum ex 
-                alio. 
-                <cit>
-                  <quote>De ratione autem imaginis non est quod causetur ab illo cuius 
-                    est imago, sufficit enim quod imago Herculis ab alio causetur quam ab Hercule.</quote>
-                  <bibl>???</bibl>
-                </cit>
               </p>
-              <p xml:id="b1d3qun-ntqiqr">Nota tamen quod strictissime seu propriissime et non sic 
-                communiter ut prius loquendo de imagine de ratione imaginis 
-                est quod ipsa sit similitudo expressa seu genita ab eo cuius est 
-                imago sicut dicit 
+              
+              
+              <p xml:id="b1d3qun-ntqiqr">
+                Nota tamen quod strictissime 
+                <app>
+                  <lem>seu propriissime</lem>
+                  <rdg wit="#V" type="variation-absent"/>
+                </app>
+                et non sic communiter, ut prius loquendo 
+                de imagine de ratione imaginis est, 
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#V" type="variation-substance">ut</rdg>
+                </app>
+                ipsa sit similitudo expressa seu genita ab eo cuius est 
+                imago, sicut dicit 
                 <ref>
-                  <name ref="#Augustine">Augustinus</name>, 
-                  <title ref="#deDiversisQuaestionibus">De 83 Quaestionibus</title>, 
+                  <name ref="#Augustine">
+                    Augustinus
+                  </name>, 
+                  <title ref="#deDiversisQuaestionibus">
+                    De 83 quaestionibus
+                  </title>, 
                   questione 74,</ref> 
                 sicut ibi exemplificat: 
                 <cit>
@@ -624,157 +1197,566 @@
                     <seg type="qs">ut in speculo</seg> 
                     inquit, 
                     <seg type="qs">est imago hominis quia de illo expressa est.</seg>
+                    Similiter 
+                    <seg type="qs">
+                      <app>
+                        <lem>in</lem>
+                        <rdg wit="#S #M #T" type="variation-substance">de</rdg>
+                      </app>
+                      parentibus et filiis nam et de parente expressa 
+                      est similitudo 
+                      <app>
+                        <lem>filii</lem> <!-- checked -->
+                        <rdg wit="#M" type="variation-substance">filiis</rdg>
+                      </app>
+                      ut 
+                      <app>
+                        <lem>recte</lem>
+                        <rdg wit="#V" type="correction-substitution">
+                          <subst>
+                            <del rend="strikethrough">proprie</del>
+                          <add place="above-line">recte</add>
+                          </subst>
+                        </rdg>
+                      </app>
+                      dicatur
+                      <app>
+                        <lem n="dicatur"/>
+                        <rdg wit="#S" type="variation-present">a</rdg>
+                      </app>
+                      imago.
+                    </seg>
                   </quote>
                   <bibl>
                     <name>Augustinus</name>, 
-                    <title>De diversis quaestionibus octingenta</title>, 
-                    q. 74 (PL 40:86), "ut in speculo est imago hominis, quia de illo expressa est; 
-                    . . .ut in parentibus et filiis inveniretur imago et aequalitas et similitudo, 
-                    si intervallum temporis defuisset; nam et de parente expressa est similitudo filii, ut recte dicatur imago."</bibl>
+                    <title ref=”#deDiversisQuaestionibus”>
+                      De 83 quaestionibus
+                    </title>,
+                    q. 74 (PL 40:86): 
+                    “ut in speculo est imago hominis, quia de illo expressa est; <supplied>. . .</supplied> ut in parentibus et filiis inveniretur imago et aequalitas et similitudo, si intervallum temporis defuisset; nam et de parente expressa est similitudo filii, ut recte dicatur imago.”</bibl>
                 </cit> 
-                Similiter 
-                <cit>
-                  <quote>de parentibus et filiis nam et de parente expressa 
-                    est similitudo filii ut recte dicatur imago.</quote>
-                  <bibl>???</bibl>
-                </cit> 
-                Et tamen proprie 
-                etiam sumitur imago, sicut praeaccepi teste 
+                <!--  -->         
+                <app>
+                  <lem>Et</lem>
+                  <rdg wit="#V" type="variation-absent" />
+                </app>
+                <app> <!-- double check MS. -->
+                  <lem>tamen</lem>
+                  <rdg wit="#T" type="variation-substance">tunc</rdg>
+                  <rdg wit="#M" type="variation-substance">cum</rdg>
+                </app>
+                proprie 
+                <app>
+                  <lem>etiam</lem>
+                  <rdg wit="#T" type="variation-absent"/>
+                </app>
+                sumitur imago, sicut praeaccepi teste 
                 <cit>
                   <ref>
                     <name ref="#Lombard">Magistro</name> libro 2, distinctione 16, c. 2,
                   </ref>
                   <bibl>
                     <name>Petrus Lombardus</name>, 
-                    <title>Sententiae</title>, Bk. II, d. 16, c. 3 (Quarachi I:407)</bibl>
+                    <title>Sententiae</title>, 
+                    Bk. II, d. 16, c. 3 (Quarachi I:407)
+                  </bibl>
                 </cit>
-                ubi dicit pro quadam auctoritate <name ref="#Bede">Bedae</name> super hoc quod Trinitas ipsa 
+                ubi dicit 
+                <app> <!-- checked -->
+                  <lem>pro</lem>
+                  <rdg wit="#T" type="variation-substance">quod</rdg>
+                </app>
+                quadam auctoritate <name ref="#Bede">Bedae</name> 
+                super hoc quod Trinitas ipsa 
                 <cit>
-                  <quote><seg type="qs">improprie imago dicitur.</seg> Cuius causa est, <seg type="qs">quia imago</seg>, inquit <seg type="qs">relative 
-                    ad aliud dicitur, cuius similitudinem gerit et ad quod repraesentandum facta est; 
-                    sicut imago Caesaris, quae ipsius similitudinem praeferebat ipsumque quodammodo 
-                    repraesentabat.</seg></quote>
+                  <quote>
+                    <seg type="qs">
+                      improprie imago dicitur,
+                    </seg> 
+                    cuius causa est, 
+                    <seg type="qs">
+                      quia imago,
+                    </seg> 
+                    inquit,
+                    <seg type="qs">
+                      relative 
+                      <app>
+                        <lem>ad aliud dicitur</lem>
+                        <rdg wit="#V" type="variation-inversion">dicitur ad aliud</rdg>
+                      </app>,
+                      cuius similitudinem gerit 
+                      <app>
+                        <lem>et</lem>
+                        <rdg wit="#V" type="correction-addition">
+                          <add place="above-line">et</add>
+                        </rdg>
+                        <rdg wit="#M" type="variation-substance">vel</rdg>
+                      </app>
+                      ad quod repraesentandum facta est; sicut imago <name ref="#JuliusCaesar" type="variable">Caesaris</name>, 
+                      quae ipsius similitudinem praeferebat 
+                      <app>
+                        <lem>ipsumque</lem>
+                        <rdg wit="#M #T" type="variation-substance">ipsum</rdg>
+                      </app>
+                      quodammodo repraesentabat.
+                    </seg>
+                  </quote>
                   <bibl>
-                    <name>Beda</name>, <title>In Genesim</title>, I, 26 (PL 91:29b; CCL 188A:25)
+                    <!-- [I don't know how to ref this inside another ref....]
+                      <name ref=”#Bede”>Bedae</name>, 
+                      <title>In Genesim</title>, I, 26 (PL 91:29b; CCL 188A:25).
+                    -->
+                    <name ref=”#Lombard”>Petrus Lombardus</name>, 
+                    <title ref=”#Sentences”>Sententiae</title>, 
+                    Bk. II, d. 16, c. 3 (Quarachi I:407)
+                    “Improprie tamen imago dicitur, quia imago relative ad aliud dicitur,
+                    cuius similitudinem gerit et ad quod repraesentandum facta est;
+                    sicut imago Caesaris, quae ipsius similitudinem praeferebat
+                    ipsumque quodammodo repraesentabat.”
                   </bibl>
                 </cit>
               </p>
-              <p xml:id="b1d3qun-ehdspi">Ex hac differentia, sequitur alia: quod vestigium ducit 
+              
+              <p xml:id="b1d3qun-ehdspi">
+                Ex hac differentia sequitur alia: 
+                quod vestigium ducit 
                 vel ducere potest non tantum in notitiam complexam recordativam 
-                illius cuius est habitualiter noti, sed etiam incomplexas aliquas, et assensus 
-                sibi conformes alios, in quorum consimiles non potest sufficienter imago 
-                ducere. Verbi gratia, vestigium bovis non tantum facit recordare 
-                de bove habitualiter noto, sed ducit communiter in credulitatem conformem 
-                huic complexo contingenti <mentioned>bos hic  transivit,</mentioned> sed imago <name ref="#Peter">Petri</name> 
-                non in hanc <mentioned><name ref="#Peter">Petrus</name> hic transivit</mentioned> vel huiusmodi. Vestigium autem 
-                et imago multipliciter accipiuntur sicut patet 
+                illius cuius est habitualiter noti, sed etiam in
+                <app>
+                  <lem>complexas</lem>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>
+                      <del rend="strikethrough">complexis</del>
+                      <add place="in-line">complexas</add>
+                    </subst>
+                  </rdg>
+                  <rdg wit="#T" type="variation-substance">complexis</rdg>
+                </app>
+               ¿alias         
+                <app>
+                  <lem>contingentes</lem>
+                  <rdg wit="#M #S" type="variation-absent"/>
+                </app>
+                <app>
+                  <lem>et 
+                    <app>
+                    <lem>assensus</lem>
+                    <rdg wit="#S" type="correction-substitution">
+                      <subst>
+                        <del>sensus</del>
+                        <add place="above-line" hand="#S1">assensus</add>
+                      </subst>
+                    </rdg>
+                    </app>
+                  </lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app> 
+                sibi conformes 
+                <app>
+                  <lem>aliquos</lem>
+                  <rdg wit="#S" type="variation-substance">alios</rdg>
+                </app>, 
+                in quorum consimiles 
+                non potest sufficienter imago ducere. Verbi gratia, 
+                vestigium bovis non tantum facit 
+                <app>
+                  <lem>recordare</lem>
+                  <rdg wit="#T #V" type="variation-substance">recordari</rdg>
+                </app> 
+                de bove habitualiter noto, sed ducit communiter 
+                in credulitatem conformem huic complexo contingenti 
+                <mentioned>bos hic 
+                  <app>
+                    <lem>pertransivit</lem>
+                    <rdg wit="#S" type="variation-substance">transivit</rdg>
+                  </app>
+                </mentioned>,
+                sed imago 
+                <name ref="#Peter" type="variable">Petri</name> non in hanc
+                <mentioned><name ref="#Peter" type="variable">Petrus</name> 
+                  hic transivit</mentioned>
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#S" type="variation-substance">vel</rdg>
+                </app> 
+                huiusmodi. 
+                <mentioned>Vestigium</mentioned> autem et <mentioned>imago</mentioned> 
+                multipliciter accipiuntur, sicut patet
                 <cit>
-                  <ref>in <name ref="#Ockham">Ockham</name>.</ref>
+                  <ref>
+                    in <name ref="#Ockham">Ockham</name>.
+                  </ref>
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 9-10 (OTh 2:544-549, 553)</bibl>
+                    Bk. I, d. 3, q. 9-10 (OTh II:544--9, 553)
+                  </bibl>
                 </cit>
               </p> 
               
-              <p xml:id="b1d3qun-qaqndr">Qualiter autem quaelibet creatura 
-                potest dici vestigium Trinitatis pro quanto, scilicet, quaedam in ea, 
-                sicut unitas, species et ordo, possit aliquo modo ducere in notitiam 
-                appropriatorum in divinis personis incomplexam rememorativam, et etiam 
-                in notitiam complexam contingentem, docet satis bene 
+              <p xml:id="b1d3qun-qaqndr">
+                Qualiter autem quaelibet creatura 
+                potest dici 
+                <app>
+                  <lem>aliquo modo</lem>
+                  <rdg wit="#S" type="variation-absent"/>
+                </app> 
+                vestigium Trinitatis pro quanto, 
+                <app>
+                  <lem>scilicet</lem>
+                  <rdg wit="#T" type="variation-absent"/>
+                </app>, 
+                quaedam in ea, 
+                sicut 
+                <app>
+                  <lem>unitas</lem>
+                  <rdg wit="#T" type="variation-substance">unitatis</rdg>
+                </app>, 
+                <app>
+                  <lem>species</lem>
+                  <rdg wit="#M" type="correction-substitution">
+                    <subst>
+                      <del>speciei</del>
+                      <add place="in-line" hand="#M1">species</add>
+                    </subst>
+                  </rdg>
+                </app> 
+                et ordo, 
+                <app>
+                  <lem>possunt</lem>
+                  <rdg wit="#M #S" type="variation-substance">possit</rdg>
+                </app> 
+                aliquo modo
+                <app>
+                  <lem n="modo"/>
+                  <rdg wit="#M" type="variation-present">dici vestigium</rdg>
+                </app> 
+                ducere in notitiam appropriatorum 
+                <app>
+                  <lem n="appropriatorum"/>
+                  <rdg wit="#S" type="variation-present">in</rdg>
+                </app> 
+                divinis personis incomplexam <app>
+                  <lem>rememorativam et</lem>
+                  <rdg wit="#V" type="variation-substance">rememorationem vel</rdg>
+                </app> 
+                etiam in notitiam complexam contingentem, docet satis bene 
                 <cit>
-                  <ref><name ref="#Ockham">Ockham</name>, quaestione de vestigio, articulo secundo,</ref>
-                  <bibl><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh 2:549)</bibl>
+                  <ref>
+                    <name ref="#Ockham">Ockham</name>, 
+                    quaestione de vestigio, articulo secundo,</ref>
+                  <bibl>
+                    <name>Guillelmus de Ockham</name>, 
+                    <title>Scriptum in Sent.</title>, 
+                    Bk. I, d. 3, q. 9 (OTh II:548, l.8--549, l.2).
+                  </bibl>
                 </cit> 
-                et 
+                et etiam ibidem,
+                <!-- [I think this ref. is wrong.]
                 <cit>
                   <ref>etiam ibidem,</ref>
-                  <bibl>Wood, in <title>Lectura Secunda</title>, hic legit in conclusionibus (Wood 2:210)</bibl>
-                </cit> 
-                in quibus creaturae consistit 
+                  <bibl>Wood, in 
+                    <title>Lectura Secunda</title>, 
+                    hic legit in conclusionibus (Wood II:210)
+                  </bibl>
+                </cit>
+                -->
+                in quibus 
+                <app>
+                  <lem>in creatura</lem>
+                  <rdg wit="#S" type="variation-substance">creaturae</rdg>
+                </app>
+                consistit 
                 <pb ed="#S" n="80-r" />
                 <cb ed="#S" n="a" /> 
-                vestigium, quia aliquando indistinctis realiter, aliquando in non distinctis realiter.</p>
+                vestigium, quia aliquando in distinctis realiter, 
+                aliquando in non distinctis realiter.
+              </p>
               
-              <p xml:id="b1d3qun-esiidp">Et similiter 
-                in 
+              
+              <p xml:id="b1d3qun-esiidp">
+                Et similiter in 
                 <cit>
-                  <ref>questione de imagine articulo secundo.</ref>
-                  <bibl><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh 2:557s)</bibl>
+                  <ref>questione de imagine, articulo secundo.</ref>
+                  <bibl><name>Guillelmus de Ockham</name>, 
+                    <title>Scriptum in Sent.</title>, 
+                    Bk. I, d. 3, q. 10 (OTh II:557--9)
+                  </bibl>
                 </cit> 
+                
                 <cit>
-                  <ref>Primo,</ref>
-                  <bibl><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh 2:555)</bibl>
+                  <ref>Primo illius in opinione propria,</ref>
+                  <bibl>
+                    <name>Guillelmus de Ockham</name>, 
+                    <title>Scriptum in Sent.</title>, 
+                    Bk. I, d. 3, q. 10 (OTh II:555--7)
+                  </bibl>
                 </cit> 
-                illius in opinione propria, docet qualiter in creatura rationali magis dicitur esse imago quam in aliqua alia creatura. Et 
+                docet qualiter in creatura rationali magis dicitur 
+                esse imago quam in aliqua alia creatura. Et 
                 <cit>
-                  <ref>secundo,</ref>
-                  <bibl><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (Oth 2:557)</bibl>
+                  <ref>
+                    <app> <!-- checked -->
+                      <lem>secundo</lem>
+                      <rdg wit="#M" type="variation-substance">conclusio</rdg>
+                    </app>,
+                  </ref>
+                  <bibl>
+                    <name>Guillelmus de Ockham</name>, 
+                    <title>Scriptum in Sent.</title>, 
+                    Bk. I, d. 3, q. 10 (OTh II:557--9)
+                  </bibl>
                 </cit> 
                 consequenter docet quomodo 
                 <cit>
-                  <quote xml:id="b1d3qun-Qididap"><seg type="qs">imago Dei imperfecta et quasi radicaliter et originaliter consistit in 
-                    ipsa anima secundum suam substantiam</seg> sed <seg type="qs">completive perfectio imaginis consistit 
-                      in ipsa substantia animae et duobus actibus productis,</seg>
+                  <quote xml:id="b1d3qun-Qididap">
+                    <seg type="qs">
+                      imago Dei 
+                      <app> <!-- checked -->
+                        <lem>imperfecta</lem>
+                        <rdg wit="#M" type="variation-substance">imperfecte</rdg>
+                      </app>
+                      et quasi radicaliter et originaliter 
+                      consis<cb ed="#M" n="66v-b"/>tit in ipsa 
+                      <app>
+                        <lem>
+                          anima secundum suam substantiam sed completive 
+                          perfectio imaginis consistit in ipsa
+                        </lem>
+                        <rdg wit="#S" type="correction-addition">
+                          <add place="margin" hand="#V1">
+                            anima secundum suam substantiam sed completive 
+                            perfectio imaginis consistit in ipsa
+                          </add>
+                        </rdg>
+                      </app>
+                      substantia animae et duobus actibus productis,
+                    </seg>
                   </quote>
-                  <bibl>???</bibl>
+                  <bibl>
+                    <name>Guillelmus de Ockham</name>, 
+                    <title>Scriptum in Sent.</title>, 
+                    Bk. I, d. 3, q. 10 (OTh II:557):
+                    “<supplied>. . . </supplied> imago Dei imperfecta et quasi 
+                    radicaliter et originaliter consistit in ipsa anima secundum 
+                    suam substantiam. Verumtamen perfectio imaginis completive 
+                    consistit in ipsa substantia animae et duobus actibus productis.”
+                  </bibl>
                 </cit> 
                 respectu utriusque quorum 
                 anima habet fecunditatem; sed ad actum volendi mediante actu intellegendi, 
                 qui cum substantia animae et obiecto comproducit actum volendi, et per consequens 
-                exprimit anima cum illis actibus ordinem et originem inter diversas 
-                personas.</p>
+                exprimit anima cum illis actibus ordinem et originem 
+                <app>
+                  <lem>inter</lem>
+                  <rdg wit="#M" type="variation-substance">aliter</rdg>
+                </app>
+                diversas personas.
+              </p>
+              
+              
               <p xml:id="b1d3qun-qaacee">
                 <cit>
-                  <quote xml:id="b1d3qun-Qqaaaai">Quod autem actus volendi sit effective ab actu intellegendi,</quote>
-                  <bibl><name>Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh 2:559)</bibl>
+                  <quote xml:id="b1d3qun-Qqaaaai">
+                    Quod autem actus volendi sit effective ab actu intellegendi,
+                  </quote>
+                  <bibl>
+                    <name>Guillelmus de Ockham</name>, 
+                    <title>Scriptum in Sent.</title>, 
+                    Bk. I, d. 3, q. 10 (OTh II:559)
+                  </bibl>
                 </cit> 
-                probat et bene. Et ego concedo conclusionem et teneo eam 
-                <ref>pro illa distinctione prima,</ref> 
+                probat et bene. Et 
+                <app>
+                  <lem>ego</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="above-line">ego</add>
+                  </rdg>
+                </app> 
+                concedo conclusionem 
+                <app>
+                  <lem>et teneo 
+                    <app>
+                      <lem>eam</lem>
+                      <rdg wit="#T" type="variation-substance">illam</rdg>
+                    </app> 
+                    <ref>
+                      <name ref="#Wodeham"/> <!-- ??? -->
+                      pro illa distinctione prima,
+                    </ref>
+                  </lem>
+                  <rdg wit="#S" type="variation-absent"/>
+                </app> 
                 quia 
                 <cit>
-                  <quote>omne absolutum necessario praesuppositum alteri habet respectu illius rationem causae in aliquo genere causae.</quote>
-                  <bibl>[Cross reference to dist. 1] Vide Wodeham, <title>Lectura Secunda</title>, d. 1, q. 5, s. 11 (Wood 1:293)</bibl>
-                </cit> 
-                Sed ita est de actu intelligendi respectu actus volendi, igitur. Maiorem etiam concedit 
+                  <quote>omne absolutum necessario praesuppositum alteri habet 
+                    respectu illius 
+                    <app>
+                      <lem>rationem causae</lem>
+                      <rdg wit="#M" type="variation-absent"/>
+                    </app> 
+                    in aliquo genere
+                    <app>
+                      <lem>causae</lem>
+                      <rdg wit="#V" type="variation-absent"/>
+                    </app>. 
+                    Sed ita est de actu intelligendi respectu actus volendi, igitur.
+                  </quote>
+                  <bibl> <!-- 
+                    I think this xref should be to W's Ordinatio, not his LS. 
+                    [Cross reference to dist. 1] Vide Wodeham, 
+                    <title>Lectura Secunda</title>, 
+                    d. 1, q. 5, s. 11 (Wood 1:293)
+                    -->
+                    <name ref=”#Ockham”>Guillelmus de Ockham</name>
+                    <title>Scriptum in Sent.</title>, 
+                    Bk. I, d. 3, q. 10 (OTh II:559):
+                    “Quod autem actus volendi sit effective ab actu intelligendi,
+                    ostendo per illud commune verbum quod ‘omne absolutum
+                    necessario praesuppositum alteri habet rationem causae
+                    in aliquo genere causae’; sed actus intelligendi
+                    necessario tamquam aliquid absolutum praesupponitur
+                    actui volendi; igitur habet rationem causae respectu illius.”
+                  </bibl>
+                </cit>  
+                Maiorem 
+                <app>
+                  <lem>etiam</lem>
+                  <rdg wit="#T" type="correction-addition">
+                    <add place="above-line">etiam</add>
+                  </rdg>
+                </app> 
+                concedit 
                 <cit>
                   <ref>
-                    <name ref="#Scotus">Scotus</name>, distinctione tertia primi,
+                    <name ref="#Scotus">Scotus</name>, distinctione 
+                    <app>
+                      <lem>tertia</lem>
+                      <rdg wit="#V #T" type="variation-absent"/>
+                    </app> 
+                    primi,
                   </ref>
-                  <bibl><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. I, d. 3, pars 3, q. 4, n. 589 (Vatican 3:348)</bibl>
+                  <bibl>
+                    <name>Iohannes Duns Scotus</name>, 
+                    <title>Ordinatio</title>, 
+                    Bk. I, d. 3, pars 3, q. 4, n. 589 (Vatican 3:348)
+                  </bibl>
                 </cit> 
-                et utitur ista, quia, secundum eum, 
+                et utitur 
+                <app>
+                  <lem>illa</lem>
+                  <rdg wit="#S" type="variation-substance">ista</rdg>
+                </app>,
+                quia, secundum eum, 
                 <cit> <!-- dbcheck this quote and citation -->
-                  <quote>omnis effectus alicuius sufficienter dependet a suis causis essentialibus,</quote>
-                  <bibl><name>Scotus</name>, <title>Ordinatio</title>, I, d. 3, pars 3, q. 2, n. 414 (Vatican 3:251)</bibl>
-                </cit> 
-                etc.</p>
+                  <quote>
+                    omnis effectus 
+                    <app> <!-- checked -->
+                      <lem>alicuius</lem>
+                      <rdg wit="#M" type="variation-substance">absolutus</rdg>
+                    </app> 
+                    sufficienter dependet a suis causis essentialibus,
+                  </quote>
+                  <bibl>
+                    <name ref=”#Scotus”>Iohannes Duns Scotus</name>, 
+                    <title>Ordinatio</title>, 
+                    I, d. 3, pars 3, q. 2, n. 414 (Vatican 3:251)
+                  </bibl>
+                </cit>, 
+                <app>
+                  <lem>igitur</lem>
+                  <rdg wit="#T #S #V" type="variation-absent" />
+                </app> etc.</p>
             </div>
           </div>
         </div>
+        
+        
         <div xml:id="b1d3qun-Dseclus" type="articulus">
-          <head xml:id="b1d3qun-Hseclus">Secundus articulus</head>
+          <head xml:id="b1d3qun-Hseclus">
+            <supplied>Secundus articulus</supplied>
+          </head>
+          
           <div xml:id="b1d3qun-Dsaprdu">
-            <head xml:id="b1d3qun-Hpridub">Primum dubium</head>
-            <p xml:id="b1d3qun-scihri">Sed contra istam est primum dubium 
-              contra illud in quo dicitur consistere ratio imaginis, quia non videtur quod in substantia animae aliquo 
-              modo, etiam imperfecte, consistat ratio imaginis, quia imago necessario requirit 
-              distinctionem aliquam. Sed in substantia animae nulla est distinctio, igitur nullo modo habet rationem imaginis.</p>
+            <head xml:id="b1d3qun-Hpridub">
+              <supplied>Primum dubium</supplied>
+            </head>
             
-            <p xml:id="b1d3qun-siqcie">Secundo. Item, quod nec in substantia animae et duobus actibus videtur, quia inter 
-              partes imaginis debet esse consubstantialitas. Sed inter substantiam animae et illos actus, 
-              nulla est consubstantialitas, igitur etc.</p>
+            <p xml:id="b1d3qun-scihri">
+              <app>
+                <lem>Pro secundo articulo</lem>
+                <rdg wit="#T #S" type="variation-absent"/>
+              </app>, 
+              contra 
+              <app>
+                <lem>ista</lem>
+                <rdg wit="#S" type="variation-substance">istam</rdg>
+              </app>
+              est primum dubium contra illud in quo dicitur 
+              consistere ratio imaginis, quia non 
+              <app> <!-- checked -->
+                <lem>videtur</lem>
+                <rdg wit="#M" type="variation-substance">sumitur</rdg>
+              </app>
+              quod in substantia 
+              animae aliquo modo, etiam imperfecte, 
+              <app>
+                <lem>consistat</lem>
+                <rdg wit="#M" type="variation-substance">consistit</rdg>
+              </app>
+              ratio imaginis, 
+              quia imago necessario requirit distinctionem 
+              <app>
+                <lem>aliquam</lem>
+                <rdg>aliam</rdg>
+              </app>. 
+              Sed in substantia animae nulla est distinctio, 
+              igitur nullo modo habet rationem imaginis.
+            </p>
             
-            <p xml:id="b1d3qun-tisine">Tertio. Item secundum 
+            
+            <p xml:id="b1d3qun-siqcie">
+              Item, quod 
+              <app> <!-- checked -->
+                <lem>nec</lem>
+                <rdg wit="#M" type="variation-substance">tunc</rdg>
+              </app>
+              in substantia animae 
+              et duobus actibus videtur, 
+              <app>
+                <lem>quia</lem>
+                <rdg wit="#M" type="variation-substance">quod</rdg>
+              </app> 
+              inter partes imaginis 
+              <app> <!-- checked -->
+                <lem>debet</lem>
+                <rdg wit="#T" type="variation-substance">videtur</rdg>
+              </app>
+              esse consubstantialitas. 
+              Sed inter substantiam animae et 
+              <app>
+                <lem>illos</lem>
+                <rdg wit="#M" type="variation-substance">illius</rdg>
+              </app>
+              actus nulla est consubstantialitas, igitur etc.
+            </p>
+            
+            <p xml:id="b1d3qun-tisine">
+              Item, secundum 
               <ref corresp="#b1d3qun-Qidirei">
-                <name ref="#Augustine">Augustinus</name> XIV <title ref="#deTrinitate">De Trinitatis</title>, c. 3, de magnis:
+                <name ref="#Augustine">Augustinum</name> 
+                XIV <title ref="#deTrinitate">De Trinitatis</title>, 
+                c. 3, de magnis:
               </ref> 
               <cit>
                 <quote xml:id="b1d3qun-Qidirei">imago Dei in creatura rationali est immortalis,</quote>
                 <bibl>
                   <name>Augustinus</name>, 
-                  <title>De Trinitate</title>, Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040) 
-                  "ea est invenienda in anima hominis, id est rationali, sive intellectuali, imago creatoris, quae immortaliter immortalitati eius est insita."
+                  <title>De Trinitate</title>, 
+                  Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040):
+                  “ea est invenienda in anima hominis, id est rationali, 
+                  sive intellectuali, imago creatoris, 
+                  quae immortaliter immortalitati eius est insita.”
                 </bibl>
               </cit> 
               sed isti 
@@ -820,7 +1802,7 @@
               est originatio et ordo conformis Trinitati sicut in intellectu, dato quod 
               sic sit assignanda ratio imaginis. Consequens non conceditur igitur, etc.</p>
             <div>
-              <head>Responsio ad argumenta pro primo dubio</head>
+              <head><supplied>Responsio ad argumenta pro primo dubio</supplied></head>
               <p xml:id="b1d3qun-rapaoe">Responsio ad primum. Ad primum verum est 
                 quod ad salvandum rationem imaginis in mente rationali, aliqui 
                 ponit aliquam distinctionem vel non-identitatem inter substantiam animae et intellectum 
@@ -873,9 +1855,9 @@
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title>, 
                     IX, c. 5, n. 8 (CCSL 50: 301; PL 42:965) 
-                    "Miro itaquae modo tria ista inseparabilia sunt a semetipsis, 
+                    “Miro itaquae modo tria ista inseparabilia sunt a semetipsis, 
                     et tamen eorum singulum quidque substantia est et simul 
-                    omnia una substantia vel essentia cum et relative dicantur ad invicem."
+                    omnia una substantia vel essentia cum et relative dicantur ad invicem.”
                   </bibl>
                 </cit> 
                 et allegatur in littera, 
@@ -946,11 +1928,11 @@
             </div>
           </div>
           <div xml:id="b1d3qun-Dsasedu">
-            <head xml:id="b1d3qun-Hsecdub">Secundum Dubium</head>
+            <head xml:id="b1d3qun-Hsecdub"><supplied>Secundum Dubium</supplied></head>
             <p xml:id="b1d3qun-spevqn">Secundum dubium principale est utrum secunda pars imaginis increatae, 
               scilicet, actualis intellectio gignatur a prima, scilicet a memoria, et videtur quod non.</p> 
             <div> 
-              <head xml:id="b1d3qun-Hrpppds">Rationes principales pro dubio secundo</head> 
+              <head xml:id="b1d3qun-Hrpppds"><supplied>Rationes principales pro dubio secundo</supplied></head> 
               <p xml:id="b1d3qun-pqqsee">Primo, 
                 quia quid vocaretur ibi memoria vel nuda substantia animae, et illa non 
                 sufficit sine obiecto vel specie vel habitu principare actum, tunc enim semper 
@@ -1023,7 +2005,7 @@
                 memoria sicut a parente.</p>
             </div>
             <div>
-              <head>Responsio ad secundum dubium</head>
+              <head><supplied>Responsio ad secundum dubium</supplied></head>
               <p xml:id="b1d3qun-aidicd">Ad illud dubium, dico ad praesens quod immo 
                 intellectio actualis distinguitur, sicut proles, a memoria, id est, ab intellectu 
                 existente in actu primo sufficienti respectu intellectionis gignendae, vel per 
@@ -1051,7 +2033,7 @@
                   <quote xml:id="b1d3qun-Qqsldqn">quod scimus loquimur ex scientia cum memoria, 
                     nascitur verbum quod eiusdem modi est omnino, supple obiecti, cuiusmodi 
                     est  scientia de qua nascitur.</quote>
-                  <bibl corresp="#b1d3qun-Qqsldqn"><name>Augustinus</name>, <title>De Trinitate</title> XV, c. 10, n. 19 (CCSL 50A:486; PL 42:1071)</bibl>
+                  <bibl corresp=”#b1d3qun-Qqsldqn”><name>Augustinus</name>, <title>De Trinitate</title> XV, c. 10, n. 19 (CCSL 50A:486; PL 42:1071)</bibl>
                 </cit> 
                 Statim enim sequitur, unde habetur 
                 quod li 
@@ -1067,13 +2049,13 @@
                   <bibl><name>Augustinus</name>, 
                     <title>De Trinitate</title>, 
                     XV, c. 11, n. 20 (CCSL 50A:488; PL 42:1072), 
-                    ". . . sed quod omnia quibus significatur signa praecedit et gignitur de scientia quae manet 
-                    in animo quando eadem scientia intus dicitur sicuti est." 
+                    “. . . sed quod omnia quibus significatur signa praecedit et gignitur de scientia quae manet 
+                    in animo quando eadem scientia intus dicitur sicuti est.” 
                     Wodeham palam innitur Scoti hic. 
                     Cf. <title>Ordinatio</title>, I, d. III, pars 3, q. 1, n. 345 (3:208): 
-                    "Haec etiam ponitur intentio Augustini, qui vult quod verbum gignatur non ex specie intelligibili, 
+                    “Haec etiam ponitur intentio Augustini, qui vult quod verbum gignatur non ex specie intelligibili, 
                     sed ex habitu. Dicit enim XV <title>De Trinitate </title> cap. 10 vel 24, quod 
-                    'ex ipsa scientia quam memoria tenemus, nascitur verbum', et eodem libro, cap. 12 vel 28a, 'gignitur verbum de scientia quae manet in anima'."</bibl>
+                    'ex ipsa scientia quam memoria tenemus, nascitur verbum', et eodem libro, cap. 12 vel 28a, 'gignitur verbum de scientia quae manet in anima'.”</bibl>
                 </cit> 
                 etc. 
                 <pb ed="#S" n="80-v" />
@@ -1088,7 +2070,7 @@
                 a mente, sicut verbum et proles a dicente.</p>
             </div>
             <div>
-              <head>Argumenta contra responsionem</head>
+              <head><supplied>Argumenta contra responsionem</supplied></head>
               <p xml:id="b1d3qun-pctdqg"><supplied>Primus.</supplied> Contra tamen hanc sententiam 
                 <app>
                   <lem>eius</lem>
@@ -1133,19 +2115,19 @@
                 quae est dilectio, igitur tunc illa manebit et tamen non tunc erit 
                 dilectio pari ratione de intellectione.</p>
               
-              <p xml:id="b1d3qun-qppepv"><supplied>Quintus.</supplied> Praeterea ponatur dilectio qua <name ref="#Socrates">Socrates</name> diligit 
-                seipsum in <name ref="#Plato">Platone</name>, tunc <name ref="#Plato">Plato</name> experietur se diligere igitur tunc 
+              <p xml:id="b1d3qun-qppepv"><supplied>Quintus.</supplied> Praeterea ponatur dilectio qua <name ref="#Socrates" type="variable">Socrates</name> diligit 
+                seipsum in <name ref="#Plato" type="variable">Platone</name>, tunc <name ref="#Plato" type="variable">Plato</name> experietur se diligere igitur tunc 
                 aliquid diligetur per istam dilectionem quod non prius et non diligetur per eam 
-                idem quod prius. Assumptum probatur, quia si <name ref="#Socrates">Socrates</name> velit sic se diligere angelum 
-                et haec volitio ponatur in <name ref="#Plato">Platone</name> per illam, <name ref="#Plato">Plato</name> volet[velet?] se diligere 
+                idem quod prius. Assumptum probatur, quia si <name ref="#Socrates" type="variable">Socrates</name> velit sic se diligere angelum 
+                et haec volitio ponatur in <name ref="#Plato" type="variable">Platone</name> per illam, <name ref="#Plato" type="variable">Plato</name> volet[velet?] se diligere 
                 angelum, igitur similiter improposito et probatur hoc ultimum assumptum, quia 
                 per intellectionem qua <name ref="#Sortes">Sortes</name> experitur se intelligere angelum positam in 
-                <name ref="#Plato">Platone</name>, <name ref="#Plato">Plato</name> experietur se intelligere angelum, igitur similiter et per volitionem.</p>
+                <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> experietur se intelligere angelum, igitur similiter et per volitionem.</p>
               
-              <p xml:id="b1d3qun-spdsdv"><supplied>Sextus.</supplied> Praeterea dilectio <name ref="#Sortes">Socrates</name> et odium <name ref="#Plato">Platonis</name> naturaliter se compati possunt in voluntate 
-                <name ref="#Sortes">Sortis</name>, igitur cum odium <name ref="#Sortes">Sortis</name> et odium <name ref="#Plato">Platonis</name> sint qualitates speciei, eiusdem 
+              <p xml:id="b1d3qun-spdsdv"><supplied>Sextus.</supplied> Praeterea dilectio <name ref="#Sortes">Socrates</name> et odium <name ref="#Plato" type="variable">Platonis</name> naturaliter se compati possunt in voluntate 
+                <name ref="#Sortes">Sortis</name>, igitur cum odium <name ref="#Sortes">Sortis</name> et odium <name ref="#Plato" type="variable">Platonis</name> sint qualitates speciei, eiusdem 
                 si in subiecto aliquo potest una stare et alia, sed in voluntate Sortis cum dilectione 
-                terminata ad <name ref="#Sortes">Sortem</name> stat odium <name ref="#Plato">Platonis</name>, igitur in eodem intellectu 
+                terminata ad <name ref="#Sortes">Sortem</name> stat odium <name ref="#Plato" type="variable">Platonis</name>, igitur in eodem intellectu 
                 cum volitione terminata ad Sortem potest stare odium <name ref="#Sortes">Sortis</name>, sed non 
                 potest cum dilectione <name ref="#Sortes">Sortis</name> esse odium <name ref="#Sortes">Sortis</name>, igitur odium <name ref="#Sortes">Sortis</name> potest esse in 
                 voluntate <name ref="#Sortes">Sortis</name> quando ipsam non erit odium <name ref="#Sortes">Sortis</name> et pari ratione potest hoc 
@@ -1225,7 +2207,7 @@
                   <bibl>
                     <name>Averroes</name>, 
                     <title>In Aristot. De caelo et mundo</title>, I, 79 [80] (Carmody, 1:147), 
-                    "si natura terrae illius mundi positae eadem fuerit cum natura istius terrae, necessarium est ut moveatur ad medium quo movetur ista terra."
+                    “si natura terrae illius mundi positae eadem fuerit cum natura istius terrae, necessarium est ut moveatur ad medium quo movetur ista terra.”
                   </bibl>
                 </cit> 
                 dicere quod: terra alterius mundi movetur 
@@ -1292,7 +2274,7 @@
                 habent, ideo  omittantur.</p>
             </div>
             <div>
-              <head>Responsio propria ad argumenta</head>
+              <head><supplied>Responsio propria ad argumenta</supplied></head>
               <p xml:id="b1d3qun-inoads">Istis non obstantibus, teneo 
                 conclusionem contrariam quam 
                 <cit>
@@ -1318,7 +2300,7 @@
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title>, 
                     XI, c. 8, n.13 (CCSL 50:350; PL 42:994) 
-                    ". . . sed ex eadem memoria qua unum memini formatur acies multos cogitantis."
+                    “. . . sed ex eadem memoria qua unum memini formatur acies multos cogitantis.”
                   </bibl>
                 </cit> 
                 et in multis passibus, quos asseret, 
@@ -1365,24 +2347,24 @@
                 cognitio, et ideo nego consequentiam illam.</p>
               
               <p xml:id="b1d3qun-aqdcaa">Ad quintum dicendum quod si dilectio, 
-                qua <name ref="#Sortes">Socrates</name> diligit <name ref="#Sortes">Socratem</name> ipsum, poneretur in <name ref="#Plato">Platone</name>, <name ref="#Plato">Plato</name> per istam 
-                non diligeret <name ref="#Plato">Platonem</name> sed <name ref="#Sortes">Socratem</name>. Et similiter, si dilectio, qua Socrates 
-                vult se diligere angelum, poneretur in <name ref="#Plato">Platone</name>, <name ref="#Plato">Plato</name> per illam vellet 
+                qua <name ref="#Sortes">Socrates</name> diligit <name ref="#Sortes">Socratem</name> ipsum, poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per istam 
+                non diligeret <name ref="#Plato" type="variable">Platonem</name> sed <name ref="#Sortes">Socratem</name>. Et similiter, si dilectio, qua Socrates 
+                vult se diligere angelum, poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per illam vellet 
                 <name ref="#Sortes">Socratem</name> diligere angelum. Et eodem modo, si intellectio, qua <name ref="#Sortes">Socrates</name> 
-                experitur se intelligere, poneretur in <name ref="#Plato">Platone</name>, ille iudicaret <name ref="#Sortes">Socratem</name> intelligere 
+                experitur se intelligere, poneretur in <name ref="#Plato" type="variable">Platone</name>, ille iudicaret <name ref="#Sortes">Socratem</name> intelligere 
                 vel experiretur nisi experientia cognoscat aliquid aliud.</p>
               
               <p xml:id="b1d3qun-asbpeo"> Ad sextum 
-                bene concedo quod dilectio <name ref="#Sortes">Socrates</name> et odium <name ref="#Plato">Platonis</name> naturaliter compatiuntur 
+                bene concedo quod dilectio <name ref="#Sortes">Socrates</name> et odium <name ref="#Plato" type="variable">Platonis</name> naturaliter compatiuntur 
                 se in eodem. Dici tamen potest quod non omne idem eiusdem speciei cum 
-                odio <name ref="#Plato">Platonis</name> compatitur se cum dilectionem <name ref="#Sortes">Socrates</name> naturaliter quia aliquod eiusdem 
+                odio <name ref="#Plato" type="variable">Platonis</name> compatitur se cum dilectionem <name ref="#Sortes">Socrates</name> naturaliter quia aliquod eiusdem 
                 speciei contrariatur  et istud non quia ad contrarietatem actuum 
                 huiusmodi individualium vel cognitionum requiritur identitas numeralis 
                 obiecti unde etiam illi iudicio quo iudicarem hunc hominem 
                 esse <name ref="#Sortes">Socratem</name> demonstrato <name ref="#Sortes">Socrates</name> repugnaret contrarie iudicium quo 
                 iudicarem eundem non esse <name ref="#Sortes">Socratem</name> et tamen secum compateretur 
                 illud iudicium quo iudicarem istum hominem non esse <name ref="#Sortes">Socratem</name> demonstrando 
-                <name ref="#Plato">Platonem</name>. Unde amor et odium error et scientia non 
+                <name ref="#Plato" type="variable">Platonem</name>. Unde amor et odium error et scientia non 
                 contrariantur nisi sint respectu eiusdem, licet sint eiusdem speciei 
                 cum quibusdam quae invicem contrariantur et in hoc est speciale in 
                 <pb ed="#S" n="81-r" />
@@ -1517,9 +2499,9 @@
                 subtractione ab illa vel illis quae erunt pulchritudo vel sanitas.</p>
             </div>
             <div>
-              <head>Responsio ad principales argumenta</head>
+              <head><supplied>Responsio ad principales argumenta</supplied></head>
               <div>
-                <head>Ad prima argumenta</head>
+                <head><supplied>Ad prima argumenta</supplied></head>
                 <p xml:id="b1d3qun-apasis">
                   <cit>
                     <ref>Ad primum argumentum principale istius dubii</ref>
@@ -1559,7 +2541,7 @@
                   auctoritas.</p>
               </div>
               <div>
-                <head>Ad secundum principale argumentum huius dubii secundi</head>
+                <head><supplied>Ad secundum principale argumentum huius dubii secundi</supplied></head>
                 <p xml:id="b1d3qun-asanis">
                   <cit>
                     <ref>Ad secundum</ref>
@@ -1784,11 +2766,11 @@
             </div>
           </div>
           <div xml:id="a2tertiumdubium">
-            <head>Tertium Dubium</head>
+            <head><supplied>Tertium Dubium</supplied></head>
             <p xml:id="b1d3qun-tdsan">Tertium dubium secundi articuli est utrum tertia pars imaginis 
               procedat realiter a secunda, amor, scilicet, a notitia.</p>
             <div>
-              <head>Rationes principales</head>
+              <head><supplied>Rationes principales</supplied></head>
               <p xml:id="b1d3qun-evqtej">Et videtur quod non, 
                 sic, tunc amor angeli qui peccavit quo affectavit aequalitatem 
                 Dei processit ab alia notitia, aut igitur ab ob<pb ed="#S" n="82-v" />
@@ -1831,7 +2813,7 @@
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title> 
                     IX, c. 9, n. 14 (CCSL 50: 305; PL 42:968) 
-                    "Conceptum autem verbum et natum idipsum est cum voluntas in ipsa notitia conquiescit, quod fit in amore spiritalium." 
+                    “Conceptum autem verbum et natum idipsum est cum voluntas in ipsa notitia conquiescit, quod fit in amore spiritalium.” 
                     Non invenimus c. 21.
                   </bibl>
                 </cit> 
@@ -1896,7 +2878,7 @@
                 propterea, hoc erat contra casum.</p>
             </div>
             <div>
-              <head>Oppositum</head>
+              <head><supplied>Oppositum</supplied></head>
               <p xml:id="b1d3qun-aocdim">Ad oppositum, 
                 <cit>
                   <ref>XV <title ref="#deTrinitate">De Trinitate</title> c. 67 et 77</ref>
@@ -1904,7 +2886,7 @@
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title>, 
                     XV, c. 23, n. 43, (CCSL 50A:520; PL 42:1090) 
-                    ". . .et amor hominis de scientia procedens et memoriam intellegentiamque coniungens tamquam parenti prolique communis . . ."
+                    “. . .et amor hominis de scientia procedens et memoriam intellegentiamque coniungens tamquam parenti prolique communis . . .”
                   </bibl>
                 </cit> 
                 utrobique, enim dicit quod amor procedit de scientia de ipsa mente.</p>
@@ -1916,8 +2898,8 @@
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title> 
                     X, c. 1, n. 2 (CCSL 50: 312; PL 42: 973) 
-                    "certe enim amari aliquid nisi notum non potest"; 
-                    cf. X, c. 1, n. 3 "non potest amare quod nescit" (CCSL ?); 
+                    “certe enim amari aliquid nisi notum non potest”; 
+                    cf. X, c. 1, n. 3 “non potest amare quod nescit” (CCSL ?); 
                     non invenimus VIII, 16 vel X, 48.</bibl>
                 </cit> 
                 et 
@@ -2006,7 +2988,7 @@
                 ipsum etc.</p>
             </div>
             <div>
-              <head>Responsio ad tertium dubium</head>
+              <head><supplied>Responsio ad tertium dubium</supplied></head>
               <p xml:id="b1d3qun-aidaps">Ad istud dubium dicendum quod sic loquendo de amore quae 
                 est actus amandi vel appetendi per viam naturae causatus, et ideo amor 
                 huiusmodi inter partes imaginis proportionaliter Spiritu Sancto in imagine increata 
@@ -2046,9 +3028,9 @@
                 unum procedit realiter ab alio et tertium ab utroque.</p>
             </div>
             <div>
-              <head>Ad rationes principales</head>
+              <head><supplied>Ad rationes principales</supplied></head>
               <div>
-                <head>Ad primam rationem</head>
+                <head><supplied>Ad primam rationem</supplied></head>
                 <p xml:id="b1d3qun-apapai">Ad primum argumentum 
                   in contrarium respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod ista notitia actualis quae primo fuit 
                   clara Dei notitia, scilicet, quando Deus ostendit se clare illi angelo, 
@@ -2093,7 +3075,7 @@
                   Dei notitia clara vel obscura.</p>
               </div>
               <div>
-                <head>Ad secundam rationem</head>
+                <head><supplied>Ad secundam rationem</supplied></head>
                 <p xml:id="b1d3qun-asbscd">Ad secundum bene respondet <name ref="#RichardFitzRalph">Fitzralph</name>. 
                   Concedo quod primus amor processit a notitia accidentali vel verbo, communiter loquendo 
                   de verbo. Unde verbum communiter accipitur pro quacumque cogitatione 
@@ -2209,7 +3191,7 @@
                   vocem extra vocat ibi verbum.</p>
               </div>
               <div>
-                <head>Ad tertium argumentum</head>
+                <head><supplied>Ad tertium argumentum</supplied></head>
                 <p xml:id="b1d3qun-atvoac">Ad tertium, verum est quod primus amor 
                   procedit a notitia aliqua actuali et per consequens notitia praesupposita 
                   primo amori non procedit ab amore actuali aliquo et, 
@@ -2226,7 +3208,7 @@
                   obiecti alicuius certi.</p>
               </div>
               <div>
-                <head>Ad quartam rationem</head>
+                <head><supplied>Ad quartam rationem</supplied></head>
                 <p xml:id="b1d3qun-aqropt">Ad quartum respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod appetitus sensitivus 
                   non potest esse sine cogitatione, nec fames, nec sitis. Cum dicit probabiliter 
                   quod fames et sitis possunt esse in animali absque alia sensatione alicuius 
@@ -2278,7 +3260,7 @@
                   sicut quilibet experitur.</p>
               </div>
               <div>
-                <head>Ad quintam rationem</head>
+                <head><supplied>Ad quintam rationem</supplied></head>
                 <p xml:id="b1d3qun-aqqenc">Ad quintum 
                   <app>
                     <lem>dicendum</lem>
@@ -2340,9 +3322,9 @@
             </div>
           </div>
           <div xml:id="a2quartumdubium">
-            <head>Quartum dubium</head>
+            <head><supplied>Quartum dubium</supplied></head>
             <div>
-              <head>Opinio Adam</head>
+              <head><supplied>Opinio Adam</supplied></head>
               <p xml:id="b1d3qun-uavpin">Utrum autem 
                 <pb ed="#S" n="83-v" />
                 <cb ed="#S" n="a" /> 
@@ -2373,7 +3355,7 @@
                 igitur.</p>
             </div>
             <div>
-              <head>Contra opinionem Adam</head>
+              <head><supplied>Contra opinionem Adam</supplied></head>
               <p xml:id="b1d3qun-schehp"><supplied>Primum.</supplied> Sed contra hoc arguitur quia voluntas praecipit intellectui quod consideret 
                 A, aut igitur tunc A est actu consideratum et tunc superflue 
                 praeciperet voluntas, aut non et habetur propositum. </p>
@@ -2451,7 +3433,7 @@
                 non intellectio.</p>
             </div>
             <div>
-              <head>Responsio</head>
+              <head><supplied>Responsio</supplied></head>
               <!-- double check this paragraph -->
               <p xml:id="b1d3qun-apiivh">Ad primum istorum responsum est inmediate ante
                 ultimam dubitationem vel enim non dicente vult voluntas A nec intellectus 
@@ -2555,9 +3537,9 @@
             </div>
           </div>
           <div xml:id="a2quintumdubium">
-            <head>Quintum Dubium</head>
+            <head><supplied>Quintum Dubium</supplied></head>
             <div>
-              <head>Principales rationes</head>
+              <head><supplied>Principales rationes</supplied></head>
               <p xml:id="b1d3qun-qdphev">Quintum dubium principale est 
                 an partes imaginis 
               	<app>
@@ -2879,7 +3861,7 @@
               	eo, igitur etc.</p> 
             </div>
             <div>
-              <head>Ad oppositum</head>
+              <head><supplied>Ad oppositum</supplied></head>
               <p xml:id="b1d3qun-aoavsa">Ad oppositum 
                 arguitur per 
                 <cit>
@@ -3035,7 +4017,7 @@
               	</app>.
               </p>
               <div>
-                <head>Responsio Fitzralph</head>
+                <head><supplied>Responsio Fitzralph</supplied></head>
                 <p xml:id="b1d3qun-aidadt">
                 	<app xml:id="b1d3qun-Aaidvip" prev="#b1d3qun-Asieida">
                 		<lem>Ad istum dubium 
@@ -3658,7 +4640,7 @@
               </div>
             </div>
             <div>
-              <head>Contra</head>
+              <head><supplied>Contra</supplied></head>
               <p xml:id="b1d3qun-shfaap">Sed 
               	<app> <!-- best reading is not clear -->
               		<lem wit="#V #T">primum movtum</lem>
@@ -3873,7 +4855,7 @@
               </p>
             </div>
             <div>
-              <head>Responsio ad primum</head>
+              <head><supplied>Responsio ad primum</supplied></head>
               <p xml:id="b1d3qun-ecpvac">Et cum 
               	<app>
               		<lem>probatur</lem>
@@ -4159,7 +5141,7 @@
                 a proportione aequalitatis huiusmodi nisi aliud adiuvet, sicut credo.</p>
             </div>
             <div>
-              <head>Responsio ad secundum</head>
+              <head><supplied>Responsio ad secundum</supplied></head>
               <p xml:id="b1d3qun-eepacc">Ex 
                 eodem patet planissime ad secundum, dato enim quod dupletur visio 
                 <name ref="#Peter">Petri</name> 
@@ -4308,7 +5290,7 @@
                 revelatum.</p>
             </div>
             <div>
-              <head>Responsio Fitzralph ad rationes principales</head>
+              <head><supplied>Responsio Fitzralph ad rationes principales</supplied></head>
               <p xml:id="b1d3qun-apliqa">Ad primum argumentum istius dubii, <name ref="#Augustine">Augustinus</name> 
               	<app>
               		<lem>loquendo</lem>
@@ -4831,7 +5813,7 @@
               	</app></p> 
             </div>
             <div>
-              <head>Responsio Wodeham</head> 
+              <head><supplied>Responsio Wodeham</supplied></head> 
               <p xml:id="b1d3qun-sicffa">Sic igitur concedenda est conclusio quod, sic loquendo, 
                 mens, quando amor 
               	<app>
@@ -5591,7 +6573,7 @@
             </div>
           </div>
           <div>
-            <head>Ad rationes principales</head>
+            <head><supplied>Ad rationes principales</supplied></head>
             
             <p xml:id="b1d3qun-apaaat">
             	<cit>
@@ -6137,4 +7119,3 @@
     </body>
   </text>
 </TEI>
-
