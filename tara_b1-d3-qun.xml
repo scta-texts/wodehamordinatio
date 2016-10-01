@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -81,7 +81,7 @@
 					 	 <lb ed="#T" n="2"/>similis deo consequentia patet<pc ana="#punctus"/> per <ref><name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monologion</title> c. 31 et 66</ref> ubi dicit <quote>quidquid inter creata constat esse 
 						 <lb ed="#T" n="3"/>similius</quote> deo <quote><pc ana="#punctus"/> illud necesse est esse <!-- this should be and "ex", not an "esse"--> natura praestantius</quote> Assumptum probatur quia <ref>primus <title ref="#Ethics">Ethicorum</title> c. 8 in fine dicit <name ref="#Aristotle">Philosophus</name></ref> 
 						 <lb ed="#T" n="4"/>quod <quote>felicitas connumerata cum minimo bonorum <corr><add place="aboveLine">est</add></corr> eligibilior quam ipsa felicitas</quote> et addit quod <quote>semper 
-					   ma<lb ed="#T" n="5"/>ius bonum est eligibilius</quote> igitur pari ratione mens humana cum quocumque bono est <corr><del rend="strikethrough"><unclear>est</unclear></del></corr> melior quam ipsa solitaria 
+					   ma<lb ed="#T" n="5"/>ius bonum est eligibilius</quote> igitur pari ratione mens humana cum quocumque bono est <corr><del rend="strikethrough">est</del></corr> melior quam ipsa solitaria 
 					   <lb ed="#T" n="6"/>igitur compositum ex ipsa et corpore scilicet homo est nobilius sola mente</p>
 						
 						<p xml:id="b1d3qun-ismnrd">
@@ -115,7 +115,7 @@
 						
 						<p xml:id="b1d3qun-aieqce">
 						 <pc ana="#pilcrow"/>Ad idem est <ref><name ref="#Augustine">augustinus</name> 12 <title ref="#deTrinitate">de trinitate</title> c. 17 de parvis</ref> 
-						 <lb ed="#T" n="22"/><quote>ulli</quote> inquit <quote>dubium est non secundum corpus neque secundum quamlibet aliam partem<pc ana="#punctus"/> sed secundum mentem rationalem ubi potest esse 
+						 <lb ed="#T" n="22"/><quote>nulli</quote> inquit <quote>dubium est non secundum corpus neque secundum quamlibet aliam partem<pc ana="#punctus"/> sed secundum mentem rationalem ubi potest esse 
 						 <lb ed="#T" n="23"/>agnitio dei factum hominem ad ymaginem eius qui creavit eum</quote>
 						</p>
 						
@@ -143,7 +143,7 @@
 						<head>Divisio questionis</head>
 						<p xml:id="b1d3qun-iiqadm">
 						 <pc ana="#virgula"/><pc ana="#virgula"/>In ista questione est conclusio certa quod sic 
-						 <pc ana="#pilcrow"/> Sed videndum primo qualiter sit in creaturis <corr><add place="aboveLine">in quibus <unclear><gap quantity="2" unit="words"/></unclear></add></corr> vestigium 
+						 <pc ana="#pilcrow"/> Sed videndum primo quare sit in creaturis <corr><add place="aboveLine">in quibus <unclear><gap quantity="2" unit="words"/></unclear></add></corr> vestigium 
 						 <lb ed="#T" n="31"/>trinitatis vel in homine ymago trinitatis et secundo contra dicta aliqua dubia movebantur
 						</p>
 						
@@ -156,7 +156,7 @@
 						<p xml:id="b1d3qun-cpcscc">
 						 <pc ana="#pilcrow"/>Circa primum sciendum 
 						 <lb ed="#T" n="32"/>quod aliae sunt conditiones communes tam vestigio quam ymagini <pc ana="#punctus"/> et aliquae proprie huic vel illi 
-						 <lb ed="#T" n="33"/>una de communibus est <corr><del rend="strikethrough"><unclear>aliqua</unclear></del><add place="marginRight"><unclear>quae utraque differt ab illo cuius est vestigia vel <gap quantity="3" unit="words"></gap></unclear></add></corr> quia tam vestigium quam ymago ducit in cognitionem vel notitiam 
+						 <lb ed="#T" n="33"/>una de communibus est <corr><del rend="strikethrough">aliqua</del>                  <add place="marginRight">quae utrumque differt ab illo cuius est vestigium vel </add></corr> quia tam vestigium quam ymago ducit in cognitionem vel notitiam 
 						 <lb ed="#T" n="34"/>illius cuius est imago vel notitia tanquam <unclear><gap unit="words" quantity="1"/></unclear> notitiae illius cuius est imago vel vestigium mediante 
 						 <lb ed="#T" n="35"/>notitia sua non utique in primam notitiam distinctam et propriam illius cuius est ymago vel vestigium quia ex 
 						 <lb ed="#T" n="36"/>alibi determinatis patet quod notitia incomplexa unius rei non ducit in primam notitiam incomplexam distinctam 
@@ -172,9 +172,9 @@
 						
 						<pc ana="#pilcrow"/>Istud declarat <name ref="#Ockham">Ockham</name> per experientiam 
 						 <lb ed="#T" n="40"/>et bene posito enim <quote>quod si quis nullam penitus habeat cognitionem de Hercule si videat <!--Ockham Ord d3 q10 OT I:545 quasi verbatim--> 
-						  sta<lb ed="#T" n="41"/>tuam Herculis non plus cogitabit de Hercule quam de Sortes si autem videtur Herculem 
-						 <lb ed="#T" n="42"/>prius et retineat habitualem notitiam Herculis</quote> etiam per auditum didicerit conditiones proprias 
-						 <lb ed="#T" n="43"/>quasdam sine quantas in ymagine eius <quote>et postea videat statuam sibi similem in accidentibus exterioribus 
+						  sta<lb ed="#T" n="41"/>tuam Herculis non plus cogitabit de Hercule quam de Sorte si autem videat Herculem 
+						 <lb ed="#T" n="42"/>prius et retineat habitualem notitiam Herculis</quote> vel per auditum didicerit conditiones proprias 
+						 <lb ed="#T" n="43"/>quasdam similatas in imagine eius <quote>et postea videat statuam sibi similem in accidentibus exterioribus 
 						 <lb ed="#T" n="44"/>virtute visionis statuae</quote> poterit recordari Herculis etiam posito quod numquam prius vidisset 
 						 <lb ed="#T" n="45"/>illam statuam
 						</p>
@@ -236,8 +236,8 @@
 							 <lb ed="#T" n="9"/>sicut ibi exemplificat <quote>ut in speculo</quote> inquit <quote>est ymago hominis quia de illo expressa est</quote> similiter <quote>de 
 							 <lb ed="#T" n="10"/>parentibus et filiis <pc ana="#punctus"/> nam et de parente expressa est similitudo filii ut recte dicatur 
 							 <lb ed="#T" n="11"/>ymago</quote> et tunc proprie <pc ana="#punctus"/> sumitur ymago sicut praeaccepi <pc ana="#punctus-interrogativus"/> teste <ref><name ref="#Lombard">Magistro</name><title ref="#Sentences"/> libro 2 distinctione 16 
-							 <lb ed="#T" n="12"/>c. 2</ref> ubi dicit quod quadam auctoritate Bedae super hoc quod trinitas ipsa <quote>improprie ymago dicitur</quote> <pc ana="#punctus"/> cuius causa 
-							 <lb ed="#T" n="13"/>est <quote>quia ymago</quote> inquit <quote>relative ad aliud aliud cuius similitudinem gerit et ad quod repraesentandum facta 
+							 <lb ed="#T" n="12"/>c. 2</ref> ubi dicit quod quadam auctoritate <name ref="#Bede">Bedae</name> super hoc quod trinitas ipsa <quote>improprie ymago dicitur</quote> <pc ana="#punctus"/> cuius causa 
+							 <lb ed="#T" n="13"/>est <quote>quia ymago</quote> inquit <quote>relative ad aliud dicitur cuius similitudinem gerit et ad quod repraesentandum facta 
 							 <lb ed="#T" n="14"/>est <pc ana="#punctus"/> sicut ymago Caesaris quae ipsius similitudinem praeferebat ipsum quodammodo repraesentabat</quote>
 							</p>
 							
@@ -255,10 +255,10 @@
 							
 							<p xml:id="b1d3qun-qaqndr">
 							
-							 <lb ed="#T" n="21"/>qualiter autem quaelibet creatura potest alio modo dici vestigium trinitatis pro quanto scilicet in ea sicut unitatis 
+							 <lb ed="#T" n="21"/>qualiter autem quaelibet creatura potest aliquo modo dici vestigium trinitatis pro quanto scilicet in ea sicut unitatis 
 							 <lb ed="#T" n="22"/>species et ordo possunt aliquo modo ducere in notitiam appropriatorum divinis personis incomplexam 
 							 <lb ed="#T" n="23"/>rememorativam et etiam in notitiam complexam contingentem docet satis bene <name ref="#Ockham">Ockham</name> questione de vestigio 
-							 <lb ed="#T" n="24"/>articulo octavo et etiam ibidem in quibus in creatura consistit vestigium quia aliquando indistinctis realiter aliquando in 
+							 <lb ed="#T" n="24"/>articulo secundo et etiam ibidem in quibus in creatura consistit vestigium quia aliquando in distinctis realiter aliquando in 
 							 <lb ed="#T" n="25"/>non distinctis realiter
 							</p>
 							
@@ -275,8 +275,7 @@
 							
 							
 							<p xml:id="b1d3qun-qaacee">
-							 <pc ana="#pilcrow"/><quote>quod autem actus volendi sit effective ab actu intellegendi</quote> <!--I couldn' find this quote--> 
-							 <lb ed="#T" n="32"/>probat et bene et ego concedo conclusionem et teneo illam pro illa distinctione prima quod <quote>omne absolutum necessario 
+							 <pc ana="#pilcrow"/><quote>quod autem actus volendi sit effective ab actu intellegendi</quote> <lb ed="#T" n="32"/>probat et bene et ego concedo conclusionem et teneo illam pro illa distinctione prima quia <quote>omne absolutum necessario 
 							  prae<lb ed="#T" n="33"/>suppositum alteri habet respectu illius rationem causae in alio genere <unclear>causae</unclear></quote> sed ita est de actu intelligendi respectu 
 							 <lb ed="#T" n="34"/>actus volendi igitur maiorem <corr><add place="aboveLine">etiam</add></corr> concedit <ref><name ref="#Scotus">Scotus</name> distinctione primi</ref> et utitur illa quia secundum eum omnis effectus 
 							 <lb ed="#T" n="35"/>alicuius sufficienter dependet a suis causis essentialibus etc.
