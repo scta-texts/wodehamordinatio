@@ -6553,23 +6553,114 @@
               		<rdg wit="#M" type="variation-present">eis</rdg>
               	</app>,  
                 <app>
-                	<lem>et ita de similibus</lem>
+                	<lem>et 
+                		<app>
+                			<lem>ita</lem>
+                			<rdg wit="#T">illa</rdg> <!-- likely transcription mistake -->
+                		</app> 
+                		de similibus</lem>
                 	<rdg wit="#V" type="variation-absent"/>
                 </app>.
               </p>
               
-              <p xml:id="b1d3qun-etavvm">Et tunc ad 
-                aliud argumentum de actum peccati bene credo quod vellent ipsum non esse in aliquo 
-                eis devoto nec aestimo quod tenentur in omni volito conformari Deo 
-                nec credo eos consequi in omnibus quicquid vellent citra saltem divinum 
-                iudicium, quia animae beatae appetunt, secundum Augustinum, ibi uniri suis 
-                corporibus in tantum ut semper sint minus beati quam post erunt quia hic non 
-                distentio[?] qualiter debeant {intelligi}. Consequenter tamen quicquid volunt de hiis 
-                in quibus aequaliter sunt beati, quia non possunt desiderare nisi quod ratio secundum legem divinae iustitiae dictat eos licite posse velle 
-                <pb ed="#S" n="85-v" />
-                <cb ed="#S" n="a" /> 
-                vel nisi quod Deus eis liberaliter confere voluit quod dum in via viverent 
-                meruerent[?].</p>
+              <p xml:id="b1d3qun-etavvm">
+              	<app>
+              		<lem>Et tunc ad 
+		                <app>
+		                	<lem>aliud</lem>
+		                	<rdg wit="#M #T" type="variation-absent"/>
+		                </app> 
+		              	argumentum de actum peccati bene credo quod 
+              			<app>
+              				<lem>vellent</lem>
+              				<rdg wit="#M">vellerent</rdg>
+              			</app> 
+              			ipsum <!-- M has illum --> 
+              			non esse in aliquo 
+		                eis 
+		                devoto <!-- vat has "de voto"; read for sense to identify best reading --> 
+              		</lem>
+              		<rdg wit="#V" type="correction-substitution">
+              			<subst>
+              				<del rend="strikethrough">de voto</del>
+              				<add>et tunc ad alius de actu peccati bene credo quod vellent illum non esse in aliquo eis devoto</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	nec aestimo quod tenentur in omni volito conformari Deo 
+                nec credo eos consequi in omnibus quicquid 
+              	<app>
+              		<lem>vellent</lem>
+              		<rdg wit="#M">vellerent</rdg>
+              	</app> 
+              	<app>
+              		<lem>citra</lem>
+              		<rdg wit="#S">circa</rdg> <!-- dbcheck -->
+              	</app> 
+              	saltem 
+              	<app> <!-- best reading unclear -->
+              		<lem>divini iudicii</lem>
+              		<rdg wit="#S">divinum iudicium</rdg>
+              	</app>, 
+              	quia animae beatae appetunt, secundum Augustinum, ibi uniri suis 
+                corporibus in tantum ut 
+              	<app>
+              		<lem>semper sint</lem>
+              		<rdg wit="#M #V">sint propter hoc</rdg>
+              		<rdg wit="#T">semper hoc</rdg>
+              	</app> 
+              	minus beati 
+              	<app> <!-- related to above variation with "semper sint" etc. etc. -->
+              		<lem n="beati"/>
+              		<rdg wit="#T" type="variation-present">semper</rdg>
+              	</app> 
+              	quam 
+              	<app>
+              		<lem>post</lem>
+              		<rdg wit="#M">prius</rdg>
+              	</app> 
+              	erunt quia 
+              	<app>
+              		<lem>hic</lem>
+              		<rdg wit="#M">hoc</rdg>
+              	</app> 
+              	non 
+                <app> <!-- dbcheck; very unclear -->
+                	<lem>distentio</lem>
+                	<rdg wit="#M">discutio</rdg>
+                	<rdg wit="#T">dissentio</rdg>
+                </app> 
+              	qualiter debeant 
+              	<app>
+              		<lem>intelligi</lem>
+              		<rdg wit="#S #T" type="variation-absent"/>
+              	</app>. 
+              	<app>
+              		<lem>Consequenter</lem>
+              		<rdg wit="#T">consequentis</rdg> <!-- dbcheck likely transcription error -->
+              	</app> 
+              	tamen quicquid volunt de hiis 
+                in quibus 
+              	<app>
+              		<lem>aequaliter</lem>
+              		<rdg wit="#M">essentialiter</rdg>
+              	</app> 
+              	sunt beati, quia non possunt desiderare nisi quod ratio secundum legem divinae iustitiae dictat eos licite 
+              	<app>
+              		<lem>posse velle 
+              			<pb ed="#S" n="85-v" /> 
+              			<cb ed="#S" n="a" /> 
+              			vel nisi quod Deus eis liberaliter confere voluit quod dum in via viverent 
+              			<unclear>meruerunt</unclear>.</lem> 
+              		<rdg wit="#M">posse velle</rdg>
+              		<rdg wit="#V" type="correction-substitution">
+                		<subst>
+                			<del rend="strikethrough">posse velle</del> <!-- dbcheck and correct this -->
+                			<add place="marginRight">posse velle vel ??? hoc igitur eis deus liberaliter conferre voluerit ut quod dum in via viverent meruerunt</add>
+                		</subst>
+                	</rdg>
+                </app>
+              </p>
             </div>
           </div>
           <div>
