@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -45,7 +45,7 @@
       </front>
       <body>
         <div xml:id="b1-d3-qun">
-          <head>Distinctio 3</head>
+          <head type="title">Distinctio 3</head>
           <div>
             <head>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in rebus aliis 
               factis propter hominem est vestigium eiusdem Trinitatis</head>
@@ -91,7 +91,7 @@
                 <lb ed="#S"/>hoc idem <unclear>quaestione</unclear> in re arguitur sub alia forma sic quia si sic tunc 
                 <lb ed="#S"/>cognitio perfecta illius <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> nata esset inducere vel saltem 
                 <lb ed="#S"/>iuvare <corr><add>ad cognoscendum</add></corr> trinitatem esse in deo consequens falsum quia eius cognitio non 
-                <lb ed="#S"/>magis adducit in cognitionem verum ipsius trinitatis increatae quam 
+                <lb ed="#S"/>magis adducit in cognitionem vera ipsius trinitatis increatae quam 
                 <lb ed="#S"/>aliud probo sive enim in anima sit realis distinctio sive non videtur <corr><del rend="expunctuated">ad</del></corr> ab<lb ed="#S"/>ducere 
                 si enim sic tunc sunt diversae res et per consequens vel sunt partes 
                 <lb ed="#S"/>mentis vel accidentia in ipsa et ita ista cognitio faceret aestimare quod 
@@ -123,7 +123,8 @@
                 <lb ed="#S"/>ad imaginem eius qui creavit eum</quote></p>
               
               <p xml:id="b1d3qun-iehpep">Item et haec auctoritas recte 
-                <lb ed="#S"/>praetendit argumentum primae et 2ae ad primam partem dicit enim <name ref="#Augustine">augustinus</name> 14 
+                <lb ed="#S"/>praetendit contrarium primae et 2ae 
+                ad primam partem dicit enim <name ref="#Augustine">augustinus</name> 14 
                 <lb ed="#S"/><title ref="#deTrinitate">de trinitate</title> capitulo 14 de parvis <g ref="#dot"/> quod <quote>prius mens in se ipsa consideranda est 
                   <lb ed="#S"/>antequam sit particeps dei et in ea recipienda est imago eius diximus 
                   <lb ed="#S"/>enim eam esse amissa dei participatione abolitam atque deformem 
@@ -225,7 +226,7 @@
                   
                   <p xml:id="b1d3qun-ehdspi">Ex hac differentia sequitur alia quod vestigium du<lb ed="#S"/>cit 
                     vel ducere potest non tantum in notitiam complexam recordativam 
-                    <lb ed="#S"/>illius cuius est habitualiter noti sed etiam incomplexas aliquas et <corr><add place="aboveLine">a</add>ssensus</corr> 
+                    <lb ed="#S"/>illius cuius est habitualiter noti sed etiam in complexas alias et <corr><add place="aboveLine">a</add>ssensus</corr> 
                     <lb ed="#S"/>sibi conformes alios in quorum consimiles non potest sufficienter <choice><orig>ymago</orig><reg>imago</reg></choice> 
                     <lb ed="#S"/>ducere verbi gratia <g ref="#dot"/> vestigium bovis non tantum facit recordare 
                     <lb ed="#S"/>de bove habitualiter noto sed ducit communiter in credulitatem confor<lb ed="#S"/>mem 
@@ -237,7 +238,7 @@
                     <lb ed="#S"/>potest dici vestigium trinitatis pro quanto scilicet quaedam in ea 
                     <lb ed="#S"/>sicut unitas species et ordo possit <choice><orig>alico</orig><reg>aliquo</reg></choice> modo ducere in notitiam 
                     <lb ed="#S"/>appropriatorum in divinis personis incomplexam rememorativam et etiam 
-                    <lb ed="#S"/>in notitiam complexam contingentem docet satis bene <name ref="#Ockham">okam</name> questione 
+                    <lb ed="#S"/>in notitiam complexam contingentem docet satis bene <name ref="#Ockham">Ockham</name> questione 
                     <lb ed="#S"/>de vestigio articulo 2o et etiam ibidem in quibus creaturae consistit 
                     <cb ed="#S" n="80ra"/><lb ed="#S"/>vestigium quia aliquando indistinctis realiter aliquando in non distinctis realiter</p> 
                   
@@ -257,7 +258,7 @@
                     <lb ed="#S"/>absolutum <choice><orig>neccessario</orig><reg>necessario</reg></choice> praesuppositum alteri habet respectu illius rationem causae in <choice><orig>alico</orig><reg>aliquo</reg></choice> genere causae 
                     <lb ed="#S"/>sed ita est de actu intelligendi respectu actus volendi igitur maiorem etiam concedit 
                     <lb ed="#S"/><name ref="#Scotus">scotus</name> distinctione tertia primi et utitur ista quia secundum eum omnis effectus alicuius sufficienter 
-                    <lb ed="#S"/>dependet a suis causis essentialibus etc</p>
+                    <lb ed="#S"/>dependet a suis causis essentialibus etc.</p>
                 </div>
               </div>
             </div>
