@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -72,7 +72,7 @@
             <lb ed="#M"/>similitudo illius cuius est <choice><orig>ymago</orig><reg>imago</reg></choice> <g ref="#pilcrow"/>assumptum probatur quia homo est ens nobilius quam 
             <lb ed="#M"/>mens hominis igitur est magis similis deo consequentia patet per <ref><name ref="#Anselm">anselmum</name> <title ref="#Monologion">monologion</title> capitulo 31 
             <lb ed="#M"/>et 66</ref> ubi dicit quidquid inter creata constat esse similius deo illud necesse 
-            <lb ed="#M"/>esse natura <unclear>praescimus</unclear> <g ref="#dot"/> assumptum probatur quia <ref>1 <title ref="#Ethics">ethicorum</title> capitulo 8 in fine dicit <name ref="#Aristotle">philosophus</name></ref> 
+            <lb ed="#M"/>esse natura praestantius <g ref="#dot"/> assumptum probatur quia <ref>1 <title ref="#Ethics">ethicorum</title> capitulo 8 in fine dicit <name ref="#Aristotle">philosophus</name></ref> 
             <lb ed="#M"/>quod felicitas communicata cum minimo bonorum est eligibilior quam ipsa felicitas 
             <lb ed="#M"/>est addit quod semper maius bonum est eligibilius igitur pari ratione mens humana 
             <lb ed="#M"/>cum quocumque bono est melior quam ipsa solitaria igitur compositum ex ipsa et 
@@ -83,8 +83,8 @@
             <lb ed="#M"/>personarum aut ratione actuum quos causat et recipit et hoc non quia illi non sunt 
             <lb ed="#M"/>consubstantiales et hoc idem quasi in rei arguitur sub alia forma sic et sic tunc cognitio 
             <lb ed="#M"/>perfecta illius <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> nata esset inducere vel saltem iuvare trinitatem  
-            <lb ed="#M"/>esse in deo consequens falsum quia eius cognitio magis abducit <unclear>in</unclear> cognitione vera 
-            <lb ed="#M"/>ipsius trinitatis increatae <unclear>probatio <!-- probo --></unclear> sive enim anima sit realis distinctio personarum sive 
+            <lb ed="#M"/>esse in deo consequens falsum quia eius cognitio magis abducit a cognitione vera 
+            <lb ed="#M"/>ipsius trinitatis increatae probo sive enim anima sit realis distinctio personarum sive 
             <lb ed="#M"/>non videtur abducere si enim sic tunc sunt diversae res et per consequens vel sunt 
             <lb ed="#M"/>partes mentis vel accidentia in ipsa et ita ista cognitio faceret aestimari quod 
             <lb ed="#M"/>personae essent partes dei vel accidentia in eo et ita non deus si autem non tunc fa<lb ed="#M"/>ceret 
@@ -110,7 +110,7 @@
               <lb ed="#M"/>rationalem ubi potest esse agnitio dei <quote>factum hominem ad imaginem eius qui crea<lb ed="#M"/>vit 
                 eum</quote></seg></quote></p>
 
-          <p xml:id="b1d3qun-iehpep"><g ref="#pilcrow"/>Tunc et haec auctoritas recte praetendit argumentum primae 
+          <p xml:id="b1d3qun-iehpep"><g ref="#pilcrow"/>Tunc et haec auctoritas recte praetendit contrarium primae 
           <lb ed="#M"/>et <g ref="#dot"/> 2a ad primam partem dicit enim <ref><name ref="#Augustine">augustinus</name> 14 <title ref="#deTrinitate">de trinitate</title> capitulo 14 de parvis</ref> 
           <lb ed="#M"/>quod <quote>prius mens in se ipsa consideranda est antequam sit particeps dei et 
             <lb ed="#M"/>ea recipienda est <choice><orig>ymago</orig><reg>imago</reg></choice> eius diximus enim eam esse amissam dei 
@@ -197,10 +197,10 @@
                   <lb ed="#M"/>praeaccepi teste <name ref="#Lombard">magistro</name> libro 2 distinctione 16 capitulo 2 ubi dicit pro quadam 
                   <lb ed="#M"/>auctoritate <name ref="#Bede">Bedae</name> super hoc quod trinitas ipsa improprie <choice><orig>ymago</orig><reg>imago</reg></choice> dicitur cuius causa est 
                   <lb ed="#M"/>quia imago inquit relative ad aliud dicitur cuius similitudinem gerit vel ad quod 
-                  <lb ed="#M"/>repraesentandum facta es sicut <choice><orig>ymago</orig><reg>imago</reg></choice> <name ref="#JuliusCaesar">caesaris</name> quae ipsius similitudinem praeferebat 
+                  <lb ed="#M"/>repraesentandum facta est sicut imago <name ref="#JuliusCaesar">caesaris</name> quae ipsius similitudinem praeferebat 
                   <lb ed="#M"/>ipsum quodammodo repraesentabat <g ref="#dot"/></p>
                 
-                <p xml:id="b1d3qun-ehdspi">Ex hac differentia sequitur alia quod 
+                <p xml:id="b1d3qun-ehdspi">                  <pc ana="#pilcrow"/>Ex hac differentia sequitur alia quod 
                   <lb ed="#M"/>vestigium ducit vel ducere potest non tantum in notitiam complexam re<lb ed="#M"/>cordativam 
                   illius cuius est habitualiter noti sed etiam incomplexas aliquas sibi conformes 
                   <lb ed="#M"/><choice><orig>alicos</orig><reg>aliquos</reg></choice> in quorum consimiles non potest sufficienter <choice><orig>ymago</orig><reg>imago</reg></choice> ducere verbi gratia 
@@ -213,15 +213,19 @@
                   <lb ed="#M"/>scilicet quod in ea sicut unitas speciei et ordo possit aliquo modo 
                   <lb ed="#M"/>dici vestigium ducere in notitiam appropriatorum divinis personis incomplexam re<lb ed="#M"/>memorativam 
                   et etiam in notitiam complexam contingentem docet satis 
-                  <lb ed="#M"/>bene <name ref="#Ockham">okham</name> questione de vestigio articulo 1o et etiam ibidem in quibus in creatura consis<lb ed="#M"/>tit 
+                  <lb ed="#M"/>bene <name ref="#Ockham">okham</name> questione de vestigio articulo 1o et etiam ibidem in quibus in creatura 
+                  con<lb ed="#M"/>sistit 
                   vestigium quia aliquando indistinctis realiter aliquando in non distinctis realiter</p>
                 
                 <p xml:id="b1d3qun-esiidp"><g ref="#pilcrow"/>Et 
                   <lb ed="#M"/>similiter in questione de <choice><orig>ymagine</orig><reg>imagine</reg></choice> articulo 2o primo illius in <choice><orig>oppinione</orig><reg>opinione</reg></choice> propria docet qualiter 
                   <lb ed="#M"/>in creatura rationali magis dicitur esse <choice><orig>ymago</orig><reg>imago</reg></choice> quam in aliqua alia creatura <g ref="#dot"/> <g ref="#pilcrow"/>Et conclusio consequenter 
-                  <lb ed="#M"/>docet quomodo <choice><orig>ymago</orig><reg>imago</reg></choice> dei imperfecte et consequenter radicaliter et originaliter con<cb ed="#M" n="66vb"/><lb ed="#M"/>sistit 
-                  in ipsa anima secundum suam substantiam sed completione perfectio <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> con<lb ed="#M"/>sistit 
-                  in ipsa substantia animae et duobus actibus productis respectu utri<lb ed="#M"/>usque 
+                  <lb ed="#M"/>docet quomodo imago dei imperfecte et quasi radicaliter et originaliter 
+                  con<cb ed="#M" n="66vb"/><lb ed="#M"/>sistit 
+                  in ipsa anima secundum suam substantiam sed completive perfectio imaginis 
+ con<lb ed="#M"/>sistit 
+                  in ipsa substantia animae et duobus actibus productis respectu 
+                  utri<lb ed="#M"/>usque 
                   quorum anima habet fecunditatem sed ad actum volendi mediante actu 
                   <lb ed="#M"/>intellegendi qui cum substantia animae et obiecto comproducit actum volendi et per 
                   <lb ed="#M"/>consequens exprimit anima cum illis actibus ordinem et originem aliter diversas 
@@ -231,9 +235,9 @@
                   <lb ed="#M"/>probat et bene et ego concedo conclusionem et teneo eam pro illa distinctione prima quia 
                   <lb ed="#M"/>omne absolutum <choice><orig>neccessario</orig><reg>necessario</reg></choice> praesuppositum alteri habet respectu illius in <choice><orig>alico</orig><reg>aliquo</reg></choice> genere 
                     <note type="marginalNote" place="marginRight">respondet</note> 
-                  causae sed ita est de actu intelligendi respectu actus volendi igitur maiorem et concedit 
+                  causae sed ita est de actu intelligendi respectu actus volendi igitur maiorem etiam concedit 
                   <lb ed="#M"/><ref><name ref="#Scotus">scotus</name> distinctione 3 primi</ref> et utitur illa quia secundum eum omnis effectus absolutus sufficienter 
-                  <lb ed="#M"/>dependet a suis causis essentialibus igitur etc</p>
+                  <lb ed="#M"/>dependet a suis causis essentialibus igitur etc.</p>
               </div>
             </div>
           </div>
