@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/0.0/diplomatic/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 <teiHeader>
 <fileDesc>
@@ -51,7 +51,7 @@ xpointer="prosopography"/>
 
 
 <div xml:id="b1-d3-qun">
-<head subtype="title">Distinctio 3</head>
+<head type="title">Distinctio 3</head>
 
 <div>
 <head>Quaestio unica: Utrum mens humana sit imago trinitatis increatae sicut vestigium eiusdem trinitatis</head>
@@ -91,8 +91,12 @@ xpointer="prosopography"/>
 
 <p xml:id="b1d3qun-ismnrd"><lb ed="#V"/><pc ana="#pilcrow"/>Item si mens humana sit  imago trinitatis increatae igitur aut ratione substantiae suae
   <lb ed="#V" n="26"/>et hoc non quia illa non repraesentat distinctionem personarum aut ratione actuum quos causat et recipit et hoc quia illi non sunt
-  <lb ed="#V" n="27"/>consubstantiales et hoc idem quia in re arguitur sub alia forma sic si sic tunc cognitio perfecta illius imaginis nata esset indu<lb ed="#V" n="28"/>cere vel saltem iuvare <corr><add place="marginLeft">ad cognoscendum</add></corr> trinitatem esse in deo consequens falsum quia eius cognitio non magis abducit a cognitione vera ipsius trinitatis
-  <lb ed="#V" n="29"/>increatae probo sive enim in anima sit realis distinctio <unclear>potentiarum</unclear> sive non videtur abducere Si enim sic tunc sunt diversae res
+  <lb ed="#V" n="27"/>consubstantiales et hoc idem quia in re arguitur sub alia forma sic si sic tunc cognitio perfecta illius imaginis nata esset 
+              indu<lb ed="#V" n="28"/>cere vel saltem iuvare <corr><add place="marginLeft">ad cognoscendum</add></corr>                  trinitatem esse in deo 
+ consequens falsum quia eius cognitio non magis abducit a cognitione vera ipsius trinitatis
+  <lb ed="#V" n="29"/>                 increatae 
+    probo sive enim in anima sit realis distinctio probo sive enim in anima sit realis distinctio potentiarum sive non videtur abducere 
+ sive non videtur abducere Si enim sic tunc sunt diversae res
   <lb ed="#V" n="30"/>et per consequens vel sunt partes mentis vel accidentia in ipsa et ita ista cognitio faceret aestimare quod personae essent partes
   <lb ed="#V" n="31"/>dei vel accidentia in eo et ita <corr><add place="aboveLine">quod</add></corr> non deus Si non tunc faceret aestimare personas non realiter distingui
 </p>
@@ -125,7 +129,7 @@ xpointer="prosopography"/>
 <p xml:id="b1d3qun-iehpep">
   Item et haec auctoritas recte praetendit contrarium primae et secundae ad primam partem dicit enim <ref><name ref="#Augustine">augustinus</name>
   <lb ed="#V" n="40"/>14 <title ref="#deTrinitate">de trinitate</title> c. 19 de parvis</ref> quod <quote>prius mens in se ipsa consideranda est antequam sit particeps dei et in ea recipienda
-  <lb ed="#V" n="41"/>est  imago eius diximus enim eam esse amissa dei participatione <corr><add place="marginLeft">abolitam</add></corr> atque <unclear>deformem</unclear> dei tamen imaginem permanere
+  <lb ed="#V" n="41"/>est  imago eius diximus enim eam esse amissa dei participatione <corr><add place="marginLeft">abolitam</add></corr> atque deformem dei tamen imaginem permanere
   <lb ed="#V" n="42"/>eo quippe proprie  imago eius est quo capax eius est eiusque particeps esse potest</quote>
 </p>
 
@@ -154,7 +158,8 @@ xpointer="prosopography"/>
 
 <p xml:id="b1d3qun-cpcscc">Circa primum sciendum quod aliquae sunt conditiones
   <lb ed="#V" n="46"/>communes tam vestigio quam imagini et aliquae proprie huic vel illi Una de communibus est quod tam vestigium
-  <lb ed="#V" n="47"/>quam  imago ducit ab illo cuius est alia quae tam vestigium quam  imago sunt in notitiam illius cuius est  imago vel vesti<lb ed="#V" n="48"/>gium<note place="marginRight"><unclear>[vesti]gium et aliqua notitiae istius cuius est  imago</unclear></note> mediante notitia sua non utique in primam notitiam distinctam et propriam istius cuius est  imago vel vestigium
+  <lb ed="#V" n="47"/>quam  imago ducit ab illo cuius est alia quae tam vestigium quam  imago sunt in notitiam illius cuius est  imago vel vesti<lb ed="#V" n="48"/>gium<note place="marginRight">[vesti]gium tamquam causativum notitiae istius cuius est imago vel</note>                mediante notitia sua 
+                non utique in primam notitiam distinctam et propriam istius cuius est imago vel vestigium
   <lb ed="#V" n="49"/>quia ex alibi determinatis patet quod notitia incomplexa unius rei non ducit in primam notitiam incomplexam distinctam
   <lb ed="#V" n="50"/>et propriam et simplicem alterius rei sed per illum modum quo una res mediante notitia sua incomplexa potest esse causa
   <lb ed="#V" n="51"/>partialis rememorationis alterius rei habitualiter notae ita quod notitia habitualis necessario concurrit sicut causa compartialis
@@ -168,7 +173,7 @@ xpointer="prosopography"/>
 
 <!--Page break: 107r/213=======================================================-->
 <p xml:id="b1d3qun-idovis"><pb ed="#V" n="107r"/><lb ed="#V" n="1"/><pc ana="#pilcrow"/>Istud declarat <name ref="#Ockham">Ockham</name> per experientiam et bene posito enim <quote>quod aliquis nullam penitus habeat cognitionem de Hercule si videat<note place="marginRight"><name ref="#Ockham">Ockham</name></note><!--Ockham Ord d3 q10 OT I:545 quasi verbatim-->
-  <lb ed="#V" n="2"/>statuam Herculis non plus cogitabit de Hercule quam de Sorte si autem prius <corr><del rend="strikethrough">videat</del><add place="marginRight">viderit</add></corr> Herculem et retineat habitua<lb ed="#V" n="3"/>lem notitiam Herculis</quote> etiam per auditum didicerit conditiones proprias quasdam <unclear>sine quantas</unclear> in imagine eius <quote>et postea
+  <lb ed="#V" n="2"/>statuam Herculis non plus cogitabit de Hercule quam de Sorte si autem prius <corr><del rend="strikethrough">videat</del><add place="marginRight">viderit</add></corr> Herculem et retineat habitua<lb ed="#V" n="3"/>lem notitiam Herculis</quote> vel per auditum didicerit conditiones proprias quasdam <unclear>sine quantas</unclear> in imagine eius <quote>et postea
   <lb ed="#V" n="4"/>videat statuam sibi similem in accidentibus exterioribus virtute visionis statuae</quote> poterit recordari <corr><del rend="strikethrough">et</del></corr> Herculis
   <lb ed="#V" n="5"/>etiam posito quod numquam prius vidisset illam statuam
 </p>
@@ -176,7 +181,7 @@ xpointer="prosopography"/>
 
 <p xml:id="b1d3qun-sehids">Similem huius est quod aliquando videntes arborem vel lapidem
   <lb ed="#V" n="6"/>a remotis statim cogitamus de homine et aestimamus ibi stare hominem quod utique non contingeret nisi praehabita
-  <lb ed="#V" n="7"/>notitia habituali hominis cum lapis vel arbor non contineat virtualiter <corr><add>primam</add></corr> notitiam hominis et ita de similibus
+  <lb ed="#V" n="7"/>notitia habituali hominis cum lapis vel arbor non contineat virtualiter <corr><add place="aboveLine">primam</add></corr> notitiam hominis et ita de similibus
 </p>
 
 
@@ -188,7 +193,7 @@ xpointer="prosopography"/>
 
 
 <p xml:id="b1d3qun-peiuaa">Per istum etiam modum duo similia possent mutuo ducere in notitiam
-  <lb ed="#V" n="11"/>recordativam sui apud illum qui haberet notitiam habitualem utriusque et similiter unum similium posterius <unclear><corr><del rend="strikethrough">non</del></corr></unclear> visum <corr><add>prius</add></corr>
+  <lb ed="#V" n="11"/>recordativam sui apud illum qui haberet notitiam habitualem utriusque et similiter unum similium posterius <unclear><corr><del rend="strikethrough">non</del></corr></unclear> visum <corr><add place="marginRight">prius</add></corr>
   <lb ed="#V" n="12"/>potest ducere in notitiam similis recordativam prius noti propter similitudinem unius ad aliud
 </p>
 
@@ -207,25 +212,27 @@ xpointer="prosopography"/>
 
 
 <p xml:id="b1d3qun-ntqiqr"><pc ana="#pilcrow"/>Nota tamen quod strictissime et non sic communiter ut prius loquendo de imagine de ratione
-  <g ref="#pilcrow" n="18"/>imaginis est ut ipsa sit similitudo expressa seu genita ab eo cuius est  imago sicut dicit <ref><name ref="#Augustine">augustinus</name> <title>de 83 Quaestionibus</title> questione 74</ref> sicut
+  <g ref="#pilcrow" n="18"/>imaginis est ut ipsa sit similitudo expressa seu genita ab eo cuius est  imago sicut dicit <ref><name ref="#Augustine">                      Augustinus
+                    </name> <title>de 83 Quaestionibus</title> questione 74</ref> sicut
   <lb ed="#V" n="19"/>ibi exemplificat <quote>ut in speculo</quote> inquit <quote>est  imago hominis quia de illo expressa est</quote> Similiter <quote>in parentibus et filiis nam et
   <lb ed="#V" n="20"/>de parente expressa est similitudo filii ut <corr><del rend="strikethrough">proprie</del><add place="aboveLine">recte</add></corr> dicatur <add place="marginRight"> imago</add></quote> Proprie tamen etiam sumitur  imago sicut praeaccepi teste
-  <lb ed="#V" n="21"/><ref><name ref="#Lombard">Magistro</name><title ref="#Sentences"/> libro 2 distinctione 16 c. 2</ref> ubi dicit pro quadam auctoritate Bedae super hoc quod trinitas ipsa <quote>improprie dicitur  imago</quote> Cuius
+  <lb ed="#V" n="21"/><ref><name ref="#Lombard">Magistro</name><title ref="#Sentences"/> libro 2 distinctione 16 c. 2</ref> ubi dicit pro quadam auctoritate <name ref="#Bede">Bedae</name> super hoc quod trinitas ipsa <quote>improprie dicitur  imago</quote> Cuius
   <lb ed="#V" n="22"/>causa est <quote>quia  imago</quote> inquit <quote>relative dicitur ad aliud cuius similitudinem gerit <add place="aboveLine">et</add> ad quod repraesentandum facta est <pc ana="#virgula"/> sicut imago Caesa<lb ed="#V" n="23"/>ris quae ipsius similitudinem praeferebat ipsumque quodammodo repraesentabat</quote>
 </p>
 
 
 
 <p xml:id="b1d3qun-ehdspi"><pc ana="#pilcrow"/>Ex hac differentia sequitur alia quod vestigium ducit
-  <lb ed="#V" n="24"/>vel ducere potest non tantum in notitiam complexam recordativam illius cuius est habitualiter noti sed etiam <unclear>in comple<lb ed="#V" n="25"/>xis</unclear> alias contingentes et assensus sibi conformes <unclear>alios</unclear> in quorum consimiles non potest sufficienter  imago ducere verbi gratia vesti<lb ed="#V" n="26"/>gium bovis non tantum facit recordari de bove habitualiter noto sed ducit communiter in credulitatem conformem
+  <lb ed="#V" n="24"/>vel ducere potest non tantum in notitiam complexam recordativam illius cuius est habitualiter noti sed etiam in <subst><del>complexis</del><add>comple<lb ed="#V" n="25"/>xas</add></subst> alias contingentes et assensus sibi conformes aliquos in quorum consimiles non potest sufficienter imago ducere verbi gratia 
+                  vesti<lb ed="#V" n="26"/>gium bovis non tantum facit recordari de bove habitualiter noto sed ducit communiter in credulitatem conformem
   <lb ed="#V" n="27"/>huic complexo contingenti <quote>bos hic pertransivit</quote> sed  imago Petri non in hanc <quote>Petrus hic transivit</quote> et huiusmodi
   <lb ed="#V" n="28"/>vestigium autem et  imago multipliciter accipiuntur sicut patet in <name ref="#Ockham">Ockham</name>
 </p>
 
 
 <p xml:id="b1d3qun-qaqndr"><pc ana="#pilcrow"/>qualiter autem quaelibet creatura potest alio modo dici vestigium tri<lb ed="#V" n="29"/>nitatis pro quanto scilicet quaedam in ea sicut unitas species et ordo possunt aliquo modo ducere in notitiam appropriatorum
-  <lb ed="#V" n="30"/>divinis personis incomplexam <unclear>rememorationem</unclear> vel etiam in notitiam complexam contingentem docet satis bene <name ref="#Ockham">Ockham</name> questione de
-  <lb ed="#V" n="31"/>vestigio articulo <unclear>octavo</unclear> et etiam ibidem in quibus in creatura consistit vestigium quia aliquando indistinctis realiter aliquando in distinctis realiter aliquando in non
+  <lb ed="#V" n="30"/>divinis personis incomplexam rememorationem vel etiam in notitiam complexam contingentem docet satis bene <name ref="#Ockham">Ockham</name> questione de
+  <lb ed="#V" n="31"/>vestigio articulo secundo et etiam ibidem in quibus in creatura consistit vestigium quia aliquando in distinctis realiter aliquando in non
   <lb ed="#V" n="32"/>distinctis
 </p>
 
@@ -238,7 +245,7 @@ xpointer="prosopography"/>
 
 
 <p xml:id="b1d3qun-qaacee"><quote>quod autem actus volendi sit effective ab actu intellegendi</quote> probat et bene <add place="aboveLine">et ego</add> concedo conclusionem
-  <lb ed="#V" n="37"/>quod <quote>omne absolutum necessario praesuppositum alteri habet respectu illius rationem causae in alio genere</quote> sed ita est de actu intelligendi respectu actus
+  <lb ed="#V" n="37"/>quod <quote>omne absolutum necessario praesuppositum alteri habet respectu illius rationem causae in aliquo genere</quote> sed ita est de actu intelligendi respectu actus
   <lb ed="#V" n="38"/>volendi igitur maiorem etiam concedit Scotus distinctione primi et utitur illa quia secundum eum omnis effectus alicuius sufficienter dependet a suis
   <lb ed="#V" n="39"/>causis essentialibus etc.
 </p>
