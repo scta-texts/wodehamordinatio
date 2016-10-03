@@ -3328,61 +3328,188 @@
               <p xml:id="b1d3qun-uavpin">Utrum autem 
                 <pb ed="#S" n="83-v" />
                 <cb ed="#S" n="a" /> 
-                voluntas possit diligere incognitum est dubium magnum in se et 
+                voluntas possit diligere 
+              	<app>
+              		<lem>incognitum</lem>
+              		<rdg wit="#M">ingratum</rdg>
+              	</app> 
+              	est dubium magnum in se et 
                 ad propositum etiam quia tunc in isto casu pars tertia imaginis non procederet 
-                a secunda. Et teneo quod non tum quia apud me omnis volitio 
-                est apprehensio quaedam, sicut patet distinctione prima, quaestio tertia, tum quia secundum Augustinum 
+                a secunda. Et teneo quod non 
+              	<app>
+              		<lem>tum</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	quia apud me omnis volitio 
+                est apprehensio quaedam, sicut patet distinctione prima, quaestio tertia, 
+              	<app>
+              		<lem>tum</lem>
+              		<rdg wit="#M">tamen</rdg>
+              	</app> 
+              	quia secundum Augustinum 
                 in visa diligere possumus, incognita nequaquam.</p>
               
               <p xml:id="b1d3qun-pnpcai">Praeterea non plus potest 
                 voluntas velle incognitum quam intellectus assentire non apprehenso, 
-                quia volitio non minus in suo fieri et esse dependet ab apprehensione 
-                quam assensus, sed assensus non potest naturaliter causari sine apprehensione 
-                istius cui assentitur, igitur.</p>
+                quia volitio 
+              	<app>
+              		<lem>non minus</lem>
+              		<rdg wit="#T">in suo esse et</rdg>
+              	</app> 
+              	in suo fieri 
+              	<app>
+              		<lem>et esse</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+              	dependet ab apprehensione 
+                quam assensus, 
+              	<app>
+              		<lem>sed assensus</lem>
+              		<rdg wit="#V" type="variation-absent"/>
+              	</app> 
+              	non potest naturaliter causari sine apprehensione 
+                istius <!-- M has illius -->
+                cui assentitur, igitur.</p>
               
-              <p xml:id="b1d3qun-iasoip">Iterum apprehensio sensitiva 
-                non potest naturaliter haberi sine sensatione exteriori vel interiori praesupposita 
+              <p xml:id="b1d3qun-iasoip">
+              	<app>
+              		<lem>Iterum</lem> <!-- dbcheck transcription -->
+              		<rdg wit="#V #T">Item</rdg>
+              	</app> 
+              	apprehensio sensitiva 
+                non potest 
+                naturaliter haberi <!-- T has "haveri naturaliter" --> 
+                sine 
+              	<app>
+              		<lem>sensatione exteriori</lem>
+              		<rdg wit="#M">exteriori a sensatione</rdg>
+              	</app> 
+              	vel interiori praesupposita 
                 naturaliter, igitur similiter in proposito, quia libertas non tollit similem ordinem 
                 in proposito.</p>
               
-              <p xml:id="b1d3qun-ioepei">Iterum omnis effectus praesupponit causam suam, sed 
+            	<p xml:id="b1d3qun-ioepei">
+            		<app>
+	            		<lem>Iterum</lem> <!-- dbcheck transcription -->
+	            		<rdg wit="#V #T">Item</rdg>
+            		</app> 
+            		omnis effectus praesupponit causam suam, sed 
                 omnis volitio naturaliter causata est effectus alicuius cogitationis 
-                et nullius potius quam istius quod diligitur tali volitione. Assumptum 
+                et nullius potius quam istius quod diligitur 
+            		<app>
+            			<lem n="diligitur"/>
+            			<rdg wit="#V" type="correction-substitution">
+            				<subst>
+            					<del>cognitio</del>
+            					<add>et cum volit ita quod essentialiter</add>
+            				</subst>
+            			</rdg>
+            		</app> 
+            		tali volitione. Assumptum 
                 patet quia illud est causa quo posito ponitur aliud et per naturam poni non 
-                posset sine eo. Nam omnis effectus sufficienter naturaliter dependet a 
+                posset sine eo. Nam omnis 
+            		<app>
+            			<lem>effectus</lem>
+            			<rdg wit="V" type="variation-absent"/>
+            		</app> 
+            		sufficienter naturaliter dependet a 
                 suis causis, ita quod illis positis poni posset aliis circumstantiis. Sed 
-                sic requirit volitio cogitationem per auctoritatem <name ref="#Augustine">Augustini</name> et per experientiam, 
-                igitur.</p>
+                sic requirit volitio 
+                cognitionem <!-- maz still has "cogitationem" which probably just needs to be corrected --> 
+                per auctoritatem 
+            		<name ref="#Augustine">Augustini</name> 
+            		<app>
+            			<lem n="Augustini"/>
+            			<rdg wit="#M" type="variation-present">praeallegatam</rdg>
+            		</app> 
+            		et per experientiam, 
+                igitur. <!-- T has "igitur etc" -->
+            	</p>
             </div>
             <div>
               <head><supplied>Contra opinionem Adam</supplied></head>
-              <p xml:id="b1d3qun-schehp"><supplied>Primum.</supplied> Sed contra hoc arguitur quia voluntas praecipit intellectui quod consideret 
-                A, aut igitur tunc A est actu consideratum et tunc superflue 
+              <p xml:id="b1d3qun-schehp"><supplied>Primum.</supplied> Sed contra hoc arguitur 
+              	quia <!-- M has "quod" --> 
+              	voluntas praecipit intellectui quod consideret 
+                <c>A</c>, aut igitur tunc 
+              	<c>A</c> est <!-- M has "est A" --> 
+              	actu consideratum et tunc superflue 
                 praeciperet voluntas, aut non et habetur propositum. </p>
               
               <p xml:id="b1d3qun-ivpeai"><supplied>Secundum</supplied>. Item voluntas potest conformare 
                 se intellectui et suspendere actus proprios et velle istos et etiam sensationes 
-                quas experitur, etiam si eas actu intelligat.</p>
+                quas experitur, etiam si eas actu 
+              	<app> <!-- T and V seem like they have the better reading since it is supported by the abbreviatio as well -->
+              		<lem>non</lem>
+              		<rdg wit="#S #M" type="variation-absent"/>
+              	</app> 
+              	intelligat.</p>
               
               <p xml:id="b1d3qun-inmins"><supplied>Tertium.</supplied> Item non 
-                minus videtur quod requirit effectum suum praecognosci quam obiectum 
-                quia effectum suum libere et contingenter a proposito producit. Sed 
-                primum non requirit secundum omnes, igitur nec secundum.</p>
+                minus videtur <!-- M has "videtur minus" --> 
+                quod 
+                <app> <!-- best reading unclear -->
+                	<lem>requirit</lem>
+                	<rdg wit="#V #T">requirat</rdg>
+                </app> 
+                effectum suum praecognosci quam 
+              	<app>
+              		<lem>obiectum</lem>
+              		<rdg wit="#M">subiectum</rdg>
+              	</app> 
+                quia effectum suum libere 
+                et contingenter 
+              	<app>
+              		<lem n="contingenter"/>
+              		<rdg wit="#V #T" type="variation-present">et</rdg>
+              	</app> 
+              	a proposito producit. <!-- M has "a proposito producit et contingenter" --> 
+                Sed primum non requirit secundum omnes, igitur nec secundum.</p>
               
               <p xml:id="b1d3qun-ivppqi"><supplied>Quartum.</supplied> Item voluntas potest 
-                intellectum velle non habere aliquam cogitationem et potest continuare istam. 
-                Aut igitur intellectus obediet sibi, et tunc stabit volitio sine intellectione, 
+                intellectum velle <!-- M has "velle intellectum" --> 
+                non habere aliquam cogitationem et potest continuare istam. 
+                Aut igitur intellectus obediet sibi, et tunc stabit 
+              	<app>
+              		<lem>volitio</lem>
+              		<rdg wit="#M">visio</rdg>
+              	</app> 
+              	sine intellectione, 
                 aut non, et tunc voluntas non esset potentia libera, non plus quam ignis.</p>
               
               <p xml:id="b1d3qun-isncnu"><supplied>Quintum.</supplied> Item si non hoc maxime videretur quia cogitatio ista intellectiva 
-                eiusdem obiecti naturaliter sibi praesupposita volitionem concauset. Sed hoc videtur 
+                eiusdem obiecti naturaliter sibi praesupposita 
+              	<app> <!-- needs dbcheck -->
+              		<lem>volitionem concauset</lem>
+              		<rdg wit="#M #V">causa esset volitionis</rdg>
+              		<rdg wit="#T">cum volitione esset</rdg>
+              	</app>. 
+              	Sed hoc videtur 
                 falsum, quia causa naturalis non potest causare in idem passum uniformiter 
-                dispositum contrarios effectus. Sed stante eadem intellectione potest voluntas 
-                velle vel nolle indifferenter illud quod intelligitur, igitur non est causa naturalis 
+                dispositum contrarios effectus. Sed 
+              	<app>
+              		<lem>stante</lem>
+              		<rdg wit="#T">stanti</rdg>
+              	</app> 
+              	eadem intellectione potest voluntas 
+                velle vel nolle indifferenter <!-- V has "indifferenter velle vel nolle" --> 
+                illud quod intelligitur, igitur non 
+              	<app>
+              		<lem>est</lem>
+              		<rdg wit="#S" type="correction-addition">
+              			<add>est</add>
+              		</rdg>
+              	</app> 
+              	causa naturalis 
                 utriusque.</p>
               
-              <p xml:id="b1d3qun-ichrca"><supplied>Sextum.</supplied> Item cogitatio habitualis videtur sufficere quia habitibus uti 
-                possumus cum volumus secundum <name ref="#Aristotle">Philosophum</name>. Igitur non videtur requiri cogitatio 
+              <p xml:id="b1d3qun-ichrca"><supplied>Sextum.</supplied> Item 
+              	cognitio <!-- still "cogitatio" in M; should be changed --> 
+              	habitualis videtur sufficere 
+              	quia <!-- M has "quod" --> 
+              	habitibus 
+              	uti possumus <!-- T has "possumus uti" --> 
+              	cum volumus secundum <name ref="#Aristotle">Philosophum</name>. Igitur non videtur requiri cogitatio 
                 actualis.</p>
               
               <p xml:id="b1d3qun-idqaid"><supplied>Septimum.</supplied> Item dato quod intellectio actualis requireretur ad 
