@@ -3512,31 +3512,208 @@
               	cum volumus secundum <name ref="#Aristotle">Philosophum</name>. Igitur non videtur requiri cogitatio 
                 actualis.</p>
               
-              <p xml:id="b1d3qun-idqaid"><supplied>Septimum.</supplied> Item dato quod intellectio actualis requireretur ad 
-                causationem volitionis, tamen videtur quod voluntas ex sua libertate, postquam 
-                actus est causatus, possit istum continuare cessante intellectione 
-                quacumque. Nam species sensibilis in organo sensus exterioris non 
+              <p xml:id="b1d3qun-idqaid"><supplied>Septimum.</supplied> Item dato quod 
+              	<app>
+              		<lem n="quod"/>
+              		<rdg wit="#M" type="correction-deletion">
+              			<del>mors</del>
+              		</rdg>
+              	</app> 
+              	intellectio actualis <!-- M has "actualis intellectio" --> 
+              	requireretur ad 
+                causationem 
+              	<app>
+              		<lem>volitionis</lem>
+              		<rdg wit="#S" type="correction-substitution">
+              			<subst>
+              				<del>volitio</del>
+              				<add>volitionis</add>
+              			</subst>
+              		</rdg>
+              	</app>, 
+              	<app>
+              		<lem>tamen</lem>
+              		<rdg wit="#M">cum</rdg> <!-- likely transcription error -->
+              	</app> 
+              	videtur quod voluntas ex sua libertate, postquam 
+                <app>
+                	<lem>actus</lem>
+                	<rdg wit="#M">causatus</rdg>
+                </app> 
+              	est causatus, possit 
+                istum <!-- M has "ipsum" --> 
+                continuare cessante intellectione 
+                <app>
+                	<lem>quacumque</lem>
+                	<rdg wit="#S" type="correction-substitution">
+                		<subst>
+                			<del>quancumque</del>
+                			<add>quacumque</add>
+                		</subst>
+                	</rdg>
+                	<rdg wit="#T">quandoque</rdg> <!-- dbcheck -->
+                </app>. 
+              	Nam species 
+              	<app>
+              		<lem>rei</lem>
+              		<rdg wit="#S" type="variation-absent"></rdg>
+              	</app> sensibilis in organo sensus exterioris non 
                 minus dependet a receptivo sensibili quam volitio ab intellectione. 
                 Sed hoc non obstante licet res extra requiratur 
-                ad causandum speciem istam et visionem consequentem, tamen illa species, 
-                postquam est causata, per aliquod tempus potest conservari sine praesentia 
-                istius rei sensibilis, sicut patet per experientiam perspectivae de claudente 
-                oculos postquam vidit res lucidas. Et <name ref="#Augustine">Augustinus</name> idem 
+                ad causandum speciem istam et visionem consequentem, 
+              	<app>
+              		<lem>tamen</lem>
+              		<rdg wit="#M">tam</rdg>
+              	</app> 
+              	illa <!-- T has "ista" --> 
+              	species, 
+                postquam est causata, 
+                per aliquod tempus potest <!-- M and V have "potest per aliuqod tempus --> 
+                conservari sine praesentia 
+                istius rei sensibilis, sicut patet per experientiam perspectivae 
+              	<app>
+              		<lem>de claudente</lem>
+              		<rdg wit="#V">ad caludentes</rdg>
+              	</app> 
+                oculos postquam vidit res 
+              	<app>
+              		<lem>lucidas</lem>
+              		<rdg wit="#M">suades</rdg>
+              	</app>. Et <name ref="#Augustine">Augustinus</name> 
+              	<app>
+              		<lem>idem</lem>
+              		<rdg wit="#S #M">ibidem</rdg> <!-- dbcheck -->
+              	</app> 
                 dicit.</p>
               
-              <p xml:id="b1d3qun-idqsie"><supplied>Octavum.</supplied> Item dato quod requiratur cogitatio actualis obiecti illius quod 
+              <p xml:id="b1d3qun-idqsie"><supplied>Octavum.</supplied> Item dato quod requiratur cogitatio actualis 
+              	<app>
+              		<lem>obiecti</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	illius quod 
                 debet esse volitum, ita quod volitio non esset nisi intellectio praecessisset 
-                actum, non videtur illud semper actualiter incessere ad hoc quod homo 
-                libere et meritorie vadat ad ecclesiam. Sed sufficere videtur quod vel 
-                tunc actu sic vel praecessit, quod nisi praecessisset illuc, non misset[?]. 
-                Nisi enim istud sufficeret, sequitur quod omnis distinctio tolleret meritum 
-                executionis, et tunc ex hoc informa argui sic potest, 
-                non plus requirit actus voluntatis intellectionem quam libera exsecutio 
-                exterior actum voluntatis, sed ista exsecutio exterior 
-                non requirit semper quod actus voluntatis. Tunc actu sit, igitur etc.</p>
+                actum, non videtur 
+                <app>
+                	<lem>illud</lem>
+                	<rdg wit="#M" type="variation-absent"/>
+                	<rdg wit="#V #T">eam</rdg>
+                </app> 
+                semper actualiter
+              	<app>
+                	<lem>
+                		<app> 
+                			<lem>coexigere</lem>
+                			<rdg wit="#V">
+                				<subst>
+                					<del>exigere</del>
+                					<add>coexigere</add>
+                				</subst>
+                			</rdg>
+                			<rdg wit="#M">eam exigere</rdg>
+                		</app> 
+                		<app>
+                			<lem>se</lem>
+                			<rdg wit="#M">sicut</rdg>
+                		</app> 
+                		nec actus voluntatis 
+                		<app>
+                			<lem n="voluntatis"/>
+                			<rdg wit="#M" type="variation-present">non</rdg>
+                		</app> 
+                		requiritur semper 
+                		<app>
+                			<lem>actus</lem>
+                			<rdg wit="#M">actu</rdg>
+                		</app> 
+                		existere</lem>
+                	<rdg wit="#S">intelligere</rdg> <!-- transcription unclear -->
+                	<rdg wit="#T">inde?re</rdg> <!-- transcription unclear -->
+                </app>
+              	ad hoc quod homo 
+                libere et meritorie vadat ad ecclesiam. Sed sufficere videtur 
+                quod vel tunc actu 
+                <app> <!-- best reading unclear -->
+                	<lem>sic vel</lem>
+                	<rdg wit="#M">vel quod sic</rdg>
+                	<rdg wit="#V">sit vel quod sic</rdg>
+                	<rdg wit="#T">sic vel sic</rdg>
+                </app>
+                praecessit, quod nisi praecessisset 
+              	<app>
+              		<lem>
+              			<app>
+              				<lem>illuc</lem>
+              				<rdg wit="#M">illae</rdg>
+              				<rdg wit="#T">illud</rdg>
+              			</app>, 
+              			non 
+              			<app> <!-- best reading unclear; dbcheck transcriptions -->
+              				<lem>iuisset</lem>
+              				<rdg wit="#M #T">misset</rdg>
+              			</app>
+              		</lem>
+              		<rdg wit="#V" type="variation-absent"/>
+              	</app>. 
+                Nisi enim istud sufficeret, sequitur 
+                <app>
+                	<lem n="sequitur"/>
+                	<rdg wit="#M">enim</rdg>
+                </app>
+                quod omnis 
+              	<app>
+              		<lem>distinctio</lem>
+              		<rdg wit="#S">distractio</rdg> <!-- probably an error in S that needs to be fixed -->
+              	</app> 
+              	tolleret 
+              	<app>
+              		<lem>meritum</lem>
+              		<rdg wit="#M">mentum</rdg>
+              	</app> 
+                executionis, et tunc 
+              	<app>
+              		<lem>ex hoc</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	informa <!-- V and T have "in forma" --> 
+              	<app>
+              		<lem>argui sic potest</lem>
+              		<rdg wit="#M">potest ex hoc argui</rdg> <!-- this is connected to M omission of "ex hoc" above -->
+              		<rdg wit="#T">potest sic argui</rdg>
+              		<rdg wit="#V">potest argui sic</rdg>
+              	</app>,  
+                non plus requirit actus voluntatis intellectionem quam libera 
+                executio <!-- S and M have "exsecutio" --> 
+                exterior actum voluntatis, sed ista 
+                executio <!-- S and M have "exsecutio" -->
+                exterior 
+                non requirit 
+              	<app>
+              		<lem>semper</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	quod actus voluntatis. 
+              	Tunc actu sit, igitur etc.</p>
               
-              <p xml:id="b1d3qun-ivqvni"><supplied>Nonum.</supplied> Item videtur quod saltem respectu alicuius obiecti habere posset voluntas actum 
-                suum, licet pro tunc illud obiectum non sit obiectum alicuius intellectionis. 
+              <p xml:id="b1d3qun-ivqvni"><supplied>Nonum.</supplied> Item videtur quod saltem respectu alicuius obiecti 
+              	<app> <!-- V and M reading seem best; as they introduce and indirect statement -->
+              		<rdg wit="#V">posset voluntas habere</rdg>
+              		<rdg wit="#M">potest voluntas habere</rdg>
+              		<rdg wit="#S">habere posset voluntas</rdg>
+              		<rdg wit="#T">posset habere voluntas</rdg>
+              	</app> 
+              	actum 
+                suum, licet pro tunc illud obiectum non sit 
+              	<app>
+              		<lem n="sit"/>
+              		<rdg wit="#T" type="variation-present">verum</rdg>
+              	</app> 
+              	<app> <!-- could this actuall be a correction of verum; see above app. -->
+              		<lem>obiectum</lem>
+              		<rdg wit="#T" type="correction-addition">
+              			<add>obiectum</add>
+              		</rdg>
+              	</app> alicuius intellectionis. 
                 Nam quando aliqua intellectio est 
                 <app>
                   <lem>in</lem>
@@ -3545,36 +3722,168 @@
                   </rdg>
                 </app> 
                 intellectu circumscripta omni alia 
-                intellectione potest voluntas velle istam intellectionem, et tamen intellectio 
-                isto casu posito non est obiectum intellectus actualiter, igitur. Probo assumptum 
-                quia cogitatio ista potest esse conveniens, licet sit respectu alicuius odibilis 
+                intellectione potest voluntas velle istam intellectionem, 
+                et tamen intellectio 
+                <app>
+                	<lem n="intellectio"/>
+                	<rdg wit="#T">non est obiectum</rdg> <!-- seems like out of place repetition of what comes below -->
+                </app>
+                isto casu 
+              	<app>
+              		<lem>posito</lem>
+              		<rdg wit="#M">positu</rdg>
+              	</app> 
+              	non est obiectum 
+              	<app>
+              		<lem>intellectum</lem>
+              		<rdg wit="#S">intellectus</rdg> <!-- dbcheck transcription -->
+              	</app> 
+              	actualiter, <!-- V has "actualiter intellectum" --> 
+              	igitur. 
+              	<app> <!-- best reading unclear -->
+              		<lem>Probo assumptum</lem>
+              		<rdg wit="#M #T">probatio assumpti</rdg>
+              	</app> 
+                quia 
+                cognitio <!-- cogitatio in S and M should be normalized to cognitio --> 
+                ista potest esse conveniens, 
+                licet sit respectu alicuius 
+                <app>
+                	<lem n="alicuius"/>
+                	<rdg wit="#V" type="variation-present">obiecti</rdg>
+                </app> 
+              	odibilis 
                 <pb ed="#S" n="83-v" />
                 <cb ed="#S" n="b" /> 
                 et stante ista cognitione voluntas potest delectari sicut patet per experientiam 
-                ista delectatio non est respectu obiecti cogitati quia illud imaginatum 
-                non est sibi delectabile per positam, igitur est respectu istius cogitationis, 
-                et per consequens voluntas potest velle istam cogitationem licet istam non 
-                intendat quia delectatio huiusmodi est quoddam velle vel saltem 
+                ista delectatio non est respectu obiecti 
+                cogniti <!-- M still has cogitati and should probably be normalized to cogitati -->  
+                quia illud 
+              	<app>
+              		<lem>imaginatum</lem>
+              		<rdg wit="#M">cognitum</rdg>
+              	</app> 
+                non est sibi delectabile per 
+              	<app>
+              		<lem>positam</lem>
+              		<rdg wit="#V #T">positum</rdg>
+              	</app>, 
+              	<app>
+              		<lem>
+              			<app>
+              				<lem>igitur est</lem>
+              				<rdg wit="#T" type="variation-absent"/>
+              			</app>
+              			respectu</lem>
+              		<rdg wit="#V">igitur respectu est</rdg>
+              	</app> 
+              	istius cogitationis, 
+                et per consequens voluntas potest velle 
+                istam <!-- V has illam --> 
+                cognitionem <!-- V seems to have a correction from cognitionem to cogitationem; T seems to have cogitationem as well; I often have trouble distinguishing between these two words; if this is an important difference; we need to check and review all instances throughout -->  
+                licet istam non 
+                intendat quia delectatio 
+              	<app>
+              		<lem>huiusmodi</lem>
+              		<rdg wit="#T">huius</rdg>
+              	</app> 
+              	est quoddam velle vel saltem 
                 velle aliquid potest esse respectu eiusdem omni alia cogitatione circumscripta 
-                eodem modo posset argui de delectatione sicut de actu voluntatis 
+                eodem modo posset argui de delectatione 
+              	<app> <!-- S seems like best reading -->
+              		<lem>sicut</lem>
+              		<rdg wit="#M #S #T" type="variation-absent"/>
+              	</app> 
+              	de actu voluntatis 
                 non intellectio.</p>
             </div>
             <div>
               <head><supplied>Responsio</supplied></head>
               <!-- double check this paragraph -->
               <p xml:id="b1d3qun-apiivh">Ad primum istorum responsum est inmediate ante
-                ultimam dubitationem vel enim non dicente vult voluntas A nec intellectus 
-                dicente cognoscit sed confuse et indistincte et in communi, et tunc imperat 
+                <app> <!-- difficult; needs dbcheck -->
+                	<lem>ultimam 
+                		<app>
+                			<lem n="ultimam"/>
+                			<rdg wit="#M" type="variation-present">introductum</rdg>
+                			<rdg wit="#T" type="variation-present">reflexionem</rdg>
+                		</app>dubitationem</lem>
+                	<rdg wit="#V" type="variation-absent"/>
+                </app> 
+              	vel enim non 
+              	<app>
+              		<lem>distincte</lem> 
+              		<rdg wit="#M">dicente</rdg> <!-- dbcheck -->
+              	</app> 
+              	<app>
+              		<lem>vult</lem>
+              		<rdg wit="#V">tunc</rdg>
+              	</app> 
+              	voluntas <c>A</c> nec intellectus 
+              	<app>
+              		<lem>distincte</lem> 
+              		<rdg wit="#M">dicente</rdg> <!-- dbcheck -->
+              	</app>  
+              	cognoscit sed confuse et indistincte et in communi, et tunc imperat 
                 rationabiliter voluntas quod distinctius cognoscatur per inquisitionem vel 
-                reflexionem vel simili modo, sicut patet alibi in questione de distinctione 
-                specifica cogitationium[?] quod per imperium voluntatis reflectit se intellectus 
-                super actum rectum per hunc modum attendendum qui agit ubi
+                reflexionem vel simili modo, sicut patet alibi 
+              	<app>
+              		<lem>in</lem>
+              		<rdg wit="#T">de</rdg>
+              	</app> 
+              	questione 
+              	<app>
+              		<lem>de distinctione</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              		<rdg wit="#M">de distincta</rdg>
+              	</app> 
+                specifica 
+              	<unclear>cognitionum</unclear> <!-- quite unclear; dbcheck --> 
+              	<app>
+              		<lem>quod</lem>
+              		<rdg wit="#M">tunc</rdg>
+              	</app> 
+              	per imperium voluntatis 
+              	<app>
+              		<lem>reflectit</lem>
+              		<rdg wit="#M">reflexit</rdg>
+              	</app> 
+              	se intellectus 
+                super actum rectum per hunc modum 
+                <app>
+                	<lem>attendendum qui agit</lem>
+                	<rdg wit="#M #T">attende quod agis</rdg>
+                	<rdg wit="#V">attendendum qui agit</rdg>
+                </app> 
+                ubi
                 operatio quae praecipitur cognosci et attendi in communi cognoscitur 
-                solum quando voluntas imperat eius distinctam considerationem. Si autem voluntas 
-                distincte vult A, tunc non praecipit rationabiliter distinctam cum[?] 
-                cogitationem ipsius primo causari, quia habet eam sed potius habitam continari 
-                vel aliam eiusdem cogitationem causari, puta deffintivam[?] 
-                vel intuitivam vel huiusmodi.</p>
+                solum quando voluntas imperat eius distinctam 
+              	<app>
+              		<lem>considerationem. Si autem voluntas
+              			distincte vult <c>A</c>, tunc non praecipit rationabiliter distinctam</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+              	<app>
+              		<lem n="distinctam"/>
+              		<rdg wit="#S"><unclear>cog</unclear></rdg>
+              	</app>
+                cogitationem ipsius primo causari, quia habet eam sed potius habitam 
+                <app>
+                	<rdg wit="#V #T">continuari</rdg>
+                	<rdg wit="#S">continari</rdg>
+                	<rdg wit="#M">act</rdg>
+                </app> 
+                vel 
+              	<app>
+              		<lem>aliam</lem>
+              		<rdg wit="#T">aliquam <!-- as "alicam" --></rdg>
+              	</app> eiusdem cogitationem causari, puta definitivam 
+                vel 
+              	<app>
+              		<lem>intellectivam</lem>
+              		<rdg wit="#S">intuitivam</rdg> <!-- dbcheck -->
+              	</app> 
+              	vel huiusmodi.</p>
               
               <p xml:id="b1d3qun-asdsoc">Ad secundum dicendum quod oportet voluntatem si quem 
                 actum debet suspendere istis apprehendere distincte, si particulariter et 
