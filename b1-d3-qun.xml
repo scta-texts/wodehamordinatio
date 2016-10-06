@@ -1684,10 +1684,11 @@
             
             <p xml:id="b1d3qun-scihri">
               <app>
-                <lem>Pro secundo articulo</lem>
-                <rdg wit="#T #S" type="variation-absent"/>
+                <lem n="dubium"/>
+                <rdg wit="#M" type="variation-present">Pro secundo articulo</rdg>
+                <rdg wit="#S" type="variation-present">Pro secundo articulo sed</rdg>
               </app>, 
-              contra 
+              Contra 
               <app>
                 <lem>ista</lem>
                 <rdg wit="#S" type="variation-substance">istam</rdg>
@@ -1699,7 +1700,12 @@
                 <rdg wit="#M" type="variation-substance">sumitur</rdg>
               </app>
               quod in substantia 
-              animae aliquo modo, etiam imperfecte, 
+              animae aliquo modo, 
+              <app>
+                <lem>etiam</lem>
+                <rdg wit="#M" type="variation-substance">et</rdg>
+              </app> 
+              imperfecte, 
               <app>
                 <lem>consistat</lem>
                 <rdg wit="#M" type="variation-substance">consistit</rdg>
@@ -1733,7 +1739,17 @@
                 <rdg wit="#T" type="variation-substance">videtur</rdg>
               </app>
               esse consubstantialitas. 
-              Sed inter substantiam animae et 
+              <app>
+                <lem>Sed</lem>
+                <rdg wit="#M" type="correction-addition">
+                  <add place="above-line" hand="#M1">Sed</add>
+                </rdg>
+                <rdg wit="#V" type="correction-addition">
+                  <add place="above-line">Sed</add>
+                </rdg>
+                <rdg wit="#T" type="variation-absent"/>
+              </app> 
+              inter substantiam animae et 
               <app>
                 <lem>illos</lem>
                 <rdg wit="#M" type="variation-substance">illius</rdg>
@@ -1742,14 +1758,29 @@
             </p>
             
             <p xml:id="b1d3qun-tisine">
-              Item, secundum 
+              Item, 
+              <app>
+                <lem>ut supra</lem>
+                <rdg wit="#S" type="variation-absent" />
+              </app>
+              secundum 
+              <app>
+                <lem n="secundum"/>  
+                <rdg wit="#S" type="variation-present">beatum</rdg>
+              </app>
               <ref corresp="#b1d3qun-Qidirei">
                 <name ref="#Augustine">Augustinum</name> 
-                XIV <title ref="#deTrinitate">De Trinitatis</title>, 
+                <app>
+                  <lem>XIV</lem>
+                  <rdg wit="#M" type="variation-substance">XVIII</rdg>
+                </app> 
+                <title ref="#deTrinitate">De Trinitate</title>, 
                 c. 3, de magnis:
               </ref> 
               <cit>
-                <quote xml:id="b1d3qun-Qidirei">imago Dei in creatura rationali est immortalis,</quote>
+                <quote xml:id="b1d3qun-Qidirei">
+                  imago Dei in creatura rationali est immortalis,
+                </quote>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
@@ -1758,21 +1789,70 @@
                   sive intellectuali, imago creatoris, 
                   quae immortaliter immortalitati eius est insita."
                 </bibl>
-              </cit> 
-              sed isti 
-              actus secundi non sunt immortales nec incorporales.</p>
+              </cit>,
+              sed isti actus secundi non sunt immortales nec 
+              <app>
+                <lem>incorruptibiles</lem>
+                <rdg wit="#M #S" type="variation-substance">incorporales</rdg>
+              </app>,
+              <app>
+                <lem>igitur</lem>
+                <rdg wit="#S" type="variation-absent"/>
+              </app>.
+            </p>
             
-            <p xml:id="b1d3qun-qisqfe">Quarto. Item, secundum hoc posset 
-              in mente rationali inveniri imago respectu cuiuscumque obiecti intelligibilis et diligibilis, cuius
-              oppositum innuit 
+            <p xml:id="b1d3qun-qisqfe">
+              Item, secundum hoc posset in mente rationali 
+              <app>
+                <lem>inveniri</lem>
+                <rdg wit="#M" type="variation-substance">invenire</rdg>
+              </app>
+              imago respectu 
+              <app>
+                <lem>cuiuslibet</lem>
+                <rdg wit="#S" type="variation-substance">cuiuscumque</rdg>
+              </app>
+              <app>
+                <lem>obiecti intelligibilis et diligibilis</lem>
+                <rdg wit="#M" type="variation-substance">obiecti intelligibilis et divisibilis</rdg>
+                <rdg wit="#V" type="variation-inversion">intelligibilis obiecti et 
+                  di<lb ed="#V" n="45"/>ligibilis
+                </rdg>
+              </app>,
+              cuius oppositum innuit 
               <ref corresp="#b1d3qun-Qiesdip">
-                <name ref="#Augustine">Augustinus</name> XII <title ref="#deTrinitate">De Trinitate</title>, c. 4,
-              </ref> 
+                <name ref="#Augustine">Augustinus</name> 
+                XII <title ref="#deTrinitate">De Trinitate</title>, c. 4 
+                <app>
+                  <lem>de magnis</lem>
+                  <rdg wit="#S #T" type="variation-absent"/>
+                </app>
+              </ref>:
               <cit>
-                <quote xml:id="b1d3qun-Qiesdip"><seg type="qs">in eo solo</seg> inquit, <seg type="qs">quod ad 
-                  contemplationem pertinet aeternorum, non <supplied>solum</supplied> trinitas sed etiam imago Dei. In hoc 
-                  autem quod derivatum est in actione temporalium, etiamsi trinitas possit,  
-                  non tamen imago Dei inveniri potest.</seg>
+                <quote xml:id="b1d3qun-Qiesdip">
+                  <seg type="qs">
+                    in eo solo
+                  </seg> 
+                  <app>
+                    <lem>inquit</lem>
+                    <rdg wit="#M" type="variation-absent"/>
+                  </app>, 
+                  <seg type="qs">
+                    quod ad contemplationem pertinet aeternorum,
+                    non <supplied>solum</supplied> trinitas sed 
+                    <app>
+                      <lem>etiam</lem>
+                      <rdg wit="#M" type="variation-substance">et</rdg>
+                    </app>
+                    imago Dei. 
+                    In hoc autem quod 
+                    <app>
+                      <lem>derivatum</lem>
+                      <rdg wit="#S" type="variation-substance">determinatum</rdg>
+                    </app>
+                    est in actione temporalium, 
+                    etiamsi trinitas possit, non tamen imago Dei inveniri potest.
+                  </seg>
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
@@ -1783,30 +1863,136 @@
               Et 
               <ref corresp="#b1d3qun-Qnpeqfe">
                 XIV <title ref="#deTrinitate">De Trinitate</title>, 
-                c. 23 de parvis,</ref> 
+                c. 23 de parvis,
+              </ref> 
               dicit quod 
               <cit>
-                <quote xml:id="b1d3qun-Qnpeqfe">non propterea est trinitas mentis imago Dei, quia sui 
-                  meminit mens et intelligit ac diligit se, sed quia meminire et intelligere 
-                  et amare potest eum a quo facta est.</quote>
+                <quote xml:id="b1d3qun-Qnpeqfe">
+                  non propterea est Trinitas mentis imago Dei, quia sui 
+                  meminit 
+                  <app>
+                    <lem>mens</lem>
+                    <rdg wit="#V" type="correction-addition">
+                      <add place="above-line">
+                        mens
+                      </add>
+                    </rdg>
+                  </app>,
+                  et intelligit ac diligit 
+                  <!-- this horrible app just states that the "se; sed quia" is absent in #M.
+                  However, the "quia" is corrected-added in #V-->
+                  <app>
+                    <lem>se; sed
+                      <app>
+                        <lem>quia</lem>
+                        <rdg wit="#V" type="correction-addition">
+                          <add place="above-line">quia</add>
+                        </rdg>
+                      </app>
+                    </lem>
+                    <rdg wit="#M" type="variation-absent"/>
+                  </app>
+                  <app>
+                    <lem>
+                      <sic>meminire</sic>
+                      <!-- Apparently "meminire" was sometimes used instead of "meminisse", 
+                        which is the correct, classical form. See Du Cange, vol. 5, p. 335-->
+                    </lem>
+                    <rdg wit="#M" type="variation-substance">memorare</rdg>
+                  </app>
+                  <app>
+                    <lem>et</lem>
+                    <rdg wit="#T" type="variation-absent"/>
+                  </app>
+                  intelligere et amare 
+                  <app>
+                    <lem>potest</lem>
+                    <rdg wit="#M" type="variation-absent"/>
+                  </app>
+                  eum a quo facta 
+                  <app>
+                    <lem>est</lem>
+                    <rdg wit="#T" type="variation-substance">sunt</rdg>
+                  </app>.
+                  <!-- #V has: "intelligere et memimire et amare", 
+                    but I didn't know how to encode this inversion 
+                    without destroying the previous apps... -->
+                </quote>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
-                  XIV, c. 12, n. 15 (CCSL 50A:442-443; PL 42:1048)
+                  XIV, c. 12, n. 15 (CCSL 50A:442-443; PL 42:1048):
+                  "Haec igitur trinitatis mentis non propterea Dei est imago, 
+                  quia sui meminit mens, et intelligit ac diligit se; 
+                  sed quia potest etiam meminisse, et intelligere, 
+                  et amare a quo facta est."
                 </bibl>
               </cit>
             </p>
-            <p xml:id="b1d3qun-qqscie">Quinto. Quinto, quia eadem ratione in parte 
-              sensitiva esset imago Trinitatis, nam etiam ibi substantia animae cum obiecto principat 
-              cognitionem sensitivam et cum cognitione actum apprehendi sensitivum. Ibi ergo aeque 
-              est originatio et ordo conformis Trinitati sicut in intellectu, dato quod 
-              sic sit assignanda ratio imaginis. Consequens non conceditur igitur, etc.</p>
+            
+            <p xml:id="b1d3qun-qqscie">
+              <supplied>Item,</supplied>
+              <app>
+                <lem n="Item," />
+                  <rdg wit="#T #M #V #S" type="variation-present">Quinto</rdg>
+                  <note resp="#NV">
+                    Supplied "Item" and deleted "Quinto" for the sake of consistency.
+                  </note>
+              </app>
+              quia eadem ratione in parte sensitiva esset imago Trinitatis, 
+              nam etiam
+              <app>
+                <lem>ibi</lem>
+                <rdg wit="#M" type="variation-substance">sibi</rdg>
+              </app>
+              substantia animae cum obiecto 
+              <app>
+                <lem>principat</lem>
+                <rdg wit="#M" type="variation-substance">comprincipiat</rdg>
+              </app>
+              cognitionem 
+              <app>
+                <lem>sensitivam</lem>
+                <rdg wit="#T #M #V" type="variation-absent"/>
+              </app>
+              et cum cognitione actum apprehendi sensitivum ibi,
+              igitur aeque 
+              <app>
+                <lem>est originatio</lem>
+                <rdg wit="#M" type="correction-substitution">
+                  <subst>  
+                    <del>oridgniatio</del>
+                    <add place="above-line">est originatio</add>
+                  </subst>
+                </rdg>
+              </app>
+              et ordo conformis Trinitati sicut 
+              <app>
+                <lem>in</lem>
+                <rdg wit="#V #T" type="variation-absent"/>
+              </app>
+              intellectu, 
+              dato quod 
+              <app>
+                <lem>sit sic</lem>
+                <rdg wit="#S" type="variation-inversion">sic sit</rdg>
+              </app>
+              assignanda ratio imaginis. 
+              Consequens non conceditur, 
+              <app>
+                <lem>igitur</lem>
+                <rdg wit="#M" type="variation-absent"/>
+              </app>
+              etc.
+            </p>
+            
             <div>
-              <head><supplied>Responsio ad argumenta pro primo dubio</supplied></head>
-              <p xml:id="b1d3qun-rapaoe">Responsio ad primum. Ad primum verum est 
-                quod ad salvandum rationem imaginis in mente rationali, aliqui 
-                ponit aliquam distinctionem vel non-identitatem inter substantiam animae et intellectum 
-                et voluntatem, sicut 
+              <head>
+                <supplied>Responsio ad argumenta pro primo dubio</supplied>
+              </head>
+              
+              <p xml:id="b1d3qun-rapaoe">
+                Responsio ad primum. Ad primum verum est quod ad salvandum rationem imaginis in mente rationali, aliqui ponit aliquam distinctionem vel non-identitatem inter substantiam animae et intellectum et voluntatem, sicut 
                 <cit>
                   <ref>
                     <name ref="#Scotus">Scotus</name> in II, distinctione 16.
