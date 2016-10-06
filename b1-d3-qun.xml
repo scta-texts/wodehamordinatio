@@ -3886,26 +3886,140 @@
               	vel huiusmodi.</p>
               
               <p xml:id="b1d3qun-asdsoc">Ad secundum dicendum quod oportet voluntatem si quem 
-                actum debet suspendere istis apprehendere distincte, si particulariter et 
-                distincte istum, vel in communi, si in communi. Et ideo assumitur ibi falsum illud quod 
-                additur de confirmatione verum est, sed hoc non est velle 
+                actum debet suspendere 
+              	<app>
+              		<lem>istis</lem>
+              		<rdg wit="#M">istum</rdg>
+              	</app> 
+              	apprehendere distincte, si particulariter et 
+                distincte istum, vel 
+              	<app>
+              		<lem>in</lem>
+              		<rdg wit="#M">illum</rdg>
+              	</app> 
+              	communi, si in communi. Et ideo assumitur 
+              	ibi falsum illud <!-- M has "illud falsum ibi" --> 
+              	quod 
+                additur de 
+              	<app>
+              		<lem>confirmatione</lem>
+              		<rdg wit="#M #V #T">conformatione</rdg> <!-- dbcheck; possible transcription error -->
+              	</app> 
+              	verum est, sed hoc non est velle 
                 cogitationem sed obiectum cognitionis.</p>
               
-              <p xml:id="b1d3qun-atapee"> Ad tertium assumptum falsum est quia non vult 
-                effectum suum quemlibet quem libere producit sicut obiectum quodlibet 
-                quod diligit quem, tamen si vellet et illum proportionaliter cognosceret nisi 
-                quando intellectus dictant aliquid esse diligendum et voluntas conformat se 
+              <p xml:id="b1d3qun-atapee">Ad tertium assumptum falsum est quia non vult 
+                effectum suum 
+                <app>
+                	<lem>quemlibet quem</lem>
+                	<rdg wit="#M">quaelibet quae</rdg>
+                	<rdg wit="#M">quemlibet quae</rdg>
+                </app> 
+                libere producit sicut obiectum 
+              	<app>
+              		<lem>quodlibet</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+                quod diligit quem, tamen si vellet et 
+                illum <!-- V and T have "istum" --> 
+                proportionaliter cognosceret nisi 
+                quando intellectus 
+              	<app>
+              		<lem>dictat</lem>
+              		<rdg wit="#S">dictant</rdg>
+              	</app> 
+              	aliquid esse diligendum et voluntas conformat se 
                 dictamini illi, tunc enim praecognoscitur eius effectus.</p>
               
-              <p xml:id="b1d3qun-aqconv">Ad quartum concedetur assumptum 
-                et cum quaeris aut obediet sibi intellectus etc., dicendum quod si intellectus 
-                debeat sibi obedire, oportet quod ipsamet obediat sibi ipsi cessando 
-                ab omni volitione, et ab actus imperati contradictione quia 
-                omnis actus volitionis essentialiter et naturaliter dependet a cogitatione, 
-                si detur alia pars non sequitur quin ipsa sit libera quia potest cessare 
-                ab actu quolibet intelligendi, forte saltem non habet libertatem 
+              <p xml:id="b1d3qun-aqconv">Ad quartum 
+              	<app>
+              		<lem>concedatur</lem>
+              		<rdg wit="#M">concedo</rdg>
+              		<rdg wit="#S">concedetur</rdg> <!-- dbcheck -->
+              	</app> assumptum 
+                et cum 
+              	<app>
+              		<lem>quaeris</lem>
+              		<rdg wit="#T">quaerit</rdg>
+              	</app> 
+              	aut obediet 
+              	<app>
+              		<lem>sibi</lem>
+              		<rdg wit="#M">ei</rdg>
+              	</app> 
+              	intellectus etc., <!-- this is an "incipit" to the earlier argument --> 
+              	dicendum quod si intellectus 
+                debeat sibi obedire, oportet quod ipsamet obediat sibi 
+              	<app>
+              		<lem>ipsi</lem>
+              		<rdg wit="#M">ipsi</rdg>
+              	</app> 
+              	<app>
+              		<lem n="ipsi"/>
+              		<rdg wit="#T">quod</rdg>
+              	</app>
+              	cessando 
+                ab omni volitione, et ab 
+              	<app>
+              		<lem>actus</lem> <!-- dbcheck -->
+              		<rdg wit="#M #T">actu</rdg> <!-- M and T could be confusing "actus" with the object of the preoposition instead of contradictione; but T's inclusion of "cum" below complicates this.  -->
+              	</app> 
+              	<app>
+              		<lem n="actus"></lem>
+              		<rdg wit="#T" type="variation-present">cum</rdg> <!-- if this is correct then the above app should probably be changed to "actu" following M an T -->
+              	</app>
+              	imperati 
+              	<app>
+              		<lem>contradictione</lem>
+              		<rdg wit="#T">continuatione</rdg>
+              	</app> 
+              	quia 
+                omnis actus volitionis 
+                <app>
+                	<lem n="volitionis"/>
+                	<rdg wit="#V">
+                		<del>cognitionis</del>
+                	</rdg>
+                </app> 
+              	<app>
+              		<lem>essentialiter</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	<app>
+              		<lem>
+              			<app>
+              				<lem>et</lem>
+              				<rdg wit="#M" type="variation-absent"/> <!-- could be connected to above -->
+              			</app> 
+              			naturaliter</lem>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>et naturaliter</add>
+              		</rdg>
+              	</app> dependet a cogitatione, 
+                si detur alia pars non sequitur quin ipsa sit libera quia 
+                <app>
+                	<lem n="quia"/>
+                	<rdg wit="#M #V">ipsa</rdg>
+                </app> 
+              	potest cessare 
+                ab actu 
+                <app> <!-- not sure if this should be included or not -->
+                	<lem n="actu"/>
+                	<rdg wit="#V">propositio et simul vel consequenter ab actu</rdg> <!-- dbcheck transcription -->
+                </app>
+                quolibet intelligendi, forte saltem non habet libertatem 
                 cessandi ab omni intellectione nisi cessando simul vel prius 
-                ab omni non volitione.</p>
+                ab omni 
+              	<app>
+              		<lem>non</lem>
+              		<rdg wit="#M #V" type="variation-absent"/>
+              	</app> 
+              	volitione 
+              	<app>
+              		<lem><c>A</c></lem>
+              		<rdg wit="#M #V" type="variation-absent"/>
+              	</app>.
+              </p>
               
               <p xml:id="b1d3qun-aqmeip">Ad quintum minor falsa est de causa 
                 partiali ad varios effectus determinabili libere ab alia causa sicut 
