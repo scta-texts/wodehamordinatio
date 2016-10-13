@@ -1724,10 +1724,15 @@
               </app>. 
               Sed in substantia animae nulla est distinctio, 
               igitur nullo modo habet rationem imaginis.
-            </p>
-            
+            </p>    
             
             <p xml:id="b1d3qun-siqcie">
+              <app>
+                <lem n="imaginis."/>
+                <rdg wit="#S" type="correction-addition">
+                  <add place="margin">Secundo</add>
+                </rdg>
+              </app>
               Item, quod 
               <app> <!-- checked -->
                 <lem>nec</lem>
@@ -1764,6 +1769,12 @@
             </p>
             
             <p xml:id="b1d3qun-tisine">
+              <app>
+                <lem n="etc."/>
+                <rdg wit="#S" type="correction-addition">
+                  <add place="margin">Tertio</add>
+                </rdg>
+              </app>
               Item, 
               <app>
                 <lem>ut supra</lem>
@@ -1808,6 +1819,12 @@
             </p>
             
             <p xml:id="b1d3qun-qisqfe">
+              <app>
+                <lem n="igitur."/>
+                <rdg wit="#S" type="correction-addition">
+                  <add place="margin">Tertio</add>
+                </rdg>
+              </app>
               Item, secundum hoc posset in mente rationali 
               <app>
                 <lem>inveniri</lem>
@@ -1937,13 +1954,17 @@
             </p>
             
             <p xml:id="b1d3qun-qqscie">
-              <supplied>Item,</supplied>
               <app>
-                <lem n="Item," />
-                  <rdg wit="#T #M #V #S" type="variation-present">Quinto</rdg>
-                  <note resp="#NV">
-                    Supplied "Item" and deleted "Quinto" for the sake of consistency.
-                  </note>
+                <lem><supplied>Item,</supplied></lem>
+                <rdg wit="#S" type="correction-addition">
+                  <add place="margin">Quinto</add>
+                </rdg>
+                <rdg wit="#T #M #V" type="variation-substance">
+                  Quinto
+                </rdg>
+                <note resp="#NV">
+                  Supplied "Item" and deleted "Quinto" for the sake of consistency with the list.
+                </note>
               </app>
               quia eadem ratione in parte sensitiva esset imago Trinitatis, 
               nam etiam
@@ -1998,13 +2019,31 @@
               </head>
               
               <p xml:id="b1d3qun-rapaoe">
-                Responsio ad primum. Ad primum verum est quod ad salvandum rationem imaginis in mente rationali, aliqui ponit aliquam distinctionem vel non-identitatem inter substantiam animae et intellectum et voluntatem, sicut 
+                <app>
+                  <lem n="dubio"/> <!-- should this be "etc."? -->
+                  <rdg wit="#S" type="correction-addition">
+                    <add place="margin">Responsio ad primum</add>
+                  </rdg>
+                  <rdg wit="#T" type="correction-addition">
+                    <add place="margin">Ad primum</add>
+                  </rdg>
+                </app> 
+                Ad primum verum est quod ad salvandum rationem imaginis in mente
+                rationali, aliqui 
+                <app>
+                  <lem>ponunt</lem>
+                  <rdg wit="#S" type="variation-substance">ponit</rdg>
+                </app>
+                aliquam distinctionem vel non identitatem 
+                inter substantiam animae et intellectum et voluntatem, sicut 
                 <cit>
                   <ref>
                     <name ref="#Scotus">Scotus</name> in II, distinctione 16.
                   </ref>
                   <bibl>
-                    <name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. II, d. 16, pars. ?, q. ? (Vatican ?:??)
+                    <name ref="#Scotus">Iohannes Duns Scotus</name>, 
+                    <title>Ordinatio</title>, 
+                    Bk. II, d. 16, pars. ?, q. ? (Vatican ?:??)
                   </bibl>
                 </cit> 
                 Sed per eundem ibidem nulla ratio 
