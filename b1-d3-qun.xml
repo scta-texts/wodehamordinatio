@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  
+<!--
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 -->
-
-<?xml-model href="/home/nivaca/Wodeham/lombardpress-schema/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="/home/nivaca/Wodeham/lombardpress-schema/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
+  <?xml-model href="https://raw.githubusercontent.com/nivaca/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/nivaca/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -1955,7 +1953,7 @@
             
             <p xml:id="b1d3qun-qqscie">
               <app>
-                <lem><supplied>Item,</supplied></lem>
+                <lem><supplied>Item,</supplied></lem> <!-- notice the comma -->
                 <rdg wit="#S" type="correction-addition">
                   <add place="margin">Quinto</add>
                 </rdg>
@@ -2020,7 +2018,7 @@
               
               <p xml:id="b1d3qun-rapaoe">
                 <app>
-                  <lem n="dubio"/> <!-- should this be "etc."? -->
+                  <lem n="dubio"/> <!-- should this be 'n="etc."'? -->
                   <rdg wit="#S" type="correction-addition">
                     <add place="margin">Responsio ad primum</add>
                   </rdg>
@@ -2034,11 +2032,20 @@
                   <lem>ponunt</lem>
                   <rdg wit="#S" type="variation-substance">ponit</rdg>
                 </app>
-                aliquam distinctionem vel non identitatem 
+                aliquam distinctionem 
+                <app>
+                  <lem>vel non identitatem</lem>
+                  <rdg wit="#T" type="variation-absent"/>
+                </app>
                 inter substantiam animae et intellectum et voluntatem, sicut 
                 <cit>
                   <ref>
-                    <name ref="#Scotus">Scotus</name> in II, distinctione 16.
+                    <name ref="#Scotus">Scotus</name> in 
+                    <app>
+                      <lem>II</lem>
+                      <rdg wit="#M" type="variation-substance">IV</rdg>
+                    </app>,
+                    distinctione 16.
                   </ref>
                   <bibl>
                     <name ref="#Scotus">Iohannes Duns Scotus</name>, 
@@ -2046,8 +2053,22 @@
                     Bk. II, d. 16, pars. ?, q. ? (Vatican ?:??)
                   </bibl>
                 </cit> 
-                Sed per eundem ibidem nulla ratio 
-                potest talem distinctionem ibi probare sufficienter, 
+                <pb ed="#V" n="107-v" />
+                <app>
+                  <lem>Sed</lem>
+                  <rdg wit="#M" type="variation-substance" />
+                </app> 
+                per eundem 
+                <app>
+                  <lem>ibidem</lem>
+                  <rdg wit="#S" type="variation-substance">ibi</rdg>
+                </app>
+                nulla ratio 
+                <app>
+                  <lem>potest talem distinctionem ibi</lem>
+                  <rdg wit="#M #V" type="variation-inversion">potest ibi talem distinctionem</rdg>
+                </app> 
+                probare sufficienter, 
                 <cit>
                   <ref>ut supra tetigi, ultima 
                     questione primae distinctionis.</ref>
@@ -2056,9 +2077,25 @@
                 Nec ad salvandum imaginem videtur mihi hoc necessarium, quia 
                 si plures potentiae essent idem realiter, non salvaretur inter illas potentias 
                 aliqua originatio, etc.</p>
+              
               <p xml:id="b1d3qun-sqeesa">Sed quia ego non teneo talem distinctionem 
-                inter potentias animae, dico cum <name ref="#Scotus">Doctore Subtili</name> et <name ref="#Lombard">Magistri</name> in littera, in ista 
-                distinctione 3, quod non potest reperiri in nobis similitudo imaginis ad 
+                inter potentias animae, dico cum 
+                <ref>
+                  <name ref="#Scotus">Doctore Subtili</name>
+                  <bibl>
+                    <name ref="#Scotus">Iohannes Duns Scotus</name>, 
+                    <title>Ordinatio</title>, 
+                    Bk. II, d. 16, pars. ?, q. ? (Vatican ?:??)
+                  </bibl>
+                </ref> et 
+                <ref><name ref="#Lombard">Magistro</name> 
+                  in littera, in ista 
+                  distinctione 3,
+                <bibl>
+                  <title ref="#Sentences">Sententiarum</title>
+                </bibl>
+                </ref> 
+                quod non potest reperiri in nobis similitudo imaginis ad 
                 plenum, quia 
                 <cit>
                   <ref>secundum <name ref="#Lombard">Magistrum</name></ref>
