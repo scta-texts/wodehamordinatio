@@ -4022,68 +4022,423 @@
               </p>
               
               <p xml:id="b1d3qun-aqmeip">Ad quintum minor falsa est de causa 
-                partiali ad varios effectus determinabili libere ab alia causa sicut 
+                partiali 
+                <app> <!-- dbcheck; not sure if this should be included or not -->
+                	<lem n="partiali"/>
+                	<rdg wit="#V" type="correction-addition">
+                		<add>illimitata</add>
+                	</rdg>
+                </app>
+              	ad varios effectus determinabili libere ab alia
+                <!-- V also seems to have a lone "l" here; needs dbcheck -->
+                <app>
+                	<lem>causa</lem>
+                	<rdg wit="#V">concausa</rdg>
+                </app> 
+              	sicut 
                 est in proposito.</p>
               
-              <p xml:id="b1d3qun-asndca">Ad sextum negandum est assumptum. Et ad probationem dicendum quod 
-                habitibus uti non volumus nisi cum de eorum usu confuse vel 
-                distincte cogitamus actualiter.</p>
+              <p xml:id="b1d3qun-asndca">Ad sextum 
+              	negandum est assumptum. <!-- V has "assumptum negandum est --> 
+              	Et ad probationem dicendum 
+              	<app> 
+              		<lem>est</lem> <!-- even though V is the only one with "est" I prefer the more explicit reading -->
+              		<rdg wit="#S #T #V" type="variation-absent"/>
+              	</app> 
+              	quod 
+                habitibus uti 
+                <app>
+                	<lem>non volumus</lem>
+                	<rdg wit="#T">cum volumus non possumus</rdg>
+                </app> 
+                nisi cum de eorum usu confuse vel 
+                distincte cogitamus 
+                <app>
+                	<lem n="cogitamus"/>
+                	<rdg wit="#M">actu</rdg>
+                </app> 
+              	actualiter.</p>
               
-              <p xml:id="b1d3qun-asdeep">Ad septimum dicendum quodlibet rei sensibilis 
-                species causata in organo sensus exterioris non minus dependeat 
-                in suo fieri a re sensibili quam volitio a voluntate. Prima naturaliter 
-                tamen minus dependeat ab eo in essendo et permanendo in 
+              <p xml:id="b1d3qun-asdeep">Ad septimum dicendum 
+              	species quodlibet rei sensibilis <!-- S alone has "quodlibet rei sensibilis species" --> 
+                causata in organo sensus exterioris non minus dependeat 
+                in suo fieri a re sensibili quam volitio a 
+              	<app> <!-- seems like an important variant; both T and V sense something wrong with "voluntate"; should probably be changed to cognitione or notitia -->
+              		<lem>voluntate</lem>
+              		<rdg wit="#T" type="correction-substitution">
+              			<subst>
+              				<del>voluntate</del>
+              				<add>notitia</add>
+              			</subst>
+              		</rdg>
+              		<rdg wit="#V" type="correction-substitution">
+              			<subst>
+              				<del>voluntate</del>
+              				<add>cognitione</add>
+              			</subst>
+              		</rdg>
+              	</app>. 
+              	Prima naturaliter 
+              	<app>
+              		<lem>tamen</lem>
+              		<rdg wit="#M">cum</rdg> <!-- dbcheck -->
+              		<rdg wit="#T" type="correction-addition"> <!-- this is a little out of spec; can correction-addition allow for only part of the rdg to be added; at present this may cause a problem in processing--> 
+              			<add>cum</add> tamen
+              		</rdg>
+              	</app>
+                minus 
+              	<app>
+              		<lem>dependeat</lem>
+              		<rdg wit="#M">dependet</rdg>
+              	</app> 
+              	ab eo in essendo et permanendo 
+              	<app>
+              		<lem n="permanendo"/>
+              		<rdg wit="#M #T" type="variation-present">saltem</rdg>
+              	</app>in 
                 aliquo subiecto. Unde etiam aliqui ponunt quod species in organo imaginativae 
-                natae sunt ibidem permanere sine re sensibili cuius 
-                sunt species et in organo sensus exterioris aliquantulum et in medio 
-                exteriori. Volitio autem non minus requirit in suo primo fieri et 
-                in suo toto conservari intellectionem a qua in essendo naturaliter 
-                dependet quam radius solis in medio requirit solem et 
+                natae sunt 
+              	<app>
+              		<lem>ibidem</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	<app>
+              		<lem n="ibidem"/>
+              		<rdg wit="#M">naturaliter credere</rdg>
+              		<rdg wit="#M">naturaliter</rdg>
+              	</app>
+              	permanere sine re sensibili cuius 
+                sunt species et in organo sensus exterioris aliquantulum 
+              	<app>
+              		<lem>et</lem>
+              		<rdg wit="#M #T">sed</rdg>
+              		<rdg wit="#V">licet</rdg>
+              	</app> 
+              	in medio 
+                <app>
+                	<lem>exteriori. 
+                		<app>
+                			<lem>Volitio autem non</lem>
+                			<rdg wit="#T">non ideo aut</rdg> <!-- dbcheck -->
+                			<rdg wit="#M">non volitio autem non</rdg> <!-- dbcheck; likely transcription error -->
+                			<!-- it is tempting to want to include V here; even though V is represented in the outer reading -->
+                		</app> 
+                		minus requirit in suo primo fieri et 
+                		in suo toto conservari intellectionem a qua in essendo naturaliter 
+                		dependet quam radius solis in medio</lem>
+                	<rdg wit="#V" type="correction-addition">
+                		<add>exteriori non volitio autem non minus requirit in suo primo 
+                		fieri et in suo toto conservari intellectionem 
+                		a qua in essendo naturaliter dependet quam radius solis in medio</add>
+                	</rdg>
+                </app> 
+              	requirit solem et 
                 eius praesentiam.</p>
               
               <p xml:id="b1d3qun-aodsid">Ad octavum dicendum quod executio exterior non est 
-                libera nisi denominatione extrinseca a libera causatione voluntatis et electionis 
-                interioris a qua causata libere. Ipsa executio huiusmodi 
-                mediante vel immediate naturaliter causatur, et patet quod mediante virtute motiva 
-                sit quod ex sola volitione, nulla executio exterior 
+                libera 
+              	<app>
+              		<lem>nisi</lem>
+              		<rdg wit="#M">rei</rdg>
+              	</app> 
+              	denominatione extrinseca a libera causatione voluntatis et electionis 
+                interioris a qua causata libere. Ipsa executio 
+              	<app>
+              		<lem>huiusmodi</lem>
+              		<rdg wit="#T">huius</rdg>
+              	</app> 
+                mediante <!-- normalization questions over mediate or mediante --> 
+                vel immediate 
+                naturaliter causatur, <!-- T has "causatur naturaliter --> 
+                et patet quod mediante virtute motiva 
+                <app>
+                	<lem>sit </lem>
+                	<rdg wit="#V">fit</rdg> <!-- likely transcription error somewhere -->
+                </app> 
+              	quod <!-- M and V have quia -->
+                ex sola volitione, 
+                nulla executio exterior 
                 provenit sine alia causa vel eadem aliter operante quam volitione 
-                propter quod etiam cessante volitione potest executio quandoque 
-                aliquam diu continari, sicut ad hoc, scilicet, quod substantia nihil operetur extra per 
-                solum velle, est articulus Parisiensis. Et per talia hoc singulariter tribuit 
-                Deo quod hoc dixit ipse et facta sunt, mandavit 
-                seu voluit et creata sunt, et quod omnia quantumque voluit fecit, 
+                propter quod etiam cessante volitione potest 
+                executio 
+                <app>
+                	<lem>quandoque aliquam</lem>
+                	<rdg wit="#M">quoniam</rdg>
+                </app> 
+              	diu 
+              	<app>
+              		<lem>continari</lem> <!-- dbcheck -->
+              		<rdg wit="#V #T">continuari</rdg>
+              	</app>, 
+              	sicut ad hoc, scilicet, quod substantia
+              	<app>
+              		<lem n="substantia"/>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>creatura</add>
+              		</rdg>
+              	</app>
+              	<app> <!-- another problematic issue; this could be combined with above if correction-addition could include a text node outside the <add> element -->
+              		<lem n="substantia"/>
+              		<rdg wit="#V" type="variation-present">alia</rdg>
+              	</app>
+              	<app>
+              		<lem>nihil</lem>
+              		<rdg wit="#M">nisi</rdg>
+              	</app> 
+              	operetur extra per 
+                solum velle, est articulus Parisiensis. Et 
+              	<app>
+              		<lem>per talia</lem> <!-- check transcription -->
+              		<rdg wit="#M #T">probatur</rdg> <!-- check transcription -->
+              		<rdg wit="#V">propter</rdg> <!-- check transcription -->
+              	</app> 
+              	<app> <!-- double check; whatever this is, it might need to be included in final text -->
+              		<lem n="talia"/>
+              		<rdg wit="#V #M #T" type="variation-present"><unclear>potest</unclear></rdg>
+              	</app>
+              	hoc singulariter tribuit 
+                Deo 
+              	<app>
+              		<lem>quod</lem>
+              		<rdg wit="#M">et</rdg>
+              	</app> 
+              	<app>
+              		<lem>hoc</lem>
+              		<rdg wit="#M #T" type="variation-absent"/>
+              	</app> 
+              	dixit ipse <!-- M and T have "ipse dixit --> 
+              	et facta sunt, mandavit 
+                seu voluit et 
+              	<app>
+              		<lem>creata</lem>
+              		<rdg wit="#M">causata</rdg>
+              	</app> 
+              	sunt, et quod omnia 
+              	<app>
+              		<lem>quantumque</lem>
+              		<rdg wit="#M">quaecumque</rdg>
+              		<rdg wit="#M">quacumque</rdg>
+              	</app> voluit fecit, 
                 et quia tota ambulatio erat volita tota est extrinsece 
                 <pb ed="#S" n="84-r" />
                 <cb ed="#S" n="a" /> 
                 meritoria merito, scilicet, actus interioris eadem bonitate meritoria  
-                ad hunc sensum quod eiusdem praemium praecise meritoria 
-                sicut secundum quosdam subiectum et omnia accidentia sua corporalia unica extensive 
-                seu quantitative extenduntur vel in exemplo minus dummodo sicut 
-                calor ignis et subiectum eadem califactione calefaciunt et sicut 
-                album et albedo eadem visione universaliter quia subiectum non videtur nisi 
-                quia formaliter accidente viso eodem modo nulla executio exterior 
-                est meritoria nisi quia causatur ab operatione interiori meritoria 
-                quae si desit non est meritoria et pro quanto tempore deficit actus 
-                interior pro tanto tempore. Iste actualiter non meretur licet actuale meritum 
-                novum prius habitum et acquisitum adhuc in perpetuum 
-                sibi imputetur donec per velle et nolle contrarium demeretur ipsum 
-                conservari, id est, non imputari. Et ideo concedo quod ille sit ambulans 
+                <app>
+                	<lem n="meritoria"/>
+                	<rdg wit="#S" type="correction-deletion">
+                		<del>sicut secundum quosdam</del>
+                	</rdg>
+                </app>
+                ad hunc sensum quod eiusdem 
+              	<app>
+              		<lem>praemium</lem>
+              		<rdg wit="#M">praemii</rdg>
+              	</app> 
+              	praecise meritoria 
+                sicut secundum quosdam subiectum et omnia accidentia sua corporalia unica 
+              	<app>
+              		<lem>extensive</lem>
+              		<rdg wit="#M #V #T">extensione</rdg>
+              	</app> 
+                seu 
+              	<app>
+              		<lem>quantitative</lem>
+              		<rdg wit="#M">quanitate</rdg>
+              	</app> 
+              	extenduntur vel in exemplo
+              	minus dummodo <!-- T has duomodo minus -->
+              	sicut 
+                calor ignis 
+              	<app>
+              		<lem>et subiectum</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              		<rdg wit="#M #V">ipse ignis</rdg>
+              	</app> 
+              	eadem 
+              	calefactione <!-- check spelling in V --> 
+              	calefaciunt et 
+              	<app>
+              		<lem>
+              			<app>
+              				<lem>sicut</lem>
+              				<rdg wit="#T">similiter</rdg>
+              			</app>
+              			album et albedo eadem visione 
+              			<app>
+              				<lem>videntur</lem>
+              				<rdg wit="#M">universaliter</rdg> <!-- dbcheck; likely transcription error -->
+              				<rdg wit="#T">videretur</rdg>
+              			</app> 
+              			quia subiectum non videtur nisi 
+              			quia 
+              			<app>
+              				<lem>formaliter</lem>
+              				<rdg wit="#M">informatur ab</rdg>
+              			</app> 
+              			accidente viso eodem modo nulla executio exterior 
+              			est meritoria nisi quia causatur 
+              			<app>
+              				<lem>ab</lem>
+              				<rdg wit="#M">mediante</rdg>
+              				<rdg wit="#T" type="variation-absent"/>
+              			</app> 
+              			operatione interiori meritoria 
+              			quae si desit non est meritoria</lem>
+              		<rdg wit="#V" type="correction-substitution">
+              			<subst>
+              				<del rend="strikethrough">sicut in proposito</del>
+              				<add place="margin-right">sicut album et albedo eadem 
+              					visione universaliter quia subiectum non 
+              					videtur nisi quia formaliter 
+              					accidente viso eodem modo nulla 
+              					executio exterior est meritoria nisi 
+              					quia causatur mediante operatione interiori meritoria 
+              					quae si desit non est meritoria</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	et pro quanto tempore deficit 
+              	<app>
+              		<lem>actus</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+                interior pro tanto tempore. Iste actualiter non 
+              	<app>
+              		<lem>meretur licet</lem>
+              		<rdg wit="#M">mereretur sed</rdg>
+              	</app> 
+              	actuale meritum 
+                novum 
+              	<app>
+              		<lem>prius</lem>
+              		<rdg wit="#M">post</rdg> <!-- dbcheck -->
+              	</app> 
+              	habitum et acquisitum adhuc in perpetuum 
+                sibi imputetur donec 
+              	<app>
+              		<lem>per</lem>
+              		<rdg wit="#M">pro</rdg> <!-- dbheck -->
+              	</app> 
+              	velle et nolle contrarium 
+              	<app>
+              		<lem>demeretur</lem>
+              		<rdg wit="#M">demonstratur</rdg>
+              	</app> 
+              	ipsum 
+                conservari, 
+              	<app>
+              		<lem>id est, non imputari</lem>
+              		<rdg wit="#V" type="variation-absent"/>
+              	</app>. 
+              	Et ideo concedo quod 
+              	ille <!-- M has "iste" --> 
+              	sit ambulans 
                 ad ecclesiam, si moreretur in instanti quo cessat habere actum meritorium 
-                interiorem tantum praemium haberet in caelo quantum si ultra procedat 
+                interiorem tantum praemium haberet in caelo 
+                <app>
+                	<lem>quantum</lem>
+                	<rdg wit="#M #V #T">sicut</rdg>
+                </app> 
+                si ultra 
+              	<app>
+              		<lem>procedat</lem>
+              		<rdg wit="T">precederet</rdg>
+              	</app> 
                 ambulando sine omni actu meritorio interiori. Et ideo ratio 
-                sumit falsum, distractio enim impedit meritum novum, non tamen tollit 
-                antiquum et praehabitum nisi sit distractio affectata et ubi 
-                haberetur praeceptum de cogitatione in operando et sicut habemus de 
-                officio divino ad dicendum studiose et devote ibi distractio de 
-                libertate praemissa non solum impedit augmentum meriti, sed reputatur 
-                ad demeritum et peccatum. Ratio autem ulterius formata sumit 
-                maiorem falsam vel minorem secundum quod diversificandae possunt capi secundum 
+                sumit falsum, distractio enim impedit 
+              	<app>
+              		<lem>meritum novum</lem>
+              		<rdg wit="#M" type="correction-addition">
+              			<add>meritum novum</add>
+              		</rdg>
+              	</app>, 
+              	non tamen tollit 
+                antiquum et praehabitum nisi sit distractio affectata 
+              	<app>
+              		<lem>et</lem>
+              		<rdg wit="#V" type="variation-absent"/>
+              	</app> ubi 
+                <app>
+                	<lem>haberetur</lem>
+                	<rdg wit="#M">habetur</rdg>
+                </app> 
+              	praeceptum de 
+              	cognitionem <!-- ambiguous; cogitatione; V has "ex-cognitionem" ??? where "ex" is added; db check more likely that V sees "ex" as a replacement for "de" --> 
+              	<app>
+              		<lem>in</lem>
+              		<rdg wit="#T #M" type="variation-absent"/>
+              	</app> 
+              	operando 
+              	<app>
+              		<lem>et</lem>
+              		<rdg wit="#V" type="variation-absent"/>
+              	</app> 
+              	sicut 
+              	<app>
+              		<lem>habemus</lem>
+              		<rdg wit="#T">habens</rdg>
+              	</app> 
+              	de 
+                officio divino <!-- M has divino officio --> 
+                ad 
+              	<app>
+              		<lem>dicendum studiose et devote ibi</lem>
+              		<rdg wit="#V">dicendo devote et studiose ibi enim</rdg>
+              	</app> 
+              	distractio de 
+                libertate 
+              	<app>
+              		<lem>praemissa</lem>
+              		<rdg wit="#T">promissa</rdg>
+              	</app> 
+              	non solum impedit augmentum meriti, sed 
+              	<app>
+              		<lem>reputatur</lem>
+              		<rdg wit="#V">imponatur</rdg>
+              	</app> 
+                ad demeritum et peccatum. Ratio 
+              	<app>
+              		<lem>autem</lem>
+              		<rdg wit="#V">quod</rdg>
+              	</app> 
+              	ulterius formata sumit 
+                maiorem falsam vel minorem secundum quod 
+              	<app>
+              		<lem>diversificandae</lem>
+              		<rdg wit="#M">diversimode</rdg>
+              	</app> 
+              	possunt 
+              	<app>
+              		<lem>capi</lem>
+              		<rdg wit="#M #V #T" type="variation-absent"/>
+              	</app> 
+              	secundum 
                 iam declarata.</p> 
               
               <p xml:id="b1d3qun-andscp">Ad nonum dicendum quod assumitur falsum, licet enim experientia 
-                doceat quod quandoque delectantur de ordinata et debita cogitatione 
-                rei alterius, experientia tamen docet quod haec non sit sine apprehensione 
-                istius cogitationis convenientis, sed contrarium potius.</p>
+                doceat quod quandoque 
+              	<app>
+              		<lem>delectantur</lem>
+              		<rdg wit="#S #M">delectamur</rdg>
+              		<rdg wit="#V">delectatur</rdg>
+              	</app> 
+              	de ordinata et debita 
+              	cognitione <!-- cogitatione ?? --> 
+                rei 
+              	<app>
+              		<lem>alterius</lem>
+              		<rdg wit="#V #M">odibilis</rdg>
+              	</app>, 
+              	experientia tamen docet 
+              	non quod <!-- S and T have "non" after "hoc" below" -->  
+              	<app>
+              		<lem>hoc</lem>
+              		<rdg wit="#S">haec</rdg> <!-- likely transcription error -->
+              	</app>
+              	sit sine apprehensione 
+                istius 
+                cognitionis <!-- vs "cogitationis" ?? --> 
+                convenientis, sed contrarium potius.</p>
             </div>
           </div>
           <div xml:id="a2quintumdubium">
