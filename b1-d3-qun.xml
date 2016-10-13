@@ -3,7 +3,7 @@
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 -->
-  <?xml-model href="https://raw.githubusercontent.com/nivaca/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/nivaca/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/nivaca/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
@@ -2076,9 +2076,11 @@
                 </cit> 
                 Nec ad salvandum imaginem videtur mihi hoc necessarium, quia 
                 si plures potentiae essent idem realiter, non salvaretur inter illas potentias 
-                aliqua originatio, etc.</p>
+                aliqua originatio, etc.
+              </p>
               
-              <p xml:id="b1d3qun-sqeesa">Sed quia ego non teneo talem distinctionem 
+              <p xml:id="b1d3qun-sqeesa">
+                Sed quia ego non teneo talem distinctionem 
                 inter potentias animae, dico cum 
                 <ref>
                   <name ref="#Scotus">Doctore Subtili</name>
@@ -2091,16 +2093,18 @@
                 <ref><name ref="#Lombard">Magistro</name> 
                   in littera, in ista 
                   distinctione 3,
-                <bibl>
-                  <title ref="#Sentences">Sententiarum</title>
-                </bibl>
+                  <bibl>
+                    <title ref="#Sentences">Sententiae</title>
+                  </bibl>
                 </ref> 
                 quod non potest reperiri in nobis similitudo imaginis ad 
                 plenum, quia 
                 <cit>
                   <ref>secundum <name ref="#Lombard">Magistrum</name></ref>
                   <bibl>
-                    <name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 3 (Quarachi, 1:74-75)
+                    <name>Petrus Lombardus</name>, 
+                    <title>Sententiae</title>, 
+                    Bk. I, d. 3, c. 3 (Quarachi, 1:74--75)
                   </bibl>
                 </cit> 
                 magis est dissimilitudo. Ideo dico quod 
