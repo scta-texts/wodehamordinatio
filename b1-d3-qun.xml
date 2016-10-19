@@ -2357,31 +2357,136 @@
                   <rdg wit="#M" type="variation-substance">aliquando</rdg>
                 </app>
                 per quae exprimuntur distinctae partes 
-                imaginis numquam vere removentur ab anima rationali.
-                Tamen haec per se est vera et necessaria si formetur anima. 
-                Est memoria, intelligentia, et voluntas, 
+                imaginis numquam vere removentur ab anima 
+                <app>
+                  <lem>rationali</lem>
+                  <rdg wit="#S" type="correction-substitution">
+                    <subst>
+                      <del rend="expunctuated">realiter</del>
+                      <add place="margin">rationali</add>
+                    </subst>
+                  </rdg>
+                </app>.
+                <app>
+                  <lem>Unde</lem>
+                  <rdg wit="#S" type="variation-substance">Tamen</rdg>
+                </app> 
+                haec 
+                <app>
+                  <lem>per se est</lem>
+                  <rdg wit="#V" type="variation-substance">semper est</rdg>
+                  <rdg wit="#M" type="variation-substance">pro specie</rdg>
+                </app>
+                vera et necessaria si formetur anima. 
+                Est 
+                <app>
+                  <lem>memoria, intelligentia</lem>
+                  <rdg wit="#M #V" type="variation-inversion">intelligentia memoria</rdg>
+                </app> 
+                et voluntas, 
                 <pb ed="#S" n="80-r" />
                 <cb ed="#S" n="b" /> 
-                si anima saltem sit. Nec aliud intelligit <name ref="#Augustine">Augustinus</name> per <mentioned>imaginem esse immortalem</mentioned> 
-                quam quod <mentioned>anima necessario et immortaliter,</mentioned> ipsa manente, sit talis qualis exprimitur 
-                esse cum dicitur <mentioned>esse memoria, intelligentia, voluntas.</mentioned></p>
+                <app> <!-- This might hint us as to the relation between #V, #M, and #S. -->
+                  <lem>si anima saltem sit</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="margin"></add>
+                  </rdg>
+                  <rdg wit="#M" type="variation-absent"/> 
+                </app>. 
+                Nec 
+                <app>
+                  <lem>aliud</lem>
+                  <rdg wit="#T" type="variation-substance">quod</rdg>
+                </app>
+                <app>
+                  <lem>intendit</lem>
+                  <rdg wit="#S" type="variation-substance">intelligit</rdg>
+                </app>
+                <name ref="#Augustine">Augustinus</name> per <mentioned>imaginem esse immortalem</mentioned> 
+                quam quod 
+                <app>
+                  <lem><mentioned>anima necessario et immortaliter,</mentioned></lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app>
+                ipsa manente, 
+                <app>
+                  <lem>sit</lem>
+                  <rdg wit="#M" type="variation-substance"><mentioned>anima necessario et immortaliter</mentioned> est</rdg>
+                </app>
+                talis qualis exprimitur 
+                <app>
+                  <lem n="exprimitur"/>
+                  <rdg wit="#S" type="variation-present">esse</rdg>
+                </app>
+                cum dicitur 
+                <app>
+                  <lem>esse</lem>
+                  <rdg wit="#V" type="variation-absent"/>
+                </app>
+                <mentioned>
+                  memoria, intelligentia 
+                  <app>
+                    <lem>et</lem>
+                    <rdg wit="#S #V #T" type="variation-absent"/>
+                  </app>
+                  voluntas
+                </mentioned>.
+              </p>
               
-              <p xml:id="b1d3qun-aqbiao">Ad quartum bene respondet 
+              <p xml:id="b1d3qun-aqbiao">
+                Ad quartum 
+                <app>
+                  <lem>bene</lem>
+                  <rdg wit="#T" type="variation-absent"/>
+                </app>
+                respondet 
                 <cit>
                   <ref>
                     <name ref="#Scotus">Scotus</name>
                   </ref>
-                  <bibl><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. I, d. 3, pars 3, q. 4, n. 590 (Vatican, 3:349)</bibl>
+                  <bibl>
+                    <name ref="#Scotus">Iohannes Duns Scotus</name>, 
+                    <title>Ordinatio</title>, 
+                    Bk. I, d. 3, pars 3, q. 4, n. 590 (Vatican, 3:349)
+                  </bibl>
                 </cit> 
-                quod respectu Dei, ut obiecti, in mente habetur ultima et perfectissima ratio 
-                imaginis, quia tunc illa tria non solum sunt expressa similitudo Trinitatis 
-                increatae, ex quo sunt tres tales res sic se habentes 
-                inter se, sed ultra hoc, quia omnis actus est vere similitudo 
-                obiecti cuius est et quaedam expressa imago ipsius, licet aequivoca. Ideo quando 
-                actus illi sunt respectu Dei, ut obiecti, tunc perfectius habetur imago et 
-                conformitas ad Trinitatem  increatam, maxime cum etiam tunc in obiecto 
-                inveniatur Trinitas obiectiva correspondens quodammodo in mente Trinitati 
-                subiectivae quod non contingit in aliis obiectis.</p>
+                quod respectu Dei, ut obiecti
+                <app>
+                  <lem n="obiecti" />
+                  <rdg wit="#M" type="variation-present">rerum</rdg>
+                </app>,  
+                <app> <!-- not sure how to encode this inversion / substance -->
+                  <lem wit="#S">in mente habetur</lem>
+                  <rdg wit="#V" type="variation-inversion">habetur in mente creata</rdg>
+                  <rdg wit="#M" type="variation-substance">habetur in mente causata</rdg>
+                  <rdg wit="#T" type="variation-inversion">habetur creata in mente</rdg>
+                </app>
+                ultima et perfectissima 
+                <app>
+                  <lem>ratio</lem>
+                  <rdg wit="#M" type="variation-substance">ratio</rdg>
+                </app> 
+                imaginis, quia tunc 
+                <app>
+                  <lem>illa</lem>
+                  <rdg wit="#V" type="variation-substance">ista</rdg>
+                </app>
+                tria non solum sunt 
+                <app>
+                  <lem>expressa</lem>
+                  <rdg wit="#V #T" type="variation-substance">expressa</rdg>
+                </app>
+                similitudo Trinitatis increatae, ex 
+                <app>
+                  <lem>hoc</lem>
+                  <rdg wit="#S" type="variation-absent"/>
+                </app>
+                <app>
+                  <lem>quo</lem>
+                  <rdg wit="#M" type="variation-substance">quod</rdg>
+                </app>
+                sunt tres tales res sic se habentes inter se, sed ultra hoc, quia omnis actus est vere similitudo obiecti cuius est et quaedam expressa imago ipsius, licet aequivoca. Ideo quando actus illi sunt respectu Dei, ut obiecti, tunc perfectius habetur imago et conformitas ad Trinitatem increatam, maxime cum etiam tunc in obiecto inveniatur Trinitas obiectiva correspondens quodammodo in mente Trinitati subiectivae quod non contingit in aliis obiectis.
+              </p>
               
               <p xml:id="b1d3qun-aqetis">Ad quintum. 
                 <cit>
