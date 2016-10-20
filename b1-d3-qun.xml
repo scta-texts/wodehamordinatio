@@ -2768,34 +2768,140 @@
           <div xml:id="a2tertiumdubium">
             <head><supplied>Tertium Dubium</supplied></head>
             <p xml:id="b1d3qun-tdsan">Tertium dubium secundi articuli est utrum tertia pars imaginis 
-              procedat realiter a secunda, amor, scilicet, a notitia.</p>
+              procedat realiter a secunda, amor, 
+            	<app>
+            		<lem>scilicet</lem>
+            		<rdg wit="#S" type="correction-addition">
+            			<add>scilicet</add>
+            		</rdg>
+            	</app>, 
+            	a notitia.</p>
             <div>
               <head><supplied>Rationes principales</supplied></head>
-              <p xml:id="b1d3qun-evqtej">Et videtur quod non, 
-                sic, tunc amor angeli qui peccavit quo affectavit aequalitatem 
-                Dei processit ab alia notitia, aut igitur ab ob<pb ed="#S" n="82-v" />
-                <cb ed="#S" n="a" />scura 
-                notitia Dei aut a clara. Si ab obscura notitia Dei, 
-                igitur cum obscura notitia in illo fuerit pena peccati, sequitur quod ipsum 
-                peccatum angeli processit a pena peccati, et ita sequitur quod pena naturaliter saltem 
-                praecessit culpam, contra 
+              <p xml:id="b1d3qun-evqtej">Et videtur quod 
+              	<app>
+              		<lem>non</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app>, 
+                <app>
+                	<lem>quia si</lem>
+                	<rdg wit="#S #T" type="variation-absent"/>
+                </app> 
+              	sic, tunc amor angeli qui peccavit quo affectavit aequalitatem 
+                Dei processit ab alia notitia 
+                <app>
+                	<lem n="notitia"/>
+                	<rdg wit="#M" type="variation-present">dei</rdg>
+                </app>, 
+              	<app>
+              		<lem>aut igitur 
+              			<app>
+	              			<lem>ab</lem>
+	              			<rdg wit="#M" type="variation-absent"/>
+	              		</app>  
+              			ob<pb ed="#S" n="82-v" /><cb ed="#S" n="a" />scura 
+              			notitia</lem>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>aut igitur ab obscura notitia</add>
+              		</rdg>
+              	</app> 
+              	Dei aut a clara. 
+              	Si 
+              	<app>
+              		<lem n="si"/>
+              		<rdg wit="#M" type="variation-present">igitur</rdg>
+              	</app> 
+              	<app>
+              		<lem>ab</lem>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>ab</add>
+              		</rdg>
+              	</app>
+              	obscura notitia 
+              	<app>
+              		<lem>Dei</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app>, 
+                igitur cum <!-- M has "cum igitur" --> 
+                obscura notitia in illo 
+              	<app>
+              		<lem>fuerit</lem>
+              		<rdg wit="#M">fuit</rdg>
+              	</app> 
+              	pena peccati, sequitur quod 
+              	<app>
+              		<lem>ipsum</lem>
+              		<rdg wit="#M #V">primum</rdg>
+              	</app> 
+                peccatum angeli 
+              	<app>
+              		<lem>processit</lem>
+              		<rdg wit="#M">praecessit</rdg>
+              	</app> 
+              	<app>
+              		<lem>a</lem>
+              		<rdg wit="#M">alia</rdg>
+              	</app> 
+              	pena peccati, 
+                et ita sequitur quod pena 
+                naturaliter saltem <!-- T has "saltem naturaliter" --> 
+                praecessit 
+                <app>
+                	<lem n="praecessit"/>
+                	<rdg wit="#T" type="correction-deletion">
+                		<del>pc</del>
+                	</rdg>
+                </app>
+                culpam, 
+                contra 
                 <cit>
-                  <ref><name ref="#Augustine">Augustinum</name> 
-                    11 <title ref="#DeGenesiAdLitteram">Super Genesem ad Litteram</title> c. 24.</ref>
+                  <ref><name ref="#Augustine">Augustinum</name> <!-- M has "augustinus" probably a transcription error --> 
+                    <app>
+                    	<lem>11</lem>
+                    	<rdg wit="#M" type="variation-absent"/> <!-- dbcheck -->
+                    </app> 
+                  	<title ref="#DeGenesiAdLitteram">Super Genesem <!-- dbcheck spelling of Genesem in all transcriptions --> ad Litteram</title> c. 24.</ref>
                   <bibl>non invenimus</bibl>
                 </cit> 
                 Si 
-                amor illius angeli iste processit a clara notitia Dei, igitur angelus 
-                malus clare vidit Deum quando fuit in maximo peccato, et per 
-                consequens simul fuit et miser et beatus, quod nullus potest Deum videre clare 
-                nisi beatus, quia 
+                amor 
+                istius <!-- S has illius --> 
+                angeli 
+              	<app>
+              		<lem>iste</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	processit a clara notitia Dei, igitur angelus 
+                malus clare vidit 
+              	<app>
+              		<lem>Deum</lem>
+              		<rdg wit="#M">dictum</rdg>
+              	</app> 
+              	quando fuit in maximo peccato, et per 
+                consequens simul fuit 
+              	<app>
+              		<lem n="fuit"/>
+              		<rdg wit="#S" type="variation-present">et</rdg>
+              	</app> 
+              	miser et beatus, quod nullus potest Deum 
+              	videre clare <!-- M has clare videre --> 
+                nisi beatus, 
+                quia <!-- V and T have quod --> 
                 <cit>
-                  <quote xml:id="b1d3qun-Qhevuct" ana="#io17_3">haec est vita aeterna ut cognoscant te</quote>
+                  <quote xml:id="b1d3qun-Qhevuct" ana="#io17_3">haec est vita aeterna ut 
+                  	<app>
+                  		<lem>cognoscant</lem>
+                  		<rdg wit="#M">cognoscat</rdg>
+                  	</app> 
+                  	te</quote>
                   <bibl>Iohannes 17:3</bibl>
                 </cit> 
                 etc., 
                 <ref>
-                  <title ref="#io">Johannes</title> 17.
+                  <app>
+                  	<lem><title ref="#io">Johannes</title> 17.</lem>
+                  	<rdg wit="#T" type="variation-absent"/>
+                  </app>
                 </ref>
               </p>
               <p xml:id="b1d3qun-itpics"><supplied>Secundum.</supplied> Item, tunc primus amor in mente alicuius procederet a notitia 
