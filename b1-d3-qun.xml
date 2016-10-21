@@ -2486,10 +2486,46 @@
                   <rdg wit="#S" type="variation-absent"/>
                 </app>
                 <app>
-                  <lem>quo</lem>
-                  <rdg wit="#M" type="variation-substance">quod</rdg>
+                  <lem>quod</lem>
+                  <rdg wit="#S #T #V" type="variation-substance">quo</rdg>
                 </app>
-                sunt tres tales res sic se habentes inter se, sed ultra hoc, quia omnis actus est vere similitudo obiecti cuius est et quaedam expressa imago ipsius, licet aequivoca. Ideo quando actus illi sunt respectu Dei, ut obiecti, tunc perfectius habetur imago et conformitas ad Trinitatem increatam, maxime cum etiam tunc in obiecto inveniatur Trinitas obiectiva correspondens quodammodo in mente Trinitati subiectivae quod non contingit in aliis obiectis.
+                sunt tres 
+                <app>
+                  <lem>tales res</lem>
+                  <rdg wit="#T" type="variation-inversion">res tales</rdg>
+                </app>
+                sic se habentes inter se, 
+                <app> <!-- checked! -->
+                  <lem>
+                    aliquo modo sicut divinae personae per se habent inter se
+                  </lem>
+                  <rdg wit="#T1" type="correction-addition"> <!-- alia manu -->
+                    <add place="margin">
+                      sicut personae divinae per se habent inter se
+                    </add>
+                  </rdg>
+                  <rdg>aliquo viso sicut divinae personae sic se habent inter se</rdg>
+                  <rdg wit="#M #S" type="variation-absent" />
+                </app>,
+                sed ultra hoc, quia omnis actus est vere similitudo obiecti cuius est 
+                <pb ed="#M" n="67-ra"/>
+                et quaedam expressa 
+                <app>
+                  <lem>imago</lem>
+                  <rdg wit="#M #V" type="variation-substance">imaginatio</rdg>
+                </app>
+                ipsius, licet aequivoca. 
+                Ideo quando actus illi 
+                <app>
+                  <lem>eliciti</lem>
+                  <rdg wit="#M #T" type="variation-substance">illiciti</rdg>
+                  <rdg wit="#S" type="variation-absent" />
+                </app>
+                <app>
+                  <lem>sunt</lem>
+                  <rdg wit="#V #M" type="variation-absent" />
+                </app>
+                respectu Dei, ut obiecti, tunc perfectius habetur imago et conformitas ad Trinitatem increatam, maxime cum etiam tunc in obiecto inveniatur Trinitas obiectiva correspondens quodammodo in mente Trinitati subiectivae quod non contingit in aliis obiectis.
               </p>
               
               <p xml:id="b1d3qun-aqetis">Ad quintum. 
