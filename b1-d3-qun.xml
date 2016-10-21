@@ -2031,7 +2031,7 @@
                   </rdg>
                 </app> 
                 Ad primum verum est quod ad salvandum rationem imaginis in mente
-                rationali, aliqui 
+                rationali aliqui 
                 <app>
                   <lem>ponunt</lem>
                   <rdg wit="#S" type="variation-substance">ponit</rdg>
@@ -2062,30 +2062,73 @@
                   <lem>Sed</lem>
                   <rdg wit="#M" type="variation-substance" />
                 </app> 
-                per eundem 
-                <app>
-                  <lem>ibidem</lem>
-                  <rdg wit="#S" type="variation-substance">ibi</rdg>
-                </app>
+                <ref> <!-- not sure about this... -->
+                  per eundem <name ref="#Scotus"/> 
+                  <app>
+                    <lem>ibidem</lem>
+                    <rdg wit="#S" type="variation-substance">ibi</rdg>
+                  </app>
+                  <bibl>ibidem</bibl>
+                </ref>
                 nulla ratio 
                 <app>
                   <lem>potest talem distinctionem ibi</lem>
                   <rdg wit="#M #V" type="variation-inversion">potest ibi talem distinctionem</rdg>
                 </app> 
-                probare sufficienter, 
-                <cit>
+                <app> <!-- checked! -->
+                  <lem>probare</lem>
+                  <rdg wit="#M" type="variation-substance">pro salie</rdg>
+                </app> 
+                <app>
+                  <lem>sufficienter</lem>
+                  <rdg wit="#V #M" type="variation-substance">efficienter</rdg>
+                </app>, 
+                <cit>   <!-- how is this done correctly? -->
                   <ref>ut supra tetigi, ultima 
-                    questione primae distinctionis.</ref>
+                    questione 
+                    <app> <!-- checked! -->
+                      <lem>primae distinctionis</lem>
+                      <rdg wit="#M" type="variation-substance">idem</rdg>
+                    </app>
+                  </ref>
                   <bibl>(cross reference)</bibl>
-                </cit> 
-                Nec ad salvandum imaginem videtur mihi hoc necessarium, quia 
-                si plures potentiae essent idem realiter, non salvaretur inter illas potentias 
+                </cit>. 
+                Nec ad salvandum imaginem videtur 
+                <app>
+                  <lem>hoc mihi</lem>
+                  <rdg wit="#S" type="variation-inversion">mihi hoc</rdg>
+                </app>
+                necessarium, quia 
+                <app>
+                  <lem>etiamsi</lem>
+                  <rdg wit="#S #T" type="variation-substance">si</rdg>
+                  <rdg wit="#M" type="variation-substance">et si</rdg>
+                </app> 
+                plures potentiae essent idem 
+                <app>
+                  <lem>realiter</lem>
+                  <rdg wit="#M" type="variation-substance">requiritur</rdg>
+                </app>,
+                non salvaretur 
+                <!--  -->
+                <cb ed="#T" n="57-rb"/>
+                <!--  -->
+                inter illas potentias 
                 aliqua originatio, etc.
               </p>
               
               <p xml:id="b1d3qun-sqeesa">
                 Sed quia ego non teneo talem distinctionem 
-                inter potentias animae, dico cum 
+                <app>
+                  <lem n="distinctionem"/>
+                  <rdg wit="#M #V" type="variation-present">ibi</rdg>
+                </app>
+                inter potentias animae, 
+                <app>
+                  <lem>dico</lem>
+                  <rdg wit="#V #T" type="variation-substance">sicut</rdg>
+                </app> 
+                cum 
                 <ref>
                   <name ref="#Scotus">Doctore Subtili</name>
                   <bibl>
@@ -2093,7 +2136,8 @@
                     <title>Ordinatio</title>, 
                     Bk. II, d. 16, pars. ?, q. ? (Vatican ?:??)
                   </bibl>
-                </ref> et 
+                </ref> 
+                et 
                 <ref><name ref="#Lombard">Magistro</name> 
                   in littera, in ista 
                   distinctione 3,
@@ -2101,82 +2145,352 @@
                     <title ref="#Sentences">Sententiae</title>
                   </bibl>
                 </ref> 
-                quod non potest reperiri in nobis similitudo imaginis ad 
-                plenum, quia 
+                quod non potest 
+                <app>
+                  <lem>in nobis reperiri</lem>
+                  <rdg wit="#S" type="variation-inversion">reperiri in nobis</rdg>
+                </app>
+                similitudo imaginis ad 
+                <app>
+                  <lem>prototypum</lem> <!-- I think this is the correct spelling --> 
+                  <rdg wit="#S" type="variation-substance">plenum</rdg>
+                </app>,
+                quia
+                <app>
+                  <lem n="quia"/>
+                  <rdg wit="#M"><sic>quia</sic></rdg>  <!-- checked: it's repeated -->
+                </app> 
                 <cit>
-                  <ref>secundum <name ref="#Lombard">Magistrum</name></ref>
+                  <ref>
+                    secundum 
+                    <name ref="#Lombard">Magistrum</name>
+                  </ref>
                   <bibl>
                     <name>Petrus Lombardus</name>, 
                     <title>Sententiae</title>, 
                     Bk. I, d. 3, c. 3 (Quarachi, 1:74--75)
                   </bibl>
                 </cit> 
-                magis est dissimilitudo. Ideo dico quod 
-                nulla tria sunt in mente nostra realiter distincta inter quae sit similis ratio 
-                imaginis duorum ab uno et unius a duobus cum substantialitate, 
-                id est, essentiali identitate istorum trium realiter distinctorum. Oportet igitur quod ratio imaginis 
-                sumatur vel quoad originationem et distinctionem vel quoad substantialitatem. 
+                magis est dissimilitudo 
+                <app>
+                  <lem>quam similitudo, et</lem>
+                  <rdg wit="#S" type="variation-absent"/>
+                </app> 
+                ideo dico quod
+                <app>
+                  <lem>nulla</lem>
+                  <rdg wit="#M" type="correction-substitution">
+                    <subst>
+                      <del rend="expunctuated">non</del>
+                      <add place="margin">nulla</add>
+                    </subst>
+                  </rdg>
+                </app>
+                tria sunt in mente 
+                <app>
+                  <lem>nostra</lem>
+                  <rdg wit="#T" type="variation-absent"/>
+                </app> 
+                <app>
+                  <lem>realiter</lem>
+                  <rdg wit="#M" type="variation-substance">requiritur</rdg>
+                </app>
+                distincta inter quae sit 
+                <app>
+                  <lem>similis</lem>
+                  <rdg wit="#M" type="variation-substance">simul</rdg>
+                </app>
+                ratio 
+                <app>
+                  <lem>originis</lem>
+                  <rdg wit="#S" type="variation-substance">imaginis</rdg>
+                </app> 
+                duorum ab uno et unius a duobus 
+                <app>
+                  <lem>cum substantialitate</lem> <!-- checked #T -->
+                  <rdg wit="#M #S" type="variation-substance">cum consubstantialitate</rdg>
+                </app>,
+                id est,          
+                <app>
+                  <lem>essentiali</lem>
+                  <rdg wit="#M" type="variation-substance">aequali</rdg>
+                </app>
+                identitate istorum trium 
+                <app>
+                  <lem>realiter</lem>
+                  <rdg wit="#M" type="variation-substance"/>
+                </app>
+                distinctorum. Oportet igitur
+                <app>
+                  <lem n="igitur"/>
+                  <rdg wit="#M #V #T" type="variation-present">vel</rdg>
+                </app>
+                quod ratio imaginis
+                <app>
+                  <lem>sumatur vel</lem>
+                  <rdg wit="#T" type="variation-substance">definiat</rdg>
+                  <rdg wit="#M #V" type="variation-substance">defuciat</rdg>
+                </app> 
+                quoad originationem et distinctionem vel quoad 
+                <app>
+                  <lem>consubstantialitatem</lem>
+                  <rdg wit="#S" type="variation-substance">substantialitatem</rdg>
+                </app>. 
                 Et maxime hoc non est inconveniens de illo in quo tantum 
-                principiative et virtualiter consistit ratio imaginis cuius est substantia animae.</p> 
+                <app>
+                  <lem>principiative</lem>
+                  <rdg wit="#M" type="variation-substance">principale</rdg>
+                </app>
+                et virtualiter consistit ratio imaginis cuius 
+                <app>
+                  <lem>est</lem>
+                  <rdg wit="#S" type="correction-addition">
+                    <add>est</add>
+                  </rdg>
+                </app>
+                substantia animae
+                <app>
+                  <lem n="animae"/>
+                  <rdg wit="#M" type="variation-present">igitur etc.</rdg>
+                </app>.
+              </p> 
               
-              <p xml:id="b1d3qun-asdssa">Ad secundum, dico quod in substantialitate deficit imago a Trinitate personarum inter 
-                quas est substantialitas. Verum est tamen quod aliqua possunt haberi signa 
-                expressiva illarum partium distinctarum quae vere affirmantur de eadem 
-                substantia, et ista est consubstantialitas quam auctores ibi intendunt 
-                forte habere. Eadem enim substantia est memoria, intelligentia, et voluntas, ita 
-                enim 
+              <p xml:id="b1d3qun-asdssa">
+                Ad secundum dico quod in 
+                <app>
+                  <lem>consubstantialitate</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="in-line">consubstantialitate</add>
+                  </rdg>
+                  <rdg wit="#S" type="variation-substance">substantialitate</rdg>
+                </app>
+                deficit imago a Trinitate personarum inter 
+                quas est 
+                <app>
+                  <lem>consubstantialitas</lem>
+                  <rdg wit="#S" type="variation-substance">substantialitas</rdg>
+                </app>.
+                Verum est tamen quod aliqua possunt haberi signa 
+                expressiva 
+                <app>
+                  <lem>istarum</lem>
+                  <rdg wit="#S" type="variation-substance">illarum</rdg>
+                </app>
+                partium distinctarum quae vere 
+                <app>
+                  <lem>affirmantur</lem>
+                  <rdg  wit="#S" type="variation-substance">affirmentur</rdg>
+                </app>
+                de eademsubstantia, et 
+                <app>
+                  <lem>ista</lem>
+                  <rdg wit="#V #T" type="variation-substance">illa</rdg>
+                </app>
+                est consubstantialitas quam 
+                <app>
+                  <lem>auctores</lem>
+                  <rdg wit="#M" type="variation-substance">auctoritas</rdg> <!-- this must be wrong... -->
+                </app>
+                ibi intendunt forte 
+                <app>
+                  <lem>habere</lem>
+                  <rdg wit="#M" type="variation-substance">haberi</rdg>
+                </app>. 
+                Eadem enim substantia 
+                <app>
+                  <lem>animae</lem>
+                  <rdg wit="#S" type="variation-absent" />
+                </app>
+                <app>
+                  <lem>est</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app>
+                memoria, intelligentia et voluntas. 
+                Ita enim
                 <cit>
                   <ref>secundum <name ref="#Augustine">Augustinum</name></ref>
                   <bibl>
-                    <name>Augustinus</name>, 
-                    <title>De Trinitate</title>, 
+                    <name ref="#Augustine">Augustinus</name>, 
+                    <title ref="#deTrinitate">De Trinitate</title>, 
                     IX, c. 5, n. 8 (CCSL 50: 301; PL 42:965) 
-                    "Miro itaquae modo tria ista inseparabilia sunt a semetipsis, 
+                    “Miro itaquae modo tria ista inseparabilia sunt a semetipsis, 
                     et tamen eorum singulum quidque substantia est et simul 
-                    omnia una substantia vel essentia cum et relative dicantur ad invicem."
+                    omnia una substantia vel essentia cum et relative dicantur ad invicem.”
                   </bibl>
                 </cit> 
-                et allegatur in littera, 
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app> 
+                allegatur 
                 <cit>
-                  <ref>distinctione 3, Ii,</ref>
-                  <bibl><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 2, n.7 (Quaracchi, 1:73-74)</bibl>
+                  <ref>in littera, distinctione 3, 
+                    <app>
+                    <lem>I</lem>
+                    <rdg wit="#S #M" type="variation-spelling">primi</rdg>
+                    <rdg wit="#V #T" type="variation-substance">prima</rdg>
+                    </app>,
+                  </ref>
+                  <bibl>
+                    <name ref="#Lombard">Petrus Lombardus</name>, 
+                    <title ref="#Sentences">Sententiae</title>, 
+                    Bk. I, d. 3, c. 2, n.7 (Quaracchi, 1:73-74)
+                  </bibl>
                 </cit> 
-                relative dicuntur 
-                ad invicem quod non esset nisi significarent aliqua distincta quae 
+                <app>
+                  <lem>relative</lem>
+                  <rdg wit="#T" type="variation-substance">relativa</rdg>
+                </app> 
+                dicuntur ad invicem quod non esset nisi significarent 
+                <app>
+                  <lem>aliqua</lem>
+                  <rdg wit="#S" type="variation-substance">alia</rdg>
+                </app> 
+                distincta quae 
                 <app>
                   <lem>non</lem>
-                  <rdg wit="#S" type="correction-addition">
-                  	<add>non</add>
-                  </rdg>
+                  <rdg wit="#S #M" type="variation-absent"/>
                 </app> 
-                sunt substantia 
-                animae.</p>
+                sunt substantia animae.
+              </p>
               
-              <p xml:id="b1d3qun-atdmiv">Ad tertium, dico quod aliqua, per quae exprimuntur distinctae partes 
-                imaginis, numquam vere removentur ab anima rationali Tamen haec per se est 
-                vera et necessaria, si formetur anima. Est memoria, intelligentia, et voluntas, 
+              <p xml:id="b1d3qun-atdmiv">
+                Ad tertium, dico quod 
+                <app>
+                  <lem>aliqua</lem>
+                  <rdg wit="#M" type="variation-substance">aliquando</rdg>
+                </app>
+                per quae exprimuntur distinctae partes 
+                imaginis numquam vere removentur ab anima 
+                <app>
+                  <lem>rationali</lem>
+                  <rdg wit="#S" type="correction-substitution">
+                    <subst>
+                      <del rend="expunctuated">realiter</del>
+                      <add place="margin">rationali</add>
+                    </subst>
+                  </rdg>
+                </app>.
+                <app>
+                  <lem>Unde</lem>
+                  <rdg wit="#S" type="variation-substance">Tamen</rdg>
+                </app> 
+                haec 
+                <app>
+                  <lem>per se est</lem>
+                  <rdg wit="#V" type="variation-substance">semper est</rdg>
+                  <rdg wit="#M" type="variation-substance">pro specie</rdg>
+                </app>
+                vera et necessaria si formetur anima. 
+                Est 
+                <app>
+                  <lem>memoria, intelligentia</lem>
+                  <rdg wit="#M #V" type="variation-inversion">intelligentia memoria</rdg>
+                </app> 
+                et voluntas, 
                 <pb ed="#S" n="80-r" />
                 <cb ed="#S" n="b" /> 
-                si anima saltem sit. Nec aliud intelligit <name ref="#Augustine">Augustinus</name> per <mentioned>imaginem esse immortalem</mentioned> 
-                quam quod <mentioned>anima necessario et immortaliter,</mentioned> ipsa manente, sit talis qualis exprimitur 
-                esse cum dicitur <mentioned>esse memoria, intelligentia, voluntas.</mentioned></p>
+                <app> <!-- This might hint us as to the relation between #V, #M, and #S. -->
+                  <lem>si anima saltem sit</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="margin"></add>
+                  </rdg>
+                  <rdg wit="#M" type="variation-absent"/> 
+                </app>. 
+                Nec 
+                <app>
+                  <lem>aliud</lem>
+                  <rdg wit="#T" type="variation-substance">quod</rdg>
+                </app>
+                <app>
+                  <lem>intendit</lem>
+                  <rdg wit="#S" type="variation-substance">intelligit</rdg>
+                </app>
+                <name ref="#Augustine">Augustinus</name> per <mentioned>imaginem esse immortalem</mentioned> 
+                quam quod 
+                <app>
+                  <lem><mentioned>anima necessario et immortaliter,</mentioned></lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app>
+                ipsa manente, 
+                <app>
+                  <lem>sit</lem>
+                  <rdg wit="#M" type="variation-substance"><mentioned>anima necessario et immortaliter</mentioned> est</rdg>
+                </app>
+                talis qualis exprimitur 
+                <app>
+                  <lem n="exprimitur"/>
+                  <rdg wit="#S" type="variation-present">esse</rdg>
+                </app>
+                cum dicitur 
+                <app>
+                  <lem>esse</lem>
+                  <rdg wit="#V" type="variation-absent"/>
+                </app>
+                <mentioned>
+                  memoria, intelligentia 
+                  <app>
+                    <lem>et</lem>
+                    <rdg wit="#S #V #T" type="variation-absent"/>
+                  </app>
+                  voluntas
+                </mentioned>.
+              </p>
               
-              <p xml:id="b1d3qun-aqbiao">Ad quartum bene respondet 
+              <p xml:id="b1d3qun-aqbiao">
+                Ad quartum 
+                <app>
+                  <lem>bene</lem>
+                  <rdg wit="#T" type="variation-absent"/>
+                </app>
+                respondet 
                 <cit>
                   <ref>
                     <name ref="#Scotus">Scotus</name>
                   </ref>
-                  <bibl><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. I, d. 3, pars 3, q. 4, n. 590 (Vatican, 3:349)</bibl>
+                  <bibl>
+                    <name ref="#Scotus">Iohannes Duns Scotus</name>, 
+                    <title>Ordinatio</title>, 
+                    Bk. I, d. 3, pars 3, q. 4, n. 590 (Vatican, 3:349)
+                  </bibl>
                 </cit> 
-                quod respectu Dei, ut obiecti, in mente habetur ultima et perfectissima ratio 
-                imaginis, quia tunc illa tria non solum sunt expressa similitudo Trinitatis 
-                increatae, ex quo sunt tres tales res sic se habentes 
-                inter se, sed ultra hoc, quia omnis actus est vere similitudo 
-                obiecti cuius est et quaedam expressa imago ipsius, licet aequivoca. Ideo quando 
-                actus illi sunt respectu Dei, ut obiecti, tunc perfectius habetur imago et 
-                conformitas ad Trinitatem  increatam, maxime cum etiam tunc in obiecto 
-                inveniatur Trinitas obiectiva correspondens quodammodo in mente Trinitati 
-                subiectivae quod non contingit in aliis obiectis.</p>
+                quod respectu Dei, ut obiecti
+                <app>
+                  <lem n="obiecti" />
+                  <rdg wit="#M" type="variation-present">rerum</rdg>
+                </app>,  
+                <app> <!-- not sure how to encode this inversion / substance -->
+                  <lem wit="#S">in mente habetur</lem>
+                  <rdg wit="#V" type="variation-inversion">habetur in mente creata</rdg>
+                  <rdg wit="#M" type="variation-substance">habetur in mente causata</rdg>
+                  <rdg wit="#T" type="variation-inversion">habetur creata in mente</rdg>
+                </app>
+                ultima et perfectissima 
+                <app>
+                  <lem>ratio</lem>
+                  <rdg wit="#M" type="variation-substance">ratio</rdg>
+                </app> 
+                imaginis, quia tunc 
+                <app>
+                  <lem>illa</lem>
+                  <rdg wit="#V" type="variation-substance">ista</rdg>
+                </app>
+                tria non solum sunt 
+                <app>
+                  <lem>expressa</lem>
+                  <rdg wit="#V #T" type="variation-substance">expressa</rdg>
+                </app>
+                similitudo Trinitatis increatae, ex 
+                <app>
+                  <lem>hoc</lem>
+                  <rdg wit="#S" type="variation-absent"/>
+                </app>
+                <app>
+                  <lem>quo</lem>
+                  <rdg wit="#M" type="variation-substance">quod</rdg>
+                </app>
+                sunt tres tales res sic se habentes inter se, sed ultra hoc, quia omnis actus est vere similitudo obiecti cuius est et quaedam expressa imago ipsius, licet aequivoca. Ideo quando actus illi sunt respectu Dei, ut obiecti, tunc perfectius habetur imago et conformitas ad Trinitatem increatam, maxime cum etiam tunc in obiecto inveniatur Trinitas obiectiva correspondens quodammodo in mente Trinitati subiectivae quod non contingit in aliis obiectis.
+              </p>
               
               <p xml:id="b1d3qun-aqetis">Ad quintum. 
                 <cit>
