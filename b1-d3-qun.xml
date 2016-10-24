@@ -3,12 +3,11 @@
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 -->
-<!--<?xml-model href="https://raw.githubusercontent.com/nivaca/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/nivaca/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-
-<?xml-model href="../../Downloads/lombardpress-schema.5/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/nivaca/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/nivaca/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../../Downloads/lombardpress-schema.5/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Downloads/lombardpress-schema.5/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
+-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -2525,37 +2524,168 @@
                   <lem>sunt</lem>
                   <rdg wit="#V #M" type="variation-absent" />
                 </app>
-                respectu Dei, ut obiecti, tunc perfectius habetur imago et conformitas ad Trinitatem increatam, maxime cum etiam tunc in obiecto inveniatur Trinitas obiectiva correspondens quodammodo in mente Trinitati subiectivae quod non contingit in aliis obiectis.
+                respectu Dei, 
+                <app>
+                  <lem>ut</lem>
+                  <rdg wit="#M" type="variation-substance">modo</rdg>
+                </app>
+                obiecti, tunc 
+                <app> <!-- checked! -->
+                  <lem>
+                    perfectius 
+                    <app> <!-- needs to be checked -->
+                      <lem>habetur</lem>
+                      <rdg wit="#S #T" type="variation-substance">habere</rdg>
+                    </app>
+                    imago et conformitas ad Trinitatem
+                    <app>
+                      <lem n="Trinitatem"/>
+                      <rdg wit="#S" type="correction-deletion">
+                        <del rend="expunctuated">et</del>
+                      </rdg>
+                    </app>
+                    increatam
+                  </lem>
+                  <rdg wit="#M" type="variation-absent" />
+                </app>,
+                maxime cum 
+                <app>
+                  <lem>etiam</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app>
+                tunc in <app>
+                  <lem>obiecto</lem>
+                  <rdg wit="#M" type="variation-substance">obiecta</rdg>
+                </app> 
+                inveniatur
+                <app>
+                  <lem n="inveniatur"/>
+                  <rdg wit="#V" type="variation-present">maxime</rdg>
+                </app>
+                Trinitas 
+                <app>
+                  <lem>obiectiva</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="above-line">obiectiva</add>
+                  </rdg>
+                </app> 
+                correspondens quodammodo in mente Trinitati subiectivae quod 
+                non contingit in aliis obiectis.
               </p>
               
-              <p xml:id="b1d3qun-aqetis">Ad quintum. 
+              <p xml:id="b1d3qun-aqetis">
+                <app> <!-- this isn't really a correction but a marginal addition... -->
+                  <lem n="obiectis." />
+                  <rdg wit="#S" type="correction-addition">
+                    <add place="margin">ad quintum</add>
+                  </rdg>
+                </app>
                 <cit>
                   <ref>
-                    Ex eadem solutione
+                    <app>
+                      <lem>Ex eadem solutione</lem>
+                      <rdg wit="#S" type="variation-substance">Ex eadem</rdg>
+                      <rdg wit="#T" type="variation-substance">Per idem</rdg>
+                      <rdg wit="#M" type="variation-substance">Ex istis</rdg>
+                    </app>
                   </ref>
                   <bibl>vide supra (Cross Reference to above paragraph)</bibl>
                 </cit>
-                patet ad 
-                quintum quod perfectissima ratio imaginis possibilis haberi in creatura respectu Trinitatis 
-                non est in anima et actibus sensitivis, quia illi actus non possunt habere 
-                Deum pro obiecto. Tamen videtur mihi quod in sensitiva humana, quae est eadem 
-                cum intellectiva, magis potest poni imago Trinitatis in substantia et actibus 
-                sensitivis sic ordinatis, 
+                patet ad quintum 
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#V" type="variation-substance">quia</rdg>
+                </app>
+                perfectissima ratio imaginis possibilis haberi in creatura 
+                respectu Trinitatis non est in anima et actibus sensitivis, quia 
+                <app>
+                  <lem>illi</lem>
+                  <rdg wit="#M" type="variation-substance">ibi</rdg>
+                </app>
+                actus non possunt habere Deum pro obiecto. Tamen videtur mihi 
+                quod in sensitiva humana, quae est eadem cum 
+                <app>
+                  <lem>intellectiva</lem>
+                  <rdg wit="#M" type="variation-substance">intellecta</rdg>
+                </app>, 
+                <app>
+                  <lem>magis</lem>
+                  <rdg wit="#V #M" type="variation-substance">eius</rdg>
+                  <rdg wit="#T" type="variation-substance">magnis</rdg>
+                </app> 
+                potest poni imago 
+                <app>
+                  <lem n="imago" />
+                  <rdg wit="#M" type="variation-present">in substantia scilicet imago</rdg>
+                </app>
+                Trinitatis in substantia et actibus sensitivis 
+                <app>
+                  <lem>sic ordinatis</lem>
+                  <rdg wit="#M" type="variation-present">ordinatus</rdg>
+                </app>, 
                 <cit>
-                  <ref>ut supra tactum est,</ref>
+                  <ref>ut supra 
+                    <app>
+                      <lem>tactum</lem>
+                      <rdg wit="#V #T" type="variation-substance">tactus</rdg>
+                    </app>
+                    est,
+                  </ref>
                   <bibl>(Cross Reference?)</bibl>
-                </cit> 
-                quamquam imperfectior quam 
-                respectu mere obiecti intelligibilis, quia actus sensitivi et appetitivi humani sunt 
-                simplices et inextensi, ita bene sicut actus intellectivi et voluntivi. 
-                Sed secus est de bruto, ubi tales actus sunt formae extensae, 
-                et ideo est imperfectior similitudo ad Trinitatem increatam 
-                simplicissimam.</p>
+                </cit>          
+                <app>
+                  <lem>quamquam</lem>
+                  <rdg wit="#M" type="variation-present">quaequam</rdg>
+                </app>
+                imperfectior quam respectu 
+                <app>
+                  <lem>mere obiecti</lem>
+                  <rdg wit="#T #V" type="variation-inversion">obiecti mere</rdg>
+                </app>
+                <app>
+                  <lem>intelligibilis</lem>
+                  <rdg wit="#M" type="variation-substance">intellectualis</rdg>
+                </app>, 
+                quia actus sensitivi et appetitivi humani sunt simplices 
+                et inextensi, ita bene sicut actus 
+                <app>
+                  <lem>intellectivi</lem>
+                  <rdg wit="#M" type="variation-substance">intelligendi</rdg>
+                </app>
+                et
+                <app>
+                  <lem>volitivi</lem>
+                  <rdg wit="#S" type="variation-substance">voluntivi</rdg>
+                </app>. 
+                Sed secus est 
+                <app>
+                  <lem>de</lem>
+                  <rdg wit="#M" type="variation-substance">vere</rdg>
+                </app>
+                bruto, 
+                <app>
+                  <lem>ubi</lem>
+                  <rdg wit="#M" type="variation-substance">verbi</rdg>
+                </app>
+                tales 
+                <app>
+                  <lem>actus sunt formae</lem>
+                  <rdg  wit="#M" type="variation-substance">formae sunt</rdg>
+                </app>
+                extensae, et ideo est
+                <app>
+                  <lem>imperfectior</lem>
+                  <rdg wit="#V #T" type="variation-substance">perfectior</rdg>
+                </app>
+                similitudo ad Trinitatem increatam simplicissimam.
+              </p>
             </div>
           </div>
+          
           <div xml:id="b1d3qun-Dsasedu">
-            <head xml:id="b1d3qun-Hsecdub"><supplied>Secundum Dubium</supplied></head>
-            <p xml:id="b1d3qun-spevqn">Secundum dubium principale est utrum secunda pars imaginis increatae, 
+            <head xml:id="b1d3qun-Hsecdub"><supplied>Secundum dubium</supplied></head>
+            <p xml:id="b1d3qun-spevqn">
+              Secundum dubium principale est utrum secunda pars imaginis increatae, 
               scilicet, actualis intellectio gignatur a prima, scilicet a memoria, et videtur quod non.</p> 
             <div> 
               <head xml:id="b1d3qun-Hrpppds"><supplied>Rationes principales pro dubio secundo</supplied></head> 
