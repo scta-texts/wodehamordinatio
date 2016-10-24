@@ -2905,15 +2905,55 @@
                 </ref>
               </p>
               <p xml:id="b1d3qun-itpics"><supplied>Secundum.</supplied> Item, tunc primus amor in mente alicuius procederet a notitia 
-                et supposito, quod iste amor sit respectu alicuius delectabilis, cum 
-                tunc illa sit verbum, quia est cogitatio alicuius respectu placentis, igitur est 
-                verbum per definitionem verbi. Ex quo sequitur quod primus amor mentis in illo 
-                casu procedit a verbo. Consequens falsum, quia tunc idem esset causa et effectus 
+                et supposito, quod iste amor sit respectu alicuius delectabilis, 
+              	<app>
+              		<lem>cum</lem>
+              		<rdg wit="#M">non</rdg>
+              	</app> 
+                tunc illa 
+              	<app>
+              		<lem>notitia</lem>
+              		<rdg wit="#S" type="variation-absent"/>
+              	</app> 
+              	<app>
+              		<lem>sit</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+              	<app>
+              		<lem>verbum</lem>
+              		<rdg wit="#T">verum</rdg> <!-- likely transcription error; dbcheck -->
+              	</app>, 
+              	quia
+              	<app>
+              		<lem>haec</lem> <!-- I prefer the more explicit reading -->
+              		<rdg wit="#S #M #V" type="variation-absent"/>
+              	</app>
+              	est 
+              	cognitio <!-- dbcheck against "cogitatio" --> 
+              	alicuius respectu placentis, igitur 
+              	<app>
+              		<lem>est</lem>
+              		<rdg wit="#M #V" type="variation-absent"/>
+              	</app> 
+                verbum per definitionem verbi. Ex quo sequitur quod primus amor mentis in 
+                isto <!-- illo in S --> 
+                casu procedit a verbo. Consequens falsum, quia tunc 
+              	<app>
+              		<lem>idem</lem>
+              		<rdg wit="#M">recte</rdg>
+              	</app> 
+              	esset causa et
+              	<app>
+              		<lem n="et"/>
+              		<rdg wit="#T" type="variation-present">esset</rdg>
+              	</app> 
+              	effectus 
                 respectu eiusdem, quia omne verbum procedit ab amore secundum 
                 <cit>
                   <ref>
-                    <name ref="#Augustine">Augustinus</name> IX 
-                    <title ref="#deTrinitate">De Trinitate</title> c. 14, 21.
+                    <name ref="#Augustine">Augustinum</name> <!-- S and M still have Augustinus which is probably a transcription error --> 
+                  	IX 
+                    <title ref="#deTrinitate">De Trinitate</title> c. 14, 21. <!-- complicated disagreement in Vat and Maz about numbers here -->
                   </ref>
                   <bibl>
                     <name>Augustinus</name>, 
@@ -2924,16 +2964,89 @@
                   </bibl>
                 </cit> 
                 Et per consequens, si amor iste primus procedit ab aliquo 
-                amore tunc primus amor procederet a primo amore, et ita idem causa sui.</p> 
+                <app>
+                	<lem>verbo et illud verbum ab aliquo</lem>
+                	<rdg wit="#S #T" type="variation-absent"/>
+                </app>
+                amore tunc 
+              	<app>
+              		<lem>primus</lem>
+              		<rdg wit="#T">primum</rdg>
+              	</app> 
+              	amor 
+              	<app>
+              		<lem>procederet</lem>
+              		<rdg wit="#S" type="correction-substitution">
+              			<subst>
+              				<del>procedet</del>
+              				<add>procederet</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	<app>
+              		<lem>a</lem>
+              		<rdg wit="#T" type="correction-substitution">
+              			<subst>
+              				<del>ab</del>
+              				<add>a</add>
+              			</subst>
+              		</rdg>
+              	</app> 
+              	<app>
+              		<lem>primo</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> amore, et ita idem causa sui.</p> 
               
-              <p xml:id="b1d3qun-pqppaa"><supplied>Tertium.</supplied> Praeterea quod primus amor non <sic>procecedat</sic> ab aliqua 
-                notitia videtur, quia prima notitia procedit ab amore, igitur non econtra, primus 
-                amor a notitia. Assumptum probatur, quia prima notitia sensitiva procedit ab 
-                amore, igitur et prima [intuitiva][intellectiva]. Ultimum assumptum probatur, quia prima notitia sensitiva 
-                sit a voluntate copulante sensum cum sensibili secundum 
+              <p xml:id="b1d3qun-pqppaa"><supplied>Tertium.</supplied> Praeterea quod primus amor non 
+              	<app>
+              		<lem>procedat</lem>
+              		<rdg wit="#S"><sic>procecedat</sic></rdg>
+              	</app> 
+              	ab 
+              	<app>
+              		<lem>aliqua</lem>
+              		<rdg wit="#M">alia</rdg>
+              	</app> 
+                notitia 
+              	<app>
+              		<lem>videtur, quia prima notitia</lem>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>videtur, quia prima notitia</add>
+              		</rdg>
+              	</app> 
+              	procedit ab amore, igitur non econtra, 
+              	<app>
+              		<lem>primus amor a notitia</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app>. Assumptum probatur, quia prima 
+              	<app>
+              		<lem>notitia</lem>
+              		<rdg wit="#M #V">cognitio</rdg>
+              	</app> 
+              	sensitiva procedit ab 
+                amore, igitur et 
+              	<app>
+              		<lem>prima</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	<app>
+              		<lem>intellectiva</lem>
+              		<rdg wit="#S">intuitiva</rdg> <!-- dbcheck -->
+              	</app>. 
+              	Ultimum assumptum probatur, quia 
+              	prima notitia <!-- V has "notitia prima" --> 
+              	sensitiva 
+                <app>
+                	<lem>sit</lem>
+                	<rdg wit="#M">fit</rdg> <!-- dbcheck -->
+                </app> 
+              	a voluntate copulante sensum cum sensibili secundum 
                 <cit>
                   <ref>
-                    <name ref="#Augustine">Augustinum</name> XI <title ref="#deTrinitate">De Trinitate</title> c. 2[?], 4, 7, 9, 21, 29,
+                    <name ref="#Augustine">Augustinum</name> 
+                  	XI 
+                  	<title ref="#deTrinitate">De Trinitate</title> 
+                  	c. 2, 4, 7, 9, 21, 29, <!-- discrepancy here in all witnesses -->
                   </ref>
                   <bibl>
                     <name>Augustinus</name>, 
@@ -2942,46 +3055,240 @@
                   </bibl>
                 </cit> 
                 et quasi per totum librum. Sed voluntas non copulat 
-                nisi per amorem, cum non habeat aliquem actum quo sic copulet, 
-                igitur quaelibet cogitatio sensitiva procedit ab amore.</p>
+                nisi per amorem, cum non habeat 
+                <app>
+                	<lem>alium aliquem actum</lem>
+                	<rdg wit="#M">actum aliquem alium</rdg>
+                	<rdg wit="#S">aliquem actum</rdg>
+                </app> 
+                quo sic copulet, 
+                igitur quaelibet 
+                cognitio <!-- M has "cogitatio" --> 
+                sensitiva procedit ab amore.</p>
               
               <p xml:id="b1d3qun-qpaaci"><supplied>Quartum.</supplied> Praeterea appetitus sensitivus 
-                potest esse sine cogitatione, igitur et appetitus intellectivus. Assumptum probo, quia 
-                naturaliter haberet quis famem et sitim et si numquam sentiret aliquid ab 
-                extrinseco. Sed fames et sitis sunt appetitus sensitivi, igitur appetitus 
-                sensitivus potest esse sine cogitatione, et igitur appetitus intellectivus. Assumptum probo, quia naturaliter 
-                haberet quis famem et sitim, etc., secundum 
-                <cit>
-                  <ref>
-                    <name ref="#Averroes">Commentatorem</name> II <title>De animo</title>, commento 28,
-                  </ref>
-                  <bibl>
-                    <name>Averroes</name>, <title>In Aristot. De anima</title>, II, 28 (Crawford, 170-172 check latin)
-                  </bibl>
-                </cit> 
-                igitur.</p>
-              <p xml:id="b1d3qun-qiqecc"><supplied>Quintum.</supplied> Item quinto, sit talis dilectio haec elicita 
+                potest esse sine 
+                cognitione, <!-- cogitatione in "M" --> 
+                igitur et 
+              	<app>
+                	<lem>appetitus</lem>
+              		<rdg wit="#T" type="variation-absent"/>
+              	</app> 
+              	intellectivus. 
+              	Assumptum probo, quia 
+                naturaliter 
+                <app>
+                	<lem>haberet quis</lem>
+                	<rdg wit="#M">haberes</rdg>
+                	<rdg wit="#V">haberet</rdg>
+                </app> 
+              	famem et sitim et si numquam 
+              	<app>
+              		<lem>sentiret</lem>
+              		<rdg wit="#M">haberes vel sentire</rdg> <!-- dbcheck -->
+              	</app> 
+              	aliquid ab 
+                extrinseco. Sed fames et sitis sunt appetitus 
+                <app> <!-- probably a quote here that only S completed filled in -->
+                	<lem>sensitivi, igitur appetitus
+                		sensitivus potest esse sine cogitatione, et igitur appetitus intellectivus. Assumptum probo, quia naturaliter\
+                		haberet quis famem et sitim, etc.,</lem>
+                	<rdg wit="#M #V #T" type="variation-absent"/>
+                </app> 
+              	<app>
+              		<lem>
+              			<app>
+              				<lem>secundum</lem>
+              				<rdg wit="#M #V">per</rdg>
+              			</app> 
+              			<cit>
+              				<ref>
+              					<name ref="#Averroes">Commentatorem</name> II <title>De anima <!-- animo in S, dbcheck --></title>, commento 28,
+              				</ref>
+              				<bibl>
+              					<name>Averroes</name>, <title>In Aristot. De anima</title>, II, 28 (Crawford, 170-172 check latin)
+              				</bibl>
+              			</cit>
+              			<app>
+              				<lem>igitur</lem>
+              				<rdg wit="#M" type="variation-absent"/>
+              				<rdg wit="#T">igitur etc</rdg>
+              			</app>.
+              		</lem>
+              		<rdg wit="#S" type="correction-addition"> <!-- good example of where I would prefer to just point to the lema with @copyOf --> 
+              			<add>secundum Commentatorem II De anima, commento, 28, igitur</add></rdg>
+              	</app>
+              </p>
+              <p xml:id="b1d3qun-qiqecc"><supplied>Quintum.</supplied> Item quinto, 
+              	<app>
+              		<lem>sit</lem>
+              		<rdg wit="#T">sic</rdg> <!-- dbcheck -->
+              		<rdg wit="#V" type="variation-absent"/>
+              	</app> 
+              	talis dilectio 
+              	<app>
+              		<lem>libere</lem>
+              		<rdg wit="#V">lebere</rdg> <!-- should this be libere? It's "lebere" in V transcription as well -->
+              		<rdg wit="#S #M">haec</rdg> <!-- dbcheck -->
+              	</app> 
+              	elicita 
                 a voluntate aut 
                 <app>
                   <lem>esset</lem>
                   <rdg wit="#S" type="correction-addition">
                   	<add place="margin">esset</add>
                   </rdg>
+                	<rdg wit="#M">est</rdg>
                 </app> 
-                eadem cum intellectione praesupposita ad hoc quod 
-                aliquid haec diligatur aut non. Si sic, cum non sit maior ratio quod 
-                ista res possit fieri dilectio quam odium, igitur dilectio posset esse 
-                odium contra probatur per syllogismum expositionum haec res est dilectius haec res 
-                esse potest odium igitur dilectio potest esse odium si non est intellectus cum 
-                Deus omne absolutum creatum posset servare cum alio igitur posset servare 
-                dilectionem istam destructa ista intellectione et pari ratione cum intellectione 
+                eadem
+                <app>
+                	<lem n="eadem"/>
+                	<rdg wit="#V">res</rdg>
+                </app>
+                cum intellectione praesupposita ad 
+                <app>
+                	<lem>hoc</lem> <!-- dbcheck -->
+                	<rdg wit="#T">haec</rdg> <!-- dbcheck -->
+                </app> 
+                quod 
+                aliquid 
+              	<app>
+              		<lem>libere</lem> <!-- compare to above -->
+              		<rdg wit="#S #M">haec</rdg> <!-- dbcheck -->
+              	</app> 
+              	diligatur aut non. Si sic, cum non 
+              	<app>
+              		<lem>sit</lem>
+              		<rdg wit="#T">vera a</rdg>
+              	</app> 
+              	maior ratio 
+              	quod ista res 
+              	<app>
+              		<lem>possit</lem>
+              		<rdg wit="#M">potest</rdg>
+              	</app> 
+              	fieri dilectio quam odium, igitur dilectio 
+              	<app>
+              		<lem>posset esse</lem>
+              		<rdg wit="#M">potest fieri</rdg>
+              	</app> 
+                odium 
+              	<app>
+              		<lem>contra</lem>
+              		<rdg wit="#S #M">consequentia</rdg> <!-- dbcheck -->
+              	</app> 
+              	probatur per syllogismum expositionum haec res est 
+              	<app>
+              		<lem>dilectius</lem>
+              		<rdg wit="#S">dilectius</rdg>
+              	</app> 
+              	haec res 
+                potest esse <!-- S and T have "esse potest" -->
+                odium 
+              	<app>
+              		<lem>igitur dilectio potest esse odium</lem>
+              		<rdg wit="#T" type="variation-absent" cause="homeoteleuton"/>
+              	</app> 
+              	si non est 
+              	<app>
+              		<lem>intellectio</lem>
+              		<rdg wit="#S">intellectus</rdg>
+              	</app> 
+              	cum 
+                Deus omne absolutum 
+              	<app>
+              		<lem>creatum</lem>
+              		<rdg wit="#M">causatum</rdg>
+              	</app> 
+              	posset 
+              	<app>
+              		<lem>servare</lem>
+              		<rdg wit="#M">conservare</rdg>
+              	</app> 
+              	<app> <!-- important disagreement between S/T and M/V -->
+              		<lem>cum</lem>
+              		<rdg wit="#M #V">sine</rdg>
+              	</app>
+              	alio igitur posset servare 
+                dilectionem istam destructa ista 
+              	<app>
+              		<lem>intellectione</lem>
+              		<rdg wit="#T">dilectione</rdg>
+              	</app> 
+              	et 
+              	<app>
+              		<lem>eadem</lem>
+              		<rdg wit="#S">pari</rdg>
+              	</app> 
+              	ratione 
+              	<app>
+              		<lem>omni</lem>
+              		<rdg wit="#S">cum</rdg> <!-- dbcheck -->
+              	</app> 
+              	intellectione 
                 destructa et tunc voluntas posset diligere incognitum contra 
-                <name ref="#Augustine">Augustinum</name> et contra experientiam. Et iuxta hoc de libertate voluntatis potest 
-                idem inconveniens deduci. Confirmatur quia tunc voluntas vere posset imperare 
-                cogitationem de aliquo de quo non cogitatur actu. Aut igitur illud apprehenditur 
-                actu aut non. Si non, voluntas operatur volitione circa incognitum. 
-                Si sic, frustra praeciperet quod fieret prius quam perciperetur et 
-                propterea, hoc erat contra casum.</p>
+                <name ref="#Augustine">Augustinum</name> et contra experientiam. 
+              	Et iuxta 
+              	<app>
+              		<lem>hoc</lem>
+              		<rdg wit="#T">haec</rdg> <!-- dbcheck -->
+              	</app>
+              	<app>
+              		<lem>ex</lem>
+              		<rdg wit="#S">de</rdg>
+              	</app> 
+              	libertate <!-- M has "liberate"; probalby transcription errror --> 
+              	voluntatis potest 
+                idem inconveniens deduci. 
+              	<app>
+              		<lem>Confirmatur</lem>
+              		<rdg wit="#S #M" type="variation-absent"/>
+              		<rdg wit="#V" type="correction-addition">
+              			<add>confirmatur</add>
+              		</rdg>
+              	</app> 
+              	quia tunc voluntas 
+              	<app>
+              		<lem>vere</lem>
+              		<rdg wit="#M #V">libere</rdg>
+              	</app> 
+              	posset imperare 
+                cognitionem <!-- discrepancy with "cogitationem" -->
+              	de aliquo de quo non cogitatur actu. Aut igitur illud apprehenditur 
+                actu 
+              	<app>
+              		<lem>aut</lem>
+              		<rdg wit="#V">vel</rdg>
+              	</app> 
+              	non. Si non, voluntas operatur 
+              	<app>
+              		<lem>volitione</lem>
+              		<rdg wit="#S">volitive</rdg>
+              	</app> 
+              	circa incognitum. 
+                Si sic, frustra praeciperet 
+                quod <!-- V has "quia" --> 
+                <app>
+                	<lem>fieret</lem>
+                	<rdg wit="#S" type="correction-substitution">
+                		<subst>
+                			<del>particularem</del>
+                			<add>fieret</add>
+                		</subst>
+                	</rdg>
+                </app> 
+              	prius quam 
+              	<app>
+              		<lem>perciperetur et propterea</lem>
+              		<rdg wit="#M">praeciperetur in prima</rdg> <!-- dbcheck -->
+              		<rdg wit="#V">perciperetur et prima</rdg> <!-- dbcheck -->
+              		<rdg wit="#T">perciperetur et</rdg><!-- dbcheck -->
+              	</app>, 
+              	<app>
+              		<lem>hoc</lem>
+              		<rdg wit="#T">haec</rdg>
+              	</app> 
+              	erat contra casum.</p>
             </div>
             <div>
               <head><supplied>Oppositum</supplied></head>
