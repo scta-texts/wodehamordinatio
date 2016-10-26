@@ -3302,11 +3302,27 @@
                     ". . .et amor hominis de scientia procedens et memoriam intellegentiamque coniungens tamquam parenti prolique communis . . ."
                   </bibl>
                 </cit> 
-                utrobique, enim dicit quod amor procedit de scientia de ipsa mente.</p>
+                utrobique, enim dicit quod amor procedit 
+              	<app>
+              		<lem>de</lem>
+              		<rdg wit="#M">ex</rdg>
+              	</app> 
+              	scientia 
+              	<app>
+              		<lem>et</lem>
+              		<rdg wit="#S" type="correction-addition">
+              			<add>et</add>
+              		</rdg>
+              		<rdg wit="#M #T #V" type="variation-absent"/>
+              	</app> 
+              	de ipsa mente.</p>
               
               <p xml:id="b1d3qun-pnppan">Praeterea, notitia praesupponitur amori sicut probat 
                 <cit>
-                  <ref><name ref="#Augustine">Augustinus</name> VIII <title ref="#deTrinitate">De Trinitate</title> c. 16,</ref>
+                  <ref> <!-- discrpeancies here (and in next ref --> in V and T aobut reference numbers -->
+                  	<name ref="#Augustine">Augustinus</name> 
+                  	VIII 
+                  	<title ref="#deTrinitate">De Trinitate</title> c. 16,</ref>
                   <bibl>
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title> 
@@ -3322,20 +3338,68 @@
                 </cit> 
                 et quasi per totum librum, et 
                 <ref>
-                  3o <title ref="#DeLiberoArbitrio">De libero arbitrio</title> dicit hoc c. 4
+                  III <title ref="#DeLiberoArbitrio">De 
+                  	libero <!-- Sorb has "libro" which is probably a transcription error -->  
+                  	arbitrio</title> dicit hoc 
+                	capitulo <!-- check "capitulus" through out T; should it be capitulo or capitulum --> 
+                	<app>
+                		<lem>42</lem>
+                		<rdg wit="#T">92</rdg> 
+                	</app>
                 </ref> 
-                quod 
+                quod <!-- V has "quia" instead of "quod" -->
                 <cit>
                   <quote xml:id="b1d3qun-Qnpaanc">nihil potest amari nisi cognitum</quote>
                   <bibl>Augustine, De Libero arbitrio, ???</bibl>
                 </cit> 
-                quamvis aliquid possit cognosci et non amari, sicut vult <name ref="#Augustine">Augustinus</name> omnibus locis 
-                praeallegatis. Igitur, cogitatio aliquo modo est causa amoris et certum 
-                est quod non malis nec finalis, igitur effectiva, igitur amor procedit 
-                a notitia.</p>
+                quamvis 
+                aliquid possit <!-- M and V have "possit aliquid" --> 
+                cognosci et non amari, sicut vult <name ref="#Augustine">Augustinus</name> 
+              	<app>
+              		<lem>in</lem>
+              		<rdg wit="#S #M #V" type="variation-absent"/>
+              	</app> 
+              	omnibus 
+              	<app>
+              		<lem>locis</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+                praeallegatis. Igitur, 
+                cogitatio <!-- compare to other instances that have been corrected to "cognitio" --> 
+                aliquo modo est causa amoris et certum 
+                est quod non 
+              	<app>
+              		<lem>materialis</lem> 
+              		<rdg wit="#V">malis</rdg> <!-- likely transcription error -->
+              	</app>
+              	nec finalis 
+              	<app>
+              		<lem>nec formalis</lem>
+              		<rdg wit="#S #M #V"/> 
+              	</app>, 
+              	igitur effectiva, igitur amor procedit 
+                a notitia 
+              	<app>
+              		<lem n="notitia"/>
+              		<rdg wit="#M" type="variation-present">actuali</rdg>
+              	</app>.
+              </p>
               
-              <p xml:id="b1d3qun-pnadtc">Praeterea, nisi amor procederet a notitia actuali seu cogitatione, 
-                non esset amor inter ista proportionaliter, scilicet, <unclear>8[?]</unclear>. Cuius oppositum declarat
+              <p xml:id="b1d3qun-pnadtc">Praeterea, nisi amor procederet 
+              	<app>
+              		<lem>a</lem>
+              		<rdg wit="#V">de</rdg> <!-- V has "denotitia" which I think is just a mistake and should be "de notitia" -->
+              	</app> 
+              	notitia actuali seu 
+              	cognitione, <!-- S and M still have "cogitatione" --> 
+                non esset amor inter ista 
+                <app>
+                	<lem>tria</lem>
+                	<rdg wit="#V" type="variation-absent"/>
+                </app> 
+                proportionaliter 
+                spiritu sancto. <!-- unclear V seems to have "consequens" added plus scilicet, M and T current have "spiritus sanctus" --> 
+                Cuius oppositum declarat
                 <cit>
                   <ref><name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> c. 29</ref>
                   <bibl>Augustine, De Trinitate, IX</bibl>
@@ -3350,7 +3414,21 @@
               <p xml:id="b1d3qun-ppeeac">Praeterea, 
                 <cit> <!-- example of difficult to encode multiple ref -->
                   <ref>
-                    <name ref="#Aristotle">Philosophus</name> et <name ref="#Averroes">Commentator</name> III <title>De anima</title>, commento 50
+                    <name ref="#Aristotle">Philosophus</name> et <name ref="#Averroes">Commentator</name> III <title>De anima</title>, 
+                  	<app>
+                  		<lem n="anima"/>
+                  		<rdg wit="#T" type="variation-present">determinantes</rdg>
+                  	</app> 
+                  	commento 
+                  	<app>
+                  		<lem>50</lem>
+                  		<rdg wit="#S" type="correction-substitution">
+                  			<subst>
+                  				<del>15</del>
+                  				<add>50</add>
+                  			</subst>
+                  		</rdg>
+                  	</app>
                   </ref>
                   <bibl>
                     Averroes, In Aristot. De anima III, 50 (Crawford, 519, check latin); 
@@ -3358,47 +3436,137 @@
                   </bibl>
                 </cit> 
                 determinantes modum per quem generantur 
-                in animali desiderium sive appetitus, dicunt quod hoc fit ex hoc quod imaginatio 
+                in animali desiderium 
+                sive <!-- M has "vel" --> 
+                appetitus, 
+                dicunt quod 
+                hoc  <!-- T has "haec" --> 
+                fit ex 
+                hoc <!-- T has "haec" -->
+                quod imaginatio 
                 imaginatur rem primo vel intellectus et postea res ipsa concupiscitur 
-                vel res praesentatur[?], igitur ipsi volunt quod amor sive desiderium 
+                vel 
+              	<app>
+              		<lem>res praesentatur</lem>
+              		<rdg wit="#V">repraesentatur</rdg> <!-- dbcheck -->
+              	</app>, 
+              	igitur ipsi volunt quod amor sive desiderium 
                 quod ipsi vocant ibi 
-                <app>
-                  <lem>appetitum</lem>
-                  <rdg wit="#S" type="correction-addition">
-                  	<add>appetitum</add>
+                <app> <!-- dbcheck -->
+                  <lem n="ibi"/>
+                  <rdg wit="#S" type="correction-deleting">
+                  	<del>intellectum</del>
                   </rdg>
                 </app> 
+              	appetitum
                 intellectivum, sicut ibi dicit <name ref="#Averroes">Commentator</name> fiat 
                 ex actuali cognitione.</p>
               <p xml:id="b1d3qun-pcdiia">Praeterea, 
                 <cit>
-                  <ref>commento 54 dicit <name ref="#Averroes">Commentator</name></ref>
+                  <ref>
+                  	<app>
+                  		<lem>commento 54 dicit <name ref="#Averroes">Commentator</name></lem>
+                  		<rdg wit="#T">54 commento</rdg>
+                  	</app>
+                  </ref>
                   <bibl>Averroes, In Aristot. De anima III, 54, (Crawford, 524, double check wint)</bibl>
                 </cit> 
                 quod: omnis 
-                appetitus fuit ab intellectu in actu.</p>
+                appetitus 
+              	<app>
+              		<lem>fuit</lem>
+              		<rdg wit="#M">fuerit</rdg>
+              	</app> 
+              	ab intellectu in actu.</p>
               <p xml:id="b1d3qun-pcdqsp">Praeterea, 
                 <ref>commento 56 dicit <name ref="#Averroes">Commentator</name></ref> 
                 quod: 
                 <cit>
-                  <quote xml:id="b1d3qun-Qoafqsp">omnis appetitus fit ex imaginatione, et imaginatio ex quinque sensibilibus 
-                    <pb ed="#S" n="82-v" />
-                    <cb ed="#S" n="b" /> 
-                    partibus.</quote>
+                  <quote xml:id="b1d3qun-Qoafqsp">omnis appetitus fit ex imaginatione, et imaginatio ex 
+                  	<app>
+                  		<lem>quinque sensibilibus 
+                  			<pb ed="#S" n="82-v" /> 
+                  			<cb ed="#S" n="b" /> 
+                  			partibus</lem>
+                  		<rdg wit="#T">sensibus particularibus</rdg>
+                  		<rdg wit="#V">quinque sensibus particularibus</rdg>
+                  	</app>.
+                  </quote>
                   <bibl>Averroes, In Aristot. De anima III, 56, (Crawford, 528)</bibl>
                 </cit>
               </p>
               
               <p xml:id="b1d3qun-pmcdie">Praeterea, 
                 <cit>
-                  <ref>12 <title ref="#MetaphysicsCommentary">Metaphysicae</title> commento 36</ref>
+                  <ref>
+                  	<app>
+                  		<lem>XII</lem>
+                  		<rdg wit="#V">XI</rdg> <!-- check for type -->
+                  	</app> <title ref="#MetaphysicsCommentary">Metaphysicae</title> commento 36</ref>
                   <bibl>Averroes, ???</bibl>
                 </cit> 
-                sicut appetitus in brutis animalibus est 
-                propter sensum qui apprehendit voluptuosum, ita voluntas sive desiderium 
-                intellectus est propter intellectum et statim post desiderium, enim est propter aestimationem eius 
-                quod est aliquid esse bonum vel quod nos aestimamus aliquid esse bonum propter quod desideramus 
-                ipsum etc.</p>
+                <app>
+                	<lem>sicut</lem>
+                	<rdg wit="#M">sit</rdg>
+                </app> 
+              	appetitus in brutis animalibus est 
+                <app>
+                	<lem>propter</lem>
+                	<rdg wit="#T">semper</rdg>
+                </app> 
+              	sensum qui 
+              	<app>
+              		<lem>apprehendit</lem>
+              		<rdg wit="#T #V">comprehendit</rdg>
+              	</app> 
+              	voluptuosum, 
+              	<app>
+              		<lem n="voluptuosum"/>
+              		<rdg wit="#V" type="variation-present">et</rdg>
+              	</app>
+              	ita voluntas sive desiderium 
+                intellectus est 
+              	<app>
+              		<lem>propter</lem>
+              		<rdg wit="#T">semper</rdg>
+              	</app> 
+              	intellectum et statim post desiderium, 
+              	<app>
+              		<lem>enim</lem>
+              		<rdg wit="#M">non</rdg>
+              	</app> 
+              	est 
+              	<app>
+              		<lem>propter</lem>
+              		<rdg wit="#T">semper</rdg>
+              	</app> 
+              	<app>
+              		<lem>aestimationem</lem>
+              		<rdg wit="#T">aestimatione</rdg>
+              	</app> 
+              	<app> <!-- might be trivial; perhaps should be ignored -->
+              		<lem>eius</lem>
+              		<rdg wit="#M">illius</rdg>
+              	</app> 
+                quod 
+                <app>
+                	<lem>est</lem>
+                	<rdg wit="#M" type="correction-addition">
+                		<add>est</add>
+                	</rdg>
+                </app> 
+                aliquid <!-- has "aliquod"; dbcheck -->
+                esse bonum 
+              	<app>
+              		<lem>vel quod</lem>
+              		<rdg wit="#M">et</rdg>
+              		<rdg wit="#V">et quod</rdg>
+              		<rdg wit="#T">vel enim</rdg>
+              	</app> 
+              	nos aestimamus aliquid esse bonum propter quod desideramus 
+                ipsum 
+                <!-- V addition here -->
+                etc.</p>
             </div>
             <div>
               <head><supplied>Responsio ad tertium dubium</supplied></head>
