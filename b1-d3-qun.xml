@@ -3570,49 +3570,169 @@
             </div>
             <div>
               <head><supplied>Responsio ad tertium dubium</supplied></head>
-              <p xml:id="b1d3qun-aidaps">Ad istud dubium dicendum quod sic loquendo de amore quae 
-                est actus amandi vel appetendi per viam naturae causatus, et ideo amor 
-                huiusmodi inter partes imaginis proportionaliter Spiritu Sancto in imagine increata 
-                secundum <name ref="#Augustine">Augustinus</name>, ubi prius arguendo ad partem oppositam dubitationis huius. 
-                Haec conclusio satis patet per argumentum supra positum in primo articulo et per 
+              <p xml:id="b1d3qun-aidaps">Ad istud dubium dicendum 
+              	<app>
+              		<lem>est</lem>
+              		<rdg wit="#S" type="variation-absent"/>
+              	</app> 
+              	quod sic loquendo de amore 
+              	<app>
+              		<lem>qui</lem>
+              		<rdg wit="#S">quae</rdg> <!-- dbcheck; likely transcription error -->
+              	</app> 
+                est actus amandi vel appetendi per viam naturae 
+              	<app>
+              		<lem>causatus</lem>
+              		<rdg wit="#M">causatur</rdg>
+              	</app>, 
+              	et ideo amor 
                 <app>
-                  <lem>hoc</lem>
+                	<lem>huiusmodi</lem>
+                	<rdg wit="#T">huius</rdg> <!-- dbcheck -->
+                </app> 
+              	inter partes imaginis 
+              	<app>
+              		<lem n="imaginis"/>
+              		<rdg wit="#M" type="variation-present">a</rdg>
+              	</app>
+              	proportionaliter 
+              	Spiritu Sancto <!-- V has SS, but this is an abbreviation and should expanded in Vat transcription --> 
+              	in imagine 
+              	<app>
+              		<lem>increata</lem>
+              		<rdg wit="#M">causata</rdg>
+              	</app> 
+                secundum <name ref="#Augustine">Augustinus</name>, ubi prius arguendo ad partem oppositam dubitationis huius. 
+                Haec conclusio satis patet per argumentum 
+              	<app>
+              		<lem>supra positum</lem>
+              		<rdg wit="#T">suppositum</rdg>
+              	</app> 
+              	in primo articulo 
+              	<app>
+              		<lem n="articulo"/>
+              		<rdg wit="#M">quaestionis</rdg>
+              	</app>
+              	et per 
+                <app>
+                  <lem>haec</lem>
                   <rdg wit="#S" type="correction-addition">
                   	<add>hoc</add>
                   </rdg>
                 </app> 
-                ad argumenta 
+                <app>
+                	<lem>ad</lem>
+                	<rdg wit="#M #V" type="variation-absent"/>
+                </app> 
+              	argumenta 
                 ad partem secundam.</p>
               
               <p xml:id="b1d3qun-siptap">Si instes per 
                 <cit>
                   <ref>
-                    <name ref="#Augustine">Beatum Augustinum</name> 9 <title ref="#deTrinitate">De Trinitate</title>
+                    <name ref="#Augustine">
+                    	<app>
+                    		<lem>Beatum</lem>
+                    		<rdg wit="#M #V" type="variation-absent"/>
+                    	</app> 
+                    	Augustinum</name> 
+                  	IX <!-- V has "IV"; dbcheck for transcription error --> 
+                  	<title ref="#deTrinitate">De Trinitate</title>
                   </ref>
                   <bibl>Augustine, De Trinitate, IX, ???</bibl>
                 </cit> 
-                ibi, quasi per totum, 
+                <app>
+                	<lem>ibi</lem>
+                	<rdg wit="#M">ubi</rdg>
+                </app>, quasi per totum, 
                 dicit quod mens humana est imago Trinitatis increatae ratione 
-                illius Trinitatis, scilicet, mentis notitiae et amoris in qua Trinitate, notitia procedit 
-                de mente et amor de notitia. Et tamen secundum eum ibi tam amor 
-                quam notitia sunt una essentia mentis, igitur amor ibi non distinguitur a notitia 
+                illius <!-- M and T have "istius" --> 
+                Trinitatis, scilicet, mentis notitiae et amoris in qua Trinitate, notitia procedit 
+                de mente et amor de notitia. 
+              	<app>
+              		<lem>Et tamen secundum eum ibi tam amor 
+              			quam notitia</lem>
+              		<rdg wit="#M" type="variation-absent"/>
+              	</app> 
+              	sunt una essentia mentis, igitur 
+              	<app>
+              		<lem>amor</lem>
+              		<rdg wit="#M">isor</rdg>
+              	</app> 
+              	ibi non distinguitur 
+              	<app>
+              		<lem>realiter</lem>
+              		<rdg wit="#S #T" type="variation-absent"/>
+              	</app>
+              	a notitia 
                 actuali a qua procedit nec notitia actualis quae est ibi proles 
                 a mente ipsa tamquam a parente.</p>
               
               <p xml:id="b1d3qun-rudtau">Respondet <name>unus doctor</name> quod amor, et 
-                similiter notitia, tripliciter accipiuntur. Uno modo pro potentiis; secundo modo 
-                pro habitibus; et tertio modo pro actibus. Et ultra secundum hanc distinctionem esset dicendum 
-                quod secundum imaginationem solum est illa Trinitas non secundum rem cuius 
-                partes imaginatae sunt secundum <name ref="#Augustine">Augustinum</name> ipsa substantia animae nec est processus 
-                unius ab alio in ipsa substantia mentis secundum veritatem rei 
-                extra nisi virtualiter solum, quia, scilicet, mens ipsa continet partialiter illa quorum 
+                similiter notitia, tripliciter accipiuntur. Uno modo pro potentiis; secundo 
+              	<app>
+              		<lem>modo</lem>
+              		<rdg wit="#M #V #T" type="variation-absent"/>
+              	</app> 
+                pro habitibus; 
+              	<app>
+              		<lem>et</lem>
+              		<rdg wit="#M #V" type="variation-absent"/>
+              	</app> 
+              	tertio 
+              	<app>
+              		<lem>modo</lem>
+              		<rdg wit="#M #T #V" type="variation-absent"/>
+              	</app> 
+              	pro actibus. Et ultra secundum hanc distinctionem esset dicendum 
+                <app> <!-- S and T may have error that needs to be corrected by M and V -->
+                	<lem>quod</lem>
+                	<rdg wit="#T">aliud</rdg>
+                	<rdg wit="#M">ad verba augustini in isto passu quia per aequivalenti tnri</rdg> <!-- dbcheck; correct against Vat -->
+                	<rdg wit="#V">ad Augustinum in isto passu quod per evidentiam tantum et</rdg> 
+                </app> 
+              	secundum 
+              	<app>
+              		<lem>imaginationem</lem>
+              		<rdg wit="#T">imaginem</rdg> <!-- dbcheck -->
+              	</app> solum est 
+              	<app>
+              		<lem>illa</lem>
+              		<rdg wit="#T">tertia</rdg> <!-- dbcheck -->
+              	</app> 
+              	Trinitas <!-- M has "Trinitas illa" --> 
+              	non secundum rem cuius 
+                <app>
+                	<lem>partes</lem>
+                	<rdg wit="#V" type="correction-substitution">
+                		<subst>
+                			<del>proprietates</del>
+                			<add>partes</add>
+                		</subst>
+                	</rdg>
+                </app> 
+              	imaginatae sunt secundum <name ref="#Augustine">Augustinum</name> ipsa substantia animae nec est 
+              	<app>
+              		<lem n="est"/>
+              		<rdg wit="#M #V" type="variation-present">ibi</rdg>
+              	</app>
+              	processus 
+                unius ab alio in ipsa 
+              	<app>
+              		<lem>substantia mentis</lem>
+              		<rdg wit="#M">mente</rdg>
+              	</app> 
+              	secundum veritatem rei 
+                extra nisi virtualiter solum, quia, scilicet, mens ipsa continet partialiter 
+                ista <!-- illa in S -->
+                quorum 
                 unum procedit realiter ab alio et tertium ab utroque.</p>
             </div>
             <div>
               <head><supplied>Ad rationes principales</supplied></head>
               <div>
                 <head><supplied>Ad primam rationem</supplied></head>
-                <p xml:id="b1d3qun-apapai">Ad primum argumentum 
+              	<p xml:id="b1d3qun-apapai"><ref target="http://scta.info/resource/b1d3qun-evqtej">Ad primum argumentum</ref> 
                   in contrarium respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod ista notitia actualis quae primo fuit 
                   clara Dei notitia, scilicet, quando Deus ostendit se clare illi angelo, 
                   postea fuit obscura notitia, scilicet, quando Deus se subtraxit ab 
@@ -3657,7 +3777,7 @@
               </div>
               <div>
                 <head><supplied>Ad secundam rationem</supplied></head>
-                <p xml:id="b1d3qun-asbscd">Ad secundum bene respondet <name ref="#RichardFitzRalph">Fitzralph</name>. 
+              	<p xml:id="b1d3qun-asbscd"><ref target="http://scta.info/resource/b1d3qun-itpics">Ad secundum</ref> bene respondet <name ref="#RichardFitzRalph">Fitzralph</name>. 
                   Concedo quod primus amor processit a notitia accidentali vel verbo, communiter loquendo 
                   de verbo. Unde verbum communiter accipitur pro quacumque cogitatione 
                   actuali sicut loquitur <ref><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> c. 10</ref>. Alio modo, accipitur verbum 
@@ -3773,7 +3893,7 @@
               </div>
               <div>
                 <head><supplied>Ad tertium argumentum</supplied></head>
-                <p xml:id="b1d3qun-atvoac">Ad tertium, verum est quod primus amor 
+              	<p xml:id="b1d3qun-atvoac"><ref target="http://scta.info/resource/b1d3qun-pqppaa">Ad tertium</ref>, verum est quod primus amor 
                   procedit a notitia aliqua actuali et per consequens notitia praesupposita 
                   primo amori non procedit ab amore actuali aliquo et, 
                   cum probatur quod immo quia prima sensatio vel intellectio fit per amorem copulantem 
@@ -3790,7 +3910,7 @@
               </div>
               <div>
                 <head><supplied>Ad quartam rationem</supplied></head>
-                <p xml:id="b1d3qun-aqropt">Ad quartum respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod appetitus sensitivus 
+              	<p xml:id="b1d3qun-aqropt"><ref target="http://scta.info/resource/b1d3qun-qpaaci">Ad quartum</ref> respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod appetitus sensitivus 
                   non potest esse sine cogitatione, nec fames, nec sitis. Cum dicit probabiliter 
                   quod fames et sitis possunt esse in animali absque alia sensatione alicuius 
                   rei extra corpus animalis ex hoc, scilicet, quod pars animalis quae patitur defectum 
@@ -3842,7 +3962,7 @@
               </div>
               <div>
                 <head><supplied>Ad quintam rationem</supplied></head>
-                <p xml:id="b1d3qun-aqqenc">Ad quintum 
+              	<p xml:id="b1d3qun-aqqenc"><ref target="http://scta.info/resource/b1d3qun-qiqecc">Ad quintum</ref> 
                   <app>
                     <lem>dicendum</lem>
                     <rdg wit="#S" type="correction-addition">
