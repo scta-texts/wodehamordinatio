@@ -2683,63 +2683,163 @@
           </div>
           
           <div xml:id="b1d3qun-Dsasedu">
+            
             <head xml:id="b1d3qun-Hsecdub"><supplied>Secundum dubium</supplied></head>
-            <p xml:id="b1d3qun-spevqn">
-              Secundum dubium principale est utrum secunda pars imaginis increatae, 
-              scilicet, actualis intellectio gignatur a prima, scilicet a memoria, et videtur quod non.</p> 
+            
+            <p xml:id="b1d3qun-spevqn"> 
+              Secundum dubium principale est utrum secunda pars imaginis 
+              <app>
+                <lem>increatae</lem>
+                <rdg wit="#M" type="variation-substance">creatae</rdg>
+              </app>, 
+              scilicet, 
+              <app>
+                <lem>actualis intellectio</lem>
+                <rdg wit="#M" type="variation-substance">actus intensis</rdg>
+              </app> 
+              gignatur 
+              <app>
+                <lem>a prima</lem>
+                <rdg wit="#T" type="correction-addition">
+                  <add place="margin">a prima</add>
+                </rdg>
+              </app>, 
+              scilicet a memoria, et videtur quod non.
+            </p> 
+            
             <div> 
+              
               <head xml:id="b1d3qun-Hrpppds"><supplied>Rationes principales pro dubio secundo</supplied></head> 
-              <p xml:id="b1d3qun-pqqsee">Primo, 
-                quia quid vocaretur ibi memoria vel nuda substantia animae, et illa non 
-                sufficit sine obiecto vel specie vel habitu principare actum, tunc enim semper 
-                intelligeret, sicut arguit 
+             
+              <p xml:id="b1d3qun-pqqsee">
+                <app>
+                  <lem>Primo</lem>
+                  <rdg wit="#T #V #M" type="variation-absent"/>
+                </app>, 
+                quia quid vocaretur ibi memoria vel nuda substantia animae, 
+                et illa non sufficit sine obiecto vel specie vel habitu principare actum, 
+                tunc enim semper intelligeret, sicut arguit
                 <ref corresp="#b1d3qun-Qssssss">
                   <name ref="#Aristotle">Philosophus</name> 
-                  IIo <title ref="#deAnima">De anima</title>,
+                  II <title ref="#deAnima">De anima</title>,
                 </ref> 
+                <app>
+                  <lem>quod 
+                    <cit>
+                      <quote xml:id="b1d3qun-Qssssss">sensus semper sentiret,</quote>
+                      <bibl>
+                        <name>Aristoteles</name>, 
+                        <title>De anima</title> 
+                        II, c. 5 (417a6-9)
+                      </bibl>
+                    </cit> 
+                    si se solo ageret 
+                    <app>
+                      <lem>sensationes</lem>
+                      <rdg wit="#V" type="correction-substitution">
+                        <subst>
+                          <del rend="strikethrough">intentiones</del>
+                          <add place="margin">sensationes</add>
+                        </subst>
+                      </rdg>
+                    </app>
+                    nec intellectus, 
+                    <app>
+                      <lem>cum</lem>
+                      <rdg wit="#T" type="correction-addition">
+                        <add place="above-line">cum</add>
+                      </rdg>
+                    </app>
+                    specie vel habitu, quia 
+                    <app>
+                      <lem>actualis intellectio</lem>
+                      <rdg wit="#V" type="variation-inversion">intellectio actualis</rdg>
+                    </app> 
+                    non distinguitur 
+                    <app>
+                      <lem>intellective</lem>
+                      <rdg  wit="#M #T #S" type="variation-absent"/>
+                    </app>
+                    ab habitu vel specie, sicut non 
+                    producitur ab eo. Assumptum patet 
+                    <app>
+                      <lem>quia</lem>
+                      <rdg wit="#S" type="variation-substance">quod</rdg>
+                      <!-- #M also lacks this, but I don't know whether to note it here
+                        as the whole passage is also missing in #M. -->
+                    </app>
+                    actualis sensatio est species in sensu, 
+                    igitur aliter in intellectu. Antecedens patet per 
+                    <cit>
+                      <ref>
+                        <name ref="#Aristotle">Philosophum</name>
+                        <bibl>Aristoteles, De anima, II, ???</bibl>
+                      </ref>
+                    </cit> 
+                    et 
+                    <cit>
+                      <ref>
+                        <name ref="#Averroes">Commentatorem</name> 
+                        II <title ref="#InDeAnima">In Aristot. De anima</title>  
+                        <!-- This ref should be added to the list -->
+                        <app>
+                          <lem>per</lem>
+                          <rdg wit="#V" type="variation-substance">parte</rdg>
+                          <rdg wit="#T" type="variation-substance">commento</rdg>
+                        </app> 
+                        136,
+                      </ref>
+                      <bibl>
+                        <name ref="#Averroes">Averroes</name>, 
+                        <title ref="#InDeAnima">In Aristot. De anima</title>, 
+                        II, 136
+                      </bibl>
+                    </cit> 
+                    ubi 
+                    <app>
+                      <lem>dicunt et probant</lem>
+                      <rdg wit="#V" type="variation-inversion">probant et dicunt</rdg>
+                    </app>
+                  </lem>
+                  <rdg wit="#M" type="variation-substance">per 136 ubi probat</rdg>
+                </app>
                 quod 
-                <cit>
-                  <quote xml:id="b1d3qun-Qssssss">sensus semper sentiret,</quote>
-                  <bibl>
-                    <name>Aristoteles</name>, <title>De anima</title> II, c. 5 (417a6-9)
-                  </bibl>
-                </cit> 
-                si se solo ageret sensationes nec intellectus, cum specie vel 
-                habitu, quia actualis intellectio non distinguitur ab habitu vel specie, sicut non 
-                producitur ab eo. Assumptum patet quod actualis sensatio est species in sensu, 
-                igitur aliter in intellectu. Antecedens patet per 
-                <cit>
-                	<ref>
-		                <name ref="#Aristotle">Philosophum</name>
-		                <bibl>Aristoteles, De anima, II, ???</bibl>
-                	</ref>
-                </cit> 
-                et 
-                <cit>
-                  <ref>
-                    <name ref="#Averroes">Commentatorem</name> II <title ref="#deAnima">De anima</title> per 136,
-                  </ref>
-                  <bibl>Averroes, Comm. de anima, II, 136</bibl>
-                </cit> 
-                ubi dicunt et probant quod eadem est actio sensibilis et sensus ut 
-                est in actu. Ut exponit 
+                <app>
+                  <lem>eadem</lem>
+                  <rdg wit="#M" type="variation-substance">ideo</rdg>
+                </app>
+                est actio sensibilis et sensus ut est in actu. Ut exponit 
                 <ref corresp="#b1d3qun-Qaseeea">
                   <name ref="#Averroes">Commentator</name>,
                 </ref> 
                 <cit>
-                  <quote xml:id="b1d3qun-Qaseeea">actio sensibilis extra animam in movendo sensum, 
-                    et actio sensus, quae est in sentiente, scilicet, qualitas qua sentiens 
-                    qualificatur, est eadem actio.</quote>
+                  <quote xml:id="b1d3qun-Qaseeea">
+                    actio sensibilis extra animam in movendo sensum, 
+                    et actio sensus, quae est in sentiente, 
+                    <app>
+                      <lem>scilicet</lem>
+                      <rdg wit="#V #M" type="variation-substance">id est</rdg>
+                    </app>
+                    qualitas qua sentiens 
+                    qualificatur, est eadem actio.
+                  </quote>
                   <bibl>
-                    <name>Averroes</name>, <title>In Aristot. De anima</title>, II, 138 (Crawford, 340-341)
+                    <name ref="#Averroes">Averroes</name>, 
+                    <title ref="#InDeAnima">In Aristot. De anima</title>, 
+                    II, 138 (Crawford, 340s):
+                    "actio sensibilis extra animam in movendo sentiens, 
+                    et actio sensus qui est in sentiente, scilicet qualitas qua 
+                    sentiens qualificatur in movendo etiam virtutem visionis, 
+                    est eadem actio"
                   </bibl>
                 </cit> 
                 Haec 
                 <ref corresp="#b1d3qun-Qsaasee">
-                  <name ref="#Averroes">Commentator</name> et in commentis duobus proximo sequentibus,
+                  <name ref="#Averroes">Commentator</name>
+                  et in commentis duobus proximo sequentibus,
                 </ref> 
                 exemplificat in auditu: 
-                <cit>
+                <cit> <!-- I couldn't find this quote... -->
                   <quote xml:id="b1d3qun-Qsaasee">
                     <seg type="qs">sicut,</seg> 
                     inquit, 
@@ -2747,28 +2847,18 @@
                   </quote>
                 </cit>
               </p>
-              <p xml:id="b1d3qun-ssqsap">Secundo, similiter quod 
-                actualis intellectio non distinguatur ab habitu videtur, quia iste generaretur 
-                ex actibus, et tunc statim haberetur habitus et actus perfectissimus receptibilis 
-                in tali potentia, cum haberetur primus actus causativus habitus. Consequens 
-                falsum. Consequentia patet, quia primus actus causat aliquem gradum habitus, et intellectus 
-                cum illo gradu causabit plus de actu quam potuit dum 
-                nihil habuit de habitu. Igitur intenderetur actus, et actus magis 
-                intensus magis causabit de habitu, et sic circulariter sine fine, 
-                donec intellectus habeat de specie tam huius quam illius, quantum potest 
-                capere. Sed hoc est falsum, igitur et illud ex quo sequitur, scilicet, quod actus distinguatur 
-                ab habitu. Non est igitur intellectio sicut proles procedens de 
-                memoria sicut a parente.</p>
+              
+              <p xml:id="b1d3qun-ssqsap">
+                Secundo, similiter quod actualis intellectio non distinguatur ab habitu videtur, quia iste generaretur ex actibus, et tunc statim haberetur habitus et actus perfectissimus receptibilis in tali potentia, cum haberetur primus actus causativus habitus. Consequens falsum. Consequentia patet, quia primus actus causat aliquem gradum habitus, et intellectus cum illo gradu causabit plus de actu quam potuit dum nihil habuit de habitu. Igitur intenderetur actus, et actus magis intensus magis causabit de habitu, et sic circulariter sine fine, donec intellectus habeat de specie tam huius quam illius, quantum potest capere. Sed hoc est falsum, igitur et illud ex quo sequitur, scilicet, quod actus distinguatur ab habitu. Non est igitur intellectio sicut proles procedens de memoria sicut a parente.
+              </p>
             </div>
+            
             <div>
+              
               <head><supplied>Responsio ad secundum dubium</supplied></head>
-              <p xml:id="b1d3qun-aidicd">Ad illud dubium, dico ad praesens quod immo 
-                intellectio actualis distinguitur, sicut proles, a memoria, id est, ab intellectu 
-                existente in actu primo sufficienti respectu intellectionis gignendae, vel per 
-                praesentiam obiecti respectu primi actus naturaliter in illo causabilis. Respectu talis obiecti vel 
-                per speciem aut habitum postea in absentia obiecti respectu cogitationis 
-                abstractivae gignendae respectu talis obiecti absentis. Unde de actu 
-                primo intellectivo (scilicet respectu talis obiecti naturalis) causando, verbum est—illud 
+              
+              <p xml:id="b1d3qun-aidicd">
+                Ad illud dubium, dico ad praesens quod immo intellectio actualis distinguitur, sicut proles, a memoria, id est, ab intellectu existente in actu primo sufficienti respectu intellectionis gignendae, vel per praesentiam obiecti respectu primi actus naturaliter in illo causabilis. Respectu talis obiecti vel per speciem aut habitum postea in absentia obiecti respectu cogitationis abstractivae gignendae respectu talis obiecti absentis. Unde de actu primo intellectivo (scilicet respectu talis obiecti naturalis) causando, verbum est—illud
                 <ref corresp="#b1d3qun-Qauneic">
                   <name ref="#Augustine">Augustinus</name> 
                   IX <title ref="#deTrinitate">De Trinitate</title> 30 de parvis:</ref> 
