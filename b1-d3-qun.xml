@@ -2808,7 +2808,14 @@
                   <lem>eadem</lem>
                   <rdg wit="#M" type="variation-substance">ideo</rdg>
                 </app>
-                est actio sensibilis et sensus ut est in actu. Ut exponit 
+                est actio sensibilis et sensus 
+                <app>
+                  <lem>ut est in actu</lem>
+                  <rdg wit="#V" type="variation-substance">id est</rdg>
+                  <rdg wit="#T">et</rdg>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app>.
+                Ut exponit 
                 <ref corresp="#b1d3qun-Qaseeea">
                   <name ref="#Averroes">Commentator</name>,
                 </ref> 
@@ -2821,7 +2828,11 @@
                       <rdg wit="#V #M" type="variation-substance">id est</rdg>
                     </app>
                     qualitas qua sentiens 
-                    qualificatur, est eadem actio.
+                    <app>
+                      <lem>qualificatur</lem>
+                      <rdg wit="#M" type="variation-substance">qualeficatur</rdg>
+                    </app>, 
+                    est eadem actio.
                   </quote>
                   <bibl>
                     <name ref="#Averroes">Averroes</name>, 
@@ -2833,12 +2844,24 @@
                     est eadem actio"
                   </bibl>
                 </cit> 
-                Haec 
+                <app>
+                  <lem>Haec</lem>
+                  <rdg wit="#T" type="variation-substance">Et</rdg>
+                </app> 
                 <ref corresp="#b1d3qun-Qsaasee">
                   <name ref="#Averroes">Commentator</name>
-                  et in commentis duobus proximo sequentibus,
+                  et <app>
+                    <lem>in</lem>
+                    <rdg wit="#T" type="variation-absent" />
+                  </app>
+                  commentis duobus proximo sequentibus,
                 </ref> 
-                exemplificat in auditu: 
+                exemplificat 
+<app>
+  <lem>in</lem>
+  <rdg wit="#M #T" type="variation-absent"/>
+</app>
+ auditu: 
                 <cit> <!-- I couldn't find this quote... -->
                   <quote xml:id="b1d3qun-Qsaasee">
                     <seg type="qs">sicut,</seg> 
