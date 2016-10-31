@@ -3733,58 +3733,405 @@
               <div>
                 <head><supplied>Ad primam rationem</supplied></head>
               	<p xml:id="b1d3qun-apapai"><ref target="http://scta.info/resource/b1d3qun-evqtej">Ad primum argumentum</ref> 
-                  in contrarium respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod ista notitia actualis quae primo fuit 
+                  in contrarium respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod ista notitia actualis quae primo 
+              		<app>
+              			<lem>fuit</lem>
+              			<rdg wit="#M">fuerit</rdg>
+              		</app> 
                   clara Dei notitia, scilicet, quando Deus ostendit se clare illi angelo, 
-                  postea fuit obscura notitia, scilicet, quando Deus se subtraxit ab 
-                  angelo cum peccavit. Et ideo amor suus, qui fuit primum peccatum suum, 
-                  processit a notitia obscura et non a clara, et tamen processit ab 
-                  ista notitia, quae fuit clara, sed non fuit clara quando iste 
-                  amore processit ab illa.</p>
+                  postea 
+              		<app>
+              			<lem>fuit</lem>
+              			<rdg wit="#M">fuerit</rdg>
+              		</app>
+              		obscura 
+              		<app>
+              			<lem>notitia</lem>
+              			<rdg wit="#M #V" type="variation-absent"/>
+              		</app>, 
+              		scilicet, quando Deus 
+              		se subtraxit <!-- M has "subtraxit se" --> 
+              		ab 
+              		<app>
+              			<lem n="ab"/>
+              			<rdg wit="#M #V" type="variation-present">isto</rdg>
+              		</app>
+                  angelo cum peccavit. 
+                  <app>
+                  	<lem n="peccavit"/>
+                  	<rdg wit="#V" type="variation-present">enim</rdg>
+                  </app>
+                  Et 
+              		<app>
+              			<lem>ideo</lem>
+              			<rdg wit="#M">iste</rdg>
+              		</app> 
+              		amor suus, 
+              		<app>
+              			<lem>qui</lem>
+              			<rdg wit="#T" type="correction-addition">
+              				<add>qui</add>
+              			</rdg>
+              		</app> 
+              		fuit primum peccatum 
+              		<app>
+              			<lem>suum</lem>
+              			<rdg wit="#M" type="variation-absent"/>
+              		</app>, 
+                  processit a notitia obscura et non 
+              		<app>
+              			<lem>a</lem>
+              			<rdg wit="#T #V" type="variation-absent"/>
+              		</app> 
+              		clara, 
+              		<app>
+              			<lem>et</lem>
+              			<rdg wit="#M #V">sed</rdg>
+              		</app> 
+              		tamen processit ab 
+                  ista notitia, quae fuit clara, 
+              		<app>
+              			<lem>sed non fuit clara</lem>
+              			<rdg wit="#M #V" type="variation-absent"/>
+              		</app> 
+              		quando 
+              		ille <!-- S has iste --> 
+                  <app>
+                  	<lem>amor</lem>
+                  	<rdg wit="#S">amore</rdg> <!-- dbcheck -->
+                  </app> 
+                  processit ab 
+                  ista. <!-- S has "illa" -->
+              	</p>
                 <!-- this paragraph is likely an entire quote from FitzRalph -->
                 <p xml:id="b1d3qun-ecippp">Et concedo, inquit, quod iste amor et 
                   peccatum primum processit a pena peccati, sed tamen non ut pena sed ut 
-                  actualis cogitatio sufficiens ad productionem amoris, unde est impossibile 
-                  quod pena peccati praecessit causalitate primum peccatum, dum tamen illa pena 
-                  non praecessit ut pena nec prius fuerit pena sed facta fuit 
-                  pena propter peccatum, quia propter peccatum Deus subtraxit se ab illo 
-                  angelo, et ideo fiebat cogitatio ipsius angeli, quae prius erat clara, 
-                  postea obscura, et ita ipsa ut pena fuit posterior peccato primo.</p>
+                  actualis cogitatio sufficiens ad productionem amoris, 
+                	<app>
+                		<lem>unde</lem>
+                		<rdg wit="#M #V">quoniam non</rdg>
+                	</app> 
+                	est impossibile 
+                  quod pena peccati praecessit causalitate primum peccatum, 
+                  dum tamen 
+                  ista <!-- S has "illa" --> 
+                  pena 
+                  non 
+                	<app>
+                		<lem>praecessit</lem>
+                		<rdg wit="#M">processit</rdg>
+                	</app> 
+                	ut pena nec prius 
+                	<app>
+                		<lem>fuerit</lem>
+                		<rdg wit="#M #T">fuit</rdg> <!-- dbcheck -->
+                	</app> 
+                	pena <!-- S has normalized to "poena" -->
+                	sed facta fuit 
+                  pena propter peccatum, quia propter peccatum Deus 
+                  <app>
+                  	<lem>subtraxit</lem>
+                  	<rdg wit="#T">retraxit</rdg>
+                  </app> 
+                  se ab 
+                  isto <!-- S has illo --> 
+                  angelo, 
+                  et 
+                	<app>
+                		<lem>ideo</lem>
+                		<rdg wit="#M">iam</rdg> <!-- dbcheck; unclear in transcription -->
+                	</app> 
+                	fiebat cogitatio 
+                	ipsius <!-- M has "istius" --> 
+                	angeli, quae prius erat clara, 
+                  postea 
+                  <app> <!-- even though only M has "fiebat" I prefer to include it because I like the more explicit reading -->
+                  	<lem>fiebat</lem>
+                  	<rdg wit="#S #V #T" type="variation-absent"/>
+                  </app>
+                  obscura, et ita ipsa ut pena fuit posterior peccato primo.</p>
                 
-                <p xml:id="b1d3qun-sqeidp">Sed quod eadem notitia prius fuerit clara et post obscura est apud me 
-                  impossibile per istum modum, sicut per argumentum istius meum alibi potest probari, 
-                  quia pari ratione posset manere et desinere omnino esse cogitatio ipsius, cuius 
+                <p xml:id="b1d3qun-sqeidp">Sed quod eadem notitia 
+                	prius <!-- M actually has "fuit" before "prius" -->
+                	<app>
+                		<lem>fuerit</lem>
+                		<rdg wit="#M">fuit</rdg>
+                	</app> 
+                	clara  
+                	et post obscura est apud me 
+                  impossibile per istum modum, sicut per 
+                	<app>
+                		<lem>argumentum</lem>
+                		<rdg wit="#M">argumenta</rdg>
+                	</app> 
+                	istius <!-- M and V have ipsius --> 
+                	meum
+                	alibi potest probari, 
+                  quia pari ratione posset 
+                	<app>
+                		<lem>manere</lem>
+                		<rdg wit="#M">movere</rdg>
+                	</app> 
+                	et desinere omnino esse cogitatio 
+                	ipsius, <!-- M and V have "istius" --> 
+                	cuius 
                   oppositum tenet alibi et etiam in dubio praecesso.</p>
                 
-                <p xml:id="b1d3qun-sadnpc">Sed aliter dicitur quod notitia angeli, 
-                  qui peccavit, non erat clara Dei visio unquam si cum 
-                  claritate prima male voluit, nisi forte detur quod illa volitio 
-                  fuerit causa subtractionis et remotionis vel remissionis notitiae 
-                  primae clarae.</p>
+                <p xml:id="b1d3qun-sadnpc">Sed aliter 
+                	<app>
+                		<lem>dicas tu</lem>
+                		<rdg wit="#S">dicitur</rdg>
+                	</app> 
+                	quod notitia angeli, 
+                  qui peccavit, non erat clara Dei visio unquam 
+                	<app>
+                		<lem>si</lem>
+                		<rdg wit="#M #T">sed</rdg>
+                	</app> 
+                	cum 
+                  claritate prima 
+                  male voluit, <!-- "voluit male" in T --> 
+                  nisi forte 
+                	<app>
+                		<lem>detur</lem>
+                		<rdg wit="#M #V">det</rdg>
+                		<rdg wit="#T">debet</rdg>
+                	</app> 
+                	quod 
+                	illa <!-- M has ipsa --> 
+                	volitio 
+                  <app>
+                  	<lem>fuerit</lem>
+                  	<rdg wit="#M">fuit</rdg>
+                  </app> 
+                	causa subtractionis 
+                	<app>
+                		<lem>vel</lem>
+                		<rdg wit="#S">et</rdg>
+                	</app> 
+                	remotionis 
+                	<app>
+                		<lem>vel remissionis</lem>
+                		<rdg wit="#M #V" type="variation-absent"/>
+                	</app> 
+                	notitiae primae <!-- M has "primae notitiae" --> 
+                	clarae.</p>
                 
-                <p xml:id="b1d3qun-atdcvo">Aliter tamen dicendum quod tam argumentum quam dicta responsio currit 
-                  in phantasia quadam falsa quasi visio Dei vel aliqua simplex apprehensio 
-                  suffecisset pro notitia a qua procederet amor diaboli culpabilis 
-                  et sic non erat quia amor ille diaboli erat amor electivus praesupponens 
-                  iudicum rationis vel cogitationem  compositivam et divisivam 
-                  vel amor alicuius refrenandus cum omissione alia vera 
-                  vel interpretative[?] refrenandi secundum rationalem[?] naturalis iudicii et affectionem 
-                  iustitiae impetum affectionis commodi apparentis et talia iudicia 
-                  vel apprehensiones non erant illa Dei apprehensio clara vel 
-                  obscura et ideo processit talis amor pecatti partim a notitia Dei, 
-                  partim a notitia sui, partim a notitia componente et dividente igitur 
-                  alia ibi notitia erat necessaria ad animam illam quam sola simplex 
-                  Dei notitia clara vel obscura.</p>
+                <p xml:id="b1d3qun-atdcvo">Aliter 
+                	<app>
+                		<lem>tamen dicendum</lem>
+                		<rdg wit="#T">respondeo</rdg>
+                	</app> 
+                	quod tam argumentum quam dicta responsio currit 
+                  in 
+                  <app>
+                  	<lem>phantasia</lem>
+                  	<rdg wit="#T">phantasio</rdg> <!-- dbcheck -->
+                  </app> 
+                	<app>
+                		<lem>quadam</lem>
+                		<rdg wit="#M">quidem</rdg>
+                	</app> 
+                	<app>
+                		<lem>falsa</lem>
+                		<rdg wit="#T">fallacia</rdg>
+                	</app> 
+                	quasi visio Dei vel 
+                	<app>
+                		<lem>aliqua</lem>
+                		<rdg wit="#V #T">alia</rdg>
+                	</app> 
+                	simplex apprehensio 
+                	suffecisset pro notitia a qua procederet amor 
+                	<app>
+                		<lem>diaboli</lem>
+                		<rdg wit="#M #T">dei</rdg> <!-- dbcheck -->
+                	</app> 
+                	culpabilis 
+                  <app>
+                  	<lem>et</lem>
+                  	<rdg wit="#T" type="variation-absent"/>
+                  </app> 
+                  non sic <!-- S has "sic non" --> 
+                  erat quia 
+                  <app>
+                  	<lem n="quia"/>
+                  	<rdg wit="#V" type="correction-deletion">
+                  		<del>amore iste</del>
+                  	</rdg>
+                  </app> 
+                	amor 
+                	<app>
+                		<lem>ille</lem>
+                		<rdg wit="#M">illae</rdg>
+                	</app> 
+                	diaboli 
+                	<app>
+                		<lem>erat</lem>
+                		<rdg wit="#M">erit</rdg>
+                	</app> 
+                	amor electivus <!-- T has "amor electivus erat" --> 
+                	praesupponens 
+                	<app>
+                		<lem>sibi</lem>
+                		<rdg wit="#S" type="variation-absent"/>
+                	</app>
+                  iudicum rationis vel 
+                  cognitionem <!-- M still has cogitationem --> 
+                  compositivam et 
+                	<app>
+                		<lem>divisivam</lem>
+                		<rdg wit="#M">divisam</rdg>
+                	</app> 
+                  vel amor 
+                  <app>
+                  	<lem>alicuius</lem>
+                  	<rdg wit="#M">alius</rdg>
+                  </app> 
+                  refrenandus cum omissione 
+                	<app>
+                		<lem>alia vera vel</lem>
+                		<rdg wit="#M">littera vere vel</rdg>
+                		<rdg wit="#T">libera vel vera et</rdg>
+                	</app> 
+                  interpretative refrenandi secundum 
+                	<app>
+                		<lem>regulam</lem>
+                		<rdg wit="#V #T">rationem</rdg>
+                	</app> 
+                	<app>
+                		<lem>naturalis</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	iudicii et affectionem 
+                  iustitiae 
+                	<app>
+                		<lem>impetum</lem>
+                		<rdg wit="#M">impeditum</rdg>
+                	</app> 
+                	affectionis commodi apparentis et talia iudicia 
+                  <app>
+                  	<lem>vel apprehensiones</lem>
+                  	<rdg wit="#M">apprehensionis</rdg>
+                  </app> 
+                	non erant 
+                	<app>
+                		<lem>illa</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	Dei apprehensio clara <!-- T has "clara Dei apprehensio" --> 
+                	vel 
+                  obscura 
+                	<app>
+                		<lem>
+                			<app>
+                				<lem>et ideo processit talis amor 
+                					<app>
+                						<lem>peccati</lem>
+                						<rdg wit="#T" type="variation-absent"/>
+                					</app> partim a notitia Dei, 
+				                  partim a notitia sui, partim a notitia componente et dividente igitur 
+				                  alia 
+                					<app>
+                						<lem>ibi</lem>
+                						<rdg wit="#T">tertia</rdg>
+                					</app> 
+                					notitia</lem>
+                				<rdg wit="#V" type="correction-addition">
+                					<add>et ideo processit talis amor peccati partim a notitia 
+                						Dei partim a notitia sui partim a notitia componente et dividente 
+                						igitur nulla ibi notitia Dei</add>
+                				</rdg>
+                			</app> 
+                			<app>
+                				<lem>erat necessaria ad animam illam quam sola 
+                					<app>
+                						<lem>simplex Dei notitia</lem>
+                						<rdg wit="#T">ex natura Dei</rdg>
+                					</app> 
+                					clara vel obscura</lem>
+                				<rdg wit="#V" type="variation-absent"/> <!-- dbcheck; V has a strange "Ad" at the very end of paragraph in diplomatic transcription; I think this belongs in the next paragraph -->
+                			</app>
+                		</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app>.
+                </p>
               </div>
               <div>
                 <head><supplied>Ad secundam rationem</supplied></head>
-              	<p xml:id="b1d3qun-asbscd"><ref target="http://scta.info/resource/b1d3qun-itpics">Ad secundum</ref> bene respondet <name ref="#RichardFitzRalph">Fitzralph</name>. 
-                  Concedo quod primus amor processit a notitia accidentali vel verbo, communiter loquendo 
-                  de verbo. Unde verbum communiter accipitur pro quacumque cogitatione 
-                  actuali sicut loquitur <ref><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> c. 10</ref>. Alio modo, accipitur verbum 
+              	<p xml:id="b1d3qun-asbscd">
+              		<cit>
+              			<ref target="http://scta.info/resource/b1d3qun-itpics">Ad secundum</ref>
+              			<bibl>
+              				<ref target="http://scta.info/resource/b1d3qun-itpics">Supra</ref>
+              			</bibl>
+              		</cit> 
+              		bene respondet 
+              		<name ref="#RichardFitzRalph">Fitzralph</name>. 
+                  Concedo quod primus amor processit a notitia accidentali 
+              		<app>
+              			<lem>vel</lem>
+              			<rdg wit="#M">et a</rdg>
+              		</app> 
+              		verbo, communiter loquendo 
+                  de 
+              		<mentioned>verbo</mentioned>. 
+                  Unde 
+              		<mentioned>verbum</mentioned> 
+              		communiter 
+              		<app> <!-- even though this is only in M I prefer the more explicit reading -->
+              			<lem>loquendo</lem>
+              			<rdg wit="#S #V #T" type="variation-absent"/>
+              		</app> 
+              		accipitur pro 
+              		quacumque <!-- S and M might have "quacumqe" here which needs to be corrected -->  
+              		cognitione <!-- S and M still have "cogitatione" --> 
+                  actuali sicut loquitur 
+              		<cit>
+              			<ref>
+	              			<name ref="#Anselm">Anselmus</name> 
+	              			<title ref="#Monologion">Monologion</title> 
+	              			c. 10
+              			</ref>
+              			<bibl>Anselmus, Monologion, c. 10, xxx</bibl>
+              		</cit>. 
+              		Alio modo, accipitur verbum 
                   magis proprie pro cogitatione actuali respectu placiti, et sic loquitur 
                   <pb ed="#S" n="83-r" />
-                  <cb ed="#S" n="a" /><ref><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c. penultimo[?]</ref>. Et primo modo loquendi de verbo non omne 
-                  verbum procedit ab amore actuali, sed secundo modo sic, sicut dicit auctoritas 
+                  <cb ed="#S" n="a" />
+              		<cit>
+              			<ref>
+	              			<name ref="#Augustine">Augustinus</name> 
+	              			IX 
+	              			<title ref="#deTrinitate">De Trinitate</title> 
+	              			c. 
+	              			<app>
+	              				<lem>penultimo</lem>
+	              				<rdg wit="#M">plus</rdg>
+	              			</app>
+              			</ref>
+              			<bibl>Augustinus, De Trinitate, IX, xxxx</bibl>
+              		</cit>. 
+              		Et primo modo 
+              		<app>
+              			<lem>loquendi</lem>
+              			<rdg wit="#T">loquendo</rdg>
+              		</app> 
+              		de verbo non omne 
+                  verbum procedit 
+                  <app>
+                  	<lem>ab</lem>
+                  	<rdg wit="#T">de</rdg>
+                  	<rdg wit="#M">ex</rdg>
+                  </app> 
+                  amore actuali, sed secundo 
+              		<app>
+              			<lem>modo</lem>
+              			<rdg wit="#S" type="correction-addition">
+              				<add>modo</add>
+              			</rdg>
+              		</app> 
+              		sic, sicut dicit auctoritas 
                   <name ref="#Augustine">Augustini</name> allegata et primus amor non procedit de verbo proprie dicto, sed communiter dicto.</p>
                 
                 <p xml:id="b1d3qun-hnqmgi">Hic tamen notandum quod <mentioned>verbum</mentioned> multiplicius sumitur quam 
