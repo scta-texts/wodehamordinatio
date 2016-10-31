@@ -2857,22 +2857,104 @@
                   commentis duobus proximo sequentibus,
                 </ref> 
                 exemplificat 
-<app>
-  <lem>in</lem>
-  <rdg wit="#M #T" type="variation-absent"/>
-</app>
- auditu: 
+                <app>
+                  <lem>in</lem>
+                  <rdg wit="#M #T" type="variation-absent"/>
+                </app>
+                auditu: 
                 <cit> <!-- I couldn't find this quote... -->
                   <quote xml:id="b1d3qun-Qsaasee">
                     <seg type="qs">sicut,</seg> 
                     inquit, 
-                    <seg type="qs">actio auditus, id est audire, et actio sonatus, id est sonare, eadem est.</seg>
+                    <seg type="qs">actio auditus, id est audire, 
+                      <app>
+                        <lem>et</lem>
+                        <rdg wit="#M" type="variation-substance">vel</rdg>
+                      </app>
+                      actio 
+                      <app>
+                        <lem>sonatus</lem>
+                        <rdg wit="#M" type="variation-substance">sonantis</rdg>
+                      </app>,
+                      id est sonare, <app>
+                        <lem>eadem est</lem>
+                        <rdg wit="#M" type="variation-inversion">est eadem</rdg>
+                      </app>.
+                    </seg>
                   </quote>
                 </cit>
               </p>
               
               <p xml:id="b1d3qun-ssqsap">
-                Secundo, similiter quod actualis intellectio non distinguatur ab habitu videtur, quia iste generaretur ex actibus, et tunc statim haberetur habitus et actus perfectissimus receptibilis in tali potentia, cum haberetur primus actus causativus habitus. Consequens falsum. Consequentia patet, quia primus actus causat aliquem gradum habitus, et intellectus cum illo gradu causabit plus de actu quam potuit dum nihil habuit de habitu. Igitur intenderetur actus, et actus magis intensus magis causabit de habitu, et sic circulariter sine fine, donec intellectus habeat de specie tam huius quam illius, quantum potest capere. Sed hoc est falsum, igitur et illud ex quo sequitur, scilicet, quod actus distinguatur ab habitu. Non est igitur intellectio sicut proles procedens de memoria sicut a parente.
+                Similiter quod actualis intellectio non <app>
+                  <lem>distinguatur</lem>
+                  <rdg wit="#M #V #T" type="variation-substance">distinguitur</rdg>
+                </app> 
+                ab habitu videtur, <app>
+                  <lem>quia</lem>
+                  <rdg wit="#M" type="variation-substance">quod</rdg>
+                </app>
+                <app>
+                  <lem>iste</lem>
+                  <rdg wit="#M #T #V" type="variation-substance">ille</rdg>
+                </app>
+                generaretur ex actibus, et tunc statim haberetur habitus et actus 
+                perfectissimus receptibilis in tali potentia, cum haberetur primus 
+                actus causativus habitus. Consequens falsum. Consequentia patet, 
+                quia primus actus 
+                <app>
+                  <lem>causat aliquem</lem>
+                  <rdg  wit="#M" type="variation-inversion">aliquem causat</rdg>
+                </app> 
+                gradum habitus, 
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#M" type="variation-substance">vel</rdg>
+                </app> 
+                intellectus cum 
+                <app>
+                  <lem>illo</lem>
+                  <rdg wit="#T #V" type="variation-substance">isto</rdg>
+                </app> 
+                gradu causabit plus de actu quam 
+                <app>
+                  <lem>potuit</lem>
+                  <rdg wit="#M" type="variation-substance">ponit</rdg>
+                </app>
+                <app>
+                  <lem>ante</lem>
+                  <rdg wit="#V #M" type="variation-absent"/>
+                </app>
+                dum nihil habuit de habitu. 
+                <app>
+                  <lem>Igitur intenderetur actus, et actus magis intensus magis causabit de habitu</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="margin">
+                      Igitur intenderetur actus, et actus magis intensus magis causabit de habitu
+                    </add>
+                  </rdg>
+                </app>, 
+                et sic circulariter sine fine, donec intellectus habeat de specie 
+                tam huius quam illius, quantum potest 
+                <app>
+                  <lem>capere</lem>
+                  <rdg wit="#M" type="variation-substance">causare</rdg>
+                </app>. 
+                Sed hoc est falsum, igitur 
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app>
+                illud ex quo sequitur, scilicet, quod actus 
+                <app>
+                  <lem>distinguatur</lem>
+                  <rdg wit="#V" type="variation-substance">distinguitur</rdg>
+                </app> 
+                <app>
+                  <lem>ab</lem>
+                  <rdg  wit="#T" type="variation-absent"/>
+                </app> 
+                habitu. Non est igitur intellectio sicut proles procedens de memoria sicut a parente.
               </p>
             </div>
             
