@@ -4063,7 +4063,7 @@
               		<cit>
               			<ref target="http://scta.info/resource/b1d3qun-itpics">Ad secundum</ref>
               			<bibl>
-              				<ref target="http://scta.info/resource/b1d3qun-itpics">Supra</ref>
+              				<ref type="commentary" target="http://scta.info/resource/b1d3qun-itpics">Supra</ref> <!-- type="commentary" should be depreciated; lbp-web code needs to be written to recognize target type based on scta.info domain name -->
               			</bibl>
               		</cit> 
               		bene respondet 
@@ -4312,12 +4312,41 @@
                     <ref>XV <title ref="#deTrinitate">De Trinitate</title> c. 15.</ref>
                     <bibl>Augustine, De Trinitate, XV</bibl>
                   </cit> 
-                  Falsum est verbum nostrum cum falluntur et isto modo dubio 
-                  non est verbum primo modo quia ibidem dicit cum autem dubitamus 
-                  non est verbum de re de qua dubitamus.</p>
+                  Falsum est verbum nostrum cum 
+                	<app>
+                		<lem>falluntur</lem>
+                		<rdg wit="#S">fallimur</rdg>
+                		<rdg wit="#V">fallamur</rdg>
+                	</app> 
+                	et isto modo dubio 
+                  non est verbum
+                  <app> <!-- not sure if addition from V should be added to main text or not -->
+                  	<lem n="verbum"/>
+                  	<rdg wit="#V" type="variation-present">licet sit verbum</rdg>
+                  </app>
+                  primo modo quia ibidem dicit cum autem dubitamus 
+                  non 
+                	<app>
+                		<lem>est</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> verbum de re de qua dubitamus.</p>
                 
-                <p xml:id="b1d3qun-qmptnv">Quarto modo pro actu 
-                  qui natus est gigni vel 
+                <p xml:id="b1d3qun-qmptnv">Quarto 
+                	<app>
+                		<lem>modo</lem>
+                		<rdg wit="#T" type="variation-absent"/>
+                	</app> 
+                	pro actu 
+                	<app> <!-- dbcheck -->
+                		<lem>iudicativo</lem>
+                		<rdg wit="#M">indicativo</rdg> <!-- probably tranascription error -->
+                		<rdg wit="#S #T" type="variation-absent"/>
+                	</app>
+                  qui natus est gigni 
+                	<app>
+                		<lem>vel</lem>
+                		<rdg wit="#T">pro</rdg>
+                	</app> 
                   <app>
                     <lem>ex</lem>
                     <rdg wit="#S" type="correction-addition">
@@ -4326,41 +4355,153 @@
                   </app> 
                   habitu scientifico vel saltem vero; 
                   <cit>
-                    <ref>15 <title ref="#deTrinitate">De Trinitate</title>, c. 10</ref>
+                    <ref>XV <title ref="#deTrinitate">De Trinitate</title>, c. 10</ref>
                     <bibl>Augustine, De Trinitate, XV, c. 10, ???</bibl>
                   </cit> 
-                  necesse est cum verbum loquimur, id est, quod scimus loquitur, 
-                  ex ipsa scientia quam memoria tenemus nascitur verbum.</p>
+                  necesse est cum 
+                	<app>
+                		<lem>verbum</lem>
+                		<rdg wit="#M">verbo</rdg>
+                	</app> 
+                	loquimur, 
+                	<app>
+                		<lem>id est</lem>
+                		<rdg wit="#T">et</rdg>
+                	</app>, 
+                	quod scimus 
+                	<app>
+                		<lem>loquitur</lem>
+                		<rdg wit="#T">loquimur</rdg>
+                	</app>, 
+                  ex ipsa scientia quam 
+                  <app>
+                  	<lem n="quam"></lem>
+                  	<rdg wit="#T" type="variation-present">in</rdg>
+                  </app>
+                  memoria tenemus nascitur verbum.</p>
                 
                 <p xml:id="b1d3qun-qmscan">Quinto modo 
                   sumitur pro amata notitia. 
                   <ref corresp="#b1d3qun-Qvacvac">
-                    9 <title ref="#deTrinitate">De Trinitate</title> c. 8
+                    <app>
+                    	<lem>IX</lem>
+                    	<rdg wit="#M">V</rdg>
+                    </app> 
+                  	<title ref="#deTrinitate">De Trinitate</title> <!-- unclear but seems like T has "et" for "De Trinitate" dbcheck --> 
+                  	c. 8
                   </ref> 
                   <cit>
-                    <quote xml:id="b1d3qun-Qvacvac">verbum <unclear>amore</unclear> concipitur.</quote>
+                    <quote xml:id="b1d3qun-Qvacvac">verbum 
+                    	<app>
+                    		<lem>amore</lem> <!-- dbcheck -->
+                    		<rdg wit="#V">amore</rdg>
+                    	</app> 
+                    	concipitur.</quote>
                     <bibl>Augustine, De Trinitate, 9.7.13</bibl>
                   </cit> 
                   Et 
                   <ref corresp="#b1d3qun-Qrqtan">c. 10</ref> 
                   <cit>
-                    <quote xml:id="b1d3qun-Qrqtan">recte, quaeritur an omnis notitia vel verbum an tantum amata notitia,</quote>
+                    <quote xml:id="b1d3qun-Qrqtan">recte, quaeritur an omnis notitia 
+                    	<app>
+                    		<lem n="notitia"/>
+                    		<rdg wit="#S" type="variation-present">vel</rdg>
+                    	</app> 
+                    	verbum an tantum amata notitia,</quote>
                     <bibl>Augustine, De Trinitate, 9.10.15</bibl>
                   </cit> 
                   et concludit naturaliter quod verbum, quod nunc insinuare volumus, 
                   est cum amore notitia.</p>
                 
-                <p xml:id="b1d3qun-sspfse">Sexto sumitur pro obiecto cogitato 
+                <p xml:id="b1d3qun-sspfse">Sexto sumitur pro obiecto 
+                	<app>
+                		<lem>cogitato</lem>
+                		<rdg wit="#M">cognito</rdg>
+                	</app> 
                   <ref>
-                    <title ref="#deTrinitate">De Trinitate</title> c. 15</ref> 
-                  tunc <unclear cert="medium">sit</unclear> verbum verum quando illud quod nos diximus voluntabili motione iactare 
-                  ad illud quod scimus pervenit ut quomodo res quae scitur sic etiam 
-                  cogitetur, id est, sine voluntate sine etiam cognitione vocis quae pro facto alicuius 
-                  linguae est sic in corde dicatur. Item c. 10 negatio falsa novit 
-                  nisi cum falsa esse novit de linis, autem non diceremus quae non cogitamus 
-                  et nota sunt nobis etiam si cogitentur a nobis. Sed certe si ista 
-                  de re velimus nisi cogitata non possumus. Ad illud facit[?] illud sapiens[?] 
-                  adductum in primo sensu verbum quod foris sonat etc.</p>
+                    <title ref="#deTrinitate">De Trinitate</title> c. 15
+                  </ref> 
+                  tunc 
+                	<app> <!-- unclear -->
+                		<lem>fit</lem>
+                		<rdg wit="#M">sit</rdg>
+                	</app> 
+                	verbum verum quando 
+                	<app>
+                		<lem>illud quod nos</lem>
+                		<rdg wit="#M">nos vel quod illud quod</rdg>
+                	</app> 
+                	diximus voluntabili motione iactare 
+                  ad illud quod scimus pervenit ut quomodo res 
+                  <app>
+                  	<lem>quae</lem>
+                  	<rdg wit="#V">quacumque</rdg>
+                  </app> 
+                  scitur sic etiam 
+                  cogitetur, id est, 
+                	<app>
+                		<lem>sine voluntate sine etiam cognitione <!-- V and T have "cogitatione"; compare with other instances of "cognitione/cogitatione" --></lem>
+                		<rdg wit="#M">sive voce siv incognitione</rdg>
+                	</app> 
+                	vocis quae pro facto alicuius 
+                  linguae est sic in corde dicatur. 
+                  Item capitulo 10 negatio falsa novit 
+                	<app>
+                		<lem>nisi cum falsa esse novit de his, autem non diceremus</lem>
+                		<rdg wit="#T">nisi cum falsa esse novit de his, aut nunc diceremus</rdg>
+                		<rdg wit="#M">de his igitur nunc dissensus</rdg>
+                		<rdg wit="#V">nisi cum falsa esse novit de linis, igitur nec dissimus</rdg>
+                	</app> 
+                	<app>
+                		<lem>quae non</lem>
+                		<rdg wit="#T">notitia</rdg>
+                		<rdg wit="#M">quae nota</rdg>
+                	</app> 
+                	cogitamus 
+                  et nota sunt nobis 
+                	<app>
+                		<lem>etiam</lem>
+                		<rdg wit="#M">et</rdg>
+                	</app> 
+                	si cogitentur a nobis. Sed certe si 
+                	<app>
+                		<lem>ista de re</lem>
+                		<rdg wit="#M">ista dicere</rdg>
+                		<rdg wit="#V">ea dicere</rdg>
+                	</app> 
+                	velimus nisi 
+                  cognita <!-- T has cogitata --> 
+                  non possumus. 
+                  <app>
+                  	<lem>Ad</lem>
+                  	<rdg wit="#M">Secundo</rdg>
+                  </app> 
+                	illud 
+                	facit <!-- dbcheck -->
+                	<app>
+                		<lem>illud</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app>
+                	<app>
+                		<lem>supra</lem>
+                		<rdg wit="#S">sapiens</rdg>
+                	</app> 
+                  adductum 
+                	<app>
+                		<lem>in</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	primo sensu verbum 
+                	<app>
+                		<lem n="verbum"/>
+                		<rdg wit="#T" type="variation-present">est</rdg>
+                	</app> 
+                	quod 
+                	<app>
+                		<lem>foris</lem>
+                		<rdg wit="#M">sortis</rdg>
+                	</app> 
+                	sonat etc.</p>
                 
                 <p xml:id="b1d3qun-ssveve">Septimo sumitur 
                   <mentioned>verbum</mentioned> pro definitione alicuius iuxta illud 
