@@ -2954,7 +2954,16 @@
                   <lem>ab</lem>
                   <rdg  wit="#T" type="variation-absent"/>
                 </app> 
-                habitu. Non est igitur intellectio sicut proles procedens de memoria sicut a parente.
+                habitu. Non est igitur intellectio sicut proles 
+                <app>
+                  <lem>procedens</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app> 
+                <app>
+                  <lem>a</lem>
+                  <rdg wit="#S" type="variation-substance">de</rdg>
+                </app>
+                memoria sicut a parente.
               </p>
             </div>
             
@@ -2963,37 +2972,254 @@
               <head><supplied>Responsio ad secundum dubium</supplied></head>
               
               <p xml:id="b1d3qun-aidicd">
-                Ad illud dubium, dico ad praesens quod immo intellectio actualis distinguitur, sicut proles, a memoria, id est, ab intellectu existente in actu primo sufficienti respectu intellectionis gignendae, vel per praesentiam obiecti respectu primi actus naturaliter in illo causabilis. Respectu talis obiecti vel per speciem aut habitum postea in absentia obiecti respectu cogitationis abstractivae gignendae respectu talis obiecti absentis. Unde de actu primo intellectivo (scilicet respectu talis obiecti naturalis) causando, verbum est—illud
+                Ad 
+                <app>
+                  <lem>istud</lem>
+                  <rdg wit="#S" type="variation-substance">illud</rdg>
+                </app>
+                dubium, dico ad praesens quod immo intellectio actualis distinguitur, 
+                <app>
+                  <lem>sicut</lem>
+                  <rdg wit="#M" type="variation-absent" />
+                </app>
+                proles, a memoria, 
+                <app>
+                  <lem>id est</lem>
+                  <rdg wit="#M" type="variation-substance">scilicet</rdg>
+                </app>,
+                <app>
+                  <lem n="id est,"/> <!-- is this right? -->
+                  <rdg wit="#T #V" type="variation-present">
+                    <sic>id est</sic> <!-- "id est" appears twice in the text -->
+                  </rdg>
+                </app>
+                ab 
+                <app>
+                  <lem>intellectu existente</lem>
+                  <rdg wit="#M" type="variation-substance">actu existens</rdg>
+                </app>
+                in actu primo sufficienti respectu intellectionis gignendae, vel 
+                per praesentiam obiecti respectu primi actus 
+                <app>
+                  <lem>naturaliter</lem>
+                  <rdg wit="#M" type="variation-substance">naturalis</rdg>
+                </app>
+                in 
+                <app>
+                  <lem>eo</lem>
+                  <rdg wit="#S" type="variation-substance">illo</rdg>
+                </app>
+                causabilis. Respectu 
+                <app>
+                  <lem>talis</lem>
+                  <rdg wit="#M" type="variation-substance">corporalis</rdg>
+                </app>  
+                obiecti 
+                <app>
+                  <lem>vel</lem>
+                  <rdg wit="#M" type="variation-substance">videtur</rdg>
+                </app>
+                per speciem 
+                <app>
+                  <lem>aut</lem>
+                  <rdg wit="#V" type="variation-substance">vel</rdg>
+                  <rdg wit="#M" type="variation-substance">ante</rdg>
+                </app> 
+                habitum 
+                <app>
+                  <lem>postea</lem>
+                  <rdg wit="#M" type="variation-substance">prius ea</rdg>
+                </app>
+                in 
+                <app>
+                  <lem n="in"/>
+                  <rdg wit="#M" type="variation-present">essentia</rdg>
+                </app>
+                absentia obiecti respectu cogitationis 
+                <app>
+                  <lem>abstractivae</lem>
+                  <rdg wit="#M" type="variation-substance">abstractae</rdg>
+                </app>
+                gignendae 
+                <app>
+                  <lem>respectu</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app>
+                talis obiecti 
+                <app>
+                  <lem/>
+                  <rdg wit="#M" type="variation-present">bene</rdg>
+                </app>
+                absentis. Unde de actu primo intellectivo (scilicet, respectu talis obiecti naturalis) 
+                <app>
+                  <lem n="naturalis)" />
+                  <rdg wit="#M" type="variation-present">in</rdg>
+                </app>
+                causando, verbum est. Illud 
+                <supplied resp="#NV">sentit</supplied>
                 <ref corresp="#b1d3qun-Qauneic">
                   <name ref="#Augustine">Augustinus</name> 
-                  IX <title ref="#deTrinitate">De Trinitate</title> 30 de parvis:</ref> 
+                  IX 
+                  <app>
+                    <lem>
+                      <title ref="#deTrinitate">De Trinitate</title>,
+                    </lem>
+                    <rdg wit="#M" type="variation-substance">8</rdg>
+                  </app>
+                  c. 30 de parvis:</ref> 
                 <cit>
-                  <quote xml:id="b1d3qun-Qauneic">ab utroque notitia paritur, id est gignitur, a 
-                    cognoscente scilicet et igitur cognito,</quote>
+                  <quote xml:id="b1d3qun-Qauneic">
+                    <seg type="qs">
+                      ab 
+                      <app>
+                        <lem>utroque</lem>
+                        <rdg wit="#M" type="variation-substance">utraque</rdg>
+                      </app> 
+                      <app>
+                        <lem>paritur notitia</lem>
+                        <rdg wit="#S" type="variation-inversion">notitia paritur</rdg>
+                      </app>
+                    </seg>, 
+                    <app>
+                      <lem n="paritur,"/> <!-- careful! -->
+                      <rdg  wit="#S" type="variation-present">i.e., gignitur</rdg>
+                    </app>, 
+                    <seg type="qs"> 
+                      a 
+                      <app>
+                        <lem>cognoscente </lem>
+                        <rdg wit="#M" type="variation-substance">cogitatione</rdg>
+                      </app>
+                    </seg>
+                    <app>
+                      <lem>scilicet</lem>
+                      <rdg wit="#T" type="variation-substance">pariter</rdg>
+                    </app> 
+                    <seg type="qs">
+                      et
+                      <app>
+                        <lem />
+                        <rdg wit="#S" type="variation-present">igitur</rdg>
+                      </app>
+                      cognito
+                    </seg>
+                  </quote>
                   <bibl>
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title>, 
-                    IX, c. 12, n. 18 (CCSL 50:309; PL 42:970)</bibl>
+                    IX, c. 12, n. 18 (CCSL 50:309; PL 42:970):
+                    "ab utroque enim notitia paritur, a cognoscente et cognito"
+                  </bibl>
                 </cit> 
-                et 
+                et <app>
+                  <lem>pro secundo</lem>
+                  <rdg wit="#S" type="variation-substance">proximo</rdg>
+                  <rdg wit="#T" type="variation-substance">per</rdg>
+                </app> 
+                dicto loquitur 
                 <ref corresp="#b1d3qun-Qqsldqn">
-                  proximo dicto loquitur XV <title>De Trinitate</title> c. 24 
-                  de parvis</ref>
-                dicens cum 
+                  XV 
+                  <name ref="#Augustine"/>
+                  <title ref="#deTrinitate">De Trinitate</title>,
+                  c. 24 de parvis
+                </ref>
+                dicens 
+                <app>
+                  <lem>enim</lem>
+                  <rdg wit="#S #V" type="variation-substance">cum</rdg>
+                  <rdg wit="#M" type="variation-substance">qua</rdg>
+                </app>
                 <cit>
-                  <quote xml:id="b1d3qun-Qqsldqn">quod scimus loquimur ex scientia cum memoria, 
-                    nascitur verbum quod eiusdem modi est omnino, supple obiecti, cuiusmodi 
-                    est  scientia de qua nascitur.</quote>
-                  <bibl corresp="#b1d3qun-Qqsldqn"><name>Augustinus</name>, <title>De Trinitate</title> XV, c. 10, n. 19 (CCSL 50A:486; PL 42:1071)</bibl>
+                  <quote>
+                    <seg type="qs">
+                      quod scimus loquimur, ex scientia cum memoria 
+                      <app>
+                        <lem>tenemus</lem>
+                        <rdg wit="#M" type="variation-substance">tenus</rdg>
+                        <rdg wit="#S" type="variation-absent" />
+                      </app>, 
+                      nascitur verbum quod 
+                      <app>
+                        <lem>cuiusmodi</lem>
+                        <rdg wit="#S" type="variation-substance">eiusdem modi</rdg>
+                      </app>
+                      est omnino,
+                    </seg>              
+                    <app>
+                      <lem>supple</lem>
+                      <rdg wit="#M" type="variation-substance">supra</rdg>
+                    </app>
+                    <mentioned>obiecti</mentioned>, 
+                    <seg type="qs">
+                      <app>
+                        <lem>cuiusmodi</lem>
+                        <rdg wit="#M" type="variation-substance">cuius</rdg>
+                      </app>
+                      est 
+                      <app>
+                        <lem>scientia</lem>
+                        <rdg wit="#S" type="correction-substitution">
+                          <subst>
+                            <del rend="expunctuated">substantia</del>
+                            <add place="in-line">scientia</add>
+                          </subst>
+                        </rdg>
+                      </app> 
+                      de qua nascitur.
+                    </seg>
+                  </quote>
+                  <bibl>
+                    <name ref="#Augustine">Augustinus</name>, 
+                    <title ref="#deTrinitate">De Trinitate</title> 
+                    XV, c. 10, l.73, n. 19 (CCSL 50A:486; PL 42:1071):
+                    "quod scimus loquimur, ex ipsa scientia quam memoria tenemus 
+                    nascatur uerbum quod eiusmodi sit omnino cuiusmodi est illa scientia de qua nascitur."
+                  </bibl>
                 </cit> 
-                Statim enim sequitur, unde habetur 
-                quod li 
+                Statim enim sequitur, unde habetur quod li 
                 <mentioned>eiusdem modi et cuiusmodi</mentioned> 
-                referunt obiectum et denotant 
-                obiectum cognitionis, formata quippe cum sit cogitatio ab ea 
-                re quam scimus, verbum est quod in corde dicimus.</p>
+                <app> <!-- Don't know if this code works... -->
+                  <lem>referunt obiectum et 
+                    <app>
+                      <lem>non notant</lem>
+                      <rdg wit="#S" type="variation-substance">denotant</rdg>
+                    </app>
+                    <app>
+                      <lem>obiectum</lem>
+                      <rdg wit="#M #V" type="variation-substance">speciem</rdg>
+                    </app> 
+                    <app>
+                      <lem>cognitionis</lem>
+                      <rdg wit="#M" type="variation-substance">cogitationis</rdg>
+                    </app>,
+                    formata quippe 
+                    <app>
+                      <lem>inquit</lem>
+                      <rdg wit="#S" type="variation-substance">cum sit</rdg>
+                    </app> 
+                    <app>
+                      <lem>cognitio</lem>
+                      <rdg wit="#M #S" type="variation-substance">cogitatio</rdg>
+                    </app> 
+                    ab ea quam scimus, verbum est quod in corde dicimus.
+                  </lem>
+                  <rdg wit="#T" type="correction-addition"> <!-- this is also variation-substance! -->
+                    <add place="margin">
+                      referunt obiectum et non notant obiectum cognitionis, 
+                      formata quippe, inquit, cognitio, ab ea respectu quam scimus, 
+                      verbum est 
+                      <app>
+                        <lem>quod in corde</lem>
+                        <rdg wit="#M" type="variation-substance">quicquid corde</rdg>
+                      </app>
+                      dicimus.
+                    </add>
+                  </rdg>
+                </app>
+              </p>
               
-              <p xml:id="b1d3qun-icdpad">Item 
+              <p xml:id="b1d3qun-icdpad">
+                Item 
                 <ref corresp="#b1d3qun-Qvgdmia">capitulo 28</ref> dicit quod 
                 <cit>
                   <quote xml:id="b1d3qun-Qvgdmia">verbum gignitur de scientia quae manet in anima,</quote>
