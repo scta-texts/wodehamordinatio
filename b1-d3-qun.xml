@@ -4134,42 +4134,182 @@
               		sic, sicut dicit auctoritas 
                   <name ref="#Augustine">Augustini</name> allegata et primus amor non procedit de verbo proprie dicto, sed communiter dicto.</p>
                 
-                <p xml:id="b1d3qun-hnqmgi">Hic tamen notandum quod <mentioned>verbum</mentioned> multiplicius sumitur quam 
-                  istis modis. Octo, scilicet, modis in universo. Primo generaliter pro omni actu 
-                  imaginandi vel cogitandi. Isto modo accipit 
+                <p xml:id="b1d3qun-hnqmgi">Hic 
+                	<app>
+                		<lem>tamen</lem>
+                		<rdg wit="#S" type="variation-absent"/>
+                	</app> notandum quod <mentioned>verbum</mentioned> multiplicius sumitur quam 
+                  istis 
+                	<app>
+                		<lem>modis</lem>
+                		<rdg wit="#V #T" type="variation-absent"/>
+                	</app>. Octo, 
+                	<app>
+                		<lem>scilicet</lem>
+                		<rdg wit="#M">suprascripta</rdg>
+                	</app>, 
+                	<app>
+                		<lem>modis</lem>
+                		<rdg wit="#T" type="variation-absent"/>
+                	</app> 
+                	in universo. 
+                	Primo generaliter pro omni actu 
+                  <app>
+                  	<lem>imaginandi</lem>
+                  	<rdg wit="#M #V">intelligendi</rdg>
+                  	<rdg wit="#T">generandi</rdg>
+                  </app> 
+                	vel cogitandi. 
+                	Isto modo accipit 
                   <cit>
-                    <ref><name ref="#Augustine">Augustinus</name> in <title>Sermone de Sancto Iohanno Baptista</title>.</ref>
+                    <ref>
+                    	<name ref="#Augustine">Augustinus</name> 
+                    	in <title>Sermone de Sancto Iohanne <!-- S T has Iohanne; likely transcription error --> Baptista</title>.
+                    </ref>
                     <bibl>Augustine, ???</bibl>
                   </cit> 
-                  Similiter illud verbum vox clamantis verbi dicit quod vox exterior 
-                  est vehiculum verbi verbum, autem ipsa cogitatio et 
+                  <app>
+                  	<lem>Similiter</lem>
+                  	<rdg wit="#S">supra</rdg>
+                  	<rdg wit="#T">super</rdg>
+                  </app> 
+                	illud 
+                	<app> <!-- dbcheck; very uncertain -->
+                		<lem>verbum</lem>
+                		<rdg wit="#T">ubi</rdg>
+                		<rdg wit="#V">eodem</rdg>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	vox 
+                	<app>
+                		<lem>clamantis</lem>
+                		<rdg wit="#T">claritatis</rdg>
+                	</app> 
+                	<app> <!-- dbcheck -->
+                		<lem>ubi</lem>
+                		<rdg wit="#V">verbi</rdg>
+                	</app> 
+                	dicit quod vox exterior 
+                  est vehiculum verbi verbum, autem
+                  <app>
+                  	<lem n="autem"/>
+                  	<rdg wit="#M" type="variation-present">est</rdg>
+                  </app>
+                  ipsa 
+                  cognitio <!-- S and M still have "cogitatio" --> 
+                	et 
                   <cit>
                     <ref>15 <title ref="#deTrinitate">De Trinitate</title> c. 10</ref>
                     <bibl>Augustine, De Trinitate, XV, c. 10, ???</bibl>
                   </cit> 
-                  dicit adque qui cogitat unde illud in <title ref="#sap">Libro Sapientiae</title> 
+                  dicit 
+                	<app>
+                		<lem>atque</lem> <!-- S has "atque" which is probably just an orthographic difference -->
+                		<rdg wit="#M #V">utque</rdg>
+                	</app> 
+                	qui 
+                	cogitat <!-- compare "cogitat" with uses of "cognitio/cogitatio" above and throughout --> 
+                	unde illud in 
+                	<ref><title ref="#sap">Libro Sapientiae</title></ref> 
                   <cit>
-                    <quote ana="#sap2_1">dixerunt apud se cogitantes non recte,</quote>
+                    <quote ana="#sap2_1">dixerunt apud se cogitantes non 
+                    	<app>
+                    		<lem>recte</lem>
+                    		<rdg wit="#M">ratione</rdg>
+                    	</app>,
+                    </quote>
                     <bibl>Sapientia 2:1</bibl>
                   </cit>
                   <!-- likely other references here -->
-                  et c. 5 in principio, verbum quod foris signum 
-                  est verbi quod intellectus latet et 10 c.[?] per signa corporalia verbum quod 
-                  mente gessimus innotesceret.</p>
+                  et <ref>capitulo 
+                  	<app>
+                  		<lem>11</lem> <!-- T has "ii"; which should be changed to 11 instead of roman numbera 2 (ii) -->
+                  		<rdg wit="#S #V">5</rdg> <!-- dbcheck -->
+                  	</app> 
+                  	in principio</ref>, 
+                	<cit>
+                		<quote>
+                			<app>
+                				<lem>verbum</lem>
+                				<rdg wit="#M" type="variation-absent"/>
+                			</app> 
+                			quod foris <!-- "sonat" is included here as part of actual Augustine quote --> 
+                			signum est  <!-- T has "est signum" -->
+                			<app>
+                				<lem>verbi</lem>
+                				<rdg wit="#T">verbum</rdg>
+                			</app> 
+                			quod 
+                			<app>
+                				<lem>intus</lem>
+                				<rdg wit="#S #M #T #V">intellectus</rdg> <!-- probably transcription error that needs to be corrected -->
+                			</app> 
+                			<app>
+                				<lem>lucet</lem>
+                				<rdg wit="#S #M #T">latet</rdg> <!-- likely transcription error; lucet is definitely correct. -->
+                			</app> 
+                		</quote>
+                		<bibl>Augustinus, De Trinitate XV, 11, 20</bibl>
+                	</cit> 
+                	et 
+                	<ref>10 capitulo</ref> 
+                	<cit>
+                		<quote>per signa corporalia verbum quod 
+                			mente 
+                			<app>
+                				<lem>gessimus</lem> <!-- dbcheck against "gerimus" which is the word used in other instances of this quotation -->
+                				<rdg wit="#M" type="variation-absent"/>
+                			</app> 
+                			<app>
+                				<lem n="gessimus"/>
+                				<rdg wit="#M" type="variation-present">igitur minus</rdg>
+                			</app>
+                			<app>
+                				<lem>innotesceret</lem>
+                				<rdg wit="#V #T">innotescit</rdg>
+                			</app>
+                		</quote>
+                		<bibl>Augustinus, De Trintiate, XV, 10, xxx</bibl>
+                	</cit>.
+                </p>
                 
-                <p xml:id="b1d3qun-smlvee">Secundo modo latius ad haec sumitur pro 
-                  praedictis et actu <unclear>phantasiendi</unclear> unde 
+                <p xml:id="b1d3qun-smlvee">Secundo modo latius ad 
+                	<app>
+                		<lem>haec</lem> <!-- dbcheck -->
+                		<rdg wit="#V #T">hoc</rdg>
+                	</app> 
+                	sumitur pro 
+                  praedictis et actu 
+                	<app> <!-- best reading unclear -->
+                		<lem>phantasiandi</lem> <!-- actually spelled fantasiandi -->
+                		<rdg wit="#M">phantasiendi</rdg> <!-- actually spelled fantasiendi -->
+                		<rdg wit="#S #T">faciendi</rdg>
+                	</app> 
+                	unde 
                   <cit>
-                    <ref>8 <title ref="#deTrinitate">De Trinitate</title> c. 10</ref>
+                    <ref>VIII <title ref="#deTrinitate">De Trinitate</title> capitulo 10</ref>
                     <bibl>Augustine, De Trinitate, VIII, c. 10, ???</bibl>
                   </cit> 
-                  phantasia vel carnis 
+                  phantasia 
+                	<app>
+                		<lem>vel</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	<app>
+                		<lem>carnis</lem>
+                		<rdg wit="#V" type="correction-substitution"> <!-- dbcheck -->
+                			<subst>
+                				<del>carnis</del>
+                				<add>Carthaginis</add>
+                			</subst>
+                		</rdg>
+                	</app> 
                   in memoria mea verbum eius est.</p>
                 
                 <p xml:id="b1d3qun-tmsdqd">Tertio modo sumitur ab isto specialius 
                   pro omni actu assentiendi vel dissentiendi vero vel falso, sic loquitur 
                   <cit>
-                    <ref>15 <title ref="#deTrinitate">De Trinitate</title> c. 15.</ref>
+                    <ref>XV <title ref="#deTrinitate">De Trinitate</title> c. 15.</ref>
                     <bibl>Augustine, De Trinitate, XV</bibl>
                   </cit> 
                   Falsum est verbum nostrum cum falluntur et isto modo dubio 
