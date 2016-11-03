@@ -3220,35 +3220,99 @@
               
               <p xml:id="b1d3qun-icdpad">
                 Item 
-                <ref corresp="#b1d3qun-Qvgdmia">capitulo 28</ref> dicit quod 
+                <ref corresp="#b1d3qun-Qvgdmia">capitulo 28</ref> dicit quod
+                <app>
+                  <lem n="quod"/> <!-- repetition -->
+                  <rdg wit="#T" type="variation-present"><sic>quod</sic></rdg>
+                </app>
                 <cit>
                   <quote xml:id="b1d3qun-Qvgdmia">verbum gignitur de scientia quae manet in anima,</quote>
-                  <bibl><name>Augustinus</name>, 
+                  <bibl>
+                    <name ref="#Augustine">Augustinus</name>, 
                     <title>De Trinitate</title>, 
                     XV, c. 11, n. 20 (CCSL 50A:488; PL 42:1072), 
-                    ". . . sed quod omnia quibus significatur signa praecedit et gignitur de scientia quae manet 
+                    ". . . sed quod omnia quibus significatur signa praecedit et 
+                    gignitur de scientia quae manet 
                     in animo quando eadem scientia intus dicitur sicuti est." 
-                    Wodeham palam innitur Scoti hic. 
+                    Wodeham palam innitur <name ref="#Scotus">Scoti</name> hic. 
                     Cf. <title>Ordinatio</title>, I, d. III, pars 3, q. 1, n. 345 (3:208): 
                     "Haec etiam ponitur intentio Augustini, qui vult quod verbum gignatur non ex specie intelligibili, 
-                    sed ex habitu. Dicit enim XV <title>De Trinitate </title> cap. 10 vel 24, quod 
-                    'ex ipsa scientia quam memoria tenemus, nascitur verbum', et eodem libro, cap. 12 vel 28a, 'gignitur verbum de scientia quae manet in anima'."</bibl>
+                    sed ex habitu. Dicit enim XV <title ref="#deTrinitate">De Trinitate</title>, cap. 10 vel 24, quod 
+                    'ex ipsa scientia quam memoria tenemus, nascitur verbum', et eodem libro, cap. 12 vel 28a, 'gignitur verbum de scientia quae manet in anima'."
+                  </bibl>
                 </cit> 
-                etc. 
+                <app>
+                  <lem>etc.</lem>
+                  <rdg wit="#M" type="variation-substance">capitulo</rdg>
+                </app> 
+                <!--  -->
                 <pb ed="#S" n="80-v" />
                 <cb ed="#S" n="a" />
+                <!--  -->
                 <cit>
                   <ref>36 simile.</ref>
-                  <bibl>Forte <name>Augustinus</name>, <title>De Trinitate</title>, XV, c. 14, n. 24 (CCSL 50A:497; PL 42:1077)</bibl>
+                  <bibl>Forte 
+                    <name ref="#Augustine">Augustinus</name>, 
+                    <title ref="#deTrinitate">De Trinitate</title>, 
+                    XV, c. 14, n. 24 (CCSL 50A:497; PL 42:1077)
+                  </bibl>
                 </cit> 
-                Ex quibus et multis similibus eius auctoritatibus satis patet quod <name ref="#Augustine">beatus 
-                  Augustinus</name> assensit actualem intellectionem distingui realiter a specie vel scientia habituali 
-                ex qua, secundum eum, gignitur, tamquam proles a parente, sed 
-                a mente, sicut verbum et proles a dicente.</p>
+                Ex quibus et 
+                <app>
+                  <lem>multis</lem>
+                  <rdg wit="#M" type="variation-substance">utentis</rdg>
+                </app>
+                <app>
+                  <lem n="multis" />
+                  <rdg wit="#T #V" type="variation-present"><sic>si</sic></rdg>
+                </app>
+                similibus eius auctoritatibus satis patet quod <name ref="#Augustine">
+                  <app>
+                    <lem>beatus</lem>
+                    <rdg wit="#M #V" type="variation-absent" />
+                  </app> 
+                  Augustinus</name> 
+                <app>
+                  <lem>assensit</lem>
+                  <rdg wit="#M" type="variation-substance">sentit</rdg>
+                  <rdg wit="#T" type="correction-deletion">
+                    <del rend="erasure">sentit</del>
+                  </rdg>
+                </app>
+                <app>
+                  <lem>actualem</lem>
+                  <rdg wit="#M" type="variation-substance">intellectualem</rdg>
+                </app> 
+                intellectionem 
+                <app>
+                  <lem>distingui realiter</lem>
+                  <rdg wit="#M #V" type="variation-inversion">realiter distingui</rdg>
+                </app>
+                a specie vel scientia habituali 
+                ex qua, secundum eum, gignitur, tamquam proles 
+                <app>
+                  <lem>a</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="above-line">a</add>
+                  </rdg>
+                </app>
+                <app>
+                  <lem n="a" />
+                  <rdg wit="#T" type="variation-present">cum</rdg>
+                </app>
+                parente
+                <app>
+                  <lem n="parente"></lem>
+                  <rdg wit="#M" type="variation-present">seu a comparente</rdg>
+                </app>, 
+                sed a mente, sicut verbum et proles a dicente.
+              </p>
             </div>
+            
             <div>
               <head><supplied>Argumenta contra responsionem</supplied></head>
-              <p xml:id="b1d3qun-pctdqg"><supplied>Primus.</supplied> Contra tamen hanc sententiam 
+              <p xml:id="b1d3qun-pctdqg">
+                Contra tamen hanc sententiam 
                 <app>
                   <lem>eius</lem>
                   <rdg wit="#S" type="correction-addition">
@@ -3256,48 +3320,351 @@
                   </rdg>
                 </app> 
                 et meam 
-                argui potest per argumenta eorum qui tenent quod actualis cogitatio potest 
-                remanendo in mente subiective cessare esse intellectio, ita quod tunc remaneat 
-                illa qualitas non existendo tunc intellectio, sed species vel habitus, 
-                igitur illud idem, quod est species vel habitus anima non actu cogitante, 
-                fit actualis cogitatio cum anima ceperit cogitare, igitur 
-                frustra poneretur species vel habitus distinctus a tali actuali cogitatione, 
-                et per consequens frustra poneretur realis partus[?] secundae partis imaginis a specie 
-                vel habitu intellectus naturaliter praesupponentis sibi in eodem. Assumptum probatur quia aliter 
-                quando aliquis actu intelligeret, haberet simul distinctas similitudines respectu 
-                eiusdem quod videtur superfluum. Consequentia patet quia etiam secundum 
+                <app>
+                  <lem>argui</lem>
+                  <rdg wit="#M" type="variation-substance">quin</rdg>
+                </app>
+                potest per argumenta eorum qui tenent quod actualis <app>
+                  <lem>cognitio</lem>  
+                  <!-- I think in general Wodeham is talking about "cognitiones" 
+                    and not "cogitationes", as the abbreviation is ambiguuous. -->
+                  <rdg wit="#M #S" type="variation-substance">cogitatio</rdg>
+                </app> 
+                potest 
+                <app>
+                  <lem>remanendo</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app> 
+                in mente subiective cessare esse intellectio, ita quod tunc remaneat 
+                <app>
+                  <lem>illa</lem>
+                  <rdg wit="#S" type="variation-substance">ista</rdg>
+                </app>
+                qualitas non existendo tunc intellectio, sed species vel habitus, 
+                igitur illud idem, quod est species vel habitus anima non 
+                <app>
+                  <lem>actu</lem>
+                  <rdg wit="#M" type="variation-substance">actualiter</rdg>
+                </app>
+                cogitante, 
+                <app>
+                  <lem>fit</lem>
+                  <rdg wit="#M" type="variation-substance">sit</rdg>
+                </app> 
+                <app>
+                  <lem>
+                    actualis 
+                    <app>
+                      <lem>cognitio</lem>
+                      <rdg wit="#M #S" type="variation-substance">cogitatio</rdg>
+                    </app>
+                  </lem>
+                  <rdg wit="#T" type="variation-inversion">cognitio actualis</rdg>
+                </app>
+                cum anima ceperit cogitare, igitur frustra poneretur species vel 
+                habitus distinctus a tali actuali <app>
+                  <lem>cognitione</lem>
+                  <rdg wit="#M #S" type="variation-substance">cogitatione</rdg>
+                </app>, 
+                et per consequens frustra poneretur realis 
+                <app>
+                  <lem><unclear>partus</unclear></lem> <!-- Should this be "pars"? -->
+                  <rdg wit="#M" type="variation-substance">partis</rdg>
+                </app>
+                secundae partis imaginis a specie vel 
+                <app>
+                  <lem>habitu</lem>
+                  <rdg wit="#M" type="variation-substance">habitus</rdg>
+                </app> 
+                intellectus 
+                <app>
+                  <lem>naturaliter</lem>
+                  <rdg wit="#S" type="correction-substitution">
+                    <subst>
+                      <del rend="expunctuated">universaliter</del>
+                      <add place="margin">naturaliter</add>
+                    </subst>
+                  </rdg>
+                </app>
+                <app>
+                  <lem>sibi praesupponentis</lem>
+                  <rdg wit="#S" type="variation-inversion">praesupponentis sibi</rdg>
+                </app> 
+                in eodem. Assumptum probatur 
+                <app>
+                  <lem>primo</lem>
+                  <rdg wit="#S #T" type="variation-absent"/>
+                </app>
+                quia aliter quando 
+                <app>
+                  <lem>aliquis</lem>
+                  <rdg wit="#T #V" type="variation-substance">quis</rdg>
+                </app>
+                actu 
+                <app>
+                  <lem>intelligeret</lem>
+                  <rdg wit="#M" type="variation-substance">intelliget</rdg>
+                </app>, 
+                haberet simul distinctas similitudines respectu eiusdem quod videtur superfluum. 
+                Consequentia patet quia <app>
+                  <lem>etiam</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app>
+                <app>
+                  <lem n="etiam"/>
+                  <rdg wit="#M #T" type="variation-present">ubi</rdg>
+                </app>
+                secundum
                 <cit>
-                  <ref><name ref="#Augustine">Augustinum</name>, ubi sequi videtur 
-                    illam distinctionem actus ab habitu vel specie <unclear>29</unclear> 
-                    <title ref="#deTrinitate">De Trinitate</title>, c. 15 et multis 
-                    locis,</ref>
+                  <ref>
+                    <name ref="#Augustine">Augustinum</name>, 
+                    <app>
+                      <lem>ubi</lem>
+                      <rdg wit="#T" type="variation-absent"></rdg>
+                    </app>
+                    <app> <!-- not sure how to encode this inversion -->
+                      <lem>
+                        <app>
+                          <lem>sequi</lem>
+                          <rdg wit="#T" type="variation-substance">sequitur</rdg>
+                        </app>
+                        videtur</lem>
+                      <rdg wit="#M #T" type="variation-inversion">videtur sequi</rdg>
+                    </app>
+                    illam distinctionem 
+                    <app>
+                      <lem>actus</lem>
+                      <rdg wit="#M" type="variation-substance">actu</rdg>
+                    </app>
+                    ab habitu vel specie <unclear>29</unclear> 
+                    <title ref="#deTrinitate">De Trinitate</title>, 
+                    c. 15 et multis 
+                    locis,
+                  </ref>
                   <bibl>???</bibl>
                 </cit> 
-                actualis cogitatio est similissima speciei de qua gignitur.</p>
+                actualis 
+                <app>
+                  <lem>cogitatio</lem>
+                  <rdg wit="#M #S" type="variation-substance">cognitatio</rdg>
+                </app> 
+                est 
+                <app> <!-- I think this is the correct spelling -->
+                  <lem>simillima</lem>
+                  <rdg wit="#S" type="variation-substance">similissima</rdg>
+                </app>
+                speciei de qua gignitur.
+              </p>
               
-              <p xml:id="b1d3qun-siecva"><supplied>Secundus.</supplied> Item, 
-                eodem actu aliquando cognoscitur verbum et res alia in verbo et alias non illa 
-                res sed alia vel nulla alia hoc non nisi detur quod qualitas, quae est intellectio, 
-                possit manere non essendo intellectio quia qua ratione potest manere et 
-                simul non esset intellectio illius cuius fuit intellectio pari ratione et cuius vis 
-                alterius.</p>
+              <p xml:id="b1d3qun-siecva">
+                Item, eodem actu 
+                <app>
+                  <lem>aliquando cognoscitur</lem>
+                  <rdg wit="#M" type="variation-substance">cogitatur divinum</rdg>
+                  <rdg wit="#V" type="variation-substance"><unclear>cognitionis</unclear></rdg>
+                  <rdg  wit="#T" type="variation-substance">cognoscitur</rdg>
+                </app>
+               verbum et 
+               <app>
+                 <lem>res alia
+                   <app>
+                     <lem n="alia" />
+                     <rdg wit="#V" type="variation-present">illa quod non omnes</rdg>
+                     <rdg wit="#T" type="variation-present">et quod non omnis</rdg>
+                   </app>
+                   in verbo et alias non 
+                   <app>
+                     <lem>illa</lem>
+                     <rdg wit="#T" type="variation-substance">illae</rdg>
+                   </app>
+                   res sed alia vel nulla
+                 </lem>
+                 <rdg wit="#M" type="variation-substance">nulla res</rdg>
+               </app> 
+                alia hoc non 
+                <app>
+                  <lem>nisi</lem>
+                  <rdg wit="#M" type="variation-absent"></rdg>
+                </app>
+                detur quod qualitas, quae est intellectio, 
+                <app>
+                  <lem>possit manere</lem>
+                  <rdg wit="#M" type="variation-substance">potest remanere</rdg>
+                </app> 
+                non essendo intellectio 
+                <app>
+                  <lem>quia qua</lem>
+                  <rdg wit="#M" type="variation-substance">alia</rdg>
+                </app>
+                ratione 
+                <app>
+                  <lem>potest</lem>
+                  <rdg wit="#M" type="variation-substance">posset</rdg>
+                </app>
+                manere et 
+                <app>
+                  <lem>simul</lem>
+                  <rdg wit="#M" type="variation-substance">sic</rdg>
+                </app>
+                non 
+                <app>
+                  <lem>esset</lem>
+                  <rdg wit="#M #V" type="variation-substance">esse</rdg>
+                </app>
+                intellectio
+                <app>
+                  <lem n="intellectio"/>
+                  <rdg wit="#T" type="variation-present">unius <unclear>intellectio</unclear></rdg>
+                </app>
+                <app>
+                  <lem>illius</lem>
+                  <rdg wit="#M #V" type="variation-substance">istius</rdg>
+                </app> 
+                cuius fuit 
+                <app>
+                  <lem>intellectio</lem>
+                  <rdg wit="#M" type="variation-substance">intellectus</rdg>
+                </app>
+                pari ratione et <app>
+                  <lem>cuiusvis</lem>
+                  <rdg wit="#V" type="variation-substance">cuius mens</rdg>
+                  <rdg wit="#T" type="variation-substance">cuiuslibet</rdg>
+                </app> 
+                alterius.
+              </p>
               
-              <p xml:id="b1d3qun-tpcrdi"><supplied>Tertius.</supplied> Praeterea cum diligo uno actu virtuoso omnes bonos, si quis 
-                eorum me ignorante fiat malus cesso illum illo amore 
-                diligere quo diligebam omnes bonos tamquam tales, et ideo non 
-                cessat actus, igitur pari ratione de intellectione.</p>
+              <p xml:id="b1d3qun-tpcrdi">
+                Praeterea cum diligo uno actu virtuoso omnes bonos, si quis 
+                eorum me ignorante 
+                <app>
+                  <lem>fiat</lem>
+                  <rdg wit="#M" type="variation-substance">aut</rdg>
+                </app>
+                malus 
+                <app>
+                  <lem>cesso</lem>
+                  <rdg wit="#S" type="correction-substitution">
+                    <subst>
+                      <del rend="expunctuated">possum</del>
+                      <add place="margin">cesso</add></subst>
+                  </rdg>
+                  <rdg wit="#T" type="variation-substance">cum</rdg>
+                </app>
+                illum illo amore diligere quo 
+                <app>
+                  <lem>eum dilexi</lem>
+                  <rdg wit="#S" type="variation-substance">diligebam</rdg>
+                </app>
+                omnes 
+                <app>
+                  <lem>tales bonos quia tales</lem>
+                  <rdg wit="#T" type="variation-inversion">bonos tales quia tales</rdg>
+                  <rdg wit="#S" type="variation-substance">bonos tamquam tales</rdg>
+                </app>
+                et 
+                <app>
+                  <lem>tamen</lem>
+                  <rdg wit="#S" type="variation-substance">ideo</rdg>
+                </app>
+                non cessat 
+                <app>
+                  <lem>iste</lem>
+                  <rdg wit="#V" type="variation-substance">istius</rdg>
+                  <rdg wit="#S #T" type="variation-absent"/>
+                </app>
+                actus, igitur pari ratione de intellectione.
+              </p>
               
-              <p xml:id="b1d3qun-qpnrdi"><supplied>Quartus.</supplied> Praeterea nihil diligitur nisi 
-                cognitum, sed cogitatio a Deo potest destrui sine destructione qualitatis 
-                quae est dilectio, igitur tunc illa manebit et tamen non tunc erit 
-                dilectio pari ratione de intellectione.</p>
+              <p xml:id="b1d3qun-qpnrdi">
+                Praeterea nihil diligitur nisi cognitum, sed 
+                <app>
+                  <lem>cognitio</lem>
+                  <rdg wit="#M" type="variation-substance">cogitatio</rdg>
+                </app> 
+                <app>
+                  <lem>a Deo potest destrui</lem>
+                  <rdg wit="#V #M" type="variation-inversion">potest a Deo destrui</rdg>
+                </app> 
+                sine destructione qualitatis quae est 
+                <app>
+                  <lem>dilectio</lem>
+                  <rdg wit="#M" type="variation-substance">distinctio</rdg>
+                </app>, 
+                igitur tunc 
+                <app>
+                  <lem>remanebit</lem>
+                  <rdg wit="#S" type="variation-substance">illud manebit</rdg>
+                </app> 
+                et tamen non 
+                <app>
+                  <lem>tunc erit</lem>
+                  <rdg wit="#M" type="variation-substance">esset</rdg>
+                </app>
+                <app>
+                  <lem n="erit"/>
+                  <rdg wit="#T" type="variation-present">tum</rdg>
+                </app>
+                dilectio,
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#T #S #V" type="variation-absent"/>
+                </app>
+                pari ratione de intellectione.
+              </p>
               
-              <p xml:id="b1d3qun-qppepv"><supplied>Quintus.</supplied> Praeterea ponatur dilectio qua <name ref="#Socrates" type="variable">Socrates</name> diligit 
-                seipsum in <name ref="#Plato" type="variable">Platone</name>, tunc <name ref="#Plato" type="variable">Plato</name> experietur se diligere igitur tunc 
-                aliquid diligetur per istam dilectionem quod non prius et non diligetur per eam 
-                idem quod prius. Assumptum probatur, quia si <name ref="#Socrates" type="variable">Socrates</name> velit sic se diligere angelum 
-                et haec volitio ponatur in <name ref="#Plato" type="variable">Platone</name> per illam, <name ref="#Plato" type="variable">Plato</name> volet[velet?] se diligere 
-                angelum, igitur similiter improposito et probatur hoc ultimum assumptum, quia 
+              <p xml:id="b1d3qun-qppepv">
+                Praeterea ponatur dilectio qua <name ref="#Socrates" type="variable">Sortes</name> diligit 
+                seipsum in <name ref="#Plato" type="variable">Platone</name>, tunc <name ref="#Plato" type="variable">Plato</name> experietur se diligere 
+                <app>
+                  <lem n="diligere"/>
+                  <rdg type="variation-present" wit="#V">se</rdg>
+                </app>
+                igitur 
+                <app>
+                  <lem>tunc</lem>
+                  <rdg type="variation-absent" wit="#M"></rdg>
+                </app> 
+                aliquid diligetur 
+                <app>
+                  <lem>per istam dilectionem</lem>
+                  <rdg type="variation-substance" wit="#T">ista dilectione</rdg>
+                </app> 
+                <app>
+                  <lem>quod non</lem>
+                  <rdg type="variation-substance" wit="#M">qua</rdg>
+                </app> 
+                prius et 
+                <app>
+                  <lem>non</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="above-line">non</add>
+                  </rdg>
+                </app> 
+                diligetur            
+                <app>
+                  <lem>per eam idem</lem>
+                  <rdg type="variation-substance" wit="#T">illa dilectione illud</rdg>
+                  <rdg type="variation-substance" wit="#V">per eam illud</rdg>
+                </app> 
+                quod prius. Assumptum probatur, quia si 
+                <name ref="#Socrates" type="variable">Socrates</name> velit 
+                <app>
+                  <lem>sic</lem>
+                  <rdg type="variation-absent" wit="#M" />
+                </app> 
+                se diligere angelum et haec volitio ponatur in 
+                <name ref="#Plato" type="variable">Platone</name> per 
+                <app>
+                  <lem>illam</lem>
+                  <rdg type="variation-substance" wit="#M">istam</rdg>
+                </app>,
+                <name ref="#Plato" type="variable">Plato</name> volet se diligere 
+                angelum, igitur 
+                <app>
+                  <lem>similiter</lem>
+                  <rdg type="variation-substance" wit="#M">sibi</rdg>
+                </app> 
+                in proposito et probatur hoc ultimum assumptum, quia 
                 per intellectionem qua <name ref="#Sortes">Sortes</name> experitur se intelligere angelum positam in 
                 <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> experietur se intelligere angelum, igitur similiter et per volitionem.</p>
               
