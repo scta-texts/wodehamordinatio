@@ -4504,148 +4504,851 @@
                 	sonat etc.</p>
                 
                 <p xml:id="b1d3qun-ssveve">Septimo sumitur 
-                  <mentioned>verbum</mentioned> pro definitione alicuius iuxta illud 
+                  <app>
+                  	<lem><mentioned>verbum</mentioned></lem>
+                  	<rdg wit="#M" type="variation-absent"/>
+                  </app> 
+                	pro definitione alicuius iuxta illud 
                   <cit>
-                    <ref><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c. 10</ref>
+                    <ref><name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate <!-- Vat has "Triniate" needs to be corrected --></title> c. 10</ref>
                     <bibl>Augustine, De Trinitate, IX</bibl>
                   </cit> 
                   definitio, 
                   quid sit temperantia, et haec est verbum eius.</p>
                 
-                <p xml:id="b1d3qun-osaviv">Octavo sumitur ab eo pro verbo vocabili 
-                  15 et cum mentimur volentes et scientes falsum verbum, hoc est in instanti, 
-                  nisi verum verbum est mentiri nos et cum mentitos nos esse confitemur 
-                  verum divinis quod scimus, enim dicimus scimus namque nos esse mentitos 
-                  sistendo in verbo mentali ad intra[?] non mentimur, igitur 
+                <p xml:id="b1d3qun-osaviv">Octavo sumitur ab eo pro verbo 
+                	<app> 
+                		<lem>vocabili</lem> <!-- check for transcription errors -->
+                		<rdg wit="#V #T">vocali</rdg>
+                	</app> 
+                  <ref>
+                  	<app>
+	                  	<lem wit="#M"><title ref="#deTrinitate">de Trinitate</title> capitulo 15</lem>
+                  		<rdg wit="#V">15 de trinitate capitulo</rdg>
+                  		<rdg wit="#S #T">15</rdg>
+                  </app>
+                  </ref> 
+                	<app>
+                		<lem>et</lem>
+                		<rdg wit="#M #T" type="variation-absent"/>
+                	</app> 
+                	cum 
+                	<app>
+                		<lem>mentimur</lem>
+                		<rdg wit="#S">mentimus</rdg>
+                	</app> 
+                	volentes et scientes falsum verbum, 
+                	<app>
+                		<lem>hoc est in instanti, nisi verum</lem> <!-- dbcheck transcription -->
+                		<rdg wit="#M">habemus ubi verorum</rdg>
+                		<rdg wit="#V #T">habemus ubi verum</rdg>
+                	</app> 
+                	verbum est mentiri nos et 
+                	<app>
+                		<lem>cum</lem>
+                		<rdg wit="#M">tamen</rdg>
+                	</app> 
+                	mentitos nos esse confitemur 
+                  <app>
+                  	<lem>verum divinis quod scimus, enim dicimus scimus 
+                  		<app>
+                  			<lem n="scimus"/>
+                  			<rdg wit="#T" type="variation-present">x</rdg> <!-- dbcheck; perhaps should be ignored -->
+                  		</app>
+                  		namque nos esse mentitos</lem>
+                  	<rdg wit="#M" type="variation-absent"/>
+                  </app> 
+                  sistendo in verbo mentali 
+                  <app>
+                  	<lem n="mentali"/>
+                  	<rdg wit="#V" type="variation-present">proprie</rdg>
+                  </app>ad <unclear>intra <!-- dbcheck --></unclear> non mentimur, igitur 
                   vocem extra vocat ibi verbum.</p>
               </div>
               <div>
                 <head><supplied>Ad tertium argumentum</supplied></head>
-              	<p xml:id="b1d3qun-atvoac"><ref target="http://scta.info/resource/b1d3qun-pqppaa">Ad tertium</ref>, verum est quod primus amor 
+              	<p xml:id="b1d3qun-atvoac">
+              		<cit>
+              			<ref target="http://scta.info/resource/b1d3qun-pqppaa">Ad tertium</ref>
+              			<bibl><ref target="http://scta.info/resource/b1d3qun-pqppaa">Ad tertium, supra</ref></bibl>
+              		</cit>, 
+              		verum est quod primus amor 
                   procedit a notitia aliqua actuali et per consequens notitia praesupposita 
                   primo amori non procedit ab amore actuali aliquo et, 
                   cum probatur quod immo quia prima sensatio vel intellectio fit per amorem copulantem 
-                  sensum cum alio. Dicendum quod non oportet semper amorem alium 
-                  habere quam inclinationem naturalem potentiae cogitativae in obiectum suum. Si istam 
-                  velit quis vocare amorem bene quiddam[quidem[?]], sine enim omni amore 
-                  elicito potest quis saltem a casu immutari videt ad cogitationem 
-                  ab obiecto aliquo occurrente aliquando tamen et ut communiis[?] si quis perseverabit 
+                  sensum cum 
+              		<app>
+              			<lem>sensibili</lem>
+              			<rdg wit="#S">alio</rdg>
+              		</app>. 
+              		Dicendum quod non 
+              		<app>
+              			<lem>oportet semper amorem alium habere quam</lem>
+              			<rdg wit="#M">semper oportet habere amorem alium quod</rdg>
+              			<rdg wit="#V">oportet semper habere amorem alium habere quam</rdg>
+              			<rdg wit="#T">oportet semper habere amorem alium habere quam</rdg>
+              		</app> 
+              		inclinationem naturalem potentiae 
+              		cognitivae <!-- M V T have cogitativae; dbcheck  -->  
+              		in obiectum suum. 
+              		Si istam 
+                  velit quis vocare amorem 
+              		<app>
+              			<lem>bene</lem>
+              			<rdg wit="#T">unde</rdg>
+              		</app> 
+              		quidam, <!-- M has "quiddam"; dbcheck --> 
+              		<app>
+              			<lem>sive</lem>
+              			<rdg wit="#S">sine</rdg> <!--likely transcription error -->
+              		</app> 
+              		enim omni amore 
+                  elicito potest quis 
+              		<app>
+              			<lem>saltem</lem>
+              			<rdg wit="#M" type="variation-absent"/>
+              		</app> 
+              		a casu immutari 
+              		<app>
+              			<lem>videt</lem>
+              			<rdg wit="#S">valet</rdg>
+              			<rdg wit="#M" type="variation-absent"/>
+              		</app>
+              		ad cogitationem 
+                  ab obiecto aliquo 
+                  occurrente <!-- V has "occurente"; might need to be corrected --> 
+                  aliquando tamen et 
+              		<app>
+              			<lem>ut</lem>
+              			<rdg wit="#V #T" type="variation-absent"/>
+              		</app> 
+              		<unclear>communius <!--dbcheck --></unclear> 
+              		si quis perseverabit 
                   sponte in cogitatione alicuius obiecti diu ibi erit appetitus 
-                  vel amor elicitus copulans vel tenens potentiam in actuali notitia 
-                  talis obiecti et hoc quandoque libere et elicitive quandoque mere naturaliter et aliquando 
-                  praevenit et est in causa ut pariatur notitia explicita et distincta 
-                  obiecti alicuius certi.</p>
+                  vel amor elicitus copulans 
+                  vel tenens potentiam in actuali 
+              		<app>
+              			<lem n="actuali"/>
+              			<rdg wit="#M" type="variation-present">cognitione vel</rdg>
+              		</app> 
+              		notitia 
+                  talis obiecti et hoc quandoque libere et elicitive 
+                  <app>
+                  	<lem n="elicitive"/>
+                  	<rdg wit="#M" type="variation-present">et</rdg>
+                  </app> 
+              		quandoque mere naturaliter et aliquando 
+                  <app>
+                  	<lem>praeveniet</lem>
+                  	<rdg wit="#S">praevenit</rdg> <!-- dbcheck -->
+                  </app> 
+              		et est in 
+              		<app>
+              			<lem>causa</lem>
+              			<rdg wit="#M">casu</rdg>
+              		</app> 
+              		ut pariatur notitia 
+              		<app>
+              			<lem>explicita</lem>
+              			<rdg wit="#M">explicativa</rdg>
+              		</app> 
+              		et 
+              		<app>
+              			<lem>distincta</lem>
+              			<rdg wit="#M">distinctiva</rdg>
+              		</app> 
+              		obiecti alicuius <!-- M and V have "alicuius obiecti" --> 
+              		certi.</p>
               </div>
               <div>
                 <head><supplied>Ad quartam rationem</supplied></head>
-              	<p xml:id="b1d3qun-aqropt"><ref target="http://scta.info/resource/b1d3qun-qpaaci">Ad quartum</ref> respondet <name ref="#RichardFitzRalph">Fitzralph</name> quod appetitus sensitivus 
-                  non potest esse sine cogitatione, nec fames, nec sitis. Cum dicit probabiliter 
-                  quod fames et sitis possunt esse in animali absque alia sensatione alicuius 
+              	<p xml:id="b1d3qun-aqropt">
+              		<cit>
+              			<ref target="http://scta.info/resource/b1d3qun-qpaaci">Ad quartum</ref>
+              			<bibl>
+              				<ref target="http://scta.info/resource/b1d3qun-qpaaci">Supra, ad quartum</ref>
+              			</bibl>
+              		</cit> 
+              		respondet 
+              		<name ref="#RichardFitzRalph">Fitzralph</name> 
+              		quod appetitus sensitivus 
+                  non potest esse sine 
+                  cognitione <!-- vs cogitatione -->
+              		<app>
+              			<lem>sensitiva</lem>
+              			<rdg wit="#M #V" type="variation-absent"/>
+              		</app>,
+                  <app>
+                  	<lem>nec</lem>
+                  	<rdg wit="#T" type="variation-absent"/>
+                  </app> 
+              		fames, nec sitis. 
+              		<app> <!-- dbcheck -->
+              			<lem>Tamen</lem>
+              			<rdg wit="#S">cum</rdg>
+              		</app> 
+              		<app>
+              			<lem n="tamen"/>
+              			<rdg wit="#V" type="variation-present">potest</rdg>
+              		</app>
+              		dicit 
+              		<app>
+              			<lem>probabiliter</lem>
+              			<rdg wit="#M">prater</rdg>
+              		</app> 
+                  quod fames et sitis possunt esse in animali 
+              		<app>
+              			<lem>absque 
+              				<app>
+              					<lem>alia</lem>
+              					<rdg wit="#T">aliqua</rdg> <!-- dbcheck -->
+              				</app></lem>
+              			<rdg wit="#M">sine</rdg>
+              		</app> 
+              		sensatione alicuius 
                   rei extra corpus animalis ex hoc, scilicet, quod pars animalis quae patitur defectum 
-                  nut?menti[?] alicuius trahitur ad dispositionem in naturalem, et causatur cogitatio 
-                  sensitiva ex hoc in virtutibus compraehensivis ipsius animalis, scilicet, ex 
-                  actione unius partis in alteram, ex qua cogitatione sequitur naturalis 
-                  appetitus quiddam qui vocatur fames vel sitis haec istae. Nam 
-                  quod sicut appetitus patet per 
+                  <app> <!-- review this and the next app paying particular attention to the meaning of the text -->
+                  	<lem>nutrimenti</lem>
+                  	<rdg wit="#M #V" type="variation-absent"/>
+                  </app> 
+              		<app>
+              			<lem wit="#M #V">alteratur</lem>
+              			<rdg wit="#S">alicuius trahitur</rdg>
+              			<rdg wit="#T">alterius</rdg>
+              		</app> 
+              		ad dispositionem 
+              		<app>
+              			<lem>in naturalem</lem> <!-- should this be "innaturalem" --> 
+              			<rdg wit="#T">materialem</rdg>
+              			<rdg wit="#M">naturalem</rdg>
+              		</app>, 
+              		et causatur cogitatio 
+                  sensitiva 
+                  <app>
+                  	<lem>ex hoc</lem>
+                  	<rdg wit="#M #V" type="variation-absent"/>
+                  </app> 
+                  in virtutibus compraehensivis 
+                  ipsius <!-- M has "illius" --> 
+                  animalis, scilicet, 
+                  ex actione unius partis in alteram, 
+                  ex qua cogitatione sequitur 
+                  naturalis appetitus <!-- M has "appetitus naturalis" --> 
+                  <app>
+                  	<lem>quiddam</lem>
+                  	<rdg wit="#V #T">quidam</rdg> <!-- is this just an orthographic difference? I'm not sure -->
+                  </app> 
+              		qui vocatur fames vel sitis <!-- end of quote -->haec 
+              		ille. <!-- correct in S which has "istae" and V has "illae" should be "ille" --> 
+              		Nam 
+                  quod sicut appetitus patet 
+              		<app>
+              			<lem>per</lem>
+              			<rdg wit="#M" type="variation-absent"/> <!-- this omission could be connected to the next -->
+              		</app> 
                   <cit>
-                    <ref><unclear><name ref="#Averroes">Commentatorem</name></unclear> 2 <title>De anima</title> commento 28,</ref>
-                    <bibl>Averroes, Comm. de anima, II, commento 28, ???x</bibl>
+                    <ref>
+                    	<app>
+                    		<lem>
+                    			<name ref="#Averroes">Commentatorem</name>
+                    		</lem>
+                    		<rdg wit="#M" type="variation-absent"/>
+                    	</app> 
+                    	2 <title>De anima</title> commento 28,</ref>
+                    <bibl>Averroes, Comm. de anima, II, commento 28, xxx</bibl>
                   </cit> 
                   ubi dicit quod 
                   <pb ed="#S" n="83-r" />
                   <cb ed="#S" n="b" /> 
-                  fames est appetitus calidi et sicci, sitis frigidi et humidi, 
+                  fames est appetitus calidi et sicci, 
+              		<app>
+              			<lem n="sicci"/>
+              			<rdg wit="#V" type="variation-present">et</rdg>
+              		</app> 
+              		sitis frigidi et humidi, 
                   et forte ipse intendit de appetitu naturali et non de actu elicito, 
-                  quia talis praesupponet notitiam nisi dicatur quod intellectus habeat ibi talia 
-                  obiecta praecognita tactive[?].</p>
+                  quia talis 
+              		<app>
+              			<lem>praesupponet</lem>
+              			<rdg wit="#T">praesupponeret</rdg>
+              		</app> notitiam nisi dicatur quod intellectus habeat ibi talia 
+                  obiecta praecognita 
+              		<app>
+              			<lem>tactiva</lem>
+              			<rdg wit="#M">tactae</rdg>
+              			<rdg wit="#S">tactive</rdg>
+              		</app>.
+              	</p>
                 
-                <p xml:id="b1d3qun-ehsoae">Exemplum huius sensationis interioris sive 
+                <p xml:id="b1d3qun-ehsoae">Exemplum huius sensationis 
+                	interioris <!-- T has "exterioris sive interioris --> 
+                	<app>
+                		<lem>sive</lem>
+                		<rdg wit="#M">vel</rdg>
+                	</app> 
                   <app>
-                    <lem>exteriori</lem>
-                    <rdg wit="#S" type="correction-addition">
-                    	<add place="margin">exteriori</add>
+                    <lem>exterioris</lem>
+                    <rdg wit="#S" type="correction-substitution">
+                    	<subst>
+                    		<del>interioris</del>
+                    		<add place="margin">exteriori</add> <!-- S and V currently has; shouldn't this be "exterioris" --> 
+                    	</subst>
                     </rdg>
+                  	<rdg wit="#V">exteriori</rdg> <!-- likely transcripiton error; same as S above -->
                   </app> 
-                  posset esse de dolore capitis vel dentium et huiusmodi ubi 
-                  habentur sensationes sensus tactus et afflictio secundum appetitum sensitivum 
+                  posset esse de dolore capitis vel dentium et 
+                  <app>
+                  	<lem>huiusmodi</lem>
+                  	<rdg wit="#T">huius</rdg>
+                  </app> 
+                	ubi 
+                  habentur sensationes sensus tactus et afflictio secundum 
+                  <app>
+                  	<lem>appetitum sensitivum</lem>
+                  	<rdg wit="#M">sensum appetitum</rdg>
+                  </app> 
                   sine immutatione ab obiecto aliquo extrinseco.</p>
                 
-                <p xml:id="b1d3qun-aetsqe">Advertendum est tamen hic quod 
-                  fames et sitis sit distincta non sunt proprie actus appetendi eliciti 
-                  respectu cibi vel potus, sed quid quasi languor ex defectum cibi vel 
-                  potus, quid tamen actus eliciti sensitivi sunt tactivi sicut et 
-                  gustus est quidam tactus et quodam instinctu naturae agerent hominem 
-                  vel brutum ad prosecutionem cibi vel potus exterius praesentati 
-                  et tunc primo noti sequente etiam, tunc novo actu appetendi ex 
+                <p xml:id="b1d3qun-aetsqe">Advertendum 
+                	<app>
+                		<lem>est tamen hic</lem>
+                		<rdg wit="#M">tamen hic est</rdg>
+                		<rdg wit="#V">tamen est hic</rdg>
+                		<rdg wit="#T">tamen est hoc</rdg>
+                	</app>  
+                	quod 
+                  fames et sitis 
+                	<app>
+                		<lem>sic</lem>
+                		<rdg wit="#M">sit</rdg>
+                	</app> 
+                	<app>
+                		<lem>dicta</lem>
+                		<rdg wit="#M #T #V">distincta</rdg>
+                	</app>
+                	non sunt proprie actus appetendi eliciti 
+                  respectu cibi vel potus, sed quid quasi languor ex defectum cibi 
+                  <app>
+                  	<lem>vel</lem>
+                  	<rdg wit="#M #V">et</rdg>
+                  </app> 
+                  potus, 
+                	<app>
+                		<lem>quidam 
+                			<app>
+                				<lem n="quidam"/>
+                				<rdg wit="#M" type="variation-present" cause="repetitio">quidam</rdg>
+                			</app> 
+                			tamen actus eliciti sensitivi sunt tactivi sicut et 
+		                  gustus est quidam tactus et quodam instinctu naturae 
+                			<app>
+                				<lem>agerent</lem>
+                				<rdg wit="#V" type="correction-substitution">
+                					<subst>
+                						<del>haberent</del> 
+                						<add>agerent</add>
+                					</subst>
+                				</rdg>
+                			</app> 
+                			hominem 
+		                  vel brutum ad prosecutionem cibi vel potus</lem>
+                		<rdg wit="#T" type="variation-absent" cause="homeoteleuton"></rdg>
+                	</app> 
+                	exterius praesentati 
+                  et tunc primo noti 
+                	<app>
+                		<lem>sequente</lem>
+                		<rdg wit="#M">surgente</rdg>
+                	</app> 
+                	<app>
+                		<lem>etiam</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app>, 
+                	tunc novo actu appetendi ex 
                   sensatione obiecti exterioris convenientis secundum naturam in remedium contra 
-                  sitim et famem vel sitim praehabitum et medium[?mihi?] geriantur[?] simul duo alii 
-                  appetitus sicut nullo qui dolet caput, audito de remedio appetit 
-                  illud alio actu appetendi a priori et haec sint dicta de fame 
-                  et siti ante omnem experientiam cibi vel potus naturaliter habitis. 
+                  sitim et famem <!-- V and M have "famem et sitim --> 
+                  <app>
+                  	<lem>vel sitim</lem>
+                  	<rdg wit="#M" type="variation-absent"/>
+                  </app> 
+                	praehabitum et 
+                	<app> <!-- completely unclear -->
+                		<lem><unclear>intergrentur</unclear></lem>
+                		<rdg wit="#M">tamen gerentur</rdg>
+                		<rdg wit="#S">m geriantur</rdg>
+                	</app> 
+                	simul 
+                	<app>
+                		<lem>duo alii</lem>
+                		<rdg wit="#M #V">tunc illi</rdg>
+                	</app> 
+                  appetitus sicut 
+                	<app>
+                		<lem>in illo</lem>
+                		<rdg wit="#S">nullo</rdg>
+                	</app> 
+                	qui dolet caput, audito de remedio appetit 
+                  illud 
+                	<app>
+                		<lem>alio</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	actu appetendi a priori et haec 
+                	<app>
+                		<lem>sint</lem>
+                		<rdg wit="#M">fuit</rdg>
+                	</app> 
+                	dicta de fame 
+                  et siti ante omnem experientiam cibi 
+                	<app>
+                		<lem>vel</lem>
+                		<rdg wit="#M">et</rdg>
+                	</app> 
+                	potus naturaliter habitis. 
                   Post experientiam autem cibi et potus oritur saepe ex memoria 
-                  eorum appetitus consimilium, qui appetitus vel desiderium non sunt proprie 
-                  fames vel sitis quia potest competere habenti iam venirem plenum 
-                  et aliquando communicantur se et tunc vehementius appetuntur cibum et potus 
+                  eorum appetitus 
+                	<app>
+                		<lem>consimilium</lem>
+                		<rdg wit="#T">similium</rdg>
+                	</app>, 
+                	qui appetitus 
+                	<app>
+                		<lem>vel desiderium</lem>
+                		<rdg wit="#M #V" type="variation-absent"></rdg>
+                	</app> 
+                	non 
+                	<app>
+                		<lem>sunt</lem>
+                		<rdg wit="#V">est</rdg>
+                		<rdg wit="#T">sit</rdg>
+                	</app> proprie 
+                  fames vel sitis quia potest competere habenti 
+                	<app>
+                		<lem>iam</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> venirem plenum 
+                  et aliquando communicantur se et tunc vehementius appetuntur 
+                	<app>
+                		<lem>cibum</lem>
+                		<rdg wit="#M">cibus</rdg>
+                	</app> et potus 
                   sicut quilibet experitur.</p>
               </div>
               <div>
                 <head><supplied>Ad quintam rationem</supplied></head>
-              	<p xml:id="b1d3qun-aqqenc"><ref target="http://scta.info/resource/b1d3qun-qiqecc">Ad quintum</ref> 
+              	<p xml:id="b1d3qun-aqqenc">
+              		<cit>
+              			<ref target="http://scta.info/resource/b1d3qun-qiqecc">
+              				<app>
+              					<lem>Ad</lem>
+              					<rdg wit="#M">dicto</rdg>
+              				</app> 
+              				quintum</ref>
+              			<bibl><ref target="http://scta.info/resource/b1d3qun-qiqecc">Supra, ad quintum</ref></bibl>
+              		</cit> 
                   <app>
                     <lem>dicendum</lem>
-                    <rdg wit="#S" type="correction-addition">
-                    	<add place="margin">dicendum</add>
+                    <rdg wit="#S" type="correction-substitution">
+                    	<subst>
+                    		<del>distinguendum</del>
+                    		<add place="margin">dicendum</add>
+                    	</subst>
                     </rdg>
+                  	<rdg wit="#T">discutiendum</rdg>
                   </app> 
                   quod volitio non est 
-                  eadem res cum cognitione sibi praesupposita tempore vel natura, nihil enim 
-                  praesupponit seipsum, sed experientia dat quod cogitatio praesupponitur tempore 
-                  vel natura, ita quod cum volitione ibi concurrit alia cogitatio in qua 
-                  possem stare, et si non diligerem elective et in qua possem 
-                  etiam stare si odirem. Si tamen isti actus et actus essent idem 
-                  eadem ratione habitus et habitus. Consequens falsum, si sumatur universaliter sicut 
-                  patet de caritate et fide quae sunt habitus distincti secundum <name ref="#Paul">Apostolum</name> 
+                  eadem res cum cognitione 
+              		<app>
+              			<lem>sibi</lem>
+              			<rdg wit="#V" type="correction-addition">
+              				<add>sibi</add>
+              			</rdg>
+              		</app> 
+              		praesupposita tempore vel natura, nihil enim 
+                  praesupponit seipsum, sed experientia dat quod 
+                  cognitio <!-- vs cogitatio --> 
+              		<app>
+              			<lem>praesupponitur</lem>
+              			<rdg wit="#M">praesupponit</rdg>
+              		</app> 
+              		tempore 
+                  vel natura, ita quod cum 
+              		<app>
+              			<lem>volitione</lem>
+              			<rdg wit="#M">volitio</rdg>
+              			<rdg wit="#V #T">volo</rdg>
+              		</app> 
+              		ibi concurrit alia cogitatio in qua 
+                  possem stare, 
+              		<app>
+              			<lem>et si non diligerem elective et in qua possem etiam stare</lem>
+              			<rdg wit="#M" type="variation-absent"/>
+              		</app> 
+              		si odirem. Si
+              		<app> <!-- dbcheck best reading -->
+              			<lem>tamen isti</lem>
+              			<rdg wit="#M #T #V">iterum</rdg>
+              		</app>
+              		actus et actus essent idem 
+                  eadem ratione habitus et habitus. Consequens 
+                  <app>
+                  	<lem>est</lem>
+                  	<rdg wit="#S #V #T" type="variation-absent"/>
+                  </app> 
+                  falsum, si sumatur universaliter sicut 
+                  patet de caritate et fide 
+              		<app>
+              			<lem>quae</lem>
+              			<rdg wit="#M">qui</rdg>
+              		</app> sunt habitus distincti secundum 
+              		<app>
+              			<lem><name ref="#Paul">Apostolum</name></lem>
+              			<rdg wit="#V #T" type="variation-absent"/>
+              		</app> 
                   <cit>
                     <quote ana="Icor13_13">
                       <seg type="qs">fides,</seg> 
                       inquit, 
-                      <seg type="qs">spes et caritas tria haec.</seg>
+                      <seg type="qs">spes 
+                      	<app>
+                      		<lem>et</lem>
+                      		<rdg wit="#V #T" type="variation-absent"/>
+                      	</app> 
+                      	caritas tria haec.</seg>
                     </quote>
                     <bibl>I Corinthios 13:13</bibl>
                   </cit> 
-                  Et ultra ad argumentum bene dico quod 
-                  volitio posset a Deo manuteneri[?] sine ista 8[?] cogitiatione sibi parvia, et 
-                  tamen tunc non diligeretur incognitum et hic poneretur a quibusdam quia, tunc 
+                  Et ultra 
+              		<app>
+              			<lem>ad argumentum</lem>
+              			<rdg wit="#M" type="variation-absent"/>
+              		</app> 
+              		bene 
+              		<app>
+              			<lem>dico</lem>
+              			<rdg wit="#M #V">concedo</rdg>
+              		</app> quod 
+                  volitio posset a Deo <unclear>manuteneri</unclear> sine ista 
+              		<app>
+              			<lem n="ista"/>
+              			<rdg wit="#S" type="variation-present">8</rdg>
+              		</app> 
+              		cognitione <!-- vs. "cogitiatione" --> 
+              		sibi 
+              		<app>
+              			<lem>praevia</lem>
+              			<rdg wit="#V #T">prima</rdg>
+              		</app>,
+              		et
+              		<app>
+              			<lem n="et"/>
+              			<rdg wit="#V" type="variation-present">et</rdg>
+              		</app> 
+                  tamen tunc non diligeretur incognitum et 
+              		<app>
+              			<lem>hic</lem>
+              			<rdg wit="#M">tamen hic</rdg>
+              		</app> 
+              		poneretur a quibusdam quia, tunc 
                   ista qualitas quae prius erat volitio cessavit esse volitio. Sed 
-                  non est verum apud me quia idem est apud me volitionem <mentioned>informare 
-                    voluntatem creatam,</mentioned> et <mentioned>voluntatem istam velle</mentioned> et quia causam non esset impotante[?] 
-                  voluntatis velle et non velle quia voluntas non habet plus impotente 
-                  sua nisi causare istam qualitatem et ista non potest esse velle 
-                  nisi per illud quod non est impotente sua, puta per cogitationem vel non nisi 
-                  mediante cogitatione secundum hoc differunt illi quod illud quod erat prius volitio 
-                  cessavit esse volitio ab aliis  poneretur hic sit, qui different 
-                  quod omnis cogitatio est volitio quaedam, sed illa volitio quae simul est cogitatio 
-                  non potest non esse volitio nec unquam potuit, sicut nec 
-                  iudicium potest non esse apprehensio, cum informat potentiam eandem 
-                  potentia constantia subiecti, et tamen apprehensio praesupposita iudicio nec est, nec 
-                  esse potest assensus vel dissensus et hoc est apud me probabilior ex tertia quaestione 
-                  primae distinctionis. Per hoc patet ulterius quod non sequitur quod aliquid possit esse nolitum 
-                  et non cogitatum.</p>
+                  <app>
+                  	<lem>hoc</lem>
+                  	<rdg wit="#S #V" type="variation-absent"/>
+                  </app> 
+              		non est verum apud me quia idem 
+              		est apud me <!-- M and T have "apud me est" --> 
+              		volitionem 
+              		<mentioned>informare voluntatem 
+              			<app>
+              				<lem>creatam</lem>
+              				<rdg wit="#M">causatum</rdg>
+              			</app>,
+              		</mentioned> 
+              		et 
+              		<mentioned>voluntatem 
+              			<app>
+              				<lem>per</lem>
+              				<rdg wit="#S #V" type="variation-absent"/>
+              			</app> 
+              			istam velle</mentioned> 
+              		et 
+              		<app>
+              			<lem>quia</lem>
+              			<rdg wit="#M">hoc</rdg>
+              		</app> 
+              		<app>
+              			<lem>tunc</lem>
+              			<rdg wit="#S">causam</rdg>
+              		</app> non esset 
+              		<app> <!-- dbcheck the following three occurrences -->
+              			<lem>in potestate</lem>
+              			<rdg wit="#M">impotente</rdg>
+              		</app> 
+                  voluntatis velle et non velle quia voluntas non habet 
+              		<app>
+              			<lem>plus</lem>
+              			<rdg wit="#T" type="variation-absent"/>
+              		</app> 
+              		<app> <!-- dbcheck -->
+              			<lem>in potestate</lem>
+              			<rdg wit="#M">impotente</rdg>
+              		</app> 
+                  sua nisi causare 
+              		<app>
+              			<lem>istam</lem>
+              			<rdg wit="#T" type="variation-absent"/>
+              		</app> 
+              		qualitatem et ista 
+              		non potest <!-- in V it is "potest non" --> 
+              		esse velle 
+                  <app> <!-- dbcheck -->
+                  	<lem>nisi</lem>
+                  	<rdg wit="#M #V #T">et esse</rdg>
+                  </app> 
+              		per 
+              		<app>
+              			<lem>illud</lem>
+              			<rdg wit="#V">id</rdg>
+              		</app> 
+              		quod non est 
+              		<app>
+              			<lem>in potestate</lem>
+              			<rdg wit="#M">impotente</rdg>
+              		</app> 
+              		<app>
+              			<lem>sua</lem>
+              			<rdg wit="#M">nostra</rdg>
+              		</app>, 
+              		puta per 
+              		cognitionem <!-- cogitationem --> 
+              		vel non nisi 
+                  mediante 
+              		<app>
+              			<lem>cognitione</lem> <!-- cogitationem --> 
+              			<rdg wit="#M" type="variation-absent"/>
+              		</app> 
+              		secundum hoc 
+              		<app> <!-- dbcheck if this is a mistake in S -->
+              			<lem>differunt illi quod illud quod erat prius volitio 
+              				cessavit esse volitio</lem>
+              			<rdg wit="#M #S #T" type="variation-absent"/>
+              		</app> 
+              		ab aliis  poneretur 
+              		<app>
+              			<lem>hic sit</lem>
+              			<rdg wit="#M">hoc sic</rdg>
+              			<rdg wit="#T">hoc sit</rdg>
+              		</app>, 
+              		<app>
+              			<lem>qui different</lem>
+              			<rdg wit="#V">quia differunt</rdg>
+              			<rdg wit="#T">quia diceret</rdg>
+              			<rdg wit="#M">qui dicerent</rdg>
+              		</app> 
+                  quod omnis 
+                  <app>
+                  	<lem>cognitio <!-- cogitatio --> 
+                  		est</lem>
+                  	<rdg wit="#M" type="variation-absent"/>
+                  </app>
+              		volitio <!-- T has "volitio est cognitio" --> 
+              		quaedam, sed 
+              		istaa <!-- S has "illa"--> 
+              		<app>
+              			<lem>volitio</lem>
+              			<rdg wit="#V" type="correction-substitution">
+              				<subst>
+              					<del>volitio</del>
+              					<add>cognitio</add>
+              				</subst>
+              			</rdg>
+              		</app> 
+              		quae simul est cogitatio 
+                  non potest non esse 
+                  <app>
+                  	<lem>volitio</lem>
+                  	<rdg wit="#T" type="correction-substitution">
+                  		<subst>
+                  			<add place="aboveLine">volitio</add>
+                  			<del rend="strikethrough">cognitio</del>
+                  		</subst>
+                  	</rdg>
+                  </app> 
+                  nec unquam 
+                  <app>
+                  	<lem n="unquam"/>
+                  	<rdg wit="#T" type="correction-deletion">
+                  		<del>po</del>
+                  	</rdg>
+                  </app>
+              		<app>
+              			<lem>potuit</lem>
+              			<rdg wit="#M">poterit</rdg>
+              		</app>, 
+              		<app>
+              			<lem>sicut</lem>
+              			<rdg wit="#T">sicut</rdg>
+              		</app> 
+              		nec 
+                  iudicium 
+              		<app>
+              			<lem>potest</lem>
+              			<rdg wit="#M">poterit</rdg>
+              		</app> 
+              		non esse apprehensio, 
+              		<app>
+              			<lem>dum</lem>
+              			<rdg wit="#S">cum</rdg>
+              		</app> 
+              		informat potentiam 
+              		<app>
+              			<lem>eandem 
+              				<app>
+              					<lem>potentia</lem>
+              					<rdg wit="#S">posita</rdg>
+              				</app> 
+              				constantia subiecti, 
+              				et tamen apprehensio</lem>
+              			<rdg wit="#T" type="variation-absent"/>
+              		</app> 
+              		praesupposita iudicio <!-- M has "iudicio praesupposita" --> 
+              		nec est, nec 
+                  esse potest assensus vel dissensus et 
+              		<app>
+              			<lem>hoc</lem>
+              			<rdg wit="#M">haec</rdg>
+              		</app> 
+              		est apud me probabilior ex tertia quaestione 
+                  primae distinctionis. Per 
+              		<app>
+              			<lem>hoc</lem>
+              			<rdg wit="#T">haec</rdg>
+              		</app> 
+              		patet ulterius quod non sequitur quod aliquid possit esse 
+              		<app>
+              			<lem>volitum</lem>
+              			<rdg wit="#S">nolitum</rdg>
+              		</app> 
+                  et non 
+                  cognitum. <!-- cogitatum -->
+              	</p>
                 
                 <p xml:id="b1d3qun-acecam">Ad confirmationem etiam dico quod voluntas libere potest imperare 
-                  cogitationem actualem et distinctam de aliquo de quo non 
-                  cogitatur actu distincto, utpote contingit quandoque cum quis audivit 
-                  unum bonum verbum et non recogitat quid fuerit illud, tunc 
-                  praecipit voluntas intellectui ut inquirendo recogitet et inveniat 
+                  cognitionem <!-- S and M have "cogitationem" --> 
+                	actualem et distinctam de aliquo de quo non 
+                  <app>
+                  	<lem>cogitatur</lem>
+                  	<rdg wit="#T">cogitabatur</rdg>
+                  </app> 
+                	actu 
+                	<app>
+                		<lem>distincto</lem>
+                		<rdg wit="#M #V">distincte</rdg>
+                	</app>, 
+                	utpote contingit quandoque cum quis audivit 
+                  unum bonum verbum et non recogitat 
+                	<app>
+                		<lem>quid</lem>
+                		<rdg wit="#M">quod</rdg>
+                	</app> 
+                	fuerit illud, tunc 
+                  praecipit voluntas 
+                	<app>
+                		<lem>intellectui</lem>
+                		<rdg wit="#M">intelligendi</rdg>
+                	</app> 
+                	ut inquirendo recogitet et inveniat 
                   quid fuerit illud. Vel cum occurrit mihi unus homo et scio quod 
-                  vidi istum et nescio ubi et per imperium voluntatis, componendo et dividendo 
-                  discurrendo, imaginor loca in quibus fui et quid fecerim 
-                  et quando vidi eum esse et similia secundum artem Philosophi[?], quam dat circa 
-                  artem huiusmodi in libello de memoria  et reminiscentia, tandem invenio 
-                  ubi vidi eum et sic de similibus. Et cum arguitur aut illud cuius 
-                  actualis cogitatio imperatur est actu apprehensum vel non, dicendum quod 
-                  sic in universali et confuse, utpote quod vidi eum in loco aliquo 
-                  sed non distincte videtur quia hoc inquiretur, et ideo patet quod cognoscitur 
+                  vidi istum 
+                	<app>
+                		<lem>et</lem>
+                		<rdg wit="#M">sed</rdg>
+                	</app> 
+                	nescio ubi et per imperium voluntatis, componendo et dividendo 
+                  discurrendo, 
+                	<app>
+                		<lem>imaginare per</lem>
+                		<rdg wit="#S">imaginor</rdg>
+                	</app> 
+                	loca in quibus 
+                	<app>
+                		<lem>fui</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	<app>
+                		<lem>et</lem>
+                		<rdg wit="#V">vel</rdg>
+                	</app> 
+                	quid fecerim 
+                  <app>
+                  	<lem n="fecerim"/>
+                  	<rdg wit="#S" type="variation-present">et</rdg>
+                  </app> 
+                	quando vidi 
+                	<app>
+                		<lem n="vidi"/>
+                		<rdg wit="#S" type="correction-deletion">
+                			<del rend="expunctuated">esse</del>
+                		</rdg>
+                	</app> 
+                	eum esse et similia secundum artem philosophi, quam dat circa 
+                  <app>
+                  	<lem>artem</lem>
+                  	<rdg wit="#V #T" type="variation-absent"/>
+                  </app> 
+                	<app>
+                		<lem>huiusmodi</lem>
+                		<rdg wit="#T">huius</rdg>
+                	</app> 
+                	in libello de memoria  et reminiscentia, tandem invenio 
+                  <app>
+                  	<lem>ubi 
+                  		<app> <!-- unclear dbcheck -->
+                  			<lem>vidi eum</lem>
+                  			<rdg wit="#T">didi</rdg>
+                  		</app> 
+                  		et sic de similibus</lem>
+                  	<rdg wit="#V">etc.</rdg>
+                  </app>. 
+                	Et cum arguitur aut illud cuius 
+                  actualis 
+                  cognitio <!-- S and M still have cogitatio --> 
+                	imperatur est actu 
+                	<app>
+                		<lem>apprehensum</lem>
+                		<rdg wit="#T">apprensandum</rdg>
+                	</app> 
+                	vel non, dicendum quod 
+                  <app>
+                  	<lem>sic</lem>
+                  	<rdg wit="#V #T">sit</rdg>
+                  </app> 
+                	in universali et confuse, 
+                	<app>
+                		<lem>utpote</lem>
+                		<rdg wit="#M" type="variation-absent"/>
+                	</app> 
+                	quod vidi eum in loco aliquo 
+                  sed non distincte videtur quia 
+                	<app>
+                		<lem>hoc</lem>
+                		<rdg wit="#M">haec</rdg>
+                	</app> 
+                	<app>
+                		<lem>inquiretur</lem>
+                		<rdg wit="#V T">inquiritur</rdg>
+                	</app>, 
+                	<app>
+                		<lem>et</lem>
+                		<rdg wit="#V #T" type="variation-absent"/>
+                	</app> 
+                	<app> <!-- dbcheck; confusing addition here in V -->
+                		<lem>ideo patet</lem>
+                		<rdg wit="#V" type="correction-addition">
+                			<add>et ita patet quod non <unclear>fuit</unclear> voluntas <unclear>cognitum etiam cognitione prasuppositum naturalis illi volini</unclear></add>
+                		</rdg>
+                	</app> 
+                	quod cognoscitur 
                   uno modo et praecipitur cognosci alio modo.</p>
               </div>
             </div>
