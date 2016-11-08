@@ -3678,7 +3678,7 @@
                   <lem>quia</lem>
                   <rdg wit="#M" type="variation-substance">qua</rdg>
                 </app> 
-                per intellectionem qua <name ref="#Sortes">Sortes</name> experitur se intelligere angelum
+                per intellectionem qua <name ref="#Sortes" type="variable">Sortes</name> experitur se intelligere angelum
                 <app>
                   <lem>positam</lem>
                   <rdg wit="#M" type="variation-substance">primo tum</rdg>
@@ -3693,7 +3693,7 @@
               
               <p xml:id="b1d3qun-spdsdv">
                 <supplied>Sextus.</supplied> 
-                Praeterea dilectio <name ref="#Sortes">Sortis</name> et odium <name ref="#Plato" type="variable">Platonis</name> 
+                Praeterea dilectio <name ref="#Sortes" type="variable">Sortis</name> et odium <name ref="#Plato" type="variable">Platonis</name> 
                 <app>
                   <lem>
                     naturaliter 
@@ -3701,88 +3701,320 @@
                       <lem>se compati possunt</lem>
                       <rdg wit="#M" type="variation-substance">compatiuntur se</rdg>
                     </app>
-                    in voluntate <name ref="#Sortes">Sortis</name>, igitur cum odium <name ref="#Sortes">Sortis</name> et odium <name ref="#Plato" type="variable">Platonis</name> 
+                    in voluntate <name ref="#Sortes" type="variable">Sortis</name>, 
+                    igitur cum odium <name ref="#Sortes" type="variable">Sortis</name> et odium <name ref="#Plato" type="variable">Platonis</name> 
                   </lem>
                   <rdg wit="#V" type="correction-addition">
                     <add place="margin">  
-                      naturaliter se compati possunt in voluntate <name ref="#Sortes">Sortis</name>, igitur cum odium <name ref="#Sortes">Sortis</name> et odium <name ref="#Plato" type="variable">Platonis</name> 
+                      naturaliter se compati possunt in voluntate <name ref="#Sortes" type="variable">Sortis</name>, 
+                      igitur cum odium <name ref="#Sortes" type="variable">Sortis</name> et odium <name ref="#Plato" type="variable">Platonis</name> 
                     </add>
                   </rdg>
                 </app>
                 sint qualitates 
                 <app>
-                  <lem>speciei eiusdem</lem>
-                  <rdg wit="#M #V" type="variation-inversion">eiusdem speciei</rdg>
+                  <lem>eiusdem speciei</lem>
+                  <rdg wit="#S" type="variation-inversion">speciei eiusdem</rdg>
                   <rdg wit="#T" type="variation-substance">vel quacumque speciei</rdg>
+                </app>, 
+                <app>
+                  <lem>si</lem>
+                  <rdg wit="#M" type="variation-absent"/>
                 </app> 
-                si 
                 <app>
                   <lem>cum qualibet forma</lem>
                   <rdg wit="#S" type="variation-absent"/>
                 </app>
-                in subiecto aliquo potest una stare et alia, sed in voluntate Sortis cum 
+                in subiecto aliquo potest una stare et alia, 
+                sed in voluntate Sortis cum 
                 <app>
                   <lem>dilectione</lem>
                   <rdg wit="#M" type="variation-substance">distinctione</rdg>
                 </app> 
-                terminata ad <name ref="#Sortes">Sortem</name> 
                 <app>
-                  <lem>stat</lem>
-                  <rdg wit="#M" type="variation-substance">potest stare</rdg>
+                  <lem>
+                    terminata ad <name ref="#Sortes" type="variable">Sortem</name> 
+                    <app>
+                      <lem>stat</lem>
+                      <rdg wit="#M" type="variation-substance">potest stare</rdg>
+                    </app>
+                    odium <name ref="#Plato" type="variable">Platonis</name>, 
+                    igitur in 
+                    <app>
+                      <lem>eodem intellectu</lem>
+                      <rdg wit="#V" type="variation-substance">eadem voluntate</rdg>
+                    </app> 
+                    cum volitione 
+                  </lem>
+                  <rdg wit="#M" type="variation-absent"/>
                 </app>
-                odium <name ref="#Plato" type="variable">Platonis</name>, igitur in eodem intellectu 
-                cum volitione 
-                
-                terminata ad Sortem potest stare odium <name ref="#Sortes">Sortis</name>, sed non 
-                potest cum dilectione <name ref="#Sortes">Sortis</name> esse odium <name ref="#Sortes">Sortis</name>, igitur odium <name ref="#Sortes">Sortis</name> potest esse in 
-                voluntate <name ref="#Sortes">Sortis</name> quando ipsam non erit odium <name ref="#Sortes">Sortis</name> et pari ratione potest hoc 
-                contingere de cogitatione sicut de volitione.</p>
+                terminata ad <name ref="#Sortes" type="variable">Sortem</name> potest stare 
+                odium <name ref="#Sortes" type="variable">Sortis</name>, 
+                sed non potest cum dilectione <name ref="#Sortes" type="variable">Sortis</name> 
+                esse odium <name ref="#Sortes" type="variable">Sortis</name>,
+                igitur odium <name ref="#Sortes" type="variable">Sortis</name> potest esse in 
+                voluntate <name ref="#Sortes" type="variable">Sortis</name> quando ipsam 
+                <app>
+                  <lem>non erit</lem>
+                  <rdg wit="#M" type="variation-substance">noverit</rdg>
+                </app> 
+                odium <name ref="#Sortes" type="variable">Sortis</name>, 
+                et pari ratione potest hoc contingere de 
+                <app>
+                  <lem>cognitione</lem>
+                  <rdg wit="#M #S" type="variation-substance">cogitatione</rdg>
+                </app> 
+                sicut de volitione, 
+                <app>
+                  <lem>igitur</lem>
+                  <rdg wit="#S #T" type="variation-substance"/>
+                </app>.
+              </p>
               
-              <p xml:id="b1d3qun-spvive">Septimus. Praeterea visio aliqua potest esse 
-                in visu quando ipsa non erit visio, igitur similiter in intellectu de intellectione. 
-                Antecedens probatur, quia pars alia intellectualis <add place="margin">albedinis</add> pedalis rei visae ab aliqua distantia 
-                multo minor maximo non videlicet visibili <sic>visibili</sic> ab ista distantia ceteris 
-                paribus si per se esset modo, videtur existens in tota albedine visa, et tamen, si 
-                per se esset ibi, cessaret videri sine hoc quod cessaret ista qualitas 
-                esse, quae nunc est igitur visio etc.</p>
+              <p xml:id="b1d3qun-spvive">
+                <supplied>Septimus.</supplied> 
+                Praeterea, visio 
+                <app>
+                  <lem>aliqua</lem>
+                  <rdg wit="#T" type="variation-substance"><mentioned>a</mentioned></rdg>
+                  <rdg wit="#M" type="variation-substance">7a.</rdg>
+                </app>
+                potest esse in 
+                <app>
+                  <lem>visu</lem>
+                  <rdg wit="#V #M" type="variation-substance">sensu</rdg>
+                </app> 
+                quando ipsa non erit visio, igitur similiter 
+                <app>
+                  <lem>in intellectu de intellectione</lem>
+                  <rdg wit="#M" type="variation-inversion">de intellectione in intellectu</rdg>
+                </app>
+                <app>
+                  <lem n="intellectione" />
+                  <rdg wit="#V" type="variation-present"><sic>in intellectu</sic></rdg>
+                </app>. 
+                Antecedens probatur, quia pars 
+                <app>
+                  <lem>aliqua</lem>
+                  <rdg wit="#S #V" type="variation-substance">alia</rdg>
+                </app> 
+                intellectualis 
+                <app>
+                  <lem>albedinis</lem>
+                  <rdg wit="#M" type="correction-addition">
+                    <add place="margin">albedinis</add>
+                  </rdg>
+                  <rdg wit="#T" type="variation-absent" />
+                </app>
+                pedalis 
+                <app>
+                  <lem>rei</lem>
+                  <rdg  wit="#M #T #V" type="variation-substance" />
+                </app> 
+                visae ab aliqua distantia multo minor 
+                <app>
+                  <lem>maxima</lem>
+                  <rdg  wit="#S" type="variation-substance">maximo</rdg>
+                </app> 
+                <app>
+                  <lem>non</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="above-line">non</add>
+                  </rdg>
+                  <rdg wit="#M" type="variation-absent" />
+                </app> 
+                <app>
+                  <lem>videlicet</lem>
+                  <rdg wit="#T #V" type="variation-absent"/>
+                </app> 
+                <app>
+                  <lem>visibili</lem>
+                  <rdg wit="#M" type="variation-absent"/>
+                </app> 
+                <app>
+                  <lem n="visibili" />
+                  <rdg wit="#S" type="variation-present">
+                    <sic>visibili</sic>
+                  </rdg>
+                </app> 
+                ab 
+                <app>
+                  <lem>ista</lem>
+                  <rdg wit="#T" type="variation-substance">illa</rdg>
+                </app>
+                distantia ceteris paribus si per se esset modo, 
+                videtur existens in tota albedine visa, et tamen, 
+                si per se esset ibi, 
+                cessaret 
+                <app>
+                  <lem>videri</lem>
+                  <rdg wit="#M" type="variation-substance">visibiliter</rdg>
+                </app>
+                sine hoc quod 
+                <app> <!-- Inversion + substance variation -->
+                  <lem>cessaret ista qualitas</lem>
+                  <rdg wit="#V" type="variation-substance">ista qualitas cessaret</rdg>
+                  <rdg wit="#M" type="variation-substance">ista qualitatis cessaret</rdg>
+                </app>
+                <app>
+                  <lem>esse</lem>
+                  <rdg wit="#T" type="variation-substance">esset</rdg>
+                </app>, 
+                quae nunc est 
+                <app> <!-- Inversion + substance variation -->
+                  <lem>igitur visio</lem>
+                  <rdg wit="#M" type="variation-substance">visio eius igitur</rdg>
+                </app>, 
+                etc.
+              </p>
               
-              <p xml:id="b1d3qun-qinros">Quod ita non videatur, patet quia, si tota 
-                albedo secundum superficiem versum ad oculum, videtur quaelibet eius pars, secundum eandem 
-                superficiem videtur, tamen quia quaelibet talis pars cooperatur ad visionem et facit 
-                ad hoc quod totum a remotiori videri potest quam videri posset 
-                residuum ista amota, si cetera sint paria, tum quia compositum ex 
-                duobus maximis non visibilibus albedinibus ab alia distantia apparet 
-                habere partem extra partem in ista distantia igitur media pars eius 
-                videtur a tali distantia et pari ratione medietas medietatis videtur et 
-                sic sine fine, quod autem <add place="margin">illa non videretur</add> nulla albidine <add>alia</add> visa et tamen conservaretur 
-                qualitas praehabita respectu eius. Arguo quia delectatio sensitiva potest 
-                esse, ita parva et remissa quod per illam appetitus huiusmodi non poterit 
-                perceptibiliter delectari, ergo similiter de sensitiva visione. Consequentia patet quia, 
-                sicut per minorem delectionem sensitivam minus delectatur appetitus 
-                huiusmodi, ita minor visio ceteris paribus imperfectius repraesentat 
+              <p xml:id="b1d3qun-qinros">
+                <app>
+                  <lem>Quod</lem>
+                  <rdg wit="#S" type="variation-substance">Quia</rdg>
+                  <rdg wit="#M" type="variation-substance">Illa</rdg>
+                </app>
+                <app>
+                  <lem>ita</lem>
+                  <rdg wit="#M" type="variation-substance">nunc</rdg>
+                </app> 
+                <app>
+                  <lem>non</lem>
+                  <rdg wit="#T" type="variation-substance">nunc</rdg>
+                </app> 
+                videatur, patet quia, si tota albedo secundum superficiem 
+                <app>
+                  <lem>versam</lem>
+                  <rdg wit="#M" type="variation-substance">versum</rdg>
+                </app>
+                ad 
+                <app>
+                  <lem>oculum</lem>
+                  <rdg wit="#M" type="variation-substance">culum</rdg>
+                </app>, 
+                videtur quaelibet eius pars, secundum eandem superficiem videtur, tamen 
+                <app>
+                  <lem>quia</lem>
+                  <rdg wit="#M" type="variation-substance">quod</rdg>
+                </app> 
+                quaelibet talis pars cooperatur ad visionem 
+                <app>
+                  <lem>totius</lem>
+                  <rdg wit="#T #S" type="variation-absent"/>
+                </app>
+                et facit ad hoc quod totum a remotiori videri 
+                <app>
+                  <lem>potest</lem>
+                  <rdg wit="#T" type="variation-substance">possit</rdg>
+                </app>
+                quam videri posset residuum 
+                <app>
+                  <lem>ista</lem>
+                  <rdg wit="#M" type="variation-substance">illa</rdg>
+                </app>
+                amota, si cetera sint paria, 
+                <app>
+                  <lem>tamen</lem>
+                  <rdg wit="#S" type="variation-substance">tum</rdg>
+                  <rdg wit="#M" type="variation-absent" />
+                </app> 
+                quia compositum ex duobus maximis non visibilibus albedinibus ab 
+                <app>
+                  <lem>aliqua</lem>
+                  <rdg wit="#M $#S" type="variation-substance">alia</rdg>
+                </app>
+                distantia apparet habere partem extra partem in 
+                <app>
+                  <lem>illa</lem>
+                  <rdg wit="#S" type="variation-substance">ista</rdg>
+                </app>
+                distantia,
+                igitur media pars 
+                <app>
+                  <lem>eius</lem>
+                  <rdg wit="#M" type="variation-absent" />
+                </app>
+                <app>
+                  <lem>videtur</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="above-line">videtur</add>
+                  </rdg>
+                </app>
+                a
+                <app>
+                  <lem>tali distantia et pari</lem>
+                  <rdg wit="#M" type="variation-substance">illa distantia vel a tali</rdg>
+                </app>, 
+                et pari ratione medietas medietatis 
+                <app>
+                  <lem n="medietatis" />
+                  <rdg wit="#S" type="variation-present">videretur</rdg>
+                </app>
+                et sic sine fine, 
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#M" type="variation-substance">quia</rdg>
+                </app> autem 
+                <app>
+                  <lem>illa non videretur</lem>
+                  <rdg wit="#S" type="correction-addition">
+                    <add place="margin">
+                      illa non videretur
+                    </add>
+                  </rdg>
+                </app>
+                <app>
+                  <lem>nulla</lem>
+                  <rdg wit="#M" type="variation-substance">alia</rdg>
+                </app> 
+                albedine 
+                <app>
+                  <lem>alia</lem>
+                  <rdg wit="#S" type="correction-substitution">
+                    <subst>
+                      <del rend="expunctuated">ista</del>
+                      <add place="above-line">alia</add>
+                    </subst> 
+                  </rdg>
+                  <rdg wit="#M" type="variation-substance">aliqua</rdg>
+                </app>                
+                visa et tamen 
+                <app>
+                  <lem n="tamen" />
+                  <rdg wit="#M" type="variation-present">non</rdg>
+                </app>
+                conservaretur qualitas praehabita respectu eius. 
+                <app>
+                  <lem>Arguitur</lem>
+                  <rdg wit="#S" type="variation-substance">Arguo</rdg>
+                </app> 
+                quia delectatio sensitiva potest esse, ita parva et 
+                <app>
+                  <lem n="et" />
+                  <rdg wit="#M" type="variation-present">ita</rdg>
+                </app>
+                remissa quod per illam appetitus huiusmodi non poterit perceptibiliter delectari, 
+                <app>
+                  <lem>ergo</lem>
+                  <rdg wit="#M #V" type="variation-substance">igitur</rdg>
+                  <rdg wit="#T" type="variation-substance">quo</rdg>
+                </app> 
+                similiter de sensitiva visione. 
+                Consequentia patet quia, sicut per minorem delectionem sensitivam minus delectatur appetitus huiusmodi, ita minor visio ceteris paribus imperfectius repraesentat
                 <pb ed="#S" n="80-v" />
                 <cb ed="#S" n="b" /> 
-                obiectum suum.</p> 
+                obiectum suum.
+              </p> 
               
-              <p xml:id="b1d3qun-oivthc"><supplied>Octavus</supplied>. Item vel oportet hoc ponere, scilicet, quod non est dare minimum visibile 
-                ab A distantia vel quod si sic, tunc erit dare ultimum rei 
-                permanentis in esse. Puta visionis illius albedinis scilicet ab instanti praesenti quo 
-                videretur, inciperet fieri distantior a visu, ceteris paribus. Utrumque 
-                apud illos est inconveniens quod tamen tales habent concedere.</p>
+              <p xml:id="b1d3qun-oivthc">
+                <supplied>Octavus.</supplied>. 
+                Item vel oportet hoc ponere, scilicet, quod non est dare minimum visibile ab A distantia vel quod si sic, tunc erit dare ultimum rei permanentis in esse. Puta visionis illius albedinis scilicet ab instanti praesenti quo videretur, inciperet fieri distantior a visu, ceteris paribus. Utrumque apud illos est inconveniens quod tamen tales habent concedere.
+              </p>
               
-              <p xml:id="b1d3qun-npspev"><supplied>Nonus.</supplied> Praeterea si partes 
-                albedinis visae secundum superficiem visam ad oculum corrumpantur secundum latum 
-                donec residuae cessent videri a bruto, quaero autem in omni 
-                instanti habet tale brutum novam visionem, et tunc esset dare ultimum rei 
-                permanentis in esse vel in omni instanti habet visionem minus extensam 
-                quam prius. Et hoc non est verum quia in visu brutis, dum aliquid videtur, 
-                manet continue visio aeque extensa, quia ita agit semipedalis 
-                albedo in talem oculum et visum bruti sicut pedalis. 
-                Vel tertio sequitur quod habet visionem remissiorem quam ante sed talis remissio 
-                non fit per subtractionem alicuius partis gradualis quia formae illo 
-                modo non remittuntur vel intenditur. Igitur oportet quod haec sit quia eadem 
-                qualitas manens cessat esse [modo] [visio?] illorum quorum prius erat 
-                visio.</p> 
+              <p xml:id="b1d3qun-npspev">
+                <supplied>Nonus.</supplied> 
+              Praeterea si partes albedinis visae secundum superficiem visam ad oculum corrumpantur secundum latum donec residuae cessent videri a bruto, quaero autem in omni instanti habet tale brutum novam visionem, et tunc esset dare ultimum rei permanentis in esse vel in omni instanti habet visionem minus extensam quam prius. Et hoc non est verum quia in visu brutis, dum aliquid videtur, manet continue visio aeque extensa, quia ita agit semipedalis albedo in talem oculum et visum bruti sicut pedalis. Vel tertio sequitur quod habet visionem remissiorem quam ante sed talis remissio non fit per subtractionem alicuius partis gradualis quia formae illo modo non remittuntur vel intenditur. Igitur oportet quod haec sit quia eadem qualitas manens cessat esse [modo] [visio?] illorum quorum prius erat visio.
+              </p> 
               
               <p xml:id="b1d3qun-dpspau"><supplied>Decimus.</supplied> Praeterea sit albedo A visa visione B et post hoc instans ponatur 
                 una alia albedo simillima quae vocetur C in eodem loco quo 
@@ -3952,23 +4184,23 @@
                 cognitio, et ideo nego consequentiam illam.</p>
               
               <p xml:id="b1d3qun-aqdcaa">Ad quintum dicendum quod si dilectio, 
-                qua <name ref="#Sortes">Socrates</name> diligit <name ref="#Sortes">Socratem</name> ipsum, poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per istam 
-                non diligeret <name ref="#Plato" type="variable">Platonem</name> sed <name ref="#Sortes">Socratem</name>. Et similiter, si dilectio, qua Socrates 
+                qua <name ref="#Sortes" type="variable">Socrates</name> diligit <name ref="#Sortes" type="variable">Socratem</name> ipsum, poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per istam 
+                non diligeret <name ref="#Plato" type="variable">Platonem</name> sed <name ref="#Sortes" type="variable">Socratem</name>. Et similiter, si dilectio, qua Socrates 
                 vult se diligere angelum, poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per illam vellet 
-                <name ref="#Sortes">Socratem</name> diligere angelum. Et eodem modo, si intellectio, qua <name ref="#Sortes">Socrates</name> 
-                experitur se intelligere, poneretur in <name ref="#Plato" type="variable">Platone</name>, ille iudicaret <name ref="#Sortes">Socratem</name> intelligere 
+                <name ref="#Sortes" type="variable">Socratem</name> diligere angelum. Et eodem modo, si intellectio, qua <name ref="#Sortes" type="variable">Socrates</name> 
+                experitur se intelligere, poneretur in <name ref="#Plato" type="variable">Platone</name>, ille iudicaret <name ref="#Sortes" type="variable">Socratem</name> intelligere 
                 vel experiretur nisi experientia cognoscat aliquid aliud.</p>
               
               <p xml:id="b1d3qun-asbpeo"> Ad sextum 
-                bene concedo quod dilectio <name ref="#Sortes">Socrates</name> et odium <name ref="#Plato" type="variable">Platonis</name> naturaliter compatiuntur 
+                bene concedo quod dilectio <name ref="#Sortes" type="variable">Socrates</name> et odium <name ref="#Plato" type="variable">Platonis</name> naturaliter compatiuntur 
                 se in eodem. Dici tamen potest quod non omne idem eiusdem speciei cum 
-                odio <name ref="#Plato" type="variable">Platonis</name> compatitur se cum dilectionem <name ref="#Sortes">Socrates</name> naturaliter quia aliquod eiusdem 
+                odio <name ref="#Plato" type="variable">Platonis</name> compatitur se cum dilectionem <name ref="#Sortes" type="variable">Socrates</name> naturaliter quia aliquod eiusdem 
                 speciei contrariatur  et istud non quia ad contrarietatem actuum 
                 huiusmodi individualium vel cognitionum requiritur identitas numeralis 
                 obiecti unde etiam illi iudicio quo iudicarem hunc hominem 
-                esse <name ref="#Sortes">Socratem</name> demonstrato <name ref="#Sortes">Socrates</name> repugnaret contrarie iudicium quo 
-                iudicarem eundem non esse <name ref="#Sortes">Socratem</name> et tamen secum compateretur 
-                illud iudicium quo iudicarem istum hominem non esse <name ref="#Sortes">Socratem</name> demonstrando 
+                esse <name ref="#Sortes" type="variable">Socratem</name> demonstrato <name ref="#Sortes" type="variable">Socrates</name> repugnaret contrarie iudicium quo 
+                iudicarem eundem non esse <name ref="#Sortes" type="variable">Socratem</name> et tamen secum compateretur 
+                illud iudicium quo iudicarem istum hominem non esse <name ref="#Sortes" type="variable">Socratem</name> demonstrando 
                 <name ref="#Plato" type="variable">Platonem</name>. Unde amor et odium error et scientia non 
                 contrariantur nisi sint respectu eiusdem, licet sint eiusdem speciei 
                 cum quibusdam quae invicem contrariantur et in hoc est speciale in 
