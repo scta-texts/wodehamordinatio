@@ -4070,29 +4070,139 @@
                   <lem>habent</lem>
                   <rdg wit="#M" type="variation-substance">habens</rdg>
                 </app> 
-                concedere.
+                concedere
+                <app>
+                  <lem>primum</lem>
+                  <rdg wit="#S" type="variation-absent" />
+                  <rdg wit="#T" type="variation-substance">falsum</rdg>
+                </app>.
               </p>
               
               <p xml:id="b1d3qun-npspev">
                 <supplied>Nonus.</supplied> 
-                Praeterea si partes albedinis visae secundum superficiem visam ad oculum corrumpantur secundum latum donec residuae cessent videri a bruto, quaero autem in omni instanti habet tale brutum novam visionem, et tunc esset dare ultimum rei permanentis in esse vel in omni instanti habet visionem minus extensam quam prius. Et hoc non est verum quia in visu brutis, dum aliquid videtur, manet continue visio aeque extensa, quia ita agit semipedalis albedo in talem oculum et visum bruti sicut pedalis. Vel tertio sequitur quod habet visionem remissiorem quam ante sed talis remissio non fit per subtractionem alicuius partis gradualis quia formae illo modo non remittuntur vel intenditur. Igitur oportet quod haec sit quia eadem qualitas manens cessat esse [modo] [visio?] illorum quorum prius erat visio.
+                Praeterea si 
+                <app>
+                  <lem>partes</lem>
+                  <rdg wit="#M" type="variation-substance">parte</rdg>
+                </app>
+                albedinis visae 
+                <app> <!-- This correction is important por our Stemma! -->
+                  <lem>secundum</lem>
+                  <rdg wit="#M" type="variation-substance">per</rdg>
+                  <rdg  wit="#V" type="correction-substitution">
+                    <subst>
+                      <del rend="strikethrough">per</del>
+                      <add place="above-line">secundum</add>
+                    </subst>
+                  </rdg>
+                </app>
+                superficiem 
+                <app>
+                  <lem>visam</lem>
+                  <rdg wit="#V" type="variation-substance">versam</rdg>
+                </app>
+                ad oculum 
+                <app>
+                  <lem>continue</lem>
+                  <rdg wit="#S" type="variation-absent" />
+                </app>
+                <app>
+                  <lem>corrumpantur</lem>
+                  <rdg wit="#M" type="variation-substance">corrumpatur</rdg>
+                </app>
+                secundum latum donec residuae cessent videri a bruto, 
+                quaero autem in omni instanti habet 
+                <app>
+                  <lem>tale</lem>
+                  <rdg wit="#M" type="variation-substance">talem</rdg>
+                </app>
+                brutum 
+                <app>
+                  <lem n="brutum"/>
+                  <rdg wit="#T" type="variation-present">tota</rdg>
+                  <rdg wit="#M" type="variation-present">totaliter</rdg>
+                  <rdg wit="#V" type="variation-present">tota <sic>habet</sic></rdg>
+                </app>
+                novam visionem, 
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#S" type="correction-substitution">
+                    <subst>
+                      <del rend="expunctuated">ut</del>
+                      <add place="above-line">et</add>
+                    </subst>
+                  </rdg>
+                </app> 
+                tunc esset dare ultimum rei permanentis in esse vel in omni instanti 
+                habet visionem minus extensam quam prius. 
+                Et hoc non est verum quia in visu 
+                <app>
+                  <lem>brutis</lem>
+                  <rdg wit="#S" type="variation-substance">bruti</rdg>
+                </app>, 
+                dum aliquid 
+                <app>
+                  <lem>videtur</lem>
+                  <rdg wit="#M" type="variation-substance">videat</rdg>
+                </app>,
+                manet continue visio aeque extensa, 
+                quia ita agit 
+                <app>
+                  <lem>semipedalis</lem>
+                  <rdg wit="#T" type="variation-substance">saepe vel</rdg>
+                </app> 
+                albedo in 
+                <app>
+                  <lem>totum</lem>
+                  <rdg wit="#S" type="variation-substance">talem</rdg>
+                </app> 
+                oculum et visum bruti 
+                <app>
+                  <lem>sicut</lem>
+                  <rdg wit="#T" type="variation-substance">nunc</rdg>
+                </app>
+                pedalis. 
+                <app>
+                  <lem>Vel</lem>
+                  <rdg  wit="#V" type="correction-substitution">
+                  <subst>
+                    <del rend="strikethrough">Et</del>
+                    <add place="above-line">Vel</add>
+                  </subst>
+                  </rdg>
+                </app>
+                tertio sequitur quod habet visionem remissiorem quam 
+                <app>
+                  <lem>ante</lem>
+                  <rdg wit="#M" type="variation-substance">prius</rdg>
+                </app>
+                sed talis remissio non fit per subtractionem alicuius partis gradualis 
+                quia formae 
+                <app>
+                  <lem>non illo modo</lem>
+                  <rdg wit="#S" type="variation-inversion">illo modo non</rdg>
+                </app>
+                <app>
+                  <lem>intenditur vel remittuntur</lem>
+                  <rdg wit="#S" type="variation-inversion">remittuntur vel intenditur</rdg>
+                </app>. 
+                Igitur oportet quod 
+                <app>
+                  <lem>hoc</lem>
+                  <rdg wit="#S" type="variation-substance">haec</rdg>
+                </app>
+                sit quia eadem qualitas manens cessat esse 
+                <app>
+                  <lem>visio istorum</lem>
+                  <rdg wit="#S" type="variation-substance">modo illorum</rdg>
+                  <rdg wit="#M" type="variation-substance">visio illorum</rdg>
+                </app> 
+                quorum prius erat visio.
               </p> 
               
-              <p xml:id="b1d3qun-dpspau"><supplied>Decimus.</supplied> 
-                Praeterea sit albedo A visa visione B et post hoc instans ponatur 
-                una alia albedo simillima quae vocetur C in eodem loco quo 
-                fuit A, et A adnihiletur visione conservata. Quaero tunc aut 
-                per B videbitur C simillimum A vel non. Si sic, igitur visio B, quae 
-                nunc non est visio C, erit postea visio illius, et per consequens eadem visione, 
-                qua videtur una pars integralis albedinis, videtur et alia sibi simillima. 
-                Igitur pars integralis noviter acquisita videtur per visione continue prius 
-                repraesentem partem integralem praeexistentem. Si non, contra A potest videri 
-                ab oculo meo et tuo et infinitis et sic aliis igitur infinitae visiones 
-                sunt repraesentativae A quarum nulla potest repraesentare C albedinem 
-                similissimam A nec aliud ab A. Consequens falsum quia tunc sequetur quod iste terminus repraesentativum 
-                A esset terminus communis infinitis individuis alicuius speciei 
-                conveniens et repugnans aliis infinitis eiusdem speciei. Consequens falsum 
-                aliter enim periret via probandi aliquam universalem.
+              <p xml:id="b1d3qun-dpspau">
+                <supplied>Decimus.</supplied> 
+                Praeterea sit albedo <mentioned>A</mentioned> visa visione <mentioned>B</mentioned> et post hoc instans ponatur una alia albedo simillima quae vocetur <mentioned>C</mentioned> in eodem loco quo fuit <mentioned>A</mentioned>, et <mentioned>A</mentioned> adnihiletur visione conservata. Quaero tunc aut per <mentioned>B</mentioned> videbitur <mentioned>C</mentioned> simillimum <mentioned>A</mentioned> vel non. Si sic, igitur visio <mentioned>B</mentioned>, quae nunc non est visio <mentioned>C</mentioned>, erit postea visio illius, et per consequens eadem visione, qua videtur una pars integralis albedinis, videtur et alia sibi simillima. Igitur pars integralis noviter acquisita videtur per visione continue prius repraesentem partem integralem praeexistentem. Si non, contra <mentioned>A</mentioned> potest videri ab oculo meo et tuo et infinitis et sic aliis igitur infinitae visiones sunt repraesentativae <mentioned>A</mentioned> quarum nulla potest repraesentare <mentioned>C</mentioned> albedinem similissimam <mentioned>A</mentioned> nec aliud ab <mentioned>A</mentioned>. <mentioned>C</mentioned>onsequens falsum quia tunc sequetur quod iste terminus repraesentativum <mentioned>A</mentioned> esset terminus communis infinitis individuis alicuius speciei conveniens et repugnans aliis infinitis eiusdem speciei. <mentioned>C</mentioned>onsequens falsum aliter enim periret via probandi aliquam universalem.
               </p>
               <p xml:id="b1d3qun-sidapi">Similiter 
                 <cit> 
