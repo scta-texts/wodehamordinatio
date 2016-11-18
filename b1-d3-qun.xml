@@ -4202,15 +4202,130 @@
               
               <p xml:id="b1d3qun-dpspau">
                 <supplied>Decimus.</supplied> 
-                Praeterea sit albedo <mentioned>A</mentioned> visa visione <mentioned>B</mentioned> et post hoc instans ponatur una alia albedo simillima quae vocetur <mentioned>C</mentioned> in eodem loco quo fuit <mentioned>A</mentioned>, et <mentioned>A</mentioned> adnihiletur visione conservata. Quaero tunc aut per <mentioned>B</mentioned> videbitur <mentioned>C</mentioned> simillimum <mentioned>A</mentioned> vel non. Si sic, igitur visio <mentioned>B</mentioned>, quae nunc non est visio <mentioned>C</mentioned>, erit postea visio illius, et per consequens eadem visione, qua videtur una pars integralis albedinis, videtur et alia sibi simillima. Igitur pars integralis noviter acquisita videtur per visione continue prius repraesentem partem integralem praeexistentem. Si non, contra <mentioned>A</mentioned> potest videri ab oculo meo et tuo et infinitis et sic aliis igitur infinitae visiones sunt repraesentativae <mentioned>A</mentioned> quarum nulla potest repraesentare <mentioned>C</mentioned> albedinem similissimam <mentioned>A</mentioned> nec aliud ab <mentioned>A</mentioned>. <mentioned>C</mentioned>onsequens falsum quia tunc sequetur quod iste terminus repraesentativum <mentioned>A</mentioned> esset terminus communis infinitis individuis alicuius speciei conveniens et repugnans aliis infinitis eiusdem speciei. <mentioned>C</mentioned>onsequens falsum aliter enim periret via probandi aliquam universalem.
+                Praeterea sit albedo <mentioned>A</mentioned> visa visione <mentioned>B</mentioned> 
+                et post hoc instans ponatur una alia albedo simillima quae vocetur <mentioned>C</mentioned> 
+                <!--  -->
+                <!-- [67va-67vb is missing in #M] -->
+                <!--  -->
+                in eodem loco quo fuit <mentioned>A</mentioned>, et <mentioned>A</mentioned> 
+                adnihiletur visione conservata. Quaero tunc aut per <mentioned>B</mentioned> videbitur
+                <mentioned>C</mentioned> simillimum <mentioned>A</mentioned> 
+                <app>
+                  <lem>aut</lem>
+                  <rdg wit="#S #V" type="variation-substance">vel</rdg>
+                </app> 
+                non. Si sic, igitur visio <mentioned>B</mentioned>, quae 
+                <app>
+                  <lem>modo</lem>
+                  <rdg wit="#S" type="variation-substance">nunc</rdg>
+                </app> 
+                non est visio <mentioned>C</mentioned>, erit postea visio illius, 
+                et per consequens eadem visione, qua videtur una pars 
+                <app>
+                  <lem>integralis</lem>
+                  <rdg wit="#S" type="correction-addition">
+                    <add place="in-line">integralis</add>
+                  </rdg>
+                </app> 
+                albedinis, videtur et alia sibi simillima. 
+                Igitur pars integralis noviter 
+                <app>
+                  <lem>acquisita</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="margin">acquisita <sic>noviter</sic></add>
+                  </rdg>
+                </app>
+                <app><!-- This might also be important to determining the stemma -->
+                  <lem n="acquisita" />
+                  <rdg wit="#T" type="variation-present">
+                    <sic>noviter</sic>
+                  </rdg>
+                </app>
+                videtur per 
+                <app>
+                  <lem>visionem</lem>
+                  <rdg wit="#S" type="variation-substance">visione</rdg>
+                </app> 
+                continue prius repraesentem partem integralem praeexistentem. 
+                Si non, contra <mentioned>A</mentioned> potest videri ab oculo meo 
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#V" type="variation-absent" />
+                </app> 
+                tuo et infinitis 
+                <app>
+                  <lem>et sic</lem>
+                  <rdg wit="#V" type="variation-absent" />
+                  <rdg wit="#T" type="variation-substance">etiam</rdg>
+                </app>
+                <app>
+                  <lem n="sic" />
+                  <rdg wit="#V" type="variation-present">etiam</rdg>
+                </app>
+                aliis igitur infinitae
+                <app>
+                  <lem>visiones sunt repraesentativae</lem>
+                  <rdg wit="#T" type="variation-substance">
+                    est repraesentanti <mentioned>C</mentioned> albedinem simillimam
+                  </rdg>
+                  <rdg wit="#V" type="variation-substance"> <!-- Not sure about this encoding -->
+                    visiones possunt repraesentare <mentioned>A</mentioned> quae 
+                    possunt esse simillimae visioni <unclear>repraesenterbiti</unclear>
+                    <del rend="strikethrough"><mentioned>C</mentioned></del> 
+                    albedinem simillimam
+                  </rdg>
+                </app>
+                <mentioned>A</mentioned> quarum nulla potest repraesentare <mentioned>C</mentioned> 
+                <app>
+                  <lem>albedinem simillimam <mentioned>A</mentioned></lem>
+                  <rdg wit="#T #V" type="variation-absent"/>
+                </app> 
+                nec 
+                <app>
+                  <lem>aliud</lem>
+                  <rdg wit="#V" type="variation-absent" />
+                </app> 
+                ab <mentioned>A</mentioned>. 
+                Consequens falsum quia tunc sequetur 
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#T" type="variation-absent" />
+                </app> 
+                iste terminus repraesentativum <mentioned>A</mentioned> esset terminus communis infinitis individuis 
+                <app>
+                  <lem>alicuius</lem>
+                  <rdg wit="#T #V" type="variation-substance">eiusdem</rdg>
+                </app> 
+                speciei conveniens et repugnans aliis infinitis eiusdem speciei. 
+                Consequens falsum;
+                <app>
+                  <lem>aliter</lem>
+                  <rdg wit="#T #V" type="variation-substance">tunc</rdg>
+                </app>
+                enim periret via probandi 
+                <app>
+                  <lem>aliquam</lem>
+                  <rdg wit="#V #T" type="variation-substance">per indeterminatam aliam</rdg>
+                </app>
+                universalem.
               </p>
-              <p xml:id="b1d3qun-sidapi">Similiter 
+              
+              <p xml:id="b1d3qun-sidapi">
+                Similiter 
                 <cit> 
-                	<ref>Io <title ref="#deCaelo">De caelo</title></ref>
-                  <bibl><name>Aristoteles</name>, <title>De caelo et mundo</title>, I, ? (276b9-276b18)</bibl>
+                	<ref>Primo <title ref="#deCaelo">De caelo</title></ref>
+                  <bibl>
+                    <name>Aristoteles</name>, 
+                    <title>De caelo et mundo</title>, 
+                    I, ? (276b9-276b18)</bibl>
                 </cit> 
-                arguitur quod, si haec terra nata sit descendere ad hoc centrum, 
-                et sicut habetur ibi per 
+                arguitur quod si haec terra nata sit descendere ad hoc centrum, 
+                et sicut 
+                <app>
+                  <lem>habetur</lem>
+                  <rdg wit="#T #V" type="variation-substance">habere</rdg>
+                </app>
+                ibi per 
                 <cit>
                   <ref>
                     <name ref="#Averroes">Commentatorem</name> commento 80
