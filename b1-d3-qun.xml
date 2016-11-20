@@ -3456,7 +3456,7 @@
                 est 
                 <app> <!-- I think this is the correct spelling -->
                   <lem>simillima</lem>
-                  <rdg wit="#S" type="variation-substance">similissima</rdg>
+                  <rdg wit="#S" type="variation-substance">simillima</rdg>
                 </app>
                 speciei de qua gignitur.
               </p>
@@ -4319,7 +4319,13 @@
                     <title>De caelo et mundo</title>, 
                     I, ? (276b9-276b18)</bibl>
                 </cit> 
-                arguitur quod si haec terra nata sit descendere ad hoc centrum, 
+                arguitur quod si haec terra nata sit descendere ad hoc centrum,
+                <app>
+                  <lem n="centrum," />
+                    <rdg  wit="#V" type="correction-addition">
+                    <add place="margin">quod quantumque terra istius mundi vel alterius sit nat descendere ad hoc centrum</add>
+                  </rdg>
+                </app>
                 et sicut 
                 <app>
                   <lem>habetur</lem>
@@ -4328,79 +4334,350 @@
                 ibi per 
                 <cit>
                   <ref>
-                    <name ref="#Averroes">Commentatorem</name> commento 80
+                    <name ref="#Averroes">Commentatorem</name>,
+                    commento 80
                   </ref>
                   <bibl>
                     <name>Averroes</name>, 
-                    <title>In Aristot. De caelo et mundo</title>, I, 79 [80] (Carmody, 1:147), 
+                    <title>In Aristot. De caelo et mundo</title>, 
+                    I, 79 [80] (Carmody, 1:147): 
                     "si natura terrae illius mundi positae eadem fuerit cum natura istius terrae, necessarium est ut moveatur ad medium quo movetur ista terra."
                   </bibl>
                 </cit> 
                 dicere quod: terra alterius mundi movetur 
-                ad centrum illius et non ad centrum illius quia est proprii 
-                quibus illi centro illud est extra norma nec indiget disputatione 
-                ubi habetur etiam quod propinquitas non variat <add place="margin">speciem</add>. Et nota pro 
-                his ibi 78 et 79. Sed haec ratio philosophi non valeret negato 
-                principio hic assumpto ad propositum, igitur.</p> 
+                ad centrum illius 
+                <app>
+                  <lem n="illius"/>
+                  <rdg wit="#S" type="correction-deletion">
+                    <del>q</del>
+                  </rdg>
+                </app>
+                et non ad centrum 
+                <app>
+                  <lem>illius</lem>
+                  <rdg wit="#T" type="variation-substance">istius</rdg>
+                </app>
+                quia est proprii quibus illi centro 
+                <app>
+                  <lem>illud</lem>
+                  <rdg>istud</rdg>
+                </app>
+                est 
+                <app>
+                  <lem>extra</lem>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>
+                      <del rend="strikethrough">extra</del>
+                      <add place="margin">extra</add>
+                    </subst>
+                  </rdg>
+                </app>
+                <app>
+                  <lem>normam</lem>
+                  <rdg wit="#S" type="variation-substance">norma</rdg>
+                </app> 
+                nec indiget disputatione 
+                ubi habetur etiam 
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add>quod</add>
+                  </rdg>
+                </app>
+                propinquitas non variat 
+                <app>
+                  <lem>speciem</lem>
+                  <rdg wit="#T" type="variation-substance">opinionem</rdg>
+                  <rdg wit="#S" type="correction-substitution">
+                    <subst>
+                      <del rend="expunctuated">oprae</del>
+                      <add place="margin">speciem</add>
+                    </subst>
+                  </rdg>
+                </app>.
+                Et nota pro his ibi 78 et 79. Sed haec ratio philosophi non 
+                <app>
+                  <lem>valeret</lem>
+                  <rdg wit="#T" type="variation-substance">valet</rdg>
+                </app> 
+                negato principio hic assumpto ad propositum, igitur.
+              </p> 
               
-              <p xml:id="b1d3qun-uiiqao"><supplied>Undecimus.</supplied> Item intellectus, qui modo 
-                non intelligat per intellectionem A, potest intelligere per A. Igitur et similiter, 
-                obiectum, modo non intellectum per A, poterit per ipsum intelligi. Loquor 
-                de intellectionibus similibus et obiectis similibus. Assumptum patet, quia 
-                intellectio Sortis potest poni in Platone. Et consequentia patet, quia notitia essentialius 
-                dependet a subiecto quam ab obiecto.</p>
+              <p xml:id="b1d3qun-uiiqao">
+                <supplied>Undecimus.</supplied>
+                Item intellectus qui modo non 
+                <app>
+                  <lem>intelligat</lem>
+                  <rdg wit="#V #T" type="variation-substance">intelligit</rdg>
+                </app>
+                per intellectionem A potest intelligere per A. 
+                Igitur 
+                <app>
+                  <lem n="Igitur" />
+                  <rdg wit="#S" type="variation-present">et</rdg>
+                </app> 
+                similiter obiectum modo non intellectum per A poterit per ipsum intelligi. 
+                Loquor de intellectionibus similibus et obiectis similibus. 
+                Assumptum patet, quia intellectio Sortis potest poni in Platone. 
+                Et consequentia patet quia notitia essentialius dependet a subiecto quam ab obiecto.
+              </p>
               
-              <p xml:id="b1d3qun-diciad"><supplied>Duodecimus.</supplied> Item conceptus numerales 
-                omnes sunt eiusdem speciei, aliter partes albedinis divisae 
-                possent causare infinitas qualitates specifice distinctas, nam illis 
-                visis potest intellectus habere conceptus numerales quod sibi formare placuerit. 
-                Isti igitur conceptus sic potuerunt intendi et remitti 
-                quod erunt similissimi, et per consequens, qui prius repraesentaverit 
-                quinque, poterit praecise repraesentare tres, sicut repraesentat alius 
-                cui sit similissimus, quia quicquid convenit uni simillimorum simile convenit 
-                vel convenire potest reliquo, aliter sequitur inconveniens illatum prius in argumento 
-                decimo.</p>
+              <p xml:id="b1d3qun-diciad">
+                <supplied>Duodecimus.</supplied> 
+                Item conceptus numerales omnes sunt eiusdem speciei, 
+                aliter partes albedinis divisae possent causare infinitas qualitates
+                <app>
+                  <lem>specifice</lem>
+                  <rdg wit="#T" type="variation-substance">specificae</rdg>
+                </app>
+                distinctas, nam illis visis potest intellectus habere conceptus numerales 
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#S" type="correction-addition">
+                    <add place="in-line">
+                      <sic>quoquo</sic>
+                    </add>
+                  </rdg>
+                </app>
+                sibi formare placuerit. 
+                Isti igitur conceptus sic potuerunt intendi et remitti quod erunt simillimi, 
+                et per consequens qui prius repraesentaverit quinque poterit praecise repraesentare tres, 
+                sicut repraesentat alius cui sit simillimus, 
+                quia 
+                <app>
+                  <lem>quicquid</lem>
+                  <rdg wit="#V" type="variation-substance">si quid</rdg>
+                  <rdg wit="#T" type="variation-substance">sicut</rdg>
+                </app> 
+                convenit uni simillimorum simile convenit vel convenire potest reliquo, 
+                aliter sequitur 
+                <app>
+                  <lem n="sequitur" />
+                  <rdg wit="#T" type="variation-present">autem</rdg>
+                </app>
+                inconveniens illatum prius in argumento decimo.
+              </p>
               
               <p xml:id="b1d3qun-tdienm">
-                <supplied>Tertius decimus.</supplied> Item si oculus continue videat aliquid prius motum et post quiescens, eadem visio, quae prius repraesentavit motum, 
-                repraesentabit quietem et non motum.
+                <supplied>Tertius decimus.</supplied> 
+                Item si oculus 
+                <app>
+                  <lem>continue</lem>
+                  <rdg wit="#T" type="variation-absent" />
+                </app>
+                videat aliquid prius motum et post quiescens, 
+                eadem visio quae prius repraesentavit motum repraesentabit quietem et non motum.
               </p>
               
               <p xml:id="b1d3qun-qdipie">
-                <supplied>Quartus decimus.</supplied> Item quaelibet pars 
-                quantitativa visionis bruti quae visio est perceptio vel visio 
-                perceptiva et multae sunt partes ita minime quod si essent per 
-                se, nulla earum esset visio perceptiva, licet remaneret in oculo 
-                quo prius, nam aliqua poterit esse ita remissa quod non via negatur. 
-                Esset perceptio igitur pari ratione aliqua ita modica secundum extensionem 
-                quod non erat perceptio. Et similiter obiectum potest esse ita modicum quod non 
-                videbitur perceptibiliter, igitur qualitas ita modica quod non percipetur, 
-                et tamen talis pars in toto erat perceptio, quia tota per partes 
-                suas est perceptio et praeter hoc sunt eiusdem speciei, igitur si una 
+                <supplied>Quartus decimus.</supplied> 
+                Item quaelibet pars quantitativa visionis bruti quae visio est perceptio
+                <app> <!-- This is also a variation-present -->
+                  <lem n="perceptio"/>
+                  <rdg wit="#S" type="correction-addition">
+                    <add place="margin"><sic>perceptio</sic></add>
+                  </rdg>
+                </app>
+                vel 
+                <app>
+                  <lem n="vel" />
+                  <rdg wit="#S" type="correction-addition">
+                    <add>est</add>
+                  </rdg>
+                </app>
+                visio perceptiva 
+                <app>
+                  <lem n="perceptiva" />
+                  <rdg wit="#S" type="correction-deletion">
+                    <del rend="strikethrough">vel perceptionis</del>
+                  </rdg>
+                </app>
+                et multae sunt partes ita minime quod si essent per se, 
+                nulla earum esset visio perceptiva, 
+                licet remaneret in oculo quo prius. 
+                Nam aliqua poterit esse ita remissa quod non 
+                <app>
+                  <lem>via naturae esset</lem>
+                  <rdg wit="#V" type="variation-substance">poterit 
+                    <app>
+                      <lem>via</lem>
+                      <rdg wit="#V" type="correction-substitution">
+                        <subst>
+                          <del rend="strikethrough">una</del>
+                          <add place="margin">via</add>
+                        </subst>
+                      </rdg>
+                    </app>
+                    negare esse</rdg>
+                  <rdg wit="#T" type="variation-substance">non potest <unclear>nullae</unclear></rdg>
+                </app> 
+                perceptio.
+                Igitur pari ratione aliqua ita modica secundum extensionem quod non erat perceptio. 
+                <app>
+                  <lem>Et</lem>
+                  <rdg wit="#T" type="variation-substance">etiam</rdg>
+                </app> 
+                similiter obiectum potest esse ita modicum quod non 
+                <app>
+                  <lem>videbitur</lem>
+                  <rdg wit="#V" type="variation-substance">videtur</rdg>
+                </app>
+                perceptibiliter, 
+                igitur qualitas ita modica quod
+                <app>
+                  <lem n="quod" />
+                  <rdg wit="#V" type="correction-deletion">
+                    <del rend="erasure">quae</del>
+                  </rdg>
+                </app> 
+                non 
+                <app>
+                  <lem>percipietur</lem>
+                  <rdg wit="#S" type="variation-substance">percipetur</rdg>
+                </app>, 
+                et tamen talis pars in toto erat perceptio, 
+                quia tota per partes suas est perceptio et praeter hoc sunt eiusdem speciei, 
+                igitur si una
                 <pb ed="#S" n="81-r" />
                 <cb ed="#S" n="a" /> 
-                est perceptio, igitur etc.
+                est perceptio
+                <app>
+                  <lem n="perceptio" />
+                  <rdg wit="#V" type="variation-present">et reliqua</rdg>
+                </app>, 
+                igitur etc.
               </p>
               
-              <p xml:id="b1d3qun-psvasp"><supplied>Quintus decimus.</supplied> Praeterea si visio vel intellectio separarentur a subiectis 
-                suis, non <add place="aboveLine">essent</add> cognitiones, igitur quod sint cognitiones, nunc accidit eis, cum 
-                antecedens sit possibile.</p>
+              <p xml:id="b1d3qun-psvasp">
+                <supplied>Quintus decimus.</supplied> 
+                Praeterea si visio vel intellectio separarentur a subiectis suis, non 
+                <app>
+                  <lem>essent</lem>
+                  <rdg wit="#S" type="correction-addition">
+                    <add place="above-line">essent</add>
+                  </rdg>
+                  <rdg wit="#T" type="variation-substance">sunt</rdg>
+                </app> 
+                cognitiones, igitur quod sint cognitiones, 
+                <app>
+                  <lem>nunc</lem>
+                  <rdg wit="#V #T" type="variation-absent" />
+                </app>
+                accidit eis, cum 
+                <app>
+                  <lem>antecedens</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="margin">antecedens</add>
+                  </rdg>
+                </app>
+                <app>
+                  <lem>sit possibile</lem>
+                  <rdg wit="#V" type="variation-substance">non sit impossibile</rdg>
+                </app>.
+              </p>
               
-              <p xml:id="b1d3qun-sdipie"><supplied>Sextus decimus.</supplied> Item per 
+              <p xml:id="b1d3qun-sdipie">
+                <supplied>Sextus decimus.</supplied> 
+                Item per 
                 <cit>
-                  <ref><name ref="#Aristotle">Philosophum</name> VII <title ref="#Physics">Physicorum</title></ref>
-                  <bibl>cf. <name>Aristoteles</name>, <title>De physicis</title>, VII, c. 3</bibl>
+                  <ref>
+                    <name ref="#Aristotle">Philosophum</name> 
+                    VII <title ref="#Physics">Physicorum</title>
+                  </ref>
+                  <bibl>
+                    <name ref="#Aristotle">Aristoteles</name>, 
+                    <title ref="#Physics">Physica</title>, 
+                    VII, c. 3
+                  </bibl>
                 </cit> 
-                ad qualitates de prima 
-                specie non est motus, quia sunt <mentioned>ad aliquid</mentioned>. Istud autem non sufficit 
-                nisi specialiter intellectum, quia omnia de mundo sunt ‘ad aliquid’ generaliter loquendo 
-                vel relationes quaedam. Si vere intelligat quod res quae est notitia potest esse 
-                maior vel clarior notitia in duplo et sic proportionaliter augeatur, 
-                tunc habetur propositum et cum hoc declaratum est dictum philosophi, igitur etc.</p> 
+                ad qualitates de prima specie non est motus, quia sunt ad aliquid. 
+                Istud 
+                <app>
+                  <lem>autem</lem>
+                  <rdg wit="#T #V" type="variation-substance">quia</rdg>
+                </app> 
+                non sufficit nisi specialiter intellectum, 
+                quia omnia de mundo sunt ad aliquid generaliter loquendo vel relationes quaedam. 
+                Si 
+                <app>
+                  <lem>vere</lem>
+                  <rdg wit="#T #V" type="variation-substance">vero</rdg>
+                </app> 
+                intelligat quod res quae est notitia 
+                <app>
+                  <lem n="notitia" />
+                  <rdg wit="#V" type="correction-deletion">
+                    <del rend="strikethrough">non</del>
+                  </rdg>
+                </app>
+                potest 
+                <app>
+                  <lem>esse</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="above-line">esse</add>
+                  </rdg>
+                </app> 
+                maior 
+                <app>
+                  <lem n="maior"/>
+                  <rdg wit="#V" type="correction-deletion">
+                    <del rend="strikethrough">
+                      etiam duplo et sicut proportionaliter augeatur tunc habetur propositum
+                    </del>
+                  </rdg>
+                </app>
+                vel clarior 
+                <app>
+                  <lem n="clarior" />
+                  <rdg wit="#T" type="variation-present">in duplo licet intra res quae est</rdg>
+                </app>
+                notitia 
+                <app>
+                  <lem n="notitia" />
+                  <rdg wit="#T" type="variation-present">non sit maior</rdg>
+                </app>
+                in duplo 
+                <app>
+                  <lem n="duplo" />
+                  <rdg wit="#V" type="variation-present">licet intra res quae est notitia non sit maior etiam duplo</rdg>
+                </app>
+                et 
+                <app>
+                  <lem>sic</lem>
+                  <rdg wit="#V" type="variation-substance">sicut</rdg>
+                </app>
+                proportionaliter augeatur, 
+                tunc habetur propositum et cum hoc declaratum est dictum <name ref="#Aristotle">Philosophi</name>, 
+                igitur etc.
+              </p> 
               
               <p xml:id="b1d3qun-aeahio">
-                Alia etiam argumenta sunt quae apud me non tantum, immo nullum vel modicum colorem 
-                habent, ideo  omittantur.
+                Alia 
+                <app>
+                  <lem>etiam argumenta</lem>
+                  <rdg wit="#T" type="variation-inversion">argumenta etiam</rdg>
+                </app>
+                sunt quae apud me 
+                <app>
+                  <lem>non tantum, immo</lem>
+                  <rdg wit="#V" type="variation-absent" />
+                  <rdg wit="#T" type="variation-substance">non tantum, vero</rdg>
+                </app>
+                nullum vel modicum 
+                <app>
+                  <lem>colorem habent</lem>
+                  <rdg wit="#V" type="variation-inversion">habent colorem</rdg>
+                </app>,
+                ideo 
+                <app>
+                  <lem>omittantur</lem>
+                  <rdg wit="#S" type="correction-substitution">
+                    <subst>  
+                      <del rend="underline">non omittant</del>
+                      <add place="above-line">omittantur</add>
+                    </subst>
+                  </rdg>
+                </app>.
               </p>
             </div>
             
@@ -4526,7 +4803,10 @@
                 vel ita parva quod ipsa delectio non perciperetur, nego quia nullus 
                 talis actus in sensu vel in intellectu distincte percipitur per seipsum.</p>
               
-              <p xml:id="b1d3qun-aonadd">Ad octavum non pono aliquod minimum visibile ab alia distantia danda.</p>
+              <p xml:id="b1d3qun-aonadd">Ad octavum non pono aliquod minimum visibile ab alia distantia danda.
+                <pb ed="#M" n="68-r" />
+                <cb ed="#M" n="a" />
+              </p>
               
               <p xml:id="b1d3qun-antsis"> Ad nonum teneo augmentationem vel diminutionem gradualem in formis 
                 fieri per additionem et subtractionem similis in specie.</p>
@@ -4577,7 +4857,7 @@
                 confuse tantum sicut omnis et alias non enim sequitur bis comedisti 
                 panem igitur bis istum panem vel illum et ideo quantumcumque 
                 unus intendatur vel remmittatur numquam fiet similis alteri 
-                sicut nec conceptus cui correspondet haec vox alias poterit fieri similissimus 
+                sicut nec conceptus cui correspondet haec vox alias poterit fieri simillimus 
                 conceptui qui <unclear>experimitur</unclear> per hanc vocem omnis et consequenter 
                 per omnia ad propositum dicendum de illis ut de istis.</p>
               
