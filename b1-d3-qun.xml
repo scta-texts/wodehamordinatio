@@ -946,7 +946,7 @@
                   habeat cognitionem de <name ref="#Hercules" type="variable">Hercule</name>, 
                   si videat statuam <name ref="#Hercules" type="variable">Herculis</name> non 
                   plus cogitabit de <name ref="#Hercules" type="variable">Hercule</name> quam de 
-                  <name ref="#Socrates" type="variable">Sorte</name>. 
+                  <name ref="#Sortes" type="variable">Sorte</name>. 
                   Si autem prius 
                   <app>
                     <lem wit="#V">viderit</lem>
@@ -3622,7 +3622,7 @@
               
               <p xml:id="b1d3qun-qppepv">
                 <supplied>Quintus.</supplied> 
-                Praeterea ponatur dilectio qua <name ref="#Socrates" type="variable">Sortes</name> diligit 
+                Praeterea ponatur dilectio qua <name ref="#Sortes" type="variable">Sortes</name> diligit 
                 seipsum in <name ref="#Plato" type="variable">Platone</name>, tunc <name ref="#Plato" type="variable">Plato</name> experietur se diligere 
                 <app>
                   <lem n="diligere"/>
@@ -3656,7 +3656,7 @@
                   <rdg type="variation-substance" wit="#V">per eam illud</rdg>
                 </app> 
                 quod prius. Assumptum probatur, quia si 
-                <name ref="#Socrates" type="variable">Socrates</name> velit 
+                <name ref="#Sortes" type="variable">Sortes</name> velit 
                 <app>
                   <lem>sic</lem>
                   <rdg type="variation-absent" wit="#M" />
@@ -4684,95 +4684,303 @@
             <div>
               <head><supplied>Responsio propria ad argumenta</supplied></head>
               <p xml:id="b1d3qun-inoads">
-                Istis non obstantibus, teneo conclusionem contrariam quam 
+                Istis non obstantibus, teneo conclusionem 
+                <app>
+                  <lem>contrariam</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="margin">contrariam</add>
+                  </rdg>
+                </app>
+                quam 
                 <cit>
-                  <ref>alias declaravi et probavi prima distinctione,</ref>
-                  <bibl>cross reference</bibl>
+                  <ref>
+                    alias 
+                    <app>
+                      <lem>declaravi et</lem>
+                      <rdg wit="#V #T" type="variation-absent"/>
+                    </app>
+                    probavi prima distinctione,
+                  </ref>
+                  <bibl>cross reference</bibl> <!-- This has to be checked -->
                 </cit> 
-                licet haec conclusio 
-                sit multorum modernorum. 
+                licet haec conclusio sit multorum modernorum. 
                 Et arguit 
                 <cit>
                   <ref><name ref="#RichardFitzRalph">Fitzralph</name></ref>
-                  <bibl><name>Richardus Fitzralph</name>, <title>Comment. in Sent.</title>, I, q. 6, a. 2 (Paris BN lat. 15853, ff. 30d);</bibl>
+                  <bibl><name>Richardus Fitzralph</name>, 
+                    <title>Comment. in Sent.</title>, 
+                    I, q. 6, a. 2 (Paris BN lat. 15853, ff. 30d)</bibl>
                 </cit> 
                 contra eam per auctoritates 
                 <ref corresp="#b1d3qun-Qiqfpap">
-                  <name ref="#Augustine">Beati Augustini</name>, qui XI <title>De Trinitate</title> c. 22 </ref> 
-              	dicit quod, 
+                  <name ref="#Augustine">
+                    <app>
+                      <lem>beati</lem>
+                      <rdg wit="#V" type="variation-absent"/>
+                    </app>
+                    Augustini
+                  </name>, 
+                  <app>
+                    <lem>qui</lem>
+                    <rdg wit="#T" type="variation-absent" />
+                  </app> 
+                  XI <title ref="#deTrinitate">De Trinitate</title> c. 
+                  <app>
+                    <lem>22</lem>
+                    <rdg wit="#T" type="variation-substance">27 ubi</rdg>
+                  </app>
+                </ref> 
+              	dicit quod
                 <cit>
-                  <quote xml:id="b1d3qun-Qiqfpap">illud quod formatur in 
-                    acie cogitantis est aliud ab eo quod in memoria conservatur, et fit 
-                    ab eo sicut proles a parente</quote>
-                  <bibl>cf. 
-                    <name>Augustinus</name>, 
-                    <title>De Trinitate</title>, 
+                  <quote xml:id="b1d3qun-Qiqfpap">
+                    illud quod formatur in 
+                    acie cogitantis est 
+                    <app>
+                      <lem>aliud</lem>
+                      <rdg wit="#V" type="variation-absent"></rdg>
+                    </app>
+                    ab eo quod in memoria conservatur, et fit 
+                    ab eo sicut proles a parente
+                  </quote>
+                  <bibl> 
+                    <name ref="#Augustine">Augustinus</name>, 
+                    <title ref="#deTrinitate">De Trinitate</title>, 
                     XI, c. 8, n.13 (CCSL 50:350; PL 42:994) 
                     ". . . sed ex eadem memoria qua unum memini formatur acies multos cogitantis."
                   </bibl>
                 </cit> 
-                et in multis passibus, quos asseret, 
-                dicit similia.</p> 
+                et in multis passibus quos 
+                <app>
+                  <lem>asseret dicit</lem>
+                  <rdg wit="#V" type="variation-substance">asserat</rdg>
+                  <rdg wit="#T" type="variation-substance">allegat dicit</rdg>
+                </app>
+                similia.
+              </p> 
               
               <p xml:id="b1d3qun-ipresq">
-                Item per rationes, si qualitas, quae est actualis cogitatio, potest 
-                cessare esse cogitatio, inhaerendo tamen animae sicut prius, igitur pari 
-                ratione poterit iterato reincipere esse actualis cogitatio, et tunc intellectus 
-                noviter intelligeret sine hoc quod noviter esset causa illius intellectionis in 
-                aliquo intellectu, quia nihil noviter ageret aut noviter reciperet. Et 
-                sine dubio, inquit, hoc non videtur intelligere. 
+                Item per 
+                <app>
+                  <lem>rationem</lem>
+                  <rdg wit="#S" type="variation-substance">rationes</rdg>
+                </app>,
+                si qualitas, quae est actualis 
+                <app>
+                  <lem>cogitatio</lem>
+                  <rdg wit="#T" type="variation-substance">cognitio</rdg>
+                  <rdg wit="#V" type="variation-absent" />
+                </app>, 
+                potest cessare esse 
+                <app>
+                  <lem>cogitatio</lem>
+                  <rdg wit="#V #T" type="variation-substance">cognitio</rdg>
+                </app>, 
+                inhaerendo tamen animae sicut prius, igitur pari ratione 
+                <app>
+                  <lem>poterit</lem>
+                  <rdg wit="#V" type="variation-absent"></rdg>
+                </app>
+                iterato reincipere esse actualis 
+                <app>
+                  <lem>cogitatio</lem>
+                  <rdg wit="#V #T" type="variation-substance">cognitio</rdg>
+                </app>, 
+                et tunc intellectus noviter intelligeret sine hoc quod noviter 
+                esset causa illius intellectionis in aliquo 
+                <app>
+                  <lem>intellectu</lem>
+                  <rdg wit="#V #T" type="variation-substance">genere causae</rdg>
+                </app>,
+                quia nihil noviter ageret aut noviter reciperet. 
+                Et sine dubio, inquit, hoc non videtur intelligere.
                 <cit>
-                  <ref>Plura autem arguit,</ref>
-                  <bibl>Cf. <name>Richardus Fitzralph</name>, <title>Comment. in Sent.</title>, I, q. 6, a. 2 (Paris BN lat. 15853, ff. 30a-32b)</bibl>
+                  <ref>Plura 
+                    <app>
+                      <lem>autem</lem>
+                      <rdg wit="#V #T" type="variation-substance">alia</rdg>
+                    </app>
+                    arguit,</ref>
+                  <bibl>
+                    Cf. 
+                    <name>Richardus Fitzralph</name>, 
+                    <title>Comment. in Sent.</title>, 
+                    I, q. 6, a. 2 (Paris BN lat. 15853, ff. 30a-32b)
+                  </bibl>
                 </cit> 
-                quae omitto,
-                sufficiunt mihi rationes aliquas tactae de transitu a contradictorio ad contradictorium 
-                et quod rationabilius poneretur hoc de ipsa potentia animae quam de 
-                accidente, receptio et similia quaedam.</p>
+                <app>
+                  <lem>quae</lem>
+                  <rdg wit="#S" type="correction-addition">
+                    <add place="margin">quae</add>
+                  </rdg>
+                </app> 
+                omitto, sufficiunt mihi rationes aliquas tactae de transitu a contradictorio 
+                <app>
+                  <lem>ad</lem>
+                  <rdg wit="#V #T" type="variation-substance">in</rdg>
+                </app> 
+                contradictorium et quod rationabilius poneretur hoc de ipsa potentia animae quam de 
+                <app>
+                  <lem>accidente</lem>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="margin">accidente</add>
+                  </rdg>
+                </app> 
+                <app>
+                  <lem>recepto</lem>
+                  <rdg wit="#S" type="variation-substance">receptio</rdg>
+                </app>
+                et similia quaedam.
+              </p>
               
-              <p xml:id="b1d3qun-apiigp"> Ad primum in contrarium dicendum quod conclusio 
-                illata est vera saepe de similibus, quarum una est tantum habitualis 
-                repraesentatio illius obiecti et alia actualis, immo de actualibus 
-                non est inconveniens dummodo sint alterius rei sicut patet de intuitiva 
-                cognitione alterius et abstractiva eiusdem vel de visione alterius 
-                rei in verbo et eiusdem in genere proprio.</p>
+              <p xml:id="b1d3qun-apiigp"> 
+                Ad primum in contrarium dicendum quod conclusio illata est vera saepe de 
+                <app> <!-- checked! -->
+                  <lem>similibus</lem>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>
+                    <del rend="erasure">similibus</del>
+                    <add place="in-line">similibus</add>
+                  </subst>
+                  </rdg>
+                </app>,
+                quarum 
+                <app>
+                  <lem>unum</lem>
+                  <rdg wit="#S" type="variation-substance">una</rdg>
+                  <rdg wit="#V" type="variation-absent"/>
+                </app>
+                est tantum habitualis 
+                <app>
+                  <lem>repraesentatio</lem>
+                  <rdg wit="#V" type="variation-substance">praesentatio</rdg>
+                </app>
+                illius obiecti et alia actualis, 
+                <app>
+                  <lem>immo</lem>
+                  <rdg wit="#T" type="variation-substance">vere</rdg>
+                </app>
+                de actualibus non est inconveniens dummodo sint alterius rei sicut patet de intuitiva cognitione alterius et abstractiva eiusdem vel de visione alterius rei in verbo et eiusdem in genere proprio.
+              </p>
               
-              <p xml:id="b1d3qun-asrean"> Ad secundum respondi in praecedentibus 
+              <p xml:id="b1d3qun-asrean"> 
+                Ad secundum respondi
+                <app>
+                  <lem n="respondi" />
+                  <rdg wit="#V" type="correction-deletion">
+                    <del rend="strikethrough">praecedenti</del>
+                  </rdg>
+                </app>
+                in 
+                <app>
+                  <lem>praecedentibus</lem>
+                  <rdg wit="#T" type="variation-substance">prologo</rdg>
+                </app>
                 quod hoc non sit per eundem actum numero.</p>
               
-              <p xml:id="b1d3qun-atsdia"> Ad tertium, 
-                subiectum ibi illius quod per se diligitur, scilicet, bonitatis moralis, non diligenter 
-                nisi per accidens in casu arguit et de talibus concessi supra distinctione prima, 
-                quod possunt non cognosci vel non diligi eisdem actibus 
-                remanentibus sicut eodem actu visionis quo primo per accidens 
-                video substantiam panis in hostia consecranda eandem non video 
-                hostia consecrata, sic hic in proposito, cum indistincte diligo 
-                moraliter bonos quia tales unde cum me ignorante desinunt 
-                aliqui subesse huic accidenti, desinunt et a me diligi 
-                illo actu.</p>
+              <p xml:id="b1d3qun-atsdia"> 
+                <app>
+                  <lem>Ad</lem>
+                  <rdg wit="#T" type="variation-substance">Dicendum</rdg>
+                </app>
+                tertium, subiectum ibi 
+                <app>
+                  <lem n="ibi"></lem>
+                  <rdg wit="#V" type="correction-deletion">
+                    <del rend="erasure">et</del>
+                  </rdg>
+                </app>
+                illius quod per se 
+                <app>
+                  <lem>diligitur</lem>
+                  <rdg wit="#T" type="variation-substance">diligenter</rdg>
+                </app>,
+                scilicet, bonitatis moralis, 
+                non diligenter nisi per accidens in casu arguit et de 
+                <app>
+                  <lem>talibus</lem>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>
+                      <del rend="strikethrough">similibus</del>
+                      <add place="below-line">talibus</add>
+                    </subst>
+                  </rdg>
+                </app>
+                concessi supra distinctione prima, quod possunt non cognosci vel 
+                non diligi eisdem actibus remanentibus sicut eodem actu visionis quo primo 
+                <app>
+                  <lem>per accidens video</lem>
+                  <rdg wit="#V" type="variation-inversion">video per accidens</rdg>
+                </app>
+                substantiam panis in hostia consecranda eandem non video hostia 
+                <app>
+                  <lem>consecrata</lem>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>
+                      <del rend="expunctuated">consecranta</del>
+                      <add>consecrata</add>
+                    </subst>  
+                  </rdg>
+                </app>,
+                sic 
+                <app>
+                  <lem>hic</lem>
+                  <rdg wit="#T" type="variation-substance">hoc</rdg>
+                  <rdg wit="#V" type="variation-absent" />
+                </app>
+                in proposito, cum 
+                <app>
+                  <lem>indistincte</lem>
+                  <rdg wit="#T #V" type="variation-substance">distincte</rdg>
+                </app>
+                diligo moraliter bonos quia tales unde cum me ignorante desinunt 
+                <app>
+                  <lem>aliqui subesse huic accidenti</lem>
+                  <rdg wit="#T" type="variation-substance">aliqui subesse huic accidenti</rdg>
+                  <rdg wit="#V" type="correction-addition">
+                    <add place="margin"><sic>desinunt</sic> aliqui subesse huic accidenti</add>
+                  </rdg>
+                </app>, 
+                desinunt et a me diligi illo actu.
+              </p>
               
-              <p xml:id="b1d3qun-aqqnci">Ad quartum, quod tunc posset aliquid diligi et simul non 
-                cognosci, patet ex prima distinctione, ubi tenui quod dilectio est 
-                cognitio, et ideo nego consequentiam illam.</p>
+              <p xml:id="b1d3qun-aqqnci">
+                Ad quartum, quod tunc posset 
+                <app>
+                  <lem n="posset" />
+                  <rdg wit="#V" type="correction-deletion">
+                    <del rend="strikethrough">dicitur</del>
+                  </rdg>
+                </app>
+                aliquid diligi et 
+                <app>
+                  <lem>simul</lem>
+                  <rdg wit="#T" type="variation-substance">si vel</rdg>
+                  <rdg wit="#V" type="variation-absent" />
+                </app>
+                non cognosci, patet ex prima distinctione, 
+                ubi tenui quod dilectio est cognitio, 
+                <app>
+                  <lem>et</lem>
+                  <rdg wit="#V" type="variation-absent" />
+                </app>
+                ideo nego consequentiam illam.
+              </p>
               
-              <p xml:id="b1d3qun-aqdcaa">Ad quintum dicendum quod si dilectio, 
-                qua <name ref="#Sortes" type="variable">Socrates</name> diligit <name ref="#Sortes" type="variable">Socratem</name> ipsum, poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per istam 
-                non diligeret <name ref="#Plato" type="variable">Platonem</name> sed <name ref="#Sortes" type="variable">Socratem</name>. Et similiter, si dilectio, qua Socrates 
-                vult se diligere angelum, poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per illam vellet 
-                <name ref="#Sortes" type="variable">Socratem</name> diligere angelum. Et eodem modo, si intellectio, qua <name ref="#Sortes" type="variable">Socrates</name> 
-                experitur se intelligere, poneretur in <name ref="#Plato" type="variable">Platone</name>, ille iudicaret <name ref="#Sortes" type="variable">Socratem</name> intelligere 
-                vel experiretur nisi experientia cognoscat aliquid aliud.</p>
+              <p xml:id="b1d3qun-aqdcaa">
+                Ad quintum dicendum quod si dilectio qua <name ref="#Sortes" type="variable">Sortes</name> diligit <name ref="#Sortes" type="variable">Sortem</name> ipsum poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per istam non diligeret <name ref="#Plato" type="variable">Platonem</name> sed <name ref="#Sortes" type="variable">Sortem</name>. 
+                Et similiter, si dilectio qua Sortes vult se diligere angelum poneretur in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name> per illam vellet <name ref="#Sortes" type="variable">Sortem</name> diligere angelum. Et eodem modo, si intellectio, qua <name ref="#Sortes" type="variable">Sortes</name> experitur se intelligere, 
+                poneretur in <name ref="#Plato" type="variable">Platone</name>, ille iudicaret <name ref="#Sortes" type="variable">Sortem</name> intelligere vel experiretur nisi experientia cognoscat aliquid aliud.</p>
               
               <p xml:id="b1d3qun-asbpeo"> Ad sextum 
-                bene concedo quod dilectio <name ref="#Sortes" type="variable">Socrates</name> et odium <name ref="#Plato" type="variable">Platonis</name> naturaliter compatiuntur 
+                bene concedo quod dilectio <name ref="#Sortes" type="variable">Sortes</name> et odium <name ref="#Plato" type="variable">Platonis</name> naturaliter compatiuntur 
                 se in eodem. Dici tamen potest quod non omne idem eiusdem speciei cum 
-                odio <name ref="#Plato" type="variable">Platonis</name> compatitur se cum dilectionem <name ref="#Sortes" type="variable">Socrates</name> naturaliter quia aliquod eiusdem 
+                odio <name ref="#Plato" type="variable">Platonis</name> compatitur se cum dilectionem <name ref="#Sortes" type="variable">Sortes</name> naturaliter quia aliquod eiusdem 
                 speciei contrariatur  et istud non quia ad contrarietatem actuum 
                 huiusmodi individualium vel cognitionum requiritur identitas numeralis 
                 obiecti unde etiam illi iudicio quo iudicarem hunc hominem 
-                esse <name ref="#Sortes" type="variable">Socratem</name> demonstrato <name ref="#Sortes" type="variable">Socrates</name> repugnaret contrarie iudicium quo 
-                iudicarem eundem non esse <name ref="#Sortes" type="variable">Socratem</name> et tamen secum compateretur 
-                illud iudicium quo iudicarem istum hominem non esse <name ref="#Sortes" type="variable">Socratem</name> demonstrando 
+                esse <name ref="#Sortes" type="variable">Sortem</name> demonstrato <name ref="#Sortes" type="variable">Sortes</name> repugnaret contrarie iudicium quo 
+                iudicarem eundem non esse <name ref="#Sortes" type="variable">Sortem</name> et tamen secum compateretur 
+                illud iudicium quo iudicarem istum hominem non esse <name ref="#Sortes" type="variable">Sortem</name> demonstrando 
                 <name ref="#Plato" type="variable">Platonem</name>. Unde amor et odium error et scientia non 
                 contrariantur nisi sint respectu eiusdem, licet sint eiusdem speciei 
                 cum quibusdam quae invicem contrariantur et in hoc est speciale in 
@@ -4803,10 +5011,12 @@
                 vel ita parva quod ipsa delectio non perciperetur, nego quia nullus 
                 talis actus in sensu vel in intellectu distincte percipitur per seipsum.</p>
               
-              <p xml:id="b1d3qun-aonadd">Ad octavum non pono aliquod minimum visibile ab alia distantia danda.
-                <pb ed="#M" n="68-r" />
-                <cb ed="#M" n="a" />
+              <p xml:id="b1d3qun-aonadd">
+                Ad octavum non pono aliquod minimum visibile ab alia distantia danda.
               </p>
+              
+              <pb ed="#M" n="68-r" /> <!-- Our copy of #M resumes here... -->
+              <cb ed="#M" n="a" />
               
               <p xml:id="b1d3qun-antsis"> Ad nonum teneo augmentationem vel diminutionem gradualem in formis 
                 fieri per additionem et subtractionem similis in specie.</p>
@@ -5177,6 +5387,18 @@
               </div>
             </div>
           </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
           <!-- Jeff's part... -->
           <div xml:id="a2tertiumdubium">
             <head><supplied>Tertium Dubium</supplied></head>
