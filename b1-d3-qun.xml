@@ -5346,327 +5346,397 @@
               </p>
               
               <p xml:id="b1d3qun-addeva"> 
-                Ad decimum dicendum quod alia albedo non est nata videri visione qua B albedo de facto videtur et conclusio ad quam deducitur non est inconveniens non plus quam quod iste terminus esse naturaliter producibile de hac materia prima demonstrata conveniat infinitis individuis ex ea producibilibus et tamen nulli omnium ex aliis materiis producibilium. Et tamen istud secundum ab argumento non negatur, igitur nec primum negari decet et quod, tunc acciditur quod periret via inducendi universalem, non sequitur sed est fallacia consequentis. Verum est enim quod hanc universalem, omnis visio huiusmodi speciei, cuius est visio albedinis B, potest esse visio B, perit via vera inducendi. Sed non hanc, omnis talis visio est visio albedinis.
+                Ad decimum dicendum quod alia albedo non est 
+                <app>
+                  <lem>nata</lem>
+                  <rdg wit="#T" type="variation-substance">nato</rdg>
+                </app>
+                videri visione qua 
+                <app>
+                  <lem><mentioned>A</mentioned></lem> <!-- Should this be a "B" ? -->
+                  <rdg wit="#T" type="variation-absent" />
+                </app>          
+                albedo de facto videtur et conclusio ad quam deducitur non est inconveniens non plus quam 
+                <app>
+                  <lem n="quod" /> <!-- "quod" is repeated but strikenthrough en #V -->
+                  <rdg wit="#V" type="correction-deletion">
+                    <del rend="strikethrough">quod</del>
+                  </rdg>
+                </app>
+                <app>
+                  <lem n="quod"></lem>
+                  <rdg wit="#V" type="variation-present">idem</rdg>
+                </app>
+                <app>
+                  <lem>
+                    iste terminus <app>
+                      <lem>esse naturaliter</lem>
+                      <rdg wit="#M" type="variation-absent" />
+                      <rdg wit="#T" type="variation-substance">est naturaliter</rdg>
+                    </app>
+                  </lem>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>    
+                      <del>iste terminus esse naturaliter</del>
+                      <add place="margin">iste terminus esse naturaliter</add>
+                    </subst>
+                    <note resp="#NV">
+                      The text "iste terminus esse naturaliter" has not been actually deleted, 
+                      but the margin note suggests it ought to be replaced by "iste terminus esse essentialiter".
+                    </note>
+                  </rdg>
+                </app>
+                producibile de hac materia prima 
+                <app>
+                  <lem>demonstrata</lem>
+                  <rdg wit="#M" type="variation-substance">demonstrato</rdg>
+                </app>
+                conveniat infinitis 
+                <app>
+                  <lem>individuis ex ea producibilibus</lem>
+                  <rdg wit="#M" type="variation-substance">producibilius individualis ex ea</rdg>
+                </app>
+                et tamen nulli omnium ex 
+                <app>
+                  <lem>aliis materiis</lem>
+                  <rdg wit="#T" type="variation-inversion">materiis aliis</rdg>
+                </app>
+                producibilium. 
+                Et tamen istud secundum 
+                <app>
+                  <lem>ab argumento non</lem>
+                  <rdg wit="#V #T" type="variation-substance">argumentum</rdg>
+                </app> 
+                negatur
+                <app>
+                  <lem n="negatur"/>
+                  <rdg wit="#V #T" type="variation-present">quare</rdg>
+                </app>, 
+                igitur 
+                <app>
+                  <lem>nec primum negari decet</lem>
+                  <rdg wit="#V #T" type="variation-substance">primum ab isto argumentum</rdg>
+                </app>
+                et quod, tunc 
+                <app>
+                  <lem>accipitur</lem>
+                  <rdg wit="#S" type="variation-substance">acciditur</rdg>
+                </app>
+                quod 
+                <app>
+                  <lem>periret</lem>
+                  <rdg wit="#V" type="variation-substance">perit</rdg>
+                </app>
+                via inducendi universalem, non sequitur sed est fallacia consequentis. Verum est enim quod hanc 
+                <app>
+                  <lem>universalem</lem>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>
+                      <del rend="strikethrough"><unclear>obiectum</unclear></del>
+                      <add place="margin">universalem</add>
+                    </subst>  
+                  </rdg>
+                </app>,
+                omnis visio huiusmodi speciei, cuius
+                <app>
+                  <lem n="cuius" />
+                  <rdg wit="#T" type="variation-present">vel</rdg>
+                </app>
+                est visio albedinis <mentioned>B</mentioned>, 
+                potest esse visio <mentioned>B</mentioned>, 
+                perit via vera inducendi. 
+                Sed non hanc, omnis talis visio est visio albedinis.
               </p>
               
-              <p xml:id="b1d3qun-aspcmd">Ad 
-                secundum propositionem de 
+              <p xml:id="b1d3qun-aspcmd">
+                Ad secundum propositionem de 
                 <cit> <!-- this is hard ref to provide ids for because it potentially has 4 different references -->
                   <ref>
                     <name ref="#Aristotle">Philosopho</name> et 
                     <name ref="#Averroes">Commentatore</name> I 
                     <title ref="#deCaelo">De caelo</title> et 
-                    <title ref="#Metaphysics">Metaphysica</title>
+                    <app>
+                      <lem>
+                        <title ref="#Metaphysics">Metaphysica</title>
+                      </lem>
+                      <rdg wit="#T" type="variation-substance">tamen</rdg>
+                    </app>
                   </ref>
-                  <bibl>Aristoteles, ???; Averroes, ???;</bibl>
+                  <bibl>
+                    Aristoteles, ???; Averroes, ???;
+                  </bibl>
                 </cit> 
-                nullus Catholicus decet tenere 
-                argumentum tale, nisi qui negaret Dei omnipotentiam esse extra hunc 
-                mundum posse alium omnino similem producere. Et posito quod sic 
-                fiat, consequentia, quam philosophus probare ibi nititur, falsa esset et erronea 
-                secundum principia fidei quia intendit ibi probare impossibilitatem 
-                plurium mundorum. Haec igitur ratio movisse catholicum minime debuisset.</p>
+                nullus catholicus debet tenere 
+                <app>
+                  <lem>illud</lem>
+                  <rdg wit="#M" type="variation-substance">istud</rdg>
+                  <rdg wit="#S" type="variation-absent" />
+                </app>
+                argumentum 
+                <app>
+                  <lem>tale</lem>
+                  <rdg wit="#V" type="variation-substance">universaliter</rdg>
+                  <rdg wit="#T" type="variation-substance">universalem</rdg>
+                  <rdg wit="#M" type="variation-substance">valere</rdg>
+                </app>,
+                nisi qui negaret Dei omnipotentiam 
+                <app>
+                  <lem>esse</lem>
+                  <rdg wit="#M #V" type="variation-substance">posse</rdg>
+                  <rdg wit="#S" type="correction-deletion">
+                    <del rend="expunctuated">esse</del>
+                  </rdg>
+                </app>
+                extra 
+                <app>
+                  <lem n="extra" />
+                  <rdg wit="#S" type="variation-present">habet</rdg>
+                </app>
+                <app>
+                  <lem>hunc</lem>
+                  <rdg wit="#S" type="variation-absent" />
+                </app>
+                mundum posse alium omnino similem producere. 
+                Et posito quod sic fiat, 
+                <app>
+                  <lem>conclusio</lem>
+                  <rdg wit="#S" type="variation-substance">consequentia</rdg>
+                </app> 
+                quam <name ref="#Aristotle">Philosophus</name>
+                <app>
+                  <lem n="Philosophus" />
+                  <rdg wit="#V" type="variation-present">ibi</rdg>
+                </app>
+                <app>
+                  <lem n="Philosophus" />
+                  <rdg wit="#V" type="correction-deletion">
+                    <del rend="expunctuated">in</del>
+                  </rdg>
+                </app> 
+                probare ibi nititur falsa esset et 
+                <app>
+                  <lem>de facto est falsa est</lem>
+                  <rdg wit="#S" type="variation-absent"></rdg>
+                  <rdg wit="#T" type="variation-substance">mere</rdg>
+                </app>
+                erronea secundum principia fidei quia intendit ibi probare 
+                impossibilitatem plurium mundorum. 
+                Haec igitur ratio movisse catholicum minime debuisset.
+              </p>
               
-              <p xml:id="b1d3qun-aubqif">Ad unodecimum bene volo quod aliquid, quod modo non intelligitur per 
-                intellectionem A, potest in casu per accidens esse obiectum illius intellectionis, 
-                non tamen per se. Et cum probatur quod sic quia alia per istam potest intelligere 
-                si ponatur in ipso et intellectio essentialius dependet a suo subiecto 
-                quam ab obiecto, dico quod saepe essentialius in essendo sed quod ipsa 
-                subiecto cui inhaeret sicut vitali principio repraesentet obiectum cuius est 
-                dictus actus sibi inhaeris hoc habet inseparabiliter ex natura sui 
-                et in hoc ab obiecto dependet, nec oportet quod A subiecto active, 
-                sed ab illo qui active conservat eam in subiecto quodcumque illud fuerit.</p>
+              <p xml:id="b1d3qun-aubqif">
+                Ad undecimum bene volo quod 
+                <app>
+                  <lem>aliquid, quod</lem>
+                  <rdg wit="#M" type="variation-substance">aliquo</rdg>
+                </app>
+                modo non intelligitur per intellectionem <mentioned>A</mentioned>, potest in casu per accidens esse obiectum illius intellectionis, 
+                <app>
+                  <lem>non</lem>
+                  <rdg wit="#T" type="variation-absent" />
+                </app>
+                <app>
+                  <lem>tamen</lem>
+                  <rdg wit="#M" type="variation-absent" />
+                </app>
+                per se
+                <app>
+                  <lem n="se" />
+                  <rdg wit="#T" type="variation-present">non</rdg>
+                </app>. 
+                Et 
+                <app>
+                  <lem>cum</lem>
+                  <rdg wit="#M" type="variation-substance">tamen</rdg>
+                </app>
+                probatur quod sic quia 
+                <app>
+                  <lem>alia</lem>
+                  <rdg wit="#M" type="variation-substance"><name ref="#Augustine">Augustinus</name> potest</rdg>
+                  <rdg wit="#T #V" type="variation-substance">alius potest</rdg>
+                </app>
+                per 
+                <app>
+                  <lem>istam potest intelligere</lem>
+                  <rdg wit="#M" type="variation-substance">istam intelligere</rdg>
+                  <rdg wit="#T" type="variation-substance">illam intelligere</rdg>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>
+                      <del rend="strikethrough">istam</del>
+                      <add place="margin">illam intelligere</add>
+                    </subst>
+                  </rdg>
+                </app>
+                si ponatur in ipso et intellectio essentialius dependet a 
+                <app>
+                  <lem>subiecto suo</lem>
+                  <rdg wit="#S" type="variation-inversion">suo subiecto</rdg>
+                </app>
+                quam ab obiecto
+                <app>
+                  <lem n="obiecto" />
+                  <rdg wit="#M" type="variation-present">et</rdg>
+                </app>,
+                dico quod 
+                <app>
+                  <lem></lem>
+                  <rdg wit="#M" type="variation-present">saepius vel</rdg>
+                </app>
+                saepe essentialius in essendo sed quod ipsa 
+                <app>
+                  <lem>subiecto</lem>
+                  <rdg wit="#M" type="variation-substance">sit</rdg>
+                </app>
+                cui inhaeret 
+                <app>
+                  <lem>sicut</lem>
+                  <rdg wit="#M" type="variation-substance">scilicet</rdg>
+                  <rdg wit="#T" type="variation-substance">simul</rdg>
+                </app>
+                vitali principio repraesentet obiectum cuius est 
+                <app>
+                  <lem>dictus actus</lem>
+                  <rdg wit="#M" type="variation-substance">dum actu</rdg>
+                  <rdg wit="#V" type="variation-substance">dum actus</rdg>
+                </app>
+                <app>
+                  <lem>sibi inhaens</lem>
+                  <rdg wit="#T" type="variation-substance">igitur inhaerebit</rdg>
+                  <rdg wit="#M #V" type="variation-substance">sibi inhaerebit</rdg>
+                </app> 
+                hoc habet inseparabiliter ex natura sui et in hoc
+                <app>
+                  <lem>nec</lem>
+                  <rdg wit="#S" type="variation-absent" />
+                </app>
+                ab obiecto dependet, 
+                nec oportet quod <mentioned>A</mentioned> subiecto active, 
+                sed ab 
+                <app>
+                  <lem>isto</lem>
+                  <rdg wit="#S" type="variation-substance">illo</rdg>
+                </app>
+                qui active conservat eam in subiecto quodcumque illud fuerit.
+              </p>
               
-              <p xml:id="b1d3qun-aseudi"> Ad duodecimum dicendum quod conceptus pure numerales non 
-                sunt eiusdem speciei, sed sunt conceptus mere syncategorematici. sicut 
-                omnis et alias quod patet quia terminum mediante sequentem faciunt stare 
-                confuse tantum sicut omnis et alias non enim sequitur bis comedisti 
-                panem igitur bis istum panem vel illum et ideo quantumcumque 
-                unus intendatur vel remmittatur numquam fiet similis alteri 
-                sicut nec conceptus cui correspondet haec vox alias poterit fieri simillimus 
-                conceptui qui <unclear>experimitur</unclear> per hanc vocem omnis et consequenter 
-                per omnia ad propositum dicendum de illis ut de istis.</p>
+              <p xml:id="b1d3qun-aseudi">
+                Ad duodecimum 
+                <app>
+                  <lem>dicendum</lem>
+                  <rdg wit="#M" type="variation-absent" />
+                </app>
+                quod conceptus pure numerales non sunt eiusdem speciei, sed sunt conceptus mere syncategorematici. sicut omnis et alias quod patet quia terminum mediante sequentem faciunt stare confuse tantum sicut omnis et alias non enim sequitur bis comedisti panem igitur bis istum panem vel illum et ideo quantumcumque unus intendatur vel remmittatur numquam fiet similis alteri sicut nec conceptus cui correspondet haec vox alias poterit fieri simillimus conceptui qui <unclear>experimitur</unclear> per hanc vocem omnis et consequenter per omnia ad propositum dicendum de illis ut de istis.
+              </p>
               
-              <p xml:id="b1d3qun-uteqsc">Unum 
-                tamen est advertendum quod nominaliter expressa sumuntur quasi 
+              <p xml:id="b1d3qun-uteqsc">
+                Unum tamen est advertendum quod nominaliter expressa sumuntur quasi 
                 <pb ed="#S" n="81-v" />
                 <cb ed="#S" n="a" /> 
-                collective et non faciunt terminum mediante sequentem stare confuse 
-                tantum, sicut nec omnis quando sumitur collective.</p>
+                collective et non faciunt terminum mediante sequentem stare confuse tantum, sicut nec omnis quando sumitur collective.
+              </p>
               
-              <p xml:id="b1d3qun-atdsat"> Ad tertium decimum dicendum quod 
-                accedit visioni quod eius per se obiectum moveatur vel quiescat, et per consequens 
-                quod ipsum sit motus vel quod ipsum sit quies, quamvis mediante,  
-                visione possit evidenter iudicari vel saltem apparere quod res 
-                visa moveatur. Et ideo dicatur motus esse de numero sensibilium. 
-                Ideo hic dicendum consequenter sicut supra ad tertium.</p>
+              <p xml:id="b1d3qun-atdsat">
+                Ad tertium decimum dicendum quod accedit visioni quod eius per se obiectum moveatur vel quiescat, et per consequens quod ipsum sit motus vel quod ipsum sit quies, quamvis mediante, visione possit evidenter iudicari vel saltem apparere quod res visa moveatur. Et ideo dicatur motus esse de numero sensibilium. Ideo hic dicendum consequenter sicut supra ad tertium.
+              </p>
               
-              <p xml:id="b1d3qun-aqdaps">Ad quartum decimum sicut ad probationem septimi.</p>
+              <p xml:id="b1d3qun-aqdaps">
+                Ad quartum decimum sicut ad probationem septimi.
+              </p>
               
-              <p xml:id="b1d3qun-arvssc"> Ad quintum decimum verum est quod omnis cogitatio repraesentat alicui illud quod 
-                repraesentat vel cuius est signum. Ideo si in nullo est subiective 
-                nullius est signum tale naturaliter offerens obiectum cuius natum 
-                est esse signum nisi forte per modum obiecti sicut imago Herculis 
-                repraesentat Herculum et facit Herculem habitualiter cogitatum venire 
-                in actualem cogitationem, sed de taliter signare naturaliter ad propositum 
-                et tamen concedendum est eo modo quo accidit illi rei quae est intellectio 
-                quod ipsa sic accidens non enim est accidens nisi quando accidit et 
-                sicut accidit sibi esse qualitatem quia non dicitur qualitas 
-                nisi a qualificando ita accidit sibi quod ipsa sic cogitatio quia natura 
-                sua est nata esse intellectio non sibi ipsi sed suo subiecto et sicut 
-                non potest illi in esse subiective quin ipsum <add place="margin">qualificet</add> ita 
-                nec quin sit sibi cognitio.</p>
+              <p xml:id="b1d3qun-arvssc">
+                Ad quintum decimum verum est quod omnis cogitatio repraesentat alicui illud quod repraesentat vel cuius est signum. Ideo si in nullo est subiective nullius est signum tale naturaliter offerens obiectum cuius natum est esse signum nisi forte per modum obiecti sicut imago Herculis repraesentat Herculum et facit Herculem habitualiter cogitatum venire in actualem cogitationem, sed de taliter signare naturaliter ad propositum et tamen concedendum est eo modo quo accidit illi rei quae est intellectio quod ipsa sic accidens non enim est accidens nisi quando accidit et sicut accidit sibi esse qualitatem quia non dicitur qualitas nisi a qualificando ita accidit sibi quod ipsa sic cogitatio quia natura sua est nata esse intellectio non sibi ipsi sed suo subiecto et sicut non potest illi in esse subiective quin ipsum <add place="margin">qualificet</add> ita nec quin sit sibi cognitio.
+              </p>
               
-              <p xml:id="b1d3qun-addvvf">Ad sextum decimum dicendum quod ista conceptio non 
-                salvat in talibus non esse motum ad mentem <name ref="#Aristotle">Philosophi</name>, quia illa 
-                conceptio ponit omnem formam, in quam <name ref="#Aristotle">Philosophus</name> ponit motum secundum qualitatem, 
-                esse sine additione rei vel subtractione, sed verior fantasia[?] pro Philosopho est 
-                quod aliquando scientia fit vel fieri potest scientia sine aliqua mutatione scientis 
-                vocando scientiam omnem notitiam verum iudicativam. Si enim stante 
-                notitia tali res alia aliter se haberet et post incipiat ita se 
-                habere sicut significat talis notitia, tunc habetur scientia sine mutatione scientis 
-                quia eo ipso quod res est vel non est ordo est vera vel falsa.</p>
+              <p xml:id="b1d3qun-addvvf">
+                Ad sextum decimum dicendum quod ista conceptio non salvat in talibus non esse motum ad mentem <name ref="#Aristotle">Philosophi</name>, quia illa conceptio ponit omnem formam, in quam <name ref="#Aristotle">Philosophus</name> ponit motum secundum qualitatem, esse sine additione rei vel subtractione, sed verior fantasia[?] pro Philosopho est quod aliquando scientia fit vel fieri potest scientia sine aliqua mutatione scientis vocando scientiam omnem notitiam verum iudicativam. Si enim stante notitia tali res alia aliter se haberet et post incipiat ita se habere sicut significat talis notitia, tunc habetur scientia sine mutatione scientis quia eo ipso quod res est vel non est ordo est vera vel falsa.
+              </p>
               
-              <p xml:id="b1d3qun-sedpvs">Similiter 
-                est de actu virtuoso tam appetitivo quam cogitativo quod potest 
-                esse sic bonus et talis qualis decet esse postquam non fuit talis 
-                sine novitate[?] alicuius sibi additi in subiecto per novitatem praecepti 
-                vel huiusmodi, similiter de pulchritudine, de sanitate, et ita de 
-                multis quae ponitur in prima specie qualitatis, nam alia fiunt pulchritudo 
-                et sanitas ad amotionem aliorum sine additione vel 
-                subtractione ab illa vel illis quae erunt pulchritudo vel sanitas.</p>
+              <p xml:id="b1d3qun-sedpvs">
+                Similiter est de actu virtuoso tam appetitivo quam cogitativo quod potest esse sic bonus et talis qualis decet esse postquam non fuit talis sine novitate[?] alicuius sibi additi in subiecto per novitatem praecepti vel huiusmodi, similiter de pulchritudine, de sanitate, et ita de multis quae ponitur in prima specie qualitatis, nam alia fiunt pulchritudo et sanitas ad amotionem aliorum sine additione vel subtractione ab illa vel illis quae erunt pulchritudo vel sanitas.
+              </p>
             </div>
+            
             <div>
               <head><supplied>Responsio ad principales argumenta</supplied></head>
               <div>
                 <head><supplied>Ad prima argumenta</supplied></head>
+                
                 <p xml:id="b1d3qun-apasis">
                   <cit>
                     <ref>Ad primum argumentum principale istius dubii</ref>
                     <bibl>[cross reference vide supra (pars 2 of second dubium)</bibl>
                   </cit> 
-                  cum inquiritur quid vocaretur 
-                  memoria: videtur quod respectu primi actus intuitivi intellectus, obiecto sufficienter 
-                  praesente ad causandum actum illum, se habet sicut praesens 
-                  respectu illius notitiae tamquam prolis. Respectu actuum abstractivorum post 
-                  primum, qui causantur ab intellectu et actu intuitivo intellectivo, [se habet] cum habitu 
-                  vel speciem vel quovis alio nomine appelletur. Apud me tamen magis, 
-                  proprie loquendo, nomenari decet habitus quia species, stricte loquendo, solet 
-                  vocari a ponentibus eam aliquid in potentia praevium primo actui 
-                  quod non credo esse necessarium nec verum, et cum probatur quod habitus vel species 
-                  non distinguitur ab actu nec econtra per speciem in sensu.</p> 
+                  cum inquiritur quid vocaretur memoria: videtur quod respectu primi actus intuitivi intellectus, obiecto sufficienter praesente ad causandum actum illum, se habet sicut praesens respectu illius notitiae tamquam prolis. Respectu actuum abstractivorum post primum, qui causantur ab intellectu et actu intuitivo intellectivo, [se habet] cum habitu vel speciem vel quovis alio nomine appelletur. Apud me tamen magis, proprie loquendo, nomenari decet habitus quia species, stricte loquendo, solet vocari a ponentibus eam aliquid in potentia praevium primo actui quod non credo esse necessarium nec verum, et cum probatur quod habitus vel species non distinguitur ab actu nec econtra per speciem in sensu.
+                </p> 
                 
-                <p xml:id="b1d3qun-dqsiea">Dicendum quod 
-                  sensus dupliciter sumitur. Uno modo pro potentia seu natura vitali receptiva 
-                  immediate sensationis et in illa non recipitur species alia 
-                  praevia primo actui. Posteriorem tamen bene recipit qualitatem quae 
-                  saepe vocatur species ab auctoritatibus, et secundum veritatem est habitus. 
-                  Alio modo accipitur sensus pro composito ex tali potentia et organo 
-                  corporeo cuius est actus et forma, et sic loquendo in sensu, 
-                  id est, in organo quod est altera pars sic accepti, sensus recipitur 
-                  species quae est composita  activa sensationis requisita necessario ad 
-                  naturalem causationem sensationis exterioris, licet ipsa non sufficiat 
-                  cum sensu sine actione propria obiecti. Et hoc est quod additur quod in 
-                  sensu eadem est actio sensus et sensibilis, quia ista sensatio est 
-                  actio aucta utriusque. Et eodem modo proportionaliter est de intellectione 
-                  intuitiva. Et si quis vocet illam sensationem vel intellectionem 
-                  speciem obiecti, id est, similitudinem seu imaginem eius, certe concedendum est quod 
-                  a specie sic: data non distinguitur actualis sensatio. Sed sic 
+                <p xml:id="b1d3qun-dqsiea">
+                  Dicendum quod sensus dupliciter sumitur. Uno modo pro potentia seu natura vitali receptiva immediate sensationis et in illa non recipitur species alia praevia primo actui. Posteriorem tamen bene recipit qualitatem quae saepe vocatur species ab auctoritatibus, et secundum veritatem est habitus. Alio modo accipitur sensus pro composito ex tali potentia et organo corporeo cuius est actus et forma, et sic loquendo in sensu, id est, in organo quod est altera pars sic accepti, sensus recipitur species quae est composita activa sensationis requisita necessario ad naturalem causationem sensationis exterioris, licet ipsa non sufficiat cum sensu sine actione propria obiecti. Et hoc est quod additur quod in sensu eadem est actio sensus et sensibilis, quia ista sensatio est actio aucta utriusque. Et eodem modo proportionaliter est de intellectione intuitiva. Et si quis vocet illam sensationem vel intellectionem speciem obiecti, id est, similitudinem seu imaginem eius, certe concedendum est quod a specie sic: data non distinguitur actualis sensatio. Sed sic 
                   <pb ed="#S" n="81-v" />
                   <cb ed="#S" n="b" /> 
-                  loqui est extra propositum. Loqui et eodem modo est eadem actio 
-                  auditus et sonantis, scilicet, ipsum audire, sicut ipsamet exprimit 
-                  auctoritas.</p>
+                  loqui est extra propositum. Loqui et eodem modo est eadem actio auditus et sonantis, scilicet, ipsum audire, sicut ipsamet exprimit auctoritas.
+                </p>
               </div>
+              
               <div>
                 <head><supplied>Ad secundum principale argumentum huius dubii secundi</supplied></head>
                 <p xml:id="b1d3qun-asanis">
                   <cit>
                     <ref>Ad secundum</ref>
-                    <bibl>vide supra [cross reference</bibl>
+                    <bibl>vide supra [cross reference]</bibl>
                   </cit> 
-                  de mutua circulatione in causatione 
-                  alicuius portionis habitus ab actu, et econtra, usque ad 
-                  summum statum, cum potentia sit summe disposita et ita activa, mere 
-                  naturaliter agant actus, scilicet, ad causationem portionis habitus, et 
-                  econtra ista portio ad causandum particulam novam actus. 
-                  Et sic deinceps respondeo ut alias alibi positio quod concesso tali 
-                  processu mutuo primus actus causans habitum inclinatum in 
-                  actum similem relinquit unam portionem de specie habitus quae portio 
-                  vocatur forte dispositio non differens ab habitu nisi sicut imperfectum 
-                  a perfectiori eiusdem speciei. Et haec dispositio, quae vocetur tunc A, 
-                  iuvat intellectum ut possit in portionem parvissimam novam 
-                  actus multo minorem priori, quia, respectu prioris, egit intellectus secundum 
-                  ultimum potentiae suae cum actu intuitivo eiusdem obiecti, et parum plus 
-                  potest noviter intellectus cum illa dispositione quam prius secundum intensionem et vocetur 
-                  illa portiuncula addita primo actui abstractivo B, tunc 
-                  B est multo minor quam actus cui additur, et per consequens minorem 
-                  portionem causabit de habitu quam erat portio A. Et ita continue proceditur 
-                  hinc inde ad minus et minus semper quam prius donec utrumque finaliter omnis 
-                  deficiat ulterior additio et sic sistetur in aliquo forsan 
-                  citra summum ibi causabile ex omnibus illis portionibus per illum modum 
-                  additis compositum. Ita est ut communiter saltem et hoc dixi de primo 
-                  actu abstractivo, quod respectu intuitivorum non est potentia habitualis et per nullum 
-                  habitum potest in tales, nam actus, qui generant habitum, sunt tales 
-                  in quales iterato inclinat habitus, et illi non sunt nisi abstractivi, 
-                  nec in intellectu nec in sensu. </p>
+                  de mutua circulatione in causatione alicuius portionis habitus ab actu, et econtra, usque ad summum statum, cum potentia sit summe disposita et ita activa, mere naturaliter agant actus, scilicet, ad causationem portionis habitus, et econtra ista portio ad causandum particulam novam actus. Et sic deinceps respondeo ut alias alibi positio quod concesso tali processu mutuo primus actus causans habitum inclinatum in actum similem relinquit unam portionem de specie habitus quae portio vocatur forte dispositio non differens ab habitu nisi sicut imperfectum a perfectiori eiusdem speciei. Et haec dispositio, quae vocetur tunc A, iuvat intellectum ut possit in portionem parvissimam novam actus multo minorem priori, quia, respectu prioris, egit intellectus secundum ultimum potentiae suae cum actu intuitivo eiusdem obiecti, et parum plus potest noviter intellectus cum illa dispositione quam prius secundum intensionem et vocetur illa portiuncula addita primo actui abstractivo B, tunc B est multo minor quam actus cui additur, et per consequens minorem portionem causabit de habitu quam erat portio A. Et ita continue proceditur hinc inde ad minus et minus semper quam prius donec utrumque finaliter omnis deficiat ulterior additio et sic sistetur in aliquo forsan citra summum ibi causabile ex omnibus illis portionibus per illum modum additis compositum. Ita est ut communiter saltem et hoc dixi de primo actu abstractivo, quod respectu intuitivorum non est potentia habitualis et per nullum habitum potest in tales, nam actus, qui generant habitum, sunt tales in quales iterato inclinat habitus, et illi non sunt nisi abstractivi, nec in intellectu nec in sensu.
+                </p>
                 
-                <p xml:id="b1d3qun-hqcsif">Haec est responsio modo communior, scilicet, 
-                  quod cum habetur actus primus sensationis intuitivae vel intensione intellectionis 
-                  simul tempore semper virtute illius habetur duplex in homine: notitia abstractiva 
-                  eiusdem una individualis et alia specifica, quarum duarum 
-                  utraque stanti relinquit dispositionem vel habitum, qui, cum intellectu, sufficiat 
-                  post in absentia obiecti, tunc intuitivae cogitati ad abstractivum actum 
-                  in qualem non poterat ante intuitionem talis obiecti. Et tunc est 
-                  respondendum quod in prima generatione habitus est potentia ita attenta circa primum 
-                  obiectum suum mediante cogitatione eius intuitiva quod nihil advertit de 
-                  abstractiva sua cognitione, sed solum per discursum postea sibi 
-                  innotescit quod talis causabatur quia habitum in potentia derelinquit et dicere 
-                  secundum hanc suam responsionem secundam quod portio primo causata de habitu 
-                  nihil ultra de actu disponit sed causabatur. Ideo ut esset 
-                  principium actus ulterius in futuro et quod postea quando, cum isto habitu, 
-                  intellectus principat novum actum propria virtute et habitus. Verum 
-                  est quod actus causatus relinquit additionem ad habitum priorem, 
-                  sed illa portio habitus advertens priori ex novo actu qui 
-                  actus processit ab intellectu et priori habitu nihil agit ad actum ex 
-                  quo causatur ita vice et hoc quia intellectus est iam prius natura latus 
-                  et adhibitus tantum illi obiecto respectu cuius est ille actus causatus  
-                  virtute sui et habitus philosophici quantum potest pro ista vice prius 
-                  natura ut dixi quam informe habita portione habitus nova 
-                  nec ideo ingeniavit natura habitum causari vel talem habitus portionem 
-                  ut tunc serviat ad actum aliquem cum positio est, sed ideo potius 
-                  illa nova portio accrescit ut ipsa serviat in futurum.</p>
+                <p xml:id="b1d3qun-hqcsif">
+                  Haec est responsio modo communior, scilicet, quod cum habetur actus primus sensationis intuitivae vel intensione intellectionis simul tempore semper virtute illius habetur duplex in homine: notitia abstractiva eiusdem una individualis et alia specifica, quarum duarum utraque stanti relinquit dispositionem vel habitum, qui, cum intellectu, sufficiat post in absentia obiecti, tunc intuitivae cogitati ad abstractivum actum in qualem non poterat ante intuitionem talis obiecti. Et tunc est respondendum quod in prima generatione habitus est potentia ita attenta circa primum obiectum suum mediante cogitatione eius intuitiva quod nihil advertit de abstractiva sua cognitione, sed solum per discursum postea sibi innotescit quod talis causabatur quia habitum in potentia derelinquit et dicere secundum hanc suam responsionem secundam quod portio primo causata de habitu nihil ultra de actu disponit sed causabatur. Ideo ut esset principium actus ulterius in futuro et quod postea quando, cum isto habitu, intellectus principat novum actum propria virtute et habitus. Verum est quod actus causatus relinquit additionem ad habitum priorem, sed illa portio habitus advertens priori ex novo actu qui actus processit ab intellectu et priori habitu nihil agit ad actum ex quo causatur ita vice et hoc quia intellectus est iam prius natura latus et adhibitus tantum illi obiecto respectu cuius est ille actus causatus virtute sui et habitus philosophici quantum potest pro ista vice prius natura ut dixi quam informe habita portione habitus nova nec ideo ingeniavit natura habitum causari vel talem habitus portionem ut tunc serviat ad actum aliquem cum positio est, sed ideo potius illa nova portio accrescit ut ipsa serviat in futurum.
+                </p>
                 
-                <p xml:id="b1d3qun-esissn">Et secundum istam responsionem negatur tota fantasia de mutuis reflexionibus 
-                  habituum et actuum in causando, quia statim ponit quod habituus portio 
-                  non apponit aliquid ad actum ex quo processit cum etiam, ut praetactum 
-                  est, intellectus non adhibetur obiecto nisi applicetur causaliter 
-                  nisi mediante habitu primo huic portioni quo se iam contulit 
-                  in obiectum tale mediante isto actu quam potentia eliciebat sic 
-                  habituata alias cum bene poterit potentia illa mediante toto 
+                <p xml:id="b1d3qun-esissn">
+                  Et secundum istam responsionem negatur tota fantasia de mutuis reflexionibus habituum et actuum in causando, quia statim ponit quod habituus portio non apponit aliquid ad actum ex quo processit cum etiam, ut praetactum est, intellectus non adhibetur obiecto nisi applicetur causaliter nisi mediante habitu primo huic portioni quo se iam contulit in obiectum tale mediante isto actu quam potentia eliciebat sic habituata alias cum bene poterit potentia illa mediante toto 
                   <pb ed="#S" n="82-r" />
-                  <cb ed="#S" n="a" />habitu composito ex parte habitus nunc genita et priori in actum 
-                  perfectiorem quam sit ille quae nunc elicit mediante priori habitus 
-                  parte. Huius responsionis sive sic vera sive non et difficile reddere 
-                  claram causam aliam qua nunc dictam  sive illa sufficiat sive non.</p>
+                  <cb ed="#S" n="a" />
+                  habitu composito ex parte habitus nunc genita et priori in actum perfectiorem quam sit ille quae nunc elicit mediante priori habitus parte. Huius responsionis sive sic vera sive non et difficile reddere claram causam aliam qua nunc dictam sive illa sufficiat sive non.
+                </p>
                 
-                <p xml:id="b1d3qun-ctpasd">Contra tamen priorem responsionem est argumentum unum probabile quia quantumcumque 
-                  sic decrescat augmentum habitus ex una parte et actus 
-                  ex alia et bene vitetur actus et habitus infinitas intensiva 
-                  per hunc modum immo quod ad modicum hinc, inde stetur 
-                  tamen de habitu illo ad quem  pervenitur ex omnibus portionibus illis. 
-                  Composito quaeretur an sit causatus a toto actu [et] ex parte alia 
-                  et, pari ratione, ex parte alia de actu composito ex omnibus actuum 
-                  portionibus praeter primum qui non processit ab habitu; an iste 
-                  actus causabatur ex habitu isto qui totus pervenerat ex 
-                  actu illo prius habito et sequentibus compositis per portiones habitus 
-                  vel non. Si sic, videtur esse circulus in causis et quod idem per consequens erit a se. 
-                  Si non, contra totus B est causatus a quo. Igitur et similiter totus A et D  
-                  est causatus a quo. Igitur sit habitus iste totus B, et primus actus, 
-                  qui omnem praecessit habitum, sit A, et actus compositus ex illo 
-                  et sequentibus sit C et compositus ex residuis partibus praeter A 
-                  sit D.</p>
+                <p xml:id="b1d3qun-ctpasd">
+                  Contra tamen priorem responsionem est argumentum unum probabile quia quantumcumque sic decrescat augmentum habitus ex una parte et actus ex alia et bene vitetur actus et habitus infinitas intensiva per hunc modum immo quod ad modicum hinc, inde stetur tamen de habitu illo ad quem pervenitur ex omnibus portionibus illis. Composito quaeretur an sit causatus a toto actu [et] ex parte alia et, pari ratione, ex parte alia de actu composito ex omnibus actuum portionibus praeter primum qui non processit ab habitu; an iste actus causabatur ex habitu isto qui totus pervenerat ex actu illo prius habito et sequentibus compositis per portiones habitus vel non. Si sic, videtur esse circulus in causis et quod idem per consequens erit a se. Si non, contra totus B est causatus a quo. Igitur et similiter totus A et D est causatus a quo. Igitur sit habitus iste totus B, et primus actus, qui omnem praecessit habitum, sit A, et actus compositus ex illo et sequentibus sit C et compositus ex residuis partibus praeter A sit D.
+                </p>
                 
-                <p xml:id="b1d3qun-prhmvm">Hic poterit responderi secundum duplicem fantasiam. Una 
-                  est quod tandem venietur vel ad actum ita debilem et remissum 
-                  quod iste non sufficiet ulterius causare portionem aliquam habitus 
-                  ulteriorem vel e converso quod tandem venietur ad portionem causandam 
-                  habitus a portione actus ultimo praetacta provenientem ita 
-                  remissam et debilem quod illa habitus portio non 
-                  erit prae[?] sui debilitate ac remissione sufficiens ad aliquid vel 
-                  terminus[?tertius] actui apponendum et hoc poterit quandoque contingere ex 
-                  una parte quandoque ex alia secundum portionem et exigentiam quantitatis 
-                  virtutis primae maioris vel minoris.</p> 
+                <p xml:id="b1d3qun-prhmvm">
+                  Hic poterit responderi secundum duplicem fantasiam. Una est quod tandem venietur vel ad actum ita debilem et remissum quod iste non sufficiet ulterius causare portionem aliquam habitus ulteriorem vel e converso quod tandem venietur ad portionem causandam habitus a portione actus ultimo praetacta provenientem ita remissam et debilem quod illa habitus portio non erit prae[?] sui debilitate ac remissione sufficiens ad aliquid vel terminus[?tertius] actui apponendum et hoc poterit quandoque contingere ex una parte quandoque ex alia secundum portionem et exigentiam quantitatis virtutis primae maioris vel minoris.
+                </p> 
                 
-                <p xml:id="b1d3qun-echmvr">Et contra hanc responsionem obstare 
-                  non video nisi unum. Verum quod non est dare minimum actum in 
-                  specie aliqua mere naturaliter agentium. Inexistens portio autem ultimo 
-                  addita est suo toti in eodem instanti quo primo est particula 
-                  alia inexistens, igitur nulla erit ratio quin ipsa debeat agere 
-                  ut priores. Maior huius rationis declarari posset inductive, licet enim 
-                  sit dare albidinem maximam, quae a certa distantia, ceteris paribus, 
-                  non poterit visum creatum immutare ad visionem sui, vel enim 
-                  oportet hoc vel oportet dare minimam a tali distantia visibilem, et tunc 
-                  oportet naturaliter dare ultimum rei permanentis in esse, ut alias probavi 
-                  sequi et nihilominus falsum esse. Ex quo tamen ipsa est maxima quae videri 
-                  non potest a tali distantia, ceteris paribus, a visu dato sequitur 
-                  quod non est dare ita parvam sibi possibilem addi secundum latum 
-                  ad superficiem istius albedinis ad nos versam quin ab illa distantia 
-                  poterit resultans videri et agere in sensum illum et per consequens cum 
-                  totum non possit agere illa substracta ipsa erit virtus activa 
-                  partialis eiusdem activi totalis in hoc passu, et ita arguam 
-                  per idem medium quod ignis quantumcumque parvus agere possit 
-                  inpassum hic positum in quacumque distantia certa ab eo quantumcumque 
-                  magna ponam et si distet ad spatium millo mundorum 
-                  tanto poterit toti inexistere quod hinc agat quod concedo et 
-                  ideo non possum illam iam positam responsionem in casu argumenta facta licet 
-                  pulchra, et probabilis appareat prima facie sustinere nisi vellem dicere 
-                  quod totum aliquod cuius auctoritas intelligatur ex omnibus et ex qualibet 
-                  sui parte agit in aliquid in quod medietas virtutis secundum quam operatur, 
-                  nihil agit quod non esset, ut mihi videtur rationabile.</p>
+                <p xml:id="b1d3qun-echmvr">
+                  Et contra hanc responsionem obstare non video nisi unum. Verum quod non est dare minimum actum in specie aliqua mere naturaliter agentium. Inexistens portio autem ultimo addita est suo toti in eodem instanti quo primo est particula alia inexistens, igitur nulla erit ratio quin ipsa debeat agere ut priores. Maior huius rationis declarari posset inductive, licet enim sit dare albidinem maximam, quae a certa distantia, ceteris paribus, non poterit visum creatum immutare ad visionem sui, vel enim oportet hoc vel oportet dare minimam a tali distantia visibilem, et tunc oportet naturaliter dare ultimum rei permanentis in esse, ut alias probavi sequi et nihilominus falsum esse. Ex quo tamen ipsa est maxima quae videri non potest a tali distantia, ceteris paribus, a visu dato sequitur quod non est dare ita parvam sibi possibilem addi secundum latum ad superficiem istius albedinis ad nos versam quin ab illa distantia poterit resultans videri et agere in sensum illum et per consequens cum totum non possit agere illa substracta ipsa erit virtus activa partialis eiusdem activi totalis in hoc passu, et ita arguam per idem medium quod ignis quantumcumque parvus agere possit inpassum hic positum in quacumque distantia certa ab eo quantumcumque magna ponam et si distet ad spatium millo mundorum tanto poterit toti inexistere quod hinc agat quod concedo et ideo non possum illam iam positam responsionem in casu argumenta facta licet pulchra, et probabilis appareat prima facie sustinere nisi vellem dicere quod totum aliquod cuius auctoritas intelligatur ex omnibus et ex qualibet sui parte agit in aliquid in quod medietas virtutis secundum quam operatur, nihil agit quod non esset, ut mihi videtur rationabile.
+                </p>
                 
-                <p xml:id="b1d3qun-apftpr"><supplied>Secunda Responsio</supplied> aliter poterit fantasari 
-                  quod non sit dare ultimam portionem habitus quae sufficiat causare liquid[?] 
-                  de actu nec econtra, sed sit utrerque processus hinc inde sine fine 
-                  ex ea parte versus quam hinc inde itur semper ad minus et minus 
-                  sicut est de proportionibus partibus pedalis lineae quarum partium prima 
-                  sit eius medietas secunda medietas residui et sic sine fine, 
-                  id est, sine ultima et cui videbitur haec secunda fantasia non vera necesse 
-                  habebit totam primam responsionem.</p>
+                <p xml:id="b1d3qun-apftpr">
+                  <supplied>Secunda Responsio</supplied> aliter poterit fantasari quod non sit dare ultimam portionem habitus quae sufficiat causare liquid[?] de actu nec econtra, sed sit utrerque processus hinc inde sine fine ex ea parte versus quam hinc inde itur semper ad minus et minus sicut est de proportionibus partibus pedalis lineae quarum partium prima sit eius medietas secunda medietas residui et sic sine fine, id est, sine ultima et cui videbitur haec secunda fantasia non vera necesse habebit totam primam responsionem.
+                </p>
                 
                 <p xml:id="b1d3qun-aapeas">Ad argumentum principale cui innixus sum in 
                   <pb ed="#S" n="82-r" />
                   <cb ed="#S" n="b" /> 
-                  respondendo dimittere et se ponere ad secundam. Sed hanc sustinendo cum 
-                  quaeretur aut totus habitus ille B causatur ibi ab aliquo vel non. B constat 
-                  enim quod causatus sic ab aliquo vel aliquibus actibus vel dabitur aliquis 
-                  actus causatus naturaliter et non ab actu vel actibus quibuscumque quod mihi non 
-                  videtur dandum, mihi videtur quod melius dicitur dicendo quod ab actibus quam quod 
-                  ab actu, quia multae, immo infinitae partes actus, a quo diceretur 
-                  causari, causantur, econverso ab habitus huius partibus. Sed econverso non est 
-                  dandum quod totus actus C tenetur ab  habitu vel habitibus ex 
-                  parte alia, quia A actus praecessit omnes per positum, totus tamen D 
-                  actus est causatus ab habitu vel habitibus ibi datis et quia actus 
-                  A non procedit ab actu aliquo. Ideo non est ibi circulus 
-                  ne argui possit idem A seipso causari mediante  isto processu 
-                  mutuo praeconcesso secundum primam responsionem. Si autem quaeratur 
-                  ulterius secundum hanc fantasiam utrum totus habitus B sumpto ly totus 
-                  categorematice causet ibi actum aliquem, et pari ratione econtra utrum totus actus causet 
-                  ibi habitum aliquem vel effectum adaequatum sibi?</p>
+                  respondendo dimittere et se ponere ad secundam. Sed hanc sustinendo cum quaeretur aut totus habitus ille B causatur ibi ab aliquo vel non. B constat enim quod causatus sic ab aliquo vel aliquibus actibus vel dabitur aliquis actus causatus naturaliter et non ab actu vel actibus quibuscumque quod mihi non videtur dandum, mihi videtur quod melius dicitur dicendo quod ab actibus quam quod ab actu, quia multae, immo infinitae partes actus, a quo diceretur causari, causantur, econverso ab habitus huius partibus. Sed econverso non est dandum quod totus actus C tenetur ab habitu vel habitibus ex parte alia, quia A actus praecessit omnes per positum, totus tamen D actus est causatus ab habitu vel habitibus ibi datis et quia actus A non procedit ab actu aliquo. Ideo non est ibi circulus ne argui possit idem A seipso causari mediante isto processu mutuo praeconcesso secundum primam responsionem. Si autem quaeratur ulterius secundum hanc fantasiam utrum totus habitus B sumpto ly totus categorematice causet ibi actum aliquem, et pari ratione econtra utrum totus actus causet ibi habitum aliquem vel effectum adaequatum sibi?
+                </p>
                 
-                <p xml:id="b1d3qun-rmvpsc">Respondendum mihi videtur quod 
-                  licet utrumque totus causetur ut praedixi neuter, tamen totus aliquid causat neuter, 
-                  enim totus habet ibi aliquid posterius se secundum naturam, quia non est 
-                  maior ratio quod iste totus quam ille cum ex utraque parte fuerit 
-                  processus in generationibus sine fine, id est, sine ultimo genito, et 
-                  tamen omnis effectus sed naturam est posterior sua causa.</p>
+                <p xml:id="b1d3qun-rmvpsc">
+                  Respondendum mihi videtur quod licet utrumque totus causetur ut praedixi neuter, tamen totus aliquid causat neuter, enim totus habet ibi aliquid posterius se secundum naturam, quia non est maior ratio quod iste totus quam ille cum ex utraque parte fuerit processus in generationibus sine fine, id est, sine ultimo genito, et tamen omnis effectus sed naturam est posterior sua causa.
+                </p>
                 
-                <p xml:id="b1d3qun-ciqieb">Contra in quocumque 
-                  passo uniformiter praesente utrisque, potest causa alia mere naturaliter 
-                  activa alicuius speciei habere effectum ab eo causatum potest et 
-                  causa perfectior et intensior eiusdem speciei quando est perfectior. Sed B habitus 
-                  et prima eius pars quae causabatur totaliter a posito actu A, quae prima pars 
-                  habitus illius, vocetur E. B inquam et E sunt eiusdem speciei ultimae 
-                  seu specissimae et B est perfectius in illa specie quam E sicut omne 
-                  totum sua parte et E in potentia ista utraque aequaliter praesenti habet effectum 
-                  posteriorem se secundum naturam igitur et B.</p>
+                <p xml:id="b1d3qun-ciqieb">
+                  Contra in quocumque passo uniformiter praesente utrisque, potest causa alia mere naturaliter activa alicuius speciei habere effectum ab eo causatum potest et causa perfectior et intensior eiusdem speciei quando est perfectior. Sed B habitus et prima eius pars quae causabatur totaliter a posito actu A, quae prima pars habitus illius, vocetur E. B inquam et E sunt eiusdem speciei ultimae seu specissimae et B est perfectius in illa specie quam E sicut omne totum sua parte et E in potentia ista utraque aequaliter praesenti habet effectum posteriorem se secundum naturam igitur et B.
+                </p>
                 
-                <p xml:id="b1d3qun-reqcie">Respondendum est quod maior, licet 
-                  sit valde, apparens falsa, tamen est in casu argumenti secundum hanc responsionem 
-                  fantasiae quae pertracto non enim oportet quod illud perfectius habeat effectum 
-                  aliquem se toto simul sumpto vel qualibet eius parte posteriorem in 
-                  tali passo sed sufficit quod eius partes tales quae sit mutuo  
-                  producebantur ad quas pervenitur circa finem. Talis processus habeant  
-                  effectus suos ad hoc stantes et in mentem componentes 
-                  in illa potentia quibus in ea stantibus totus iste 
+                <p xml:id="b1d3qun-reqcie">
+                  Respondendum est quod maior, licet sit valde, apparens falsa, tamen est in casu argumenti secundum hanc responsionem fantasiae quae pertracto non enim oportet quod illud perfectius habeat effectum aliquem se toto simul sumpto vel qualibet eius parte posteriorem in tali passo sed sufficit quod eius partes tales quae sit mutuo producebantur ad quas pervenitur circa finem. Talis processus habeant effectus suos ad hoc stantes et in mentem componentes in illa potentia quibus in ea stantibus totus iste 
                   <app>
                     <lem>B</lem>
                     <rdg wit="#S" type="correction-addition">
                     	<add place="margin">B</add>
                     </rdg>
                   </app> 
-                  habitus simul sumptus 
-                  plus non potest sed illis amotis plus 
+                  habitus simul sumptus plus non potest sed illis amotis plus 
                   <app>
                     <lem>multo</lem>
                     <rdg wit="#S" type="correction-addition">
@@ -5680,26 +5750,8 @@
                     	<add place="aboveLine">C</add>
                     </rdg>
                   </app> 
-                  producere sicut faciet alias forte postea postquam 
-                  cessantibus omnibus illis actibus partialibus totus agat quod 
-                  modo per similem patet in rebus extensis sic ita quod A calor 
-                  pedalis calefaciat ignem circumstantem usque ad aliquam 
-                  distantiam et calor ab illo posito causatus ulteriorem et ita deinceps 
-                  donec semper pars posterior remissius agendo quam prior ita 
-                  suas procedant[?] actiones usque modo cessent agere isto modo totus 
-                  calor compositus secundum extentionem ex omnibus illis quorum quaelibet 
-                  pertingere imaginatur usque ad remotiorem est calor  ita perfectus 
-                  sicut sua prima pars et tamen non potest agere in passum sibi 
-                  immediatum secundum situm et cum prima pars eius egit in passum sibi 
-                  immediatius secundum situm et est ibi causa proportionalis priori quod quaelibet eius 
-                  pars sistens circa finem huius protensionis egit quantum potuit 
-                  et ex remissioritate continua venitur usque ad defectionem et in potentiam 
-                  ulterius sit agendi hic tamen in exemplo est illud imaginabilius sed 
-                  protensionem quem in proposito de quo inquiritur nisi quod ibi magis 
-                  patet qualiter quaelibet portio illarum in quibus processit illa mutua 
-                  reproductio sistet alicubi circa finem processus habet effectum 
-                  sibi aequatum quem et continuat in casu argumenti, et ideo non 
-                  potest plus quasi agere illo remanente in illa potentia quam C istam egit</p> 
+                  producere sicut faciet alias forte postea postquam cessantibus omnibus illis actibus partialibus totus agat quod modo per similem patet in rebus extensis sic ita quod A calor pedalis calefaciat ignem circumstantem usque ad aliquam distantiam et calor ab illo posito causatus ulteriorem et ita deinceps donec semper pars posterior remissius agendo quam prior ita suas procedant[?] actiones usque modo cessent agere isto modo totus calor compositus secundum extentionem ex omnibus illis quorum quaelibet pertingere imaginatur usque ad remotiorem est calor ita perfectus sicut sua prima pars et tamen non potest agere in passum sibi immediatum secundum situm et cum prima pars eius egit in passum sibi immediatius secundum situm et est ibi causa proportionalis priori quod quaelibet eius pars sistens circa finem huius protensionis egit quantum potuit et ex remissioritate continua venitur usque ad defectionem et in potentiam ulterius sit agendi hic tamen in exemplo est illud imaginabilius sed protensionem quem in proposito de quo inquiritur nisi quod ibi magis patet qualiter quaelibet portio illarum in quibus processit illa mutua reproductio sistet alicubi circa finem processus habet effectum sibi aequatum quem et continuat in casu argumenti, et ideo non potest plus quasi agere illo remanente in illa potentia quam C istam egit.
+                </p> 
               </div>
             </div>
           </div>
