@@ -6492,7 +6492,12 @@
                   modo est eadem actio 
                   <app>
                     <lem>auditus</lem>
-                    <rdg wit="#T" type="variation-substance">habitus</rdg>
+                    <rdg wit="#T" type="correction-substitution">
+                      <subst>  
+                        <del>habitus</del>
+                        <add>auditus</add>
+                      </subst>
+                    </rdg>
                   </app>
                   <app>
                     <lem>et</lem>
@@ -6509,12 +6514,173 @@
 
               <div>
                 <head><supplied>Ad secundum principale argumentum huius dubii secundi</supplied></head>
+                <!--  -->
+                <!-- #T is unreadable from this point until next page. -->
+                <!--  -->
+                
                 <p xml:id="b1d3qun-asanis">
                   <cit>
                     <ref>Ad secundum</ref>
                     <bibl>vide supra [cross reference]</bibl>
                   </cit>
-                  de mutua circulatione in causatione alicuius portionis habitus ab actu, et econtra, usque ad summum statum, cum potentia sit summe disposita et ita activa, mere naturaliter agant actus, scilicet, ad causationem portionis habitus, et econtra ista portio ad causandum particulam novam actus. Et sic deinceps respondeo ut alias alibi positio quod concesso tali processu mutuo primus actus causans habitum inclinatum in actum similem relinquit unam portionem de specie habitus quae portio vocatur forte dispositio non differens ab habitu nisi sicut imperfectum a perfectiori eiusdem speciei. Et haec dispositio, quae vocetur tunc A, iuvat intellectum ut possit in portionem parvissimam novam actus multo minorem priori, quia, respectu prioris, egit intellectus secundum ultimum potentiae suae cum actu intuitivo eiusdem obiecti, et parum plus potest noviter intellectus cum illa dispositione quam prius secundum intensionem et vocetur illa portiuncula addita primo actui abstractivo B, tunc B est multo minor quam actus cui additur, et per consequens minorem portionem causabit de habitu quam erat portio A. Et ita continue proceditur hinc inde ad minus et minus semper quam prius donec utrumque finaliter omnis deficiat ulterior additio et sic sistetur in aliquo forsan citra summum ibi causabile ex omnibus illis portionibus per illum modum additis compositum. Ita est ut communiter saltem et hoc dixi de primo actu abstractivo, quod respectu intuitivorum non est potentia habitualis et per nullum habitum potest in tales, nam actus, qui generant habitum, sunt tales in quales iterato inclinat habitus, et illi non sunt nisi abstractivi, nec in intellectu nec in sensu.
+                  de mutua circulatione in causatione alicuius portionis habitus 
+                  <app>
+                    <lem>ab actu</lem>
+                    <rdg wit="#M #V" type="variation-absent" />
+                  </app>,
+                  et econtra, 
+                  
+                  <app>
+                    <lem>
+                      usque ad summum statum, 
+                      cum potentia sit summe disposita et ita activa, 
+                      mere naturaliter agant actus, scilicet, 
+                      ad causationem portionis habitus, 
+                      et econtra ista portio ad causandum particulam novam actus. 
+                      Et sic deinceps
+                    </lem>
+                    <rdg wit="#M #V" type="variation-absent" />
+                  </app>
+                  respondeo ut alias alibi 
+                  <app>
+                    <lem>positio</lem>
+                    <rdg wit="#M" type="variation-substance">primo</rdg>
+                  </app>
+                  quod concesso tali processu mutuo primus 
+                  <app>
+                    <lem>actus</lem>
+                    <rdg wit="#V" type="correction-addition">
+                      <add place="margin">actus</add>
+                    </rdg>
+                    <rdg wit="#M" type="variation-absent" />
+                  </app>
+                  causans habitum inclinatum 
+                  <app>
+                    <lem>in</lem>
+                    <rdg wit="#M" type="variation-substance">ad</rdg>
+                  </app>
+                  actum similem relinquit unam portionem de specie habitus quae portio vocatur forte dispositio non differens ab habitu nisi sicut imperfectum a perfectiori eiusdem speciei. 
+                  Et 
+                  <app>
+                    <lem>haec</lem>
+                    <rdg wit="#M1" type="correction-addition">
+                      <add place="in-line">haec</add>
+                    </rdg>
+                  </app>
+                  dispositio, quae vocetur 
+                  <app>
+                    <lem>tunc</lem>
+                    <rdg  wit="#M" type="variation-absent"/>
+                  </app>
+                  <mentioned>a</mentioned>, iuvat intellectum ut possit in portionem 
+                  <app>
+                    <lem>parvissimam</lem>
+                    <rdg wit="#M" type="variation-substance"><unclear>parvuli?am</unclear></rdg>
+                  </app>
+                  novam actus multo 
+                  <app>
+                    <lem>minorem</lem>
+                    <rdg wit="#M" type="variation-substance">minor est</rdg>
+                  </app>
+                  priori, 
+                  quia respectu prioris egit intellectus secundum ultimum potentiae 
+                  <app>
+                    <lem>suae</lem>
+                    <rdg wit="#M" type="variation-absent" />
+                  </app>
+                  cum actu intuitivo eiusdem obiecti, 
+                  <!--  -->
+                  <pb ed="#T" n="58v"/>
+                  <cb ed="#T" n="a"/>
+                  <!-- #T's transcription resumes here -->
+                  et 
+                  <app>
+                    <lem>parum</lem>
+                    <rdg wit="#M" type="variation-substance">parvum</rdg>
+                  </app>
+                  plus potest noviter intellectus cum illa dispositione quam prius secundum intensionem 
+                  et vocetur illa portiuncula addita primo actui abstractivo <mentioned>b</mentioned>, 
+                  tunc <mentioned>b</mentioned> est multo minor quam actus cui additur, 
+                  et per consequens minorem portionem causabit de habitu quam erat 
+                  <app>
+                    <lem>portio</lem>
+                    <rdg wit="#M" type="variation-substance">proportio</rdg>
+                  </app>
+                  <mentioned>a</mentioned>. 
+                  Et ita continue 
+                  <app>
+                    <lem>proceditur</lem>
+                    <rdg wit="#T #V" type="variation-substance">procedetur</rdg>
+                  </app>
+                  hinc inde ad minus et minus semper quam 
+                  <app>
+                    <lem>prius</lem>
+                    <rdg wit="#M" type="variation-substance">prior</rdg>
+                  </app>
+                  donec utrumque 
+                  <app>
+                    <lem n="utrumque" />
+                    <rdg wit="#S" type="variation-present">finaliter</rdg>
+                  </app>
+                  omnis deficiat ulterior 
+                  <app>
+                    <lem>additio</lem>
+                    <rdg wit="#M" type="variation-substance">addendo</rdg>
+                  </app>
+                  et sic sistetur 
+                  <app>
+                    <lem>in aliquo forsan</lem>
+                    <rdg wit="#M #T" type="variation-inversion">forsan in aliquo</rdg>
+                  </app>
+                  citra summum ibi causabile ex omnibus illis portionibus per illum modum 
+                  <app>
+                    <lem>additis</lem>
+                    <rdg wit="#M" type="variation-substance">additum</rdg>
+                  </app>
+                  <app>
+                    <lem>compositum</lem>
+                    <rdg wit="#M #V" type="variation-absent"/>
+                  </app>. 
+                  Ita est ut 
+                  <app>
+                    <lem>communiter</lem>
+                    <rdg wit="#M" type="variation-substance">convenit</rdg>
+                  </app>
+                  saltem et hoc dixi de primo actu abstractivo, 
+                  <app>
+                    <lem>quia</lem>
+                    <rdg wit="#S" type="variation-substance">quod</rdg>
+                  </app>
+                  respectu 
+                  <app>
+                    <lem>intuitivorum</lem>
+                    <rdg wit="#M" type="variation-absent"></rdg>
+                  </app>
+                  non est potentia habitualis 
+                  <app>
+                    <lem>quia</lem>
+                    <rdg wit="#S" type="variation-substance">et</rdg>
+                  </app>
+                  per nullum habitum potest 
+                  <app>
+                    <lem>in tales</lem>
+                    <rdg wit="#M" type="variation-substance">intellectus</rdg>
+                  </app>,
+                  <app>
+                    <lem>et</lem>
+                    <rdg wit="#S" type="variation-substance">nam</rdg>
+                  </app>
+                  actus qui generant habitum sunt tales 
+                  <app>
+                    <lem n="tales" />
+                    <rdg wit="#S" type="variation-present">in</rdg>
+                  </app>
+                  quales iterato inclinat habitus, 
+                  <app>
+                    <lem>et illi non</lem>
+                    <rdg wit="#M" type="variation-substance">in illis nec</rdg>
+                  </app>
+                  sunt nisi abstractivi, nec in intellectu nec in sensu.
                 </p>
 
                 <p xml:id="b1d3qun-hqcsif">
