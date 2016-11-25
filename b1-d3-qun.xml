@@ -5688,7 +5688,11 @@
                   <lem>similis</lem>
                   <rdg wit="#M #T #V" type="variation-substance">simillimus</rdg>
                 </app>
-                alteri sicut nec conceptus cui correspondet
+                alteri sicut 
+                <!--  -->
+                <cb ed="#T" n="b"/>
+                <!--  -->
+                nec conceptus cui correspondet
                 <app>
                   <lem>haec</lem>
                   <rdg wit="#M" type="variation-substance">hoc</rdg>
@@ -5703,14 +5707,68 @@
                   <rdg wit="#S" type="variation-substance">poterit</rdg>
                 </app>
                 fieri
-                simillimus conceptui qui <unclear>experimitur</unclear> per hanc vocem omnis et consequenter per omnia ad propositum dicendum de illis ut de istis.
+                simillimus 
+                <app>
+                  <lem>conceptui</lem>
+                  <rdg wit="#S" type="variation-absent" />
+                </app>
+                qui exprimitur per hanc vocem omnis et consequenter per omnia ad propositum 
+                <app>
+                  <lem>dicendum</lem>
+                  <rdg wit="#V" type="variation-substance">pertranseo</rdg>
+                  <rdg wit="#M" type="variation-substance">responsio</rdg>
+                </app>
+                <app>
+                  <lem>de illis 
+                    <app>
+                      <lem>ut</lem>
+                      <rdg wit="#M" type="variation-substance">sicut</rdg>
+                    </app>
+                    de istis</lem>
+                  <rdg wit="#T" type="variation-substance">de istis et de illis</rdg>
+                </app>.
               </p>
 
               <p xml:id="b1d3qun-uteqsc">
-                Unum tamen est advertendum quod nominaliter expressa sumuntur quasi
+                Unum tamen est advertendum 
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#M" type="variation-substance">quia</rdg>
+                </app>
+                nominaliter expressa 
+                <app>
+                  <lem>sumuntur</lem>
+                  <rdg wit="#M" type="variation-substance">simitur</rdg>
+                </app>
+                <app>
+                <lem>  
+                quasi
+                <!--  -->
                 <pb ed="#S" n="81-v" />
                 <cb ed="#S" n="a" />
-                collective et non faciunt terminum mediante sequentem stare confuse tantum, sicut nec omnis quando sumitur collective.
+                <!--  -->
+                collective et non faciunt 
+                <app>
+                  <lem>terminum</lem>
+                  <rdg wit="#M" type="variation-substance">terminem</rdg>
+                </app>
+                  <app>
+                    <lem>mediante</lem>
+                    <rdg wit="#T" type="variation-substance">mediate</rdg>
+                  </app>
+                  sequentem stare confuse tantum, sicut nec omnis quando sumitur
+                </lem>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>
+                      <del>quasi</del>
+                      <add place="margin">
+                        quasi collective et non faciunt terminum mediate sequentem stare 
+                        confuse tantum sicut nec <mentioned>omnis</mentioned> quando sumitur
+                      </add>
+                    </subst>
+                  </rdg>
+                </app>
+                collective.
               </p>
 
               <p xml:id="b1d3qun-atdsat">
