@@ -6899,10 +6899,16 @@
                     <lem>ita</lem>
                     <rdg wit="#M" type="variation-substance">illa</rdg>
                   </app>
-                  vice 
+                  vice et
                   <app>
-                    <lem>et</lem>
-                    <rdg wit="#M" type="variation-substance">pro</rdg>
+                    <lem n="et" />
+                    <rdg wit="#M" type="correction-addition">
+                      <add place="above-line">et</add>
+                    </rdg>
+                  </app>
+                  <app>
+                    <lem n="et" />
+                    <rdg  wit="#M" type="variation-present">pro</rdg>
                   </app>
                   hoc quia 
                   <app>
@@ -6994,26 +7000,153 @@
                 </p>
 
                 <p xml:id="b1d3qun-esissn">
-                  Et secundum istam responsionem negatur tota fantasia de mutuis reflexionibus habituum et actuum in causando, 
+                  Et secundum 
+                  <app>
+                    <lem>istam</lem>
+                    <rdg wit="#V #M" type="variation-substance">hanc</rdg>
+                    <rdg wit="#T" type="variation-substance">illam</rdg>
+                  </app>
+                  responsionem negatur tota 
+                  <app>
+                    <lem>illa</lem>
+                    <rdg wit="#S" type="variation-absent" />
+                  </app>
+                  phantasia de mutuis reflexionibus habituum et actuum in causando, 
                   <app>
                     <lem>quia</lem>
                     <rdg wit="#V" type="variation-substance">
                       <add place="above-line">quia</add>
                     </rdg>
+                    <rdg wit="#M" type="variation-absent" />
                   </app>
                   statim ponit quod 
                   <app>
                     <lem>habituus portio</lem>
-                    <rdg wit="#V" type="variation-inversion">portio habituus</rdg>
+                    <rdg wit="#V #M" type="variation-inversion">portio habituus</rdg>
                   </app> 
-                  non apponit aliquid ad actum ex quo processit cum etiam, ut praetactum est, intellectus non adhibetur obiecto nisi applicetur causaliter nisi mediante habitu primo huic portioni quo se iam contulit in obiectum tale mediante isto actu quam potentia eliciebat sic habituata alias cum bene poterit potentia illa mediante toto
+                  non apponit aliquid ad actum ex quo 
+                  <app>
+                    <lem>processit et hoc quia</lem>
+                    <rdg wit="#S" type="variation-substance">praecessit cum etiam</rdg>
+                  </app>,
+                  <app>
+                    <lem>ut</lem>
+                    <rdg wit="#T" type="variation-absent" />
+                  </app>
+                  praetactum est, 
+                  intellectus non adhibetur 
+                  <app>
+                    <lem>
+                      obiecto 
+                      <app>
+                        <lem>nisi applicetur</lem>
+                        <rdg wit="#V" type="variation-substance">nec applicatur</rdg>
+                      </app>
+                      causaliter
+                    </lem>
+                    <rdg wit="#T" type="variation-substance">obiectum nec applicetur causaliter</rdg>
+                    <rdg wit="#M" type="variation-substance">obiecto nec applicatur creatura</rdg>
+                  </app>
+                  nisi mediante habitu 
+                  <app>
+                    <lem>
+                      primo huic portioni quo se iam contulit in obiectum tale mediante 
+                      <app>
+                        <lem>isto</lem>
+                        <rdg wit="#T" type="variation-substance">in</rdg>
+                      </app>
+                      actu
+                    </lem>
+                    <rdg wit="#V" type="correction-addition">
+                      <add place="margin">
+                        primo huic portioni quo se iam contulit in obiectum tale mediante actu
+                      </add>
+                    </rdg>
+                    <rdg wit="#M" type="variation-absent"/>
+                  </app>
+                  <app>
+                    <lem>quam</lem>
+                    <rdg wit="#M" type="variation-substance">quae ponit</rdg>
+                    <rdg wit="#T" type="variation-substance">quem</rdg>
+                  </app>
+                  potentia eliciebat sic habituata alias cum bene poterit potentia illa mediante toto
                   <pb ed="#S" n="82-r" />
                   <cb ed="#S" n="a" />
-                  habitu composito ex parte habitus nunc genita et priori in actum perfectiorem quam sit ille quae nunc elicit mediante priori habitus parte. Huius responsionis sive sic vera sive non et difficile reddere claram causam aliam qua nunc dictam sive illa sufficiat sive non.
+                  habitu composito ex parte habitus nunc genita et priori 
+                  <app>
+                    <lem n="priori" />
+                    <rdg wit="#V" type="correction-deletion">
+                      <del rend="strikethrough">parte habitus</del>
+                    </rdg>
+                    <rdg wit="#M" type="variation-present">parte habitus</rdg>
+                  </app>
+                  in actum perfectiorem quam 
+                  <app>
+                    <lem>sit</lem>
+                    <rdg wit="#V #T" type="variation-substance">sic</rdg>
+                  </app>
+                  <app>
+                    <lem>ille quae</lem>
+                    <rdg wit="#M" type="variation-substance">iste quem</rdg>
+                  </app>
+                  nunc elicit mediante priori 
+                  <app>
+                    <lem>habitus parte</lem>
+                    <rdg wit="#M #V" type="variation-inversion">parte habitus</rdg>
+                  </app>.
+                  <app>
+                    <lem>Huius</lem>
+                    <rdg wit="#M" type="variation-absent" />
+                  </app>
+                  responsionis sive 
+                  <app>
+                    <lem>sic</lem>
+                    <rdg wit="#M" type="variation-substance">sit</rdg>
+                  </app>
+                  vera sive non 
+                  <app>
+                    <lem>esset</lem>
+                    <rdg wit="#S" type="variation-substance">et</rdg>
+                  </app>
+                  difficile reddere claram 
+                  <app>
+                    <lem>causam</lem>
+                    <rdg wit="#S" type="correction-substitution">
+                      <subst>  
+                        <del rend="expunctuated">sui</del>
+                        <add place="margin">causam</add>
+                      </subst>
+                    </rdg>
+                  </app>
+                  aliam 
+                  <app>
+                    <lem>qua</lem>
+                    <rdg wit="#S #M" type="variation-substance">quam</rdg>
+                  </app>
+                  nunc dictam 
+                  <app>
+                    <lem n="dictam" />
+                    <rdg wit="#S" type="variation-present">est</rdg>
+                  </app>
+                  <app>
+                    <lem>sive illa</lem>
+                    <rdg wit="#T" type="variation-substance">aut</rdg>
+                  </app>
+                  <app>
+                    <lem n="illa" />
+                    <rdg wit="#T" type="correction-addition">
+                      <add place="above-line">ista</add>
+                    </rdg>
+                    <rdg wit="#V #M" type="variation-present">ista</rdg>
+                  </app>
+                  sufficiat sive non.
                 </p>
 
                 <p xml:id="b1d3qun-ctpasd">
-                  Contra tamen priorem responsionem est argumentum unum probabile quia quantumcumque sic decrescat augmentum habitus ex una parte et actus ex alia et bene vitetur actus et habitus infinitas intensiva per hunc modum immo quod ad modicum hinc, inde stetur tamen de habitu illo ad quem pervenitur ex omnibus portionibus illis. Composito quaeretur an sit causatus a toto actu [et] ex parte alia et, pari ratione, ex parte alia de actu composito ex omnibus actuum portionibus praeter primum qui non processit ab habitu; an iste actus causabatur ex habitu isto qui totus pervenerat ex actu illo prius habito et sequentibus compositis per portiones habitus vel non. Si sic, videtur esse circulus in causis et quod idem per consequens erit a se. Si non, contra totus B est causatus a quo. Igitur et similiter totus A et D est causatus a quo. Igitur sit habitus iste totus B, et primus actus, qui omnem praecessit habitum, sit A, et actus compositus ex illo et sequentibus sit C et compositus ex residuis partibus praeter A sit D.
+                  Contra tamen priorem responsionem est argumentum unum probabile quia quantumcumque sic decrescat augmentum habitus ex una parte et actus ex alia et bene vitetur actus et habitus infinitas intensiva per hunc modum immo quod ad modicum hinc, inde stetur tamen de habitu illo ad quem pervenitur ex omnibus portionibus illis. 
+                  Composito quaeretur an sit causatus a toto actu [et] ex parte alia et, pari ratione, ex parte alia de actu composito ex omnibus actuum portionibus praeter primum qui non processit ab habitu; an iste actus causabatur ex habitu isto qui totus pervenerat ex actu illo prius habito et sequentibus compositis per portiones habitus vel non. 
+                  Si sic, videtur esse circulus in causis et quod idem per consequens erit a se. Si non, contra totus B est causatus a quo. 
+                  Igitur et similiter totus A et D est causatus a quo. Igitur sit habitus iste totus B, et primus actus, qui omnem praecessit habitum, sit A, et actus compositus ex illo et sequentibus sit C et compositus ex residuis partibus praeter A sit D.
                 </p>
 
                 <p xml:id="b1d3qun-prhmvm">
