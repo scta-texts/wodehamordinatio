@@ -7143,10 +7143,144 @@
                 </p>
 
                 <p xml:id="b1d3qun-ctpasd">
-                  Contra tamen priorem responsionem est argumentum unum probabile quia quantumcumque sic decrescat augmentum habitus ex una parte et actus ex alia et bene vitetur actus et habitus infinitas intensiva per hunc modum immo quod ad modicum hinc, inde stetur tamen de habitu illo ad quem pervenitur ex omnibus portionibus illis. 
-                  Composito quaeretur an sit causatus a toto actu [et] ex parte alia et, pari ratione, ex parte alia de actu composito ex omnibus actuum portionibus praeter primum qui non processit ab habitu; an iste actus causabatur ex habitu isto qui totus pervenerat ex actu illo prius habito et sequentibus compositis per portiones habitus vel non. 
-                  Si sic, videtur esse circulus in causis et quod idem per consequens erit a se. Si non, contra totus B est causatus a quo. 
-                  Igitur et similiter totus A et D est causatus a quo. Igitur sit habitus iste totus B, et primus actus, qui omnem praecessit habitum, sit A, et actus compositus ex illo et sequentibus sit C et compositus ex residuis partibus praeter A sit D.
+                  Contra tamen
+                  <app>
+                    <lem n="tamen"/>
+                    <rdg wit="#M" type="variation-present">per</rdg>
+                  </app>
+                  priorem responsionem est argumentum unum probabile 
+                  quia quantumcumque sic decrescat augmentum habitus 
+                  ex una parte et actus ex alia et bene 
+                  <app>
+                    <lem>vitetur</lem>
+                    <rdg wit="#M" type="variation-substance">intelligitur</rdg>
+                  </app>
+                  actus et habitus 
+                  <app>
+                    <lem>infinitas</lem>
+                    <rdg wit="#M" type="variation-substance">ex infinita</rdg>
+                  </app>
+                  intensiva per hunc modum immo quod ad modicum hinc, 
+                  <app>
+                    <lem>inde</lem>
+                    <rdg wit="#M" type="variation-substance">tamen</rdg>
+                  </app>
+                  stetur 
+                  <app>
+                    <lem>tamen</lem>
+                    <rdg wit="#M" type="variation-substance">cum</rdg>
+                  </app>
+                  de habitu illo ad quem pervenitur ex omnibus portionibus illis. 
+                  Composito quaeretur an 
+                  <app>
+                    <lem>sit</lem>
+                    <rdg wit="#T #V" type="variation-substance">sic</rdg>
+                  </app>
+                  causatus a toto actu 
+                  <app>
+                    <lem>ex</lem>
+                    <rdg wit="#M" type="variation-absent"></rdg>
+                  </app>
+                  <app>
+                    <lem>alia parte</lem>
+                    <rdg wit="#S" type="variation-inversion">parte alia</rdg>
+                  </app>
+                  et pari ratione ex parte alia de actu composito ex omnibus 
+                  <app>
+                    <lem>actuum</lem>
+                    <rdg wit="#M #V" type="variation-substance"></rdg>
+                    <rdg wit="#T" type="variation-substance">actus</rdg>
+                  </app>
+                  portionibus 
+                  <app>
+                    <lem n="portionibus" />
+                    <rdg wit="#M #V" type="variation-present">actus</rdg>
+                  </app>
+                  praeter primum qui non processit ab habitu;
+                  <app>
+                    <lem>quaeretur</lem>
+                    <rdg wit="#V" type="variation-substance">quaereretur</rdg>
+                    <rdg wit="#S #T" type="variation-absent" />
+                  </app>
+                  an 
+                  <app>
+                    <lem>iste</lem>
+                    <rdg wit="#V #T" type="variation-substance">ille</rdg>
+                  </app>
+                  actus causabatur 
+                  <app>
+                    <lem>ex</lem>
+                    <rdg wit="#M #T" type="variation-substance">a</rdg>
+                  </app>
+                  habitu isto qui totus 
+                  <app>
+                    <lem>pervenerat</lem>
+                    <rdg wit="#M #V" type="variation-substance">provenit</rdg>
+                    <rdg wit="#T" type="variation-substance">proveniat</rdg>
+                  </app>
+                  ex actu illo 
+                  <app>
+                    <lem>quem nunc</lem>
+                    <rdg wit="#S" type="variation-substance">prius</rdg>
+                  </app>
+                  <app>
+                    <lem n="nunc"/>
+                    <rdg wit="#T" type="variation-present">sunt</rdg>
+                  </app>
+                  habito et sequentibus 
+                  <app>
+                    <lem>compositis</lem>
+                    <rdg wit="#M" type="variation-substance">apponitis</rdg>
+                    <rdg wit="#V" type="variation-substance">appositis</rdg>
+                    <rdg wit="#T" type="variation-substance">oppositis</rdg>
+                  </app>
+                  per portiones habitus vel non. 
+                  Si sic, videtur esse circulus in causis et quod idem per consequens erit a se. 
+                  Si non, contra, totus <mentioned>b</mentioned> 
+                  <app>
+                    <lem>est</lem>
+                    <rdg wit="#M" type="variation-substance">erit</rdg>
+                  </app>
+                  causatus a quo; 
+                  igitur et similiter totus 
+                  <app>
+                    <lem><mentioned>a</mentioned></lem>
+                    <rdg wit="#S" type="correction-substitution"> <!-- This is unclear to me... -->
+                      <subst>    
+                        <del rend="expunctuated"><mentioned>a</mentioned></del>
+                        <add place="in-line"><mentioned>d</mentioned></add>
+                      </subst>
+                    </rdg>
+                  </app>
+                  <app>
+                    <lem>est</lem>
+                    <rdg wit="#M" type="variation-substance">erit</rdg>
+                  </app>
+                  causatus a quo. 
+                  Igitur sit habitus 
+                  <app>
+                    <lem>iste</lem>
+                    <rdg wit="#T" type="variation-substance">ille</rdg>
+                  </app>
+                  totus <mentioned>b</mentioned>, et primus actus qui omnem praecessit habitum
+                  sit <mentioned>a</mentioned>
+                  <app>
+                    <lem n="a" /> <!-- n="<mentioned>a</mentioned>" !!! -->
+                    <rdg wit="#M" type="variation-present">habitus</rdg>
+                  </app>,
+                  et actus compositus ex illo et sequentibus sit 
+                  <app>
+                    <lem><mentioned>c</mentioned></lem>
+                    <rdg wit="#S" type="correction-addition">
+                      <add place="above-line"><mentioned>c</mentioned></add>
+                    </rdg>
+                  </app>,
+                  et 
+                  <app>
+                    <lem>compositus</lem>
+                    <rdg wit="#M" type="variation-substance">positus</rdg>
+                  </app>
+                  ex residuis partibus praeter <mentioned>a</mentioned> sit <mentioned>d</mentioned>.
                 </p>
 
                 <p xml:id="b1d3qun-prhmvm">
