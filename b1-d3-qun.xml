@@ -8120,7 +8120,10 @@
                     </rdg>
                   </app> <!-- some uncertainty here --> 
                   posset <mentioned>b</mentioned>
-                  totus quam ille
+                  totus quam <app>
+                    <lem>ille</lem>
+                    <rdg wit="#M" type="variation-absent"></rdg>
+                  </app>
                   <app>
                     <lem><mentioned>c</mentioned></lem>
                     <rdg wit="#S" type="correction-substitution">
@@ -8132,7 +8135,13 @@
                   </app>
                   producere sicut faciet alias forte postea postquam cessantibus omnibus illis actibus partialibus totus 
                   <app>
-                    <lem>agat quod modo per similem patet in rebus</lem>
+                    <lem>
+                      agat quod modo per similem patet in 
+                      <app>
+                        <lem>rebus</lem>
+                        <rdg wit="#M" type="variation-absent" />
+                      </app>
+                    </lem>
                     <rdg wit="#S" type="variation-absent" />
                   </app>
                   <app>
@@ -8142,7 +8151,7 @@
                       priori toti similes inclinabit 
                       <app>
                         <lem n="inclinabit" />
-                        <rdg>
+                        <rdg wit="#V" type="correction-addition">
                           <add place="above-line"><unclear>exemplum</unclear></add>
                         </rdg>
                       </app>
@@ -8152,22 +8161,125 @@
                       <mentioned>b</mentioned> remanebit et
                     </rdg>
                   </app>
-                  extensis sic ita quod <mentioned>a</mentioned> calor pedalis calefaciat ignem circumstantem usque ad aliquam distantiam et calor ab illo posito causatus ulteriorem et ita deinceps donec semper pars posterior remissius agendo quam prior ita suas procedant[?] actiones usque modo cessent agere isto modo totus calor compositus secundum extentionem ex omnibus illis quorum quaelibet pertingere imaginatur usque ad remotiorem est calor 
+                  <app>
+                    <lem>extensis sic</lem>
+                    <rdg wit="#M" type="variation-substance">
+                      alicuius actus priori toto similes inclinabit 
+                      Exemplum causae negationis dictae <unclear>man</unclear> inextensum sit
+                    </rdg>
+                  </app>
+                  <app>
+                    <lem n="sic"/>
+                    <rdg wit="#S" type="variation-present">ita</rdg>
+                  </app>
+                  quod <mentioned>a</mentioned> calor pedalis 
+                  <app>
+                    <lem>calefaciat ignem</lem>
+                    <rdg wit="#M" type="variation-substance">calefacere aliquem</rdg>
+                    <rdg wit="#V #T" type="variation-substance">calefaciat aerem</rdg>
+                  </app>
+                  circumstantem usque ad aliquam distantiam et calor ab 
+                  <app>
+                    <lem>isto</lem>
+                    <rdg wit="#S" type="variation-substance">illo</rdg>
+                  </app>
+                  <app>
+                    <lem n="isto" />
+                    <rdg wit="#S" type="variation-present"><unclear>primo</unclear></rdg>
+                  </app>
+                  causatus ulteriorem et ita deinceps donec semper pars posterior remissius 
+                  <app>
+                    <lem n="remissius" />
+                    <rdg wit="#M" type="variation-present">in</rdg>
+                  </app>
+                  agendo quam prior ita 
+                  <app>
+                    <lem>suas</lem>
+                    <rdg wit="#M" type="variation-substance">sua</rdg>
+                  </app>
+                  procedant actiones usque
+                  <app>
+                    <lem>quo</lem>
+                    <rdg wit="#S" type="variation-substance">modo</rdg>
+                  </app>
+                  cessent agere 
+                  <app>
+                    <lem n="agere" />
+                    <rdg wit="#M" type="variation-present">et</rdg>
+                  </app>
+                  isto modo totus calor compositus secundum extentionem ex omnibus illis quorum 
+                  <app>
+                    <lem>quilibet prior</lem>
+                    <rdg wit="#S" type="variation-substance">quaelibet</rdg>
+                  </app>
+                  pertingere
+                  <app>
+                    <lem n="pertingere"/>
+                    <rdg wit="#M" type="variation-present">igitur</rdg>
+                  </app>
+                  imaginatur usque ad 
+                  <app>
+                    <lem>remotiorem</lem>
+                    <rdg wit="#M" type="variation-substance">remotionem</rdg>
+                  </app>
+                  est calor 
                   <app>
                     <lem n="calor" />
                     <rdg wit="#S" type="correction-deletion">
                       <del rend="expunctuated">is</del>
                     </rdg>
                   </app>
-                  ita perfectus sicut sua prima pars et tamen non potest agere in passum sibi immediatum secundum situm 
+                  ita perfectus sicut sua prima pars et tamen non 
                   <app>
-                    <lem>et cum prima pars eius egit in passum sibi immediatius secundum situm</lem>
+                    <lem>potest</lem>
+                    <rdg wit="#M" type="variation-absent"/>
+                  </app>
+                  agere in passum sibi immediatum secundum situm 
+                  <app>
+                    <lem>
+                      et cum prima pars eius egit in passum sibi 
+                      <app>
+                        <lem>immediatius</lem>
+                        <rdg wit="#T" type="variation-substance">immediatus</rdg>
+                      </app>
+                      secundum situm
+                    </lem>
                     <rdg wit="#V" type="correction-addition">
                       <add place="margin">
                         et cum prima pars eius egit in passum sibi immediatus secundum situm</add>
                     </rdg>
+                    <rdg wit="#M" type="variation-absent"/>
                   </app>
-                  et est ibi causa proportionalis priori quod quaelibet eius pars sistens circa finem huius protensionis egit quantum potuit et ex remissioritate continua venitur usque ad defectionem et in potentiam ulterius sit agendi hic tamen in exemplo est illud imaginabilius sed protensionem quem in proposito de quo inquiritur nisi quod ibi magis patet qualiter 
+                  <app>
+                    <lem>et</lem>
+                    <rdg wit="#M" type="variation-absent"/>
+                  </app>
+                  est ibi causa proportionalis priori quod 
+                  <app>
+                    <lem>quaelibet</lem>
+                    <rdg wit="#M" type="variation-substance">quemlibet</rdg>
+                  </app>
+                  eius pars sistens circa finem huius protensionis egit quantum potuit et ex 
+                  <app>
+                    <lem>remissioritate</lem>
+                    <rdg wit="#M" type="variation-substance">remissionitate</rdg>
+                  </app>
+                  continua venitur usque ad defectionem et in potentiam ulterius sit 
+                  <app>
+                    <lem>agendi</lem>
+                    <rdg wit="#M" type="variation-substance">agendum</rdg>
+                  </app>
+                  hic tamen in exemplo est illud imaginabilius 
+                  <app>
+                    <lem>secundum</lem>
+                    <rdg wit="#T #V" type="variation-substance">sed</rdg>
+                  </app>
+                  protensionem 
+                  <app>
+                    <lem>quam</lem>
+                    <rdg wit="#S" type="variation-substance">quem</rdg>
+                  </app>
+                  in proposito de quo inquiritur nisi quod ibi magis patet qualiter 
                   <app>
                     <lem>quaelibet portio</lem>
                     <rdg wit="#V" type="correction-substitution">
@@ -8176,8 +8288,28 @@
                       <add place="margin">quaelibet portio</add>
                       </subst>
                     </rdg>
+                    <rdg wit="#M" type="variation-substance">quaelibet perfectio</rdg>
                   </app>
-                  illarum in quibus processit illa mutua reproductio sistet alicubi circa finem processus habet effectum sibi aequatum quem et continuat in 
+                  <app>
+                    <lem>istarum</lem>
+                    <rdg wit="#S" type="variation-substance">illarum</rdg>
+                  </app>
+                  in quibus processit 
+                  <app>
+                    <lem>ista</lem>
+                    <rdg wit="#S" type="variation-substance">illa</rdg>
+                  </app>
+                  mutua reproductio 
+                  <app>
+                    <lem>sistens</lem>
+                    <rdg wit="#S" type="variation-substance">sistet</rdg>
+                  </app>
+                  alicubi circa finem processus habet effectum sibi aequatum 
+                  <app>
+                    <lem>quem</lem>
+                    <rdg wit="#M" type="variation-substance">qui</rdg>
+                  </app>
+                  et continuat in 
                   <app>
                     <lem>casu</lem>
                     <rdg wit="#S" type="correction-substitution">
@@ -8196,30 +8328,34 @@
                       <add>quasi</add>
                     </subst>
                     </rdg>
-</app>
- agere 
-                  <app>
-                    <lem>illo</lem>
-                    <rdg wit="#V" type="variation-substance">isto</rdg>
                   </app>
-                  remanente in illa potentia quam <mentioned>c</mentioned> istam egit.
+                  agere 
+                  <app>
+                    <lem>isto</lem>
+                    <rdg wit="#S" type="variation-substance">illo</rdg>
+                  </app>
+                  remanente in 
+                  <app>
+                    <lem>ista</lem>
+                    <rdg wit="#S" type="variation-substance">illa</rdg>
+                  </app>
+                  potentia 
+                  <app>
+                    <lem n="potentia" />
+                    <rdg wit="#V" type="variation-present">in</rdg>
+                  </app>
+                  quam 
+                  <app>
+                    <lem><mentioned>e</mentioned> istam</lem>
+                    <rdg wit="#M #V" type="variation-substance">iam</rdg>
+                    <rdg wit="#T" type="variation-substance"><unclear>est</unclear> illam</rdg>
+                  </app>
+                  egit.
                 </p>
               </div>
             </div>
           </div>
 
-
-
-
-
-
-
-
-
-
-
-
-          <!-- Jeff's part... -->
           <div xml:id="a2tertiumdubium">
             <head><supplied>Tertium Dubium</supplied></head>
             <p xml:id="b1d3qun-tdsan">Tertium dubium secundi articuli est utrum tertia pars imaginis
