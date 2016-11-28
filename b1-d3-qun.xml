@@ -7882,18 +7882,64 @@
                   actus causet ibi 
                   <app>
                     <lem>habitum</lem>
-                    <rdg wit="#V" type="variation-absent"></rdg>
+                    <rdg wit="#V" type="correction-substitution">
+                      <subst>
+                        <del><unclear>actum</unclear></del>
+                        <add place="in-line">habitum</add>
+                      </subst>
+                    </rdg>
                   </app>
-                  aliquem 
-                  <app>
-                    <lem n="aliquem"></lem>
-                    <rdg wit="#V" type="variation-present">effectum</rdg>
-                  </app>
-                  vel effectum adaequatum sibi.
+                  aliquem vel effectum adaequatum sibi.
                 </p>
 
                 <p xml:id="b1d3qun-rmvpsc">
-                  Respondendum mihi videtur quod licet utrumque totus causetur ut praedixi neuter, tamen totus aliquid causat neuter, enim totus habet ibi aliquid posterius se secundum naturam, quia non est maior ratio quod iste totus quam ille cum ex utraque parte fuerit processus in generationibus sine fine, id est, sine ultimo genito, et tamen omnis effectus sed naturam est posterior sua causa.
+                  Respondendum mihi videtur quod licet
+                  <app>
+                    <lem>utrumque</lem>
+                    <rdg wit="#M #S" type="variation-substance">uterque</rdg>
+                  </app>
+                  totus causetur ut praedixi neuter, 
+                  <app>
+                    <lem>tamen</lem>
+                    <rdg wit="#M" type="variation-substance">cum</rdg>
+                  </app>
+                  totus aliquid 
+                  <app>
+                    <lem>causat</lem>
+                    <rdg wit="#M" type="variation-substance">causet</rdg>
+                  </app>
+                  neuter, 
+                  enim 
+                  <app>
+                    <lem>totus habet ibi</lem>
+                    <rdg wit="#M" type="variation-inversion">ibi totus habet</rdg>
+                  </app>
+                  aliquid posterius se secundum naturam, 
+                  quia non est maior ratio quod iste totus quam 
+                  <app>
+                    <lem>iste</lem>
+                    <rdg wit="#S" type="variation-substance">ille</rdg>
+                  </app>
+                  <app>
+                    <lem>cum</lem>
+                    <rdg wit="#M" type="variation-substance">tum</rdg>
+                  </app>
+                  ex utraque parte fuerit processus in generationibus 
+                  <app>
+                    <lem>huius</lem>
+                    <rdg wit="#S" type="variation-absent"></rdg>
+                  </app>
+                  sine fine, id est, sine ultimo genito, et tamen omnis effectus 
+                  <app>
+                    <lem>sed</lem>
+                    <rdg wit="#V #T" type="variation-substance">est secundum</rdg>
+                  </app>
+                  naturam 
+                  <app>
+                    <lem>est</lem>
+                    <rdg wit="#V #T" type="variation-absent" />
+                  </app>
+                  posterior sua causa.
                 </p>
 
                 <p xml:id="b1d3qun-ciqieb">
