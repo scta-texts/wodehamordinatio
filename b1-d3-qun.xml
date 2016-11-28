@@ -7939,36 +7939,144 @@
                     <lem>est</lem>
                     <rdg wit="#V #T" type="variation-absent" />
                   </app>
-                  posterior sua causa.
+                  <app>
+                    <lem>posterior</lem>
+                    <rdg wit="#M" type="variation-substance">posterius</rdg>
+                  </app>
+                  sua causa.
                 </p>
 
                 <p xml:id="b1d3qun-ciqieb">
-                  Contra in quocumque passo uniformiter praesente utrisque, potest causa alia mere naturaliter activa alicuius speciei habere effectum ab eo causatum potest et causa perfectior et intensior eiusdem speciei quando est perfectior. Sed B habitus et prima eius pars quae causabatur totaliter a posito actu A, quae prima pars habitus illius, vocetur E. B inquam et E sunt eiusdem speciei ultimae seu specissimae et B est perfectius in illa specie quam E sicut omne totum sua parte et E in potentia ista utraque aequaliter praesenti habet effectum posteriorem se secundum naturam igitur et B.
+                  Contra in quocumque 
+                  <app>
+                    <lem>passo</lem>
+                    <rdg wit="#M" type="variation-substance">passu</rdg>
+                  </app>
+                  uniformiter praesente 
+                  <app>
+                    <lem>utrisque</lem>
+                    <rdg wit="#M" type="variation-substance">utrique</rdg>
+                  </app>,
+                  potest causa <app>
+                    <lem>aliqua</lem>
+                    <rdg wit="#S" type="variation-substance">alia</rdg>
+                  </app>
+                  mere naturaliter activa alicuius speciei 
+                  <app>
+                    <lem>tunc</lem>
+                    <rdg wit="#S" type="variation-absent" />
+                  </app>
+                  habere effectum ab eo causatum potest et causa perfectior et intensior eiusdem speciei 
+                  <app>
+                    <lem n="speciei" />
+                    <rdg wit="#V" type="variation-present">tunc</rdg>
+                  </app>
+                  quando 
+                  <app>
+                    <lem>est</lem>
+                    <rdg wit="#V #T" type="variation-substance">et</rdg>
+                  </app>
+                  <app>
+                    <lem>perfectior</lem>
+                    <rdg wit="#M" type="variation-substance">imperfectior</rdg>
+                    <rdg>
+                      <subst>
+                        <del>perfectior</del>
+                        <add place="above-line">imperfectior</add>
+                      </subst>
+                      <!-- Could be either "in perfectior" or "imperfectior" -->
+                    </rdg>
+                  </app>.
+                  Sed <mentioned>a</mentioned> habitus et prima eius pars quae causabatur totaliter a posito actu <mentioned>a</mentioned>, quae prima pars habitus 
+                  <app>
+                    <lem>istius</lem>
+                    <rdg wit="#S" type="variation-substance">illius</rdg>
+                  </app>,
+                  vocetur 
+                  <app>
+                    <lem><mentioned>e</mentioned></lem>
+                    <rdg wit="#M" type="variation-substance"><mentioned>c</mentioned></rdg>
+                  </app>.
+                  <mentioned>b</mentioned> inquam et 
+                  <app>
+                    <lem><mentioned>e</mentioned></lem>
+                    <rdg wit="#M" type="variation-substance"><mentioned>c</mentioned></rdg>
+                  </app> 
+                  sunt eiusdem speciei ultimae seu specialissimae et <mentioned>b</mentioned> est perfectius in 
+                  <app>
+                    <lem>ista</lem>
+                    <rdg wit="#S" type="variation-substance">illa</rdg>
+                  </app>
+                  specie quam 
+                  <app>
+                    <lem><mentioned>e</mentioned></lem>
+                    <rdg wit="#M" type="variation-substance"><mentioned>c</mentioned></rdg>
+                  </app>
+                  sicut omne totum 
+                  <app>
+                    <lem n="totum" />
+                    <rdg wit="#V #T" type="variation-present">est</rdg>
+                  </app>
+                  sua parte et 
+                  <app>
+                    <lem><mentioned>e</mentioned></lem>
+                    <rdg wit="#M" type="variation-substance"><mentioned>c</mentioned></rdg>
+                  </app>
+                  in potentia ista utraque aequaliter praesenti habet effectum posteriorem 
+                  <app>
+                    <lem>se secundum</lem>
+                    <rdg wit="#M" type="variation-inversion">secundum se</rdg>
+                  </app>
+                  naturam igitur et <mentioned>b</mentioned>.
                 </p>
 
                 <p xml:id="b1d3qun-reqcie">
-                  Respondendum est quod maior, licet sit valde, apparens falsa, tamen est in casu argumenti secundum hanc responsionem fantasiae quae pertracto non enim oportet quod illud perfectius habeat effectum aliquem se toto simul sumpto vel qualibet eius parte posteriorem in tali passo sed sufficit quod eius partes tales quae sit mutuo producebantur ad quas pervenitur circa finem. Talis processus habeant effectus suos ad hoc stantes et in mentem componentes in illa potentia quibus in ea stantibus totus iste
+                  Respondendum est quod maior, licet sit valde, apparens falsa, 
                   <app>
-                    <lem>B</lem>
-                    <rdg wit="#S" type="correction-addition">
-                    	<add place="margin">B</add>
+                    <lem>est tamen</lem>
+                    <rdg wit="#S" type="variation-inversion">tamen est</rdg>
+                  </app>
+                  in casu argumenti secundum hanc responsionem phantasiae quae pertracto. 
+                  Non enim oportet quod illud perfectius habeat effectum aliquem se toto simul sumpto vel 
+                  <app>
+                    <lem>qualibet</lem>
+                    <rdg wit="#S" type="correction-substitution">
+                    <subst>  
+                      <del rend="strikethrough">quacumque</del>  
+                      <add place="above-line">qualibet</add>
+                    </subst>
                     </rdg>
                   </app>
-                  habitus simul sumptus plus non potest sed illis amotis plus
+                  eius parte posteriorem in tali passo sed sufficit quod eius partes tales quae sit mutuo producebantur ad quas pervenitur circa finem. 
+                  Talis processus habeant effectus suos ad hoc stantes et in mentem componentes in illa potentia quibus in ea stantibus totus iste
+                  <app>
+                    <lem><mentioned>b</mentioned></lem>
+                    <rdg wit="#S" type="correction-addition">
+                    	<add place="margin"><mentioned>b</mentioned></add>
+                    </rdg>
+                  </app>
+                  habitus
+                  <app>
+                    <lem n="habitus" />
+                    <rdg wit="#V" type="correction-addition">
+                      <add place="above-line"><mentioned>b</mentioned></add>
+                    </rdg>
+                  </app>
+                  simul sumptus plus non potest sed illis amotis plus
                   <app>
                     <lem>multo</lem>
                     <rdg wit="#S" type="correction-addition">
                     	<add>multo</add>
                     </rdg>
-                  </app> <!-- some uncertainty here --> posset B
+                  </app> <!-- some uncertainty here --> posset <mentioned>b</mentioned>
                   totus quam ille
                   <app>
-                    <lem>C</lem>
+                    <lem><mentioned>c</mentioned></lem>
                     <rdg wit="#S" type="correction-addition">
-                    	<add place="aboveLine">C</add>
+                    	<add place="aboveLine"><mentioned>c</mentioned></add>
                     </rdg>
                   </app>
-                  producere sicut faciet alias forte postea postquam cessantibus omnibus illis actibus partialibus totus agat quod modo per similem patet in rebus extensis sic ita quod A calor pedalis calefaciat ignem circumstantem usque ad aliquam distantiam et calor ab illo posito causatus ulteriorem et ita deinceps donec semper pars posterior remissius agendo quam prior ita suas procedant[?] actiones usque modo cessent agere isto modo totus calor compositus secundum extentionem ex omnibus illis quorum quaelibet pertingere imaginatur usque ad remotiorem est calor ita perfectus sicut sua prima pars et tamen non potest agere in passum sibi immediatum secundum situm et cum prima pars eius egit in passum sibi immediatius secundum situm et est ibi causa proportionalis priori quod quaelibet eius pars sistens circa finem huius protensionis egit quantum potuit et ex remissioritate continua venitur usque ad defectionem et in potentiam ulterius sit agendi hic tamen in exemplo est illud imaginabilius sed protensionem quem in proposito de quo inquiritur nisi quod ibi magis patet qualiter quaelibet portio illarum in quibus processit illa mutua reproductio sistet alicubi circa finem processus habet effectum sibi aequatum quem et continuat in casu argumenti, et ideo non potest plus quasi agere illo remanente in illa potentia quam C istam egit.
+                  producere sicut faciet alias forte postea postquam cessantibus omnibus illis actibus partialibus totus agat quod modo per similem patet in rebus extensis sic ita quod <mentioned>a</mentioned> calor pedalis calefaciat ignem circumstantem usque ad aliquam distantiam et calor ab illo posito causatus ulteriorem et ita deinceps donec semper pars posterior remissius agendo quam prior ita suas procedant[?] actiones usque modo cessent agere isto modo totus calor compositus secundum extentionem ex omnibus illis quorum quaelibet pertingere imaginatur usque ad remotiorem est calor ita perfectus sicut sua prima pars et tamen non potest agere in passum sibi immediatum secundum situm et cum prima pars eius egit in passum sibi immediatius secundum situm et est ibi causa proportionalis priori quod quaelibet eius pars sistens circa finem huius protensionis egit quantum potuit et ex remissioritate continua venitur usque ad defectionem et in potentiam ulterius sit agendi hic tamen in exemplo est illud imaginabilius sed protensionem quem in proposito de quo inquiritur nisi quod ibi magis patet qualiter quaelibet portio illarum in quibus processit illa mutua reproductio sistet alicubi circa finem processus habet effectum sibi aequatum quem et continuat in casu argumenti, et ideo non potest plus quasi agere illo remanente in illa potentia quam <mentioned>c</mentioned> istam egit.
                 </p>
               </div>
             </div>
