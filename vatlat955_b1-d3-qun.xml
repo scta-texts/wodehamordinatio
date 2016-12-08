@@ -46,13 +46,9 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
       </div>
       <div xml:id="starts-on">
         <pb ed="#V" facs="V106" n="106-r" />
@@ -61,17 +57,16 @@
     </front>
     <body>
       <div xml:id="b1-d3-qun">
-        <head type="title">Distinctio 3</head>
+        <head xml:id="b1d3qun-Hd3d3d3">Distinctio 3</head>
         <div xml:id="b1d3qun-Dquuvet">
           <head xml:id="b1d3qun-Hquuvet">Quaestio unica: Utrum mens humana sit imago trinitatis increatae sicut vestigium eiusdem trinitatis</head>
-          <div>
-            <!--This question begins near the top of p106v = p212, l.12. Numbered by folio and page.-->
-            <p xml:id="b1d3qun-cdtvet"><pb ed="#V" n="106v"/>Circa distinctionem tertiam quaero utrum mens humana sit  imago trinitatis increatae sicut in rebus aliis factis propter hominem
-              <lb ed="#V" n="13"/>est vestigium eiusdem trinitatis
-            </p>
-          </div>
+          <!--This question begins near the top of p106v = p212, l.12. Numbered by folio and page.-->
+          <p xml:id="b1d3qun-cdtvet"><pb ed="#V" n="106v"/>Circa distinctionem tertiam quaero utrum mens humana sit  imago trinitatis increatae sicut in rebus aliis factis propter hominem
+            <lb ed="#V" n="13"/>est vestigium eiusdem trinitatis
+          </p>
+          
           <div xml:id="b1d3qun-Drprprp" type="rationes-principales">
-            <head>Rationes principales</head>
+            <head xml:id="b1d3qun-Hrprprp">Rationes principales</head>
             <p xml:id="b1d3qun-qnveid">quod non videtur quia secundum <name ref="#Augustine">augustinum</name> in <ref><title>sermone communi de uno martyre</title></ref> <quote>si servasset <add place="margin">inquit</add>
               <lb ed="#V" n="14"/>in se homo bonum quod in illo <add place="margin">creavit deus id est imaginem suam semper laudaret deum non solum lingua sed et vita</add></quote> <del>etc.</del> igitur ex opposito non sic laudat igitur non servat in se bonum illud scilicet
               <lb ed="#V" n="15"/>imaginem dei et tamen servat mentem suam igitur mens humana non est  imago dei
@@ -136,7 +131,7 @@
               <lb ed="#V" n="45"/>vel in homine  imago trinitatis et secundo contra dicta alia dubia movebantur 
             </p>
           </div>
-          <div xml:id="b1d3qun-Dpaspas">
+          <div xml:id="b1d3qun-Dpaspas" type="articulus">
             <head xml:id="b1d3qun-Hpaspas">Primus articulus</head>
             <div xml:id="b1d3qun-Dccvvei">
               <head xml:id="b1d3qun-Hccvvei">Conditiones communes vestigio et imagini</head>
@@ -180,9 +175,9 @@
               <div xml:id="b1d3qun-Doodvei">
                 <head xml:id="b1d3qun-Hoodvei">Differentia inter vestigium et imaginem</head>
                 <p xml:id="b1d3qun-advqah"><quote>Sed differunt vestigium et  imago quia de ra<lb ed="#V" n="14"/>tione vestigii est quod causetur ab isto in specie cuius est vestigium</quote><!--Ockham id p547--> aliquo modo sicut patet inductive de ves<lb ed="#V" n="15"/>tigio bovis de vestigio combustionis et sic de similibus Et hinc est quod vestigium dicitur aliquid
-                <lb ed="#V" n="16"/>derelictum ex alio <quote>de ratione autem imaginis non est quod causetur ab illo cuius est  imago sufficit enim quod  imago Herculis
-                <lb ed="#V" n="17"/>ab alio causetur quam ab Hercule</quote>
-              </p><!--Ockham ibidem-->
+                  <lb ed="#V" n="16"/>derelictum ex alio <quote>de ratione autem imaginis non est quod causetur ab illo cuius est  imago sufficit enim quod  imago Herculis
+                  <lb ed="#V" n="17"/>ab alio causetur quam ab Hercule</quote>
+                </p><!--Ockham ibidem-->
                 <p xml:id="b1d3qun-ntqiqr"><pc ana="#pilcrow"/>Nota tamen quod strictissime et non sic communiter ut prius loquendo de imagine de ratione
                   <g ref="#pilcrow" n="18"/>imaginis est ut ipsa sit similitudo expressa seu genita ab eo cuius est  imago sicut dicit <ref><name ref="#Augustine">Augustinus</name> <title>de 83 Quaestionibus</title> questione 74</ref> sicut
                   <lb ed="#V" n="19"/>ibi exemplificat <quote>ut in speculo</quote> inquit <quote>est  imago hominis quia de illo expressa est</quote> Similiter <quote>in parentibus et filiis nam et
@@ -290,7 +285,7 @@
                 </p>
               </div>
             </div>
-            <div xml:id="b1d3qun-Dsasedu">
+            <div xml:id="b1d3qun-Dsasedu" type="dubium">
               <head xml:id="b1d3qun-Hsecdub">Secundum Dubium</head>
               <p xml:id="b1d3qun-spevqn">
                 <note type="marginal-note" place="margin-left">secundum dubium</note>
@@ -326,10 +321,10 @@
                   <lb ed="#V" n="44"/>primi actus naturaliter in eo causabilis respectu talis obiecti <add place="in-space"><!-- in space is not curretly a value supported; what does it mean -->|</add> vel per speciem aut habitum postea in absentia obiecti
                   <lb ed="#V" n="45"/>respectu cognitionis abstractivae gignendae respectu talis obiecti absentis <add place="inSpace">|</add> unde de actu primo <unclear>intellectivo</unclear> scilicet respectu
                   <lb ed="#V" n="46"/>talis obiecti naturalis causando verbum est illud <ref><name ref="#Augustine">augustinus</name> 9 <title ref="#deTrinitate">de trinitate</title> 30 de parvis</ref> <quote>ab utroque paritur notitia a
-                    <lb ed="#V" n="47"/>cognoscente scilicet et cognito</quote> et per secundo dicto loquitur <ref><unclear>XV</unclear> <title ref="#deTrinitate">de trinitate</title> c. 24 de parvis</ref><!--De Trinitate XV, 10, 19--> dicens <hi rend="underline"><quote>cum quod scimus loquimur ex scientia cum memoria tenemus nascitur verbum quod cuiusmodi est omnino</quote> supple obiecti <quote>cuiusmodi est scientia
-                      <!--Page break: 108r/215=======================================================-->
-                      <pb ed="#V" n="108-r"/>
-                      <lb ed="#V" n="1"/>de qua nascitur</quote></hi> statim enim sequitur unde habetur quod ly <quote>eiusmodi et cuius</quote> referunt obiectum et non notant speciem cognitio<lb ed="#V" n="2"/>nis 
+                  <lb ed="#V" n="47"/>cognoscente scilicet et cognito</quote> et per secundo dicto loquitur <ref><unclear>XV</unclear> <title ref="#deTrinitate">de trinitate</title> c. 24 de parvis</ref><!--De Trinitate XV, 10, 19--> dicens <hi rend="underline"><quote>cum quod scimus loquimur ex scientia cum memoria tenemus nascitur verbum quod cuiusmodi est omnino</quote> supple obiecti <quote>cuiusmodi est scientia
+                  <!--Page break: 108r/215=======================================================-->
+                  <pb ed="#V" n="108-r"/>
+                  <lb ed="#V" n="1"/>de qua nascitur</quote></hi> statim enim sequitur unde habetur quod ly <quote>eiusmodi et cuius</quote> referunt obiectum et non notant speciem cognitio<lb ed="#V" n="2"/>nis 
                   <hi rend="underline"><quote>formata quippe</quote></hi> inquit <hi rend="underline"><quote>cognitio ab ea re quam scimus verbum est quod in corde dicimus</quote></hi>
                 </p>
                 <p xml:id="b1d3qun-icdpad"><pc ana="#pilcrow"/>Item
@@ -637,13 +632,10 @@
                   virtu<lb ed="#V" n="5"/>oso tam appetitivo quam cogitativo <pc ana="#punctus"/> quod potest esse sic bonus et talis qualis debent esse postquam non fuit talis sine novitate
                   <lb ed="#V" n="6"/>alicuius sibi addito in subiecto <add place="margin-left">scilicet</add> per novitatem praecepti <pc ana="#virgula"/> vel huiusmodi <pc ana="#virgula"/> similiter de pulchritudine et de sanitate et ita de multis
                   <lb ed="#V" n="7"/>quae ponitur in prima specie qualitatis <pc ana="#punctus"/> nam aliqua fiunt pulchritudo et sanitas <add place="margin-left">ad amotionem aliorum sine additione vel subtractione ab illa vel ab illis quae erunt pulchritudo vel sanitas</add>
-              </p>
+                </p>
               </div>
-  
-  
               <div xml:id="b1d3qun-Drapapa">
                 <head xml:id="b1d3qun-Hrapapa">responsio ad principales argumenta</head>
-  
                 <div xml:id="b1d3qun-Dapaapa">
                   <head xml:id="b1d3qun-Hapaapa">ad prima argumenta</head>
                   <p xml:id="b1d3qun-apasis"><pc ana="#pilcrow"/>ad primum argumentum principale istius dubii <add place="margin-right">cum inquiritur</add>
@@ -846,8 +838,8 @@
                   <lb ed="#V" n="39"/>fieret prius quam perciperetur et <unclear>prima</unclear> hoc <del rend="expunctuated">erat</del> contra casum
                 </p>
               </div>
-              <div>
-                <head>Oppositum</head>
+              <div xml:id="b1d3qun-D3opum">
+                <head xml:id="b1d3qun-H3opum">Oppositum</head>
                 <p xml:id="b1d3qun-aocdim">
                   <note type="marginalNote" place="margin-left">oppositum</note>
                   <pc ana="#pilcrow"/>Ad oppositum <ref><name ref="#Augustine"/>XV <title ref="#deTrinitate">de trinitate</title> c. 67 et 77</ref> utrobique enim dicit quod amor
@@ -1001,7 +993,6 @@
                     <lb ed="#V" n="50"/>in verbo mentali <unclear>proprie <!-- correction of somekind here --></unclear> ad intra non mentimur igitur vocem extra vocat ibi verbum
                   </p>
                 </div>
-  
                 <div xml:id="b1d3qun-Dd3atta">
                   <head xml:id="b1d3qun-Hd3atta">ad tertium argumentum</head>
                   <p xml:id="b1d3qun-atvoac">
@@ -1080,7 +1071,7 @@
                 </div>
               </div>
             </div>
-            <div xml:id="b1d3qun-Dd4qdqd">
+            <div xml:id="b1d3qun-Dd4qdqd" type="dubium">
               <head xml:id="b1d3qun-Hd4qdqd">Quartum dubium</head>
               <div xml:id="b1d3qun-Dd4oaoa">
                 <head xml:id="b1d3qun-Hd4oaoa">Opinio adam</head>
@@ -1108,8 +1099,8 @@
                   <lb ed="#V" n="50"/><sic>requirit</sic> volitio cognitionem per auctoritatem <name ref="#Augustine">augustini</name> et per experientiam igitur
                 </p>
               </div>
-              <div>
-                <head>Contra opinionem adam</head>
+              <div xml:id="b1d3qun-Dd4cooa">
+                <head xml:id="b1d3qun-Hd4cooa">Contra opinionem adam</head>
                 <p xml:id="b1d3qun-schehp">
                   Sed contra hoc arguitur quia voluntas praecipit
                   <lb ed="#V" n="51"/>intellectui quod consideret <c>a</c> aut igitur tunc <c>a</c> est actu consideratum et tunc superflue praeciperet voluntas aut non et habetur propositum 
@@ -1169,8 +1160,8 @@
                   <lb ed="#V" n="26"/>de actu voluntatis non intellectio
                 </p>
               </div>
-              <div xml:id="b1d3qun-Dd4reio">
-                <head xml:id="b1d3qun-Hd4reio">responsio</head>
+              <div xml:id="b1d3qun-Dd4roro">
+                <head xml:id="b1d3qun-Hd4roro">responsio</head>
                 <p xml:id="b1d3qun-apiivh">
                   <note type="marginal-note" place="margin-left">ad primum</note>
                   <pc ana="#pilcrow"/>Ad primum istorum responsum est inmediate ante 
@@ -1234,7 +1225,7 @@
                   <!--  -->
                   <!--Page break: 111v/224=======================================================-->
                   <!--  -->
-                  <pb ed="#V" n="111v"/>
+                  <pb ed="#V" n="111-v"/>
                   <lb ed="#V" n="1"/>volitione potest executio quandoque aliquam diu continuari <pc ana="#punctus"/> sicut ad hoc scilicet quod substantia <add place="margin-top">creatura</add> alia nihil operetur extra per solum velle est articulus
                   <lb ed="#V" n="2"/>parisiensis <pc ana="#punctus"/> et propter hoc <unclear>potest</unclear> singulariter tribuit deo quod ipse dixit et facta sunt mandavit seu voluit et crea<lb ed="#V" n="3"/>ta 
                   sunt <pc ana="#virgula"/> et quod omnia quantumque voluit fecit <pc ana="#virgula"/> et quia tota ambulatio erat volita tota est extrinsece meritoria
