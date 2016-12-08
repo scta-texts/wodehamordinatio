@@ -10,7 +10,7 @@
         <editor xml:id="NV">Nicolas Vaughan</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.08">
+        <edition n="0.0.0-dev">
           <title>Distinctio 3 q. un. [Vatican Transcription]</title>
           <date when="2015-08-24">May 19 2015</date>
         </edition>
@@ -57,25 +57,29 @@
     </front>
     <body>
       <div xml:id="b1-d3-qun">
-        <head xml:id="b1d3qun-Hd3d3d3">Distinctio 3</head>
+        <head xml:id="b1d3qun-Hd3d3d3">Distinctio 3, Quaestio Unica</head>
         <div xml:id="b1d3qun-Dquuvet">
           <head xml:id="b1d3qun-Hquuvet">Quaestio unica: Utrum mens humana sit imago trinitatis increatae sicut vestigium eiusdem trinitatis</head>
           <!--This question begins near the top of p106v = p212, l.12. Numbered by folio and page.-->
-          <p xml:id="b1d3qun-cdtvet"><pb ed="#V" n="106v"/>Circa distinctionem tertiam quaero utrum mens humana sit  imago trinitatis increatae sicut in rebus aliis factis propter hominem
+          <p xml:id="b1d3qun-cdtvet">
+            <pb ed="#V" n="106v"/>Circa distinctionem tertiam quaero utrum mens humana sit  imago trinitatis increatae sicut in rebus aliis factis propter hominem
             <lb ed="#V" n="13"/>est vestigium eiusdem trinitatis
           </p>
           
           <div xml:id="b1d3qun-Drprprp" type="rationes-principales">
             <head xml:id="b1d3qun-Hrprprp">Rationes principales</head>
-            <p xml:id="b1d3qun-qnveid">quod non videtur quia secundum <name ref="#Augustine">augustinum</name> in <ref><title>sermone communi de uno martyre</title></ref> <quote>si servasset <add place="margin">inquit</add>
+            <p xml:id="b1d3qun-qnveid">
+              quod non videtur quia secundum <name ref="#Augustine">augustinum</name> in <ref><title>sermone communi de uno martyre</title></ref> <quote>si servasset <add place="margin">inquit</add>
               <lb ed="#V" n="14"/>in se homo bonum quod in illo <add place="margin">creavit deus id est imaginem suam semper laudaret deum non solum lingua sed et vita</add></quote> <del>etc.</del> igitur ex opposito non sic laudat igitur non servat in se bonum illud scilicet
               <lb ed="#V" n="15"/>imaginem dei et tamen servat mentem suam igitur mens humana non est  imago dei
             </p>
-            <p xml:id="b1d3qun-idteit"><pc ana="#pilcrow"/>Item <ref>14 <title ref="#deTrinitate">de trinitate</title> c. 7 de parvis</ref>
+            <p xml:id="b1d3qun-idteit">
+              <pc ana="#pilcrow"/>Item <ref>14 <title ref="#deTrinitate">de trinitate</title> c. 7 de parvis</ref>
               <lb ed="#V" n="16"/>dicit iuxta illud psalmum <quote>verumtamen in imagine pertransit homo quod <hi rend="underline">haec  imago ita deformis et obscura facta est ut penae
                 <lb ed="#V" n="17"/>nulla sit</hi></quote> Ipsa <del>quod</del> <add place="above-line">autem</add> mens humana secundum substantiam suam integre manet igitur secundum substantiam suam non est  imago trinitatis
             </p>
-            <p xml:id="b1d3qun-immnsm"><lb ed="#V" n="18"/><pc ana="#pilcrow"/>Item tunc mens magis esset  imago dei quam homo quia unumquodque propter quod et illud magis Consequens falsum quia homo magis est
+            <p xml:id="b1d3qun-immnsm">
+              <lb ed="#V" n="18"/><pc ana="#pilcrow"/>Item tunc mens magis esset  imago dei quam homo quia unumquodque propter quod et illud magis Consequens falsum quia homo magis est
               <lb ed="#V" n="19"/>similis deo quam mens et exprimitur ab eo igitur magis est eius  imago haec consequentia patet per distinctionem imaginis quam ponit <ref><name ref="#Augustine">augustinus</name>
               <lb ed="#V" n="20"/><title ref="deDiversisQuaestionibus">De 83 quaestionibus</title> quaestione 74</ref> ubi dicit quod  imago est expressa similitudo illius cuius est  imago assumptum probatur quia homo est ens nobilius
               <lb ed="#V" n="21"/>quam mens hominis igitur est magis similis deo <add place="margin">quam eius mens</add> Consequentia patet per <ref><name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monologion</title> c. 31 et 66</ref> ubi dicit <name>Anselmus</name> <hi rend="underline"><quote>quidquid inter crea<lb ed="#V" n="22"/>ta constat</quote> deo <quote>esse similius illud necesse est esse <!--this should be an "ex", not an "esse"--> natura praestantius</quote></hi> assumptum probatur quia <ref>primus <title ref="#Ethics">Ethicorum</title> c. 8 in fine dicit <name ref="#Aristotle">Philosophus</name></ref>
@@ -83,7 +87,8 @@
               <lb ed="#V" n="24"/>eligibilius</quote></hi> Igitur <unclear>pari ratione</unclear> mens humana cum quocumque bono est melior quam ipsa solitaria Igitur compositum ex ipsa mente et corpore
               <lb ed="#V" n="25"/>scilicet homo est nobilius sola mente
             </p>
-            <p xml:id="b1d3qun-ismnrd"><lb ed="#V"/><pc ana="#pilcrow"/>Item si mens humana sit  imago trinitatis increatae igitur aut ratione substantiae suae
+            <p xml:id="b1d3qun-ismnrd">
+              <lb ed="#V"/><pc ana="#pilcrow"/>Item si mens humana sit  imago trinitatis increatae igitur aut ratione substantiae suae
               <lb ed="#V" n="26"/>et hoc non quia illa non repraesentat distinctionem personarum aut ratione actuum quos causat et recipit et hoc quia illi non sunt
               <lb ed="#V" n="27"/>consubstantiales et hoc idem quia in re arguitur sub alia forma sic si sic tunc cognitio perfecta illius imaginis nata esset indu<lb ed="#V" n="28"/>cere 
               vel saltem iuvare <add place="margin-left">ad cognoscendum</add> trinitatem esse in deo 
@@ -96,7 +101,8 @@
               <lb ed="#V" n="30"/>et per consequens vel sunt partes mentis vel accidentia in ipsa et ita ista cognitio faceret aestimare quod personae essent partes
               <lb ed="#V" n="31"/>dei vel accidentia in eo et ita <add place="above-line">quod</add> non deus Si non tunc faceret aestimare personas non realiter distingui
             </p>
-            <p xml:id="b1d3qun-isqati"><lb ed="#V"/><pc ana="#pilcrow"/>Item specialiter quod mens
+            <p xml:id="b1d3qun-isqati">
+              <lb ed="#V"/><pc ana="#pilcrow"/>Item specialiter quod mens
               <lb ed="#V" n="32"/>non sit imago ratione suorum accidentium quia <ref>14 <title ref="#deTrinitate">de trinitate</title> c. 6 de parvis dicit <name ref="#Augustine">augustinus</name></ref> quod <quote> imago creatoris immortaliter <add place="margin-right">inserta</add>
               <lb ed="#V" n="33"/><del>inserta</del> est animae hominis rationali seu intellectuali sed actus non immortaliter</quote> igitur Et ibidem etiam <ref>c. 4 vult <name ref="#Augustine">augustinus</name></ref>
               <lb ed="#V" n="34"/>quod  imago illa non est attendenda in rebus transeuntibus sed actus transeunt igitur
@@ -104,7 +110,8 @@
           </div>
           <div xml:id="b1d3qun-Daomaom">
             <head xml:id="b1d3qun-Haomaom">Oppositum</head>
-            <p xml:id="b1d3qun-aopmld"><pc ana="#pilcrow"/>ad oppositum <ref><title ref="#gen">Genesis</title> primo</ref> <quote>fa<lb ed="#V" n="35"/>ciamus 
+            <p xml:id="b1d3qun-aopmld">
+              <pc ana="#pilcrow"/>ad oppositum <ref><title ref="#gen">Genesis</title> primo</ref> <quote>fa<lb ed="#V" n="35"/>ciamus 
               hominem ad imaginem etc.</quote> et <ref><name ref="Augustine">Augustinus</name> <title ref="#supraGenesim">Super Genesem ad litteram</title> c. 23 de parvis</ref> dicit hominem factum esse ad imaginem dei
               <lb ed="#V" n="36"/>secundum mentem secundum illud <ref><name ref="#Paul">Apostoli</name><title ref="#eph"/></ref> <quote ana="#eph4_23">Renovamini spiritu mentis vestrae</quote> Et <ref>c. 26</ref> concludit quod in mente factus est homo
               <lb ed="#V" n="37"/>ad imaginem dei eiusdem opinionis est <ref><name ref="#Lombard">Magister</name><title ref="#Sentences"/> libro 2 distinctione 16</ref>
@@ -120,14 +127,16 @@
               <lb ed="#V" n="41"/>est  imago eius diximus enim eam esse amissa dei participatione <add place="margin-left">abolitam</add> atque deformem dei tamen imaginem permanere
               <lb ed="#V" n="42"/>eo quippe proprie  imago eius est quo capax eius est eiusque particeps esse potest</quote>
             </p>
-            <p xml:id="b1d3qun-qsalpd"><pc ana="#pilcrow"/>Quinto sunt ad <add place="above-line">istam</add> partem auctoritates
+            <p xml:id="b1d3qun-qsalpd">
+              <pc ana="#pilcrow"/>Quinto sunt ad <add place="above-line">istam</add> partem auctoritates
               <lb ed="#V" n="43"/>aliae multae tam quo ad imaginem quam quo ad vestigium quas ponit <name ref="#Lombard">magister</name> in littera praesentis distinctionis <pc ana="#punctus"/> et libro etiam 2 aliquas
               <lb ed="#V" n="44"/>alias distinctione 16
             </p>
           </div>
           <div xml:id="b1d3qun-Ddqdqdq">
             <head xml:id="b1d3qun-Hdqdqdq">Divisio questionis</head>
-            <p xml:id="b1d3qun-iiqadm"><pc ana="#pilcrow"/>In ista questione est conclusio certa quod sic sed videndum primo et qualiter sit in creaturis vestigium trinitatis 
+            <p xml:id="b1d3qun-iiqadm">
+              <pc ana="#pilcrow"/>In ista questione est conclusio certa quod sic sed videndum primo et qualiter sit in creaturis vestigium trinitatis 
               <lb ed="#V" n="45"/>vel in homine  imago trinitatis et secundo contra dicta alia dubia movebantur 
             </p>
           </div>
@@ -174,18 +183,21 @@
               </p>
               <div xml:id="b1d3qun-Doodvei">
                 <head xml:id="b1d3qun-Hoodvei">Differentia inter vestigium et imaginem</head>
-                <p xml:id="b1d3qun-advqah"><quote>Sed differunt vestigium et  imago quia de ra<lb ed="#V" n="14"/>tione vestigii est quod causetur ab isto in specie cuius est vestigium</quote><!--Ockham id p547--> aliquo modo sicut patet inductive de ves<lb ed="#V" n="15"/>tigio bovis de vestigio combustionis et sic de similibus Et hinc est quod vestigium dicitur aliquid
+                <p xml:id="b1d3qun-advqah">
+                  <quote>Sed differunt vestigium et  imago quia de ra<lb ed="#V" n="14"/>tione vestigii est quod causetur ab isto in specie cuius est vestigium</quote><!--Ockham id p547--> aliquo modo sicut patet inductive de ves<lb ed="#V" n="15"/>tigio bovis de vestigio combustionis et sic de similibus Et hinc est quod vestigium dicitur aliquid
                   <lb ed="#V" n="16"/>derelictum ex alio <quote>de ratione autem imaginis non est quod causetur ab illo cuius est  imago sufficit enim quod  imago Herculis
                   <lb ed="#V" n="17"/>ab alio causetur quam ab Hercule</quote>
                 </p><!--Ockham ibidem-->
-                <p xml:id="b1d3qun-ntqiqr"><pc ana="#pilcrow"/>Nota tamen quod strictissime et non sic communiter ut prius loquendo de imagine de ratione
+                <p xml:id="b1d3qun-ntqiqr">
+                  <pc ana="#pilcrow"/>Nota tamen quod strictissime et non sic communiter ut prius loquendo de imagine de ratione
                   <g ref="#pilcrow" n="18"/>imaginis est ut ipsa sit similitudo expressa seu genita ab eo cuius est  imago sicut dicit <ref><name ref="#Augustine">Augustinus</name> <title>de 83 Quaestionibus</title> questione 74</ref> sicut
                   <lb ed="#V" n="19"/>ibi exemplificat <quote>ut in speculo</quote> inquit <quote>est  imago hominis quia de illo expressa est</quote> Similiter <quote>in parentibus et filiis nam et
                   <lb ed="#V" n="20"/>de parente expressa est similitudo filii ut <subst><del rend="strikethrough">proprie</del><add place="above-line">recte</add></subst> dicatur <add place="margin-right"> imago</add></quote> Proprie tamen etiam sumitur  imago sicut praeaccepi teste
                   <lb ed="#V" n="21"/><ref><name ref="#Lombard">Magistro</name><title ref="#Sentences"/> libro 2 distinctione 16 c. 2</ref> ubi dicit pro quadam auctoritate <name ref="#Bede">Bedae</name> super hoc quod trinitas ipsa <quote>improprie dicitur  imago</quote> Cuius
                   <lb ed="#V" n="22"/>causa est <quote>quia imago</quote> inquit <quote>relative dicitur ad aliud cuius similitudinem gerit <add place="above-line">et</add> ad quod repraesentandum facta est <pc ana="#virgula"/> sicut imago Caesa<lb ed="#V" n="23"/>ris quae ipsius similitudinem praeferebat ipsumque quodammodo repraesentabat</quote>
                 </p>
-                <p xml:id="b1d3qun-ehdspi"><pc ana="#pilcrow"/>Ex hac differentia sequitur alia quod vestigium ducit 
+                <p xml:id="b1d3qun-ehdspi">
+                  <pc ana="#pilcrow"/>Ex hac differentia sequitur alia quod vestigium ducit 
                   <lb ed="#V" n="24"/>vel ducere potest non tantum in notitiam complexam recordativam illius cuius est habitualiter noti sed etiam in <subst><del>complexis</del><add>comple<lb ed="#V" n="25"/>xas</add></subst> 
                   alias contingentes et assensus sibi conformes aliquos in quorum consimiles non potest sufficienter imago ducere verbi gratia vesti<lb ed="#V" n="26"/>gium 
                   bovis non tantum facit recordari de bove habitualiter noto sed ducit communiter in credulitatem conformem
@@ -591,8 +603,8 @@
                   <lb ed="#V" n="37"/>subiecto active <pc ana="#punctus"/> sed ab isto qui active conservat eam in subiecto quodcumque illud fuerit
                 </p>
                 <p xml:id="b1d3qun-aseudi">
-                  Ad duodecimum<note type="marginal-note" place="margin-left">ad duodecimum</note> 
-                  <pc ana="#pilcrow"/>dicendum quod conceptus pure numerales 
+                  <note type="marginal-note" place="margin-left">ad duodecimum</note>
+                  Ad duodecimum <pc ana="#pilcrow"/>dicendum quod conceptus pure numerales 
                   <lb ed="#V" n="38"/>non sunt eiusdem speciei <pc ana="#punctus"/> sed sunt conceptus mere syncategorematici sicut omnis <pc ana="#virgula"/> et alias <pc ana="#virgula"/> quod patet <pc ana="#virgula"/> quia terminum mediate sequentem faciunt stare 
                   <lb ed="#V" n="39"/>confuse tantum <pc ana="#punctus"/> sicut <pc ana="#virgula"/> <mentioned>omnis</mentioned> <pc ana="#virgula"/> non enim sequitur <mentioned>bis comedisti panem <add place="margin-right">igitur bis illum  panem</add> vel illum </mentioned> <pc ana="#virgula"/> et ideo quantumcumque unus intendatur vel remittatur num<lb ed="#V" n="40"/>quam 
                   fiet <unclear>simillimus</unclear> alteri <pc ana="#virgula"/> sicut nec conceptus cui correspondet haec vox <mentioned>alias</mentioned> potest fieri simillimus qui exprimitur per hanc vocem <mentioned>omnis</mentioned> 
@@ -1247,7 +1259,7 @@
                 </p>
               </div>
             </div>
-            <div xml:id="b1d3qun-Dd5qdqd">
+            <div xml:id="b1d3qun-Dd5qdqd" type="dubium">
               <head xml:id="b1d3qun-Hd5qdqd">Quintum Dubium</head>
               <div xml:id="b1d3qun-Dd5prpr">
                 <head xml:id="b1d3qun-Hd5prpr">Principales rationes</head>
