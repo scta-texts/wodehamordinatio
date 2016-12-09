@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum 4, Quaestio 4 [Sorbonne Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.03">
+          <title>Librum 4, Quaestio  [Sorbonne Transcription]</title>
+          <date when="2015-03-14">March 14, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/"
+              >Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-03-14">March 14, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-03-15" who="#JW" status="draft" n="2015.03">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="b4-q4">
+        <head>Librum 4, Quaestio 4 [Sorbonne Transcription]</head>
+        <div>
+          <head>Quaestio</head>
+          <p><lb ed="#S"/>Utrum corpus christi realiter sub speciebus quae fuerunt panis 
+            <lb ed="#S"/>et vini contineatur</p>
+          
+          <p>quod non <g ref="#dot"/> quia hoc esset per transubstantionem 
+            <lb ed="#S"/>substantiae panis quae praefuit in corpus christi et per consequens <g ref="#dot"/> substantia pa<lb ed="#S"/>nis 
+            non remaneret sub illis speciebus et hoc continet 
+            <lb ed="#S"/><corr><del rend="strikethrough">diffinitio</del></corr> transubstantionis plane ponens ibi accidentia manere sine 
+            <lb ed="#S"/>subiecto Et ita etiam tenet <ref><name ref="#Lombard">magister</name> 12 distinctione 4 libri in principio</ref></p>
+          
+          <p><g ref="#pilcrow"/>Item <ref><name ref="#Aquinas">thomas</name> in 
+            4 distinctione 11a in principio responsionis ad prima quaestionem</ref> dicit quod ista positio 
+            <lb ed="#S"/>quae ponit substantiam panis manere sub illis speciebus cum corpore christi post 
+            <lb ed="#S"/>consecrationem est haeretica igitur ita substantia panis <corr><unclear>desiit</unclear></corr> ibi <g ref="#dot"/> et pari ratione 
+            <lb ed="#S"/>eius materia sed consequens falsum ut videtur quia tunc istae species sumptae non possent 
+            <lb ed="#S"/><unclear>micerre</unclear> commedentem quod falsum est ut videtur quia non possunt converti in 
+            <lb ed="#S"/>substantiam rei alendae cum non sic ibi materia in qua posset recipi forma alen<lb ed="#S"/>di</p>
+          
+          <p><g ref="#pilcrow"/>Item ibi remanet gravitas et pondus sicut docet experientia 
+            <lb ed="#S"/>sensus tantum enim <unclear>ponderavit</unclear> hostiae consecratae sicut non consecratae Et 
+            <lb ed="#S"/><name ref="#Lombard">magister</name> etiam tenet hic ubi prius <g ref="#dot"/> sed nunc est ita quod gravitas est forma 
+            <lb ed="#S"/>substantialis <unclear>elementi</unclear> vel mixti gravius ex 3o causae et materiae</p>
+          
+          <p><g ref="#pilcrow"/>Item tunc corpus 
+            <lb ed="#S"/>christi esset simul in diversis locis sicut sunt multae hostiae consecratae 
+            <lb ed="#S"/>in diversis locis et pari ratione corpus christi posset simul esse in diversis 
+            <lb ed="#S"/>locis circumscriptive et pari ratione <name ref="#Sortes">sortes</name> per opus dei posset esse in diversis 
+            <cb ed="#S" n="167ra"/><lb ed="#S"/>locis et lignum vel panis et sic de similibus consequentia patet quia non potest isto 
+            <lb ed="#S"/>modo esse simul in multis locis sine duplici miraculo sed in vero sive in vera 
+            <lb ed="#S"/><unclear>protensione</unclear> cum <unclear>vi?co</unclear> miraculo</p>
+          
+          <p><g ref="#pilcrow"/>Nam quod corpus christi sit hic et alibi modo 
+            <lb ed="#S"/>non quantitativo hoc est non protensum utrobique habet miraculum de essendo 
+            <lb ed="#S"/>simul et locis multis et etiam miraculum de sic essendo id est modo spirituali 
+            <lb ed="#S"/>quod quemlibet pars sic tum qualibet parte et hic et ibi <g ref="#dot"/> sed si modo quantitativo esset hic 
+            <lb ed="#S"/>et ibi ibi scilicet circumscriptive vel commensurative cessaret unum horum 
+            <lb ed="#S"/>miraculorum igitur qui <corr>potest</corr> <corr><add place="marginLeft">ferre</add></corr> quod sic isto modo quo de facto tenet fides corpus 
+            <lb ed="#S"/>christi simul esse in multis locis a multo fortior potest ferre isto alio 
+            <lb ed="#S"/>modo <g ref="#dot"/> sed hoc falsum sicut <corr><add place="marginLeft">arguit</add></corr> <name>skel</name> contra me qui sibi respondendo dederam 
+            <lb ed="#S"/>quod deus de omnipotentia sua potest ponere idem vas in diversi locis super 
+            <lb ed="#S"/><ref>2m librum sententiarum quaestione 5</ref> licet<!-- possible quot here --> inquit illud sic ita absurdum quod non oportet <g ref="#dot"/> po<lb ed="#S"/>nere 
+            argumenta <corr><add place="marginLeft">contra</add></corr> <unclear>manifestare</unclear> tamen expedit qualia sunt inconvenientia quae sequuntur <g ref="#dot"/> sequitur enim 
+            <lb ed="#S"/>hanc esse possibilis</p>
+          
+          <p><g ref="#pilcrow"/>Idem est fractum et integrum secundum <rs><!-- refers to same person as above -->idem</rs> <g ref="#dot"/></p>
+          
+          <p><g ref="#pilcrow"/>Item 
+            <lb ed="#S"/>combustum et incineratum et tamen manens integrum lignum Et illud  
+            <lb ed="#S"/>plenum et vacuum <g ref="#dot"/> motum et quiescens <g ref="#dot"/> vigilans et dormiens 
+            <lb ed="#S"/><unclear>talidem</unclear> in summo per totum et frigidum insuper album et nigrum vivum 
+            <lb ed="#S"/>et mortuum et infinita <unclear>inquam <!-- in qua --></unclear> contradictoria inter se sequuntur <choice><orig>sicud</orig><reg>sicut</reg></choice> etiam ut dicit<!-- could be a quote throughout here --> quod 
+            <lb ed="#S"/>idem homo posset simul et semul peccare et mereri vitam aeternam u<lb ed="#S"/>no 
+            loco positus comittendo adulterium scienter et alibi positus confiteri 
+            <lb ed="#S"/>aut si non fuerit baptizatus baptizari adultus et sine fictione et cele<lb ed="#S"/>brare 
+            missam cum devotione <!-- ?end quote -->haec illae Ista videntur inconvenientia nimia 
+            <lb ed="#S"/>igitur antecedens ex quo hic sequitur</p>
+          
+          <p><g ref="#pilcrow"/>Item si sic igitur diffinitive <corr><add place="aboveLine">esset</add></corr> corpus christi sub 
+            <lb ed="#S"/>illis speciebus <g ref="#dot"/> vel simul etiam circumscriptive Non circumscriptive quia <corr><add place="marginRight">tunc non</add><del cert="low">sic</del></corr>  totum corpus 
+            <lb ed="#S"/><corr><add place="marginLeft">christi</add><del rend="expunctuated">non</del></corr> esset sub qualibet particula specierum contra effectum transubstantionis et contra <name ref="#Lombard">magister</name> 
+            <lb ed="#S"/>et contra illud quod tenet ecclesia de hoc sacramento non diffinitive <g ref="#dot"/> quia esset diffini<lb ed="#S"/>tive 
+            alicubi est ad minus esset ibi quod non alibi sed corpus christi ex<lb ed="#S"/>istens 
+            sub illis speciebus simul est alibi puta in caelo et in aliis 
+            <lb ed="#S"/><unclear cert="medium">alterationibus</unclear> igitur etc</p>
+          
+          <p><g ref="#pilcrow"/>Item quomodo posset esse quod corpus christi <corr>esse<del>t</del></corr> alicubi 
+            <lb ed="#S"/>quod totum in loco toto et totum in qualibet parte huius <unclear>non</unclear> <unclear>propositum</unclear> videtur <unclear>spiritui</unclear><g ref="#dot"/></p>
+          
+          <p><lb ed="#S"/><g ref="#pilcrow"/>ad oppositum est <ref><name ref="#Lombard">magister</name> distinctione 10 41 libri</ref></p>
+          
+          <p><g ref="#pilcrow"/>ad quaestionem dicendum quod sic <g ref="#dot"/> <choice><orig>sicud</orig><reg>sicut</reg></choice> arguit 
+            <lb ed="#S"/><ref><name ref="#Lombard">magister</name> ibidem</ref> et fides etiam vult hoc<!-- this might be a quote or incipit --> <g ref="#dot"/> sed restat solvere dubia 
+            <lb ed="#S"/>tacta in argumentis principalibus</p>
+          
+          <p><g ref="#pilcrow"/>primum igitur dubium potest esse an remaneat 
+            <lb ed="#S"/>forma substantialis sicut <unclear>tangit</unclear> primum argumentum et est firmiter tenendum quod 
+            <lb ed="#S"/>non sicut ibi probatur</p>
+          
+          <p><g ref="#pilcrow"/>Sed in contrarium est primo quod tunc essent ibi accidentia sine subiecto 
+            <lb ed="#S"/><choice><orig>sicud</orig><reg>sicut</reg></choice> pondus sapora huius</p>
+          
+          <p><g ref="#pilcrow"/>Respondet <name ref="#Lombard">magister</name> et econverso secum concedo conclusionem in 
+          <ref>principio distinctione 12 4i</ref> licet posset secundum opinionem communem et de qualibet quantitate 
+            <lb ed="#S"/><sic><!-- seems like it should be "continua" -->tinua</sic> si ponatur res vere <corr><add place="marginLeft">una</add></corr> inhaerens substantiae et forma accidentalis 
+            <lb ed="#S"/>subiecto suo de multis ibi accidentibus sustinere quod non <unclear>sunt</unclear> sine subiecto <g ref="#dot"/> quia 
+            <lb ed="#S"/>sunt in <unclear>quantitate</unclear> <choice><orig>sicud</orig><reg>sicut</reg></choice> in subiecto et tunc possunt esse multae transformationes accidenta<lb ed="#S"/>les 
+            ibi factae sustinere fieri <corr><del cert="low">est</del></corr> mere naturaliter</p>
+          
+          <p><g ref="#pilcrow"/><unclear>Rn?</unclear> contrariam de quantitate 
+            <lb ed="#S"/>oportet tenere tales transformationes praeter <unclear>solum localem</unclear> fieri immediate a deo solummodo 
+            <lb ed="#S"/>sed quid sit de hoc dicam <ref type="cref">insequenti quaestione</ref> quid sentio</p>
+          
+          <p><lb ed="#S"/><g ref="#pilcrow"/>2o videtur mihi contrarium esse illud de gravitate quod sic ibi forma substantia<lb ed="#S"/>lis 
+            et tamen manet gravitas <corr><add place="marginBottom">quod gravitas sit forma accidentalis et in hostia consecrata <unclear>r?ueneat</unclear></add></corr> formalis est forma accidentalis <choice><orig>sicud</orig><reg>sicut</reg></choice> etiam tenet <ref><name ref="#Lombard">magister</name> 
+            <lb ed="#S"/>in principio distinctione 12 4i quod pondus ibi manet sine subiecto <choice><orig>sicud</orig><reg>sicut</reg></choice> <!-- probably incipit or quote --> </ref> accidentia alia 
+            <lb ed="#S"/>gravitas autem virtualis id est que nata est efficere in se <corr><add place="marginCenter">ipsa</add></corr> aut in 
+            <lb ed="#S"/>sua materia illam formam quae est gravitas <corr><add place="marginLeft">illa in qua gravitas</add></corr> virtualis bene est forma substantialis 
+            <lb ed="#S"/><unclear>elementi</unclear> vel mixti <g ref="#dot"/> et sic intelligo auctoritates istas quae allegantur 
+            <lb ed="#S"/>omne enim quod directe sentiri potest per sensum est qualitas sensibilis <g ref="#dot"/> sed gra<lb ed="#S"/>vitas 
+            vel pondus est huiusmodi etc <g ref="#dot"/>Nam <sic>dyarii</sic> filius non sentitur per se 
+            <lb ed="#S"/>sed per accidens per <ref><name ref="#Aristotle">philosophum</name> 2o <title ref="#deAnima">de anima</title></ref> nec substantia <choice><orig>alica</orig><reg>aliqua</reg></choice> <g ref="#slash"/>iste modo etiam 
+            <lb ed="#S"/>possum dicere quod forma substantialis ignis est calor virtualis <g ref="#dot"/> Constat 
+            <lb ed="#S"/>enim quod omni accidente <unclear>circum?to</unclear> ad huc esset calidus id est natus esset 
+            <lb ed="#S"/>efficere calorem in se vel in alio <choice><orig>ymmo</orig><reg>immo</reg></choice> tam in se quam in alio 
+            <lb ed="#S"/>Et eodem modo etiam est sol calidus unde concedo quod omnis gravitas 
+            <lb ed="#S"/>quae fuerit per se sensui perceptibilis ante transubstantionem <unclear>re?am</unclear> in hostia conse<g ref="#dash"/>crata</p>
+          
+          <p><g ref="#pilcrow"/>Contra tamen illud arguit <name ref="#RichardFitzRalph">fitzralph</name> <g ref="#dot"/> per unum argumentum <unclear>sibi</unclear> sufficiens ut videtur 
+            <lb ed="#S"/>quod posita terra in aliae <unclear>circum?to</unclear> omni accidente per potentiam dei scilicet gravitate 
+            <lb ed="#S"/>qua esset principium motus deorsum aut staret <unclear>nisi</unclear> terra ista aut des<lb ed="#S"/>cenderet 
+            si descendat igitur superfluebat potentia accidentalis ibi vel gravi<lb ed="#S"/>tas 
+            superaddita si staret ibi hoc esset <unclear>pnr</unclear> <unclear>violenter</unclear> et per consequens 
+            <lb ed="#S"/>si movetur ibi versus contrarium locum sui naturalis resisteret moventi 
+            <lb ed="#S"/>ipsum igitur inclinaret ad contrarium et per consequens moveretur ad contrarium nisi 
+            <lb ed="#S"/>impediretur <g ref="#dot"/> Ideo <unclear>inquit</unclear> supposito sicut est verum quod gravitas sic 
+            <lb ed="#S"/>forma substantialis dico ad argumentum quod gravitas manet in sa<g ref="#dash"/><cb ed="#S" n="167rb"/><lb ed="#S"/>cramento 
+            altaris nec invenio aliter posse <unclear>dei</unclear> nisi quod motus hostiae est im<lb ed="#S"/>mediate 
+            a deo ita quod deus sua propria potentia in motu hostiae de<lb ed="#S"/>orsum 
+            supplet in agendo vicem gravitatis</p>
+          
+          <p><g ref="#pilcrow"/>Sed contra hoc potest argui 
+            <lb ed="#S"/>quod si hoc quod si hostia consecrata movetur versus sursum 
+            <lb ed="#S"/>non resisteret motori suo quia si resisteret hoc esset per aliquam 
+            <lb ed="#S"/>formam in ipsam sed deus <unclear>licet</unclear> posset in hostia supplere vicem causae agentis in<lb ed="#S"/>quantum 
+            est <corr><add>??</add></corr> agens non tamen potest supplere vicem gravitatis inquantum 
+            <lb ed="#S"/>gravitas est causa formalis in hostia ergo cum hostia resistit 
+            <lb ed="#S"/><choice><orig>neccessario</orig><reg>necessario</reg></choice> per aliam formam sibi <corr><del rend="expunctuated">inclinatam</del></corr> intrinsecam sequitur quod in hostia 
+            <lb ed="#S"/>sic <corr><del>aliquod</del><add place="marginLeft">aliud</add></corr> principium per quod resistit quam deus et illud non videtur esse <corr><del>nisi</del></corr> gra<lb ed="#S"/>vitas</p>
+          
+          <p><g ref="#pilcrow"/>Responsio inquit quod argumentum bene probat quod in hostia est aliud 
+            <lb ed="#S"/>principium formale per quod hostia resistit motui assensus quam deus 
+            <lb ed="#S"/>et hoc est verum <g ref="#dot"/> Et dico quod illud principium est eius durities 
+            <lb ed="#S"/>et similiter eius <unclear>conti?at?a</unclear> <unclear>vertus</unclear> <g ref="#dot"/> quidquid sic illud <corr>d<add rend="aboveLine">e</add><del rend="expunctuated">ic</del>o</corr> tamen vicem agen<lb ed="#S"/>tis 
+            quo ad motionem activam verus deorsum supplentem vel 
+            <lb ed="#S"/>potius mediante <unclear>angelo</unclear> <corr><add place="marginRight">sic active</add></corr> sed haec via non videtur 
+            <lb ed="#S"/>mihi vera nec rationalis quia nulla forma substantialis est per se <corr><add>sensibilis saltem pro statu praesenti etiam secundum <name ref="#Aristotle">philosophum</name> et pro eo <choice><orig>nichil</orig><reg>nihil</reg></choice> est</add></corr> nisi <unclear>auctoritas</unclear> 
+            <lb ed="#S"/>quae leviter <unclear>glossabitur vel negabit</unclear> si oportet <g ref="#dot"/></p>
+          
+          <p><g ref="#pilcrow"/>Contra tamen hoc arguitur a 
+            <lb ed="#S"/>quodam et tenetur quod illud percipi posset tactum in quo <corr><add place="marginRight">nullum</add></corr> esset accidens 
+            <lb ed="#S"/>sensibile ponatur enim quod <unclear>maxim</unclear> silicis vel talibus omnia ac<lb ed="#S"/>cidentia 
+            destruat deus et conservet substantiam subiectam prius 
+            <lb ed="#S"/>et partes unitas et in eisdem sitibus in quibus fuerit quaero 
+            <lb ed="#S"/>utrum tangetur et experimentaliter sentietur vel non <g ref="#slash"/>quod sic videtur quia 
+            <lb ed="#S"/>cum <corr><add place="margintRight">adhuc</add></corr> sit ferrum vel lapis ita compactus sicut ante videtur quod ita re<lb ed="#S"/>sistet 
+            <unclear>ma?m</unclear> sicut ante <g ref="#slash"/> et ita bene poterit <unclear>marium</unclear> penetra<lb ed="#S"/>re 
+            sive vulnerare sive scindere sicut ante sed talia sentiret 
+            <lb ed="#S"/>manus igitur etc</p>
+          
+          <p><g ref="#pilcrow"/>Sed hoc non obstante <g ref="#dot"/> dicendum quod non quia 
+            <lb ed="#S"/>nullum accidens tunc <unclear>causantur</unclear> per casum nec substantia per <ref><name ref="#Aristotle">philosophum</name> 2o 
+            <lb ed="#S"/><title ref="#deAnima">de anima</title></ref> substantia non est sensibilis nisi per accidens <choice><orig>sicud</orig><reg>sicut</reg></choice> dyarii filius 
+            <lb ed="#S"/>sed substantia nullum habens accidens non sentitur per accidens</p>
+          
+          <p><g ref="#pilcrow"/>hic igitur dici 
+            <lb ed="#S"/>potest quod durities et conparatio vel sunt accidentia vel proveniunt ex 
+            <lb ed="#S"/>actibus unde cessante omni humore <corr><del rend="expunctuated">vel</del></corr> in terra iam non est 
+            <lb ed="#S"/>dura nec compacta <g ref="#dot"/> sed ita leviter dividitur et caedit sicut 
+            <lb ed="#S"/>aqua <g ref="#dot"/> vel aer <g ref="#dot"/> et propter hoc si omne accidens per se sensibile des<lb ed="#S"/>truatur 
+            non remanabit ita substantia nec gravis nec levis nec dura 
+            <lb ed="#S"/>nec compacta  <g ref="#dot"/> <unclear>nisi</unclear> <corr>vocando</corr> compactum <unclear>continuum</unclear> quia tunc rema<lb ed="#S"/>nebit 
+            adhuc quanta <corr><add place="marginRight">per creationem</add></corr> et per consequens naturaliter non permittunt secum aliud 
+            <lb ed="#S"/>quantum</p>
+          
+          <p><g ref="#pilcrow"/>Ideo dicendum quod tangi poterit ad <corr>h<del>o</del><add place="aboveLine">u</add>c</corr> tactu <unclear cert="low">mathematico</unclear> 
+            <lb ed="#S"/>et etiam naturali quia caedit statim alio corpore <name ref="#Aristotle">philosopho</name> ad locum in quo 
+            <lb ed="#S"/>erat sed non tangetur tactu qui sic perceptio sensitiva sicut 
+            <lb ed="#S"/>nec aer dato quod nec esset frigidus nec calidus et ita de 
+            <lb ed="#S"/>aliis sensitivibus qualitatibus</p>
+          
+          <p><g ref="#pilrow"/>Et si dicatur retineat deus illam 
+            <lb ed="#S"/>substantiam et quamlibet eius partem immobilem in eisdem sitibus <unclear>quibus</unclear> 
+            <lb ed="#S"/>prius ita scilicet quod a <unclear>creatura</unclear> in terminum moveri non valeat tunc nec 
+            <lb ed="#S"/>caedit nec dividitur cum manus illuc pertingeret igitur ad hoc 
+            <lb ed="#S"/>sentiet</p>
+          
+          <p><g ref="#pilcrow"/>dicendum quod manus ista <unclear>ut sic</unclear> veniens non procederet nec 
+            <lb ed="#S"/>istam substantiam <corr>sub??heret</corr> sed ibi sisteret inpedica sed non per<lb ed="#S"/>ciperet 
+            unde impeditur nec tangeret tactu sensationis sed tactu ap<lb ed="#S"/>plicationis 
+            bene tangeret eam sicut lapis tangit lapidem 
+            <lb ed="#S"/>sicut si deus modo de facto <corr><del rend="expunctuated">deus</del></corr> teneret aerem immobilem 
+            <lb ed="#S"/>in eodem situ cuius nullam qualitatem possem percipere me<lb ed="#S"/>sentire 
+            vel non sentire propter similitudinem cum qualitatibus ma<lb ed="#S"/>nus 
+            inesse eodem modo me haberem circa perceptionem istius sicut in casu 
+            <lb ed="#S"/>argumenti</p>
+          
+          <p><g ref="#pilcrow"/>hoc videtur rationabilior opinio quam dicere sicut dicunt aliqui quod substantia 
+            <lb ed="#S"/>materialis omni accidente spoliata sentitur vere et quod ipsa per se ipsam <corr><add place="marginThree">est dura</add></corr> 
+            <lb ed="#S"/>et a tactu experitur esse dura</p>
+          
+          <p><g ref="#pilcrow"/>haec sunt contra <name ref="#Aristotle">philosophum</name> nec consonant fidei 
+            <lb ed="#S"/>quia vel in hostia consecrata est duplex durities vel gravitas et com<lb ed="#S"/>pactio 
+            et quod videtur superfluum vel omnia haec sunt accidentia super addi<lb ed="#S"/>ta 
+            vere et non ipsa substantia quod cum haec remaneant in hostia conse<lb ed="#S"/>crata 
+            sicut sunt experientia cum fide docet</p>
+          
+          <p><g ref="#pilcrow"/>ad argumentum <name ref="#RichardFitzRalph">fir</name> paret 
+            <lb ed="#S"/>per idem dico enim quod <unclear>circum?to</unclear> omni accidente per potentiam divinam et 
+            <lb ed="#S"/>suspensa per <unclear>eandem</unclear> potentiam terra <unclear>acti?do</unclear> in se novam gravi<lb ed="#S"/>tatem 
+            et postia sursum in aere ex intrinseca activitate sua 
+            <lb ed="#S"/>nec movetur sursum nec deorsum per pellens autem aut <corr>divid<del rend="expunctuated">n</del>ens</corr> 
+            <lb ed="#S"/>bene posset nec aliter resisteret pellenti in <choice><orig>alico</orig><reg>aliquo</reg></choice> quam corpus 
+            <lb ed="#S"/>neutrum <unclear>pura</unclear> quam corpus vel una caeli particulasi ibi poneretur <g ref="#dot"/></p>
+          
+          <p><cb ed="#S" n="167va"/><lb ed="#S"/><g ref="#pilcrow"/>3o potest argui contra principalem conclusionem in responsione huius dubii positam per hoc 
+            <lb ed="#S"/>quod hostia consecrata <corr><add place="aboveLine">non</add></corr> videtur nutrire Sed accidentia possunt nutrire <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+            <lb ed="#S"/>nec <corr><add place="marginLeft">possunt</add></corr> transire in substantiam rei alendae quia ibi deficit materia substantialis</p>
+          
+          <p><lb ed="#S"/><g ref="#pilcrow"/>ad illud respondetur probabiliter quod duplex est nutritio <g ref="#dot"/> una proprie dicta <g ref="#dot"/> quae est per conver<lb ed="#S"/>sionem 
+            <unclear>al?</unclear> in rem alendam <g ref="#dot"/> ita quod ex hostia fiat restau<lb ed="#S"/>ratio 
+            rei deperditae <g ref="#dot"/> Et hoc <corr><add place="aboveLine">modo</add></corr> si quaeritur utrum <unclear>s?s</unclear> sacramentales nu<lb ed="#S"/>triant 
+            dicendum est quod non <g ref="#dot"/> sed in fine deus ponit ibi substantiam aliam <g ref="#dot"/> 2o 
+            <lb ed="#S"/>modo vocatur nutritio quaecumque reductio membrorum <unclear>animalis</unclear> ad statum 
+            <lb ed="#S"/>priorem secundum qualitates et sic potest homo nutriri ex hostiis 
+            <lb ed="#S"/>et consecratis et similiter alias brutum quia hostia consecrata habet quamdam 
+            <lb ed="#S"/>actionem naturalem in membra hominis et animalis bruti qualem actionem habet 
+            <lb ed="#S"/>hostia non conserata Et ideo simili modo potest hostia consecrata re<lb ed="#S"/>ducere 
+            complexionem lapsam ad statum naturalem saltem secundum qualitates <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+            <lb ed="#S"/>potest hostia non consecrata licet non posset converti per actionem naturalem 
+            <lb ed="#S"/>in materiam membri animalis nec ex 2o modo nutritionis concesso <unclear>solvitur</unclear> 
+            <lb ed="#S"/>quod in hostia consecrata sic <choice><orig>alica</orig><reg>aliqua</reg></choice> materia possibilis quia ita nutritio 2o modo 
+            <lb ed="#S"/>dicta non <unclear>fit<!--sic?--></unclear> propter hoc quod hostia patitur sed propter hoc quod agit 
+            <lb ed="#S"/>in membrum cui approximatur</p>
+          
+          <p><g ref="#pilcrow"/>Ex hiis patet solutio ad argumentum 
+            <lb ed="#S"/>primum principalem concedendum enim in <unclear>principiis</unclear> quod corpus christi sic realiter sub illis 
+            <lb ed="#S"/>speciebus per transubstantionem quia sicut dicit <ref><name ref="#Eusebius">eusebius</name></ref> et ponitur <ref>distinctione x 4i 
+            <lb ed="#S"/><title ref="#Sentences">sententiarum</title> capitulo 5</ref> et <ref><title ref="#deConsecratione">de consecratione</title> distinctione 2</ref> quia <quote>corpus invisibilis inquit 
+            <lb ed="#S"/>sacerdos creaturas in substantiam corporis et sanguinis sui secreta potestate 
+            <lb ed="#S"/>convertit</quote> <g ref="#dot"/> et aliae multae habentur auctoritates in glossa idem ad idem <ref>prima 
+            <lb ed="#S"/>7 cor capitulo vi</ref> et ulterius concedendum est quod non remanebit ibi 
+            <lb ed="#S"/>aliqua forma substantialis quam prius afficiebant ista accidentia 
+            <lb ed="#S"/>sicut ibi probatur Et ulterius quod ibi bene remanet gravitas sed nec ista <corr><add place="marginCenter">erit</add> 
+            <lb ed="#S"/><del rend="expunctuated">nec est</del></corr> umquam fuit forma substantialis ut visis est et similiter satis patet ad 
+            <lb ed="#S"/>illud quod additum est de nutritione per illas ut prius</p>
+          
+          <p><g ref="#pilcrow"/>2m dubium 
+            <lb ed="#S"/>iuxta 2m argumentum principale potest esse <g ref="#dot"/> an corpus christi ita posset <corr><add place="marginCenter">realiter</add><del>essentialiter</del></corr> esse 
+            <lb ed="#S"/>per divinam potentiam simul in pluribus locis extensum in illis sicut est modo 
+            <lb ed="#S"/>non quantitativo simul sub diversis speciebus in multis <corr><add place="marginCenter">locis</add><del rend="expunctuated">aliis</del></corr></p>
+          
+          <p><g ref="#pilcrow"/>Et 
+            <lb ed="#S"/>apparet mihi cum <name ref="#Scotus">scotus</name> <name ref="#Ockham">hokam</name> <name ref="#RichardFitzRalph">firalph</name> et aliis multis doctoribus quod 
+            <lb ed="#S"/><choice><orig>ymmo</orig><reg>immo</reg></choice> Et ratio in principali argumento ad hoc posita satis arguit hoc <g ref="#slash"/> argumentum aut 
+            <lb ed="#S"/>in contrarium esset bonum bene apud philosophos <g ref="#dot"/> apud aut theologos non valet tantum 
+            <lb ed="#S"/>quia sumendo <mentioned>mortuum</mentioned> <corr><add place="aboveLine">non</add></corr> pro eo quod non vivit sed pro eo quod alicubi ca<lb ed="#S"/>ret 
+            vita <corr><add place="marginLeft">seu quod privatur vita</add></corr> non nulli concedunt quod satis est possibile apud deum quod 
+            <lb ed="#S"/>unum corpus in uno loco vivat et in alio loco sit mortuum et sic 
+            <lb ed="#S"/>de similibus et mirum est <g ref="#dot"/> quod <name>chaton[?]</name> teneat contrarium cum credat fide corpus 
+            <lb ed="#S"/>christi in pixide ad infirmum <unclear>depre<!--er/re-->cari</unclear> aliquem ipso tunc alibi 
+            <lb ed="#S"/>non sic moto <g ref="#dot"/> et quid credo circa hoc habeam dicere satis patet ex quaestione 
+            <lb ed="#S"/>ubi tractavi an contraria per divinam potentiam absolutam possunt compa<lb ed="#S"/>ti 
+            invicem <g ref="#dot"/> <name ref="#Scotus">scotus</name> vitat omnia talia quae sunt <corr><add place="marginCenter">natura</add><del rend="expunctuated">vera vel</del></corr> priora 
+            <lb ed="#S"/><corr><del rend="expunctuated">natura</del></corr> habitudine <unclear cert="high">rei</unclear> ad locum <g ref="#dot"/> concedo tam antecedens <g ref="#dot"/> transeo tamen hic quia sa<lb ed="#S"/>tis 
+            notum est omnibus <unclear>acti??bus</unclear> quid prius dixerim <g ref="#slash"/>et quid hic 
+            <lb ed="#S"/>dicere habeam hoc tamen dico quod nulla contradictoria sequuntur et hoc no<lb ed="#S"/>tum 
+            est advertenti cuilibet</p>
+          
+          <p><g ref="#pilcrow"/>Et per hoc patet ad 2m argumentum unde 
+            <lb ed="#S"/>contra hoc quod idem corpus possit simul <unclear>circum?tive</unclear> esse in multis locis movet 
+            <lb ed="#S"/><name ref="#Ockham">hokam</name> dubium in 4o suo quaestione 6 et respondet sicut et ego hic</p>
+          
+          <p><g ref="#pilcrow"/>Contra in<lb ed="#S"/>quit 
+            illud videtur magnum dubium quia isto dato sequitur quod agens creatum 
+            <lb ed="#S"/>posset agere in passum improportionaliter distans vel quod subiectum posset esse 
+            <lb ed="#S"/>alicubi sine accidente suo formaliter  ipsum inofrmante <g ref="#dot"/> quia si idem ca<lb ed="#S"/>lefactibile 
+            esset hic <corr><add place="marginBottom"><!-- substantial marginal addition --></add></corr> et non Romae sequitur secundum scilicet quod idem calefactibile 
+            <lb ed="#S"/>subiectum sic alicubi sine suo proprio accidente</p>
+          
+          <p><g ref="#pilcrow"/>ad istud uno 
+            <lb ed="#S"/>modo respondet <ref><name ref="#Scotus">scotus</name> in 4o</ref> aliter dico quod non est contradictio quod substantia habens 
+            <lb ed="#S"/>accidens sit alicubi ubi non sic suum accidens sicut nunc in 
+            <lb ed="#S"/>proposito exemplo propter distantiam <choice><orig>inproportionatam</orig><reg>improportionatam</reg></choice></p>
+          
+          <p><g ref="#pilcrow"/>hoc patet per exempla unum 
+            <lb ed="#S"/>est de natura assumpta a verbo <g ref="#dot"/> nam secundum omnes unio naturae humanae 
+            <lb ed="#S"/>ad verbum est similis unioni accidentis ad subiectum licet non in omnibus 
+            <lb ed="#S"/>sed non obstante unione simili potest verbum divinum esse alicu<lb ed="#S"/>bi 
+            ubi non est natura assumpta ergo similiter in proposito Si dicam 
+            <lb ed="#S"/>quod non est simile quia verbum divinum est illimitatum non sit subiectum respectu 
+            <lb ed="#S"/>accidentis</p>
+          
+          <p><g ref="#pilcrow"/>Contra licet subiectum accidentis sit simpliciter limitatum bene tamen 
+            <lb ed="#S"/>est illimitatum secundum quid <g ref="#dot"/> quia <choice><orig>sicud</orig><reg>sicut</reg></choice> verbum divinum dicitur simpliciter illimitatum 
+            <lb ed="#S"/>quantum ad locum propter essentia divinam quae se ipsa et virtute propria est <unclear>ubique</unclear> ita substantia 
+            <lb ed="#S"/>corporea est illimitata secundum quid quantum ad locum quia potest esse in pluribus lo<lb ed="#S"/>cis 
+            simul <g ref="#dot"/> <choice><orig>ymmo</orig><reg>immo</reg></choice> ubique per potentiam divinam licet non virtute propria</p>
+          
+          <p><g ref="#pilcrow"/>aliud 
+            <lb ed="#S"/>exemplum est quod unum corpus potest habere duo ubi vel duas <unclear>pn?<cb ed="#S" n="167vb"/><lb ed="#S"/>tia?tes</unclear> 
+            unum in uno loco et aliud in alio et cum corpus existens in 
+            <lb ed="#S"/>uno istorum locorum non habet ibi illud ubi quod habet in alio loco nec econverso quia aliter 
+            <lb ed="#S"/>ut hic haberet duo ubi</p>
+          
+          <p><g ref="#pilcrow"/>Eodem modo corpus christi existens in caelo potest ibi 
+            <lb ed="#S"/>aliud abere quod non habet in sacramento utpote locum <unclear>circumscri?tatem</unclear> vel dis<lb ed="#S"/>tantiam 
+            suarum partium et similia etc</p>
+          
+          <p><g ref="#pilcrow"/>Si dicas quod non est simile de 
+            <lb ed="#S"/>activitate isto <unclear>re?vo</unclear> creato  hic ab isto loco uno <corr><add place="aboveLine">et</add><del rend="expunctuated">tamen</del></corr> ab alio loco 
+            <lb ed="#S"/>ubi habet aliud ubi et de activitate <unclear>ab?co</unclear> <corr><add place="marginLeft">contra idem</add></corr> <corr><add place="marginCenter">contra idem</add></corr> calor approximatus calefactibili 
+            <lb ed="#S"/>hic calorem et non Romae ita quod non videtur differentia de uno et 
+            <lb ed="#S"/>de aio nisi quod calor <corr>causa<del>n</del>tus</corr> ab igne hic et non alibi et aliquid 
+            <lb ed="#S"/>absolutum et ubi <hi rend="underline">est</hi> <unclear>re?us</unclear> secundum <name ref="#Scotus">scotum</name> <g ref="#dot"/> ET sic non videtur inconveniens quod accidens 
+            <lb ed="#S"/>sic ubi suum subiectum non est quando <g ref="#dot"/> suum subiectum est in duobus locis quorum 
+            <lb ed="#S"/>unus <unclear>proportionatur</unclear> agenti alius non</p>
+          
+          <p><g ref="#pilcrow"/>hoc iterum patet quia hoc non negaretur 
+            <lb ed="#S"/>nisi propter conditionem quae videtur sequi sed nulla contradictio sequitur quia ex hoc quod subiectum 
+            <lb ed="#S"/>tale caret accidente tali in tali loco non sequitur negatio absoluta accidentis 
+            <lb ed="#S"/>a subiecto sicut non sequitur homo non est albus hic ergo non est albus 
+            <lb ed="#S"/>sed est secundum quid et specialiter sicut non solvitur deus non est incarnatus hic ergo 
+            <lb ed="#S"/>non est incarnatus <corr><add place="marginBottom">quia deus est ubique et per consequens in multis locis in quibus non est incarnatus</add></corr> Item non sequitur si corpus ponatur in loco et extra caelum vel 
+            <lb ed="#S"/>in vacuo non in loco non inquam sequitur hoc corpus non est hic in lo<lb ed="#S"/>co 
+            igitur non est in loco Nec sequitur 3o si corpus sic in <corr>drrobus[?]</corr> lo<lb ed="#S"/>cis 
+            hoc corpus in 2o loco non habet primum ubi ergo non habet primum ubi 
+            <lb ed="#S"/>et si dicatur quod <corr><add place="aboveLine">tunc</add></corr> plura accidentia eiusdem speciei possunt informaliter vle corpus 
+            <lb ed="#S"/>quia si est hic calidum et non romae approximetur igitur sibi tunc <corr><del rend="expunctuated">erit</del></corr> 
+            <lb ed="#S"/>ibi aliud calefactivum et tunc recipiet alium calorem</p>
+          
+          <p><g ref="#pilcrow"/>dicerem quod 
+            <lb ed="#S"/>in tali casu non est inconveniens quod plura accidentia eiusdem speciei nata fa<lb ed="#S"/>cere 
+            unum sint simul in eodem subiecto non facientia unum sed si praecise essent 
+            <lb ed="#S"/>in eodem uno loco tunc duo accidentia nata facere unum sicut duo 
+            <lb ed="#S"/>calores vel albedines ipsae facerent unum individuum ad modum 
+            <lb ed="#S"/>quo <g ref="#dot"/> duae <corr><del rend="expunctuated">autem</del></corr> aquae faciunt unam aquam et duae partis ignis unum 
+            <lb ed="#S"/>ignem et ita de omnibus accidentibus individuis eiusdem speciei simul informan<lb ed="#S"/>tibus 
+            vel subiectum</p>
+            
+          <p><g ref="#pilcrow"/>3m dubium potest esse qualiter corpus christi sic in loco u<lb ed="#S"/>trum 
+            circumscriptive vel diffinitive prout <unclear>tangit</unclear> in 3o argumento principali Et est 
+            <lb ed="#S"/>dicendum quod solum diffinitive nec debet exponi esse diffinitive in loco per non 
+            <lb ed="#S"/>esse alibi <corr><add place="marginRight">sed per non esse nisi alibi</add></corr> et utrobique per nullam <g ref="#dot"/> si accipiantur eius loca disparata 
+            <lb ed="#S"/>inter quae est medium <unclear>interceptum</unclear> nec <choice><orig>alica</orig><reg>aliqua</reg></choice> est inter loca huius <unclear>contra?<lb ed="#S"/>tio</unclear> 
+            secundum <corr><del rend="expunctuated">ram</del></corr> rectam lineam vel obliquam</p>
+          
+          <p><g ref="#pilcrow"/>4m dubium tangitur eo 
+            <lb ed="#S"/>de argumento 3o quomodo concipietur quod corpus aliquod possit esse totum in lo<lb ed="#S"/>co 
+            <lb ed="#S"/><choice><orig>alico</orig><reg>aliquo</reg></choice> et totum in qualibet parte eius ita quod sic quod sic solum diffinitive 
+            <lb ed="#S"/>in loco et non circumscriptive</p>
+          
+          <p><g ref="#pilcrow"/>ad istud respondet <name ref="#Ockham">hokam</name> satis bene 
+            <lb ed="#S"/>in <ref>lectura sua 4i</ref> dicens <g ref="#dot"/> quod circa illud videndae sunt duae dif<lb ed="#S"/>ficultates 
+            una quomodo idem corpus numero possit simul secundum se totum existere in 
+            <lb ed="#S"/>pluribus locis <g ref="#dot"/> Alia quomodo multae partes eiusdem corporis pos<lb ed="#S"/>sint 
+            simul coexistere eidem uni loco Et qui videt perfecte ita 
+            <lb ed="#S"/>duo videt quomodo corpus christi existit sub speciebus panis ita 
+            <lb ed="#S"/>quod totum sub tota et totum sub qualibet particula <corr><!-- possible marginal addition here --></corr></p>
+          
+          <p><g ref="#pilcrow"/>Quantum ad primum non videtur maior 
+            <lb ed="#S"/>dificultas quia idem corpus numero coexistat pluribus locis simul <corr><del rend="strikethrough">se</del></corr> 
+            <lb ed="#S"/>secundum se totum quam quod eadem anima intellectiva simul existat secundum se totam 
+            <lb ed="#S"/>in toto corpore et in qualibet parte eius <g ref="#dot"/> vel quod idem angelus in <choice><orig>alico</orig><reg>aliquo</reg></choice> toto 
+            <lb ed="#S"/>loco existat <corr><add place="aboveLine">et</add></corr> in qualibet parte illius et unum ponimus secundum veritatem philosophi<lb ed="#S"/>cam 
+            et theologicam igitur aliud taliter esse <corr><add place="aboveLine">est</add></corr> possibile et consequentia patet quia non magis 
+            <lb ed="#S"/>videtur repugnare divisibili quod secundum se totum <corr><add place="marginLeft">sic</add></corr> in <choice><orig>alico</orig><reg>aliquo</reg></choice> toto loco et in 
+            <lb ed="#S"/>qualibet parte eius quam indivisibili et de indivisibili ponimus hoc ut in prae<lb ed="#S"/>dictis 
+            exemplis patet etc</p>
+          
+          <p><g ref="#pilcrow"/>Quantu ad 2m non est maior difficultas quam 
+            <lb ed="#S"/>quod duo corpora coexistat simul in eodem loco adaequato et hic sive sint <corr><add place="marginRight">corpora gloriosa sive non</add></corr> 
+            <lb ed="#S"/><corr><add place="marginCenter">gloriosa</add></corr> <g ref="#dot"/> qui <choice><orig>in differenter</orig><reg>indifferenter</reg></choice> possunt duo <corr><add place="aboveLine">non</add></corr> gloriosa esse simul in eodem loco <unclear>sicut</unclear> 
+            <lb ed="#S"/>gloriosum et non gloriosum <g ref="#dot"/> vel duo gloriosa <g ref="#dot"/> quia gloriosa vel in gloriosa nihil 
+            <lb ed="#S"/>facit ad hoc fide enim tenemus in quibusdam <!-- verse or allusion tag here -->Nam christus introivit 
+            <lb ed="#S"/>ad discipulos ianuis clausis <g ref="#dot"/> et exivit clausum uterum vir<lb ed="#S"/>ginis 
+            <g ref="#dot"/> et clausum sepulchrum non est autem maior difficultas 
+            <lb ed="#S"/>quod duae partes eiusdem corporis sint simul in eodem loco supposita praesenti 
+            <lb ed="#S"/>conclusione quam quod duo alia corpora sint simul in eodem loco etc 
+            <lb ed="#S"/>Nam istis suppositis patet qualiter corpus christi potest secundum se totum 
+            <lb ed="#S"/>et secundum qualibet sui partem simul esse in tota hostia sub speciebus pa<lb ed="#S"/>nis 
+            et sub qualibet eius parte <g ref="#slash"/>quia ex istis patet possibilitas quod una 
+            <lb ed="#S"/>pars sic simul cum alia et quod pars eadem sit in multis locis 
+            <lb ed="#S"/>vel partibus hostiae simul et plus non ponitur ibi nisi quod partes 
+            <lb ed="#S"/>remanent ad hoc in toto constituentes totum et secundum istum modum 
+            <cb ed="#S" n="168ra"/><lb ed="#S"/>potest salvari quomodo est ibi corpus christi non <unclear>di?sum</unclear> in modum <unclear>quantitativum</unclear> quia 
+            <lb ed="#S"/>ibi non est quantitative nec circumscriptive quia si sic tunc haberet partem extra partem ibi ita 
+            <lb ed="#S"/>quod totum coexisteret toti et pars parti et ubi una pars esset alia non esset 
+            <lb ed="#S"/>sed nec sit subsistit sub speciebus panis sed sic quod corpus christi totum est sub 
+            <lb ed="#S"/>tota hostia et sub qualibus parte ut prius declaratum est</p>
+          
+          <p><g ref="#pilcrow"/>5m dubium 
+            <lb ed="#S"/>potest esse utrum corpus christi existens sub sacramento altaris sit ibi situaliter videtur 
+            <lb ed="#S"/>quod sic <g ref="#dot"/> quia secundum auctoritatem <ref>6 principiorum capitulo de positione magis propositum <!-- reference very unclear to me --></ref> <!-- long quote could begin here -->videtur esse <unclear>positionis</unclear> 
+            <lb ed="#S"/>subiecto proprio et proximo assistere omnibus <corr><del>qui</del><add place="marginLeft">quibuscumque</add></corr> aliis formis <unclear>supp</unclear> positio autem 
+            <lb ed="#S"/>nihil aliud est quam naturalis ipsius substantiae ordinatio quae a principio innata est 
+            <lb ed="#S"/>ut ea quidam <unclear>as?peris</unclear> levibus aequalibus et inqualibus in est vel a nullo 
+            <lb ed="#S"/>quidam motu <corr>consueto</corr> ut sessio et accubitus et similia quidquid proximo 
+            <lb ed="#S"/>subiecte assistit homo positio est <g ref="#dot"/> et quidquid omnis quidam positio huius rationis susci<lb ed="#S"/>pit 
+            <unclear>p?om</unclear> <!-- end of long quote --> haec illi <g ref="#dot"/> Ex hiis <unclear>arguitur</unclear> si propositum est <unclear>positionis</unclear> primo loco substantiae in<lb ed="#S"/>haerere 
+            et substantia corporis non denudatur a proprietatibus <corr>suis</corr> sub sa<lb ed="#S"/>cramento 
+            nec positione igitur est situaliter</p>
+          
+          <p><g ref="#pilcrow"/>Contra est ibi totum <corr><add place="marginLeft">sub toto et totum</add></corr> sub quaelibet parte ergo 
+            <lb ed="#S"/>non situaliter</p>
+          
+          <p><g ref="#pilcrow"/>dicendum quod non quia alicubi existens non est commensurative 
+            <lb ed="#S"/>nec habet partem ex partem ibi <g ref="#dot"/> sed est totum sub toto <corr><add place="aboveLine">et totum</add></corr> sub qualibet par<lb ed="#S"/>te 
+            eius non est ibi situaliter <g ref="#dot"/> hic <unclear>enim</unclear> mihi videntur loquentes per situaliter 
+            <lb ed="#S"/>intelligere</p>
+          
+          <p><g ref="#pilcrow"/>hic etiam per <name ref="#Aquinas">thomam<!-- abbreviatio seems to have thomas --></name> qui tenet quod non est ibi situaliter propter istud <ref>4 distinctione 
+            <lb ed="#S"/>X quaestione 3</ref> et idem ad argumentum 2m sed corpus christi est huius respectu sacramenti <g ref="#dot"/> vel sic 
+            <lb ed="#S"/>vel existi alicubi non quod commensuratur ei ita quod pars correspondeat parti 
+            <lb ed="#S"/>et <corr><del rend="expunctuated">pars</del><add>totum</add></corr> toti sed corpus christi non commensuratur sic speciebus <g ref="#slash"/> minor videtur esse 
+            <lb ed="#S"/>conclusio ecclesiae sicut patet in officio de transubstantione hoc et dicit <ref><name>Innocentius</name> de 
+            <lb ed="#S"/>officio missae per 3 capitulo 9</ref> <quote>reor salva fidei <unclear>inimmi?tate</unclear></quote> etc hoc 
+            <lb ed="#S"/>etiam est sententia <ref><name ref="#Lombard">magistri</name> libro 4 distinctio 11</ref> et <ref>etiam 12</ref> et probat per auctoritates sanctorum</p>
+          
+          <p><lb ed="#S"/><g ref="#pilcrow"/>Item ad hoc est auctoritas <name ref="#HilaryOfPoitiers">hill</name> quae dicit quod ubi est pars corporis deum sub sacramento 
+            <lb ed="#S"/>ibi est totum sed sub omni parte sacramenti est aliqua pars corporis christi igitur etc</p>
+          
+          <p><g ref="#pilcrow"/>ad argumentum de positione posset dici uno modo quod loquitur de hiis quae conveniunt 
+            <lb ed="#S"/>substantiae per eius assistentiam aliis vel aliorum sibi unde non dicit quod proprium sic positio<lb ed="#S"/>nis 
+            primo substantiae inhaerere sed assistere</p>
+          
+          <p><g ref="#pilcrow"/>aliter potest dici quod positio uno modo 
+            <lb ed="#S"/>accipitur pro ordine partium in toto alio modo pro ordine partium in loco Et concedo 
+            <lb ed="#S"/>quod ordo partium in toto est quo nihil prius <corr><add place="marginLeft">convenit</add></corr> substantiae corporae et illum ordinem habet 
+            <lb ed="#S"/>corpus christi <g ref="#dot"/> vel eius partes sub sacramento <g ref="#slash"/> et ista positio vocatur ab aliquibus 
+            <lb ed="#S"/>differentia quanitatis habet autem corpus christi ordinem partium in toto licet nullum 
+            <lb ed="#S"/>ordinem partium in loco <g ref="#dot"/> quia caput continuatur collo nec pedi nec digi<lb ed="#S"/>to</p>
+          
+          <p><g ref="#pilcrow"/>Sed haec argumenta <ref><name ref="#Ockham">hokam</name> contra <name ref="#Scotus">scotus</name> in reparatione 4i</ref> et in <unclear>circa?</unclear> de quantitate 
+            <lb ed="#S"/>et in <ref><title ref="#Categories">praedicamentis</title> <name ref="#Aristotle">aristotelis</name></ref> ubi de quantitate habente positionem dicit quod contingit assigna<lb ed="#S"/>re 
+            ubi quaelibet pars eius sit situata et quaelibet situata est alicubi et huius</p> 
+            
+          <p><lb ed="#S"/><g ref="#pilcrow"/>dicendum quod positionem istam descriptam naturaliter consequitur positio quae est distantia partis 
+            <lb ed="#S"/>a parte quae potest dici extensio totius vel extra positio sue extraneitas partium 
+            <lb ed="#S"/>ad invicem ita quod una continatur <corr><add place="marginLeft">alteri et</add><del rend="expunctuated">ab alia</del></corr> et ponitur extra aliam et distat ab 
+            <lb ed="#S"/>ea sive situetur ab eo in loco sive non existente <corr><add place="aboveLine">in</add></corr> loco sive vero existen<lb ed="#S"/>te 
+            loco nec etiam ex hoc determinat sibi aliquem certum gradum vel locum 
+            <lb ed="#S"/>secundum magnitudinem <choice><orig>ymmo</orig><reg>immo</reg></choice> cum hoc est indifferentia ad <unclear cert="low">animae <!-- could be aliquem --></unclear> locum magnum vel 
+            <lb ed="#S"/>parvum et est indifferens ad omne <corr><!-- possible correction here --></corr> ubi sursum et deorsum etc</p>
+          
+          <p><g ref="#pilcrow"/>de 
+            <lb ed="#S"/>ista positione loquitur <ref><name ref="#Aristotle">aristoteles</name> in <title ref="#Categories">praedicamentis</title></ref> vel de prima sic extensa et ita positione 
+            <lb ed="#S"/>privari non potest substantia corporea per <unclear cert="high">naturam</unclear> quantitatis etiam sic posita si continetur loco 
+            <lb ed="#S"/>eo ipsa <g ref="#slash"/>circumscribitur et ubi <corr><add place="aboveLine">ci?</add>?tatur</corr> sive situalis vel est alicubi situaliter <g ref="#dot"/> Is<lb ed="#S"/>tam 
+            <unclear>p?omulis</unclear> situm consequitur figetur quia sic etiam tenet <ref><name ref="#Scotus">scotus</name> distinctione Xa 4i quaestione 2 
+            <lb ed="#S"/>parvum ante responsiones ad argumenta principalia</ref> ultimo <unclear>autem<!--aut?--></unclear> consequitur positio quae est qualificatio 
+            <lb ed="#S"/>ubeitatis vel situationis quae pro eodem habeo quia et si situatur ibi cum 
+            <lb ed="#S"/>potest habere vel diversimode ibi vel ibi situari scilicet sedendo vel stan<lb ed="#S"/>do 
+            iacendo vel accubando</p>
+          
+          <p><g ref="#pilcrow"/>Si quaeras ante positio sic dicta <choice><orig>necessario</orig><reg>neccessario</reg></choice> 
+            <lb ed="#S"/>est res alia et alia <g ref="#dot"/> dicendum quod non <choice><orig>ymmo</orig><reg>immo</reg></choice> illud idem quod est positio primo modo est posito 
+            <lb ed="#S"/>2o modo vel potest esse absque receptione subiectiva cuiuscumque novae entis 
+            <lb ed="#S"/>inhaerentis per solum motum localem totius vel partium et aliis modis 
+            <lb ed="#S"/>positionis inter et hoc per potentia divinam <corr><add place="marginLeft">quae potest ponere</add></corr> quamlibet partem cum qualibet manen<lb ed="#S"/>te 
+            <unclear cert="low">continuitate</unclear> et comparatione cuiuslibet partis cum alia cum qua de facto 
+            <lb ed="#S"/>continatur vel componitur quando partes ad invicem distant secundum partes alias sitas 
+            <lb ed="#S"/>per potentiam aut naturae non sic fieri potest primo modo dicam positio sine positione 
+            <lb ed="#S"/>2o modo dicam sive 3o modo dicta bene potest fieri etiam per potentiam naturae</p>
+          
+          <p><g ref="#pilcrow"/>ad ratio<lb ed="#S"/>nes 
+            <name ref="#Ockham">hokam</name> incontrarium respondebitur insequenti quaestione et ibi etiam expo<lb ed="#S"/>netur 
+            quis sic iste ordo partium in toto scilicet quod una sic componit cum 
+            <lb ed="#S"/>alia quae non est alia quaelibet</p>
+          
+          <p><g ref="#pilcrow"/>dices quod <name ref="#Ockham">hokam</name> <choice><orig>inprobat</orig><reg>improbat</reg></choice> quia iste ordo 
+            <lb ed="#S"/>posset salvari destructa quantitate et per consequens positio sic dicta non est differentia 
+            <lb ed="#S"/>quantitatis</p>
+          
+          <p><g ref="#pilcrow"/>dicendum quantum mihi videtur quod habere tales <corr><add place="aboveLine">potest</add></corr> in quas habens eas sic divisibile 
+            <lb ed="#S"/>et ita quod una componatur cum una et non cum alia et 3a cum 2a et 
+            <cb ed="#S" n="168rb"/><lb ed="#S"/>4a non cum prima haec est esse quantum secundum quantitatis descriptionem quam ponit <ref><name ref="#Aristotle">aristoteles</name> 5 
+            <lb ed="#S"/><title ref="#Metaphysics">metaphysicae</title></ref> habere <g ref="#slash"/>inquam talem possent <corr><add place="marginRight">est esse</add></corr> <corr>qu?m</corr> et <unclear>hnu</unclear> est quod caritas in anima 
+            <lb ed="#S"/>non est quantum <unclear>Conti?m</unclear> <corr><add>alquid</add><del rend="expunctuated">quodlibet</del></corr> componitur ex partibus in quas divisiblis fit <g ref="#dot"/> quia 
+            <lb ed="#S"/>de illis partibus verum est quod quaelibet componens est cum qualibet de partibus 
+            <lb ed="#S"/>autem substantiae corporis christi licet verum sic dicere quod quaelibet est cum qualibet quo ad situm 
+            <lb ed="#S"/>non tamen quaelibet componitur nec continuatur cuilibet immediate Cum igitur accipit quod positio 
+            <lb ed="#S"/>primo modo dicta possit salvari destructa quantitate dico quod falsum accipitur 
+            <lb ed="#S"/>nihil <corr><add place="marginCenter">aliud</add></corr> ut ego accipio est quantitatis continua nisi partes sic componens <corr><add place="marginRight">et in <unclear>cog?</unclear> totum quia non quaelibet integrat et componit cum qualibet</add></corr> sed de 
+            <lb ed="#S"/>terminata cum determinata et non cum qualibet alia</p>
+          
+          <p><g ref="#pilcrow"/>dices tu das modo 
+            <lb ed="#S"/>unam propositionem calump?lem apud multos quod substantia est quantitas vel qualitas est 
+            <lb ed="#S"/>quantitas</p>
+          
+          <p><g ref="#pilcrow"/>dico quod non oportet <g ref="#dot"/> vocando quantitatem continuam partes quantitas et 
+            <lb ed="#S"/>ipsas ad invicem quantitas vel divisas quantitatem districtam et simul 
+            <lb ed="#S"/>tum hoc quod tenet <name ref="#Scotus">scotus</name> et bene <g ref="#dot"/> nullum totum per se unum est suae partes <g ref="#dot"/> sequitur 
+            <lb ed="#S"/>statim oppositum quod nulla substantia est quantitas quia nulla etiam qualitas est quantitas et secundum hic 
+            <lb ed="#S"/>posset stare quod quantitas dicitur de quantitate continua et districta quod alias <corr><add place="marginRight">negavi</add></corr> sed nunc 
+            <lb ed="#S"/>reputo <corr><add place="marginCenter">cor?dum</add></corr> licet et nunc sicut et tunc habeam dicere consequenter quod ens dicitur aequivoce 
+            <lb ed="#S"/>de substantia et quantitate et hic plenius tractabitur insequenti quaestione</p>
+          
+          <p><g ref="#pilcrow"/>6m dubium 
+            <lb ed="#S"/>potest esse cuius locales mutationes fiant ibi cum de existente in loco sit 
+            <lb ed="#S"/>diffinitive quod non circumscriptive <corr><add place="marginRight">fit in loco circumscriptive</add></corr> et modo quantitativo vel econverso</p> 
+          
+          <p><lb ed="#S"/><g ref="#pilcrow"/>ad istud bene responddetur <name ref="#Ockham">hokam</name> ubi prius Notandum hic quod quando <corr><del rend="expunctuated">esset</del></corr> ex 
+            <lb ed="#S"/>materia <unclear>nec</unclear> extensa fit extensa hoc potest contigere tripliciter <g ref="#dot"/> uno modo 
+            <lb ed="#S"/>quod extensa maiorem locum occupet quam quando non est extensa <g ref="#dot"/> alio modo 
+            <lb ed="#S"/>quod minorem <g ref="#dot"/> 3o modo quod aequalem <g ref="#slash"/>Si primo modo fitat <g ref="#dot"/> tunc sunt ibi duae 
+            <lb ed="#S"/>mutationes una acquisitiva <g ref="#dot"/> quia ita materia acquirit unum <corr><add place="marginRight">novum</add></corr> locum et alia de<lb ed="#S"/>perditiva 
+            <g ref="#dot"/> quia quando fuit non extensa suit tota cum toto loco et tota 
+            <lb ed="#S"/>cum qualibet parte Sed quando extenditur tunc est tota cum toto loco et pars cum 
+            <lb ed="#S"/>parte et non tota cum qualibet parte <g ref="#dot"/> Et per consequens omnes partes perdent <choice><orig>alica</orig><reg>aliqua</reg></choice> 
+            <lb ed="#S"/>loca quae prius habuerunt <g ref="#dot"/> quia prius fuit pes cum parte scilicet capite et 
+            <lb ed="#S"/>modo distant et ideo utrumque perdit quae prius habuit <g ref="#dot"/> si 2o modo tunc est 
+            <lb ed="#S"/>sola mutatio deperditia quia totum minus occupat de loco quam prius et per consequens 
+            <lb ed="#S"/>perdit partem illius loci maioris et partes etiam perdunt multa loca prius 
+            <lb ed="#S"/>habita sicut in priori modo Sed 3o modo tunc est tantum mutatio deperditiva non 
+            <lb ed="#S"/>acquisitiva quia tunc partes quae fuerunt omnes quaelibet cum toto et quaelibet 
+            <lb ed="#S"/>cum qualibet iam dimittunt loca prius habita sed non omnia quia quaelibet pars retinet 
+            <lb ed="#S"/>unum locum quem prius habuit <g ref="#dot"/> sicut in primo modo cum nullum acquirit quem prius 
+            <lb ed="#S"/>non habuit <g ref="#dot"/>sicut ibi scilicet in materia extensa fit non extensa Si autem econverso 
+            <lb ed="#S"/>de materia extensa fit non extensa hoc similiter potest tripliciter contingere quia 
+            <lb ed="#S"/>hic vel erit sic quod remanebit totum in eodem loco <unclear><g ref="#dot"/> vel aequali <g ref="#dot"/> vel <!-- could be some notation here I don't understand --></unclear> in mi<lb ed="#S"/>nori 
+            <g ref="#dot"/> si inaequali erit mutatio acquisitiva sive deperditiva <g ref="#dot"/> quia quaelibet 
+            <lb ed="#S"/>pars acquirit multa loca quae non praehabuit <g ref="#dot"/> sed nec totum nec pars <choice><orig>aliqua</orig><reg>alica</reg></choice> 
+            <lb ed="#S"/>perdit locum aliquem quem praehabuit <g ref="#dot"/> sed vero fiat in loco maiori similiter <corr><add place="marginRight">erit ibi <unclear>nar?o</unclear> vel motus localis acquisitiva vel deperdi</add></corr><lb ed="#S"/>tiva 
+            <g ref="#slash"/>si in minori tunc est haec mutatio tam acquisitiva quam deperditiva sicut patet 
+            <lb ed="#S"/>advertenti ex praedictis</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
