@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Librum 4, Quaestio 3 [Sorbonne Transcription]</title>
+                <author xml:id="AW">Adam Wodeham</author>
+                <editor xml:id="JW">Jeffrey C. Witt</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2014.09">
+                    <title>Librum 4, Quaestio 3 [Sorbonne Transcription]</title>
+                    <date when="2014-11-24">November 24, 2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Lombard Press</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2014-11-24">November 24, 2014</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div type="status">
+                <note type="status">Draft</note>
+                <note type="collobaration">Yes</note>
+            </div>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
+        <body>
+           
+           <div xml:id="b4-q3">
+                <head>Librum 4, Quaestio 3 [Sorbonne Transcription]</head>
+            <div>
+                <head>Quaestio</head>
+                
+                <p><lb ed="#S"/>Utrum homini rite suscipienti sacramentum baptismi vel confirma<lb ed="#S"/>tionis 
+                    conferatur gratia salutaris</p>
+                
+                <p>quod non quia aut aequalis u<lb ed="#S"/>ni 
+                sicut alteri regulariter et hic non quia tunc infans bap<lb ed="#S"/>tizatus 
+                tantam reciperet gratiam quantam adultus et per consequens et per consequens 
+                <lb ed="#S"/>aequale gratiam si utrique statim moreretur quod non videtur verum <corr><add place="marginLeft">quia adultum oportet habere bonum motum proprium qui si <unclear>afficit</unclear> videtur iuvaris</add></corr> assumptum probatur 
+                    <lb ed="#S"/>per <ref>illud <name ref="#Augustine">augustini</name></ref> et ponitur <ref>distinctione 4 4i <sic>capitulo primo<!-- is in the 2nd chapter in the modern edition --></sic></ref> <quote ana="#Augustine_Sermo351_2_2_a">omnis qui suae voluntatis ar<lb ed="#S"/>biter 
+                <lb ed="#S"/>constitutus est cum ad sacramentum accedit fidelium nisi poeni<lb ed="#S"/>teat 
+                eum veteris vitae vetustas novam poterit inchoare</quote> <g ref="#dot"/> aut inaequalis et nec hic videtur quia utraque anima est receptiva gratia <g ref="#dot"/> igitur 
+                <lb ed="#S"/>potest aequalem gratiam recipere et sacramentum ipsum est utrobique uni<lb ed="#S"/>formis 
+                efficientiae igitur etc</p>
+                
+                <p><g ref="#pilcrow"/>praeterea cum sequitur quod duo parvuli mortui alter 
+                    <lb ed="#S"/>confirmatus alter non utrique tamen baptizatus in aequalem haberent glo<lb ed="#S"/>riam 
+                in patria quod videtur inconveniens <g ref="#dot"/> cum neuter aliquid plus meruerit 
+                    <lb ed="#S"/>reliquo et tunc videretur utrumque simul sacramentum propter mortis periculum <corr><add place="marginRight">omnibus</add></corr>
+                    <lb ed="#S"/>parvulis conferendum quod est contra consuetudinem ecclesiae</p>
+                
+                <p><g ref="#pilcrow"/>oppositum dicit 
+                    <lb ed="#S"/><name ref="#Lombard">magister</name> distinctione <space extent="oneWordLength"/> 4i quod gratia adiutrix et omnibus virtus augetur in prae<lb ed="#S"/>bente 
+                    et <unclear>confiter</unclear> noviter non habenti in baptismo et ideo dicit <name>Ieromus</name> ut 
+                    <lb ed="#S"/>habetur ibidem capitulo 4o quod fides quae fideles facit suppletur per caritatem in 
+                    <lb ed="#S"/>aquis concomitantem baptismi datur vel mittitur et de utroque <unclear>satro</unclear> simul 
+                    <lb ed="#S"/>habetur a <name>Rabano</name><!-- unclear who this is perhaps Rabanus Maurus? --> ut allegatur distinctione 7 <unclear>c[?]</unclear> vult et ponitur <title>de consecratis</title> 
+                    <lb ed="#S"/>distinctione 5 <unclear>capitulo</unclear> novissime dicit enim in unctione baptismatis spiritus sanctus des<lb ed="#S"/>cendere 
+                    ad habitationem deum consecrandam In hac vero <unclear>septifor?em[?]</unclear> eius 
+                    <lb ed="#S"/><unclear>d</unclear> gratiam cum omni plenitudine sanctitatis et virtutis <corr>veni<add>re</add></corr> in hominem haec illae <g ref="#dot"/></p>
+                    
+                <p><g ref="#pilcrow"/><lb ed="#S"/>In ista quaestione tendendum est hic quod sic <g ref="#dot"/> sicut patet per auctoritates positas ad 
+                    <lb ed="#S"/>partem oppositam quaestionis et alias innumeras</p>
+                
+                <p><g ref="#pilcrow"/>Ad hoc simul est auctoritas 
+                    <lb ed="#S"/>verbis ecclesiae <ref><title ref="#LiberExtra">extra</title> de su?  et si ca li c</ref> et tenetur ibi quod in baptismo 
+                    <lb ed="#S"/><unclear>parvu?t</unclear> culpa remittitur et <unclear>ututes</unclear> et gratias informans infunduntur 
+                    <lb ed="#S"/>quod ad habitum <corr>si</corr> non <corr>isto</corr> tempore quod ad usum</p>
+                
+                <p><g ref="#pilcrow"/>haec fuit 
+                    <lb ed="#S"/>dicta <corr><del rend="expunctuated">quaestio</del></corr> <choice><orig>quo ad</orig><reg>quoad</reg></choice> titulum quaestionis <g ref="#dot"/> si <unclear>li</unclear> <mentioned>rite</mentioned> importat dispositionem 
+                    <lb ed="#S"/>baptizati quae non <corr><add place="marginLeft">solum</add></corr> requiritur <choice><orig>neccessario</orig><reg>necessario</reg></choice> ad esse sacramenti sed ad bene esse cum ce<lb ed="#S"/>teris 
+                    <choice><orig>neccessario</orig><reg>necessario</reg></choice> requisitis Cum enim sic rite suscipienti <g ref="#dot"/> confertur sed si li 
+                    <lb ed="#S"/><mentioned>rite</mentioned> importet solum dispositionem <choice><orig>neccessario</orig><reg>necessario</reg></choice> requisitam sacramenti sic non 
+                    <lb ed="#S"/>oportet sicut posset esse in multis malis rite quantum ad essentialia sacramenti 
+                    <lb ed="#S"/>baptismatis</p>
+                
+                <p><g ref="#pilcrow"/>alia multa habentur hic dici quae tamen legendo apud <corr>notavviten[??]<lb ed="#S"/><del rend="expunctuated">to</del></corr> 
+                    prosecutus sive singula per d[?] <space extent="oneWordLength"/> 4i de baptismo et aliis sacra<lb ed="#S"/>mentis 
+                    ideo leviter hic pertranseo nec brevitas temporis apud permittit</p>
+                
+                <p><lb ed="#S"/><g ref="#pilcrow"/>Sed in contrarium possunt movere dubia multa primum dubium quod si generaliter in 
+                    <lb ed="#S"/>baptizante infunditur gratia etc puer baptizatus in forma ecclesiae ab 
+                    <lb ed="#S"/>infideli seu pagano non in casu <choice><orig>neccessitantis</orig><reg>necessitantis</reg></choice> <sic>sed</sic> in periculo mortis ha<lb ed="#S"/>beret 
+                    gratiam et <choice><orig>caracterem</orig><reg>characterem</reg></choice> baptismi</p>
+                
+                <p><g ref="#pilcrow"/>Quod autem talis sic baptizatus 
+                    <lb ed="#S"/>patet <ref ana="#Gratian_Decretum_2_1_1_59">prima quaestione prima <!-- part two of Decretum of Gratian, case 1, question 1, canon 59 --> <!-- incipit follows -->si quis per ignorantiam</ref> Et <ref ana="#Gratian_Decretum_3_4_23"><title ref="#DeConsecratione">de consecratione</title> distinctione 4a et <hi rend="underline">romanus</hi><!-- par 3, d. 4, canon 23; clear error in abbreviatio point to biblical book "ad romanos" --></ref>   
+                    et <ref ana="#Gratian_Decretum_3_4_31">canone <hi rend="underline">solet <!-- part 3, dist 4, canon 31 --></hi></ref></p>
+                
+                <p>Contrarium videtur <ref ana="#Gratian_Decretum_3_4_52">eadem distinctione <hi rend="underline">quos a paganis</hi> <!-- Decreturm, part 3, d. 4, canon 52 --></ref> 
+                    <lb ed="#S"/>sed illud intelligitur ubi forma ecclesiae non servatur <ref>secundum glossam <title ref="#io">Ioannis</title></ref> Sed videtur <unclear>con?i</unclear> 
+                    <lb ed="#S"/>in casu proposito puer non sit baptizatus et per consequens non habet gratiam <g ref="#dot"/> antecedens probatur 
+                    <lb ed="#S"/>sic quia nemo dat quod non habet <corr><add>scilicet</add></corr> dum caret isto <ref ana="#Gratian_Decretum_2_1_7_24">prima quaestione 7 <hi rend="underline"><!--incipit --><sic>day<lb ed="#S"/>berium</sic></hi> <!-- ref to Decretum par 2, case 1, question 7, canon 24 "daibertum a Negzelone, licet" --></ref> 
+                    intantum quod <ref><!-- cant find -->glossa super illud canone <hi rend="underline">pervenerit</hi></ref> <ref>distinctione 4 95<!-- part 3, dist. 4, canon 95 but I can't find referenced statmement perhaps reference refers to gloss --></ref> tenet quod papa 
+                    <lb ed="#S"/>non potest demandare alicui quod det quod non habet putat quod non confir<lb ed="#S"/>matus 
+                    confirmet igitur nec quod non baptizatus <choice><orig>baptiset</orig><reg>baptizet</reg></choice> Et si papa non 
+                    <lb ed="#S"/>potest nec ecclesia <g ref="#dot"/> cum papa sit caput ecclesiae nec christus concessit illud non 
+                    <lb ed="#S"/>baptizato quia tantum discipulis dixit <quote ana="#mt28_19">Ite baptizante omnes gentes</quote> <g ref="#dot"/> <name ref="#Lombard">magister</name> 
+                    <lb ed="#S"/><unclear>ultimo</unclear> et per consequens paganus non baptizat <corr><add place="marginLeft"></add></corr> quia malus immediate 
+                    <lb ed="#S"/>gratiam non confert sed deus per <name ref="#Lombard">magistrum</name> saepe <ref>in 4o</ref> sed confert 
+                    <lb ed="#S"/>baptismum visibile <corr><add place="marginLeft"></add></corr> qui illum <corr>dec<add>ipitur</add></corr> <choice><orig>neccessario</orig><reg>necessario</reg></choice> ut videtur habere quia sacramenta per 
+                    <lb ed="#S"/>hominem conferuntur</p>
+                
+                <p>Et confirmatur per illud <ref><title>de consecratione</title> distinctione 4 <!-- wrap sanctum in incipit element -->sanctum</ref> ubi 
+                    <lb ed="#S"/>dicit <ref><name ref="#Augustine">augustinus</name> in <title>epistola ad <corr>fo<add place="aboveLine">r</add>tunatum</corr></title></ref> quod auctoritas traditionis baptismi 
+                    <lb ed="#S"/>per donum ad apostolus per eos in episcopos et sacerdotes et laycos 
+                    <lb ed="#S"/>christianos sub eadem origine ac scirpere <sic>venientes</sic> nec alios 
+                    <lb ed="#S"/>ibi tangit <g ref="#dot"/> Et in exemplo etiam sequenti in isto capitulo quod notabiliter est ad idem 
+                    <lb ed="#S"/><!-- probably mistaken pilcrow --><g ref="#pilcrow"/> dedit sic inquit quod acceperat</p>
+                
+                <p><g ref="#pilcrow"/>ad istum dicendum quod baptizatus a pa<lb ed="#S"/>gano 
+                    vere recipit sacramentum et hoc posset intelligi iuxta multa 
+                    <lb ed="#S"/><unclear cert="low">capitula</unclear> in casu <choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> <g ref="#dot"/><unclear>Aestimo</unclear><g ref="#dot"/> tamen inquit quod ecclesia generaliter bap<lb ed="#S"/>tizato 
+                    <corr><add place="marginLeft">tales</add></corr> approbat ut saepe <unclear>mratur</unclear> nec in talibus sic inquisitio 
+                    <lb ed="#S"/>in casu <choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> <g ref="#dot"/> sed de forma verborum <g ref="#dot"/> vel de materia sacramenti <g ref="#dot"/> 
+                    <cb ed="#S" n="165vb"/><lb ed="#S"/>quamvis tales <corr>peccent <!-- check correction above --></corr> extra <choice><orig>neccessitantem</orig><reg>necessitantem</reg></choice> baptizantes</p>
+                
+                <p><g ref="#pilcrow"/>ad argumentum in oppositum 
+                    <lb ed="#S"/>Respondeo nemo dat quod non habet verum est quod non habet virtualiter nec 
+                    <lb ed="#S"/>formaliter aliquis dat <unclear>alipam</unclear> qui non habet alapam nisi virtualiter</p>
+                
+                <p><g ref="#pilcrow"/>pa<lb ed="#S"/>ganus 
+                    autem satis habet virtutem lavandi et proferendi unversalia sacramenta 
+                    <lb ed="#S"/>materialia cum intentione faciendi quod facit ecclesia totum residuum facit deus</p>
+                
+                <p><lb ed="#S"/><g ref="#pilcrow"/>2m dubium potest esse de puero sub duplo baptizato <g ref="#slash"/>ponatur enim quod aliquis <choice><orig>bap<lb ed="#S"/>tiset</orig><reg>bap<lb ed="#S"/>tizet</reg></choice> 
+                    puerum sub conditione sic <c>d</c><g ref="#dot"/> si cras placuit patri tuo bap<lb ed="#S"/>tizo 
+                    te nunc In nomine patri etc et moriatur puer <corr><add place="marginRight">ante</add></corr> <unclear>assensum</unclear> crastinum 
+                    <lb ed="#S"/><corr><add place="marginCenter">patris</add> <!-- unclear if this goes here --></corr> <choice><orig>ymmo</orig><reg>immo</reg></choice> statim <g ref="#dot"/> aut igitur baptizatus contulit gratiam puero aut non si sic 
+                    <lb ed="#S"/>igitur ante consensum patris est <unclear>intellectio</unclear> et postea est <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> quia aequivalet 
+                    <lb ed="#S"/>uni de praeterito et eadem ratione si non habet nec habuit gratiam in morte est 
+                    <lb ed="#S"/>dampnatus <choice><orig>pena</orig><reg>poena</reg></choice> <choice><orig>dampni</orig><reg>damni</reg></choice> et <g ref="#slash"/> est <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> quia unum de praeterito et hoc totum secundum le<lb ed="#S"/>gem 
+                    dei iustitiam <g ref="#dot"/> sed in potestate patris est post talem lap<lb ed="#S"/>sum 
+                    temporis in crastino consentire vel non <g ref="#dot"/> et si pater non consentiat 
+                    <lb ed="#S"/>non est baptizatus nec fuit et per consequens non habuit gratiam quia baptizatus 
+                    <lb ed="#S"/>ille ut videtur non est firmus <corr>nec <!-- possibly corr to nisi --></corr> existente conditione <ref ana="#LiberExtra_4_5_5"><title ref="#LiberExtra">extra</title> de condition<lb ed="#S"/>ibus 
+                    <lb ed="#S"/>appositis <!-- incipit -->super</ref></p>
+                
+                <p>Item <ref ana="#LiberExtraSextus_4_1_1"><title ref="#LiberExtraSextus">extra</title> de sponsalibus <!--ex sponsalibus is incipit -->ex sponsalibus librum 
+                    <lb ed="#S"/><g ref="#dot"/>6<g ref="#dot"/></ref></p>
+                    
+                <p><g ref="#pilcrow"/>ad idem facit manifeste ad propositum <ref ana="#LiberExtra_3_42_2"><title ref="#LiberExtra">extra</title> de baptismo de quibus est <g ref="#dot"/></ref> 
+                    <lb ed="#S"/>ubi docetur in casu sub conditione baptizare de quibus inquit dubium 
+                    <lb ed="#S"/>est an baptizati <unclear>baptinentur</unclear> hiis verbis praemissis si baptizatus es 
+                    <lb ed="#S"/>non te baptizo si non dum baptizatus es <g ref="#dot"/> ego te baptizatus etc <g ref="#dot"/> Et 
+                    <lb ed="#S"/>eadem ratione patre consentiente habuit gratiam et habet <corr>sal<add>u</add>tem</corr> <corr>anima<add>e</add></corr> 
+                    <lb ed="#S"/>igitur non est <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> de <unclear>prae?to</unclear> quod sic <choice><orig>dampnatus</orig><reg>damnatus</reg></choice> vel sic salvatus cum 
+                    <lb ed="#S"/><unclear>utrumque</unclear> indifferenter per instanti mortis pueri sic sit in libera potestate et libera 
+                    <lb ed="#S"/>voluntate patris futura</p>
+                
+                <p><g ref="#pilcrow"/>Si dicatur quod baptizatus non est et sic non habet gratiam 
+                    <lb ed="#S"/>eo quod talis conditio est <unclear>app?ta[?]</unclear></p>
+                
+                <p><g ref="#pilcrow"/>Contra baptizatus admittit conditor duplam 
+                    <lb ed="#S"/>ut patet <ref ana="#LiberExtra_3_42_2"><title ref="#LiberExtra">extra</title> de baptismo capitulo praeallegato <hi rend="underline">de quibus</hi></ref> <g ref="#dot"/> Et per consequens apparet 
+                    <lb ed="#S"/>quod hanc conditionem potest admittere Si dicatur quod non admittit con<lb ed="#S"/>ditionem 
+                    futuram incertam</p>
+                
+                <p><g ref="#pilcrow"/>Contra talis conditio non est <corr><add place="marginRight">contraria</add><del rend="expunctuated">neccessaria</del></corr> se 
+                    <lb ed="#S"/>sacramenti eo quo simul stant quod pater <choice><orig>conssentiat</orig><reg>consentiat</reg></choice> et quod ille baptizatus sic 
+                    <lb ed="#S"/>et talis conditio non est turpis aut incompossibilis eo quod nullam turpitudinem 
+                    <lb ed="#S"/>aut impossibilitatem exprimit <g ref="#dot"/> Et si esset talis deberet <unclear>reicreari[?]</unclear> et 
+                    <lb ed="#S"/>validus esset baptismus ex quo ita est <unclear>in?</unclear> propter eius favo<lb ed="#S"/>rem 
+                    ut patet <ref ana="#LiberExtra_4_5_7"><title ref="#LiberExtra">extra</title> de conditionibus capitulo ultimo</ref> Et baptizatus aeque <unclear>fa<lb ed="#S"/>vorabiliter</unclear> 
+                    <g ref="#dot"/>Et sic iste esset baptizatus ex quo nec esset contraria baptismo nec turpis 
+                    <lb ed="#S"/>nec impossibilis manebit in sua virtute sicut <unclear>inmrio?o</unclear> quia contractio 
+                    <lb ed="#S"/>est valde <sic>favorabit</sic> sicut <corr><add place="aboveLine">et</add></corr> iste</p>
+                
+                <p><g ref="#pilcrow"/>Si dicatur quod anima eius habet 
+                    <lb ed="#S"/>gratiam si pater consentiat et potest non habere eam et sic de salvatione</p>
+                
+                <p><g ref="#pilcrow"/>Contra ex isto sequitur quod simul stent quod anima talis videat deum cla<lb ed="#S"/>re 
+                    et tamen potest esse quod numquam vidit deum quod non <unclear>?tur</unclear> possibile supposito quod 
+                    <lb ed="#S"/>deus prosequatur legem communem de ea sicut de aliis parvulis baptizatis 
+                    <lb ed="#S"/>scilicet quod statim si <unclear cert="high">sit mortuus</unclear> baptizatus sine peccato anima eius videat 
+                    <lb ed="#S"/>deum <g ref="#dot"/> vel oportet quod deus utatur lege nova propter tales tantum quod non apparet 
+                    <lb ed="#S"/>conveniens et saltem non est <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> et argueret legis potestate <corr>insuffi<add place="marginRight">ci</add>ientia</corr> 
+                    <lb ed="#S"/>eo quod in omnibus casibus non occurret secundum legem datam cum ille casus 
+                    <lb ed="#S"/>possibilis sit secundum legem datam</p>
+                
+                <p>ad illud respondetur probabiliter quod si baptismus ad<lb ed="#S"/>mittat 
+                    conditionem talem quod sic baptizatus <unclear>de facto</unclear> et <unclear>mortuus</unclear> parvulus non 
+                    <lb ed="#S"/>est vere baptizatus eo quod ante conditionem existentem est extra forum illius ecclesiae <corr><add place="marginRight">omnino <g ref="#dot"/></add>
+                    <lb ed="#S"/><del rend="strikethrough">omnino</del></corr> per completionem conditionis non potest confirmari baptismus nec est baptizatus <unclear>conclusio</unclear> 
+                    <lb ed="#S"/>quo modo posteam <corr><add place="aboveLine">si</add></corr> velit pater <corr>ut<!-- correction unclear --></corr> sacerdos <unclear cert="high">ministerialiter</unclear> contulerit 
+                    <lb ed="#S"/>gratiam vel <corr><del rend="expunctuated">a</del>baptismum</corr> vere <corr><del rend="strikethrough">posset</del><add place="aboveLine">sed</add></corr> solum existente conditione Et hic ad 
+                    <lb ed="#S"/>hoc sic oportet intelligere si tunc sic de foro ecclesiae cum ex <corr>ista<!-- ?? --></corr> <unclear>con<lb ed="#S"/>ditio</unclear> 
+                    nec contra hanc responsionem procedit argumentum</p>
+                
+                <p><g ref="#pilcrow"/>contra <ref ana="#LiberExtra_5_39_21"><title ref="#LiberExtra">extra</title> de sententia excommunicationis<lb ed="#S"/>communicationis 
+                    c <unclear>2<!-- should b. c. 21--></unclear> <!-- incipit -->a nobis</ref> quod morti ligantur et solvuntur est sic sunt 
+                    <lb ed="#S"/>de foro ecclesiae</p>
+                
+                <p><g ref="#pilcrow"/>ad illud dicitur quod propter <unclear cert="low">facta praecestatia</unclear> quibus hic <unclear>m?iunt</unclear> potest 
+                    <lb ed="#S"/>hoc esse alias non</p>
+                
+                <p><g ref="#pilcrow"/>Ad hoc est <name ref="#Augustine">augustinus</name> <title>de cura pro mortuis <choice><orig>a<lb ed="#S"/>genda</orig><reg><lb ed="#S"/>gerenda</reg></choice></title> 
+                    et sic intelligitur illud <ref ana="#Gratian_Decretum_2_24_1_6"><!-- Gratian Decreteum part 2, cause 24, q. 1, canon 6 -->24 quaestione prima quodcumque</ref> Sed non sic est in proposito 
+                    <lb ed="#S"/>quia iste parvulus nihil meruit <g ref="#dot"/> et <unclear>in iuris de canonibus <!-- possible title --></unclear> tenet hic non autem 
+                    <lb ed="#S"/><ref><unclear>in sacramentalibus</unclear> ecclesiae</ref> Nemo enim post mortem baptizatur vel confirmatur</p>
+                
+                <p><lb ed="#S"/><g ref="#pilcrow"/>potest aut aliter probabiliter dici quod nec baptismus nec aliquod sacramentum conferens gratiam recipit 
+                    <lb ed="#S"/>conditionem nisi de praesenti vel de praeterito et hoc propter certitudinem quam re<lb ed="#S"/>quirit 
+                    sacramentum dei Quod aut matrimonium admittit contractum de 
+                    <lb ed="#S"/>futuro non est quia favorabile sed quia contractus quidam est quodam pactum <corr><add>praescitum</add></corr> 
+                    <lb ed="#S"/><corr><add>nec</add></corr> ad huc <g ref="#slash"/> <corr><del>non</del><add place="marginRight">tunc</add></corr> est matrimonium nec sacramentum sed sponsalia Credibile tamen 
+                    <lb ed="#S"/>mihi est quod in casu ubi hoc <corr>p<add place="aboveLine">ie</add></corr> ageretur ubi gratia servus christianus <unclear>alicuius</unclear> pagani 
+                    <cb ed="#S" n="166ra"/><lb ed="#S"/>partim inclinati ad fidem in periculo mortis patre ab <unclear>rite</unclear> ne parvu<lb ed="#S"/>lus 
+                    pereat agat non audiens absolute hoc ferre in praesentia conservorum 
+                    <lb ed="#S"/>timore deum sui credibile est mihi quod fides servi <g ref="#slash"/>tali opere parvulo subveni<lb ed="#S"/>ret</p>
+                <!-- 3rd dubium -->
+                <p><g ref="#pilcrow"/>Item iuxta hoc potest esse dubium quid esset in casu isto dicendum ubi duo sa<lb ed="#S"/>cerdotes 
+                    eundem puerum sub hac forma simul baptizarent <g ref="#dot"/> <mentioned>ego te bap<lb ed="#S"/>tizo 
+                    si alius te non baptizat</mentioned> <g ref="#dot"/> et fiant hoc utrique non intendens a<lb ed="#S"/>gere 
+                    contra communem formam ecclesiae sed in bona innocentia vel nesciens de consocio 
+                    <lb ed="#S"/>Quaero tunc aut uterque baptismus valeat illi aut non <g ref="#dot"/> si sic neutra con<lb ed="#S"/>ditio 
+                    est <choice><orig>inpleta</orig><reg>impleta</reg></choice> et ideo neutrorum valet sibi <g ref="#dot"/> si neutrorum valet tunc utraque conditio 
+                    <lb ed="#S"/>est <choice><orig>inpleta</orig><reg>impleta</reg></choice> ergo utrique debet sibi valere vel alter quia alterius conditio <choice><orig>inple<lb ed="#S"/>ta</orig><reg>imple<lb ed="#S"/>ta</reg></choice> 
+                    est <g ref="#dot"/> si alter et alter non hoc non videtur rationabile cum non sit maior ratio 
+                    <lb ed="#S"/>de uno quod debeat valere quam de alio</p>
+                
+                <p><g ref="#pilcrow"/>Et quod talis conditio admit<lb ed="#S"/>tatur 
+                    de baptismo argui potest per illud <ref ana="#LiberExtra_3_42_2">capitulum de baptismo et eius effectu <g ref="#dot"/><hi rend="underline">de quibus</hi><g ref="#dot"/></ref></p>
+                
+                <p><lb ed="#S"/><g ref="#pilcrow"/>aliter etiam potest fieri quod uterque dicat sine conditione ego te baptizo quaero utrum 
+                    <lb ed="#S"/>iste puer sit <corr><add place="marginLeft">bis</add></corr> baptizatus vel non <g ref="#dot"/> si sic est <unclear>nrraris</unclear> ut patet <ref><title>de consecratione</title> distinctione 
+                    <lb ed="#S"/>4a <g ref="#dot"/> <!-- incipit -->quibus<g ref="#dot"/></ref> ita quod non possit permoveri quod videretur grave</p>
+                
+                <p><g ref="#pilcrow"/>Similiter si bis 
+                    <lb ed="#S"/>videretur habere duos caracteres cum non videatur maior ratio quod mediate u<lb ed="#S"/>no 
+                    recipiat caracterem quam mediate alio cum per omnia sint pares <g ref="#dot"/> sic ita et 
+                    <lb ed="#S"/>sic vel caracter et solum unus conferretur tunc non esset nisi unus baptismus cum non 
+                    <lb ed="#S"/>esset nisi una <unclear>lotio</unclear> et unicus effectus scilicet tantum unus solus caracter sed talis non 
+                    <lb ed="#S"/>est bis baptizatus aut igitur solum nec ab uno nec solum ab alio quia hoc 
+                    <lb ed="#S"/>esset eum bis baptizare Et si hic ergo non est baptizatus quia quae ratione non ab 
+                    <lb ed="#S"/>uno istorum nec a reliquo</p>
+                
+                <p><g ref="#pilcrow"/>Et propterea <!-- possible correction --> quae <unclear><!-- possibly corrected -->fiunt</unclear> verba ab uno 
+                    <lb ed="#S"/>istorum non habent maiorem virtutem quam si per se essent <g ref="#dot"/> quia verba unus non 
+                    <lb ed="#S"/><choice><orig>inpediuntur</orig><reg>impediuntur</reg></choice> per verba omnino similia alterius verba enim totaliter contraria prolata 
+                    <lb ed="#S"/>ab uno non impedirent effectum corrumpentem verba alterius igitur nec multo 
+                    <lb ed="#S"/>magis verba omnino similia</p>
+                
+                <p><g ref="#pilcrow"/>Ad istud probabiliter dicitur <g ref="#dot"/> quod talis conditio addi<lb ed="#S"/>ta 
+                    utrobique est contraria effectu baptismi <g ref="#dot"/> in isto casu ut patet ex argumento 
+                    <lb ed="#S"/>ideo non esset sacramentum quamvis conditio <corr><add place="aboveLine">sic</add></corr> <choice><orig>inpleta</orig><reg>impleta</reg></choice> <choice><orig>sicud</orig><reg>sicut</reg></choice> est de matrimonio <ref ana="#LiberExtra_4_5_7"><title ref="#LiberExtra">extra</title> 
+                    <lb ed="#S"/>de conditionibus appositis capitulo ultimo</ref> et generaliter ita dicendum est de omnibus in so<lb ed="#S"/>lutionibus 
+                    quae ponitur in casibus iuris hic credo salvo meliori iudicio 
+                    <lb ed="#S"/>et si uterque pie ageret nolens omnino puerum esse baptizatum et eum bap<lb ed="#S"/>tizet 
+                    quantum potest licite ex scrupulositate nolens cavere <unclear>irra?ritatem <!-- used above also unclear --></unclear> licet 
+                    hoc timere non oportet <g ref="#dot"/> quod puer esset baptizatus si uterque ageret <corr>cavill<add>atione</add></corr> 
+                    <lb ed="#S"/><unclear>quaestione 8</unclear> valeat illud factum quantum solum verba dant quod tunc puer non esset 
+                    <lb ed="#S"/>baptizatus</p>
+                
+                <p><g ref="#pilcrow"/>ad alium casum dicendum quod si sic baptizatus a duobus vere est ab 
+                    <lb ed="#S"/>utroque <unclear>ministerialiter</unclear> et hic si ita sic quod uterque baptizans intenderet principaliter 
+                    <lb ed="#S"/>baptizare et aeque primo baptizet et dicitur semel <unclear>se?t</unclear> baptismus secundum intentum cano<lb ed="#S"/>nis 
+                    nec incurrit <unclear>ira?ritatem</unclear> quia ipsa est sancti iuris nec debet extendi ul<lb ed="#S"/>tra 
+                    illud <corr><add place="marginLeft">quod</add></corr> in iure expressum est <ref><title ref="#LiberExtraSextus">extra</title> <unclear>de sententia excommunicationis <!-- cant find reference --></unclear> libro 6 si quis</ref> quia 
+                    <lb ed="#S"/>neuter intendit iterare sacramentum nec iteratur Quod aut collatum est et idem sta<lb ed="#S"/>tutum 
+                    fuit in <choice><orig>penam</orig><reg>poenam</reg></choice> et detestationem haereticorum <unclear>ita?n?m</unclear> Et illud credo bene 
+                    <lb ed="#S"/>dictum sicut <corr><add place="marginLeft">in <title>consecratione</title> est</add></corr> in quo plures assistentes episcopo verba simul profer <sic>con<lb ed="#S"/>secratoria</sic> 
+                    hostiae</p>
+                
+                <p><g ref="#pilcrow"/>Aliqui tamen modificant sic et hic scilicet si uterque <corr><del rend="expunctuated">nolit</del></corr> 
+                    <lb ed="#S"/>credat aliam velle dimittere ipso agente si aut omnino vult uterque 
+                    <lb ed="#S"/>et non intentione committendi propter facti temeritatem est iteratio interpreta<lb ed="#S"/>tiva 
+                    et sic <unclear>irraritas</unclear> in baptizante</p>
+                
+                <p><g ref="#pilcrow"/>Istud non credo nisi unus bap<lb ed="#S"/>tizaret 
+                    vel intenderet baptizare scienter post alium et tunc causa istae quam bap<lb ed="#S"/>tizatus 
+                    esset <unclear>ir?aris</unclear> <g ref="#dot"/> ad hic <ref ana="#LiberExtra_1_21_4"><title ref="#LiberExtra">extra</title> de bigamis capitulo nuper</ref></p>
+                
+                <p><g ref="#pilcrow"/>4m dubium 
+                    <lb ed="#S"/><unclear>por</unclear> esse de casu communi <unclear>doctorum</unclear> ponatur casus quod mancus et mutus 
+                    <lb ed="#S"/>baptizarent puerum et mancus dicat verba et mutus immergat tunc talis aut 
+                    <lb ed="#S"/>vere est baptizatus aut non <g ref="#dbslash"/> non potest dici quod sic secundum doctores et <corr>sententias <!-- corr unclear here --> <add place="marginCenter">summas</add></corr> eo 
+                    <lb ed="#S"/>quod nullus vere baptizet nisi dicens verba et immergens vel effundens aqua 
+                    <lb ed="#S"/>et ad hoc potest argui a simili quia dicitur <ref ana="#Gratian_Decretum_1_23_14"><!-- part 1, d 23, canon 14 --> distinctione 23 <!-- incipit -->quorumdam</ref> ibi habetur quod episcopo im<lb ed="#S"/>ponente 
+                    manu<!-- dbcheck manu --> et altero dicente orationem non valet quod agitur in ordinatione igitur 
+                    <lb ed="#S"/>similiter in proposito</p>
+                
+                <p><g ref="#pilcrow"/>Contra sacramenta <corr><add place="marginLeft">causatae</add><del>sanctae</del></corr> unitatis quod ab uno inceptum <choice><orig>in<lb ed="#S"/>pleri</orig><reg>im<lb ed="#S"/>pleri</reg></choice> 
+                    potest ab alio <g ref="#dot"/> patet <g ref="#dot"/> <!-- ref?? --> de sacramento missae <!-- quote? -->si ab incipiente non possunt 
+                    <lb ed="#S"/>compleri propter infirmitatem ab alio possunt compleri <g ref="#dot"/> et erit ratam et <unclear>firmum</unclear> 
+                    <lb ed="#S"/>sacramentum et completum ut patet <ref ana="#Gratian_Decretum_2_7_1_16"><!-- gratian decretum, part 2, case 7, question 1, canon 16 --> 7 quaestio 1 <hi rend="underline"><choice><orig>nichil</orig><reg>nihil</reg></choice></hi></ref> et hic arguitur ibi per hoc quod 
+                    <lb ed="#S"/>unum omnis <unclear>sumus</unclear> in christo igitur ita erit in proposito praecise si casus <choice><orig>neccessi<lb ed="#S"/>tatis</orig><reg>necessi<lb ed="#S"/>tatis</reg></choice> 
+                    emergat nec alio modo modo succurri posset ponere nec <unclear>fi?</unclear> divino quin ver<lb ed="#S"/>ba 
+                    sint <corr>completae</corr> ab uno prolata et immersio aqua ab altero perficitur 
+                    <lb ed="#S"/>concordi consensu et intentione nec requiritur quod unus sic tantum complete 
+                    <lb ed="#S"/>baptizans tum in aliis hic non requiritur sicut patet in consecratione episcopi 
+                    <lb ed="#S"/>eukaristiae et <unclear>ex?erme</unclear> unctionis cum dicat <name ref="#James">apostolus</name> <quote ana="#iac5_14"><corr>sacerdo<add place="aboveLine">tes</add></corr> ungant 
+                    <lb ed="#S"/>eum</quote> <title ref="#iac">iacobi</title> vel Similiter christus <title ref="#mt">matthaeo</title> ultimo dixi <quote ana="#mt28_19">Ite baptizante</quote> etc et non dixit 
+                    <corr><del rend="expunctuated">ite</del></corr> baptizet <unclear>a</unclear> vel vade</p>
+                
+                <p><g ref="#pilcrow"/>videtur aut quod <unclear>supplementario <!-- something like this but not sure if there is a better form of this --></unclear> aut adiutorium 
+                    <cb ed="#S" n="166rb"/><lb ed="#S"/>factum per ministrum alium debet propter <choice><orig>neccesstatem</orig><reg>necesstatem</reg></choice> valere et si in sacramentis aliis 
+                    <lb ed="#S"/>praecise hic deberet esse in sacramento mixtae <choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> quod est baptismus</p> 
+                
+                <p><g ref="#pilcrow"/>Ad 
+                    <lb ed="#S"/>istud posset secundum quosdam responderi suscipiendo quod talis esset baptizatus quia unus 
+                    <lb ed="#S"/>spiritus ibi operatur per duo in sacramenta <corr><add place="aboveLine">et</add></corr> cum <corr><add place="aboveLine">hoc</add></corr> una intentio eos coniungat</p>
+                
+                <p><g ref="#pilcrow"/>Et 
+                    <lb ed="#S"/>ad argumentum contradicunt quod textus <ref ana="#Gratian_Decretum_1_23_14"><!-- Gratian Decretum, part 1, d 23, canon 14 --> istius canoni <!-- incipit -->quorumdam <g ref="#dot"/></ref> facit pro eis secundum <unclear>fa<lb ed="#S"/>iem</unclear> 
+                    qui ibi dicitur quod sic ordinati deberent deponi ab ordine 
+                    <lb ed="#S"/>quem sunt adepti igitur ordo ibi collatus fuit <corr><add place="marginRight">sed glossa ordinaria seu communis dicit quod ordo non fuit ibi <unclear>co?at</unclear></add></corr> et glossat textum 
+                    <lb ed="#S"/>Et ideo potest dici quod quamvis non fuisset ibi collatum sacramentum hoc 
+                    <lb ed="#S"/>tamen foret quia alter ibi qui intendebat ordinem complere scilicet sacer<lb ed="#S"/>dos 
+                    qui <corr><add place="marginRight">orationes</add></corr> <hi rend="underline">ordines leg?ie<!-- possible deletion or incipit --></hi> non habuit potestatem ordinandi ministerialiter 
+                    <lb ed="#S"/>quia non fuit ordinatus ad hoc tum non esset episcopus <g ref="#dot"/> hic autem uterque habuit 
+                    <lb ed="#S"/>potestatem baptizandi ministerialiter quamvis uterque non potuit <corr>comple<add>te</add></corr> ex<lb ed="#S"/>sequi 
+                    forte enim si ambo fuisset <corr><add place="marginRight">episcopi</add></corr> in casu <ref>istius <sic>capituli</sic><!-- but isn't this really canonis--> <g ref="#dot"/>quorumdam <g ref="#dot"/></ref> 
+                    <lb ed="#S"/>fuisset ibi collatio sacramenti</p>
+                
+                <p><g ref="#pilcrow"/>Si quis tamen velit tenere cum opinione 
+                    <lb ed="#S"/>famosa et dicere quod sic <choice><orig>neccessario</orig><reg>necessario</reg></choice> oportet quod sic unus complete baptizans 
+                    <lb ed="#S"/>quia inter baptizantem et baptizatum requiritur vera distinctio <ref ana="#LiberExtra_3_42_4"><title ref="#LiberExtra">extra</title> de baptismo capitulo 
+                    <lb ed="#S"/><hi rend="underline">debitum</hi><g ref="#dot"/></ref> tunc dicendum quod ista quae sunt de bene esse sacramenti et eius <unclear>completatione</unclear> 
+                    <lb ed="#S"/>secundum usum ecclesiae possunt per aliam compleri patet <ref ana="#Gratian_Decretum_2_7_1_16"><!-- gratian decretum, part 2, case 7, question 1, canon 16 -->7 quaestio 1  <!-- incipit --><choice><orig>nichil</orig><reg>nihil</reg></choice></ref> essentialia autem 
+                    <lb ed="#S"/>inter partes vel <unclear>personas</unclear> non possunt dividi sicut sunt verba ita hoc est in 
+                    <lb ed="#S"/>corpus meum Et in baptismo intentio et verba bene tamen possunt similia co<lb ed="#S"/>gitari 
+                    et dici</p> <!-- should a paragraph break go here --> 
+                    
+                    <p>Ego tamen aestimo quod deus suppleret in casu talis 
+                    <lb ed="#S"/><choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> propter fidem sic operantium in tali <choice><orig>neccessitante</orig><reg>necessitante</reg></choice> positorum ut rati<lb ed="#S"/>ficet 
+                    totum quia cum virtute operis operati talis baptizatus non esset quia si <unclear><!-- profens? -->pro 
+                    <lb ed="#S"/>foris</unclear> verba loqueretur in singulari ego te baptizo sive in pluri nos 
+                    <lb ed="#S"/>te baptizamus falsum diceret quia iste mancus non immergeret nec leva<lb ed="#S"/>ret 
+                    eum et per consequens nec baptizaret ex diffinitione <unclear>concepti[?]</unclear> baptismi et per consequens falsum di<lb ed="#S"/>ceret 
+                    huiusmodi verba proferendo sic arguit communiter doctores Ideo credo talem 
+                    <lb ed="#S"/>si superesset sub conditione noviter baptizandum</p> <!-- Wodeham think that the child should be re-baptized -->
+                
+               <p><g ref="#pilcrow"/>5m dubium potest esse de 
+                   <lb ed="#S"/>intendente solum baptizare unum multis simul oblatis <g ref="#dot"/> quia ponatur 
+                   <lb ed="#S"/>quod sacerdos duobus simul <corr>oblat<del rend="expunctuated">o</del><add place="aboveLine">i</add>s</corr> unde solum baptizare intendat nec 
+                   <lb ed="#S"/><corr>cogit<del rend="expunctuated">a</del><add place="aboveLine">e</add>t</corr> nec advertat quod duo sibi simul offeruntur nec habeat 
+                   <lb ed="#S"/>plus notitiam unius sibi oblati quam alterius <corr>nec <!-- possible addition here --></corr> distinctius habeat 
+                   <lb ed="#S"/>intentionem super unum quam super alterum sed cogit in generali olo 
+                   <lb ed="#S"/>puerum nunc mihi offerendum baptizare vel primum suppositum mihi offen<lb ed="#S"/>dum 
+                   <g ref="#dot"/> et bene percipit quod pueri aliquis sibi supponitur <g ref="#dot"/> infundat igitur aliquam 
+                   <lb ed="#S"/>super utrumque sibi sic oblatum et dicat ego te baptizo etiam secundum mo<lb ed="#S"/>rem 
+                   graecorum tunc est dubium utrum uterque baptizatus sic <g ref="#dot"/> vel non <g ref="#dot"/> et 
+                   <lb ed="#S"/> videtur quod uterque baptizatus est <g ref="#dot"/> quia aliquis baptizatus est eo quod verba prola<lb ed="#S"/>ta 
+                   sunt cum intentione et auctoritate baptizandi et materia congrua est caua a parte <corr><add place="marginRight">liquoris</add></corr> 
+                   <lb ed="#S"/><corr><del rend="expunctuated">aliorum</del></corr> quam baptizandi igitur etc</p>
+                
+                <p><g ref="#pilcrow"/><unclear>Similiter <!-- likey corrected --></unclear> appositio unius pueri non <choice><orig>inpedit</orig><reg>impedit</reg></choice> 
+                    <lb ed="#S"/>alium quia mala fides offensum non nocet ut patet <ref><title>de consecratione</title> distinctione 4 <!-- incipit --> 
+                    <lb ed="#S"/>non idem <g ref="#dot"/></ref> Et est <name rend="#Augustine">augustinus</name> ad <unclear>bone?sa?m</unclear> ergo nec talis appositio cum fieri 
+                    <lb ed="#S"/>posset <corr><add place="marginLeft">pia</add><del rend="expunctuated">mala</del></corr> intentione super agens naturale si non repateretur ageret in 
+                    <lb ed="#S"/>utrumque duorum passorum sibi <unclear cert="high">approximarum</unclear> igitur spirituale in spirituale 
+                    <lb ed="#S"/>cum spirituale sic magis communicabile nec per communicationem virtus minuatur communi<lb ed="#S"/>cantis 
+                    nec communicati</p>
+                
+                <p><g ref="#pilcrow"/>Contra sacramentum non directe confertur contra in<lb ed="#S"/>tensionem 
+                    conferentis <g ref="#dot"/> sed si aliquis foret baptizatus tunc non magis erit unus 
+                    <lb ed="#S"/>quam alius <unclear><!-- possibile correction here -->ut</unclear> potest argui ex casu igitur uterque <g ref="#dot"/> sed quod uterque sic baptizatus 
+                    <lb ed="#S"/>esset contra intentionem baptizantis ut patet ex casu <unclear>super<!-- similiter--></unclear> verba non <corr>sex<!-- unclear --></corr> ten<lb ed="#S"/>dunt 
+                    ad duos igitur nec sacramentum cum verba ita sint essentialia et de forma 
+                    <lb ed="#S"/>sacramenti illius</p>
+                
+                <p><g ref="#pilcrow"/>Ad idem <ref><title ref="#LiberExtra">extra</title> de officio ordinari <!-- incipit -->Si sacerdos <g ref="#dot"/> in glossa ul<lb ed="#S"/>tima</ref> 
+                    cum suis <unclear>ll</unclear> allegationibus Et nota ibi quando intentio sit fertur 
+                    <lb ed="#S"/>in unum indifferenter Et ad hoc vide ibi <ref>glossam de officio delegati 
+                    <lb ed="#S"/><unclear>quoniam</unclear> albas <!-- quoniam albas may be incipit --> in medio glossae</ref></p>
+                
+                <p><g ref="#pilcrow"/>ad istum potest dici probabiliter quod nullum 
+                    <lb ed="#S"/>baptizat et hoc quia <corr><add place="marginRight">conditio quam habitus</add></corr> intentione in casu isto contrariatur effectum sacramenti baptismi 
+                    <lb ed="#S"/>et sic neganda est <unclear>consequentia</unclear> in prima probatione propter <unclear>conditionem intellectam</unclear></p>
+                
+                <p><g ref="#pilcrow"/>ad 
+                    <lb ed="#S"/>2m dicendum quod una appositio <choice><orig>inpedit</orig><reg>impedit</reg></choice> aliam et econverso propter intentionem baptizantis 
+                    <lb ed="#S"/>et non mala fides quia scilicet mala fides est quod turpis conditio quae 
+                    <lb ed="#S"/>est reicienda et alia contraria <g ref="#dot"/> Similiter dicendum est de verbis <corr><add place="aboveLine">in</add></corr> aliis dummodo 
+                    <lb ed="#S"/>sint contra substantiam sacramenti cum intentione prolatis sed si essent <corr><add place="marginRight">contra</add></corr> non tenent</p>
+                
+                <p><lb ed="#S"/><g ref="#pilcrow"/>ad illud de igne dicendum quod <corr><add place="aboveLine">si</add></corr> signis inpediretur per contrarium et si non re 
+                    <lb ed="#S"/>pateretur non ageret inquantum impediretur</p>
+                
+                <p><g ref="#pilcrow"/>Similiter demonstro bi<lb ed="#S"/>formi 
+                    quod si baptizans utitur singulari et praecise intendens unum 
+                    <lb ed="#S"/>solum baptizare et super neutrum plus intendat quam super reliquum 
+                    <lb ed="#S"/>si sint duae animae neutra est baptizata</p>
+                
+                <p><g ref="#pilcrow"/>posset tamen dici quod si sacerdos 
+                    <lb ed="#S"/>non haberet intentionem expresse contrariam et faceret in forma ecclesiae quod 
+                    <cb ed="#S" n="166va"/><lb ed="#S"/>uterque baptizatur eo quod singulare potest se extendere ad plurale <choice><orig>sicud</orig><reg>sicut</reg></choice> fit 
+                    <lb ed="#S"/>in ordinatione quarumdam ecclesiasticarum ubi dicitur pluribus simul accipientibus 
+                    <lb ed="#S"/>accipe <unclear>ex?am</unclear> etc et apponitur hic dummodo <g ref="#slash"/> intentio non sic contraria</p>
+                
+                <p><g ref="#pilcrow"/>Ad 
+                    <lb ed="#S"/>iura autem quae ponitur in <ref>glossa illius canoni <!-- incipit -->quoniam albas <unclear>c i o</unclear> de officis vide 
+                    <lb ed="#S"/>de legis</ref> dicendum quod iura quae <unclear>faciunt</unclear> quod in tali dubio nihil agitur habent in<lb ed="#S"/>telligi 
+                    de hiis quae optinent <unclear>vini</unclear> <unclear>fin?e</unclear> ut apparet satis ex capitulo 
+                    <lb ed="#S"/>disputato ibi in quibusdam aliis non oportet <g ref="#dot"/> Sed nec in illis quando 
+                    <lb ed="#S"/>habetur aliquid certum in quod fertur intentio</p>
+                
+                <p><g ref="#pilcrow"/>aliud dubium videtur esse de 
+                    <lb ed="#S"/><unclear><corr>lud<del rend="expunctuated">en</del>icae</corr></unclear> baptizato super quo videntur discordare <unclear><name ref="#Augustine">augustinus</name> et ratio</unclear> <g ref="#dot"/> videtur enim 
+                    <lb ed="#S"/>semper quod ubi visibiliter <unclear>dubitur</unclear> de <choice><orig>alico</orig><reg>aliquo</reg></choice> an sit baptizatus baptizandus est 
+                    <lb ed="#S"/>sub tali conditione si non es baptizatus ego te baptizo ut dicitur <ref ana="#LiberExtra_3_42_2"><title ref="#LiberExtra">extra</title> 
+                    <lb ed="#S"/>de baptismo et eius effectu de quibus</ref> Sed ex hoc sequitur quod in nullo casu 
+                    <lb ed="#S"/>esset recurrendum <unclear>ad</unclear> <unclear>divisim?]</unclear> oraculum <choice><orig>inplorandum</orig><reg>implorandum</reg></choice> quo <corr><add place="aboveLine">est</add></corr> contra consilium <ref><name ref="#Augustine">augustini</name> 
+                    <lb ed="#S"/><title>de unico baptismo</title> libro 8</ref> <g ref="#dot"/> Et ponitur in <ref>canone <title>de consecratione</title> distinctione 4 <!-- incipit -->solet</ref> 
+                    <lb ed="#S"/>ubi dicitur si totum ludicae totum in vitae super osculariter <!-- dashes above/between in, vitae, and super --> ageretur 
+                    <lb ed="#S"/>utrum approbandus esset baptismus qui sic daretur iudicium <unclear>divinum</unclear> per alicuius 
+                    <lb ed="#S"/>revelationis oraculum concordi oratione gemitibus <choice><orig>inplorans</orig><reg>implorans</reg></choice> esse <corr><add place="margin">ce?sem</add><del>se<lb ed="#S"/>cura</del></corr> 
+                    est contra patet quia ubi habet homo naturali ratione quidam <corr>faci<add>at</add><del>endum</del></corr> non est 
+                    <lb ed="#S"/>recurrendum ad miraculum vel ad divinum oraculum quia hoc esset 
+                    <lb ed="#S"/>temptare diu ut debent multi doctores sed in quocumque casu dubio baptismi 
+                    <lb ed="#S"/>potest homo et debet ferre iuxta doctrinam <ref>illius capituli de quibus</ref> et rationabiliter 
+                    <lb ed="#S"/>igitur etc</p>
+                
+                <p><g ref="#pilcrow"/>Similiter in casu posito ab <name ref="#Augustine">augustino</name> apparet quod non sit haesitan<lb ed="#S"/>dum 
+                    quia deficit intentio quae <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> est in sacramentis eo quod <unclear>ludendo</unclear> fiebat 
+                    <lb ed="#S"/>et in ludo non intenditur veritas facti sed iocus Et sic <name ref="#Augustine">augustinus</name> du<lb ed="#S"/>bitavit 
+                    ubi sapiens et prudens dubitare non debuit antecedens patet 
+                    <lb ed="#S"/>per <ref><name ref="#Lombard">magistrum <!-- not positive about this --></name> libro 4 distinctione 4 vel 6 capitulo 5</ref> <!-- incipit/quote --> solet etc</p>
+                
+                <p><g ref="#pilcrow"/>ad istud dicendum probabiliter quod 
+                    <lb ed="#S"/>in casu quo loquebatur <name ref="#Augustine">augustinus</name> suo tempore fuit recurrendum ad divinum 
+                    <lb ed="#S"/>oraculum praecise et hoc si quis vellet <corr><unclear>concertationem</unclear></corr> scire an talis baptizatus <corr><add place="aboveLine">fuerit</add></corr> 
+                    <lb ed="#S"/>et an talis <unclear>?quam</unclear> christianus ad vitam christianam servandum sic compellendus 
+                    <lb ed="#S"/>posito quod gratis nollet quia quamvis ad baptismum sive legem nemo sic com<lb ed="#S"/>pellendus 
+                    postquam tamen iste istam susciperet ut secundum eam vivat 
+                    <lb ed="#S"/>est compellendus in casu <ref>distinctione 4 capitulo 5 de iudaeis</ref> autem si sic mor<lb ed="#S"/>tuus
+                    tamquam christianus debeat <corr><add place="marginLeft">sepeliri</add></corr> Et cum arguitur quod debeat sub conditione baptizari 
+                    <lb ed="#S"/>etc verum est quod si velit permanere in voluntate <corr><add place="marginCenter">baptizandi</add></corr> tunc quo ad hoc quomodo 
+                    <lb ed="#S"/>debeat salvari aut per ecclesiam <corr><add place="marginLeft">sibi</add></corr> subveniri nec est dubitandum nec recur<lb ed="#S"/>rendum 
+                    ad divinum oraculum <g ref="#dot"/> ad quod facit illud casum non <unclear cert="low">quidam</unclear> <g ref="#dot"/>Et 
+                    <lb ed="#S"/>forte hoc non erat inventum tempore <name ref="#Augustine">augustini</name> ab ecclesia sed quo 
+                    <lb ed="#S"/>ad conditiones positas praedictas non <unclear>habeter[?]</unclear> quid debeat fieri per illud casum 
+                    <lb ed="#S"/>de quibus</p>
+                
+                <p><g ref="#pilcrow"/>Ad aliam reductionem potest dici quod cum quis vellet uti forma 
+                    <lb ed="#S"/>ecclesiae in baptismo ad ludum cum principaliter et <corr>immite<!-- corr above; unlear --></corr> tunc est dubium val<lb ed="#S"/>de 
+                    an voluntas principalis ludi effectum voluntatis 2ariae evacuet et tunc re<lb ed="#S"/>currendum 
+                    est etc si autem nullam intentionem haberet de forma ecclesiae sed omnino 
+                    <lb ed="#S"/><unclear>immite</unclear> et in ludo etc tunc forte non esset dubium</p>
+                
+                <p><g ref="#pilcrow"/>In principio casu loquitur 
+                    <name ref="#Augustine">augustinus</name> secundum quosdam nec obstat quod dicit totum quia hic denotat <unclear>princ?itatem</unclear> 
+                    <lb ed="#S"/>intentionois vel potest dicere quod tempore <name ref="#Augustine">augustini</name> generaliter fuit dubium sed post<lb ed="#S"/>ea 
+                    per ecclesiam et per doctores determinatum per inspirationem</p>
+                
+                <!-- seventh dubium -->
+                <p>7m dubium 
+                    <lb ed="#S"/>esse potest de faciente se sub conditione baptizari sciens se baptizatum 
+                    <lb ed="#S"/>ponatur enim quod aliquis sciat se baptizari sub ita conditione si non es bap<lb ed="#S"/>tizatus 
+                    constat tamen sibi sufficienter quod <corr><del>esset</del><add>sit</add></corr> baptizatus utrum talis sic fa<lb ed="#S"/>ciendo
+                    <lb ed="#S"/>peccet <g ref="#dot"/> et sic irregularis <!-- anything that looks like narraris or irraris above can be changed to irregularis --></p>
+                
+                <p>Et videtur quod non <g ref="#dot"/> quia nihil intenditur ibi nisi 
+                    <lb ed="#S"/>sub conditione <g ref="#dot"/> quae non permittit baptismum iterari et ideo <unclear>m?m</unclear> videtur esse quod 
+                    <lb ed="#S"/>ibi baptismus non iteratur et cum solum inveniatur in canone tactum 
+                    <lb ed="#S"/>quod bis baptizatus sit irregularis et hic est <choice><orig><corr>pena<add>le</add></corr></orig><reg><corr>poena<add>le</add></corr></reg></choice> et non amplianda apparet 
+                    <lb ed="#S"/>quod non contrahitur irregularitas <g ref="#dot"/> ad hic <corr><add place="aboveLine">est</add></corr> <ref><title ref="#LiberExtra">extra</title> <!-- likely book 6 --> de sententia excommunicationis</ref> si quis nisi 
+                    <lb ed="#S"/>homo vellet dicere quod baptismus iteretur quia <unclear>est <!-- possibly deleted --></unclear> universalis locutio cum 
+                    <lb ed="#S"/>intentione iterandi et sic sequitur quod iste de quo est dubium amsit bap<lb ed="#S"/>tizatus 
+                    dum tamen sic baptizatus de facto si sic baptizatur erit bis 
+                    baptizatus et sic est iteratio cuius oppositum apparet <ref ana="#LiberExtra_3_42_2"><title ref="#LiberExtra">extra</title> <sic>et</sic> de baptismo 
+                    <lb ed="#S"/>et eius effectu capitulo <!-- incipit --> de quibus</ref></p>
+                
+                <p><g ref="#pilcrow"/>contrarium arguitur quia talis conditionis 
+                    <lb ed="#S"/>appositio non conceditur in iure nisi ubi est ductio an nescitur de baptismo 
+                    <lb ed="#S"/>praecedente et ob talem causam solum inveniebatur ut apparet <ref ana="#LiberExtra_3_42_2"><title ref="#LiberExtra">extra</title> <corr><del>1to</del><add place="marginCenter">2o</add></corr> 
+                    <lb ed="#S"/>capitulo <!-- incipit -->de quibus</ref> et per consequens talis <unclear>fa?ns</unclear> se baptizari quantum est ex facto suo 
+                    <lb ed="#S"/>et institutione legis in contrarium reddit primum baptismum suum dubium <unclear>a</unclear> 
+                    <lb ed="#S"/>nullum et per consequens quantum est ex se institutione facti reddit factum illud vel 
+                    <lb ed="#S"/>1m 2m baptismum ita validum <choice><orig>sicud</orig><reg>sicut</reg></choice> potest esse in tali casu dubio et tunc 
+                    <lb ed="#S"/>posset in tali casu iuvare et valere propter hoc ordinetur <corr><add place="marginCenter">igitur</add></corr> ex vi 
+                    <lb ed="#S"/>facti stetit <corr>ne<del rend="expunctuated">c</del></corr> vivet sive valeat baptismus 2us <g ref="#slash"/>et per consequens 2o de<cb ed="#S" n="166vb"/><lb ed="#S"/>beat 
+                    reputari baptizatus secundum iura et interpretative probatur consequentia <ref ana="#LiberExtra_1_21_4"><title ref="#LiberExtra">extra</title> de bigami <g ref="#dot"/>nuper<g ref="#dot"/></ref> Et similiter talis amplectitur verba legis et non <unclear>mentem</unclear> 
+                    <lb ed="#S"/><unclear>igitur</unclear> <unclear>committur</unclear> in legem <ref><title ref="#LiberExtra">extra</title> de regulis iuris <!-- reference unclear --> Certum est libro 6o</ref></p>
+                
+                <p><g ref="#pilcrow"/>ad 
+                    <lb ed="#S"/>istud respondetur et probatur quod talis nisi per factum aliquod aut per voluntatem u<lb ed="#S"/>tatur 
+                    2o baptismo tanquam <!-- this form of tamquam was used above and needs to be corrected --> valido non est irregularis nec 2o baptizatus vere 
+                    <lb ed="#S"/>nec etiam interpretative <g ref="#dot"/> quia de hoc expresse non est tactum in iure 
+                    <lb ed="#S"/><ref><title ref="#LiberExtraSextus">extra</title> de sententia excommunicationis si quis libro 6</ref> Si tamen sic uteretur esset interpretative 
+                    <lb ed="#S"/>bis baptizatus et irregularis unde si quis infra sacros orationes constitutus 
+                    contraheret <unclear>sponsali?d</unclear> cum tali conditione si ecclesia permittit dum 
+                    <lb ed="#S"/>tamen ulterius non procedit non incidit in excommunicationis istius canonis 
+                    <lb ed="#S"/>Eos qui sunt de affinitate vel consanguinitate nec si ante uxorem 
+                    <lb ed="#S"/>habuerit <sic>bigamiam<!-- probably needs to be bigamam --></sic> committitur nec intelligit si tamen ad copulam carnalem 
+                    <lb ed="#S"/>procedit incidit <corr><del>initit</del><!-- unclear --></corr> quia interpretative contrahit perfectum omnem conditionem de<lb ed="#S"/>let 
+                    ad hoc <ref ana="#LiberExtra_1_21_4"><title ref="#LiberExtra">extra</title> de bigamis <!-- incipit --><hi rend="underline">nuper</hi></ref> <ref>cum suis concordantis in glossa or<lb ed="#S"/>dinaria</ref></p>
+                
+                <p><g ref="#pilcrow"/>apparet tamen aliquibus et irrationaliter quod quocumque modo sic <corr><add place="marginRight">fiat</add></corr> 
+                    <lb ed="#S"/><unclear>facta</unclear> <g ref="#slash"/>peccat semper eo quod non debet irrisorie aut frustratorie uti 
+                    <lb ed="#S"/>verbis sacramentalibus ecclesiae</p>
+                
+                <p><g ref="#pilcrow"/>ad illud quod arguit talem simpliciter interpretative 
+                    <lb ed="#S"/>bis baptizatum <corr><add place="marginRight"><unclear>irregularitatem</unclear></add></corr> contrahere conceditur a quibusdam <corr><add place="aboveLine">quod <unclear>talis</unclear></add></corr> ex vi facti reddet baptismum 
+                    <lb ed="#S"/>duplum sed non nullum <g ref="#dot"/> Et conceditur quod reddit sicut 2m baptismum ita <corr><add place="marginBottom">validum sicud posset esse quando baptisma praecessit sed ignoratur non tamen ita va</add></corr><lb ed="#S"/>lidum 
+                    <hi rend="underline">ita</hi> sicut posset <corr><add place="aboveLine">esse</add></corr> in quocuqmue casu <unclear>dubio <!-- dbcheck against duplo --></unclear> puta quando baptismus 
+                    <lb ed="#S"/>non <corr><unclear>praecedit</unclear><del>pisset</del></corr> et dubitur et idoe non sequitur quod interpretative sic bis aut 2o 
+                    <lb ed="#S"/>baptizatus nisi <choice><orig>alico</orig><reg>aliquo</reg></choice> modo 1o simpliciter <corr><del>vatur</del><add>utatur</add></corr> sed sequitur quod peccat quia vali<lb ed="#S"/>dum 
+                    et <corr><del rend="expunctuated">stet</del></corr> scitum reddit facto duplum <!-- db check all dubium and duplums --></p>
+                
+                <p><g ref="#pilcrow"/>8m dubium possit esse si bap<lb ed="#S"/>tizaret 
+                    aliquis non sit dicendo ego baptizo te <g ref="#dot"/> sed sic in nomine patris et 
+                    <lb ed="#S"/>filii et spiritus sancti immergat puerum in fonte <g ref="#dot"/> utrum iste sit vere baptizatus 
+                    <lb ed="#S"/>et habeat gratiam baptismalem</p>
+                
+                <p><g ref="#slash"/>quod sic arguitur <g ref="#dot"/> quia christus non plus instituit nisi ut 
+                    <lb ed="#S"/>homo baptizaret In nomine patris et filii et spiritus sancti nec alia verba ponit 
+                    <lb ed="#S"/>de essentiali forma illius sacramenti et iste sic facti igitur etc <g ref="#dot"/><corr>Similiter</corr> in benedictionibus 
+                    <lb ed="#S"/>epicopi et ecclesia dicitur in nomine patri et filii et spiritus sancti <corr>n<add>ec</add><del>on</del></corr> dicitur sed ipsum benedictio factum 
+                    <lb ed="#S"/>supplet hoc et per consequens apparet quod ita potest esse in sacramento baptismi</p>
+                
+                <p><g ref="#pilcrow"/>contrarium <unclear>bonus</unclear> <corr><add place="marginRight">dicitur</add></corr> 
+                    <lb ed="#S"/><ref ana="#LiberExtra_3_42_1"><title ref="#LiberExtra">extra</title> de baptismo capitulo <!-- incipit -->si quis</ref> ubi <unclear>pla?e</unclear> diffinitur contrariam</p>
+                
+                <p><g ref="#pilcrow"/>Ad illud dicendum quod 
+                    <lb ed="#S"/>talis non baptizat sacramentaliter</p>
+                
+                <p><g ref="#pilcrow"/>ad primum in contrarium quod christus non in<lb ed="#S"/>stituit 
+                    plura verba <corr><add place="marginRight">et quamvis christus plura verba non expressit</add></corr> non expressit <ref><title rend="#mt">matthaeus</title> <unclear>ultimo</unclear></ref> alias tamen expressit 
+                    <lb ed="#S"/>quia multa dixit et fecit quae in <choice><orig>euvangelio</orig><reg>evangelio</reg></choice> non sunt scripta ut patet <ref><title ref="#io">ioanne</title> 
+                    ultimo</ref> vel si non expressit verbis suis prolatis tamen suae ecclesiae in<lb ed="#S"/>spirans 
+                    expressit ut debemus credere Et ad hoc <ref ana="#Gratian_Decretum_1_12_11">in canone distinctione 12 
+                    <lb ed="#S"/>illa <!-- gratian, pars 1, d. 12, canon 11, incipit illa --></ref></p>
+                
+                <p><g ref="#pilcrow"/>ad 2m dicendum quod omnes tales benedictiones <unclear>mi?ris</unclear> sunt effective 
+                    <lb ed="#S"/>ideo minore indigent et cum minori fiunt expressione et eorum signa 
+                    <lb ed="#S"/>quasi in libera potestate <corr><del rend="expunctuated">sed</del></corr> hominis sunt posita</p>
+                
+                <!-- closing section responding to principle argument -->
+                <p><g ref="#pilcrow"/>ad argumentum principale cum dicitur 
+                    <lb ed="#S"/>quod ex vi operis operati confertur aequalis gratia regulariter in rite sus<lb ed="#S"/>cipiente 
+                    baptismum <g ref="#dot"/> Dico tamen quod adultus propter <choice><orig>penitentiam</orig><reg>poenitentiam</reg></choice> habet ulteriorem gratiam 
+                    <lb ed="#S"/>ut communiter si devote et <choice><orig>penitens</orig><reg>poenitens</reg></choice> baptizetur ratione sui personalis <corr>meri<lb ed="#S"/><del rend="expunctuated">ter</del>ti</corr></p>
+                
+                <p><g ref="#pilcrow"/>ad 2m concedo quod parvulus confirmatus moriens habebit 
+                    <lb ed="#S"/>maiorem gratiam quam baptizatus tantum <g ref="#slash"/>et non confirmatus <g ref="#dot"/> licet tamen neuter 
+                    <lb ed="#S"/>meruerit <g ref="#dot"/> tamen 2m sacramentum subvenit <corr><add place="aboveLine">2o</add></corr> Et cum arguitur quod tunc expe<lb ed="#S"/>diret 
+                    semper simul confirmari <g ref="#dot"/> volo quod expediret quod ambo confirmarentur 
+                    <lb ed="#S"/>sine mora magna interposita si adesset semper qui posset sed episcopus non 
+                    <lb ed="#S"/>statim est semper praesens ad statim postea confirmandum</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
