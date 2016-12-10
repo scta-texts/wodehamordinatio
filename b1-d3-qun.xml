@@ -2020,14 +2020,16 @@
                   <lem>Sed</lem>
                   <rdg type="variation-substance" wit="#M" />
                 </app>
-                <ref>
+                <cit>
+                  <ref>
                   <!-- not sure about this... --> per eundem <name ref="#Scotus" /> 
                   <app>
                     <lem>ibidem</lem>
                     <rdg type="variation-substance" wit="#S">ibi</rdg>
                   </app>
+                  </ref>
                   <bibl>ibidem</bibl>
-                </ref> 
+                </cit>
                 nulla ratio 
                 <app>
                   <lem>potest talem distinctionem ibi</lem>
@@ -2083,24 +2085,28 @@
                   <lem>dico</lem>
                   <rdg type="variation-substance" wit="#V #T">sicut</rdg>
                 </app> 
-                cum 
-                <ref>
-                  <name ref="#Scotus">Doctore Subtili</name>
+                cum
+                <cit>
+                  <ref>
+                    <name ref="#Scotus">Doctore Subtili</name>
+                  </ref>
                   <bibl>
                     <name ref="#Scotus">Iohannes Duns Scotus</name>, 
                     <title>Ordinatio</title>, 
                     Bk. II, d. 16, pars. ?, q. ? (Vatican ?:??) 
                   </bibl>
-                </ref> 
+                </cit> 
                 et 
-                <ref>
-                  <name ref="#Lombard">Magistro</name> in littera, 
-                  in ista distinctione
-                  3, 
+                <cit>
+                  <ref>
+                    <name ref="#Lombard">Magistro</name> in littera, 
+                    in ista distinctione
+                    3,
+                  </ref> 
                   <bibl>
                     <title ref="#Sentences">Sententiae</title>
                   </bibl>
-                </ref> 
+                </cit> 
                 quod non potest 
                 <app>
                   <lem>in nobis reperiri</lem>
@@ -2731,8 +2737,8 @@
                     <cit>
                       <ref>
                         <name ref="#Aristotle">Philosophum</name>
-                        <bibl>Aristoteles, De anima, II, ???</bibl>
                       </ref>
+                      <bibl>Aristoteles, De anima, II, ???</bibl>
                     </cit> 
                     et 
                     <cit>
