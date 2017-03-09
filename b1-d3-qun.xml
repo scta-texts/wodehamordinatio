@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -3181,12 +3184,13 @@
                   </lem>
                   <rdg type="correction-addition" wit="#T"> <!-- this is also variation-substance! -->
                     <add place="margin"> referunt obiectum et non notant obiectum cognitionis,
-                      formata quippe, inquit, cognitio, ab ea respectu quam scimus, verbum est <app>
-                        <lem>quod in corde</lem>
-                        <rdg type="variation-substance" wit="#M">quicquid corde</rdg>
-                      </app>
-                      dicimus. 
+                      formata quippe, inquit, cognitio, ab ea respectu quam scimus, verbum est 
+                      quod in corde dicimus. 
                     </add>
+                  </rdg>
+                  <rdg wit="#M">
+                    referunt obiectum et non notant obiectum cognitionis,
+                    formata quippe, inquit, cognitio, ab ea respectu quam scimus, verbum est quicquid corde
                   </rdg>
                 </app>
               </p>
