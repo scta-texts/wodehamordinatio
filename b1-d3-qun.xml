@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -34,7 +37,7 @@
     <encodingDesc>
       <variantEncoding location="internal" method="parallel-segmentation" />
       <schemaRef n="lbp-critical-1.0.0"
-        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng"/>
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -95,7 +98,7 @@
               <quote>si servasset in se 
                 <app>
                   <lem>homo</lem>
-                  <rdg type="variation-absent" wit="#M #T" />
+                  <rdg type="variation-absent" wit="#M #T" ></rdg>
                 </app> 
                 bonum 
                 <app>
@@ -123,7 +126,7 @@
             </app> 
             imaginem Dei, et tamen 
             <app>
-              <lem />
+              <lem n="tamen"/>
               <rdg type="correction-deletion" wit="#T">
                 <del>in</del>
               </rdg>
@@ -316,7 +319,7 @@
                 </app> 
                 constat esse similius 
                 <app>
-                  <lem />
+                  <lem n="similius"/>
                   <rdg wit="#M #T">Deo</rdg>
                 </app>, 
                 illud necesse 
@@ -735,7 +738,7 @@
           <p xml:id="b1d3qun-qsalpd"> 
             Quinto, sunt ad 
             <app>
-              <lem />
+              <lem n="ad"/>
               <rdg type="variation-present" wit="#M #S">idem</rdg>
             </app>
             <app>
@@ -855,7 +858,7 @@
               </app>. 
               Una de communibus est quod 
               <app>
-                <lem /> <!-- what should the lemma be here -->
+                <lem n="quod" /> <!-- dbcheck, what should the lemma be here -->
                 <rdg type="variation-substance" wit="#S">ista quod</rdg>
                 <rdg type="variation-substance" wit="#T">aliqua quia</rdg>
                 <rdg type="variation-substance" wit="#M">aliqua quod</rdg>
@@ -1706,7 +1709,7 @@
               </app> 
               ratio imaginis, quia imago necessario requirit distinctionem <app>
                 <lem>aliquam</lem>
-                <rdg>aliam</rdg>
+                <rdg wit="unkown">aliam</rdg> <!-- missing wit designation, I added unknown has temporary place-holder -->
               </app>. 
               Sed in substantia animae nulla est distinctio, igitur nullo modo habet
               rationem imaginis. 
@@ -2465,7 +2468,7 @@
                   <rdg type="correction-addition" wit="#T"> <!-- alia manu -->
                     <add place="margin" hand="#T1"> sicut personae divinae per se habent inter se </add>
                   </rdg>
-                  <rdg>aliquo viso sicut divinae personae sic se habent inter se</rdg>
+                  <rdg wit="#V">aliquo viso sicut divinae personae sic se habent inter se</rdg> <!-- dbcheck -->
                   <rdg type="variation-absent" wit="#M #S" />
                 </app>, 
                 sed ultra hoc, quia omnis actus est vere similitudo obiecti cuius est 
@@ -3024,7 +3027,7 @@
                 </app> 
                 talis obiecti 
                 <app>
-                  <lem />
+                  <lem n="obiecti"/>
                   <rdg type="variation-present" wit="#M">bene</rdg>
                 </app> 
                 absentis. 
@@ -3078,7 +3081,7 @@
                     <seg type="qs"> 
                       et 
                       <app>
-                        <lem />
+                        <lem n="et"/>
                         <rdg type="variation-present" wit="#S">igitur</rdg>
                       </app> 
                       cognito 
@@ -3181,12 +3184,13 @@
                   </lem>
                   <rdg type="correction-addition" wit="#T"> <!-- this is also variation-substance! -->
                     <add place="margin"> referunt obiectum et non notant obiectum cognitionis,
-                      formata quippe, inquit, cognitio, ab ea respectu quam scimus, verbum est <app>
-                        <lem>quod in corde</lem>
-                        <rdg type="variation-substance" wit="#M">quicquid corde</rdg>
-                      </app> 
-                      dicimus. 
+                      formata quippe, inquit, cognitio, ab ea respectu quam scimus, verbum est 
+                      quod in corde dicimus. 
                     </add>
+                  </rdg>
+                  <rdg wit="#M">
+                    referunt obiectum et non notant obiectum cognitionis,
+                    formata quippe, inquit, cognitio, ab ea respectu quam scimus, verbum est quicquid corde
                   </rdg>
                 </app>
               </p>
@@ -4303,8 +4307,10 @@
                   <rdg type="variation-substance" wit="#T">istius</rdg>
                 </app> quia est proprii quibus illi centro <app>
                   <lem>illud</lem>
-                  <rdg>istud</rdg>
-                </app> est <app>
+                  <rdg wit="unknown">istud</rdg> <!-- missing wit designation. I added unknown as temporary placeholder -->
+                </app> 
+                est 
+                <app>
                   <lem>extra</lem>
                   <rdg type="correction-substitution" wit="#V">
                     <subst>
@@ -4985,11 +4991,14 @@
                 </app> visibile ab <app>
                   <lem>aliqua</lem>
                   <rdg type="variation-substance" wit="#S">alia</rdg>
-                </app> distantia danda. </p>
+                </app> distantia danda. 
+              
+                <pb ed="#M" n="68-r" />
+                <!-- Our copy of #M resumes here... -->
+                <cb ed="#M" n="a" />
+              </p>
 
-              <pb ed="#M" n="68-r" />
-              <!-- Our copy of #M resumes here... -->
-              <cb ed="#M" n="a" />
+              
 
               <p xml:id="b1d3qun-antsis"> Ad nonum <app>
                   <lem>teneo</lem>
@@ -5178,8 +5187,10 @@
                 </app> quam ab obiecto <app>
                   <lem n="obiecto" />
                   <rdg type="variation-present" wit="#M">et</rdg>
-                </app>, dico quod <app>
-                  <lem />
+                </app>, 
+                dico quod 
+                <app>
+                  <lem n="quod"/>
                   <rdg type="variation-present" wit="#M">saepius vel</rdg>
                 </app> saepe essentialius in essendo sed quod ipsa <app>
                   <lem>subiecto</lem>
@@ -5488,7 +5499,7 @@
                 in talibus non esse motum ad mentem 
                 <app>
                   <lem><name ref="#Aristotle">Philosophi</name></lem>
-                  <rdg type="correction-addition"> <!-- witness not stated -->
+                  <rdg wit="unknown" type="correction-addition"> <!-- witness not stated; i added unknown as temporary placeholder -->
                     <add place="above-line">
                       <name ref="#Aristotle">Philosophi</name>
                     </add>
@@ -6522,28 +6533,34 @@
                   </app> quod non est dare minimum actum in specie <app>
                     <lem>aliqua</lem>
                     <rdg type="variation-substance" wit="#V #T">alia</rdg>
-                  </app> mere naturaliter agentium. Inexistens <app>
+                  </app> mere naturaliter agentium. Inexistens 
+                  <app>
                     <lem n="Inexistens" />
                     <rdg type="variation-present" wit="#M">aut</rdg>
-                  </app>
-                  <app>
-                    <lem />
                     <rdg type="correction-deletion" wit="#V">
                       <del rend="strikethrough"><unclear>aut</unclear></del>
                     </rdg>
-                  </app> portio <app>
+                  </app>
+                  portio 
+                  <app>
                     <lem>autem</lem>
                     <rdg type="variation-absent" wit="#M" />
                     <rdg type="correction-addition" wit="#V">
                       <add place="margin">autem</add>
                     </rdg>
-                  </app> ultimo addita est suo toti in eodem <app>
+                  </app> 
+                  ultimo addita est suo toti in eodem 
+                  <app>
                     <lem>instanti</lem>
                     <rdg type="variation-absent" wit="#M" />
-                  </app> quo primo est particula alia inexistens, igitur nulla erit ratio quin ipsa <app>
+                  </app> 
+                  quo primo est particula alia inexistens, igitur nulla erit ratio quin ipsa 
+                  <app>
                     <lem>debeat</lem>
                     <rdg type="variation-substance" wit="#M">debeatur</rdg>
-                  </app> agere <app>
+                  </app> 
+                  agere 
+                  <app>
                     <lem>ut</lem>
                     <rdg type="variation-substance" wit="#M">sicut</rdg>
                   </app> 
@@ -6824,7 +6841,7 @@
                   </app> 
                   ab aliquo vel 
                   <app>
-                    <lem />
+                    <lem n="vel"/>
                     <rdg type="variation-present" wit="#V #T">ab</rdg>
                   </app> 
                   aliquibus actibus vel dabitur aliquis 
@@ -7096,7 +7113,7 @@
                   <app>
                     <lem>perfectior</lem>
                     <rdg type="variation-substance" wit="#M">imperfectior</rdg>
-                    <rdg type="correction-substitution"> <!-- witness unstated -->
+                    <rdg wit="#unknown" type="correction-substitution"> <!-- witness unstated; unknown stated temporarily-->
                       <subst>
                         <del>perfectior</del>
                         <add place="above-line">imperfectior</add>
@@ -7195,7 +7212,7 @@
                   mutuo 
                   <app>
                     <lem n="mutuo" />
-                    <rdg>
+                    <rdg wit="unknown">
                       <del rend="strikethrough">po</del>
                     </rdg>
                   </app>
@@ -7267,7 +7284,7 @@
                   </app>
                   <app>
                     <lem n="rebus" />
-                    <rdg type="variation-present"> <!-- wit not stated, probably V -->
+                    <rdg wit="unknown" type="variation-present"> <!-- wit not stated, probably V -->
                       <mentioned>b</mentioned> habitus remanebit 
                       et in actus alios priori toti
                       similes inclinabit 
@@ -8853,7 +8870,9 @@
                     </rdg>
                   </app> 
                   sic, sicut dicit auctoritas 
-                  <name ref="#Augustine">Augustini</name> allegata et primus amor non procedit de verbo proprie dicto, sed communiter dicto.</p>
+                  <name ref="#Augustine">Augustini</name> allegata et primus amor non procedit de verbo proprie dicto, 
+                  sed communiter dicto.
+                </p>
                 
                 <p xml:id="b1d3qun-hnqmgi">Hic 
                   <app>
@@ -8864,7 +8883,8 @@
                   <app>
                     <lem>modis</lem>
                     <rdg wit="#V #T" type="variation-absent"/>
-                  </app>. Octo, 
+                  </app>. 
+                  Octo, 
                   <app>
                     <lem>scilicet</lem>
                     <rdg wit="#M">suprascripta</rdg>
@@ -10462,7 +10482,7 @@
               
               <p xml:id="b1d3qun-ivqvni"><supplied>Nonum.</supplied> Item videtur quod saltem respectu alicuius obiecti 
                 <app> <!-- V and M reading seem best; as they introduce and indirect statement -->
-                  <rdg wit="#V">posset voluntas habere</rdg>
+                  <lem wit="#V">posset voluntas habere</lem> <!-- lem was not indicated, I choice V, but needs dbcheck -->
                   <rdg wit="#M">potest voluntas habere</rdg>
                   <rdg wit="#S">habere posset voluntas</rdg>
                   <rdg wit="#T">posset habere voluntas</rdg>
@@ -10636,7 +10656,7 @@
                 </app>
                 cogitationem ipsius primo causari, quia habet eam sed potius habitam 
                 <app>
-                  <rdg wit="#V #T">continuari</rdg>
+                  <lem wit="#V #T">continuari</lem> <!-- lem was not stated, I choice V and T but it needs a double check -->
                   <rdg wit="#S">continari</rdg>
                   <rdg wit="#M">act</rdg>
                 </app> 
@@ -11280,7 +11300,7 @@
                 numquam vincitur memoria ab intellegentia quod quicquid intelligentia intelligit 
                 actu, memoria 
                 <app>
-                  <lem/>
+                  <lem n="memoria"/>
                   <rdg wit="#T" type="variation-present">retinet</rdg> <!-- definitley present in T, but does not seem to belong here -->
                 </app> 
                 meminit suo modo actu.</p>
@@ -11803,7 +11823,7 @@
                   alia a suo, sed quod 
                   <app> <!-- this seems to be the beginning of a sequence in which V seems to disagree about singular and plural forms -->
                     <!-- the sequence needs to be read carefully, and each transcription needs to be rechecked -->
-                    <lem/>
+                    <lem n="quod"/>
                     <rdg wit="#V" type="correction-addition">
                       <add>omnes</add>
                     </rdg>
@@ -11873,8 +11893,8 @@
                   </app> 
                   minus impedita quam ad 
                   <app>
-                    <lem/>
-                    <rdg>actualiter</rdg>
+                    <lem n="ad"/>
+                    <rdg wit="unknown">actualiter</rdg>
                   </app> 
                   subtiliter 
                   intelligendum 
@@ -11959,7 +11979,7 @@
                       <rdg wit="#M" type="variation-absent"/>
                     </app> 
                     <app>
-                      <lem/>
+                      <lem n="modum"/>
                       <rdg wit="#T" type="variation-present">loquendi</rdg>
                     </app>
                     loquens 
@@ -11970,7 +11990,7 @@
                     </app>
                   </ref>, 
                   <app>
-                    <lem/>
+                    <lem n="26"/>
                     <rdg wit="#T" type="variation-present">loquens</rdg>
                   </app>
                   dicit 
@@ -11978,7 +11998,7 @@
                   <cit>
                     <quote>in his tribus 
                       <app>
-                        <lem/>
+                        <lem n="tribus"/>
                         <rdg wit="#V" type="variation-present">scilicet</rdg>
                       </app> 
                       memoria, intelligentia, et voluntate solent inspici 
@@ -12030,7 +12050,7 @@
                     <rdg wit="#S #M">corporum</rdg> <!-- dbcheck -->
                   </app> 
                   <app>
-                    <lem/>
+                    <lem n="corporis"/>
                     <rdg wit="#S" type="correction-deletion">
                       <del rend="strikethrough">est</del>
                     </rdg>
@@ -12606,7 +12626,7 @@
                   </rdg>
                 </app>
                 <app>
-                  <lem/>
+                  <lem n="secundum"/>
                   <rdg wit="#V" type="correction-deletion">
                     <del rend="strikethrough">prae</del>
                   </rdg>
@@ -13019,7 +13039,7 @@
                 <cb ed="#S" n="a" /> 
                 quam alia.</p>
               
-              <p xml:id="b1d3qun-ascaqo"> Ad secundum respondet <name ref="#RichardFitzRalph">Fitzralph</name> cum accipitur quod tunc intellectus 
+              <p xml:id="b1d3qun-ascaqo">Ad secundum respondet <name ref="#RichardFitzRalph">Fitzralph</name> cum accipitur quod tunc intellectus 
                 intelligeret quicquid memoria memineret dico, inquit, quod intelligere 
                 est duobus modis, scilicet, in actu et 
                 <app>
@@ -13290,7 +13310,7 @@
                 vitare unum verum conclusio. Enim deducta per illud <!-- T has "istud" --> 
                 quintum argumentum est ad 
                 <app>
-                  <lem/>
+                  <lem n="ad"/>
                   <rdg wit="#S" type="correction-deletion">
                     <del>illud quintum argumentum est ad</del> <!-- dbcheck -->
                   </rdg>
@@ -14549,12 +14569,13 @@
               </app> 
               principalius quam homo, quia
               <app> <!-- needs major dbcheck; could be mistake in S transcription -->
-                <lem ana="#quia"/>
+                <lem n="quia"/>
                 <rdg wit="#S" type="variation-present">non</rdg>
               </app>
               homo non est imago 
               <app>
                 <lem>dei</lem>
+                <rdg wit="unknown">[rdg missing]</rdg>
                 <!-- needs db check; pssibily two instances of "dei" in maz -->
               </app> 
               ut nunc loquimur, nisi secundum mentem 
@@ -14586,7 +14607,7 @@
               </app>
               suae <!-- in T suae comes before essentiae -->
               <app>
-                <lem/>
+                <lem n="suae"/>
                 <rdg wit="#T" type="variation-present">vel</rdg>
               </app>
               aut ratione 
@@ -14668,7 +14689,7 @@
                 <rdg wit="#V">ductam</rdg>
               </app> 
               <app>
-                <lem/>
+                <lem n="ducit"/>
                 <rdg wit="#M" type="variation-present">in</rdg>
               </app>
               in notitiam Trinitatis quoad 
