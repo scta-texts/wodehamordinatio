@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,8 +16,7 @@
                 <publisher>LombardPress</publisher>
                 <pubPlace>Baltimore, MD</pubPlace>
                 <availability status="free">
-                    <p>Published under a <ref
-                        target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+                    <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
                         Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
                 </availability>
                 <date when="2011-06-26">June 26, 2011</date>
@@ -32,26 +30,18 @@
     </teiHeader>
     <text xml:lang="la">
         <front>
-            <div type="status">
-                <note type="status">Draft</note>
-                <note type="collobaration">Yes</note>
-            </div>
-            <div xml:id="includeList">
-                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
-            </div>
         </front>
         <body>
         <div xml:id="b1-d6-q1">
-            <head subtype="title">Liber I, Distinctio 6, Quaestio 1</head>
-            <div>
-                <head>Questio 1: Utrum a parte rei in divinis sit aliqua non-identitas inter naturam Dei et voluntatem divinam?</head>
-                <div>
-                    <p>Circa distinctionem sextam, ubi inquiritur an ex hoc quod voluntas 
+            <head xml:id="b1-q1-Hd1e3481" subtype="title">Liber I, Distinctio 6, Quaestio 1</head>
+            <div xml:id="b1-q1-Dd1e3484">
+                <head xml:id="b1-q1-Hd1e3486">Questio 1: Utrum a parte rei in divinis sit aliqua non-identitas inter naturam Dei et voluntatem divinam?</head>
+                <div xml:id="b1-q1-Dd1e3489">
+                    <p xml:id="b1-q1-d1e3491">Circa distinctionem sextam, ubi inquiritur an ex hoc quod voluntas 
 <lb ed="#S"/>Dei est natura sive essentia Dei, sequatur quod si Verbum Dei natura 
 <lb ed="#S"/>Dei Filius est, quod voluntate Dei Filius sit.</p>
                     
-                    <p>Quaero 
+                    <p xml:id="b1-q1-d1e3498">Quaero 
 <lb ed="#S"/>primo utrum a parte rei in divinis sit aliqua non-i<lb ed="#S"/>dentitas 
 <lb ed="#S"/>inter naturam Dei et voluntatem divinam, et ita de ce<lb ed="#S"/>teris 
 <lb ed="#S"/>perfectionibus quae ponitur in deo vel Deus. Nec moveat quod plura<lb ed="#S"/>liter 
@@ -59,16 +49,16 @@
 <lb ed="#S"/><cb ed="#S" n="85vb"/>improprietate loquendi non potest homo in hac materia leviter exprimere illud 
 <lb ed="#S"/>quod vellet.</p>
 </div>
-                    <div>
-                        <head>Rationes principales</head>
+                    <div xml:id="b1-q1-Dd1e3522">
+                        <head xml:id="b1-q1-Hd1e3524">Rationes principales</head>
                         
-                        <p>Et videtur quod sic, quia <name ref="#Lombard">Magister</name> tenet in littera, c. 1, huius distinctionis, et probat 
+                        <p xml:id="b1-q1-d1e3527">Et videtur quod sic, quia <name ref="#Lombard">Magister</name> tenet in littera, c. 1, huius distinctionis, et probat 
 <lb ed="#S"/>hoc per <name ref="#Augustine">Augustinus</name> XV <title ref="#deTrinitate">De Trinitate</title> c. 2, Verbum Dei esse Filium Dei natura, non 
 <lb ed="#S"/>voluntate.<note><name>Augustine</name>, <title>De Trinitate</title>, c. 20, n. 38 (PL 42:1097; CCL 50A:515)</note> Sed hoc stare non posset nisi a parte rei, praeter operationem intellectus, 
 <lb ed="#S"/>esset aliquis modus non-identitatis voluntatis ad naturam, qualis non est naturae 
 <lb ed="#S"/>ad naturam, igitur etc.</p>
                         
-                        <p>Item, Filius in divinis procedit modo naturae et 
+                        <p xml:id="b1-q1-d1e3556">Item, Filius in divinis procedit modo naturae et 
 <lb ed="#S"/>intellectus, non modo voluntatis, quia procedit non quomodo natus, sed quomodo 
 <lb ed="#S"/>datus, secundum <name ref="#Augustine">Augustinum</name>, V <title>De Trinitate</title>, c. 32 de parvis,<note><name>Augustinus</name>, <title>De Trinitate</title>, c. 14, n. 15 (PL 42:921; CCL 50:222)</note> et ponitur distinctione 13 primo, 
 <lb ed="#S"/>c. 2.<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 13, c. 2</note> Sed Spiritus Sanctus procedit modo voluntatis, non modo naturae, igitur a parte rei 
@@ -76,7 +66,7 @@
 <lb ed="#S"/>quia distinctio rationis nihil facit ad processionem illam realem personalem 
 <lb ed="#S"/>in divinis.</p>
                         
-                        <p>Et hoc iterum arguo sic tertio: si inter naturam et vol<lb ed="#S"/>untatem 
+                        <p xml:id="b1-q1-d1e3594">Et hoc iterum arguo sic tertio: si inter naturam et vol<lb ed="#S"/>untatem 
 <lb ed="#S"/>in divinis sit sola distinctio <seg>rei<desc>should probably be rationis in edited text</desc></seg> creata ab aliquo intellectu, 
 <lb ed="#S"/>aut igitur creato vel increato. Si creato et ista distinctio praesupponitur vel 
 <lb ed="#S"/>coexigitur processioni personarum in divinis, ut probat argumentum <sic>procedens</sic> 
@@ -94,40 +84,40 @@
 <lb ed="#S"/>in infinitum.</p>
                      
                     </div>
-                    <div>
-                  <head>Ad oppositum</head>   
-                       <p>Ad oppositum<note type="marginalNote">oppositum</note> arguo argumento litterae, distinctione 6 primi, c. 2:<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 6, c. unicum, n. 3 [double check]</note> "Voluntas 
+                    <div xml:id="b1-q1-Dd1e3649">
+                  <head xml:id="b1-q1-Hd1e3651">Ad oppositum</head>   
+                       <p xml:id="b1-q1-d1e3654">Ad oppositum<note type="marginalNote">oppositum</note> arguo argumento litterae, distinctione 6 primi, c. 2:<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 6, c. unicum, n. 3 [double check]</note> "Voluntas 
 <lb ed="#S"/>Dei est natura sive essentia Dei, quia non est aliud Deo <del rend="strikethrough">d</del> esse et aliud 
 <lb ed="#S"/>velle, Et ideo sicut una est essentia trium personarum, ita et una voluntas. 
 <lb ed="#S"/>Si igitur Deus natura Deus est, et voluntate Deus est, et si Verbum Dei 
 <lb ed="#S"/>natura Dei Filius est, et voluntate Dei Filius est.</p>
                         
-                        <p>Item, in summe 
+                        <p xml:id="b1-q1-d1e3680">Item, in summe 
 <lb ed="#S"/>simplici nulla est distinctio vel non-identitas essentialis vel essentialium. 
 <lb ed="#S"/>Sed secundum <name ref="#Augustine">Augustinum</name>,<note><name>Augustinus</name>, <title>De Trinitate</title>, VI, c. 4, n. 6 (PL 42:927; CCL 50:234)</note> sicut allegat <name>Magister</name><note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 8, c. 5</note> distinctione 8, Deus vere et summe 
 <lb ed="#S"/>simplex est, <corr><del>et simpliciter</del><add>et si multipliciter</add></corr> dicatur. Nam[?] "Deo, hoc est esse quod sapientem 
 <lb ed="#S"/>esse, et si quid de illa simplici multiplice ac multiplici sim<lb ed="#S"/>plicitate 
 dixeris, quo substantia eius significetur."</p>
                     </div>
-                    <div>
+                    <div xml:id="b1-q1-Dd1e3722">
 
-                        <head>Divisio quaestionis</head>                     
+                        <head xml:id="b1-q1-Hd1e3724">Divisio quaestionis</head>                     
                         
-                        <p>In hac quaestione
+                        <p xml:id="b1-q1-d1e3727">In hac quaestione
 <lb ed="#S"/>primo ponam conclusiones tres, et probabo eas, non inquirendo hic de
 <lb ed="#S"/>attributis vel de signis huius, sed de illis quae sunt in Deo vel 
 <lb ed="#S"/>sunt Deus. Secundo impugnabo eas per media aliter opinantium et 
 <lb ed="#S"/>solvam illa</p>
                     </div>
                     <div xml:id="primusarticulus">
-                        <head>Articulus primus</head>
-                        <div>
-                            <head>Conclusio prima</head>
-                        <p>Et prima<note type="marginalNote">primus articulus</note> conclusio<note type="summary">A: Prima conclusio quod sapientia vel volitio et intellectus et essentia quae est Deus non distinguuntur. S</note> sit ista: quod intellectus Dei et sapientia 
+                        <head xml:id="b1-q1-Hd1e3742">Articulus primus</head>
+                        <div xml:id="b1-q1-Dd1e3745">
+                            <head xml:id="b1-q1-Hd1e3747">Conclusio prima</head>
+                        <p xml:id="b1-q1-d1e3750">Et prima<note type="marginalNote">primus articulus</note> conclusio<note type="summary">A: Prima conclusio quod sapientia vel volitio et intellectus et essentia quae est Deus non distinguuntur. S</note> sit ista: quod intellectus Dei et sapientia 
 <lb ed="#S"/>vel volitio, quae Deus est, non sunt res distinctae inter se vel 
 <lb ed="#S"/>a natura Dei.</p>
                         
-                        <p>Primo, quia secundum doctrinam Sanctorum et philosophorum Deus per sum<lb ed="#S"/>mam 
+                        <p xml:id="b1-q1-d1e3763">Primo, quia secundum doctrinam Sanctorum et philosophorum Deus per sum<lb ed="#S"/>mam 
 simplicitatem est quicquid habet intra se essentiale et absolutum maximae. 
 <lb ed="#S"/>Unde et ille <name ref="#Averroes">Commentator</name> dicit XII <title>Metaphysicae</title>, commento 39,<note><name>Averroes</name>, <title>In Aristot. Metaphysica</title>, XII, t. 39 (ed. Iuntina, VIII, f. 151v)[double check]</note> loquens quomodo <name>Philosophus</name> 
 <lb ed="#S"/>intelligit ibidem et accipit dispositum et dispositionem dicit quod 
@@ -137,14 +127,14 @@ simplicitatem est quicquid habet intra se essentiale et absolutum maximae.
 <lb ed="#S"/>differentia est inter ea quae differunt in esse et intellectu et quae differunt 
 <lb ed="#S"/>intellectu tantum.</p>
                         
-                        <p>Item, regula <name ref="#Anselm">Anselmi</name> et Sanctorum est quod in divinis omnia 
+                        <p xml:id="b1-q1-d1e3803">Item, regula <name ref="#Anselm">Anselmi</name> et Sanctorum est quod in divinis omnia 
 <lb ed="#S"/>sunt unum ubi non obviat relationis oppositio.<note><name>Anselmus</name>, <title>De Processione Spiritus Sancti</title>, c. 2 (ed. F. S. Schmitt, II:180s; PL 158:288C)[double check]</note> Sed inter sapientiam 
 <lb ed="#S"/>et essentiam vel volitionem, et sic de aliis, quae ibi ponuntur, non obviat relatio<lb ed="#S"/>nis 
 <lb ed="#S"/>oppositio, quae est inter producens et productum, quia nullum talium pro<lb ed="#S"/>ducit 
 <lb ed="#S"/>vel producitur ab alio eorumdem, quae est illa relationis oppositio 
 <lb ed="#S"/>de qua Sancti et <name ref="#Anselm">Anselmi</name> loquuntur, igitur.</p>
                         
-                        <p>Item, si essent in Deo res 
+                        <p xml:id="b1-q1-d1e3835">Item, si essent in Deo res 
 <lb ed="#S"/>realiter distinctae inter se et ab essentia divina, vere componerent cum 
 <lb ed="#S"/>deitate, sicut perfectio cum perfectibili. Aliter Deus non intelligeret 
 <lb ed="#S"/>nec vellet nisi sapientia et volitio et intellectio, et sic de aliis huiusmodi 
@@ -155,17 +145,17 @@ simplicitatem est quicquid habet intra se essentiale et absolutum maximae.
 <lb ed="#S"/>moverentur per se sine motore." Haec illae.</p>
                         </div>
                        
-                    <div>
-                        <head>Conclusio secunda</head>
+                    <div xml:id="b1-q1-Dd1e3862">
+                        <head xml:id="b1-q1-Hd1e3864">Conclusio secunda</head>
                        
-                        <p>Secunda<note type="marginalNote">secunda conclusio S</note> conclusio<note type="summary">B: Secunda conclusio quod volitio et essentia et intellectus non sunt distinctae formalitates eiusdem rei. S</note> est quod sapientia divina 
+                        <p xml:id="b1-q1-d1e3867">Secunda<note type="marginalNote">secunda conclusio S</note> conclusio<note type="summary">B: Secunda conclusio quod volitio et essentia et intellectus non sunt distinctae formalitates eiusdem rei. S</note> est quod sapientia divina 
 <lb ed="#S"/>et volitio divina et deitas non sunt in Deo inter se distinctae forma<lb ed="#S"/>litates 
 <lb ed="#S"/>eiusdem rei absolutae, scilicet, quod sint eadem res sed tamen distinctae forma<lb ed="#S"/>litates, 
 <lb ed="#S"/>vel perfectiones, vel formales rationes distinctae, vel modi reales 
 <lb ed="#S"/>eiusdem rei inter se et a parte rei distincti, vel distinctae quidditates vel 
 <lb ed="#S"/>cognoscibilitates, vel qualitercumque placuerit vocare.</p>
                         
-                        <p>Hoc probo sic: quia 
+                        <p xml:id="b1-q1-d1e3891">Hoc probo sic: quia 
 <lb ed="#S"/>hoc dato sequeretur processus in infinitum in distinctis formalitatibus in qualibet 
 <lb ed="#S"/>earum contentis, vel dabitur quod sunt inter se distinctae res, quod improbat 
 <lb ed="#S"/>prima conclusio. Probatio consequentiae, quia vocentur A et B illi duo modi vel iste 
@@ -173,7 +163,7 @@ simplicitatem est quicquid habet intra se essentiale et absolutum maximae.
 <lb ed="#S"/>formalitates, sicut tenet <name>Cowton[???]</name> et <name>Slole[???]</name> et multi alii, et tamen sunt e<lb ed="#S"/>dem 
 <lb ed="#S"/>res.</p> 
                         
-                        <p>Quaero igitur de re seu de realitate essentiae et formalitate eiusdem: 
+                        <p xml:id="b1-q1-d1e3915">Quaero igitur de re seu de realitate essentiae et formalitate eiusdem: 
 <lb ed="#S"/>aut sunt idem omnibus modis a parte rei vel non. Et eodem modo 
 <lb ed="#S"/>ex alia parte de realitate sapientiae et formalitate eius. Si sic, 
 <lb ed="#S"/>igitur sicut res vel realitas essentiae est res sive realitas sapientiae, 
@@ -185,7 +175,7 @@ simplicitatem est quicquid habet intra se essentiale et absolutum maximae.
 <lb ed="#S"/>sit realiter essentia vel res essentiae. Alioquin contingunt absurda illata ex 
 <lb ed="#S"/>opposito primae conclusionis.</p> 
                             
-                        <p>Si realitas essentiae et formalitas eius vel modus 
+                        <p xml:id="b1-q1-d1e3941">Si realitas essentiae et formalitas eius vel modus 
 <lb ed="#S"/>vel quidditiva ratio, vel quicquid vocaverit illud, non sunt idem omnibus mo<lb ed="#S"/>dis 
 <lb ed="#S"/>a parte rei. Igitur, ut prius, sequendo phantasiam de pluribus formalitatibus 
 <lb ed="#S"/>eiusdem rei, alia erit formalitas realitatis essentiae ab ipsa formalitate essentiae. 
@@ -193,23 +183,23 @@ simplicitatem est quicquid habet intra se essentiale et absolutum maximae.
 <lb ed="#S"/>omnibus a parte rei illi datae. Et si sic, sicut prius. Si non, proces<lb ed="#S"/>sus 
 <lb ed="#S"/>in infinitum.</p> 
                         
-                        <p>Sequitur igitur quod non plus est concedendum de sapientiae et 
+                        <p xml:id="b1-q1-d1e3962">Sequitur igitur quod non plus est concedendum de sapientiae et 
 <lb ed="#S"/>essentia divina quod sint plures formalitates vel modi reales, vel plures 
 <lb ed="#S"/>esse <del>quam deum</del> quidditativi vel entia absoluta inter se distincta a parte 
 <lb ed="#S"/>rei, modo praeexposito, quam quod sint plures res vel plures reali<lb ed="#S"/>tates 
 <lb ed="#S"/>vel plura entia absoluta sic di<lb ed="#S"/>stincta.</p>
                         
-                        <p>Dices forsan quod distinguuntur 
+                        <p xml:id="b1-q1-d1e3981">Dices forsan quod distinguuntur 
 <lb ed="#S"/>formaliter vel non sunt idem formaliter, non tamen distinctae formalitates.</p> 
                         
-                        <p>Sed hoc non valet pro istis, quia nesciunt videre quod aliqua possunt distin<lb ed="#S"/>gui 
+                        <p xml:id="b1-q1-d1e3986">Sed hoc non valet pro istis, quia nesciunt videre quod aliqua possunt distin<lb ed="#S"/>gui 
 <lb ed="#S"/>formaliter, vel esse et non esse idem formaliter, quin sint distinctae formalitat<lb ed="#S"/>es.</p>
                         
                     </div>
-                        <div>
-                            <head>Conclusio tertia</head>
+                        <div xml:id="b1-q1-Dd1e3996">
+                            <head xml:id="b1-q1-Hd1e3998">Conclusio tertia</head>
                             
-                            <p>Tertio<note type="marginalNote">tertia conclusio S</note> conclusio<note type="summary">C: Quod sapientia divina est omnibus modis eadem essentiae quibus essentia est eadem sibi S</note> est quod sapientia divina omnibus modis a parte rei est essentia 
+                            <p xml:id="b1-q1-d1e4001">Tertio<note type="marginalNote">tertia conclusio S</note> conclusio<note type="summary">C: Quod sapientia divina est omnibus modis eadem essentiae quibus essentia est eadem sibi S</note> est quod sapientia divina omnibus modis a parte rei est essentia 
 <lb ed="#S"/>divina, vel eadem essentiae quibus essentia divina est eadem essentiae divinae. Et sic 
 <lb ed="#S"/>de qualibet alia perfectione absoluta; nec est inter eas aliqua distinctio pe<lb ed="#S"/>nitus 
 <lb ed="#S"/>ex natura rei vel non-identitas. Et illud movet me multum, 
@@ -217,7 +207,7 @@ simplicitatem est quicquid habet intra se essentiale et absolutum maximae.
 <lb ed="#S"/>sicut hoc patet ubique in libro <title>Sententiarum</title>,<note><name>Petrus Lombardus</name>, <title>Sententia</title>, Sent, I, d. 5, c. 1, n. 4-8; d. 17, c. 3, n. 5, d. 32, c. 2-4 [Double Check]</note> ubi de hac materia fit mentio 
 <lb ed="#S"/>ex nulla rei vel non-identitas.</p>
                             
-                            <p>Item, tanta identitas et 
+                            <p xml:id="b1-q1-d1e4036">Item, tanta identitas et 
 <lb ed="#S"/>simplicitas et unitas ponenda est essentiae divinae ad quidlibet 
 <lb ed="#S"/>quod in divinis ponitur a parte rei, quanta potest stare absque repugnantia 
 <lb ed="#S"/>manifesta; quia hoc maxime videtur salvare summam simplicitatem 
@@ -228,17 +218,17 @@ simplicitatem est quicquid habet intra se essentiale et absolutum maximae.
 <lb ed="#S"/>eadem sibi, igitur etc. Minor patebit solvendo argumenta in contrarium, quae 
 <lb ed="#S"/>modicam habent evidentiam ad hoc.</p>
                             
-                            <p>Tertia ratio: divina essentia nihil est quin divina <del>essentia</del> 
+                            <p xml:id="b1-q1-d1e4060">Tertia ratio: divina essentia nihil est quin divina <del>essentia</del> 
 <lb ed="#S"/>sapientia sit illud nec e contra. Igitur divina sapientia et divina essentia sunt 
 <lb ed="#S"/>per omnia ad invicem idem, sicut essentia vel sapientia sibi ipsi.</p>
                             
-                            <p>Quarto 
+                            <p xml:id="b1-q1-d1e4070">Quarto 
 <lb ed="#S"/>sic: omnia vere entia in rebus, pro quibus nulla contradictoria possunt verificari 
 <lb ed="#S"/>simul, sunt invicem summae idem. Sed sic est de deitate 
 <lb ed="#S"/>et divina sapientia, igitur sunt invicem summe idem. Plana est ma<lb ed="#S"/>ior, 
 <lb ed="#S"/>et minor patet inductive.</p>
                             
-                            <p>Dices: si maior sit vera, ergo 
+                            <p xml:id="b1-q1-d1e4084">Dices: si maior sit vera, ergo 
 <lb ed="#S"/>ex opposito: si aliqua non sunt invicem summe idem, de illis 
 <lb ed="#S"/><cb ed="#S" n="86rb"/>potuerunt verificari contradictoria alia. Sed deitas et divina paternitas non sunt 
 <lb ed="#S"/>invicem summe idem, quia nec convertibiliter idem, cum deitas sit aliquid, pu<lb ed="#S"/>ta 
@@ -246,14 +236,14 @@ simplicitatem est quicquid habet intra se essentiale et absolutum maximae.
 <lb ed="#S"/>deitate, vel pro illis, possunt simul verificari alia contradictoria. Et si haec igitur 
 <lb ed="#S"/>pro eadem re, quia deitas et paternitas sunt idem.</p>
                             
-                            <p>Dicendum quod consequentia non valet, 
+                            <p xml:id="b1-q1-d1e4103">Dicendum quod consequentia non valet, 
 <lb ed="#S"/>non plus quam ista pro essentia et paternitate verificantur contradictoria, et deitas 
 <lb ed="#S"/>et paternitas sunt alterum istorum, igitur et contradictoria verificantur de altero 
 <lb ed="#S"/>istorum. Non enim sunt aliud idem, nisi vel eadem deitas, vel eadem 
 <lb ed="#S"/>paternitas vel eadem spiratio activa. Et constat quod nec de eadem 
 <lb ed="#S"/>deitate verificantur contradictoria, nec etc.</p>
                             
-                            <p>Sed <del>ad</del> argumentum aliter forte imaginatur 
+                            <p xml:id="b1-q1-d1e4116">Sed <del>ad</del> argumentum aliter forte imaginatur 
 <lb ed="#S"/>ac si esset aliquid idem in re cui tam deitas quam relatio personalis, 
 <lb ed="#S"/>vel personalis proprietas, identificaretur, tamquam in aliquo eodem identitatico[?] 
 <lb ed="#S"/>ab eisdem. Sed non est ita, quod sic aliqui idem, nisi eadem deitas, 
@@ -266,7 +256,7 @@ huic: 'contradictoria verificantur de istis, igitur de hoc istorum vel
 <lb ed="#S"/>Non enim sequitur 'una pars verificatur pro hoc istorum et alia pro alio, igitur 
 <lb ed="#S"/>ambo verificantur pro hoc vel ambo pro illo'.</p>
                            
-                            <p>Quinto<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 6, q. 1, sect. 11 (Wood II:291); Arguments of Chatton and Ockham from Lectura secunda omitted.</note> arguo sic ex 
+                            <p xml:id="b1-q1-d1e4146">Quinto<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 6, q. 1, sect. 11 (Wood II:291); Arguments of Chatton and Ockham from Lectura secunda omitted.</note> arguo sic ex 
 <lb ed="#S"/>dictis <name ref="#Anselm">Anselmi</name>, <title ref="#Monologion">Monologion</title>, c. 16 et 17: per se individuum illius ab<lb ed="#S"/>scracti, 
 <lb ed="#S"/>per quod abstractum, et etiam per concretum eiusdem, bene respondetur ad quaestionem 
 <lb ed="#S"/>per 'quid est' de deitate, nullo modo distinguitur a parte rei de 
@@ -275,7 +265,7 @@ huic: 'contradictoria verificantur de istis, igitur de hoc istorum vel
 <lb ed="#S"/>Deo respondetur vere vel bene quod ipsa est iustitia vel sapientia, iusta etiam et 
 <lb ed="#S"/>sapiens, etc., igitur.</p> 
                                                             
-                            <p>Minorem probabo per <name ref="#Anselm">Anselmum</name> c. 16,<note><name>Anselmus</name>, <title>Monologion</title>, c. 16-17 (ed. Schmitt (I:30s; PL 158:164s)</note> ubi tractat 
+                            <p xml:id="b1-q1-d1e4180">Minorem probabo per <name ref="#Anselm">Anselmum</name> c. 16,<note><name>Anselmus</name>, <title>Monologion</title>, c. 16-17 (ed. Schmitt (I:30s; PL 158:164s)</note> ubi tractat 
 <lb ed="#S"/>hanc materiam seriose et a proposito. "Quaeratur," inquit, "quid sum<lb ed="#S"/>ma 
 <lb ed="#S"/>illa natura sit?" "Fortasse cum dicitur iusta vel magna vel 
 <lb ed="#S"/>aliquid similium, non ostenditur quid sit, sed potius qualis vel quanta 
@@ -285,17 +275,17 @@ huic: 'contradictoria verificantur de istis, igitur de hoc istorum vel
 <lb ed="#S"/>est, per aliud est iusta, non per se, aut hoc contrarium est veritati, 
 <lb ed="#S"/>quia bona vel magna omnino per se est, non per aliud."</p>
                             
-                            <p>Secundo<note type="summary">D: Quod non proprie dicitur Deus habet iustitiam, sed Deus est iustitia S</note> ad idem, 
+                            <p xml:id="b1-q1-d1e4213">Secundo<note type="summary">D: Quod non proprie dicitur Deus habet iustitiam, sed Deus est iustitia S</note> ad idem, 
 <lb ed="#S"/>ibidem: "si igitur," inquit, "non est iusta, nisi per iustitiam, nec iusta 
 <lb ed="#S"/>esse potest nisi per se: quid magis conspicuum, quid magis necessarium, quam <add place="margin">quod</add> eadem 
 <lb ed="#S"/>natura est ipsa iustitia."</p> 
                             
-                            <p>Et addit iterum: "Et cum dicitur esse iusta per iustitiam, 
+                            <p xml:id="b1-q1-d1e4229">Et addit iterum: "Et cum dicitur esse iusta per iustitiam, 
 <lb ed="#S"/>idem est quod per se; et cum iusta per se dicitur esse non aliud intelligitur quam 
 <lb ed="#S"/>per iustitiam. Quapropter Si quaeratur, quid sit ipsa natura summa de 
 <lb ed="#S"/>qua agitur, quid verius respondetur: quam iustitia."</p>
                             
-                            <p>Ex hoc patet quod <add place="margin">per</add> ab<lb ed="#S"/>stractum 
+                            <p xml:id="b1-q1-d1e4238">Ex hoc patet quod <add place="margin">per</add> ab<lb ed="#S"/>stractum 
 iustitia bene respondetur ad quaestionem: quid est deitas? Et tunc ad 
 <lb ed="#S"/>instantiam prius factam respondet: "Videndum igitur," inquit, "quomodo intelligendum 
 <lb ed="#S"/>sit, quando illa natura, quae est ipsa iustitia, dicitur iusta?" "Quoniam igitur natura 
@@ -313,20 +303,20 @@ iustitia bene respondetur ad quaestionem: quid est deitas? Et tunc ad
 <lb ed="#S"/>de illa dicatur, non qualis vel quanta, sed magis quid sity mon<lb ed="#S"/>stratur."  
 Haec illae.</p>
                            
-                            <p>Huic concordat quod dicit <name ref="#Bernard">Bernardus</name>,<note type="marginalNote">Bernardus S</note> <title>Super Cantica</title> 
+                            <p xml:id="b1-q1-d1e4278">Huic concordat quod dicit <name ref="#Bernard">Bernardus</name>,<note type="marginalNote">Bernardus S</note> <title>Super Cantica</title> 
 <lb ed="#S"/>secundum 81, <seg>secundum c. 92<desc>possible correction here</desc></seg>, "Deus", inquit, non "aliunde bonus est quam 
 <lb ed="#S"/><cb ed="#V" n="86va"/>unde magnus est; nec aliunde iustus aut sapiens quam unde 
 <lb ed="#S"/>magnus et bonus; nec aliunde fruibilis haec omnia quam unus Deus." "Si 
 <lb ed="#S"/>quid igitur de eo proprie dici possit congruentius dicitur: 'Deus magnitudo, 
 <lb ed="#S"/>iustitia, bonitas,' quam 'Deus magnus, bonus, iustus, haec illae'."</p>
                             
-                            <p>Ex istis 
+                            <p xml:id="b1-q1-d1e4307">Ex istis 
 <lb ed="#S"/>plane habetur minor supra dictam quoad abstractum et etiam quoad 
 <lb ed="#S"/>concretum et ultra etiam quoad alias duas quaestiones alibi praetac<lb ed="#S"/>tas 
 <lb ed="#S"/>de modo praedicandi talium, quod ipsa per se praedicantur, et hoc per se 
 <lb ed="#S"/>primo modo, quia, inquit, non in quale. Non potuisset planius lo<lb ed="#S"/>qui.</p>
                             
-                            <p>Item c. 17, planius ad propositum, multis perfectionibus, 
+                            <p xml:id="b1-q1-d1e4323">Item c. 17, planius ad propositum, multis perfectionibus, 
 <lb ed="#S"/>ut ita loquar, enumeratis quas ponit esse in Deo, vel potius esse Deum, 
 <lb ed="#S"/>addit: "Si illa suprema natura tot bona est, nec composita tam pluri<lb ed="#S"/>bus 
 <lb ed="#S"/>bonis." Et probat quod non est composita. Et tunc concludit: "Cum igitur ista 
@@ -339,13 +329,13 @@ Haec illae.</p>
 <lb ed="#S"/>essentialiter addit pro notionibus et personalibus, quia essentia non est aliquid illorum 
 <lb ed="#S"/>essentialiter, id est, per se primo modo.</p>
                             
-                            <p>Item, parum post dicit quod "ista summa 
+                            <p xml:id="b1-q1-d1e4354">Item, parum post dicit quod "ista summa 
 <lb ed="#S"/>essentia nullo modo sic est aliquid ut illud idem secundum alium modum aut secundum 
 <lb ed="#S"/>considerationem non sit: quicquid enim aliquo modo essentialiter est, hoc est 
 <lb ed="#S"/>totum quod est." Et ideo finaliter concludit quod: "Igitur vel de eius essentia vere 
 <lb ed="#S"/>dicitur non in eo quod qualis vel quanta, sed in eo quod aliquid sit acciditur."</p>
                             
-                            <p>Istud intelligendum est, sicut et omnia praecedentia, si talis perfectiones signifi<lb ed="#S"/>centur 
+                            <p xml:id="b1-q1-d1e4366">Istud intelligendum est, sicut et omnia praecedentia, si talis perfectiones signifi<lb ed="#S"/>centur 
 <lb ed="#S"/>signis positivis mere absolutis, sive propriis sive communibus. Et 
 <lb ed="#S"/>plane vult non solum quod nullus sic modus non-identita<lb ed="#S"/>tis 
 a parte rei, sed nec apud considerationem; quod intelligendum est 
@@ -370,25 +360,25 @@ inquit, "nulli dubium est quod nullum eorum substantiale est illi de
 quae ab illa facta sunt, sive aliquid aliter, similiter relative dici 
 <lb ed="#S"/>potest, manifestum est quoniam non eius naturalem designat essentiam" etc.</p>
                             
-                            <p>Item, 
+                            <p xml:id="b1-q1-d1e4448">Item, 
 <lb ed="#S"/>nullum compositum in creaturis ex intellectu et sapientia est essentialius sapiens 
 <lb ed="#S"/>quam deitas ipsa, sola posita et omni alio imaginabili circumscripto. Igitur dei<lb ed="#S"/>tas 
 est omnimode eadem suae sapientiae et sua sapientia deitati, 
 <lb ed="#S"/>ex hoc non tamen sunt invicem convertibiliter idem.</p>
                             
-                            <p>Item 8 ad 
+                            <p xml:id="b1-q1-d1e4459">Item 8 ad 
 <lb ed="#S"/>idem, potest argui per idem omnino est Deus finis et efficiens 
 <lb ed="#S"/>creaturae, sed producit eam per volitionem, et finit eam per deitatem 
 <lb ed="#S"/>vel per bonitatem suam. Igitur ista sunt in mente omnimode idem, sicut 
 <lb ed="#S"/>ipsa deitas vel divina bonitas sibi ipsi.</p>
                            
-                            <p>Item aliter, Dei<lb ed="#S"/>tas 
+                            <p xml:id="b1-q1-d1e4470">Item aliter, Dei<lb ed="#S"/>tas 
 <lb ed="#S"/>non esset per se ipsam una entitas summe bona, quia nisi 
 <lb ed="#S"/>ipsa sit essentialiter et intrinsece sapientia, ipsa cum sapientia qua esset 
 <lb ed="#S"/>sapiens, praecelleret praecise sumptae deitatis bonitatem, quod 
 <lb ed="#S"/>non est dandum. Igitur ipsa est essentialiter et intrinsece sapien<lb ed="#S"/>tia.</p>
                             
-                            <p><cb ed="S" n="86vb"/>Item, si sapientia et iustitia non essent idem formaliter in Deo, tunc non 
+                            <p xml:id="b1-q1-d1e4486"><cb ed="S" n="86vb"/>Item, si sapientia et iustitia non essent idem formaliter in Deo, tunc non 
 <lb ed="#S"/>esset Deus eo sapiens quo iustus, ad illum sensum quo frequentissime loquitur 
 <lb ed="#S"/><name ref="#Augustine">Augustinus</name><note><name>Augustinus</name>, <title>De Trinitate</title>, VII, c. 1-2 and 4 [double check]</note> et <name ref="#Lombard">Magister</name><note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 5, c. 1</note> allegat, et per oppositum dicit quod non eo Pater quo Deus.</p>
                             </div>
@@ -397,16 +387,16 @@ est omnimode eadem suae sapientiae et sua sapientia deitati,
                     
                     
                 <div xml:id="secundusarticulus">
-                        <head>Secundus articulus</head>
-                            <div>
-                                <head>Prima instantia et responsio</head>
-                                <p>Contra<note type="marginalNote">contra conclusionem</note> tertiam<note type="summary">E: arguitur per multa argumenta quod essentia distinguitur aliqualiter a divina essentia S</note> conclusionem:<note type="marginalNote">secundus articulus</note> arguitur sic:<note>Wodeham, Secunda lectura, d. 6, q. 1, sect. 13 (Wood II:298)</note> Si haec sapientia, demonstrata Dei, sapientia infinita esset 
+                        <head xml:id="b1-q1-Hd1e4517">Secundus articulus</head>
+                            <div xml:id="b1-q1-Dd1e4520">
+                                <head xml:id="b1-q1-Hd1e4522">Prima instantia et responsio</head>
+                                <p xml:id="b1-q1-d1e4525">Contra<note type="marginalNote">contra conclusionem</note> tertiam<note type="summary">E: arguitur per multa argumenta quod essentia distinguitur aliqualiter a divina essentia S</note> conclusionem:<note type="marginalNote">secundus articulus</note> arguitur sic:<note>Wodeham, Secunda lectura, d. 6, q. 1, sect. 13 (Wood II:298)</note> Si haec sapientia, demonstrata Dei, sapientia infinita esset 
 <lb ed="#S"/>essentialiter et per se haec bonitas, demonstrata bonitate Dei, infinita, tunc 
 <lb ed="#S"/>sapientia in communi esset bonitas in communi, id est, tunc omnis sapientia esset boni<lb ed="#S"/>tas, 
 <lb ed="#S"/>quia gradus infinitus vel alius gradus non tollit formalem 
 <lb ed="#S"/>rationem illius cui additur.</p>
                             
-                                <p>Dicendum quod haec propositio non est per se 'sapientia est 
+                                <p xml:id="b1-q1-d1e4551">Dicendum quod haec propositio non est per se 'sapientia est 
 <lb ed="#S"/>bonitas', nam tunc sequeretur quod infertur. Nec etiam est haec per se vera 'haec sa<lb ed="#S"/>pientia 
 <lb ed="#S"/>divina est bonitas' vel 'bonitas divina', quamvis haec esset 
 <lb ed="#S"/>per se vera, A est B, sit A conceptus simplex individualis vel specificus illius 
@@ -416,11 +406,11 @@ est omnimode eadem suae sapientiae et sua sapientia deitati,
 <lb ed="#S"/>distinguenda 'sapientia per se est bonitas', demonstrata sapientia, quae est Deus 
 <lb ed="#S"/>vel eius bonitate.</p>
                                 
-                                <p>Quod vero ultra ibi imaginatur argumentum de gra<lb ed="#S"/>dibus 
+                                <p xml:id="b1-q1-d1e4573">Quod vero ultra ibi imaginatur argumentum de gra<lb ed="#S"/>dibus 
 <lb ed="#S"/>infinitis, additis sapientiae vel bonitati, quod non tollit 
 <lb ed="#S"/>rationem illius cui additur.</p>
                                 
-                                <p>Dicendum quod non sit ibi additio, nisi conceptus ad 
+                                <p xml:id="b1-q1-d1e4582">Dicendum quod non sit ibi additio, nisi conceptus ad 
 <lb ed="#S"/>conceptum. Et conceptus sapientiae, cui fit additio conceptus infinitis vel finitatis, verum 
 <lb ed="#S"/>est, manet utrobique eiusdem rationis, cum res significata per hunc conceptum 
 <lb ed="#S"/>compositum 'sapientia infinita' est alterius rationis specificae quam res cui convenit 
@@ -430,13 +420,13 @@ est omnimode eadem suae sapientiae et sua sapientia deitati,
 <lb ed="#S"/>convenit conceptus alter, puta equinitas. Sed <name>Doctor</name>,<note><name>Scotus</name></note> cuius erat argumentum, 
 <lb ed="#S"/>in aliis erat principiis, et ideo argumentum erat sibi difficilius quam mod<lb ed="#S"/>ernis.</p>
                                 </div>
-                                <div>
-                                    <head>Secunda instantia et responsio</head>
+                                <div xml:id="b1-q1-Dd1e4612">
+                                    <head xml:id="b1-q1-Hd1e4614">Secunda instantia et responsio</head>
                                 
-                                    <p>Item,<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 6, q. 1, sect. 14 (Wood II:301, l. 82)</note> secundo arguitur sic: Si sapientia divina sit per se seu formaliter 
+                                    <p xml:id="b1-q1-d1e4617">Item,<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 6, q. 1, sect. 14 (Wood II:301, l. 82)</note> secundo arguitur sic: Si sapientia divina sit per se seu formaliter 
 <lb ed="#S"/>bonitas, igitur haberet diffiniri per bonitatem. Consequens falsum, igitur et antecedens.</p>
                                 
-                                <p>Dicendum quod illa sapientia quae Deus est, <add place="margin">si</add> diffiniri posset, aeque bene diffini<lb ed="#S"/>retur 
+                                <p xml:id="b1-q1-d1e4630">Dicendum quod illa sapientia quae Deus est, <add place="margin">si</add> diffiniri posset, aeque bene diffini<lb ed="#S"/>retur 
 per conceptum bonitatis sicut per conceptum sapientiae et e converso. Vel forte oporteret 
 <lb ed="#S"/>utrumque illorum conceptuum, et multos alios, in completa diffinitione 
 <lb ed="#S"/>ponere, vel in se explicite vel in suo antecedente: puta dicendo 'A est 
@@ -447,18 +437,27 @@ per conceptum bonitatis sicut per conceptum sapientiae et e converso. Vel forte 
 <lb ed="#S"/>sapientiae infinitae, si talem posset habere diffinitionem.</p>
                                 </div>
                               
-                                <div>
-                                    <head>Tertia instantia et responsio</head>    
+                                <div xml:id="b1-q1-Dd1e4654">
+                                    <head xml:id="b1-q1-Hd1e4656">Tertia instantia et responsio</head>    
                                     
-                                <p>Item <name ref="#JohnDamascenus">Damascenus</name> c. 4, 
-<lb ed="#S"/>primi libri:<note><name>Ioannes Damascenus</name>, <title>De fide orthodoxa</title>, I, c. 4 (PG 94:799 B-C)[doublecheck]</note> Quaecumque dicimus in Deo affirmative, "non naturam sed quae circa naturam 
+                                <p xml:id="b1-q1-d1e4659">Item <name ref="#JohnDamascenus">Damascenus</name> c. 4, 
+                                  <lb ed="#S"/>primi libri: 
+                                  <cit>
+                                    <quote xml:id="b1-q1-Qd1e4668" ana="#JohnDamescenus_DeFide_I_4_a">Quaecumque dicimus in Deo affirmative, "non naturam sed quae circa naturam 
 <lb ed="#S"/>ostendunt. Et si bonum, si iustum, si sapiens, et si quodcumque aliud dicatur, 
-<lb ed="#S"/>non naturam dicis Dei, sed quae circa naturam." Et c. 9 dicit:<note><name>Ioannes Damascenus</name>, <title>De fide orthodoxa</title>, I, c. 9 (PG 94:835 A-B)[doublecheck]</note> "Videtur quidem  
+<lb ed="#S"/>non naturam dicis Dei, sed quae circa naturam</quote>
+                                    <bibl>Ioannes Damascenus, De fide orthodoxa, I, c. 4, (PG 94.799BC); Burgundionis versio 4,5, p. 21, 41-45)</bibl> 
+                                  </cit>. 
+                                  Et c. 9 dicit: 
+                                  <cit>
+                                    <quote xml:id="b1-q1-Qd1e4681">Videtur quidem  
 <lb ed="#S"/>principalius omnium quae de Deo dicuntur non illum esse 'qui est'." "Totum enim in se 
-<lb ed="#S"/>ipso comprehendens habet esse, velut quoddam pelagus substantiae infinitum." Et 
+<lb ed="#S"/>ipso comprehendens habet esse, velut quoddam pelagus substantiae infinitum.</quote>
+                                    <bibl><name>Ioannes Damascenus</name>, <title>De fide orthodoxa</title>, I, c. 9 (PG 94:835 A-B)[doublecheck]</bibl>
+                                  </cit> Et 
 <lb ed="#S"/>currit consequenter ibi per alia nomina probans quod non ostendunt substantiam Dei.</p>
                                 
-                                <p>Dico<note type="marginalNote">Responsio</note> 
+                                <p xml:id="b1-q1-d1e4700">Dico<note type="marginalNote">Responsio</note> 
 <lb ed="#S"/>quod verum dicitur ad hunc sensum quod nullum nomen habemus de Deo cui correspon<lb ed="#S"/>deat 
 <lb ed="#S"/>aliquis conceptus qui praecise significaret substantiam Dei sive deitatem ipsum. De 
 <lb ed="#S"/>Deo, inquit, 'quid est' impossibile est dicere secundum substantiam. Nec hoc nomen 'qui est', 
@@ -472,27 +471,27 @@ per conceptum bonitatis sicut per conceptum sapientiae et e converso. Vel forte 
 <lb ed="#S"/>non ens, sed ut super omnia ens et super omne ens." Et omnino "super 
 <lb ed="#S"/>substantiam et super cognitionem. Haec istae.</p> 
                                 
-                                <p>Nullum igitur tale nomen significat secundum 
+                                <p xml:id="b1-q1-d1e4757">Nullum igitur tale nomen significat secundum 
 <lb ed="#S"/>eum, praecise deitatem <add place="margin">ipsam sed aliqua etiam quae circumstant deitatem</add> id est, creata vel in creabilia, nam sub indifferenti
 <lb ed="#S"/>loquitur de omnibus positivis. Et certum est quod 'substantia' aut 'ens' non 
 <lb ed="#S"/>dicit aliquid quod circumstet deitatem tamquam aliquid in Deo differens 
 <lb ed="#S"/>formaliter a deitate. Verba igitur sua sunt excessiva et indi<lb ed="#S"/>gent 
 <lb ed="#S"/>glossari dicto modo, vel aliquo, qui placebit.</p>
                                 
-                                <p>Aliter potest 
+                                <p xml:id="b1-q1-d1e4776">Aliter potest 
 <lb ed="#S"/><cb ed="#S" n="87ra"/>dici quod intelligit, sicut <name ref="#Averroes">Commentator</name> supra,<note> see sect 3, line 13 in Lectura Secunda for the place of this reference</note> quod quaedam nomina significant per modum per<lb ed="#S"/>fectionum 
 <lb ed="#S"/>inhaerentium, in re tamen correspondente, ut dicit, est summa simpl<lb ed="#S"/>citas. 
 <lb ed="#S"/>Hucusque magis, igitur credendum est <name ref="#Augustine">Augustino</name>, qui XV <title>De Trinitate</title>, c. 
 <lb ed="#S"/>8, de parvis,<note><name>Augustinus</name>, <title>De Trinitate</title>, c. 5, n. 8 (PL 42:1062; CCL 50A:470)[double check]</note> et 4, ubi dicit quod Deus dicitur sapiens, bonus, iustus 
 <lb ed="#S"/>secundum substantiam, sicut dicitur spiritus secundum substantiam.</p>
                                 </div>
-                                <div>
-                                    <head>Quarta instantia et responsio</head>
-                                <p>Item<note>Wodeham, Lectura Secunda, I, d. 6, q. 1, sect. 16 (Wood II:304)</note> arguitur per rationes aliquas. 
+                                <div xml:id="b1-q1-Dd1e4817">
+                                    <head xml:id="b1-q1-Hd1e4819">Quarta instantia et responsio</head>
+                                <p xml:id="b1-q1-d1e4822">Item<note>Wodeham, Lectura Secunda, I, d. 6, q. 1, sect. 16 (Wood II:304)</note> arguitur per rationes aliquas. 
 <lb ed="#S"/>Primo, quia distinctio emanationum divinarum necessario praesupponit distinctionem 
 <lb ed="#S"/>principiorum elicitivorum et non distinctionem rei, igitur distinctionem eorum ex natura rei.</p>
 
-                                <p>Respondeo: De quibus emanationibus loqueris tu? Aut de passivis, 
+                                <p xml:id="b1-q1-d1e4832">Respondeo: De quibus emanationibus loqueris tu? Aut de passivis, 
 <lb ed="#S"/>et hoc est verum, quia generatio passiva praesupponit secundum ordinem 
 <lb ed="#S"/>Patrem ipsum, et spiratio passiva, Patrem et Filium. Sed distinctionem 
 <lb ed="#S"/>principiorum absolutorum nullam praesupponunt, nec realem nec secundum rationem. Si lo<lb ed="#S"/>queris 
@@ -500,14 +499,14 @@ demanationibus<!-- should probably be de emanationibus in edited text --> activi
 <lb ed="#S"/>non plus quam deitas ipsa, ut habet alias declarari.</p>
                                 </div>
                                 
-                                <div>
-                                    <head>Quinta instantia et responsio</head>
-                                    <p>Item,<note>Wodeham, Lectura Secunda, I, d. 6, q. 1, sect. 16 (Wood II:305, l. 35s)</note> si alia 
+                                <div xml:id="b1-q1-Dd1e4850">
+                                    <head xml:id="b1-q1-Hd1e4852">Quinta instantia et responsio</head>
+                                    <p xml:id="b1-q1-d1e4855">Item,<note>Wodeham, Lectura Secunda, I, d. 6, q. 1, sect. 16 (Wood II:305, l. 35s)</note> si alia 
 <lb ed="#S"/>distinctio a parte rei praecedit in divinis emanationes personarum et distinctionem 
 <lb ed="#S"/>emanationum, igitur non esset in divinis una productio per modum naturae et 
 <lb ed="#S"/>alia per modum voluntatis sine libertatis.</p>
                                 
-                                <p>Ad istud per idem dicit <name ref="#Ockham">Okam</name> 
+                                <p xml:id="b1-q1-d1e4867">Ad istud per idem dicit <name ref="#Ockham">Okam</name> 
 <lb ed="#S"/>de libertate stricte accepta vel large. Spiritus Sanctus non libere, id est, modo vo<lb ed="#S"/>luntatis 
 <lb ed="#S"/>amantis producitur, quia producitur a duobus producente et pro<lb ed="#S"/>ducto, 
 <lb ed="#S"/>sicut amore, sed non libere, id est, non contingenter, vel non libere 
@@ -515,15 +514,15 @@ demanationibus<!-- should probably be de emanationibus in edited text --> activi
 <lb ed="#S"/>praesupponit in intellectu aliud productum, sed volitio producitur ab anima 
 <lb ed="#S"/>intellectiva et intellectione prius natura producta.</p> 
                                     
-                                    <p>Et ulterius dicendum cum <name ref="#Ockham">Okam</name> 
+                                    <p xml:id="b1-q1-d1e4890">Et ulterius dicendum cum <name ref="#Ockham">Okam</name> 
 <lb ed="#S"/>quod idem principium penitus indistinctum posset esse principium naturale respectu unius 
 <lb ed="#S"/>principiati et liberum respectu alterius.</p>
                                 
                                 </div>
-                                <div>
-                                    <head>Sexta instantia et responsio</head>
+                                <div xml:id="b1-q1-Dd1e4901">
+                                    <head xml:id="b1-q1-Hd1e4903">Sexta instantia et responsio</head>
                                     
-                                <p>Item arguitur:<note>Wodeham, Lectura Secunda, I, d. 6, q. 1, sect. 17 (Wood II:306)</note> si aliqua sint idem realiter 
+                                <p xml:id="b1-q1-d1e4906">Item arguitur:<note>Wodeham, Lectura Secunda, I, d. 6, q. 1, sect. 17 (Wood II:306)</note> si aliqua sint idem realiter 
 <lb ed="#S"/>et formaliter adaequate seu convertibiliter, quicquid per se convenit uni et alteri. Sed 
 <lb ed="#S"/>aliquid per se convenit intellectui divino quod non voluntati divinae, igitur etc. Minor patet. 
 <lb ed="#S"/>[1] Tum quia actus dicendi est Verbum est actus memoriae, et non voluntatis. 
@@ -536,7 +535,7 @@ ad volendum aliquod obiectum esse, et intellectus eius non ex se determi<lb ed="
 <lb ed="#S"/>ad intelligendum illud esse. [5] Tum quia intellectus divinus intelligit mala,  
 <lb ed="#S"/>et tamen voluntas divina non vult mala, igitur non sunt idem formaliter.</p>
                                 
-                                <p>Ad illud: maior in bono intellectu -- non de vi vocis, quia includit 
+                                <p xml:id="b1-q1-d1e4941">Ad illud: maior in bono intellectu -- non de vi vocis, quia includit 
 <lb ed="#S"/>repugnantiam -- potest concedi, cum <sic>improprietate</sic> tamen loquendi, vocando idem 
 <lb ed="#S"/>quod tamen alio modo et alio significatur aliqua. Sed minor, licet posset habere veritatem 
 <lb ed="#S"/>ad hunc sensum 'alia propositio est per se vera quae probat aliquod praedicatum 
@@ -553,7 +552,7 @@ ad volendum aliquod obiectum esse, et intellectus eius non ex se determi<lb ed="
 <lb ed="#S"/>'A est C' et non haec 'B est C', ideo dico quod sit sumpta, quomodo fa<lb ed="#S"/>ceret 
 <lb ed="#S"/>ad propositum, falsa est.</p>
                             
-                                <p>Ad primam probationem, dico quod actus dicendi 
+                                <p xml:id="b1-q1-d1e4984">Ad primam probationem, dico quod actus dicendi 
 <lb ed="#S"/>Verbum, id est, generationem activam, esse actum memoriae potest multipliciter intelligi: 
 <lb ed="#S"/>vel quod memoria sit principium illius, et hoc falsum est, quia non principiat. 
 <lb ed="#S"/>Vel quod actuet et perficiat memoriam in divinis; et hoc iterum 
@@ -564,7 +563,7 @@ ad volendum aliquod obiectum esse, et intellectus eius non ex se determi<lb ed="
 <lb ed="#S"/>falsum est. Aut quarto, per appropriationem tantum vel aliquo simili modo, et hoc 
 <lb ed="#S"/>bene volo. Sed hoc non probat minorem in sensu quo negatur.</p>
                                 
-                                <p>Ratio autem 
+                                <p xml:id="b1-q1-d1e5009">Ratio autem 
 <lb ed="#S"/>appropriationis, vel aequivalentis rationis, praetacta est una de or<lb ed="#S"/>dine 
 productionum in divinis, et in anima intellectionis et volitio<lb ed="#S"/>nis. 
 Vel alia ratio quam assignat <name ref="#Lombard">Magister</name> <title ref="#Sentences">Sententarium</title>, d. 34, primi libri.<note><name>Petrus Lombardus</name>, <title>Sententia</title>, ?I, d. 34, c. 4 [double check]</note> Nisi enim 
@@ -574,14 +573,14 @@ Vel alia ratio quam assignat <name ref="#Lombard">Magister</name> <title ref="#S
 <lb ed="#S"/>appropriationem bene potest quod memoria, id est, Pater, qui per appropriationem dicitur 
 <lb ed="#S"/>memoria, dicit Verbum; vel alio modo simili exponatur huiusmodi.</p>
                                 
-                                <p>Ad secundum 
+                                <p xml:id="b1-q1-d1e5044">Ad secundum 
 <lb ed="#S"/>per idem penitus.</p>
                                 
-                                <p>Ad tertium nego assumptum, quia deitate ipsa intelligit 
+                                <p xml:id="b1-q1-d1e5049">Ad tertium nego assumptum, quia deitate ipsa intelligit 
 <lb ed="#S"/>et vult et voluntate intelligit et intellectu vult; ut supra in simili 
 <lb ed="#S"/>dixi, quaestione ultima primae distinctione, 34 primi libri.</p>
                                 
-                                <p>Et ad probationem assumpti, consequentiam 
+                                <p xml:id="b1-q1-d1e5056">Et ad probationem assumpti, consequentiam 
 <lb ed="#S"/>nego. Sed tantum sequitur quod sicut per intellectum naturaliter intelligit aliqua 
 <lb ed="#S"/>quae tamen non naturaliter vult, ita per voluntatem naturaliter intelligit alia quae 
 <lb ed="#S"/>tamen naturaliter vult, quia licet intellectus, qui Deus est omnibus modis essentiae 
@@ -596,7 +595,7 @@ Vel alia ratio quam assignat <name ref="#Lombard">Magister</name> <title ref="#S
 <lb ed="#S"/>nec erunt nec fuerunt, secundum <name ref="#Lombard">Magistrum</name> <title>Sententarium</title>.<note><name>Petrus Lombardus</name>, <title>Sent. I, d. 35, c. 7, n. 5-6 [double check]</title></note> Patet igitur quod praedicta consequentia non 
 <lb ed="#S"/>valet quae adducitur ad probationem assumpti negati.</p>
                                     
-                                <p>Ad quartum dico quod 
+                                <p xml:id="b1-q1-d1e5100">Ad quartum dico quod 
 <lb ed="#S"/>ad eundem sensum quo ad veritatem sermonis divina voluntas determina<lb ed="#S"/>tur 
 ex se ad volendum aliquid esse ad eundem sensum intellectus divinus de<lb ed="#S"/>terminatur 
 ex se ad volendum illud esse, licet unus sermo non sic ita per se 
@@ -607,7 +606,7 @@ ex se ad volendum illud esse, licet unus sermo non sic ita per se
 <lb ed="#S"/>et voluntatem divinam, sed quia praedicata aliud et aliud important et attri<lb ed="#S"/>buunt 
 eidem omnino signis diversis expresso.</p>   
                                 
-                                <p>[5] Ad quintum<note type="summary">F: De istis, Deus non vult malum, Deus non facit malum, Deus intelligit malum, et similibus S</note> sicut 
+                                <p xml:id="b1-q1-d1e5125">[5] Ad quintum<note type="summary">F: De istis, Deus non vult malum, Deus non facit malum, Deus intelligit malum, et similibus S</note> sicut 
 <lb ed="#S"/>ad tertium. Sequendo enim communem viam doctorum quod quicquid est posi<lb ed="#S"/>tum 
 in actu malo, est active a Deo, partialiter saltem, secundum illos 
 <lb ed="#S"/>qui dicunt quod de virtute sermonis loquendo quando Deus vult et facit illud quod 
@@ -629,42 +628,42 @@ in actu malo, est active a Deo, partialiter saltem, secundum illos
 <lb ed="#S"/>unum praedicatum plus significat quam aliud vel consignificat, ut praedictum est.</p>
                                 </div>
                                 
-                                <div>
-                                    <head>Septima instantia et responsio</head>
-                                <p>Item<note type="summary">G: Quod licet isti termini sapientia et iustitia idem omnino significent in Deo, non tamen sunt termini synonymi, et quare. S</note> septimo arguitur: aut nomina accidentalia et conceptus correspondentes significant 
+                                <div xml:id="b1-q1-Dd1e5175">
+                                    <head xml:id="b1-q1-Hd1e5177">Septima instantia et responsio</head>
+                                <p xml:id="b1-q1-d1e5180">Item<note type="summary">G: Quod licet isti termini sapientia et iustitia idem omnino significent in Deo, non tamen sunt termini synonymi, et quare. S</note> septimo arguitur: aut nomina accidentalia et conceptus correspondentes significant 
 <lb ed="#S"/>omnino idem in Deo, aut non. Si non, propositum. Si sic, igitur sunt 
 <cb n="87va"/><lb ed="#S"/>nomina synonyma quod non videtur concedendum.</p>
                                 
-                                <p>Respondendum est quod non sequitur propter va<lb ed="#S"/>rias 
+                                <p xml:id="b1-q1-d1e5191">Respondendum est quod non sequitur propter va<lb ed="#S"/>rias 
 causas. Et haec ad praesens sufficiant quod licet in Deo idem sit omni<lb ed="#S"/>mode 
 pro quo quodlibet talium supponit, sicut pro suo per se inferiori, 
 <lb ed="#S"/>alibi tamen unum eorum pro aliquo supponit pro quo non aliud. Aliquid enim 
 <lb ed="#S"/>in creatura continetur sub conceptu sapientiae transcendente, qui attribuitur Deo 
 <lb ed="#S"/>quod non sub conceptu amoris vel iustitiae, et sic de consimilibus, vel e contra.</p>
                                     
-                                <p>Dices: saltem isti termini erunt synonymi 'divina sapientia', 'bo<lb ed="#S"/>nitas', 
+                                <p xml:id="b1-q1-d1e5204">Dices: saltem isti termini erunt synonymi 'divina sapientia', 'bo<lb ed="#S"/>nitas', 
 et ita de aliis.</p>
                                 
-                                <p>Dicendum quod non plus quam isti 'iste homo' et 'hoc 
+                                <p xml:id="b1-q1-d1e5209">Dicendum quod non plus quam isti 'iste homo' et 'hoc 
 <lb ed="#S"/>animal', quia iste terminus 'hoc animal' licet nulli conveniat nisi cui ille alius 
 <lb ed="#S"/>terminus, tamen plura significat, quia omnia animalia; non sic alter.</p>
                                 </div>
                                 
-                                <div>
-                                    <head>Octava instantia et responsio</head>
+                                <div xml:id="b1-q1-Dd1e5217">
+                                    <head xml:id="b1-q1-Hd1e5219">Octava instantia et responsio</head>
                                     
-                                <p>Item,<note>Wodeham, Lectura secunda, I, q. 6, a. 2, sect. 17 (Wood II:310)</note> si omnino idem 
+                                <p xml:id="b1-q1-d1e5222">Item,<note>Wodeham, Lectura secunda, I, q. 6, a. 2, sect. 17 (Wood II:310)</note> si omnino idem 
 <lb ed="#S"/>significent a parte, <corr><del>hoc</del><add>hic</add></corr> erit nugatio 'Deus iudex', 'iustus', 'fortis', 
 <lb ed="#S"/>etc. Vel saltem hic 'Deus sapiens' vel 'Deus intelligens' ve 'Deus vol<lb ed="#S"/>ens', 
 <lb ed="#S"/>quia idem dicetur vis sub eodem modo etiam significandi et concipiendi, 
 <lb ed="#S"/>scilicet, bis abstractive et bis concretive.</p>
                                 
-                                <p>Dicendum quod ex primo exemplo non sequitur 
+                                <p xml:id="b1-q1-d1e5245">Dicendum quod ex primo exemplo non sequitur 
 <lb ed="#S"/>nugatio, quia illa, ibi addita, sunt nomina connotativa vel respectiva 
 <lb ed="#S"/>vel negativa, non ordinata per se secundum sub et supra. Tunc enim esset 
 <lb ed="#S"/>nugatio, ut hic 'invisibile', 'incognoscibile', et sic de similibus.</p>
                                 
-                                <p>De 
+                                <p xml:id="b1-q1-d1e5254">De 
 <lb ed="#S"/>secundis exemplis dicendum quod ibi de virtute vocis, nisi per figurativam locutionem 
 <lb ed="#S"/>excusetur, ut hic 'mons Aetna', ubi excusatur nugatio per figuram 
 <lb ed="#S"/>grammaticalem, est nugatio nisi aliquid addatur, quo addito aliquid signi<lb ed="#S"/>ficetur 
@@ -674,16 +673,16 @@ vel consignificetur per unum quod non per reliquum. Verbi gratia: 'Deus
 <lb ed="#S"/>sicut e converso, ut patet ponendo diffinitionem hominis loco nominis, iuxta 
 <lb ed="#S"/>artem <name ref="#Aristotle">Philosophi</name> in <title ref="#Topics">Topicis</title>.<note><name>Aristoteles</name>, <title>Topica</title>, V, c. 5 (134a-134b25) [double check]</note></p>
                                 
-                                <p>Dices: excusatur nugatio per hoc quod unum est concretyn et aliud abstractum. Dico quod non dummodo utrum<lb ed="#S"/>que 
+                                <p xml:id="b1-q1-d1e5287">Dices: excusatur nugatio per hoc quod unum est concretyn et aliud abstractum. Dico quod non dummodo utrum<lb ed="#S"/>que 
                                     sit nomen cum altero convertibile, vel etiam dummodo concretum fuerit 
 <lb ed="#S"/>communius per se primo modo. Unde hic est nugatio 'homo rationalis' et 
 <lb ed="#S"/>hic similiter 'homo animatus'. Excusatur autem per istam figuram quae per illud 
 <lb ed="#S"/>'Deus volens' intelligitur 'Deus qui est volens'.</p> 
                                 
-                                <p>Utrum autem sapientia 
+                                <p xml:id="b1-q1-d1e5299">Utrum autem sapientia 
 <lb ed="#S"/>quae Deus est et deitas ipsa, et sic de similibus, distinguatur 
 <lb ed="#S"/>sola ratione, sive "secundum intelligentiae rationem," secundum modum loquendi 
-<lb ed="#S"/><ref><name ref="#Lombard">Magistri</name>, primo libri distinctioni 34, c. 4</ref>, persaepe,<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 34, c. 1, n. 9 [double check]</note> et multorum moderno<lb ed="#S"/>rum, 
+<lb ed="#S"/><ref xml:id="b1-q1-Rd1e5306"><name ref="#Lombard">Magistri</name>, primo libri distinctioni 34, c. 4</ref>, persaepe,<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 34, c. 1, n. 9 [double check]</note> et multorum moderno<lb ed="#S"/>rum, 
 <lb ed="#S"/>usque hodiernum et subtiliorum, vel non, tractavi alias et tenui quod 
 <lb ed="#S"/>non et glossavi auctoritates. Sed quia hoc discutere non esset nunc 
 <lb ed="#S"/>placibile, dimittatur.</p>
@@ -691,29 +690,29 @@ vel consignificetur per unum quod non per reliquum. Verbi gratia: 'Deus
                                 
                                 </div>
                                 </div>
-                            <div>
+                            <div xml:id="b1-q1-Dd1e5331">
                                 
-                                <head>Ad rationes principales</head>
+                                <head xml:id="b1-q1-Hd1e5333">Ad rationes principales</head>
                                 
-                                <p>Ad rationes principales:<note>Wodeham, Lectura secunda, I, d. 6, q. 1, sect. 18 (Wood II:312)</note> ad primum principale 
+                                <p xml:id="b1-q1-d1e5336">Ad rationes principales:<note>Wodeham, Lectura secunda, I, d. 6, q. 1, sect. 18 (Wood II:312)</note> ad primum principale 
 <lb ed="#S"/>dico quod <name ref="#Lombard">Magister</name> gloassat<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 6, c. un., n. 4 [doublecheck]</note> totum ultimo capitulo huius 6 distinctioni: non voluntate 
 <lb ed="#S"/>praecedente vel accedente, qualiter <name ref="#EunomiusOfCyzicus">Eunomius</name> intelligebat. 
 <lb ed="#S"/>Aliter, et bene, quare diffuse in <name ref="#Ockham">Ockam</name>, distinctione 6.</p>
                     
-                                <p>Ad secundum patet prius. 
+                                <p xml:id="b1-q1-d1e5366">Ad secundum patet prius. 
 <lb ed="#S"/>Dico tamen quod 'procedere quomodo natus' est nasci; et 'quomodo datus' 
 <lb ed="#S"/>est spirari et nasci et spirari realiter distinguuntur. Sed ex hoc 
 <lb ed="#S"/>non sequitur quod intellectus et voluntas in deo distinguantur, ut prius est 
 <lb ed="#S"/>tactum est.</p>
                     
-                                <p>Ad tertium dico quod nec re nec ratione distinguuntur 
+                                <p xml:id="b1-q1-d1e5377">Ad tertium dico quod nec re nec ratione distinguuntur 
 <lb ed="#S"/>intellectus, qui Deus est, et voluntas, qui Deus est, nec quocumque 
 <lb ed="#S"/>signo significatur unum quin reliquum eodem. Et ideo non sequitur quod alia 
 <lb ed="#S"/>distinctio vel non-identitas realis, vel etiam distinctio rationis inter 
 <lb ed="#S"/>intellectum et voluntatem in Deo praesupponantur emanationibus 
 <lb ed="#S"/>passivis vel activis personarum.</p> 
                         
-                                <p>Passivis tamen emanationibus vel distinctioni 
+                                <p xml:id="b1-q1-d1e5390">Passivis tamen emanationibus vel distinctioni 
 <lb ed="#S"/>reali earum praesupponitur ordine et coexigitur, talis modus consimilis 
 <lb ed="#S"/>non-identitatis qualis ponitur inter essentiam et proprietatem personalem, si tamen illa 
 <lb ed="#S"/>debeat poni. Spiratio enim activa est alia res, scilicet, filiatio, et 
