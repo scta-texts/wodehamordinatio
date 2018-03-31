@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -10,7 +7,7 @@
                 <editor xml:id="JW">Jeffrey C. Witt</editor>
             </titleStmt>
             <editionStmt>
-                <edition n="2011.06" >
+                <edition n="2011.06">
                     <title>Book I, Distinctio 2, q. un.</title>
                     <date when="2011-06-26">June 26, 2011</date>
                 </edition>
@@ -19,8 +16,7 @@
                 <publisher>Adam Wodeham Critical Edition (AWCE)</publisher>
                 <pubPlace>Baltimore, MD</pubPlace>
                 <availability status="free">
-                    <p>Published under a <ref
-                        target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+                    <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
                         Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
                 </availability>
                 <date when="2011-06-26">June 26, 2011</date>
@@ -35,15 +31,14 @@
     <text xml:lang="la">
     <front>
     <div xml:id="includeList">
-    <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-    <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+    
     </div>
     </front>
         <body>
             <div xml:id="b1-d2-qun"> 
-        <head>Book I, Distinctio 2, questio un</head>
-    <div>
-        <head>Quaestio unica Utrum in entibus sit tantum unus Deus?</head>
+        <head xml:id="b1-qun-Hd1e76">Book I, Distinctio 2, questio un</head>
+    <div xml:id="b1-qun-Dd1e79">
+        <head xml:id="b1-qun-Hd1e81">Quaestio unica Utrum in entibus sit tantum unus Deus?</head>
     
 <p xml:id="b1d2qun-cdsetp">Circa distinctionem secundam, quaero duo. Primum erit de unitate 
 essentiali. Secundum erit de eius Trinitate personali.</p> 
@@ -51,8 +46,8 @@ essentiali. Secundum erit de eius Trinitate personali.</p>
 <p xml:id="b1d2qun-piqtud">Prima igitur quaero 
 sit haec: utrum in entibus sit tantum unus Deus.</p> 
     
-        <div>
-            <head>Rationes principales</head>
+        <div xml:id="b1-qun-Dd1e90">
+            <head xml:id="b1-qun-Hd1e92">Rationes principales</head>
 <p xml:id="b1d2qun-evqvqn">Et videtur 
 quod non.</p>
 
@@ -76,7 +71,7 @@ est Deus, licet ab eadem deitate.</p>
 <p xml:id="b1d2qun-iqsisd">Item quod sint 
 plures essentialiter deitates videtur, quia ea quibus maiora cogitari 
 non possunt sunt in rebus. Et si sunt dii sunt, igitur plures dii. Maior probatur 
-per processum <ref corresp="#b1d2qun-Qcqaiis"><name ref="#Anselm">Anselmi</name>, <title ref="#Proslogion">Proslogion</title>, c. 2</ref>, ubi dicit <quote xml:id="b1d2qun-Qcqaiis">"cum quis audit 
+per processum <ref xml:id="b1-qun-Rd1e113" corresp="#b1d2qun-Qcqaiis"><name ref="#Anselm">Anselmi</name>, <title ref="#Proslogion">Proslogion</title>, c. 2</ref>, ubi dicit <quote xml:id="b1d2qun-Qcqaiis">"cum quis audit 
 hoc quod dico quilibet maiora cogitari non possunt in intellectu 
 sunt."</quote> Sed si esset in solo intellectu et non in re extra maiora eis 
 cogitari possent, quia ita quae essent in re extra. Igitur ea, quibus maiora 
@@ -108,36 +103,36 @@ potest et arguitur consimiliter, et tunc ultra sic creatura ista non est finita
 quia maior ea tunc cogitari vel fieri posset, igitur infinita 
 quod est propositum.</p>
         </div>
-        <div>
-            <head>Oppositum</head>
+        <div xml:id="b1-qun-Dd1e137">
+            <head xml:id="b1-qun-Hd1e139">Oppositum</head>
 <p xml:id="b1d2qun-aoeiud">Ad oppositum est illud <title>Exodi</title> "audi Israel Deus 
 tuus unus est" etc. et etiam in <title>Symbolo</title> "credo in unum Deum".</p>
 </div>
-<div>
-<head>[Divisio quaestionis]</head>
+<div xml:id="b1-qun-Dd1e153">
+<head xml:id="b1-qun-Hd1e155">[Divisio quaestionis]</head>
 
 <p xml:id="b1d2qun-iiqatq">In ista questione erunt duo articuli. Unus, an possit probari 'Deum 
 esse in entibus' sicut tangit primum argumentum; secundus ad titulum quaestionis.</p>
 </div>
         
     <div xml:id="primusarticulus">
-<head>Primus Articulus: An possit probari Deum esse in entibus?</head>
+<head xml:id="b1-qun-Hd1e164">Primus Articulus: An possit probari Deum esse in entibus?</head>
 
 <p xml:id="b1d2qun-cpasis">Circa primum articulum: quia materia certa est, curram per dubia alia 
 succincte, et similiter in secundo.</p>
 
         <div xml:id="a1primumdubium">
-<head>Primum Dubium: Utrum posset argui naturali ratione quod in entibus sit aliquod primum ens</head>
+<head xml:id="b1-qun-Hd1e172">Primum Dubium: Utrum posset argui naturali ratione quod in entibus sit aliquod primum ens</head>
 
-<div>
+<div xml:id="b1-qun-Dd1e175">
     
-    <head>Ratio <name>Scoti</name> ad probandum Deum esse</head>
+    <head xml:id="b1-qun-Hd1e177">Ratio <name>Scoti</name> ad probandum Deum esse</head>
     
 <p xml:id="b1d2qun-pdpeqq">Primum<note><name>Wodeham</name>, Lectura Secunda, d. 3, q. 1, sect 2 (Wood II:116)</note> igitur dubium primi articuli quod per medium 
 efficientius poterit argui naturali ratione quod in entibus sit aliquod primum 
 et nolu[?]m[??] ens. Nam illud quodcumque ipsum fuerit, supponitur 'esse Deus' 
 aliud illud videtur mihi quod ratio melior quam ad hoc audivi est 
-ista, <ref><name ref="#Scotus">Scotus</name> librum I, distinctio 2, quaestio 2, et in tractu <title>De principio primo</title></ref>, hoc, scilicet, aliquod ens 
+ista, <ref xml:id="b1-qun-Rd1e190"><name ref="#Scotus">Scotus</name> librum I, distinctio 2, quaestio 2, et in tractu <title>De principio primo</title></ref>, hoc, scilicet, aliquod ens 
 est effectibile, quia aliquid quod est effectum, sicut docet experientia. Aut igitur 
 a se vel a nullo vel ab alio. Non duo prima, certum est, igitur ab 
 alio. Sit illud A. Tunc quaero de A: aut est simpliciter primum ineffectibile (et habetur 
@@ -166,7 +161,7 @@ quod omnis multitudo talium causarum danda respectu huius effectus
 accepta vel acceptabilis erit memoria sive ipsa multitudo sit finita 
 sive infinita et habebit causam super se vel nullum istorum acceptorum 
 erit causa cum eius causatio condependeat a superiori in causando, 
-sicut ad punctum  arguit quod <ref><name ref="#Aristotle">Philosophus</name> IIo <title ref="#Metaphysics">Metaphysicae</title></ref> per totum et est argumentum evidentius 
+sicut ad punctum  arguit quod <ref xml:id="b1-qun-Rd1e203"><name ref="#Aristotle">Philosophus</name> IIo <title ref="#Metaphysics">Metaphysicae</title></ref> per totum et est argumentum evidentius 
 inter omnia quae audivi pro hoc puncta.</p> 
 
 <p xml:id="b1d2qun-eserie">Et sequitur etiam ultra quod 
@@ -174,8 +169,8 @@ iste effectus requirit ad sui productionem causas actu infinitates[?]
 ipsum simul causantes, quarum omnis posterior in causando 
 a priori dependeat. Hoc non videtur rationabile, igitur etc.</p> 
 </div>
-<div>
-    <head>Obiectio ad argumentum <name>Scoti</name></head>
+<div xml:id="b1-qun-Dd1e215">
+    <head xml:id="b1-qun-Hd1e217">Obiectio ad argumentum <name>Scoti</name></head>
     
 <p xml:id="b1d2qun-simrnv">Sic<note><name>Wodeham</name>, <title>Lectura secunda</title> d. 3, q. 1 sect. 2 (Wood II:117)</note> igitur mihi videtur quod de causis essentialiter ordinatis est ratio 
 <name ref="#Aristotle">Philosophi</name> et <name ref="#Scotus">Scoti</name> bona. Sed non convinceret eum, qui vellet pertinaciter 
@@ -183,8 +178,8 @@ protervire de causis accidentialiter ordinatis in generatione hominis ab
 homine, et illius ab alio, et sic de similibus quas[qua?] non oportet omnis simul 
 coagere in causando hunc hominem. Ista ratio non valet.</p>
     </div>
-            <div>
-<head>Ratio <name>Chatton</name> ad probandum Deum esse</head>                
+            <div xml:id="b1-qun-Dd1e240">
+<head xml:id="b1-qun-Hd1e242">Ratio <name>Chatton</name> ad probandum Deum esse</head>                
 
                 <p xml:id="b1d2qun-scihps">Sed contra<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, a. 1, sect. 3 Wood II:117)</note> illud 
 argumentum arguit <rs ref="#Chatton">quidam doctor</rs>:<note><name>Chatton</name>, Reportatio, I, d. 2, q. 2, a. 1-2</note> quod ratio illa sit aeque bona ubique, ita in 
@@ -199,9 +194,9 @@ propositum probat quia quaelibet pars illius multitudinis acceptae habet prius s
 Vel tota multitudo talium quorum quodlibet habet prius se.</p>
 </div>
     
-            <div>
+            <div xml:id="b1-qun-Dd1e273">
              
-<head>Responsio: Sexta argumenta contra <name>Chatton</name></head>
+<head xml:id="b1-qun-Hd1e275">Responsio: Sexta argumenta contra <name>Chatton</name></head>
             
 <p xml:id="b1d2qun-rpqaut">Responsio:<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 3-4 (Wood II:117-121)</note> primo quod haec ratio habet multas evidentes instantias et insolubiles sicut 
 credo. Verbi gratia, primo accipio et demonstro rationem multitudinem 
@@ -320,8 +315,8 @@ De primo ente, tenet bene modo prius dicto secundum <name ref="#Scotus">Scotum</
 sint talia qualia illud aliud ad quod statur, sive non pertinet ad 
 secundum articulum.</p>
 </div>
- <div>       
-<head>Ratio <name>Wodeham</name> ad probandum Deum esse</head>
+ <div xml:id="b1-qun-Dd1e342">       
+<head xml:id="b1-qun-Hd1e344">Ratio <name>Wodeham</name> ad probandum Deum esse</head>
 
 <p xml:id="b1d2qun-eipede">Et<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 5 (Wood II:121)</note> illud potest aliter argui sic: ratione quae sufficienter inclinat 
 intellectum ad assentiendum 'Deum esse in entibus', licet protervum adversarium 
@@ -336,7 +331,7 @@ Vel hoc praevalet: quia licet de facto stetur ad aliquid quod est inter
 alia nobilissimum actu existens, non tamen nobilissimum possibile. Contra 
 quod est evidentissima ratio, quia illud nobilius <seg>potentia<desc>probably should be possibile</desc></seg> nec a se nec 
 ab alio produci poterit, nec sine producente venire 
-de non esse ad esse. Igitur tale semper fuit, ideo dicit <ref corresp="#b1d2qun-Qidcusi"><name ref="#Aristotle">Apostolus</name>
+de non esse ad esse. Igitur tale semper fuit, ideo dicit <ref xml:id="b1-qun-Rd1e379" corresp="#b1d2qun-Qidcusi"><name ref="#Aristotle">Apostolus</name>
 <title ref="#rom">Ad Romanos</title> primo:</ref><note corresp="#b1d2qun-Qidcusi">Romans 1:20</note> <quote xml:id="b1d2qun-Qidcusi" ana="#rom1_20">"Invisibilia Dei" etc. "conspiciuntur sempiterna 
 quoque virtus eius et deitas, ita ut sint inexcusabiles."</quote> 
 Ex quo etiam patet quod evidens <unclear>habuerint habuerint</unclear> iudicium caelum vel corpus 
@@ -345,7 +340,7 @@ nobilius, et ita quod Deus sit spiritus, quia dicit: "invisibilia
 Dei per ea quae factam sunt conspicitur," id est, evidenter deducebantur 
 esse.</p> 
 
- <p xml:id="b1d2qun-prafsa">Primam rationem approbat <ref corresp="#b1d2qun-Qiesfsa"><name ref="#Ockham">Ockham</name> distinctione 2, prima, quaestio 10</ref>, dicens<note corresp="#b1d2qun-Qiesfsa"><name>Ockham</name>, I, d. 2, q. 10, p. 354, ll. 17 - p. 355, ll. 2</note> 
+ <p xml:id="b1d2qun-prafsa">Primam rationem approbat <ref xml:id="b1-qun-Rd1e398" corresp="#b1d2qun-Qiesfsa"><name ref="#Ockham">Ockham</name> distinctione 2, prima, quaestio 10</ref>, dicens<note corresp="#b1d2qun-Qiesfsa"><name>Ockham</name>, I, d. 2, q. 10, p. 354, ll. 17 - p. 355, ll. 2</note> 
 quod <quote xml:id="b1d2qun-Qiesfsa">"ipsa est sufficiens et ratio quasi omnium philosophorum evidentius 
 tamen ut sibi videtur probari potest primitas efficientis per conservationem 
 rei in esse sive medio post suum non-esse. Cuius ratio est," et 
@@ -366,8 +361,8 @@ Si illud conservans prodicitur ab alio et de illo quaeram, et ita vel
 oportet ponere processum in infinitum, igitur etc., [vel] igitur oportet stare ad aliquid quod 
 est conservans et nullo modo conservatum vel illud principium efficiens.</p>
  </div> 
-            <div>
-    <head>Obiectio contra rationem <name>Ockham</name></head>
+            <div xml:id="b1-qun-Dd1e415">
+    <head xml:id="b1-qun-Hd1e417">Obiectio contra rationem <name>Ockham</name></head>
 <p xml:id="b1d2qun-tcipvi">Tamen<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 5 (Wood II:122)</note> 
 contra ista potest obici: quia 'homo generat hominem et sol' -- et hoc est 
 evidens <name ref="#Aristotle">Philosopho</name> -- et ideo proterviret aliquis quod homo genitus non indiget 
@@ -381,7 +376,7 @@ ex differentia causarum essentialiter ordinatarum ad causa articules ordinatas.<
 
         <div xml:id="a1secundumdubium" type="dubium">
             
-<head>Secundum Dubium</head>
+<head xml:id="b1-qun-Hd1e443">Secundum Dubium</head>
 
             <p xml:id="b1d2qun-psdeqn">Potest secundum dubitari quae causae vel cuius causae sint in causando essentialiter 
 ordinate et quae non.</p> 
@@ -390,8 +385,8 @@ ordinate et quae non.</p>
 conclusionem quicquid fit de mediis suis, quod triplex est differentia inter 
 has et istas.</p>
 
-<div>
-<head>Prima Differentia assignata a Scoto</head>
+<div xml:id="b1-qun-Dd1e455">
+<head xml:id="b1-qun-Hd1e457">Prima Differentia assignata a Scoto</head>
 
 <p xml:id="b1d2qun-pdqsie">Prima<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 6 (Wood II:123)</note> differentia quod  per se sive essentialiter ordinatis 
 secunda dependet a prima in causando, et non solum in essendo.</p> 
@@ -452,8 +447,8 @@ talem effectum dependet a tali concausa, quia essentialiter ordinari in
 causando est necessario coexigere illud a quo sit dependet, ut con
 causam in suo ordine respectu talis effectus.</p>
 </div>
-            <div>
-                <head>Argumenta <name>Chatton</name> contra <name>Ockham</name></head>
+            <div xml:id="b1-qun-Dd1e508">
+                <head xml:id="b1-qun-Hd1e510">Argumenta <name>Chatton</name> contra <name>Ockham</name></head>
                 
 <p xml:id="b1d2qun-scheeo">Sed contra hoc:<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 8 (Wood II:126)</note> arguit 
 sic:<note><name>Chatton</name>, Reportatio, I, d. 2, q. 2, a. 1 (Wey and Etzkorn 141:124-127)</note> quod in nullo casu aeque essentialiter dependet causa prior a posteriore, sicut 
@@ -468,8 +463,8 @@ effectus talis non potest esse ab universali sine ista particulari, igitur causa
 sic dependet a particulari in causando, sicut e converso. Et hoc est eas essentialiter 
 ordinari."</quote><note corresp="#b1d2qun-Qqoaeeo"><name>Chatton</name>, Reportatio, I, d. 2, q. 2, a. 1 (Wey and Etzkorn 141:125-126)</note></p>
             </div>
-            <div>
-                <head><name>Wodeham</name> defendit <name>Ockham</name> contra <name>Chatton</name></head>
+            <div xml:id="b1-qun-Dd1e551">
+                <head xml:id="b1-qun-Hd1e553"><name>Wodeham</name> defendit <name>Ockham</name> contra <name>Chatton</name></head>
 
 <p xml:id="b1d2qun-aiasas">Ad<note><name>Wodeham</name>, <title>Lectura secunda</title>, q. 3, q. 1, sect. 8 (Wood II:127-128)</note> illud aliud dico quod si minor directe sumatur sub
 maiore[?], falsa est ubicumque causa universalis requirit talem particularem ad hoc 
@@ -538,8 +533,8 @@ illam particularem virtutem qua particulariter potest agere in suo ordine,
 et hoc est verum. Vel quod non indigeat intellectu comprincipiante
 active secum, hoc falsum etc.</p>
             </div>
-        <div>    
-<head>Secunda differentia assignata a <name>Scoto</name></head>
+        <div xml:id="b1-qun-Dd1e644">    
+<head xml:id="b1-qun-Hd1e646">Secunda differentia assignata a <name>Scoto</name></head>
 
 <p xml:id="b1d2qun-sdpuur">Secunda<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 9 (Wood II:129)</note> differentia principalis<note><name>Scotus</name>, <title>Ordinatio</title>, I, d. 2, pars 1, q. 1-2, n. 50 (Vaticana II:154s)</note> inter causas essentialiter et 
 accidentaliter ordinatas "est quod in per se et essentialiter ordinatis est causalitas 
@@ -547,16 +542,16 @@ alterius rationis et alterius ordinatis." Haec sumitur "ex prima, quia nulla cau
 essentialiter in causando, nisi a causa alterius rationis, quia in causatione alicuius 
 effectus in specie, alia sufficeret unum unius rationis."</p>
         </div>
-            <div>
-<head>Tertia differentia assignata a <name>Scoto</name></head>
+            <div xml:id="b1-qun-Dd1e671">
+<head xml:id="b1-qun-Hd1e673">Tertia differentia assignata a <name>Scoto</name></head>
 
 <p xml:id="b1d2qun-tdeeic">"Tertia<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 9 (Wood II:130)</note> differentia<note><name>Scotus</name>, <title>Ordinatio</title>, I, d. 2, pars 1, q. 1-2, n. 51 (Vaticana II:155s)</note> est quod: 
 omnes causae essentialiter ordinatae necessario requiruntur ad causandum, quia alioquin 
 alia per se causalitas deesset effectum; in accidentialiter ordinatis 
 non requiritur similitas[simultas?] eorum in causando."</p>
 
-                <div>
-    <head>Obiectiones <name>Adam</name> contra tertiam differentiam</head>
+                <div xml:id="b1-qun-Dd1e697">
+    <head xml:id="b1-qun-Hd1e699">Obiectiones <name>Adam</name> contra tertiam differentiam</head>
                     
 <p xml:id="b1d2qun-choppm">Contra hanc: obicio, ut 
 ex solutione obiectionum[?] peccat quomodo haec differentia debeat intelligi. 
@@ -570,9 +565,9 @@ causae essentialiter ordinantur. Assumptum patet, quia quilibet effectus potest 
 produci nullo alio coagente, igitur nullius effectus productio re
 quirit necessario concursum quarumcumque causarum.</p>
                 </div>
-                <div>
+                <div xml:id="b1-qun-Dd1e712">
 
-    <head>Solutiones ad obiectiones</head>
+    <head xml:id="b1-qun-Hd1e714">Solutiones ad obiectiones</head>
 
 <p xml:id="b1d2qun-apd">Ad primum <unclear>dubio[dico?]</unclear> quod in productione 
 muris a mure et sole est ordo essentialis muris 
@@ -599,7 +594,7 @@ oppositum per nullam causam naturalem vel circa Deum fieri posset etc.</p>
         </div>
         <div xml:id="a1tertiumdubium" type="dubium">
             
-<head>Tertium Dubium: Quomodo causae per se differunt a causis essentialiter ordinatis et causa per accidens a causis essentialiter ordinatis et quae sit differentia inter per se causas et causas per accidens?</head>
+<head xml:id="b1-qun-Hd1e733">Tertium Dubium: Quomodo causae per se differunt a causis essentialiter ordinatis et causa per accidens a causis essentialiter ordinatis et quae sit differentia inter per se causas et causas per accidens?</head>
 
 <p xml:id="b1d2qun-tdqppd">Tertium 
 dubium:<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 10 (ed. Wood II:131s)</note> [1] quomodo causae per se differunt a causis essentialiter ordinatis 
@@ -612,7 +607,7 @@ alicuius effectus secundum <rs ref="#Scotus">istum Doctorem</rs> et in hoc etiam
 "quae secundum naturam propriam et non solum secundum aliquid sibi accidens causat" 
 illud et causa per accidens quae non per naturam propriam sic causat illam, 
 sed per accidens sibi. Verbi gratia, de primo, "subiectum est causa per se suae 
-proprie passionis", sibi naturaliter concedet et illi inhaerentis, sicut ignis receptio[?] sui calorum naturaliter concedet et illi inhaerentis, sicut ignis receptio[?] sui calorum ut ponit <name ref="#Scotus">Doctor</name> extra <ref><name ref="#Aristotle">Philosophus</name> II <title ref="#Physics">Physicorum</title></ref> et <ref>4 
+proprie passionis", sibi naturaliter concedet et illi inhaerentis, sicut ignis receptio[?] sui calorum naturaliter concedet et illi inhaerentis, sicut ignis receptio[?] sui calorum ut ponit <name ref="#Scotus">Doctor</name> extra <ref xml:id="b1-qun-Rd1e762"><name ref="#Aristotle">Philosophus</name> II <title ref="#Physics">Physicorum</title></ref> et <ref xml:id="b1-qun-Rd1e769">4 
 <title ref="#Metaphysics">Metaphyiscae</title></ref> "ut 'album per se disgregat' et 'aedificator per se aedificat', 
 sed <name>Polycletus</name> per accidens aedificat" quod ut melius 
 videatur et ad habendum veritatem in <unclear>existentis[?]</unclear> <name ref="#Aristotle">Philosophi</name> praetactis per 
@@ -622,7 +617,7 @@ videatur et ad habendum veritatem in <unclear>existentis[?]</unclear> <name ref=
 album per se disgregat distinguitur secundum compositionem et divisionem, quia in sensu composito 
 valet hanc, hoc est per se album disgregat et hoc est verum ad 
 intentum <name ref="#Aristotle">Philosophi</name> in locis praellegatis, nec differt ab illa quae proprie 
-esset per se, logice loquendo, et ut in <ref>Io <title ref="#PosteriorAnalytics">Posteriorum</title> loquitur <name ref="#Aristotle">Philosophus</name></ref> nisi sicut 
+esset per se, logice loquendo, et ut in <ref xml:id="b1-qun-Rd1e791">Io <title ref="#PosteriorAnalytics">Posteriorum</title> loquitur <name ref="#Aristotle">Philosophus</name></ref> nisi sicut 
 una de in esse a sua de possibili, nam haec homo est secundo modo 
 vera album potest disgregare, sicut et haec homo est risibilis non sic ista 
 homo ridet in sensu. Autem divisionis, nota quod subiectum cui inest 
@@ -671,8 +666,8 @@ similibus. In usitatiori tamen consuetudine loquendi sumuntur concreta talia,
 ut supra, pro obiectis seu suppositis, quibus in sunt formae huiusmodi et non 
 pro compositis ex utriusque.</p>
 
-<div>
-<head>Corollariae</head>
+<div xml:id="b1-qun-Dd1e829">
+<head xml:id="b1-qun-Hd1e831">Corollariae</head>
 
 <p xml:id="b1d2qun-epssss">Ex<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 13 (Wood II:137-138)</note> praedictis, sequitur corollariae: quod sumendo 
 concreta pro suppositis sicut [M 63vb] sumuntur omnes tales in sensu divisionis 'creator 
@@ -697,7 +692,7 @@ disgregat'.</p>
     </div>
         <div xml:id="secundusarticulus" type="articulus">
 
-            <head>Secundus articulus</head>
+            <head xml:id="b1-qun-Hd1e859">Secundus articulus</head>
 
 <p xml:id="b1d2qun-saeafc">Secundus<note>Wedeham, <title>Lectura secunda</title>, d. 3, q. 2 (Wood, II:142)</note> articulus est inquirere de Dei essentiali unitate. Et hic, 
 primo dico quod indubitanter est verum theologis quod tantum sit in entibus 
@@ -706,30 +701,30 @@ unus Deus et est articulus fidei Christianae.</p>
             <p xml:id="b1d2qun-strtrd">Sed tamen restant dubia.</p>
  <div xml:id="primumdubiuma2" type="dubium">
 
-     <head>Primum Dubium Utrum sit evidenter probabile quod simpliciter incausabile sit tantum unicum numero.</head>
+     <head xml:id="b1-qun-Hd1e876">Primum Dubium Utrum sit evidenter probabile quod simpliciter incausabile sit tantum unicum numero.</head>
 
      <p xml:id="b1d2qun-pdutun">Primum dubium: utrum sit evidenter probabile quod simpliciter incausabile sit tantum 
 unicum numero.</p>
-<div>
-<head>Ratio principalis</head>    
+<div xml:id="b1-qun-Dd1e882">
+<head xml:id="b1-qun-Hd1e884">Ratio principalis</head>    
 
     <p xml:id="b1d2qun-vqntpe">Videtur quod non, immo magis <supplied>videtur</supplied> quam oppositum, quia quicquid, si esset, 
 esset simpliciter necesse esse, est simpliciter necesse esse. Sed aliud simpliciter 
 incasuabile ab isto, si esset, esset simpliciter necesse esse igitur aliquid aliud simpliciter incausabile est necesse esse. Igitur duo sunt simpliciter necesse esse, igitur etc. Maior probatur ex opposito praedicti, quia si non est simpliciter necesse esse nec si esset, esset simpliciter necesse esse, sed tantum possibile esse.</p>
 </div>
-     <div>
-<head>Argumentum in oppositum</head>
-         <p xml:id="b1d2qun-cmpuep">Contra: <ref corresp="#b1d2qun-Qppnuep">XIIo <title ref="#Metaphysics">Metaphysicae</title></ref> <quote xml:id="b1d2qun-Qppnuep" ana="#aa-meta-279">"Pluralitas principatuum non est bona. Sed entia nolunt 
+     <div xml:id="b1-qun-Dd1e894">
+<head xml:id="b1-qun-Hd1e896">Argumentum in oppositum</head>
+       <p xml:id="b1d2qun-cmpuep">Contra: <ref xml:id="b1-qun-Rd1e901" corresp="#b1d2qun-Qppnuep">XIIo <title ref="#Metaphysics">Metaphysicae</title></ref> <quote xml:id="b1d2qun-Qppnuep" ana="#Aristotle_Metaphysics_12_f">"Pluralitas principatuum non est bona. Sed entia nolunt 
 male disponi. Unus ergo princeps."</quote></p>
      </div>
-    <div>
-<head>Prima Conclusio</head>        
+    <div xml:id="b1-qun-Dd1e910">
+<head xml:id="b1-qun-Hd1e912">Prima Conclusio</head>        
 <p xml:id="b1d2qun-pdusdr">Primo<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 2 (Wood II:142)</note> dico, ut in priori 
 articulo, quod suaderi potest conclusio praedicta efficacius quam opposita, 
 licet contra protervientem non posset sufficienter demonstrari rationem.</p>
     </div>
-     <div>
-         <head>Ratio <name>Scoti</name></head>
+     <div xml:id="b1-qun-Dd1e928">
+         <head xml:id="b1-qun-Hd1e930">Ratio <name>Scoti</name></head>
 <p xml:id="b1d2qun-ahposh">Ad hoc 
 pono ad praesens unicam quam etiam ponit <name ref="#Scotus">Scotus</name> et <name ref="#Ockham">Ockham</name>. Et est, 
 scilicet, ratio <name ref="#Scotus">Scoti</name> in virtute: Si essent duo dii, sive duo simpliciter in
@@ -744,8 +739,8 @@ esse Deus, vel est simpliciter incausabile, quin sit de facto. Quia si possent
 esse et non a se, igitur ab alio, igitur non esset simpliciter primum incausabile cuius 
 oppositum supponitur hic.</p>
      </div>
-     <div>
-         <head>Responsio Adam</head>
+     <div xml:id="b1-qun-Dd1e948">
+         <head xml:id="b1-qun-Hd1e950">Responsio Adam</head>
 <p xml:id="b1d2qun-apasca">Ad primum argumentum huius primi dubii, dico quod non 
 potest probari oppositum nec propositum demonstrative. Evidentius tamen propositum 
 quam oppositum, ut praedixi, et ideo ista maior hypotheca falsa 
@@ -767,13 +762,13 @@ latitudinem.</p>
      </div>
      <div xml:id="a2secundumdubium" type="dubium">
      
-<head>Secundum dubium: Utrum illa unitas numeralis primi probari posset per hoc: quod eiusdem effectus non possunt esse plures causae totales</head>
+<head xml:id="b1-qun-Hd1e965">Secundum dubium: Utrum illa unitas numeralis primi probari posset per hoc: quod eiusdem effectus non possunt esse plures causae totales</head>
 
 <p xml:id="b1d2qun-sdepct">Secundum<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 3 (Wood II:143-145)</note> dubium est utrum illa unitas numeralis primi probari possit 
 per hoc: quod eiusdem effectus non possunt esse plures causae totales.</p> 
 
-         <div>
-         <head>Quod hoc est probabile: ratio <name>Scoti</name></head>
+         <div xml:id="b1-qun-Dd1e979">
+         <head xml:id="b1-qun-Hd1e981">Quod hoc est probabile: ratio <name>Scoti</name></head>
 
 <p xml:id="b1d2qun-evqvqs">Et videtur quod sic.</p> 
          
@@ -793,8 +788,8 @@ essent duo primi fines, igitur etc.</p>
 
          </div>
    
-         <div>
-<head>Instantia <name>Ockham</name> contra rationem <name>Scoti</name></head>
+         <div xml:id="b1-qun-Dd1e996">
+<head xml:id="b1-qun-Hd1e998">Instantia <name>Ockham</name> contra rationem <name>Scoti</name></head>
 
 <p xml:id="b1d2qun-schrai">Sed contra hanc arguitur per <name ref="#Ockham">Ockham</name>:<note>Cf. <name>Ockham</name>, Scriptum in I Sent., d. 2, q. 10 (OTh II, 342-54)</note> quia 
 per istum, <supplied>Scotum</supplied>, causa totalis est qua posita, omni alio amoto, ponitur effectus. 
@@ -811,8 +806,8 @@ in igne. Ab utroque statim intenderetur, reliquo amoto, igitur.</p>
 posito poneretur effectus omni alio circumscripto, ex descriptione causae totalis. 
 Sed hoc contingit frequenter, sicut patet per experientiam, ergo etc.</p>
          </div>
-         <div>
-<head>Responsio Adam</head>
+         <div xml:id="b1-qun-Dd1e1025">
+<head xml:id="b1-qun-Hd1e1027">Responsio Adam</head>
 
 <p xml:id="b1d2qun-aidevf">Ad istud dico 
 quod ex utraque parte est difficultas bona, tamen mihi videtur quod per evidentiam experientiam 
@@ -855,8 +850,8 @@ sine altero, talis diceret consequenter quod non est inconveniens eiusdem effect
 numero esse plures causas primas et non primas totales, sicut expositum 
 est.</p> 
          </div>
-         <div>
-             <head>Quid est causa totalis et quid dependentia essentialis</head>
+         <div xml:id="b1-qun-Dd1e1060">
+             <head xml:id="b1-qun-Hd1e1062">Quid est causa totalis et quid dependentia essentialis</head>
              
              <p xml:id="b1d2qun-stchuc">Sed<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 4 (Wood II:145-148)</note> talis consequenter diceret quod sicut modo nullus effectus absolutus 
 de facto essentialiter simpliciter et absolute dependet a quacumque causa realiter 
@@ -968,8 +963,8 @@ eundem effectum habere de facto duas causas totales in eodem
 ordinem, quia eo ipso quod a sola una istarum est effectus sequitur quod 
 a nulla alia est effectus.</p>
          </div>
-         <div>
-             <head>Unitas numeralis primi efficientis probari non potest</head>
+         <div xml:id="b1-qun-Dd1e1139">
+             <head xml:id="b1-qun-Hd1e1141">Unitas numeralis primi efficientis probari non potest</head>
              
              <p xml:id="b1d2qun-spidsss">Sed<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 5 (Wood II:148-149)</note> per istam  viam non potest probari unitas numeralis 
 primi efficientis, quia ex dualitate et pluralitate primorum non 
@@ -1006,15 +1001,15 @@ quod idem effectus numero posset simul et separatim a pluribus causis eiusdem
 speciei causari et tunc quod infertur non est inconveniens, scilicet, duas 
 esse causas totales respectu eiusdem, ut ostensum est, igitur etc.</p>
          </div>
-         <div>
-<head>Argumenta <name>Chatton</name> contra <name>Ockham</name></head>
+         <div xml:id="b1-qun-Dd1e1165">
+<head xml:id="b1-qun-Hd1e1167">Argumenta <name>Chatton</name> contra <name>Ockham</name></head>
 
 <p xml:id="b1d2qun-scioac">Sed<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 6 (Wood II:150-)</note> 
-<cb ed="#S" n="77Va"/>contra ista, arguitur sic: <quote>"Si essent duo simpliciter prima, tunc multitudo dependentium 
+<cb ed="#S" n="77Va"/>contra ista, arguitur sic: <quote xml:id="b1-qun-Qd1e1187">"Si essent duo simpliciter prima, tunc multitudo dependentium 
 non aeque primo et aeque essentialiter dependeret ab uno istorum 
 sicut ab altero. Consequens falsum. Et probatur consequentia, quia si sint plura simpliciter prima, 
 tunc erunt aeque perfecta"</quote> et aeque independentia, et aeque per consequens 
-indeterminata ad omnes dependentias posteriorum. <quote>"Falsitas consequentis probatur, 
+indeterminata ad omnes dependentias posteriorum. <quote xml:id="b1-qun-Qd1e1190">"Falsitas consequentis probatur, 
 quia aut ambo concurrerent respectu effectuum eorumdem ut causae partiales 
 mutuo se exigentes respectu eorum, et tunc neutrorum esset 
 simpliciter primum, quia utrumque a reliquo dependeret in causando; 
@@ -1038,9 +1033,9 @@ secunda nisi vellet effectum capere esse et a se et a causa secunda simul. Sed h
 dato, circumscripta causa secunda, effectus non caperet esse, nam contrarium dicere 
 est dicere oppositum in adiecto.</p>
          </div>
-         <div>
+         <div xml:id="b1-qun-Dd1e1201">
              
-             <head>Responsio <name>Adae</name> ad argumenta <name>Chatton</name></head>
+             <head xml:id="b1-qun-Hd1e1203">Responsio <name>Adae</name> ad argumenta <name>Chatton</name></head>
              
 <p xml:id="b1d2qun-apiree">Ad primum istorum dicendum quod nisi 
 quis velit dare quod idem effectus numero est naturaliter causabilis a diversis agentibus 
@@ -1084,7 +1079,7 @@ hoc quod velit effectum illum capere esse a se et a causa secunda simul,
 et hoc est satis certum in sensu divisionis. Negat quod Deus non habet 
 potentiam concurrendi cum causa secunda respectu alicuius effectus nisi de facto 
 velit sic concurere, et hoc est falsum. Tamen quia multa potest quae 
-non vult secundum <ref><name ref="#Lombard">Magistrum</name> 43 distinctione primi libri</ref>, tum quia Deus potest vel<cb ed="#S" n="77vb"/>le 
+non vult secundum <ref xml:id="b1-qun-Rd1e1222"><name ref="#Lombard">Magistrum</name> 43 distinctione primi libri</ref>, tum quia Deus potest vel<cb ed="#S" n="77vb"/>le 
 concurrere cum voluntate ad actum dilectionis comprincipiandum respectu alicuius oppositi 
 in A instanti, si tunc voluntas libere disponet se ad illud et vellet se toto 
 totam causare, si voluntas non disponeret se libere ad idem cum quia 
@@ -1104,8 +1099,8 @@ alteri velle. Similes rationes multae possent fieri sine ista, sed ita
 <name ref="#Scotus">Scotus</name> superius posita videtur mihi melior inter omnes.</p>
          </div>
         </div> 
-         <div>
-<head>Tertium dubium et quartum dubium</head>
+         <div xml:id="b1-qun-Dd1e1249">
+<head xml:id="b1-qun-Hd1e1251">Tertium dubium et quartum dubium</head>
 
 <p xml:id="b1d2qun-tdpunp">Tertium dubium<note><name>Wodeham</name>, <title>Lectura Secunda</title>, d. 3, q. 2, sect. 7, primum dubium (Wood II:152)</note> 
 potest esse: an secundum veritatem, ille idem effectus numero, qui de facto sufficienter 
@@ -1122,9 +1117,9 @@ Ex quo sequeretur etiam quod illud idem quod produceretur ab uno
 primo, produci posset ab alio suae speciei. Si poneretur hoc, idem videntur 
 concludere argumenta <name ref="#Ockham">Ockham</name>.</p>
 
-             <div>
+             <div xml:id="b1-qun-Dd1e1279">
     
-  <head>Ad tertium dubium An ille idem effectus numero posset naturaliter produci ab alio activo eiusdem speciei?</head>
+  <head xml:id="b1-qun-Hd1e1281">Ad tertium dubium An ille idem effectus numero posset naturaliter produci ab alio activo eiusdem speciei?</head>
 
 <p xml:id="b1d2qun-aidavi">Ad illud dubium tertium videtur mihi dicendum quod non 
 pro quo pono unicam rationem: quia non minus repugnat actio aliter 
@@ -1187,9 +1182,9 @@ igitur habuissent patres alios.</p>
 est de identitate tunc et nunc animarum, non corporum.</p>
 </div>
 
-      <div>
+      <div xml:id="b1-qun-Dd1e1333">
           
-          <head>Ad quartum dubium: quomodo posset <unclear>vitari[?]</unclear> quin eius
+          <head xml:id="b1-qun-Hd1e1335">Ad quartum dubium: quomodo posset <unclear>vitari[?]</unclear> quin eius
               dem effectus numero sint plures causae totales</head>
     
 <p xml:id="b1d2qun-aqdmct">Ad quartum dubium dicendum 
@@ -1198,13 +1193,13 @@ numero non possunt naturaliter esse plures causae effectivae totales exponendo e
 isto modo 'causas totales'.</p> 
           
       </div>
-<div>
-<head>Responsio ad rationem <name>Ockham</name></head>
+<div xml:id="b1-qun-Dd1e1346">
+<head xml:id="b1-qun-Hd1e1348">Responsio ad rationem <name>Ockham</name></head>
     
     <p xml:id="b1d2qun-etaeni">Et<note><name>Wodeham</name>, <title>Lectura Secunda</title>, d. 3, q. 2, sect. 8 (Wood II:155)</note> tunc ad argumentum <name ref="#Ockham">Ockham</name> in contrarium dicitur quod non 
 procedit nisi contra hominem, scilicet <name ref="#Scotus">Scotum</name>, dantem quod idem effectus numero, puta 
 idem ignis, esset producibilis naturaliter a diversis ignibus cuius 
-oppositum hic dico, et cuius oppositum etiam dicit in <ref><title>Reportatio</title>, <supplied>parte</supplied> quarta, quaestione prima,
+oppositum hic dico, et cuius oppositum etiam dicit in <ref xml:id="b1-qun-Rd1e1369"><title>Reportatio</title>, <supplied>parte</supplied> quarta, quaestione prima,
 distinctione de resurrectione</ref> et tenet <name ref="#Ockham">Ockham</name>. Unde dico quod ponendo stuppam vel 
 quantumcumque parvam rem inter duos ignes aequales leviter diceretur 
 quod unus ignis circumstans igniet medietatem unam et alius 
@@ -1288,8 +1283,8 @@ in entitatem, habebis semper alium et alium effectum secundum numerum.</p>
 dicere qui negaret unitatem numeralem primum et proterviendo 
 poneret multa esse prima respectu effectuum ab eis producibilium.</p>
 </div>
-             <div>
-    <head>Instantiae et solutiones earum</head>
+             <div xml:id="b1-qun-Dd1e1425">
+    <head xml:id="b1-qun-Hd1e1427">Instantiae et solutiones earum</head>
 
 <p xml:id="b1d2qun-chdtni">Contra:<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 9 (Wood II:157)</note> hoc dato sequitur quod inter individua eiusdem speciei 
 esset ordo essentialis in causando eundem effectum, cum tamen superius dixeris 
@@ -1341,7 +1336,7 @@ quod figura sit res distincta. Et si ponerem hoc, idem dicerem.</p>
          </div>
      <div xml:id="a2quintumdubium">
          
-<head>Quintum Dubium An possint esse plures causae totales respectu eiusdem effectus?</head>
+<head xml:id="b1-qun-Hd1e1467">Quintum Dubium An possint esse plures causae totales respectu eiusdem effectus?</head>
 
          <p xml:id="b1d2qun-qdepsd">Quintum dubium<note>Cf. <name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 9 (Wood II:158-159)</note> est quid dicendum sit de pluribus causis finalibus, an 
 possint esse plures causae totales respectu eiusdem effectus? Et argui potest 
@@ -1404,7 +1399,7 @@ amorem unius sive propter amorem multorum.</p>
      
      <div xml:id="a2sextumdubium">
          
-<head>Sextum Dubium: Utrum idem effectus numero produci posset a duabus causis?</head>
+<head xml:id="b1-qun-Hd1e1521">Sextum Dubium: Utrum idem effectus numero produci posset a duabus causis?</head>
 
          <p xml:id="b1d2qun-secnad">Sextum dubium<note><name>Wodeham</name>, <title><title>Lectura secunda</title></title>, d. 3, q. 2, sect. 15 (Wood II:167)</note> est contra unum prius dictum. Dictum est enim quod iste effectus qui, de facto, causatur ab una 
 causa effectiva non potest causari sine illa, et si producitur a duabus 
@@ -1534,8 +1529,8 @@ unam visionem, igitur quaelibet duo visibilia eiusdem perfectionis et speciei
 possunt causare visionem'. Et ita in aliis.</p>
      </div>
  </div>
-            <div>
-                <head>Responsio ad rationes principales</head>
+            <div xml:id="b1-qun-Dd1e1589">
+                <head xml:id="b1-qun-Hd1e1591">Responsio ad rationes principales</head>
 
 <p xml:id="b1d2qun-apacvp">Ad primum argumentum 
 principale patet ex primo articulo in solutione primi dubii, tamen aestimo, quod sit 
@@ -1653,6 +1648,3 @@ distinctionem triginta tertiam.</p>
      </body>
     </text>
 </TEI>
-
-
-
