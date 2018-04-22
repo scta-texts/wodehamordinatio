@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="b2-d6-q2-jcs_jwc_cl">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Distinctio 6, q. 2</title>
+                <author xml:id="AW">Adam Wodeham</author>
+                <editor xml:id="JW">Jeffrey C. Witt</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2011.06">
+                    <title>Distinctio 6, q. 2</title>
+                    <date when="2011-06-26">June 26, 2011</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Petrus Plaoul Editio Critica Electronica (PPECE)</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p xml:id="b2-d6-q2-f2s_jwc_cl">Published under a <ref
+                            target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+                            Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2011-06-26">June 26, 2011</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div type="status">
+                <note type="status">Draft</note>
+                <note type="collobaration">Yes</note>
+            </div>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
+        <body>
+            <div xml:id="b1-d6-q2">
+                <head>Distinctio 6</head>
+                <div>
+                    <head>Quaestio 2 Utrum Deus sit realiter et per se primo modo sapiens vel
+                        intelligens et sic de similibus.</head>
+                    <p xml:id="b2-d6-q2-v2s_jwc_cl"><lb ed="#S"/>Secundo circa eandem distinctionem sextam ad maiorem evi<lb ed="#S"/>dentiam <lb/>eorum quae dicta sunt in praecedenti quaestionem, quaeritur <cb ed="#S" n="87vb"/><lb/>utrum Deus sit realiter et per se primo modo sapiens vel intelligens, et <lb/>sic de similibus.</p>
+                </div>
+                <div>
+                    <head>Rationes principales</head>
+                    <p xml:id="b2-d6-q2-x2s_jwc_cl">Videtur quod non: quia creatura intellectualis
+                        est per accidens <lb/>et non per se primo modo sapiens, igitur Deus. Probo
+                        consequentiam, quia iste terminus <lb/><mentioned>'sapiens'</mentioned>
+                        univoce est communis Deo et creaturae sapienti. Igitur, si uni convenit
+                        <lb/>essentialiter pro suo significato, et alteri, et e contra. Nam quod uni
+                        est substantia, non est accidens <lb/>alteri primo
+                        <title>Physicorum</title>.</p>
+                </div>
+                <div>
+                    <head>Oppositum</head>
+                    <p xml:id="b2-d6-q2-y2s_jwc_cl">Contra: saepissime dicit <name ref="#Augustine">Augustinus</name>
+                        et <lb/>recitatur in multis locis primi libri <title>Sententiarum</title>,
+                        quicquid de Deo ad <lb/>se dicitur secundum substantiam, dicitur sicut quod
+                        sit sapiens, quod bonus, et huiusmodi. Et <lb/>libro VI <title>De
+                            Trinitate</title>, sicut allegatur, distinctione 8, primi: Deo hoc est
+                        esse quod est fortem <lb/>esse vel sapientem esse vel iustum esse, et si
+                        quid de ista simplici multiplice <lb/>et multiplici simplicitate dixeris,
+                        quo substantia illius significetur. Et <ref>distinctione <lb/>45, dicit
+                            <name ref="#Lombard">Magister</name>, c. primo:</ref><note><name>Petrus Lombardus</name>,
+                                <title>Sententia</title>, I, d. 45, c. 1 (I:194) [double check p.
+                            number] </note>
+                        <quote>"Sciendum est ergo quod 'voluntas' sive 'volens' de Deo <lb/>secundum
+                            essentiam dicitur. Non enim <add place="aboveLine">est</add> ei aliud
+                            'velle' et aliud 'esse', sed omnino idem est. Et sicut <lb/>idem est ei
+                                <mentioned>'esse bonum'</mentioned> quod <mentioned>'esse
+                                Deum'</mentioned>, ita idem est ei <mentioned>'esse
+                                volentem'</mentioned>
+                            <lb/>quod <mentioned>'esse Deum'</mentioned>."</quote> Haec ille.</p>
+                    <p xml:id="b2-d6-q2-afs_jwc_cl"><lb/>Hoc iterum patet planissime per
+                            <name ref="#Anselm">Anselmus</name> in quinta proba<lb ed="#S"/>tione <lb/>tertiae
+                        conclusionis praecedentis quaestionis.<note>vice supra, d. 6, q.
+                        1</note></p>
+                </div>
+                <div>
+                    <head>Divisio quaestionis</head>
+                    <p xml:id="b2-d6-q2-bfs_jwc_cl">In illa quaestione primo ponam duas conclusiones
+                        <lb/>et probabo illas, immo probantur per iam adducta ad partem secundam
+                        quaestionis, <lb/>sed addendo media quaedam alia. Secundo impugnabo eas et
+                        <lb/>inpugnationibus respondebo.</p>
+                </div>
+                <div>
+                    <head>Primus articulus</head>
+                    <p xml:id="b2-d6-q2-dfs_jwc_cl">Primo<note type="marginalNote">primus articulus
+                            S</note> conclusio<note type="summary">A: Prima conclusio quod omnis
+                            conceptus simplex abstractivus absolutus affirmativus communis Deo et
+                            creaturae est conceptus quidditativus illius rei simplicis, quae Deus
+                            est, et sibi convenit 'in quid' S</note> primi articuli est quod omnis
+                        <lb/>conceptus simplex <del rend="strikethrough">abstractus</del><add
+                            place="inline">abstractivus</add> affirmativus et mere absolutus
+                        communis Deo <lb/>et creaturae multis vel paucis est conceptus quidditativus
+                        illius rei simplicis <lb/>quae Deus est et convenit sibi 'in quid'.</p>
+                    <p xml:id="b2-d6-q2-efs_jwc_cl">Ad cuius probationem supponitur <lb ed="#S"/>ex
+                        praecedenti quaestione, nullam penitus esse parvam vel magnum distinctionem
+                        inter <lb ed="#S"/>sapientiam, quae Deus est, et aliam divinam perfectionem
+                        absolutam.</p>
+                    <p xml:id="b2-d6-q2-gfs_jwc_cl"><lb ed="#S"/>Secundo praemitto quod illa res
+                        simplex simpliciter, quae Deus est, potest realiter <lb ed="#S"/>exprimi per
+                        nomen <unclear>demonstrativum[?]</unclear> absque omni addito. Dicendum hoc
+                        vel <add place="margin">per nomen <unclear>demonstratum[?]</unclear></add>
+                        <lb ed="#S"/>cum termino <add place="aboveLine">concepti</add> sibi addito
+                            <add place="aboveLine">dicendo</add>
+                        <mentioned>'hoc ens'</mentioned> vel <mentioned>'haec res'</mentioned>. Et
+                        per nomen proprium <lb ed="#S"/>in significando illius <add place="margin"
+                            >simpliciter</add> simplicis quomodo hoc nomen
+                            <mentioned>'Socrates'</mentioned> significat istam rem, <lb ed="#S"
+                        />quae est <mentioned>'iste homo'</mentioned>. Et quia illius rei, quae Deus
+                        est, non habetur nomen <lb ed="#S"/>magis proprium quam sit hoc nomen
+                        'Deus', utor isto ut sit proprio <lb ed="#S"/>nomine istius rei, sive sit
+                        proprium illi in significando sive non. Haec ideo <lb ed="#S"/>praemitto,
+                        quia multi conceptus praedicantur 'in quid' et 'per se' primo modo <lb
+                            ed="#S"/>de conceptu demonstrativo rei, et de conceptu etiam proprio
+                        quae non sic praedicantur <lb ed="#S"/>si illa res aliter significaretur, et
+                        etiam e converso. Nam haec non est 'per se' primo modo <lb ed="#S"/>hoc
+                            <mentioned>'animal est homo'</mentioned> demonstrando
+                            <mentioned>'Socrates'</mentioned>, quamvis hoc <mentioned>'Socrates est
+                            homo'</mentioned>
+                        <lb ed="#S"/>vel <mentioned>'hic est homo'</mentioned> sit <mentioned>'per
+                            se'</mentioned> primo modo <title>Physicae</title> loquendo, quia plura
+                            <lb ed="#S"/>significantur per subiectum quam per praedicatum, et est
+                        per consequens quodammodo praedictio in<lb ed="#S"/>directa <lb ed="#S"/>sit
+                        in proposito. Haec non est per se primo modo: 'haec entitas est <lb ed="#S"
+                        />sapientia, vel volitio, vel intellectio', sed istae sunt sic: 'haec est
+                        sapientia, <lb ed="#S"/>haec volitio,' etc. Et haec similiter 'deitas est
+                        sapientia, intellectio, vel <lb ed="#S"/>volitio' supposito quod 'deitas'
+                        sit nomen proprium illius rei subor<lb ed="#S"/>dinatum <lb ed="#S"/>signo
+                        simplici proprio eiusdem.</p>
+                    <p xml:id="b2-d6-q2-ifs_jwc_cl">Tertio: suppono <lb ed="#S"/>quod idem conceptus
+                        communis sapientiae, intellectionis, volitionis, et sic de <lb ed="#S"
+                        />similibus convenit Deo et creaturae, et ideo nomina ista absoluta univoce
+                            <lb ed="#S"/>dicuntur de Deo et aliquibus creaturis.</p>
+                    <p xml:id="b2-d6-q2-kfs_jwc_cl">Hiis suppositis, arguo <lb ed="#S"/>pro conclusione primo per auctoritatem <name ref="#Anselm">Anselmi</name> supra <seg>positam<desc>looks like something has been scratech and the suprapositam has been written over</desc></seg> in praecedenti quaestione, id est, quinta <lb ed="#S"/>ratione pro tertia ratione, quae plana est.<note>vide supra, d. 6., q. 1, 3rd conclusion, argument five [cross ref, currently para 27]</note></p>
+                    <p xml:id="b2-d6-q2-mfs_jwc_cl"><lb ed="#S"/>Item omnis talis conceptus ab<lb
+                            ed="#S"/>stractus est quidditativus respectu cuiuslibet sui per se
+                        individui a <lb ed="#S"/>quibus est immediate abstractabilis vel habet
+                        signum eorum commune, <lb ed="#S"/>sed conceptus sapientiae est sic
+                        immediate abstractabilis a sapientia <lb ed="#S"/>creata et a sapientia
+                        increata praesentibus vel visis. Et similiter <lb ed="#S"/>conceptus
+                        intellectionis, et sic de similibus mere absolutis et ab<lb ed="#S"
+                        />stractis tamquam commune quoddam transcendens a suis per se con<lb ed="#S"
+                        />tentis, igitur est conceptus quidditativus respectu utriusque. Maior
+                        patet, <cb ed="#S" n="88ra"/><lb ed="#S"/>quia non est maior ratio quod sit
+                        quidditativus unius eorum quam respectu alterius, <lb ed="#S"/>ex quo
+                        utrumque eorum est per se individuum seu singulare suum <lb ed="#S"/>aeque,
+                        sicut albedo <unclear>ingenerado[?]</unclear> sunt per se individua
+                        conceptus coloris. <lb ed="#S"/>Minor patet, quia, ex tertio praesupposito,
+                        conceptus sapientiae est communis Deo et alicui <lb ed="#S"/>creaturae sicut
+                        et conceptus entitatis sibi et omnibus creaturis, igitur est ab<lb ed="#S"
+                        />strahibilis <lb ed="#S"/>ab eisdem Deo, scilicet, et creatura illa, quae
+                        est sapientia quaedam. <lb ed="#S"/>Et istud confirmatur, quia ideo deitas
+                        vel haec demonstrata deitate est <lb ed="#S"/>per se primo modo et
+                        essentialiter entitas. Et ulterius, haec est per se vera: 'dei<lb ed="#S"
+                        />tas <lb ed="#S"/>est entitas, et omnis deitas est entitas', et non e
+                        converso; vel quia illud commune <lb ed="#S"/>entitas mere absolutum et
+                        abstractum habet hoc pro suo per se individuo, <lb ed="#S"/>igitur, pari
+                        ratione, erit hoc per se et essentialiter sapientia demonstrato illo in Deo,
+                        cui <lb ed="#S"/>sicut uni eius per se individuo convenit hic commune
+                        sapientia. Aliquid enim in Deo <lb ed="#S"/>quantumque illud fuerit est ita
+                        essentialiter sapientia, sicut qualitas in mente angeli <lb ed="#S"/>est
+                        essentialiter sapientia. Et tunc potest sic argui: aliquod quod est Deus est
+                        essentialiter et <lb ed="#S"/>'in quid' sapientia et nihil nisi haec
+                        demonstrata deitate, igitur deitas est essentialiter et <lb ed="#S"/>'in
+                        quid' sapientia. Et ultra quod, si sit praedicato directa et
+                            <unclear>termini[?]</unclear> apti ad <lb ed="#S"/>'perseitatem' illam
+                        imprimendam, haec erit vera 'in quid', id est per se primo modo, <lb ed="#S"
+                        />'deitas est sapientia'.</p>
+                    <p xml:id="b2-d6-q2-pfs_jwc_cl">Secunda<note type="summary">B: Quod Deus est 'in
+                            quid' sapiens, sicut est 'in quid' sapientia S</note> conclusio<note
+                            type="marginalNote">secunda conclusio S</note> est de concretis propriis
+                            correspondenti<lb ed="#S"/>bus <lb ed="#S"/>abstractis conceptibus
+                        positivis et mere absolutis, de quibus processit <lb ed="#S"/>praecedens
+                        conclusio. Et est haec: quod utercumque conceptus absolutus talis
+                        praedicatur 'in <lb ed="#S"/>quid' de Deo vel de deitate utendo istis
+                        vocabulis, sicut <unclear>prius[?]</unclear> concretum eiusdem <lb ed="#S"
+                        />praedicatur 'in quid' de Deo. Ita quod, sicut haec est 'in quid': 'deitas
+                        est sapientia', <lb ed="#S"/>ita secundum veritatem sit haec: 'deitas est
+                        sapiens' vel 'hic est sa<lb ed="#S"/>piens' demonstrando rem illam, quae
+                        Deus est. Hoc probatur: primo, quia cuicumque <lb ed="#S"/>praecise eodem
+                        sui conveniunt conceptus abstractus talis, de quo supra, <add place="margin"
+                            >et</add>
+                        <lb ed="#S"/>concretus, si illi conveniat 'in quid' conceptus abstractus
+                        convenit et concretus 'in quid'. <lb ed="#S"/>Haec patet inductive, nam quia
+                        eodem sui positus est Deus enti<lb ed="#S"/>tas et ens, ideo sicut est 'in
+                        quid': 'hoc est entitas', ita est 'in quid': <lb ed="#S"/>'hoc est ens', et
+                        e converso. Et quia eodem sui est deitas et Deus, ideo sicut <lb ed="#S"
+                        />haec demonstrata deitate est 'in quid' 'deitas', ita est in quid 'Deus'.
+                        Sed Deus <lb ed="#S"/>eodem sui omnimodo est 'sapientia' et 'sapiens',
+                        'volitio' et 'volens', 'in<lb ed="#S"/>tellectio' et 'intelligens', et sic
+                        de similibus. Igitur sicut Deus est 'in quid' 'intellectio', <lb ed="#S"
+                        />'volitio', et 'sapientia', ita est 'in quid' vel in quali substantiali
+                            'in<lb ed="#S"/>telligens', 'volens', et 'sapiens'.</p>
+                    <p xml:id="b2-d6-q2-sfs_jwc_cl">Et si instetur huic rationi, quia haec
+                            demonstra<lb ed="#S"/>ta humanitate tua <add place="aboveLine">est</add>
+                        humanitas in quid, et tamen <del>li</del> haec non est homo 'in quid', <lb
+                            ed="#S"/>quia potest esse et non esse homo; puta si assumeretur a
+                        persona divina.</p>
+                    <p xml:id="b2-d6-q2-ufs_jwc_cl">Similiter haec est <lb ed="#S"/>'in quid'
+                        humanitas demonstrato toto Socrate praeter digitam, et tamen haec non <lb
+                            ed="#S"/>est 'in quid' homo, quia haec nec est homo.</p>
+                    <p xml:id="b2-d6-q2-vfs_jwc_cl"><lb ed="#S"/>Similiter <unclear>lia[?]</unclear>
+                        est longitudo et longa <lb ed="#S"/>ratione eiusdem rei, et tamen longitudo
+                        'in quid' et non longa 'in quid', quia potest <lb ed="#S"/>fieri verius
+                        eadem longitudine remanente.</p>
+                    <p xml:id="b2-d6-q2-xfs_jwc_cl"><lb ed="#S"/>Ad<note type="summary">C: Quod ista
+                            non est 'in quid': 'haec est homo' demonstrando homine, sed hoc est 'in
+                            quid': 'haec est humanitas' S</note> primam<note type="marginalNote"
+                            >Responsio S</note> instantia: ista <lb ed="#S"/>non est ad propositum,
+                        quia iste terminus 'homo', ut ibi sumitur, est nomen suppositi, <lb ed="#S"
+                        />et per consequens terminus implicite negativus nulli rei 'in quid'
+                        conveniens ex<lb ed="#S"/>presso solo pro nomine denominativo. Per idem ad
+                        secundam <unclear>instantiam[?]</unclear></p>
+                    <p xml:id="b2-d6-q2-zfs_jwc_cl">Ad tertiam <lb ed="#S"/>dicendum quod sicut
+                        magnitudo et parvitas, et similiter magnum et parvum sunt <lb ed="#S"
+                        />nomina aequivoca et possunt dupliciter accipi, scilicet, absolute et
+                        relative. Nam ex <lb ed="#S"/><unclear>praedicantis[??]</unclear> magnum et
+                        parvum ad unum sensum sumpta sunt relativa, <lb ed="#S"/>et ideo idem modos
+                        secundum <name ref="#Aristotle">Philosophus</name> qui respectu unius est parvus respectu
+                        alterius <lb ed="#S"/>est magnus. Et <seg>patet<desc>Can't tell if something
+                                is added here</desc></seg> haec <unclear>aequivoco[???]</unclear>
+                        per <name ref="#Averroes">Commentatorem</name> super V <title>Metaphysicae</title>, ita est
+                        de <lb ed="#S"/>longitudine et latitudine et longe et lato. Et alia
+                        longitudo longa et <lb ed="#S"/>alia <unclear>buis[?]</unclear> et certe
+                        longum quod <unclear>apoonitur[?]</unclear> verum non subordinatru in
+                            significan<lb ed="#S"/>do illi conceptui concreto cuius abstractus
+                        conceptus ponitur in diffinitione <lb ed="#S"/>lineae cum dicitur 'linea est
+                        longitudo' etc., nec latum quod apponitur <unclear>sc?<lb ed="#S"
+                            />?to[?]</unclear>
+                        <lb ed="#S"/>est concretum latitudinis positae in diffinitione lineae, sed
+                        si verificetur <lb ed="#S"/>de eodem de quo <del>iste</del><add>etiam</add>
+                        abstractus et pro eodem omnino, tunc <lb ed="#S"/>sit longitudo linea, ita
+                        esset 'in quid' longa, sicut est 'in quid' longitudo et <lb ed="#S"/>per
+                        consequens haec instantia non procedit.</p>
+                    <p xml:id="b2-d6-q2-cgs_jwc_cl"><lb ed="#S"/>Secundo principaliter arguo sic et
+                        illud plus <cb ed="88rb"/><lb ed="#S"/>pondendo omnis conceptus concretus
+                            <unclear>abstractus[?]</unclear> et <unclear>positus[?]</unclear>, qui
+                        probatur de A. Sit <lb ed="#S"/>A conceptus proprius illius rei simpliciter
+                        simplicis, quae Deus est, ita quod idem <lb ed="#S"/>sit tam
+                            <unclear>modo[?]taliter</unclear> quam vocaliter dicere 'hoc est A' ad
+                        modum quo <lb ed="#S"/>idem est dicere <name ref="#Sortes">Socrates</name> et hoc
+                        demanstrato Socrates omnis inquam talis conceptus qui <lb ed="#S"
+                        />praedicatur de A aeque essentialiter quod essentialius sicut conceptus
+                        concretus ad<lb ed="#S"/>iectus qui sicut pars diffinitionis alicuius rei
+                        praedicatur de conceptu <lb ed="#S"/>proprio illius rei praedicatu de A 'in
+                        quid', id est, per se primo modo, quia <lb ed="#S"/>hic non distinguitur
+                        quid <unclear>conceptu[?]</unclear> quale substantiale, sed conceptus
+                        concretus sa<lb ed="#S"/>pientiae est huiusmodi respectu A. Igitur maior
+                        patet, quia quaelibet pars diffinitionis praedicatur <lb ed="#S"/>de
+                        diffinito per se primo modo ex primo <title>Posteriorum</title> et
+                        adversarum etiam <lb ed="#S"/>hoc concedunt <unclear>unde[?]</unclear> et
+                        habent pro <unclear>regula[?]</unclear> quod illud praedicatur 'in quid' et
+                        per se primo modo <lb ed="#S"/>de aliquo quod praedicatur de illo sicut
+                        diffinitio vel pars diffinitionis vel ipsammet <lb ed="#S"/>minorem probo
+                        primo sit, quia conceptus concretus sapientiae aequae essentialiter <lb
+                            ed="#S"/>vel essentialius praedicatur modo de facto de A, quando A est
+                        essentialiter illud quod <lb ed="#S"/>per se significatur per conceptus
+                        abstractum sapientiae, <add>sicut si solum includere, sicut partem sui illud
+                            quod per significatur per conceptum abstractum
+                                sapientiae<desc>dbcheck</desc></add>, sed tunc per se primo modo <lb
+                            ed="#S"/>sicut patet de conceptu concreto, qui est pars diffinitionis.
+                        Ideo enim 'animatum' <lb ed="#S"/>quod est pars huius diffinitionis
+                        'substantia animata' praedicatur per se primo modo de <lb ed="#S"/>conceptu
+                        animalis vel hominis, quia res significata per suum abstractum, scilicet,
+                            <lb ed="#S"/>anima est pars animalis vel hominis, igitur etc. Probo
+                        maiorem huius pro <unclear>silli[??]</unclear>, qui si <lb ed="#S"/>solum
+                        includeret illud sicut partem sui, ideo solum modo et non propter aliud <lb
+                            ed="#S"/>concretus conceptus praedicaretur per se primo modo de A, quia
+                        includeret tamquam <lb ed="#S"/>partem essentiae suae de A per se
+                        significatum conceptus <add place="margin">abstracti</add> correspondentis
+                        illi con<lb ed="#S"/>creto, ut patuit in exemplo praeadducto de anima et
+                        animato, <lb ed="#S"/>sed si per se significatum A, non solum sic partem sui
+                        includit per se <lb ed="#S"/>significatum conceptus abstracti sapientiae,
+                        sed est essentialiter significatum ipsius aeque essentialiter <lb ed="#S"
+                        />vel essentialius praedicabitur modo conceptus concretus sapientiae de A,
+                        sicut tunc <lb ed="#S"/>et haec <unclear>erat[?]</unclear> illa minor
+                        probanda.</p>
+                    <p xml:id="b2-d6-q2-fgs_jwc_cl">Secundo probo minorem principalem sic: <lb
+                            ed="#S"/>significatum conceptus absoluti positi et mere absoluti esse
+                        essentiam vel partem essentiae alicuius est <lb ed="#S"/>ratio quare
+                        conceptus concretus praedicatur per se primo modo de eodem et <lb ed="#S"
+                        />sic est de significato conceptus abstracti sapientiae respectu A, sicut
+                        patet ex <lb ed="#S"/>praecedenti quaestione, et quia etiam idem omnimode in
+                        re ex parte Dei et per se indivi<lb ed="#S"/>duum omnium conceptuum
+                        abstractorum positorum et mere absolutorum
+                            <unclear>verisimilium[?]</unclear>
+                        <lb ed="#S"/>de Deo aliter enim non idem conceptus talis praedicaretur de
+                        Deo et creaturae conceptu <lb ed="#S"/>tertium suppositum vel esset
+                        distinctio inter per se individua talium conceptu primum <lb ed="#S"
+                        />suppositum et contra conclusiones quaestionis praecedentis, ergo etc.
+                        Maior patet inductive, licet non <lb ed="#S"/>est ratio quare animatum
+                        praedicatur per se primo modo de homine, quia est <lb ed="#S"/>absolutum
+                        significans partem homins, haec enim est ratio <unclear>quare[?]</unclear>
+                        conceptus concretus <lb ed="#S"/>dei vel entis praedicatur per se primo modo
+                        de A, quia aliquid per se significatum <lb ed="#S"/>per hoc abstractum
+                        'deitas' vel 'entitas' est essentia A, licet non <lb ed="#S"/>sit pars
+                        essentiae eius, ergo etc.</p>
+                    <p xml:id="b2-d6-q2-ggs_jwc_cl"><lb ed="#S"/>Item<note type="summary">D: Et quod
+                            iste terminus 'homo' est nomen <unclear>connotativum[??]</unclear>
+                            quibus modis cognoscitur aliqua praedicatum esse 'in quid' et per se
+                            primo modo, ubi praedicatur aliquod concretum. S</note> quae<note
+                            type="marginalNote">nota</note> est via per quam innotescit <lb ed="#S"
+                        />quod conceptus aliquis concretus praedicatur per se primo modo de aliquo.
+                        Vel enim suf<lb ed="#S"/>ficit <lb ed="#S"/>quod significatum sui abstracti
+                        sit essentia vel pars essentia illius de quo veri<lb ed="#S"/>ficatur <lb
+                            ed="#S"/>huius concretum positum et mere absolutum, id est, nihil
+                        extrinsecum consignificans <lb ed="#S"/>cum hoc quod sit directa
+                        praedicatio. Et tunc habetur propositum, quia per se significatum <lb
+                            ed="#S"/>abstracti huius concreti 'sapiens' est essentia A vel pars
+                        essentiae eius. Et quod <lb ed="#S"/>ista sic causa videtur: [1] tum, quia
+                        aliquam causam non oportet ponere ad <unclear>hoc[?]</unclear> quod
+                        conceptus <lb ed="#S"/>concretus qui est pars diffinitionis verificatur per
+                        se primo modo de <lb ed="#S"/>diffinitio; <unclear>[2]</unclear> tum, quia
+                        haec videtur vera ratio quare cum dicitur angelus est nulla <lb ed="#S"
+                        />substantialis, hic concretum substantiale praedicatur 'in quid' de angelo,
+                        quia suum <unclear>absolutum[?abstractum?]</unclear>, <lb ed="#S"/>scilicet,
+                        substantia significat per se illam rem, quae est angelus sive illam <lb
+                            ed="#S"/>essentiam quam exprimit hoc nomen 'angelis'; [3] tum, quia et
+                        haec videtur ratio <lb ed="#S"/>quare concretum entis praedicatur 'in quid'
+                        de aliquo, immo de quolibet, quia, <lb ed="#S"/>scilicet, per se
+                        significatum sui absoluti est essentia vel pars illius de quo verificatur
+                            <lb ed="#S"/>concretum entis; [4] tum quarto, quia haec videtur ratio
+                        quare tales <unclear>possunt[?]</unclear> aliquod modo <lb ed="#S"/>poni
+                        esse per se primo modo 'homo albus est albus' vel 'est coloratus', <lb
+                            ed="#S"/>quia per se significatum absoluti correspondentis tali
+                        praedicato concreto est quodammodo <lb ed="#S"/>pars essentialis aggregati
+                        quod exprimitur per subiectum, et cum tale concretum nihil <lb ed="#S"/><cb
+                            ed="#S" n="88va"/>extrinsicum consignificat non plus quam subiectum,
+                        sicut <unclear>fre?t[?]</unclear> disgregat non vel <lb ed="#S"
+                            /><unclear>visibile[universale]</unclear> vel aliud huius, si loco
+                        albedini vel colorati poneretur, cum quia haec videtur <lb ed="#S"/>ratio
+                        quare haec non est 'in quid' hoc est animatum
+                            <unclear>denotandum[?]</unclear> corpus quae <lb ed="#S"/>est altera
+                        pars hominis, sicut est ista 'homo est animatus', quia valet per se <lb
+                            ed="#S"/><del>praedicatum</del><add>significatum</add> per hoc
+                        abstractum anima non est pars essentiae significatae per <lb ed="#S"
+                        />subiectum primae, nec illa essentia sicut est pars essentiae significatae
+                        per subiectum secundae.</p>
+                    <p xml:id="b2-d6-q2-jgs_jwc_cl">Alia igitur videtur via per quam innotescat
+                        quando praedicatum concretum convenit <lb ed="#S"/>alicui subiecto personae
+                        primo modo, et si hoc, igitur habetur intentum, quod prima sit 'in quid' <lb
+                            ed="#S"/>A est sapiens vel deitas est sapiens, si tamen deitas et A <lb
+                            ed="#S"/>sint nomina synomina, ut suppositum est. Vel secundum alios via
+                        qua <lb ed="#S"/>innotescit quod aliquis conceptus conretus praedicatu per
+                        se primo modo <del>in quid</del><add place="margin">et communis</add> de<lb
+                            ed="#S"/>nominative de eodem est ponere <unclear>per[?]</unclear>
+                        <seg>impossibile<desc>can't tell if this is corrected or not</desc></seg> et
+                        tunc habendum est ulterius <lb ed="#S"/>pr regula quod de illis conceptibus
+                        qui indifferenter praedicarentur verae de tali, tunc et <lb ed="#S"/>nunc
+                        illi qui tunc praedicarentur 'in quid' modo sic praedicarentur et quid tunc
+                        in quali <lb ed="#S"/>modo in quali in qua regula secundum eos tota dependet
+                        mathematica et <lb ed="#S"/>propter ea secundum eos, quia deitas et
+                        sapientia divina, si essent res distinc<lb ed="#S"/>tae haec non esset 'in
+                        quid' Deus est sapiens, igitur nec modo ex quo indifferenter, <lb ed="#S"
+                        />tunc et nunc verificaretur iste conceptus concretus sapiens de Deo.</p>
+                    <p xml:id="b2-d6-q2-lgs_jwc_cl">sed hoc <lb ed="#S"/>stare non potest, quia
+                        positio impossibilis aut sit vult imaginari quod illi <lb ed="#S"/>rei quae
+                        modo est deitas superveniret sapientia sibi in
+                        <unclear>linis[???]</unclear>, sicut accidens <lb ed="#S"/>suo subiecto, ita
+                        tamen quod ad hoc maneret illa sapientia quae est realiter ipsa <lb ed="#S"
+                        />deitas, sicut verbi gratia, illi entitati quae est anima intellectiva
+                        supervenit <lb ed="#S"/>alia entitas quae eest intellectio vel volitio
+                        realiter sibi in hominis et ipsum perfi<lb ed="#S"/>ciens, aut secundo quod
+                        ista res simpliciter simplex quae modo de facto <lb ed="#S"/>est sapientia
+                        et similiter deitas didereit in duas partos quarum una esset <lb ed="#S"
+                        />tantum modo deitas et reliqua tantum modo sapientia vel aliquo alio modo
+                            <lb ed="#S"/>ad alterum istorum reducibili.</p>
+                    <p xml:id="b2-d6-q2-ngs_jwc_cl">Si primo modo ista positione impossibili tantum
+                            <lb ed="#S"/>innotesceret quod [something <unclear>added]</unclear>
+                        sapientia sibi realiter inhaerente non esset Deus sapiens <lb ed="#S"/>per
+                        se primo modo et hoc verum <del>est</del><add place="margin">esset</add> cum
+                        hoc tamen staret quod A sapientia <lb ed="#S"/>quae realiter est Deus esset
+                        sapiens per se primo modo.</p>
+                    <p xml:id="b2-d6-q2-pgs_jwc_cl">Exemplum ad <lb ed="#S"/>hoc
+                            <unclear>materiam[?]:</unclear> imaginentur illud quod
+                            <unclear>conc[?]</unclear> non nulli quod in hoine essent <lb ed="#S"
+                        />duae animae et simul cum hoc quod compositum ex corpore et sensitivam
+                        esset proprium <lb ed="#S"/>perfectibilem per intellectivam hoc posito
+                        demonstro compositum ex corpore et sensitiva <lb ed="#S"/>quod tamen
+                        compositum informatur intellectiva tunc dicendo quod hoc est animatum <lb
+                            ed="#S"/>certe haec propositio ad unum sensum esset per se primo modo,
+                        sicut et haec homo est <lb ed="#S"/>animatus, utpote, si fiat denominativo a
+                        sensitiva anima ad alium <lb ed="#S"/>sensum non utpote, si fiat
+                        denominativo ab intellectiva, quia tunc illud quod per se <lb ed="#S"
+                        />significatur per abstractum correspondens concretum non est essentia nec
+                        de essentia illius <lb ed="#S"/>quod significatur per subiectum cum dicitur
+                            <add place="margin">'sit homo'</add>
+                        <del>non</del> est <del>sit</del> animatum. Eodem modo per <lb ed="#S"
+                            /><unclear>omnia[?]</unclear> erit in proposito positione illa
+                        impossibili currente ad primum <lb ed="#S"/>sensum.</p>
+                    <p xml:id="b2-d6-q2-sgs_jwc_cl">Sed si causatur in sensu secundo sicut imaginare
+                        videtur ad mentem si <lb ed="#S"/>loquentium haec positio in primis ponit
+                        Deum non esse Deum, vel poterit propositum <lb ed="#S"/>quod haec erit tunc
+                        'in quid' 'Deus est sapiens'. Et etiam modo, quia quaero pro <lb ed="#S"
+                        />quo supponeret illa positione factam subiectum huius 'Deus est Deus' aut
+                            <lb ed="#S"/>pro alia parte illius rei quam per impossibile imaginatur
+                        dividi <lb ed="#S"/>aut pro illo quod includeret ambas illas partes primum
+                        dari <lb ed="#S"/>non potest, quia ex quo res per impossibile in partes
+                        alterius rationis <lb ed="#S"/>imaginariae divisa fuerit nulla pars talis
+                        erit Deus non plus <lb ed="#S"/>quam <del>subiecta</del><add place="margin"
+                            >una</add> partium essentialium hominis est homo, ex quo
+                            <unclear>non[?]</unclear> illud <lb ed="#S"/>quod sicut partes
+                        essentiales ad sui integritatem requisitas inclu<lb ed="#S"/>dit tam animam
+                        quam 'corpus est homo', nec 'anima est homo', nec 'corpus <lb ed="#S"/>est
+                        homo'.</p>
+                    <p xml:id="b2-d6-q2-ugs_jwc_cl">Item ad alietatem specificam concpetus ab<lb
+                            ed="#S"/>stracti, sequitur alietas conceptus concreti sibi
+                        correspondentis, sed ad divisionem ima<lb ed="#S"/>ginariam per impossibile
+                        rei simpliciter simplicis aliam conceptum ab<lb ed="#S"/>stractum specificum
+                        causabit res quam prius causavit totum, quia abstrac<lb ed="#S"/>tus
+                        causabilis a toto significaret totum et causabilis a parte praecise <lb
+                            ed="#S"/>partem, ita quod generaliter ad variationem specificam rei,
+                        sequitur diversitas <lb ed="#S"/>et varietas proprii conceptus abstractu
+                        sui, igitur si velis vocare dei<cb ed="#S" n="88vb"/><lb ed="#S"/>tatem per
+                        causa, in qua divisisti illam rem, quae Deus est, licet habeas nomen, etc.
+                            <lb ed="#S"/>Tamen non habens conceptum eundem abstractum individualem
+                        vel specificum <lb ed="#S"/>qui tunc per se significaret partem cum illo,
+                        qui modo significat totum sive Deum secundum <lb ed="#S"/>unitatem
+                        simpliciter simplicem, et si non eundum absolutum non
+                            <del>eandem</del><add>eundem</add>
+                        <lb ed="#S"/>concretum non eandem propositum mentalem, licet eandem
+                        vocabulem, quia bene eadem <lb ed="#S"/>vox posset aequivoce correspondere
+                        unicuique conceptui. Et si hoc, tunc non habens <lb ed="#S"/>eandem
+                        propositum indifferenter verum, tunc et nunc, cui tamen medio totaliter
+                            in<lb ed="#S"/>nititur iste doctor, et tunc nihil valet nec aliqem
+                        colorem habet ista consequentia B <lb ed="#S"/>non est sapiens 'in quid' sit
+                        B altera partium, in qua divisisti Deum <lb ed="#S"/>et quam vocas, tunc
+                        deitatem, igitur 'A non est sapiens 'in quid'', quia <lb ed="#S"/>sapientia
+                        non est essentia nec pars essentiae significatae per subiectum antecedentis,
+                        sicut est essentia <lb ed="#S"/>vel pars essentiae significatae per
+                        subiectum consequentis.</p>
+                    <p xml:id="b2-d6-q2-wgs_jwc_cl">Si detur secundum quod subiectum huius illa <lb
+                            ed="#S"/>positione impossibili posita 'Deus est Deus' vel 'Deus est
+                        sapiens' supponit <lb ed="#S"/>pro includente ambas illas partes, tunc
+                        habetur, quia totum illud cuius <lb ed="#S"/>sapientia est una pars, et
+                        illud quod vocas <unclear>tunc[?]</unclear> deitatem alia pars, ista <lb
+                            ed="#S"/>essentialiter 'in quid' dicitur et est sapiens concretive ab
+                        una parte, sicut 'ipsum <lb ed="#S"/>est Deus' ab alia parte, sicut homo 'in
+                        quid' est corporeus a corpore, <lb ed="#S"/>sicut animatus ab anima, et e
+                        contra. Omne enim totum includens <lb ed="#S"/>una ab alia tantum
+                        accidentaliter denominetur, quia licet essentialiter et 'in <lb ed="#S"
+                        />quid' sit animatus cum corpus quod est altera pars hominis extrin<lb
+                            ed="#S"/>seca tantum denominative et non per se primo modo est
+                        animatum.</p>
+                    <p xml:id="b2-d6-q2-xgs_jwc_cl">Ex <lb ed="#S"/>hoc confirmatur propositum, quia
+                        licet illa positione impossibili posita <unclear>lr[?]</unclear> non <lb
+                            ed="#S"/>esset 'in quid' sapiens, tamen A esset 'in quid' sapiens et hoc
+                        est <lb ed="#S"/>propositum. Unde si illa sic ars per quam innotescat quis
+                        conceptus <lb ed="#S"/>concretus praedicatur 'in quid' <add place="margin"
+                            >et communis</add> non illa sufficienter concludit propositum quod haec
+                        est <lb ed="#S"/>'in quid' A est sapiens hic remanente quod idem conceptus
+                        concretus sapientiae <lb ed="#S"/>facta divisione impossibili ipsius A in B,
+                        et C tunc et nunc verificetur de <lb ed="#S"/>A vel quod plus est ut tu
+                        supponitis de a et B, licet enim B non esset sa<lb ed="#S"/>piens 'in quid'
+                        tamen A esset isto casu posito sapiens 'in quid'. Probo, quia quando <lb
+                            ed="#S"/>per se significatum alicuius abstracti est pars intrinsica
+                        alicuius rei proprium con<lb ed="#S"/>cretum illius abstracti quorum
+                        neutrorum aliquid consignificaret quamvis bene a<lb ed="#S"/>lias res
+                        significent praedicatur 'in quid' de tali re, quia nulla causa <lb ed="#S"
+                        />est quare haec est 'in quid' homo est animatus vel realis vel ista <lb
+                            ed="#S"/>suo modo homo albus est coloratus, sed per illam positionem
+                        impossibilem <lb ed="#S"/>innotescit quod C, id est, sapientia est pars
+                        intrinseca ipsius A illius, scilicet, rei <lb ed="#S"/>simplicis modo sicut
+                        compositae, quae Deus est, igitur etc.</p>
+                    <p xml:id="b2-d6-q2-zgs_jwc_cl">Et<note type="marginalNote">Conclusio
+                            principalis S</note>
+                        <lb ed="#S"/>haec indubitur teno et concedo quod, scilicet, haec est 'in
+                        quid' Deus est sapiens vel in<lb ed="#S"/>telligens vel volens, et hoc eo
+                        modo accipiendo <unclear>quo[?]</unclear> ista concreta posita in
+                                <unclear>praedican<lb ed="#S"/>tis[?]</unclear> nihil intrinsecum
+                        connotant, licet res alias significaret per se et <lb ed="#S"/>pro aliis
+                        supponant ad modum quo homo est animal 'in quid', quia animal <lb ed="#S"
+                        />nihil extrinsecum connotat, licet pro aliis rebus ab homine sup<lb ed="#S"
+                        />ponat et illas significaret, ita per se, sicut hominem. Et ratio totius
+                        huius <lb ed="#S"/>veritas est, quia illa res simplicissima, quae Deus est,
+                        ista essentialiter et ita <lb ed="#S"/>intrinsece est sapientia et etiam
+                        deitas vel etiam sapientiam et deitatem inclu<lb ed="#S"/>dit ad modum quo
+                            <unclear>divinis[???]</unclear> sapientiam vel deitatem esse in Deo,
+                        sicut <lb ed="#S"/>homo essentialiter est corporeus et essentialiter est
+                        animatus vel essentialiter <unclear>includit[?]</unclear>
+                        <lb ed="#S"/>corpus et animam, vel sicut illud compositum, quod alii
+                        imaginantur includeret <lb ed="#S"/>sapientiam et deitatem, quia includeret
+                        utriusque abstractorum duorum <lb ed="#S"/>per se individuum. Igitur si
+                        concreta illorum abstractivorum denominant illam <lb ed="#S"/>rem ita
+                        essentialiter et 'in quid' denominabunt, nunc sicu tunc, sed tunc 'in quid',
+                        igitur <lb ed="#S"/>et modo nec est rationem reddere
+                            <unclear>quin[quando]</unclear> ita, in qua diceretur de illa <lb
+                            ed="#S"/>sapientia simplici hoc concretum sapiens sicut homo conceretum
+                        Deus ex quo <lb ed="#S"/>ipsa aequae intrinsece includit per se significatum
+                        abstracti huius, sicut illius <lb ed="#S"/>vel potius uniformiter est per se
+                        individuum utriusque.</p>
+                </div>
+                <div>
+                    <head>Secundus articulus</head>
+                    <p xml:id="b2-d6-q2-bhs_jwc_cl">Sed<note type="marginalNote">secundum articulus
+                            per rem</note> in contrarium<note type="summary">E: Instatur per
+                            rationes multas quod haec non sit 'in quid' Deus est sapiens. S</note>
+                        <lb ed="#S"/>obicitur multipliciter probando quod conceptus tales quicumque
+                        concreti <unclear>attri<lb ed="#S"/>bulabilis[?]</unclear> ut sapiens,
+                        iustus, praedicantur de conceptu concreto Dei <lb ed="#S"/>non per se primo
+                        modo, sed in <unclear>quali[?]</unclear> accidentali vel non
+                        substantiali.</p>
+                    <p xml:id="b2-d6-q2-dhs_jwc_cl">Primo quia <lb ed="#S"/>propositio composita ex
+                        terminis concretis est indifferenter modo 'in quid' vel 'in quali', <lb
+                            ed="#S"/>tamen verificatur de simplici, sicut esset si suis abstractis
+                            correspon<lb ed="#S"/>derent aliqua realiter distincta in eodem
+                        supposito. Sed si per <cb ed="#S" n="89ra"/><lb ed="#S"/>contradictionem
+                        corresponderent in Deo istis abstractis deitas et sapientia aliqua <lb
+                            ed="#S"/>realiter distincta, tunc ista propositio in
+                            <unclear>terminis[?]</unclear> concretis 'Deus est sapiens' esset in<lb
+                            ed="#S"/>differenter, <lb ed="#S"/>tunc et nunc, vera etiam tunc esset
+                        praedicatio denominativa 'in quali', tunc <lb ed="#S"/>igitur. Et modo
+                        praemissae sunt verae, igitur et conclusio, licet enim ponatur impossibile,
+                        quia <lb ed="#S"/>tamen conclusio non sequitur ex hoc quod ponitur
+                        impossibile, sed solum ex praemissis <lb ed="#S"/>veris, ideo conclusio est
+                        vera, Minor videtur evidens, quia si deitas et <lb ed="#S"/>sapientia
+                        distinguerentur realiter, tunc sapientia esset accidens. Ideo aeque esset
+                            <lb ed="#S"/>praedicatio 'in quali', sicut hic 'angelus est sapiens'.
+                        Maior probatur, quia termini concreti indifferenter significant suppositum
+                        sive suis abstractis cor<lb ed="#S"/>respondeat <lb ed="#S"/>eadem res sive
+                        diversae in eodem supposito ut <lb ed="#S"/>sapiens
+                            <unclear>unice[?]</unclear> significat, cum dicitur 'Deus est sapiens'
+                        et 'angelus est <lb ed="#S"/>sapiens' et 'homo <unclear>unitate[?]</unclear>
+                        de Christo', <add place="margin">et aliis hominibus et Deus
+                                <unclear>unice[?]</unclear> de Christo</add> et Filio Dei ante
+                        incarnationem <lb ed="#S"/>et haec unice verificatur pro Deo et creatura
+                        substantia est sapiens.</p>
+                    <p xml:id="b2-d6-q2-fhs_jwc_cl">Ad illud <lb ed="#S"/>responsio iuxta illud quod
+                        arguendo tactum est quod valet istis abstractis <lb ed="#S"/>deitas et
+                        sapientia correspondere alia realiter distincta in eodem sup<lb ed="#S"
+                        />posito potest duobus modis <subst>
+                            <del>imaginare</del>
+                            <add>imaginari</add>
+                        </subst> vel quod ista positio per contradictionem ima<lb ed="#S"/>ginetur
+                        illi rei quae modo de facto est deitas supervenire sapientiam <lb ed="#S"
+                        />accidentale realiter ab ea distinctam et inhaerere deitati in eodem <lb
+                            ed="#S"/>supposito <add place="aboveLine"
+                            ><unclear>vera[?]</unclear></add> vel quod illam rem quae modo de facto
+                        est deitas superveni<lb ed="#S"/>re <lb ed="#S"/>sapientiam accidentalem
+                            <add place="aboveLine">?</add> vel quod ista res quae modo de facto est
+                            <lb ed="#S"/>deitas imaginetur findi vel dividi in duo, scilicet, in
+                        deitatem et sapi<lb ed="#S"/>entiam. Et si hoc secundum tunc deitas
+                        partialis non erit <unclear>imaginare[?]</unclear> eiusdem <lb ed="#S"/>rei
+                        specifice cum illa quae <unclear>imaginare[?imaginatae]</unclear> ponebatur
+                        per impossibile dividi, <lb ed="#S"/>et per consequens non proprius
+                        conceptus illius et istius sunt eiusdem rationis et <lb ed="#S"/>ita non
+                        remanebit propositio eadem dicens quod Deus est sapiens, <lb ed="#S"/>tunc
+                        et nunc, vel coincidetur<add place="aboveLine"><unclear>[?]</unclear></add>
+                        <unclear>priori[?]</unclear> sensu. Et si ponatur casu pro primo <lb ed="#S"
+                        />istorum <unclear>intellectum[??]</unclear> tunc ista propositio proposita
+                        Deus est sapiens esset forte <lb ed="#S"/>distinguenda sicut et ista 'hoc
+                        est animatum' <unclear>denotando[?]</unclear> compositum ex corpore <lb
+                            ed="#S"/>et anima sensitiva informatum intellectiva, secundum opinionem
+                        quorumdam praetactam eo <lb ed="#S"/>quod partum potest facere
+                        denominationem subiecti a sapientia accidentali inhaerente <lb ed="#S"/>Deo
+                        per causam impossibilem, et tunc est denominatio accidentalis et extrinseca
+                        et et <lb ed="#S"/>no per se primo modo, sicut nec denominatio corporis quae
+                        est altera <lb ed="#S"/>pars cum dicitur hoc est animatum est denominatio
+                        essentialis aut intrinseca <lb ed="#S"/>nec per se primo modo.</p>
+                    <p xml:id="b2-d6-q2-hhs_jwc_cl"><lb ed="#S"/>Alio modo <del>a</del> sapientia,
+                        quae Deus est, et <unclear>tunc[?]</unclear> esset per se primo <lb ed="#S"
+                        />modo, sicut et 'ista homo est animatus'.</p>
+                    <p xml:id="b2-d6-q2-jhs_jwc_cl">Et primus sensus valet istam: 'Deus <lb ed="#S"
+                        />est sapeins', id est 'Deus est aliquid cui tamquam suo subiecto sa<lb
+                            ed="#S"/>piens inhaeret'. Secundus sensus est iste 'Deus est sapiens',
+                        id est, 'Deus est ali<lb ed="#S"/>quid cuius essentia vel pars essentia est
+                        sapientia', sicut ex alia parte, cum <lb ed="#S"/>dicitur 'corpus est
+                        animatum sensus est', id est 'corpus est aliud cuius formaliter <lb ed="#S"
+                        />perficiens ipsum est anima'. Sed cum dicitur 'homo est, animatus sensus
+                            <lb ed="#S"/>est, homo est aliquid cuius pars formalis est anima
+                            <del>sed cum</del> vel cuius <lb ed="#S"/>pars est anima', ad hunc
+                        sensum est maior <unclear>falsa[um?]</unclear>.</p>
+                    <p xml:id="b2-d6-q2-lhs_jwc_cl">Ad probatione maio<lb ed="#S"/>ris: cum dicitur
+                        quod termini concreti indifferenter significat suppositum etc., dicendum <lb
+                            ed="#S"/>quod hoc est verum eo modo loquendo quo concreta significant
+                        suppositum <unclear>conc?nen<lb ed="#S"/>do[??]</unclear>, quia quando
+                        signum expressivum suppositi per se significat illa, quae per se <lb ed="#S"
+                        />significatur per talia concerta, et haec sunt praecise ista eadem, quae
+                        significata <lb ed="#S"/>per abstracta correspondentia talibus concretis, et
+                        etiam est maior illa <lb ed="#S"/>vera in illo casu ubi per se significata
+                        talium concretorum hunc pro <lb ed="#S"/>perfectibili totale per se
+                        significatum per nomen expressivum suppositi. <lb ed="#S"/>Non est autem hoc
+                        verum, nis per se significatum unius concreti per se significatur <lb
+                            ed="#S"/>per nomen expressivum suppositi et per se significatum alterius
+                        concerti est <lb ed="#S"/>extrinsecum per se significato signi exprimentis
+                        suppositum, sicut est <lb ed="#S"/>in proposito, quod patet per
+                        descriptiones aequivalentes talibus concretis, <lb ed="#S"/>ut prius in ista
+                        responsione dictum est. Exemplum primi 'homo est substantia <lb ed="#S"
+                        />corporea animata', corporeum et animatum sunt duo talia concreta. Exemplum
+                            <lb ed="#S"/>etiam primi pro simplici: 'angelus est natura
+                        substantialis'. Una exemplum secundi: 'homo <lb ed="#S"/>est musicus,
+                        grammaticus'. Exemplum tertii: 'homo est animatus', 'homo est sapiens'. <lb
+                            ed="#S"/>Et ad primum exemplum adductum in propositione maioris, cum
+                        dicitur quod sapiens <lb ed="#S"/><unclear>unice[?]</unclear> significat cum
+                        dicitur 'Deus est sapiens' et 'angelus est sapi<lb ed="#S"/>ens'. Dico quod
+                        secundum doctrinam <ref><name ref="#Aristotle">Aristotelis</name> VII <title>Metaphysicae</title>
+                        per 21</ref>, sapiens, <lb ed="#S"/>sicut et album dupliciter habet significare,
+                        sed in <unclear>praedicatis[???]</unclear> habens
+                            <unclear>oculum[?]</unclear> ad <lb ed="#S"/><cb ed="#S" n="89rb"
+                        />aliquid de distincte facit venire ad mentem, dicit quod album solam
+                        qualitatem <lb ed="#S"/>significat, sed hic quod duplex. Unum quod per se
+                        significat illud quod suum abstractum. Et <lb ed="#S"/>aliud quo
+                            <unclear>concernit[?]</unclear> suppositum vel subiectum et eodem modo
+                        per omnia. Dico de hoc <lb ed="#S"/>concerto 'animatum' quoad primum
+                        significare concedo quod univoce significat, cum dicitur <lb ed="#S"/>de Deo
+                        et cum dicitur de homine et angelo, sicut et animatum, cum dicitur de <lb
+                            ed="#S"/>corpore hominis. Et cum dicitur de homine, secundo modo, non
+                        univoce, quia non est <lb ed="#S"/>unica concretio huic, inde ut patet in
+                        exemplo de animato respectu hominis <lb ed="#S"/>et respectu corporis. Et
+                        patet etiam per descriptiones aequivalentes huius concretis, <lb ed="#S"
+                        />unde quoad hoc posset poni hic a <unclear>vocabula[?nolo?a?]</unclear>
+                        fere consimilis illi quo <lb ed="#S"/>sanum a nolo?ce dicitur de animali de
+                            <unclear>urnia[?]</unclear> et de dieta, quia in <lb ed="#S"/>omnibus
+                        illis sanum univoce significat quoad principale significatum, sed non est
+                            <lb ed="#S"/>univoca concretio utrobique, quia tamen concreta eo modo
+                        significat sup<lb ed="#S"/>positum quo ipsum concernunt, si aliter
+                        concernunt ipsum, aliter et significant ipsum, sed <lb ed="#S"/>formam quam
+                        aliter significant quam suppositum uniformaliter significant. Et ideo non
+                            <lb ed="#S"/>est hic <unclear>univoca[?]</unclear> suppositi concretio,
+                        licet sit univoca formae significato utro<lb ed="#S"/>bique.</p>
+                    <p xml:id="b2-d6-q2-phs_jwc_cl">Ad secundum exemplum bene volo quod hoc
+                        concretum homo univoce <lb ed="#S"/>dicitur de Christo et aliis hominibus
+                        attendo ad univocationem quae <lb ed="#S"/>respicit principale significatum
+                        quicquid sic de concretione univoca et volo etiam <lb ed="#S"/>quod 'in
+                        quid' praedicatur de Christo, sicut de aliis hominibus, quia homo
+                            <unclear>nomen[?]</unclear>
+                        <lb ed="#S"/>Christus habet pro parte sui per se significati humanitatem,
+                        quae per se significatur per hoc <lb ed="#S"/>concretum homo dictum de
+                        Christo, sed non est simile de concreto sapientiae <lb ed="#S"/>dicto de Deo
+                        ex una parte et de angelo ex alia parte, quia ibi est <lb ed="#S"/>concreto
+                        alterius rei, licet formam vel sapientiam univoce important hic et ibi.</p>
+                    <p xml:id="b2-d6-q2-qhs_jwc_cl">Et per idem omnino ad tertium exemplum similiter
+                        et quartam exemplum bene volo quod <lb ed="#S"/>saltem ad univocationem
+                        actendum penes principale significatum sap<lb ed="#S"/>iens univoce
+                        praedicatu de sapientia dicendo sapientia est sapiens, sive <lb ed="#S"
+                        />subiectum stet pro Deo sive pro creatura. Sed tamen sive sit sive sit haec
+                        est per <lb ed="#S"/>accidens et non per se nec primo modo nec secundo
+                        dicendi per se, quia subiectum est <lb ed="#S"/>communis praedicatio et
+                        generaliter in propositione per se sive primo sive secundo modo oportet quod
+                        praedicatum <lb ed="#S"/>conveniat omnibus quibus convenit subiectum et quod
+                        sic praedicatio directam.</p>
+                    <p xml:id="b2-d6-q2-shs_jwc_cl">In secundo sensu principali quantumcumque posset
+                        secundum illam imaginationem impossibilem admitti quod <lb ed="#S"/>in
+                        altera parte in quas divisisti reserves aliquod per se individuum <lb
+                            ed="#S"/>aliquod huius conceptus abstracti deitas cui repugnat habere
+                        per se in<lb ed="#S"/>dividua alicuius rei cum ex secundo supra praemisso in
+                        principio sic nomen proprium in<lb ed="#S"/>dividuale vel saltem specificum
+                        sive conceptus proprius individualis vel saltem <lb ed="#S"/>specificus.</p>
+                    <p xml:id="b2-d6-q2-ths_jwc_cl"><lb ed="#S"/>Et praeterea, si tunc alteram
+                        partem velis vocare deitatem cum ista <lb ed="#S"/>pars non sit nata concipi
+                        proprio conceptu aliquo specifio vel individuali eius<lb ed="#S"/>dem
+                        rationis cum toto quod divisisti nomen deitatis aequivoce solum di<lb
+                            ed="#S"/>cetur de illa parte et de re quam divisisti per omnem modum,
+                        sicut nomen <lb ed="#S"/>humanitatis, si diceretur de toto homine et de
+                        anima hominis aequivoce <lb ed="#S"/>solum de illis diceretur, quia
+                        identitati nominis proprii corresponderet idem <lb ed="#S"/>conceptus.</p>
+                    <p xml:id="b2-d6-q2-vhs_jwc_cl">Et praeterea, si debeat remanere eadem
+                        propositio mentalis <lb ed="#S"/>tunc et modo cum eandem propositionem in
+                        talem oporteat componi ex eisdem <lb ed="#S"/>partibus mentalibus, oportet
+                        quod si propositio mentalis debeat manere e<lb ed="#S"/>adem modo factam
+                        illa positione vel correspondens huic vocabuli Deus est <lb ed="#S"/>sapiens
+                        quod solum significet per se quod divisisti et non aliquam partem <lb
+                            ed="#S"/>tantum et tunc <add place="margin">eum</add> illud totale
+                        significatum per subiectum habeat pro parte sua in<lb ed="#S"/>de illo
+                        subiecto iuxta prius probata et declarata bene tamen volo <lb ed="#S"/>quod
+                        tunc denominatio unius partis ab alia esset non 'in quid' sicut nec
+                        denominatio animae a subiecta vel corpore quod est altera pars ab anima
+                            in<lb ed="#S"/>formante ipsum.</p>
+                    <p xml:id="b2-d6-q2-whs_jwc_cl">Et secundum hoc ad formam argumenti, dicendum
+                        quod maior <lb ed="#S"/>supponit quod propositio mentalis maneat eadem tunc
+                        et modo. Et si <lb ed="#S"/>sic, esset quod tamen secundum veritatem non
+                        esset tunc. Maior posset admitti, sed <lb ed="#S"/>minor potest habere
+                            <unclear>tertius[?]</unclear> intellectus. [1] Unum intelligendo quod
+                        istis abstractis <lb ed="#S"/>deitas et sapientia <subst>
+                            <del>aliqua praedicata</del>
+                            <add place="margin">correspondent aliqua realiter</add>
+                        </subst> dicta ad primum sensus responsionis, et <lb ed="#S"/>tunc dicendum
+                        est sicut dixi in prima parte responsionis, et solus iste intellectus <lb
+                            ed="#S"/>reservat conceptum deitatis, sicut et naturam deitatis
+                        distinctam <lb ed="#S"/>totaliter ab illo individuo sapientiae quod ponitur
+                        inhaerere deitati <lb ed="#S"/>licet tunc, praeter individuum sapientiae,
+                        sit unum aliud individuum quod est <lb ed="#S"/>substantialiter illa deitas
+                        reservata.</p>
+                    <p xml:id="b2-d6-q2-zhs_jwc_cl">[2] Alius intellectus minoris posset esse <cb
+                            ed="#S" n="89va"/><lb ed="#S"/>quod istis vocabulis 'deitas' et
+                        'sapientia' correspondentur alia realiter distincta,
+                            <unclear>ista[?]</unclear>
+                        <lb ed="#S"/>tamen quod huic abstracto deitas non corresponderet idem
+                        conceptus qui <lb ed="#S"/>modo non posita illa positione, quia illo
+                        conceptus, qui de fact significat <lb ed="#S"/>deitatem vel illam rem, quae
+                        de fact Deus est, non plus potest significare <lb ed="#S"/>partem illius rei
+                        ipsa diversa in partes per impossibile quam possit <lb ed="#S"/>iste
+                        conceptus specificus humanitas qui de facto significat hominem significare
+                            <lb ed="#S"/>hominem. Et ideo ad illum intellectum summendo illud
+                        minoris minor repugnat ma<lb ed="#S"/>iori <lb ed="#S"/>supposito quod alia
+                        propositio mentalis maneat eadem, tunc et nunc, et <lb ed="#S"/>iterum falsa
+                        est et propter falsam implicationem qua supponitur quod factam positio<lb
+                            ed="#S"/>ne <lb ed="#S"/>conceptus specificus deitatis significaret
+                        alteram partem quod non est verum, quia <lb ed="#S"/>tanta repugnantia est
+                        quod illa pars significetur per conceptum deitatis <lb ed="#S"/>tamquam
+                        completum individuum illius conceptus sicut quod ille conceptus signi<lb
+                            ed="#S"/>ficet <lb ed="#S"/>'asinum' vel 'lapidem', immo breviter nec
+                        totum illud ima<lb ed="#S"/>ginatum, <lb ed="#S"/>nec aliquam eius partem
+                        significaret, quia et totum imaginatum et pars ima<lb ed="#S"/>ginata <lb
+                            ed="#S"/>esset alterius naturae quam deitas, sicut et conceptus deitatis
+                            spe<lb ed="#S"/>cificus <lb ed="#S"/>simplex vel individualis non potest
+                        significare nisi quale secundum <lb ed="#S"/>speciem nunc significat.</p>
+                    <p xml:id="b2-d6-q2-b3s_jwc_cl">Tertius intellectus qui solus esset plane
+                        rationalis illius <lb ed="#S"/>minoris esset potest quod factam illa
+                        divisione impossibili istis abstractis <lb ed="#S"/>deitas et sapientia
+                        correspondentur alia realiter distincta modo quo <lb ed="#S"/>totum et pars
+                        realiter distinguuntur, verbi gratia, homo et anima, ita <lb ed="#S"/>quod
+                        in isto intellectu completum per se significatum conceptus deitatis vel Dei
+                        quod est <lb ed="#S"/>idem penitus, sicut in omnibus concretis et suis
+                        abstractis, <lb ed="#S"/>sic totum includens illas partes in quas divisisti
+                        per impossibile <lb ed="#S"/>rem illam quae Deus est et quod alterius
+                        illarum partium esset per se individuum <lb ed="#S"/>conceptus sapientiae,
+                        qui conceptus non est specificus. Et ideo non re<lb ed="#S"/>pugnat sibi
+                        habere per se individua alterius rei quo sensu da<lb ed="#S"/>to minor falsa
+                        est, quia tunc <unclear>adhuc[?]</unclear> non obstante illa positione
+                        impossibili <lb ed="#S"/>et distinctione reali deitatis a sapientia vel a
+                        quolibet etiam individuo <lb ed="#S"/>sapientiae haec esset 'in quid', tunc
+                        sicut et nunc Deus est sapeins, sicut <lb ed="#S"/>non obstante distinctione
+                            <del>in</del> reali inter animam et hominem haec <lb ed="#S"/>est 'in
+                        quid' homo animatus et ratio utrobique est eadem, quia et hic <lb ed="#S"
+                        />et ibi concretum positum a parte praedicati est positum et mere absoltum
+                            <lb ed="#S"/>nihil, scilicet, attribuens illi quod denominat seu
+                        concernit nisi suum per se <lb ed="#S"/>significatum quod per se
+                        significatum est pars per se significati per subiectum vel est subiectaliter
+                            <lb ed="#S"/>et realiter ipsummet per se significatum subiecti.</p>
+                    <p xml:id="b2-d6-q2-e3s_jwc_cl">Ad probationem minoris, dicendum quod <lb
+                            ed="#S"/>licet tunc sapientia esset <del>tunc</del> accidens vel quod
+                        extrinsecum alteri parti non <lb ed="#S"/>tamen toti, sicut nec animam
+                        homini, licet corpori.</p>
+                    <p xml:id="b2-d6-q2-g3s_jwc_cl"><lb ed="#S"/>Secundo aliter[?} non quid
+                        principaliter <lb ed="#S"/>sed confirmando rationem praedicatum contra
+                            <unclear>secundum[??]</unclear> quam teneo sic: quod non <lb ed="#S"
+                        />praedicatur de conceptu per se tali perseitate quali
+                            <unclear>praedicatur[?]</unclear> de conceptu concre<lb ed="#S"/>to <lb
+                            ed="#S"/>diffiniti diffinitio vel pars diffinitionis non praedicatu de
+                        conceptu <lb ed="#S"/>Dei 'in quid', sed conceptus concreti attributales non
+                        sic praedicantur <lb ed="#S"/>de conceptu Dei. Igitur maior patet ex
+                        significato termini, quia nihil aliud intelligo per <lb ed="#S"
+                        />praedicationem 'in quid'. Minorem probat, quia diffinitio et pars eius sic
+                            praedica<lb ed="#S"/>tur <lb ed="#S"/>de conceptu simplici proprio
+                        diffiniti saltem in terminis concre<lb ed="#S"/>tis <lb ed="#S"/>quod sit
+                        per contradictionem esse distinctio realis correspondens ab<lb ed="#S"
+                        />stractis <lb ed="#S"/>illarum partium diffinitionis adhuc illa praedicatio
+                            <lb ed="#S"/>concreta esset 'in quid', igitur.</p>
+                    <p xml:id="b2-d6-q2-i3s_jwc_cl">Ad illud dicendum quod aliqui conceptus attri<lb
+                            ed="#S"/>butales <lb ed="#S"/>sunt mere absoluti, sed praeter hoc quod
+                        importent suam cogitationem <lb ed="#S"/>sui principalis significati ad
+                        suppositum quod concernunt, important, <lb ed="#S"/>seu dant intelligere
+                        illud suppositum quod concernunt habere habitudinem <lb ed="#S"/>ad aliquid
+                        extrinsecum, verbi hoc concretum iustum dictum de homine <lb ed="#S"/>vel de
+                        Deo praeter illam qualitatem hominis quae per se significatu nomine <lb
+                            ed="#S"/>iustitiae et concretionem illam qualitatis ad hominem ipsa
+                        informatum <lb ed="#S"/>importat habitudinem ad extrinsecum, quia iustitia
+                        est qua red<lb ed="#S"/>ditur <lb ed="#S"/>unicuique quod suum est et de
+                        talibus concretis attributionibus <lb ed="#S"/>habentibus respectum ad
+                        extrinseca concedendum est minor, et etiam conclusio illata <lb ed="#S"/>sed
+                        illid non sunt concreti conceptus mere absoluti de quibus est sermo in <lb
+                            ed="#S"/>proposito, nisi ista eadem significata absolutius conciperentur
+                        et significa<lb ed="#S"/>rentur <lb ed="#S"/>sic, scilicet, quod praeter
+                        principale significatum tantum importarent suppositum <lb ed="#S"/><cb
+                            ed="#S" n="89vb"/>concretive cui convenit per se significatum talis
+                        conceptus cuius in proposito supponitur <lb ed="#S"/>esset conceptus
+                        sapientiae vel intellectionis vel volitionis et hoc supposito ul<lb ed="#S"
+                        />terius <lb ed="#S"/>inquiritur an tales conceptus concreti verificentur de
+                        conceptu concreto Dei <lb ed="#S"/>per se primo modo. Et teneo quod sic
+                        propter causas praedictas.</p>
+                    <p xml:id="b2-d6-q2-k3s_jwc_cl">Et de talibus <lb ed="#S"/>responsio, si qui
+                        sint tales quod maior est vera et minor falsa. Et ad probationem <lb ed="#S"
+                        />minoris dico quod sic est in proposito quod et si per positum
+                            <del>impossibilem</del><add>possibilem</add>
+                        <lb ed="#S"/>et rationalem et saltem imaginatae, licet non verae conceptum
+                        Dei eumdem po<lb ed="#S"/>namus quod conceptibus abstractis deitatis et
+                        sapientiae correspondeant <lb ed="#S"/>res distinctae quod tamen una illarum
+                        erit totum respectu alterius sicut etiam <lb ed="#S"/>est de partibus
+                        diffinitionis, ideo conceptus concretus illius qui esset pars praedicaretur
+                            <lb ed="#S"/>per se primo modo de conceptu concreto proprio totius et
+                        tunc esset dicendum <lb ed="#S"/>tunc sicut et nunc Deus sapiens.</p>
+                    <p xml:id="b2-d6-q2-m3s_jwc_cl">Confirmatur<note type="marginalNote">Tertia
+                            Ratio S</note> adhuc prima ratio, <lb ed="#S"/>quia non minus ponitur
+                        impossibile quando ponitur <unclear>imagin??e[?]</unclear> quod in Deo,
+                        sicut distinctio <lb ed="#S"/>realis qualis est proportionaliter distinctio
+                        istorum conceptuum <unclear>substantiae[subiecte[??]</unclear> deitatis
+                            en<lb ed="#S"/>tis <lb ed="#S"/>propter quam quando ponitur distinctio
+                        realis qualis est istorum conceptuum dei<lb ed="#S"/>tas sapientia iustitia,
+                        sed non obstante illa positione impossibili ad<lb ed="#S"/>huc <lb ed="#S"
+                        />illo posito esset ista praedicatio 'in quid' Deus est
+                            <unclear>substantia[?]</unclear> Deus est <unclear>spiritus[?]</unclear>
+                        <lb ed="#S"/>Deus est ens, igitur similiter, si sapientia et iustitia in
+                        concreto praedicentur per <lb ed="#S"/>se eodem genere perseitatis
+                        sequeretur quod eadem positione posita esset ista praedicatio <lb ed="#S"
+                        />'in quid' Deus est sapiens quod falsum est.</p>
+                    <p xml:id="b2-d6-q2-o3s_jwc_cl">Dicendum quod minor est falsa ac<lb ed="#S"
+                        />cipiendo <lb ed="#S"/>a parte subiecti concretum abstracti praecise
+                        significantis illam partem <lb ed="#S"/>quam, tunc vocas deitatem, sicut nec
+                        ista est 'in quid' corpus vel habens <lb ed="#S"/>corpus est animatum, si
+                        tamen conceptus concreti per se significaret totum includens <lb ed="#S"
+                        />omnia illa, tunc quaelibet illarum esse 'in quid', id est, per se primo
+                        modo, sicut et <lb ed="#S"/>ista 'homo est animatus' et uniformaliter per
+                        omnia dicendum est de ista Deus est sa<lb ed="#S"/>piens sed de ista 'Deus
+                        est iustus' secutus est, ut praedixi.</p>
+                    <p xml:id="b2-d6-q2-q3s_jwc_cl">Item<note type="marginalNote">Quarta ratio
+                            S</note> confirmatur <lb ed="#S"/>prima ratio sic obligatus ad
+                            <unclear>suscipiendum[?]</unclear> alia contradictio solum tenetur
+                        concedere <lb ed="#S"/>sequens et negare repugnans, sed tamen ad
+                            <unclear>impertinentes[?]</unclear> habet respondere <lb ed="#S"
+                        />secundum sui obligationem, sed factam obligatione alicuius ad suscipiendum
+                            <lb ed="#S"/>hanc contradictionem de aliquo quod ipsum sic Deus, et
+                        tamen quod in ipso sint <lb ed="#S"/>tot res quot conceptus sunt de ipso
+                        probabiles adhuc ad illam <lb ed="#S"/>posset non est sequens quod ipsum non
+                        sit sapiens, quia convenit esset sapi<lb ed="#S"/>entem simplicibus et
+                        compositis et per consequens illa obligatione factam non <lb ed="#S"/>debet
+                        negari ipsum esset sapientem, sed concedendi et similiter 'Deum esse
+                            <unclear>substantiam[subiectam[?]'</unclear>, sed iste <lb ed="#S"/>duae
+                        non essent per se eodem genere perseitatis, igitur nec modo ex quo <lb
+                            ed="#S"/>idem ponitur utrobique.</p>
+                    <p xml:id="b2-d6-q2-r3s_jwc_cl">Dicendum<note type="marginalNote">Responsio
+                            S</note> sicut ad praecedens, quod si conceptus
+                            <unclear>subiecti[?]</unclear>
+                        <lb ed="#S"/>sit idem, tunc et nunc, quia aliter positio non reservat nullam
+                        deitatis, quia <lb ed="#S"/>diversa deitate in partes alterius rationis per
+                        impossibile nulla pars erit dei<lb ed="#S"/>tas, tunc conceptus subiecti
+                        habet pro per se significato illud quod includit omnia illa in quae <lb
+                            ed="#S"/>sit divisio per contradictionem.</p>
+                    <p xml:id="b2-d6-q2-u3s_jwc_cl">Item quinto<note type="marginalNote">Quinta
+                            ratio S</note> confirmatur <lb ed="#S"/>sic: haec non est formalis
+                            <unclear>consequentia[?]</unclear> 'Deus non est sapientia, igitur Deus
+                        non <lb ed="#S"/>est sapiens', quia sic teneretur in omni materia, igitur
+                        quantum eest de forma <unclear>consequentiae[?]</unclear>
+                        <lb ed="#S"/>oppositum consequentis stat cum antecedente, et per consequens,
+                        obligatus ad suscipiendum <lb ed="#S"/>quod non sic sapientia non habet
+                        concedere quod non sic sapiens et per consequens esse <lb ed="#S"/>sapientem
+                        praedicatur de Deo in quali non substantiali modo, sicut tunc.</p>
+                    <p xml:id="b2-d6-q2-w3s_jwc_cl">Responsio<note type="marginalNote">Nota
+                            Responsio S</note> quod <lb ed="#S"/>'consequentiam esse formalem'
+                        potest intelligi dupliciter.<note type="marginalNote">consequentia aliquam
+                            esse formalem potest intelligi dupliciter S</note> Uno modo quod similis
+                        modus <lb ed="#S"/>arguendi teneat in omnibus, et sic concedo quod ista
+                        consequentia non est formalis, <lb ed="#S"/>quia non in omnibus terminis ad
+                        negationem sapientiae in aliquo sequitur <lb ed="#S"/>negatio sapientis ab
+                        eodem, sicut accipit et bene si intellegeat quod secundum
+                            <del>naturam</del><add>nullam</add>
+                        <lb ed="#S"/>concretionem sapientiae sit sapiens.</p>
+                    <p xml:id="b2-d6-q2-y3s_jwc_cl">Alio modo quod in speciali materia tenet
+                        consequentia per <lb ed="#S"/>intellectum intrinsecum simpliciter
+                        necessarium, et sic est haec consequentia formalis, quia tenet per hoc <lb
+                            ed="#S"/>medium intrinsecum simpliciter necessarium impossibile est
+                        dictum esse sapientem sapientia <lb ed="#S"/>quae non est ipse alio modo quo
+                        ex alia parte haec consequentia est <lb ed="#S"/>necessaria per medium
+                        intrinsecum simpliciter necessarium homo vel anima non est sapiens <lb
+                            ed="#S"/>sapientia sibi inhaerente, igitur non est sapiens. Medium per
+                        quod tenet est <add place="margin">necessarium</add> quia <lb ed="#S"
+                        />impossibile est hominem esse sapientem, nisi per sapientam sibi in<lb
+                            ed="#S"/>haerentem, <lb ed="#S"/>sed isto modo consequentia formalis non
+                        distinguitur contra consequentiam bo<lb ed="#S"/>nam gratia materiae.</p>
+                    <p xml:id="b2-d6-q2-z3s_jwc_cl">Et ultra concedo quod quantum esset de forma <cb
+                            ed="#S" n="90ra"/><lb ed="#S"/>essentiali, quia posset indifferenter
+                        respicere quoscumque terminos oppositum consequentis <lb ed="#S"/>posset
+                        stare cum antecedente, sed forma specialis obstat, et ideo consequentia
+                            ul<lb ed="#S"/>terior non valet, quia obligatus etc., quia aliud obstat
+                        quam bonitas <lb ed="#S"/>formae generaliter in omnibus terminis
+                        consimiliter arguendi quo tamen consequente dato <lb ed="#S"/>adhuc ulterior
+                        consequentia non valet, ut patet ex praedictis falsum, tamen im<lb ed="#S"
+                        />plicatur, <lb ed="#S"/>scilicet, quod tunc praedicaretur hoc quod dico
+                        sapeins per accidens vel non <lb ed="#S"/>in quali substantiali, quia hoc
+                        non est verum, ut supra probatum fuit, <lb ed="#S"/>verbi gratia, quia
+                        obligatus ad suscipiendum quod angelus non sit vita, sed <lb ed="#S"
+                        />aliquid cuius vita sit pars, sicut 'homo est cuius anima est pars' <lb
+                            ed="#S"/>haberet bene negare istam consequentiam angelis non est vita,
+                        igitur an<lb ed="#S"/>gelus non est vivus, nec tamen propter illam
+                        obligationem habet concedere <lb ed="#S"/>quod esset unum et non praedicetur
+                        per se primo modo de angelo sicut <lb ed="#S"/>nec quin animatum praedicetur
+                        per se primo modo de homine.</p>
+                    <p xml:id="b2-d6-q2-bjs_jwc_cl"><lb ed="#S"/>Secundo<note type="marginalNote"
+                            >secunda ratio principalis</note> principialiter arguit <lb ed="#S"
+                        />sic, et stat <add place="margin">ratio</add>
+                        <rs>huius doctoris</rs> in hoc: quod hic non sit praedicatio 'in quid' et
+                            <lb ed="#S"/>per se primo modo 'Deus est sapiens', quia iuxta formam
+                        ultimo <lb ed="#S"/>praetactam, haec praedicatio modo est vera et nata
+                            <del>esset</del><add>est</add> esse vera quantum est ex <lb ed="#S"
+                        />formali consequentia terminorum si subiecta prima nec esset deitas nec
+                        pars deitatis, igitur <lb ed="#S"/>non est praedicatio 'in quid'. <del>quae
+                            requirit per consequentiam</del><add place="margin">Probatur
+                            consequentia, quia omnis praedicatio 'in quid' requirit per
+                            consequentiam formalem</add> quod res significata per prima, <lb ed="#S"
+                        />cum sit quidditas vel pars quidditatis rei significatae per subiectum,
+                        licet <lb ed="#S"/>non e converso, et ex hac affirmativa, sequitur haec
+                        universalis negativa, quod nulla praedicatio <lb ed="#S"/>est 'in quid' quae
+                        nata esset esse vera quantum est ex formali consequentia terminorum <lb
+                            ed="#S"/>si res significata per partum non esset quidditas nec pars
+                        quidditatis rei significatae <lb ed="#S"/>per subiectam sic est <add
+                            place="margin"><unclear>hic[?]</unclear></add>, igitur etc.</p>
+                    <p xml:id="b2-d6-q2-djs_jwc_cl"><lb ed="#S"/>Ad illud dicendum quod assumptum
+                        falsum est, licet <lb ed="#S"/>omni non sequatur de quolibet ipsum est
+                        sapiens, igitur sapientia est <lb ed="#S"/>ipsum vel pars ipsius, tamen
+                        sequitur optime gratia materiae 'Deus est sapiens, igitur <lb ed="#S"
+                        />sapientia est Deus vel pars Dei' et quoddammodo etiam formaliter pro eo
+                        quod formaliter sequitur <lb ed="#S"/>nulla sapientia est A, nec pars A,
+                        igitur A non est Deus, et ideo faciendo <lb ed="#S"/>formas posteriores, ubi
+                        aliqua illarum duarum <rs>illius doctoris</rs> propositio <lb ed="#S"
+                            /><unclear>num[?]</unclear> erit mairo et sumendo sub quod ita est hic
+                        erit minor falsa, <lb ed="#S"/>sicut fuit superius declaratum.</p>
+                    <p xml:id="b2-d6-q2-gjs_jwc_cl"><lb ed="#S"/>Tertio<note type="marginalNote"
+                            >tertia ratio principalis</note> arguit sic: per quid innotescit <lb
+                            ed="#S"/>quod conceptus relativus vel <unclear>connotivus[?]</unclear>
+                        rei extrinsece, sicut tacta praedicetur de <lb ed="#S"/>conceptu concreto
+                        deitatis in quali vel substantiali aut hoc concluditur per circum<lb ed="#S"
+                        />scriptionem impossibilem ponendo valet quod si talis esset distinctio
+                        realis in Deo <lb ed="#S"/>qualis est istorum conceptuum alterius rationis
+                        Deus et creatum vel suorum ab<lb ed="#S"/>stractorum quod tunc ad hoc
+                        creatum praedicaretur de conceptu deitatis in quali non <lb ed="#S"
+                        />substantiali, et tunc habetur propositum aut hic concluditur quod
+                        significat rem extrinsecam Deo <lb ed="#S"/>et hoc non sufficit, quia hoc
+                        est quod quaeritur. Quaeritur enim per quid inno<lb ed="#S"/>tescit quod
+                        conceptus significans Deum consignificando rem extrinsecam praedicatur <lb
+                            ed="#S"/>de conceptu Dei in quali.</p>
+                    <p xml:id="b2-d6-q2-ijs_jwc_cl">Dicendum<note type="summary">F: Unde habetur
+                            quod aliqua propositio sit per se primo modo et 'in quid' S</note> quod
+                        non primo modo, quia ista via non <lb ed="#S"/>valet de conceptibus
+                            <unclear>respectivis[?]</unclear> maixime ad extra, nec etiam hoc
+                            innotes<lb ed="#S"/>cit, quia praedicatum significat rem extrinsecam.
+                        Ita enim, cum dico 'homo est animal', <lb ed="#S"/>praedicatum significat
+                        rem extrinsecam, puta 'asinum' sed, quia consignificat rem extrinsecam <lb
+                            ed="#S"/>praeter suum principalee et per se significatum, quia res
+                        extrinseca non consignificatur per <lb ed="#S"/>subiectum. Unde oportet
+                        multum attendere ad conceptum subiecti, quid et qualiter significet. <lb
+                            ed="#S"/>Et semper, si praedicati significatum et modus praedicandi
+                        includatur in signficato et modo signifian<lb ed="#S"/>di subiecti
+                        aequivalenter, hoc arguit quod praedicatum aliquo modo 'in quid' praedicatur
+                        de conceptu <lb ed="#S"/>subiecti, verbi gratia,
+                            <unclear>exprimas[?]</unclear> illam rem, quae Deus est, et per
+                        conceptum <lb ed="#S"/>concretum Dei et deitas, Deus est
+                            <unclear>productus[?]</unclear> rei extra hoc, non est 'in quid' <lb
+                            ed="#S"/>quia praedicatum aliquid consignificat quod non significatur
+                        isto modo per subiectum nec simile. Sed <lb ed="#S"/>exprimas rem, quae Deus
+                        est in subiecto per istum conceptum creatam et deaits <lb ed="#S"/>quod
+                        causatum est productum in re extra hic est per se primo modo, quia licet <lb
+                            ed="#S"/>aliquid consignificetur per praedicatum quod non per subiectum;
+                        puta alia per se significata praedicati <lb ed="#S"
+                            /><unclear>tum[?]</unclear> per consimilem consignificationem habet
+                        subiectum qualem habet praedicatum et per se <lb ed="#S"/>significatum
+                        praedicati est vel includitur in per se significato subiecti et
+                        consignificatio <lb ed="#S"/>praedicati includitur aequivalenter in
+                        consignificatione subiecti.</p>
+                    <p xml:id="b2-d6-q2-ljs_jwc_cl">Item <unclear>demonstrationes[??]</unclear>
+                        <lb ed="#S"/>homine cui in est albedo, et dicas: hoc est colora, tum hoc non
+                            <lb ed="#S"/>est 'in quid'. Dicas hoc album est coloratum, hoc est 'in
+                        quid', <lb ed="#S"/>quia per se significatum paredicati includitur in per se
+                        significato subiecti et modus <cb ed="#S" n="90rb"/><lb ed="#S"/>concernendi
+                        praedicati continentur in modo concernendi subiecti. Unde igitur patet haec
+                            <lb ed="#S"/>non est 'in quid' Deus est <unclear>t?ats[?]</unclear>,
+                        quia aliud consignificatur extrinsecum per praedicatum <lb ed="#S"/>quod nec
+                        consignificatur per subiectum nec subiectum consignificat aliquod
+                        cosignificatum per praedicatum <lb ed="#S"/>haec est ratio infallibilis quod
+                        verbi hic reperitur <del>est</del> est praedicatio per se primo <lb ed="#S"
+                        />modo <unclear>naturam[nullam]?</unclear> ponendo circumscriptionem nec
+                        possibilem nec impossibilem.</p>
+                    <p xml:id="b2-d6-q2-njs_jwc_cl">Et cum <lb ed="#S"/>dicis quod: dicere quod
+                        praedicatum consignificat rem extrinsecam non sufficit <lb ed="#S"/>quia hoc
+                        est quod quaeritur quare, scilicet, tale connotativum non praedicatur 'in
+                        quid' <lb ed="#S"/>de conceptu concreto Dei, sed dato quod non. Responsio
+                        per hoc, scilicet, quod praedicatum <lb ed="#S"/>consignificat aliquid
+                        extrinsecum cum hoc, enim, staret quod esset per se primo modo, verbi
+                        gratia: <lb ed="#S"/>haec est 'in quid' tale factivum est activum, sed quia
+                        subiectum non consignificat consimiliter <lb ed="#S"/>extrinsecum sicut
+                        praedicatum.</p>
+                    <p xml:id="b2-d6-q2-pjs_jwc_cl">Contra tamen istam solutionem, quae multum
+                        pendet <lb ed="#S"/>ex prima conclusione positionis, potest obici quod
+                        conclusio non sit vera, <del>primo etc</del>
+                        <lb ed="#S"/>quia conceptus paternitatis non est quidditativo respectu
+                        deitatis, igitur nec conceptus <lb ed="#S"/>sapientiae
+                            <unclear>probo[?]conclusione</unclear>, quia non minus per conceptum
+                        paternitatis concipitur essentia divina quam per conceptum sapientiae, si
+                        igitur, ideo conceptus sapientiae sit quidditativus, <lb ed="#S"/>quia
+                        significat essentiam divinam, igitur conceptus paternitatis est
+                        quidditativus propter illud; <lb ed="#S"/>Maiorem probat doctor ille, quia
+                        sive sit distinctio inter essentiam et <lb ed="#S"
+                            /><unclear>re?nem[?]</unclear> sive non. Non est minor repugnantia quod
+                        per eundem conceptum con<lb ed="#S"/>cipiatur paternitats et non concipiatur
+                        essentia quam per eamdem visionem <lb ed="#S"/>videatur essentia non visa
+                        paternitate. Sed ibi est repugnantia secundum te, <lb ed="#S"/>igitur
+                        etc.</p>
+                    <p xml:id="b2-d6-q2-sjs_jwc_cl">Et hoc confirmatur, quia secundum illum
+                        respondentem non obstante <lb ed="#S"/>quacumque distinctione in
+                            <unclear>divinis[?]</unclear> non est alia possibilis visio per quam
+                            vi<lb ed="#S"/>deatur essentia non visa paternitate, igitur nec est
+                        aliquis conceptus possibilis <lb ed="#S"/>quo concipiatur essentia non
+                        concepta paternitate nec e contra. Et per consequens per conceptum <lb
+                            ed="#S"/>paternitatis concipitur tota essentialiter Dei, secundum hoc
+                        est conceptum esse quidditativum, <lb ed="#S"/>igitur conceptus paternitatis
+                        erit quidditativus; consequens falsum. Et confirmatur hoc <lb ed="#S"
+                        />iterum, quia ad hoc quod conceptus sit quidditativus aut sufficit quod
+                            signi<lb ed="#S"/>ficet <lb ed="#S"/>essentiam rei totam aut requiritur
+                        quod significatum essentiam per se et quidditative. <lb ed="#S"/>Si primum,
+                        igitur conceptus proprius patris in divinis esset conceptus quidditativus
+                            <lb ed="#S"/>deitatis, quia nec significat, nisi illud quod est
+                        deitas.</p>
+                    <p xml:id="b2-d6-q2-ujs_jwc_cl">Si 'secundum <unclear>quid'[?]</unclear> est
+                        significare <lb ed="#S"/>quidditative aut sit quod sit talis conceptus
+                        qualis est conceptus quiddi<lb ed="#S"/>tatus[??} qui significat quidditatem
+                        et nihil aliud sibi extrinsecum et adhuc <lb ed="#S"/>habetur propositum,
+                        quia conceptus proprius illius paternitatis non significat aliquid
+                        extrinsecum dei<lb ed="#S"/>tate, quia, licet Filius distinguatur realiter a
+                        Patre, non tamen a <unclear>distincte[??]</unclear>.</p>
+                    <p xml:id="b2-d6-q2-xjs_jwc_cl">Item non minus conceptus sapientiae probatur
+                        eodem modo, sicut praedicaretur, si esset <lb ed="#S"/>talis distinctio in
+                        Deo, qualis est conceptuum <unclear>qua[?]</unclear> conceptus concretus <lb
+                            ed="#S"/>paternitas praedicetur eodem modo, sicut praedicaretur, si
+                        distinctio esset in Deo <lb ed="#S"/>sibi correspondens, sed si distinctio
+                        esset in Deo correspondens utrobique non <lb ed="#S"/>plus esset conceptus
+                        concretus paternitatis quidditativus, igitur nec modo de <lb ed="#S"/>facto
+                        est conceptus concretus sapientiae magis quidditativus quam conceptus <lb
+                            ed="#S"/>paternitatis.</p>
+                    <p xml:id="b2-d6-q2-zjs_jwc_cl">Sed istis adhuc non obstantibus, teneo illud <lb
+                            ed="#S"/>quod prius quod conceptus concretus sapientiae praedicatur 'in
+                        quid', id est, per se primo modo <lb ed="#S"/>de conceptu deitatis concreto
+                        vel de A vel de pro nomine denominativo <lb ed="#S"/>illius rei, quae Deus
+                        est, quae supponitur esse simpliciter simplex, ita <lb ed="#S"/>quod idem
+                        simpliciter simplex sit <unclear>personae[?]</unclear> individuum omnium
+                        conceptuum <lb ed="#S"/>abstractorum positivorum et mere abstractorum
+                        verisimilium de Deo <lb ed="#S"/>aut enim hoc vel a est individuum per se
+                        cuiuslibet talium, et tunc <lb ed="#S"/>hoc vel A per se est significatum
+                        cuiuslibet talium, quia generaliter quodlibet su<lb ed="#S"/>perius positum
+                        et mere absolutum est per se signum cuiuslibet sive <lb ed="#S"/>per se
+                        individui vel enim cuiuslibet vel nullius aut hoc vel A <lb ed="#S"/>non est
+                        per se individuum cuiuslibet talium, et tamen quilibet et alium <lb ed="#S"
+                        />habeat Deum vel aliud in Deo pro suo per se individuo, igitur or<lb
+                            ed="#S"/>dinare aliud per se individuum alterius vel aliquod non
+                        formaliter idem <lb ed="#S"/>in re Deo vel formaliter distinctum, cuius
+                        oppositum est probatum in praecedenti <lb ed="#S"/>quaestione, scilicet,
+                        quod sapientia divina non plus distinguitur vel habet
+                                <unclear>coM?lentum[?]<lb ed="#S"/>que</unclear> non identiatem a
+                        parte rei a deitate quam deitas <lb ed="#S"/>a deitate vel sapientia a
+                        sapientia, igitur oportet ponere quod idem <lb ed="#S"/><cb ed="#S" n="90va"
+                        />penitus sit per se individuum, et per consequens per se significatum
+                        cuiuslibet <lb ed="#S"/>talium, sed illud quod aeque est per se individuum
+                        multorum conceptuum <lb ed="#S"/>abstractorum et aeque per se significatur
+                        per quaelibet illorum aeque essentialiter denomina<lb ed="#S"/>bitur a
+                        concreto unius talium, sicut ab alio. Igitur sicut A vel haec <lb ed="#S"
+                        />est per se primo modo Deus vel ens vel <unclear>spiritus[?]</unclear>, ita
+                        erit per se primo <lb ed="#S"/>modo sapiens vel intelligens vel volens ex
+                        quo <unclear>n[?non?]</unclear> A <lb ed="#S"/>non est minus essentialiter
+                        sapientia vel intellectio vel volitio quam deitas <lb ed="#S"/>vel entitas
+                        vel spiritus, nec minus per se significatur per talia abstracta non minus
+                            <lb ed="#S"/>per se erit sapiens quam vivens vel ens vel Deus, nulla
+                        enim ratio <lb ed="#S"/>poterit assignari quare non.</p>
+                    <p xml:id="b2-d6-q2-cks_jwc_cl">Et confirmatur, quia si in Deo, per im<lb
+                            ed="#S"/>possibile, distinguerentur, sicut partes quarum, nulla
+                        includeret aliam, <lb ed="#S"/>Substantialitas, spiritualitas, entitas,
+                        deitas, licet collectum <lb ed="#S"/>denominaretur per se primo modo a
+                        qualibet illarum partium, tamen haec non <lb ed="#S"/>esset, tunc plus 'in
+                        quid' <unclear>denominando[?demonstrando]</unclear> in Deo illud individuum
+                        entitatis <lb ed="#S"/>quod ibi poneretur distinctum ab aliis partibus, hic
+                        est Deus quam <lb ed="#S"/>hoc est animatum denominando corpus hominis, nec
+                        e contra denominando deitatem, <lb ed="#S"/>hoc est ens vel spiritus
+                        faciendo denominationem ab aliis parti<lb ed="#S"/>bus distinctis realiter
+                        et totaliter a deitate, igitur faciendo circumscrip<lb ed="#S"/>tiones
+                        impossibiles idem penitus accidet de concreto deitatis <lb ed="#S"/>sicut de
+                        concreto sapientiae, ita quod si significet per se unam partem <lb ed="#S"
+                        />ab omnibus aliis distinctam denominatio a concerto nullius <lb ed="#S"
+                        />aliarum partium erit per se primo respectu concreti deitatis. Si autem <lb
+                            ed="#S"/>significet totum ex omnibus, tunc a qualibet parte accipi
+                        poterit <lb ed="#S"/>concretum per se primo dictum de concreto Dei.</p>
+                    <p xml:id="b2-d6-q2-eks_jwc_cl">Item aliud est, per im<lb ed="#S"/>possibile,
+                        distinguere rem, quae Deus est in ista, quae infert et aliud <lb ed="#S"
+                        />rei, quae Deus est per impossibile aliquod accidens vel formam ipsum <lb
+                            ed="#S"/>informantem super inducere, igitur licet uniformaliter, quoad
+                        praedicationem 'in <lb ed="#S"/>quid' vel in quali facta divisione Dei in
+                        essentiam et sapientiam <lb ed="#S"/>quae in sunt vel sunt ipse de concreto
+                        Dei iam significante per <lb ed="#S"/>se idem quod includit vel est utrumque
+                        verificetur concretum cuiuslibet ta<lb ed="#S"/>lium, modo sicut tunc non
+                        tamen ex hoc habetur quod concretum sapientiae <lb ed="#S"/>vel alicuius
+                        alterius modo inclusi in per se significatio A vel Deo modo <lb ed="#S"
+                        />uniformaliter verificetur de conceptu concreto Dei vel de A, sicut
+                        diceretur, si <lb ed="#S"/>acciperetur a sapientia superveniente et
+                        accidentaliter inhaerente comple<lb ed="#S"/>to significato conceptus
+                        concreti Dei. Sed in hoc et nullo alio casum possibili <lb ed="#S"/>vel
+                        impossibili posito praedicaretur conceptus sapientiae non 'in quid' et vere
+                        de <lb ed="#S"/>conceptu concreto deitatis, igitur etc. Igitur non oportet
+                        quod modo non praedicetur per <lb ed="#S"/>se primo modo, licet tunc non
+                        faceret.</p>
+                    <p xml:id="b2-d6-q2-gks_jwc_cl">Item falsum est in
+                            <unclear>exemplis[?]</unclear> innumeris quod eodem modo sit propositio
+                        modo de facto vera per se 'in quid' vel <lb ed="#S"/>in quali sicut esset si
+                            <del>abstractis</del><add>abstractiis</add>
+                        <unclear>corresponderent[?]</unclear> res distinctae in <lb ed="#S"/>eodem
+                        et solum illa, nam ista vera est de facto per se. Secundo modo omne <lb
+                            ed="#S"/>ens est unum, omne ens est bonum, et sic de multis <lb ed="#S"
+                        />aliis, et tamen si distinctio realis corresponderet illis conceptibus vel
+                            <lb ed="#S"/>eorum abstractis in eodem supposito nulla illarum esset per
+                        se <lb ed="#S"/>secundo modo non plus quam ista ignis est calidus vel
+                            <unclear>iux[?]</unclear>
+                        <lb ed="#S"/>est alba vel cor?us est in?gi?, quia quaelibet talium de facto
+                        esset <lb ed="#S"/>contingens non solum, sicut ista est contingens, hoc est
+                            <lb ed="#S"/>animal, si praedicatum contingenter
+                            <del>praedicaretur</del> verificaretur de aliquo non obstante <lb
+                            ed="#S"/>quod subiectum verificaretur de eodem, sicut ad
+                            <unclear>constan?iam?[?]</unclear> subiecti vel significa<lb ed="#S"/>ti
+                        per subiectum non sequitur quod sibi conveniat praedicatum, igitur
+                            <unclear>etc.[??]</unclear>, esset per se primo <lb ed="#S"/>modo, nec
+                        secundo et tamen modo quaelibet illarum est per se secundo modo, igitur
+                        etc.</p>
+                    <p xml:id="b2-d6-q2-iks_jwc_cl">Item secundum artem illam, haec non esset 'in
+                        quid': 'Socrates est homo', 'homo est animal', <lb ed="#S"/>et ita de
+                        similibus, quia, si talis esset distinctio in rei, qualis est <lb ed="#S"
+                        />istorum conceptuum nulla istarum erit per se prius modo, igitur nec
+                        secundo <lb ed="#S"/>modo si enim in Socrate, ut iste frequenter accipit,
+                        distinguerentur <lb ed="#S"/>realiter Sorteitas et humanitas, ita quod
+                        neutra esset alia nec <lb ed="#S"/>pars alicuius et modo eodem in homine
+                        humanitas et animalitas <lb ed="#S"/><cb ed="#S" n="90vb"/>licet compositum
+                        ex Sorteitate et humanitate ex una parte esse 'in quid' <lb ed="#S"/>homo et
+                        ex alia parte compositum ex humanitate et animalitate esset in quid
+                        animalis, <lb ed="#S"/>tamen nec Socrates esset 'in quid' homo, nec homo 'in
+                        quid' animal, quia per se <lb ed="#S"/>significatum praedicati non
+                        includitur in per se significato subiecti, nec est illud isto <lb ed="#S"
+                        />posito non plus quam cum dico: corpus quod est alter pars ho<lb ed="#S"
+                        />minis <lb ed="#S"/>vel corporeum est animatum, sed secus est dicendo homo
+                        vel animal est animatum.</p>
+                    <p xml:id="b2-d6-q2-kks_jwc_cl">Propter haec et alia argumenta superius tacta
+                        pro conclusione <lb ed="#S"/>secunda, sicut prius, teneo quod haec est per
+                        se primo modo Deus est <lb ed="#S"/>sapiens.</p>
+                    <p xml:id="b2-d6-q2-lks_jwc_cl">Ad primum<note type="summary">G: Unde est quod
+                            hoc est 'in quid' Deus est sapiens et non hoc Deus est Pater. S</note>
+                        in contrarium superius hic adductum illam consequentiam <lb ed="#S"/>ego
+                        nego, sicut et istam quae similiter procedit conceptus Sorteitatis <lb
+                            ed="#S"/>non est quidditativus respectu hominis, igitur nec conceptus
+                        animati vel conceptus concretus <lb ed="#S"/>animae quod idem est. Et primo
+                            <unclear>conclusione[??]</unclear> non valet in modo arguendi, quia ecce
+                            <lb ed="#S"/>in simili non minus per conceptum Socratis vel Sorteitatis
+                        concretum <unclear>ince<lb ed="#S"/>ditur[?]</unclear> seu concipitur
+                        humanitas vel homo quam per conceptum animae, immo <lb ed="#S"/>multo plus,
+                        et tamen homo est animatus per se primo modo et non est <lb ed="#S"
+                        />Socrates per se primo modo, et sit in proposito, etiam secundum istum qui
+                        dicit, et in <lb ed="#S"/>hoc bene quod Pater se habet ad Deum, sicut
+                        Socrates ad hominem.</p>
+                    <p xml:id="b2-d6-q2-nks_jwc_cl">Ad <lb ed="#S"/>formam, igitur argumenti
+                        dicendum quod supponitur unum falsum, cum dicitur, si
+                            <unclear>igitur[?]</unclear>, ideo <lb ed="#S"/>conceptus sapientiae sit
+                        quidditativus respectu deitatis, quia significat essentiam divinam <lb
+                            ed="#S"/>etc., ista enim non est causa sufficiens, quia tunc conceptus
+                        proprius et <lb ed="#S"/>simplex Socrates esset conceptus quidditativus
+                        humanitatis communiter expresse <lb ed="#S"/>et conceptus hominis albi esset
+                        conceptus hominis quidditativus, et multa falsa alia <lb ed="#S"
+                        />sequerentur. Sed causa est, quia conceptus sapientiae et conceptus
+                        deitatis idem <lb ed="#S"/>omnimode est per se individuum, et tamen hoc
+                        conceptus sapientiae est communior conceptu <lb ed="#S"/>deitatis, ita ut
+                        sit ibi praedicatio directa, et licet alia a deitate <lb ed="#S"
+                        />significet, non tamen aliquid extrinsecum consignificat non plus quam
+                        conceptus deitatis. <lb ed="#S"/>Ideo deitas est 'in quid' sapientia per se,
+                        sed individuum conceptus paternitatis, <lb ed="#S"/>id est, pro quo supponit
+                        quatenus exprimitur per vocabulum paternitatis <lb ed="#S"/>et per se
+                        individuum conceptus deitatis quatenus exprimitur per hoc voca<lb ed="#S"
+                        />bulu <lb ed="#S"/>deitas non sunt invicem omnimode et adaequate idem, <lb
+                            ed="#S"/>sicut ex parte alia, cum deitas sit aliquid quod paternitas non
+                        est: <lb ed="#S"/>puta Filius. Et per consequens non foret etiam praedicatio
+                        directa dicendo quod dei<lb ed="#S"/>tas est paternitas, sed potius e
+                        converso, ideo etc.</p>
+                    <p xml:id="b2-d6-q2-oks_jwc_cl">Per hoc, patet quod <lb ed="#S"/>prima
+                        propositio illius assumpti <unclear>non[?]</unclear> minus per conceptum
+                        paternitatis concipitur <lb ed="#S"/>deitas quam per conceptum sapientiae,
+                        cum prima confirmatione eiusdem probationis <lb ed="#S"/>non sunt contra
+                                <seg>me<desc>can't tel if me is expunctuated here</desc></seg>, quia
+                        non nego illud assumptum, sed tamen dico quod ex <lb ed="#S"
+                            /><unclear>superlumidantie[???]</unclear> quod non ita supponit
+                        conceptus paternitatis, ut expressus <lb ed="#S"/>hoc vocabulo pro eodem pro
+                        quo per se supponit conceptus deitatis, <lb ed="#S"/>sicut factit conceptus
+                        sapientiae, quia breviter conceptus paternitatis
+                            <unclear>quotenus[?]</unclear> ex<lb ed="#S"/>pressus per hoc vocabulum
+                        paternitas non est natus in propositione af<lb ed="#S"/>firmativa supponere
+                        pro deitate communi <unclear>par?is[?]</unclear>, ut alias declara<lb
+                            ed="#S"/>bitur <lb ed="#S"/>in materia de trinitate illud tamen hic non
+                        addidi, ut causam quare <lb ed="#S"/>deitas non sit 'in quid' paternitas,
+                        quia tenebo conversam tamquam <lb ed="#S"/>mihi
+                            <unclear>probabilitatem[?]</unclear> quod paternitas est 'in quid'
+                        deitas, et tamen quod in habet <lb ed="#S"/>praedicatum et subiectum non
+                        supponit pro eodem.</p>
+                    <p xml:id="b2-d6-q2-qks_jwc_cl">Ad secundum<note type="marginalNote">ad
+                            secundum</note> bene volo quod <lb ed="#S"/>quod conceptus paternitatis
+                        sit conceptus quidditativus, etiam ut expressus vocabulo paterni<lb ed="#S"
+                        />tat, quia aliquod suum per se significatum est 'in quid' paternitas, sed
+                        propter <lb ed="#S"/>hoc non sequitur quod deitas sit 'in quid' paternitas,
+                        sed est falsa consequentis, <lb ed="#S"/>quia iste conceptus habet multa per
+                        se significata: puta qualibet <unclear>personarum[?]</unclear> quarum <lb
+                            ed="#S"/>nulla potest separatim ab alia intelligi vel concipi. Et ideo
+                        ille conceptus <lb ed="#S"/>est communis, licet non
+                            <unclear>do??itate[?]</unclear> universalitatis proprie sumptae, sicut
+                            ali<lb ed="#S"/>as declaravi, quia tamen ille conceptus potest in
+                        supponendo summi pro omni<lb ed="#S"/>bus simul vel pro qualibet
+                        singillatim, ac si praecise illam significaret, <lb ed="#S"/>et propter hoc
+                        praedicando illum pro Patre solo et subiciendo illum in <lb ed="#S"
+                        />propositione pro communi deitate ista erit praedicatio indirectam, et per
+                        consequens <lb ed="#S"/>non quidditativa, sicut si dicam: 'homo est
+                        Socrates', ex quo patet <lb ed="#S"/>quod tota illa ratio laborat in vanum
+                        supponens vel quod <lb ed="#S"/><cb ed="#S" n="91ra"/>conceptum significare
+                        totam deitatem infert illum esse conceptum quidditativum vel fn?<lb ed="#S"
+                        />pluri quod conceptus paternitatis et praecise sumptus <add place="margin"
+                            >pro</add> proprietate paterna non sit quidditativus <lb ed="#S"/>quod
+                        non est verum, quia <unclear>primum[?]</unclear> suppositum est 'in quid',
+                        id est, per se primo modo. Nam sit <lb ed="#S"/>tam iste Doctor quam ego
+                        loquimur de praedicatione 'in quid' Pater vel pater<lb ed="#S"/>nitas vel A
+                        sit A, nomen proprium illius primae <unclear>peralitatis[?]</unclear> ille
+                        tamen <lb ed="#S"/>conceptus paternitatis quid secundum veritatem est
+                        significative conceptus <lb ed="#S"/>totius trinitatis est in quam ut
+                        sumptus praecise pro Patre non <lb ed="#S"/>convenit quidditative deitati,
+                        conceptus enim humanitatis est conceptus quidditativus, <lb ed="#S"/>et
+                        tamen haec non est quidditativa praedicatio animalitas est humanitas quam<lb
+                            ed="#S"/>vis vera et hoc, quia praedicatio in directa et consimiliter
+                        est in <lb ed="#S"/>propositio quo ad illud.</p>
+                    <p xml:id="b2-d6-q2-sks_jwc_cl">Ad tertium<note type="marginalNote">Ad
+                            tertium</note> per idem dicendum quod utrique conceptus <lb ed="#S"/>tam
+                        spaientiae quam paternitatis esset, <unclear>tunc[?]</unclear> etiam
+                        quidditativus, si quod tunc non est <lb ed="#S"/>verum imaginetur proprius
+                        conceptus et simplex paternitatis <unclear>retinere[?]</unclear>
+                        <lb ed="#S"/>sibi suum proprium significatum quale nunc habet, sed licet tam
+                        conceptus essentiae <lb ed="#S"/>quam conceptus paternitatis quam etiam
+                        omnis conceptus fere catholicus <lb ed="#S"/>praecise, qui sit
+                            <unclear>nomen[?]</unclear> sit quidditativus, tamen oportet bene
+                        attendere respectu cuiius <lb ed="#S"/>et qualiter expressi quod si deitas
+                        in proposito respectu deitatis minor <lb ed="#S"/><unclear>r?[?]</unclear>
+                        huius falsa est, sicut superius est ostensum, quia tunc ad hoc, si <lb
+                            ed="#S"/>aliquid esset deitas ipsum esset 'in quid' sapientia vel habens
+                        sapientiam <lb ed="#S"/>partem sui alioquin ipsum non esset essentialiter
+                        deitas neque Deus ex <lb ed="#S"/>superius decleratis nam aliquid ponere non
+                        esse essentialiter et quidditative <lb ed="#S"/>sapiens est ita inprimis
+                        ponere illud non esse Deum sicut po<lb ed="#S"/>nere illud non esse Deum,
+                        sicut ponere aliquid non esse essentialiter et quidditative <lb ed="#S"/>id
+                        est per se primo modo animatum est ponere in <unclear>personis[?]</unclear>
+                        illud non est animal.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
