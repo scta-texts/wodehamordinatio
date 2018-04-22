@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Book 1, Distinctio 17, q. 6 [Sorbonne Transcription]</title>
+                <author xml:id="AW">Adam Wodeham</author>
+                <editor xml:id="JW">Jeffrey C. Witt</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2014.01">
+                    <title>Book 1, Distinctio 17, q. 6 [Sorbonne Transcription]</title>
+                    <date when="2014-01-17">January 17, 2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Lombard Press</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2014-01-17">January 17, 2014</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
+        <body>
+            <div xml:id="b1-d17-q6">
+                <head>Book 1, Distinctio 17, q. 6 [Sorbonne Transcription]</head>
+                               
+               <p><lb ed="#S"/><hi rend="fourLineDropCap">S</hi>exto circa distinctionem 17 primi libri et principium libri 3ii <g ref="#dot"/> quaero 
+                   <lb ed="#S"/>utrum omnis <corr><add place="inLine" hand="different">bonus motus voluntatis</add></corr> meritorie augmentius[?] 
+                   <lb ed="#S"/>caritatis ad quae homo tenetur debeat vel possit ex 
+                   <lb ed="#S"/>caritate procedere collata ex merito redemptoris</p>
+                
+                <p><lb ed="#S"/>videtur quod non <g ref="#dot"/> quia qui est <choice><orig>inperfectio</orig><reg>imperfectio</reg></choice> mortali tenetur optare primam gratiam 
+                    <lb ed="#S"/>qua caret et talis actus non potest procedere a caritate quia nullus <corr><g ref="#carrot"/><add place="marginCenter"><g ref="#carrot"/>non</add></corr> ca<lb ed="#S"/>rens 
+                    gratiam desiderat rationabiliter gratiam quia desideratum est respectu non 
+                    <lb ed="#S"/>habiti in carente autem gratia nullus modus caritatis a caritate seu gratia 
+                    <lb ed="#S"/>procedit nec potest procedere dum gratia sic carebit</p>
+                
+                <p><g ref="#pilcrow"/>praeterea tunc homo 
+                    <lb ed="#S"/>ut videtur teneretur ad sibi <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> quia si homo tenetur operari 
+                    <lb ed="#S"/>ex caritate vel ex tota sua caritate vel ex parte suae caritatis 
+                    <lb ed="#S"/>et <choice><orig>2m</orig><reg>secundum</reg></choice> dari non potest rationabiliter quia non esset maior ratio quod te<lb ed="#S"/>neretur 
+                    <lb ed="#S"/>operari ex una parte suae caritatis quam ex alia vel igitur ex 
+                    <lb ed="#S"/>qualibet parte vel ex nulla et si ex qualibet parte igitur ex totalis 
+                    <lb ed="#S"/>ex maxima sua et hoc non est sibi possibile quia opus ex maxima 
+                    <lb ed="#S"/>sua caritate proveniens faceret meritorie ad augmentum caritatis 
+                    <lb ed="#S"/>dum primo est et per consequens caritatis ex qua procedit illud opus non 
+                    <lb ed="#S"/>erat illius maxima caritas igitur <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> est illi operari meritorie 
+                    <lb ed="#S"/>ex maxima sua caritate et pari ratione ex nulla sua caritate 
+                    <lb ed="#S"/>poterit mereri si enim caritas faceret per se loquendo ad meritum 
+                    <lb ed="#S"/>maxima caritas maxime faceret ad meritum iuxta consequentiam <ref><name ref="#Aristotle">philosophi</name> 
+                    <lb ed="#S"/>in prologo <title ref="#Metaphysics">metaphysicae</title></ref> qui scire inquit propter se desiderat maximum 
+                    <lb ed="#S"/>scire maxime desiderabit</p>
+                
+                <p><g ref="#pilcrow"/>praeterea omnes praesentes tenentur habere 
+                    <lb ed="#S"/>pietatem naturalem ad filios et filii ad parentes sed talis motus 
+                    <lb ed="#S"/>pietatis naturalis non procedit ex caritate igitur maior patet per <ref><name ref="#Paul">apostolum</name> 
+                        <title ref="#ITimothyEpistle">prima ad thimotheum</title> 5</ref> <quote>si quis inquit suorum et maxime domesti<lb ed="#S"/>corum 
+                        <corr><add place="marginLeft" hand="different">curam non habet fidem negavit et infideli deterior est</add></corr></quote> qui tam domestici sunt ut parentes filiis vel parentibus 
+                    <lb ed="#S"/>filii ideo <name>magister</name> ipse sanctorum insinuans quod propriis filiis cura 
+                    <lb ed="#S"/><choice><orig>inpendenda</orig><reg>impendenda</reg></choice> est a parentibus de se ipso exemplum constituit quando 
+                    <cb ed="#S" n="112vb"/><lb ed="#S"/>de cruce matrem <name>iohanni</name> commendavit et alterium per se quodammodo 
+                    <lb ed="#S"/>filium li[?] ei providit <g ref="#dot"/> haec gloria <g ref="#dot"/> minor patet per <ref><name ref="#GregoryGreat">beatum gregorium</name> in omelia 
+                    <lb ed="#S"/>de ap?us</ref> sunt enim non nulli qui diligunt proximos etc sequitur igitur conclusio 
+                    <lb ed="#S"/>quod non omnes bonus modus ad quem homo tenetur procedit ex caritate</p>
+                
+                <p><g ref="#pilcrow"/>ad oppositum dicit <name ref="#GregoryGreat">gregorius</name> quidquid praecipitur in sola caritate solidatur ut 
+                    <lb ed="#S"/>enim multi arborum rami etc sed homo ad nihil tenetur nisi ad illud 
+                    <lb ed="#S"/>quod sibi praecipitur igitur omne illud ad quod homo tenetur debet ex caritate pro<lb ed="#S"/>cedere 
+                    seu gratia collata merito salvatioris <quote xml:id="b1d17q6-Qqlppic">quia lex per <name ref="#Moses">moy<lb ed="#S"/>sen</name> 
+                    data est gratia et veritas per <name>ihesum christum</name></quote> <ref corresp="#b1d17q6-Qqlppic"><title>Ioannes</title> 1</ref></p>
+                    
+                <p><g ref="#pilcrow"/>In 
+                    <lb ed="#S"/>ista quaestione primo ponam conclusionem tenendam <choice><orig>2o</orig><reg>secundo</reg></choice> movebo dubia et solvam</p>
+                
+                <div>
+                    <head>Articulus primus</head>
+                <p><g ref="#pilcrow"/>De 
+                    <lb ed="#S"/>primo articulo dico quod omnis bonus modus volentis per quem meritorie au<lb ed="#S"/>getur 
+                    caritas capit esse a caritate et saltem habet a caritate quod sic meri<lb ed="#S"/>torius 
+                et quod omnis motus talis secundum speciem potest a caritate mediante vel 
+                    <lb ed="#S"/>immediate procedere</p>
+                    
+                    <p><g ref="#pilcrow"/>Ista conclusio satis patet per argumentum principale ad partem 
+                        <lb ed="#S"/>oppositam quaestionis et auctoritates multas <ref><name ref="#Augustine">augustinus</name> <title>contra iulianum</title></ref> et <ref><title>contra 
+                        <lb ed="#S"/>pelagianos</title></ref> quas ponit <ref><name ref="#Lombard">magister</name> libro 2 distinctione 26</ref> et multas similes 
+                        <lb ed="#S"/>auctoritates quibus originalia plena sunt unam capio quae habetur 
+                        <lb ed="#S"/>ibi c 2 et est au?us[?] <title>ad bonifatium papam<desc>contra duas epistulas pelagianorum ad bonifatium papam</desc></title> non gratiam dei inquit 
+                        <lb ed="#S"/>aliquid meriti praecedit humanum sed ipsa meretur augeri ut aucta 
+                        <lb ed="#S"/>mereatur et perfici voluntate commitante non ducente pedisse 
+                        <lb ed="#S"/>qua non pravia ubi addit materialiter ecce ibi expresse habens quod gratia 
+                        <lb ed="#S"/>provenit bonae voluntatis meritum etc et ita gratia nobis provenit ex 
+                        <lb ed="#S"/>merito redemptoris quia ubi a ca[?] f[?] est et h[?] in no[?] et vi[?] glo[?] eius 
+                        <lb ed="#S"/>et glo[?] q[?] b a patre ple g et ubi[?] <ref><name>Ioannes</name> primo</ref> et sequitur et de plenitudine 
+                        <lb ed="#S"/>eius omnis accepius gratiam pro gratia quia lex per <name ref="#Moses">moysem</name> etc</p>
+                    
+                    <p><g ref="#pilcrow"/>dices 
+                        <lb ed="#S"/>forte quod ante incarnationem et per consequens non solum per gratiam nobis collatam 
+                        <lb ed="#S"/>ex merito redemptoris fuerunt meriti patres electi in caritate et in 
+                        <lb ed="#S"/>gratia et meritorie m?ta[?] egerunt ex gratia igitur talis gratia non solum confirmatur 
+                        <lb ed="#S"/>ex merito christi</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod solum ex merito christi <corr><g ref="#carrot"/><add place="marginRight">id est non sine illo</add></corr> fuit ita eorum gratia simpliciter 
+                        <lb ed="#S"/>gratia quia nec reddidit simpliciter dignus vita aeterna perseipsam 
+                        <lb ed="#S"/>sed per futurum meritum redemptoris quia sine illo numquam sed dei 
+                        <lb ed="#S"/>decretum fuit obtenta vita aeterna dubio[?dico] etiam quod nec oportet quod omnis 
+                        <lb ed="#S"/>actus meritorius secundum esse proceat a gratia quia non motus pietatis erga 
+                        <lb ed="#S"/>parentes quanod homo accidentaliter non cogitat de deo nec de prae<lb ed="#S"/>ceptis 
+                        eius et tamen pie credibile est quod in persona habente talitatem talem 
+                        <lb ed="#S"/>deus acceptat bonos modus ex <corr><add place="marginRight">genere ita quod motus ex</add></corr> caritate <corr><del>talis motus</del></corr> sit meri<lb ed="#S"/>torius 
+                        licet ab ea secundum esse non procedat</p>
+                    
+                    <p><g ref="#pilcrow"/>ad hoc faciunt supra 
+                        <lb ed="#S"/>allegatae auctoritates quidquid praecipitur ex sola caritate etc et illud nihil habet 
+                        <lb ed="#S"/>viriditas ramius boni etc non dicunt tales auctoritates si non 
+                        <lb ed="#S"/>procedit secundum esse a caritate sed si non manet in radice caritatis hoc <corr><g ref="#carrot"/><add place="marginRight">et</add></corr> 
+                        <lb ed="#S"/>Similiter ad hoc factit quod idem actus numero qui primo est non meritorius 
+                        <lb ed="#S"/>sic per adventum caritatis meritorius vel sit potest esse sit enim dicunt 
+                        <lb ed="#S"/>doctores non milli quod motus bonae actionis existentis immorta<lb ed="#S"/>li 
+                        quandoque per adventum gratiae sacramentalis et quandoque per adventum 
+                        <lb ed="#S"/>gratiae pravae scramento fit concreto inpenitentibus fit meritorius ille 
+                        <lb ed="#S"/>autem actus qui secundum esse procedit gratiam ab ita secundum esse non procedit 
+                        <lb ed="#S"/>contra tamen illud stat difficultas si argumenti principalis</p>
+                    
+                    <p><g ref="#pilcrow"/>Et sic illud primum 
+                        <lb ed="#S"/>dubium 2i articuli qui si caritas reddit aliquem actum meri<lb ed="#S"/>torium 
+                        qui tamen ab ita non procedit tunc quisque mereretur per suam 
+                        <lb ed="#S"/>maximam caritatem pro instanti quo noviter meretur consequens falsum quia si 
+                        <lb ed="#S"/>noviter meretur per illam ipse noviter meretur eam augeri et si hoc 
+                        <lb ed="#S"/>igitur noviter augeretur et si haec data caritas non erit sua max<lb ed="#S"/>ima 
+                        caritas quam hic habet</p>
+                    
+                    <p><g ref="#pilcrow"/>consequentiam probo quia sua maxima 
+                        <lb ed="#S"/>caritas componitur ex illa quae praesuit usque nunc et ex illa 
+                        <lb ed="#S"/>quae nunc primo convenit et utramque li?arum noviter nunc mere<lb ed="#S"/>retur 
+                        et quia ista quae praefuit et quae principiat actum suum dat 
+                        <lb ed="#S"/>sibi partialiter quod sic et quod sit meritorius et quae nunc prius accrescit dat 
+                        <lb ed="#S"/>sibi quod sic magis meritorius quam esset sine ista quia nisi illa 
+                        <lb ed="#S"/>reddat actum alias bonum acceptum et deo gratum non est 
+                        <cb ed="#S" n="113ra"/><lb ed="#S"/>alia ratio quod unquam reddat actum meritorium quem non principiat 
+                        <lb ed="#S"/>caritas contra dicta</p>
+                    
+                    <p><g ref="#pilcrow"/>hic primo respondebo quod similis prima facie oc<lb ed="#S"/>currit difficultas ponentibus quod omnes actus meritorius procedit secundum esse 
+                        <lb ed="#S"/>a caritate quia voluntas ex caritate praehabita eliciens actum meritorium meretur 
+                        <lb ed="#S"/>augmentum suae caritatis per istum actum et caritas augmentata si est 
+                        <lb ed="#S"/>naturale conprincipium actus meritorii auget istum et iste <choice><orig>2us</orig><reg>secundus</reg></choice> actus 
+                        <lb ed="#S"/>reaugebit caritatem et sit sine fine sed quia ad istum sensum est 
+                        <lb ed="#S"/>in suo simili distinctione 3 in materia de <choice><orig>ymagine</orig><reg>imagine</reg></choice> de muta creatione actus 
+                        <lb ed="#S"/>ab habitu et econtra ideo quo ad istud dicitur ad istas fantasias quas 
+                        <lb ed="#S"/>ibi circa hoc posui cum sic hic et ibi totaliter simile recurratur sed 
+                        <lb ed="#S"/>quia praesens punctus est isto difficilior secundum aliquid ideo oportet aliquid proprium 
+                        <lb ed="#S"/>hic puncto dicere si solvetur et quantum pro nunc occurrit oportet alterum 
+                        <lb ed="#S"/>illorum dicere vel primo secundum istam viam ubi supra prsecutam quod ac<lb ed="#S"/>tus 
+                        apponit habitui et econtra sine ultimo <choice><orig>alico</orig><reg>aliquo</reg></choice> hinc inde aliquid 
+                        <lb ed="#S"/>efficeintae ex utraque parte scilicet in habentibus acquisitis et eorum actibus et 
+                        <lb ed="#S"/>hoc ex una parte per viam meriti solummodo et tamen utrique pro<lb ed="#S"/>cessus 
+                        sistitur ad finitum quia crementum decrescit ex utroque la<lb ed="#S"/>tere 
+                        sicut[?] ibi quamvis utrobique concurrat ex duplici tam promo<lb ed="#S"/>tiva 
+                        tam actus quam habitus caritatis quia actus est meritorius tam 
+                        <lb ed="#S"/>quia processit a caritate quam qui est bonus actus ex genere personae 
+                        <lb ed="#S"/>caro</p>
+                    
+                    <p><g ref="#pilcrow"/>Similiter etiam habitus crescit ex valore actus tum[?] quia actus valet 
+                        <lb ed="#S"/>causa ex hoc quod procedit a caritate quam ex hoc quod est habitus caritatem 
+                        <lb ed="#S"/>ex genere actus bonus et sic sine termino decrescendo tamen vel oportet[?] 
+                        <lb ed="#S"/>ut videtur secundo dicere secundum aliam viam ibi similiter prosecutam quod cari<lb ed="#S"/>tas 
+                        quae nunc accrescit ex merito nullo modo nunc primo posito non apponit 
+                        <lb ed="#S"/>aliquid secundae actus ita quod actus ex nova ista portione caritatis 
+                        <lb ed="#S"/>in nulla sua nulla tenus augmentatur et tunc ulterius vel oportet dicere quod 
+                        <lb ed="#S"/>portio caritatis tunc acrescens reddit actum qui ab ea secundum nihil 
+                        <lb ed="#S"/>sui procedit magis meritorium quam esset sine ista portione addita 
+                        <lb ed="#S"/>per solam priorem caritatem ex qua actus ille simul et voluntate active pro<lb ed="#S"/>cessit 
+                        et tunc ultra cum actus iste factus magis meritorius faciat 
+                        <lb ed="#S"/>debere magis <corr><del>meritorium</del></corr> praemium essentiale in ce?o[?] et ado[?] proportionaliter 
+                        <lb ed="#S"/>meritorie faciat maiorem gratiam in via quia semper praemium debi<lb ed="#S"/>tum 
+                        in patria proportionaliter gratiae viae et econtra ita quod numquam ex qua<lb ed="#S"/>cumque 
+                        causa argumentatur meritorie praemium <corr><g ref="#carrot"/><add place="marginLeft">debitum<g ref="#carrot"/></add></corr> quin et hic gratia et econtra sequitur 
+                        <lb ed="#S"/>quod erat ita talis mutua reflexio sine fine ex una parte 
+                        <lb ed="#S"/>in c?emeto[?] valoris actus in ratione meriti sine hoc quod in <choice><orig>alico</orig><reg>aliquo</reg></choice> 
+                        <lb ed="#S"/>ioca[?] crescat in entitate actus isto et ex parte alia in cremento 
+                        <lb ed="#S"/>caritatis secundum esse vel oportet dicere secundum hanc fantasiam principalem ubi supra 
+                        <lb ed="#S"/>prosecutam quod ex quo actus non cresceret in substantai per por<lb ed="#S"/>tionem 
+                        caritatis ratione actus illius accrescentis priori caritati secundum hanc 
+                        <lb ed="#S"/>partem responsionis vel quod haec portio non reddit hanc ac<lb ed="#S"/>tum 
+                        magis meritorium quam fuisset sine ipsa per praetestatem vel si haec por<lb ed="#S"/>tio 
+                        reddat hunc actum magis meritorium quam fuisset sine ipsa 
+                        <lb ed="#S"/>per priorem cum non econtra per hoc quod actus solus redditur isto 
+                        <lb ed="#S"/>modo magis meritorius non crescit ista caritas quia tunc cum totum 
+                        <lb ed="#S"/>praenderet[?] ex ipsa praecise per se ipsam cresceret sine fine quod non videtur 
+                        <lb ed="#S"/>rationale et mihi penalis[?] magis placet inter tres <choice><orig>ymagines</orig><reg>imagines</reg></choice> iam positas</p>
+                    
+                    <p><g ref="#pilcrow"/>Contra enim ultimum est illud quod pratactum est quod si maius praemi<lb ed="#S"/>um 
+                        debetur huic personae huic personae <corr><del rend="underline">huic etiam statim </del><add place="marginLeft">huic etiam habitui</add></corr> eius ratione huius portionis 
+                        <lb ed="#S"/>quam sine ista deberetur tunc ut videtur cresceret praemium <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>debitum in caelo</add></corr> sine cremento 
+                        <lb ed="#S"/>gratiae hic in via quod non solet dari et videtur esse contra <name ref="#Augustine">augustinus</name> supra 
+                        <lb ed="#S"/>de hoc allegatum quod quanto quis habuit hic in via maio<lb ed="#S"/>rem 
+                        caritatem tanto est melior et econtra sed quanto alicui in cae<lb ed="#S"/>lo 
+                        plus debetur de praemio tanto ipse est melior igitur 
+                        <lb ed="#S"/>habet maiorem gratiam et ita proportionaliter quod per hanc portionem sicut cres<lb ed="#S"/>cit 
+                        praemium debitum huic actui ita et gratia seu caritas 
+                        <lb ed="#S"/>et ita sine fine mutuo adinvicem reflectendo</p>
+                    
+                    <p><g ref="#pilcrow"/>dici 
+                        <lb ed="#S"/>igitur potest ut iam elegi ex omnibus <choice><orig>ymaginationibus</orig><reg>imaginationibus</reg></choice> praetactis quod 
+                        <lb ed="#S"/>numquam portio caritatis quae est effectus quasi per viam meriti a<lb ed="#S"/>licuius 
+                        actus meritorii reddit suum actum seu suam 
+                        <cb ed="#S" n="113rb"/><lb ed="#S"/>meritoriam causam illam magis meritoriam quam esset sine ita vel enim oportet hic dicere 
+                        <lb ed="#S"/>quantum apparet vel quod nunquam ubi actus praecise est meritorius non quia 
+                        <lb ed="#S"/>ex caritate procedit sed quia cum hoc quod est ex genere bonus habet co?<lb ed="#S"/>mitem[?] 
+                        gratiam et istud <choice><orig>2m</orig><reg>secundum</reg></choice> non videtur dicendum igitur primum minor patet quia tunc 
+                        <lb ed="#S"/>posito quod communis multa talia opera bona ex genere existens in 
+                        <lb ed="#S"/>caritate faceret successive et sola talia cresceret saepe eius meritum si 
+                        <lb ed="#S"/>iterum non obligaretur ad alia ex caritate facienda et tamen 
+                        <lb ed="#S"/>sua gratia non cresceret non igitur esset corntia[?[ proportionaliter inter gratiam 
+                        <lb ed="#S"/>viae et beatitudinem debitam in patria quod non videtur rationabiliter conten?[?] neque co<lb ed="#S"/>s?om[?] 
+                        <name ref="#Augustine">augustinus</name></p>
+                    
+                    <p><g ref="#pilcrow"/>Et si dicas ista portio caritatis redderet actum 
+                        <lb ed="#S"/>bonum ex genere totaliter disperatum meritorium igitur merito[?] fortius istum <g ref="#dbslash"/>dicendum 
+                        <lb ed="#S"/>quod non est simile ad propositum quia improposito si hic daretur idem esset 
+                        <lb ed="#S"/>causa praecisa suae proprie augmentationis ut ista loquar sine omni 
+                        <lb ed="#S"/>alio creato adiutorio et sine portione ultima sibi danda <g ref="#dbslash"/> circa 
+                        <lb ed="#S"/>quod notandum quod aliquando gratia vel alia portio gratiae taliter loquendo facit 
+                        <lb ed="#S"/>deberi s?mium[?] et omnis gratia k[?] portio gratiae quae hoc facit et quando hic <corr><add place="marginRight">facit</add></corr> 
+                        <lb ed="#S"/>facit ad crementum gratiae huius autem[?] omnis portio gratiae ex qua 
+                        <lb ed="#S"/>secundum esse causaliter procedit actus meritorius et etiam quae facit actum aliquem 
+                        <lb ed="#S"/>esse meritorium qui tamen ex ea non procedit secundum esse <g ref="#slash"/>alia autem portio non 
+                        <lb ed="#S"/>facit deberi praemium sed confertur potius tamquam signum vel effectus ut 
+                        <lb ed="#S"/>ita loquar praemii noviter debiti et ista est ultima portio gratiae 
+                        <lb ed="#S"/>per actum meritorium nunc acrescens quia ad hoc non facit actum a<lb ed="#S"/>liquem 
+                        esse nec etiam facit ad hoc aliquem esse meritorium sed tunc non ef<lb ed="#S"/>ficitur 
+                        <corr><add place="marginRight">et quis meretur illam nunc</add><del rend="expunctuated">et quae sineretur istam nunc</del></corr> sicut et novum praemium nunc ut 
+                        <lb ed="#S"/>modo servat ad omnia futura merita sed illius personae et quia 
+                        <lb ed="#S"/>ipsa modo sibi redditur sicut primum solum hic in via proportionale 
+                        <lb ed="#S"/>praemio <corr>primati<del rend="expunctuated">s</del><add place="aboveLine">o</add></corr> beatitudinis sempiterne omne enim meritum ut 
+                        <lb ed="#S"/>hic loquar meretur praemium in patria et ppale[?] adiutorium pro toto 
+                        <lb ed="#S"/>futuro tempore plus merendi hic in via dummodo persona permaneat 
+                        <lb ed="#S"/>deo grata</p>
+                    
+                    <p><g ref="#pilcrow"/>si dicas quomodo est quod portio caritatis cum caritate ap<lb ed="#S"/>posita 
+                        non agit portionem novam actus potest dici quod quia non 
+                        <lb ed="#S"/>placet deo caritati appositae pro illo instanti sed alias cooperari et ita 
+                        <lb ed="#S"/>suspendaliter[?] ab agendo</p>
+                    
+                    <p><g ref="#pilcrow"/><choice><orig>2m</orig><reg>secundum</reg></choice> dubium principale utrum caritas 
+                        <lb ed="#S"/>umquam inclinet vel nata sic intelligere aliquem ad plus delendum 
+                        <lb ed="#S"/>de <choice><orig>alico</orig><reg>aliquo</reg></choice> facto quo nec peccat venialiter nec mortaliter et quo certus est 
+                        <lb ed="#S"/>neutro modo se peccasse quam de facto suo quo scit se pe<lb ed="#S"/>casse 
+                        licet venialiter Et videtur quod non quia plus habet dolere qui sit 
+                        <lb ed="#S"/>deum offendit quam pro facto <choice><orig>alico</orig><reg>aliquo</reg></choice> suo in quo sciret deum 
+                        <lb ed="#S"/>nullatenus offendisse quia non deberet eum offendere pro infini<lb ed="#S"/>tis 
+                        munis si darentur sed tale factum ex quo communis isto modo 
+                        <lb ed="#S"/>offendit deum est quod licet peccatum causa mortale quam veniale <choice><orig>sicud</orig><reg>sicut</reg></choice> patet 
+                        <lb ed="#S"/>per <name ref="#Anselm">anselmus</name> de levissimo appetitu facto contra dei voluntatem <ref>primo <title ref="#CurDeusHomo">cur deus homo</title> 
+                        <lb ed="#S"/>c 21 et 2 libro c 14</ref> et nec valet ut videtur dicere quod talis appetitus factus 
+                        <lb ed="#S"/>contra voluntatem dei de quo ille loquitur est peccatum mortale qui loquitur de 
+                        <lb ed="#S"/>voluntate praecepti contra quod venire est culpa mortalis ita enim vi<lb ed="#S"/>deretur 
+                        posse dici</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed contra hoc est illud cum <choice><orig>descripssisset</orig><reg>descripsisset</reg></choice> gravitatem 
+                        <lb ed="#S"/>talis appetitus primo libro ubi prius et efficiater[?] <choice><orig>inprobasset</orig><reg>improbasset</reg></choice> et ammovisset opinionem dis<lb ed="#S"/>cipuli 
+                        dicentis nis quod audio te hic ponere in quaestionem putare me 
+                        <lb ed="#S"/>hoc peccatum una sola punitione dolere et fecisset eum si asserere 
+                        <lb ed="#S"/>vi rationis quod pro omni eo quod non esset deus non deberet quis unum 
+                        <lb ed="#S"/>talem levissimum aspectum facere contra dei voluntatem addit ut osten<lb ed="#S"/>dat 
+                        quantum quisque indigeat gratia redemptoris sic graviter 
+                        <lb ed="#S"/>inquit peccamus quotienscumque similiter aliquid parvum contra voluntatem dei faciamus 
+                        <lb ed="#S"/>quam semper summus in conceptu eius et semper ipse praecipit nobis p??cteus[?] 
+                        <lb ed="#S"/>haec illae igitur loquitur de dei offensa quantucumque modica etiam veniali 
+                        <lb ed="#S"/>et ideo consequenter ex <name ref="#Lombard">magistri</name> sententia infert discipulus ut audio inquit 
+                        <lb ed="#S"/>periculose vivimus</p>
+                    
+                    <p><g ref="#pilcrow"/>ad oppositum arguo quia qui <corr>inple<del rend="expunctuated">c</del><add>n</add>a</corr> furia 
+                        <lb ed="#S"/>hominem occidisset vel alias enormiter mutilasset cum rediret 
+                        <lb ed="#S"/>ad sanam mentem videtur <corr><g ref="#carrot"/><add place="marginRight">teneri</add></corr> plus de hoc delere quam de uno levissimo 
+                        <lb ed="#S"/>veniali et tamen talis sic occidendo nullo modo peccaret nec mortaliter 
+                        <lb ed="#S"/>nec venialiter et de hoc certus esse potest ex doctrina sanctorum et ecclesiae 
+                        <cb ed="#S" n="113va"/><lb ed="#S"/>quia non erat compos sui non autem teneretur talis de uno levis<lb ed="#S"/>simo 
+                        veniali de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> salutis dolere sicut de isto qui hic 
+                        <lb ed="#S"/><choice><orig>inpius</orig><reg>impius</reg></choice> et crudelis esse nimis nisi de hoc doleret igitur etc</p>
+                    
+                    <p><g ref="#pilcrow"/>hic 
+                        <lb ed="#S"/>primo concedo quod licet iste qui in plena furia occidit aliquem <g ref="#slash"/> aliquam <choice><orig>pe<lb ed="#S"/>nam</orig><reg>poe<lb ed="#S"/>nam</reg></choice> 
+                        legalis forte incurrat tamen non peccat nisi vocando peccatum 
+                        <lb ed="#S"/>factum malum non inputabile ad culpa a deo punien<lb ed="#S"/>dam 
+                        hic probo <g ref="#dot"/> quia in canon[?] 15 quaestione 1 dicitur sic sicut qui propter disci<lb ed="#S"/>plinam 
+                        casu homicidium perpetravit quantum ad legem re?us[?] est 
+                        <lb ed="#S"/>currat ad gratiam innocens fit sic sacredos iste qui furore 
+                        <lb ed="#S"/>homicidium <corr><g ref="#carrot"/><add place="marginLeft">fecis</add></corr> quantum ad culpam omnino innocens est <g ref="#dot"/> quantum ad suscep<lb ed="#S"/>ti 
+                        funeris <choice><orig>exsecutionem</orig><reg>executionem</reg></choice> re?us probatur</p> 
+                    
+                    <p><g ref="#pilcrow"/>dico tamen ulterius quod istud 
+                        <lb ed="#S"/>de <choice><orig>pena</orig><reg>poena</reg></choice> legis videtur correctum libri 7 ubi titulo de homi<lb ed="#S"/>cidio 
+                        in voluntario et casuali dicitur sic si furiosus aut infans 
+                        <lb ed="#S"/>doriens immutilet vel occidat nullam ex hoc irraritatem[?] in<lb ed="#S"/>currit 
+                        et idem de isto censeni?o[?] qui mortem aliter vitare non 
+                        <lb ed="#S"/>valet si suum occidat vel <sic>mutulet</sic> in vasorem[?]</p>
+                    
+                    <p><g ref="#pilcrow"/>Item distinctione 6 
+                        <lb ed="#S"/>c testum[?] dicitur quod cum ex naturae superfluitate dorienti[?] evene<lb ed="#S"/>rit 
+                        pollutio haec illusio omnino tenenda non est quia hanc etiam ani<lb ed="#S"/>mus 
+                        protulisse nesciens magis delendus est quam fecisse igitur 
+                        <lb ed="#S"/>non est peccatum sic pollui alioquin timenda est haec illusio 
+                        <lb ed="#S"/>et pari ratione occidere infuria non est peccatum contra ultima patet 
+                        <lb ed="#S"/>quia doriens[?] comparatur furioso sicut probatur per ius civile in apparatu  
+                        <lb ed="#S"/>c praecedenti</p>
+                    
+                    <p><g ref="#pilcrow"/>Item 15 prima questione materialiter dicitur sic de furiosis evi<lb ed="#S"/>dentissime 
+                        scribit angelus in?li[?] quaetionum veteris et novi testamenti 
+                        <lb ed="#S"/>dicens alios subito dementes[?] factos ferro fusce lapidibus 
+                        <lb ed="#S"/>morsibus movisse multos quosdam autem occidisse captos 
+                        <lb ed="#S"/>autem et iudicibus oblatos minime reos factos eo quod non 
+                        <lb ed="#S"/>voluntate sed inpellente vi nescio qua haec gesserunt nesci<lb ed="#S"/>entes 
+                        quomodo non reus constitutiru qui nescit quae fecerit <g ref="#dot"/> haec ibi</p>
+                    
+                    <p><g ref="#pilcrow"/>Item ca[?] 
+                        <lb ed="#S"/>proximo sequati <choice><orig>asscribitur</orig><reg>ascribitur</reg></choice> ambrosio si quis per furorem innocentem 
+                        <lb ed="#S"/>occidi procurat obnoxius morti non est quin etiam ipsius divinae 
+                        <lb ed="#S"/>legis articulo si quis per <corr>inp<add place="aboveLine">u</add><del rend="expunctuated">en</del>dentiam</corr> intuliter[?] <corr><del rend="expunctuated">peccet</del><add place="aboveLine">necem</add></corr> accipit 
+                        <lb ed="#S"/>inpu?ter[?] specie et restigii[?] facultatem <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>ut</add></corr> possit evadere haec 
+                        <lb ed="#S"/>istae</p>
+                    
+                    <p><g ref="#pilcrow"/>Item ibidem c si concupa[?] et intitulatur ibi <ref><name ref="#Augustine">augustinus</name> <title ref="#ContraFaustum">contra 
+                        <lb ed="#S"/>faustum</title> libro 2</ref> dicit sic inebriaverunt <name ref="#Lot">loth</name> filiae eius et 
+                        <lb ed="#S"/>se nesci?ci[?] mistt?unt[?] qua propter culpandus est quidam non 
+                        <lb ed="#S"/>tamen quantum iste incestus sed quantum ebrietas ista meretur ubi 
+                        <lb ed="#S"/>innuitur satis quod pro facto quod fecit nesciens et non habens u<lb ed="#S"/>sum 
+                        rationis non sic incurpandus[?] igitur a simili de facto infuria</p>
+                    
+                    <p><lb ed="#S"/><g ref="#pilcrow"/>Item 7 c ibidem non ideo dicitur sic et intitulatur <name>ambrosio</name> in 
+                        <lb ed="#S"/>libro <title>de paradyso</title> percussor qui non est ex dispositione sed praeter 
+                        <lb ed="#S"/>voluntatem fecerit homicidium minister divinae volitionis est ubi 
+                        <lb ed="#S"/>glossa[?] vult dicere quod cum aliquis causaliter occidat hominem non 
+                        <lb ed="#S"/>peccat et sequitur intextu cum itaque qui invitus occidit minister 
+                        <lb ed="#S"/>dei fit cum innocentem furore permiens morti nequaquam 
+                        <lb ed="#S"/>obnoxius sicut patet hunc sacredotem homicidii reum non esse 
+                        <lb ed="#S"/>supra qui in furore hominem occideret unde nec sacerdotio pri<lb ed="#S"/>vandus 
+                        haec istae Et si obicitur inquit cano[?] quod in pmali[?] 
+                        cheo?ri[?] invenitur si quis infamens aliquem occideret si ad sa<lb ed="#S"/>nam 
+                        mentem rediret levior ei pma[?] inponenda erit</p>
+                    
+                    <p><g ref="#pilcrow"/>Respondet 
+                        <lb ed="#S"/>consequenter canio[?] quod forte hoc intenditur de eo quem propria culpa 
+                        <lb ed="#S"/>ad furorem produxit tamen contra hoc obicit quod dixerat nec 
+                        <lb ed="#S"/>sacerdotio privari debet Et solvit finaliter per primam auctoritatem 
+                        <lb ed="#S"/>superius adiectam sicut qui propter etc patet igitur proposita conclusio scilicet quod qui in<lb ed="#S"/>furia 
+                        pura interficit interficiendo non peccat et causa est quae 
+                        <lb ed="#S"/>pluries tangitur in causa 15 quaestione 1 in multis c quia nec voluntarie nec 
+                        <lb ed="#S"/>ex electione agit cum non sit compos mentis suae et intelli<lb ed="#S"/>gas 
+                        conclusionem istam sicut iam glosa sic[?] cano[?] in 6 argumento quando scilicet 
+                        <lb ed="#S"/>non incidit in furorem ex culpa sua et haec omnia confirmantur 
+                        <lb ed="#S"/>per illud quod habetur 23 questione 5 si homicidium est hominem occidere 
+                        <lb ed="#S"/>tunc potest occidi aliquando sine peccato nam et miles hostem et iu<lb ed="#S"/>dex 
+                        vel minister nocentem et cui forte invito atque in 
+                        <cb ed="#S" n="113vb"/><lb ed="#S"/>praecedenti caelum manufugit non mihi peccare universaliter cum hominem 
+                        <lb ed="#S"/>occidunt sed nec occidere isti appellare solent haec ibi et inti<lb ed="#S"/>tualtur 
+                        <ref><name ref="#Augustine">augustinus</name> <title>de libero arbitrio</title> libro 1</ref> et dicit ibi glosa quod fortuitus 
+                        <lb ed="#S"/>casus non inputatur dummodo non praecessit culpa quod probat ex 
+                        <lb ed="#S"/>positio<space extent="oneWordLength"/> conclusionis proposito</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed tunc restat dubium ulterius dato quod 
+                        <lb ed="#S"/>culpa sua incideret in furorem et tunc occidit an occidendo 
+                        <lb ed="#S"/>peccet dicitur quod sic per apparatum in metaphysicae praeallegatum et cano supra 
+                        <lb ed="#S"/>exponentem et tunc levior pma[?] iniungenda est talis quem cul<lb ed="#S"/>pa 
+                        ad furorem perducit ita supple quod alias nulla quia sic 
+                        <lb ed="#S"/>secundum veritatem loquitur ibi</p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea 15 quaestione 1 sane dicitur sic vitandam 
+                        <lb ed="#S"/>diximus obiectatem per quam c?ia[?] cavere non possumus nam multa 
+                        <lb ed="#S"/>per obiectatem ignoscentes <choice><orig>commictunt</orig><reg>committunt</reg></choice> nesciunt quid loquantur quia ni<lb ed="#S"/>mio 
+                        unio indulgent ideoque si quem per unum deliquerant apud 
+                        <lb ed="#S"/>sapientes venia quidam debetur glosa ibi minori <choice><orig>pena</orig><reg>poena</reg></choice> quam si 
+                        <lb ed="#S"/>ex certa sci?a[?] fecissent sequitur sed si levitatis dampnantur auctores 
+                        <lb ed="#S"/>haec illae</p>
+                    
+                    <p><g ref="#pilcrow"/>Et etiam intitulatur <name ref="#Ambrose">ambrosio</name> in libro de patriarchiam etc igitur pari 
+                        <lb ed="#S"/>ratione de furiosis si ex culpa incidant in furiam</p>
+                    
+                    <p><g ref="#pilcrow"/>prima 
+                        <lb ed="#S"/>sicut supra in 5 auctoritate pro conclusione prima <name ref="#Lot">loch</name> culpandus erat in<lb ed="#S"/>ebrietate 
+                        etc igitur a simili Praeterea si infinitas ignorantia vel in potentia 
+                        <lb ed="#S"/>quas incurrimus ex peccato nostro non excusant nos a peccato sed 
+                        <lb ed="#S"/>furor si ex culpa naturaliter accidit es huius nam 15 quaestione 
+                        <lb ed="#S"/>id est merito dicitur quod furor cum non sic peccatum est tamen poena peccati 
+                        <lb ed="#S"/>sed <choice><orig>pena</orig><reg>poena</reg></choice> peccati non excusat a peccato</p>
+                    
+                    <p><g ref="#pilcrow"/>Item ibidem dicitur quod in<lb ed="#S"/>firmitas 
+                        animae est quae cum ipsa peccatum nisi sit est tamen <choice><orig>pena</orig><reg>poena</reg></choice> et 
+                        <lb ed="#S"/>causa peccati ut est oblivio et ignorantia igitur pari ratione furia quae est 
+                        <lb ed="#S"/><choice><orig>pena</orig><reg>poena</reg></choice> peccati est peccatum</p>
+                    
+                    <p><g ref="#pilcrow"/>Item super illud quod dicitur in principio dictae quaestionis 
+                        <lb ed="#S"/>primae quae alienata mente fiunt non sunt inputanda dicit appara<lb ed="#S"/>tus 
+                        Si quis est ita alienatus mente quod descit quid facit nec 
+                        <lb ed="#S"/>discernit nec intelligit nec inputatur ei quod facit quidam tamen dis<lb ed="#S"/>tingunt 
+                        quod si sua culpa incidit communis in alienationem mentis inpu<lb ed="#S"/>tatur 
+                        ei si non sine culpa non haec ib[?]</p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea si non hoc foret quia talia 
+                        <lb ed="#S"/>non fiunt voluntarie ex deliberatione ut habetur ibidem capitulo id est cum prae<lb ed="#S"/>excusasset 
+                        furiosorum facta <corr><del rend="expunctuated">e</del><add place="aboveLine">i</add>st<add place="aboveLine">a</add></corr> inquit tanda[?] quae ex <corr><del rend="expunctuated">natura</del><add place="marginRight">naturaliter</add></corr> voluntate 
+                        <lb ed="#S"/>prodeunt et intitulatur <name ref="#Ambrose">ambroso</name> et sequitur quod possumus non facere si volumus 
+                        <lb ed="#S"/>huius electionem mali nobis potius debemus <choice><orig>asscribere</orig><reg>ascribere</reg></choice> et cito post 
+                        <lb ed="#S"/>in alio <g ref="#dot"/><c>c</c><g ref="#dot"/> non est et intitulatur <name ref="#Ambrose">ambroso</name> de beata vita nemo 
+                        <lb ed="#S"/>nostrum tenetur ad culpam nisi voluntate propria se deflexerit <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>voluntaria</add></corr> tamen com<lb ed="#S"/>missa 
+                        sequitur invidia delictorum gloria[?] id est petra[?] et sequitur voluntarium sibi 
+                        <lb ed="#S"/>militem eligit christus voluntarium et servum sibi penitentis actione 
+                        <lb ed="#S"/>creatur gloria id est per actionem petit veniam alioquin servitutis afflictio 
+                        <lb ed="#S"/>possidet nisi se prius peccatorum ere vendiderit haec ibi patet igitur 
+                        <lb ed="#S"/>assumptum quod si talis infuria occidens non peccaret si tamen 
+                        <lb ed="#S"/>ex debito furiam incurrisset hoc esset quia tunc non eligit voluntate 
+                        <lb ed="#S"/>sed hoc non sufficit quia non omne peccatum fit ex voluntate sicut 
+                        <lb ed="#S"/>habetur in principio supra dict?[?] quaestionis et probatur ibi per <ref><name ref="#Augustine">augustinus</name> prima <title>retracta</title></ref> peccata 
+                        <lb ed="#S"/>alia penes voluntatem tamen consistunt alia circa infirmitatem naturae ex 
+                        <lb ed="#S"/>voluntate peccata proc?nt[?[ quae libero mentis arbitrio et delinquendi proposito 
+                        <lb ed="#S"/>committentur porro infirmitas <corr><del>est</del><add>alia est ai[?] carnis infirmitas ai[?] est ignorantia carnis infirmitas est concupientia</add><del>ignorantia carnis infirmi<lb ed="#S"/>tas</del></corr> 
+                        ex utraque infirmitate procedunt quae inputantur ad <choice><orig>penam</orig><reg>poenam</reg></choice> 
+                        <lb ed="#S"/>nam de quibusdam ignorantibus dicitur qui ignorant ignora<lb ed="#S"/>buntur 
+                        ex carnis[?] infirmitate procedunt quae nullae langore fiunt 
+                        <lb ed="#S"/>quae nisi inputarentur ad <choice><orig>penam</orig><reg>poenam</reg></choice> nequaquam <name ref="#Paul">apostolus</name> lege carnis 
+                        <lb ed="#S"/>gravatus diceret In felix ego homo etc sive ergo penes 
+                        <lb ed="#S"/>infirmitatem sive voluntatem peccata consistant semper <choice><orig>inputantur</orig><reg>imputantur</reg></choice> ad 
+                        <lb ed="#S"/><choice><orig>penam</orig><reg>poenam</reg></choice> ibi igitur non videtur quod factum in furia excusat a peccato 
+                        <lb ed="#S"/>per hoc quod non fit voluntarie</p>
+                    
+                    <p><g ref="#pilcrow"/>Dices forte quod <name>augustinus</name> intelligit 
+                        <lb ed="#S"/>de ignorantia affectata vel quae provenit ex negligentia sciendi 
+                        <lb ed="#S"/>non autem de ignorantia invincibili Similiter dices forte quod facta 
+                        <lb ed="#S"/>ex infirmitate et hic si sint non voluntarie non sunt peccata 
+                        <lb ed="#S"/>quia sicut dicit <name ref="#Augustine">augustinus</name> <title>de vera religione</title> et ponitur illud in 
+                        <lb ed="#S"/>canone eiusdem capituli quo prius usque adeo[?] peccatum voluntarium 
+                        <cb ed="#S" n="114ra"/><lb ed="#S"/>malum est ut si non sit voluntarium nullo modo peccatum est quare[?] aut[?] negandum 
+                        <lb ed="#S"/>est peccatum <choice><orig>commicti</orig><reg>committi</reg></choice> <g ref="#dot"/> aut facendum est cum voluntate <choice><orig>commicti</orig><reg>committi</reg></choice></p>
+                    
+                    <p><g ref="#pilcrow"/>Contra 
+                        <lb ed="#S"/>primum est illud quod habetur eodem capitulo nam cum dixisset si quis ignorat 
+                        <lb ed="#S"/>ignorabitur addit tales erant illi de quibus ds[?] ait <name ref="#Apostles">apostolis</name> 
+                        <lb ed="#S"/>extra synagogam <corr>faci<del>a</del><add>e</add>nt</corr> nos quia arbitrantur[?] etc de eisdem etiam 
+                        <lb ed="#S"/><name ref="#Paul">apostolus</name> scribit in epistola testimonium illis perhibeo quia zelum dei habent sed 
+                        <lb ed="#S"/>non secundum scientia haec ibi[?] ecce hic ignorantia non solum fuit affectan<lb ed="#S"/>tium 
+                        vel negligentiam scire sed potius zelum dei habentium et ex tali 
+                        <lb ed="#S"/>zelo operantium qui ignoranter fecerunt</p>
+                    
+                    <p><g ref="#pilcrow"/>contra <choice><orig>2m</orig><reg>secundum</reg></choice> illa responsio 
+                        <lb ed="#S"/>non sufficit nam posita dicta auctoritate <name ref="#Augustine">augustini</name> statim respondet cano[?] 
+                        <lb ed="#S"/>sed huius inquit non generaliter de omnibus peccatis intelligendum est suppre<lb ed="#S"/>mus 
+                        non sint peccata nisi sint voluntaria ?d[?] autem in libro 1 <title>rectractionarum</title> 
+                        <lb ed="#S"/>ostendi dicens usque a deo peccatum etc ut supra posset videri 
+                        <lb ed="#S"/>haec diffinitio falsa quae[?] si excutiatur in venitur verissima quia peccatum 
+                        <lb ed="#S"/>illud quippe cogi?endum[?] est quod tamen modo peccatum est non quod <choice><orig>pena</orig><reg>poena</reg></choice> 
+                        <lb ed="#S"/>peccati est igitur saltem talia peccata non ex infirmitate facta 
+                        <lb ed="#S"/>quae sunt etiam <choice><orig>penae</orig><reg>poenae</reg></choice> secundum gloriam non sunt voluntaria et tamen sunt peccata 
+                        <lb ed="#S"/><g ref="#dbslash"/>Et si obicias per illud quod ponitur eodem capitulo canonis quod diffinitio peccati 
+                        <lb ed="#S"/>est haec <g ref="#dot"/> peccatum est voluntas recipiendi vel conn?di[?] quod iustitia vetat 
+                        <lb ed="#S"/>unde liberum est abstinere et secundum veritatem haec diffinitio ponitur in 
+                        <lb ed="#S"/>libello <name ref="#Augustine">augustinus</name> de duabus animalibus respondet cano[?] <ref><corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>secundum <name ref="#Augustine">augustinus</name></add></corr> eodem primo <title>retractionarum</title></ref> quod 
+                        <lb ed="#S"/>propria vera est ista diffinitio quia illud per ipsum diffinitur quod tantummodo peccatum 
+                        <lb ed="#S"/>non etiam <choice><orig>pena</orig><reg>poena</reg></choice> peccati patet igitur semper quod excipit ab hoc quod omne 
+                        <lb ed="#S"/>peccatum sit voluntarium igitur ex hoc quod furiosus non agit voluntarie 
+                        <lb ed="#S"/>non habetur quin male operans ex furia peccat</p>
+                    
+                    <p><g ref="#pilcrow"/>Item facta 
+                        <lb ed="#S"/>contra voluntatem sunt quandoque peccata igitur multo fortius quae faciunt non per 
+                        <lb ed="#S"/>voluntatem sicut factum in furia in quam ex culpa inciditur erit 
+                        <lb ed="#S"/>peccatum si sit factum prohibitum vel de se malum assumptum 
+                        <lb ed="#S"/>probatur per <ref><name ref="#Augustinus">augustinus</name> et ponitur ibi prius 15 quaestione 1</ref> merito quaeritur quae sunt 
+                        <lb ed="#S"/>peccata nolentium utrum <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>quae</add></corr> a nescientibus <choice><orig>commictuntur</orig><reg>committuntur</reg></choice> au[?] etiam recte 
+                        <lb ed="#S"/>possit dici peccatum esse nolentis quod facere compellitur et probatur 
+                        <lb ed="#S"/>ibi quia <choice><orig>2o</orig><reg>secundo</reg></choice> modo <g ref="#dot"/> nam et hoc contra voluntatem dici solet etc.</p>
+                    
+                    <p><g ref="#pilcrow"/>Praterea si ex<lb ed="#S"/>cusaretur 
+                        hoc videretur quia nesciens facit <g ref="#dot"/> sed hoc non suf<lb ed="#S"/>ficit 
+                        quia 22 quaestione 7 quemadmodum et intitulatur <name ref="#Augustine">augustinus</name> de adul<lb ed="#S"/>teriis 
+                        coniungiis libro primo habetur sic non recte dici potest si nes<lb ed="#S"/>cit 
+                        homo non peccat <g ref="#dot"/> sunt enim <g ref="#dot"/> etiam peccata ignorantiam quamvis 
+                        <lb ed="#S"/>minora quam scientium igitur etc</p>
+                    
+                    <p><g ref="#pilcrow"/>praterea ad idem si nescientia excu<lb ed="#S"/>saret 
+                        pari modo caecitas excusaret in casu actum malum a peccato 
+                        <lb ed="#S"/>dummodo scilicet nullo modo <corr>velle<del rend="expunctuated">n</del>t</corr> facere quod faciunt si adverterent 
+                        <lb ed="#S"/>malum sequens sed consequens falsum sicut patet de lamech[?] ut habetur ubi 
+                        <lb ed="#S"/>supra 15 quaestione 1 initio[?] <g ref="#dot"/> ubi dicitur quod cum lamech[?] tetus[?] esset caym[?] 
+                        interfecit nec tamen eum excusavit caecitatis infirmitas 
+                        <lb ed="#S"/>unde dictum est centuplum ultio dabitur de caym[?] de lamech[?] 
+                        <lb ed="#S"/>vero 70es 7es</p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea si talis furiosus excusareur a peccato in tali 
+                        <lb ed="#S"/>casu ubi incidisset infuriam ex culpa sua hoc esset quia non 
+                        <lb ed="#S"/>potest vitare quin faciat quod facit infuria <g ref="#dot"/> sed hoc non sufficit 
+                        <lb ed="#S"/>quia in potentia in qua communis cadit ex culpa sua non excusat <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+                        <lb ed="#S"/>patet per <ref><name ref="#Anselm">anselmus</name> libro primo <title>cur deus homo</title> capitulo 24</ref> ubi dicente discipulo 
+                        <lb ed="#S"/>qui deo quod debet non reddit si reddere potest iniustus est <g ref="#dot"/> si vero non 
+                        <lb ed="#S"/>potest quomodo iniustus <corr><g ref="#carrot"/><add place="aboveLine">est</add></corr></p>
+                    
+                    <p><g ref="#pilcrow"/>Respondet <name ref="#Anselm">anselmus</name> <g ref="#dot"/> si nulla inquit in ipso est causa 
+                        <lb ed="#S"/>inpotentiae aliquatenus excusari potest <g ref="#dot"/> sed si propria inpotentia culpa est 
+                        <lb ed="#S"/>sicut non alleviat peccatum ita non excusat non redden<lb ed="#S"/>tem 
+                        debitum nam si <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>quis</add></corr> in iungat opus aliquod servo suo et praecipi 
+                        <lb ed="#S"/>ac illi ne deiciat se infoveam quam illi monstrat unde 
+                        <lb ed="#S"/>nullo modo exire possit et iste contempnens mandatum deum 
+                        <lb ed="#S"/>se <choice><orig>mictit</orig><reg>mittit</reg></choice> in miratam[?] foveam ut nullatenus possit opus 
+                        <lb ed="#S"/>in vinctum[?] facere putas ne ille in potentiam istam aliquatenus 
+                        <lb ed="#S"/>ad executionem valere <corr>c<add place="aboveLine">ur</add><del rend="expunctuated">um</del></corr> opus in vinctum[?] non faciat <g ref="#dot"/> et post <g ref="#dot"/> 
+                        <lb ed="#S"/>homo qui sua culpa et se sponte deicit in hanc <choice><orig>inpotentiam</orig><reg>impotentiam</reg></choice> 
+                        <lb ed="#S"/>inexcusabilis est <g ref="#dot"/> ipsa namque <choice><orig>inpotentia</orig><reg>impotentia</reg></choice> est culpa quia non 
+                        <cb ed="#S" n="114rb"/><lb ed="#S"/>deberet habere eam immo deberet eam non habere nam sicut culpa est 
+                        <lb ed="#S"/>non habere quod habere debet ita culpa est habere quod non habere debet <g ref="#dot"/> a simili 
+                        <lb ed="#S"/>igitur in proposito nec valet dicere quod non incidit in furiam voluntarie quia certe 
+                        <lb ed="#S"/>non plus homo incidit in foveam <choice><orig>inpotentiae</orig><reg>impotentiae</reg></choice> voluntarie per se loquendo sicut 
+                        <lb ed="#S"/>nec furiosus talis in <corr><del rend="expunctuated">foveam</del></corr> furiam sed utrique fecit aliquid voluntarie 
+                        <lb ed="#S"/>quod fecisse non debuit immo potius debuit non fecisse et ideo 
+                        <lb ed="#S"/>utrique talis <choice><orig>inpotentia</orig><reg>impotentia</reg></choice> est a deo inflicta</p>
+                    
+                    <p><g ref="#pilcrow"/>Item motus brutalis mul<lb ed="#S"/>tum 
+                        inputatur ad peccatum dato etiam quod caveri non possunt quia inpotentia 
+                        <lb ed="#S"/>talis mvebatur ex culpa igitur pari ratione in proposito de homicidio 
+                        <lb ed="#S"/>in furia <g ref="#slash"/>assumptum patet per <ref corresp="#b1d17q6-Qcpmiap"><name ref="#Anselm">anselmus</name> <title ref="#deConcordia">de concordia</title> capitulo 17</ref><note corresp="#b1d17q6-Qcpmiap">Anselm, De Concordia 3:7</note> ubi dicitur <quote xml:id="b1d17q6-Qcpmiap">cum 
+                        <lb ed="#S"/>primi motus sive appetitus quibus propter peccatum <name ref="#Adam">adae</name> sicut <corr><add>bruta animalia</add><del>vanitati</del></corr> subia<lb ed="#S"/>cemus 
+                        quos apostolos vocat carnem et concupiscentiam quam invitum se tollerare 
+                        cum dicit manifestat cum dicit quod odio illud facio id est nolens concu<lb ed="#S"/>pisco 
+                        <g ref="#dot"/>satis cum dici concupisco patet <g ref="#dot"/> illos inputari ad peccatum</quote></p> 
+                        
+                    <p><lb ed="#S"/><g ref="#slash"/>Et si dices quod tales motus non inputantur ad peccatum 
+                        <lb ed="#S"/>nisi consentiatur[?] ipsis <g ref="#dbslash"/>Contra licet talis motus in baptismatis in quibus obligatio 
+                        <lb ed="#S"/><choice><orig>remictitur</orig><reg>remittitur</reg></choice> carendi eis non sint peccat moralia nisi consentiatur[?] 
+                        <lb ed="#S"/>ipsis tamen in aliis sunt dicit enim <name ref="#Anselm">anselmus</name> ubi prius cum <name ref="#Paul">paulus</name> de 
+                        <lb ed="#S"/>illis qui carnem id est concupiscentias sentiunt no?tes[?] ait nihil <choice><orig>dampnationis</orig><reg>damnationis</reg></choice> 
+                        <lb ed="#S"/>est <corr><del rend="expunctuated">in</del>hiis</corr> qui sicut in christo ita quod non secundum carnem ambulant 
+                        <lb ed="#S"/>hic est non voluntates consentiunt sine dubio significant eos qui non sunt 
+                        <lb ed="#S"/>in christo sequi <choice><orig>dampnationem</orig><reg>damnationem</reg></choice> si qui quotiens sentiunt carnem etiam 
+                        <lb ed="#S"/>si non secundum illam ambulant et subdit causam quam si factus est 
+                        <lb ed="#S"/>homo ut eam sentire non deberet haec ibi</p>
+                    
+                    <p><g ref="#pilcrow"/>hic ad praesens 
+                        <lb ed="#S"/>dubium pono duas conclusiones prima sic haec quod furiosus in furia 
+                        <lb ed="#S"/>in quam ex culpa incidit culpa in corr?tam[?] ante furiam continue[?] 
+                        <lb ed="#S"/>dum manet in furia quidquid fociter[?] peccat id est est in peccato 
+                        <lb ed="#S"/>quo ad reatum et obligationem ad <choice><orig>penam</orig><reg>poenam</reg></choice> inquam fuit cum in 
+                        <lb ed="#S"/>furiam incidit <g ref="#dot"/> tum quia stante furia non sui est compos ut 
+                        <lb ed="#S"/><choice><orig>peniteat</orig><reg>poeniteat</reg></choice> et peccatum quod ex deliberatione fit sine pnia[?] non 
+                        <lb ed="#S"/><choice><orig>dimictitur</orig><reg>dimittitur</reg></choice> sicut dicit <ref corresp="#b1d17q6-Qfitspe"><name ref="#Augustine">beatus augustinus</name> <title ref="#OnFaithToPeter">de fide ad petrum</title><note corresp="#b1d17q6-Qfitspe">Augustine, de fide ad petrum c. 30</note></ref> et 
+                        <lb ed="#S"/>ponitur <ref>15 quaestione 1 merito[?]</ref> <quote xml:id="b1d17q6-Qfitspe">firmissime inquit tene et nullatenus 
+                        <lb ed="#S"/>dubites exceptis illis qui pro christi nomine sanguine suo 
+                        <lb ed="#S"/>baptizantur nullum hominem accepturum vitam aeternam qui non a 
+                        <lb ed="#S"/>malis suis fuerit per poenitentiam fidemque conversus et per sacramentum 
+                        <lb ed="#S"/>fidei et poenitentiae id est per baptismum liberatus et maioribus quidam 
+                        <lb ed="#S"/><choice><orig>neccessariam</orig><reg>necessariam</reg></choice> est etiam de malis suis poenentiam agere</quote> haec illae</p>
+                    
+                    <p><lb ed="#S"/><g ref="#pilcrow"/><choice><orig>2a</orig><reg>secunda</reg></choice> conclusio est quod factum in pura furia licet sit saepe peccatum id est vi<lb ed="#S"/>cium 
+                    seu actus deordinatus tamen non est in baptismatis vel aliis 
+                        <lb ed="#S"/>peccatum in principale ad poenam post hanc vitam et quantucumque furia ex 
+                        <lb ed="#S"/>culpa incurratur cuius ratio est quia nullus simpliciter carens usu 
+                        <lb ed="#S"/>rationis noviter peccat in <choice><orig>alico</orig><reg>aliquo</reg></choice> facto suo stante tali carentia 
+                        <lb ed="#S"/>non plus quam brutum occidendo vel aliter nocendo igitur nec talis <g ref="#dot"/> consequentia 
+                        <lb ed="#S"/>patet de se assumptum etiam licet sic de se evidens probari potest per illud 
+                        <lb ed="#S"/><ref corresp="#b1d17q6-Qpqqsas"><name ref="#Augustine">augustinus</name> ubi prius proximo</ref><note corresp="#b1d17q6-Qpqqsas">Augustine, de fide ad peturm</note> <quote xml:id="b1d17q6-Qpqqsas">parvulis quidam qui nec dum propria 
+                        <lb ed="#S"/>voluntate credere nec poenentiam pro facto quod originaliter trahunt agere possunt 
+                        <lb ed="#S"/>sacramentum fidei quod est sacramentum baptismi quam diu rationis eorum 
+                        <lb ed="#S"/>aetas capax esse non potest sufficere ad salutem</quote> haec illae sui praecep<lb ed="#S"/>tu[?] 
+                        firmissime crede</p>
+                    
+                    <p><g ref="#pilcrow"/>ET ad propositum sequitur in <title ref="#Decretals">decreto</title> ex eo inquit <corr><add place="marginRight">quod in</add></corr> 
+                        <lb ed="#S"/>fine huius auctoritatis quam dicitur diu rationis aetas etc evidenter 
+                        <lb ed="#S"/>datur intelligi nulli post baptismum peccata inputari si non sic 
+                        <lb ed="#S"/>adultus sive inpubes et nisi rationis sic capax et consequenter ibidem 
+                        <lb ed="#S"/>ostenditur per <name ref="#Augustine">augustinus</name> quod simile est de huius <corr><g ref="#carrot"/><add place="aboveLine">et</add></corr> in brutis animalibus igitur sicut 
+                        <lb ed="#S"/>peccare non possunt sic nec omnino carentes usu rationis <g ref="#dot"/> noviter dubio[?]</p>
+                    
+                    <p><lb ed="#S"/><g ref="#pilcrow"/>Et si dicas quod auctoritas haec non sufficit c?i[?] quia dicit nulli post 
+                        <lb ed="#S"/>baptismum etc igitur non habens de omnibus <choice><orig>sicud</orig><reg>sicut</reg></choice> proponinsci[?] dicendum quod 
+                        <lb ed="#S"/>hoc addit propter originale vel alia peccat contracta antequam <choice><orig>amic<lb ed="#S"/>teretur</orig><reg>amit<lb ed="#S"/>teretur</reg></choice> 
+                        usus rationis quia non obstante carentia usus rationis semper 
+                        <lb ed="#S"/>inputantur nisi per baptismum quo ad originale vel per poenentiam quo 
+                        <lb ed="#S"/>ad alia fuorint[?] relaxata</p>
+                    
+                    <p><g ref="#pilcrow"/>Praeterea in capitulo initio[merito?] <g ref="#dot"/> dicitur 
+                        <cb ed="#S" n="114va"/><lb ed="#S"/>sicut et intitulatur ibi textui ff[?] titulo de in iuriis et 
+                        <lb ed="#S"/>per consequens ita respecti infideles sicut christianos sane sunt quidam 
+                        <lb ed="#S"/>qui iniuriam facere non possunt sed solum pati ut puta furiosus 
+                        <lb ed="#S"/>et inpubes quid doli capax non est</p>
+                    
+                    <p><g ref="#pilcrow"/>Item eodem capitulo id est sicut 
+                        <lb ed="#S"/>mens alienata furore cum sui compos non sit eorum quae <choice><orig>admictit</orig><reg>admit<lb ed="#S"/>tit</reg></choice> 
+                        reatum non contrahit quia facultatem deliberandi non habuit unde 
+                        <lb ed="#S"/>pupillo et furioso homini in maleficiis subvenitur ut non eis 
+                        <lb ed="#S"/>inputentur ad peonam quae ex mentis deliberatione non proces<lb ed="#S"/>serunt</p>
+                    
+                    <p><g ref="#dot"/>Item apparatus super dictum c initio[?] dicit quod furiosus 
+                        <lb ed="#S"/>facit idem <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>est</add></corr> ac si casu accidisset talis aut non peccat ex eodem 
+                        <lb ed="#S"/>capitulo et quaestione et superius allegantur dicit apparatus qui omnino nescit 
+                        <lb ed="#S"/>quidam facit ut puer ebrius <corr><g ref="#carrot"/><add place="aboveLine">et</add></corr> furiosus non peccat <g ref="#dot"/> sed dices 
+                        <lb ed="#S"/>quod intendat de illis qui non incidunt in carentiam rationis 
+                        <lb ed="#S"/>ex sua culpa</p>
+                    
+                    <p><g ref="#pilcrow"/>contra hanc d[?] recitat app[?] in principio m[?] quaestione 1 
+                        <lb ed="#S"/>de alienatis mente ex culpa sua vel sine culpa</p>
+                    
+                    <p><g ref="#pilcrow"/>dicetur quod 
+                        <lb ed="#S"/>quidam sic distingunt sed subdit quam inquam distinctionem non <choice><orig>ad<lb ed="#S"/>micto</orig><reg>ad<lb ed="#S"/>mitto</reg></choice> 
+                        quasi dicat indistincte furiosus non peccant ex facto 
+                        <lb ed="#S"/>in furia</p>
+                        
+                    <p><g ref="#pilcrow"/>confirmo illud quia tunc talis plene furiosus posset fa<lb ed="#S"/>cere 
+                        mille milia peccata mortalia nova <choice><orig>coctidie</orig><reg>cotidie</reg></choice> nesci<lb ed="#S"/>ens 
+                        totaliter quid faceret quod videtur totaliter absurdissimum quia pari ratione 
+                        <lb ed="#S"/>cum deus non sic pronior ad poeniendum quam ad praemiandum 
+                        <lb ed="#S"/>sequitur quod qui incidisset in furiam non ex culpa sed ex magno 
+                        <lb ed="#S"/>merito puta ex vulnere illato in vello quod suscepti pro de<lb ed="#S"/>fensione 
+                        fidei posset <choice><orig>coctidie</orig><reg>cotidie</reg></choice> nesciens quid faceret facere no<lb ed="#S"/>viter 
+                        mille milia facta noviter meritoria novae partis beati<lb ed="#S"/>tudinis 
+                        quod nemo concedit quare ita est ex alia parte</p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea pari 
+                        <lb ed="#S"/>ratione doriendo pollutus ratione culpae praecedentis peccaret doriendo 
+                        <lb ed="#S"/>cum sit polluitur et taliter operantium recitatur opinio distinctione 6, c. 1 
+                        <lb ed="#S"/>in appare[?] ubi sic dicitur secundum quosdam nocturna pollutio vel illusio 
+                        <lb ed="#S"/>quae procedit ex infirmitate non est peccatum etiam veniale quae vero procedit 
+                        <lb ed="#S"/>ex culpa est peccat veniale similiter quae procedit ex cogitatione 
+                        <lb ed="#S"/>praecedenti si illa cogitatio non processit ad consensum pollutio ex 
+                        <lb ed="#S"/>ipso proveniens veniale peccatum est Si vero processit tunc est 
+                        <lb ed="#S"/>mortale haec est opinio et ad hoc videntur[?] facere verba quaedam illius capituli testamentum 
+                        <lb ed="#S"/>et inscribitur <name ref="#Augustine">augustinus</name> angelorum epo[?] et <corr><g ref="carrot"/><add place="marginLeft">quid</add></corr> inquit cum existente superfluente vel 
+                        <lb ed="#S"/>infirmitate event[?] omnino haec illusio non est tenenda cum 
+                        <lb ed="#S"/>vero ultra modum appetitus gule[?] insumendo alimentum ra<lb ed="#S"/>pitur 
+                        atque <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>idcirco</add></corr> humiorum[?] receptacula graventur habet ex meus[?] animus 
+                        <lb ed="#S"/>aliquem reactum gloria id est veniale peccatum Si vero ex turpi cogitatione 
+                        <lb ed="#S"/>vigilantis oritur illusio in mente dorientis patet animo reactus 
+                        <lb ed="#S"/>suus valet a qua radice inquiatio illa processit quod<lb ed="#S"/>que 
+                        cogitavit sciens hoc pertulit nesciens haec illae</p>
+                    
+                    <p><g ref="#pilcrow"/>Ex quo 
+                        <lb ed="#S"/>videtur haberi pro opinione iam recitata et inpungnatione quovis inesse quod 
+                        <lb ed="#S"/>talis simpliciter nesciens peccet</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed <corr>contra<g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>rium tenet</add></corr> apparatus ibidem post re<lb ed="#S"/>citatam 
+                        opinionem praeaddens tamen quod idem dicunt de furioso si cul<lb ed="#S"/>pa 
+                        sua devenit ad furorem <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>secundum</add></corr> opinionem inquit istorum accidit quod aliquis 
+                        <lb ed="#S"/>nesciens peccat mortaliter et venialiter et operatur bonum et <corr><g ref="#carrot"/><add place="marginCenter"><g ref="#carrot"/>meretur</add></corr> vitam 
+                        <lb ed="#S"/>aeternam quod non est verum ut dicit immo nullo modo peccat nec mortaliter 
+                        <lb ed="#S"/>nec venialiter Et si obicias per verba capituli[?] praeallegata dicit glossa<lb ed="#S"/>tor[?] 
+                        quod polluti in dormiendo mens nec rea in sompno 
+                        <lb ed="#S"/>est nec est rea post sompnum sed tunc fuit rea quando se 
+                        <lb ed="#S"/>ingurgitavit et post addit in am?te[?] inquit probatur quod homo in somp<lb ed="#S"/>no 
+                        non peccat sed prius peccavit igitur apparet de facto in furia 
+                        <lb ed="#S"/>quod scilicet non peccat noviter sed remanet reactus prioris peccati pro quo 
+                        <lb ed="#S"/>insana mente non satisfaciebat</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed 2[?] decretum dicit in c testamentum[?] 
+                        <lb ed="#S"/>et <choice><orig>asscribitur</orig><reg>ascribitur</reg></choice> <name ref="#Augustine">augustinus</name> angelorum epo[?] quod pollutus ex capula si assentit 
+                        <lb ed="#S"/>alii qui inplere ministerium valeant a perceptione sacri mis<lb ed="#S"/>terii 
+                        prohiberi non debet sed ab immolatione sacri misterii ut ar<lb ed="#S"/>bitror 
+                        abstinere debet humiliter si tamen talis illusio per capulam 
+                        <lb ed="#S"/>factam <corr>dormien<del rend="expunctuated">do</del><g ref="#carrot"/><add place="aboveLine">tem</add></corr> <corr><del rend="expunctuated">ex</del></corr> turpi vagi?oe[?] <corr><add place="marginLeft">non concusserit</add><del>percessit</del></corr> haec illae supp[?] <corr><g ref="#carrot"/><add place="marginCenter"><g ref="carrot"/>tunc</add></corr> non 
+                        <lb ed="#S"/>oportet abstinere a communione sed ab immolatione tunc sicut ex ca<lb ed="#S"/>none 
+                        patet quia propter pollutionem nocturnam in sompno est aliquando 
+                        <cb ed="#S" n="114vb"/><lb ed="#S"/>abstinendum a perceptione et consecratione <choice><orig>eukaristae</orig><reg>eucharistae</reg></choice> aliqando ab <choice><orig>ymola<lb ed="#S"/>tione</orig><reg>immola<lb ed="#S"/>tione</reg></choice> 
+                        tantum aliquando ab utroque consilium tamen est secundum glossam <corr><g ref="#carrot"/><add place="marginRight">bene enim</add></corr> inquit ce<lb ed="#S"/>lebrare potest si vult 
+                        potest si vult dummodo non sit peccatum mortale nam pro quolibet 
+                        <lb ed="#S"/>peccato mortali quibus est suspensivus quo ad secundum glossam ibi sed 
+                        <lb ed="#S"/>hoc non oporteret nisi in sompno dum polluitur peccaret <choice><orig>sicud</orig><reg>sicut</reg></choice> videtur quia sic 
+                        <lb ed="#S"/>sicut ponit glossa cum ibi in principio ca[?]<g ref="#dot"/> quod cogitaveri curpiter sed antequam 
+                        <lb ed="#S"/>dominui statim <corr><g ref="#carrot"/><add place="marginRight">poenitui</add><del rend="underline">sentivi</del></corr> post polluor in sompno aut igitur 
+                        <lb ed="#S"/>sine peccato autem non si sic propositum si non quare debe amissa ab<lb ed="#S"/>stinere</p>
+                    
+                    <p><g ref="#pilcrow"/>potest responderi quod propter reverentiam sacramenti quia corpus ex culpa 
+                        <lb ed="#S"/>mea fuit deordinatum et deordinate alteratum et licet ut dicit 
+                        <lb ed="#S"/>glossa sic concretus tamen vestigia remanet et reliquae <g ref="#dot"/> imputatur 
+                        <lb ed="#S"/>igitur mihi dicit glossa videtur quod <corr><del rend="underline">quia</del><g ref="#carrot"/><add place="marginRight">si initi</add></corr> aliter cogitavi turpiter <g ref="#dot"/> semper <g ref="dot"/> quod habe<lb ed="#S"/>am 
+                        a celebrando abstinere cuius causa potest poni alteratio corporis 
+                        <lb ed="#S"/>per illam miseriam et indispositionem ex culpa quae licet sit dimis<lb ed="#S"/>sa 
+                        coneor tamen ad hanc poenam propter illam culpam tenor inquam 
+                        <lb ed="#S"/>tentione consilii quibus enim talis humiliter habet se sentire in dignum 
+                        <lb ed="#S"/>ad tanta ministeria celebranda praecise quia talis fragilitas ex 
+                        <lb ed="#S"/>praemeditatione vel cum fluxu carnaliter in sompno proveniens alteratus 
+                        <lb ed="#S"/>hominem et facit hominem sic alteratum stante alteratione in corpore 
+                        <lb ed="#S"/>relicta pronum ad habendum in memoriam huius illecebram et ad 
+                        <lb ed="#S"/>quodammodo inplendum vel saltem <corr><g ref="#carrot"/><add place="margin"><g ref="#carrot"/>sensualiter</add></corr> cum declarandum quamvis secundum ordina<lb ed="#S"/>tam 
+                        deliberationem displicet accidisse et ideo cum ex culpa 
+                        <lb ed="#S"/>sua hoc sibi devenerit licet per poenam dimissa rationabiliter ad hoc 
+                        <lb ed="#S"/>habet abstinere donec tranquillitas plena sibi fuerit ref?ta non 
+                        <lb ed="#S"/>quia doriens peccaverat sed quia ex culpa sua praecisa non est in 
+                        <lb ed="#S"/>corpore dispositus nec in anima ad digne celebrandum et poe<lb ed="#S"/>na 
+                        culpae suae ad hoc restat licet non de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> salutis 
+                        <lb ed="#S"/>or?at[?] abstinere etiam si ex peccato mortali iam emendato per poenam[?] 
+                        <lb ed="#S"/>sibi talis fragilitas accidisset</p>
+                    
+                    <p><g ref="#pilcrow"/>ad primum igitur argumentum contra secundam co?am[?] 
+                        <lb ed="#S"/>supradicti dubii bene volo quod in casu quo communis ex culpa sua 
+                        <lb ed="#S"/>incidit infurorem in quo perpetravit homicidium inponenda est ei poena 
+                        <lb ed="#S"/>ad cautelam ne scilicet unquam similem culpam perpetret ut ex hor<lb ed="#S"/>rore 
+                        male poenae provenientis ex pena suae culpae horreat 
+                        <lb ed="#S"/>culpam suam qua pervenit ad statum butalem[?] et totum tempus perdidit 
+                        <lb ed="#S"/>quo ad meritum quo debuerat deum ex amore et recta ratione 
+                        <lb ed="#S"/>coluisse</p>
+                    
+                    <p><g ref="#pilcrow"/>dices quod immo etiam ratione culpae quia ipsis inponeretur 
+                        <lb ed="#S"/>poenitentia etiam si ex culpa in furiam non incidisset quia <ref><title>Ioannes[?]</title> 15 quaestione 1</ref> 
+                        <lb ed="#S"/>si quis insamiens istis inponitur poenitentia et tamen non deliquaerunt et 
+                        <lb ed="#S"/>hoc fit ad cautelam et ne disciplina ecclesiae deseratur</p>
+                    
+                    <p>Praeterea non 
+                        <lb ed="#S"/>minus inponenda est poenitentia facienti homicidium in furia ipsa propter factum 
+                        <lb ed="#S"/>in furia quam a casu facienti homicidium sed de tali habitum est supra quod 
+                        <lb ed="#S"/>non peccat vel esse potest quod non peccaverit dato quod non dederat o<lb ed="#S"/>peram 
+                        rei illiicite nec aliquid obmiserit de hiis ad quae tenebatur 
+                        <lb ed="#S"/>et tamen tali inponitur poenitentia igitur a simili de furioso occidenti[?] etc recte 
+                        <lb ed="#S"/>propter ipsam occisionem</p>
+                    
+                    <p><g ref="#pilcrow"/>assumptum probatur per illud quod habetur distinctione 40 capitulo eos 
+                        <lb ed="#S"/>qui non et c[?] si quis ubi dicitur si quis non voluntate sed casu homicidium 
+                        <lb ed="#S"/>fecerit prior canon 7 annos poenitentias agere iussit 2us 5 man<lb ed="#S"/>davit 
+                        igitur etc</p>
+                    
+                    <p><g ref="#pilcrow"/>ad primum dicendum quod si illud esset verum multum faceret 
+                        <lb ed="#S"/>pro me aliter tamen respondet <name>bar brix</name> in apparatu haec inquit opinion non est 
+                        <lb ed="#S"/>approbanda quia satis ipso furore punitur</p>
+                        
+                        <p><g ref="#pilcrow"/>ad <choice><orig>2m</orig><reg>dicendum</reg></choice> similiter quod 
+                            <lb ed="#S"/>non est contra conclusione superius datam dicendum tamen ad illud sicut ad inpertinens 
+                            quod secundum apparatum casu occidenti inponenda est huius poenitentia dum 
+                            <lb ed="#S"/>cum culpa praecesserit casum alias etiam clericus posset promoveri <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+                            <lb ed="#S"/>probat per capitulum[?] dilectius[?] extra de homicidis cum ibi conventir de sa<lb ed="#S"/>credote 
+                            st cuius equus[?] rupto furro servium occidit respondetur 
+                            <lb ed="#S"/>si ita est quod idem capellamus nec voluntate nec actu homicidium perpe<lb ed="#S"/>travit 
+                            nec <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>dedit</add></corr> operam rei illicite <g ref="#dot"/> non inpendas quo minus 
+                            <lb ed="#S"/>possit promeveri ex quo per locum a maiori <choice><orig>repungnat</orig><reg>repugnat</reg></choice> quod poenitentia 
+                            <lb ed="#S"/>non sic sibi aliter inponenda <corr><g ref="#carrot"/><add place="aboveLine">scilicet</add></corr> non fuisset in culpa et quod tunc 
+                            <lb ed="#S"/>pro illa sua incuria vel negligentia puniretur et hoc videtur mihi 
+                            <lb ed="#S"/>satis posse probari sed quod supradictum caum intelligatur ubi casum prae<lb ed="#S"/>cedit 
+                            culpa per tm[?] inter medium duobus illis casis allegatis 
+                            <cb ed="#S" n="115ra"/><lb ed="#S"/>scilicet si qua <g ref="#dot"/> ubi dicitur si qua feia[?] furore zeli accensa fla<lb ed="#S"/>gellis  
+                            ubiaverit[?] ancillam suam ita ut in falsa <choice><orig>3m</orig><reg>tertium</reg></choice> diem animam 
+                            <lb ed="#S"/>cum cruciatu <choice><orig>emictat</orig><reg>emittat</reg></choice> eo quod incertum sit an voluntate an casu 
+                            <lb ed="#S"/>occiderit si voluntate post 7 annos si casu post 5 annorum tempora per 
+                            <lb ed="#S"/>acta digna poenitentia ad conclusionem placuit adiucti[?] haec illae[ibi>] ubi 
+                            <lb ed="#S"/>plane patuit quod sine culpa comissionis vel omissionis in 
+                            <lb ed="#S"/>ponitur poenitentia quin quemnis[?]</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed contra hoc est casum sicut extra homicidio 
+                        <lb ed="#S"/>significasti ubi praecipitur in iungi poenitentia ad cautelam et tamen 
+                        <lb ed="#S"/>in casu alius capituli nulla culpa praecessit dicitur enim ibi sit signi<lb ed="#S"/>ficasci 
+                        quia dum clericus aequivocaret equus cui insedebat tam 
+                        <lb ed="#S"/>se quam ipsum proiecti in aliquam unde clericus ipsum graviter calcari<lb ed="#S"/>bus 
+                        stimulavit equus vero cum existeret bucca durus praeter 
+                        <lb ed="#S"/>voluntatem sessoris raptus in cursum quandam mulierem quam 
+                        <lb ed="#S"/>habuit obiectivam ex <corr><del rend="expunctuated">interu[?]</del></corr> inproviso pedibus interfecti cumque 
+                        <lb ed="#S"/>nos ad eodem clerico fecissemus inquiri utrum equi vicium 
+                        <lb ed="#S"/>prius scivisset illud se asservit ignorasse ideo mandamus 
+                        <lb ed="#S"/>si est ita ad cautelam iniungas ei poenitentiam competentem 
+                        <lb ed="#S"/>qua per acta non inpedias quo minus et insusceptis minis<lb ed="#S"/>tret 
+                        ordinibus et ad maiores valeat promoveri haec illae 
+                        <lb ed="#S"/>ecce nulla culpa nec in actu ante et tamen in iungitur 
+                        <lb ed="#S"/>poenitentia igitur multo fortius in priori casu esset poenitentia in iugenda 
+                        <lb ed="#S"/>etiam dato quod culpa non praecessisset</p>
+                    
+                    <p><g ref="#pilcrow"/>Et qui confirmatur quia ibidem super 
+                        <lb ed="#S"/>verbum competentem dicit glosssa et levis debet esse poenitentia cum in cul<lb ed="#S"/>pa 
+                        non fuerit igitur ubi culpa non est ad hoc poenitentia sed levis 
+                        <lb ed="#S"/>et competens est in iungenda potest dici quod si certum est quod non 
+                        <lb ed="#S"/>fuisset in culpa non inponeretur sibi poenitentia unde <corr><g ref="#carrot"/><add place="marginLeft">glossando<g ref="#carrot"/></add></corr> dicit glossa super 
+                        <lb ed="#S"/>verbum ad cautelam <g ref="#dot"/> propter ambiguum duplicatis</p>
+                    
+                    <p><g ref="#pilcrow"/>contra credendum videtur 
+                        <lb ed="#S"/>clerico illi <g ref="#dot"/> dicendum quod in foro conscientiae esse sibi credendum sed ita non 
+                        <lb ed="#S"/>oportet in foro publico puta si agatur pro honore publico concedendo 
+                        <lb ed="#S"/>vel <corr>reci<del rend="expunctuated">pi</del><add place="aboveLine">n</add>endo</corr></p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum etiam quod propter timorem utrum in alia negligentia 
+                        <lb ed="#S"/>fuerit omissiones vel commissiones unde <corr><del rend="expunctuated">si</del></corr> fieret hoc ut maiorii cauveant 
+                        <lb ed="#S"/>huius pericula potest enim aliquis puniri sine sua culpa sed non 
+                        <lb ed="#S"/>sine causa sicut declarat innocentius super c ga?vem[?] extra de singula 
+                        <lb ed="#S"/>ex communi et docet ibi quod hic est ad meritum[?]initum[?] illius qui sustinet 
+                        <lb ed="#S"/>si patienter toleret non tamen credo ut prius dixi quod in foro 
+                        <lb ed="#S"/>?scientiae propter eventum talis infortum ubi invenitur circulariter quis 
+                        <lb ed="#S"/>ab omni culpa praecedenti esse immunis quod esset sibi imponenda in 
+                        <lb ed="#S"/>foro poenitentia[?] poena alia nisi ille tineret[?] se peccasse quod videretur videri 
+                        <lb ed="#S"/>simile ex quo de hoc conficeretur ideo ad patiendam suam conscientiam 
+                        <lb ed="#S"/>tinorosam[?] vel scrupulosam ubi etiam omnino esset sine culpa crederem 
+                        <lb ed="#S"/>ei ad suum meritum et ad suam conscientiam plene sere?dam[?] 
+                        <lb ed="#S"/>cum instructione tamen debita de veritate ipsa <corr><g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>ab</add></corr> quantam ei poenitentiam[?] 
+                        <lb ed="#S"/>inponendam quia non faceret de hoc in confessione rationaliter et 
+                        <lb ed="#S"/>sponte mentionem nisi tineret[?] se aliqualiter deliquisse de 
+                        <lb ed="#S"/>foro tamen publico indici?li[?] propter duplicatis ambiguitatem et ad 
+                        <lb ed="#S"/>curorem[?] ut et talis et alii melius caueant in futurorum ex<lb ed="#S"/>pedit 
+                        poenas inponere competentes tamen <g ref="#dot"/> si quaeratur an in 
+                        <lb ed="#S"/>foro publico aliquis sic sine culpa puniendus licet hoc sit in<lb ed="#S"/>pertinens 
+                        ad difficultatem quae principaliter hic inquiritur</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod non 
+                        <lb ed="#S"/>rariter quia hoc esset par?sum[?] et contra iustitiam ut frustra quorum<lb ed="#S"/>dam 
+                        voluntatibus suis quis privaretur officiis quem sua culpa 
+                        <lb ed="#S"/>vel facimus a gradu quo fringitur non deiecit <title>Ioannes</title> 3 per 
+                        <lb ed="#S"/>v?sum[?] et per alia multa capitula posset idem probari nam poena 
+                        <lb ed="#S"/>est mensura et ordinatio culpae unde in deutero secundum quan<lb ed="#S"/>titatem 
+                        delicti erit plagis motus et licet non rariter 
+                        <lb ed="#S"/>quandoque tamen sine culpa punitur communis iste sed non sine causa extra 
+                        <lb ed="#S"/>de iuris sine culpa li 6 ?o hoc notant <name>Ioannes</name> motu[?] et <name>Ioannes</name> 
+                        <lb ed="#S"/>andre causa autem consuevit hiis versibus denotari <g ref="#dot"/> pan[?] 
+                        <cb ed="#S" n="115rb"/><lb ed="#S"/>partas odium vicium favor et zelus ordo personas spo<lb ed="#S"/>liant 
+                        et loca iuris suo</p>
+                    
+                    <p><g ref="#pilcrow"/>paupertas ut cum uniuntur duae 
+                        <lb ed="#S"/>ecclesiae ex hac causa et alta <choice><orig>amictit</orig><reg>amittit</reg></choice> dignitatem suam <corr><add place="marginRight">x quaestio 3 unio 16, questio 1 temporis</add></corr> odium 
+                        <lb ed="#S"/>civium interficientem suum epm[?] extra de poenis felicis libro 6 
+                        <lb ed="#S"/>vitium scilicet leprae extra de clerico aegritante[?] tna[?] et ita potest probari 
+                        <lb ed="#S"/>de aliis in directorio iuris scilicet tabulae <name>Iohannis</name> hic fordoris 
+                        <lb ed="#S"/>titulo de poenis q[?] illius pro residuis</p>
+                    
+                    <p><g ref="#pilcrow"/>nec mirum si aliquis 
+                        <lb ed="#S"/>ex causa non ex culpa sua punitur aliquando tamen etiam unus puniatur 
+                        <lb ed="#S"/>pro alio tamen distinguendum est de poena nam alia est aeterna alia 
+                        <lb ed="#S"/>temporalis poena aeterna nullus punitur pro alio quia de hac dicit scriptura 
+                        <lb ed="#S"/>filius non pertabit iniquitatem patris nisi fuerit eius mutator[?] 
+                        <lb ed="#S"/>et tunc puniretur sicut pro culpa propria et hoc intelligo de poena 
+                        <lb ed="#S"/>sensus nam poena dampni puniuntur multi aeternaliter pr peccato <name ref="#Adam">adam</name> 
+                        <lb ed="#S"/>p[?] hanc etiam peccatum proprium secundum <name ref="#Anselm">anselmus</name> <g ref="#dot"/> poena temporalis est duplex corporalis 
+                        <lb ed="#S"/>et spiritualis corporali saepe punitur unus pro alio spiritualis est <corr><g ref="#carrot"/><add place="maringRight">ex</add></corr> una ex<lb ed="#S"/>communicatio 
+                        et ista nullus puntiru pro alio 24 q 3 si habes</p>
+                    
+                    <p><g ref="#pilcrow"/>3a inter 
+                        <lb ed="#S"/>dictum loci 3a remotio ab obligationibus 4a repulsio ab 
+                        <lb ed="#S"/>ordinibus ut martus[?] repellitur quo ad hoc proper delictum 
+                        <lb ed="#S"/>uxoris istis <choice><orig>3bus</orig><reg>tribus</reg></choice> modis punitur unus pro alio sine sua culpa 
+                        <lb ed="#S"/>sed non sine causa quare etc</p>
+                    
+                    <p><g ref="#pilcrow"/>ad <choice><orig>2m</orig><reg>secundum</reg></choice> de hominibus eb?osis[?] dicendum per 
+                        <lb ed="#S"/>omnia sicut ad primum quod peccat scienter <choice><orig>permictens</orig><reg>permittens</reg></choice> se inebriari 
+                        <lb ed="#S"/>cum sciat quanta mala <choice><orig>commictant</orig><reg>committant</reg></choice> ebrii etc nec vult dicere 
+                        <lb ed="#S"/>quod ista quae fiunt primo in plena ebrietate sint curna[?] licet 
+                        <lb ed="#S"/>habeant annexum tantum[?] ebrietatis non dum per poenitentiam enim datum 
+                        <lb ed="#S"/>et alia quae per ebrietatem <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>praecesserunt et</add><del rend="expunctuated">priorem sequuntur hic</del></corr> debet sibi inponi 
+                        <lb ed="#S"/>gravior poenitentia quam pro sola ebreitatem ut melius caveat ebrie<lb ed="#S"/>tatem 
+                        et tunc de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> salutis debet cavere statum ebrietatis in 
+                        <lb ed="#S"/>quo talis mala et notuitata posset proximis inferre etiam dato quod 
+                        <lb ed="#S"/>ebrietas vel furia non esset peccatum <corr><add>?</add></corr> unde apparatus super illud <corr>damp<lb ed="#S"/>nan<del rend="expunctuated">i</del>tur</corr> 
+                        levitatis auctores id est quae sunt nimis faciles[?] ad <sic>ad</sic> ine<lb ed="#S"/>briandum 
+                        se et sequitur alii intelligunt quod nec puri pro eo quod ebrius fecit 
+                        <lb ed="#S"/>sed tantum pro eo quod levis erat ad inebriandum se haec illae[?] <g ref="#dot"/>Ecce quod <corr><g ref="carrot"/><add place="marginRight">semper</add></corr> <corr>ca<lb ed="#S"/>ve<del rend="expunctuated">a</del>nt</corr> 
+                        dicere peccari in plena ebrietate</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 3m dicendum quod illa 
+                        <lb ed="#S"/>auctoritas facit pro me quia dicit quod culpandus erat non quantum in<lb ed="#S"/>cestus 
+                        sed quantum ebrietas illa merebatur unde glossa super illud capitulum 
+                        <lb ed="#S"/>infert dato quod in plena ebrietate doriens peccaret quia tunc 
+                        <lb ed="#S"/>peccaret nesciens in ebrietate quid faceret <g ref="#dot"/> et ut hoc vicem <g ref="#dot"/> aliter 
+                        <lb ed="#S"/>respondit inquit quod hic non erat <name rend="#Lot">loth</name> nesciens natura enim non 
+                        <lb ed="#S"/>patitur quod aliquis nesciens coeat sed dicitur nescius quia nesciebat 
+                        <lb ed="#S"/>esse filias credebat enim esse uxorem suam dato tamen quod simpliciter 
+                        <lb ed="#S"/>nesciens vel simpliciter doriens</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum sicut prius quod peccavit non 
+                        <lb ed="#S"/>noviter sed mansit in peccato quo inebriavit se <g ref="#dot"/>Nota tamen quod super 
+                        <lb ed="#S"/>illud verbum non tantum quantum dicit apparatus causaliter[?] exponitur hoc quidam sic <corr><g ref="#carrot"/><add place="marginRight">exponunt</add></corr> quod 
+                        <lb ed="#S"/>punitur propter incestu et ebrietate quasi diceret <g ref="#dot"/> non tantum <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>sicut</add></corr> pro altero praecise 
+                        <lb ed="#S"/>vel aut non punitur quantum incestus meretur scilicet si esset commissisivus 
+                        <lb ed="#S"/>ex communi de liberatione alii dicunt quod nullo modo punitur pro incestu 
+                        <lb ed="#S"/>sed tantum pro ebrietate quae ebrietas tantum erat veniale peccatum haec illae</p>
+                    
+                    <p><lb ed="#S"/><g ref="#pilcrow"/>ultimam responsionem tenerem econverso simpliciter de ebries si fecerint inces<lb ed="#S"/>tum 
+                        et illa ebrietas fuit veniale peccatum <g ref="#dot"/> sed si partim habuerit usum 
+                        <lb ed="#S"/>rationis et <corr>par<del rend="expunctuated">c</del>tim</corr> non iuxta opinionem glossatoris[?] de facto <name ref="#Lot">loth</name> <g ref="#dot"/> praetat 
+                        <lb ed="#S"/>causa primam tenerem si sciens et <choice><orig>actendens</orig><reg>attendens</reg></choice> vere vel interpre<lb ed="#S"/>tative 
+                        quanta mala provenient ex ebrietate scienter et ex 
+                        <lb ed="#S"/>electione permisisset se in ebriari et sic intelligo dictum <name ref="#Aristotle">philosophi</name> 
+                        quod ebrius male operans duplici interpretatione fit dignus</p>
+                    
+                    <p><lb ed="#S"/><g ref="#pilcrow"/>ad <choice><orig>4m</orig><reg>quartum</reg></choice> verum est quod non omnis infirmitas in potentia vel 
+                        <lb ed="#S"/>ignorantia excusat a peccato quando venit ex culpa <g ref="#dot"/> dico 
+                        <lb ed="#S"/>tamen quod omnis infirmitas etc qua homo non est compos mentis <corr><add place="marginRight">et in qua perdit simpliciter cosis[?] rationis</add></corr> 
+                        <lb ed="#S"/>excusat facta quae in taliter disposito ab eo <g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>iterum</add> fiunt actu 
+                        <lb ed="#S"/><corr><add place="marginCenter">et tunc</add></corr> noviter peccando nec contrarium volunt auctoritates quae primum[?] dicunt</p>
+                    
+                    <p><g ref="#pilcrow"/>Et per hoc patet ad <choice><orig>5m</orig><reg>quintum</reg></choice> <g ref="#dot"/> quod non est simile de factis ex infirmitate 
+                        <cb ed="#S" n="115va"/><lb ed="#S"/>fonutis[?] et factis ex furia quia si facta ex infirmitate ita saepe 
+                        <lb ed="#S"/>veniunt scienter et voluntarie non sic facta ex pura furia et similiter 
+                        <lb ed="#S"/>dico de factis ex ignorantia fiunt enim talia voluntarie ubi 
+                        <lb ed="#S"/>homo posset se ab agendo cohibere si vellet donec in ves<lb ed="#S"/>tigaretur 
+                        an licite possint agere hoc vel illud in quo pec<lb ed="#S"/>cat 
+                        sed sic non potest se cohibere furiosus vel doriens vel 
+                        <lb ed="#S"/>pure ebrius non plus quam lapis vel brutio[?]</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 6m 
+                        <lb ed="#S"/>teneo ibi primum actumnon 2m quia immediate ibi subdit appara<lb ed="#S"/>tus 
+                        quam distinctionem non <choice><orig>admicto</orig><reg>admitto</reg></choice></p>
+                    
+                    <p><g ref="#pilcrow"/>ad 7m concedo quod furiosus 
+                        <lb ed="#S"/>occidendo[?] non tunc noviter peccat</p> 
+                    
+                    <p><g ref="#pilcrow"/>ad <name ref="#Augustine">augustinus</name> concedo quod quae fiunt vo<lb ed="#S"/>luntarie 
+                        ex infirmitatem vel ignorantia si sint mala nisi simpliciter 
+                        <lb ed="#S"/>sit in uni?lis[?] sunt nova peccata alias non sunt peccata nova 
+                        <lb ed="#S"/>post hanc vitam punienda concupientia enim talis ex fomi<lb ed="#S"/>te 
+                        procedens non inputatur ad novum peccatum sed solum per<lb ed="#S"/>tinet 
+                        ad originale nisi non cohibeatur cum possit tunc enim inter 
+                        <lb ed="#S"/>praetative[?] vel vere est voluntaria fomes enim simpliciter est voluntaria quae 
+                        <lb ed="#S"/>etiam ex hac concupientia fiunt voluntarie fiunt et per consequens quae ex infirmi<lb ed="#S"/>tate 
+                        illa procedunt peccata nova sunt sed quae fiunt ex pura 
+                        <lb ed="#S"/>furia non fiunt elective nec vere nec interpretative igitur nec est simile</p>
+                    
+                    <p><lb ed="#S"/><g ref="#pilcrow"/>dices quare <name ref="#Paul">apostolus</name> dixisset infelix ego homo etc responsio 
+                        <lb ed="#S"/>cum propter deordinationem concupiscentiae quantucumque non consentiatur epus[?] inclina<lb ed="#S"/>tionibus 
+                        contra institutionem status primarii cum quia nemo potest omnia 
+                        <lb ed="#S"/>peccata vitare saltem venialia ad quae inclinat fomes 
+                        <lb ed="#S"/>concupiscentiae et etiam quia homo habet semper timere casum immortale ex 
+                        <lb ed="#S"/>illa et numquam fit perfecte certus inperseverantia[?] in bono de lege 
+                        <lb ed="#S"/>communi saltem dum permanet anima in corpore mortis huius</p>
+                    
+                    <p><g ref="#pilcrow"/>ad omnes etiam auctoritates quas reducunt secundum <name>augustinus</name> quod non omne 
+                        <lb ed="#S"/>peccatum est voluntarium sed excipiendum est etiam peccatum quod est etiam poena 
+                        <lb ed="#S"/>peccati etc. <g ref="#dbslash"/>dicendum quod istae poenae quae sunt communes omnibus et non fiunt 
+                        <lb ed="#S"/>nec habentur voluntarie nec vere nec interpretative bene sunt peccata 
+                        <lb ed="#S"/>vocando peccatum vitium negatur vel deordinationem contra statum primor<lb ed="#S"/>dinalem 
+                        hominis et etiam sunt inputantda inputabilitate peccati originalis ad 
+                        <lb ed="#S"/>poenam dampni sed non nova peccata inputabilia ad poenam sensus 
+                        <lb ed="#S"/>quod au[?] arguebatur quod ignorantia <name ref="#Jews">iudeorum</name> fuit excusabilis quia ex 
+                        <lb ed="#S"/>zelo dei <corr><add place="marginLeft">moti</add><del rend="expunctuated">non</del></corr> agabant</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum sicut dicit <name ref="#Paul">apostolus</name> quod non secundum sci<lb ed="#S"/>entiam 
+                        agebant nullus autem debet voluntarie <choice><orig>agredi</orig><reg>aggredi</reg></choice> ista ardua <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+                        interfactionem[?] <g ref="#dot"/> vel ita persecutionem generatione[??] proximi ex <choice><orig>alico</orig><reg>aliquo</reg></choice> zelo nisi sic prius 
+                        <lb ed="#S"/>sufficiter certus quod sic ita agendum hoc non fuit de eis quia contra 
+                        <lb ed="#S"/>eos potuit facere lex et prophetae in qua christus fuerat eis promissus 
+                        <lb ed="#S"/><g ref="#dbslash"/>si dicatur quod aliqui eorum fiunt [?] simplices reputantes se obli<lb ed="#S"/>gari 
+                        ad obediendum maioribus in persecutione christi et sanctorum 
+                        <lb ed="#S"/>hoc fecerunt ex ignorantia eis invincibili cum zelo praestandi 
+                        <lb ed="#S"/>obsequium deo sine omni ambiguitate vel invidia erga christum <g ref="#dbslash"/> dicendum 
+                        <lb ed="#S"/>sicut alias dictum est secundum ubi <g ref="#dot"/> quod illi excusantur a peccato novo pro tunc 
+                        <lb ed="#S"/>si aliud non obstaret <g ref="#dot"/> et si dicas quare igitur christus orasset pro eis <g ref="#dot"/><c>d</c><g ref="#dot"/> 
+                        ignosce eis patet etc dico quod quia de facto fuerint culpabiles 
+                        <lb ed="#S"/>eum non solum agerent obediendo sed etiam voluntariis propriis motibus mor<lb ed="#S"/>tem 
+                        christi desiderando non obstantibus maximis miraculis sibi no<lb ed="#S"/>tis 
+                        ex libidioso enim proprie odio dixerunt plebei sanguis 
+                        <lb ed="#S"/>eius super nos etc satis enim erat rumor in populo prove?ns[?] etiam ad 
+                        <lb ed="#S"/><name>pylatum</name> quod ex invidia maiores conspirabant et conspiraverunt 
+                        <lb ed="#S"/>contra eum habuissent enim toto visis in contrarium se excuasasse et totum 
+                        <lb ed="#S"/>manibus reliquisse <g ref="#dot"/> quod quia non facerunt sed nimis leviter maio<lb ed="#S"/>ribus 
+                        consenserunt cum tamen maxima motiva haberent in contrarium 
+                        <lb ed="#S"/>ut dictum est ideo vaciter de facto peccaverunt dicat ubi  <g ref="#dot"/> in contra<lb ed="#S"/>rium 
+                        quidquid sibi placet maior enim est auctoritas facti christi quam ubi sui 
+                        <cb ed="#S" n="115vb"/><lb ed="#S"/>potuit tamen forte esse ut aliquid <corr>ni<add place="aboveLine">mis</add></corr> simplices essent tales <corr><g ref="#carrot"/><add place="aboveLine">quales</add></corr> descri<lb ed="#S"/>bit 
+                        <g ref="#pilcrow"/>ad 8m igitur dici potest ad virtutuem vocis sed non ad mentem nec 
+                        <lb ed="#S"/>ad sensum quod peccata nolentium sunt peccata illorum qui libere et elective 
+                        <lb ed="#S"/>nolunt seu odiunt quae tenerentur velle vel non odire sed 
+                        <lb ed="#S"/>indifferenter vocavi hoc prius voluntarie fieri quia ista libere elicit voluntas 
+                        <lb ed="#S"/>actum notandi in casu sicut alias actum volendi</p>
+                    
+                    <p><g ref="#pilcrow"/>ad formam igitur 
+                        <lb ed="#S"/>argumenti dico quod augustinus inquirit sed quaerere non est sententialiter nisi for<lb ed="#S"/>te 
+                        dicat quaestio supponit alia esse peccata nolentium et dubio quod ad men<lb ed="#S"/>tem 
+                        <name ref="#Augustine">augustinis</name> nulla sunt talia nisi concupiscentiae et pro?tes[] nobis inevi<lb ed="#S"/>tabiles 
+                        quia sunt vitia nullae contra primarium statum sed non inputabilia ad 
+                        <lb ed="#S"/>poenam <choice><orig>alicam</orig><reg>aliquam</reg></choice> ab illa quae debebitur originali peccato si ulterius non 
+                        <lb ed="#S"/>delinquatur et cum probatur quod immo quia ipse contra voluntatem fa?ns[?] peccat qui 
+                        <lb ed="#S"/>compulsus facit malum aliquod ad illud respondet ibi decretum et <name ref="#Augustine">augustinus</name> 
+                        <lb ed="#S"/>quod talis voluntarie peccat quia vult aliquod propter quod consentit facere illud quod 
+                        <lb ed="#S"/>est peccatum unde dicit ibi decretum de illo qui compellitur contra voluntatem suam 
+                        <lb ed="#S"/>ferre alqiquid coactione conditionali sic et est <name ref="#Augustine">augustinus</name> ut ibi intitulatur sed 
+                        <lb ed="#S"/>iterum vult propter quod facit cum vult unum haec illae <corr><add place="marginBottom">Sed utique vult propter quod facit tamquam si periurare nolit quod tamen facit cum vult vivere si quisquam nisi fecerit mortem minetur vult igitur facere quia vult vomere</add></corr> et consequenter optime docet 
+                        <lb ed="#S"/>qualiter per se vult vivere et falsum <g ref="#dot"/> nmtare[?] per accidens et concordat 
+                        <lb ed="#S"/>processu <ref><name ref="#Aristotle">philosohpi</name> 3 <title>ethicorum</title></ref>  de proiciente[?] mertes[?] in maiori dicit igitur inferens 
+                        <lb ed="#S"/>ideoque nec per seipsum appetit ut falsum mirum sed ut iurando vi<lb ed="#S"/>vat 
+                        et eodem modo dicit quod nemo vult per se peccare nam si 
+                        <lb ed="#S"/>diligenter inquit inspiciatur forte ipsum peccare nemo velit 
+                        <lb ed="#S"/>sed propter aliud protper quod vult peccant omnes homines quippe qui scienter fa<lb ed="#S"/>ciunt 
+                        quod non licet vellent licere usque a deo peccare nemo 
+                        <lb ed="#S"/>appetit propter hoc ipsum sed propter illud ex quo sequituer et ibi notat appara<lb ed="#S"/>tus 
+                        quod <corr><add place="marginRight">haec arg[?] non valet nolo haec</add></corr> igitur volo omne <corr><g ref="#carrot"/><add place="aboveLine">illo</add></corr> quod sequitur ex illo ut ille vult fornicari 
+                        <lb ed="#S"/>igitur vult dampnari nisi intelligas in directe et per consequentiam et 
+                        <lb ed="#S"/>sequitur intellectu haec si ita hanc non sunt peccata notium nisi nescientium 
+                        <lb ed="#S"/>quae differentu a peccatis notium et habet intelligi de nescientia in invin<lb ed="#S"/>cibili 
+                        quia de vincibili statim sequitur quod prius sumptum fuit sane inquit 
+                        <lb ed="#S"/>sunt quidam qui iniuriam facere non possunt ut puta furiosus 
+                        <lb ed="#S"/>et impubes quid doli capax non est nam hii pati in mriam[?] so<lb ed="#S"/>lent 
+                        cum enim iniuria ex affectu facientis <corr>con<g ref="#carrot"/><add place="aboveLine">fi</add>scat</corr> <g ref="#dot"/> consequens 
+                        <lb ed="#S"/>erit dicere hos sive pulsent sive convicium dicant iniuriam fe<lb ed="#S"/>cisse 
+                        non vi?ri[?] sed etiam pati quis iniuriam etiam si non sentiat 
+                        <lb ed="#S"/>potest <g ref="#dot"/> facere vere nego nisi quid scit se facere iniuriam <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>et</add></corr> si nes<lb ed="#S"/>ciat 
+                        cui faciat haec illae</p>
+                    
+                    <p><g ref="#pilcrow"/>contra illud quod dictum est nullus appetit vel 
+                        <lb ed="#S"/>vult peccare est quod dicit <ref><name ref="#Aristotle">aristoteles</name> 3 ethicorum capitulo 8</ref> ubi dicit 
+                        <lb ed="#S"/>dicere quod nullus volens malus nec <corr><add place="aboveLine">n</add>olens</corr> bonus assimilatur huic 
+                        <lb ed="#S"/><corr><del rend="expunctuated">man</del></corr> mandati hoc aut veraci beatus quidam nullus volens malitiam 
+                        <lb ed="#S"/>autem voluntarium</p>
+                    
+                    <p><g ref="#pilcrow"/>aliter bene post eodem capitulo dicit sit ad hoc autem rr[?] 
+                        <lb ed="#S"/>rationabile iniusta facientem non velle iustum esse aut stupan<lb ed="#S"/>tem[?] 
+                        in continenter si autem non ignorans aliquid operatur ex quibus 
+                        <lb ed="#S"/>erit iniustus volens iniustus utique erit haec illae</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum 
+                        vquod dicit contrarium quod circulariter credo legisse et est dicendum sicut dicit glossator 
+                        <lb ed="#S"/>et ponitur supra quod in directe et per consequentiam sine per accidens vult esse 
+                        <lb ed="#S"/>malus qui sciens facit et voluntarie illud ex quo novit sequi se 
+                        <lb ed="#S"/>esse malum</p>
+                    
+                    <p><g ref="#pilcrow"/>ad consequens dicendum quod omnino nescientium sit quod usu rationis 
+                        <lb ed="#S"/>carentium non <corr><add place="marginRight">sunt <choice><orig>alica</orig><reg>aliqua</reg></choice></add><del rend="expunctuated">aut ista</del></corr> peccata in tali statu commissa <g ref="#dot"/> ignorantes 
+                        <lb ed="#S"/>autem non omnes excuso ex praedictis <g ref="#dot"/> unde apparatus dicit ibi quod in<lb ed="#S"/>telligit 
+                        de nesciente qui negligit sciere vel de ignorantibus illius 
+                        <lb ed="#S"/>vel quantitatem delicti scientibus tamen factum et probat quod per ignorantiam peccet 
+                        <lb ed="#S"/>communi quare ibi si vis alias inquit si nullo modo scirent ut 
+                        <lb ed="#S"/>infans vel furiosus non peccaret haec illae et dicit quod sic sol<lb ed="#S"/>vuntur 
+                        contrarietates ibi tactae circa hoc</p>
+                    
+                    <p><g ref="#pilcrow"/>Item 15 quaestion 1 merito 
+                        <lb ed="#S"/>distinguit apparatus et probat membra quare ibi nam super verbum nes<lb ed="#S"/>cientium 
+                        variis modis inquit dicitur quis nescire <g ref="#dot"/> qui non scit 
+                        <lb ed="#S"/>illud quod facit esse peccatum <g ref="#dot"/> vel non scit tantum esse peccatum esse quantum talis 
+                        <lb ed="#S"/>est et talis nesciens punitur licet non a deo graviter et exercat 
+                        <lb ed="#S"/>14 quatioen 5 <corr><g ref="#carrot"/><add place="belowLine"><g ref="#carrot"/>forte</add></corr></p>
+                    
+                    <p><g ref="#pilcrow"/>Item dicitur qui scit factum sed nescit quantitatem facti 
+                        <cb ed="#S" n="116ra"/><lb ed="#S"/>et talis quandoque punitur si errat innire[?] sed non punitur cum errat 
+                        <lb ed="#S"/>solum circa factum ipsum et dicitur nescire propter casum sequentem ut si quis 
+                        <lb ed="#S"/>volens interficere leonem dum vult defendere hominem casu 
+                        <lb ed="#S"/>interficit hominem <g ref="#dot"/> Item dicit nescire qu[?] omnino nescit ut puer <g ref="#dot"/> 
+                        <lb ed="#S"/>ebrius furiosus talis non peccat et sic patet ex utroque loco quod sic 
+                        <lb ed="#S"/>nesciens quod non habens usum rationis quod non peccat aliquid 
+                        <lb ed="#S"/>noviter interum faciendo</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 10m dicendum quod non est simile de nes<lb ed="#S"/>cientia 
+                        furiosi quae excludit usum rationis et de caecitate quae stat 
+                        <lb ed="#S"/>cum usu rationis unde verum est quod <name>lameth</name> non excusabatur 
+                        <lb ed="#S"/>a peccato per s[?] caecitatem quia fecit scienter quod facere non debuit unde 
+                        <lb ed="#S"/>addit ibi canno[?] quod caecitas ignorantiae est similis ex utrque enim 
+                        <lb ed="#S"/>quaedam fiunt quae inputantur ad poenam quaedam vero quae minime 
+                        <lb ed="#S"/>fecus enim si debitum suae uxori se credens reddere alienam 
+                        <lb ed="#S"/>polluit non est reus alulterii si tamen ludo vel exercitatione vi<lb ed="#S"/>rium 
+                        vel venatione iacula <choice><orig>mictens</orig><reg>mittens</reg></choice> perimat quia hic ab eo 
+                        <lb ed="#S"/>alienum omnino esse debet homicidii reus erat haec illae sed secus 
+                        <lb ed="#S"/>est de mente alientata furore ut subdit et supra habitum 
+                        <lb ed="#S"/>est</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 11 <g ref="#dot"/> cum accipit quod non sufficit pr excuastione quod 
+                        <lb ed="#S"/>non potest furiosus vitare quin faciat illa quae facit</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum 
+                        <lb ed="#S"/>quod immo quod illud sufficit ad excusandum non omnem deordinationem 
+                        <lb ed="#S"/>vel vitium contra pariam nullae institutionem sed peccatum ad poenam novam 
+                        <lb ed="#S"/>inputabile et tamen probatur quod non per <name ref="#Anselm">anselmus</name> <g ref="#dot"/> quia inpotentia quae ex culpa 
+                        <lb ed="#S"/>incurritur non levigat culpam nec excuast non reddentem quod 
+                        <lb ed="#S"/>debitum est</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod non levigat in <choice><orig>alico</orig><reg>aliquo</reg></choice> culpam per quam inci<lb ed="#S"/>ditur 
+                        in inpotentiam nec excusat nullus reddentem debitum a peccato 
+                        <lb ed="#S"/>voluntarie perpetrato quo incurrebatur in potentia nec etiam ista in potentia ex<lb ed="#S"/>cusat 
+                        in <choice><orig>alico</orig><reg>aliquo</reg></choice> illud peccatum quo voluit non reddere sed inpo<lb ed="#S"/>tentem 
+                        se facere et hoc probat bene exemplum ibi adductum <name ref="#Anselm">anselmus</name> <g ref="#dot"/> et 
+                        <lb ed="#S"/>eodem modo concedo quod furia non excusat a culpa ex qua in<lb ed="#S"/>curritur 
+                        furia sed excusat ne facta in furia sint nova 
+                        <lb ed="#S"/>peccata pu?lis[?] et ita excusat inpotentia ne non <corr><g ref="#carrot"/><add place="marginLeft">factiones agendorum</add><del rend="expunctuated">factis agendis 
+                        <lb ed="#S"/>si</del></corr> cum illa efficiater[?] <corr>velle<del rend="expunctuated">n</del>t</corr> illa facere si potentia non de esset 
+                        <lb ed="#S"/>et ex hoc quod praecise propter inpotentiam non tunc voluntarie causatam sed 
+                        <lb ed="#S"/>potius displicitatem[?] non fiunt <corr><del rend="expunctuated">non</del></corr> sint[?] nova peccata punitibilia[?] 
+                        in purgatorio vel in inferno secus si perserveraret in voluntate non facien<lb ed="#S"/>di 
+                        vel in carentia gratiae quam tenetur habere et ex ea vellet facere si 
+                        <lb ed="#S"/>posset unde nec <name ref="#Adam">adam</name> totiens peccavit quotiens non fecti quod 
+                        <lb ed="#S"/>primitus et ferre potuisset et debuisset nec nos etiam quod si gratiam 
+                        <lb ed="#S"/>quis non habeat et tunc totiens peccat quotiens ea metaphysicae tenetur  
+                        <lb ed="#S"/>aliquid facere vel velle inplere <g ref="#dot"/> non qui non habet sed quia per eum 
+                        <lb ed="#S"/>stat quod non habet quia non dat operam facienti illud quod potest haben<lb ed="#S"/>dum 
+                        gratiam dei</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 12 dicendum quod illi motus quibus assentitur nec 
+                        <lb ed="#S"/>vere nec interpretative non inputantur ad novum peccatum punientur 
+                        <lb ed="#S"/>dum post hanc vitam sed ad peccatum originale nec fideli nec in 
+                        <lb ed="#S"/>fideli <g ref="#dot"/> et tamen probatur per <name ref="#Anselm">anselmus</name> quod sit quia eos qui non sunt in 
+                        <lb ed="#S"/>christo dicit totiens sequi dampnationem etc</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod vel hoc dicit quia 
+                        <lb ed="#S"/>totiens innotescit et haec occasio puniendi aeternaliter sine dampna<lb ed="#S"/>biliter 
+                        personam istam pro originali culpa etiam dato quod iudex ille non 
+                        <lb ed="#S"/>accendsset talem de ordinationem quare aeternaliter puniretur poena 
+                        <lb ed="#S"/>dampni <g ref="#dot"/> vel quia totiens innotescere potest nobis ipsis natura ius<lb ed="#S"/>ta 
+                        dampnatio pro originali nisi remedium proturetur vel forte quod 
+                        <lb ed="#S"/>magis vadit ad verba quod totiens tenetur ex gratia resistere 
+                        <lb ed="#S"/>talibus motibus vel ipsos regulare vel ref?nare quod quia non 
+                        <lb ed="#S"/>facit infidelis cum de sic gratia quae deberet haberi ex quo non habetur 
+                        <lb ed="#S"/>iustitia originalis non facit homo talis quod facere tenetur <g ref="#dot"/> vel si fa<lb ed="#S"/>cit 
+                        non tamen eo modo vel ex eo principio quod facere tenetur <g ref="#dot"/> quia per eum 
+                        <lb ed="#S"/>stat quod illud principium suorum operum de liberate ab eo proceden<lb ed="#S"/>tium 
+                        non habet et ideo regulariter totiens noviter peccat si utatur 
+                        <lb ed="#S"/>ratione pro tunc quotiens huius motus sentit sine refrenat eos 
+                        <lb ed="#S"/>sine non <corr><g ref="#carrot"/><add place="marginBottom">non quia tunc habet illos <g ref="#dot"/> sed quia non ex gratia regulat illos vel refaret[?] sicut ex praeceptis dei obligatur</add></corr></p> 
+                    
+                    <p><g ref="#pilcrow"/>Ex hiis patet ad 2m principale dubium quod non tenetur do<lb ed="#S"/>lere 
+                        qui occidit hominem in pura furia quia tunc peccavit 
+                        <lb ed="#S"/>quando occidit sed quia ex peccato quo incidit infuri a[?] <corr><g ref="#carrot"/><add place="belowLine">evenit</add></corr> fecit[?] 
+                        <cb ed="#S" n="116rb"/><lb ed="#S"/>ante malum proximo suo ita quod tenetur gravius dolere de illo peccato 
+                        <lb ed="#S"/>suo ratione istius eventus mali dato etiam quod ex facto <corr><g ref="#carrot"/><add place="marginRight">vel peccato</add></corr> suo non 
+                        <lb ed="#S"/>provenisset furia ad huc tenetur dolere de morte tali proximi ex 
+                        <lb ed="#S"/>caritate qua obligatur proximum diligere <g ref="#dot"/> tenetur enim alteri compati 
+                        <lb ed="#S"/>qui simile ex infirmitate fecisset ex caritate qua obligatur alium 
+                        <lb ed="#S"/>diligere et tristari causa de alterius tali infirmitate quam de eventu 
+                        <lb ed="#S"/>misero ex eadem et multo fortius tenetur compati sibi ipsi et tristari 
+                        veam ex caritate qua obligatur <corr><add>diligere</add><del rend="expunctuated">dolere</del></corr> proximum laesum quam qua tentur 
+                        <lb ed="#S"/>diligere semet ipsum et ita concedenda est conclusio quod magis aliquando tenetur aliquis 
+                        <lb ed="#S"/>dolere de non peccato quam de quod quod non est peccatum nec m??[?] cum 
+                        <lb ed="#S"/>ex praecepto naturae teneor plus crescari[?] de morte infortuata[?] patris 
+                        <lb ed="#S"/>mei quam de hoc quod peccavi per unum verbum iocosum vel simile 
+                        <lb ed="#S"/>aliud <corr><g ref="#carrot"/><add place="marginRight">et sic de multis aliis</add></corr> licet 2m sic peccatum et non primum <g ref="#dot"/> nam de primo teneor ex dei praecepto 
+                        <lb ed="#S"/>dolere de 2o non sic <g ref="#dot"/> unde non dolere de primo esset dignum dampnatione 
+                        <lb ed="#S"/>aeterna non sit non dolere disc[?] de uno levi veniali</p>
+                    
+                    <p><g ref="#pilcrow"/>Ex hiis 
+                        <lb ed="#S"/>patet ulterius ad <corr><g ref="#carrot"/><add place="marginRight">2m</add></corr> dubium in sua forma dicendum est enim quod sic et ad primum 
+                        <lb ed="#S"/>in contrarium dico quod maior falsa est quia verum est quod non deberem pro 
+                        <lb ed="#S"/>10000 mundis praeservandis ab <choice><orig>anihilatione</orig><reg>annihilatione</reg></choice> facere minimum peccatum 
+                        <lb ed="#S"/>veniale quia quod deberem <choice><orig>commictere</orig><reg>committere</reg></choice> peccatum aliquod quantumcumque leve etiam 
+                        <lb ed="#S"/>pro ipso deo praeservando ab <choice><orig>adnihilatione</orig><reg>annihilatione</reg></choice> <choice><orig>ymaginali</orig><reg>imaginali</reg></choice> includit contra<lb ed="#S"/>dictionem 
+                        quia quod debeo seu teneor ferre peccatum aliquod includit 
+                        <lb ed="#S"/>contradictionem quia si est delucum est licitum et si est <g ref="#carrot"/> non est illicitum 
+                        <lb ed="#S"/>igitur nec culpa igitur ex opposito si est culpa non debeo[?] illam <choice><orig>commictere</orig><reg>committere</reg></choice> 
+                        <lb ed="#S"/>vel facere <g ref="#dot"/> bene breviter culpa non potest licere nec deberi manens cul<lb ed="#S"/>pa 
+                        nec pro deo nec pro creatura unde concedendum est <name ref="#Anselm">anselmus</name> <g ref="#dot"/> quantumque peccatus 
+                        <lb ed="#S"/>quantumcumque levi peccato non debuissemus sic peccasse pro vita 
+                        <lb ed="#S"/>propria salvanda nec pro 1000 <g ref="#dot"/> mundis aut pro ipso deo alias des<lb ed="#S"/>truendo 
+                        et tamen bene scio quod citius peccarem de facto uno levissimo 
+                        <lb ed="#S"/>veniali scito esse tali quam <choice><orig>permicterem</orig><reg>permitterem</reg></choice> digitum meum abscindi <g ref="#dot"/> 
+                        <lb ed="#S"/>verumptn[?] tunc non facerem quod deberem quia impossibile est aliquem de<lb ed="#S"/>bere 
+                        seu teneri peccare sed ex hiis omnibus non sequitur quod 
+                        <lb ed="#S"/>de tali comisso tenear plus dolere vel tantum sictu ex caritate 
+                        <lb ed="#S"/>teneor[?] dolere si proximus unum grave infortuissimum[?] incurrisset 
+                        <lb ed="#S"/>et multo fortius non tantum sicut si ego ipse tale infortunum[?] 
+                        <lb ed="#S"/>quantumcumque non ex electione vel non ex proposito intulissem</p>
+                    
+                    <p><g ref="#pilcrow"/>Et 
+                        <lb ed="#S"/>cum probatur quod <name ref="#Augustine">augustinus</name> loquitur ibi de mortali peccato dico quod hoc non est contra 
+                        <lb ed="#S"/>me quia cum hoc simul stat quod nec etiam pro mille mundis <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>debeat</add></corr> quis 
+                        <lb ed="#S"/>commitere[?] peccatum veniale</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 13 <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>2m</add></corr> concedo quod de lege communi nullus potest 
+                        <lb ed="#S"/>meritorie operari ex maxima sua caritate propter causam in argumento tactam 
+                        <lb ed="#S"/>et etiam inprosecutione primi dubii principalis tamen ex magna caritate potest 
+                        <lb ed="#S"/>quibus viator habnes usum rationis meritorie operari unde minor 
+                        <lb ed="#S"/>concedo quod nullus meretur purus viator ex maxima sua caritate sed ex 
+                        <lb ed="#S"/>hoc non sequitur quin mereatur ex parte suae caritatis et cum arguitur quod non 
+                        <lb ed="#S"/>quia non est maior ratio quod mereatur ex una parte suae caritatis 
+                        <lb ed="#S"/>quam ex alia <g ref="#dot"/> nego quia rationale est quod ex ita tota parte suae maxime 
+                        <lb ed="#S"/>caritatis mereatur quae est cum principium sui meriti et quod non ex illa quae 
+                        <lb ed="#S"/>est novus efficiens primi meriti per viam meriti de condigno</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 
+                        <lb ed="#S"/>14<g ref="#dot"/> concedo quod ad talem pro loco et tempore tenemur mutuo pietatem 
+                        <lb ed="#S"/>naturalem procedentem metaphysice ex gratai et concedo ut supra quod talis motus non 
+                        <lb ed="#S"/>est meritorius beatitudinis nisi vel sit procedat ex gratia vel per grataim 
+                        <lb ed="#S"/>sic ad beatitudinem acceptus <corr><add place="marginRight">et Residuas quaestiones huius materiae de augmentatione formarum quare in principio 2i statim post collationem in secundum</add></corr></p>
+                    
+                </div>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
+
