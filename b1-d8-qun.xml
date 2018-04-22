@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Book I, Distinctio 8, q. un.</title>
+                <author xml:id="AW">Adam Wodeham</author>
+                <editor xml:id="JW">Jeffrey C. Witt</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2011.06">
+                    <title>Book I, Distinctio 8, q. un.</title>
+                    <date when="2011-06-26">June 26, 2011</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LombardPress</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref
+                        target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+                        Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2011-06-26">June 26, 2011</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="S">Paris, Bibl. de la Sorbonne, MS 193</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div type="status">
+                <note type="status">Draft</note>
+                <note type="collobaration">Yes</note>
+            </div>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
+    <body>
+<div xml:id="b1-d8-qun">
+    <head>Book I, Distinctio 8, q. un.</head>
+    <div>
+        
+        <head>Quaestio unica: quaero utrum solus Deus sit immutabilis?</head>
+        <div>
+        <p xml:id="b1d8qun-cdodsi"><hi rend="fourLineDropCap">C</hi>irca distinctionem octavam, quaero utrum solus Deus sit immuta<lb ed="#S"/>bilis?</p> 
+        </div>
+        <div>
+               <head>Rationes principales</head>            
+        <p xml:id="b1d8qun-dvqepm">Et videtur quod non, quia Deus est mobilis, igitur et 
+        <lb ed="#S"/>mutabilis. Antecedens patet, quia potest esse ubi non est. Puta: 
+        <lb ed="#S"/>extra caelum potest esse et non est, igitur potest acquirere novum 
+        <lb ed="#S"/><lb ed="#S"/>locum, et pari ratione potest subito vel successive, ut sibi placebit 
+        <lb ed="#S"/>de <unclear>fine[??]</unclear> esse ubi est. Sed aliquid posse esse, ubi non est, et non esse, ubi est, 
+        <lb ed="#S"/>est posse moveri.</p>
+            
+        <p xml:id="b1d8qun-iadcvd">Item aliquid dicitur 
+        <lb ed="#S"/>de Deo per accidens, igitur Deus est mutabilis. Consequentia patet per <ref><name ref="#Augustine">Augustinus</name> V <title ref="#deTrinitate">De Trinitate</title> capitulo 
+        <lb ed="#S"/>11, de <corr><del>prov</del><add>parvis</add></corr> in principio:</ref><note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 4, n. 5 (CAG ?)</note> <quote>"in Deo nihil est secundum accidens dicitur, quia nihil in Deo 
+        <lb ed="#S"/>est mutabile, igitur in Deo nihil secundum accidens dicitur."</quote> Sequitur ex op<lb ed="#S"/>posito 
+        <lb ed="#S"/>consequentis, si aliquid dicitur de Deo <corr><del>stat</del><add>secundum</add></corr> accidens, Deus 
+        <lb ed="#S"/>est mutabilis vel aliquid in Deo. Sed hoc assumptum est verum, 
+        <lb ed="#S"/>igitur propositum. Probo huius minor, quia 30 distinctione, primi in principio dicit <name ref="#Lombard">Magister</name> 
+        <lb ed="#S"/>quod:<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 30, c. 1 (I:519)</note> <quote>"quaedam sunt, quae ex tempore de Deo dicuntur eique temporaliter 
+        <lb ed="#S"/>conveniunt et relative dicuntur secundum accidens, ut 'creator', et 'dominus', re<lb ed="#S"/>fugium', 
+        'non sit <sic>creatum</sic>' vel 'donatum'."</quote></p>
+  
+        <p xml:id="b1d8qun-ahftad">Ad hoc,<note type="marginalNote">A: De illis quae de Deo dicuntur ex tempore. A: Item probatur quod Deus sit mutabilis per aliqua media. S</note> <unclear>facit[?]</unclear> auctoritas 
+            <lb ed="#S"/><ref><name ref="#Augustine"><unclear>Augustini</unclear></name> V <title ref="#deTrinitate">De Trinitate</title>, c. 36,</ref><note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 16, n. 17 (CAG ?)</note> quae allegatur <ref>idem distinctione 30, primi, de 
+            <lb ed="#S"/>parvis:</ref><note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 30, c. 1 (I:519)</note> <quote>"certe in quid, ut dominus <corr><del>homo</del><add>hominis</add></corr> <add place="margin">ex tempore accidit Deo [...] et certe ut tuus Dominus esset</add> aut meus [...] ex tempore ac<lb ed="#S"/>cidit 
+            <lb ed="#S"/>Deo."</quote></p> 
+
+<div>
+    <head>Responsio ad secundum rationem principalem</head>
+           
+    <p xml:id="b1d8qun-shasad">Sed<note type="marginalNote">responsio</note> huic aequivomodi[??] responderi praeter, ut videtur sicut 
+    <lb ed="#S"/>ipsemet <ref><name ref="#Augustine">Augustinus</name> ibidem respondet in primo c. 37:</ref><note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 16, n. 17 (CAG ?)</note> <quote>"Quomodo igitur," inquit, 
+    <lb ed="#S"/>obtinebimus <add>nihil</add> secundum accidens dici Deum nisi quia ipsius naturae <corr><add>nihil</add><del>non</del></corr> 
+    <lb ed="#S"/>accidit quo mutetur, <corr><del>sed</del><add>ut</add></corr> ea sint accidentia relativa, quae cum a<lb ed="#S"/>liqua 
+    mutatione rerum de quibus dicuntur accidunt? Sicut amicus 
+    <lb ed="#S"/>relative dicitur, neque enim esse incipit, nisi cum amare coeperit; fit igitur 
+    <lb ed="#S"/>aliqua mutatio voluntatis, ut amicus dicatur. Nummus autem praetium 
+    <lb ed="#S"/>relative dicitur, nec tamen mutatus est cum esse coeperit, neque cum dicitur pig<lb ed="#S"/>nus 
+    et si qua sunt similia. Si igitur nummus potest nulla sui mutatione to<lb ed="#S"/>tiens 
+    dici relative ut neque cum incipit <add place="margin">dici</add>, addatur, "neque cum de<lb ed="#S"/>sinit 
+    aliquid" ei diminuatur "vel forma qua nummus est <corr><del>mutata</del><add place="margin">mutationis</add></corr> in a<lb ed="#S"/>liquo 
+    fiat, quanto facilius de ista incommutabili Dei substantia Deus 
+    <lb ed="#S"/>accipere, ut ita dicatur relative aliquid ad creaturam, ut quamvis tempora<lb ed="#S"/>liter 
+    incipiat dici, not tamen ipsi substantiae Dei accidisse aliquid in<lb ed="#S"/>telligatur 
+    sed illi creaturae ad quam dicitur?"</quote> Igitur vult dicere quod nihil dicitur de 
+    <lb ed="#S"/>Deo secundum accidens, ubi hic exigeret ratio aliquam noviter inhaerere 
+    <lb ed="#S"/>illi quod sic[?] ad aliquid noviter referetur. Sed, ut videtur hoc, non oportet 
+    <cb ed="#S" n="91rb"/><lb ed="#S"/>contingere, sed sufficit mutatio vel <corr><del>novit</del><add>novitas</add></corr> alterius ad quod relative no<lb ed="#S"/>iter 
+    et secundum accidens dicitur, sicut <add place="margin">esse</add> omne praetium accidit minimo ta<lb ed="#S"/>liter 
+    secundum accidens. Non enim oportet aliquid ab eo removere et quod nummus 
+    <lb ed="#S"/>sit praetium secundum accidens patet per <ref><name ref="#Augustine">Augustinus</name> V <title ref="#deTrinitate">De Trinitate</title> 10 de parvis,</ref> ubi 
+    <lb ed="#S"/>dicit quod:<note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 4, n. 6</note> <quote>"in rebus creatis atque mutabilibus quod non secundum substantiam dicitur 
+    <lb ed="#S"/>restat ut secundum accidens dicatur."</quote></p>
+</div>
+<div>            
+    <head>Argumentum contra hanc responsionem</head>
+    
+    <p xml:id="b1d8qun-chrpas">Contra hanc responsionem potest argui 
+    <lb ed="#S"/>sic: </p>
+    
+    <p xml:id="b1d8qun-psdpda">Praeterea, <choice><orig>sicud</orig><reg>sicut</reg></choice> dicit dicta 
+    <lb ed="#S"/>auctoritas de non-amico non fit amicus sine mutatione illius, 
+    <lb ed="#S"/>qui noviter fit amicus, vel nisi in illo vel in alio fiat muta<lb ed="#S"/>tio, 
+    <lb ed="#S"/>igitur Deus non potest fieri amicus de non-amico quin[?] Deus 
+    <lb ed="#S"/>vel alius mutetur. Sed potest fieri amicus alicuius sine mutatione illius 
+    <lb ed="#S"/>alterius, igitur in Deo cadet illi mutatio. Probo assumptum, quia Deus potest de 
+    <lb ed="#S"/>amico alterius fieri non c?mi[?] cuius eius sine omni <choice><orig>mutacione</orig><reg>mutatione</reg></choice> illius 
+    <lb ed="#S"/>fiendi non amicus de amico ut probabo igitur pari ratione econtra 
+        <lb ed="#S"/>assumptum probo quia capio aliquem habentem acm[?] aliquem 
+        <lb ed="#S"/>puta cogitationem vel delectionem de illceb[?] aliqua qui actus ex 
+        <lb ed="#S"/>sola nimia a mora ceteris omnibus paribus fiat mortale 
+        <lb ed="#S"/>peccatum perseveret ille in uniformi actu et dispositione cum aliis 
+        <lb ed="#S"/>usque post aliis illud diu a quo actus retentus impu<lb ed="#S"/>tabitur[?] 
+        ad mortale iste in nullo mutatur in instanti vel tempore 
+        <lb ed="#S"/>quo fit de amico non amicus secundum istum causm igitur vel hoc 
+        <lb ed="#S"/>fiet sine omni <choice><orig>mutacione</orig><reg>mutatione</reg></choice> contra auctoritatem praeallegatum <name ref="#Augustine">augustini</name> et 
+        <lb ed="#S"/>processum ibi sequentem vel sequitur quod erit mutatio in deo quia de<lb ed="#S"/>sinit 
+        amare quem amavit sine medio quod est inten<lb ed="#S"/>tum 
+        igitur et cetera</p>
+    
+    
+    <p xml:id="b1d8qun-apipaq">Aliter potest idem assumptum probari dato quod deus modo 
+    <lb ed="#S"/>ante praendium[?] det praeceptum alicui quod citra occasum solis 
+        <lb ed="#S"/>aliquid faciat vel facere incipiat et iste cui praecipitur velit 
+        <lb ed="#S"/>adhuc differre illius praecept ex secutionem quod bene diu 
+        <lb ed="#S"/>potest sine culpa permaneat in tali uniformi modo voluntate 
+        <lb ed="#S"/>usque diu post solis occasum modo et postmeridiem 
+        <lb ed="#S"/>etiam deus erit ami cuius eius et in solis occasu et post usque 
+        <lb ed="#S"/>quo peniteat non erit amicus eius et iste tamen de sint et[?] 
+        <lb ed="#S"/>amicus intentum</p>
+
+            <p xml:id="b1d8qun-ideqcp">Item Deus<note type="marginalNote">Tertio ratio principalis</note> est mutabilis, igitur non est immuta<lb ed="#S"/>bilis. 
+            <lb ed="#S"/>Antecedens patet, quia Deus est homo, qui ascendit ad caelos 
+            <lb ed="#S"/>et descendit ad inferios, qui fatigatus ex iterne, sedit 
+            <lb ed="#S"/>super fontem, qui circuibat per civitates et castra[?] qui levatus 
+                <lb ed="#S"/>est in?cce[?] et a multis aliis notibus movebatur igitur deus 
+                <lb ed="#S"/>est vere mutabilis probo consequentiae nullum idem simplex et indivisibile 
+                <lb ed="#S"/>est mutabile et in mutabile quia tunc idem simplex <g ref="#carrot"/><add place="marginRight">esset mutabile</add> et non muta<lb ed="#S"/>bile 
+            quia ex termino[?] privatio sequitur terminus infinitus secundum <ref><name ref="#Aristotle">philosophus</name> primo <title ref="#PriorAnalytics">prior</title></ref></p>
+</div>             
+            
+        </div> 
+        <div>
+            <head>Oppositum</head>
+            <p xml:id="b1d8qun-aoeenm">Ad oppositum est <ref><name ref="#Lombard">Magister</name>, in hac distinctione octava, c. 4,</ref> dicit quod:<note><name>Petrus Lombardus</name>, <title>Sententia</title>, d. 8, c. 2 (I:147)</note> <quote>"Dei 
+            <lb ed="#S"/>solius essentia proprie et incommutabilis dicitur, quia nec mutatur, nec mutari potest."</quote> 
+                <lb ed="#S"/>Et probat hoc convenienter ibi per <name ref="#Augustine">Beatum Augustinus</name>. Ad idem est illud <ref corresp="#b1d8qun-Qaqnnvo"><title ref="#iac">Iacobi</title> 
+                <lb ed="#S"/>primo capitulo:</ref><note corresp="#b1d8qun-Qaqnnvo"><title>Epistola Iacobi Apostoli</title> 1:17</note> <quote xml:id="b1d8qun-Qaqnnvo" ana="iac1_17">"apud quem" inquit "non est transmutatio nec vicissitu<lb ed="#S"/>dinis 
+                    obumbratio."</quote> Et <ref corresp="#b1d8qun-Aedeenm">illud etiam <title>Malachiae</title></ref> ex persona[?] Deum dictum:<note corresp="#b1d8qun-Aedeenm"><title>Prophetia Malachiae</title> 3:6</note> <quote xml:id="b1d8qun-Aedeenm" ana="mal3_6">"Ego 
+            Deus et non mutor"</quote>.</p>
+         <div>
+        <div>
+            <head>Divisio Quaestionis</head>            
+            <p xml:id="b1d8qun-iiqspa">In ista quaestio primo ponam distinctionem 
+                <lb ed="#S"/>unam de mutatione. Secundo ponam aliquas conclusiones. Tertius mo<lb ed="#S"/>vebo 
+            dubia aliqua et solvam. <unclear>Deinde[?]</unclear> solvam principalia 
+            <lb ed="#S"/>argumenta.</p>
+        </div>
+        
+        <div>
+            <head>Primus articulus</head>
+        <p xml:id="b1d8qun-pdtipc">Primo<note type="summary">Quaedam distinctio de mutatione</note> distinctio talis est aliqui, enim 
+        <lb ed="#S"/>auctores et sancti sumunt mutationem quandoque communissime pro omni 
+        <lb ed="#S"/>nova inceptione rei vel pro eius adnihilatione vel 
+        <lb ed="#S"/>destructione vel causatione, et isto modo secundum danr[?] versio[?] vocatur 
+        <cb ed="#S" n="91va"/><lb ed="#S"/>mutatio. Secundo modo sumitur pro omni receptione formae praehi[?]nte[?] vel 
+        <lb ed="#S"/>pro desinere habere formam praehi[?]tam[?], et isto modo materia diceretur mutari 
+        <lb ed="#S"/>in primo instanti[obiecti?], esse si crearetur sub forma et sic in diceretur materia mutari 
+        <lb ed="#S"/>si totum compositum ex ea et forma adnihilaretur, quia tunc disineret habere 
+        <lb ed="#S"/>quod praehabuit[?], et isto modo loquitur saepe <name ref="#Augustine">Augustinus</name> de materia prima quod 
+        <lb ed="#S"/>fuerit mutata in principio creationis.</p>
+
+            <p xml:id="b1d8qun-tmpqnp">Tertio modo proprie sumitur pro omni re<lb ed="#S"/>ceptione 
+            nova formae vel situs <unclear>praehi?nti[?]</unclear> non in subiecto praesupposito 
+            <lb ed="#S"/>vel pro <unclear>perdictione[?]</unclear> formae informantis vel situs <unclear>praehici[?]</unclear> subiecto eodem 
+            <lb ed="#S"/>remanente, et sic sumitur <ref><name ref="#Aristotle">Aristoteles</name> ut communiter dicit VI <title ref="#Physics">Physicorum</title></ref> quod <quote>mutare 
+            <lb ed="#S"/>est aliter se habere quam nunc prius.</quote></p>
+        </div>            
+        <div>
+            <head>Secundus articulus</head>
+            <div>
+                <head>Prima conclusio</head>
+            <p xml:id="b1d8qun-qsaned">Quoad<note type="summary">C: Quod solius Deus est immutabilis sic quod nec potest adnihilari nec creari S</note> secundum articulum<note type="marginalNote">Secundus articulus</note> sit 
+            <lb ed="#S"/>haec prima conclusio: quod primo modo loquendo de mutatione solus Deus est 
+            <lb ed="#S"/>secundum se immutabilis. Nam de aliis a Deo, planum est secundum
+            <lb ed="#S"/>fidem quod omne aliud a Deo incepit esse et potest desinere esse, Deum 
+            <lb ed="#S"/>autem non nec secundum fidem nec philosophiam, quia Deus est necesse esse. Si enim 
+            <lb ed="#S"/>non esset necesse esse necessario esset aliquid ante ipsum seu prius eo secundum naturam 
+            <lb ed="#S"/>saltem, quod posset facere ipsum esse et ipsum non esse, et per consequens quod pone<lb ed="#S"/>batur 
+            <lb ed="#S"/>Deus non esset Deus.</p>
+            
+            <p xml:id="b1d8qun-pisacm">Pro istis simul facit <name ref="#Lombard">Magister</name><note><name>Petrus Lombardus</name>, <title>Sententia</title> I, d. 8, c. 2, (I:147)</note> ubi prius distinctione octava 
+            <lb ed="#S"/>primi probans dictum suum per <name ref="#Augustine">Augustinum</name> V <title ref="#deTrinitate">De Trinitate</title>:<note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 2, n. 3</note> <quote>"sola essentia," inquit, "quae est Deus, 
+            <lb ed="#S"/>incommutabilis est, cui maxime ac verissime competit 'esse'. Quod enim 
+            <lb ed="#S"/>mutatur non ipsum servat 'esse' et quod mutari potest, et si non mutetur, 
+            <lb ed="#S"/>potest quod fuerat non esse." Ideoque "illud solum quod non tantum non mutatur 
+            <lb ed="#S"/>verum etiam mutari non potest omnino verissime dicitur esse", id est, substantia Patris et 
+            <lb ed="#S"/>Filii, et Spiritus Sancti. "Et ideo," ut postea infert, "solus Deus, ut ait 
+            <lb ed="#S"/><name ref="#Paul">Apostolus</name>, habet immortalitatem, qui non terminus quam arte, sed natura sua nec 
+            <lb ed="#S"/>potest nec potuit aliqua conversione mutari."</quote></p>
+            
+            <p xml:id="b1d8qun-ahfnoe">Ad hoc facit philosophia 
+            <lb ed="#S"/>ponens primum motorem esse omnino immobilem per se et per accidens. Et de 
+            <lb ed="#S"/>hoc loquens <name ref="#Augustine">Augustinus</name> Io <title>De Trinitate</title>,<note><name>Augustinus</name>, <title>De Trinitate</title>, I, c. 1, n. 3 (CAG ?)</note> ut recitat <name>Magister</name>,<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 8, c. 2 (I:147</note> ubi prius dicit: <quote>"substantiam 
+            <lb ed="#S"/>Dei sine ulla sui commutatione <sic>commutabilia</sic> facientem nosse, oportet,"</quote> etc.</p>
+            </div>
+            <div>
+                <head>Secunda conclusio</head>
+            <p xml:id="b1d8qun-scespr">Secunda<note type="summary">D: Secunda conclusio quod Deus secundum se est immutabilis ad formam et ad situm</note> conclusio<note type="marginalNote">secunda conclusio S</note> est quod Deus est secundum se immutabilis secundo modo et tertio modo, quia Deus non potest 
+            <lb ed="#S"/>secundum se formam aliquam subiective recipere nec transferri de situ ad situm. 
+            <lb ed="#S"/>Et hoc probatur per <ref><name ref="#Augustine">Augustinus</name> V <title ref="#deTrinitate">De Trinitate</title>, <sic>c.</sic>,</ref><note><name>Augustinus</name>, <title>De Trinitate</title>, V, c. 2, n. 3 (CAG ?)</note> et ponitur, ubi supra in textu[?],<note><name>Petrus Lombardus</name>, <title>Sententia</title>, I, d. 8, c. 2 (I:147)</note> "aliae," 
+            <lb ed="#S"/>inquit, <quote>"essentiae vel substantiae capiunt <sic>accidentia</sic> quibus in eis <add place="margin">fiat</add> vel magna vel 
+            <lb ed="#S"/><sic>quantumcumque</sic> mutatio,"</quote> Deus non, cum Deus sit actus purus ita, scilicet, quod 
+            <lb ed="#S"/>nullius per se perfectionis receptivus.</p>
+            </div>
+            <div>
+                <head>Tertia conclusio</head>
+                <p xml:id="b1d8qun-tqncii">Tertia<note type="summary">Tertio conclusio: quodlibet aliud a Deo sit immutabile ad formam, tamen quodlibet aliud a Deo est mutabile secundum situm</note> conclusio<note type="marginalNote">tertia conclusio S</note> quod non solus Deus est 
+                <lb ed="#S"/>secundum se immutabilis secundo modo vel tertio modo mutatione ad formam, ipse tamen sol<lb ed="#S"/>us 
+                est immutabilis secundum locum vel situm. Hoc probatur, quia multa sunt 
+                <lb ed="#S"/>alia a Deo, vel sunt possibilia saltem, quae non possunt per formas in 
+                <lb ed="#S"/>eis subiective receptibiles perfici, quia liter esset processus in infinitum 
+                <lb ed="#S"/>informis essentialiter ordinatis receptibilibus[?] in hoc subiecto quovis de<lb ed="#S"/>menstrato, 
+                nam accepta creatura aliqua, puta A, si A potest 
+                <lb ed="#S"/>mutari ad formam in se subiective receptibilem cum universaliter subiectum per 
+                <lb ed="#S"/>factibile per formam in ipso inhaerentur[?] receptibilem sit alicuius speciei 
+                <lb ed="#S"/>a tali forma, sequitur quod A subiectum et B sua forma sint alicuius 
+                <lb ed="#S"/>rationis. Et de B quaeram an sit receptiva ulterioris formae 
+                <lb ed="#S"/>vel non. Si non, propositum. Si sic, vel igitur alicubi finaliter stabitur 
+                <lb ed="#S"/>ad formam non receptivam ulterioris formae, et hoc est in<lb ed="#S"/>tentum, 
+                vel erit ut in tituli in talibus processus infinitus. Consequens 
+                <lb ed="#S"/>inconveniens, igitur.</p>
+                
+                <p xml:id="b1d8qun-qaoins">Quod autem omnia alia sint secundum locum mobilia 
+                <lb ed="#S"/>patet, quia omnes substantiae aliae sunt mobiles localiter quare omnia corpora secundum 
+                <lb ed="#S"/>philosophiam nam caelum, ut docet visus circulariter movetur et etiam moveri 
+                <lb ed="#S"/>posset motu recto, quia dicere oppositum est articulus Parisiensis excommuni<lb ed="#S"/>catus; 
+                de angelis docet hoc scriptura, quia omnes sunt administra<lb ed="#S"/>torii 
+                    <lb ed="#S"/>spiritus in ministerium missi, vel saltem missibilis, de accidentibus. 
+                <lb ed="#S"/>Iterum patet <corr><del>in</del><add>et</add></corr> de partibus in suis totis, quia secundum <name ref="#Aristotle">Philosophus</name> motis <unclear>nobis[?]</unclear> 
+                <lb ed="#S"/>moventur omnia, quae in nobis sunt.</p>
+            </div>
+            <div>
+                <head>Quarta conclusio</head>
+                <p xml:id="b1d8qun-qcevcm">Quarta<note type="summary">F: Quomodo tales propositiones intelligi debeant 'Christus movebatur', 'Christus ascendit', et huiusmodi S</note> conclusio<note type="marginalNote">quarta conclusio</note> est quod Deus secundum aliud 
+                <lb ed="#S"/>est mobilis et mutabilis vere, quia ratione humanitatis assumptae, quia 
+                <lb ed="#S"/>Christus tam ad formam quam ad locum mutabatur secundum assump<lb ed="#S"/>tam 
+                humanitatem vel ratione corporis et animae assumptorum. Haec probatur per 
+                <lb ed="#S"/>fidei articulos, nam iht[?] proficiebat otate[?] et sapientia coram 
+                <lb ed="#S"/>Deo et hominibus. Et uno die audivit et vidit aliqua quae 
+                <lb ed="#S"/>non alio die, et ascendit ad caelos et descendit ad inferios, 
+                <cb ed="#S" n="91vb"/><lb ed="#S"/>et ibat in civitatem Naazareth[?], et ascendit in Ierusalem[?]. Item vulneratus 
+                <lb ed="#S"/>est et mortuus et sepultus, quae omnia fides Catholicus vera praedi<lb ed="#S"/>cat 
+                atque docet. Actum est hoc[?] attendere[?] quod Filii pluralitas secundum se 
+                <lb ed="#S"/>non transivit de situ in situm, nec sindebatur[?], et sic de omnibus 
+                <lb ed="#S"/>ante tactis. Sed ista sunt vera de Dei Filio secundum communicationem[?] idioticum, 
+                <lb ed="#S"/>sicut clamant omnes doctores, id est, nec secundum se movebatur de 
+                <lb ed="#S"/>loco ad locum, ita quod secundum se et quodlibet sui Deus homo dimi??teret[?] 
+                <lb ed="#S"/>unum locum et accederet ad alium, sicut fit de <name ref="#Sortes">Socrate</name>, qui per se trans<lb ed="#S"/>fertur 
+                de situ ad situm, vel de anima eius, vel accidentibus, aut 
+                <lb ed="#S"/>partibus quibuscumque, quae per accidens transfertur de situ ad situm, 
+                <lb ed="#S"/>sed movebatur et ista et alia omnia passus est secundum communicationem idioticum, 
+                <lb ed="#S"/>et ipse vere et immediate ex aliqua communicatione idioticum est homo ab 
+                <lb ed="#S"/>humanitate sibi sine medio unica vel sicut calix dicitur deau<lb ed="#S"/>ratus 
+                ab auro sibi unico vel sicut ferum secundum <unclear>dam[?]</unclear> dicitur 
+                <lb ed="#S"/>ignitum a forma ignis sibi unica vel ab accidentibus simili<lb ed="#S"/>bus 
+                accidentibus igni. Sed quod ipse Christus steterit vel sederet vel me<lb ed="#S"/>rit 
+                de loco ad locum vel fuerit volneratus vel perforatus et ascen<lb ed="#S"/>derit, 
+                et sic de similibus verissima sunt, sed non nisi secundum communica<lb ed="#S"/>tionem 
+                <lb ed="#S"/>idioticum, ut tantum sic Deus movebatur de loco ad locum, 
+                <lb ed="#S"/>ie est, ipse erat hypostasis naturae motae sic de loco ad locum 
+                <lb ed="#S"/>quando illa sic movebatur vel sic, id est, aliquid deo unicum hypostatice 
+                <lb ed="#S"/>movebatur de loco ad locum vel natura ex cuius assumptione 
+                <lb ed="#S"/>Deus est homo movebatur de loco ad locum stante illa u<lb ed="#S"/>nione 
+                hypostatica, et sic de similibus et Deus fuit mortuus, 
+                <lb ed="#S"/>id est, Deo hypostatice uniebatur corpus carens vita vel corpus 
+                <lb ed="#S"/>mortuum.</p>
+                
+                <p xml:id="b1d8qun-dprceh">Dices,<note type="summar">G: quod tales non sunt concludendae: 'Christus est compositum' vel 'creatura' et quare. S</note> pari ratione, Dei Filius dicebatur compositum et creatura 
+                <lb ed="#S"/>et huiusmodi.</p>
+                
+                <p xml:id="b1d8qun-rqncva">Responsio quod non sequitur, licet enim natura assumpta sit creatura et 
+                <lb ed="#S"/>composita et aliud a Deo et inceperit esse et fuerit creatura, et sic de similibus, 
+                <lb ed="#S"/>quia tamen Dei Filius non est natura illa assumpta, ideo non oportet quod omnia 
+                <lb ed="#S"/>communicata relative illi naturae Dei Fili communicant, quia non illa quae non sunt 
+                <lb ed="#S"/>nata communicare, nisi illis quibus primo et immediate conveniunt. Verbia gratia, licet homo sit 
+                <lb ed="#S"/>album ab albedine, tamen homo non est accidens ab albedine, licet 
+                <lb ed="#S"/>albedo sit accidens. Licet homo sit animatus ab anima, et anima sit pars, 
+                <lb ed="#S"/>non tamen propter hoc est homo pars, quia hoc quod dico 'pars' non est 
+                <lb ed="#S"/>praedicatum vel terminus relativus natus denominare substantiam[??] hac denominatione, nisi 
+                <lb ed="#S"/>illud cui primo convenit. Et pari ratione nec hoc praedicatum quod est terminus 
+                <lb ed="#S"/>relativus, sibi oppositus, scilicet, totum vel compositum, et eodem modo est d[?] istis praedicatis idem 
+                <lb ed="#S"/>et aliud, vel idem et distinctum. Licet enim natura assumpta sic distincta a Deo 
+                <lb ed="#S"/>et aliud a Deo non oportet tamen nec est aliquatenus concedendum quod Dei Filius 
+                <lb ed="#S"/>sit aliud a Deo vel distinctus a Deo, et ita de similibus et pari ratione, 
+                <lb ed="#S"/>quia Deus non est aliquid factum de nihilo, quia convenietur quid et non invenitur. 
+                <lb ed="#S"/>Ideo non est creatura, et quia etiam ipse non est illud quod resultat ex? Chri<lb ed="#S"/>stans[??] 
+                nec illud fuit ab aeterno, quod pulchre tractat <name ref="#Jerome">Beatus Hieronymus[?]</name> in 
+                <lb ed="#S"/><title>Sermone de assumptione Beatae Virginis</title>, et non est assignare aliquod 
+                <lb ed="#S"/>aliud compositum quod est Dei Filius non posset poni esse compositum summendo compositum 
+                <lb ed="#S"/>pro resultante ex partibus, sicut communiter solet sumi. Ideo Dei Filius nullum 
+                <lb ed="#S"/>est compositum et causa, ut praedixi, quia talia praedicata totum compositum 
+                <lb ed="#S"/>pars idem aliud distinctum non sunt sub hanc forma nata denominare 
+                <lb ed="#S"/>nisi illa quibus immediate conveniunt, sicut nec descriptiones eorumdem et 
+                <lb ed="#S"/>talia sunt alia valde multa, sicut esse hic et non alibi, et 
+                <lb ed="#S"/>similia secus autem de illis quae Dei Filio attribuuntur per 
+                <lb ed="#S"/>communicationem idioticum similie hiis increaturis est, cum dicitur quod subiectum albedinis 
+                <lb ed="#S"/>disgregat visum, vel videtur cum videtur albedo.</p>
+                
+                <p xml:id="b1d8qun-dpvsec">Dices perforabatur vel divi<lb ed="#S"/>debatur 
+                    <lb ed="#S"/>et nullum simplex potest dividi, igitur Deus, qui dividebatur, qui per<lb ed="#S"/>forabatur, 
+                    <lb ed="#S"/>et sic de similibus est compositus.</p>
+                
+                <p xml:id="b1d8qun-dqspel">Dicendum quod si sermo, ita 
+                <lb ed="#S"/>esset ad vim sermonis, sicut verba praetendunt, et sic esset verissimus 
+                <lb ed="#S"/>ad intellectum fidelium et non solum per communicationem idioticum, cum dicitur quod 
+                <lb ed="#S"/>Deus fuit divisus et perforatus. Consequentia esset bona, sed quia secundum veri<lb ed="#S"/>tatem 
+                <lb ed="#S"/><corr><add>de?finus[??}</add><del>divisus</del></corr> numquam esse <corr><add>desunt[??]</add><del>dsiit[?]</del></corr> summe simplex nec dicitur 
+                <lb ed="#S"/>divisus vle perforatus nisi per communicationem idiomaticum modo 
+                <lb ed="#S"/>praeexposito, quae non solum illud denominant cui primo communicant[?], sed 
+                <cb ed="#S" n="92ra"/><lb ed="#S"/>cui <corr><del>mediante</del><add>immediate</add></corr>, ut sit sensus 'Deus fit divisus' vel 'perforatus' vel sepul<lb ed="#S"/>tus, 
+                et sic de multis aliis, id est, natura Deo hypostatice unita ista 
+                <lb ed="#S"/>passa est. Ideo consequentia nihil valent, non plus quam ista 'Christus vere fuit leo 
+                <lb ed="#S"/>decribu[?d?] vida, igitur Christus habuit caudam et quattuor pedes, hic enim 
+                <lb ed="#S"/>habet quicquid proprie est leo.'</p>
+                
+                <p xml:id="b1d8qun-accnde">Ad<note type="summary">H: Quae sunt praedicata convenientia natuare humanae, quae debet attribui Deo per communicationem idotimaticum, et quae non. S</note> confirmationem, consequentia non tenet nisi ubi aliquid 
+                <lb ed="#S"/>sic habet partes, ut ex illis integretur et resultet. Sed sic non 
+                <lb ed="#S"/>est hic. R[?]a[?] autem, quae praedicata, sicut hic concedenda secundum communicationem idiomati<lb ed="#S"/>cum, 
+                <lb ed="#S"/>et quae non de Deo capi potest a creaturis quam omnia quae agit 
+                <lb ed="#S"/>vel patitur pars essentialis vel accidens creaturae potest ista creatura dici pati 
+                <lb ed="#S"/>vel agere non ulterius modi?do[?] sermonem hunc per talia ad verbi gratia[?] 
+                <lb ed="#S"/>bene vel male per se vel per aliud mediante vel immediate, sed ibi stando 
+                <lb ed="#S"/>sic in proposito quantum pro nunc videtur quicquid egit vel patiebatur natura assump<lb ed="#S"/>ta 
+                <lb ed="#S"/>attribui potest supposito assumpti per communicationem idiomaticum et 
+                <lb ed="#S"/>ultra hoc sine tali medio vel tali communicatione concretum humanitatis 
+                <lb ed="#S"/>assumptae et omnium essentialiter superiorum ad illa per solum pro nomen 
+                <lb ed="#S"/>denominativum[??demonstratum?] expressa.</p>
+                
+                <p xml:id="b1d8qun-scheic">Sed<note type="marginalNote">1 S</note> contra hoc potest obici primo, quia sequitur Christus vel Dei 
+                <lb ed="#S"/>Filius esset homo, igitur Christus esset corpus, nam si est homo est animal et omne 
+                <lb ed="#S"/>animal est corpus animative, sed omne animale est divisibile et compositum et 
+                <lb ed="#S"/>mutabile, per consequens nam nullum[?] indivisibile, videtur esset corpus, sicut nec 
+                <lb ed="#S"/>e contra aliquod corpus est indivisibile, igitur cum Dei Filius sit homo 
+                <lb ed="#S"/>Dei Filius erit divisibilis et compositus quod est intentum contradicta.</p>
+                
+                <p xml:id="b1d8qun-psaacc">Praeterea<note type="marginalNote">2 S</note> <unclear>dam[?]</unclear>, sicut alias tangetur in tertio<note>Cross Reference</note>, dicit de plano quod Dei 
+                <lb ed="#S"/>Filius, qui aeternaliter fuit simplex hypostasis ex tempore cepit 
+                <lb ed="#S"/>esse hypostasis composita. Et si Dei Filius sit suppositum compositum, igitur est 
+                <lb ed="#S"/>aliquod compositum contradicta.</p>
+                
+                <p xml:id="b1d8qun-isavce">Item<note type="marginalNote">3 S</note> si actiones et passiones naturae as<lb ed="#S"/>sumptae 
+                per communicationem idiotaticum[??] competunt illi supposito, cum illa natura 
+                <lb ed="#S"/>assumpta sit deponibilis[?] et reassumptibilis et causabilis et corporalis 
+                <lb ed="#S"/>et creabilis et adnihilabilis et Deo unibilis et multa similia, ubi 
+                <lb ed="#S"/>notatur actio et passio istius naturae, sequitur quod omnia sit possent 
+                <lb ed="#S"/>Dei Filio vere attribui quod non videtur concedendum, ergo.</p>
+                
+                <p xml:id="b1d8qun-idipsh">Item<note type="marginalNote">4 S</note> 
+                <lb ed="#S"/>Deo in triduo mortis vere ibi uniebatur causa corpus quam anima, 
+                <lb ed="#S"/>igitur qua ratione animatus et homo erat ab humanitate unita 
+                <lb ed="#S"/>sib, ita tunc a corpore vel ab anima vere poterat dici corpus 
+                <lb ed="#S"/>vel anima concretive sumendo haec vocabula. Et si Christus, tunc 
+                <lb ed="#S"/>erat corpus, igitur divisibilis et compositus, quia corpus, tunc sibi 
+                <lb ed="#S"/>unitum erat altera pars suae humanitatis.</p>
+                
+                <p xml:id="b1d8qun-apidec">Ad primum<note type="summary">J: Quod in uno sensu sit hoc[?} concedendi[?] 'Christus est corpus', in alio, non sumendo hoc corpus aequivoce</note> istorum, 
+                <lb ed="#S"/>si iste terminus corpus sumatur non pro corporeitate, quae est altera pars 
+                <lb ed="#S"/>hominis dicta consequentia[corporea??] anima, sed pro genere per se superiori ad animal in 
+                <lb ed="#S"/>praedicamento substantiae aequivoce sic enim sumi hic vocabulum. Et si isto modo, 
+                <lb ed="#S"/>tunc conceditur quod Christus fecit[??] et vere est corpus. Sed sit omne corpus non 
+                <lb ed="#S"/>est, nisi illud cui hypostatice unitur natura corporea, sed cum isto ultimo 
+                <lb ed="#S"/>stat quod Christus pluraltias sic summe simplex et quod non sit ali<lb ed="#S"/>quod 
+                <lb ed="#S"/>compositum ex pluribus quibuscumque, igitur. Et cum primo cuius istud 
+                <lb ed="#S"/>est exposito[?????] Christus non praecise esset illud quod ab aeterno fuit, et nec plus 
+                <lb ed="#S"/>nec minus esse potest. Hoc non obstante et ita ex nullis compositus, 
+                <lb ed="#S"/>tunc ut ante, sicut et homo licet incipiat esse albus, tamen ex 
+                <lb ed="#S"/>hoc non incipit esse ex aliquibus compositis plus quam prius immo?<lb ed="#S"/>?buiter[?] non est homo propter hoc quod nunc est albus aliquid quod non prius 
+                <lb ed="#S"/>licet sit qualis non prius summendo ibi consimiliter conretive 
+                <lb ed="#S"/>ly 'aliquid' non nunc sit in communi usu, et ideo optime stant ista 
+                <lb ed="#S"/>simul quod Dei Filis sit sic corpus, et tamen quod simplex et individualis omnino, 
+                <lb ed="#S"/>bene sequitur, tamen Deus est sic corpus, igitur natura sibi unita est divisibilis 
+                <lb ed="#S"/>et composita.</p>
+                
+                <p xml:id="b1d8qun-asdips">Ad secundum dicendum quod aliquid esset hypostasim compositam potest 
+                <lb ed="#S"/>dupliciter intelligi vel quod sit hypostasis ex pluribus resultans 
+                <lb ed="#S"/>et integrata et sic sive praelocutus cum negavi[?] Deum esse compositum. 
+                <lb ed="#S"/>Alio modo illud vocari potest compositum quod cum alio ponitur ad intelli<lb ed="#S"/>gandum 
+                aliquid vere unum, et sic sumitur compositum non pro illo quod ex 
+                <lb ed="#S"/>partibus intelligatur, sed potius quod est pars alteri composita non 
+                <lb ed="#S"/>ex aliquo, et isto modo loquitur dameri[? dicit Dei Filium incarna<lb ed="#S"/>tione 
+                factum esse noviter hypostasim compositam quamvis non proprie al<cb ed="#S" n="92rb"/><lb ed="#S"/>teri 
+                componatur, sed aliud isti, puta humanitas, ita quod claudicet 
+                <lb ed="#S"/>lex proprie dictae compositis ex parte Christi[?] non ex parte humanitatis in 
+                <lb ed="#S"/>in ipso personaliter subsistentis.</p>
+                
+                <p xml:id="b1d8qun-atdsad">Ad tertium dicendum quod assumi vel deponi vel Deo u<lb ed="#S"/>niri 
+                non notant actionem nec passionem naturae assumptae, sed potius no<lb ed="#S"/>itatem 
+                <lb ed="#S"/>entis unius quasi compositae resultantis causari etiam vel 
+                <lb ed="#S"/>adnihilari non notant actionem nec passionem proprie dictam, ut ita 
+                <lb ed="#S"/>loquatur nec eodem modo, quo loquitur auctor sex principiorum: dicit quod actio 
+                <lb ed="#S"/>est secundum quam in idem quod subicitur agere dicimur.</p>
+                
+                <p xml:id="b1d8qun-aqcinc">Ad quartum concedendum 
+                <lb ed="#S"/>quod in triduo poterat Dei Filius vere denominari a corpore et etiam 
+                <lb ed="#S"/>ab anima sibi unitis alia denominatione, quae non est in usu quaecumque 
+                <lb ed="#S"/>ista esse debuerit, et ideo deo illa non curetur.</p>
+            </div>
+            <div>
+                <head>Tertius articulus</head>
+                <p xml:id="b1d8qun-tampes">Tertius<note type="marginalNote">Tertius articulus S</note> articulus mo<lb ed="#S"/>vebit 
+                <lb ed="#S"/>obiectiones aliquas contra praedictam et solvet.</p>
+                
+                <p xml:id="b1d8qun-pipits">Primo igitur potest obi<lb ed="#S"/>ci 
+                <lb ed="#S"/>sic quod Deus sit mutabilis secundum se contra secundum conclusionem de mutabilitate 
+                <lb ed="#S"/>tertio modo dicta: quia Deus est primus motor, aut igitur movet modo 
+                <lb ed="#S"/>naturae aut libere. Si modo naturae, cum non semper moverit secundum fidem, immo 
+                <lb ed="#S"/><quote ana="#gen1_1">"in principio creavit caelum et terram,"</quote> sequitur quod non semper caelum poteuerit 
+                <lb ed="#S"/>movere nec creature, quia omne actum mere naturaliter sine concursu 
+                <lb ed="#S"/>principii libere agentis vel moventis agit secundum ultimum potentiae 
+                <lb ed="#S"/>suae. Et per consequens, si potuerit agere et non prius egit, igitur non est 
+                <lb ed="#S"/>Deus primus motor modo naturae, quin ipse sit mutatus vel mutabilis, 
+                <lb ed="#S"/>igitur si est primus motor ipse movet libere et contingenti liberta<lb ed="#S"/>te. 
+                <lb ed="#S"/>Sed hoc videtur falsum, quia tunc posset omne mobile, immo omnia mobilia 
+                <lb ed="#S"/>movere libere si vellet. Consequens falusm, ut videtur, quia volo tunc quod sint 
+                <lb ed="#S"/>hic duo mobilia aequalia per omnia et incipiant simul mo<lb ed="#S"/>veri 
+                <lb ed="#S"/>super spatia aequalia. Et sit unum A, et aliud B, et volo quod 
+                <lb ed="#S"/>Deus moveat A et B per istum modum quod tum A praecise pertransi<lb ed="#S"/>verit 
+                <lb ed="#S"/>unam partem proportionalem sui spatii, id est, primam eius mediantem[?] 
+                <lb ed="#S"/>et prima mediantem residui, et cum A duas B quattuor, et sic deinceps 
+                <lb ed="#S"/>semper duplo plures donec totum utrobique spatium sit pertransi<lb ed="#S"/>tum. 
+                    <lb ed="#S"/>Et tunc quaero, utrum A prius pertingeret ad terminum sui spa<lb ed="#S"/>tii 
+                <lb ed="#S"/>quam B vel tardius vel simul. Si B citius contra accipio simul primum 
+                <lb ed="#S"/>instans in quo B pertransiverit suum spatium; et quaero utrum in illo 
+                <lb ed="#S"/>instanti sit verum dicere quod A pertransiverit partes proportionales infinitas 
+                <lb ed="#S"/>illius ordinis aut non. Si sic, igitur est in fine, sicut et B. Si non, 
+                <lb ed="#S"/>igitur solum finitas, et si hoc cum B praecise per casum praecedat A 
+                <lb ed="#S"/>secundum duplo plures partes proportionales illius ordinis, igitur B solum pertran<lb ed="#S"/>sivit 
+                <lb ed="#S"/>partes proportionales finitas illius ordinis. Consequens falsum, si pertransiverit 
+                <lb ed="#S"/>in illo instanti totum spatium.</p>
+                
+                <p xml:id="b1d8qun-sdqtaa">Si dicatur quod simul pertingent ad 
+                <lb ed="#S"/>terminum contra immediate ante illud instans in quo verum est B pertransivis 
+                <lb ed="#S"/>se totum suum spatium B pertransierat duplo plures partes illius 
+                <lb ed="#S"/>ordinis quam A, quia post quodlibet instans ante ultimum instans quod vocetur 
+                <lb ed="#S"/>D[?] B <sic>petransierat</sic> duplo plures partes quam A, igitur immediate 
+                <lb ed="#S"/>ante D[?] B pertransierat duplo plures illarum partium. Et per consequens, cum 
+                <lb ed="#S"/>ita semper esse debeat usque ad ultimum illud B citius erat perventurum 
+                <lb ed="#S"/>ad terminum quam A.</p>
+                
+                <p xml:id="b1d8qun-dabfpi">Dicendum<note type="summary">K: Quod A et B movebuntur materiali[?] tempore per aliqua spatia aequalia et B semper pertransibis duas partes proportionales vel mille A petransibit unam et tamen simul pervenient ad terminum. S</note> quod B et A simul et in eodem instanti pertingent 
+                <lb ed="#S"/>ad finem hoc sui spatii et illud sui et ad improbationem neganda est 
+                <lb ed="#S"/>consequentia nec mi?norum[?} cum et B respectu sui spatii immediate ante D instans quo 
+                <lb ed="#S"/>pertingebat ad terminum habuerit pertransire ad hoc partes proportionales 
+                <lb ed="#S"/>infinitas illius ordinis et similiter si moveri debeat e converso ab ipso 
+                <lb ed="#S"/>D instanti inchoando motum conversum, tunc esset verum dicere 
+                <lb ed="#S"/>quod nunc nulla partem proportionalem pertransunt et immedate post pertransiverit 
+                <lb ed="#S"/>illius ordinis partes proportionales infinitas, et sic esset etiam verum dicere 
+                <lb ed="#S"/>quod nunc B incipit esse in pertranseundo partem quam nunc non incipit esse 
+                <lb ed="#S"/>in pertranseundo, quia B nunc non est in pertranseundo parte quam nunc non 
+                <lb ed="#S"/>incipit esse in pertranseundo et immediate post erit in pertranseundo<note type="summary">L: Quod possibile quod B nunc non pertransivit aliquam partem spatii et tamen immediate post hoc pertransierit partes infinitas. [more added after the L] Ibidem quod possibile est quod B incipit esse in pertranseundo partem quam non incipit esse in pertranseundo.</note> 
+                <lb ed="#S"/>partem quam non incipit esse in pertranseundo, igitur nunc incipit, etc. 
+                <lb ed="#S"/>Sed in proposito etiam secundum ordinem casus sit verum diceret in illo ultimo 
+                <lb ed="#S"/>instanti motus B, B immediate ante hoc instans pertransierat partes proportiona<lb ed="#S"/>les 
+                <lb ed="#S"/>finitas solum modo dicti[?] ordinis, et tunc infinitas pertransivit. 
+                <lb ed="#S"/><cb ed="#S" n="92va"/>Igitur pari ratione vel multo fortius, licet immediate ante praecessit B ipsum 
+                <lb ed="#S"/>A in duplo numero talium partium ptoerit utrumque in hoc instanti ad 
+                <lb ed="#S"/>sui spatii finem pertingere ab utroque partibus pertransitis in<lb ed="#S"/>finitis. 
+                <lb ed="#S"/>Causa autem istius est, quia B in principio movetur velocius quam A, et 
+                <lb ed="#S"/>post ab aliquo certo loco vel puncto, et deinceps velocius moveutr 
+                <lb ed="#S"/>A <add place="margin">quam B</add> donec in fine pertingerit[?] ipsum.</p> 
+                
+               <p xml:id="b1d8qun-ceiadm">Contra ex isto, sequitur quod sicut[?] 
+               <lb ed="#S"/>aliqua duo mobilia simul moveri incipientia et in toto motu 
+               <lb ed="#S"/>unum praecedat aliud, et tamen simul pertingunt ad finem aequalium spa<lb ed="#S"/>tiorum 
+               <lb ed="#S"/>cum in proposito <add place="margin">semper</add> B praecessit A dum moverentur.</p>
+               
+               <p xml:id="b1d8qun-itssp">Item, tunc 
+               <lb ed="#S"/>sequitur quod duorum mobilium motu recto super aequalia spatia <add place="margin">et simul</add> modo 
+               <lb ed="#S"/>veri incipientium unum; puta B semper movebitur velotius reliquo 
+               <lb ed="#S"/>et tamen non citius pertinget ad terminum. Consequentia patet, quia in quolibet tempore 
+               <lb ed="#S"/>composito ex tempore mensurante motus B et A super suas 
+               <lb ed="#S"/>primas partes proportionales et quascumque alias citra fines motium 
+               <lb ed="#S"/>B movebitur velotius quam A, quia in quolibet tali tempore plus 
+               <lb ed="#S"/>petransverit B de spatio quam A. Igitur vel B citius attingeret ad 
+               <lb ed="#S"/>terminum quam A quod est negatum, vel sequitur conclusio proposita.</p>
+
+                <p xml:id="b1d8qun-apdtqm">Ad primum dicendum quod 
+                <lb ed="#S"/>conclusio quae infertur vera est et probata in communi circa?u[?] de sphera et de 
+                <lb ed="#S"/>causa ibi assignanda. Et sic improposito est, quia B inpa??o movetur 
+                <lb ed="#S"/>velotius quam A et versus finem e contra. Vocetur igitur totum tempus 
+                <lb ed="#S"/>mensurans motus illos C, D. Et sic C primum instans illius temporis 
+                <lb ed="#S"/>C, D et D ultimum in omni parte illius temporis inchoata A, C[?] B, 
+                <lb ed="#S"/>movetur velotius quam A. Sed in omnie parte eiusdem terminata ad D 
+                <lb ed="#S"/>movetur A velotius quam B, et hoc in illa proportionate quae in fine 
+                <lb ed="#S"/>omnia mire[?] reconpensaverit usque ad aequalitatem, sicut est etiam de quattuor 
+                <lb ed="#S"/>qualibet aequinoctialis respectu quartae[?] sibi correspondentis in ecliptica in 
+                <lb ed="#S"/>sphera recta inchoatis et teriatis[??] in punctis solti??bus vel aequinoc<lb ed="#S"/>tialibus 
+                <lb ed="#S"/>et in sphera obliqua dementae[??] qualibet aequinoctiali respectu mediantis 
+                <lb ed="#S"/>ecliptice sibi correspondentis de mediante in quam hac et ista inchoa<lb ed="#S"/>tis 
+                <lb ed="#S"/>a capite arietis et teriatis[terminatis[?]] in capite libre vel 
+                <lb ed="#S"/>aequinoctialibus vel aliud exemplum, si istud non ab omnibus capitur, potest 
+                <lb ed="#S"/>esse de duobus viatoribus quorum primus primo die meri?t[?] per sex[?] 
+                <lb ed="#S"/>leutas[?] secundus per V tertio per 4 quarto per tres quinto per duas sexto per unam 
+                <lb ed="#S"/>uniformiter remittendo[?] velocitatem sui motus et alter e contra omnino 
+                <lb ed="#S"/>motum suum uniformiter intelligendo, sicut alius remittebat suum 
+                <lb ed="#S"/>isti certe in eodem instanti pertingunt ad terminum quo ibant et istud, 
+                <lb ed="#S"/>quod dictum est in proposito de A et B motibus. Ex hoc patet, quia quamvis 
+                <lb ed="#S"/>B pertranseat de suo spatio primam partem proportionalem et secundum dum 
+                <lb ed="#S"/>A solummodo pam[?primam]. Et per consequens velotius, tunc moveatur quam B, 
+                <lb ed="#S"/>tamen per casum dum B et adaequate pertransibit tertiam partem proportionalem et 
+                <lb ed="#S"/>quartam A pertransibi adaequate secundam constat aut quod sicut pars prima 
+                <lb ed="#S"/>proportionalis est maior secunda et tertia simul iunctis, ita et secunda est maior 
+                <lb ed="#S"/>tertia et quarta simul iunctis, igitur in tempore quo B movitur adaequate per tertiam 
+                <lb ed="#S"/>et quartam movitur A velocius quam B et multo fortius semper postea 
+                <lb ed="#S"/>usque in finem, quid igitur minorum, si aliquando attinget A ipsum B, immo necesse 
+                <lb ed="#S"/>est quod ita fiat, igitur idem omnino respondendum esset dato quod casus sic 
+                <lb ed="#S"/>poneretur quod semper dum A pertransit unam partem proportionalem de illis quod 
+                <lb ed="#S"/>B compleat mille ad hoc in eodem instanti D simul pertingerent ad 
+                <lb ed="#S"/>F si F terminus spatii, licet hoc mirabile videatur cuius ratio et causa 
+                <lb ed="#S"/>est praetacta quodlibet[?] partem primam et aliquot[?] alias B velotius pertran<lb ed="#S"/>seat 
+                <lb ed="#S"/>quam A et velocius moveatur quam A in illis cito, tamen fiet e contra 
+                <lb ed="#S"/>ut praeostendi et intellectus statim <unclear>assentit</unclear> huic causa ultimo dicta, quia 
+                <lb ed="#S"/>quanto plures partes pertransibit B in illo processu dum A unam 
+                <lb ed="#S"/>tanto plus cito infra illum processum velocior abitur modus[motus?] 
+                <lb ed="#S"/>A super B. Et per consequens recompensabitur, ut ista in eodem instanti ipsum at<lb ed="#S"/>tingant 
+                <lb ed="#S"/>terminum quo moventur[?].</p>
+                
+                <p xml:id="b1d8qun-aspiam">Ad secundum, per idem patet quod neganda 
+                <lb ed="#S"/>est consequentia et illud quod infertur, quia statim in secunda parte temporis quo A 
+                <lb ed="#S"/>est super secundam partem proportionalem sui spatii vel in tertia quando erit 
+                <lb ed="#S"/>super tertiam B non movebitur velocius quam A, sed potius e converso. 
+                <lb ed="#S"/>et ad probationem commune quae fundatur super distinctionem velocioris 
+                <lb ed="#S"/>dicendum quod licet in omni parte temporis inchoata A, C, B moveatur 
+                <cb ed="#S" n="92vb"/><lb ed="#S"/>velocius quam A, non tamen in omni parte illius temporis posterius inchoata. 
+                <lb ed="#S"/>Et ideo iuxta illam descriptionem semper invenitur quod in alia parte tar<lb ed="#S"/> 
+                dius movetur B. Ideo concedo quod in omni toto tempore, categorimatice sumendo 
+                <lb ed="#S"/>li 'toto' inchoato A, C non pertingente ad D, B velocius 
+                <lb ed="#S"/>movetur quam A, et tamen non in omni tempore toto inchoato A, C sumendo 
+                <lb ed="#S"/>li 'tot' syncategorimatice cuius ratio est circa diffinitionem velocioris, quia 
+                <lb ed="#S"/>in omni tali toto primo modo A, C inchoato, et circa D terminato 
+                <lb ed="#S"/>B pertransibit plus de spatio quam A, et tamen non in omni tali to<lb ed="#S"/>to 
+                syncategorimatice sumpto li 'toto', quo  non in omni parte alicuius talis 
+                <lb ed="#S"/>totius. Sed octava[?gratia?], si in omni tempore toto categorimatice sumpto li 'toto' 
+                <lb ed="#S"/>quo B plus pertransit de spatio quam A velotius movatur 
+                <lb ed="#S"/>et in omni tempore toto quo minus spatium pertransit quam A tar<lb ed="#S"/>dius 
+                moveatur, igitur in toto tempore inchoato A, C et terminato ad 
+                <lb ed="#S"/>D moverentur aequaliter, quia in illo aequalia spatia pertransibunt 
+                <lb ed="#S"/>consequens, videtur falsum, quia tunc in primo instanti, scilicet, C in quo incipiunt mo<lb ed="#S"/>veri 
+                super aequalia spatia inciperent aequae velociter moveri quod 
+                <lb ed="#S"/>falsum est, quia immediate post illud instans B movebitur velocius quam 
+                <lb ed="#S"/>A, ex casu immo quod plus est in quolibet instanti sequenti usque 
+                <lb ed="#S"/>ad D, uno forsan excepto diffor?ter[??] movebuntur et 
+                <lb ed="#S"/>non aequae velocior, igitur non incipiunt modo aeque velocior moveri. 
+                <lb ed="#S"/>Igitur incipiunt et non incipiunt aequaliter moveri.</p>
+                
+                <p xml:id="b1d8qun-dqpslt">Dicendum quod primum consequens 
+                <lb ed="#S"/>illatum verum est, scilicet, quod movebuntur aequaliter in toto tempore inter<lb ed="#S"/>cepto 
+                inter D et C sumpto li 'toto' categorimatice et retento 
+                <lb ed="#S"/>casu quod non desineret moveri circa D. Nam si alterum cessaret 
+                <lb ed="#S"/>moveri circa D non esset hoc verum quod aequaliter movebuntur 
+                <lb ed="#S"/>in toto illo tempore sicut prius et bene volo etiam quod incipi<lb ed="#S"/>unt 
+                <lb ed="#S"/>aequae velocior moveri in toto C tempore vocetur sic totum 
+                <lb ed="#S"/>tempus inter C et D retento casu, quia incipiunt aequalia spatia 
+                <lb ed="#S"/>in e tempore petransire. Et tamen non incipiunt aequaliter moveri pro 
+                <lb ed="#S"/>alia parte temporis E, et ideo nec pro E toto syncategorimatice sumpto 
+                <lb ed="#S"/>ly 'toto'.</p>
+                
+                <p xml:id="b1d8qun-cnnani">Contra<note type="summary">O: Quod simul stant quod B et A incipiunt moveri aequaliter in E tempore, et tamen non incipiunt moveri aequaliter S</note> nunc[?] non moventur aequaliter nec immediate post 
+                <lb ed="#S"/>movebuntur aequaliter, quia immediate post B movebitur velocius quam A, 
+                <lb ed="#S"/>igitur nunc non incipiunt moveri aequaliter qualitercumque exponatur li 
+                <lb ed="#S"/>'incipiunt', igitur non incipiunt aequaliter moveri per E tempus totum categorimatice 
+                <lb ed="#S"/>sumendo li 'totum' au?ae?one[?] superioris usque ad negationem inferioris.</p>
+                
+                <p xml:id="b1d8qun-piespe">Pro isto et praecedenti responsionem valet sopa[?] Kil[?] 32 et sequentia alia 
+                <lb ed="#S"/>dicendum, tamen prout nunc occurrit, quia secunda pars assumpti est falsa, quia in<lb ed="#S"/>mmediate 
+                <lb ed="#S"/>post hoc instans movebuntur aequaliter in E toto katagorimatice[??] 
+                <lb ed="#S"/>sumpto li 'toto', id est erunt in pertranseundo spatia aequalia praeci<lb ed="#S"/>se 
+                <lb ed="#S"/>in ipso toto E, et ideo in aliquo tempore, sed tamen pro qualibet parte E temporis 
+                <lb ed="#S"/>vel saltem pro multis partibus E temporis movebuntur A velocius quam 
+                <lb ed="#S"/>B vel e converso, nam pro multis velocius et pro multis tardius, sicut prae<lb ed="#S"/>dictum est.</p>
+                
+                <p xml:id="b1d8qun-csbepa">Contra[?]<note type="summary">P: Quod non sequitur in aliqua parte E tempors B movebitur velotius qua a movebitur in eodem et in aliqua 
+                <lb ed="#S"/>parte tardius, igitur A movebitur velocius quam B et movebitur tardius. S</note> si B pro omni tempore A C inchoato et circa determinato 
+                <lb ed="#S"/>movitur velotius quam A retento casu quod ambo communicabunt usque 
+                <lb ed="#S"/>ad finem motus suos et pro omni tempore termniato ad D et inchoato 
+                <lb ed="#S"/>post A velocius movitur quam B et pro C tempore aeque velocitur, sicut potest ar<lb ed="#S"/>gui 
+                ex descriptionibus velotioris et tardioris et aeque ve<lb ed="#S"/>leotioris, 
+                <lb ed="#S"/>tunc sequitur quod in omni instanti inter C et D erit verum dicere 
+                <lb ed="#S"/>quod A movitur velotius quam B et minus velociter quam B et aeque ve<lb ed="#S"/>lociter 
+                sicut B, quod non videtur dandum et est dicendum quod consequentia non valet, quia 
+                <lb ed="#S"/>comparatum ibi positum et li quam confundunt signum temporis importa<lb ed="#S"/>ti 
+                per verbum quod implicite ibi sequitur, se <add place="margin">sequitur</add> quod B velocius movitur in C tempore 
+                <lb ed="#S"/>quam A in p[?] sint isti termini signa propria temporum expressorum per 
+                <lb ed="#S"/><corr><del>attendens</del><add>antecedens</add></corr></p>
+                
+                <p xml:id="b1d8qun-spotev">Secundo<note type="marginalNote">secunda ratio S</note> principaliter<note type="summary">Q: Quod ista non est vera: 'Deus creans potest non esse nec ista chmi?ea[?] potest non esse. S</note> potest obici contra primam conclusionem quod illa sit falsa, 
+                <lb ed="#S"/>quia Deus potest non esse vel non esse Deus, igitur Deus est mutabilis vel des<lb ed="#S"/>truibilis, 
+                consequentia plana est probatio antecedentis, quia Deus terminans potest non 
+                <lb ed="#S"/>esse, igitur deus potest non esse consequentia patet dato quod Deus nunc creet aliquid 
+                <lb ed="#S"/>probatio antecedentis, quia posito possibile haec est vera Des creans non est posito 
+                <lb ed="#S"/><cb ed="#S" n="93ra"/>valet quod Deus inchi[?] creet sicut potest cras contingere, igitur creans 
+                <lb ed="#S"/>potest non esse. Consequentia probatur, quia ex omni propositione de in esse, sequitur proprio de possibili in eisudem 
+                <lb ed="#S"/>terminis licet non e converso tam in negativis quam in affirmativis, sicut sequitur Sortes 
+                <lb ed="#S"/>est, igitur potest esse et Sortes non est, igitur Sortes potest non esse. Et si consequentia sit vera, igitur 
+                <lb ed="#S"/>quandocumque, antecedens est verum, consequens est verum et antecedens propositum est verum quando 
+                <lb ed="#S"/>Deus nihil creat, id est, posito quod nihil creet et antecedens, tunc formetur, igitur 
+                <lb ed="#S"/>consequens, tunc esset verum.</p>
+                
+                <p xml:id="b1d8qun-ppqesd">Prima posito quod Deus nihil creet adhuc 
+                <lb ed="#S"/>haec disiunctiva est vera Deus creans potest non esse vel Deus creans non 
+                <lb ed="#S"/>potest non esse, quia iste propositiones vel sunt[?] sub contrariae vel contradictoriae et neque contra<lb ed="#S"/>dictoriae, 
+                <lb ed="#S"/>nequae sub contrariae possunt simul esse <corr><del>verae</del><add>falsae</add></corr>. Secunda pars disiunctivae 
+                <lb ed="#S"/>est illo casu posito falsa, quia si haec esset vera Deus creans non 
+                <lb ed="#S"/>potest non esse haec esset vera Deus creans necessario tunc esset quod falsum 
+                <lb ed="#S"/>esset illo casu posito, igitur tunc prima pars illius disunctive vera 
+                <lb ed="#S"/>est et si concedatur propter medium proximo tactum quod illo casum posito 
+                <lb ed="#S"/>haec esset vera Deus creans potest non esse contra vel Deus, qui est creans 
+                <lb ed="#S"/>potest non esse vel deus qui potest esse creans potest non esse. Consequens falsum et 
+                <lb ed="#S"/>consequentia patet, quia subiectum respectu huius verbi potest vel supponit pro eo quod est 
+                <lb ed="#S"/>tale vel pro eo quod ptest esee tale vel saltem sit supponere denominatur, 
+                <lb ed="#S"/>et ita arguitur ab exponibili ad alteram exponentem sub 
+                <lb ed="#S"/>disiunctione.</p>
+                
+                <p xml:id="b1d8qun-dfqcif">Dicetur forte quod neque sit neque sit, sed praecise conceditur 
+                <lb ed="#S"/>illa de possibili, quia tunc sua de in esse vera est sicut ista videtur 
+                <lb ed="#S"/>concedenda chm?era[?] potest non esse et tamen nec chimera[?] quod est nec chi<lb ed="#S"/>mera 
+                quae potest esse potest non esse, unde in affirmativis cum hoc verbo 
+                <lb ed="#S"/>potest bene teneret consequentia huius propter causam allegatam, sed illa respectu vel consequentia 
+                <lb ed="#S"/>formata secundum illam regulam non tenet semper in negativis de possibili, sed 
+                <lb ed="#S"/>haec responsio non videtur sufficiens, cum quia eodem modo probabitur ista 
+                <lb ed="#S"/>Deus, qui est creans potest non esse, sicut illa prior Deus creans 
+                <lb ed="#S"/>potest non esse cum etiam, quia ista Deus creans potest non esse est affirmatam <add place="margin" hand="different">cum</add> 
+                <lb ed="#S"/>modus affirmetur et per consequens ipsa infert illud quod in subiecto implicatur etiam 
+                <lb ed="#S"/>per consequens ipsa est falsa cum implicetur falsum.</p>
+                
+                <p xml:id="b1d8qun-escepi">Et si concedatur illo casu 
+                <lb ed="#S"/>posito quod Deus, qui est creans potest non esse, quia proprio de[?] in[?] esse correspondens 
+                <lb ed="#S"/>sibi, tunc est vera et similiter quod chimera quae est potest non esse propter idem.</p>
+                
+                <p xml:id="b1d8qun-csiias">Contra si illo casu posito Deus creans potest non esse, igitur Deus creans 
+                <lb ed="#S"/>non erit, igitur Deus potest non esse quod erat[?] principale probandum probo[?probatio?] commune[?], quia 
+                <lb ed="#S"/>arguitur ab inferiori ad superius.</p>
+                
+                <p xml:id="b1d8qun-psnpne">Praeterea, si nec Deus qui est creans nec 
+                <lb ed="#S"/>Deus qui potest non esse creans potest non esse Deus vel non est, igitur nullus[?] 
+                <lb ed="#S"/>Deus creans potest non esse.</p>
+                
+                <p xml:id="b1d8qun-psdicr">Praeterea sequitur Deus creans potest non esse iste Pater in 
+                <lb ed="#S"/>divinis potest esse <del>non</del> creans, igitur in divinis iste Pater potest non esse. Si 
+                <lb ed="#S"/>dicatur quod illo casu posito, haec est falsa, Deus creans non esse, 
+                <lb ed="#S"/>quia est affirmativa et implicat falsum, si denominatur supponere pro eo quod 
+                <lb ed="#S"/>est Deus creans. Et si pro eo quod potest <corr><del>ex</del><add>esse</add></corr> Deus creans, tunc falsa est, 
+                <lb ed="#S"/>quia affirmat?[??corrections here?] <corr><del>possit</del><add>posse</add></corr> non esse de illo cui repugnat.</p>
+                
+                <p xml:id="b1d8qun-csrcuv">Contra<note type="summary">R: Quod non semper ad illam de in esse sequitur illa de possibili et quid 
+                <lb ed="#S"/>requiritur unde[??] non sequitur ista est possibilis Deus creans non est, igitur Deus creans potest in esse. S</note> sequitur 
+                <lb ed="#S"/>Deus creans non est, igitur Deus creans potest non esse, ut prius probo[?probatio?] commune[?], 
+                <lb ed="#S"/>quia oppositum consequentis repugnat antecedenti tantum enim repugnat non esse et 
+                <lb ed="#S"/>non posse non esse, sicut posse esse et non esse eo quod sicut esse et non esse 
+                <lb ed="#S"/>contradicunt, ita etiam posset et non esse et non posse non esse contradicunt, sed nunc 
+                <lb ed="#S"/>est ita quod tantum repugnat non esse et non posse non esse <add place="margin">sicut posse non esse et non posse non esse,</add> nunc sequitur Deus 
+                <lb ed="#S"/>creans non potest non esse, igitur Deus creans necessario est, quia tamen antecedens 
+                <lb ed="#S"/>et consequens sunt convertibilia, cum quia alter oppositum consequentis staret, 
+                <lb ed="#S"/>cum antecedente hoc falsum, ita quod tunc starent simul ista Deus 
+                <lb ed="#S"/>creans potest non esse quod est oppositum illius ultimi consequentis et Deus creans non 
+                <lb ed="#S"/>potest non esse quod erat antecedens ultimae consequentia quae tamen contradicunt, ut videtur.</p>
+                
+                <p xml:id="b1d8qun-">Ad 
+                <lb ed="#S"/>illud negandum est primum assumptum, et tamen probatur negandum est iterum 
+                <lb ed="#S"/>quod assumitur, scilicet, quod Deus creans potest non esse et ad probationem neganda 
+                <lb ed="#S"/>est ista consequentia haec potest esse vera Deus creans non est, igitur Deus creans 
+                <lb ed="#S"/>potest non esse, quia nec quod Deus est creans potest non esse nec quod potest esse Deus 
+                <lb ed="#S"/>creans potest non esse, et cum probatur per regulam quamdam, dicendum quod regula illa 
+                <lb ed="#S"/>non valet ubi praedicatum in consequente non convenit alicuius pro quod etiam 
+                <lb ed="#S"/><cb ed="#S" n="93rb"/>possit supponere cui subiectum potest concurrere tamen praedicatum antecedentis convenit[?] 
+                <lb ed="#S"/>alicui cui subiectum conventi vel potest convenire[?] vel aliter quod non valet contra 
+                <lb ed="#S"/>ubi antecedens est verum propter hoc quod est negatum[?] et praedicatum consequentis non 
+                <lb ed="#S"/>potest concurrere alicuius signabilis per subiectum, sicut hoc chimera non est, 
+                <lb ed="#S"/>igitur chimera potest non esse, quae consequentia non valet, sicut nec in proposito et eadem 
+                <lb ed="#S"/>causa est utrobique, quia ad veritatem consequentis quae est affirmativa 
+                <lb ed="#S"/>utrobique requireretur quod aliquid cui convenit vel cui convenire[?] posset subiectum 
+                <lb ed="#S"/>posset non esse, quod falsum est. Et hic et ibi, licet propter aliam et aliam causam hic et 
+                <lb ed="#S"/>ibi, quia in exemplo de chimera implicatur impossibile in consequente affirmativo, 
+                <lb ed="#S"/>sed in proposito falsum possibile posito casu qui ponitur. Potest enim hoc quod dico <add>Deus</add> 
+                <lb ed="#S"/>creans alicui concurrere, licet non de facto conveniat, sed tunc illi cui potest 
+                <lb ed="#S"/>convenire[?] repugnat praedicatum.</p>
+                
+                <p xml:id="b1d8qun-aspera">Ad secundam probationem huius propositionis negatae, Deus 
+                <lb ed="#S"/>creans potest non esse concedo disiunctivam illam quae sumitur pro secunda parte haec 
+                <lb ed="#S"/>enim vera est si Deus nihil creet Deus creans non potest non esse Deus, 
+                <lb ed="#S"/>nec tamen sequitur, igitur Deus creans necessario est Deus, sicut nec sequitur etiam chy<lb ed="#S"/>mera 
+                <lb ed="#S"/>non potest non esse, igitur chymera necessario est, sed oporteret ponere 
+                <lb ed="#S"/>constantiam[?] subiecti[?], et tunc esset bona <corr><del>contra</del><add>consequentia</add></corr> sequitur enim A non potest 
+                <lb ed="#S"/>non esse et est, igitur a necessario est unde ista negativa A non potest non esse 
+                <lb ed="#S"/>potest habere tres causas veritatis vel, scilicet, quia a necessario est vel quia A im<lb ed="#S"/>possibile 
+                <lb ed="#S"/>est esse vel, quia aliquid potest esse A et omne tale necessario est et propter hoc 
+                <lb ed="#S"/>A non potest non esse prima causa modo verificat istam Deus non potest non esse 
+                <lb ed="#S"/>secunda istam chymera non potest non esse tertia istam creans non potest non 
+                <lb ed="#S"/>esse dato etiam quod nihil creet, et cum probatur ista consequentia Deus creans non potest non 
+                <lb ed="#S"/>esse, igitur Deus creans neccessario est, quia sunt convertibilia negandum est 
+                <lb ed="#S"/>nisi antecedenti addatur aliquid vel supponatur constantia[?] subiecti sic[?] dicendo et Deus 
+                <lb ed="#S"/>creans est et cum secundo; probatur consequentia, quia oppositum  consequentis illud, scilicet, Deus creans potest 
+                <lb ed="#S"/>non esse repugnat antecedenti.</p>
+                
+                <p xml:id="b1d8qun-dqsesn">Dicendum<note type="summary">S: Quod ista est vera Deo non creante Deus creans non potest non esse et tamen non se, ergo Deus creans necessario est. S</note> quod supponit falsum, scilicet, quod ista contradicant 
+                <lb ed="#S"/>deus creans necessario est et Deus creans potest non esse nam ambae sunt 
+                <lb ed="#S"/>falsae quando Deus maius creat, sed contradictoria prioris est ista: Deus creans non 
+                <lb ed="#S"/>necessario est quae non aequivalet huic Deus creans potest non esse, quia 
+                <lb ed="#S"/>haec potest esse falsa priori existente vera quando, scilicet, nihil est Deus creans et 
+                <lb ed="#S"/>causa est falsa implicatio in subiecto et simul cum hoc quod cuilibet cui potest 
+                <lb ed="#S"/>subiectum convenire[?] repugnat non esse eodem etiam modo non sequitur chymera <add place="aboveLine">non</add> potest 
+                <lb ed="#S"/>non esse, igitur chymera necessario est cuius causa est non solum falsa implicatio 
+                <lb ed="#S"/>in subiecto, sicut prius, sed quia subiectum de nullo potest <add place="margin">vere</add> affirmari. Si communis[?] 
+                <lb ed="#S"/>tamen vellet istam dare, si Deus nihil creet Deus creans potest non esse 
+                <lb ed="#S"/>tamen, quia tunc Deus creans non esset cum, quia li[?] forte, tunc videretur sibi falsa 
+                <lb ed="#S"/>Deus creans non potest non esse, quia sub contrariae, ut supra vel contradictoriae 
+                <lb ed="#S"/>non possunt simul esse falsae et haec sunt tales, ut sibi forte videretur 
+                <lb ed="#S"/>primam rationem in contrarium vel igitur concedendum Deus creans potest etc. vel quod potest 
+                <lb ed="#S"/>esse Deus creans etc. solvere nescirem.</p>
+                
+                <p xml:id="b1d8qun-aacced">Ad aliud cum dicitur Deus cre<lb ed="#S"/>ans 
+                    <lb ed="#S"/>potest non esse, igitur Deus potest non esse negaret quam nec arguitur tunc ab in<lb ed="#S"/>feriori 
+                    <lb ed="#S"/>affirmative ad superius, quia tunc haec esset falsa Deus creans est Deus.</p>
+                
+                <p xml:id="b1d8qun-srqmsc">Secunda reductio, quia est realiter eadem cum prima ratione videtur mihi simpliciter 
+                <lb ed="#S"/>concludere.</p>
+                
+                <p xml:id="b1d8qun-atdpes">Ad tertiam diceretur quod si subiectum maioris summeretur universaliter et 
+                <lb ed="#S"/>staret pro eo quod Deus potest esse creans valeret discursus non 
+                <lb ed="#S"/>autem valet talis discursus ex omnibus de possibili, si subiectum ma<lb ed="#S"/>ioris 
+                <lb ed="#S"/>stet pro eo quod est exemplum non sequitur subiecto maioris suppositae pro 
+                <lb ed="#S"/>eo quod est omne illuminans medium potest esse sol candela 
+                <lb ed="#S"/>potest illuminare medium, igitur candela potest esse sol.</p>
+                
+                <p xml:id="b1d8qun-tppvic">Tertio<note type="summary">T: Quod ista non est concedenda Deus creans desivit[?] esset nec ita consequentia valet Deus creans 
+                <lb ed="#S"/>non est et deus creans fuit, igitur desinit vel desivit[?] esse.</note> principaliter<note type="marginalNote">Tertia ratio S</note> potest sic 
+                <lb ed="#S"/>argui omne quod potest desinere esse potest mutari, sed Deus creans potest 
+                <lb ed="#S"/>desinere esse, igitur et Deus potest desinere esse probatio minoris totum enim <add place="margin">residuum</add> 
+                <lb ed="#S"/>minoris patet de se pono quod deus modo non creet sed prius immediate 
+                <lb ed="#S"/>creaverit et arguo sit creans fuit et creans non est, igitur desinit vel 
+                <lb ed="#S"/>desivit[?] esse omne <add place="margin">enim</add> illud quod prius fuit et modo non est desinit 
+                <lb ed="#S"/>vel desivit esse discursus patet in tertio primae et praemissae sunt 
+                <lb ed="#S"/>verae, igitur conclusio.</p>
+                
+                <p xml:id="b1d8qun-ainsna">Ad istud neganda est minor, quia neque quod est Deus 
+                <lb ed="#S"/>creans neque quod potest esse Deus creans potest desinere esse et hoc sive 
+                <lb ed="#S"/>Deus creet sive non actualiter.</p>
+                
+                <p xml:id="b1d8qun-sdqsdp">Si dicas quod ista consequentia 
+                <cb ed="#S" n="93va"/><lb ed="#S"/>est bona creans modo non est et Deus creans immediate prius fuit, 
+                <lb ed="#S"/>igitur Deus creans desivit esse ab exponentibus ad expositam 
+                <lb ed="#S"/>et ultra sequitur Deus creans desivit esse, igitur Deus creans potest desinere esse 
+                <lb ed="#S"/>ab una de in esse affirmativa ad suam de possibili.</p>
+                
+                <p xml:id="b1d8qun-dqpnee">Dicendum quod 
+                <lb ed="#S"/>prima consequentia non valet nec illae sunt exponentes consequentis nisi sumatur 
+                <lb ed="#S"/>pro eodem, et tunc secunda esset falsa, quia implicaret falsum, quia haec est falsa, tunc 
+                <lb ed="#S"/>propter falsam implicationem Deus, qui est creans immediate prius fuit 
+                <lb ed="#S"/>et per hoc patet ad probationem minoris negatae, cum dicitur omne illud quod 
+                <lb ed="#S"/>prius fuit et nunc non est etc.</p>
+                
+                <p xml:id="b1d8qun-dqmara">Dicendum quod minor est falsa, si sic 
+                <lb ed="#S"/>de copulato praedicato, si vero sit copulativa non valet discursus 
+                <lb ed="#S"/>cum tunc procedat ex quattuor terminis et ex hoc patet ad reductiones 
+                <lb ed="#S"/>argumenti.</p>
+                
+            </div>
+            <div>
+                <head>Quartus articulus</head>
+                
+                <p xml:id="b1d8qun-qaeune">Quartus articulus<note type="marginalNote">quartus articulus</note> est<note type="summary">V: Quod Deus non dicitur mutari propter hoc: quod est in loco in quo non fuit. S</note> solvere argumenta ad primum, cum probatur quod Deus est 
+                <lb ed="#S"/>mutabilis, quia potest esse ubi non est.</p>
+                
+                <p xml:id="b1d8qun-aiiuad">Ad illud respondebit in secundo serio<lb ed="#S"/>sius                     
+                pro nunc dico quod consequentia non valet, quia quod potest esse si non est non per positionem 
+                <lb ed="#S"/>eius cum loco nullo[?] modo[?], sed per positionem talis loci vel situs cum Deo[?] non propter 
+                <lb ed="#S"/>hoc est secundum locum mobile. Verbi gratia adnihilando omnia corporea in 
+                <lb ed="#S"/>meo et solo angelo non moto reservato et repositis corporibus 
+                <lb ed="#S"/>angelis non moveretur vel possum dicere quod Deus est non solum intra 
+                <lb ed="#S"/>ambitu caeli, sed etiam est extra caelum ubicumque potest esse aliquid et ubi de 
+                <lb ed="#S"/>facto nihil est nisi Deus licet illud non posset per verba a parta et 
+                <lb ed="#S"/>vera de vi sermonis exprimere hoc tamen unum vere possum di<lb ed="#S"/>cere, 
+                ut alias declarabo.</p>
+                
+                <p xml:id="b1d8qun-eipihp">Et istud principale argumentum satis ad hoc 
+                <lb ed="#S"/>cogit quod nusquam de est vel ab est Deus, ubi aliquid esse potest nec intra 
+                <lb ed="#S"/>caelum nec extra nec sua immensitas hoc permittit.</p>
+                
+                <p xml:id="b1d8qun-asdsie">Ad secundum 
+                    <lb ed="#S"/>dico supposita divisione <name ref="#Augustine">Augustini</name> in argumento de hiis quae secundum ac<lb ed="#S"/>cidens 
+                <lb ed="#S"/>dicuntur de aliquis quod ista consequentia non valet de Deo dicitur aliquid 
+                <lb ed="#S"/>secundum accidens, igitur Deus est mutabilis et hoc sumpto antecedente 
+                <lb ed="#S"/>ad sensum verum concess[?] a negro[?] et <name ref="#Augustine">Augustinus</name>, sicut ibi exprimitur.</p>
+                
+                <p xml:id="b1d8qun-ecpsea">Et cum 
+                <lb ed="#S"/>probatur consequentia quod secundum <name ref="#Augustine">Augustinus</name> in Deo nihil secundum accidens dicitur, quia nihil in eo est 
+                <lb ed="#S"/>mutabile dico quod non dicit quod propter illam causam nihil secundum accidens 
+                <lb ed="#S"/>dicitur de Deo, sed quod in Deo nihil nihil[?] secundum accidens dicitur et sic est consequentia 
+                <lb ed="#S"/><name ref="#Augustine">Augustini</name> valde bona, sed non ad propositum et praeter hoc et si dicerent quod 
+                <lb ed="#S"/>nihil de Deo secundum accidens dicitur etc., glosaretur de accidente quod est forma 
+                <lb ed="#S"/>inhaerens alicui subiecto non aut quod non inhaeret alicuius subiecto, 
+                <lb ed="#S"/>sed est quod dam[?] accidentis probabile de ipso vel potius per accidentale 
+                <lb ed="#S"/>praedicatum expressibile sicut accidit Deo creare vel dominum[?] esset, et sic 
+                <lb ed="#S"/>de similibus quando[?] secundum substantiam suam Deo conveniunt[?], id est, non essentialiter sed tempora<lb ed="#S"/>liter 
+                et accidentaliter ex hoc quod habet servum vel creatam[?] ab ipso produc<lb ed="#S"/>ta 
+                de nihilo et similia, sicut accidit minimo esse praetium vel pignus, sicut 
+                <lb ed="#S"/>exemplificat <name ref="#Augustine">Augustinus</name>.</p>
+                
+                <p xml:id="b1d8qun-aprtfp">Ad<note type="marginalNote">ad reductiones S</note> primam reductionem de minimo bene concedere 
+                <lb ed="#S"/>est quod in illo casu non oportet fieri mutationem aliquam secundum formam 
+                <lb ed="#S"/>receptam, tunc in minimo vel tunc in quovis <corr><del>tamen</del><add place="margin">omni</add></corr> praesupposito huius sta<lb ed="#S"/>tuto 
+                regali fuit[?] minimus noviter praetium vel certi valoris licet 
+                <lb ed="#S"/>mutatio praecessit[?] in sic volente eet sic statuente, sed tamen in<lb ed="#S"/>cipit 
+                fieri praetium non oportet ibi mutationem fieri in minimo vel alio nisi mo<lb ed="#S"/>tum 
+                localem caeli et transitum temporis stante statuto regio 
+                <lb ed="#S"/>in suo robore et quia statutum illud ordinavit quod ad transitum 
+                <lb ed="#S"/>temporis fieret praetium.</p>
+                
+                <p xml:id="b1d8qun-piafna">Per<note type="summary">X: Quomodo de non amico Dei potest alius amicus Dei et e contra nulla mutatione factam in quocumque. S</note> idem ad secundum reductionem de noviter 
+                <lb ed="#S"/>facto amico de non amico et non amico de amico. Dicendum quod 
+                <lb ed="#S"/>licet homo fiat de non amico amicus et e contra sine mutatione ut ibi ex<lb ed="#S"/>primit 
+                <name ref="#Augustine">Augustinus</name>, tamen dicendum qoud secus est de Deo de quo loquitur <name ref="#Augustine">Augustinus</name> 
+                <lb ed="#S"/>et aliis, quia nec Deus incipit amare amore sibi inhaerente 
+                <lb ed="#S"/>et si faceret mutaretur ulterius, igitur dico quod Dei statutum quo dispo<lb ed="#S"/>suit 
+                <lb ed="#S"/>punire perseverantem in delectione[?] vel cogitatione morosa 
+                <lb ed="#S"/>ultra certum tempus secundum sufficientiam naturalem suam concessam unicuique 
+                <lb ed="#S"/>ad abiciendum[?] huius deordinatior[?] sufficit ad hoc ut sit 
+                <lb ed="#S"/>dignus pena aeterna cum non expediat se d[?] tali illecebam[???] 
+                <lb ed="#S"/>infra lumces[??] temporis praes??ti[?], ita quod transicus temporis illius sibi 
+                <lb ed="#S"/>praesti?ci[?] a Deo cum alis praetactis; puta negligentia et concessu[??] 
+                <lb ed="#S"/>interpraetativo vel huius hic sufficiunt et ista eest in casu de differen<cb ed="#S" n="93vb"/><lb ed="#S"/>te 
+                exsecutionem praecepti ultra limitens[?] temporis praesci?cum[?] transicus enim 
+                <lb ed="#S"/>temporis sufficit ibi cum reliquis ante tactis manentibus uni<lb ed="#S"/>formaliter, 
+                tunc et prius ut de amico Dei fiat non amicus.</p>
+                
+                <p xml:id="b1d8qun-atdcvd">Ad tertium<note type="summary">Y: Secundae[?] praedicata Christo conveniunt per communicationem idiomatum et quae non et qui est communicatio idiomatum. S</note> 
+                <lb ed="#S"/>de Christo Deo et homine, qui materialiter[?} movebatur, responsum est satis in 
+                <lb ed="#S"/>personae conclusionis quartae, ubi dixi quod licet Dei filius proprie et vere et 
+                <lb ed="#S"/>non per communicationem idiomatum sit homo et animal et corpus animatum, tamen 
+                <lb ed="#S"/>per communicationem idiomatum communes actiones et passiones proprie dictae 
+                <lb ed="#S"/>et similiter omnes motiones locales sive activae sive passivae ex<lb ed="#S"/>primantur, 
+                <lb ed="#S"/>quae immediate competebant naturae[?] Christi humanae et 
+                <lb ed="#S"/>supposito aeterno absolute sine ulteriori modificatione ad 
+                <lb ed="#S"/>ubiali[?] verissime competebant, quia iste primo et principaliter istius naturae 
+                <lb ed="#S"/>erant, sed mediante illa erant supposito in quo ista natura hypos<lb ed="#S"/>tatice 
+                <lb ed="#S"/>subsistebat priores autem sermones cum dicitur Dei Filius est 
+                <lb ed="#S"/>homo vel humanatus vel incarnatus et sic de similibus non conveniebant 
+                <lb ed="#S"/>sibi per communicationem idiomatum, sed proprie et vere, ita vere et proprie sicut 
+                    <lb ed="#S"/>homo est <add>albus<desc>add. in line cum alio manu (something underneath may have been scratched out.</desc></add> ab albedine sibi unica vel sicut corpus quod est 
+                <lb ed="#S"/>altera pars hominis est vere et proprie animatus ab anima sibi unica 
+                <lb ed="#S"/>per modum formae quamvis ista ab unione omnino alterius rationis causa aut quod 
+                <lb ed="#S"/>haec non per communicationem idiomatum est haec, quia<note type="marginalNote">nota S</note> communicare idiomata est praedicata 
+                <lb ed="#S"/>uni primo et immediate conveniens alteri secondario et mediantius convenire, sicut 
+                <lb ed="#S"/>disgregare vel videri quod primo convenit album huius subiecti mediante et secondario 
+                <lb ed="#S"/>tribuitur subiecto eius, et sicut a qua dicitur tale fre[??] quando calor 
+                <lb ed="#S"/>ipsam informans calefacit sed sic non est de praedicatis istis homo,
+                <lb ed="#S"/>humanatum, incarnatum, et similibus dictis de Deo Filio, quia ista 
+                <lb ed="#S"/>non primo et immediate conveniunt in Christo alteri et per illud aliud Filio 
+                <lb ed="#S"/>Dei, quia tale alterum non esst assignare nisi humanitatem sumptam 
+                <lb ed="#S"/>et constat quod ista nec est homo nec animal nec humanata nec incarna<lb ed="#S"/>ta, 
+                    <lb ed="#S"/>sed primo et immediate conveniunt hic ibi Filio Dei et sunt sibi idioma<lb ed="#S"/>ta 
+                <lb ed="#S"/>et nullo modo naturae assumptae, sed actiones et passiones sive secundum 
+                <lb ed="#S"/>locum sive secundum formama humanitatis assumptae taliter Dei Filio con<lb ed="#S"/>gruebant, 
+                <lb ed="#S"/>quia istae sunt primo et immediate idiomata praedicata convenientia 
+                <lb ed="#S"/>illi naturae et ista mediante communicantur supposito in ipsa personaliter subsistente 
+                <lb ed="#S"/>et illud, ita est simplex et imperceptibilis et in compositum modo praeexpo<lb ed="#S"/>sito, 
+                <lb ed="#S"/>sicut aeternaliter existebat, licet A compositis et divisibilibus 
+                <lb ed="#S"/>concretive vere denominetur.</p>
+                
+                <p xml:id="b1d8qun-dnmvfc">Dices nihil moritur in compositum, quia 
+                <lb ed="#S"/>mors est separatio partis a parte in composito moriente, sed Dei Filius 
+                <lb ed="#S"/><del rend="underlined">visis</del> vere moriebatur, igitur vore[?] fuit compositus.</p>
+                
+                <p xml:id="b1d8qun-dqsehi">Dicendum<note type="summary">Z: In quo sensu dicatur Christus passus crucifixus est mortuus. S</note> quod si 
+                <lb ed="#S"/>Dei Filius qui verissime pro nobis morutuus est et passus ista immediate 
+                <lb ed="#S"/>et ita proprie fuisset mortuus, sicut corpus quod erat pars assumptae 
+                <lb ed="#S"/>humanitatis vel ipsa assumpta humanitas valeret contra nunc non 
+                <lb ed="#S"/>valet sic, quia sensus est Christus vere mortuus fuit, id est, Christus sub<lb ed="#S"/>sistebat 
+                <lb ed="#S"/>in terrane[?] vere mortua per carentiam vitae prius eam 
+                <lb ed="#S"/>vivificantis vel animantis et cum hoc stat vera summa et aeter<lb ed="#S"/>na 
+                <lb ed="#S"/>simplicitas, quia simplici uniri potest compositum et ne de 
+                <lb ed="#S"/>terminoniis[???] aliorum. Unde <name ref="#Ambrose">Ambrosus</name> ut recitat <ref><name ref="#Lombard">Magister</name> libro III, distinctione 
+                <lb ed="#S"/>21, c. penultimo[?] in fine</ref> emisit Christus spiritum, sed unde emisit 
+                <lb ed="#S"/>ex carne, et consequenter in principio ca[?]i[?} sequentis inquirens per quod mo<lb ed="#S"/>dum 
+                <lb ed="#S"/>mortuus est Christus Dei Filius dicit recedente, inquit, anima mor<lb ed="#S"/>tua 
+                est Christus caro, et quia caro mortua est mortuus est Christus, 
+                <lb ed="#S"/>sicut enim mortuus dicitur Deus quando mortuus est homo, ita mor<lb ed="#S"/>tuus 
+                <lb ed="#S"/>est homo quando mortua est caro separatio animae mors terranis[?] 
+                <lb ed="#S"/>fuit propter carnem, igitur Verbo unicam quae mortua est dicitur Deus 
+                <lb ed="#S"/>mortuus et propter carnem et animam quae utraque dolorem sensit dicitur Deus 
+                <lb ed="#S"/>passus cum Dei vita omnis doloris exsors[?] existebat 
+                <lb ed="#S"/>hoc iste.</p>
+                
+                <p xml:id="b1d8qun-hpiehi">Hoc probat ibi <name ref="#Lombard">Magister</name> per <name ref="#Augustine">Augustinus</name> dicentem quicquid passus 
+                <lb ed="#S"/>est homo non potest dici non passus Deus, quia Deus erat homo. 
+                <lb ed="#S"/>Et quare hoc sit statim declarat quomodo non <add place="margin">potes</add> Pater <del>non</del> dicere non 
+                <lb ed="#S"/>te passum inviriam[?] si vestis tua conscindatur quamvis ves<lb ed="#S"/>tis 
+                tua non sit tu multo magis, igitur quicquid patitur caro uni<lb ed="#S"/>ca 
+                verbo dici debet pati Deus licet Verbum non mori nec corpori 
+                <lb ed="#S"/>nec mutari potuerit, sed quicquid horum passus est in terrane[?] passus 
+                <lb ed="#S"/><cb ed="#S" n="94ra"/>est haec istae.</p>
+                
+                <p xml:id="b1d8qun-idhume">Item de hoc <name ref="#Ambrose">Ambro</name> in libro IVo de Spiritu Sancto, ut quid, 
+                <lb ed="#S"/>ubi caro patiebatur manens in terrane[?[ Verbum in se per cor<lb ed="#S"/>poris 
+                assumptionem <corr><del>inferebat</del><add>referebat</add></corr>, ut pat diceretur, quia caro patiebatur 
+                <lb ed="#S"/>sicut Scriptum est Christo, igitur in terrane[?] passo hic, inquit <add place="margin"><name ref="#Lombard">Magister</name></add> magister[?] docetur 
+                <lb ed="#S"/>qua ratione deus vel Dei Filius passus vel mortuus dicitur non, 
+                <lb ed="#S"/>quia mortem senserit inquantum Deus est, sed quia caro ei unica 
+                <lb ed="#S"/>mortua est.</p>
+                
+                <p xml:id="b1d8qun-sqrhus">S?m[?] quam rationem dicit <name ref="#Augustine">Augustinus</name> in expositiono[???] 
+                    <lb ed="#S"/>symboli, ut ibi totatur[??] vel in Sermone de fide, si quis dix<lb ed="#S"/>erit 
+                <lb ed="#S"/>atque crediderit Filium dei Deum passum anach?ea[?] sit 
+                <lb ed="#S"/>cuius dicit causam ex qua intelligentia sumenda est aperiens 
+                <lb ed="#S"/>subdit, si quis dixerit quod impassione dolorem senserit[?] Filius 
+                <lb ed="#S"/>Dei Deus et non caro tantum cum anima quam sibi acceperat ana<lb ed="#S"/>thema 
+                <lb ed="#S"/>sit haec ubi supra.</p>
+                
+                <p xml:id="b1d8qun-ecqmhi">Et certe quod sermo quo fides 
+                <lb ed="#S"/>dicit Dei Filium passum et mortuum non est ita proprius, sicut est 
+                <lb ed="#S"/>verus, ideo sumendo ex una parte ad sermonis veritatem et ex alia 
+                <lb ed="#S"/>dici potest quod mortuus est Deus et non mortuus passus est Dei Filius 
+                <lb ed="#S"/>et non passus passa est secunda persona et non passa crucifixum est verbum et 
+                <lb ed="#S"/>non crucifixum secundum alteram naturam passus est secundum alteram im<lb ed="#S"/>passibilis, 
+                <lb ed="#S"/>quia secundum ambo[?] et ibi adducitur Dei X[?] Filius Christus et natus 
+                <lb ed="#S"/>ex virgine idem patiebatur et non patiebatur moriebatur et non 
+                <lb ed="#S"/>moriebatur sepeliebatur et non sepeliebatur resergebat[?] et non 
+                <lb ed="#S"/>resergebat resergebat secundum terranem[?], quia mortua fuerat non 
+                <lb ed="#S"/>secundum verbum, quia apud Deum semper manebit haec ibi.</p>
+                
+                <p xml:id="b1d8qun-miussc">Mortem, igitur 
+                <lb ed="#S"/>ut dicitur ibidem 22 c. 3 Dei Filius et in anima non per<lb ed="#S"/>tulit 
+                et inmaiestate[?] non sensit, sed tantum pertitudine[??] infinita[?]<lb ed="#S"/>tis 
+                rex gloriae crucifixus est haec ibi. Et ista sufficiant 
+                <lb ed="#S"/>de hoc punctio haec dixerum contra illos, qui unr[?] imaginari quasi Dei 
+                <lb ed="#S"/>Filius deveniter[?] unumque quod si esset homo et quod illud quod si de<lb ed="#S"/>poneretur 
+                esset homo devenerit Deus et secundum istam fantasiam[??] dicunt[?] consequenter 
+                <lb ed="#S"/>Deum humanatum eet compositum, etc., sicut de assumpta humanitate 
+                <lb ed="#S"/>quibus hoc concedit quod, scilicet, sit composita.</p>
+                </div>
+                
+            </div>
+            </div>   
+        </div>            
+    </div>
+    </div>        
+    </body>
+    </text>
+</TEI>
