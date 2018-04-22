@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Book 1, Distinctio 17, q. 1 [Mazarine Transcription]</title>
+                <author xml:id="AW">Adam Wodeham</author>
+                <editor xml:id="JW">Jeffrey C. Witt</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2011.06">
+                    <title>Book 1, Distinctio 17, q. 1 [Mazarine Transcription]</title>
+                    <date when="2011-06-26">June 26, 2011</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LombardPress</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref
+                            target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+                            Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2011-06-26">June 26, 2011</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="M">Mazarine</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
+        <body>
+            <div xml:id="b1-d17-q1">
+                <head>Book 1, Distinctio 17, q. 1 [Mazarine Transcription]</head>
+                <!-- starts on 51 of pdf -->
+                <div>
+                    <head>Quaestio</head>
+                <p><lb ed="#M"/><hi rend="fiveLineDropCap">C</hi> distinctionem 17 quaeram de caritate et primo de eius <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
+                    <lb ed="#M"/><choice><orig>2o</orig><reg>secundo</reg></choice> principaliter de eius augmentatione et diminutione de primo quaero 
+                    <lb ed="#M"/>primo utrum gratia seu caritas sit viatori 
+                    <lb ed="#M"/><choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem <g ref="#dot"/></p>
+                
+                <p>videtur quod non <g ref="#dot"/> quia rectitudo cariatatis 
+                    <lb ed="#M"/>videtur sufficere ad salutem <g ref="#dot"/> sed gratia seu ca<lb ed="#M"/>ritas 
+                    non est illa rectitudo nec pars istius rectitudinis quia secundum <name ref="#Anselmus">anselmus</name> 
+                    <lb ed="#M"/><quote>deus non potest voluntati auferre rectitudinem</quote> <g ref="#dot"/>licet caritatem potest quia hoc 
+                    <lb ed="#M"/>saepe facit de facto <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>praeterea observatio mandatorum dei suf<lb ed="#M"/>ficit 
+                    ad salutem quia <ref><title ref="#mt">mathaeus[?]</title> 19</ref> si vis ad vitam ingredi 
+                    <lb ed="#M"/>sicut <name ref="#Lombard">magister</name> et alibi hoc fac et vives se observare praecepta 
+                    <lb ed="#M"/>dei potest homo sine superaddita caritate quia dicit <name>Ieromus</name> in expla<lb ed="#M"/>natione 
+                    fidei execamur eorum blasphemias qui dicunt deum 
+                    <lb ed="#M"/>praecepisse aliquid impossibile vel enim potest quis implere quod sibi praecipitur 
+                    <lb ed="#M"/>sine tali superaddito et habetur intentum vel non potest et tunc non est 
+                    <lb ed="#M"/>peccatum non facere quia nullus peccat non faciendo quod non potest facere  
+                    <lb ed="#M"/>per bonum an?us[?] de duabus asabus[?]</p>
+                
+                <p><g ref="#pilcrow"/>Contra nullus potest esse salvus 
+                    <lb ed="#M"/>nisi fuerit carus et gratus seu acceptatus deo <g ref="#dot"/> sed nullus 
+                    <lb ed="#M"/>potest esse carus deo sine caritate sicut nec albus sine albedine et 
+                    <lb ed="#M"/>pari ratione nec gratus sine gratia <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>praeterea peccatum est malum morum 
+                    <lb ed="#M"/><corr><add place="inLine">in</add></corr> infinitum et non potest tolli per sola naturalia <g ref="#pilcrow"/><corr><add place="inLine">ergo</add></corr> aliquid 
+                    <lb ed="#M"/>requiritur illud voco gratiam</p>
+                
+                <p><g ref="#pilcrow"/>In hac quaestione et in omnibus aliis 
+                    <lb ed="#M"/>de ista materia suppono quod caritas infusa et gratia de qua 
+                    <lb ed="#M"/>quaeritur idem sunt <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>primo igitur ponam conclusiones aliquas et pro<lb ed="#M"/>babo 
+                    eas <g ref="#dot"/> <g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice> obiciam contra eas per dubia <choice><orig>alica</orig><reg>aliqua</reg></choice> et obiectio<lb ed="#M"/>nibus 
+                    respondebo <g ref="#dot"/></p>
+                </div>
+                <div type="articulus">
+                    <head>Primus articulus</head>
+                <p><g ref="#pilcrow"/><milestone ed="#M" unit="section" n="a"/>Circa primum articulum primo praemittam 
+                    <lb ed="#M"/>unam distinctionem de gratia seu caritate quod aliquando sumitur pro caritate creata 
+                    <lb ed="#M"/>seu gratia animam <choice><orig>in formante</orig><reg>informante</reg></choice> <g ref="#pilcrow"/>alio modo pro gratia seu caritate 
+                    <cb ed="#M" n="79vb"/><lb ed="#M"/>increata <corr><add place="aboveLine" hand="different">ad</add></corr> vitam aeternam animam acceptante[?] <g ref="#dot"/> <g ref="#pilcrow"/>de prima harum 
+                    <lb ed="#M"/>loquitur <title ref="#decretalis">decretalis</title> <g ref="#dot"/>7<g ref="#dot"/> ti[?] summa et fide catholica sub hiis verbis 
+                    <lb ed="#M"/>quia quantum ad effectum lapsi in parvulis reperiuntur doctores 
+                    <lb ed="#M"/>quidam theologi opiniones habuisse contrarias quibusdam ex ipsis di<lb ed="#M"/>centibus 
+                    per virtutem baptismum parvulis quod culpam remitti 
+                    <lb ed="#M"/>sed gratiam non infundi super <choice><orig>in formantem</orig><reg>informantem</reg></choice> seu creatam aliis 
+                    <lb ed="#M"/>assentientibus econtra quia et culpa omnis in baptismo remittitur 
+                    <lb ed="#M"/>ac virtutes et <choice><orig>in formans</orig><reg>informans</reg></choice> gratia <choice><orig>in funditur</orig><reg>infunditur</reg></choice> quoad habitum et 
+                    <lb ed="#M"/>si non pro illo tempore quo ad usum attendens generalem efficientiam 
+                    <lb ed="#M"/>mortis christi quae per baptismum applicatur omnibus pariter baptismatis op[?] 
+                    <lb ed="#M"/>quae dicit tam parvulis quam adultis conferri informantem gratiam et virtutis 
+                    <lb ed="#M"/>tamquam probarem et dictam sanctorum ac doctorum modernorum theologorum 
+                    <lb ed="#M"/>magis consonam et concordem sacro approbante consilio diximus 
+                    <lb ed="#M"/>eligendam</p>
+                
+                <p><g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice> modo loquitur <name ref="#John">Iohannes</name> in sua <title ref="#Iio">canonica</title> dicens quod deus cari<lb ed="#M"/>tas 
+                    est et ad istum sensum tenuit se <name ref="#Lombard">magister</name> in praesenti distinctione sicut 
+                    <lb ed="#M"/>satis patet in littera <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/><choice><orig>3o</orig><reg>tertio</reg></choice> praemitto distinctionem aliam de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> simpliciter 
+                    <lb ed="#M"/>scilicet dicta vel secundum quid scilicet dei potentiam absolutam videtur secundum legem sta<lb ed="#M"/>tutam 
+                    et quibus[?] suppositis sit conclusio prima haec <g ref="#dot"/> quod intendo conclusionem non 
+                    <lb ed="#M"/><choice><orig>cathegorice</orig><reg>categorice</reg></choice> quoniam[?] sic nullam habet veritatem quia salus non est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> igitur nec 
+                    <lb ed="#M"/>ad ea aliquid <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> <g ref="#dot"/>antecedens patet quia tamen de potentia absoluta quam ordinata 
+                    <lb ed="#M"/>potest quis salvari[?] sed intendo conclusionem <choice><orig>ypothetice</orig><reg>hypothetice</reg></choice> scilicet id est si debeat 
+                    <lb ed="#M"/>pertingi ad salutem utrum gratia ad hoc <choice><orig>neccessario</orig><reg>necessario</reg></choice> requiratur</p>
+                
+                <p><g ref="#pilcrow"/>dico primo quod 
+                    <lb ed="#M"/>sic loquendo de gratia increata quae est dei <choice><orig>acceptacio</orig><reg>acceptatio</reg></choice> et praeordinatio 
+                    <lb ed="#M"/>huius ad salutem cum enim beatitudo finalis quae hic vocatur salus 
+                    <lb ed="#M"/>ut suppono non possit sine dei acceptatione et praeordinatione et im<lb ed="#M"/>mediata 
+                    eius actione in <choice><orig>alico</orig><reg>aliquo</reg></choice> causari ipsa <choice><orig>neccessario</orig><reg>necessario</reg></choice> requiritur si salus seu 
+                    <lb ed="#M"/>finalis beatitudo ab <choice><orig>alico</orig><reg>aliquo</reg></choice> optinebitur</p>
+                
+                <p><g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice> dico quod gratia creata quae 
+                    <lb ed="#M"/>debeat animam informare non requiritur <choice><orig>neccessario</orig><reg>necessario</reg></choice> <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> absoluta si pertin<lb ed="#M"/>getur 
+                    ad salutem gratia inquam[?] distincta ab ipsa beatitudine et praevia sibi 
+                    <lb ed="#M"/>et hanc probo quia nuda substantia animae est finalis beatitudinis sufficiens re<lb ed="#M"/>ceptare[?] 
+                    et deus ipse est sufficiens ipsius productivum igitur hiis solis 
+                    <lb ed="#M"/>habitis poterit deus omni alio circumscripto inprimere animae beatitudinem a potentia 
+                    <lb ed="#M"/>absoluta igitur creata gratia non <choice><orig>neccessario</orig><reg>necessario</reg></choice> simpliciter ad hoc requiritur distincta 
+                    <lb ed="#M"/>ab ipsa beatitudine</p>
+                
+                <p><g ref="#pilcrow"/>3o dico quod grata creata non est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem 
+                    <lb ed="#M"/>secundum quid quia nulla gratia <g ref="#dot"/> nam huius universalis quaelibet singularis est verum</p>
+                
+                <p><g ref="#pilcrow"/><choice><orig>4o</orig><reg>quarto</reg></choice> 
+                    <lb ed="#M"/>et ultimo dico quod si quis salvari debeat secundum legem dei communem <g ref="#dot"/> secundum 
+                    <lb ed="#M"/>eandem legem <choice><orig>neccessario</orig><reg>necessario</reg></choice> ad hoc requiratur gratia causata quae <corr><add place="aboveLine">anima,</add></corr> informet 
+                    <lb ed="#M"/><g ref="#pilcrow"/>ad hoc arguo sic illud sine <corr>quo</corr> a moralibus recte vivi[?] non potest 
+                    <lb ed="#M"/><choice><orig>neccessario</orig><reg>necessario</reg></choice> sic loquendo requiritur ad salutem <g ref="#dot"/> sed sine hoc quod habeatur <corr><add place="marginRight">gratia</add></corr> 
+                    <lb ed="#M"/>sit sumpta non potest a <sic>mortalibus</sic> recte vivi <g ref="#dot"/> igitur maior patet de 
+                    <lb ed="#M"/>se minor est <ref><name ref="#Lombard">maigstri</name> <g ref="#dot"/> 2o <title>sententiarum</title> distinctione 28, capitulo 2</ref> et sumitur 
+                    <lb ed="#M"/>ab <ref><name ref="#Augustine">augustino</name> id est <title>retractio</title> capitulo 9</ref> ubi dicit sic <corr><del>non habeat pellagiam 
+                    <lb ed="#M"/>sic assentiunt[?] voluntatis arbitri</del> <add place="marginRight">novi haeretici pelagiani liberum sit assensunt[?] voluntatis arbitrii</add></corr> ut gratiae dei non relinquant locum 
+                    <lb ed="#M"/>et post multa sua dicta pelagius accepti[?] pro sua libertate 
+                    <lb ed="#M"/>voluntatis sine gratia dicit voluntas quippe est qua et peccatur et recte vivitur 
+                    <lb ed="#M"/>si ipsa nisi dei gratia liberetur a servitute qua facta est serva peccati ut 
+                    <lb ed="#M"/>vicia adiuvetur recte pieque vivi a moralibus non potest hoc in<lb ed="#M"/>telligo 
+                    de gratia <choice><orig>in formante</orig><reg>informante</reg></choice> secundum <title>decretalem</title> 7 praedictam et ipsa de<lb ed="#M"/>cretalis 
+                    sufficienter hoc probat <g ref="#dot"/></p>
+                
+                <p><g ref="#pilcrow"/>Istam similiter conclusionem suadeo sic quod scilicet praeter 
+                    <lb ed="#M"/>assistentiam scilicet c[?] <g ref="#dot"/> speciale quam nullus doctor catholicus negat sic 
+                    <lb ed="#M"/>ponere caritatem creatam a deo infundi de facto aeque bene sicut fidem 
+                    <lb ed="#M"/>vel spem vel iustitiam et sic de aliis virtutibus quia accidens caritatis 
+                    <lb ed="#M"/>vel dilectionis vel non minus reliquent habitum naturaliter causabilem cui 
+                    <lb ed="#M"/>correspondere possit habitus sive naturalis qui possit conprincipare tales actus 
+                    <lb ed="#M"/>quam actus fidei vel spei vel iustitiae vel alicuius virtutis <g ref="#dot"/> igitur nisi scriptura obvi<lb ed="#M"/>aret 
+                    vel evidens ratio quando deus non infunderet habitum supra correspondentem 
+                    <lb ed="#M"/>habitui caritatis acquisitae non plus debet hic negari quam quod deus fidem 
+                    <lb ed="#M"/>spem et iustitiam supernatuales naturaliter acquisitis <g ref="#dot"/> sed quod ratio non 
+                    <lb ed="#M"/>obviet planum est <choice><orig>ymo</orig><reg>immo</reg></choice> magis videtur rationale quod det deus 
+                    <lb ed="#M"/>quod suum est in peccatoribus quam malus caritas aut acquisita excel<lb ed="#M"/>lit 
+                    quantumque alium habitum acquisitum ceteris paribus rationalius 
+                    <lb ed="#M"/>igitur videtur quod deus debeat dare habitum supernaturalem sicut in aliis</p> 
+                
+                <p><g ref="#pilcrow"/>auctoritas autem non obviat nisi <name ref="#Lombard">magistri</name> qui in hoc non tenetur nec
+                    <cb ed="#M" n="80ra"></cb>communiter <choice><orig>ymo</orig><reg>immo</reg></choice> iam ut praedictum est aliquid oppositum non 
+                    obviat auctoritas ecclesiae quin ponatur</p>
+                
+                <p><g ref="#pilcrow"/>Nec obstat quod multae 
+                    auctoritates sanctorum sicut allegat <name>magister</name> in ista distinctio dicunt plane 
+                    quod spiritus sanctus est caritas formaliter supp[?] qua formaliter scilicet diligius deum 
+                    et proximum ille enim verum dicunt eo quod efficit actum diligendi 
+                    particulariter et specialiter quo diligius deum <g ref="#slash"/>proximum et sine cuius spirituali 
+                    acceptatione libera nullus habitus in mundo sufficieret ut meritorie 
+                    diligeremus deum et processum sed hoc non impedit quin praeter caritatem 
+                    increatam nobis collcam incomprincium[?] actionum[?] nostrarum conferatur 
+                    nobis caritas creata tamquam aliud comprincipium locus enim ab 
+                    auctoritate non tenet negative</p>
+                
+                <p><g ref="#pilcrow"/>Igitur cum nec ratio nec auctoritas doceat 
+                    oppositum rationale igitur est quod ponatur gratia informans animam <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+                    fides vel spes praeter fidem vel spem acquisitam ponitur donum supernaturalem 
+                    informans animam</p>
+                
+                <p><g ref="#pilcrow"/>Si quis autem salvare velit f?dam 
+                    <name>magistri</name> negantis habitum caritatis creatum licet non <del>con</del>parat[?] eum glossare quia 
+                    auctoritas ecce quae mairo 3 sua tenet contrarium nec credo quod 
+                    illud dixisset si suam op[?] determinata ecclesiae praecessisset ponenes 
+                    in anima grataim informantem potest dicere quod <name>magister</name> loquitur de caritate 
+                    illa sine qua nulus potest esse carus et acceptus deo ad vitam 
+                    aeternam de quacumque potentia et sine qua etiam de potentia absoluta dei 
+                    <del rend="expunctuated">talis potest</del> nullus potest opus a deo meritorium facere nec deum aut 
+                    proximum imi?c?ae[?] diligere ilal inquam caritas secundum vericatio[?] 
+                    est sola gratuita dei voluntas liberiime acceptans animae 
+                    tamquam dignum vita aeterna et ideo per applicationem caritas ita 
+                    est spiritus sanctus sit acceptans non proprie quia secundum veritatem ita acceptat 
+                    pater et filius sicut spiritus sanctus sed no?ia[?] omnia sonantem[?] <del rend="expunctated">in</del>tale 
+                    initiam liber<g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/>erabi</add>tatem et bonitatem quae indifferenter conveniunt tribus per 
+                    sonis appropiantur spiritus sancto <choice><orig>sicud</orig><reg>sicut</reg></choice> et quaedam alia personae patris et quaedam alia 
+                    filio et tunc <g ref="#slash"/>hoc no?n[?] caritas principaliter stabit pro sto spiritum 
+                    sic acceptate sed istum esset carum consignificabit istum habitarum 
+                    vitam aeternam nisi de novo ponat obicem respectu gn[?] enim est 
+                    et contradictio quod spiritus sanctus libere disponat dare isti vitam aeternam 
+                    nisi ille ponat obicem quod est velle sibi dare vitam aeternam 
+                    sed statum praesentem id est si perserveret in tali statu quin ille sic acceptus 
+                    deo et carus ad vitam aeternam secundum iustitiam praesentem 
+                    sed hoc potest deus disponere absque omni forma supernaturali acc[?]tis 
+                    perficitate ipsum sicut patet ex <choice><orig>4a</orig><reg>quarta</reg></choice> conclusione[?] et eius probatione et inferius 
+                    plus patebit igitur</p>
+                
+                <p><g ref="#pilcrow"/>Item etiam repugnantia est et contradicto quod aliquis 
+                    sit carus et acceptus deo ad vitam aeternam secundum iustitiam praesentem 
+                    nisi deus disponat sibi conferre vitam aeternam si non ponat 
+                    obicem ut patet ex descriptione cari et accepti sed nulla est 
+                    fce[?] possibils naturalis neque supernaturalis[?] citra beatitudinem quin ea postea 
+                    in anima deus possit non disponere illi vitam aeternam quantumcumque 
+                    non ponat abicem ut declarabitur sequenti proxima conclusione 
+                    igitur nulla est forma possibilis naturalis aut supernatualis citra beatitudinam quin 
+                    illa posita[?] in anima iste possit non esse carus et acceptus 
+                    deo ad vitam aeternam patet igitur quod si opinio <name>magistri</name> 
+                    procedat[?] tantum de ista caritate qua si communis sic carus est 
+                    eo ipso dignus vita aeterna et sine qua nullus possit etiam 
+                    de omnipotentia dei acceptari ad vitam aeternam quod ita 
+                    nulla creatura est sed tantum divina acceptatio <g ref="#carrot"/><add place="belowLine">quae</add> appropriate est 
+                    spiritu sancto[?] et licet proprie et communiter etiam sic tota trinitas tunc est sua opinio 
+                    verissima sed praeter illam caritatem increatam dat deus caritatem creatam 
+                    sine qua etiam de facto primum acceptat nec ut c?dr[?] accepabit[?] sed 
+                    absolute sine ea posset et ea etiam posita posset non acceptate habentem 
+                    de sua potentia absoluta ad vitam aeternam illam beatificam de qua prius[?]</p>
+                </div>
+                <div type="articulus">
+                    <head>Secunds articulus</head>
+                <div type="dubium">
+                    <head>Primum dubium</head>
+                <p><g ref="#pilcrow"/>Sed contra praedictas conclusiones sunt dubia non pauca Et primum dubium 
+                    sit illud quod in primo argumento principali de rectitudinem voluntatis cui respondeo 
+                    quod neganda est maior si intelligatur de rectitudine naturali quia 
+                    secundum scriptura deus creavit hominem rectum et tamen secundum <name>magistrum</name> licet homo 
+                    angelus ex puris naturalibus stare potuerit non tamen proficeret ut 
+                    patet de angelis distinctione 3 2i et de homine distinctione 24 eiusdem secundi et 
+                    per consequens rectitudo naturalis non sufficiebat <g ref="#carrot"/><add place="marginRight" hand="different"><g ref="#carrot"/>sibi</add> 
+                    sive ad merendum vitam aeternam rectitudo tamen gratuita bene 
+                    sufficit sed illa includit gratiam et cum probatur quod non quia secundum <name>anselm</name> 
+                    rectitudinem illam non posset deus auferre <sic>voluntati</sic> <g ref="#dot"/>dicendum quod ita 
+                    dicit ibi <name>anselmus</name> in d[?] liber arbitrio <g ref="#dot"/>c <g ref="#dot"/>8 <g ref="#dot"/> ubi probat quod deus non potest 
+                    auferre rectitudinem voluntatis quia secundum eundem ibidem voluntatem esse rectam non 
+                    est nisi eam velle illud quod deus vult eam velle sed hanc rectitudinem non 
+                    potest deus <del rend="expunctuated">inferre</del> auferre quia si sic aut igitur volens aut nolens 
+                    non nolens certum est nec volens quia tunc deus posset 
+                    velle voluntatem non velle illud quod vult eam velle ponatur 
+                    igitur in esse et tunc implicantur contradictoria scilicet quod deus vult voluntatem non 
+                    velle <del rend="strikethrough">illa</del> illud quod vult eam velle consequens est impossibile igitur illud 
+                    ex quo sequitur scilicet quod deus possit auferre rectitudem voluntatis</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed contra 
+                        istam f?am[?] econtra potest arguitur quia nihil absolutum est in voluntate libere 
+                        vel a sem?[?] ipsa causabile vel a deo quin deus possit illud ibere destruere 
+                        <hi rend="underline">nego tri quia non decet en</hi> conservata vo?ce[?] igitur omne 
+                        velle et omne aliud potest sibi deus auferre igitur et rectitudinem si a prima rectitudo 
+                        sit aliquid receptum in voluntate quia etiam totum mundum potest destruere <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>Ad istud concedendum est quod <choice><orig>nichil</orig><reg>nihil</reg></choice> absolutum nec velle aliquod potest 
+                        voluntas creata libere inse producere quin deus possit idem libere destruere 
+                        et tamen probatur quod non per <name>anselmum</name></p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod deus volens posset 
+                        secundum potentiam suam absolutam illam rectitudinem auferre etad probationem contrarii 
+                        concedo de virtute sermonis loquendo quod deus potest velle 
+                        voluntatem non velle illud quod vult eam velle saltem in 
+                        sensu <g ref="#dot"/><c>d</c><g ref="#dot"/> communicat[?] in talibus assignato quia sic quod modo velit eam 
+                        velle a esse tamen potest cras velle eam in velle a esse</p>
+                    
+                    <p><g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice> 
+                        dico quod non solum hic de possibile vera est <choice><orig>ymmo</orig><reg>immo</reg></choice> et haec de in esse est 
+                        possibilis deus vult voluntatem non velle illud quod vult eam velle 
+                        quia sequitur deus vult voluntatem nihil velle igitur deus vult voluntatem 
+                        non velle aliquid in mundo et ita non illud quod vult eam velle 
+                        nec aliud antecedens est possibile igitur consequens</p>
+                    
+                    <p><g ref="#pilcrow"/>Praeterea non minor contradictio videtur 
+                        hic claudi deus non vult voluntatem velle quod vult voluntatem velle 
+                        quae est etiam propositio quam ultimate infert <name>anselmus</name> non autem prior 
+                        tamquam impossibilem quam in prior de in esse quia hic directe in p??e[?] 
+                        parte propositionis verbum principale negatur et in serva affirmatur non sic 
+                        ex alia parte sed verbum <sic>servarium</sic> sed hoc <choice><orig>2a</orig><reg>secunda</reg></choice> est possibilis igitur multo 
+                        fortius prima probo minoris quia ponatur quod voluntas <choice><orig>nichil</orig><reg>nihil</reg></choice> velit 
+                        hoc posito affirmativa contra contradicit assumptae naturae falsa eset igitur 
+                        negativa vera</p>
+                    
+                    <p><g ref="#pilcrow"/>Si directas quod licet non velit eam minus aliquid velle 
+                        cum haec tamen stat quod velit eam aliquid velle pro futuro et tunc affirmativa 
+                        verba[?] eset et per consequens negativa sibi contradicens praeassumpta falsa erit</p>
+                    
+                    <p><g ref="#pilcrow"/>contra 
+                        aliqua est voluntas possibilis produci contra d[?] nuq?na[?] producet vocetur 
+                        illa <c>a</c><g ref="#dot"/> hic tunc affirmativa falsa est deus vult a velle quod vult 
+                        a velle quia est affirmativa et implicat falsum igitur eius contradictoria 
+                        vera non vult a velle quod vult <c>a</c> <g ref="#dot"/> velle ibi tanta appp?[?] 
+                        claudi contradictio <choice><orig>sicud</orig><reg>sicut</reg></choice> in prima</p>
+                    
+                    <p><g ref="#pilcrow"/>prima de voluntate quam deus vult 
+                        aliquid velle infuturum sed non modo formetur propositio sit haec affirmativa 
+                        deus vult hanc voluntatem nunc velle falsa est quia nihil vult eam 
+                        velle igitur eius contradictoria vera quod est propositum patet igitur quod propter contradictionem 
+                        in propostionem ad quam d[?]outic <name>anselmus</name> in contra secundum veritatem 
+                        nulla contradictio includitur licet appareat includi non or<g ref="#dot"/> negare quin 
+                        deus etiam istam recitudinem de qua est sermo auferre valeat a 
+                        voluntate et si ponatur in esse nulla includitur contradictio quia licet bene sequatur 
+                        deus aufert <c>a</c><g ref="#dot"/> igitur vult auferre <c>a</c><g ref="dot"/> sic <c>a</c><g ref="#dot"/> in voluntate velle illud 
+                        quod deus vult eam velle tamen non sequitur aufert <c>a</c><g ref="#dot"/> igitur <c>a</c><g ref="#dot"/> est sed potius 
+                        sequitur igitur <c>a</c> non est cuius oppositum or[?]<g ref="#dot"/> <name>anselmus</name><g ref="#dot"/> supponere si ad contractionem 
+                        deducere debeat argumenum suum <g ref="#dot"/> Generaliter enim quando deus destruit 
+                        aliquid vel adnihilat tunc ipsum non est et ideo videretur prima facie quod ratio <name>anselmi</name> 
+                        nullius momenti est in hoc casu</p>
+            
+            <p><g ref="#pilcrow"/>pro reverentia tamen auctoritatis 
+                suae dicendum quod forte pro quasi eodem habuit <name>anselmus</name> hanc deus non vult 
+                vo?tom[?] vello?va[?]</p>
+                    
+                    <p><g ref="#pilcrow"/>et certea secunda claudit contradictoria et ?ac[?] <add place="marginLeft" hand="different">quod vult eam velle quae satis positio est ut ostendi</add> Et istam deus non 
+                        vult vo?tom[?] velle et vult eam velle vel istam deus vult voluntatem nolle 
+                        quod vult eam velle et certe secunda claudit contradicta et non sunt pro eadem 
+                    habendae nec <choice><orig>2a</orig><reg>secunda</reg></choice> sequitur ex positione in esse quod deus auferat 
+                        rectitudinem voluntatis</p>
+                    
+                    <p><g ref="#pilcrow"/>Aliter potest dici quod deus de potentia sua ordintata 
+                        id est secundum leges misericordiae suae nunc currentes non potest auferre 
+                        rectitudinem bonitatis sine eius demerito quam diu autem voluntas persistit in 
+                        hoc quod vult illud et non aliud nisi quod deus vult eam velle ipsa non 
+                        demeretur igitur nec tam diu poterit rectitudo auferri sibi a deo 
+                        et ita haec rectitudo sibi a deo numquam poterit si[?] auferri sed ipsamet 
+                        cessare potest ab ipsa rectitudine non volendo[?] illud quod deus vult eam 
+                        velle secundum praecepta sua et tunc potest sibi deus secundum legem communem 
+                        auferre caritatem et rectitudinem habitualem et cetera dona sua <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+                        sibi placebit</p>
+                    
+                    <p><g ref="#pilcrow"/>ubi aliter potest dici glossando <name>anselmus</name> <choice><orig>sicud</orig><reg>sicut</reg></choice> ipse se 
+                        glossat in libello posterius edito scilicet in <title>de concordia</title> et praecise et praed[?] 
+                        et gratiae cum <title>libero arbitrio</title> capitulo 6 ubi postquam descripsit libertatem 
+                        voluntatis quod est pcans[?] servandi rectitudinem voluntatis propter ipsam rectitudinem 
+                        et quod haec liber<del rend="expunctuated">ali</del>tas naturaliter et inseperabiliter sic in homine quamvis ea non 
+                        semper utatur addit quod ipsa ita foetis est ut nulla res homini rectitudinem 
+                        praedictam id est iustitiam quam habet valeat quam diu ha<del>e<desc>this looks like a correction from "habeat" to "hac"</desc></del>c 
+                        libertatem <del rend="expunctuated">qua</del> voluerit uti auferre <g ref="#dot"/> iustitia namque 
+                        
+                        <cb ed="#M" n="80v"/><lb ed="#M"/>non est naturalis sed fuit separabilis et in principio causais et hominibus 
+                    <lb ed="#M"/>et est adhuc in hanc vita notatur cum neccessitate sed habencium 
+                    <lb ed="#M"/>ista propriam voluntatem secundum quam iustitiam qua res est aliquis constat 
+                    <lb ed="#M"/>esse rectitudinem voluntatis quam dixi quae rectitudo tamen tunc est in <choice><orig>alico</orig><reg>aliquo</reg></choice> cum[?] 
+                    <lb ed="#M"/>ipse vult quod deus vult eam velle patet quia des non potest 
+                    <lb ed="#M"/>eam rectitudinem invido[?] aufferre quin[?] non potest hoc velle <g ref="#dot"/> sed 
+                    <lb ed="#M"/>neque nullam velle potest ut eam habens volens ulla <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> de<lb ed="#M"/>serat 
+                    <g ref="#dot"/> haec istae <g ref="#dot"/></p>
+                        
+                    <p><g ref="#pilcrow"/>hic patet quod deus non potest rectitudinem bonitatis 
+                        <lb ed="#M"/>auferre invito vel volenti et hoc est verum <g ref="#pilcrow"/>Ex hac 
+                        <lb ed="#M"/>autem auctoritate patet responsio <choice><orig>2a</orig><reg>secunda</reg></choice> supposita quia dicta quin[?] deus 
+                        <lb ed="#M"/>non potest eam <choice><orig>aufferre</orig><reg>auferre</reg></choice> hoc non est verum ut prima responsione probatum 
+                        <lb ed="#M"/>est de potentia dei absoluta <g ref="#dot"/>igitur totum dictum suum intelligendum videtur 
+                        <lb ed="#M"/>de potentia ordinata</p>
+                    
+                    <p><g ref="#pilcrow"/>contra istud dupliciter argui potest primo quia volente rec<lb ed="#M"/>te 
+                        cuilibet reddere quod suum est et habente et actum reflexum 
+                        <lb ed="#M"/>quo approbet et velit omnino actum priorem rectum tenere 
+                        <lb ed="#M"/>potest deus actum priorem tollere posteriorem conservando et tunc 
+                        <lb ed="#M"/>nolente voluntate sive dum voluntas sua libertate uti voluerit 
+                        <lb ed="#M"/>auferretur sibi sua rectitudo contra iam recitata ab <name ref="#Anselm">anselmo</name></p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea 
+                        <lb ed="#M"/>quod rectitudo gratuita non includit gratiam videtur quia omnis iustitia 
+                        <lb ed="#M"/>est rectitudo voluntatis propter se servata et omnis habens hanc rectitudinem 
+                        <lb ed="#M"/>est iustus quoniam habens iustitiam est iustus secundum <name ref="#Anselm">anselmus</name> <g ref="#dot"/> ubi prius 
+                        <lb ed="#M"/>capitula 14 idem et sunt iustitia et rectitudo et iustus et rectus 
+                        <lb ed="#M"/>tunc sic omnibus habentibus gratiam promissa est vita aeterna 
+                        <lb ed="#M"/>sed illis tantum qui sunt iusti sine omni iustitia illi enim proprie et absolute 
+                        <lb ed="#M"/>dicuntur iusti et recti corde est enim aliquis secundum aliquid iustus 
+                        <lb ed="#M"/>et secundum aliquid in iustus ut qui castus est et invidus talibus 
+                        <lb ed="#M"/>non per transitur beatitudo iustorum quoniam sicut vera beatitudo est sine omni in<lb ed="#M"/>digentia 
+                        ita nulli dicitur nisi iusto sine omni iniustitia</p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea 
+                        <lb ed="#M"/>si rectitudo voluntatis gratuita includit gratiam gratificantem 
+                        <lb ed="#M"/>cum rectitudo talis stare velit cum peccato mortali igitur gratia 
+                        <lb ed="#M"/>stare non valeat cui[?] peccato mortali conclusio falsa et minor vera 
+                        <lb ed="#M"/>maior igitur falsa est veritas minor patet quia secundum <name ref="#Anselm">anselmum</name> <g ref="#dot"/>capitula <g ref="#dot"/>13<g ref="#dot"/> 
+                        <lb ed="#M"/>voluntas nullam potest velle rectitudinem si non habet rectitudinem qua illam 
+                        <lb ed="#M"/>velit et capitula 21 dicit quod voluntas iusititiae est ipsa iustitia <g ref="#dot"/> sed certe 
+                        <lb ed="#M"/>cum hoc quod voluntas velit rectitudinem et iustitiam stat quod ipsa 
+                        <lb ed="#M"/>sit in peccato mortali <g ref="#dot"/> quia unus qui ignoret cui deus esset 
+                        <lb ed="#M"/>trinus et unus et qui crederet fornicarium concubitis 
+                        <lb ed="#M"/>ita licere sint matrimonialem et ideo concubinatum sine omni re<lb ed="#M"/>morsu 
+                        frequentaret ita posset deum diligere supra omnia et velle 
+                        <lb ed="#M"/>rectitudinem et esse promptus voluntate licet non scientia ad benefaciendum 
+                        <lb ed="#M"/><choice><orig>sicud</orig><reg>sicut</reg></choice> et nos <g ref="#dot"/> nam et nos modo quaedam volumus sine omni murmure 
+                        <lb ed="#M"/>conscientiae quae mala esse non aestimamus et tamen ista volendo deum 
+                        <lb ed="#M"/>offendimus forte et peccamus saltem ita potest esse ut 
+                        <lb ed="#M"/>saepe contingit iuxta illud <name ref="#Paul">apostoli</name> nihil mihi conscimus sine sed non in hoc iustificatus 
+                        <lb ed="#M"/>sine igitur cum rectitudine voluntatis potest stare peccatum mortale <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum 
+                        forte quod maior falsa est nisi de perfecta rectitudine quae est sine omni 
+                        <lb ed="#M"/>iustitia iuxta distinctionem <name ref="#Anselm">anselmi</name> <g ref="#dot"/> positam improbatione minoris praecedentis 
+                        <lb ed="#M"/>rationis proxime <g ref="#dot"/></p>
+                    
+                       <p><g ref="#pilcrow"/>Sed contra hoc est processus <name ref="#Anselm">anselmi</name> postquam 
+                           <lb ed="#M"/>enim promisit in fine capituli 12 quod non vult loqui de alia gratia 
+                           <lb ed="#M"/>quam de ista sine qua nullus homo salvatur et post capitulum <g ref="#dot"/>13<g ref="#dot"/> diffinivisset 
+                           <lb ed="#M"/>iustitiam quod ipsa est rectitudo voluntatis propter se servatam dicit 
+                           <lb ed="#M"/>si igitur possumus ostendere nullam creatam hanc adipisci posse 
+                           <lb ed="#M"/>per rectitudinem nisi per gratiam manifesta erit inter gratiam et liberum 
+                           <lb ed="#M"/>arbitrium ad salvandum hominem concordia quam quaerimus</p> 
+                            
+                            <!-- add paragraph here in sorb -->
+                           <p><g ref="#pilcrow"/>acceptum autem 
+                           <lb ed="#M"/>consequenter ostendi sic <g ref="#dot"/> voluntas non vult <sic>ratione</sic> quia recta est nam sicut visus 
+                           <lb ed="#M"/>non est acutus quoniam videt acute <g ref="#dot"/> Sed illud circo videt acute 
+                           <lb ed="#M"/>quia est acutus <g ref="#dot"/> Ita voluntas non est recta quia vult recte sed econtra 
+                           <lb ed="#M"/>cum aut vult hanc rectitudinem nisi quia recta est <g ref="#dot"/> illud aut voluntati rectam 
+                           <lb ed="#M"/>c?[?] et rectitudine habere palam igitur quia non vult rectitudinem nisi quia rec<lb ed="#M"/>titudinem 
+                           habet licet enim posset velle rectitudinem quam mundum habet 
+                           <lb ed="#M"/>ut cum vult maiorem habere quam habet dico tamen inquit nullam eam 
+                           <lb ed="#M"/>posset velle rectitudinem sed non habet rectitudinem qua illam velit hanc 
+                           <lb ed="#M"/>aut rectitudinem non habens a se habere nequit quia aut volendo aut 
+                           <lb ed="#M"/>non volendo quippe nullus valet eam posse per se adipisci <g ref="#dot"/> quia 
+                           <cb ed="#M" n="80vb"/><lb ed="#M"/>nequit illam velle nisi illam habeat nec nolendo seu non 
+                           <lb ed="#M"/>volendo hoc enim nullius mens accipit[?] igitur non potest eam creatura 
+                           <lb ed="#M"/>habere a se sed nec aliqua creatura <g ref="#dot"/> quia sicut creatura nequit creaturam 
+                           <lb ed="#M"/>salvare ita non potest ea dare per quam debeat salvari 
+                           <lb ed="#M"/>sequitur igitur quod creatura nullam rectitudinem habet quam dixi voluntatem 
+                           <lb ed="#M"/>nisi per dei gratiam <g ref="#dot"/> deo igitur largitate invenimus gratiam eius 
+                           <lb ed="#M"/>ad salvandum hominem cum hoc arguo agente sicut sit in in<lb ed="#M"/>fantibus 
+                           et intelligentibus ipsa sit semper adiuvat liberum 
+                           <lb ed="#M"/>arbitrium <g ref="#dot"/> Iste processus plane habet quod omnis rectitudo voluntatis includit 
+                           <lb ed="#M"/>vel requirit gratiam iam descriptam nam da quod non probatur 
+                           <lb ed="#M"/>quin volendo possit communis rectitudinem adipisci a se nam hoc 
+                           <lb ed="#M"/>non improbatur nisi per hoc quod nullus potest eam velle nisi illam habeant</p>
+                    
+                    <p><lb ed="#M"/><g ref="#pilcrow"/>ad primum istorum concedendum est quod actum rectum de quo arguitur 
+                        <lb ed="#M"/>posset deus tollere conservando reflexum <g ref="#dot"/> Sed iste esset rectitudo 
+                        <lb ed="#M"/>ut actus rectus voluntas quiddam iustitia est ipsa iustitia ex 
+                        <lb ed="#M"/>capitulo <g ref="#dot"/> 21 <g ref="#dot"/> et nullam potest quis rectitudinem velle si non habet rectitudinem 
+                        <lb ed="#M"/>capitula <g ref="#dot"/> 13 <g ref="#dot"/> quamvis igitur voluntate in vita possit sibi de potentia dei absoluta 
+                        <lb ed="#M"/>auferri actus aliquis rectus seu rectitudo alia non tamen omnis quia ipsa 
+                        <lb ed="#M"/>voluntas habendi quod sibi aufertur ceteris paribus sibi pro iustitia 
+                        <lb ed="#M"/>et rectitudine imputatur <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>ad <g ref="#dot"/> <choice><orig>2m</orig><reg>secundum</reg></choice> concedo quod omnis iustitia 
+                        <lb ed="#M"/>seu rectitudo simpliciter et non secundum quid sicut <name ref="#Anselm">anselmus</name> distinguit capitulo <g ref="#dot"/>14<g ref="#dot"/> 
+                        <lb ed="#M"/>includit vel requirit gratiam gratuitam minor autem dicens 
+                        <lb ed="#M"/>quod non omnibus iustis promissa est vita aeterna vera non est de 
+                        <lb ed="#M"/>iustis illis qui absolute et proprie ibi dicuntur secundum eum recti et iusti 
+                        <lb ed="#M"/>corde sed tantum de illis qui secundum quid sunt iusti et secundum quid 
+                        <lb ed="#M"/>iniusti quales ibidem describit et certe tunc ultra omnem dicere quod 
+                        <lb ed="#M"/>ipsa diffinitio iustitiae quod ipsa est rectitudo voluntatis propter se ser<lb ed="#M"/>vata 
+                        ideo non convenit omni iustitiae cuius oppositum plane dicit 
+                        <lb ed="#M"/>vel oportet dicere quod non omnis habens talem rectitudinem habet eam per gratiam 
+                        <lb ed="#M"/>sine qua non est salus et qua sola in infantibus sufficit ad salutem 
+                        <lb ed="#M"/>cuius oppositum continet processus ut videtur in <choice><orig>3o</orig><reg>tertio</reg></choice> argumento ibi positus 
+                        <lb ed="#M"/>et ita <name ref="#Anselm">anselmus</name> videtur sibi ipsi contradicere sive istud solvi habet 
+                        <lb ed="#M"/>sicut argumentum <choice><orig>3m</orig><reg>tertium</reg></choice></p>
+                    
+                    <p><g ref="#pilcrow"/>ad 3m igitur dicendum quod si non ponatur ob igno<lb ed="#M"/>rantiae 
+                        voluntarie <choice><orig>alico</orig><reg>aliquo</reg></choice> modo oppositae scientiae ad salutem <choice><orig>neccessariae</orig><reg>necessariae</reg></choice> 
+                        <lb ed="#M"/>rectitudo voluntatis propter se secundum nata non stat cum peccato mortali 
+                        <lb ed="#M"/>nec sine gratia gratuita de lege dei communi sed si ponatur ob 
+                        <lb ed="#M"/>ignorantiae disponis praecise contrariae tali scientiae et hoc invincibilis 
+                        <lb ed="#M"/>et in tali casu non est intelligendus processus <name ref="#Anselm">anselmi</name> <g ref="#dot"/> posita enim causa 
+                        <lb ed="#M"/>sufficiente ponitur effectus si igitur propter hoc servo iustitiam aliquam 
+                        <lb ed="#M"/>vel rectitudinem ut pote castitatem vel caritatem quia hoc est rectum si sci<lb ed="#M"/>vero 
+                        rectum esse quod non furer vel non occidam neuter fa<lb ed="#M"/>ciam 
+                        et sic de similibus mortalibus peccatis iustitiae absolute 
+                        <lb ed="#M"/>dicere et rectitudine contrariis <g ref="#dot"/> <g ref="#pilcrow"/>Contra non omnibus iustis nec per quoddam 
+                        <lb ed="#M"/>omnibus rectis promissa est vita aeterna secundum <name ref="#Anselm">anselmum</name> ut pote 
+                        <lb ed="#M"/><corr rend="expunctuated"><del>secundum <name>anselmum</name></del></corr> non illi qui castus est et sic secundum aliquid iniustus et hoc 
+                        <lb ed="#M"/>simul cum hoc invidus est et per consequens secundum aliquid iniustus et haec 
+                        <lb ed="#M"/>saepe similis invenimus[?] instituto causa incontinentiam quam invidam 
+                        <lb ed="#M"/>malam esse et iniustitiam <g ref="#pilcrow"/>Praeterea castitas stans cum 
+                        <lb ed="#M"/>invidia est quaedam iustitia ut patet in exemplo <name ref="#Anselm">anselmi</name> et per consequens 
+                        <lb ed="#M"/>ipsa est rectitudo voluntatis propter se servata secundum cum secundum <name ref="#Anselm">anselmum</name> omnis iustitia 
+                        <lb ed="#M"/>rectitudo igitur non omnis talis rectitudo et remoto obice illici<lb ed="#M"/>te 
+                        ignorantiae habet secum gratiam gratificantem</p>
+                    
+                    <p><g ref="#pilcrow"/>Ad primum istorum 
+                        <lb ed="#M"/>dicendum quod rectis omnibus simpliciter promissa est <g ref="#dot"/> rectitudo autem simpliciter 
+                        <lb ed="#M"/>non plus ponit <choice><orig>neccessario</orig><reg>necessario</reg></choice> quod sit in plena potestate naturali sit recti nisi quod 
+                        <lb ed="#M"/>sit propter se servata id est quod est iustitia et rectitudo et quod non 
+                        <lb ed="#M"/>lateat uniter[?] habentem <choice><orig>alica</orig><reg>aliqua</reg></choice> rectitudo ad salutem et dico quod 
+                        <lb ed="#M"/>licet castus qui simul similiter est invidus velit vel velle possit 
+                        <lb ed="#M"/>talis existens rectitudinem aliquam ut cum invidia propter rectitudinem id est 
+                        <lb ed="#M"/>quia rectum est tunc enim nullo sensu esset similiter et voluntarie invi<lb ed="#M"/>dens 
+                        et certe velle castitatem non quia est sed quia rectitudo est nec 
+                        <lb ed="#M"/>tale velle est absolute et proprie rectitudo sed secundum quid unde si 
+                        <lb ed="#M"/>ly omnis cum dicitur omni iustitiam esse rectitudinem secundum se servatam 
+                        <lb ed="#M"/>distribuit pro iustitia secundum quid dicam sicut processus <name ref="#Anselm">anselmi</name> ibi 
+                        <lb ed="#M"/>innuit tunc li propter se reciproce refert istam iustitiam de qua 
+                        <cb ed="#M" n="81ra"/><lb ed="#M"/>fiet sermo et illam rectitudinem utpote quod castitas est rectitudo voluntatis propter se id est propter castitatem servatam et tunc patet quomodo dicta <name>anselmi</name> sibi invicem non repungnant haec omnia quae dixi de velle rectitudinis dicta intellige de velle sufficienti quo ita eligitur rectitudo quia respondeo est haec est quia deus vult et rationale est omnino quod sic fiat sit scilicet quod per nullo citra deum reminueretur[?]</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed contra primam responsionem qua dictum est <name>anselmum</name> ibi capere negativam 
+                        non intendit in adu?tenter[?] hanc negativam esset impossibilem 
+                        <add>vera[?]</add> propter se reciproce refert istam iustitiam de qua fiet sermo et illam 
+                        rectitudinem utpote quod castitas est rectitudo voluntatis propter se id est propter cati<del rend="expunctuated">i</del>tatem 
+                        servata et tunc patet quomodo dicta <name>anselmi</name> sibi invicem non repungnant 
+                        haec omnia quae dixi de velle rectitudinis dicta intellige 
+                        de velle sufficienti quo ita eligitur rectitudo quia rectitudo 
+                        est hoc eset quia deus vult et rationale est omnino quod sic fiat sic 
+                        <hi rend="underline">scilicet quod pro nullo citra dictat<desc>possible additin in the margin</desc></hi> deus non vult me velle quod vult 
+                        me velle quia haec est probata sufficienter <g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>esse</add> possibilis sed intendit hanc affirmativam 
+                        esse impossibilem deus quod vult voluntatem velle non vult voluntatem velle 
+                        licet in advertenter[?] <g ref="#carrot"/><add place="marginRight">ipsam exprimat et non istam</add></p>
+                    
+                    <p><g ref="#pilcrow"/>Contra inquam hic argui potest quia si haec deus vult 
+                        <del rend="expunctuated">non</del> voluntatem velle quod non vult eam velle est impossibilis etiam secundum 
+                        dei potentiam absolutam igitur et antecedens ex quo infertur scilicet quod deus auferat 
+                    a voluntate rectitudinem est impossibile contra dicta in responsione vel contra 
+                        sua non valet quia ex possibili non potest <name>anselmus</name> inferre impossibile</p> 
+                    
+                    <p><g ref="#pilcrow"/>praeterea in 
+                        principio c 8 de libro arbitrio dicit quod totam subiectam quam deus de 
+                        nihilo facit potest redigere in <choice><orig>nichilum</orig><reg>nihilum</reg></choice> a voluntate vere habente rectitudinem 
+                        non valet eam separare</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed prima pars istius dicti non 
+                        potest intelligi de potentia dei ordinata quia tunc esset falsum igitur in eadem 
+                        auctoritate aequivocat de dei potentia quod non videtur verisimile vel 2am partem 
+                    intelligit etiam de potentia dei absoluta et tunc non solum non potest 
+                        auferre voluntati suam rectitudinem de potentia sua ordinata <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+                        dicit 2a responsio sed nec de potentia absoluta</p>
+                    
+                    <p><g ref="#pilcrow"/>ad primum istarum potest 
+                        multipliciter responderi uno modo suppondendo quod voluntas de sancto[?] velit 
+                        et aptum facere voluntatem dei id est quod deus vult eam velle et hoc 
+                        sine [?] dmerito annexo et culpa mortali et tunc potest dici quod 
+                        si 2m legem nunc ordinatam deus sine istius demerito aufert 
+                        rectitudinem et gratiam a tali voluntate et tamen secundum legem illam velit 
+                        o[?] voluntatem semel rectam semper rectam esse nisi istam rectitudinem 
+                        demereatur habere et ista habet eam et non demereatur habere eam 
+                        per casum igitur <g ref="#carrot"/><add place="aboveLine">sed</add> deus voluntati sic se habenti tollit rectitudinem ergo vult 
+                        eam velle quod non vult eam velle vel vult eam habere rectitudinem 
+                        quam non vult eam habere consequentiam[?] ista est bona sed antecedens 
+                        est ita <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> sicut consequens</p>
+                    
+                    <p><g ref="#pilcrow"/>Similiter lex eius est voluntati iniute[?]  
+                        et non demerenti rectitudinem habitam <add place="marginRight">auferri</add> non velle auferre et velle  
+                        eam velle quod ipse vult accidentaliter vel habitualiter igitur si velit 
+                        voluntati sic dispositae sine eius demerito auferre rectitudinem quam 
+                        habet sequitur quod velit eam velle <add place="marginRight">quod non vult eam velle</add> et bene via est quod <choice><orig>sicud</orig><reg>sicut</reg></choice> consequens est 
+                        impossibile ita est impossibile quod secundum legelm ordinatam qua sic 
+                        et sic ordinat ut tactum est stante quod sic ordinet voluntati 
+                        habenti rectitudinem invice[?] et non demerenti tollet eam</p>
+                    
+                    <p><g ref="#pilcrow"/>aliter potest 
+                        dici quod voluntas semel recta secundum legem dei <g ref="#dot"/><add place="aboveLine">tam</add> ordinata quam 
+                        absolutam fieri non potest non recta culpabiliter culpa accidentali et voluntaria 
+                        sua id est peccatrix sine sua culpa sine demerito et hoc sine 
+                        auferatur sibi forma quaebus[?] prius eam informans sine non</p>
+                    
+                    <p><g ref="#pilcrow"/>3o 
+                        modo potest dici <name>magister</name> assertive quod <name>anselmus</name> in illo passu non facit 
+                        mentionem de merito vel demerito <add place="aboveLine">et</add> quia intitur[?] habere contradictionem ex 
+                        terminis quia cum dicit quod deus non potest seperare vel auferre rectitudinem 
+                        a voluntate habente rectitudinem id est voluntatem actualiter vel habitualiter <del rend="underline">ac</del> 
+                        qu<del rend="expunctuated">i</del><add place="aboveLine">o</add>d deus vult eam velle intelligit hanc ut supra 
+                        tactum fuit in[?] prima responsione principali in sensu 9<g ref="#dot"/> ad hunc 
+                        sensum quod hoc est impossibile deus aufert a voluntate velle illud 
+                        quod ipse vult eam velle quia non stant <g ref="#carrot"/><add place="marginRight" hand="different"><g ref="#carrot"/>simul</add> quod illud auferat et 
+                        tamen quod non velit auferre igitur si auferret velle huius voluntati 
+                        vult eam non <add place="aboveLine">sic</add> velle quomodo vult eam velle et ita vult 
+                        istam non sic velle quomodo vult eam velle quod plane 
+                        includit contradictoria nec aliquis unquam differet[?] sibi rationabiliter contrarium sed 
+                        cum hoc stat quod alias potest sibi auferre velle illud quod nunc habet 
+                        voluntas secundum dei voluntatem et non probat quin voluntati possit auferre 
+                        velle quod vult eam velle sumpea[?] ista in sensu <g ref="#dot"/>d[?]<g ref="#dot"/> in 
+                        quo sensu <g ref="#dot"/>d<g ref="#dot"/> praecessit prima responsio quia in sensus 9<g ref="#dot"/> nulla penitus 
+                        est difficultas nec per istum sensum aliquid notabile probaretur</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 
+                        <choice><orig>2m</orig><reg>secundum</reg></choice> per idem quia est satis possibile quod ita sit sicut significatur per 
+                        istam deus adnihilat mundum sed hoc non est possibilis deus facit 
+                        voluntatem non <del rend="expunctuated">vult</del> velle quod vult eam velle eundo etiam ad 
+                        potentiam absolutam non autem procedit illud dictum secundum sensum <g ref="#dot"/><c>d</c><g ref="#dot"/> nisi 
+                        aequivoce <g ref="#carrot"/><add><c>c</c></add> et haec sint dicta faciendo <add place="marginLeft" hand="different">voluntatem</add> secundum <unclear>cum[?]</unclear><g ref="#dot"/>et <c>d</c><g ref="#dot"/> ratione de ly 
+                        potest <g ref="#dot"/> sed alio modo potest distingui secundum com[?] et di[?] tam ista deus 
+                        vult voluntatem velle quod non vult eam velle <g ref="#carrot"/><add place="marginBottom" hand="different">quam ista negativa non vult voluntatem velle quod vult eam velle</add> eo quod potest esse 
+                        una propositio et tunc est possibilis ista negativa vel duae propositiones 
+                        ad hanc sensum aliquid non vult eius voluntatem velle et illud vult 
+                        voluntatem velle <del rend="underline">velle</del> et ita copulativa est impossibilis In primo sensu 
+                        hic totum denominatur[?] non esse obiectum divinae volitionis voluntatem velle 
+                        quod vult eam velle et debet sic praesentari deus non vult voluntatem 
+                        velle quod vult eam velle et haec est possibilis satis sed 
+                        non sit in sensu <choice><orig>2o</orig><reg>secundo</reg></choice></p>
+                    
+                    <p><g ref="#pilcrow"/>Sed contra ista replicari potest quod <name>anselmus</name> 
+                        non possit glossari per potentiam dei ordinatam quia <name>anselmus</name> deducit 
+                        ad contradictoria et super ita non potest deus de potentia absoluta et 
+                        quod dicitur de invite[?] non videtur ad propositum quia per ly <mentioned>invite</mentioned> intelligit 
+                        <name>anselmus</name> quod non nisi voluntate voluntarie demen?te[?] et tunc patet quod deus 
+                        non potest per quamcumque potentiam auferre eam nisi praecedente demerito</p>
+                    
+                    <p><g ref="#pilcrow"/>ad istud dicendum quod licet <name>anselmus</name> ad contradictoria mtatur[?] 
+                        deducere ista tamen deductio deficit sicut ostensum est 
+                        supra nisi intelligatur alterio dictorum modorum in responsione principali 
+                        qualiter dictus processus vel decutio <name>anselmi</name> procedat bene 
+                        ad secundam glosam de invito[?] patet supra ex probatione primae 
+                        obiectionis contra <name>solomon[?]</name> primi argumenti principalis glossando aut 
+                        eam de potentia ordinata sic potest sua deductio tollerari 
+                        quia secundum legelm dei ordinatam ipse vult omnes 
+                        homines salvos fieri et ad agnitionem[?] veritatis pervenire et 
+                        velle praecepta inplere faciendo quod bonum est et ideo 
+                        praecipit hoc et acceptaret quod sic fieret et <seg>contrarium<desc>possibly modified somehow</desc></seg> dicitur non 
+                        velle id est non acceptare sed reprobare si contrarium facit homo 
+                        licet tunc secundum veritatem velit sic fieri quia aliter nihil fieri posset sed hoc <add place="marginCenter" hand="different">est</add> permissive 
+                        vel <g ref="#carrot"/><add place="marginLeft">co</add>operative non autem acceptando de tali igitur modo volendi 
+                        intelligo secundum <name>anselmum</name> rectitudinem voluntatis esse velle quod deus vult 
+                        eam velle id est quod deus acceptat hic eam velle <add place="marginBottom" hand="different">vel acceptaret si sit vellet</add> paratus sibi 
+                        cooperari ad hoc quantum in se est</p>
+                    
+                    <p><g ref="#pilcrow"/>Et ad hunc intellectum sive 
+                        velit deum <choice><orig>tolere</orig><reg>tollere</reg></choice> actualiter vel honorare parentes et similia sive 
+                        non <add place="marginBottom" hand="different"><choice><orig>sicud</orig><reg>sicut</reg></choice> deberet et tenetur</add> sed contrarium semper vult eam sic velle id est acceptat quod sic 
+                        faciat <add place="marginBottom" hand="different">vel acceptaret sit sibi placeret quod sic fieret</add> et paratus est semper ad hoc iuvare <corr>cooperand<del rend="expunctuated">i</del>o</corr> 
+                        quantum in se est et cum tali volitione qua semper sine intermissione 
+                        vult sic non stat quod velit talem rectitudinem non esse quia tunc 
+                        non acceptaret quod tunc esset nec paratus esset cooperari quantum 
+                        in se est et per consequens non vellet eam velle sic quod semper vult 
+                        eam sit velle quae sunt contradictoria et certe ad hunc intellectum 
+                        est illud ad quod in isto processus ultimate deducit</p>
+                    
+                    <p><g ref="#dbslash"/>Impossibile 
+                        igitur inquit si deus saepe <corr>f<g ref="#carrot"/><add place="aboveLine">a</add>ctam</corr> rectitudinem tollit ab <choice><orig>alico</orig><reg>aliquoalico</reg></choice> non 
+                        vult eum velle quod vult eum velle cuius <seg>illati<desc>looks possibly corrected</desc></seg> partem 
+                        <choice><orig>2am</orig><reg>secundam</reg></choice> semper ponit et non probat sed tamen partem primam[?] quam non est 
+                        possibile simul esse varro[?] cum secunda <add place="marginLeft">quae 2a</add> ex lege dei supponitur esse vera 
+                        quod suppositum falsum esset si nihil vellet voluntatem velle quod uti 
+                        quia potest de potentia absoluta cum possit voluntatem ipsam et omnem substantiam 
+                        quam fecit de <choice><orig>nichilo</orig><reg>nihilo</reg></choice> ad <choice><orig>nichilum</orig><reg>nihilum</reg></choice> redigere simul dicit 
+                        in principio 8 <g ref="#dot"/><c>c</c><g ref="#dot"/> eiusdem et per consequens non vellet sibi cooperari ad 
+                        bonum quantum in ipso est <g ref="#dot"/>loquendo vero de potentia absoluta consequens 
+                        illud non est impossibile in sensu com[?]<g ref="#dot"/> pro ut est una propositio quia 
+                        si iste de quo fit sermo nihil esset vel nihil vellet illud esset verum 
+                        in sensu <c>a</c> <c>d</c> qui est iste aliquid est quod deus non vult eum 
+                        velle et tamen deus vult eum velle illud nullo modo deducitur 
+                        quin oppositum stare valeat de dei potentia absoluta nam eo ipso 
+                        quo deus destrueret volitionem qua <corr><del rend="expunctuated">est quod</del><g ref="#carrot"/><add><g ref="#carrot"/>prae</add></corr> voluit deum <choice><orig>tolere</orig><reg>tollere</reg></choice> 
+                            sine demerito volentis esset haec falsa et neganda deus vult 
+                            eum sit velle et quia haec pars non probatur sed supponitur tunc simul ponendo 
+                            suum oppositum patet quod deductio non concludit</p>
+                        
+                        <p><g ref="#pilcrow"/>Sed contra 
+                            quod <g ref="#carrot"/><add place="marginRight" hand="different">loquatur</add> loquitur <name>anselmus</name> ibi de potentia dei absoluta et de <del rend="expunctuated">vil</del> volitione bene 
+                            pla?ti[?] efficienti et absoluta patet quia in principio istius capituli dicit quod 
+                            totam substantiam[?] quam <c>d</c> nihil fecit potest ipsam in <choice><orig>nichilum</orig><reg>nihilum</reg></choice> redigere 
+                            a voluntate vero habente rectitudine non valeret eam separare unde videtur quod in eadem propositione aequivocet de potentia et constat 
+                            quod prima pars huiusmodi dm[?] intelligitur de potentia de absoluta <g ref="#dot"/>dici potest 
+                            uno modo quod ipse quasi irrisorie et interrogative respondet discipulo 
+                            inquirenti numquid <del rend="expunctuated">vel</del> deus <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>posset</add><del>potest</del></corr> voluntati auferre rectitudinem 
+                            Et <name>magister</name> vide quomodo non possit q[?] d[?] quodammodo potest 
+                            et alio modo non sed quomodo sit a quomodo non de potentia quidem 
+                            absoluta potest nam qui totum mundum <choice><orig>adnichilare</orig><reg>adnihilare</reg></choice> potest non 
+                            valet rectitudinem a voluntate separare quasi diceret <choice><orig>ymo</orig><reg>immo</reg></choice> per locum a 
+                            mairoi de potentia ordinata non et hoc consequenter deducit <g ref="#dot"/>quod aliter dici 
+                            potest quod rectitudinem voluntatis non potest separare ad hunc sensum <g ref="#dot"/> haec non 
+                            possibilis rectitudinem voluntatis separat <g ref="#dot"/> quia si separetur qualitas 
+                            ista voluntate iam non esset rectitudo vel saltem tunc non esset rectitudo 
+                            voluntatis</p>
+                    
+                    <p><g ref="#pilcrow"/>vel <choice><orig>3o</orig><reg>tertio</reg></choice> modo potest dici quod propter vi?le[?] convium[?] saepe auctores 
+                        etiam in eadem propositione <choice><orig>yposthetica</orig><reg>hypothetica</reg></choice> vel in eodem processu aequivoce sumunt 
+                        eundem trinum sicut enim inductive posset explanari</p> 
+                    </div>
+                    <div type="dubium">
+                        <head>Secundum dubium</head>
+                    <p><g ref="#pilcrow"/><choice><orig>2m</orig><reg>secundum</reg></choice> dubium principale sit illud quod tangitur in secundo argumento principali de observantia 
+                        mandatorum dei dicendum quod divina mandata non possunt 
+                        de lege communi ad intentionem mandantis servari sine gratia 
+                        unus <name>augustinus</name> in libro <title>de haeresibus</title> dicit hoc pertinere ad errorem 
+                        pelagianorum ut credant sine g[?] hominem posse facere omnia 
+                        dei mandata</p>
+                    
+                    <p><g ref="#pilcrow"/>Item ad hoc est <name>magister</name> libro 2 distinctione 28 
+                        capitulo 1 dicens pelagianorum haersis rectissima a pellagio mota 
+                        cho[?] est exorta hii dei gratia quae praedestinati sumus 
+                        et qua meruimus de potestate tenebrarum erui[?] intantum invinci 
+                        sunt ut sine hac credant hominem posse facere omnia divina 
+                        mandata</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed contra hanc responsionem arguit sto[?] sit si deus 
+                        praecipiens intendebat quemlibet abligare ad servandum praecepta 
+                        ex caritate igitur quicumque faciens opus praecepti non ex caritate 
+                        peccat mortaliter et hoc de praecept negativo ad quod tenetur semper et 
+                        pro semper ita quod si tenatur ad illud ex caritate quando illud servat non 
+                        ex caritate peccat mortaliter</p>
+                    
+                    <p><g ref="#pilcrow"/>Et similiter de praecepto affirmativo ad quod 
+                        tenetur pro aliquando si non servat ex caritate peccat mortaliter consequens videtur 
+                        falsum quia tunc quicumque occidisset vel quicumque peccatum mortale 
+                        comisissi si postea non occidat quia deus praecepit non occidere 
+                        peccat mortaliter vel si servat s?bm[?] quia deus praecepit peccat 
+                        mortaliter et hoc non videtur aliud quam pervertere omnes qui srl[?] comiserunt[?] 
+                        peccatum mortale ut nullum bonum opus ex gratia faciant 
+                        ad quod alias tamen tenetur</p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea existens in caritate potest facere aliquod 
+                        opus praecepti non tunc motus ex caritate sed ex pietate et 
+                        intrinsue?ne[?] naturali vel ex <choice><orig>alico</orig><reg>aliquo</reg></choice> <add place="marginRight">alio</add> non ferente[?] tunc accidentaliter 
+                        intentionem suam in finem ultimum igitur si incen?o[?] mandantis 
+                        scilicet dei sic quod sua mandata ex caritate impleantur in tali 
+                        casu inpletio[?] illa operis praecepti non esset sibi meritoria</p>
+                    
+                    <p><g ref="#pilcrow"/>ad primum istorum concedo quod fa?ns[?] opus praecepti non ex caritate 
+                        quando teneretur exequi opus illud ex caritate peccat mortaliter 
+                        non quia facit opus praecipi sed quia non ex caritate facit illud et 
+                        etiam quia tunc teneretur habere caritatem et non habet multo tamen 
+                        minus peccat tunc non ex caritate faciendo opus quam <del rend="underline">quam</del> si 
+                        opus non faceret obliga<del rend="expunctuated">n</del>tur enim pro tunc ad <g ref="#slash"/><seg>prima<desc>"tria" written below prima</desc></seg> scilict 
+                        ad habendum caritatem ad operandum tale opus <add place="marginLeft" hand="different">et ad operandum</add> ipsum ex caritate</p>
+                    
+                    <p><g ref="#pilcrow"/>Si tamen sciat ?omnia[?] pro qua obligatur <add place="marginLeft">sit operari</add> ex praecept et qui aliquid eorum 
+                        <del rend="expunctuated">illa</del> ad quae pro illa hora obligatur facit minus in tanto peccat 
+                        quam si nihil faceret ceteris paribus et hoc etiam concedo tam de 
+                        negativis quam affirmativis pro actibus voluntatis conformibus praeceptis hiis 
+                        vel illis obligor enim ex praecepto de non furando non 
+                        solum ad non furandum unquam <g ref="#dot"/>verum etiam <del rend="expunctuated">aliquando</del> ad velle 
+                        aliquando furari numquam et illum actum pro tunc et non semper teneretur ex
+                        caritate elicere vel eum habere nec sequitur quod post commissum peccatum 
+                        mortale si non occidat aliquis peccat mortaliter quia ex hoc quod 
+                        non occidit numquam peccat sicut nec ex alia parte ex hoc 
+                        quod facit opus praeceptum <g ref="#dot"/> sed in hoc peccat quod non ex caritate detestatur 
+                        <g ref="#carrot"/><add place="marginLeft">vel non ex caritate vult non occidere</add> seu respuit homicidium et hoc tenetur quotiens <del rend="expunctuated">de neccessitate</del><add place="marginCenter">distincte</add> 
+                        <add>quia tunc forte distincte</add> tenetur velle pro loco vel tempore quo ad quaedam vel pro <g ref="#slash"/> semper conclusio 
+                        ad aliqua obedire vel alias quando deus novit et certe tunc 
+                        patet quod non sequitur illud absurdum quod tunc infertur quod post unum 
+                        peccatum commisum non esset opus ex genere bonum fat?d[?] <add place="marginLeft" hand="different">quia iam patet quod nisi illud faceret quando tenetur gravius i?ca[?] peccaret</add> facere 
+                        etiam quod non tenetur est valde expediens et ad gratiam disponens 
+                        sicut opus supererogationis</p>
+                    
+                    <p><g ref="#pilcrow"/>ad <choice><orig>2m</orig><reg>secundum</reg></choice> assumptum mihi 
+                        videtur verum et bene verum est quod inpletio operis <g ref="#carrot"/><add place="marginLeft" hand="different">exteriorum</add> non ex caritate 
+                        non et sibi meritoria si fient pro hora pro qua teneretur motus 
+                        ex caritate sic agere sed <g ref="#carrot"/><add place="aboveLine">sed</add> haberet secum tunc novum annexum 
+                        sibi peccatum <g ref="#dot"/> sed pro multis aliis horis credo quod meritorium 
+                        esset sibi quia per gratiam redditur pro ut aestimo persona ista 
+                        grata deo quod omne bonum ex gne[?] et motu bono scundum instinctum 
+                        negatur sibi factum a tali persona est sibi meritorium dum <g ref="#carrot"/><add place="marginCenter">modo</add> non tunc 
+                        teneretur illud facere ex caritate non tamen ita meritorium <choice><orig>sicud</orig><reg>sicut</reg></choice> si 
+                        ex caritate fieret</p>
+                    
+                    <p><g ref="#pilcrow"/>Sed contra istud videtur esse dictum <name>gregoris</name> <g ref="#dot"/>in <title>omelia 
+                        de apostolis</title> ubi cum descripsisset modum caritatis dicens 
+                        iste enim veraciter caritatem hanc qui et amicum diligit in 
+                        deum et inimicum propter deum addit nam sunt non nulli qui diligunt 
+                        proximos sed per affectionem cognationis et terrenis quibus tamen 
+                        in hac dilectione satra eloqui non contradicunt sed aliud est quod sponte 
+                        impenditur naturae <g ref="#dot"/> aliud quod praeceptis dominantis[?] ex caritate 
+                        debetur <g ref="#carrot"/><add place="marginBottom" hand="different"><g ref="#carrot"/>obedientiae hii nimiarum et proximum</add> <del rend="expunctuated">ob est <g ref="#dot"/> hii nimiarum</del> <g ref="#carrot"/><add place="marginLeft"><g ref="#carrot"/><del rend="expunctuated">obedine</del></add> diligunt et tamen ista sub lumina[?] 
+                        dilectionis praemia non assecuntur quia amorem suum non spiritualiter 
+                        sed carnaliter <choice><orig>inpendunt</orig><reg>impendunt</reg></choice> haec iste igitur opera facta ex motu pietatis 
+                        naturalis vel affectionis carnalis non sunt meritoria <g ref="#dot"/>nec 
+                        valet dicere quod hoc est quia ex quo tantum carnaliter moventur peccant 
+                        quia hoc est plane contra <name>gregoris</name> qui hoc dicit quibus in hanc dilectione 
+                        satra[?] eloqui non contradicunt et tamen constat quod peccatis tam 
+                        venialibus quam mortalibus sacra[?] eloquentia contradicunt diciendum igitur mihi videtur quod 
+                        nulla talia sunt meritoria vitae aeternae ex hoc solo quod talia 
+                        sunt sed tantum ex hoc quod fiunt a persona deo cara bene mortaliter 
+                        quod dico pro actibus indifferentibus licitis vel pro actibus indelibe?te[?] 
+                        elicitis sicut est confirmatio barbe vel huius ex hoc inquam 
+                        sunt meritori licet non ita meritorii <choice><orig>sicud</orig><reg>sicut</reg></choice> si mediante caritate 
+                        elicerentur</p>
+                    
+                    <p><g ref="#pilcrow"/>Praeterea contra responsionem istam ad <choice><orig>2m</orig><reg>secundum</reg></choice> principalem potest argui quia secundum 
+                        <seg><name>augustinum</name><desc>looks corrected somehow</desc></seg> <title>de doctrina christiana</title> praecepta dei sunt de lege naturae igitur ex 
+                        solis naturalibus possunt <choice><orig>inpleri</orig><reg>impleri</reg></choice></p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod non possunt meritorie <choice><orig>inpleri</orig><reg>impleri</reg></choice> 
+                        sine gratia possunt tamen opera exteriora praeceptorum pro maiori parte <choice><orig>inpleri</orig><reg>impleri</reg></choice> 
+                        ex naturalibus sine gratia informante sed sic forte intelligit 
+                        <name>augustinus</name> sed actus interiores etiam naturaliter causabiles si tenentur[?] quidam 
+                        saltem iste <g ref="#slash"/> qui esset dei finens[?] amore super omnia et aliorum propter 
+                        ipsum aestimo quod semper in habente notitiam <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> ad salutem eo 
+                        ipso deus infundat gratiam nec aliter esset potest de lege ista 
+                        statuta</p>
+                </div>
+                <div type="dubium">
+                    <head>Tertium dubium</head>
+                    <p><choice><orig>3m</orig><reg>tertium</reg></choice> sit illud quod tangitur in primo argumento principali ad 
+                        partem oppositam quaestionis quod <hi rend="underline">omnis</hi> contradictio est a?em[?] esse gratum 
+                        sine gratia vel carum sine caritate</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod nulla penitus 
+                        est repugnantia quod aliquis sit gratus deo et carus sine caritate sibi 
+                        formaliter inhaerente sed quod sine caritate et gratia acceptante[?].</p>
+                    
+                </div>
+                <div type="dubium">
+                    <head>Quartum dubium</head>
+                    
+                    <p><choice><orig>4m</orig><reg>quartum</reg></choice> dubium 
+                        sit illud quod tangitur in <choice><orig>2o</orig><reg>secundo</reg></choice> argumento principali ad partem oppositam compositionis[?] quod 
+                        peccatum mortale est infinitum et ideo videtur ipsum non posset tolli per naturalia</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod licet peccatum mortale sic malum infinitum ex hoc quod 
+                        fit contra praeceptum bonum[?] infiniti <add place="marginRight">vel in conceptum boni infiniti</add> et ita sic offensa re <g ref="#slash"/> infinite 
+                        quod aliqui vocant esse infinitum secundum extrinsecam denominationem ab 
+                        obiecto <g ref="#carrot"/><add place="marginCenter">tamen</add> secundum magnitudinem extrinsecam entitatis actus peccati non est <seg>infinitus<desc>possibly corrected</desc></seg> 
+                        <choice><orig>ymmo</orig><reg>immo</reg></choice> forsan pnr[?] nihil est <g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>sicut</add> de peccato mortali pure omissionis 
+                        sed quod sit tale <add place="marginRight">patet</add> et tale tali modo infinitatis si deo placeret 
+                        posset quilibet actus voluntatis quo deus ipse super omnia 
+                        diligitur et quilibet etiam habitus ad actum talem incinans dici 
+                        infinitus isto etiam modo nunc diligo deinde infinite licet finito actu 
+                        quia praefero eum in amore meo in comparabiliter ultra omne 
+                        aliud bonum existens vel possibile</p>
+                    
+                    <p><g ref="#pilcrow"/>ad formam tamen dicendum quod licet peccatum 
+                        sic malum non concesso infinitum potest tamen <choice><orig>dimicti</orig><reg>dimitti</reg></choice> seu deleri 
+                    per gratiam infinitam quae dei acceptatio est <corr><g ref="#carrot"/><add place="marginRight"><g ref="#carrot"/>infinita</add></corr> 
+                        istam responsionem probatur quod sit intensive infinitum quia capiatur peccatum 
+                        mortale temporale per illud infincies[?] devemur contra praeceptum dei 
+                        quia infinita instantia ibi sunt etc <g ref="#dot"/> dicendum quod non infi?es[?] noviter 
+                        et libere vel noviter <choice><orig>inputa</orig><reg>imputa</reg></choice> <g ref="#dot"/>igitur[??]</p>
+                    
+                    </div>
+                    <div type="dubium">
+                        <head>Quintum dubium</head>
+                    
+                    <p><g ref="#pilcrow"/><choice><orig>5m</orig><reg>quintum</reg></choice> dubium est quod videtur quod 
+                        gratia non sit <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem sed est <choice><orig>inpeditiva</orig><reg>impeditiva</reg></choice> quia illud quo potest 
+                        capitur est <choice><orig>inpedimentum</orig><reg>impedimentum</reg></choice> sed per gratiam peccatur nam si habens graviam[?] mortaliter 
+                        post peccet gravius peccat quam qui gratiam non habuisset nec 
+                        haberet quia talis magis in grate[?] faceret quia facilius posset peccatum 
+                        cauere dato quod omnia alia fiant paria igitur gratia est sibi tam quod gravius 
+                        peccat nam illud quo solo addito super conditiones alterius 
+                        iste gravius peccat quam altier est causa quare[?] gravius peccatum 
+                        <cb ed="#M" n="82ra"/><lb ed="#M"/>qui alter et gratia est huius per causam igitur etc</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod illud quod est 
+                        <lb ed="#M"/><choice><orig>inpeditum</orig><reg>impeditum</reg></choice> salutis per se et non solum accidentaliter vel occo?ter[?] non est 
+                        <lb ed="#M"/><choice><orig>neccessariam</orig><reg>necessariam</reg></choice> ad salutem</p>
+                    
+                    <p><lb ed="#M"/>aliter enim bene posset quia ex uni?bus[?] posset 
+                        <lb ed="#M"/>homo superbire et de et scientia et de bonitate naturali animae 
+                        <lb ed="#M"/>proprie et tunc illa bona quorum etiam multa bona sunt ad salutem postlibet[?] 
+                        <lb ed="#M"/>esse occasio non dato licet acceptatio peccati virtus etiam et scientia vel si<lb ed="#M"/>miles 
+                        qui scitur vel creditur quiddam sit agendum vel quid vitandum 
+                        <lb ed="#M"/>si homo velit conformare recto dictamini rationis est occasio et 
+                        <lb ed="#M"/>causa per accidens quare gradus peccat quomodo faceret <choice><orig>ydyota</orig><reg>idiota</reg></choice> sed scientia 
+                        <lb ed="#M"/>non agit pro se ad peccatum <choice><orig>ymo</orig><reg>immo</reg></choice> reluctat quantum in se est 
+                        <lb ed="#M"/>iudicans vel instruens ut non peccetur</p>
+                    
+                    <p>Similiter quodammodo est 
+                        <lb ed="#M"/>de caritate licet minus quia nec per se nec per accidens est causa mortalis 
+                        <lb ed="#M"/>peccati quia non stat cum ipso quia tamen habens causalitatem teneretur per 
+                        <lb ed="#M"/>eam respuere peccatum et posset et non utitur ea sicut posset 
+                        <lb ed="#M"/>ideo gravius peccat non quod agat ea ad peccatum concedo igitur quod 
+                        <lb ed="#M"/>talis gravius peccat sed nego consequentiam igitur gratia est sibi causa gra<lb ed="#M"/>vius 
+                        peccandi sed ipsemet non vicens gratia cum posset et debet 
+                        <lb ed="#M"/>ex hoc quod ea non utitur gravius peccat et eam perdit et illud 
+                        <lb ed="#M"/><term>complexe significabile</term> videlicet quod non utitur habita gratia sicut posset 
+                        <lb ed="#M"/>et deberet ad resistendum et vitandum temptationem peccati est quo 
+                        <lb ed="#M"/>posito gravius peccat et quo amoto non gravius peccaret 
+                        <lb ed="#M"/>et non est <choice><orig>alica</orig><reg>aliqua</reg></choice> entitas significabilis incomplexe praeter ipsam operantem 
+                        <lb ed="#M"/><corr>s<add>et</add></corr> causa quare sciens gravius peccat quam ignorans ceteris pari<lb ed="#M"/>bus 
+                        est quia non conformat se in sua scientia vel suae scientiae in volendo 
+                        <lb ed="#M"/>et agendo et non alia entitas vera nisi operans ipse hic autem 
+                        <lb ed="#M"/>sunt dicta supposito quod ceteris paribus gravius peccet praehabens 
+                        <lb ed="#M"/>caritatem immediate ante peccatum quam non prae habens caritatem invideretur[?] 
+                        <lb ed="#M"/>cui probabiliter forte posset dici quod in quasi ubi secundum habens caritatem vel haberet 
+                        <lb ed="#M"/>maiorem quam teneretur habere non gravius peccat quam qui non habet 
+                        <lb ed="#M"/>caritatem omnibus aliis condictionibus et circumstantiis existentibus 
+                        <lb ed="#M"/>paribus quia iste qui eam non habet teneretur habere sicut alius et quod 
+                        <lb ed="#M"/>non habet imputatur sibi ad peccatum nec excusat eum in <choice><orig>alico</orig><reg>aliquo</reg></choice> 
+                        <lb ed="#M"/>ut videtur sed aggravat et pari modo dicendo de sciente et ignorante 
+                        <lb ed="#M"/>peccantibus omnibus aliis conditionibus existentibus paribus et hoc si scientia 
+                        <lb ed="#M"/>quam habet unus quali caret alter sit <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem 
+                        <lb ed="#M"/>sicut est scientia mandatorum dei tunc enim qui ignoraret aeque teneretur 
+                        <lb ed="#M"/>scire et puniretur causa quia ignorat quam quia male operatur <g ref="#dot"/></p>
+                    
+                    <p><lb ed="#M"/><g ref="#pilcrow"/>Sed contra istud videtur quod omnes videretur concordare quod ignorantia dummodo 
+                        <lb ed="#M"/>non fit affectata excusat a tanto licet non a toto licet et ratione eo[?] 
+                        <lb ed="#M"/>in proposito de carentia caritatis</p>
+                    
+                    <p><g ref="#dot"/>Et assumptum probatur per istud <name ref="#Paul">apostoli</name> 
+                    <lb ed="#M"/><quote ana="#Itim1_13">misercordiam consecutus sum quia ignorans feci</quote> <g ref="#dot"/> et dicens <corr><del rend="strikethrough">ineducta</del><add place="marginCenter" hand="different"><title ref="#lc">euvangelio</title></add></corr> 
+                    <lb ed="#M"/>ergo <quote ana="#lc23_34">dimitte illis pater quia nesciunt quid faciunt</quote> igitur talis 
+                    <lb ed="#M"/>si simile peccatum committat cum sciente minus peccat</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum 
+                        <lb ed="#M"/>quod si cetera sunt paria non est dicendum ut videtur concedendum ut videtur 
+                        <lb ed="#M"/>quod ignorans ignorantia fidei vel scientiae quam homo obligatur habere 
+                        <lb ed="#M"/>excusetur in <choice><orig>alico</orig><reg>aliquo</reg></choice> nec quod talis ignorantia attenuet suum peccatum 
+                        <lb ed="#M"/>propter causam supradictam</p>
+                    
+                    <!-- add break in Sorb -->
+                    
+                    <p><g ref="#pilcrow"/>Et ad argumentum in oppositum dicendum quod illud 
+                        <lb ed="#M"/>quem dictum verum nisi peccatur ex tunc ignorantia non affectata et non 
+                        <lb ed="#M"/>ubi ignoranter tantum peccatur</p>
+                    
+                    <p>exemplum primi fuit in <name ref="#Paul">apostolo</name> et in 
+                        <lb ed="#M"/>casu <title>euvangelico</title> et etiam <name>iudaei</name> illi pro quibus in isto casu roga<lb ed="#M"/>vit 
+                        christus habuerunt voluntatem bene faciendi talem quod si habuissent 
+                        <lb ed="#M"/>scientiam oppositam nullo modo fecissent quod fecerunt quia secundum 
+                        <lb ed="#M"/><name ref="#Paul">apostolum</name> <quote ana="#Icor2_8">si fecissent numquam dominum gloriae</quote> etc <ref><title ref="#Icor">primo cor</title> <g ref="#dot"/>2<g ref="#dot"/></ref> 
+                        <lb ed="#M"/>et in <title>Ioannes</title> <quote ana="#io16_2">christus venit hora ut omnis qui interfecit vos ar<lb ed="#M"/>bitror</quote> 
+                        etc <g ref="#dot"/> <quote ana="#io16_3">et haec fecerunt quia non noverunt patrem nullum 
+                        <lb ed="#M"/>me</quote> quasi diceret si novissent non fecissent <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>aliud enim 
+                        <lb ed="#M"/>est ignorantem facere et ideo eum facere quia ignorat sicut ignoranter
+                        <lb ed="#M"/>peccavit <name ref="#Paul">apostolus</name> sicut plane fatetur ita quod si scivisset non 
+                        <lb ed="#M"/>peccasset sic sed certe habens scientiam et nihilominus peccans non sic 
+                        <lb ed="#M"/>non se habet <sic>sic</sic> peccans ex ignorantia sit causa per accidens sui 
+                        <lb ed="#M"/>peccati et similiter ignorans sit dispositus quod si haberet scientiam 
+                        <lb ed="#M"/>nihilominus peccaret talis enim ut aestimo nullatenus per ignorantiam 
+                        <lb ed="#M"/>excusatur et ideo cetera paria non sunt sicut habet supponere 
+                        <cb ed="#M" n="82rb"/><lb ed="#M"/>responsio supradicta ideo non excusat <g ref="#dot"/></p>
+                </div>
+                <div type="dubium">
+                    <head>Sextum dubium</head>
+                    <p><g ref="#pilcrow"/><choice><orig>6m</orig><reg>sextum</reg></choice> dubium principale de 
+                        <lb ed="#M"/><name>cornelio</name> ut videtur fuit in <unclear>ista stantia[?]</unclear> salutis ante habita 
+                        <lb ed="#M"/>gratiam quia <ref><title ref="#act">actuum</title> 10</ref> <g ref="#dot"/> habetur de <name>cornelio</name> quod orationes eius elcere[?] 
+                        <lb ed="#M"/>erant deo acceptae antequam haberet fidem et per consequens antequam 
+                        <lb ed="#M"/>haberet gratiam quia gratia idem est realiter quod caritas infusa caritas 
+                        <lb ed="#M"/>aut infusa fidem praeexigit vel coexigit de potentia dei ordinata 
+                        <lb ed="#M"/>et tamen ut videtur erunt in statu salutis igitur gratia ad hoc non 
+                        <lb ed="#M"/>requiritur</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quantum mihi videtur quod ipse non erat in statu salutis 
+                        <lb ed="#M"/>habuit tamen operationes et volitiones quales habentur in homine de le<lb ed="#M"/>ge 
+                        communi sine gratia dummodo fides et scientia <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem 
+                        <lb ed="#M"/>non de sit in eo autem de fuit meruit tamen de congruo instrui 
+                        <lb ed="#M"/>vel fidem sibi et notitiam <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> a deo infundi sibi vel dato 
+                        <lb ed="#M"/>sicut erit verisimilius[?] quod fiunt in statu salutis ante <name ref="#Peter">petri</name> adventum 
+                        <lb ed="#M"/>tunc huic gratiam et fidem infusam sed non acquisitam nec actum 
+                        <lb ed="#M"/>credendi sicut post explicatur praecise citra trinitatem personarum et verbi 
+                        <lb ed="#M"/>incarnationem licet habuit fidem unius dei etc <g ref="#dot"/> Et haec pars secundum sanctos 
+                        <lb ed="#M"/>est vera sicut vult <name ref="#Jerome">Ieromus</name> in <title>originali super epistolam ad galatos</title> <g ref="#dot"/> ubi vult 
+                        <lb ed="#M"/>quod per opera bona pervenit ad fidem explicitam et non econverso hanc etiam sen<lb ed="#M"/>tentiam 
+                        tenet <name ref="#GregoryGreat">gregorius</name> <title>super ezechial</title> <g ref="#dot"/> et haec est via <name ref="#Scotus">scoti</name> super primum <title ref="#SentencesScotus">sententiarum</title></p>
+                </div>
+                <div type="dubium">
+                    <head>Septimum dubium</head>
+                    <p><g ref="#pilcrow"/><choice><orig>7m</orig><reg>septimum</reg></choice> dubium est de lege dei ordinata circa salutem istius viatoris 
+                        <lb ed="#M"/>de?ato[?] <choice><orig>alico</orig><reg>aliquo</reg></choice> tali dixi enim gratiam inhaerentem non esse <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> ad sa<lb ed="#M"/>lutem 
+                        nisi <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> secundum quid quae <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> <corr><add place="aboveLine" hand="different">est</add></corr> solum legis dei institutae</p>
+                    
+                    <p><g ref="#pilcrow"/>contra 
+                        <lb ed="#M"/>lex illa est aeterna <g ref="#dot"/> igitur absolute <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> <g ref="#dot"/> antecedens est manifestum quia lex a deo 
+                        <lb ed="#M"/>instituta non potest poni a deo principio ex tempore ordinari sine mutatione dei 
+                        <lb ed="#M"/>contra patet quia ex opposito consequentis sequitur oppositum antecedentis scilicet quod non 
+                        <lb ed="#M"/>sit absolute <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> tunc <choice><orig>neccesse</orig><reg>necesse</reg></choice> est eam aliquando non fuisse ex quo sequitur 
+                        <lb ed="#M"/>quod non ab aeterno habuit esse ista est deductus <ref><name ref="#Aristotle">aristoteles</name> primo <title ref="#deCaelo">de caelo</title></ref> et <ref>12 <title ref="#Metaphysics">metaphysicae</title></ref></p>
+                    
+                    <p><g ref="#pilcrow"/>ad istud un?m[?] dubium dicendum quod de virtute 
+                        <lb ed="#M"/>sermonis antecedens est verum et etiam consequens et consequentia bona quia lex ista 
+                        <lb ed="#M"/>non est nisi deus qui sic ordinavit qui voluit quod sic foret 
+                        <lb ed="#M"/>tamen ad intellectum argumentis eundo qui videtur antecedens intelligere ad hunc 
+                        <lb ed="#M"/>sensum <g ref="#dot"/> lex ista est aeterna id est aeternaliter sic ordinavit deus 
+                        <lb ed="#M"/>et consequens a hunc sensum lex ista est absoluta <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> <corr><add place="marginRight">qui absolute neccessario</add></corr> sic ordinavit 
+                        <lb ed="#M"/>deus concedo antecedens et nego consequentiam et etiam istam consequentiam qua ex opposito 
+                        <lb ed="#M"/>consequentis infertur oppositum antecedentis quia non sequitur non est <corr><del rend="strikethrough">affirmative</del><add place="marginRight">absolute</add></corr> 
+                        <lb ed="#M"/><choice><orig>neccessaria</orig><reg>necessaria</reg></choice> id est non absolute sed potius libre[?] et contingenter sic ordinavit 
+                        <lb ed="#M"/>deus <corr><add>ergo</add><del>id est</del></corr> <choice><orig>neccesse</orig><reg>necesse</reg></choice> est eam non fuisse id est <choice><orig>neccesse</orig><reg>necesse</reg></choice> est deum aliquando non sic 
+                        <lb ed="#M"/>ordinasse et ad probationem <name ref="#Averroes">averoys</name> dicendum quod licet consequentia esset bona secundum 
+                        <lb ed="#M"/>opinionem <name rend="#Aristotle">aristotelis</name> <name ref="#Averroes">commentatoris</name> et de aeterno et absolute <choice><orig>neccessario</orig><reg>necessario</reg></choice> <g ref="#dot"/></p>
+                    <!-- ad break in sorb -->
+                    <p><g ref="#pilrow"/>ad primum 
+                        <lb ed="#M"/>intellectum consequentis et antecedentis consequentiae tamen forma ista ultima et illa etiam prima si valet <g ref="#dot"/></p> 
+                        <!-- ad break in sorb -->
+                    <!-- check impotentia against "in potentia" -->
+                    
+                    <p><g ref="#pilcrow"/>Ad <g ref="#dot"/> <choice><orig>2m</orig><reg>secundum</reg></choice> intellectum sumendo istas propositiones primae consequentiae 
+                        <lb ed="#M"/>et hoc generaliter etiam secundum mentem <name ref="#Aristotle">aristotelis</name> vel <name ref="#Averroes">commentoris</name> nam illa consequentia non valet 
+                        <lb ed="#M"/>secundum eum <g ref="#dot"/> prima materia ab aeterno fuit <choice><orig>inpotentia</orig><reg>impotentia</reg></choice> ad hanc formam quam nunc 
+                        <lb ed="#M"/>recipit et loquor de potentia ante actum et reduplici naturaliter ad actum 
+                        <lb ed="#M"/>per causas naturales igitur absolute <choice><orig>neccessario</orig><reg>necessario</reg></choice> est <choice><orig>inpotentia</orig><reg>impotentia</reg></choice> ad hanc formam nec 
+                        <lb ed="#M"/>sequitur secundum eum non est absolute <corr><choice><orig>neccessario</orig><reg>necessario</reg></choice></corr> <choice><orig>inpotentia</orig><reg>impotentia</reg></choice> ad hanc formam igitur <choice><orig>neccesse</orig><reg>necesse</reg></choice> 
+                        <lb ed="#M"/>est eam non fuisse impotentia ad eam quia sit nunc primum instans in quo 
+                        <lb ed="#M"/>recipit eam certe tunc non obstante quod ab aeterno et semper fiunt usque nunc 
+                        <lb ed="#M"/>impotentia ad eam nec unquam erit sic impotentia ad eam secundum viam suam 
+                        <lb ed="#M"/>quia numquam poset poterit naturaliter noviter eam recipere</p>
+                    
+                    <p><g ref="#pilcrow"/>Ista 
+                        <lb ed="#M"/>patent secundum opinionem suam <ref>super[?] primum capitulum</ref> et in <ref>commento 210</ref> ubi dicit quod si 
+                        <lb ed="#M"/>potentia ad aliquid fuerit recepta non in loco propinquo gn?omi[?] sed in 
+                        <lb ed="#M"/>materia prima tunc aeterna fuit in praeterito sed tamen ista potentia quae fuit 
+                        <lb ed="#M"/>in prima materia est individui entis accidentis <g ref="#dot"/> Et tamen quidam homines 
+                        <lb ed="#M"/>acceperunt hanc potentiam quae est per accidens quasi essentialiter tenuerunt 
+                        <lb ed="#M"/>esse possibilem ut aliquid non sit per tempus in finitum in praeterito tempus 
+                        <lb ed="#M"/>erit qua propter est potentia ad suum esse infinita et tamen putaverunt 
+                        <lb ed="#M"/>quod potentiam ad esse possibile est ut sit infinita aestimaverunt etiam quod possibile 
+                        <lb ed="#M"/>ut potentia ad corruptionem in <choice><orig>alico</orig><reg>aliquo</reg></choice> sit infinita in futuro error igitur 
+                        <lb ed="#M"/>horum est quod acceperunt essentialiter illud quod est accidentaliter assimilaverunt 
+                        <lb ed="#M"/>essentialem potentiam ad corruptionem actuali potentiae ad generationem impossibile enim in 
+                        <lb ed="#M"/><choice><orig>alico</orig><reg>aliquo</reg></choice> in ne?ri[?] potentiam ad corruptionem infinitam neque accidentaliter neque 
+                        <lb ed="#M"/>essentialiter potentiam autem ad generationem possibile est infinitam reperiri accidentaliter 
+                        <cb ed="#M" n="82va"/><lb ed="#M"/>non essentialiter</p>
+                    <!-- impotentia should probably be in potentia above; clear instance of "in potentia" in paragraph below -->
+                    <p><g ref="#dot"/>Ex hiis dictis eius satis patet quod simul stant secundum eum 
+                        <lb ed="#M"/>quod materia ab aeterno fuit in potentia ad hanc formam et tamen quod potuit 
+                        <lb ed="#M"/>non esse in potentia ad istam quia cum semel illam non potest redire illa secundum 
+                        <lb ed="#M"/>opinionem suam licet similis bene posset <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>dico tamen quod mens erat <ref><name ref="#Aristotle">aristotelis</name> 
+                        <lb ed="#M"/>primo <title ref="#deCaelo">de caelo</title></ref> et <ref><name ref="#Averroes">commentaris</name> 12 <title ref="#MetaphysicsCommentary">metaphysicae</title></ref> quod nullum aeternum potest non esse absolute 
+                        <lb ed="#M"/>loquendo arguit enim hic <ref><name ref="#Aristotle">aristoteles</name> primo <title ref="#deCaelo">de caelo</title></ref> per <g ref="#dot"/> 129 et 120 sic licet 
+                        <lb ed="#M"/>idem simul habeat potentiam ut sedeat et non sedeat vel ut 
+                        <lb ed="#M"/>sit et non sit tamen nihil potest vel habet potentiam ut simul sit 
+                        <lb ed="#M"/>et non sit vel simul sedeat et non sedeat sed in alio et in alio 
+                        <lb ed="#M"/>tempore si itaque aliquid in finito tempore plurium habet virtutem vel ut loquitur 
+                        <lb ed="#M"/>littera <name ref="#Averroes">commentaris</name> hanc potentiam ad plura infinito tempore illud non faciat istas 
+                        <lb ed="#M"/>actiones in tempore et tempore sed omnes in eodem tempore <corr><g ref="#carrot"/><add place="aboveLine">in</add></corr> simul qua propter liquidum[?] 
+                        <lb ed="#M"/>infinito tempore ens corruptible est virtutem itaque habebit eius quod 
+                        <lb ed="#M"/>est non esse <g ref="#dot"/> si itaque in infinito tempore est sic existens quod potest <corr><add place="aboveLine">non</add></corr> esse simul 
+                        <lb ed="#M"/>igitur erit et non erit secundum actum sed hoc est <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> igitur et illud 
+                        <lb ed="#M"/>super quo sunt natura potest non est impossibile illo sedato sed possibile</p>
+                    
+                    <p><g ref="#pilcrow"/>Praeterea 
+                        <lb ed="#M"/>quod <g ref="#dot"/> 138 <g ref="#dot"/> arguit sic quod nihil aeternum sit corruptibile[?] non enim a casu est aliquid 
+                        <lb ed="#M"/>vel esse potest ingenerabile vel incorruptibile quia <sic>quia</sic> est casuale 
+                        <lb ed="#M"/>vel a fortuna primus semper et ut frequenter vel sit sed quod in infinito 
+                        <lb ed="#M"/>tempore est et simpliciter aut a quadam parte id est a parte ante vel a parte 
+                        <lb ed="#M"/>post aut semper aut ut frequenter ut existit ens <choice><orig>neccesse</orig><reg>necesse</reg></choice> igitur nulla 
+                        <lb ed="#M"/>talia quandoque quiddam esset quandoque autem non talium autem eadem potentia contradictionis 
+                        <lb ed="#M"/>et materia causa eius quod est et et non itaque <choice><orig>neccesse</orig><reg>necesse</reg></choice> est similis existere actu 
+                        <lb ed="#M"/>opposita libri <name ref="#Aristotle">aristotelis</name> ubi et <ref><name ref="#Averroes">commentator</name> commento <g ref="#dot"/> 138 <g ref="#dot"/></ref> declarans rationem <name ref="#Aristotle">philosophi</name> 
+                        <lb ed="#M"/>dicit quod nullae rerum dant eis ut sint semper aut semper non sint aut ut 
+                        <lb ed="#M"/>aliquando sint et aliquando non sint si igitur inveniretur generabile aeternum non 
+                        <lb ed="#M"/>corruptum vel econtra quod aeternum corruptum id est corruptibile esset possibile 
+                        <lb ed="#M"/>ut natura potentiae transmutaretur in <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> et natura possibilem in agente et re<lb ed="#M"/>cipiente 
+                        quod est <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> et quasi eandem sententiam dicit <ref>super <g ref="#dot"/>12<g ref="#dot"/> <title ref="#Metaphysics">metaphysicae</title> 
+                        <lb ed="#M"/>commento 41</ref></p>
+                    
+                    <p><g ref="#pilcrow"/>Sed dicendum quod ibi <name ref="#Aristotle">aristotelis</name> arguit contra <name ref="#Plato">platonem</name> qui secundum <name ref="#Averroes">commentatorem</name> <g ref="#dot"/> 3 <g ref="#dot"/> commento 
+                        <lb ed="#M"/>et in commento <g ref="#dot"/> 124 <g ref="#dot"/> posuit mundum fuisse aeternum possibilem tamen non esse 
+                        <lb ed="#M"/>de se sed agens extrinsecum non esse natum ipsum corpore etc <g ref="#dot"/> ita 
+                        <lb ed="#M"/>quod eius corruptio secundum <name ref="#Plato">platonem</name> esset possibilis ut sibi imponit <name ref="#Averroes">commentator</name> ex parte 
+                        <lb ed="#M"/>materiae impossibile quo ad agens etc <g ref="#dot"/> contra eam satis procedit prima ratio 
+                        <lb ed="#M"/>quia sic arguit <name ref="#Averroes">commentator</name> isto eodem commento <g ref="#dot"/> si aliquis posuerit aliquid esse 
+                        <lb ed="#M"/>existens in toto tempore sed quod in eo est potentia ad corruptionem absque hoc quod cor<lb ed="#M"/>rumpitur 
+                        contingit ut duae potentiae inveniantur in similis infinite scilicet 
+                        <lb ed="#M"/>potentia ad esse et potentia ad non esse est igitur altera earum otiosa cum nulla actio 
+                        <lb ed="#M"/>proveniat ex ea <g ref="#dot"/> id est quod aliquid erit in potentia ad duo quorum alterum non 
+                        <lb ed="#M"/>poterit produci ad actum quod si ponatur reduci pro eo quod ponitur 
+                        <lb ed="#M"/>possibile licet falsum accidet <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>Sed constat quod christianus sta<lb ed="#M"/>tim 
+                        levissime respondebit quod nihil obstat possibilitati quin reduci 
+                        <lb ed="#M"/>statim possit ad actum quia deus contingenter et libere exterius agit 
+                        <lb ed="#M"/>quicquid agit et ita potentia nulla erit <choice><orig>ociosa</orig><reg>otiosa</reg></choice> quod reduci posset absolute 
+                        <lb ed="#M"/>ad actum sit etiam intelligenda est prima ratio <name ref="#Philosophers">philosophi</name> procedere supponendo 
+                        <lb ed="#M"/>etiam quod eo ipso quod aliquid est aeternum non est agens aliquis potens ipsum corrum<lb ed="#M"/>pere 
+                        et ideo si ponatur simul cum hoc corruptibile et ponatur hoc in esse quod 
+                        <lb ed="#M"/>corrumpatur tamquam falsum possibile accidet falsum impossibile scilicet quod simul erit 
+                        <lb ed="#M"/>quia aeternum non habens corruptivum et non erit quia ponitur corrumpi sicut ponitur 
+                        <lb ed="#M"/>corruptibile quod autem <name ref="#Aristotle">aristoteles</name> sic intelligat supponendo sic deum agere 
+                        <lb ed="#M"/><choice><orig>neccessario</orig><reg>necessario</reg></choice> quidquid agit patet ex hoc quod dato quod libere possim cras 
+                        <lb ed="#M"/>sedere pro eodem instanti simul possum hoc et illud sed non possum hoc et 
+                        <lb ed="#M"/>illud simul et tamen me posse sedere cras in <g ref="#dot"/> <c>a</c> <g ref="#dot"/> instanti et me posse 
+                        <lb ed="#M"/>cras non sedere in <g ref="#dot"/> <c>a</c> <g ref="#dot"/> instanti non aliud et aliud respiciunt aut[?] instans sed 
+                        <lb ed="#M"/>illud idem igitur respectu talis agentis nihil valet forma arguendi quod non est suppositum 
+                        <lb ed="#M"/>de argumento <name ref="#Aristotle">philosophi</name> praecise ubi credidit demonstrare scilicet secundum priorem intellectum 
+                        <lb ed="#M"/>concludebat satis bene igitur isto modo potius intellexit</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 
+                        <lb ed="#M"/><choice><orig>2m</orig><reg>secundum</reg></choice> argumentum <name ref="#Aristotle">aristotelis</name> respondendum est per idem quod naturaliter corruptibile posset ab activo 
+                        <lb ed="#M"/>libere infinitae[?] potentiae perpetuae conservari et tunc hoc non fieret causaliter 
+                        <lb ed="#M"/>nec fortuito nec naturaliter sed a proposito posset etiam accidentalis corruptibile 
+                        <lb ed="#M"/>cuius est caelum secundum viam saltem istam probabilem satis quae non ponit ipsum 
+                        <lb ed="#M"/><choice><orig>conponi</orig><reg>componi</reg></choice> ex materia et forma et etiam secundum istam viam quae ponit ipsum 
+                        <lb ed="#M"/>componi dato quod forma talis nullum habet natura sui corruptivum destruere 
+                        <cb ed="#M" n="82vb"/><lb ed="#M"/>si sibi placeret vel manutenere quia libere contingenter agit 
+                        <lb ed="#M"/>ad extra quidquid ibi ligat haec est una ratio <ref><name ref="#Scotus">Scoti</name><g ref="#dot"/> libri 1 distinctione 
+                        <lb ed="#M"/>2 quaestione 5</ref> ubi dicit sic argumentum <name ref="#Aristotle">aristotelis</name> contra <name ref="#Plato">platonem</name> primo <title ref="#deCaelo">caeli et mundi</title> 
+                        <lb ed="#M"/>procedit ex suppositione <choice><orig>neccessarii</orig><reg>necessarii</reg></choice> agentis et tunc <choice><orig>inquid</orig><reg>inquit</reg></choice> sic de<lb ed="#M"/>duco 
+                        si caelum potest perpetuari ab agente <choice><orig>neccessario</orig><reg>necessario</reg></choice> igitur <choice><orig>neccessario</orig><reg>necessario</reg></choice> 
+                        <lb ed="#M"/>perpetratur <g ref="#dot"/></p>
+                    
+                    <!-- add in break in sorb -->
+                    
+                    <p><g ref="#pilcrow"/>huic autem <choice><orig>neccessario</orig><reg>necessario</reg></choice> repugnat actus corruptionis 
+                        <lb ed="#M"/>igitur et potentia ad illum actum quia cuicumque <choice><orig>neccessario</orig><reg>necessario</reg></choice> repugnat 
+                        <lb ed="#M"/>actus eiusdem <choice><orig>neccessario</orig><reg>necessario</reg></choice> potentia ad talem actum licet non 
+                        <lb ed="#M"/>cuiusque contingenti igitur non stat potentia ad corruptionem nisi stet potentia ad 
+                        <lb ed="#M"/>opposita simul et per hoc tenet ista positio inesse nam expositione possibili 
+                        <lb ed="#M"/>inesse non sequitur possibilitas nec nova impossibilitas aut <choice><orig>neccessario</orig><reg>necessario</reg></choice> 
+                        <lb ed="#M"/>haec illae<g ref="#dot"/></p> <!-- check to see if paragraph is mostly a quote -->
+                    
+                    <p><g ref="#pilcrow"/>aliter tamen Respondeo quod processus ibi <name ref="#Aristotle">philosophi</name> non est contra me 
+                        <lb ed="#M"/>quia non pono aliquod aeternum posse corrumpi ex hoc quod pono deum 
+                        <lb ed="#M"/>aeternaliter sic ordinantem posse non sic ordinasse in sensu <g ref="#dot"/><c>d</c><g ref="#dot"/> 
+                        <lb ed="#M"/>quia si illud possibile ponatur in esse eo ipso sequitur quod non aeternaliter sic or<lb ed="#M"/>dinavit 
+                        ut prius dabatur aeternaliter ordinasse et ita nulla sequitur 
+                        <lb ed="#M"/>ex hoc mutabilitas vel corruptio vel oppositorum ad invicem successio 
+                        <lb ed="#M"/>et hoc dico nisi per potentiam in esse rei quae dicebatur sic ordinari 
+                        <lb ed="#M"/>vel eius oppositi nam si deus ab aeterno ordinavit aliquid fore 
+                        <lb ed="#M"/>pro <g ref="#dot"/><c>a</c><g ref="#dot"/> instanti veniente <g ref="#dot"/><c>a</c><g ref="#dot"/> et deinceps non vult illud fore pro 
+                        <lb ed="#M"/><c>a</c><g ref="#dot"/> instanti sed <choice><orig>pocius</orig><reg>potius</reg></choice> <g ref="#dot"/><c>a</c><g ref="#dot"/> esse vel fuisse et ita ibi de deo ordinante 
+                        <lb ed="#M"/>verificantur contradictoria successive per potentiam[?] ab eo <sic>voliti</sic> in esse vel 
+                        <lb ed="#M"/>eius de positi destructionem sed dum illud erat futurum erat talis 
+                        <lb ed="#M"/>successiva contradictorum versificatio et talium de quibus est sermo impossibilis</p>
+                    
+                    <p><lb ed="#M"/><g ref="#pilcrow"/>Tamen contra hoc quod dicit quod secundum intentionem <name ref="#Aristotle">philosophi</name> nihil aeternum est <choice><orig>neccessario</orig><reg>necessario</reg></choice> 
+                        <lb ed="#M"/>ab alio potest argui quod sicut dicit <name ref="#Averroes">commentator</name> <g ref="#dot"/> 12 <g ref="#dot"/> <title ref="#Metaphysics">metaphysicae</title> ubi tractat <name ref="#JohnPhiloponus">Ioannis 
+                        <lb ed="#M"/>gramatici</name> motus est aeternus et de se possibilis non in esse et tamen <choice><orig>neccessario</orig><reg>necessario</reg></choice> ab 
+                        <lb ed="#M"/>alio</p>
+                    
+                    <p><g ref="#pilcrow"/>Respondeo primo quod intellexi dictum <name ref="#Aristotle">philosophi</name> sicut <name ref="#Averroes">commentator</name> ipse scivimus 
+                        <lb ed="#M"/>quae[?] de hiis et aliis rebus permanentibus quae habent totum suum 
+                        <lb ed="#M"/>esse simul et non de motu vel de tempore de successionis si esse eorum sit 
+                        <lb ed="#M"/>in continuo fieri sicut ibi dicit <name ref="#Averroes">commentator</name> de motu</p>
+                    
+                    <p><g ref="#pilcrow"/>Respondeo <choice><orig>2o</orig><reg>secundo</reg></choice> quod nec mo<lb ed="#M"/>tus 
+                        caeli de quo loquitur <name ref="#Averroes">commentator</name> de usu[?] <g ref="#dot"/> si <g ref="#dot"/> est de se possibilis secundum 
+                        <lb ed="#M"/>mentem <name ref="#Aristotle">aristotelis</name> quia motus ille non est nisi ipsum caelum ipsum quibus[?] partes successive 
+                        <lb ed="#M"/>nunc sunt hic nunc ibi et certe quod nunc sunt hic nec est aeternum nec quod 
+                        <lb ed="#M"/>sunt ibi sed possunt esse nunc hic nunc ibi et ideo in caelo non est possibilitas 
+                        <lb ed="#M"/>ad non esse secundum <name ref="#Averroes">commentatorem</name> alibi <g ref="#dot"/> sed assitum tamen quae possibilitas in ipsis caeli 
+                        <lb ed="#M"/>partibus saepe ad actum reducitur</p>
+                    
+                </div>
+                <div type="dubium">
+                    <head>Octavam dubium</head>
+                    
+                    <p><g ref="#pilcrow"/><choice><orig>8m</orig><reg>octavum</reg></choice> dubium est quia videtur 
+                        <lb ed="#M"/>quod gratia informans sit absolute <choice><orig>neccessario</orig><reg>necessario</reg></choice> quia haec propositio ille demenstrato 
+                        <lb ed="#M"/><name ref="#Sortes">sorte</name> est acceptus vel gratus deo significat res et pro rebus est vera 
+                        <lb ed="#M"/>sed <corr>istam</corr> non verificant <corr>deus</corr> et <name ref="#Sortes">sortes</name> quia deo et <name ref="#Socrates">sortes</name> manentibus 
+                        <lb ed="#M"/>et in nullo mutatis illius potest esse igitur ut verificetur illa propositio requiritur res 
+                        <lb ed="#M"/>alia 3a et distincta ab utroque scilicet deo et <name ref="#Sortes">sorte</name> et ita est gratia quia 
+                        <lb ed="#M"/>quaecumque alia res detur idem arguetur sicut prius arguebatur de 
+                        <lb ed="#M"/><name ref="#Sortes">sorte</name> et <name ref="#Plato">platone</name> vel de deo et <name ref="#Sortes">sorte</name> <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/><g ref="#pilcrow"/>Ad istud dicendum quod illa 
+                        <lb ed="#M"/>implicat unam de futuro et dependet eius veritas ex fu<lb ed="#M"/>turitione 
+                        alitus alicuius rei nundum existentis <corr><del>non</del><add place="marginRight">unde</add></corr> praecise significat res 
+                        <lb ed="#M"/>praesentes scilicet significat deum et <name ref="#Sortes">sortes</name> et quod ipse dabit <name ref="#Sortes">sorti</name> beatitudinem 
+                        <lb ed="#M"/>aeternam nisi <name ref="#Sortes">sortes</name> ex nunc iam noviter demereatur <corr><del>quirem</del><add place="marginRight">hanc</add></corr> illam et 
+                        <lb ed="#M"/>certe positis <name ref="#Sortes">sortes</name> et deo in praesenti et quod <name ref="#Sortes">sortes</name> se nisi existunt demereatur 
+                        <lb ed="#M"/>debetur vita aeterna eo ipso scilicet est gratus et si propositio sit quae in hoc 
+                        <lb ed="#M"/>praecise complexe significet ista est vera <g ref="#dot"/> et sine <choice><orig>3o</orig><reg>tertio</reg></choice> istorum non plus per gratiam 
+                        <lb ed="#M"/>hoc est per illam qualitatem quae vel gratia esset <name ref="#Sortes">sortes</name> communis deo quam per fidem 
+                        <lb ed="#M"/>vel per naturam suam <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/><choice><orig>2o</orig><reg>dico</reg></choice> quod dato quod nullam rem pro futuro 
+                        <lb ed="#M"/>dandam significarent sed solum qualiter se habet in se vel in ordine ad 
+                        <lb ed="#M"/>aliud res aliqui principaliter[?] existentes ad hoc non oporteret quod quibuscumque rebus 
+                        <lb ed="#M"/>positis eo ipso <corr><add place="marginCenter">propositio</add></corr> esset vera sicut patet de ita hic curatur hic conser<lb ed="#M"/>vatur 
+                        a deo hic dependet a tali activo et ita de multis aliis 
+                        <lb ed="#M"/>cuius oppositum videtur supponere argumentum <g ref="#dot"/></p>
+                </div>
+                <div type="dubium">
+                    <head>Nonum dubium</head>
+                    <p><g ref="#pilcrow"/><choice><orig>9m</orig><reg>nonum</reg></choice> dubium erat cuiusdam 
+                        <lb ed="#M"/><name ref="#Lombard">magistro</name> contra conclusione <choice><orig>4am</orig><reg>quartam</reg></choice> qua dixi quod nulla gratia est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> vel 
+                        <lb ed="#M"/>de lege communi ad salutem si habetur et hoc de virtute sermonis loquendo</p>
+                        
+                        <p><g ref="#pilcrow"/>Contra 
+                            <lb ed="#M"/>hoc arguit <rs>doctor ille</rs> sic <g ref="#dot"/> si gratia sit <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad aliquem intellectum licet 
+                            <lb ed="#M"/>non de virtute sermonis vel igitur propositio est vera ut subiectum stat pro intentione 
+                            <lb ed="#M"/>vel pro significato non primum modum est et si detur <choice><orig>2m</orig><reg>secundum</reg></choice> sequantur contradictoria scilicet 
+                            <cb ed="#M" n="83ra"/><lb ed="#M"/>quod nulla gratia est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> et aliqua</p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea si nulla gratia est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> 
+                        <lb ed="#M"/>nulla gratia deo nota est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem et ultra sequitur quod 
+                        <lb ed="#M"/>nulla gratia a deo dabilis est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem hoc falsum ut videtur</p>
+                    
+                    <p><g ref="#pilcrow"/>ad quod dicendum quod sive in ista gratia est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem subiectum 
+                        <lb ed="#M"/>supponat pro intentione sive pro significato istius intentionis ista 
+                        <lb ed="#M"/>est falsa de verbi gratia secundum licet in hac propositione non sit subiectum natus sup<lb ed="#M"/>ponere 
+                        pro intentione sed pro ista qualitate informante quae vocatur gratia <g ref="#dot"/> 
+                        <lb ed="#M"/>sed in proprie sumpta ut apud <choice><orig>alicos</orig><reg>aliquos</reg></choice> in proprie sumentes[?] ista gratia est 
+                        <lb ed="#M"/><choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem significat quod ista si solus de lege communi de<lb ed="#M"/>beat 
+                        haberi <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> est gratia autem[?] verum est qua ly gratia supponat 
+                        <lb ed="#M"/>confuse tantum sicut si denarius[?] in illa cui debeo denarium[?] et non 
+                        <lb ed="#M"/>determinate sicut in priori cum sumitur de virtute sermonis secundum sicut ponit determinate 
+                        <lb ed="#M"/>iste tres deni?di[?] in hac den?[?] cui debeo</p>
+                    
+                    <p><g ref="#pilcrow"/>ad aliam probationem 
+                        <lb ed="#M"/>concedendum quod de virtute sermonis loquendo nulla gratia deo nota 
+                        <lb ed="#M"/>nec etiam alia gratia a deo causabilis est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem modo praeexposito 
+                        <lb ed="#M"/>in conclusione <choice><orig>9</orig><reg>nona</reg></choice> positionis est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> gratia alia 
+                        <lb ed="#M"/>quae deo est nota et a deo causabili id est <choice><orig>neccesse</orig><reg>necesse</reg></choice> est si de communi lege sal<lb ed="#M"/>vabitur 
+                        habeat gratiam aliquam <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>Sed contra istud potest sic argui si nulla 
+                        <lb ed="#M"/>gratia informans requiritur de lege omni communi ut iste salvetur igitur nullam 
+                        <lb ed="#M"/>umquam habendo gratiam poterit iste de communi lege salvari <g ref="#dot"/> 
+                        <lb ed="#M"/><g ref="#pilcrow"/>antecedens verum pro te et consequentia bona <g ref="#dot"/> igitur consequens verum quia cum notis videtur esse 
+                        <lb ed="#M"/>falsum et consequentia patet quia singularia consequentis inferunt singularia antecedentis similiter 
+                        <lb ed="#M"/>enim haec gratia informans quacumque demerita non requiritur de communi lege ad sa<lb ed="#M"/>lutem 
+                        <name ref="#Sortes">sortis</name> <g ref="#dot"/> igitur hanc gratiam non habet habendo unquam poterit 
+                        <lb ed="#M"/><name ref="#Sortes">sortes</name> de communi lege quod sal<lb ed="#M"/>utem et sic de aliis singularibus <g ref="#dot"/> et si 
+                        <lb ed="#M"/>singularia antecedentis inferunt singularia consequentis igitur consequentia bona <choice><orig>sicud</orig><reg>sicut</reg></choice> posset 
+                        <lb ed="#M"/>probari per multas regulas puta per illam quicquid sequitur ad consequens 
+                        <lb ed="#M"/>sequitur ad antecedens <g ref="#dot"/> et similiter per illam quicquid antecedit ad antecedens antecedit ad 
+                        <lb ed="#M"/>consequens nam vel antecedit ad suas singulares et econtra tam a parte antecedentis 
+                        <lb ed="#M"/>quam a parte consequentis in tali casu igitur etc <g ref="#dot"/></p>
+                        
+                        <p><g ref="#pilcrow"/>ad istud Respondeo pro nunc 
+                            <lb ed="#M"/>quod licet singularia antecedentis sic inferant singularia consequentis quod nullus sit 
+                            <lb ed="#M"/>singularis sumptibilis[?] sub antecedente quin inferat aliquam consequentis <g ref="#dot"/> nec alia similiter 
+                            <lb ed="#M"/>antecedentis quando possit inferri ex alia vera antecedentis et per consequens quaelibet talis 
+                            <lb ed="#M"/>singularis sit vera per se sumpta hanc gratiam non habendo unquam poterit 
+                            <lb ed="#M"/>iste de communi lege demonstrata[?] <choice><orig>alica</orig><reg>aliqua</reg></choice> de copulatio extremo facta ex omni<lb ed="#M"/>bus 
+                            singularibus consequentis simul sumptis non est vera et per consequens valet talem 
+                            <lb ed="#M"/>propositionem de extremo copulato ex omnibus illis simul sumptis ad hunc sensum 
+                            <lb ed="#M"/>hanc non habendo et istam non habendo et sic de singulis potest salvari 
+                            <lb ed="#M"/>igitur propter hoc non valet consequentia prima quia plus negatur per consequens quam per aliquid inferribile[?]  
+                            <lb ed="#M"/>vel alia inferibilia ex antecedente consequens enim notat quod iste poterit de 
+                            <lb ed="#M"/>communi lege salvari dato quod numquam habiturus istam gratiam 
+                            <lb ed="#M"/>vel illam nec et sic de singulis quod falsum est</p>
+                    
+                    <p><g ref="#pilcrow"/>Exemplum neuter 
+                        <lb ed="#M"/>oculus requiritur ad hoc quod videas haec est vero inductive patet et tamen non 
+                        <lb ed="#M"/>sequitur neutrum oculum habendo potes videre quod patet per eius opponentes[?] 
+                        <lb ed="#M"/>communiter datas et etiam in abstractionibus quae falsae sunt quia exponitur sit idem dum 
+                        <lb ed="#M"/>neutrorum habens potes videre vel si neutrorum haberes posses 
+                        <lb ed="#M"/>videre quae falsae sunt per naturam saltem et tamen singularia antecedentis inferunt 
+                        <lb ed="#M"/>modo quo prius singularia consequentis nam sequitur iste oculus demonstrato[?] dextro[?] 
+                        <lb ed="#M"/>non requiritur ad hoc quod videas igitur istum oculum non habendo potere 
+                        <lb ed="#M"/>videre et iste oculus non requiritur oculus demonstrato[?] sinistro igitur istum non ha<lb ed="#M"/>bendo 
+                        potest videre et tamen non sequitur ultra igitur neuter habendo 
+                        <lb ed="#M"/>potes etc. <g ref="#pilcrow"/>Et haec Respondeo quo ad falsitatem consequentis est <name ref="#Lombard">magistri</name> 
+                        <lb ed="#M"/>abstractionum ad sophisma praetactum</p>
+                        
+                        <p><g ref="#pilcrow"/>Aliter potest dici a probabilius 
+                            <lb ed="#M"/>quod consequens non aequivalet isti nec habent oculum habendo nec illum potes 
+                            <lb ed="#M"/>videre sed huic copulative hunc oculum non habendo potes videre 
+                            <lb ed="#M"/>et istum oculum non habendo potes videre et cuiuslibet istarum singularium 
+                            <lb ed="#M"/>ratione gerundivi et huius verbi potest <g ref="#dot"/> <sic>potest</sic> esse duplex sensus unus 
+                            <lb ed="#M"/>istae habent oculum ducere non habens potes videre et haec falsa est istum 
+                            <lb ed="#M"/>solum oculum habens vel si neutrorum habens cum sit affirmativa et notet 
+                            <lb ed="#M"/>te et posse videre et hunc oculum non habere eodem modo proportionaliter 
+                            <lb ed="#M"/>si exponatur prima pars vel per quod haberet Responderi</p>
+                    
+                    <p><g ref="#pilcrow"/>Alius sensus potest 
+                        <lb ed="#M"/>esse vertendo inexponendo ly <mentioned>potes</mentioned> in posses et exponendo per 
+                        <lb ed="#M"/>si <g ref="#dot"/> <g ref="#pilcrow"/>ad hunc intellectum si hunc oculum non haberes <corr>po<add place="aboveLine">ss</add><del>t</del>es</corr> videre 
+                        <cb ed="#M" n="83rb"/><lb ed="#M"/>dato quod aliud non obstet et differetur[?] probabiliter quod singulares sunt vere 
+                        <lb ed="#M"/>et etiam universalis eorum sic exposita <g ref="#dot"/> scilicet neutrorum[?] ac bene habendo 
+                        <lb ed="#M"/>potes videre <g ref="#dot"/></p>
+                    
+                <p><g ref="#pilcrow"/>dices exponens universalis est sic falsa igitur et 
+                    <lb ed="#M"/>exposita assumptum patet <g ref="#dot"/> quia haec est falsa si neutrorum oculum haberes 
+                    <lb ed="#M"/>igitur exposita <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>dicere debes quod debet non isto modo exponi 
+                        <lb ed="#M"/>ad istum intellectum sed sit neutrorum oculum et si haberes 
+                        <lb ed="#M"/>posses videre quae est vera sicut et quaelibet eius singularis quae sunt tales 
+                        <lb ed="#M"/>istum oculum et si non haberes posses habere si aliud non obs<lb ed="#M"/>taret</p>
+                    
+                    <p><g ref="#pilcrow"/>Confirmatur pro omnia dicendum ad propositum secundum hanc Responsionem quod in 
+                        <lb ed="#M"/>expositione recipiendo ly <mentioned>potes</mentioned> in sua forma in indicativo 
+                        <lb ed="#M"/>modo sic dicendo nullam[?] gratiam habendo <name ref="#Sortes">sortes</name> potest salvari 
+                        <lb ed="#M"/>ad hunc sensum exponendo per dum id est dum nullam gratiam habet <name ref="#Sortes">sortes</name> 
+                        <lb ed="#M"/>potest salvari et per quia sic quia nullam gratiam habet <name ref="#Sortes">sortem</name> potest 
+                        <lb ed="#M"/>salvari falsa est quia haec est affirmativa notans eum nullam gratiam 
+                        <lb ed="#M"/>habere quod falsum est si habet aliquam gratiam verum si notitiam exponendo 
+                        <lb ed="#M"/>per dum <g ref="#dot"/> <g ref="#pilcrow"/>si vero exponatur per si <g ref="#dot"/> vera est et posset sic scilicet infinitam[?] 
+                        <lb ed="#M"/>gratiam unquam habendo potest salvari id est nullam gratiam et is unquam 
+                        <lb ed="#M"/>haberet posset salvari quod verum est et non debet sic exponi ad 
+                        <lb ed="#M"/>istum intellectum id est <name ref="#Sortes">sortes</name> potest salvari de communi lege etiam si 
+                        <lb ed="#M"/>numquam habiturus est gratiam <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>Iuxta hic dicta posset faciliter 
+                        <lb ed="#M"/>responderi ad multa talia sophismata pro quaestionibus apta ubi non 
+                        <lb ed="#M"/>ponitur potest <g ref="#dot"/> sed sunt de inesse et ideo faciliora verbi gratia nullus gradus 
+                        <lb ed="#M"/>contritionis est <choice><orig>neccessarius</orig><reg>necessarius</reg></choice> ad statum salutis post peccatum mortale 
+                        <lb ed="#M"/>non peccat</p> 
+                    
+                    <p>item posito quod quis promisit alicui denarium[?] tenetur 
+                        <lb ed="#M"/>sibi solvere igitur dem[?] gradus solvendo non significat promissum</p>
+                    
+                    <p><g ref="#pilcrow"/>Item 
+                        <lb ed="#M"/>sit quod aliquis indistincte noverit Ieuviare[?] in pane et aliqua 
+                        <lb ed="#M"/>in vino die veneris iste in nullo die veneris sic teneretur sic in 
+                        <lb ed="#M"/>unquam ieuviare[?] <g ref="#dot"/> igitur nullo die veneris sic iuvi?do[?] non 
+                        <lb ed="#M"/>peccabit</p> 
+                        
+                        
+                    <p><g ref="#pilcrow"/>in istis enim omnibus et similibus quae sunt de inesse potest faci<lb ed="#M"/>lius 
+                        responderi unde quo ad primum cum dicitur quod <name ref="#Sortes">sortes</name> qui peccavit et 
+                        <lb ed="#M"/>tenetur conteri in <choice><orig>alico</orig><reg>aliquo</reg></choice> gradu sed non <choice><orig>neccessitatur</orig><reg>necessitatur</reg></choice> ad certum <g ref="#dot"/> sed sit ita quod 
+                        <lb ed="#M"/>sufficiat sibi quiscumque cum dicitur inquam quod <name ref="#Sortes">sortes</name> nullum gradum contritionis 
+                        <lb ed="#M"/>habendo non peccat <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod exponendo gerundivum illud per si <g ref="#dot"/> sic 
+                        <lb ed="#M"/>id est nullum si habet non peccat quod consequentia nulla est <g ref="#dot"/> ideo falsa est expositio 
+                        <lb ed="#M"/><g ref="#pilcrow"/>Similiter si exponatur per dum vel quia peccat vel aliquam habet peccat id est ideo aliqua 
+                        <lb ed="#M"/>singularis est falsa <g ref="#pilcrow"/>Et similiter dicendum ad alias exponendo eas exponendo 
+                        <lb ed="#M"/>per si vel dum quia et secundum hoc indicandum est de eis</p>
+                    
+                    <p>et si dicas 
+                        <lb ed="#M"/>quod singularia antecedentis ubi iam Respondendum impedit singularia consequentis sequitur enim 
+                        <lb ed="#M"/>hunc gradum contritionis non tenetur habere conclusionis determino[?] igitur hoc non habendo 
+                        <lb ed="#M"/>non peccat et sic de aliis</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod contra non valet cum stent 
+                        <lb ed="#M"/>simul quod consequens sit falsum et antecedens verum nam vel aliquem gradum habet vel 
+                        <lb ed="#M"/>peccat ex quo tenetur aliquem habere et ideo si nullum gradum habere et ideo si nullum habet quod est 
+                        <lb ed="#M"/>satis possibile cum antecedente tunc conclusionis dato haec est falsa habet non habendo 
+                        <lb ed="#M"/>non peccat quia contradictoria est tunc vera nam habet non habendo peccat id est dum 
+                        <lb ed="#M"/>habens non habet non quia habent non habet sed quia nullum habet nota est verum quod 
+                        <lb ed="#M"/>singularia antecedentis inferant singularia consequentis sicut nec antecedens infert consequens</p>
+                    
+                    <p><g ref="#pilcrow"/>Ex istis sequuntur conclusiones vere quaedam ad virtute sermonis puta quod sine 
+                        <lb ed="#M"/>contritione de communi lege potest quis salvari qui mortaliter peccavit sed 
+                        <lb ed="#M"/>tamen non potest salvari sine virtuali contritione vel formali <g ref="#pilcrow"/>Similiter quod 
+                        <lb ed="#M"/>sine gratia causata potest quis de communi lege salvari sed tamen non potest 
+                        <lb ed="#M"/>salvari de communi lege sine tali gratia et similes multae</p>
+                </div>
+                <div type="dubium">
+                    <head>Decimum dubium</head>
+                    <p><g ref="#pilcrow"/><choice><orig>10m</orig><reg>decimum</reg></choice> dubium 
+                        <lb ed="#M"/>est contra illud quod dictum est in positione de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> condicionali quia si quis sal<lb ed="#M"/>vabitur 
+                        de communi requiritur gratia <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>contra non ponitur quod requiratur talis gratia 
+                        <lb ed="#M"/>nisi per eam separentur filii regni a filiis gehene[?] sed de hoc 
+                        <lb ed="#M"/>ipsa non servit nam gratia stat cum opposito status salutis scilicet 
+                        <lb ed="#M"/>cum peccato mortali igitur non est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> viatori consequentia 
+                        <lb ed="#M"/>videbatur bona antecedens patet quia ab habente gratiam gratia non tollitur 
+                        <lb ed="#M"/>nisi propter demeritum actuale habitum <g ref="#dot"/> Iste igitur prius demeretur qua gratia 
+                        <lb ed="#M"/>tollatur pro quo priori simul erunt gratia et peccatum ut videtur</p>
+                    
+                    <p><g ref="#pilcrow"/>ad 
+                        <lb ed="#M"/>istud dicendum quod si gratia staret vel stare posset cum culpa morta<lb ed="#M"/>li 
+                        ex hoc non sequitur quin sit <choice><orig>neccessitari</orig><reg>necessitari</reg></choice> ad salutem sicut patet de fide 
+                        <lb ed="#M"/>quae <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> es ad salutem licet possit stare est peccato mortali et 
+                        <lb ed="#M"/>sic de multis aliis <g ref="#dot"/> verump?n[?] gratia informans non est de 
+                        <cb ed="#M" n="83va"/><lb ed="#M"/>talibus quasi de communi lege stare possit cum peccato mortali et cum 
+                        <lb ed="#M"/>probatur quia non perditur nisi propter demeritum actualem sed in demeriendo 
+                        <lb ed="#M"/>licet non active tamen demeritorie prius nulla tollit gratiam quam ponat 
+                        <lb ed="#M"/>actum peccati licet simul tempore eodem modo proportionaliter quae ignis generans 
+                        <lb ed="#M"/>ignem ex aere prius nulla corrumpit formam aeris quam introducat 
+                        <lb ed="#M"/>formam ignis sequitur enim forma ignis ibi producitur igitur forma aeris si 
+                        <lb ed="#M"/>immediate existebat in ista materia eorum patet et non econtra igitur prius 
+                        <lb ed="#M"/>nulla haec corrumpitur quam illa producatur ex diffinitione prius nulla in <ref>5o <title ref="#Metaphysics">metaphysicae</title></ref></p>
+                    
+                    <p>Similiter hic sequitur de gratia et peccato ex quo opponitur 
+                        <lb ed="#M"/>quodammodo sic quod saltem de lege dei ordinata non compatiuntur 
+                        <lb ed="#M"/>se simul in eodem iste peccant hoc peccato mortali igitur non habet gratiam 
+                        <lb ed="#M"/>et non econverso igitur prius natura cessat gratia quam existat culpa 
+                        <lb ed="#M"/>vel actus culpae et cum arguitur gratia non tollitur nisi propter demeritum 
+                        <lb ed="#M"/>igitur prius ille demeretur quam gratia tollatur verum est prioritate causalitatis 
+                        demeritorie <g ref="#dot"/> sed non absolute prius sed simul <g ref="#dot"/> natura prius quando stat per se 
+                        <lb ed="#M"/>sicut et alia anologa stat quod significato famosiori scilicet 
+                        <lb ed="#M"/>pro priori secundum durationem et cum ultra arguitur igitur pro illo priori sta<lb ed="#M"/>bunt 
+                        simul gratia et culpa mortalis neganda est consequentia quia illud prius non 
+                        <lb ed="#M"/>est prius in quo sicut nec prius dignitate vel consequentia vel perfectione est prius in quo 
+                        <lb ed="#M"/>sed prius illud hoc est ipsummet demeritum <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>Si dicas quod per te 
+                        <lb ed="#M"/>prius natura tollitur <name ref="#Sortes">sortis</name> gratia quam ponitur actus peccati igitur demeriti positio 
+                        <lb ed="#M"/>non praecedit causalitate sublationem gratiae <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea si peccatum causalitate 
+                        <lb ed="#M"/>demeritoria praecedit sublationem gratiae igitur prioritate naturae 
+                        <lb ed="#M"/>nam prioritas causalitatis est prioritas quaedam naturae <g ref="#pilcrow"/>Ad primum istorum 
+                        <lb ed="#M"/>mihi videtur neganda esset consequentia <g ref="#dot"/> exemplum introitus <g ref="#dot"/> <c>a</c> <g ref="#dot"/> corporis in <g ref="#dot"/><c>c</c><g ref="#dot"/> locum 
+                        <lb ed="#M"/>est causa quod <g ref="#dot"/><c>b</c><g ref="#dot"/> corpus praeoccupans locum illum recedit de loco illo 
+                        <lb ed="#M"/>et tamen prius natura recedit de loco <g ref="#dot"/><c>c</c><g ref="#dot"/> corpus <g ref="#dot"/><c>b</c><g ref="#dot"/> quam intret in ipsum 
+                        <lb ed="#M"/>corpus <g ref="#dot"/><c>a</c><g ref="#dot"/> nam sequitur <g ref="#dot"/><c>a</c><g ref="#dot"/> intrat igitur <g ref="#dot"/><c>b</c><g ref="#dot"/> exit et econverso igitur prius natura 
+                        <lb ed="#M"/><c>b</c><g ref="#dot"/> exit quam <g ref="#dot"/><c>a</c><g ref="#dot"/> intrat</p>
+                    
+                    <p><g ref="#pilcrow"/>Similiter expressio ignis formae in hac materia 
+                        <lb ed="#M"/>est causa cessationis formae prioris et tamen cessatio formae prioris 
+                        <lb ed="#M"/>est prior natura introductione formae ignis</p>
+                    
+                    <p><g ref="#pilcrow"/>ad <choice><orig>2</orig><reg>secundum</reg></choice> neganda est 
+                        <lb ed="#M"/>consequentia nisi ad aliam intellectum quam prius et ita aequivoce sumitur iste terminus 
+                        <lb ed="#M"/>prius natura nam filius in divinis non praeceditur prius natura a patre quia secundum <ref><name ref="#Aristotle">philosophum</name> 
+                        in <title ref="#Categories">praedicamentis</title></ref> correlativa sunt simul natura et tamen pater est principiam[?] productum filii 
+                        <lb ed="#M"/>et propter hoc praecedit filium origine et productione vel causalitate large 
+                        <lb ed="#M"/>acceptatio vocabulo</p>
+                    
+                    <p><g ref="#pilcrow"/>Praeterea causalitate calor calefiat quam aliquid 
+                        <lb ed="#M"/>calefiat nam ideo calefacit quia aliquid calefacit et non econverso 
+                        <lb ed="#M"/>et tamen calefacere et calefieri sunt simul natura quia si aliquid calefacit 
+                        <lb ed="#M"/>et econverso igitur neutrorum est prius alio loquendo de priori nullae ut supra 
+                        <lb ed="#M"/>et ad probationem consequentiae negandum est quod assumitur si intelligatur virtute 
+                        <lb ed="#M"/>nec aequivocent de priori secundum naturam <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>dicetur si prius natura tollitur 
+                        <lb ed="#M"/>gratia quam ponatur culpa et tamen prius causalitate tollatur culpa qua 
+                        <lb ed="#M"/>tollatur gratia <g ref="#dot"/> igitur a principio ad ultimum prius tollitur culpa 
+                        <lb ed="#M"/>quam ipsa tollatur</p>
+                    
+                    <p><g ref="#pilcrow"/>dicendum quod non sequitur bene tamen sequitur quod unum 
+                        <lb ed="#M"/>istorum est uno modo sumendo prius altero et illo modo econverso et 
+                        <lb ed="#M"/>illud non est inconveniens sicut nec quod totum sit prius in perfectione parte et 
+                        <lb ed="#M"/>tamen econverso pars est prior natura suo toto</p>
+                    
+                    <p><g ref="#pilcrow"/>Similiter materia est prius natura forma 
+                        <lb ed="#M"/>quae in ipsa recipitur et tamen forma substantialis est prior perfectione sua 
+                        <lb ed="#M"/>materia</p>
+                </div>
+                
+                <div type="dubium">
+                    <head>Undecimum dubium</head>
+                    
+                    <p><g ref="#pilcrow"/><choice><orig>11m</orig><reg>undecimum</reg></choice> dubium est quia probatur quod gratia non est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> tali <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
+                        <lb ed="#M"/>secundum quid <choice><orig>ymmo</orig><reg>immo</reg></choice> quod de facto possint et sint salvati multi sine ea 
+                        <lb ed="#M"/>quia pono aliquem talem qualis fuit <name ref="#Averroes">averoys</name> habentem aestimationem 
+                        <lb ed="#M"/>invincibilem de impossibilitate ponendi habitum informan<lb ed="#M"/>tem 
+                        in anima rationali et baptizetur iste et fit mundetur sic ab originali 
+                        <lb ed="#M"/>et decedat talis decedit sine gratia et tamen salvatur quia per 
+                        <lb ed="#M"/>errorem invincibilem excusatur</p>
+                    
+                    <p><g ref="#pilcrow"/>aliud exemplum de alio praecedente 
+                        <lb ed="#M"/>habente eundem errorem et praedicante eum subditis sicut verum est</p>
+                    
+                    <p><g ref="#pilcrow"/>ad istud dicendum quod licet illud sit error quidam opinari scilicet quod homines 
+                        <lb ed="#M"/>salventur sine gratia informante tamen non apparet error dampnatus quia 
+                        <lb ed="#M"/>etiam in alio libro <title ref="#Decretals">decretalium</title> tantum praeelegit opinionem aliam ponentem gratiam 
+                        <lb ed="#M"/>et virtutes animarum informantes quasi probabiliorem ideo non apparet quod sic 
+                        <lb ed="#M"/>errans propter hoc sit in statu <choice><orig>dampnationis</orig><reg>damnationis</reg></choice> nec quod propter istum errorem 
+                        <lb ed="#M"/>perdet gratiam <g ref="#dot"/> nec talis si salvabitur salvatur sine gratia <g ref="#dot"/> sed tamen etiam simpliciter 
+                        <lb ed="#M"/>intendat opinionem talem dampnare scienter in hoc scienter rebellans 
+                        <cb ed="#M" n="83vb"/><lb ed="#M"/>ecclesiae vel in obediens doceret contrarium peccaret mortaliter <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>contra 
+                        <lb ed="#M"/>ecclesia dampnatur sicut haeresim opinionem <name ref="#Pelagius">pelagii</name> qui negavit 
+                        <lb ed="#M"/>caritatem inhaerentem igitur simpliciter ecclesiae dampnavit caritatem non in<lb ed="#M"/>haerere 
+                        animae salvantis</p>
+                    
+                    <p><g ref="#pilcrow"/>praeterea quiditas de vetula obediente 
+                        <lb ed="#M"/>doctrinae haeretici credens in sic sibi adhaerendo obedire ecclesiae <g ref="#dot"/></p>
+                    
+                    <p><g ref="#pilcrow"/>ad primum dicendum quod in multis erravit <name ref="#Pelagius">pelagius</name> negavit enim par<lb ed="#M"/>vulos 
+                        indigere gratia redemptoris vel habere peccatum et 
+                        <lb ed="#M"/>hominem posse mere naturaliter vitare omne peccatum sine gratia absolute 
+                        <lb ed="#M"/>Et certe in hoc hic erravit haereticasum[?] quod absolute negavit 
+                        <lb ed="#M"/>dei gratiam requiri ad salutem et non quia non posuit gratiam in<lb ed="#M"/>haerentem 
+                        solum <choice><orig>ymmo</orig><reg>immo</reg></choice> raro vel numquam exprimitur in <choice><orig>alico</orig><reg>aliquo</reg></choice> auctore 
+                        <lb ed="#M"/>de gratia informante usque ad <ref><title ref="#Decretals">decretalem</title> <g ref="#dot"/>7i<g ref="#dot"/></ref> <g ref="#pilcrow"/>alias opinio 
+                        <lb ed="#M"/><ref><name ref="#Lombard">magistri</name> distinctione 17 primi</ref> fuit erronea quod non dicitur licet ipse ibi non te<lb ed="#M"/>neatur</p>
+                    
+                    <p><g ref="#pilcrow"/>ad <g ref="#dot"/> <choice><orig>2m</orig><reg>secundum</reg></choice> dico quod negligentia talis in aliis pie oper<lb ed="#M"/>ans 
+                        excusabilis etiam apud deum per deductionem invincibilem donec 
+                        <lb ed="#M"/>aliter informetur <g ref="#dot"/>Si dicis ponamus aliquem non baptizatum 
+                        <lb ed="#M"/>sequentem rectam rationem in omnibus et bene operantem sicut fecit <name ref="#Cornelius">cor<lb ed="#M"/>nelius</name> 
+                        habentem propter defectum doctorum errorem invincibilem circa 
+                        <lb ed="#M"/>multos articulos fidei salvabitur ne talis</p>
+                        
+                    <!-- add break in sorb -->
+                        
+                        <p><g ref="#pilcrow"/>Respondet <ref><name>scotus</name> in prologo 
+                            <lb ed="#M"/>primi articuli</ref> et eo <choice><orig>assencio</orig><reg>assentio</reg></choice> quod talis salvaretur quia deus tali infundet 
+                            <lb ed="#M"/>fidem qualem saltem parvulis et etiam gratiam suam de lege 
+                            <lb ed="#M"/>tamen communi <choice><orig>mictit</orig><reg>mittit</reg></choice> talibus instructiones sicut ad <name ref="#Cornelius">cornelium</name> 
+                            <lb ed="#M"/>misit <name ref="#Peter">petrum</name> unde propter hic dubio unum generale quod virtututem ponitur via 
+                            <lb ed="#M"/>ad salutem potest communem modum ibi pono haberi gratiam et fidem infu<lb ed="#M"/>sam 
+                            consilii modo licet de dei omnipotentia absoluta aliter fieri potuisset</p>
+                    
+                    <p><lb ed="#M"/><g ref="#pilcrow"/>dices excusat ne a peccato quaelibet ignorantia <g ref="#dot"/> dico quod quaelibet ignorantia 
+                        <lb ed="#M"/>invincibilis simpliciter excusat a nobis excusat nos habentes usum liberi 
+                        <lb ed="#M"/>arbitrii et conantes quantum in nobis est benefacere et deum habere 
+                        <lb ed="#M"/>et speci?tes[?] salvari a peccato mortali actuali ignorantia autem vincibilis 
+                        <lb ed="#M"/>non excusat a toto sed ignorantia quae est causa peccati scilicet haec cui opposita 
+                        <lb ed="#M"/>est scientia si haberetur voluntas sic disposita quod non peccaret eo 
+                        <lb ed="#M"/>modo quo absentia causae per accidens ponitur causa illius quod evenit nec 
+                        <lb ed="#M"/>eveniret si causa oppositi prius esset ita quod si non sit affectata 
+                        <lb ed="#M"/>excusat a tanto etiam respectu illorum quae homo scire tenetur quia si fuerit 
+                        <lb ed="#M"/>affectata eo modo aliqui eligunt ignorare ut libentius sine 
+                        <lb ed="#M"/>murmure conscientiae agant talis non attendat sed <choice><orig>pocius</orig><reg>potius</reg></choice> aggravat 
+                        <lb ed="#M"/>peccatum si vere fuit non sic per se et directe volita et 
+                        <lb ed="#M"/>affectata sed tamen indirecte voluntaria eo quod voluntas libenter sciret 
+                        <lb ed="#M"/>sed non laborat circa hoc ut tenetur quia nimis <choice><orig>permictit</orig><reg>permittit</reg></choice> se oc<lb ed="#M"/>cupari 
+                        circa impertinentia ad quae afficitur ut causa alia simili talis 
+                        <lb ed="#M"/>ignorantia tunc peccatum est attenuat autem[?] aliud peccatum quod ex ignorantia 
+                        <lb ed="#M"/>tali sit pro quanto facit illud peccatum non esse voluntarium simpliciter</p>
+                </div>
+                <div type="dubium">
+                    <head>Duodecim dubium</head>
+                    <p><lb ed="#M"/><g ref="#pilcrow"/><choice><orig>12m</orig><reg>duodecim</reg></choice> dubium iuxta hoc potest esse de homine non concepto per propagationem 
+                        <lb ed="#M"/>talis ut videtur salvaretur sine gratia pono enim hominem conceptum 
+                        <lb ed="#M"/>ex vento eo modo quo in partu gallia solent aeque concipere 
+                        <lb ed="#M"/>flante flanomo sine alia commixsione et conformat se 
+                        <lb ed="#M"/>talibus legibus naturae si decedat ut videtur nec punietur <choice><orig>pena</orig><reg>poena</reg></choice> 
+                        <lb ed="#M"/>sensus nec <choice><orig>pena</orig><reg>poena</reg></choice> dampni quia caret originali et actuali igitur salvabitur</p>
+                    
+                    <!-- add break in sorb here -->
+                    
+                    <p><lb ed="#M"/><g ref="#pilcrow"/>ad istud dico quod isto modo vel alio non permixtionem seminum fieret 
+                        <lb ed="#M"/>aliquis homo sicut refert verump?n[?] solnius[?] de mirabilibus mundi capitulo 
+                        <lb ed="#M"/>55 ubi habetur quod meritoria in die essem nulla ibi femina[?] nullius ibi <corr><del rend="underline">piscitur</del><add place="marginRight">nascitur</add></corr> 
+                        <lb ed="#M"/>et tamen est ibi una gens perpetua et sic per immensum spatium saeculorum 
+                        <lb ed="#M"/>incredibile deum aeterna gens est cessantibus <g ref="#dot"/> haec ibi 
+                        <lb ed="#M"/>hic innititur quod ibi alio modo quam communi propagatione ut homines</p>
+                    
+                    <p><g ref="#pilcrow"/>Respondeo 
+                        <lb ed="#M"/>tamen quod <sic>incredo</sic> ingentem egenorum perpetuari ex hominibus non propagatis 
+                        <lb ed="#M"/>nec eum credo velle dicere sed perpetratur forte gens ita per receptionem 
+                        <lb ed="#M"/>aliarum <choice><orig>gencium</orig><reg>gentium</reg></choice> ad istas partes sicut plane exprimit nam 
+                        <lb ed="#M"/>postquam dixerat ibi de fenia[?] ibi nullus nascitur addit sed 
+                        <lb ed="#M"/>ad eam multarum gentium perpetat multitudo nullius tamen ibi admittitur 
+                        <lb ed="#M"/>nisi quem castitatis et innocentiae meritum prosequitur nam qui rebus est 
+                        <lb ed="#M"/>vel levis culpae quamvis ingredi velit demeritus submovetur hoc 
+                        <lb ed="#M"/>modo perpetamur[?] religiones et angelicae societates in <sic>universibus</sic></p>
+                    
+                    <p><lb ed="#M"/><g ref="#pilcrow"/>dato inquam quod miraculose praeter commixtionem seminum fieret unus 
+                        <cb ed="#M" n="84ra"/><lb ed="#M"/>homo et sine illo misero puritu[?] matris vel potius sine matre ut pote de digito hominis sint aeva fiebat de costa veri dico quod tale peccatum originale non contraheret nec indigeret gratia ad istud purgandum sed ad proficiendum et forte etiam ad cavendum peccata actu alia et de isto in <corr><del rend="erased">h</del>omnibus</corr> dicendum sicut in <choice><orig>3o</orig><reg>tertio</reg></choice> in materia de fomice dicetur <choice><orig>sicud</orig><reg>sicut</reg></choice> enim prius homo mereri non potuit ex puris naturalibus sine gratia sic nec iste posset de communi lege</p>
+                </div>
+                <div type="dubium">
+                    <head>Tres decimum dubium</head>
+                    <p><g ref="#pilcrow"/><choice><orig>13m</orig><reg>tres decimum</reg></choice> dubium est contra illud quod dictum est non posse 
+                    divina mandta servare sine gratia dei</p>
+                    
+                    <p>Contra istud dices 
+                        tu non curo quod non possint omnia praecepta divina sine caritate 
+                        servare usfficit mihi quod impleat praeceptum de dilectione dei et 
+                        proximi et in hoc faciendo moveri[?] aliter[?] talis ut videtur salvabitur a pe?a[?] sensus 
+                        nec peccabit quia conformando se perfecte legibus naturae non peccat peccato 
+                        actuali</p>
+                    
+                    <p><g ref="#pilcrow"/>ad illud dicendum est primo quod ad saltem non sufficit 
+                        aliquod mandatum servare contra aliud delinquendo dicit[?] enim <name>iacobum</name> in 
+                        <title>canonica sua</title> capitulo 2 quicumque autem total legem servavit offendat 
+                        autem in uno factus est omnium rebus qui enim dixerit non 
+                        mechaberis[?] dixit non occides aut factus est transgressor 
+                        legis</p>
+                    
+                    <p><g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice> dico quod nec illud praeceptum potest ad mentem mandantis 
+                        servari sine caritate nec mirorum cum <name>apostolus</name> dicat <title>ad Romanos</title> 13 
+                        plenitudo legis est dilectio <g ref="#dot"/>Et <title>matthias[?]</title> 22 In hiis duobus mandatis 
+                        universa lex pendet et prophetiae et <name>augustinus</name> ille tenet quidquid 
+                        latet et quidquid patet in divino sermone qui caritatem tenet in opere breviter 
+                        quicumque diligit deum et proximum sint tenetur virtualiter amonet omne impeditum 
+                        salutis si potest utpote omnium ingorantiam et voluntatem male faciendi et similia et per consequens isto habito facit virtualiter libere quod in se est et 
+                        ita habet gratiam ita enim <corr>cur<g ref="#carrot"/><add place="aboveLine">[??]</add></corr> deus</p>
+                </div>
+                    <div type="#dubium">
+                        <head>Quartum decimum dubium</head>
+                        <p><g ref="#pilcrow"/>quartum decimum dubium est contra responsionem 
+                            ad <choice><orig>4m</orig><reg>quartum</reg></choice> dubium et arguitur quod magnitudo malitiae peccati mortalis sic intensive 
+                            infinita quia suppono quod actus sit temporalis et per consequens sequitur quod 
+                            cum quaelibet instanti alio et alio et etiam qualibet parte temporis quibus iste continuat 
+                            actum pro quaelibet aggravet intentisve peccatum sequitur quod 
+                            iuxta multitudinem partium instantium temporis est intentio malitiae mortalis 
+                            talis actus etc.</p>
+                        
+                        <p><g ref="#pilcrow"/>ad istum dicendum quod non pro quolibet instanti quo 
+                            concipiatur actus peccati idem aggravatur peccatum intensive sed pro quolibet 
+                            instnati pro quo posset et teneretur noviter decescari peccatum vel non 
+                            facit et talia non sutn simul sumpta nisi pauca repsective saltem 
+                            non infinite in quocumque tempore fruitio propter c?a[?] minima 
+                            a voluntate creata perceptibilia vel maxima ab ea non perceptibila 
+                            vel propter hoc quod si modo deliberat et non vult ponitere[?] 
+                            vel vult differre vel perinpendit[?] est secundum praesentes circumstantias 
+                            dare tempus inf?um[?] quod non noviter est iterato <choice><orig>inpossibilitate</orig><reg>impossibilitate</reg></choice> voluntatis detestare 
+                            peccatum huius ut supra habitum est distinctione prima</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
