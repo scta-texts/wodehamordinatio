@@ -51,10 +51,6 @@
   </teiHeader>
   <text type="critical" xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
         <pb ed="#M" facs="M66r" n="66-r" />
         <cb ed="#M" n="b" />
@@ -77,10 +73,13 @@
             <supplied>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in
               rebus aliis factis propter hominem est vestigium eiusdem Trinitatis</supplied>
           </head>
-
-          <p xml:id="b1d3qun-cdtvet"> Circa distinctionem tertiam quaero, utrum mens humana sit
-            imago Trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium
-            eiusdem Trinitatis.</p>
+          <p xml:id="b1d3qun-cdtvet"> 
+            Circa distinctionem tertiam quaero, 
+            utrum mens humana sit
+            imago Trinitatis increatae sicut in rebus aliis 
+            factis propter hominem est vestigium
+            eiusdem Trinitatis.
+          </p>
         </div>
         <div xml:id="b1d3qun-Drprprp" type="rationes-principales">
           <head xml:id="b1d3qun-Hrprprp">
@@ -100,16 +99,22 @@
                 </app> 
                 bonum 
                 <app>
-                  <lem> quod in illo creavit Deus, id est imaginem suam, semper laudaret dictum non
-                    solum lingua sed et vita </lem>
+                  <lem>
+                    quod in illo creavit Deus, 
+                    id est imaginem suam, semper laudaret <unclear>Deum <!-- still needs check in diplomatic --></unclear> non
+                    solum lingua sed et vita
+                  </lem>
                   <rdg type="variation-absent" wit="#T #M" />
                 </app>
               </quote>
-              <bibl>Auctor incertus (forte <name ref="#Augustine">Augustinus</name>,
-                  <title>Sermo</title> CCCXV (PL 39:2349)). 
+              <bibl>
+                Auctor incertus (forte <name ref="#Augustine">Augustinus</name>,
+                <title>Sermo</title> CCCXV (PL 39:2349)). 
               </bibl>
             </cit> 
-            etc. Igitur ex opposito: non sic laudat, 
+            etc. 
+            Igitur ex opposito: 
+            non sic laudat, 
             <pb ed="#S" n="79-v" />
             <cb ed="#S" n="a" /> 
             igitur non 
@@ -119,10 +124,11 @@
             </app> 
             in se bonum illud 
             <app>
-              <lem>secundum</lem>
-              <rdg wit="#T #V">scilicet</rdg>
+              <lem wit="#T #V #S">scilicet</lem>
+              <rdg wit="#M">secundum</rdg>
             </app> 
-            imaginem Dei, et tamen 
+            imaginem Dei 
+            et tamen 
             <app>
               <lem n="tamen"/>
               <rdg type="correction-deletion" wit="#T">
@@ -130,15 +136,18 @@
               </rdg>
             </app>
             <app>
-              <lem>servat mentem suam. Igitur mens humana non est imago Dei.</lem>
+              <lem>
+                servat mentem suam. 
+                Igitur mens humana non est imago Dei.
+              </lem>
               <rdg type="variation-absent" wit="#M" />
             </app>
           </p>
-
           <p xml:id="b1d3qun-idteit">
             Item, 
             <cit>
-              <ref>14 
+              <ref>
+                14 
                 <title ref="#deTrinitate">
                   <app>
                     <lem>De</lem>
@@ -146,7 +155,7 @@
                   </app> 
                 Trinitate
                 </title>, 
-                c. 7, de parvis 
+                c. 7 de parvis, 
               </ref>
               <bibl>
                 <name ref="#Augustine">Augustinus</name>, 
@@ -173,7 +182,7 @@
                 </app>
               </quote>
               <bibl>Psalmus 38:7.</bibl>
-            </cit>, 
+            </cit>
             <app>
               <lem>quia</lem>
               <rdg wit="#M #V">quod</rdg>
@@ -227,12 +236,17 @@
               <lem>Dei</lem>
               <rdg type="variation-absent" wit="#T" />
             </app> 
-            quam homo, quia unumquodque propter quod et illud magis. Consequens falsum 
+            quam homo 
+            quia 
+            unumquodque propter quod et illud magis. <!-- dbcheck transcription here  -->
+            Consequens falsum 
             <app>
               <lem>est</lem>
               <rdg type="variation-absent" wit="#S #V" />
-            </app>, 
-            quia homo magis est similis Deo quam mens, et exprimitur ab eo, igitur 
+            </app>
+            quia homo magis est similis Deo quam mens, 
+            et exprimitur ab eo, 
+            igitur 
             <app>
               <lem>magis</lem>
               <rdg wit="#M">maius</rdg>
@@ -254,40 +268,44 @@
             </app>
             <mentioned>imaginis</mentioned> 
             quam ponit 
+            <ref corresp="#b1d3qun-Qieecei">
+              <name ref="#Augustine">Augustinus</name>,
+              <title ref="#deDiversisQuaestionibus">De 83 Quaestionibus</title>, 
+              quaestione 
+              <app>
+                <lem>74</lem>
+                <rdg wit="#S">78</rdg>
+              </app>, 
+            </ref>
+            ubi dicit, 
+            quod 
             <cit>
-              <ref corresp="#b1d3qun-Qieecei">
-                <name ref="#Augustine">Augustinus</name>
-                <title ref="#deDiversisQuaestionibus">De 83 Quaestionibus</title>, quaestione 
-                <app>
-                  <lem>74</lem>
-                  <rdg wit="#S">78</rdg>
-                </app>, 
-              </ref>
+              <quote type="paraphrase" xml:id="b1d3qun-Qieecei" source="http://scta.info/resource/a83-q74">
+                imago est
+                expressa 
+                <cb ed="#T" n="b" /> <!-- T56vb --> 
+                similitudo illius cuius est imago.
+              </quote>
               <bibl>
                 <name ref="#Augustine">Augustinus</name>, 
                 <title ref="#deDiversisQuaestionibus"> De diversis quaestionibus octoginta </title>, 
                 q. 74 (CCSL ???; PL 40:86): "ut in
                 speculo est imago hominis, quia de illo expressa est." 
               </bibl>
-            </cit> 
-            ubi dicit quod 
-            <quote type="paraphrase" xml:id="b1d3qun-Qieecei"> imago est
-              expressa 
-              <cb ed="#T" n="b" /> <!-- T56vb --> 
-              similitudo illius cuius est imago.
-            </quote> 
-            Assumptum
-            probatur quia homo est ens 
+            </cit>
+            Assumptum probatur 
+            quia homo est ens 
             <app>
               <lem>nobilius</lem>
               <rdg wit="#S">nobilior</rdg>
             </app> 
-            quam mens hominis, igitur est magis similis Deo. 
+            quam mens hominis, 
+            igitur est magis similis Deo. 
             Consequentia patet per 
             <ref
               corresp="#b1d3qun-Qqcenp">
-              <name ref="#Anselm">Anselmum</name>
-              <title ref="#Monologion">Monologion</title> 
+              <name ref="#Anselm">Anselmum</name>,
+              <title ref="#Monologion">Monologion</title>, 
               capitulis 
               <app>
                 <lem>31</lem>
@@ -295,7 +313,7 @@
               </app> 
               et 66 
             </ref>, 
-            ubi dicit 
+            ubi dicit
             <app>
               <lem>
                 <name ref="#Anselm">Anselmus</name>
@@ -303,7 +321,7 @@
               <rdg wit="#M #T" />
             </app>: 
             <cit>
-              <quote xml:id="b1d3qun-Qqicenp">
+              <quote xml:id="b1d3qun-Qqicenp" source="http://scta.info/resource/adcmon-c66">
                 <app>
                   <lem>quidquid</lem>
                   <rdg type="correction-addition" wit="#S">
@@ -313,35 +331,44 @@
                 inter creata 
                 <app>
                   <lem>Deo</lem>
-                  <rdg type="variation-absent" wit="#M #T" />
+                  <rdg type="variation-absent" wit="#M #T"/>
                 </app> 
                 constat esse similius 
                 <app>
                   <lem n="similius"/>
                   <rdg wit="#M #T">Deo</rdg>
                 </app>, 
-                illud necesse 
+                <unclear>illud <!-- id ?? --></unclear> 
+                necesse 
                 <app>
                   <lem>est</lem>
                   <rdg type="variation-absent" wit="#T" />
                 </app> 
-                esse natura praestantius.
+                esse natura praestantius
               </quote>
               <bibl>
-                <name>Anselmus</name>, <title>Monologion</title>, c. 66 (Schmitt I:77): "Quidquid
-                enim inter creata constat illi esse similius, id necesse est esse natura
+                <name>Anselmus</name>, 
+                <title>Monologion</title>, 
+                c. 66 (Schmitt I:77): 
+                "Quidquid
+                enim inter creata constat illi esse similius, 
+                id necesse est esse natura
                 praestantius." 
               </bibl>
-            </cit> 
-            Assumptum probatur quia 
-            <ref corresp="#b1d3qun-fccstb"> 1 
-              <title ref="#Ethics" >Ethicorum</title> 
+            </cit>.
+            Assumptum probatur 
+            quia 
+            <ref corresp="#b1d3qun-fccstb">
+              I 
+              <title ref="#Ethics" >Ethicorum</title>, 
               c. 8 in fine, 
-              dicit <name ref="#Aristotle">Philosophus</name>
+              dicit 
+              <name ref="#Aristotle">Philosophus</name>
             </ref> 
             quod 
             <cit>
-              <quote xml:id="b1d3qun-fccstb">felicitas 
+              <quote xml:id="b1d3qun-fccstb">
+                felicitas 
                 <app>
                   <lem>connumerata</lem>
                   <rdg wit="#M">communicata</rdg>
@@ -353,38 +380,44 @@
                     <add place="above-line">est</add>
                   </rdg>
                 </app> 
-                eligibilior quam ipsa felicitas, 
-                <app>
-                  <lem>et</lem>
-                  <rdg wit="#M">est</rdg>
-                </app> 
-                addit quod semper maius bonum est eligibilius. 
+                eligibilior quam ipsa felicitas
               </quote>
               <bibl>
                 <name ref="#Aristotle">Aristoteles</name>, <title ref="#Ethics">N. Ethica</title>,
-                Bk. I, c. 7 (1097b21).
+                Bk. I, c. 7 (1097b21). <!-- this source is wrong -->
               </bibl>
-            </cit>
+            </cit>,
+            <app>
+              <lem>et</lem>
+              <rdg wit="#M">est</rdg>
+            </app>
+            addit quod semper maius bonum est eligibilius. <!-- possible second quote from aristotle here --> 
             <app>
               <lem>Igitur</lem>
               <rdg type="variation-orthography" wit="#S">Ergo</rdg>
             </app>, 
-            pari ratione, mens humana cum quocumque bono est 
+            pari ratione, 
+            mens humana cum quocumque bono est 
             <app> <!-- #T has "est est", the second "est" being strikenthough -->
               <lem n="est" />
               <rdg type="correction-deletion" wit="#T">
                 <del>est</del>
               </rdg>
             </app> 
-            melior quam ipsa solitaria. Igitur, compositum ex ipsa 
+            melior quam ipsa solitaria. 
+            Igitur, 
+            compositum ex ipsa 
             <app>
               <lem>mente</lem>
               <rdg wit="#T #M" />
             </app> 
-            et corpore, scilicet homo, est nobilius sola mente. 
+            et corpore, 
+            scilicet homo, 
+            est nobilius sola mente. 
           </p>
           <p xml:id="b1d3qun-ismnrd">
-            Item, si mens humana sit imago Trinitatis increatae, 
+            Item, 
+            si mens humana sit imago Trinitatis increatae, 
             <app>
               <lem>igitur aut</lem>
               <rdg type="variation-inversion" wit="#T #M">aut igitur</rdg>
@@ -9765,7 +9798,7 @@
                     <rdg wit="#V #T" type="variation-absent"/>
                   </app> 
                   <cit>
-                    <quote ana="Icor13_13">
+                    <quote ana="#Icor13_13">
                       <seg type="qs">fides,</seg> 
                       inquit, 
                       <seg type="qs">spes 
@@ -11488,7 +11521,7 @@
                 quia 
                 ibi 
                 <cit>
-                  <quote xml:id="b1d3qun-Qaeeeep">amor eius erit perfectus</quote>
+                  <quote xml:id="b1d3qun-Qaeeeep" source="http://scta.info/resource/adt-l9">amor eius erit perfectus</quote>
                   <bibl>Augustine, De Trinitate, 9.4.4</bibl>
                 </cit> 
                 sicut dicit 

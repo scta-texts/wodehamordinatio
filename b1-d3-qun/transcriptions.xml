@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/tdf-schema/master/src/tdf-1.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<list>
+  <manifestation>
+    <name>en</name>
+    <title>English</title>
+    <language>en</language>
+    <transcriptions>
+      <transcription transcriptionDefault="true">
+        <type>translation</type>
+        <version versionDefault="true">
+          <hash>transcription</hash>
+          <versionNo n="0.0.0-dev">Version 0.0.0-dev</versionNo>
+          <url>en_b1-d3-qun.xml</url>
+        </version>
+      </transcription>
+    </transcriptions>
+  </manifestation>  
+</list>
