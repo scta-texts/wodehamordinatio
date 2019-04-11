@@ -239,7 +239,17 @@
             </app> 
             quam homo 
             quia 
-            unumquodque propter quod et illud magis. <!-- dbcheck transcription here  -->
+            <cit>
+              <quote xml:id="b1d3qun-Quiytrd" source="http://scta.info/resource/pl4oi8-d1e51">
+                unumquodque propter quod, 
+                et illud magis
+              </quote>
+              <bibl>
+                <name>Aristoteles</name>
+                <title>An. Posterior</title>
+                I, c. 2, n. 15 (27a29)
+              </bibl>
+            </cit>.
             Consequens falsum 
             <app>
               <lem>est</lem>
@@ -339,7 +349,10 @@
                   <lem n="similius"/>
                   <rdg wit="#M #T">Deo</rdg>
                 </app>, 
-                <unclear>illud <!-- id ?? --></unclear> 
+                <app>
+                  <lem wit="#V">id</lem>
+                  <rdg wit="#M #T">illud</rdg>
+                </app> 
                 necesse 
                 <app>
                   <lem>est</lem>
@@ -350,11 +363,11 @@
               <bibl>
                 <name>Anselmus</name>, 
                 <title>Monologion</title>, 
-                c. 66 (Schmitt I:77): 
-                "Quidquid
+                c. 66 (Schmitt I:77) 
+                <!--"Quidquid
                 enim inter creata constat illi esse similius, 
                 id necesse est esse natura
-                praestantius." 
+                praestantius." -->
               </bibl>
             </cit>.
             Assumptum probatur 
@@ -467,7 +480,12 @@
             Trinitatem esse in Deo. 
             Consequens falsum <supplied>est</supplied> 
             quia eius
-            cognitio non magis 
+            cognitio 
+            <app>
+              <lem>non</lem>
+              <rdg wit="#V" type="variation-absent"/>
+            </app> 
+            magis 
             <app>
               <lem wit="#S">adducit in cognitionem veram</lem>
               <rdg type="variation-substance" wit="#M #T #V">abducit a cognitione vera</rdg>
