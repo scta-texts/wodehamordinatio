@@ -422,12 +422,15 @@
               <lem>igitur aut</lem>
               <rdg type="variation-inversion" wit="#T #M">aut igitur</rdg>
             </app> 
-            ratione substantiae suae, et hoc non, quia illa 
+            ratione substantiae suae, 
+            et hoc non 
+            quia illa 
             <app>
               <lem>non</lem>
               <rdg type="variation-absent" wit="#T #M" />
             </app> 
-            repraesentat distinctionem personarum; aut ratione actuum quos causat et recipit,
+            repraesentat distinctionem personarum, 
+            aut ratione actuum quos causat et recipit,
             et hoc 
             <app>
               <lem>non</lem>
@@ -450,7 +453,9 @@
               <rdg type="variation-substance" wit="#M #T">et</rdg>
               <rdg type="variation-substance" wit="#S">quia si</rdg>
             </app> 
-            sic, tunc cognitio perfecta illius imaginis nata esset inducere vel saltem iuvare 
+            sic, 
+            tunc cognitio perfecta illius imaginis 
+            nata esset inducere, vel saltem iuvare, 
             <app>
               <lem>ad cognoscendum</lem>
               <rdg type="correction-addition" wit="#S #V">
@@ -458,7 +463,9 @@
               </rdg>
               <rdg type="variation-absent" wit="#M #T" />
             </app> 
-            Trinitatem esse in Deo. Consequens falsum <supplied>est</supplied>, quia eius
+            Trinitatem esse in Deo. 
+            Consequens falsum <supplied>est</supplied> 
+            quia eius
             cognitio non magis 
             <app>
               <lem wit="#S">adducit in cognitionem veram</lem>
@@ -466,9 +473,11 @@
             </app> 
             ipsius Trinitatis increatae 
             <app>
-              <lem>quam aliud</lem>
+              <lem>quam aliud</lem> <!-- dbcheck inclusion -->
               <rdg type="variation-absent" wit="#M #T #V" />
-            </app>. Probo sive enim <!-- There's something strange about the grammar here. "Enim" is usually the second word of the sentence, so I thinks I haven't understood this quite correctly. [NV] -->
+            </app>. 
+            Probo <!-- dbcheck against "probatio" --> 
+            sive enim <!-- There's something strange about the grammar here. "Enim" is usually the second word of the sentence, so I thinks I haven't understood this quite correctly. [NV] -->
             <app>
               <lem>in</lem>
               <rdg type="correction-addition" wit="#T">
@@ -484,7 +493,7 @@
             </app> 
             sive non videtur 
             <app>
-              <lem>abducere</lem>
+              <lem>abducere</lem> <!-- dbcheck "videtur abducere"; makes more sense to end with just "sive non. Si enim sic" -->
               <rdg type="correction-substitution" wit="#S">
                 <subst>
                   <del rend="expunctuated">adducere</del>
@@ -492,13 +501,18 @@
                 </subst>
               </rdg>
             </app>. 
-            Si enim sic, tunc sunt diversae res et per consequens vel sunt partes mentis vel
-            accidentia in ipsa, et ita ista cognitio faceret 
+            Si enim sic, 
+            tunc sunt diversae res 
+            et per consequens vel sunt partes mentis vel
+            accidentia in ipsa, 
+            et ita ista cognitio faceret 
             <app>
               <lem>aestimare</lem>
               <rdg type="variation-substance" wit="#M">aestimari</rdg>
             </app> 
-            quod personae essent partes Dei vel accidentia in eo, et 
+            quod personae essent partes Dei 
+            vel accidentia in eo, 
+            et 
             <app>
               <lem n="et" wit="#M #T" />
               <rdg type="correction-addition" wit="#S #V">
@@ -512,20 +526,23 @@
                 <add place="above-line">quod</add>
               </rdg>
             </app> 
-            non Deus. Si 
+            non Deus. 
+            Si 
             <app>
               <lem>autem</lem>
               <rdg type="variation-absent" wit="#S #T" />
-            </app>non sit 
+            </app> 
+            non sit 
             <app>
               <lem n="sit"/>
               <rdg wit="#S" type="variation-present">realis distinctio</rdg>
             </app>, 
-            tunc faceret aestimare personas non realiter distingui.
+            tunc faceret aestimare personas 
+            non realiter distingui.
           </p>
-
           <p xml:id="b1d3qun-isqati"> 
-            Item specialiter quod mens non sit imago 
+            Item, 
+            specialiter quod mens non sit imago 
             <app>
               <lem>ratione</lem>
               <rdg type="variation-absent" wit="#M" />
@@ -536,58 +553,70 @@
               <rdg type="variation-substance" wit="#S #T #V">accidentium</rdg>
             </app>, 
             quia 
-            <ref>
+            <ref xml:id="b1d3qun-Radf3fd" corresp="#b1d3qun-Qiciani">
               <app>
                 <lem>14</lem>
                 <rdg type="variation-substance" wit="#M">48</rdg>
               </app>
-              <title ref="#deTrinitate">De Trinitate</title>, c. 
+              <title ref="#deTrinitate">De Trinitate</title>, 
+              c. 
               <app>
                 <lem>6</lem>
                 <rdg type="variation-substance" wit="#T">16</rdg>
               </app> 
               de parvis, 
-              dicit <name ref="#Augustine">Augustinus</name>
+              dicit 
+              <name ref="#Augustine">Augustinus</name>
             </ref> 
-            quod 
+            quod,
             <cit>
-              <quote xml:id="b1d3qun-Qiciani">imago creatoris immortaliter 
+              <quote xml:id="b1d3qun-Qiciani" source="http://scta.info/resource/adt-l14">
+                imago creatoris immortaliter 
                 <app>
                   <lem>inserta</lem>
                   <rdg type="variation-substance" wit="#M">infinita</rdg>
                 </app> 
-                est animae hominis rationali seu intellectuali, sed actus non immortaliter, 
-                <app>
-                  <lem>igitur</lem>
-                  <rdg type="variation-absent" wit="#M #T #S" />
-                </app>. 
+                est animae hominis rationali seu intellectuali, 
+                sed actus non immortaliter, 
               </quote>
               <bibl>
                 <name ref="#Augustine">Augustinus</name>, 
                 <title ref="#deTrinitate">De Trinitate</title>, 
-                Bk. XIV, c. 3, n. 6 (CCSL 50A:428; PL 42:1040): "ea est
-                invenienda in anima hominis, id est rationali, sive intellectuali, imago creatoris,
-                quae immortaliter immortalitati eius est insita."
+                Bk. XIV, c. 3, n. 6 (CCSL 50A:428; PL 42:1040) 
+                <!--
+                  "ea est invenienda in anima hominis, id est rationali, 
+                  sive intellectuali, imago creatoris, 
+                  quae immortaliter immortalitati eius est insita."
+                -->
               </bibl>
-            </cit> 
-            Et ibidem etiam 
+            </cit>
+            <app>
+              <lem>igitur</lem>
+              <rdg type="variation-absent" wit="#M #T #S" />
+            </app>.
+            Et  
             <cit>
-              <ref>c. 
+              <ref xml:id="b1d3qun-Rqwefef" target="http://scta.info/resource/adt-l14">
+                ibidem etiam c. 
                 <app>
                   <lem>4</lem>
                   <rdg type="variation-substance" wit="#V #T">5</rdg>
-                </app> vult <name ref="#Augustine">Augustinus</name>
+                </app> 
+                vult 
+                <name ref="#Augustine">Augustinus</name>
               </ref>
               <bibl>
                 <name ref="#Augustine">Augustinus</name>, 
                 <title ref="#deTrinitate">De Trinitate</title>, 
-                Bk. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038): "Ex quo
+                Bk. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038).
+                <!--"Ex quo
                 colligitur, ut si iam imago Dei est ista Trinitas, etiam ipsa non in eis quae semper
-                sunt, sed in rebus sit habenda transeuntibus". 
+                sunt, sed in rebus sit habenda transeuntibus".--> 
               </bibl>
-            </cit> 
-            quod imago illa non est attendenda in rebus transeuntibus, 
-            sed actus transeunt, igitur. 
+            </cit>,
+            quod imago illa non est attendenda in rebus transeuntibus. 
+            Sed actus transeunt, 
+            igitur. 
           </p>
         </div>
 
