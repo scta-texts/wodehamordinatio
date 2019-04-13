@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -25,7 +24,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="T">Tarazona, Bibl. de la Catedral, Cod. 7</witness>
+          <witness xml:id="T" n="tara">Tarazona, Bibl. de la Catedral, Cod. 7</witness>
          </listWit>
       </sourceDesc>
     </fileDesc>
@@ -47,10 +46,6 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
         <pb ed="#T" n="56-v" />
         <cb ed="#T" n="a" />
@@ -71,24 +66,22 @@
           </p>
           <div xml:id="b1d3qun-Drprprp" type="rationes-principales">
             <head xml:id="b1d3qun-Hrprprp">Rationes principales</head>
-
-            <p xml:id="b1d3qun-qnveid">quod non videtur quia secundum <name ref="#Augustine">augustinum</name> 
+            <p xml:id="b1d3qun-qnveid">
+              quod non videtur quia secundum <name ref="#Augustine">augustinum</name> 
               <lb ed="#T" n="44"/>in <ref><title>sermone communi de uno martyre</title></ref><pc ana="#punctus"/> <quote>si servasset in se bonum</quote>
               <lb ed="#T" n="45"/>etc. igitur ex opposito non sic laudat igitur non <unclear>servat</unclear> in se bonum illud scilicet ymaginem dei
-              <lb ed="#T" n="46"/>et tamen <del rend="erasure"><unclear>in</unclear></del> servat mentem suam<pc ana="#punctus"/> igitur mens humana non est ymago dei</p>
-
-            <p xml:id="b1d3qun-idteit"><pc ana="#pilcrow"/>Item <ref>14 <title ref="#deTrinitate">de trinitate</title> c.
-              <lb ed="#T" n="46"/>7 de parvis</ref> dicit iuxta illud <unclear>psalmum <!-- it was ambiguous between "psalmus" and "psalmum", since the abbr. is simply "ps" --></unclear> <pc ana="#punctus"/> <quote>verumtamen in ymagine pertransit homo sed etc. quia haec ymago
-              <lb ed="#T" n="47"/>ita deformis et obscura facta est ut paene nulla sit</quote><pc ana="#punctus"/> ipsa autem mens humana secundum substantiam
-              <lb ed="#T" n="48"/>suam integre manet <pc ana="#punctus"/> igitur secundum substantiam suam non est ymago trinitatis<pc ana="#punctus"/></p>
+              <lb ed="#T" n="46"/>et tamen <del rend="erasure"><unclear>in</unclear></del> servat mentem suam<pc ana="#punctus"/> igitur mens humana non est ymago dei
+            </p>
+            <p xml:id="b1d3qun-idteit">
+              <pc ana="#pilcrow"/>Item <ref>14 <title ref="#deTrinitate">de trinitate</title> c.
+              <lb ed="#T" n="47"/>7 de parvis</ref> dicit iuxta illud <unclear>psalmum <!-- it was ambiguous between "psalmus" and "psalmum", since the abbr. is simply "ps" --></unclear> <pc ana="#punctus"/> <quote>verumtamen in ymagine pertransit homo sed etc. quia haec ymago
+              <lb ed="#T" n="48"/>ita deformis et obscura facta est ut paene nulla sit</quote><pc ana="#punctus"/> ipsa autem mens humana secundum substantiam
+              <lb ed="#T" n="49"/>suam integre manet <pc ana="#punctus"/> igitur secundum substantiam suam non est ymago trinitatis<pc ana="#punctus"/></p>
             
             <p xml:id="b1d3qun-immnsm"><pc ana="#pilcrow"/>Item mens magis
-              <lb ed="#T" n="49"/>esset ymago quam homo quia unumquodque <pc ana="#punctus"/> propter quod et illud magis<pc ana="#punctus"/> consequens falsum est quia homo magis
-              <lb ed="#T" n="50"/>est similis deo quam mens et exprimitur ab eo<pc ana="#virgula"/> igitur magis est eius ymago <pc ana="#punctus"/> haec consequentia patet <pc ana="#punctus"/> quia per
-              <lb ed="#T" n="51"/>definitionem ymaginis quam ponit <ref><name ref="#Augustine">augustinus</name> <title ref="deDiversisQuaestionibus">De 83 quaestionibus</title> quaestione 74</ref> ubi dicit quod ymago est expressa
-              <!-- -->
-              <!-- -->
-              <!-- -->
+              <lb ed="#T" n="50"/>esset ymago quam homo quia unumquodque <pc ana="#punctus"/> propter quod et illud magis<pc ana="#punctus"/> consequens falsum est quia homo magis
+              <lb ed="#T" n="51"/>est similis deo quam mens et exprimitur ab eo<pc ana="#virgula"/> igitur magis est eius ymago <pc ana="#punctus"/> haec consequentia patet <pc ana="#punctus"/> quia per
+              <lb ed="#T" n="52"/>definitionem ymaginis quam ponit <ref><name ref="#Augustine">augustinus</name> <title ref="deDiversisQuaestionibus">De 83 quaestionibus</title> quaestione 74</ref> ubi dicit quod ymago est expressa
               <cb ed="#T" n="b"/> <!-- 56vb -->
               <lb ed="#T" n="1"/>similitudo illius cuius est ymago <pc ana="#pilcrow"/> Assumptum probatur quia homo est ens nobilius quam mens hominis igitur est magis
               <lb ed="#T" n="2"/>similis deo consequentia patet<pc ana="#punctus"/> per <ref><name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monologion</title> c. 31 et 66</ref> ubi dicit <quote>quidquid inter creata constat esse
@@ -764,7 +757,7 @@
                     <lb ed="#T" n="52"/><gap unit="lines" quantity="1"/>
                     <lb ed="#T" n="53"/><gap unit="lines" quantity="1"/>
                     <!---->
-                    <pb ed="#T" n="58-va"/>
+                    <pb ed="#T" n="58-v"/>
                     <cb ed="#T" n="a"/>
                     <lb ed="#T" n="1"/>et parum plus potest noviter intellectus cum illa dispositione quam prius secundum intensionem et vocetur illa
                     portiun<lb ed="#T" n="2"/>cula addita primo actui abstractivo <mentioned>b</mentioned> tunc <mentioned>b</mentioned> est multo minor quam actus cui additur et per consequens
@@ -902,7 +895,8 @@
                     <lb ed="#T" n="51"/>hic tamen in exemplo est illud ymaginabilius sed protensionem quam in proposito de quo inquiritur nisi quod ibi magis
                     <lb ed="#T" n="52"/>patet qualiter quaelibet portio istarum in quibus processit ista mutua reproductio sistens alicubi circa
                     <lb ed="#T" n="53"/>finem processus habet effectum sibi aequatum quem et continuat in casu argumenti et ideo non potest plus quasi agere isto
-                    <!-- jeff i started here -->
+                    <pb ed="#T" n="59-r"/>
+                    <cb ed="#T" n="a"/>
                     <lb ed="#T"/>remanente in ista potentia quam <unclear>est</unclear> illam egit <pc ana="#punctus"/></p>
                 </div>
               </div>
@@ -1116,7 +1110,9 @@
                   <p xml:id="b1d3qun-ssveve">
                     <pc ana="#pilcrow"/><choice><orig>7o</orig><reg>septimo</reg></choice> modo
                     <lb ed="#T"/>sumitur <mentioned>verbum</mentioned> pro <choice><orig>diffinitione</orig><reg>definitione</reg></choice> alicuius iuxta illud <ref><name ref="#Augustine">augustinus</name> 9 <title ref="#deTrinitate">de trinitate</title> capitulo 10</ref> <choice><orig>diffinitio</orig><reg>definitio</reg></choice> quid sit temperantia et
-                    <cb ed="#T" n="59va"/><lb ed="#T"/>haec est verbum eius
+                    <pb ed="#T" n="59-v"/>
+                    <cb ed="#T" n="a"/>
+                    <lb ed="#T"/>haec est verbum eius
                   </p>
                   <p xml:id="b1d3qun-osaviv">
                     <pc ana="#pilcrow"/><choice><orig>8</orig><reg>octavo</reg></choice> sumitur ab eo <pc ana="#punctus"/> pro verbo vocali <ref>15</ref> cum mentimur volentes et scientes
@@ -1465,7 +1461,9 @@
                   <p xml:id="b1d3qun-eshssa">
                     et secundum hoc et bene respondet doctor iste ad dubium
                     <lb ed="#T"/>praenotatum quod loquendo de partibus <pc ana="#punctus"/> secundum <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> quae sunt memoria et intelligentia et voluntas et de aequalitate
-                    <cb ed="#T" n="60va"/><lb ed="#T"/>primo modo dicta scilicet quae attenditur penes obiecta sic partes <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> sunt semper aequales tam in via quam in patria
+                    <pb ed="#T" n="60-v"/>
+                    <cb ed="#T" n="a"/>
+                    <lb ed="#T"/>primo modo dicta scilicet quae attenditur penes obiecta sic partes <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> sunt semper aequales tam in via quam in patria
                     <lb ed="#T"/>sed loquendo de aequalitate <choice><orig>2o</orig><reg>secundo</reg></choice> modo non oportet quod sint aequales actu <sic>aequales</sic> in via sed sic in patria aequantur
                     <lb ed="#T"/><choice><orig>sicud</orig><reg>sicut</reg></choice> probatum est auctoritatibus <name ref="#Augustine">augustini</name> tam de aequalitate patriae quam de inaequalitate viae in <choice><orig>2o</orig><reg>secundo</reg></choice> sensu <mentioned>aequalitatis</mentioned></p>
 
@@ -1544,7 +1542,8 @@
                   <lb ed="#T"/>et obiecti sic praesentis appetitus iste idem manens non sufficeret sine alio promotivo duplare appetitum
                   <lb ed="#T"/>seu amorem priorem cum ista duplata cognitione quia totalis causa non est duplata sed solum
                   <lb ed="#T"/>pars eius et minus principalis causa autem <unclear>et non</unclear> quare potuerunt aequari in primis naturaliter causabilibus est quia
-                  <cb ed="#T" n="60vb"/><lb ed="#T"/>ita fecunda et potens est talis natura respectu amoris a se causandi <pc ana="#punctus"/> <choice><orig>sicud</orig><reg>sicut</reg></choice> respectu cognitionis a se causandae
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T"/>ita fecunda et potens est talis natura respectu amoris a se causandi <pc ana="#punctus"/> <choice><orig>sicud</orig><reg>sicut</reg></choice> respectu cognitionis a se causandae
                   <lb ed="#T"/>respectu eiusdem obiecti quamdiu promotiva hinc inde fuerunt paria <pc ana="#punctus"/> sed tamen duplatur actus non ex natura
                   <lb ed="#T"/>potentiae et obiecti <pc ana="#punctus"/> sed a causa voluntariae vel tali modo receditur a proportione aequalitatis huiusmodi <pc ana="#punctus"/> nisi aliud adiuvet sicut
                   <lb ed="#T"/>credo <pc ana="#punctus"/>
@@ -1638,7 +1637,9 @@
                   <lb ed="#T"/>et aeque comprehensive et dixi alias quod isto modo in infinitum minus perfecte et minus clare quam seipsam
                   <lb ed="#T"/>et aliam creaturam visam a se et hoc quamvis visione <!-- possible correction here --> multo intensiore videatur deus quam aliquid aliud alio modo potest
                   <lb ed="#T"/>intelligi <pc ana="#punctus"/> quod aeque clare cognoscat deum et aliud vel alia quia cognitione aeque intensa in sua specie diligat
-                  <cb ed="#T" n="61ra"/><lb ed="#T"/>deum <choice><orig>sicud</orig><reg>sicut</reg></choice> facit creaturam vel aliud ibi visum vel quam intense diligit aliud in specie visionis congrua creaturae et
+                  <pb ed="#T" n="61-r"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T"/>deum <choice><orig>sicud</orig><reg>sicut</reg></choice> facit creaturam vel aliud ibi visum vel quam intense diligit aliud in specie visionis congrua creaturae et
                   <lb ed="#T"/>dico quod non est sic quia deum videt visione suam capacitatem specie visionis in qua deum videt replente
                   <lb ed="#T"/>vel autem aliud ita intense <unclear>ibi</unclear> <unclear>videt</unclear> <pc ana="#pilcrow"/>per cognitionem in genere proprio quia tali non utique nisi visione quam ipsa cum <unclear>subiecto</unclear>
                   causare naturaliter sufficiunt ibi et ista multum deficit a tanta secundum intensionem quanta et ista quae habetur respectu dei cuius est
@@ -1719,7 +1720,7 @@
                   <pc ana="#pilcrow"/>Respondet <pc ana="#punctus"/> quod homo
                   <lb ed="#T"/>est ens nobilius extensive sed mens intensive et <choice><orig>2o</orig><reg>secundo</reg></choice> modo loquitur <name ref="#Anselm">anselmus</name> <!-- possible place for paragraph break --><pc ana="#pilcrow"/>quia tamen istud non apparet esse
                   <lb ed="#T"/>verum cum nobilitas mentis sit essentialis pars humanae nobilitatis et per consequens quod homo sit aeque nobilis
-                  <cb ed="#T" n="b"/> <!-- T61vb -->
+                  <cb ed="#T" n="b"/> <!-- T61rb -->
                   <lb ed="#T"/>vel nobilius mente sua Ideo potest dici quod <choice><orig>sicud</orig><reg>sicut</reg></choice> homo ita perfecte intelligit <choice><orig>sicud</orig><reg>sicut</reg></choice> anima sua et neque perfectius
                   <lb ed="#T"/>neque imperfectius neque magis neque minus <add place="above-line">licet non aeque primo ita est homo <choice><orig>ymago</orig><reg>imago</reg></choice> dei neque magis neque minus</add> quam mens humana secundum perfectionem licet mens primo et principalius
                   <lb ed="#T"/>quam homo quia homo non est dei <choice><orig>ymago</orig><reg>ymago</reg></choice> ut nunc loquimur <pc ana="#punctus"/> nisi secundum mentem suam et unumquodque propter
