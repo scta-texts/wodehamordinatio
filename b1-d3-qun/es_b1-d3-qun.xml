@@ -8,7 +8,7 @@
         <title>Distinctio 3, q. un.</title>
         <author xml:id="AW">Adam Wodeham</author>
       	<!-- translator -->
-        <editor xml:id="JW">Jeffrey C. Witt</editor>
+        <editor xml:id="NV">Nicolas Vaughan</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
@@ -32,7 +32,7 @@
     </fileDesc>
     <encodingDesc>
       <variantEncoding method="parallel-segmentation" location="internal"/>
-    	<schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
     	<editorialDecl>
     		<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a critical edition.</p>
     	</editorialDecl>
@@ -45,7 +45,7 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text type="critical" xml:lang="en"> <!-- translation -->
+  <text type="critical" xml:lang="es"> <!-- translation -->
     <front>
       <div xml:id="starts-on">
         <pb ed="#M" n="66-r" facs="M66r"/><cb ed="#M" n="b"/>
@@ -56,57 +56,62 @@
     </front>
   	<body>
       <div xml:id="b1-d3-qun">
-        <head><supplied>Distinction 3</supplied></head>
+        <head><supplied>Distinción 3</supplied></head>
         <div>
           <head>
-            <supplied>Question one: Whether the human mind is an image of the uncreated Trinity 
-          	just as the vestige of the same Trinity is found in others things made for man
+            <supplied>Cuestión única:
+              Si la mente humana es imagen de la Trinidad increada
+              así como en las otras cosas hechas por causa del hombre
+              hay un vestigio de la misma Trinidad.
             </supplied>
           </head>
           <p xml:id="b1d3qun-cdtvet">
-          	Concerning the third distinction, 
-          	I ask whether the human mind is an image of the uncreated Trinity 
-          	just as the vestige of the same Trinity 
-          	is found in others things made for man.
+            Con respecto a la distinción tercera
+            pregunto si la mente humana es imagen de la Trinidad increada
+            así como en las otras cosas hechas por causa del hombre
+            hay un vestigio de la misma Trinidad.
           </p>
         </div>
         <div type="rationes-principales">
           <head xml:id="b1d3qun-Hratles">
-            <supplied>Principal reasons</supplied>
+            <supplied>Argumentos principales</supplied>
           </head>
           <p xml:id="b1d3qun-qnveid">
-          	It seems that not because according to 
+            ItLo que no parece porque, según
           	<ref>
-            	<name ref="#Augustine">Augustine</name> 
-          	  in the 
-          	  <title>Common sermon about on martyr</title>
-            </ref>
+            	<name ref="#Augustine">Agustín</name> 
+          	  en el 
+          	  <title>Sermón común sobre un mártir</title>
+            </ref>,
             <cit>
               <quote>
-                if man had preserved within himself the good that God created in him, that is his image, 
-              	he would always praise <unclear>God <!-- we have "dictum" should this be corrected to Deum --></unclear> 
-              	not only with our words but also with our life</quote>
+                si el hombre hubiera preservado en sí
+                el bien que creó en él Dios, esto es, su imagen,
+                siempre alabaría a Dios
+                no solo con la lengua sino con la vida
+              </quote>
               <bibl>
                 Auctor incertus (forte <name ref="#Augustine">Augustinus</name>, 
                 <title>Sermo</title> CCCXV (PL 39:2349)).
               </bibl>
             </cit> 
             etc. 
-            Therefore from the opposite: 
-            Man does not praise in this way,  
+            Por lo tanto, a partir de lo opuesto:
+            así no alaba;
             <pb ed="#S" n="79-v" />
             <cb ed="#S" n="a" /> 
-            therefore he does not preserve this good in himself, 
-          	<unclear>namely </unclear> 
-          	the image of God, and nevertheless he preserves his mind. 
-          	Therefore the human mind is not the image of God.
+            por lo tanto, no conservó en sí aquel bien,
+            a saber, 
+            la imagen de Dios, y sin embargo conserva su mente.
+            Por lo tanto, la mente humana no es la imagen de Dios.
           </p>
+          
           <p xml:id="b1d3qun-idteit">
-            Again,
+            Además, en el 
             <cit>
               <ref>
-                14 
-                <title ref="#deTrinitate">On the Trinity</title>, 
+                14 de
+                <title ref="#deTrinitate">Sobre la Trinidad</title>, 
                 c. 7, 
                 de parvis
               </ref>
@@ -116,13 +121,13 @@
                 Bk. XIV, c. 4, n. 6 (PL 42:??? CCSL ???).
               </bibl>
             </cit> 
-            he says according to
+            dice acerca del
             <ref>
-              the <title ref="#ps">Psalm</title>
+              <title ref="#ps">Salmo</title>
             </ref> 
             <cit>
               <quote ana="#ps38_7">
-                indeed man passes in an image
+                sin embargo, el hombre transita por la imagen
                 <app>
                   <lem n="homo" />
                   <rdg wit="#T" type="variation-present">sed etc.</rdg>
@@ -130,49 +135,45 @@
               </quote>
               <bibl>Psalmus 38:7</bibl>
             </cit>
-            because 
-            this image has been made so deformed and obscure,
-            there it is practically nothing.
-            But this human mind remains 
-            whole according to its own substance, 
-            therefor according to its own 
-            substance it is not an image of the Trinity.
+            porque
+            esta imagen fue hecha tan deforme y oscura 
+            que es casi nada/ninguna.
+            La mente humana misma, según su substancia, permanece íntegra;
+            por lo tanto, según su substancia, no es imagen de la trinidad.
           </p>
           <p xml:id="b1d3qun-immnsm">
-            Again, 
-            then the mind would be more greatly the image of God 
-            than man because 
+            Además, 
+            entonces la mente [humana], más que el hombre, sería
+            imagen de Dios,
+            porque 
             <cit>
-              <quote xml:id="b1d3qun-Quiytrd" source="http://scta.info/resource/pl4oi8-d1e51">
-                whatever is the cause, is also greater
-              </quote>
+              <quote xml:id="b1d3qun-Quiytrd">cualquiera que sea la causa [de algo], también aquello será mayor que esto.</quote>
               <bibl>
-                <name>Aristoteles</name>
-                <title>An. Posterior</title>
-                I, c. 2, n. 15 (27a29)
+                <name ref="#Aristotle">Aristóteles</name>, 
+                <title ref="#PosteriorAnalytics">Analíticos posteriores</title>, 
+                Bk. I c. 2 n. 15 (72a29)
               </bibl>
             </cit>
-            each one account of that and that is greater. <!-- translation nonsense; needs correction -->
-            The consequent is false 
-            because 
-            man is more similar to God than the mind, 
-            and is expressed by Him, 
-            therefore he is more His image.
-            This consequence is clear 
-            through the definition of 
-            <mentioned>image</mentioned> 
-            which is posted by 
+            El consecuente es falso
+            porque el hombre es más semejante a Dios que a la mente [del hombre]
+            y es expresado por Él;
+            por lo tanto, la imagen de Él es mayor.
+            
+            Esta consecuencia es evidente
+            por la definición de 
+            <mentioned>imagen</mentioned> 
+            expuesta por  
             <ref corresp="#b1d3qun-Qieecei">
-              <name ref="#Augustine">Augustine</name>,
-              <title ref="#deDiversisQuaestionibus">On the 83 questions</title>,
-              question 74
+              <name ref="#Augustine">Agustín</name>,
+              <title ref="#deDiversisQuaestionibus">Sobre 83 cuestiones</title>,
+              cuestión 74
             </ref>,
-            where he says that
+            donde dice que
             <cit>
               <quote type="paraphrase" xml:id="b1d3qun-Qieecei">
-                the image is an expressed 
+                la imagen es una semejanza 
                 <cb ed="#T" n="b" />
-                likeness of that of which it is an image
+                expresa de aquello de lo que es imagen.
               </quote>
               <bibl>
                 <name ref="#Augustine">Augustinus</name>,
@@ -181,25 +182,24 @@
                 </title>,
                 q. 74 (CCSL ???; PL 40:86): 
               </bibl>
-            </cit>. 
-            The assumed is proved 
-            because 
-            man is a more noble being
-            than the mind of man, 
-            therefore is of a greater likeness to God. 
-            The consequence is clear through
+            </cit>.
+            Lo presupuesto se prueba 
+            porque el hombre es un ente más noble
+            que la mente del hombre;
+            por lo tanto, es más semejante a Dios.
+            La consecuencia es evidente por 
             <ref corresp="#b1d3qun-Qqcenp">
-              <name ref="#Anselm">Anselm</name>,
-              <title ref="#Monologion">Monologion</title> 
-              in chapters 31 and 66 
+              <name ref="#Anselm">Anselmo</name>,
+              <title ref="#Monologion">Monologio</title> 
+              en los capítulos 31 y 66 
             </ref>, 
-            where he says:
+            donde dice:
             <cit>
               <quote xml:id="b1d3qun-Qqicenp">
-                among created things
-                whatever is more similar 
-                to God, 
-                that is necessarily of a better nature
+                pues consta que, de entre las cosas creadas,
+                cualquiera que sea más semejante a Dios
+                es necesariamente un ser por naturaleza 
+                más prominente.
               </quote>
               <bibl>
                 <name>Anselm</name>, 
@@ -207,20 +207,20 @@
                 c. 66 (Schmitt I:77):
               </bibl>
             </cit>.
-            The assumed is proved 
-            because 
+            Lo presupuesto se prueba
+            porque
             <ref corresp="#b1d3qun-fccstb"> 
-              I 
-              <title ref="#Ethics">Ethics</title>, 
-              chapter 8 near the end, 
-              the <name ref="#Aristotle">Philosopher</name> 
-              says 
+              en el libro I de la 
+              <title ref="#Ethics">Ética</title>, 
+              capítulo 8 hacia el final
+              el <name ref="#Aristotle">Filósofo</name> 
+              dice
             </ref> 
-            that 
+            que la felicidad
             <cit>
               <quote xml:id="b1d3qun-fccstb">
-                happiness numbered with the smallest about of goods 
-                is more choice worthy than happiness itself
+                añadida al más pequeño de los bienes
+                es más deseable que la [felicidad] misma
               </quote>
               <bibl>
                 <name ref="#Aristotle">Aristotle</name>, 
@@ -228,105 +228,142 @@
                 Bk. I, c. 7 (1097b21). <!-- reference is incorrect -->
               </bibl>
             </cit>.
-            And he adds that a greater good 
-            is always more choice worthy.
-            Therefore, 
-            by an equal reasons, 
-            the human mind combined with any good 
-            is better than the mind alone.
-            Therefore, 
-            what is composed from this mind and body, 
-            namely man, 
-            is more noble than the mind alone.
+            Y añade que
+            "siempre el mayor bien es más deseable".
+            Por lo tanto, 
+            por un razonamiento semejante,
+            la mente humana junto con cualquier bien es mejor que ella misma sola.
+            Por lo tanto,
+            el compuesto de la mente misma y el cuerpo,
+            ---a saber, el hombre---
+            es más noble que la mente sola.
           </p>
           <p xml:id="b1d3qun-ismnrd">
-            Again, if the human mind is the image of the uncreated Trinity,
-            therefore this is either 
-            by reason of its substance,
-            which is not the case 
-            because the mind 
-            does not represent a distinction of persons, 
-            or 
-            by reasons of the acts
-            which it causes and receives, 
-            and this is not the case
-            because these acts are not consubstantial.
-            And this the same <!-- translation and transcription check needed -->
-            because in the matter, 
-            it is argued under another form thus: 
-            if this were the case, 
-            then the perfect cognition of that image
-            would be able to lead to, or at least assist in, 
-            knowing that Trinity is in God.
-            The consequent is false
-            because its cognition does not lead more greatly to true cognition of the uncreated Trinity 
-            than to anything else. <!-- does "to anything else work here for "quam aliud"? -->
-            Proof, <!-- probation instead of "probo" -->
-            for either there is in the soul a real distinction of powers 
-            or not.
-            <!-- videtur abducere not yet translated -->
-            For if this were the case, 
-            then there are diverse things 
-            and consequently 
-            they are either parts of the mind or accidents in it, 
-            and thus this cognition would force us to think 
-            that the persons are either parts of God or accidents in him, 
-            and thus is not God. 
-            But if not, then it would force us to think 
-            that the persons are not really distinguished.
-          </p>
+            Además, si la mente humana
+            fuera la imagen de la trinidad increada,
+            entonces 
+            esto sería 
+            o bien en razón de la substancia suya
+            (y esto no es así, porque aquella
+            no representa la distinción entre las personas);
+            o bien en razón de los actos que causa y que recibe
+            (y esto no es así, 
+            porque aquellos no son consubstanciales,
+            y esto mismo porque 
+            existen en realidad.
+            <!-- -->
+            Se argumenta [esto mismo]
+            bajo otra forma así:
+            <!-- -->
+            si [la mente humana] sí [fuera la imagen de la trinidad increada],
+            entonces la cognición perfecta de aquella imagen
+            sería naturalmente capaz de inducir
+            o al menos de ayudar a conocer
+            que la trinidad es/está/existe en Dios. 
+            El consecuente es falso,
+            porque la cognición de Él
+            no conduce 
+            más que otro 
+            a una cognición verdadera
+            de la trinidad increada misma.
+            
+            Se prueba:
+            pues o bien en el alma 
+            hay una distinción real de las potencias,
+            o bien no parece [haberla].
+            <!--??? -->  
+            Pues si la hay,
+            entonces hay diversas cosas
+            y, por consiguente,
+            o bien son partes de la mente,
+            o bien son accidentes en ella misma;
+            y así esta cognición nos haría pensar
+            que las personas serían partes de Dios
+            o accidentes en Él,
+            y que así no son Dios.
+            <!-- -->
+            Si 
+            <app>
+              <lem>autem</lem>
+              <rdg wit="#S #T" type="variation-absent"/>
+            </app>non sit 
+            <app>
+              <lem />
+              <rdg wit="#S">realis distinctio</rdg>
+            </app>, 
+            tunc faceret aestimare personas non realiter distingui.</p>
+          
+          
+          
           <p xml:id="b1d3qun-isqati">
-            Again, 
-            specifically that the mind is not the image 
-            by reason of its own acts 
-            because
-            <ref xml:id="b1d3qun-Radf3fd" corresp="#b1d3qun-Qiciani">
-              in 14 
+            Item specialiter quod mens non sit imago 
+            <app>
+              <lem>ratione</lem>
+              <rdg wit="#M" type="variation-absent"/> 
+            </app> 
+            suorum 
+            <app>
+              <lem>actuum</lem>
+              <rdg wit="#S #T #V" type="variation-substance">accidentium</rdg>
+            </app>, 
+            quia 
+            <ref>
+              <app>
+                <lem>14</lem>
+                <rdg wit="#M" type="variation-substance">48</rdg>
+              </app> 
               <title ref="#deTrinitate">De Trinitate</title>, 
-              chapter 6 de parvis, 
-              <name ref="#Augustine">Augustine</name> 
-              says
+              c. 
+              <app>
+                <lem>6</lem>
+                <rdg wit="#T" type="variation-substance">16</rdg>
+              </app> de parvis, 
+              dicit <name ref="#Augustine">Augustinus</name>
             </ref> 
-            that,
+            quod 
             <cit>
-              <quote xml:id="b1d3qun-Qiciani">
-                the image of the creator 
-                is immortally inserted 
-                to the rational or intellectual mind of man, 
-                but the acts have not been so immortally inserted
+              <quote xml:id="b1d3qun-Qiciani">imago creatoris immortaliter 
+                <app>
+                  <lem>inserta</lem>
+                  <rdg wit="#M" type="variation-substance">infinita</rdg>
+                </app> 
+                est animae hominis rationali seu intellectuali, sed actus non 
+                immortaliter,
+                <app>
+                  <lem>igitur</lem>
+                  <rdg wit="#M #T #S" type="variation-absent"/>
+                </app>.
               </quote>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#deTrinitate">De Trinitate</title>, 
-                Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040)
-                <!--
+                <name ref="#Augustine">Augustinus</name>, <title ref="#deTrinitate">De Trinitate</title>, 
+                Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040): 
                 "ea est invenienda in anima hominis, id est rationali, 
                 sive intellectuali, imago creatoris, quae immortaliter 
-                immortalitati eius est insita."-->
-              </bibl>
-            </cit>,
-            therefore.
-            And again 
+                immortalitati eius est insita."</bibl>
+            </cit> 
+            
+            Et ibidem etiam 
             <cit>
-              <ref xml:id="b1d3qun-Rqwefef">
-                in the same book,
-                <name ref="#Augustine">Augustine</name> 
-                claims
-              </ref>
+              <ref>c. 
+                <app>
+                  <lem>4</lem>
+                  <rdg wit="#V #T" type="variation-substance">5</rdg>
+                </app> vult <name ref="#Augustine">Augustinus</name></ref>
               <bibl>
                 <name ref="#Augustine">Augustinus</name>, 
                 <title ref="#deTrinitate">De Trinitate</title>, 
-                Bk. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038) 
-                <!--"Ex quo colligitur, ut si iam imago Dei est ista Trinitas, 
-                etiam ipsa non in eis quae semper sunt, 
-                sed in rebus sit habenda transeuntibus".-->
+                Bk. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038): "Ex quo colligitur, ut si iam imago Dei est ista Trinitas, etiam ipsa non in eis quae semper sunt, sed in rebus sit habenda transeuntibus".
               </bibl>
-            </cit>,
-            that this image should not apply to transitory things.
-            But acts are transitory things,
-            therefore
+            </cit> 
+            quod imago illa 
+            non est attendenda in rebus transeuntibus, 
+            sed actus transeunt, igitur.
           </p>
         </div>
+        
+        
+        
+        
         <div>
           <head><supplied>Ad oppositum</supplied></head>
           <p xml:id="b1d3qun-aopmld">Ad oppositum: 
