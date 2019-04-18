@@ -216,7 +216,6 @@
             </app> 
             secundum substantiam suam non est imago Trinitatis.
           </p>
-
           <p xml:id="b1d3qun-immnsm">
             Item, 
             <app>
@@ -351,7 +350,7 @@
                 </app>, 
                 <app>
                   <lem wit="#V">id</lem>
-                  <rdg wit="#M #T">illud</rdg>
+                  <rdg wit="#M #T #S">illud</rdg>
                 </app> 
                 necesse 
                 <app>
@@ -374,38 +373,45 @@
             quia 
             <ref corresp="#b1d3qun-fccstb">
               I 
-              <title ref="#Ethics" >Ethicorum</title>, 
+              <title ref="#Ethics">Ethicorum</title>, 
               c. 8 in fine, 
               dicit 
               <name ref="#Aristotle">Philosophus</name>
-            </ref> 
-            quod 
+            </ref>,
+            quod felicitas 
             <cit>
-              <quote xml:id="b1d3qun-fccstb">
-                felicitas 
+              <quote xml:id="b1d3qun-fccstb" source="http://scta.info/resource/aristneth-l7">
+                <seg type="qs">
+                  <app>
+                    <lem>connumerata</lem>
+                    <rdg wit="#M">communicata</rdg>
+                  </app> 
+                  cum minimo bonorum 
+                  <app>
+                    <lem>est</lem>
+                    <rdg type="correction-addition" wit="#T">
+                      <add place="above-line">est</add>
+                    </rdg>
+                  </app> 
+                  eligibilior
+                </seg>
+                quam ipsa felicitas,
                 <app>
-                  <lem>connumerata</lem>
-                  <rdg wit="#M">communicata</rdg>
-                </app> 
-                cum minimo bonorum 
-                <app>
-                  <lem>est</lem>
-                  <rdg type="correction-addition" wit="#T">
-                    <add place="above-line">est</add>
-                  </rdg>
-                </app> 
-                eligibilior quam ipsa felicitas
+                  <lem>et</lem>
+                  <rdg wit="#M">est</rdg>
+                </app>
+                addit quod
+                <seg type="qs">
+                  semper maius bonum est eligibilius
+                </seg>
               </quote>
               <bibl>
-                <name ref="#Aristotle">Aristoteles</name>, <title ref="#Ethics">N. Ethica</title>,
-                Bk. I, c. 7 (1097b21). <!-- this source is wrong -->
+                <name ref="#Aristotle">Aristoteles</name>, 
+                <title ref="#Ethics">N. Ethica</title>,
+                Bk. I, c. 7 (1097b19-20).
               </bibl>
-            </cit>,
-            <app>
-              <lem>et</lem>
-              <rdg wit="#M">est</rdg>
-            </app>
-            addit quod semper maius bonum est eligibilius. <!-- possible second quote from aristotle here --> 
+              <note>Trans. Grosseteste, ed. Gauthier, 1972, p.150</note>
+            </cit>
             <app>
               <lem>Igitur</lem>
               <rdg type="variation-orthography" wit="#S">Ergo</rdg>
@@ -436,30 +442,30 @@
               <lem>igitur aut</lem>
               <rdg type="variation-inversion" wit="#T #M">aut igitur</rdg>
             </app> 
-            ratione substantiae suae, 
-            et hoc non 
+            ratione substantiae suae 
+            (et hoc non 
             quia illa 
             <app>
               <lem>non</lem>
               <rdg type="variation-absent" wit="#T #M" />
             </app> 
-            repraesentat distinctionem personarum, 
-            aut ratione actuum quos causat et recipit,
-            et hoc 
+            repraesentat distinctionem personarum), 
+            aut ratione actuum quos causat et recipit
+            (et hoc 
             <app>
               <lem>non</lem>
               <rdg type="variation-absent" wit="#V" />
             </app> 
-            quia illi non sunt consubstantiales. Et hoc idem 
-            <app> <!-- Double check MSS. -->
-              <lem>quia</lem>
-              <rdg type="variation-substance" wit="#M">quaestione</rdg>
-              <rdg type="variation-substance" wit="#S">quasi</rdg>
+            quia illi non sunt consubstantiales). 
+            Et 
+            <app>
+              <lem>haec</lem>
+              <rdg wit="#S">hoc</rdg>
             </app> 
-            in 
-            <app><!-- Double check MS. -->
+            idem quasi in 
+            <app>
               <lem>re</lem>
-              <rdg type="variation-substance" wit="#M">rei</rdg>
+              <rdg type="variation-substance" wit="#M">rem</rdg>
             </app> 
             arguitur sub alia forma sic: 
             <app>
@@ -614,16 +620,20 @@
               <rdg type="variation-absent" wit="#M #T #S" />
             </app>.
             Et  
+            <ref xml:id="b1d3qun-Rqwefef" corresp="#b1d3qun-Ruitu7y">
+              ibidem etiam c. 
+              <app>
+                <lem>4</lem>
+                <rdg type="variation-substance" wit="#V #T">5</rdg>
+              </app> 
+              vult 
+              <name ref="#Augustine">Augustinus</name>
+            </ref>,
+            quod 
             <cit>
-              <ref xml:id="b1d3qun-Rqwefef" target="http://scta.info/resource/adt-l14">
-                ibidem etiam c. 
-                <app>
-                  <lem>4</lem>
-                  <rdg type="variation-substance" wit="#V #T">5</rdg>
-                </app> 
-                vult 
-                <name ref="#Augustine">Augustinus</name>
-              </ref>
+              <quote xml:id="b1d3qun-Ruitu7y" type="paraphrase" source="http://scta.info/resource/adt-l14">
+                imago illa non est attendenda in rebus transeuntibus
+              </quote>
               <bibl>
                 <name ref="#Augustine">Augustinus</name>, 
                 <title ref="#deTrinitate">De Trinitate</title>, 
@@ -632,8 +642,7 @@
                 colligitur, ut si iam imago Dei est ista Trinitas, etiam ipsa non in eis quae semper
                 sunt, sed in rebus sit habenda transeuntibus".--> 
               </bibl>
-            </cit>,
-            quod imago illa non est attendenda in rebus transeuntibus. 
+            </cit>. 
             Sed actus transeunt, 
             igitur. 
           </p>
