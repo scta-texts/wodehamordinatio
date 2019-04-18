@@ -47,12 +47,8 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <pb ed="#V" facs="V106" n="106-r" />
+        <pb ed="#V" facs="V106" n="106-v" />
         <!-- #V has only one column -->
       </div>
     </front>

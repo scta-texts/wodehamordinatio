@@ -595,8 +595,7 @@
                   <lem>inserta</lem>
                   <rdg type="variation-substance" wit="#M">infinita</rdg>
                 </app> 
-                est animae hominis rationali seu intellectuali, 
-                sed actus non immortaliter, 
+                est animae hominis rationali seu intellectuali 
               </quote>
               <bibl>
                 <name ref="#Augustine">Augustinus</name>, 
@@ -608,7 +607,8 @@
                   quae immortaliter immortalitati eius est insita."
                 -->
               </bibl>
-            </cit>
+            </cit>,
+            sed actus non immortaliter,
             <app>
               <lem>igitur</lem>
               <rdg type="variation-absent" wit="#M #T #S" />
@@ -690,13 +690,18 @@
               <name ref="#Paul">Apostoli</name>
             </ref>: 
             <cit>
-              <quote ana="#eph4_23" xml:id="b1d3qun-Qrsmsmv">
-                renovamini vestrae
+              <quote xml:id="b1d3qun-Qrsmsmv" ana="#eph4_23">
+                renovamini spiritu mentis vestrae
               </quote>
               <bibl>
                 <name ref="#Paul">Paulus</name>, <title>Ad Ephesios</title> 4:23. 
               </bibl>
-            </cit>. 
+            </cit>, 
+            <app>
+              <!--etc present in Tara, dbcheck presence in other mss-->
+              <lem wit="#T">etc</lem>
+              <rdg wit="#V" type="variation-absent"/>
+            </app>
             Et 
             <ref corresp="#b1d3qun-Qimfaid">c. 26</ref>
             <app>
@@ -755,7 +760,7 @@
           <p xml:id="b1d3qun-aieqce">
             Ad idem est 
             <ref corresp="#b1d3qun-Qndeqce">
-              <name ref="#Augustine">Augustinus</name> 
+              <name ref="#Augustine">Augustinus</name>,
               XII 
               <title ref="#deTrinitate">De Trinitate</title>, 
               c. 17 de parvis
@@ -787,22 +792,33 @@
             <app>
               <lem>Item</lem>
               <rdg type="variation-substance" wit="#M">Tunc</rdg>
-            </app> 
-            et haec auctoritas recte praetendit contrarium primae et secundae. Ad primam
-            partem dicit enim 
+            </app>, 
+            et haec auctoritas recte praetendit 
+            contrarium primae et secundae. 
+            Ad primam partem dicit enim 
             <ref corresp="#b1d3qun-Qpmipep">
-              <name ref="#Augustine">Augustinus</name> 14 <title ref="#deTrinitate">De
-                Trinitate</title> c. 14 de parvis
+              <name ref="#Augustine">Augustinus</name>, 
+              XIV, 
+              <title ref="#deTrinitate">De Trinitate</title>, 
+              c. 14 de parvis
             </ref>, 
             quod 
             <cit>
-              <quote xml:id="b1d3qun-Qpmipep">
-                Prius mens in se ipsa consideranda est antequam sit particeps Dei et 
+              <quote xml:id="b1d3qun-Qpmipep" source="http://scta.info/resource/adt-l14">
+                Prius mens in se ipsa consideranda est 
+                antequam sit particeps Dei 
+                et 
                 <app>
                   <lem>in</lem>
                   <rdg type="variation-absent" wit="#M" />
                 </app> 
-                ea recipienda est imago eius. Diximus enim eam esse 
+                ea recipienda est imago eius. 
+                Diximus enim eam 
+                <app>
+                  <lem wit="#V">etiam</lem>
+                  <rdg wit="#T">esse</rdg>
+                  <!-- M and S -->
+                </app> 
                 <app>
                   <lem>amissa</lem>
                   <rdg type="variation-substance" wit="#M">amissam</rdg>
@@ -814,31 +830,38 @@
                     <add place="margin-left">abolitam</add>
                   </rdg>
                 </app>
-                atque deformem Dei tamen imaginem permanere. Eo quippe proprie
+                atque deformem, 
+                Dei tamen imaginem permanere. 
+                Eo quippe proprie
                 <app>
                   <lem>imago eius</lem>
                   <rdg type="variation-absent" wit="#M #S #T" />
                 </app> 
-                est, quo capax 
+                est, 
+                quo capax 
                 <app>
                   <lem>eius</lem>
                   <rdg type="variation-absent" wit="#S" />
                 </app> 
-                est, eiusque particeps esse potest.
+                est, 
+                eiusque particeps esse potest
               </quote>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, <title ref="#deTrinitate">De
-                  Trinitate</title>, Bk. XIV, c. 8, n. 11 (CCSL ????; PL 42:1044): "Sed prius mens in
+                <name ref="#Augustine">Augustinus</name>, 
+                <title ref="#deTrinitate">De Trinitate</title>, 
+                XIV, c. 8, n. 11 
+                (CCSL ????; PL 42:1044) 
+                <!--"Sed prius mens in
                 se ipsa consideranda est antequam sit particeps Dei, et in ea reperienda est imago
                 eius. Diximus enim eam etsi amissa Dei participatione obsoletam atque deformem, Dei
                 tamen imaginem permanere. Eo quippe ipso imago eius est, quo eius capax est, eiusque
-                particeps esse potest." 
+                particeps esse potest." -->
               </bibl>
-            </cit>
+            </cit>.
           </p>
-
           <p xml:id="b1d3qun-qsalpd"> 
-            Quinto, sunt ad 
+            Quinto, 
+            sunt ad 
             <app>
               <lem n="ad"/>
               <rdg type="variation-present" wit="#M #S">idem</rdg>
@@ -849,18 +872,21 @@
                 <add place="above-line">istam</add>
               </rdg>
             </app> 
-            partem auctoritates aliae multae tam quo ad imaginem quam quo ad vestigium quas
-            ponit 
+            partem auctoritates aliae multae 
+            tam quoad imaginem 
+            quam quoad vestigium 
+            quas ponit 
             <cit>
               <ref>
-                <name ref="#Lombard">Magister</name> in littera praesentis distinctionis; 
+                <name ref="#Lombard">Magister</name> 
+                in littera praesentis distinctionis 
               </ref>
               <bibl>
                 <name ref="#Lombard">Petrus Lombardus</name>, 
                 <title ref="#Sentences">Sententiae</title>, 
                 Bk. I, d. 3, c. 1--3 (Quarachi, 1:70--76). 
               </bibl>
-            </cit> 
+            </cit>,
             et 
             <cit>
               <ref>libro 
@@ -874,14 +900,15 @@
                   <rdg type="variation-present" wit="#M">et</rdg>
                 </app> 
                 aliquas alias 
-                <supplied>auctoritates</supplied> distinctione 16.
+                <supplied>auctoritates</supplied>, 
+                distinctione 16
               </ref>
               <bibl>
                 <name ref="#Lombard">Petrus Lombardus</name>, 
                 <title ref="#Sentences">Sententiae</title>, 
                 Bk II, d. 16, c. 1--4 (Quarachi, 1:406--409). 
               </bibl>
-            </cit>
+            </cit>.
           </p>
         </div>
         <div xml:id="b1d3qun-Ddqdqdq">
