@@ -91,7 +91,7 @@
                 no solo con la lengua sino con la vida
               </quote>
               <bibl>
-                Auctor incertus (forte <name ref="#Augustine">Augustinus</name>, 
+                Auctor incertus (forte <name ref="#Augustine">Agustín</name>, 
                 <title>Sermo</title> CCCXV (PL 39:2349)).
               </bibl>
             </cit> 
@@ -116,9 +116,9 @@
                 de parvis
               </ref>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#DeTrinitate">De Trinitate</title>, 
-                Bk. XIV, c. 4, n. 6 (PL 42:??? CCSL ???).
+                <name ref="#Augustine">Agustín</name>, 
+                <title ref="#deTrinitate">Sobre la Trinidad</title>, 
+                Lib. XIV, c. 4, n. 6 (PL 42:??? CCSL ???).
               </bibl>
             </cit> 
             dice acerca del
@@ -128,10 +128,6 @@
             <cit>
               <quote ana="#ps38_7">
                 sin embargo, el hombre transita por la imagen
-                <app>
-                  <lem n="homo" />
-                  <rdg wit="#T" type="variation-present">sed etc.</rdg>
-                </app>
               </quote>
               <bibl>Psalmus 38:7</bibl>
             </cit>
@@ -151,7 +147,7 @@
               <bibl>
                 <name ref="#Aristotle">Aristóteles</name>, 
                 <title ref="#PosteriorAnalytics">Analíticos posteriores</title>, 
-                Bk. I c. 2 n. 15 (72a29)
+                Lib. I c. 2 n. 15 (72a29)
               </bibl>
             </cit>
             El consecuente es falso
@@ -176,7 +172,7 @@
                 expresa de aquello de lo que es imagen.
               </quote>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>,
+                <name ref="#Augustine">Agustín</name>,
                 <title ref="#deDiversisQuaestionibus">
                   De diversis quaestionibus octoginta
                 </title>,
@@ -202,9 +198,9 @@
                 más prominente.
               </quote>
               <bibl>
-                <name>Anselm</name>, 
-                <title>Monologion</title>, 
-                c. 66 (Schmitt I:77):
+                <name>Anselmo</name>, 
+                <title>Monologio</title>, 
+                c. 66 (Schmitt I:77)
               </bibl>
             </cit>.
             Lo presupuesto se prueba
@@ -223,13 +219,16 @@
                 es más deseable que la [felicidad] misma
               </quote>
               <bibl>
-                <name ref="#Aristotle">Aristotle</name>, 
-                <title ref="#Ethics">Ethics</title>, 
-                Bk. I, c. 7 (1097b21). <!-- reference is incorrect -->
+                <name ref="#Aristotle">Aristóteles</name>, 
+                <title ref="#Ethics">Ética</title>, 
+                Lib. I, c. 7 (1097b21). <!-- reference is incorrect -->
               </bibl>
             </cit>.
             Y añade que
-            "siempre el mayor bien es más deseable".
+            
+            <quote>            
+              siempre el mayor bien es más deseable.
+            </quote>
             Por lo tanto, 
             por un razonamiento semejante,
             la mente humana junto con cualquier bien es mejor que ella misma sola.
@@ -245,14 +244,12 @@
             esto sería 
             o bien en razón de la substancia suya
             (y esto no es así, porque aquella
-            no representa la distinción entre las personas);
+            no representa la distinción entre las personas),
             o bien en razón de los actos que causa y que recibe
             (y esto no es así, 
-            porque aquellos no son consubstanciales,
-            y esto mismo porque 
-            existen en realidad.
+            porque aquellos no son consubstanciales). 
             <!-- -->
-            Se argumenta [esto mismo]
+            Y asimismo esto se argumenta como si fuera
             bajo otra forma así:
             <!-- -->
             si [la mente humana] sí [fuera la imagen de la trinidad increada],
@@ -269,310 +266,264 @@
             
             Se prueba:
             pues o bien en el alma 
-            hay una distinción real de las potencias,
-            o bien no parece [haberla].
-            <!--??? -->  
-            Pues si la hay,
-            entonces hay diversas cosas
-            y, por consiguente,
-            o bien son partes de la mente,
-            o bien son accidentes en ella misma;
-            y así esta cognición nos haría pensar
+            habría una distinción real entre las potencias,
+            o bien no parecería [haberla].
+            <!-- -->  
+            Pues si la hubiera,
+            entonces habría diversas cosas
+            y, por consiguiente,
+            o bien serían partes de la mente,
+            o bien serían accidentes en ella;
+            y así esta cognición nos haría juzgar
             que las personas serían partes de Dios
             o accidentes en Él,
-            y que así no son Dios.
-            <!-- -->
-            Si 
-            <app>
-              <lem>autem</lem>
-              <rdg wit="#S #T" type="variation-absent"/>
-            </app>non sit 
-            <app>
-              <lem />
-              <rdg wit="#S">realis distinctio</rdg>
-            </app>, 
-            tunc faceret aestimare personas non realiter distingui.</p>
+            y así que no son Dios.
+            Sin embargo, 
+            si no la hubiera [sc. la distinción real],
+            entonces haría juzgar
+            que las personas no se distinguen realmente.
+          </p>
           
           
           
           <p xml:id="b1d3qun-isqati">
-            Item specialiter quod mens non sit imago 
-            <app>
-              <lem>ratione</lem>
-              <rdg wit="#M" type="variation-absent"/> 
-            </app> 
-            suorum 
-            <app>
-              <lem>actuum</lem>
-              <rdg wit="#S #T #V" type="variation-substance">accidentium</rdg>
-            </app>, 
-            quia 
-            <ref>
-              <app>
-                <lem>14</lem>
-                <rdg wit="#M" type="variation-substance">48</rdg>
-              </app> 
-              <title ref="#deTrinitate">De Trinitate</title>, 
-              c. 
-              <app>
-                <lem>6</lem>
-                <rdg wit="#T" type="variation-substance">16</rdg>
-              </app> de parvis, 
-              dicit <name ref="#Augustine">Augustinus</name>
+            Además,
+            [se prueba] específicamente que la mente
+            no sea imagen [de la trinidad increada]
+            en razón de sus actos,
+            porque
+            <ref xml:id="b1d3qun-Radf3fd" corresp="#b1d3qun-Qiciani">
+              en el libro XIV, c.6, de parvis, 
+              del 
+              <title ref="#deTrinitate">Sobre la Trinidad</title>, 
+              <name ref="#Augustine">Agustín</name> 
+              dice
             </ref> 
-            quod 
+            que
             <cit>
-              <quote xml:id="b1d3qun-Qiciani">imago creatoris immortaliter 
-                <app>
-                  <lem>inserta</lem>
-                  <rdg wit="#M" type="variation-substance">infinita</rdg>
-                </app> 
-                est animae hominis rationali seu intellectuali, sed actus non 
-                immortaliter,
-                <app>
-                  <lem>igitur</lem>
-                  <rdg wit="#M #T #S" type="variation-absent"/>
-                </app>.
+              <quote xml:id="b1d3qun-Qiciani">
+                la imagen del creador
+                fue introducida inmortalmente
+                en el alma racional o intelectual del hombre,
+                pero los actos no [fueron introducidos] inmortalmente,
               </quote>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, <title ref="#deTrinitate">De Trinitate</title>, 
-                Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040): 
-                "ea est invenienda in anima hominis, id est rationali, 
-                sive intellectuali, imago creatoris, quae immortaliter 
-                immortalitati eius est insita."</bibl>
-            </cit> 
-            
-            Et ibidem etiam 
-            <cit>
-              <ref>c. 
-                <app>
-                  <lem>4</lem>
-                  <rdg wit="#V #T" type="variation-substance">5</rdg>
-                </app> vult <name ref="#Augustine">Augustinus</name></ref>
-              <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#deTrinitate">De Trinitate</title>, 
-                Bk. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038): "Ex quo colligitur, ut si iam imago Dei est ista Trinitas, etiam ipsa non in eis quae semper sunt, sed in rebus sit habenda transeuntibus".
+                <name ref="#Augustine">Agustín</name>, 
+                <title ref="#deTrinitate">Sobre la Trinidad</title>, 
+                Lib. XIV, c. 3, n. 6 (CCSL 50A:428; PL 42:1040)
+                <!--
+                  "ea est invenienda in anima hominis, id est rationali, 
+                  sive intellectuali, imago creatoris, quae immortaliter 
+                  immortalitati eius est insita."-->
               </bibl>
-            </cit> 
-            quod imago illa 
-            non est attendenda in rebus transeuntibus, 
-            sed actus transeunt, igitur.
+            </cit>
+            por lo tanto [etc.].
+            
+            Y allí mismo también,
+            <cit>
+              <ref>
+                en el c.2
+                <name ref="#Augustine">Agustín</name>
+              quiere decir que 
+              </ref>
+              <bibl>
+                <name ref="#Augustine">Agustín</name>, 
+                <title ref="#deTrinitate">Sobre la Trinidad</title>, 
+                Lib. XIV, c. 2, n. 4 (CCSL 50A:425; PL 42: 1038)
+                <!--"Ex quo colligitur, ut si iam imago Dei est ista Trinitas, etiam ipsa non in eis quae semper sunt, sed in rebus sit habenda transeuntibus"-->
+              </bibl>
+            </cit>
+            que aquella imagen no ha ser contemplada
+            en las cosas transeúntes;
+            pero los actos son transeúntes, 
+            por lo tanto, [etc.]
           </p>
-        </div>
-        
-        
+        </div>  
         
         
         <div>
-          <head><supplied>Ad oppositum</supplied></head>
-          <p xml:id="b1d3qun-aopmld">Ad oppositum: 
+          <head><supplied>Por el contrario</supplied></head>
+          <p xml:id="b1d3qun-aopmld">Por el contrario: 
             <ref>
-              <title ref="#gen">Genesis</title> I,
+              <title ref="#gen">Génesis</title> I,
             </ref>
             <cit>
-              <quote ana="#gen1_1">faciamus hominem ad imaginem</quote>
+              <quote ana="#gen1_1">
+                hagamos al hombre a [su] imagen
+              </quote>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>,
-                <title ref="#gen">Genesis</title> 1:26
+                <!--<name ref="#Augustine">Agustín</name>-->
+                <title ref="#gen">Génesis</title> 
+                1,26
               </bibl>
             </cit> 
             etc., 
-            et 
+            y 
             <cit>
               <ref>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#DeGenesiAdLitteram">Super 
-                  <app>
-                    <lem>Genesem</lem>
-                    <rdg wit="#T" type="variation-orthography">Genesim</rdg>
-                  </app> 
-                  ad litteram</title> 
-                c. 23 de parvis
+                <name ref="#Augustine">Agustín</name>, 
+                <title ref="#DeGenesiAdLitteram">Comentario literal al Génesis</title> 
+                c. 23, de parvis,
               </ref>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#DeGenesiAdLitteram">De Genesi ad litteram</title>, 
-                Bk. VI, c. 28, n. 39 (CCSL ???; PL 34:356-357) "quamvis in interiore homine fuerit spiritualis, 
+                <name ref="#Augustine">Agustín</name>, 
+                <title ref="#DeGenesiAdLitteram">Comentario literal al Génesis</title>, 
+                Lib. VI, c. 28, n. 39 (CCSL ???; PL 34:356-357) 
+                <!--"quamvis in interiore homine fuerit spiritualis, 
                 secundum imaginem eius qui creavit eum; quod amisit peccando, 
                 meruitque etiam corporis mortem, qui non peccando mereretur et in corpus spirituale commutationem. 
                 Nam si et interius animaliter vixit, non possumus dici ad hoc ipsius renovari. 
                 Quibus enim dicitur, ‘Renovamini spiritu mentis vestrae’, hoc eis dicitur, ut spirituales fiant; 
-                quod si ille nec in ipsa mente fuit quomodo nos renovamur ad id quod homo nunquam fuit?"</bibl>
+                quod si ille nec in ipsa mente fuit quomodo nos renovamur ad id quod homo nunquam fuit?"-->
+              </bibl>
             </cit> 
-            dicit hominem factum esse ad imaginem Dei, secundum mentem, secundum illud 
-            <name ref="#Paul">Apostoli</name>: 
+            dice que el hombre fue hecho a imagen de Dios,
+            según su mente,
+            de acuerdo con
+            lo que el <name ref="#Paul">Apóstol</name> dijo: 
             <cit>
               <quote xml:id="b1d3qun-Qrsmsmv" ana="#eph4_23">
-                renovamini vestrae.
+                [pero] renovaros [en el espíritu de] vuestra [mente]
               </quote>
               <bibl>
-                <name ref="#Paul">Paulus</name>,
-                <title>Ad Ephesios</title> 4:23.
+                <name ref="#Paul">Pablo</name>,
+                <title>Ad Ephesios</title> 
+                4,23
+                <!--Renovamini autem spiritu mentis vestrae-->
               </bibl>
-            </cit> 
+            </cit>.
             
-            Et 
-            <ref corresp="#b1d3qun-Qimfaid">c. 26</ref> 
-            <app>
-              <lem>concludit</lem>
-              <rdg wit="#M" type="variation-substance">qui dicit</rdg>
-            </app>
-            quod 
+            Y 
+            <ref corresp="#b1d3qun-Qimfaid">
+              en el c. 26
+            </ref> 
+            concluye que
             <cit>
-              <quote xml:id="b1d3qun-Qimfaid">in mente factus est homo ad imaginem Dei</quote>
+              <quote xml:id="b1d3qun-Qimfaid">
+                en la mente [de Dios] 
+                el hombre fue hecho a imagen de Dios
+              </quote>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#DeGenesiAdLitteram">De Genesi ad litteram</title>,
-                Bk. VI, c. 12, n. 22 (CCSL ???; PL 34: ???): "Sed hoc excellit in homine, quia Deus ad imaginem suam hominem fecit, propter hoc quod ei dedit mentem intellectualem, qua praestat pecoribus; unde iam superiore loco disseruimus."
+                <name ref="#Augustine">Agustín</name>, 
+                <title ref="#DeGenesiAdLitteram">Comentario literal al Génesis</title>,
+                Lib. VI, c. 12, n. 22 (CCSL ???; PL 34: 348) 
+                <!--Sed hoc excellit in homine, quia Deus ad imaginem suam hominem fecit, propter hoc quod ei dedit mentem intellectualem, qua praestat pecoribus; unde iam superiore loco disseruimus.-->
               </bibl>
             </cit>
-            <app>
-              <lem>etc.</lem>
-              <rdg wit="#M #S #V" type="variation-absent"/>
-            </app>.
+            etc.
             
-            Eiusdem 
-            <app>
-              <lem>opinionis</lem>
-              <rdg wit="#M #T" type="variation-substance">sententiae</rdg>
-            </app>
-            est 
+            De la misma opinión es
             <cit>
               <ref>
-                <name ref="#Lombard">Magister</name>, 
-                <app>
-                  <lem>in littera,</lem>
-                  <rdg wit="#S #V #T" type="variation-absent"/>
-                </app>
-                libro 2, distinctione 
-                <app>
-                  <lem>16</lem>
-                  <rdg wit="#M #T" type="variation-substance">26</rdg>
-                </app>.
+                el Maestro [Pedro Lombardo]
+                <name ref="#Lombard">Magister</name>,
+                al respecto de ese texto,
+                en el libro 2, distinción 16,
                 </ref>
               <bibl>
-                <name ref="#Lombard">Petrus Lombardus</name>, 
-                <title ref="#Sentences">Sententiae</title>, 
-                Bk II, d. 16, c. 3 (Quarachi, 1:408):
-                "Factus est igitur homo secundum animam ad imaginem et similitudinem, 
-                non Patris vel Filii vel Spiritus Sancti, sed totius Trinitatis."</bibl>
+                <name ref="#Lombard">Pedro Lombardo</name>, 
+                <title ref="#Sentences">Sentencias</title>, 
+                Lib. II, d. 16, c. 3 (Quarachi, 1:408):
+                <!--"Factus est igitur homo secundum animam ad imaginem et similitudinem, 
+                non Patris vel Filii vel Spiritus Sancti, sed totius Trinitatis."-->
+              </bibl>
             </cit>
           </p>
           
           
-          <p xml:id="b1d3qun-aieqce">Ad idem est 
+          <p xml:id="b1d3qun-aieqce">
+            Frente a lo mismo está
+            <!--Ad idem est--> 
             <ref corresp="#b1d3qun-Qndeqce">
-              <name ref="#Augustine">Augustinus</name> 
-              12 <title ref="#deTrinitate">De Trinitate</title>, 
-              c. 17, de parvis</ref>, 
+              <name ref="#Augustine">Agustín</name> 
+              en el libro XII del <title ref="#deTrinitate">Sobre la Trinidad</title>, 
+              c. 17, de parvis,
+            </ref>
             <cit>
               <quote xml:id="b1d3qun-Qndeqce">
-                <seg type="qs">nulli,</seg> 
-                inquit, 
-                <seg type="qs">dubium est non secundum corpus neque secundum quamlibet aliam partem, 
-                  sed secundum mentem rationalem ubi potest esse agnitio Dei factum hominem 
-                  ad imaginem eius qui creavit eum.</seg>
+                <seg type="qs">para nadie,</seg> 
+                dice, 
+                <seg type="qs">
+                  es dudoso
+                  que el hombre fue hecho a imagen de aquél que lo creó,
+                  no según el cuerpo ni según cualquier otra parte,
+                  sino según la mente racional,
+                  donde puede estar el conocimiento de Dios.
+                </seg>
               </quote>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
-                <title ref="#deTrinitate">De Trinitate</title>, 
-                Bk. XII, c. 7, n. 12 (PL 42:1004--1005):
-                "nulli dubium est, non secundum corpus, 
+                <name ref="#Augustine">Agustín</name>, 
+                <title ref="#deTrinitate">Sobre la Trinidad</title>, 
+                Lib. XII, c. 7, n. 12 (PL 42:1004--1005)
+                <!--"nulli dubium est, non secundum corpus, 
                 neque secundum quamlibet animi partem, 
                 sed secundum rationalem mentem, 
                 ubi potest esse agnitio Dei, 
-                hominem factum ad imaginem eius qui creavit eum."
+                hominem factum ad imaginem eius qui creavit eum."-->
               </bibl>
             </cit>
           </p>
           
           
           <p xml:id="b1d3qun-iehpep">
-            <app>
-              <lem>Item</lem>
-              <rdg wit="#M" type="variation-substance">Tunc</rdg>
-            </app>
-            et haec auctoritas recte 
-            praetendit contrarium primae et secundae. 
-            Ad primam partem dicit enim 
+            Además,
+            también esta autoridad
+            pretende correctamente
+            lo contrario a la primera y la segunda.
+            Pues frente a la primera parte dice
             <ref corresp="#b1d3qun-Qpmipep">
-              <name ref="#Augustine">Augustinus</name> 14 
-              <title ref="#deTrinitate">De Trinitate</title> c. 14 de parvis,
+              <name ref="#Augustine">Agustín</name> 
+              en el libro XIV, c. 14, de parvis,
+              de
+              <title ref="#deTrinitate">Sobre la Trinidad</title>,
             </ref> 
-            quod 
+            que 
             <quote xml:id="b1d3qun-Qpmipep">
-              Prius mens in se ipsa consideranda est 
-              antequam sit particeps Dei et 
-              <app>
-                <lem>in</lem>
-                <rdg wit="#M" type="variation-absent"/>
-              </app>
-              ea recipienda est imago eius. Diximus 
-              enim eam esse 
-              <app>
-                <lem>amissa</lem>
-                <rdg wit="#M" type="variation-substance">amissam</rdg>
-              </app>
-              Dei participatione 
-              <app> <!-- Check out syntax !!! -->
-                <lem n="participatione"/>
-                <rdg wit="#V" type="variation-present">
-                  <add place="margin-left">abolitam</add>
-                </rdg>
-              </app>
-              atque deformem 
-              Dei tamen imaginem permanere. 
-              Eo quippe proprie 
-              <app>
-                <lem>imago eius</lem>
-                <rdg wit="#M #S #T" type="variation-absent"/>
-              </app>
-              est, quo capax 
-              <app>
-                <lem>eius</lem>
-                <rdg wit="#S" type="variation-absent"/>
-              </app>
-              est, eiusque particeps esse potest.
+              En primer lugar
+              la mente ha de ser considerada en sí misma,
+              antes de que sea partícipe de Dios
+              y en ella haya de encontrarse Su imagen.
+              Pues hemos dicho que la mente,
+              incluso habiéndose deshecho la participación de Dios,
+              [al quedar la mente] obsoleta y deforme,
+              permanece sin embargo siendo imagen de Dios.
+              En verdad,
+              es propiamente la imagen Suya,
+              por cuanto es capaz de Él
+              y puede ser partícipe de Él.
             </quote>
             <bibl>
-              <name ref="#Augustine">Augustinus</name>,
-              <title ref="#deTrinitate">De Trinitate</title>, 
-              Bk. XIV, c. 8, n. 11 (CCSL ????; PL 42:1044):
-              "Sed prius mens in se ipsa consideranda est antequam sit particeps Dei, 
+              <name ref="#Augustine">Agustín</name>,
+              <title ref="#deTrinitate">Sobre la Trinidad</title>, 
+              Lib. XIV, c. 8, n. 11 (CCSL ????; PL 42:1044).
+              <!--"Sed prius mens in se ipsa consideranda est antequam sit particeps Dei, 
               et in ea reperienda est imago eius. 
               Diximus enim eam etsi amissa Dei participatione obsoletam atque deformem, 
               Dei tamen imaginem permanere. 
               Eo quippe ipso imago eius est, 
-              quo eius capax est, eiusque particeps esse potest."
+              quo eius capax est, eiusque particeps esse potest."-->
             </bibl>
           </p>
           
           
           <p xml:id="b1d3qun-qsalpd">
-            Quinto, sunt ad 
-            <app>
-              <lem/>
-              <rdg wit="#M #S" type="variation-present">idem</rdg>
-            </app>
-            
-            <app>
-              <lem>istam</lem>
-              <rdg wit="#V" type="correction-addition">
-                <add place="above-line">istam</add>
-              </rdg>
-            </app>
-            partem auctoritates aliae multae tam quo ad imaginem quam quo ad vestigium 
-            quas ponit 
+            En quinto lugar,
+            frente a esta parte
+            hay
+            otras muchas autoridades,
+            tanto en cuanto a la imagen,
+            como en cuanto al vestigio,
+            las cuales son recogidas
+            por  
             <cit>
               <ref>
-                <name ref="#Lombard">Magister</name> 
-                in littera praesentis distinctionis;
+                el <name ref="#Lombard">Maestro [Pedro Lombardo]</name> 
+                en el contexto de la presente distinción; 
               </ref>
               <bibl>
-                <name ref="#Lombard">Petrus Lombardus</name>, 
-                <title ref="#Sentences">Sententiae</title>, 
-                Bk. I, d. 3, c. 1--3 
+                <name ref="#Lombard">Pedro Lombardo</name>, 
+                <title ref="#Sentences">Sentencias</title>, 
+                Lib. I, d. 3, c. 1--3 
                 (Quarachi, 1:70--76).
               </bibl>
             </cit> 
@@ -590,15 +541,13 @@
                 </app>
                 aliquas alias <supplied>auctoritates</supplied> distinctione 16.</ref>
               <bibl>
-                <name ref="#Lombard">Petrus Lombardus</name>, 
-                <title ref="#Sentences">Sententiae</title>, 
-                Bk II, d. 16, c. 1--4 (Quarachi, 1:406--409).
+                <name ref="#Lombard">Pedro Lombardo</name>, 
+                <title ref="#Sentences">Sentencias</title>, 
+                Lib. II, d. 16, c. 1--4 (Quarachi, 1:406--409).
               </bibl>
             </cit>
           </p>
         </div>
-        
-        
         <div>
           <head type="divisio-quaestionis"><supplied>Divisio questionis</supplied></head>
           <p xml:id="b1d3qun-iiqadm">
@@ -741,7 +690,7 @@
                 <ref><name ref="#Ockham">Ockham</name> per experientiam et bene.</ref>
                 <bibl>
                   <name>Guillelmus de Ockham</name>, 
-                  <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:544s.)
+                  <title>Scriptum in Sent.</title>, Lib. I, d. 3, q. 9 (OTh II:544s.)
                 </bibl>
               </cit> 
               Posito enim quod 
@@ -778,7 +727,7 @@
                 <bibl>
                   <name>Guillelmus de Ockham</name>, 
                   <title>Scriptum in Sent.</title>, 
-                   Bk. I, d. 3, q. 9 (OTh II:545)
+                   Lib. I, d. 3, q. 9 (OTh II:545)
                 </bibl>
               </cit>       
               vel per 
@@ -885,7 +834,7 @@
                 <bibl>
                   <name>Guillelmus de Ockham</name>, 
                   <title>Scriptum in Sent.</title>, 
-                  Bk. I, d. 3, q. 9 (OTh II:545):
+                  Lib. I, d. 3, q. 9 (OTh II:545):
                   "Et ita est de vestigio, quod si aliquis videat vestigium bovis recordabitur de bove habitualiter cognito, sed si nunquam prius habuisset aliquam notitiam de bove non plus recordaretur de bove quam de asino."
                 </bibl>
               </cit>
@@ -895,7 +844,7 @@
               <cit>
                 <ref>Per istum etiam modum</ref>
                 <bibl>
-                  <name ref="#Ockham">Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 9 (OTh II:545s)
+                  <name ref="#Ockham">Guillelmus de Ockham</name>, <title>Scriptum in Sent.</title>, Lib. I, d. 3, q. 9 (OTh II:545s)
                 </bibl>
               </cit> 
               duo similia possent mutuo ducere in notitiam 
@@ -982,7 +931,7 @@
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 9 (OTh II:547):
+                    Lib. I, d. 3, q. 9 (OTh II:547):
                     "Sed differunt vestigium et imago, quia de ratione vestigii est quod sit causatum ab illo cuius est vestigium, sicut patet inductive, quia dicitur esse derelictum ex alio. De ratione autem imaginis non est quod sit causata ab illo cuius est imago, sicut imago Herculis sufficit quod causetur ab alio quam ab Hercule."
                   </bibl>
                 </cit> 
@@ -1078,7 +1027,7 @@
                   <bibl>
                     <name>Petrus Lombardus</name>, 
                     <title>Sententiae</title>, 
-                    Bk. II, d. 16, c. 3 (Quarachi I:407)
+                    Lib. II, d. 16, c. 3 (Quarachi I:407)
                   </bibl>
                 </cit>
                 ubi dicit 
@@ -1126,9 +1075,9 @@
                       <name ref="#Bede">Bedae</name>, 
                       <title>In Genesim</title>, I, 26 (PL 91:29b; CCL 188A:25).
                     -->
-                    <name ref="#Lombard">Petrus Lombardus</name>, 
-                    <title ref="#Sentences">Sententiae</title>, 
-                    Bk. II, d. 16, c. 3 (Quarachi I:407)
+                    <name ref="#Lombard">Pedro Lombardo</name>, 
+                    <title ref="#Sentences">Sentencias</title>, 
+                    Lib. II, d. 16, c. 3 (Quarachi I:407)
                     "Improprie tamen imago dicitur, quia imago relative ad aliud dicitur,
                     cuius similitudinem gerit et ad quod repraesentandum facta est;
                     sicut imago Caesaris, quae ipsius similitudinem praeferebat
@@ -1209,7 +1158,7 @@
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 9-10 (OTh II:544--9, 553)
+                    Lib. I, d. 3, q. 9-10 (OTh II:544--9, 553)
                   </bibl>
                 </cit>
               </p> 
@@ -1268,7 +1217,7 @@
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 9 (OTh II:548, l.8--549, l.2).
+                    Lib. I, d. 3, q. 9 (OTh II:548, l.8--549, l.2).
                   </bibl>
                 </cit> 
                 et etiam ibidem,
@@ -1300,7 +1249,7 @@
                   <ref>questione de imagine, articulo secundo.</ref>
                   <bibl><name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 10 (OTh II:557--9)
+                    Lib. I, d. 3, q. 10 (OTh II:557--9)
                   </bibl>
                 </cit> 
                 
@@ -1309,7 +1258,7 @@
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 10 (OTh II:555--7)
+                    Lib. I, d. 3, q. 10 (OTh II:555--7)
                   </bibl>
                 </cit> 
                 docet qualiter in creatura rationali magis dicitur 
@@ -1324,7 +1273,7 @@
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 10 (OTh II:557--9)
+                    Lib. I, d. 3, q. 10 (OTh II:557--9)
                   </bibl>
                 </cit> 
                 consequenter docet quomodo 
@@ -1356,7 +1305,7 @@
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 10 (OTh II:557):
+                    Lib. I, d. 3, q. 10 (OTh II:557):
                     "<supplied>. . . </supplied> imago Dei imperfecta et quasi 
                     radicaliter et originaliter consistit in ipsa anima secundum 
                     suam substantiam. Verumtamen perfectio imaginis completive 
@@ -1383,7 +1332,7 @@
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 10 (OTh II:559)
+                    Lib. I, d. 3, q. 10 (OTh II:559)
                   </bibl>
                 </cit> 
                 probat et bene. Et 
@@ -1430,7 +1379,7 @@
                     -->
                     <name ref="#Ockham">Guillelmus de Ockham</name>
                     <title>Scriptum in Sent.</title>, 
-                    Bk. I, d. 3, q. 10 (OTh II:559):
+                    Lib. I, d. 3, q. 10 (OTh II:559):
                     "Quod autem actus volendi sit effective ab actu intelligendi,
                     ostendo per illud commune verbum quod ‘omne absolutum
                     necessario praesuppositum alteri habet rationem causae
@@ -1459,7 +1408,7 @@
                   <bibl>
                     <name>Iohannes Duns Scotus</name>, 
                     <title>Ordinatio</title>, 
-                    Bk. I, d. 3, pars 3, q. 4, n. 589 (Vatican 3:348)
+                    Lib. I, d. 3, pars 3, q. 4, n. 589 (Vatican 3:348)
                   </bibl>
                 </cit> 
                 et utitur 
@@ -1573,7 +1522,7 @@
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
-                  Bk. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040):
+                  Lib. XIV, c. 3, n. 6 (CCSL  50A:428; PL 42:1040):
                   "ea est invenienda in anima hominis, id est rationali, 
                   sive intellectuali, imago creatoris, 
                   quae immortaliter immortalitati eius est insita."
@@ -1586,7 +1535,7 @@
               in mente rationali inveniri imago respectu cuiuscumque obiecti intelligibilis et diligibilis, cuius
               oppositum innuit 
               <ref corresp="#b1d3qun-Qiesdip">
-                <name ref="#Augustine">Augustinus</name> XII <title ref="#deTrinitate">De Trinitate</title>, c. 4,
+                <name ref="#Augustine">Agustín</name> XII <title ref="#deTrinitate">Sobre la Trinidad</title>, c. 4,
               </ref> 
               <cit>
                 <quote xml:id="b1d3qun-Qiesdip"><seg type="qs">in eo solo</seg> inquit, <seg type="qs">quod ad 
@@ -1602,7 +1551,7 @@
               </cit> 
               Et 
               <ref corresp="#b1d3qun-Qnpeqfe">
-                XIV <title ref="#deTrinitate">De Trinitate</title>, 
+                XIV <title ref="#deTrinitate">Sobre la Trinidad</title>, 
                 c. 23 de parvis,</ref> 
               dicit quod 
               <cit>
@@ -1632,7 +1581,7 @@
                     <name ref="#Scotus">Scotus</name> in II, distinctione 16.
                   </ref>
                   <bibl>
-                    <name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. II, d. 16, pars. ?, q. ? (Vatican ?:??)
+                    <name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Lib. II, d. 16, pars. ?, q. ? (Vatican ?:??)
                   </bibl>
                 </cit> 
                 Sed per eundem ibidem nulla ratio 
@@ -1652,7 +1601,7 @@
                 <cit>
                   <ref>secundum <name ref="#Lombard">Magistrum</name></ref>
                   <bibl>
-                    <name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 3 (Quarachi, 1:74-75)
+                    <name>Petrus Lombardus</name>, <title>Sententiae</title>, Lib. I, d. 3, c. 3 (Quarachi, 1:74-75)
                   </bibl>
                 </cit> 
                 magis est dissimilitudo. Ideo dico quod 
@@ -1683,7 +1632,7 @@
                 et allegatur in littera, 
                 <cit>
                   <ref>distinctione 3, Ii,</ref>
-                  <bibl><name>Petrus Lombardus</name>, <title>Sententiae</title>, Bk. I, d. 3, c. 2, n.7 (Quaracchi, 1:73-74)</bibl>
+                  <bibl><name>Petrus Lombardus</name>, <title>Sententiae</title>, Lib. I, d. 3, c. 2, n.7 (Quaracchi, 1:73-74)</bibl>
                 </cit> 
                 relative dicuntur 
                 ad invicem quod non esset nisi significarent aliqua distincta quae 
@@ -1701,7 +1650,7 @@
                 vera et necessaria, si formetur anima. Est memoria, intelligentia, et voluntas, 
                 <pb ed="#S" n="80-r" />
                 <cb ed="#S" n="b" /> 
-                si anima saltem sit. Nec aliud intelligit <name ref="#Augustine">Augustinus</name> per <mentioned>imaginem esse immortalem</mentioned> 
+                si anima saltem sit. Nec aliud intelligit <name ref="#Augustine">Agustín</name> per <mentioned>imaginem esse immortalem</mentioned> 
                 quam quod <mentioned>anima necessario et immortaliter,</mentioned> ipsa manente, sit talis qualis exprimitur 
                 esse cum dicitur <mentioned>esse memoria, intelligentia, voluntas.</mentioned></p>
               
@@ -1710,7 +1659,7 @@
                   <ref>
                     <name ref="#Scotus">Scotus</name>
                   </ref>
-                  <bibl><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Bk. I, d. 3, pars 3, q. 4, n. 590 (Vatican, 3:349)</bibl>
+                  <bibl><name>Iohannes Duns Scotus</name>, <title>Ordinatio</title>, Lib. I, d. 3, pars 3, q. 4, n. 590 (Vatican, 3:349)</bibl>
                 </cit> 
                 quod respectu Dei, ut obiecti, in mente habetur ultima et perfectissima ratio 
                 imaginis, quia tunc illa tria non solum sunt expressa similitudo Trinitatis 
@@ -1834,8 +1783,8 @@
                 abstractivae gignendae respectu talis obiecti absentis. Unde de actu 
                 primo intellectivo (scilicet respectu talis obiecti naturalis) causando, verbum est—illud 
                 <ref corresp="#b1d3qun-Qauneic">
-                  <name ref="#Augustine">Augustinus</name> 
-                  IX <title ref="#deTrinitate">De Trinitate</title> 30 de parvis:</ref> 
+                  <name ref="#Augustine">Agustín</name> 
+                  IX <title ref="#deTrinitate">Sobre la Trinidad</title> 30 de parvis:</ref> 
                 <cit>
                   <quote xml:id="b1d3qun-Qauneic">ab utroque notitia paritur, id est gignitur, a 
                     cognoscente scilicet et igitur cognito,</quote>
@@ -1912,7 +1861,7 @@
                 <cit>
                   <ref><name ref="#Augustine">Augustinum</name>, ubi sequi videtur 
                     illam distinctionem actus ab habitu vel specie <unclear>29</unclear> 
-                    <title ref="#deTrinitate">De Trinitate</title>, c. 15 et multis 
+                    <title ref="#deTrinitate">Sobre la Trinidad</title>, c. 15 et multis 
                     locis,</ref>
                   <bibl>???</bibl>
                 </cit> 
@@ -2773,7 +2722,7 @@
                   <ref>
                     <name ref="#Augustine">Augustinum</name> <!-- S and M still have Augustinus which is probably a transcription error --> 
                   	IX 
-                    <title ref="#deTrinitate">De Trinitate</title> c. 14, 21. <!-- complicated disagreement in Vat and Maz about numbers here -->
+                    <title ref="#deTrinitate">Sobre la Trinidad</title> c. 14, 21. <!-- complicated disagreement in Vat and Maz about numbers here -->
                   </ref>
                   <bibl>
                     <name>Augustinus</name>, 
@@ -2865,7 +2814,7 @@
                   <ref>
                     <name ref="#Augustine">Augustinum</name> 
                   	XI 
-                  	<title ref="#deTrinitate">De Trinitate</title> 
+                  	<title ref="#deTrinitate">Sobre la Trinidad</title> 
                   	c. 2, 4, 7, 9, 21, 29, <!-- discrepancy here in all witnesses -->
                   </ref>
                   <bibl>
@@ -3114,7 +3063,7 @@
               <head><supplied>Oppositum</supplied></head>
               <p xml:id="b1d3qun-aocdim">Ad oppositum, 
                 <cit>
-                  <ref>XV <title ref="#deTrinitate">De Trinitate</title> c. 67 et 77</ref>
+                  <ref>XV <title ref="#deTrinitate">Sobre la Trinidad</title> c. 67 et 77</ref>
                   <bibl>
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title>, 
@@ -3140,9 +3089,9 @@
               <p xml:id="b1d3qun-pnppan">Praeterea, notitia praesupponitur amori sicut probat 
                 <cit>
                   <ref> <!-- discrpeancies here (and in next ref --> in V and T aobut reference numbers -->
-                  	<name ref="#Augustine">Augustinus</name> 
+                  	<name ref="#Augustine">Agustín</name> 
                   	VIII 
-                  	<title ref="#deTrinitate">De Trinitate</title> c. 16,</ref>
+                  	<title ref="#deTrinitate">Sobre la Trinidad</title> c. 16,</ref>
                   <bibl>
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title> 
@@ -3153,7 +3102,7 @@
                 </cit> 
                 et 
                 <cit>
-                  <ref>X <title ref="#deTrinitate">De Trinitate</title> c. 48</ref>
+                  <ref>X <title ref="#deTrinitate">Sobre la Trinidad</title> c. 48</ref>
                   <bibl>Augustine, De Trinitate, X, ???</bibl>
                 </cit> 
                 et quasi per totum librum, et 
@@ -3174,7 +3123,7 @@
                 </cit> 
                 quamvis 
                 aliquid possit <!-- M and V have "possit aliquid" --> 
-                cognosci et non amari, sicut vult <name ref="#Augustine">Augustinus</name> 
+                cognosci et non amari, sicut vult <name ref="#Augustine">Agustín</name> 
               	<app>
               		<lem>in</lem>
               		<rdg wit="#S #M #V" type="variation-absent"/>
@@ -3221,12 +3170,12 @@
                 spiritu sancto. <!-- unclear V seems to have "consequens" added plus scilicet, M and T current have "spiritus sanctus" --> 
                 Cuius oppositum declarat
                 <cit>
-                  <ref><name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> c. 29</ref>
+                  <ref><name ref="#Augustine">Agustín</name> IX <title ref="#deTrinitate">Sobre la Trinidad</title> c. 29</ref>
                   <bibl>Augustine, De Trinitate, IX</bibl>
                 </cit> 
                 et 
                 <cit>
-                  <ref>XV <title ref="#deTrinitate">De Trinitate</title> c. 67.</ref>
+                  <ref>XV <title ref="#deTrinitate">Sobre la Trinidad</title> c. 67.</ref>
                   <bibl>Augustine, De Trinitate, XV, ???</bibl>
                 </cit>
               </p>
@@ -3422,7 +3371,7 @@
               		<lem>increata</lem>
               		<rdg wit="#M">causata</rdg>
               	</app> 
-                secundum <name ref="#Augustine">Augustinus</name>, ubi prius arguendo ad partem oppositam dubitationis huius. 
+                secundum <name ref="#Augustine">Agustín</name>, ubi prius arguendo ad partem oppositam dubitationis huius. 
                 Haec conclusio satis patet per argumentum 
               	<app>
               		<lem>supra positum</lem>
@@ -3457,7 +3406,7 @@
                     	</app> 
                     	Augustinum</name> 
                   	IX <!-- V has "IV"; dbcheck for transcription error --> 
-                  	<title ref="#deTrinitate">De Trinitate</title>
+                  	<title ref="#deTrinitate">Sobre la Trinidad</title>
                   </ref>
                   <bibl>Augustine, De Trinitate, IX, ???</bibl>
                 </cit> 
@@ -3921,9 +3870,9 @@
                   <cb ed="#S" n="a" />
               		<cit>
               			<ref>
-	              			<name ref="#Augustine">Augustinus</name> 
+	              			<name ref="#Augustine">Agustín</name> 
 	              			IX 
-	              			<title ref="#deTrinitate">De Trinitate</title> 
+	              			<title ref="#deTrinitate">Sobre la Trinidad</title> 
 	              			c. 
 	              			<app>
 	              				<lem>penultimo</lem>
@@ -3983,7 +3932,7 @@
                 	Isto modo accipit 
                   <cit>
                     <ref>
-                    	<name ref="#Augustine">Augustinus</name> 
+                    	<name ref="#Augustine">Agustín</name> 
                     	in <title>Sermone de Sancto Iohanne <!-- S T has Iohanne; likely transcription error --> Baptista</title>.
                     </ref>
                     <bibl>Augustine, ???</bibl>
@@ -4019,7 +3968,7 @@
                   cognitio <!-- S and M still have "cogitatio" --> 
                 	et 
                   <cit>
-                    <ref>15 <title ref="#deTrinitate">De Trinitate</title> c. 10</ref>
+                    <ref>15 <title ref="#deTrinitate">Sobre la Trinidad</title> c. 10</ref>
                     <bibl>Augustine, De Trinitate, XV, c. 10, ???</bibl>
                   </cit> 
                   dicit 
@@ -4107,7 +4056,7 @@
                 	</app> 
                 	unde 
                   <cit>
-                    <ref>VIII <title ref="#deTrinitate">De Trinitate</title> capitulo 10</ref>
+                    <ref>VIII <title ref="#deTrinitate">Sobre la Trinidad</title> capitulo 10</ref>
                     <bibl>Augustine, De Trinitate, VIII, c. 10, ???</bibl>
                   </cit> 
                   phantasia 
@@ -4129,7 +4078,7 @@
                 <p xml:id="b1d3qun-tmsdqd">Tertio modo sumitur ab isto specialius 
                   pro omni actu assentiendi vel dissentiendi vero vel falso, sic loquitur 
                   <cit>
-                    <ref>XV <title ref="#deTrinitate">De Trinitate</title> c. 15.</ref>
+                    <ref>XV <title ref="#deTrinitate">Sobre la Trinidad</title> c. 15.</ref>
                     <bibl>Augustine, De Trinitate, XV</bibl>
                   </cit> 
                   Falsum est verbum nostrum cum 
@@ -4175,7 +4124,7 @@
                   </app> 
                   habitu scientifico vel saltem vero; 
                   <cit>
-                    <ref>XV <title ref="#deTrinitate">De Trinitate</title>, c. 10</ref>
+                    <ref>XV <title ref="#deTrinitate">Sobre la Trinidad</title>, c. 10</ref>
                     <bibl>Augustine, De Trinitate, XV, c. 10, ???</bibl>
                   </cit> 
                   necesse est cum 
@@ -4207,7 +4156,7 @@
                     	<lem>IX</lem>
                     	<rdg wit="#M">V</rdg>
                     </app> 
-                  	<title ref="#deTrinitate">De Trinitate</title> <!-- unclear but seems like T has "et" for "De Trinitate" dbcheck --> 
+                  	<title ref="#deTrinitate">Sobre la Trinidad</title> <!-- unclear but seems like T has "et" for "De Trinitate" dbcheck --> 
                   	c. 8
                   </ref> 
                   <cit>
@@ -4239,7 +4188,7 @@
                 		<rdg wit="#M">cognito</rdg>
                 	</app> 
                   <ref>
-                    <title ref="#deTrinitate">De Trinitate</title> c. 15
+                    <title ref="#deTrinitate">Sobre la Trinidad</title> c. 15
                   </ref> 
                   tunc 
                 	<app> <!-- unclear -->
@@ -4330,7 +4279,7 @@
                   </app> 
                 	pro definitione alicuius iuxta illud 
                   <cit>
-                    <ref><name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate <!-- Vat has "Triniate" needs to be corrected --></title> c. 10</ref>
+                    <ref><name ref="#Augustine">Agustín</name> IX <title ref="#deTrinitate">De Trinitate <!-- Vat has "Triniate" needs to be corrected --></title> c. 10</ref>
                     <bibl>Augustine, De Trinitate, IX</bibl>
                   </cit> 
                   definitio, 
@@ -4343,7 +4292,7 @@
                 	</app> 
                   <ref>
                   	<app>
-	                  	<lem wit="#M"><title ref="#deTrinitate">de Trinitate</title> capitulo 15</lem>
+	                  	<lem wit="#M"><title ref="#deTrinitate">Sobre la Trinidad</title> capitulo 15</lem>
                   		<rdg wit="#V">15 de trinitate capitulo</rdg>
                   		<rdg wit="#S #T">15</rdg>
                   </app>
@@ -5431,7 +5380,7 @@
               	<app>
               		<lem>lucidas</lem>
               		<rdg wit="#M">suades</rdg>
-              	</app>. Et <name ref="#Augustine">Augustinus</name> 
+              	</app>. Et <name ref="#Augustine">Agustín</name> 
               	<app>
               		<lem>idem</lem>
               		<rdg wit="#S #M">ibidem</rdg> <!-- dbcheck -->
@@ -6311,9 +6260,9 @@
               	quod non quia 
                 <cit>
                   <ref>
-                  	<name ref="#Augustine">Augustinus</name> 
+                  	<name ref="#Augustine">Agustín</name> 
                   	15 
-                  	<title ref="#deTrinitate">De Trinitate</title> c. 
+                  	<title ref="#deTrinitate">Sobre la Trinidad</title> c. 
                   	<app>
                   		<lem>68</lem>
                   		<rdg wit="#T">66</rdg>
@@ -6376,7 +6325,7 @@
               	intelligeret, sicut dicit 
                 <cit>
                   <ref>
-                    <name ref="#Augustine">Augustinus</name> 10 <title ref="#deTrinitate">De Trinitate</title>, c. 28
+                    <name ref="#Augustine">Agustín</name> 10 <title ref="#deTrinitate">Sobre la Trinidad</title>, c. 28
                   </ref>
                   <bibl>Augustine, De Trinitate, X, c. 28, ???</bibl> <!-- possibily chapter 11, n. 18; see lombard -->
                 </cit> 
@@ -6399,7 +6348,7 @@
               		<rdg wit="#S #T #V">videntur</rdg> <!-- most likely an error in transcription; dbheck -->
               	</app> 
               	falsum, 
-                quia aut intelligeret <name ref="#Augustine">Augustinus</name> de 
+                quia aut intelligeret <name ref="#Augustine">Agustín</name> de 
               	<mentioned>intelligere</mentioned> actu primo aut
               	<app>
               		<lem wit="#T">de <mentioned>intelligere</mentioned> actu</lem>
@@ -6467,12 +6416,12 @@
               	sanatae 
                 a languore, sicut dicit 
                 <cit>
-                  <ref><name ref="#Augustine">Augustinus</name> 
+                  <ref><name ref="#Augustine">Agustín</name> 
                   	<app>
                   		<lem><num>15</num></lem>
                   		<rdg wit="#S"><num>3</num></rdg> <!-- unclear dbcheck -->
                   	</app> 
-                  	<title ref="#deTrinitate">De Trinitate</title> c. 68</ref>
+                  	<title ref="#deTrinitate">Sobre la Trinidad</title> c. 68</ref>
                   <bibl>Augustine, De Trinitate, XV, c. 68, ???</bibl>
                 </cit>, 
                 sed hoc 
@@ -6532,7 +6481,7 @@
                 </cit> 
                 sicut dicit 
                 <ref corresp="#b1d3qun-Qaeeeep">
-                  <name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> c. 9, de parvis
+                  <name ref="#Augustine">Agustín</name> IX <title ref="#deTrinitate">Sobre la Trinidad</title> c. 9, de parvis
                 </ref>. 
                 Si igitur cognitio sit aequalis amori, sequitur quod 
               	<app>
@@ -6622,7 +6571,7 @@
               <p xml:id="b1d3qun-aoavsa">Ad oppositum 
                 arguitur per 
                 <cit>
-                  <ref><name ref="#Augustine">Augustinum</name> 10 <title ref="#deTrinitate">De Trinitate</title> c. 28</ref>
+                  <ref><name ref="#Augustine">Augustinum</name> 10 <title ref="#deTrinitate">Sobre la Trinidad</title> c. 28</ref>
                   <bibl>Augustine, De Trinitate, X, c. 28, ???</bibl>
                 </cit> 
                 et 
@@ -6637,10 +6586,10 @@
                   <bibl>Lombard, Sententia, I, d. 3</bibl>
                 </cit> 
                 ubi 
-                probat <name ref="#Augustine">Augustinus</name> quod memoria, intelligentia, et voluntas sunt aequales.</p>
+                probat <name ref="#Augustine">Agustín</name> quod memoria, intelligentia, et voluntas sunt aequales.</p>
               
               <p xml:id="b1d3qun-pdtols">Praeterea 
-                <ref corresp="#b1d3qun-Qehaols">15 <title ref="#deTrinitate">De Trinitate</title> c. 68</ref> dicit quod 
+                <ref corresp="#b1d3qun-Qehaols">15 <title ref="#deTrinitate">Sobre la Trinidad</title> c. 68</ref> dicit quod 
                 <cit>
                   <quote xml:id="b1d3qun-Qehaols">erunt haec aequalia quando erunt ab omni languore sanata</quote>
                   <bibl>Augustine, De Trinitate 15.23.43</bibl>
@@ -6648,7 +6597,7 @@
               </p>
               
               <p xml:id="b1d3qun-pifase">Praeterea 
-                <ref corresp="#b1d3qun-Qmaeeas">9 <title ref="#deTrinitate">De Trinitate</title>, in fine,</ref> 
+                <ref corresp="#b1d3qun-Qmaeeas">9 <title ref="#deTrinitate">Sobre la Trinidad</title>, in fine,</ref> 
                 <cit>
                   <quote xml:id="b1d3qun-Qmaeeas">mens, amor, et notitia,
                   	<app xml:id="b1d3qun-Aasasas" next="#b1d3qun-Apdtcdp">
@@ -6767,7 +6716,7 @@
               	<app xml:id="b1d3qun-Asieida" next="#b1d3qun-Aaidvip">
               		<lem>sicut ipsum est ens, non autem sicut 
 		                ipsum est cognoscibile, quia infinite est cognoscibile. Ita dicit hic 
-		                <name ref="#Augustine">Augustinus</name> quod partes imaginis cum sunt perfectae, tunc mens non minus 
+		                <name ref="#Augustine">Agustín</name> quod partes imaginis cum sunt perfectae, tunc mens non minus 
 		                amat se quam est et non dicit non minus amat se quam 
 		                est amabilis, nam est infinite amabilis infinite divini amoris</lem>
               		<rdg wit="#M" type="variation-absent"/>
@@ -6855,7 +6804,7 @@
                 	et quicquid est obiectum unius est obiectum alterius 
                   eodem modo habitu, scilicet, vel actu, et sic loquitur 
                   <cit>
-                    <ref><name ref="#Augustine">Augustinus</name> 9 <title ref="#deTrinitate">De Trinitate</title> c.14</ref>
+                    <ref><name ref="#Augustine">Agustín</name> 9 <title ref="#deTrinitate">Sobre la Trinidad</title> c.14</ref>
                     <bibl>Augustine, De Trinitate, 9, c. 14, ???</bibl>
                   </cit>.
                 </p> 
@@ -6891,12 +6840,12 @@
                   a suo proprio actu, <!-- actu precedes proprio in T --> 
                   et isto modo loquitur 
                   <ref>
-                    <name ref="#Augustine">Augustinus</name> 
+                    <name ref="#Augustine">Agustín</name> 
                   	<app>
                   		<lem>15</lem>
                   		<rdg wit="#S">18</rdg>
                   	</app> 
-                  	<title ref="#deTrinitate">De Trinitate</title> c. 68,
+                  	<title ref="#deTrinitate">Sobre la Trinidad</title> c. 68,
                   </ref> 
                 	ubi dicit quod memoria, intellegentia, et voluntas in via aliquando 
                 	sunt inaequales, quia 
@@ -7023,7 +6972,7 @@
                   ibi ab aliquo istorum actuum, sed erit incompleta dispositione 
                   naturali. Unde 
                   <ref>
-                  	<name ref="#Augustine">Augustinus</name> 
+                  	<name ref="#Augustine">Agustín</name> 
                   	secundum istum 
                   	<app>
                   		<lem>modum</lem>
@@ -7034,7 +6983,7 @@
                   		<rdg wit="#T" type="variation-present">loquendi</rdg>
                   	</app>
                   	loquens 
-                  	10 <title ref="#deTrinitate">De Trinitate</title> c. 
+                  	10 <title ref="#deTrinitate">Sobre la Trinidad</title> c. 
                   	<app>
                   		<lem>26</lem>
                   		<rdg wit="#M">28</rdg>
@@ -8048,7 +7997,7 @@
             </div>
             <div>
               <head><supplied>Responsio Fitzralph ad rationes principales</supplied></head>
-              <p xml:id="b1d3qun-apliqa">Ad primum argumentum istius dubii, <name ref="#Augustine">Augustinus</name> 
+              <p xml:id="b1d3qun-apliqa">Ad primum argumentum istius dubii, <name ref="#Augustine">Agustín</name> 
               	<app>
               		<lem>loquendo</lem>
               		<rdg wit="#M #T">loquitur</rdg>
@@ -8101,7 +8050,7 @@
               		<lem>loquitur</lem>
               		<rdg wit="#S">loquendo</rdg> 
               	</app> 
-              	<name ref="#Augustine">Augustinus</name>, 
+              	<name ref="#Augustine">Agustín</name>, 
                 et cum accipitur quod 
               	<app>
               		<lem>sic</lem>
@@ -8309,7 +8258,7 @@
               
               <p xml:id="b1d3qun-aqrdai">Ad quintum respondet 
                 <name ref="#RichardFitzRalph">Fitzralph</name> quod 
-              	<name ref="#Augustine">Augustinus</name> dicens quod 
+              	<name ref="#Augustine">Agustín</name> dicens quod 
               	<cit>
               		<quote>quando amor erit perfectus, tunc mens 
               			amat se quantum est</quote>
@@ -9873,7 +9822,7 @@
             	in actu intellectus et in actu voluntatis, 
               sicut 
               <cit>
-                <ref><name ref="#Augustine">Augustinus</name> declarat 5 <title ref="#deTrinitate">De Trinitate</title> c. 15 in fine,</ref>
+                <ref><name ref="#Augustine">Agustín</name> declarat 5 <title ref="#deTrinitate">Sobre la Trinidad</title> c. 15 in fine,</ref>
                 <bibl>Augustinus, De Trinitate, V, 15, xxx</bibl>
               </cit> 
               sed quantum ad hoc abducit 
