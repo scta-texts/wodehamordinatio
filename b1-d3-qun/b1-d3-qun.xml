@@ -484,12 +484,12 @@
               <rdg type="variation-absent" wit="#M #T" />
             </app> 
             Trinitatem esse in Deo. 
-            Consequens falsum <supplied>est</supplied> 
+            Consequens falsum
             quia eius
             cognitio 
             <app>
-              <lem>non</lem>
-              <rdg wit="#V" type="variation-absent"/>
+              <lem wit="#S">non</lem>
+              <rdg wit="#V #T #M " type="variation-absent"/>
             </app> 
             magis 
             <app>
@@ -498,11 +498,11 @@
             </app> 
             ipsius Trinitatis increatae 
             <app>
-              <lem>quam aliud</lem> <!-- dbcheck inclusion -->
+              <lem>quam aliud</lem>
               <rdg type="variation-absent" wit="#M #T #V" />
             </app>. 
-            Probo <!-- dbcheck against "probatio" --> 
-            sive enim <!-- There's something strange about the grammar here. "Enim" is usually the second word of the sentence, so I thinks I haven't understood this quite correctly. [NV] -->
+            Probatio: 
+            sive enim 
             <app>
               <lem>in</lem>
               <rdg type="correction-addition" wit="#T">
@@ -516,7 +516,8 @@
               <rdg type="variation-substance" wit="#M">personarum</rdg>
               <rdg type="variation-absent" wit="#S" />
             </app> 
-            sive non videtur 
+            sive non
+            videtur 
             <app>
               <lem>abducere</lem> <!-- dbcheck "videtur abducere"; makes more sense to end with just "sive non. Si enim sic" -->
               <rdg type="correction-substitution" wit="#S">
@@ -580,7 +581,7 @@
             quia 
             <ref xml:id="b1d3qun-Radf3fd" corresp="#b1d3qun-Qiciani">
               <app>
-                <lem>14</lem>
+                <lem>XIV</lem>
                 <rdg type="variation-substance" wit="#M">48</rdg>
               </app>
               <title ref="#deTrinitate">De Trinitate</title>, 
@@ -595,11 +596,18 @@
             </ref> 
             quod,
             <cit>
-              <quote xml:id="b1d3qun-Qiciani" source="http://scta.info/resource/adt-l14">
+              <quote xml:id="b1d3qun-Qiciani" source="http://scta.info/resource/adt-l14" type="paraphrase">
                 imago creatoris immortaliter 
-                <app>
-                  <lem>inserta</lem>
+                <app> <!-- important app for stemma, showing V correcting an error also present in S -->
+                  <lem wit="#T">insita</lem>
+                  <rdg wit="#V" type="correction-substitution">
+                    <subst>
+                      <del>inserta</del>
+                      <add>insita</add>
+                    </subst>
+                  </rdg>
                   <rdg type="variation-substance" wit="#M">infinita</rdg>
+                  <rdg type="variation-substance" wit="#S">inserta</rdg>
                 </app> 
                 est animae hominis rationali seu intellectuali 
               </quote>
@@ -647,7 +655,6 @@
             igitur. 
           </p>
         </div>
-
         <div xml:id="b1d3qun-Daomaom">
           <head xml:id="b1d3qun-Haomaom">
             <supplied>Ad oppositum</supplied>
@@ -663,7 +670,6 @@
                 faciamus hominem ad imaginem
               </quote>
               <bibl>
-                <name ref="#Augustine">Augustinus</name>, 
                 <title ref="#gen">Genesis</title> 1:26
               </bibl>
             </cit>, 
@@ -708,8 +714,8 @@
             </cit>, 
             <app>
               <!--etc present in Tara, dbcheck presence in other mss-->
-              <lem wit="#T">etc</lem>
-              <rdg wit="#V" type="variation-absent"/>
+              <lem n="vestrae"/>
+              <rdg wit="#T" type="variation-present">etc.</rdg>
             </app>
             Et 
             <ref corresp="#b1d3qun-Qimfaid">c. 26</ref>
@@ -725,7 +731,7 @@
               <bibl>
                 <name ref="#Augustine">Augustinus</name>, 
                 <title ref="#DeGenesiAdLitteram">De Genesi ad litteram</title>, 
-                Bk. VI, c. 12, n. 22 (CCSL ???; PL 34: ???)
+                Bk. VI, c. 12, n. 21 (CCSL ???; PL 34:348)
                 <!--"Sed hoc
                 excellit in homine, quia Deus ad imaginem suam hominem fecit, propter hoc quod ei
                 dedit mentem intellectualem, qua praestat pecoribus; unde iam superiore loco
@@ -746,10 +752,10 @@
               <ref xml:id="b1d3qun-Rouyght" target="http://scta.info/resource/pll2d16c3-d1e3591">
                 <name ref="#Lombard">Magister</name>, 
                 <app>
-                  <lem>in littera,</lem>
+                  <lem>in littera</lem>
                   <rdg type="variation-absent" wit="#S #V #T" />
-                </app> 
-                libro 2, 
+                </app>, 
+                libro II, 
                 distinctione 
                 <app>
                   <lem>16</lem>
@@ -781,7 +787,7 @@
                 <seg type="qs">
                   dubium est, 
                   non secundum corpus,
-                  neque secundum quamlibet <unclear>aliam <!-- animi --></unclear> partem, 
+                  neque secundum quamlibet <sic>aliam</sic> partem, 
                   sed secundum mentem rationalem, 
                   ubi potest esse agnitio Dei, 
                   factum hominem ad imaginem eius qui creavit eum
@@ -814,7 +820,7 @@
             quod 
             <cit>
               <quote xml:id="b1d3qun-Qpmipep" source="http://scta.info/resource/adt-l14">
-                Prius mens in se ipsa consideranda est 
+                prius mens in se ipsa consideranda est 
                 antequam sit particeps Dei 
                 et 
                 <app>
@@ -822,22 +828,22 @@
                   <rdg type="variation-absent" wit="#M" />
                 </app> 
                 ea recipienda est imago eius. 
-                Diximus enim eam 
+                Diximus enim eam, 
                 <app>
                   <lem wit="#V">etiam</lem>
-                  <rdg wit="#T">esse</rdg>
-                  <!-- M and S -->
+                  <rdg wit="#T #S #M">esse</rdg>
                 </app> 
                 <app>
                   <lem>amissa</lem>
                   <rdg type="variation-substance" wit="#M">amissam</rdg>
                 </app>
                 Dei participatione
-                <app> <!-- Check out syntax !!! -->
-                  <lem n="participatione" />
+                <app> 
+                  <lem>abolitam</lem>
                   <rdg type="correction-addition" wit="#V">
                     <add place="margin-left">abolitam</add>
                   </rdg>
+                  <rdg type="variation-absent" wit="#T #S #M"/>
                 </app>
                 atque deformem, 
                 Dei tamen imaginem permanere. 
@@ -908,8 +914,7 @@
                   <lem n="2" />
                   <rdg type="variation-present" wit="#M">et</rdg>
                 </app> 
-                aliquas alias 
-                <supplied>auctoritates</supplied>, 
+                aliquas alias,
                 distinctione 16
               </ref>
               <bibl>
@@ -920,12 +925,13 @@
             </cit>.
           </p>
         </div>
+        <!-- where we left off 5/03 -->
         <div xml:id="b1d3qun-Ddqdqdq">
           <head xml:id="b1d3qun-Hdqdqdq" type="divisio-quaestionis">
-            <supplied>Divisio questionis</supplied>
+            <supplied>Divisio quaestionis</supplied>
           </head>
           <p xml:id="b1d3qun-iiqadm">
-            In ista questione est conclusio certa quod sic. Sed videndum <app>
+            In ista quaestione est conclusio certa quod sic. Sed videndum <app>
               <lem>est</lem>
               <rdg type="variation-absent" wit="#V #T #M" />
             </app>
