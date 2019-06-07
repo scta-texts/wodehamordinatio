@@ -1549,8 +1549,9 @@
                 </app> 
                 de bove habitualiter noto, 
                 sed ducit communiter in credulitatem conformem
-                huic complexo contingenti 
-                <mentioned>bos hic 
+                huic complexo contingenti, 
+                <mentioned>
+                  bos hic 
                   <app>
                     <lem>pertransivit</lem>
                     <rdg type="variation-substance" wit="#S">transivit</rdg>
@@ -1558,7 +1559,7 @@
                 </mentioned>, 
                 sed imago 
                 <name ref="#Peter" type="variable">Petri</name> 
-                non in hanc
+                non in hanc,
                 <mentioned>
                   <name ref="#Peter" type="variable">Petrus</name> 
                   hic transivit
@@ -1581,7 +1582,8 @@
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, Bk. I, d.
-                    3, q. 9-10 (OTh II:544--9, 553) </bibl>
+                    3, q. 9-10 (OTh II:544--9, 553)
+                  </bibl>
                 </cit>.
               </p>
               <p xml:id="b1d3qun-qaqndr">
@@ -1594,7 +1596,7 @@
                 <app>
                   <lem>scilicet</lem>
                   <rdg type="variation-absent" wit="#T" />
-                </app>, 
+                </app> 
                 quaedam in ea, 
                 sicut 
                 <app>
@@ -1603,13 +1605,8 @@
                 </app>, 
                 <app>
                   <lem>species</lem>
-                  <rdg type="correction-substitution" wit="#M">
-                    <subst>
-                      <del>speciei</del>
-                      <add hand="#M1" place="in-line">species</add>
-                    </subst>
-                  </rdg>
-                </app> 
+                  <rdg type="variation-substitution" wit="#M">speciei</rdg>
+                </app>,
                 et ordo, 
                 <app>
                   <lem>possunt</lem>
@@ -1627,7 +1624,7 @@
                 </app> 
                 divinis personis incomplexam 
                 <app>
-                  <lem>rememorativam et</lem>
+                  <lem>rememorativam, et</lem>
                   <rdg type="variation-substance" wit="#V">rememorationem vel</rdg>
                 </app> 
                 etiam in notitiam complexam contingentem, 
@@ -1635,8 +1632,8 @@
                 <cit>
                   <ref xml:id="b1d3qun-Rad3f3f" target="http://scta.info/resource/wo-b1d3q9">
                     <name ref="#Ockham">Ockham</name>, 
-                    quaestione de vestigio, articulo
-                    secundo,
+                    quaestione de vestigio, 
+                    articulo secundo
                   </ref>
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
@@ -1644,8 +1641,8 @@
                     Bk. I, d.
                     3, q. 9 (OTh II:548, l.8--549, l.2). 
                   </bibl>
-                </cit> 
-                et etiam ibidem,
+                </cit>. 
+                Et etiam ibidem,
                 <!-- [I think this ref. is wrong.]
                 <cit>
                   <ref>etiam ibidem,</ref>
@@ -1663,32 +1660,39 @@
                 consistit 
                 <pb ed="#S" n="80-r" />
                 <cb ed="#S" n="a" /> 
-                vestigium, quia aliquando in distinctis realiter, aliquando in
-                non distinctis realiter. 
+                vestigium 
+                quia aliquando in distinctis realiter, 
+                aliquando in non distinctis realiter. 
               </p>
               <p xml:id="b1d3qun-esiidp"> 
                 Et similiter in 
                 <cit>
-                  <ref target="http://scta.info/resource/wo-b1d3q10">questione de imagine, articulo secundo.</ref>
+                  <ref xml:id="b1d3qun-R9dnddf" target="http://scta.info/resource/wo-b1d3q10">
+                    quaestione de imagine, 
+                    articulo secundo
+                  </ref>
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
                     Bk. I, d. 3, q. 10 (OTh II:557--9) 
                   </bibl>
-                </cit>
+                </cit>.
                 <cit>
-                  <ref target="http://scta.info/resource/wo-b1d3q10">Primo illius in opinione propria,</ref>
+                  <ref xml:id="b1d3qun-Rvze3f3" target="http://scta.info/resource/wo-b1d3q10">
+                    Primo illius, 
+                    in opinione propria
+                  </ref>
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
                     Bk. I, d.
                     3, q. 10 (OTh II:555--7) 
                   </bibl>
-                </cit> 
+                </cit>, 
                 docet qualiter in creatura rationali magis dicitur esse imago quam in aliqua
                 alia creatura. Et 
                 <cit>
-                  <ref>
+                  <ref xml:id="b1d3qun-Ra3ef3f" target="http://scta.info/resource/wo-b1d3q10">
                     <app> <!-- checked -->
                       <lem>secundo</lem>
                       <rdg type="variation-substance" wit="#M">conclusio</rdg>
@@ -1703,28 +1707,30 @@
                 consequenter docet quomodo 
                 <cit>
                   <quote xml:id="b1d3qun-Qididap" source="http://scta.info/resource/wo-b1d3q10">
-                    <seg type="qs"> imago Dei 
-                      <app><!-- checked -->
-                        <lem>imperfecta</lem>
-                        <rdg type="variation-substance" wit="#M">imperfecte</rdg>
+                    imago Dei 
+                    <app><!-- checked -->
+                      <lem>imperfecta</lem>
+                      <rdg type="variation-substance" wit="#M">imperfecte</rdg>
                     </app> 
-                      et quasi radicaliter et originaliter 
-                      consis<cb ed="#M" n="b"/>tit <!--66v-b-->
-                      in ipsa 
-                      <app>
-                        <lem>
-                          anima secundum suam substantiam sed completive perfectio imaginis
-                          consistit in ipsa 
-                        </lem>
-                        <rdg type="correction-addition" wit="#S">
-                          <add hand="#V1" place="margin"> 
-                            <!-- hand should probably be #S1 --> anima secundum suam substantiam sed
-                            completive perfectio imaginis consistit in ipsa
-                          </add>
-                        </rdg>
-                      </app> 
-                      substantia animae et duobus actibus productis
-                    </seg>
+                    et quasi radicaliter et originaliter 
+                    consis<cb ed="#M" n="b"/>tit <!--66v-b-->
+                    in ipsa 
+                    <app>
+                      <lem>
+                        anima secundum suam substantiam 
+                        sed completive perfectio imaginis
+                        consistit in ipsa 
+                      </lem>
+                      <rdg type="correction-addition" wit="#S">
+                        <add hand="#V1" place="margin"> 
+                          <!-- hand should probably be #S1 --> 
+                          anima secundum suam substantiam sed
+                          completive perfectio imaginis consistit in ipsa
+                        </add>
+                      </rdg>
+                    </app> 
+                    substantia animae 
+                    et duobus actibus productis
                   </quote>
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
@@ -1736,9 +1742,13 @@
                     substantia animae et duobus actibus productis." -->
                   </bibl>
                 </cit>, 
-                respectu utriusque quorum anima habet fecunditatem; sed ad actum volendi
-                mediante actu intellegendi, qui cum substantia animae et obiecto comproducit actum
-                volendi, et per consequens exprimit anima cum illis actibus ordinem et originem 
+                respectu utriusque 
+                quorum anima habet fecunditatem; 
+                sed ad actum volendi mediante actu intellegendi, 
+                qui cum substantia animae et obiecto, 
+                comproducit actum volendi, 
+                et per consequens exprimit anima 
+                cum illis actibus ordinem et originem 
                 <app>
                   <lem>inter</lem>
                   <rdg type="variation-substance" wit="#M">aliter</rdg>
@@ -1748,16 +1758,17 @@
               <p xml:id="b1d3qun-qaacee">
                 <cit>
                   <quote xml:id="b1d3qun-Qqaaaai" source="http://scta.info/resource/wo-b1d3q10"> 
-                    Quod autem actus volendi sit effective ab actu
-                    intellegendi, 
+                    Quod autem actus volendi 
+                    sit effective ab actu intellegendi
                   </quote>
                   <bibl>
                     <name>Guillelmus de Ockham</name>, 
                     <title>Scriptum in Sent.</title>, 
                     Bk. I, d. 3, q. 10 (OTh II:559) 
                   </bibl>
-                </cit> 
-                probat et bene. Et 
+                </cit>,
+                probat et bene. 
+                Et 
                 <app>
                   <lem>ego</lem>
                   <rdg type="correction-addition" wit="#V">
@@ -1771,17 +1782,25 @@
                       <lem>eam</lem>
                       <rdg type="variation-substance" wit="#T">illam</rdg>
                     </app>
-                    <ref>
-                      <name ref="#Wodeham" />
-                      <!-- ??? --> pro illa distinctione prima, 
-                    </ref>
+                    <cit>
+                      <ref xml:id="b1d3qun-Qzd3f3w" source="http://scta.info/resource/b1-d1">
+                        pro illa distinctione prima 
+                      </ref>
+                      <bibl>
+                        <name>Wodeham</name>, 
+                        <title>Ordinatio</title>, 
+                        I, d. 1, XXX
+                      </bibl>
+                    </cit>
                   </lem>
                   <rdg type="variation-absent" wit="#S" />
-                </app> 
+                </app>
                 quia 
                 <cit>
                   <quote>
-                    omne absolutum necessario praesuppositum alteri habet respectu illius 
+                    omne absolutum necessario 
+                    praesuppositum alteri 
+                    habet respectu illius 
                     <app>
                       <lem>rationem causae</lem>
                       <rdg type="variation-absent" wit="#M" />
@@ -1791,7 +1810,9 @@
                       <lem>causae</lem>
                       <rdg type="variation-absent" wit="#V" />
                     </app>. 
-                    Sed ita est de actu intelligendi respectu actus volendi, igitur.
+                    Sed ita est de actu intelligendi 
+                    respectu actus volendi, 
+                    igitur.
                   </quote>
                   <bibl>
                     <!--
@@ -1801,12 +1822,13 @@
                     d. 1, q. 5, s. 11 (Wood 1:293)
                     -->
                     <name ref="#Ockham">Guillelmus de Ockham</name>
-                    <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh II:559): "Quod autem
+                    <title>Scriptum in Sent.</title>, Bk. I, d. 3, q. 10 (OTh II:559).
+                    <!--"Quod autem
                     actus volendi sit effective ab actu intelligendi, ostendo per illud commune
                     verbum quod 'omne absolutum necessario praesuppositum alteri habet rationem
                     causae in aliquo genere causae'; sed actus intelligendi necessario tamquam
                     aliquid absolutum praesupponitur actui volendi; igitur habet rationem causae
-                    respectu illius." 
+                    respectu illius." -->
                   </bibl>
                 </cit> 
                 Maiorem 
@@ -1818,64 +1840,69 @@
                 </app> 
                 concedit 
                 <cit>
-                  <ref>
+                  <ref xml:id="b1d3qun-Radf3az" target="http://scta.info/resource/jdso8u-d1e520">
                     <name ref="#Scotus">Scotus</name>, 
                     distinctione 
                     <app>
                       <lem>tertia</lem>
                       <rdg type="variation-absent" wit="#V #T" />
                     </app> 
-                    primi, 
+                    primi
                   </ref>
                   <bibl>
                     <name>Iohannes Duns Scotus</name>, 
                     <title>Ordinatio</title>, 
                     Bk. I, d. 3, pars 3, q. 4, n. 589 (Vatican 3:348) 
                   </bibl>
-                </cit> 
+                </cit>,
                 et utitur 
                 <app>
                   <lem>illa</lem>
                   <rdg type="variation-substance" wit="#S">ista</rdg>
-                </app>, 
-                quia, secundum eum, 
+                </app> 
+                quia, 
+                
+                secundum eum, 
                 <cit><!-- dbcheck this quote and citation -->
-                  <quote> 
+                  <quote xml:id="b1d3qun-Qnv3d3e" source="http://scta.info/resource/jdso8u-d1e498"> 
                     omnis effectus 
                     <app> <!-- checked -->
                       <lem>alicuius</lem>
                       <rdg type="variation-substance" wit="#M">absolutus</rdg>
                     </app> 
-                    sufficienter dependet a suis causis essentialibus, </quote>
+                    sufficienter dependet 
+                    a suis causis essentialibus
+                  </quote>
                   <bibl>
-                    <name ref="#Scotus">Iohannes Duns Scotus</name>, <title>Ordinatio</title>, I, d.
-                    3, pars 3, q. 2, n. 414 (Vatican 3:251) 
+                    <name ref="#Scotus">Iohannes Duns Scotus</name>, 
+                    <title>Ordinatio</title>, 
+                    I, d. 3, pars 3, q. 2, n. 414 
+                    (Vatican 3:251) 
                   </bibl>
                 </cit>, 
                 <app>
                   <lem>igitur</lem>
                   <rdg type="variation-absent" wit="#T #S #V" />
-                </app> etc.</p>
+                </app>, 
+                etc.
+              </p>
             </div>
           </div>
         </div>
-
         <div type="articulus" xml:id="b1d3qun-Dseclus">
           <head xml:id="b1d3qun-Hseclus">
             <supplied>Secundus articulus</supplied>
           </head>
-
           <div xml:id="b1d3qun-Dsaprdu">
             <head xml:id="b1d3qun-Hpridub">
               <supplied>Primum dubium</supplied>
             </head>
-
             <p xml:id="b1d3qun-scihri">
               <app>
                 <lem n="dubium" />
                 <rdg type="variation-present" wit="#M">Pro secundo articulo</rdg>
                 <rdg type="variation-present" wit="#S">Pro secundo articulo sed</rdg>
-              </app>, 
+              </app> 
               Contra 
               <app>
                 <lem>ista</lem>
