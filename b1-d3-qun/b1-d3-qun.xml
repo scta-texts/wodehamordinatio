@@ -1899,7 +1899,7 @@
             </head>
             <p xml:id="b1d3qun-scihri">
               <app>
-                <lem n="dubium" />
+                <lem n="etc." />
                 <rdg type="variation-present" wit="#M">Pro secundo articulo</rdg>
                 <rdg type="variation-present" wit="#S">Pro secundo articulo sed</rdg>
               </app> 
@@ -1909,9 +1909,8 @@
                 <rdg type="variation-substance" wit="#S">istam</rdg>
               </app> 
               est primum dubium 
-              contra illud in quo dicitur consistere ratio imaginis, 
-              quia
-              non 
+              contra illud in quo dicitur consistere ratio imaginis 
+              quia non 
               <app><!-- checked -->
                 <lem>videtur</lem>
                 <rdg type="variation-substance" wit="#M">sumitur</rdg>
@@ -1928,25 +1927,20 @@
               </app> 
               ratio imaginis, quia imago necessario requirit distinctionem <app>
                 <lem>aliquam</lem>
-                <rdg wit="unkown">aliam</rdg> <!-- missing wit designation, I added unknown has temporary place-holder -->
+                <rdg wit="#M">aliam</rdg>
               </app>. 
-              Sed in substantia animae nulla est distinctio, igitur nullo modo habet
+              Sed in substantia animae nulla est distinctio, 
+              igitur nullo modo habet
               rationem imaginis. 
             </p>
-
             <p xml:id="b1d3qun-siqcie">
-              <app>
-                <lem n="imaginis." />
-                <rdg type="correction-addition" wit="#S">
-                  <add place="margin">Secundo</add>
-                </rdg>
-              </app> 
-              Item, quod 
+              Item, 
+              quod 
               <app> <!-- checked -->
                 <lem>nec</lem>
                 <rdg type="variation-substance" wit="#M">tunc</rdg>
               </app> 
-              in substantia animae et duobus actibus videtur, 
+              in substantia animae et duobus actibus videtur 
               <app>
                 <lem>quia</lem>
                 <rdg type="variation-substance" wit="#M">quod</rdg>
@@ -1972,16 +1966,10 @@
                 <lem>illos</lem>
                 <rdg type="variation-substance" wit="#M">illius</rdg>
               </app> 
-              actus nulla est consubstantialitas, igitur etc.
+              actus nulla est consubstantialitas, 
+              igitur etc.
             </p>
-
             <p xml:id="b1d3qun-tisine">
-              <app>
-                <lem n="etc." />
-                <rdg type="correction-addition" wit="#S">
-                  <add place="margin">Tertio</add>
-                </rdg>
-              </app> 
               Item, 
               <app>
                 <lem>ut supra</lem>
@@ -1993,15 +1981,15 @@
                 <rdg type="variation-present" wit="#S">beatum</rdg>
               </app>
               <ref corresp="#b1d3qun-Qidirei">
-                <name ref="#Augustine">Augustinum</name>
+                <name ref="#Augustine">Augustinum</name>,
                 <app>
                   <lem>XIV</lem>
                   <rdg type="variation-substance" wit="#M">XVIII</rdg>
                 </app>
                 <title ref="#deTrinitate">De Trinitate</title>, 
                 c. 3
-                de magnis: 
-              </ref>
+                de magnis 
+              </ref>:
               <cit>
                 <quote xml:id="b1d3qun-Qidirei" source="http://scta.info/resource/adt-l14"> 
                   imago Dei in creatura rationali est immortalis
@@ -2015,24 +2003,20 @@
                   intellectuali, imago creatoris, quae immortaliter immortalitati eius est insita."-->
                 </bibl>
               </cit>.
-              Sed isti actus secundi non sunt immortales nec 
+              Sed isti actus secundi 
+              non sunt immortales nec 
               <app>
                 <lem>incorruptibiles</lem>
                 <rdg type="variation-substance" wit="#M #S">incorporales</rdg>
-              </app>, 
+              </app>,
               <app>
                 <lem>igitur</lem>
                 <rdg type="variation-absent" wit="#S" />
               </app>.
             </p>
             <p xml:id="b1d3qun-qisqfe">
-              <app>
-                <lem n="igitur." />
-                <rdg type="correction-addition" wit="#S">
-                  <add place="margin">Tertio</add>
-                </rdg>
-              </app> 
-              Item, secundum hoc posset in mente rationali 
+              Item, 
+              secundum hoc posset in mente rationali 
               <app>
                 <lem>inveniri</lem>
                 <rdg type="variation-substance" wit="#M">invenire</rdg>
@@ -2045,11 +2029,11 @@
               <app>
                 <lem>obiecti intelligibilis et diligibilis</lem>
                 <rdg type="variation-substance" wit="#M">obiecti intelligibilis et divisibilis</rdg>
-                <rdg type="variation-inversion" wit="#V">intelligibilis obiecti et diligibilis </rdg>
+                <rdg type="variation-inversion" wit="#V">intelligibilis obiecti et diligibilis</rdg>
               </app>, 
               cuius oppositum innuit 
               <ref corresp="#b1d3qun-Qiesdip">
-                <name ref="#Augustine">Augustinus</name> 
+                <name ref="#Augustine">Augustinus</name>, 
                 XII 
                 <title ref="#deTrinitate">De Trinitate</title>
                 c. 4 
@@ -2111,7 +2095,8 @@
                   et intelligit ac diligit <!-- this horrible app just states that the "se; sed quia" is absent in #M.
                   However, the "quia" is corrected-added in #V-->
                   <app>
-                    <lem>se; sed 
+                    <lem>se, 
+                      sed 
                       <app>
                         <lem>quia</lem>
                         <rdg type="correction-addition" wit="#V">
@@ -2159,17 +2144,10 @@
               </cit>.
             </p>
             <p xml:id="b1d3qun-qqscie">
-              <app>
-                <lem><supplied>Item,</supplied></lem>
-                <!-- notice the comma -->
-                <rdg type="correction-addition" wit="#S">
-                  <add place="margin">Quinto</add>
-                </rdg>
-                <rdg type="variation-substance" wit="#T #M #V"> Quinto </rdg>
-                <note resp="#NV"> Supplied "Item" and deleted "Quinto" for the sake of consistency
-                  with the list.</note>
-              </app> 
-              quia eadem ratione in parte sensitiva esset imago Trinitatis, nam etiam 
+              Quinto,
+              quia eadem ratione in parte sensitiva 
+              esset imago Trinitatis, 
+              nam etiam 
               <app>
                 <lem>ibi</lem>
                 <rdg type="variation-substance" wit="#M">sibi</rdg>
@@ -2184,8 +2162,8 @@
                 <lem>sensitivam</lem>
                 <rdg type="variation-absent" wit="#T #M #V" />
               </app> 
-              et cum cognitione actum apprehendi sensitivum ibi, 
-              igitur aeque 
+              et cum cognitione actum apprehendi sensitivum. 
+              Ibi igitur aeque 
               <app>
                 <lem>est originatio</lem>
                 <rdg type="correction-substitution" wit="#M">
@@ -2200,7 +2178,8 @@
                 <lem>in</lem>
                 <rdg type="variation-absent" wit="#V #T" />
               </app> 
-              intellectu, dato quod 
+              intellectu, 
+              dato quod 
               <app>
                 <lem>sit sic</lem>
                 <rdg type="variation-inversion" wit="#S">sic sit</rdg>
@@ -2218,15 +2197,6 @@
                 <supplied>Responsio ad argumenta pro primo dubio</supplied>
               </head>
               <p xml:id="b1d3qun-rapaoe">
-                <app>
-                  <lem n="dubio" /> <!-- should this be 'n="etc."'? -->
-                  <rdg type="correction-addition" wit="#S">
-                    <add place="margin">Responsio ad primum</add>
-                  </rdg>
-                  <rdg type="correction-addition" wit="#T">
-                    <add place="margin">Ad primum</add>
-                  </rdg>
-                </app> 
                 <cit>
                   <ref target="http://scta.info/resource/b1d3qun-scihri">Ad primum</ref>
                   <bibl>Vide supra</bibl>
@@ -2242,7 +2212,9 @@
                   <lem>vel non identitatem</lem>
                   <rdg type="variation-absent" wit="#T" />
                 </app> 
-                inter substantiam animae et intellectum et voluntatem, sicut <cit>
+                inter substantiam animae et intellectum et voluntatem, 
+                sicut 
+                <cit>
                   <ref>
                     <name ref="#Scotus">Scotus</name> in <app>
                       <lem>II</lem>
@@ -2270,11 +2242,13 @@
                   </app>
                   </ref>
                   <bibl>ibidem</bibl>
-                </cit>
+                </cit>,
                 nulla ratio 
                 <app>
                   <lem>potest talem distinctionem ibi</lem>
-                  <rdg type="variation-inversion" wit="#M #V">potest ibi talem distinctionem</rdg>
+                  <rdg type="variation-inversion" wit="#M #V">
+                    potest ibi talem distinctionem
+                  </rdg>
                 </app>
                 <app> <!-- checked! -->
                   <lem>probare</lem>
@@ -2292,17 +2266,22 @@
                       <rdg type="variation-substance" wit="#M">idem</rdg>
                     </app>
                   </ref>
-                  <bibl>(cross reference)</bibl>
+                  <bibl>
+                    Wodeham, 
+                    Ordinatio,
+                    I, d. 1, q. 1 
+                  </bibl>
                 </cit>. 
                 Nec ad salvandum imaginem videtur 
                 <app>
                   <lem>hoc mihi</lem>
                   <rdg type="variation-inversion" wit="#S">mihi hoc</rdg>
                 </app> 
-                necessarium, quia 
+                necessarium 
+                quia 
                 <app>
-                  <lem>etiamsi</lem>
-                  <rdg type="variation-substance" wit="#S #T">si</rdg>
+                  <lem wit="#S #T">si</lem> <!-- upon reading and translating, si (without) etiam makes the most sense here -->
+                  <rdg wit="#V">etiamsi</rdg><rdg wit="#V">etiamsi</rdg>
                   <rdg type="variation-substance" wit="#M">et si</rdg>
                 </app> 
                 plures potentiae essent idem 
@@ -2395,7 +2374,8 @@
                   <lem>realiter</lem>
                   <rdg type="variation-substance" wit="#M">requiritur</rdg>
                 </app> 
-                distincta inter quae sit <app>
+                distincta inter quae sit 
+                <app>
                   <lem>similis</lem>
                   <rdg type="variation-substance" wit="#M">simul</rdg>
                 </app> 
