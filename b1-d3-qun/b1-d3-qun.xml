@@ -2787,12 +2787,6 @@
               </p>
               <!-- left of with nick on 6/21 -->
               <p xml:id="b1d3qun-aqetis">
-                <app> <!-- this isn't really a correction but a marginal addition... SHOULDN't this be deleted??? I think it is a marginal note-->
-                  <lem n="obiectis." />
-                  <rdg type="correction-addition" wit="#S">
-                    <add place="margin">ad quintum</add>
-                  </rdg>
-                </app>
                 <cit> <!-- not sure if this is a necessary/useful/helpful ref -->
                   <ref>
                     <app>
@@ -2802,7 +2796,7 @@
                       <rdg type="variation-substance" wit="#M">Ex istis</rdg>
                     </app>
                   </ref>
-                  <bibl>vide supra (Cross Reference to above paragraph)</bibl>
+                  <bibl>vide supra</bibl>
                 </cit> 
                 patet 
                 <cit>
@@ -2813,29 +2807,33 @@
                   <lem>quod</lem>
                   <rdg type="variation-substance" wit="#V">quia</rdg>
                 </app> 
-                perfectissima ratio imaginis possibilis haberi in creatura respectu
-                Trinitatis non est in anima et actibus sensitivis, quia 
+                perfectissima ratio imaginis possibilis 
+                haberi in creatura respectu
+                Trinitatis non est in anima et actibus sensitivis 
+                quia 
                 <app>
                   <lem>illi</lem>
                   <rdg type="variation-substance" wit="#M">ibi</rdg>
                 </app> 
-                actus non possunt habere Deum pro obiecto. Tamen videtur mihi quod in
-                sensitiva humana, quae est eadem cum 
+                actus non possunt habere Deum pro obiecto. 
+                Tamen videtur mihi quod in
+                sensitiva humana, 
+                quae est eadem cum 
                 <app>
                   <lem>intellectiva</lem>
                   <rdg type="variation-substance" wit="#M">intellecta</rdg>
                 </app>, 
                 <app>
-                  <lem>magis</lem>
-                  <rdg type="variation-substance" wit="#V #M">eius</rdg>
-                  <rdg type="variation-substance" wit="#T">magnis</rdg>
+                  <lem wit="#V #M">eius</lem>
+                  <rdg type="variation-substance" wit="#T #S">magis</rdg>
                 </app> 
                 potest poni imago 
                 <app>
                   <lem n="imago" />
                   <rdg type="variation-present" wit="#M">in substantia scilicet imago</rdg>
                 </app> 
-                Trinitatis in substantia et actibus sensitivis 
+                Trinitatis in substantia 
+                et actibus sensitivis 
                 <app>
                   <lem>sic ordinatis</lem>
                   <rdg type="variation-substance" wit="#M">ordinatus</rdg>
@@ -2846,23 +2844,26 @@
                     <app>
                       <lem>tactum</lem>
                       <rdg type="variation-substance" wit="#V #T">tactus</rdg>
-                    </app> est, 
+                    </app> 
+                    est
                   </ref>
-                  <bibl>(Cross Reference?)</bibl>
+                  <bibl>(Cross Reference)</bibl>
                 </cit>
-                <app>
+                (<app>
                   <lem>quamquam</lem>
                   <rdg type="variation-substance" wit="#M">quaequam</rdg>
                 </app> 
-                imperfectior quam respectu <app>
+                imperfectior quam respectu 
+                <app>
                   <lem>mere obiecti</lem>
                   <rdg type="variation-inversion" wit="#T #V">obiecti mere</rdg>
                 </app>
                 <app>
                   <lem>intelligibilis</lem>
                   <rdg type="variation-substance" wit="#M">intellectualis</rdg>
-                </app>, 
-                quia actus sensitivi et appetitivi humani sunt simplices et inextensi, 
+                </app>) 
+                quia actus sensitivi et appetitivi humani 
+                sunt simplices et inextensi, 
                 ita bene sicut actus 
                 <app>
                   <lem>intellectivi</lem>
@@ -2873,7 +2874,7 @@
                   <lem>volitivi</lem>
                   <rdg type="variation-substance" wit="#S">voluntivi</rdg>
                 </app>. 
-                Sed secus est 
+                (Sed secus est 
                 <app>
                   <lem>de</lem>
                   <rdg type="variation-substance" wit="#M">vere</rdg>
@@ -2888,8 +2889,8 @@
                   <lem>actus sunt formae</lem>
                   <rdg type="variation-substance" wit="#M">formae sunt</rdg>
                 </app> 
-                extensae, 
-                et ideo est 
+                extensae.) 
+                Et ideo est 
                 <app>
                   <lem>imperfectior</lem>
                   <rdg type="variation-substance" wit="#V #T">perfectior</rdg>
@@ -2909,11 +2910,11 @@
                 <lem>increatae</lem>
                 <rdg type="variation-substance" wit="#M">creatae</rdg>
               </app>, 
-              scilicet, 
+              scilicet 
               <app>
                 <lem>actualis intellectio</lem>
                 <rdg type="variation-substance" wit="#M">actus intensis</rdg>
-              </app> 
+              </app>,
               gignatur 
               <app>
                 <lem>a prima</lem>
@@ -2921,15 +2922,16 @@
                   <add place="margin">a prima</add>
                 </rdg>
               </app>, 
-              scilicet a memoria, et videtur quod non.
+              scilicet a memoria. 
             </p>
             <div xml:id="b1d3qun-Drpppds">
               <head xml:id="b1d3qun-Hrpppds">
                 <supplied>Rationes principales pro dubio secundo</supplied>
               </head>
               <p xml:id="b1d3qun-pqqsee">
+                Et videtur quod non,
                 <app>
-                  <lem>Primo</lem>
+                  <lem>primo</lem>
                   <rdg type="variation-absent" wit="#T #V #M" />
                 </app>, 
                 quia quid vocaretur ibi memoria vel nuda substantia animae, et illa non
@@ -2943,12 +2945,13 @@
                   <lem>
                     quod 
                     <cit>
-                      <quote xml:id="b1d3qun-Qssssss">
+                      <quote xml:id="b1d3qun-Qssssss" type="paraphrase" source="http://scta.info/resource/aristda-l2">
                         sensus semper sentiret,
                       </quote>
                       <bibl>
                         <name>Aristoteles</name>, 
-                        <title>De anima</title> II, c. 5 (417a6-9)
+                        <title>De anima</title> 
+                        II, c. 5 (417a6-9)
                       </bibl>
                     </cit> 
                     si se solo ageret 
@@ -2975,8 +2978,10 @@
                     </app> 
                     non distinguitur 
                     <app>
-                      <lem>intellective</lem>
-                      <rdg type="variation-absent" wit="#M #T #S" />
+                      <lem n="distinguitur"/>
+                      <rdg type="correction-deletion" wit="#V">
+                        <del>intellective</del>
+                      </rdg>
                     </app> 
                     ab habitu vel specie, sicut non producitur ab eo. 
                     Assumptum patet 
@@ -2987,33 +2992,42 @@
                         as the whole passage is also missing in #M. -->
                     </app> 
                     actualis sensatio est species in sensu, 
-                    igitur aliter in intellectu.
+                    igitur similiter in intellectu.
                     Antecedens patet per 
                     <cit>
-                      <ref>
+                      <ref xml:id="b1d3qun-Raeg3da" target="http://scta.info/resource/aristda-l3">
                         <name ref="#Aristotle">Philosophum</name>
                       </ref>
-                      <bibl>Aristoteles, De anima, II, ???</bibl>
+                      <bibl>
+                        Aristoteles, 
+                        De anima, 
+                        III, c.2 
+                        (425b12ff)
+                      </bibl>
                     </cit> 
                     et 
                     <cit>
-                      <ref>
+                      <ref target="http://scta.info/resource/iu7r3b-d1e54">
                         <name ref="#Averroes">Commentatorem</name> II 
                         <title ref="#InDeAnima">In Aristot. De anima</title>
                         <!-- This ref should be added to the list -->
                         <app>
                           <lem>per</lem>
-                          <rdg type="variation-substance" wit="#V">parte</rdg>
                           <rdg type="variation-substance" wit="#T">commento</rdg>
                         </app> 
-                        136, 
+                        136 
                       </ref>
                       <bibl>
                         <name ref="#Averroes">Averroes</name>, 
                         <title ref="#InDeAnima">In Aristot. De anima</title>, 
                         II, 136
+                        (Crawford pp.337f)
+                        <!-- not the mismatch with Book in Aristotle above; apparently Averroes end of book two 
+                          corresponds to beginning of book 3 in standard modern addition; 
+                          TODO: we need to look at the use of ids here and consider how to ensure proper alignment 
+                          of parallel sections -->
                       </bibl>
-                    </cit> 
+                    </cit>,
                     ubi 
                     <app>
                       <lem>dicunt et probant</lem>
@@ -3035,11 +3049,11 @@
                   <rdg type="variation-absent" wit="#M" />
                 </app>. 
                 Ut exponit 
-                <ref corresp="#b1d3qun-Qaseeea">
-                  <name ref="#Averroes">Commentator</name>,
-                </ref>
+                <ref xml:id="b1d3qun-Rzgeavv" corresp="#b1d3qun-Qaseeea">
+                  <name ref="#Averroes">Commentator</name>
+                </ref>,
                 <cit>
-                  <quote xml:id="b1d3qun-Qaseeea">
+                  <quote xml:id="b1d3qun-Qaseeea" source="http://scta.info/resource/iu7r3b-d1e54">
                     actio sensibilis extra animam in movendo sensum,
                     et actio sensus, 
                     quae est in sentiente, 
@@ -3052,27 +3066,28 @@
                       <lem>qualificatur</lem>
                       <rdg type="variation-substance" wit="#M">qualeficatur</rdg>
                     </app>, 
-                    est eadem actio.
+                    est eadem actio
                   </quote>
                   <bibl>
                     <name ref="#Averroes">Averroes</name>, 
-                    <title ref="#InDeAnima">In Aristot. De anima</title>, II, 138 (Crawford, 340s): "actio sensibilis extra animam in
+                    <title ref="#InDeAnima">In Aristot. De anima</title>, II, 138 (Crawford, 340s)
+                    <!--"actio sensibilis extra animam in
                     movendo sentiens, et actio sensus qui est in sentiente, scilicet qualitas qua
-                    sentiens qualificatur in movendo etiam virtutem visionis, est eadem actio"
+                    sentiens qualificatur in movendo etiam virtutem visionis, est eadem actio"-->
                   </bibl>
-                </cit>
+                </cit>.
                 <app>
                   <lem>Haec</lem>
                   <rdg type="variation-substance" wit="#T">Et</rdg>
                 </app>
-                <ref corresp="#b1d3qun-Qsaasee">
+                <ref xml:id="b1d3qun-Rav3vaa" corresp="#b1d3qun-Qsaasee">
                   <name ref="#Averroes">Commentator</name> 
                   et 
                   <app>
                     <lem>in</lem>
                     <rdg type="variation-absent" wit="#T" />
                   </app> 
-                  commentis duobus proximo sequentibus,
+                  commentis duobus proximo sequentibus
                 </ref> 
                 exemplificat 
                 <app>
@@ -3080,8 +3095,8 @@
                   <rdg type="variation-absent" wit="#M #T" />
                 </app> 
                 auditu: 
-                <cit><!-- I couldn't find this quote... -->
-                  <quote xml:id="b1d3qun-Qsaasee">
+                <cit>
+                  <quote xml:id="b1d3qun-Qsaasee" type="paraphrase" source="http://scta.info/resource/iu7r3b-d1e54">
                     <seg type="qs">sicut,</seg> 
                     inquit, 
                     <seg type="qs">actio auditus, 
@@ -3102,9 +3117,14 @@
                       </app>. 
                     </seg>
                   </quote>
+                  <bibl>
+                    <name ref="#Averroes">Averroes</name>, 
+                    <title ref="#InDeAnima">In Aristot. De anima</title>, 
+                    II, 139-140 
+                    (Crawford, 341-343)
+                  </bibl>
                 </cit>
               </p>
-
               <p xml:id="b1d3qun-ssqsap"> 
                 Similiter quod actualis intellectio non 
                 <app>
