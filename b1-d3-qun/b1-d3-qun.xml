@@ -3562,7 +3562,6 @@
               <head xml:id="b1d3qun-Hacracr">
                 <supplied>Argumenta contra responsionem</supplied>
               </head>
-
               <p xml:id="b1d3qun-pctdqg">
                 <supplied>Primus.</supplied> 
                 Contra tamen hanc sententiam 
@@ -4897,9 +4896,14 @@
                 <app>
                   <lem>recepto</lem>
                   <rdg type="variation-substance" wit="#S">receptio</rdg>
-                </app> et similia quaedam. </p>
-
-              <p xml:id="b1d3qun-apiigp"> Ad primum in contrarium dicendum quod conclusio illata est
+                </app> et similia quaedam. 
+              </p>
+              <p xml:id="b1d3qun-apiigp"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-pctdqg">Ad primum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                in contrarium dicendum quod conclusio illata est
                 vera saepe de <app>
                   <!-- checked! -->
                   <lem>similibus</lem>
@@ -4921,24 +4925,35 @@
                   <rdg type="variation-substance" wit="#T">vere</rdg>
                 </app> de actualibus non est inconveniens dummodo sint alterius rei sicut patet de
                 intuitiva cognitione alterius et abstractiva eiusdem vel de visione alterius rei in
-                verbo et eiusdem in genere proprio. </p>
-
-              <p xml:id="b1d3qun-asrean"> Ad secundum respondi <app>
+                verbo et eiusdem in genere proprio.
+              </p>
+              <p xml:id="b1d3qun-asrean"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-siecva">Ad secundum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                respondi 
+                <app>
                   <lem n="respondi" />
                   <rdg type="correction-deletion" wit="#V">
                     <del rend="strikethrough">praecedenti</del>
                   </rdg>
-                </app> in <app>
+                </app> 
+                in 
+                <app>
                   <lem>praecedentibus</lem>
                   <rdg type="variation-substance" wit="#T">prologo</rdg>
                 </app> quod hoc non sit per eundem actum numero.</p>
 
               <p xml:id="b1d3qun-atsdia">
-                <app>
-                  <lem>Ad</lem>
-                  <rdg type="variation-substance" wit="#T">Dicendum</rdg>
-                </app> 
-                tertium, subiectum ibi 
+                <ref target="http://scta.info/resource/b1d3qun-tpcrdi">
+                  <app>
+                    <lem>Ad</lem>
+                    <rdg type="variation-substance" wit="#T">Dicendum</rdg>
+                  </app> 
+                tertium
+                </ref>, 
+                subiectum ibi 
                 <app>
                   <lem n="ibi" />
                   <rdg type="correction-deletion" wit="#V">
@@ -4993,43 +5008,74 @@
                   <rdg type="correction-addition" wit="#V">
                     <add place="margin"><sic>desinunt</sic> aliqui subesse huic accidenti</add>
                   </rdg>
-                </app>, desinunt et a me diligi illo actu. </p>
-
-              <p xml:id="b1d3qun-aqqnci"> Ad quartum, quod tunc posset <app>
+                </app>, desinunt et a me diligi illo actu.
+              </p>
+              <p xml:id="b1d3qun-aqqnci"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-qpnrdi">Ad quartum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit>, 
+                quod tunc posset 
+                <app>
                   <lem n="posset" />
                   <rdg type="correction-deletion" wit="#V">
                     <del rend="strikethrough">dicitur</del>
                   </rdg>
-                </app> aliquid diligi et <app>
+                </app> 
+                aliquid diligi et 
+                <app>
                   <lem>simul</lem>
                   <rdg type="variation-substance" wit="#T">si vel</rdg>
                   <rdg type="variation-absent" wit="#V" />
-                </app> non cognosci, patet ex prima distinctione, ubi tenui quod dilectio est
-                cognitio, <app>
+                </app> 
+                non cognosci, patet ex prima distinctione, ubi tenui quod dilectio est
+                cognitio, 
+                <app>
                   <lem>et</lem>
                   <rdg type="variation-absent" wit="#V" />
-                </app> ideo nego consequentiam illam. </p>
-
-              <p xml:id="b1d3qun-aqdcaa"> Ad quintum dicendum quod si dilectio qua <name
-                  ref="#Sortes" type="variable">Sortes</name> diligit <app>
+                </app> 
+                ideo nego consequentiam illam.
+              </p>
+              <p xml:id="b1d3qun-aqdcaa">
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-qppepv">Ad quintum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                dicendum quod si dilectio qua 
+                <name ref="#Sortes" type="variable">Sortes</name> 
+                diligit 
+                <app>
                   <lem><name ref="#Sortes" type="variable">Sortem</name> ipsum poneretur</lem>
                   <rdg type="variation-substance" wit="#S">seipsum ponetur</rdg>
-                </app> in <name ref="#Plato" type="variable">Platone</name>, <name ref="#Plato"
-                  type="variable">Plato</name> per istam non diligeret <name ref="#Plato"
-                  type="variable">Platonem</name> sed <name ref="#Sortes" type="variable"
-                  >Sortem</name>. <app>
+                </app> 
+                in 
+                <name ref="#Plato" type="variable">Platone</name>, 
+                <name ref="#Plato" type="variable">Plato</name> 
+                per istam non diligeret 
+                <name ref="#Plato" type="variable">Platonem</name> 
+                sed <name ref="#Sortes" type="variable">Sortem</name>. 
+                <app>
                   <lem>Et similiter, si dilectio</lem>
                   <rdg type="variation-absent" wit="#V" />
-                </app> qua Sortes vult se diligere angelum poneretur in <name ref="#Plato"
-                  type="variable">Platone</name>, <name ref="#Plato" type="variable">Plato</name>
+                </app> 
+                qua Sortes vult se diligere angelum poneretur in 
+                <name ref="#Plato" type="variable">Platone</name>, 
+                <name ref="#Plato" type="variable">Plato</name>
                 <app>
-                  <lem>per illam vellet <name ref="#Sortes" type="variable">Sortem</name>
-                    diligere</lem>
-                  <rdg type="variation-substance" wit="#V">vellet per illam <name ref="#Sortes"
-                      type="variable">Sortem</name> diligere</rdg>
+                  <lem>
+                    per illam vellet 
+                    <name ref="#Sortes" type="variable">Sortem</name> diligere
+                  </lem>
+                  <rdg type="variation-substance" wit="#V">
+                    vellet per illam <name ref="#Sortes" type="variable">Sortem</name> diligere
+                  </rdg>
                   <rdg type="variation-substance" wit="#T">per illam diliget</rdg>
-                </app> angelum. Et eodem modo, si intellectio, qua <name ref="#Sortes"
-                  type="variable">Sortes</name> experitur se intelligere, <app>
+                </app> 
+                angelum. 
+                Et eodem modo, si intellectio, 
+                qua <name ref="#Sortes" type="variable">Sortes</name> 
+                experitur se intelligere, 
+                <app>
                   <lem>poneretur</lem>
                   <rdg type="correction-substitution" wit="#V">
                     <subst>
@@ -5037,34 +5083,59 @@
                       <add place="margin">poneretur</add>
                     </subst>
                   </rdg>
-                </app> in <name ref="#Plato" type="variable">Platone</name>, ille iudicaret <app>
+                </app> 
+                in <name ref="#Plato" type="variable">Platone</name>, ille iudicaret 
+                <app>
                   <lem><name ref="#Sortes" type="variable">Sortem</name></lem>
-                  <rdg type="variation-substance" wit="#S"><name ref="#Sortes" type="variable"
-                      >Sortes</name></rdg>
-                </app> intelligere vel experiretur nisi experientia <app>
+                  <rdg type="variation-substance" wit="#S">
+                    <name ref="#Sortes" type="variable">Sortes</name>
+                  </rdg>
+                </app> 
+                intelligere vel experiretur nisi experientia 
+                <app>
                   <lem>cognoscat aliquid aliud</lem>
                   <rdg type="variation-substance" wit="#V #T">aliquid cognoscet <unclear>in hoc
-                      vocabulum</unclear></rdg>
-                </app>. </p>
-
-              <p xml:id="b1d3qun-asbpeo"> Ad sextum bene <app>
+                      vocabulum</unclear>
+                  </rdg>
+                </app>. 
+              </p>
+              <p xml:id="b1d3qun-asbpeo">
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-spdsdv">Ad sextum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                bene 
+                <app>
                   <lem>concedo</lem>
                   <rdg type="variation-substance" wit="#V #T">volo</rdg>
-                </app> quod dilectio <app>
+                </app> 
+                quod dilectio 
+                <app>
                   <lem><name ref="#Sortes" type="variable">Sortis</name></lem>
-                  <rdg type="variation-substance" wit="#S"><name ref="#Sortes" type="variable"
-                      >Sortes</name></rdg>
-                </app> et odium <name ref="#Plato" type="variable">Platonis</name> naturaliter
-                compatiuntur se in eodem. Dici tamen <app>
+                  <rdg type="variation-substance" wit="#S">
+                    <name ref="#Sortes" type="variable">Sortes</name>
+                  </rdg>
+                </app> 
+                et odium 
+                <name ref="#Plato" type="variable">Platonis</name> 
+                naturaliter
+                compatiuntur se in eodem. Dici tamen 
+                <app>
                   <lem n="tamen" />
                   <rdg type="variation-present" wit="#T">in eodem</rdg>
-                </app> potest quod non omne <app>
+                </app> 
+                potest quod non omne 
+                <app>
                   <lem>odium</lem>
                   <rdg type="variation-substance" wit="#T"><unclear>illud</unclear></rdg>
                   <rdg type="variation-substance" wit="#S">idem</rdg>
-                </app> eiusdem speciei cum odio <name ref="#Plato" type="variable">Platonis</name>
-                compatitur se cum dilectionem <name ref="#Sortes" type="variable">Sortes</name>
-                naturaliter quia aliquod eiusdem <app>
+                </app> 
+                eiusdem speciei cum odio 
+                <name ref="#Plato" type="variable">Platonis</name>
+                compatitur se cum dilectionem 
+                <name ref="#Sortes" type="variable">Sortes</name>
+                naturaliter quia aliquod eiusdem 
+                <app>
                   <lem>speciei</lem>
                   <rdg type="variation-absent" wit="#T" />
                 </app>
@@ -5074,25 +5145,36 @@
                 </app> contrariatur <app>
                   <lem n="contrariatur" />
                   <rdg type="variation-present" wit="#T">speciei</rdg>
-                </app> et istud non quia ad contrarietatem actuum huiusmodi <app>
+                </app> 
+                et istud non quia ad contrarietatem actuum huiusmodi 
+                <app>
                   <lem>individualium</lem>
                   <rdg type="variation-substance" wit="#T">individuum</rdg>
                 </app>
                 <app>
                   <lem>vel</lem>
                   <rdg type="variation-substance" wit="#V">dilectionem scilicet</rdg>
-                </app> cognitionum requiritur identitas numeralis obiecti unde etiam illi iudicio
-                quo iudicarem hunc hominem esse <name ref="#Sortes" type="variable">Sortem</name>
-                demonstrato <app>
+                </app> 
+                cognitionum requiritur identitas numeralis obiecti unde etiam illi iudicio
+                quo iudicarem hunc hominem esse 
+                <name ref="#Sortes" type="variable">Sortem</name>
+                demonstrato 
+                <app>
                   <lem><name ref="#Sortes" type="variable">Sorte</name></lem>
-                  <rdg type="variation-substance" wit="#S"><name ref="#Sortes" type="variable"
-                      >Sortes</name></rdg>
-                </app> repugnaret contrarie iudicium quo iudicarem <app>
+                  <rdg type="variation-substance" wit="#S">
+                    <name ref="#Sortes" type="variable">Sortes</name>
+                  </rdg>
+                </app> 
+                repugnaret contrarie iudicium quo iudicarem 
+                <app>
                   <lem>eundem</lem>
                   <rdg type="correction-addition" wit="#V">
                     <add place="above-line">eundem</add>
                   </rdg>
-                </app> non esse <name ref="#Sortes" type="variable">Sortem</name> et tamen <app>
+                </app> 
+                non esse 
+                <name ref="#Sortes" type="variable">Sortem</name> et tamen 
+                <app>
                   <!-- Not sure about this code -->
                   <lem>secum compateretur illud</lem>
                   <rdg type="variation-substance" wit="#V"> non illud</rdg>
@@ -5121,16 +5203,20 @@
                 </app> 
                 error et scientia non contrariantur nisi sint respectu eiusdem, licet sint
                 eiusdem speciei cum quibusdam quae invicem contrariantur et in hoc est speciale in
-                  <pb ed="#S" n="81-r" />
-                <cb ed="#S" n="b" /> actibus vitalibus qui sunt <app>
+                <pb ed="#S" n="81-r" />
+                <cb ed="#S" n="b" /> 
+                actibus vitalibus qui sunt 
+                <app>
                   <lem>ipsi</lem>
                   <rdg type="variation-substance" wit="#T">tali</rdg>
                 </app> motus et ordines primorum erga <app>
                   <lem n="erga" />
                   <rdg type="variation-present" wit="#T">ipsa</rdg>
-                </app> obiecta. </p>
-
-              <p xml:id="b1d3qun-pcscqe"> Praeterea contrarietas, si esset <app>
+                </app> obiecta.
+              </p>
+              <p xml:id="b1d3qun-pcscqe"> 
+                Praeterea contrarietas, si esset 
+                <app>
                   <lem>inter illas</lem>
                   <rdg type="variation-substance" wit="#S">illas inter</rdg>
                 </app> qualitates, non cessarent esse contrariae ex hoc quod cessarent referri ad <app>
@@ -5159,9 +5245,15 @@
                 et queritur eius causa quomodo <app>
                   <lem>evadatur</lem>
                   <rdg type="variation-substance" wit="#V">evadetur</rdg>
-                </app>. </p>
-
-              <p xml:id="b1d3qun-ascpps"> Ad septimum cum <app>
+                </app>.
+              </p>
+              <p xml:id="b1d3qun-ascpps"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-spvive">Ad septimum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                cum 
+                <app>
                   <lem>arguitur</lem>
                   <rdg type="variation-substance" wit="#T #V">accipitur</rdg>
                 </app> quod visio potest esse in sensu subiective sine hoc quod ipsa sic visio nego,
@@ -5255,24 +5347,33 @@
                   <lem>perciperetur</lem>
                   <rdg type="variation-substance" wit="#T">perceptibiliter</rdg>
                 </app>, nego quia nullus talis actus in sensu vel in intellectu distincte percipitur
-                per seipsum. </p>
+                per seipsum.
+              </p>
 
-              <p xml:id="b1d3qun-aonadd"> Ad octavum non pono aliquod minimum <app>
+              <p xml:id="b1d3qun-aonadd"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-oivthc">Ad octavum</ref>
+                  <bibl></bibl>
+                </cit> 
+                non pono aliquod minimum 
+                <app>
                   <lem n="minimum" />
                   <rdg type="variation-present" wit="#T">intelligibile vel</rdg>
                 </app> visibile ab <app>
                   <lem>aliqua</lem>
                   <rdg type="variation-substance" wit="#S">alia</rdg>
-                </app> distantia danda. 
-              
+                </app> 
+                distantia danda. 
                 <pb ed="#M" n="68-r" />
                 <!-- Our copy of #M resumes here... -->
                 <cb ed="#M" n="a" />
               </p>
-
-              
-
-              <p xml:id="b1d3qun-antsis"> Ad nonum <app>
+              <p xml:id="b1d3qun-antsis"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-npspev">Ad nonum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                <app>
                   <lem>teneo</lem>
                   <rdg type="variation-substance" wit="#T">tenendo</rdg>
                 </app> augmentationem <app>
@@ -5287,20 +5388,33 @@
                       <add place="margin">diminutionem</add>
                     </subst>
                   </rdg>
-                </app> gradualem in formis fieri per additionem et <app>
+                </app> 
+                gradualem in formis fieri per additionem et 
+                <app>
                   <lem>subtractionem</lem>
                   <rdg type="variation-substance" wit="#T">diminutionem</rdg>
-                </app> similis in specie. </p>
-
-              <p xml:id="b1d3qun-addeva"> Ad decimum dicendum quod alia albedo non est <app>
+                </app> 
+                similis in specie.
+              </p>
+              <p xml:id="b1d3qun-addeva"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-dpspau">Ad decimum</ref>
+                  <bibl></bibl>
+                </cit> 
+                dicendum quod alia albedo non est 
+                <app>
                   <lem>nata</lem>
                   <rdg type="variation-substance" wit="#T">nato</rdg>
-                </app> videri visione qua <app>
+                </app> 
+                videri visione qua 
+                <app>
                   <lem><mentioned>A</mentioned></lem>
                   <!-- Should this be a "B" ? -->
                   <rdg type="variation-absent" wit="#T" />
-                </app> albedo de facto videtur et conclusio ad quam deducitur non est inconveniens
-                non plus quam <app>
+                </app> 
+                albedo de facto videtur et conclusio ad quam deducitur non est inconveniens
+                non plus quam 
+                <app>
                   <lem n="quod" />
                   <!-- "quod" is repeated but strikenthrough en #V -->
                   <rdg type="correction-deletion" wit="#V">
@@ -5312,7 +5426,9 @@
                   <rdg type="variation-present" wit="#V">idem</rdg>
                 </app>
                 <app>
-                  <lem> iste terminus <app>
+                  <lem> 
+                    iste terminus 
+                    <app>
                       <lem>esse naturaliter</lem>
                       <rdg type="variation-absent" wit="#M" />
                       <rdg type="variation-substance" wit="#T">est naturaliter</rdg>
@@ -5327,7 +5443,9 @@
                       actually deleted, but the margin note suggests it ought to be replaced by
                       "iste terminus esse essentialiter". </note>
                   </rdg>
-                </app> producibile de hac materia prima <app>
+                </app> 
+                producibile de hac materia prima 
+                <app>
                   <lem>demonstrata</lem>
                   <rdg type="variation-substance" wit="#M">demonstrato</rdg>
                 </app> conveniat infinitis <app>
@@ -5365,9 +5483,11 @@
                   <rdg type="variation-present" wit="#T">vel</rdg>
                 </app> est visio albedinis <mentioned>B</mentioned>, potest esse visio
                   <mentioned>B</mentioned>, perit via vera inducendi. Sed non hanc, omnis talis
-                visio est visio albedinis. </p>
-
-              <p xml:id="b1d3qun-aspcmd"> Ad secundum propositionem de <cit>
+                visio est visio albedinis.
+              </p>
+              <p xml:id="b1d3qun-aspcmd">
+                Ad secundum propositionem de 
+                <cit>
                   <!-- this is hard ref to provide ids for because it potentially has 4 different references -->
                   <ref>
                     <name ref="#Aristotle">Philosopho</name> et <name ref="#Averroes"
@@ -5379,7 +5499,9 @@
                     </app>
                   </ref>
                   <bibl> Aristoteles, ???; Averroes, ???; </bibl>
-                </cit> nullus catholicus debet tenere <app>
+                </cit> 
+                nullus catholicus debet tenere 
+                <app>
                   <lem>illud</lem>
                   <rdg type="variation-substance" wit="#M">istud</rdg>
                   <rdg type="variation-absent" wit="#S" />
@@ -5394,7 +5516,9 @@
                   <rdg type="correction-deletion" wit="#S">
                     <del rend="expunctuated">esse</del>
                   </rdg>
-                </app> extra <app>
+                </app> 
+                extra 
+                <app>
                   <lem n="extra" />
                   <rdg type="variation-present" wit="#S">habet</rdg>
                 </app>
@@ -5414,18 +5538,31 @@
                   <rdg type="correction-deletion" wit="#V">
                     <del rend="expunctuated">in</del>
                   </rdg>
-                </app> probare ibi nititur falsa esset et <app>
+                </app> 
+                probare ibi nititur falsa esset et 
+                <app>
                   <lem>de facto est falsa est</lem>
                   <rdg type="variation-absent" wit="#S" />
                   <rdg type="variation-substance" wit="#T">mere</rdg>
-                </app> erronea secundum principia fidei quia intendit ibi probare impossibilitatem
-                plurium mundorum. Haec igitur ratio movisse catholicum minime debuisset. </p>
-
-              <p xml:id="b1d3qun-aubqif"> Ad undecimum bene volo quod <app>
+                </app> 
+                erronea secundum principia fidei quia intendit ibi probare impossibilitatem
+                plurium mundorum. Haec igitur ratio movisse catholicum minime debuisset.
+              </p>
+              <p xml:id="b1d3qun-aubqif"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-uiiqao">Ad undecimum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                bene volo quod 
+                <app>
                   <lem>aliquid, quod</lem>
                   <rdg type="variation-substance" wit="#M">aliquo</rdg>
-                </app> modo non intelligitur per intellectionem <mentioned>A</mentioned>, potest in
-                casu per accidens esse obiectum illius intellectionis, <app>
+                </app> 
+                modo non intelligitur per intellectionem 
+                <mentioned>A</mentioned>, 
+                potest in
+                casu per accidens esse obiectum illius intellectionis, 
+                <app>
                   <lem>non</lem>
                   <rdg type="variation-absent" wit="#T" />
                 </app>
@@ -5487,23 +5624,36 @@
                 active, sed ab <app>
                   <lem>isto</lem>
                   <rdg type="variation-substance" wit="#S">illo</rdg>
-                </app> qui active conservat eam in subiecto quodcumque illud fuerit. </p>
-
-              <p xml:id="b1d3qun-aseudi"> Ad duodecimum <app>
+                </app> qui active conservat eam in subiecto quodcumque illud fuerit.
+              </p>
+              <p xml:id="b1d3qun-aseudi">
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-diciad">Ad duodecimum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                <app>
                   <lem>dicendum</lem>
                   <rdg type="variation-absent" wit="#M" />
-                </app> quod conceptus pure <app>
+                </app> 
+                quod conceptus pure 
+                <app>
                   <lem>numerales</lem>
                   <rdg type="variation-substance" wit="#M">naturales</rdg>
-                </app> non sunt eiusdem speciei, sed sunt conceptus mere <app>
+                </app> 
+                non sunt eiusdem speciei, sed sunt conceptus mere 
+                <app>
                   <lem>syncategorematici</lem>
                   <rdg type="variation-substance" wit="#M">
                     <unclear>cica?a</unclear>
                   </rdg>
-                </app>. sicut omnis et <app>
+                </app>, 
+                sicut omnis et 
+                <app>
                   <lem>alias</lem>
                   <rdg type="variation-substance" wit="#M">aliquis</rdg>
-                </app> quod patet quia <app>
+                </app> 
+                quod patet quia 
+                <app>
                   <lem>terminum</lem>
                   <rdg type="variation-substance" wit="#M">terminem</rdg>
                 </app>
@@ -5564,7 +5714,8 @@
                   <rdg type="variation-substance" wit="#T">de istis et de illis</rdg>
                 </app>. 
               </p>
-              <p xml:id="b1d3qun-uteqsc"> Unum tamen est advertendum <app>
+              <p xml:id="b1d3qun-uteqsc">
+                Unum tamen est advertendum <app>
                   <lem>quod</lem>
                   <rdg type="variation-substance" wit="#M">quia</rdg>
                 </app> nominaliter expressa <app>
@@ -5591,28 +5742,46 @@
                         sumitur </add>
                     </subst>
                   </rdg>
-                </app> collective. </p>
+                </app> collective.
+              </p>
 
-              <p xml:id="b1d3qun-atdsat"> Ad tertium decimum dicendum quod accedit visioni quod eius
-                per se obiectum moveatur vel quiescat, et per consequens quod ipsum sit motus <app>
+              <p xml:id="b1d3qun-atdsat"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-tdienm">Ad tertium decimum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                dicendum quod accedit visioni quod eius
+                per se obiectum moveatur vel quiescat, et per consequens quod ipsum sit motus 
+                <app>
                   <lem>vel</lem>
                   <rdg type="variation-substance" wit="#M">visa</rdg>
-                </app> quod <app>
+                </app> 
+                quod 
+                <app>
                   <lem n="quod" />
                   <rdg type="variation-present" wit="#V">ad</rdg>
-                </app> ipsum sit quies, quamvis mediante <app>
+                </app> 
+                ipsum sit quies, 
+                quamvis mediante 
+                <app>
                   <lem n="mediante" />
                   <rdg type="variation-present" wit="#S">v</rdg>
                   <rdg type="correction-deletion" wit="#V">
                     <del>v</del>
                   </rdg>
-                </app> visione <app>
+                </app> 
+                visione 
+                <app>
                   <lem>possit</lem>
                   <rdg type="variation-substance" wit="#V">posset</rdg>
-                </app> evidenter iudicari vel saltem apparere quod res <app>
+                </app> 
+                evidenter iudicari vel saltem apparere quod res 
+                <app>
                   <lem>visa</lem>
                   <rdg type="variation-substance" wit="#T"><sic>vivisa</sic></rdg>
-                </app> moveatur. Et ideo dicatur motus esse <app>
+                </app> 
+                moveatur. Et ideo dicatur motus esse 
+                <app>
                   <lem>de numero</lem>
                   <rdg type="variation-substance" wit="#M">per se</rdg>
                 </app>
@@ -5644,10 +5813,18 @@
                 </app> 
                 ad tertium.
               </p>
-
-              <p xml:id="b1d3qun-aqdaps"> Ad quartum decimum sicut ad probationem septimi. </p>
-
-              <p xml:id="b1d3qun-arvssc"> Ad quintum decimum verum est quod omnis cogitatio
+              <p xml:id="b1d3qun-aqdaps"> 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-qdipie">Ad quartum decimum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                sicut ad probationem septimi.
+              </p>
+              <p xml:id="b1d3qun-arvssc">
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-psvasp">Ad quintum decimum</ref>
+                </cit> 
+                verum est quod omnis cogitatio
                 repraesentat alicui illud 
                 <app>
                   <lem>
@@ -5664,8 +5841,10 @@
                   <lem>et</lem>
                   <rdg type="variation-absent" wit="#S" />
                 </app> 
-                ideo si in nullo est subiective, nullius est signum tale naturaliter offerens
-                obiectum cuius natum est esse signum nisi forte per modum obiecti sicut imago 
+                ideo si in nullo est subiective, 
+                nullius est signum tale naturaliter offerens
+                obiectum cuius natum est esse signum 
+                nisi forte per modum obiecti sicut imago 
                 <app>
                   <lem><name type="variable">Herculis</name></lem>
                   <rdg type="variation-substance" wit="#M">hoc actum</rdg>
@@ -5746,8 +5925,12 @@
                 </app> 
                 ita nec quin sit sibi cognitio.
               </p>
-
-              <p xml:id="b1d3qun-addvvf"> Ad sextum decimum dicendum quod 
+              <p xml:id="b1d3qun-addvvf">
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-sdipie">Ad sextum decimum</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                dicendum quod 
                 <app>
                   <lem>
                     <app>
@@ -5840,31 +6023,47 @@
                         <app>
                           <lem>alia</lem>
                           <rdg type="variation-absent" wit="#V" />
-                        </app> aliter </lem>
+                        </app> 
+                        aliter 
+                      </lem>
                       <rdg type="variation-substance" wit="#T">aliqua qualiter</rdg>
-                    </app> se </lem>
+                    </app> 
+                    se 
+                  </lem>
                   <rdg type="variation-substance" wit="#M">aliquando res</rdg>
-                </app> haberet et post incipiat ita se habere <app>
+                </app> 
+                haberet et post incipiat ita se habere 
+                <app>
                   <lem>sicut</lem>
                   <rdg type="variation-substance" wit="#M">sic talis notitia</rdg>
-                </app> significat <app>
+                </app> 
+                significat 
+                <app>
                   <lem>talis notitia</lem>
                   <rdg type="variation-absent" wit="#M" />
-                </app>, tunc habetur scientia sine mutatione <app>
+                </app>, 
+                tunc habetur scientia sine mutatione 
+                <app>
                   <lem>scientis</lem>
                   <rdg type="variation-substance" wit="#V">scienti</rdg>
-                </app> quia eo <app>
+                </app> 
+                quia eo 
+                <app>
                   <lem>ipso</lem>
                   <rdg type="variation-absent" wit="#T" />
-                </app> quod res est vel non est <app>
+                </app> 
+                quod res est vel non est 
+                <app>
                   <lem>oratio est vera vel falsa.</lem>
-                  <rdg type="variation-substance" wit="#T">ordo <unclear>verum vel
-                    falsum</unclear>.</rdg>
+                  <rdg type="variation-substance" wit="#T">
+                    ordo <unclear>verum vel falsum</unclear>.
+                  </rdg>
                   <rdg type="variation-substance" wit="#M #V">ordo dicitur etc.</rdg>
                 </app>
               </p>
-
-              <p xml:id="b1d3qun-sedpvs"> Similiter est de actu virtuoso <app>
+              <p xml:id="b1d3qun-sedpvs">
+                Similiter est de actu virtuoso 
+                <app>
                   <lem>tam</lem>
                   <rdg type="variation-substance" wit="#M">ipsa</rdg>
                 </app> appetitivo quam <app>
@@ -5920,7 +6119,6 @@
                 </app>
               </p>
             </div>
-
             <div xml:id="b1d3qun-Drapapa">
               <head xml:id="b1d3qun-Hrapapa"><supplied>Responsio ad principales argumenta</supplied></head>
               <div xml:id="b1d3qun-Dapaapa">
