@@ -174,7 +174,7 @@
             </app>
             <ref>illud <title ref="#ps">Psalmum</title></ref>
             <cit>
-              <quote ana="#ps38_7"> verumtamen in imagine pertransit homo 
+              <quote source="http://scta.info/resource/ps38_7"> verumtamen in imagine pertransit homo 
                 <app>
                   <lem n="homo" />
                   <rdg type="variation-present" wit="#T">sed etc.</rdg>
@@ -595,7 +595,7 @@
             </ref> 
             quod,
             <cit>
-              <quote xml:id="b1d3qun-Qiciani" source="http://scta.info/resource/adt-l14" type="paraphrase">
+              <quote xml:id="b1d3qun-Qiciani" source="http://scta.info/resource/adt-l14-d1e1548" type="paraphrase">
                 imago creatoris immortaliter 
                 <app> <!-- important app for stemma, showing V correcting an error also present in S -->
                   <lem wit="#T">insita</lem>
@@ -638,7 +638,7 @@
             </ref>,
             quod 
             <cit>
-              <quote xml:id="b1d3qun-Ruitu7y" type="paraphrase" source="http://scta.info/resource/adt-l14">
+              <quote xml:id="b1d3qun-Ruitu7y" type="paraphrase" source="http://scta.info/resource/adt-l14-d1e1539">
                 imago illa non est attendenda in rebus transeuntibus
               </quote>
               <bibl>
@@ -665,7 +665,7 @@
               I 
             </ref>,
             <cit>
-              <quote xml:id="b1d3qun-Qfhahai" ana="#gen1_1">
+              <quote xml:id="b1d3qun-Qfhahai" source="http://scta.info/resource/gen1_1">
                 faciamus hominem ad imaginem
               </quote>
               <bibl>
@@ -704,7 +704,7 @@
               <name ref="#Paul">Apostoli</name>
             </ref>: 
             <cit>
-              <quote xml:id="b1d3qun-Qrsmsmv" ana="#eph4_23">
+              <quote xml:id="b1d3qun-Qrsmsmv" source="http://scta.info/resource/eph4_23">
                 renovamini spiritu mentis vestrae
               </quote>
               <bibl>
@@ -780,7 +780,7 @@
               c. 17 de parvis
             </ref>, 
             <cit>
-              <quote xml:id="b1d3qun-Qndeqce" source="http://scta.info/resource/adt-l12">
+              <quote xml:id="b1d3qun-Qndeqce" source="http://scta.info/resource/adt-l12-d1e1331">
                 <seg type="qs">nulli</seg>, 
                 inquit, 
                 <seg type="qs">
@@ -818,7 +818,7 @@
             </ref>, 
             quod 
             <cit>
-              <quote xml:id="b1d3qun-Qpmipep" source="http://scta.info/resource/adt-l14">
+              <quote xml:id="b1d3qun-Qpmipep" source="http://scta.info/resource/adt-l14-d1e1586">
                 prius mens in se ipsa consideranda est 
                 antequam sit particeps Dei 
                 et 
@@ -1990,7 +1990,7 @@
                 de magnis 
               </ref>:
               <cit>
-                <quote xml:id="b1d3qun-Qidirei" source="http://scta.info/resource/adt-l14"> 
+                <quote xml:id="b1d3qun-Qidirei" source="http://scta.info/resource/adt-l14-d1e1548"> 
                   imago Dei in creatura rationali est immortalis
                 </quote>
                 <bibl>
@@ -2042,7 +2042,7 @@
                 </app>
               </ref>: 
               <cit>
-                <quote xml:id="b1d3qun-Qiesdip" source="http://scta.info/resource/adt-l12">
+                <quote xml:id="b1d3qun-Qiesdip" source="http://scta.info/resource/adt-l12-d1e1302">
                   <seg type="qs">in eo solo</seg>,
                   <app>
                     <lem>inquit</lem>
@@ -2082,7 +2082,7 @@
               </ref>,
               dicit quod 
               <cit>
-                <quote xml:id="b1d3qun-Qnpeqfe" source="http://scta.info/resource/adt-l14">
+                <quote xml:id="b1d3qun-Qnpeqfe" source="http://scta.info/resource/adt-l14-d1e1621">
                   non propterea est Trinitas mentis imago Dei 
                   quia sui meminit 
                   <app>
@@ -2518,7 +2518,7 @@
                   </bibl>
                 </cit>
                 <cit>
-                  <quote xml:id="b1d3qun-Qadsf3d" source="http://scta.info/resource/adt-l9">
+                  <quote xml:id="b1d3qun-Qadsf3d" source="http://scta.info/resource/adt-l9-d1e1059">
                     <app>
                       <lem>relative</lem>
                       <rdg type="variation-substance" wit="#T">relativa</rdg>
@@ -8131,7 +8131,7 @@
                 nisi beatus, 
                 quia <!-- V and T have quod --> 
                 <cit>
-                  <quote xml:id="b1d3qun-Qhevuct" ana="#io17_3">haec est vita aeterna ut 
+                  <quote xml:id="b1d3qun-Qhevuct" source="http://scta.info/resource/io17_3">haec est vita aeterna ut 
                     <app>
                       <lem>cognoscant</lem>
                       <rdg wit="#M">cognoscat</rdg>
@@ -9468,7 +9468,7 @@
                   unde illud in 
                   <ref><title ref="#sap">Libro Sapientiae</title></ref> 
                   <cit>
-                    <quote ana="#sap2_1">dixerunt apud se cogitantes non 
+                    <quote source="http://scta.info/resource/sap2_1">dixerunt apud se cogitantes non 
                       <app>
                         <lem>recte</lem>
                         <rdg wit="#M">ratione</rdg>
@@ -9666,8 +9666,12 @@
                       verbum an tantum amata notitia,</quote>
                     <bibl>Augustine, De Trinitate, 9.10.15</bibl>
                   </cit> 
-                  et concludit naturaliter quod <quote source="http://scta.info/resource/adt-l9-d1e1087">verbum, quod nunc insinuare volumus, 
-                  est cum amore notitia</quote>.</p>
+                  et concludit naturaliter quod 
+                  <quote source="http://scta.info/resource/adt-l9-d1e1087">
+                    verbum, quod nunc insinuare volumus, 
+                  est cum amore notitia
+                  </quote>.
+                </p>
                 
                 <p xml:id="b1d3qun-sspfse">Sexto sumitur pro obiecto 
                   <app>
@@ -10268,7 +10272,7 @@
                     <rdg wit="#V #T" type="variation-absent"/>
                   </app> 
                   <cit>
-                    <quote ana="#Icor13_13">
+                    <quote source="http://scta.info/resource/Icor13_13">
                       <seg type="qs">fides,</seg> 
                       inquit, 
                       <seg type="qs">spes 
@@ -11991,7 +11995,7 @@
                 quia 
                 ibi 
                 <cit>
-                  <quote xml:id="b1d3qun-Qaeeeep" source="http://scta.info/resource/adt-l9">amor eius erit perfectus</quote>
+                  <quote xml:id="b1d3qun-Qaeeeep" source="http://scta.info/resource/adt-l9-d1e1046">amor eius erit perfectus</quote>
                   <bibl>Augustine, De Trinitate, 9.4.4</bibl>
                 </cit> 
                 sicut dicit 
@@ -14693,7 +14697,7 @@
                   <title ref="#lc">Evangelio <!-- S has "evangelo" which should probably be changed to evangelio" --></title>
                 </ref> 
                 <cit>
-                  <quote xml:id="b1d3qun-Qmgesup" ana="#lc15_17">magnum gaudium 
+                  <quote xml:id="b1d3qun-Qmgesup" source="http://scta.info/resource/lc15_17">magnum gaudium 
                     <app>
                       <lem>est angelis</lem>
                       <rdg wit="#M #T">erit</rdg>
