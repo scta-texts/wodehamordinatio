@@ -3175,8 +3175,8 @@
                 <app>
                   <lem>
                     Igitur intenderetur actus, 
-                    et actus magis intensus, magis causabit de
-                    habitu
+                    et actus magis intensus, 
+                    magis causabit de habitu
                   </lem>
                   <rdg type="correction-addition" wit="#V">
                     <add place="margin">
@@ -3212,10 +3212,10 @@
                 </app> 
                 habitu. 
                 Non est igitur intellectio,
-                sicut proles,
+                sicut 
                 <app>
-                  <lem>procedens</lem>
-                  <rdg type="variation-absent" wit="#M" />
+                  <lem>proles, procedens</lem>
+                  <rdg wit="#M">prolens</rdg>
                 </app>
                 <app>
                   <lem>a</lem>
@@ -3242,11 +3242,11 @@
                   <lem>sicut</lem>
                   <rdg type="variation-absent" wit="#M" />
                 </app> 
-                proles, a memoria, 
-                <app>
+                proles, a memoria 
+                (<app>
                   <lem>id est</lem>
                   <rdg type="variation-substance" wit="#M">scilicet</rdg>
-                </app>, 
+                </app> 
                 <app>
                   <lem n="id est," />
                   <!-- is this right? -->
@@ -3259,8 +3259,9 @@
                   <lem>intellectu existente</lem>
                   <rdg type="variation-substance" wit="#M">actu existens</rdg>
                 </app> 
-                in actu primo sufficienti respectu intellectionis gignendae, 
-                vel per praesentiam obiecti respectu primi actus 
+                in actu primo sufficienti respectu intellectionis gignendae) 
+                vel per praesentiam obiecti 
+                respectu primi actus 
                 <app>
                   <lem>naturaliter</lem>
                   <rdg type="variation-substance" wit="#M">naturalis</rdg>
@@ -3270,13 +3271,13 @@
                   <lem>eo</lem>
                   <rdg type="variation-substance" wit="#S">illo</rdg>
                 </app> 
-                causabilis. 
-                Respectu 
+                causabilis
+                respectu 
                 <app>
                   <lem>talis</lem>
                   <rdg type="variation-substance" wit="#M">corporalis</rdg>
                 </app> 
-                obiecti 
+                obiecti,
                 <app>
                   <lem>vel</lem>
                   <rdg type="variation-substance" wit="#M">videtur</rdg>
@@ -3815,17 +3816,18 @@
                   <rdg type="variation-substance" wit="#V">cuius mens</rdg>
                   <rdg type="variation-substance" wit="#T">cuiuslibet</rdg>
                 </app> 
-                alterius. </p>
-
+                alterius.
+              </p>
               <p xml:id="b1d3qun-tpcrdi">
-                <supplied>Tertius.</supplied> 
-                Praeterea cum diligo uno actu virtuoso omnes bonos, 
+                <supplied>Tertius.</supplied><!-- do we need this --> 
+                Praeterea, 
+                cum diligo uno actu virtuoso omnes bonos, 
                 si quis eorum me ignorante 
                 <app>
                   <lem>fiat</lem>
                   <rdg type="variation-substance" wit="#M">aut</rdg>
                 </app> 
-                malus 
+                malus,
                 <app>
                   <lem>cesso</lem>
                   <rdg type="correction-substitution" wit="#S">
@@ -3845,8 +3847,8 @@
                 <app>
                   <lem>tales bonos quia tales</lem>
                   <rdg type="variation-inversion" wit="#T">bonos tales quia tales</rdg>
-                  <rdg type="variation-substance" wit="#S">bonos tamquam tales</rdg>
-                </app> 
+                  <rdg type="variation-substance" wit="#S">bonos tamquam tales</rdg> <!-- this reading might be better -->
+                </app>, 
                 et 
                 <app>
                   <lem>tamen</lem>
@@ -3858,12 +3860,14 @@
                   <rdg type="variation-substance" wit="#V">istius</rdg>
                   <rdg type="variation-absent" wit="#S #T" />
                 </app> 
-                actus, igitur pari ratione de intellectione.
+                actus, 
+                igitur pari ratione de intellectione.
               </p>
-
               <p xml:id="b1d3qun-qpnrdi">
-                <supplied>Quartus.</supplied> 
-                Praeterea nihil diligitur nisi cognitum, sed 
+                <supplied>Quartus.</supplied> <!-- do we need this --> 
+                Praeterea, 
+                nihil diligitur nisi cognitum, 
+                sed 
                 <app>
                   <lem>cognitio</lem>
                   <rdg type="variation-substance" wit="#M">cogitatio</rdg>
@@ -3872,7 +3876,8 @@
                   <lem>a Deo potest destrui</lem>
                   <rdg type="variation-inversion" wit="#V #M">potest a Deo destrui</rdg>
                 </app> 
-                sine destructione qualitatis quae est 
+                sine destructione qualitatis, 
+                quae est 
                 <app>
                   <lem>dilectio</lem>
                   <rdg type="variation-substance" wit="#M">distinctio</rdg>
@@ -3881,7 +3886,7 @@
                 <app>
                   <lem>remanebit</lem>
                   <rdg type="variation-substance" wit="#S">illud manebit</rdg>
-                </app> 
+                </app>, 
                 et tamen non 
                 <app>
                   <lem>tunc erit</lem>
@@ -3898,19 +3903,20 @@
                 </app> 
                 pari ratione de intellectione.
               </p>
-
               <p xml:id="b1d3qun-qppepv">
-                <supplied>Quintus.</supplied> 
-                Praeterea ponatur dilectio qua 
+                <supplied>Quintus.</supplied> <!-- do we need this -->
+                Praeterea, 
+                ponatur dilectio qua 
                 <name ref="#Sortes" type="variable">Sortes</name> 
                 diligit seipsum in 
                 <name ref="#Plato" type="variable">Platone</name>, 
                 tunc 
-                <name ref="#Plato" type="variable" >Plato</name> 
-                experietur se diligere <app>
+                <name ref="#Plato" type="variable">Plato</name> 
+                experietur se diligere 
+                <app>
                   <lem n="diligere" />
                   <rdg type="variation-present" wit="#V">se</rdg>
-                </app> 
+                </app>,
                 igitur 
                 <app>
                   <lem>tunc</lem>
@@ -3938,15 +3944,20 @@
                   <rdg type="variation-substance" wit="#T">illa dilectione illud</rdg>
                   <rdg type="variation-substance" wit="#V">per eam illud</rdg>
                 </app> 
-                quod prius. Assumptum probatur, quia si 
-                <name ref="#Sortes" type="variable" >Sortes</name> 
+                quod prius. 
+                Assumptum probatur 
+                quia, 
+                si 
+                <name ref="#Sortes" type="variable">Sortes</name> 
                 velit 
                 <app>
                   <lem>sic</lem>
                   <rdg type="variation-absent" wit="#M" />
                 </app> 
-                se diligere angelum et haec volitio ponatur in 
-                <name ref="#Plato" type="variable">Platone</name> per 
+                se diligere angelum 
+                et haec volitio ponatur 
+                in <name ref="#Plato" type="variable">Platone</name> 
+                per 
                 <app>
                   <lem>illam</lem>
                   <rdg type="variation-substance" wit="#M">istam</rdg>
@@ -3957,13 +3968,15 @@
                   <lem>similiter</lem>
                   <rdg type="variation-substance" wit="#M">sibi</rdg>
                 </app> 
-                in proposito et probatur hoc ultimum assumptum, 
+                in proposito. 
+                Et probatur hoc ultimum assumptum 
                 <app>
                   <lem>quia</lem>
                   <rdg type="variation-substance" wit="#M">qua</rdg>
                 </app> 
-                per intellectionem qua <name ref="#Sortes" type="variable">Sortes</name>
-                experitur se intelligere angelum 
+                per intellectionem, 
+                qua <name ref="#Sortes" type="variable">Sortes</name>
+                experitur se intelligere angelum, 
                 <app>
                   <lem>positam</lem>
                   <rdg type="variation-substance" wit="#M">primo tum</rdg>
@@ -3971,14 +3984,14 @@
                 in 
                 <name ref="#Plato" type="variable">Platone</name>, 
                 <name ref="#Plato" type="variable">Plato</name> 
-                experietur se intelligere angelum, igitur similiter 
+                experietur se intelligere angelum, 
+                igitur similiter 
                 <app>
                   <lem>et</lem>
                   <rdg type="variation-substance" wit="#M">etc.</rdg>
                 </app> 
                 per volitionem.
               </p>
-
               <p xml:id="b1d3qun-spdsdv">
                 <supplied>Sextus.</supplied> 
                 Praeterea dilectio 
