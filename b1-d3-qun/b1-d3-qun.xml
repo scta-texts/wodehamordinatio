@@ -1496,7 +1496,6 @@
                   </bibl>
                 </cit>.
               </p>
-              <!-- left off here with Nick on 5/30-->
               <p xml:id="b1d3qun-ehdspi"> 
                 Ex hac differentia sequitur alia: 
                 quod vestigium ducit vel
@@ -3335,42 +3334,31 @@
                   c. 30 de parvis
                 </ref>:
                 <cit>
-                  <quote xml:id="b1d3qun-Qauneic">
-                    <seg type="qs"> 
-                      ab 
-                      <app>
-                        <lem>utroque</lem>
-                        <rdg type="variation-substance" wit="#M">utraque</rdg>
-                      </app>
-                      <app>
-                        <lem>paritur notitia</lem>
-                        <rdg type="variation-inversion" wit="#S">notitia paritur</rdg>
-                      </app>
-                    </seg>, 
+                  <quote xml:id="b1d3qun-Qauneic" source="http://scta.info/resource/adt-l9-d1e1100">
+                    ab 
                     <app>
-                      <lem n="paritur" />
-                      <!-- careful! -->
-                      <rdg type="variation-present" wit="#S">i.e., gignitur</rdg>
-                    </app>, 
-                    <seg type="qs"> 
-                      a 
-                      <app>
-                        <lem>cognoscente</lem>
-                        <rdg type="variation-substance" wit="#M">cogitatione</rdg>
-                      </app>
-                    </seg>
+                      <lem>utroque</lem>
+                      <rdg type="variation-substance" wit="#M">utraque</rdg>
+                    </app>
+                    <app>
+                      <lem>paritur notitia</lem>
+                      <rdg type="variation-inversion" wit="#S">notitia paritur i.e. gignitur</rdg>
+                    </app>,
+                    a 
+                    <app>
+                      <lem>cognoscente</lem>
+                      <rdg type="variation-substance" wit="#M">cognitione</rdg>
+                    </app>
                     <app>
                       <lem>scilicet</lem>
-                      <rdg type="variation-substance" wit="#T">pariter</rdg>
+                      <rdg type="variation-substance" wit="#T">paritur</rdg>
                     </app>
-                    <seg type="qs"> 
-                      et 
-                      <app>
-                        <lem n="et"/>
-                        <rdg type="variation-present" wit="#S">igitur</rdg>
-                      </app> 
-                      cognito 
-                    </seg>
+                    et 
+                    <app>
+                      <lem n="et"/>
+                      <rdg type="variation-present" wit="#S">igitur</rdg>
+                    </app> 
+                    cognito
                   </quote>
                   <bibl>
                     <name>Augustinus</name>, 
@@ -3393,7 +3381,7 @@
                 </ref>,
                 dicens, 
                 <cit>
-                  <quote>
+                  <quote xml:id="b1d3qun-Qqsldqn" source="http://scta.info/resource/adt-l15-d1e1801">
                     <seg type="qs">
                       <app>
                         <lem wit="#S #V">cum</lem>
@@ -3406,10 +3394,11 @@
                         <lem>tenemus</lem>
                         <rdg type="variation-substance" wit="#M">tenus</rdg>
                         <rdg type="variation-absent" wit="#S" />
-                      </app>, 
-                      nascitur verbum quod 
+                      </app> 
+                      nascitur verbum,
+                      quod 
                       <app>
-                        <lem>cuiusmodi</lem>
+                        <lem wit="#M #T #V">eiusmodi</lem>
                         <rdg type="variation-substance" wit="#S">eiusdem modi</rdg>
                       </app> 
                       est omnino, 
@@ -3435,7 +3424,7 @@
                         </rdg>
                       </app> 
                       <pb ed="#V" n="108-r"/>
-                      de qua nascitur.
+                      de qua nascitur
                     </seg>
                   </quote>
                   <bibl>
@@ -3447,7 +3436,7 @@
                     scimus loquimur, ex ipsa scientia quam memoria tenemus nascatur uerbum quod
                     eiusmodi sit omnino cuiusmodi est illa scientia de qua nascitur."--> 
                   </bibl>
-                </cit> 
+                </cit>.
                 Statim enim sequitur, unde habetur quod li 
                 <mentioned>eiusdem modi et cuiusmodi</mentioned>
                 <app> <!-- Don't know if this code works... -->
@@ -3461,21 +3450,28 @@
                       <lem>obiectum</lem>
                       <rdg type="variation-substance" wit="#M #V">speciem</rdg>
                     </app>
-                    <app>
-                      <lem>cognitionis</lem>
-                      <rdg type="variation-substance" wit="#M">cogitationis</rdg>
-                    </app>, 
-                    formata quippe 
-                    <app>
-                      <lem>inquit</lem>
-                      <rdg type="variation-substance" wit="#S">cum sit</rdg>
-                    </app>
-                    <app>
-                      <lem>cognitio</lem>
-                      <rdg type="variation-substance" wit="#M #S">cogitatio</rdg>
-                    </app> 
-                    ab ea quam scimus, 
-                    verbum est quod in corde dicimus. 
+                    cognitionis, 
+                    <cit>
+                      <quote xml:id="b1d3qun-Qaa3ava" source="http://scta.info/resource/adt-l15-d1e1801">
+                        formata quippe 
+                        <seg type="qs">
+                          <app>
+                            <lem>inquit</lem>
+                            <rdg type="variation-substance" wit="#S">cum sit</rdg>
+                          </app>
+                        </seg>
+                        <seg type="qs">
+                          cognitio ab ea quam scimus, 
+                          verbum est quod in corde dicimus
+                        </seg>
+                      </quote>
+                      <bibl>
+                        <name ref="#Augustine">Augustinus</name>, 
+                        <title ref="#deTrinitate">De Trinitate</title> 
+                        XV, c. 10, n. 19 
+                        (CCSL 50A:486; PL 42:1071)
+                      </bibl>
+                    </cit>. 
                   </lem>
                   <rdg type="correction-addition" wit="#T"> <!-- this is also variation-substance! -->
                     <add place="margin">referunt obiectum et non notant obiectum cognitionis,
@@ -3483,7 +3479,7 @@
                       quod in corde dicimus. 
                     </add>
                   </rdg>
-                  <rdg wit="#M">
+                  <rdg wit="#M"><!-- review variant -->
                     referunt obiectum et non notant obiectum cognitionis,
                     formata quippe, inquit, cognitio, ab ea respectu quam scimus, verbum est quicquid corde
                   </rdg>
@@ -3500,11 +3496,14 @@
                   <rdg type="variation-present" wit="#T"><sic>quod</sic></rdg>
                 </app>
                 <cit>
-                  <quote xml:id="b1d3qun-Qvgdmia">verbum gignitur de scientia quae manet in
-                    anima,</quote>
+                  <quote xml:id="b1d3qun-Qvgdmia" source="http://scta.info/resource/adt-l15-d1e1810">
+                    verbum gignitur de scientia 
+                    quae manet in anima
+                  </quote>
                   <bibl>
-                    <name ref="#Augustine">Augustinus</name>, <title>De Trinitate</title>, XV, c.
-                    11, n. 20 
+                    <name ref="#Augustine">Augustinus</name>, 
+                    <title>De Trinitate</title>, 
+                    XV, c. 11, n. 20 
                     (CCSL 50A:488; PL 42:1072). 
                     <!--". . . sed quod omnia quibus significatur
                     signa praecedit et gignitur de scientia quae manet in animo quando eadem
@@ -3516,18 +3515,20 @@
                     scientia quam memoria tenemus, nascitur verbum', et eodem libro, cap. 12 vel
                     28a, 'gignitur verbum de scientia quae manet in anima'." -->
                   </bibl>
-                </cit>
+                </cit>,
                 <app>
                   <lem>et</lem>
                   <rdg type="variation-absent" wit="#M"/>
                 </app>
-                <!--  -->
                 <pb ed="#S" n="80-v" />
                 <cb ed="#S" n="a" />
-                <!--  -->
                 <cit>
-                  <ref>capitulo 36 simile</ref>
-                  <bibl>Forte <name ref="#Augustine">Augustinus</name>, 
+                  <ref xml:id="b1d3qun-Racv3aa" target="http://scta.info/resource/adt-l15-d1e1851">
+                    capitulo 36 simile
+                  </ref>
+                  <bibl>
+                    Forte 
+                    <name ref="#Augustine">Augustinus</name>, 
                     <title ref="#deTrinitate">De Trinitate</title>, 
                     XV, c. 14, n. 24 (CCSL 50A:497; PL 42:1077)
                   </bibl>
@@ -3544,7 +3545,7 @@
                 similibus eius auctoritatibus satis patet quod 
                 <name ref="#Augustine">
                   <app>
-                    <lem>beatus</lem>
+                    <lem>Beatus</lem>
                     <rdg type="variation-absent" wit="#M #V" />
                   </app> 
                   Augustinus
@@ -3565,8 +3566,9 @@
                   <lem>distingui realiter</lem>
                   <rdg type="variation-inversion" wit="#M #V">realiter distingui</rdg>
                 </app> 
-                a specie vel scientia habituali ex qua, secundum eum, gignitur, tamquam
-                proles 
+                a specie vel scientia habituali ex qua, 
+                secundum eum, gignitur, 
+                tamquam proles 
                 <app>
                   <lem>a</lem>
                   <rdg type="correction-addition" wit="#V">
@@ -3582,7 +3584,8 @@
                   <lem n="parente" />
                   <rdg type="variation-present" wit="#M">seu a comparente</rdg>
                 </app>, 
-                sed a mente, sicut verbum et proles a dicente.
+                sed a mente, 
+                sicut verbum et proles a dicente.
               </p>
             </div>
 
@@ -3591,35 +3594,45 @@
                 <supplied>Argumenta contra responsionem</supplied>
               </head>
               <p xml:id="b1d3qun-pctdqg">
-                <supplied>Primus.</supplied> 
                 Contra tamen hanc sententiam 
                 <app>
                   <lem>eius</lem>
                   <rdg type="correction-addition" wit="#S">
-                    <add place="aboveLine">eius</add>
+                    <add place="above-line">eius</add>
                   </rdg>
                 </app> 
-                et meam <app>
+                et meam, 
+                <app>
                   <lem>argui</lem>
                   <rdg type="variation-substance" wit="#M">quin</rdg>
                 </app> 
-                potest per argumenta eorum qui tenent quod actualis <app>
+                potest per argumenta eorum qui tenent quod actualis 
+                <app>
                   <lem>cognitio</lem>
                   <!-- I think in general Wodeham is talking about "cognitiones"
                     and not "cogitationes", as the abbreviation is ambiguuous. -->
                   <rdg type="variation-substance" wit="#M #S">cogitatio</rdg>
                 </app> 
-                potest 
+                potest, 
                 <app>
                   <lem>remanendo</lem>
-                  <rdg type="variation-absent" wit="#M" />
+                  <rdg type="correction-addition" wit="#M" >
+                    <add place="above-line">remanendo</add><!-- remanendo is add in a different hand; attribute hand="#M1" could be added, if #M1 referred to anything; but it doesn't -->
+                  </rdg>
                 </app> 
-                in mente subiective cessare esse intellectio, ita quod tunc remaneat <app>
+                in mente subiective, 
+                cessare esse intellectio, 
+                ita quod tunc remaneat 
+                <app>
                   <lem>illa</lem>
                   <rdg type="variation-substance" wit="#S">ista</rdg>
                 </app> 
-                qualitas non existendo tunc intellectio, sed species vel habitus, igitur
-                illud idem, quod est species vel habitus anima non 
+                qualitas non existendo tunc intellectio, 
+                sed species vel habitus. 
+                Igitur
+                illud idem
+                quod est species 
+                vel habitus anima non 
                 <app>
                   <lem>actu</lem>
                   <rdg type="variation-substance" wit="#M">actualiter</rdg>
@@ -3639,20 +3652,23 @@
                   </lem>
                   <rdg type="variation-inversion" wit="#T">cognitio actualis</rdg>
                 </app> 
-                cum anima ceperit cogitare, 
-                igitur frustra poneretur species vel habitus
+                cum anima ceperit cogitare. 
+                Igitur frustra poneretur 
+                species vel habitus 
                 distinctus a tali actuali 
                 <app>
                   <lem>cognitione</lem>
                   <rdg type="variation-substance" wit="#M #S">cogitatione</rdg>
                 </app>, 
-                et per consequens frustra poneretur realis 
+                et per consequens 
+                frustra poneretur realis 
                 <app>
-                  <lem><unclear>partus</unclear></lem>
-                  <!-- Should this be "pars"? -->
-                  <rdg type="variation-substance" wit="#M">partis</rdg>
+                  <lem type="conjecture-corrected"><corr>pars</corr></lem>
+                  <rdg wit="#S">partus</rdg>
+                  <rdg wit="#M #V #T" type="variation-substance">partis</rdg>
                 </app> 
-                secundae partis imaginis a specie vel 
+                secundae partis imaginis 
+                a specie vel 
                 <app>
                   <lem>habitu</lem>
                   <rdg type="variation-substance" wit="#M">habitus</rdg>
@@ -3671,7 +3687,8 @@
                   <lem>sibi praesupponentis</lem>
                   <rdg type="variation-inversion" wit="#S">praesupponentis sibi</rdg>
                 </app> 
-                in eodem. Assumptum probatur 
+                in eodem. 
+                Assumptum probatur 
                 <app>
                   <lem>primo</lem>
                   <rdg type="variation-absent" wit="#S #T" />
@@ -3686,8 +3703,11 @@
                   <lem>intelligeret</lem>
                   <rdg type="variation-substance" wit="#M">intelliget</rdg>
                 </app>, 
-                haberet simul distinctas similitudines respectu eiusdem quod videtur
-                superfluum. Consequentia patet quia 
+                haberet simul distinctas similitudines 
+                respectu eiusdem, 
+                quod videtur superfluum. 
+                Consequentia patet 
+                quia 
                 <app>
                   <lem>etiam</lem>
                   <rdg type="variation-absent" wit="#M" />
@@ -3697,58 +3717,66 @@
                   <rdg type="variation-present" wit="#M #T">ubi</rdg>
                 </app> 
                 secundum 
+                <ref xml:id="b1d3qun-Rf3v3va" corresp="#b1d3qun-Qf3v3va">
+                  <name ref="#Augustine">Augustinum</name>, 
+                  <app>
+                    <lem>ubi</lem>
+                    <rdg type="variation-absent" wit="#T" />
+                  </app>
+                  <app>
+                    <!-- not sure how to encode this inversion -->
+                    <lem>
+                      <app>
+                        <lem>sequi</lem>
+                        <rdg type="variation-substance" wit="#T">sequitur</rdg>
+                      </app> 
+                      videtur
+                    </lem>
+                    <rdg type="variation-inversion" wit="#M #T">videtur sequi</rdg>
+                  </app> 
+                  illam distinctionem 
+                  <app>
+                    <lem>actus</lem>
+                    <rdg type="variation-substance" wit="#M">actu</rdg>
+                  </app> 
+                  ab habitu vel specie 
+                  <unclear>29</unclear>
+                  <title ref="#deTrinitate">De Trinitate</title>, c. 15, 
+                  et multis locis
+                </ref>,
                 <cit>
-                  <ref>
-                    <name ref="#Augustine">Augustinum</name>, 
+                  <quote xml:id="b1d3qun-Qf3v3va" source="http://scta.info/resource/adt-l15-d1e1836" type="paraphrase">
+                    actualis 
                     <app>
-                      <lem>ubi</lem>
-                      <rdg type="variation-absent" wit="#T" />
-                    </app>
-                    <app>
-                      <!-- not sure how to encode this inversion -->
-                      <lem>
-                        <app>
-                          <lem>sequi</lem>
-                          <rdg type="variation-substance" wit="#T">sequitur</rdg>
-                        </app> 
-                        videtur
-                      </lem>
-                      <rdg type="variation-inversion" wit="#M #T">videtur sequi</rdg>
+                      <lem>cogitatio</lem>
+                      <rdg type="variation-substance" wit="#M #S">cognitatio</rdg>
                     </app> 
-                    illam distinctionem 
+                    est 
                     <app>
-                      <lem>actus</lem>
-                      <rdg type="variation-substance" wit="#M">actu</rdg>
+                      <!-- I think this is the correct spelling -->
+                      <lem>simillima</lem>
+                      <rdg type="variation-substance" wit="#S">simillima</rdg>
                     </app> 
-                    ab habitu vel specie 
-                    <unclear>29</unclear>
-                    <title ref="#deTrinitate">De Trinitate</title>, c. 15 et multis locis,
-                  </ref>
-                  <bibl>???</bibl>
-                </cit> 
-                actualis 
-                <app>
-                  <lem>cogitatio</lem>
-                  <rdg type="variation-substance" wit="#M #S">cognitatio</rdg>
-                </app> 
-                est 
-                <app>
-                  <!-- I think this is the correct spelling -->
-                  <lem>simillima</lem>
-                  <rdg type="variation-substance" wit="#S">simillima</rdg>
-                </app> 
-                speciei de qua gignitur.
+                    speciei de qua gignitur
+                  </quote>
+                  <bibl>
+                    <name>Augustinus</name>,
+                    <title>De Trinitate</title>
+                    XV, 12, 22
+                  </bibl>
+                </cit>.
               </p>
               <p xml:id="b1d3qun-siecva">
-                <supplied>Secundus.</supplied> 
-                Item, eodem actu 
+                Item, 
+                eodem actu 
                 <app>
                   <lem>aliquando cognoscitur</lem>
                   <rdg type="variation-substance" wit="#M">cogitatur divinum</rdg>
                   <rdg type="variation-substance" wit="#V"><unclear>cognitionis</unclear></rdg>
                   <rdg type="variation-substance" wit="#T">cognoscitur</rdg>
                 </app> 
-                verbum et 
+                verbum 
+                et 
                 <app>
                   <lem>res alia 
                     <app>
@@ -3756,20 +3784,24 @@
                       <rdg type="variation-present" wit="#V">illa quod non omnes</rdg>
                       <rdg type="variation-present" wit="#T">et quod non omnis</rdg>
                     </app> 
-                    in verbo et alias non 
+                    in verbo, 
+                    et alias non 
                     <app>
                       <lem>illa</lem>
                       <rdg type="variation-substance" wit="#T">illae</rdg>
                     </app> 
-                    res sed alia vel nulla </lem>
+                    res sed alia vel nulla 
+                  </lem>
                   <rdg type="variation-substance" wit="#M">nulla res</rdg>
                 </app> 
-                alia hoc non 
+                alia. 
+                Hoc non 
                 <app>
                   <lem>nisi</lem>
                   <rdg type="variation-absent" wit="#M" />
                 </app> 
-                detur quod qualitas, quae est intellectio, 
+                detur quod qualitas, 
+                quae est intellectio, 
                 <app>
                   <lem>possit manere</lem>
                   <rdg type="variation-substance" wit="#M">potest remanere</rdg>
@@ -3807,8 +3839,8 @@
                 <app>
                   <lem>intellectio</lem>
                   <rdg type="variation-substance" wit="#M">intellectus</rdg>
-                </app> 
-                pari ratione et 
+                </app>?
+                Pari ratione et 
                 <app>
                   <lem>cuiusvis</lem>
                   <rdg type="variation-substance" wit="#V">cuius mens</rdg>
