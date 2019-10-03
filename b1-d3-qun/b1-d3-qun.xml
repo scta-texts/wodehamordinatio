@@ -3770,10 +3770,9 @@
                 Item, 
                 eodem actu 
                 <app>
-                  <lem>aliquando cognoscitur</lem>
+                  <lem wit="#S">aliquando cognoscitur</lem>
                   <rdg type="variation-substance" wit="#M">cogitatur divinum</rdg>
-                  <rdg type="variation-substance" wit="#V"><unclear>cognitionis</unclear></rdg>
-                  <rdg type="variation-substance" wit="#T">cognoscitur</rdg>
+                  <rdg type="variation-substance" wit="#V #T">cognoscitur aliquando</rdg>
                 </app> 
                 verbum 
                 et 
@@ -3849,7 +3848,6 @@
                 alterius.
               </p>
               <p xml:id="b1d3qun-tpcrdi">
-                <supplied>Tertius.</supplied><!-- do we need this --> 
                 Praeterea, 
                 cum diligo uno actu virtuoso omnes bonos, 
                 si quis eorum me ignorante 
@@ -3870,14 +3868,18 @@
                 </app> 
                 illum illo amore diligere quo 
                 <app>
-                  <lem>eum dilexi</lem>
-                  <rdg type="variation-substance" wit="#S">diligebam</rdg>
+                  <lem n="quo"/>
+                  <rdg wit="#M" type="variation-present">eum</rdg>
+                </app>
+                <app>
+                  <lem wit="#S">diligebam</lem>
+                  <rdg wit="#M #T #V">dilexi</rdg>
                 </app> 
                 omnes 
                 <app>
-                  <lem>tales bonos quia tales</lem>
-                  <rdg type="variation-inversion" wit="#T">bonos tales quia tales</rdg>
-                  <rdg type="variation-substance" wit="#S">bonos tamquam tales</rdg> <!-- this reading might be better -->
+                  <lem wit="#S">bonos tamquam tales</lem>
+                  <rdg wit="#M #V">tales bonos quia tales</rdg>
+                  <rdg wit="#T">bonos tales quia tales</rdg>
                 </app>, 
                 et 
                 <app>
@@ -3886,22 +3888,16 @@
                 </app> 
                 non cessat 
                 <app>
-                  <lem>iste</lem>
-                  <rdg type="variation-substance" wit="#V">istius</rdg>
+                  <lem wit="#V #M">iste</lem>
                   <rdg type="variation-absent" wit="#S #T" />
                 </app> 
                 actus, 
                 igitur pari ratione de intellectione.
               </p>
               <p xml:id="b1d3qun-qpnrdi">
-                <supplied>Quartus.</supplied> <!-- do we need this --> 
                 Praeterea, 
                 nihil diligitur nisi cognitum, 
-                sed 
-                <app>
-                  <lem>cognitio</lem>
-                  <rdg type="variation-substance" wit="#M">cogitatio</rdg>
-                </app>
+                sed cognitio
                 <app>
                   <lem>a Deo potest destrui</lem>
                   <rdg type="variation-inversion" wit="#V #M">potest a Deo destrui</rdg>
@@ -3926,15 +3922,14 @@
                   <lem n="erit" />
                   <rdg type="variation-present" wit="#T">tum</rdg>
                 </app> 
-                dilectio, 
+                dilectio. 
                 <app>
-                  <lem>et</lem>
-                  <rdg type="variation-absent" wit="#T #S #V" />
+                  <lem n="dilectio"/>
+                  <rdg wit="#M" type="variation-present" >et</rdg>
                 </app> 
-                pari ratione de intellectione.
+                Pari ratione de intellectione.
               </p>
               <p xml:id="b1d3qun-qppepv">
-                <supplied>Quintus.</supplied> <!-- do we need this -->
                 Praeterea, 
                 ponatur dilectio qua 
                 <name ref="#Sortes" type="variable">Sortes</name> 
@@ -3944,8 +3939,8 @@
                 <name ref="#Plato" type="variable">Plato</name> 
                 experietur se diligere 
                 <app>
-                  <lem n="diligere" />
-                  <rdg type="variation-present" wit="#V">se</rdg>
+                  <lem wit="#V">se</lem>
+                  <rdg type="variation-absent" wit="#S #M #T"/>
                 </app>,
                 igitur 
                 <app>
@@ -3984,9 +3979,9 @@
                   <lem>sic</lem>
                   <rdg type="variation-absent" wit="#M" />
                 </app> 
-                se diligere angelum 
+                se diligere angelum,
                 et haec volitio ponatur 
-                in <name ref="#Plato" type="variable">Platone</name> 
+                in <name ref="#Plato" type="variable">Platone</name>, 
                 per 
                 <app>
                   <lem>illam</lem>
@@ -4023,8 +4018,8 @@
                 per volitionem.
               </p>
               <p xml:id="b1d3qun-spdsdv">
-                <supplied>Sextus.</supplied> 
-                Praeterea dilectio 
+                Praeterea, 
+                dilectio 
                 <name ref="#Sortes" type="variable">Sortis</name> 
                 et odium 
                 <name ref="#Plato" type="variable">Platonis</name>
@@ -4066,29 +4061,36 @@
                   <lem>cum qualibet forma</lem>
                   <rdg type="variation-absent" wit="#S" />
                 </app> 
-                in subiecto aliquo potest una stare et alia, sed in voluntate Sortis cum 
+                in subiecto aliquo potest una stare et alia, 
+                sed in voluntate Sortis cum 
                 <app>
                   <lem>dilectione</lem>
                   <rdg type="variation-substance" wit="#M">distinctione</rdg>
                 </app>
                 <app>
-                  <lem> terminata ad <name ref="#Sortes" type="variable">Sortem</name>
+                  <lem>terminata ad <name ref="#Sortes" type="variable">Sortem</name>
                     <app>
                       <lem>stat</lem>
                       <rdg type="variation-substance" wit="#M">potest stare</rdg>
-                    </app> odium <name ref="#Plato" type="variable">Platonis</name>, igitur in <app>
+                    </app> 
+                    odium 
+                    <name ref="#Plato" type="variable">Platonis</name>, 
+                    igitur in 
+                    <app>
                       <lem>eodem intellectu</lem>
                       <rdg type="variation-substance" wit="#V">eadem voluntate</rdg>
-                    </app> cum volitione </lem>
+                    </app> 
+                    cum volitione
+                  </lem>
                   <rdg type="variation-absent" wit="#M" />
                 </app> 
                 terminata ad 
                 <name ref="#Sortes" type="variable">Sortem</name> 
                 potest stare
                 odium 
-                <name ref="#Sortes" type="variable">Sortis</name>, 
-                sed non potest cum
-                dilectione 
+                <name ref="#Sortes" type="variable">Sortis</name>.
+                Sed non potest 
+                cum dilectione 
                 <name ref="#Sortes" type="variable">Sortis</name> 
                 esse odium 
                 <name ref="#Sortes" type="variable">Sortis</name>, 
@@ -4096,28 +4098,29 @@
                 <name ref="#Sortes" type="variable">Sortis</name> 
                 potest esse in voluntate 
                 <name ref="#Sortes" type="variable">Sortis</name> 
-                quando ipsam 
+                quando 
+                ipsum 
                 <app>
                   <lem>non erit</lem>
                   <rdg type="variation-substance" wit="#M">noverit</rdg>
                 </app> 
                 odium 
-                <name ref="#Sortes" type="variable">Sortis</name>, et pari ratione
+                <name ref="#Sortes" type="variable">Sortis</name>. 
+                Et pari ratione
                 potest hoc contingere de 
                 <app>
                   <lem>cognitione</lem>
                   <rdg type="variation-substance" wit="#M #S">cogitatione</rdg>
-                </app> 
+                </app>,
                 sicut de volitione, 
                 <app>
                   <lem>igitur</lem>
                   <rdg type="variation-substance" wit="#S #T" />
                 </app>.
               </p>
-
               <p xml:id="b1d3qun-spvive">
-                <supplied>Septimus.</supplied> 
-                Praeterea, visio 
+                Praeterea, 
+                visio 
                 <app>
                   <lem>aliqua</lem>
                   <rdg type="variation-substance" wit="#T"><mentioned>a</mentioned></rdg>
