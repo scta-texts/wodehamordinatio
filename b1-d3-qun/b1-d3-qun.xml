@@ -4772,12 +4772,10 @@
               </p>
               <p xml:id="b1d3qun-uiiqao">
                 Item, 
-                intellectus qui modo non 
-                <app>
-                  <lem type="variation-substance" wit="#V #T #M">intelligit</lem>
-                  <rdg wit="#S">intelligat</rdg><!-- dbcheck -->
-                </app> 
-                per intellectionem <c>a</c> potest intelligere per <c>a</c>. 
+                intellectus 
+                qui modo non intelligit
+                per intellectionem <c>a</c> 
+                potest intelligere per <c>a</c>. 
                 Igitur 
                 <app>
                   <lem n="Igitur"/>
@@ -4785,11 +4783,11 @@
                 </app> 
                 similiter obiectum modo non intellectum per 
                 <c>a</c> poterit per ipsum intelligi.
-                Loquor de intellectionibus similibus 
-                et obiectis similibus. 
+                (Loquor de intellectionibus similibus 
+                et obiectis similibus.) 
                 Assumptum patet 
-                quia intellectio <name>Sortis</name> potest 
-                poni in <name>Platone</name>. 
+                quia intellectio <name type="variable">Sortis</name> potest 
+                poni in <name type="variable">Platone</name>. 
                 Et consequentia patet 
                 quia notitia essentialius dependet 
                 a subiecto quam ab obiecto.
@@ -4805,12 +4803,16 @@
                 distinctas, 
                 nam illis visis potest intellectus habere conceptus numerales 
                 <app>
-                  <lem>quod</lem>
-                  <rdg type="correction-addition" wit="#S">
-                    <add place="in-line">
-                      <sic>quoquo</sic>
-                    </add>
+                  <lem wit="#V">quoquo</lem>
+                  <rdg wit="#S">quod</rdg>
+                  <rdg wit="#T" facs="57v/73">quod</rdg>
+                  <rdg type="correction-substitution" wit="#V" facs="108v/21">
+                    <subst>
+                      <del><unclear>quot</unclear></del>
+                      <add place="in-line">quoquo</add>
+                    </subst>
                   </rdg>
+                  <rdg wit="#M" facs="67v/30">quot</rdg>
                 </app> 
                 sibi formare placuerit. 
                 Isti igitur conceptus sic potuerunt intendi et
@@ -4820,11 +4822,16 @@
                 sicut repraesentat alius cui sit simillimus
                 quia 
                 <app>
-                  <lem>quicquid</lem>
-                  <rdg type="variation-substance" wit="#V" facs="108v/23">si quid</rdg>
-                  <rdg type="variation-substance" wit="#T" facs="57v/76">sicut</rdg>
+                  <lem wit="#V #M" >si quid</lem>
+                  <rdg wit="#S" facs="80v/110">quicquid</rdg><!-- line number needs to be rechecked -->
+                  <rdg wit="#T" facs="57v/76">sicut</rdg>
                 </app> 
-                convenit uni simillimorum simile convenit vel convenire potest reliquo,
+                convenit uni simillimorum 
+                <app>
+                  <lem>simile</lem>
+                  <rdg wit="#S" type="variation-absent" facs="80v/110"/> <!-- line number needs to be rechecked -->
+                </app> 
+                convenit vel convenire potest reliquo,
                 aliter sequitur 
                 <app>
                   <lem n="sequitur"/>
@@ -4907,17 +4914,20 @@
                 est perceptio <app>
                   <lem n="perceptio"/>
                   <rdg type="variation-present" wit="#V">et reliqua</rdg>
-                </app>, igitur etc. </p>
-
+                </app>, igitur etc.
+              </p>
               <p xml:id="b1d3qun-psvasp">
                 <supplied>Quintus decimus.</supplied> Praeterea si visio vel intellectio
-                separarentur a subiectis suis, non <app>
+                separarentur a subiectis suis, non 
+                <app>
                   <lem>essent</lem>
                   <rdg type="correction-addition" wit="#S">
                     <add place="above-line">essent</add>
                   </rdg>
                   <rdg type="variation-substance" wit="#T">sunt</rdg>
-                </app> cognitiones, igitur quod sint cognitiones, <app>
+                </app> 
+                cognitiones, igitur quod sint cognitiones, 
+                <app>
                   <lem>nunc</lem>
                   <rdg type="variation-absent" wit="#V #T"/>
                 </app> accidit eis, cum <app>
