@@ -4856,65 +4856,98 @@
                 quae prius repraesentavit motum 
                 repraesentabit quietem et non motum. 
               </p>
-
               <p xml:id="b1d3qun-qdipie">
-                <supplied>Quartus decimus.</supplied> Item quaelibet pars quantitativa visionis
-                bruti quae visio est perceptio <app>
+                Item, 
+                quaelibet pars quantitativa visionis
+                bruti quae visio est perceptio 
+                <app>
                   <!-- This is also a variation-present -->
                   <lem n="perceptio"/>
-                  <rdg type="correction-addition" wit="#S">
+                  <rdg type="correction-addition" wit="#S"> <!-- this doesn't seem correct -->
                     <add place="margin"><sic>perceptio</sic></add>
                   </rdg>
-                </app> vel <app>
-                  <lem n="vel"/>
+                </app> 
+                vel 
+                <app>
+                  <lem n="vel"/> <!-- doesn't seem correct -->
                   <rdg type="correction-addition" wit="#S">
                     <add>est</add>
                   </rdg>
-                </app> visio perceptiva <app>
+                </app> 
+                visio perceptiva 
+                <app>
                   <lem n="perceptiva"/>
-                  <rdg type="correction-deletion" wit="#S">
+                  <rdg type="correction-deletion" wit="#S"> <!-- doesn't seem correct -->
                     <del rend="strikethrough">vel perceptionis</del>
                   </rdg>
-                </app> et multae sunt partes ita minime quod si essent per se, nulla earum esset
-                visio perceptiva, licet remaneret in oculo quo prius. Nam aliqua poterit esse ita
-                remissa quod non <app>
-                  <lem>via naturae esset</lem>
-                  <!--<rdg type="variation-substance" wit="#V">poterit <app>
-                      <lem>via</lem>
-                      <rdg type="correction-substitution" wit="#V">
-                        <subst>
-                          <del rend="strikethrough">una</del>
-                          <add place="margin">via</add>
-                        </subst>
-                      </rdg>
-                    </app> negare esse</rdg> this app in side a rdg will not work-->
-                  <rdg type="variation-substance" wit="#V">poterit via <!-- note via is also corrected from una -->
-                    </rdg>
-                  <rdg type="variation-substance" wit="#T">non potest
-                    <unclear>nullae</unclear></rdg>
-                </app> perceptio. Igitur pari ratione aliqua ita modica secundum extensionem quod
-                non erat perceptio. <app>
-                  <lem>Et</lem>
-                  <rdg type="variation-substance" wit="#T">etiam</rdg>
-                </app> similiter obiectum potest esse ita modicum quod non <app>
-                  <lem>videbitur</lem>
-                  <rdg type="variation-substance" wit="#V">videtur</rdg>
-                </app> perceptibiliter, igitur qualitas ita modica quod <app>
-                  <lem n="quod"/>
-                  <rdg type="correction-deletion" wit="#V">
-                    <del rend="erasure">quae</del>
+                </app>,
+                et multae sunt partes 
+                ita minime quod, 
+                si essent per se, 
+                nulla earum esset
+                visio perceptiva, 
+                licet remaneret in oculo quo prius. 
+                Nam aliqua poterit esse ita
+                remissa quod non 
+                <app>
+                  <lem wit="#S" facs="81v/118">via naturae esset</lem>
+                  <rdg wit="#V" facs="108v/28">
+                    poterit via <!-- via corrected from una --> naturae esse
+                    
                   </rdg>
-                </app> non <app>
+                  <rdg wit="#T" facs="57v/81">
+                    potest esse via naturae
+                  </rdg>
+                  <rdg wit="#M" facs="67v/41">
+                    poterit via naturae esse
+                  </rdg>
+                </app> 
+                perceptio. 
+                Igitur pari ratione 
+                aliqua ita modica secundum extensionem 
+                quod non erat perceptio. 
+                <app>
+                  <lem>Et</lem>
+                  <rdg type="variation-substance" wit="#T" facs="57v/82">etiam</rdg>
+                </app> 
+                similiter obiectum 
+                potest esse ita modicum 
+                quod non 
+                <app>
+                  <lem>videbitur</lem>
+                  <rdg type="variation-substance" wit="#V" facs="108v/29">videtur</rdg>
+                </app> 
+                perceptibiliter. 
+                Igitur qualitas ita modica quod 
+                <app>
+                  <lem n="quod"/>
+                  <rdg type="correction-substitution" wit="#V" facs="108v/29">
+                    <subst>
+                      <del rend="erasure">quae</del>
+                      <add>quod</add>
+                    </subst>
+                  </rdg>
+                </app> 
+                non 
+                <app>
                   <lem>percipietur</lem>
-                  <rdg type="variation-substance" wit="#S">percipetur</rdg>
-                </app>, et tamen talis pars in toto erat perceptio, quia tota per partes suas est
-                perceptio et praeter hoc sunt eiusdem speciei, igitur si una 
+                  <rdg type="variation-substance" wit="#S" facs="80v/121">percipetur</rdg>
+                </app>, 
+                et tamen talis pars in toto erat perceptio 
+                quia tota per partes suas est
+                perceptio et praeter 
+                haec <!-- in S V T M; needs change in diplomatics --> 
+                sunt eiusdem speciei, 
+                igitur si una 
                 <pb ed="#S" n="81-r"/>
                 <cb ed="#S" n="a"/> 
-                est perceptio <app>
+                est perceptio 
+                <app>
                   <lem n="perceptio"/>
-                  <rdg type="variation-present" wit="#V">et reliqua</rdg>
-                </app>, igitur etc.
+                  <rdg type="variation-present" wit="#V" facs="108v/30">et reliqua</rdg>
+                  <rdg type="variation-present" wit="#M" facs="67v/47">et reliqua</rdg>
+                </app>, 
+                igitur etc.
               </p>
               <p xml:id="b1d3qun-psvasp">
                 <supplied>Quintus decimus.</supplied> Praeterea si visio vel intellectio
