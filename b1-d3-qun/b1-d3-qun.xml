@@ -4859,25 +4859,23 @@
               <p xml:id="b1d3qun-qdipie">
                 Item, 
                 quaelibet pars quantitativa visionis
-                bruti quae visio est perceptio 
+                bruti, 
+                quae visio 
+                <supplied>est</supplied>, 
+                est perceptio
                 <app>
-                  <!-- This is also a variation-present -->
-                  <lem n="perceptio"/>
-                  <rdg type="correction-addition" wit="#S"> <!-- this doesn't seem correct -->
-                    <add place="margin"><sic>perceptio</sic></add>
+                  <lem>vel</lem>
+                  <rdg wit="#V" type="correction-substitution" facs="108v/26">
+                    <subst>
+                      <del>est</del>
+                      <add>vel</add>
+                    </subst>
                   </rdg>
-                </app> 
-                vel 
-                <app>
-                  <lem n="vel"/> <!-- doesn't seem correct -->
-                  <rdg type="correction-addition" wit="#S">
-                    <add>est</add>
-                  </rdg>
-                </app> 
+                </app>
                 visio perceptiva 
                 <app>
                   <lem n="perceptiva"/>
-                  <rdg type="correction-deletion" wit="#S"> <!-- doesn't seem correct -->
+                  <rdg type="correction-deletion" wit="#V" facs="108v/26">
                     <del rend="strikethrough">vel perceptionis</del>
                   </rdg>
                 </app>,
@@ -4890,10 +4888,20 @@
                 Nam aliqua poterit esse ita
                 remissa quod non 
                 <app>
-                  <lem wit="#S" facs="81v/118">via naturae esset</lem>
-                  <rdg wit="#V" facs="108v/28">
+                  <lem wit="#S" facs="81v/118">
+                    <app>
+                      <lem>via</lem>
+                      <rdg wit="#V" type="correction-substitution" facs="108v/27">
+                        <subst>
+                          <del>una</del>
+                          <add>via</add>
+                        </subst>
+                      </rdg>
+                    </app> 
+                    naturae esset
+                  </lem>
+                  <rdg wit="#V" facs="108v/27">
                     poterit via <!-- via corrected from una --> naturae esse
-                    
                   </rdg>
                   <rdg wit="#T" facs="57v/81">
                     potest esse via naturae
@@ -4901,7 +4909,7 @@
                   <rdg wit="#M" facs="67v/41">
                     poterit via naturae esse
                   </rdg>
-                </app> 
+                </app>
                 perceptio. 
                 Igitur pari ratione 
                 aliqua ita modica secundum extensionem 
