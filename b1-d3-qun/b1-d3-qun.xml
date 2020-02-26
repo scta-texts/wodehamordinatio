@@ -5005,7 +5005,7 @@
                   </bibl>
                 </cit>,
                 ad qualitates de prima specie non est motus 
-                quia sunt <mentioned>ad aliquid</mentioned>. 
+                quia sunt ad aliquid. 
                 Istud 
                 <app>
                   <lem>autem</lem>
@@ -5013,7 +5013,7 @@
                   <rdg type="variation-substance" wit="#V" facs="108v/32">quia</rdg>
                 </app> 
                 non sufficit nisi specialiter intellectum 
-                quia omnia de mundo sunt <mentioned>ad aliquid</mentioned> 
+                quia omnia de mundo sunt ad aliquid 
                 generaliter loquendo 
                 vel relationes quaedam. 
                 Si vero intelligat 
@@ -5067,8 +5067,8 @@
                   <rdg type="variation-substance" wit="#V" facs="108v/35">sicut</rdg>
                 </app> 
                 proportionaliter augeatur, 
-                tunc habetur propositum,
-                et cum hoc 
+                tunc habetur propositum.
+                Et cum hoc 
                 declaratum est dictum <name ref="#Aristotle">Philosophi</name>, 
                 igitur etc. 
               </p>
@@ -5096,7 +5096,9 @@
                 ideo 
                 <app>
                   <lem n="ideo"/>
-                  <rdg wit="#S" type="variation-present" facs="81r/10">non</rdg>
+                  <rdg wit="#S" type="correction-deletion" facs="81r/10">
+                    <del>non</del>
+                  </rdg>
                 </app>
                 <app>
                   <lem>omittantur</lem>
@@ -5173,15 +5175,15 @@
                   </app> 
                   XI 
                   <title ref="#deTrinitate">De Trinitate</title>,
-                  c. 
-                  <app>
-                    <lem>22</lem>
-                    <rdg type="variation-substance" wit="#T" facs="57v/93">27 ubi</rdg>
-                  </app>
+                  c. 22
                 </ref>,
+                <app>
+                  <lem n="22"/>
+                  <rdg type="variation-present" wit="#T" facs="57v/93">ubi</rdg>
+                </app>
                 dicit quod, 
                 <cit>
-                  <quote xml:id="b1d3qun-Qiqfpap" source="http://scta.info/resource/adt-l11-d1e1264">
+                  <quote xml:id="b1d3qun-Qiqfpap" source="http://scta.info/resource/adt-l11-d1e1264" type="paraphrase">
                     illud quod formatur in acie cogitantis est 
                     <app>
                       <lem>aliud</lem>
@@ -5200,12 +5202,15 @@
                     memoria qua unum memini formatur acies multos cogitantis."--> 
                   </bibl>
                 </cit> 
-                et in multis passibus quos 
+                et in multis passibus, 
+                quos allegat, 
                 <app>
-                  <lem>asseret dicit</lem>
-                  <rdg type="variation-substance" wit="#V">asserat</rdg>
-                  <rdg type="variation-substance" wit="#T">allegat dicit</rdg>
-                </app> 
+                  <lem>dicit</lem>
+                  <rdg wit="#M" type="variation-absent" facs="67v/62"/>
+                  <rdg wit="#V" type="correction-addition" facs="108v/40">
+                    <add>dicit</add>
+                  </rdg>
+                </app>
                 similia. 
               </p>
 
