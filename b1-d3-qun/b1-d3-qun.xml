@@ -5373,14 +5373,18 @@
                 <app>
                   <lem n="respondi"/>
                   <rdg type="correction-deletion" wit="#V" facs="108v/48">
-                    <del rend="strikethrough">praecedenti</del>
+                    <del rend="strikethrough">potest</del>
                   </rdg>
                 </app> 
                 in 
-                <app>
-                  <lem>praecedentibus</lem>
-                  <rdg type="variation-substance" wit="#T" facs="108v/48">prologo</rdg>
-                </app> 
+                <cit>
+                  <ref>
+                    <app>
+                      <lem>prologo</lem>
+                      <rdg wit="#S" facs="81r/29">praecedentibus</rdg>
+                    </app>
+                  </ref>
+                </cit> 
                 quod hoc non sit per eundem actum numero.
               </p>
               <p xml:id="b1d3qun-atsdia">
@@ -5389,12 +5393,17 @@
                     Ad tertium
                   </ref>
                 </cit>, 
-                subiectum ibi 
                 <app>
-                  <lem n="ibi"/>
-                  <rdg type="correction-deletion" wit="#V" facs="108v/48">
+                  <lem>subiectum</lem>
+                  <rdg wit="#M" facs="67v/76">obiectum</rdg>
+                </app> 
+                <app>
+                  <lem>ibi</lem>
+                  <rdg type="correction-substition" wit="#V" facs="108v/48">
                     <del rend="erasure">et</del>
+                    <add>ibi</add>
                   </rdg>
+                  <rdg wit="#M" type="variation-absent" facs="67v/76"/>
                 </app> 
                 illius quod per se 
                 diligitur, 
@@ -5413,10 +5422,10 @@
                 </app> 
                 <pb ed="#T" n="58-r"/>
                 <cb ed="#T" n="a"/>
-                concessi supra 
+                concessi supra, 
                 <cit>
                   <ref xml:id="b1d3qun-Ravjhdf">distinctione prima</ref>
-                </cit> 
+                </cit>,
                 quod possunt 
                 <pb ed="#V" n="109-r"/>
                 non cognosci vel non diligi
@@ -5428,7 +5437,8 @@
                     video per accidens
                   </rdg>
                 </app> 
-                substantiam panis in hostia consecranda eandem non video hostia 
+                substantiam panis in hostia consecranda, 
+                eandem non video hostia 
                 <app>
                   <lem>consecrata</lem>
                   <rdg type="correction-substitution" wit="#V" facs="109r/2">
@@ -5454,13 +5464,35 @@
                   <lem n="indistincte"/>
                   <rdg type="variation-present" wit="#T" facs="58r/3">videre</rdg>
                 </app>
-                diligo moraliter bonos quia tales unde cum me ignorante desinunt 
+                diligo moraliter bonos 
                 <app>
-                  <lem>aliqui subesse huic accidenti</lem>
-                  <rdg type="variation-substance" wit="#T">aliqui subesse huic accidenti</rdg>
-                  <rdg type="correction-addition" wit="#V" facs="109r/3">
-                    <add place="margin"><sic>desinunt</sic> aliqui subesse huic accidenti</add>
+                  <lem n="bonos"/>
+                  
+                </app>
+                quia tales 
+                <app>
+                  <lem>unde</lem>
+                  <rdg wit="#V" type="correction-substitution" facs="109r/3">
+                    <subst>
+                      <del>unde</del>
+                      <add>dum</add>
+                    </subst>
                   </rdg>
+                </app> 
+                cum me ignorante desinunt aliqui
+                <app>
+                  <lem wit="#M" facs="67v/83">esse boni</lem>
+                  <rdg type="variation-substance" wit="#T">subesse huic ecclesiae</rdg>
+                  <rdg type="correction-addition" wit="#V" facs="109r/3">
+                    <add place="margin">subesse huic ecclesiae</add>
+                  </rdg>
+                  <witDetail wit="#V" xml:lang="en">corrected along with the preceding "desinunt aliqui"</witDetail>
+                  <rdg wit="#S" facs="81r/38">subesse huic accidenti</rdg>
+                  <note xml:lang="en">
+                    It should be noted that for the variation in V, this part of a larger correction including the words "desinunt aliqui" above. 
+                    Here we have decided to privilege showing the matching use of "ecclesiae" with Tarazona over recording the entire correction. 
+                    See the diplomatic transcription for a full account of the correction in V.
+                  </note>
                 </app>, 
                 desinunt et a me diligi illo actu.
               </p>
