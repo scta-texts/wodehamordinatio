@@ -5465,10 +5465,6 @@
                   <rdg type="variation-present" wit="#T" facs="58r/3">videre</rdg>
                 </app>
                 diligo moraliter bonos 
-                <app>
-                  <lem n="bonos"/>
-                  
-                </app>
                 quia tales 
                 <app>
                   <lem>unde</lem>
@@ -5498,41 +5494,53 @@
               </p>
               <p xml:id="b1d3qun-aqqnci"> 
                 <cit>
-                  <ref xml:id="b1d3qun-Rd1e8566" target="http://scta.info/resource/b1d3qun-qpnrdi">Ad quartum</ref>
+                  <ref xml:id="b1d3qun-Rd1e8566" target="http://scta.info/resource/b1d3qun-qpnrdi">
+                    Ad 
+                    <app>
+                      <lem>quartum</lem>
+                      <rdg wit="#M" facs="67v/84">aliud</rdg>
+                      <rdg wit="#V" facs="109r/3">aliud</rdg>
+                    </app>
+                  </ref>
                   <bibl>Vide supra</bibl>
                 </cit>, 
-                quod tunc posset 
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#V" facs="109r/3">quia</rdg>
+                  <rdg wit="#T" facs="58r/5">quia</rdg>
+                </app> 
+                tunc posset 
                 <app>
                   <lem n="posset"/>
-                  <rdg type="correction-deletion" wit="#V">
+                  <rdg type="correction-deletion" wit="#V" facs="109r/3">
                     <del rend="strikethrough">dicitur</del>
                   </rdg>
                 </app> 
                 aliquid diligi et 
                 <app>
                   <lem>simul</lem>
-                  <rdg type="variation-substance" wit="#T">si vel</rdg>
-                  <rdg type="variation-absent" wit="#V"/>
+                  <rdg type="variation-absent" wit="#V" facs="109r/3"/>
                 </app> 
-                non cognosci, patet ex prima distinctione, ubi tenui quod dilectio est
-                cognitio, 
-                <app>
-                  <lem>et</lem>
-                  <rdg type="variation-absent" wit="#V"/>
-                </app> 
-                ideo nego consequentiam illam.
+                non cognosci. 
+                Patet ex 
+                <cit>
+                  <ref>prima distinctione</ref>
+                </cit>, 
+                ubi tenui quod dilectio est cognitio, 
+                et ideo nego consequentiam illam.
               </p>
               <p xml:id="b1d3qun-aqdcaa">
                 <cit>
                   <ref xml:id="b1d3qun-Rd1e8608" target="http://scta.info/resource/b1d3qun-qppepv">Ad quintum</ref>
                   <bibl>Vide supra</bibl>
-                </cit> 
-                dicendum quod si dilectio qua 
+                </cit>, 
+                dicendum quod, 
+                si dilectio qua 
                 <name ref="#Sortes" type="variable">Sortes</name> 
                 diligit 
                 <app>
                   <lem><name ref="#Sortes" type="variable">Sortem</name> ipsum poneretur</lem>
-                  <rdg type="variation-substance" wit="#S">seipsum ponetur</rdg>
+                  <rdg type="variation-substance" wit="#S" facs="81r/42">seipsum ponetur</rdg>
                 </app> 
                 in 
                 <name ref="#Plato" type="variable">Platone</name>, 
@@ -5541,10 +5549,12 @@
                 <name ref="#Plato" type="variable">Platonem</name> 
                 sed <name ref="#Sortes" type="variable">Sortem</name>. 
                 <app>
-                  <lem>Et similiter, si dilectio</lem>
-                  <rdg type="variation-absent" wit="#V"/>
-                </app> 
-                qua Sortes vult se diligere angelum poneretur in 
+                  <lem>Et similiter, si dilectio qua <name ref="#Sortes" type="variable">Sortes</name></lem>
+                  <rdg type="correction-addition" wit="#V" facs="109r/5">
+                    <add place="margin-right">et similiter si dilectio qua Sortes</add>
+                  </rdg>
+                </app>
+                vult se diligere angelum poneretur in 
                 <name ref="#Plato" type="variable">Platone</name>, 
                 <name ref="#Plato" type="variable">Plato</name>
                 <app>
@@ -5552,36 +5562,40 @@
                     per illam vellet 
                     <name ref="#Sortes" type="variable">Sortem</name> diligere
                   </lem>
-                  <rdg type="variation-substance" wit="#V">
+                  <rdg type="variation-substance" wit="#V" facs="109r/5">
                     vellet per illam <name ref="#Sortes" type="variable">Sortem</name> diligere
                   </rdg>
-                  <rdg type="variation-substance" wit="#T">per illam diliget</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/8">per illam diliget</rdg>
                 </app> 
                 angelum. 
-                Et eodem modo, si intellectio, 
+                Et eodem modo, 
+                si intellectio, 
                 qua <name ref="#Sortes" type="variable">Sortes</name> 
                 experitur se intelligere, 
                 <app>
                   <lem>poneretur</lem>
-                  <rdg type="correction-substitution" wit="#V">
+                  <rdg type="correction-substitution" wit="#V" facs="109r/6">
                     <subst>
-                      <del rend="erasure"><unclear>???</unclear></del>
+                      <del rend="erasure"><unclear/></del>
                       <add place="margin">poneretur</add>
                     </subst>
                   </rdg>
                 </app> 
-                in <name ref="#Plato" type="variable">Platone</name>, ille iudicaret 
+                in 
+                <name ref="#Plato" type="variable">Platone</name>, 
+                ille iudicaret <name ref="#Sortes" type="variable">Sortem</name>
+                intelligere vel experiretur nisi <mentioned>experientia</mentioned> 
                 <app>
-                  <lem><name ref="#Sortes" type="variable">Sortem</name></lem>
-                  <rdg type="variation-substance" wit="#S">
-                    <name ref="#Sortes" type="variable">Sortes</name>
+                  <lem wit="#S" facs="81r/47">connotat aliquid aliud</lem> <!-- needs review -->
+                  <rdg type="variation-substance" wit="#T" facs="58r/10">
+                    connotet id est haec solis 
                   </rdg>
-                </app> 
-                intelligere vel experiretur nisi experientia 
-                <app>
-                  <lem>cognoscat aliquid aliud</lem>
-                  <rdg type="variation-substance" wit="#V #T">aliquid cognoscet <unclear>in hoc
-                      vocabulum</unclear>
+                  <rdg type="variation-substance" wit="#V" facs="109r/7">
+                    aliud connotet id est hoc vocabulum
+                    <!-- connotet also seems corrected somehow -->
+                  </rdg>
+                  <rdg type="variation-substance" wit="#M" facs="67v/92">
+                    aliud connotet in hoc vocabulum
                   </rdg>
                 </app>. 
               </p>
