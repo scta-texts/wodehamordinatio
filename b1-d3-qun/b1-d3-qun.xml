@@ -5794,20 +5794,24 @@
                 <app>
                   <lem>arguitur</lem>
                   <rdg type="variation-substance" wit="#V" facs="109r/16">accipitur</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="67v/112">accipitur</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/23">accipitur</rdg>
                 </app> 
                 quod visio potest esse in sensu subiective sine hoc, 
-                quod ipsa sic visio, 
+                quod ipsa sit visio, 
                 nego.
                 Et 
                 <app>
                   <lem>cum</lem>
                   <rdg wit="#M" facs="67v/113">tum</rdg>
                 </app> 
-                probatur quod albedo minor 
+                probatur quod albedo minor  
                 <app>
-                  <lem n="minor"/>
-                  <rdg type="variation-present" wit="#V" facs="109r/17">in</rdg>
-                  <rdg type="variation-present" wit="#M" facs="67v/113">in</rdg>
+                  <lem>in</lem>
+                  <!-- <rdg type="variation-present" wit="#V" facs="109r/17">in</rdg>
+                  <rdg type="variation-present" wit="#M" facs="67v/113">in</rdg> -->
+                  <rdg type="variation-absent" wit="#S" facs="81r/69"/>
+                  <rdg type="variation-absent" wit="#T" facs="58r/24"/>
                 </app> 
                 <app>
                   <lem>suo toto</lem>
@@ -5856,9 +5860,11 @@
                   <rdg type="variation-absent" wit="#V" facs="109r/18"/>
                 </app>
                 <app>
-                  <lem>possunt</lem> <!-- S and T are abbreviated and could be read as possent if desired -->
-                  <rdg type="variation-substance" wit="#V" facs="109r/18">possent</rdg>
-                  <rdg type="variation-substance" wit="#M" facs="67v/116">possent</rdg>
+                  <lem>possent</lem> 
+                  <!--<rdg type="variation-substance" wit="#V" facs="109r/18">possent</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="67v/116">possent</rdg>-->
+                  <rdg type="variation-substance" wit="#T" facs="58r/26">possunt</rdg>
+                  <rdg type="variation-substance" wit="#S" facs="81r/71">possunt</rdg>
                 </app>
                 <app>
                   <lem>sensum immutare</lem>
@@ -5870,14 +5876,14 @@
                   </rdg>
                 </app>, 
                 licet non componerent. 
-                Et ultra quod, 
+                Et ultra, quod
                 si omnes aliae 
                 <app>
                   <lem>partes</lem>
                   <rdg type="variation-substance" wit="#S" facs="81r/72">compartes</rdg>
                 </app> 
                 destruerentur, 
-                talis pars cessaret videri 
+                talis pars cessaret videri,
                 et ita etiam qualitas esse cessaret 
                 <app>
                   <lem>visio</lem>
@@ -5921,7 +5927,7 @@
                 </app>
                 <app>
                   <lem>vel</lem>
-                  <rdg type="variation-absent" wit="#V"/>
+                  <rdg type="variation-absent" wit="#V" facs="109r/21"/>
                 </app>
                 <app>
                   <lem n="vel"/>
@@ -5957,31 +5963,42 @@
                 non pono aliquod minimum 
                 <app>
                   <lem n="minimum"/>
-                  <rdg type="variation-present" wit="#T">intelligibile vel</rdg>
-                </app> visibile ab <app>
-                  <lem>aliqua</lem>
-                  <rdg type="variation-substance" wit="#S">alia</rdg>
+                  <rdg type="variation-present" wit="#T" facs="58r/30">intelligibile</rdg>
                 </app> 
-                distantia danda. 
-                <pb ed="#M" n="68-r"/>
-                <!-- Our copy of #M resumes here... -->
-                <cb ed="#M" n="a"/>
+                visibile ab 
+                <app>
+                  <lem>aliqua</lem>
+                  <rdg type="variation-substance" wit="#S" facs="81r/80">alia</rdg>
+                </app> 
+                distantia 
+                <app>
+                  <lem>danda</lem>
+                  <rdg wit="#M" facs="68r/1">dividi</rdg>
+                </app>. 
               </p>
-              <p xml:id="b1d3qun-antsis"> 
+              <p xml:id="b1d3qun-antsis">
+                <pb ed="#M" n="68-r"/>
+                <cb ed="#M" n="a"/>
                 <cit>
-                  <ref xml:id="b1d3qun-Rd1e9307" target="http://scta.info/resource/b1d3qun-npspev">Ad nonum</ref>
-                  <bibl>Vide supra</bibl>
+                  <ref xml:id="b1d3qun-Rd1e9307" target="http://scta.info/resource/b1d3qun-npspev">
+                    Ad nonum
+                  </ref>
                 </cit> 
                 <app>
-                  <lem>teneo</lem>
-                  <rdg type="variation-substance" wit="#T">tenendo</rdg>
-                </app> augmentationem <app>
+                  <lem wit="#S">teneo</lem>
+                  <rdg type="variation-substance" wit="#T" facs="58r/31">tenendo</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109r/24">tenendo</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/1">tenendo</rdg>
+                </app> 
+                augmentationem 
+                <app>
                   <lem>vel</lem>
-                  <rdg type="variation-substance" wit="#T #V">et</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/31">et</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109r/24">et</rdg>
                 </app>
                 <app>
                   <lem>diminutionem</lem>
-                  <rdg type="correction-substitution" wit="#V">
+                  <rdg type="correction-substitution" wit="#V" facs="109r/24">
                     <subst>
                       <del rend="strikethrough">dictionem</del>
                       <add place="margin">diminutionem</add>
@@ -5991,7 +6008,7 @@
                 gradualem in formis fieri per additionem et 
                 <app>
                   <lem>subtractionem</lem>
-                  <rdg type="variation-substance" wit="#T">diminutionem</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/32">diminutionem</rdg>
                 </app> 
                 similis in specie.
               </p>
