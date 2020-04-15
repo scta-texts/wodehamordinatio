@@ -6014,90 +6014,113 @@
               </p>
               <p xml:id="b1d3qun-addeva"> 
                 <cit>
-                  <ref xml:id="b1d3qun-Rd1e9364" target="http://scta.info/resource/b1d3qun-dpspau">Ad decimum</ref>
+                  <ref xml:id="b1d3qun-Rd1e9364" target="http://scta.info/resource/b1d3qun-dpspau">
+                    Ad decimum
+                  </ref>
                 </cit> 
                 dicendum quod alia albedo non est 
                 <app>
                   <lem>nata</lem>
-                  <rdg type="variation-substance" wit="#T">nato</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/3">nota</rdg>
                 </app> 
                 videri visione qua 
                 <app>
-                  <lem><mentioned>A</mentioned></lem>
-                  <!-- Should this be a "B" ? -->
-                  <rdg type="variation-absent" wit="#T"/>
-                </app> 
-                albedo de facto videtur et conclusio ad quam deducitur non est inconveniens
-                non plus quam 
-                <app>
-                  <lem n="quod"/>
-                  <!-- "quod" is repeated but strikenthrough en #V -->
-                  <rdg type="correction-deletion" wit="#V">
-                    <del rend="strikethrough">quod</del>
+                  <lem><c>a</c></lem>
+                  <rdg type="variation-absent" wit="#T" facs="58r/33"/>
+                  <rdg type="variation-absent" wit="#M" facs="68r/3"/>
+                  <rdg type="correction-addition" wit="#S" facs="81r/83">
+                    <add place="margin-right"><c>a</c></add>
                   </rdg>
+                </app> 
+                albedo de facto videtur, 
+                et conclusio ad quam deducitur non est inconveniens,
+                non plus quam,
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#V" type="variation-absent" facs="68r/5"/>
+                  <rdg wit="#T" type="variation-absent" facs="58r/34"/>
                 </app>
                 <app>
-                  <lem n="quod"/>
-                  <rdg type="variation-present" wit="#V">idem</rdg>
-                </app>
-                <app>
-                  <lem> 
-                    iste terminus 
+                  <lem>iste terminus 
                     <app>
-                      <lem>esse naturaliter</lem>
-                      <rdg type="variation-absent" wit="#M"/>
-                      <rdg type="variation-substance" wit="#T">est naturaliter</rdg>
+                      <lem>
+                        <app>
+                          <lem>esse</lem>
+                          <rdg wit="#T" facs="58r/34">est</rdg>
+                        </app> 
+                        naturaliter
+                      </lem>
+                      <rdg wit="#M" type="variation-absent" facs="68r/5"/>
                     </app>
                   </lem>
-                  <rdg type="correction-substitution" wit="#V">
+                  <rdg wit="#V" type="correction-substitution" facs="109r/26">
                     <subst>
-                      <del>iste terminus esse naturaliter</del>
-                      <add place="margin">iste terminus esse naturaliter</add>
+                      <del>quod iste idem essentialiter</del>
+                      <add>iste terminus esse naturaliter</add>
                     </subst>
-                    <note resp="#NV"> The text "iste terminus esse naturaliter" has not been
-                      actually deleted, but the margin note suggests it ought to be replaced by
-                      "iste terminus esse essentialiter". </note>
                   </rdg>
-                </app> 
+                </app>
                 producibile de hac materia prima 
                 <app>
                   <lem>demonstrata</lem>
                   <rdg type="variation-substance" wit="#M">demonstrato</rdg>
-                </app> conveniat infinitis <app>
+                </app> 
+                conveniat infinitis 
+                <app>
                   <lem>individuis ex ea producibilibus</lem>
-                  <rdg type="variation-substance" wit="#M">producibilius individualis ex ea</rdg>
-                </app> et tamen nulli omnium ex <app>
+                  <rdg type="variation-substance" wit="#M" facs="68r/6">producibilius individualis ex ea</rdg>
+                </app> 
+                et tamen nulli omnium ex 
+                <app>
                   <lem>aliis materiis</lem>
-                  <rdg type="variation-inversion" wit="#T">materiis aliis</rdg>
-                </app> producibilium. Et tamen istud secundum <app>
+                  <rdg type="variation-inversion" wit="#T" facs="58r/35">materiis aliis</rdg>
+                </app> 
+                producibilium. 
+                Et tamen istud secundum 
+                <app>
                   <lem>ab argumento non</lem>
-                  <rdg type="variation-substance" wit="#V #T">argumentum</rdg>
-                </app> negatur <app>
+                  <rdg type="variation-substance" wit="#V" facs="109r/27">a nullo</rdg> <!-- dbcheck -->
+                  <rdg type="variation-substance" wit="#M" facs="58r/36">argumentum a nullo</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/36">argumentum</rdg>
+                </app> 
+                negatur 
+                <app>
                   <lem n="negatur"/>
-                  <rdg type="variation-present" wit="#V #T">quare</rdg>
-                </app>, igitur <app>
-                  <lem>nec primum negari decet</lem>
-                  <rdg type="variation-substance" wit="#V #T">primum ab isto argumentum</rdg>
-                </app> et quod, tunc <app>
-                  <lem>accipitur</lem>
-                  <rdg type="variation-substance" wit="#S">acciditur</rdg>
-                </app> quod <app>
-                  <lem>periret</lem>
-                  <rdg type="variation-substance" wit="#V">perit</rdg>
-                </app> via inducendi universalem, non sequitur sed est fallacia consequentis. Verum
-                est enim quod hanc <app>
+                  <rdg type="variation-present" wit="#V" facs="109r/28">quare</rdg> <!-- unclear; check -->
+                  <rdg type="variation-present" wit="#T" facs="58r/36">quare</rdg>
+                  <rdg type="variation-present" wit="#T" facs="68r/7">quare</rdg>
+                </app>, 
+                igitur 
+                <app>
+                  <lem>nec primum negari debet</lem>
+                  <rdg type="variation-substance" wit="#V" facs="109r/28">primum ab isto argumentum</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/36">primum ab isto argumento</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/7">primum ab isto argumento</rdg>
+                </app> 
+                et quod, 
+                tunc accipitur quod 
+                <app>
+                  <lem>periret </lem>
+                  <rdg type="variation-substance" wit="#V" facs="109r/29">perit</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/36">perit</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/8">petit</rdg>
+                </app> 
+                via inducendi universalem, non sequitur sed est fallacia consequentis. Verum
+                est enim quod hanc 
+                <app>
                   <lem>universalem</lem>
-                  <rdg type="correction-substitution" wit="#V">
+                  <rdg type="correction-substitution" wit="#V" facs="109r/30">
                     <subst>
                       <del rend="strikethrough"><unclear>obiectum</unclear></del>
                       <add place="margin">universalem</add>
                     </subst>
                   </rdg>
-                </app>, omnis visio huiusmodi speciei, cuius <app>
-                  <lem n="cuius"/>
-                  <rdg type="variation-present" wit="#T">vel</rdg>
-                </app> est visio albedinis <mentioned>B</mentioned>, potest esse visio
-                  <mentioned>B</mentioned>, perit via vera inducendi. Sed non hanc, omnis talis
+                </app>, 
+                omnis visio huiusmodi speciei, 
+                cuius est visio albedinis <c>b</c>, 
+                potest esse visio <c>b</c>, 
+                perit via vera inducendi. 
+                Sed non hanc, omnis talis
                 visio est visio albedinis.
               </p>
               <p xml:id="b1d3qun-aspcmd">
