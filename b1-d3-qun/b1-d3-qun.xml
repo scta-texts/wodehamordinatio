@@ -6025,7 +6025,7 @@
                 </app> 
                 videri visione qua 
                 <app>
-                  <lem><c>a</c></lem>
+                  <lem wit="#V" facs="109r/25"><c>a</c></lem>
                   <rdg type="variation-absent" wit="#T" facs="58r/33"/>
                   <rdg type="variation-absent" wit="#M" facs="68r/3"/>
                   <rdg type="correction-addition" wit="#S" facs="81r/83">
@@ -6063,7 +6063,7 @@
                 producibile de hac materia prima 
                 <app>
                   <lem>demonstrata</lem>
-                  <rdg type="variation-substance" wit="#M">demonstrato</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/5">demonstrato</rdg>
                 </app> 
                 conveniat infinitis 
                 <app>
@@ -6078,11 +6078,16 @@
                 producibilium. 
                 Et tamen istud secundum 
                 <app>
-                  <lem>ab argumento non</lem>
-                  <rdg type="variation-substance" wit="#V" facs="109r/27">a nullo</rdg> <!-- dbcheck -->
-                  <rdg type="variation-substance" wit="#M" facs="58r/36">argumentum a nullo</rdg>
+                  <lem wit="#S">ab argumento</lem>
+                  <rdg type="variation-absent" wit="#V" facs="109r/27"/> <!-- dbcheck -->
+                  <rdg type="variation-substance" wit="#M" facs="58r/36">argumentum</rdg>
                   <rdg type="variation-substance" wit="#T" facs="58r/36">argumentum</rdg>
                 </app> 
+                <app>
+                  <lem wit="#V #T">a nullo</lem>
+                  <rdg wit="#S" facs="81r/88">non</rdg>
+                  <rdg wit="#T" type="variation-absent" facs="58r/36"/>
+                </app>
                 negatur 
                 <app>
                   <lem n="negatur"/>
@@ -6092,20 +6097,23 @@
                 </app>, 
                 igitur 
                 <app>
-                  <lem>nec primum negari debet</lem>
-                  <rdg type="variation-substance" wit="#V" facs="109r/28">primum ab isto argumentum</rdg>
+                  <lem wit="#M #T #V">primum ab isto argumento</lem>
+                  <!--<rdg type="variation-substance" wit="#V" facs="109r/28">primum ab isto argumento</rdg>
                   <rdg type="variation-substance" wit="#T" facs="58r/36">primum ab isto argumento</rdg>
-                  <rdg type="variation-substance" wit="#M" facs="68r/7">primum ab isto argumento</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/7">primum ab isto argumento</rdg>-->
+                  <rdg wit="#S" facs="81r/88">nec primum negari debet</rdg>
                 </app> 
                 et quod, 
                 tunc accipitur quod 
                 <app>
-                  <lem>periret </lem>
+                  <lem wit="#S" facs="81r/88">periret</lem>
                   <rdg type="variation-substance" wit="#V" facs="109r/29">perit</rdg>
                   <rdg type="variation-substance" wit="#T" facs="58r/36">perit</rdg>
                   <rdg type="variation-substance" wit="#M" facs="68r/8">petit</rdg>
                 </app> 
-                via inducendi universalem, non sequitur sed est fallacia consequentis. Verum
+                via inducendi universalem, 
+                non sequitur sed est fallacia consequentis. 
+                Verum
                 est enim quod hanc 
                 <app>
                   <lem>universalem</lem>
@@ -6119,9 +6127,9 @@
                 omnis visio huiusmodi speciei, 
                 cuius est visio albedinis <c>b</c>, 
                 potest esse visio <c>b</c>, 
-                perit via vera inducendi. 
-                Sed non hanc, omnis talis
-                visio est visio albedinis.
+                perit via vera inducendi, <!-- while perit is conjugated we read "universalem" (and the statement that follows) as the accusative subject of "perire" and assume there is a small grammar misake here -->
+                sed non hanc, 
+                omnis talis visio est visio albedinis.
               </p>
               <p xml:id="b1d3qun-aspcmd">
                 Ad secundum propositionem de 
@@ -6129,14 +6137,17 @@
                   <!-- this is hard ref to provide ids for because it potentially has 4 different references -->
                   <ref xml:id="b1d3qun-Rd1e9555">
                     <name ref="#Aristotle">Philosopho</name> 
-                    et <name ref="#Averroes">Commentatore</name>, 
-                    I <title ref="#deCaelo">De caelo</title> 
+                    et 
+                    <name ref="#Averroes">Commentatore</name>, 
+                    I 
+                    <title ref="#deCaelo">De caelo</title> 
                     et 
                     <app>
                       <lem>
                         <title ref="#Metaphysics">Metaphysica</title>
                       </lem>
-                      <rdg type="variation-substance" wit="#T">tamen</rdg>
+                      <rdg type="variation-substance" wit="#M" facs="68r/13">tamen</rdg>
+                      <!--dbchec T hard to see, error on side of sameness -->
                     </app>
                   </ref>
                   <bibl>
@@ -6146,54 +6157,62 @@
                 nullus catholicus debet tenere 
                 <app>
                   <lem>illud</lem>
-                  <rdg type="variation-substance" wit="#M">istud</rdg>
-                  <rdg type="variation-absent" wit="#S"/>
+                  <rdg type="variation-substance" wit="#M" facs="68r/13">istud</rdg>
+                  <rdg type="variation-absent" wit="#S" facs="81r/94"/>
                 </app> 
                 argumentum 
                 <app>
-                  <lem>tale</lem>
-                  <rdg type="variation-substance" wit="#V">universaliter</rdg>
-                  <rdg type="variation-substance" wit="#T">universalem</rdg>
-                  <rdg type="variation-substance" wit="#M">valere</rdg>
+                  <lem>valere</lem>
+                  <!--<rdg type="variation-substance" wit="#V" facs="109r/30">valere</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/40">valere</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/13">valere</rdg>-->
+                  <rdg type="variation-substance" wit="#S" facs="81r/94">tale</rdg>
                 </app>, 
                 nisi qui negaret Dei omnipotentiam 
                 <app>
-                  <lem>esse</lem>
-                  <rdg type="variation-substance" wit="#M #V">posse</rdg>
-                  <rdg type="correction-deletion" wit="#S">
+                  <lem n="omnipotentiam"/>
+                  <rdg wit="#T" type="variation-present" facs="58r/40">esse</rdg>
+                  <rdg type="variation-present" wit="#M" facs="68r/14">posse</rdg>
+                  <rdg type="variation-present" wit="#V" facs="109r/31">posse</rdg>
+                  <rdg type="correction-deletion" wit="#S" facs="81r/94">
                     <del rend="expunctuated">esse</del>
                   </rdg>
                 </app> 
-                extra 
+                extra hunc mundum 
                 <app>
-                  <lem n="extra"/>
-                  <rdg type="variation-present" wit="#S">habet</rdg>
-                </app>
-                <app>
-                  <lem>hunc</lem>
-                  <rdg type="variation-absent" wit="#S"/>
+                  <lem>posse</lem>
+                  <rdg wit="#M" type="variation-absent" facs="68r/14"/>
                 </app> 
-                mundum posse alium omnino similem producere. 
+                alium omnino similem producere. 
                 Et posito quod sic fiat, 
                 <app>
                   <lem>conclusio</lem>
-                  <rdg type="variation-substance" wit="#S">consequentia</rdg>
-                </app> quam <name ref="#Aristotle">Philosophus</name>
+                  <rdg type="variation-substance" wit="#S" facs="81r/96">consequentia</rdg>
+                </app> 
+                quam 
+                <name ref="#Aristotle">Philosophus</name>
                 <app>
                   <lem n="Philosophus"/>
-                  <rdg type="variation-present" wit="#V">ibi</rdg>
+                  <rdg type="variation-present" wit="#V" facs="109r/31">ibi</rdg>
                 </app>
                 <app>
-                  <lem n="Philosophus"/>
-                  <rdg type="correction-deletion" wit="#V">
-                    <del rend="expunctuated">in</del>
+                  <lem>probare</lem>
+                  <rdg wit="#V" type="correction-substitution" facs="109r/31">
+                    <subst>
+                      <del>improbare</del>
+                      <add>probare</add>
+                    </subst>
                   </rdg>
                 </app> 
-                probare ibi nititur falsa esset et 
                 <app>
-                  <lem>de facto est falsa est</lem>
-                  <rdg type="variation-absent" wit="#S"/>
-                  <rdg type="variation-substance" wit="#T">mere</rdg>
+                  <lem>ibi</lem>
+                  <rdg wit="#V" type="variation-absent" facs="109r/32"/>
+                </app> 
+                nititur falsa esset et 
+                <app>
+                  <lem>de facto est falsa et</lem>
+                  <rdg type="variation-absent" wit="#S" facs="81r/96"/>
+                  <rdg type="variation-substance" wit="#T" facs="58r/42">mere</rdg>
                 </app> 
                 erronea secundum principia fidei 
                 quia intendit ibi probare impossibilitatem
@@ -6202,7 +6221,9 @@
               </p>
               <p xml:id="b1d3qun-aubqif"> 
                 <cit>
-                  <ref xml:id="b1d3qun-Rd1e9688" target="http://scta.info/resource/b1d3qun-uiiqao">Ad undecimum</ref>
+                  <ref xml:id="b1d3qun-Rd1e9688" target="http://scta.info/resource/b1d3qun-uiiqao">
+                    Ad undecimum
+                  </ref>
                   <bibl>Vide supra</bibl>
                 </cit> 
                 bene volo quod 
