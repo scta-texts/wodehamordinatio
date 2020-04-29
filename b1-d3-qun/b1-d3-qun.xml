@@ -6271,10 +6271,10 @@
                     </app>
                   </lem>
                   <rdg wit="#S" facs="81r/101">alia per istam potest intelligere</rdg>
-                  <rdg wit="#M" facs="68r/20">augustinus potest per istam intelligere</rdg>
+                  <rdg wit="#M" facs="68r/20"><sic>aiius</sic> potest per istam intelligere</rdg>
                   <rdg wit="#T" facs="58r/45">alius potest per illam intelligere</rdg>
                   <rdg wit="#V" facs="109r/34">alius potest per illam intelligere</rdg>
-                  <note>A reading with "alius" seems better as it would fit with "ipso" below" --></note>
+                  <note>A reading with "alius" seems better as it would fit with "ipso" below".</note>
                 </app>
                 si ponatur in ipso et intellectio essentialius dependet a 
                 <app>
@@ -6305,10 +6305,11 @@
                 </app> 
                 vitali principio repraesentet obiectum cuius est 
                 <app>
-                  <lem>dictus actus</lem>
-                  <rdg type="variation-substance" wit="#M" facs="68r/24">dum actu</rdg>
-                  <rdg type="variation-substance" wit="#V" facs="109r/36">dum actus</rdg>
-                  <rdg type="variation-substance" wit="#T" facs="58r/47">dum actus</rdg>
+                  <lem>dum actu</lem>
+                  <!--<rdg type="variation-substance" wit="#M" facs="68r/24">dum actu</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109r/36">dum actu</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/47">dum actu</rdg>-->
+                  <rdg wit="#S" facs="81r/105">dictus actus</rdg>
                 </app>
                 <app>
                   <lem>sibi inhaerens</lem>
@@ -6358,47 +6359,51 @@
                 </app>, 
                 sicut <mentioned>omnis</mentioned> et <mentioned>aliquis</mentioned>
                 quod patet quia 
-                <app>
-                  <lem>terminum</lem><!-- could this be "termini" -->
-                  <rdg type="variation-substance" wit="#M" facs="68r/28">terminem</rdg> <!-- unclear; dbcheck  -->
-                </app>
-                mediante
+                terminum
+                mediate
                 sequentem faciunt 
-                stare confuse tantum 
-                sicut omnis 
+                <term>stare confuse tantum</term>,
+                sicut <mentioned>omnis</mentioned> 
                 <app>
                   <lem n="omnis"/>
                   <rdg type="correction-deletion" wit="#S" facs="81r/111">
                     <del>et aliquis</del>
                   </rdg>
-                </app> 
-                non enim sequitur bis comedisti panem 
-                <app>
-                  <lem>
-                    igitur bis istum panem 
-                  </lem>
-                  <rdg type="correction-addition" wit="#V" facs="109r/39">
-                    <add>igitur bis istum panem</add>
-                  </rdg>
-                </app> 
-                vel 
-                <app>
-                  <lem>illum</lem>
-                  <rdg type="variation-substance" wit="#M" facs="68r/30">istum</rdg>
-                </app> 
-                et ideo quantumcumque 
+                </app>.
+                Non enim sequitur 
+                <mentioned>
+                  bis comedisti panem,
+                  <app>
+                    <lem>
+                      igitur bis istum panem 
+                    </lem>
+                    <rdg type="correction-addition" wit="#V" facs="109r/39">
+                      <add>igitur bis istum panem</add>
+                    </rdg>
+                  </app> 
+                  vel 
+                  <app>
+                    <lem>illum</lem>
+                    <rdg type="variation-substance" wit="#M" facs="68r/30">istum</rdg>
+                  </app>
+                </mentioned>.
+                Et ideo 
+                quantumcumque 
                 <app>
                   <lem>unus intendatur</lem>
                   <rdg type="variation-inversion" wit="#T" facs="58r/53">intendatur unus</rdg>
                 </app> 
-                vel remmittatur numquam fiet 
+                vel remittatur, 
+                numquam fiet 
                 <app>
-                  <lem>similis</lem>
-                  <rdg type="variation-substance" wit="#T" facs="58r/53">simillimus</rdg>
+                  <lem>simillimus</lem>
+                  <!--<rdg type="variation-substance" wit="#T" facs="58r/53">simillimus</rdg>
                   <rdg type="variation-substance" wit="#M" facs="68r/31">simillimus</rdg>
-                  <rdg type="variation-substance" wit="#V" facs="109r/30">simillimus</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109r/30">simillimus</rdg>-->
+                  <rdg type="variation-substance" wit="#S" facs="81/113">similis</rdg>
                 </app> 
-                alteri sicut 
+                alteri, 
+                sicut 
                 <cb ed="#T" n="b"/> <!-- T58rb -->
                 nec conceptus cui correspondet 
                 haec
@@ -6417,8 +6422,9 @@
                   <rdg type="variation-absent" wit="#V" facs="109r/40"/>
                 </app> 
                 qui exprimitur per hanc vocem 
-                <mentioned>omnis</mentioned> 
-                et consequenter per omnia ad propositum 
+                <mentioned>omnis</mentioned>.
+                Et consequenter per omnia, 
+                ad propositum,
                 <app>
                   <lem>dicendum</lem>
                   <rdg type="variation-substance" wit="#V" facs="109r/41">respondeo</rdg>
