@@ -6132,7 +6132,7 @@
                 omnis talis visio est visio albedinis.
               </p>
               <p xml:id="b1d3qun-aspcmd">
-                Ad secundum propositionem de 
+                Ad secundam propositionem de 
                 <cit>
                   <!-- this is hard ref to provide ids for because it potentially has 4 different references -->
                   <ref xml:id="b1d3qun-Rd1e9555">
@@ -6153,7 +6153,7 @@
                   <bibl>
                     Aristoteles, XXX; Averroes, XXX.
                   </bibl>
-                </cit> 
+                </cit>,
                 nullus catholicus debet tenere 
                 <app>
                   <lem>illud</lem>
@@ -6228,154 +6228,201 @@
                 </cit> 
                 bene volo quod 
                 <app>
-                  <lem>aliquid, quod</lem>
-                  <rdg type="variation-substance" wit="#M">aliquo</rdg>
-                </app> 
+                  <lem>aliquid</lem>
+                  <rdg type="variation-substance" wit="#M" facs="68r/18">aliquo</rdg>
+                </app>, 
+                <app>
+                  <lem>quod</lem>
+                  <rdg wit="#M" type="variation-absent" facs="68r/18"/>
+                </app>
                 modo non intelligitur per intellectionem 
-                <mentioned>A</mentioned>, 
+                <mentioned>a</mentioned>, 
                 potest in
                 casu per accidens esse obiectum illius intellectionis, 
                 <app>
                   <lem>non</lem>
-                  <rdg type="variation-absent" wit="#T"/>
+                  <rdg type="variation-absent" wit="#T" facs="58r/45"/>
                 </app>
                 <app>
                   <lem>tamen</lem>
-                  <rdg type="variation-absent" wit="#M"/>
-                </app> per se <app>
+                  <rdg type="variation-absent" wit="#M" facs="68r/20"/>
+                </app> 
+                per se 
+                <app>
                   <lem n="se"/>
-                  <rdg type="variation-present" wit="#T">non</rdg>
-                </app>. Et <app>
+                  <rdg type="variation-present" wit="#T" facs="58r/45">non</rdg>
+                </app>. 
+                Et 
+                <app>
                   <lem>cum</lem>
-                  <rdg type="variation-substance" wit="#M">tamen</rdg>
-                </app> probatur quod sic quia <app>
-                  <lem>alia</lem>
-                  <rdg type="variation-substance" wit="#M"><name ref="#Augustine">Augustinus</name>
-                    potest</rdg>
-                  <rdg type="variation-substance" wit="#T #V">alius potest</rdg>
-                </app> per <app>
-                  <lem>istam potest intelligere</lem>
-                  <rdg type="variation-substance" wit="#M">istam intelligere</rdg>
-                  <rdg type="variation-substance" wit="#T">illam intelligere</rdg>
-                  <rdg type="correction-substitution" wit="#V">
-                    <subst>
-                      <del rend="strikethrough">istam</del>
-                      <add place="margin">illam intelligere</add>
-                    </subst>
-                  </rdg>
-                </app> si ponatur in ipso et intellectio essentialius dependet a <app>
+                  <rdg type="variation-substance" wit="#M" facs="68r/20">tamen</rdg>
+                </app> 
+                probatur quod sic quia 
+                <app>
+                  <lem wit="#T #V">alius potest per 
+                    <app>
+                      <lem>illam intelligere</lem>
+                      <rdg wit="#V" type="correction-substitution" facs="109r/34">
+                        <subst>
+                          <del>istam</del>
+                          <add>illam intelligere</add>
+                        </subst>
+                      </rdg>
+                    </app>
+                  </lem>
+                  <rdg wit="#S" facs="81r/101">alia per istam potest intelligere</rdg>
+                  <rdg wit="#M" facs="68r/20">augustinus potest per istam intelligere</rdg>
+                  <rdg wit="#T" facs="58r/45">alius potest per illam intelligere</rdg>
+                  <rdg wit="#V" facs="109r/34">alius potest per illam intelligere</rdg>
+                  <note>A reading with "alius" seems better as it would fit with "ipso" below" --></note>
+                </app>
+                si ponatur in ipso et intellectio essentialius dependet a 
+                <app>
                   <lem>subiecto suo</lem>
-                  <rdg type="variation-inversion" wit="#S">suo subiecto</rdg>
-                </app> quam ab obiecto <app>
+                  <rdg type="variation-inversion" wit="#S" facs="81r/102">suo subiecto</rdg>
+                </app> 
+                quam ab obiecto 
+                <app>
                   <lem n="obiecto"/>
-                  <rdg type="variation-present" wit="#M">et</rdg>
+                  <rdg type="variation-present" wit="#M" facs="68r/22">et</rdg>
                 </app>, 
                 dico quod 
                 <app>
                   <lem n="quod"/>
-                  <rdg type="variation-present" wit="#M">saepius vel</rdg>
-                </app> saepe essentialius in essendo sed quod ipsa <app>
+                  <rdg type="variation-present" wit="#M" facs="68r/22">saepius vel</rdg>
+                </app> 
+                saepe essentialius in essendo 
+                sed quod ipsa 
+                <app>
                   <lem>subiecto</lem>
-                  <rdg type="variation-substance" wit="#M">sit</rdg>
-                </app> cui inhaeret <app>
+                  <rdg type="variation-substance" wit="#M" facs="68r/23">sit</rdg>
+                </app> 
+                cui inhaeret 
+                <app>
                   <lem>sicut</lem>
-                  <rdg type="variation-substance" wit="#M">scilicet</rdg>
-                  <rdg type="variation-substance" wit="#T">simul</rdg>
-                </app> vitali principio repraesentet obiectum cuius est <app>
+                  <rdg type="variation-substance" wit="#M" facs="68r/23">scilicet</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/47">simul</rdg>
+                </app> 
+                vitali principio repraesentet obiectum cuius est 
+                <app>
                   <lem>dictus actus</lem>
-                  <rdg type="variation-substance" wit="#M">dum actu</rdg>
-                  <rdg type="variation-substance" wit="#V">dum actus</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/24">dum actu</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109r/36">dum actus</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/47">dum actus</rdg>
                 </app>
                 <app>
-                  <lem>sibi inhaens</lem>
-                  <rdg type="variation-substance" wit="#T">igitur inhaerebit</rdg>
-                  <rdg type="variation-substance" wit="#M #V">sibi inhaerebit</rdg>
-                </app> hoc habet inseparabiliter ex natura sui et in hoc <app>
+                  <lem>sibi inhaerens</lem>
+                  <rdg type="variation-substance" wit="#T" facs="58r/48">sibi inhaerebit</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109r/36">sibi inhaerebit</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/24">sibi inhaerebit</rdg>
+                </app> 
+                hoc habet inseparabiliter ex natura sui et in hoc 
+                <app>
                   <lem>nec</lem>
-                  <rdg type="variation-absent" wit="#S"/>
-                </app> ab obiecto dependet, nec oportet quod <mentioned>A</mentioned> subiecto
-                active, sed ab <app>
+                  <rdg type="variation-absent" wit="#S" facs="81r/106"/>
+                </app> 
+                ab obiecto dependet, 
+                nec oportet quod 
+                <mentioned>a</mentioned> subiecto
+                active, 
+                sed ab 
+                <app>
                   <lem>isto</lem>
-                  <rdg type="variation-substance" wit="#S">illo</rdg>
-                </app> qui active conservat eam in subiecto quodcumque illud fuerit.
+                  <rdg type="variation-substance" wit="#S" facs="81r/107">illo</rdg>
+                </app> 
+                qui active conservat eam in subiecto quodcumque illud fuerit.
               </p>
               <p xml:id="b1d3qun-aseudi">
                 <cit>
-                  <ref xml:id="b1d3qun-Rd1e9876" target="http://scta.info/resource/b1d3qun-diciad">Ad duodecimum</ref>
+                  <ref xml:id="b1d3qun-Rd1e9876" target="http://scta.info/resource/b1d3qun-diciad">
+                    Ad duodecimum
+                  </ref>
                   <bibl>Vide supra</bibl>
                 </cit> 
                 <app>
                   <lem>dicendum</lem>
-                  <rdg type="variation-absent" wit="#M"/>
+                  <rdg type="variation-absent" wit="#M" facs="68r/27"/>
                 </app> 
                 quod conceptus pure 
                 <app>
                   <lem>numerales</lem>
-                  <rdg type="variation-substance" wit="#M">naturales</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/27">naturales</rdg>
                 </app> 
-                non sunt eiusdem speciei, sed sunt conceptus mere 
+                non sunt eiusdem speciei, 
+                sed sunt conceptus mere 
                 <app>
                   <lem>syncategorematici</lem>
-                  <rdg type="variation-substance" wit="#M">
-                    <unclear>cica?a</unclear>
+                  <rdg type="variation-substance" wit="#M" facs="68r/28">
+                    syncategorematica
                   </rdg>
                 </app>, 
-                sicut omnis et 
-                <app>
-                  <lem>alias</lem>
-                  <rdg type="variation-substance" wit="#M">aliquis</rdg>
-                </app> 
+                sicut <mentioned>omnis</mentioned> et <mentioned>aliquis</mentioned>
                 quod patet quia 
                 <app>
-                  <lem>terminum</lem>
-                  <rdg type="variation-substance" wit="#M">terminem</rdg>
+                  <lem>terminum</lem><!-- could this be "termini" -->
+                  <rdg type="variation-substance" wit="#M" facs="68r/28">terminem</rdg> <!-- unclear; dbcheck  -->
                 </app>
+                mediante
+                sequentem faciunt 
+                stare confuse tantum 
+                sicut omnis 
                 <app>
-                  <lem>mediante</lem>
-                  <rdg type="variation-substance" wit="#T #V">mediate</rdg>
-                </app> sequentem faciunt stare confuse tantum sicut omnis <app>
                   <lem n="omnis"/>
-                  <rdg type="variation-present" wit="#S">a aliquis</rdg>
-                </app> et alias non enim sequitur bis <app>
-                  <lem>comedisti</lem>
-                  <rdg type="variation-substance" wit="#M">commedisci</rdg>
-                </app> panem <app>
-                  <lem> igitur bis <app>
-                      <lem>istum</lem>
-                      <rdg type="variation-substance" wit="#T">illum</rdg>
-                    </app> panem </lem>
-                  <rdg type="variation-absent" wit="#V"/>
-                </app> vel <app>
-                  <lem>illum</lem>
-                  <rdg type="variation-substance" wit="#M">istum</rdg>
-                </app> et ideo quantumcumque <app>
-                  <lem>unus intendatur</lem>
-                  <rdg type="variation-inversion" wit="#T">intendatur unus</rdg>
-                </app> vel remmittatur numquam fiet <app>
-                  <lem>similis</lem>
-                  <rdg type="variation-substance" wit="#M #T #V">simillimus</rdg>
+                  <rdg type="correction-deletion" wit="#S" facs="81r/111">
+                    <del>et aliquis</del>
+                  </rdg>
                 </app> 
-                alteri sicut <!--  -->
-                <cb ed="#T" n="b"/> <!-- T58rb -->
-                <!--  --> nec conceptus cui correspondet <app>
-                  <lem>haec</lem>
-                  <rdg type="variation-substance" wit="#M">hoc</rdg>
-                </app> 
-                vox 
+                non enim sequitur bis comedisti panem 
                 <app>
-                  <lem>alias</lem>
-                  <rdg type="variation-substance" wit="#M">aliquis</rdg>
-                </app>
+                  <lem>
+                    igitur bis istum panem 
+                  </lem>
+                  <rdg type="correction-addition" wit="#V" facs="109r/39">
+                    <add>igitur bis istum panem</add>
+                  </rdg>
+                </app> 
+                vel 
+                <app>
+                  <lem>illum</lem>
+                  <rdg type="variation-substance" wit="#M" facs="68r/30">istum</rdg>
+                </app> 
+                et ideo quantumcumque 
+                <app>
+                  <lem>unus intendatur</lem>
+                  <rdg type="variation-inversion" wit="#T" facs="58r/53">intendatur unus</rdg>
+                </app> 
+                vel remmittatur numquam fiet 
+                <app>
+                  <lem>similis</lem>
+                  <rdg type="variation-substance" wit="#T" facs="58r/53">simillimus</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/31">simillimus</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109r/30">simillimus</rdg>
+                </app> 
+                alteri sicut 
+                <cb ed="#T" n="b"/> <!-- T58rb -->
+                nec conceptus cui correspondet 
+                haec
+                vox 
+                <mentioned>aliquis</mentioned>
                 <app>
                   <lem>potest</lem>
-                  <rdg type="variation-substance" wit="#S">poterit</rdg>
-                </app> fieri simillimus <app>
+                  <rdg type="variation-substance" wit="#S" facs="81r/114">poterit</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/54">poterit</rdg>
+                </app> 
+                fieri simillimus 
+                <app>
                   <lem>conceptui</lem>
-                  <rdg type="variation-absent" wit="#S"/>
-                </app> qui exprimitur per hanc vocem omnis et consequenter per omnia ad propositum <app>
+                  <rdg type="variation-absent" wit="#T" facs="58r/54"/>
+                  <rdg type="variation-absent" wit="#M" facs="68r/32"/>
+                  <rdg type="variation-absent" wit="#V" facs="109r/40"/>
+                </app> 
+                qui exprimitur per hanc vocem 
+                <mentioned>omnis</mentioned> 
+                et consequenter per omnia ad propositum 
+                <app>
                   <lem>dicendum</lem>
-                  <rdg type="variation-substance" wit="#V">pertranseo</rdg>
-                  <rdg type="variation-substance" wit="#M">responsio</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109r/41">respondeo</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/33">respondeo</rdg>
                 </app>
                 <app>
                   <lem>de illis 
@@ -6383,7 +6430,8 @@
                       <lem>ut</lem>
                       <rdg type="variation-substance" wit="#M">sicut</rdg>
                     </app> 
-                    de istis</lem>
+                    de istis
+                  </lem>
                   <rdg type="variation-substance" wit="#T">de istis et de illis</rdg>
                 </app>. 
               </p>
