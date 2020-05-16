@@ -5902,7 +5902,7 @@
                   <rdg type="variation-substance" wit="#V" facs="109r/20">delectationem</rdg>
                   <rdg type="variation-substance" wit="#T" facs="58r/28">delectationem</rdg>
                 </app> 
-                appetitus quae poterit esse ita remissa 
+                appetitus quae poterit <anchor xml:id="start-1"/>esse ita remissa<anchor xml:id="end-1"/> 
                 <app>
                   <lem>
                     quod appetitus 
@@ -6442,110 +6442,121 @@
                 </app>. 
               </p>
               <p xml:id="b1d3qun-uteqsc">
-                Unum tamen est advertendum <app>
-                  <lem>quod</lem>
-                  <rdg type="variation-substance" wit="#M">quia</rdg>
-                </app> nominaliter expressa <app>
-                  <lem>sumuntur</lem>
-                  <rdg type="variation-substance" wit="#M">simitur</rdg>
-                </app>
                 <app>
-                  <lem> quasi <!--  -->
+                  <lem>Unum</lem>
+                  <rdg wit="#T" facs="58r/55">Ulterius</rdg>
+                </app> 
+                tamen est advertendum 
+                <app>
+                  <lem>quod</lem>
+                  <rdg type="variation-substance" wit="#M" facs="68r/34">quia</rdg>
+                </app> 
+                nominaliter expressa sumuntur
+                <app>
+                  <lem>
+                    quasi 
                     <pb ed="#S" n="81-v"/>
                     <cb ed="#S" n="a"/>
-                    <!--  --> collective et non faciunt <app>
-                      <lem>terminum</lem>
-                      <rdg type="variation-substance" wit="#M">terminem</rdg>
-                    </app>
-                    <app>
-                      <lem>mediante</lem>
-                      <rdg type="variation-substance" wit="#T">mediate</rdg>
-                    </app> sequentem stare confuse tantum, sicut nec omnis quando sumitur </lem>
-                  <rdg type="correction-substitution" wit="#V">
+                    collective et non faciunt terminum
+                    mediate
+                    sequentem stare confuse tantum, 
+                    sicut nec <mentioned>omnis</mentioned> quando sumitur
+                  </lem>
+                  <rdg type="correction-substitution" wit="#V" facs="109r/42">
                     <subst>
                       <del>quasi</del>
-                      <add place="margin"> quasi collective et non faciunt terminum mediate
-                        sequentem stare confuse tantum sicut nec <mentioned>omnis</mentioned> quando
-                        sumitur </add>
+                      <add place="margin">
+                        quasi collective et non faciunt terminum mediate
+                        sequentem stare confuse tantum sicut nec 
+                        <mentioned>omnis</mentioned> quando sumitur 
+                      </add>
                     </subst>
                   </rdg>
-                </app> collective.
+                </app> 
+                collective.
               </p>
-
               <p xml:id="b1d3qun-atdsat"> 
                 <cit>
                   <ref xml:id="b1d3qun-Rd1e10151" target="http://scta.info/resource/b1d3qun-tdienm">Ad tertium decimum</ref>
                   <bibl>Vide supra</bibl>
                 </cit> 
                 dicendum quod accedit visioni quod eius
-                per se obiectum moveatur vel quiescat, et per consequens quod ipsum sit motus 
+                per se obiectum moveatur vel quiescat, 
+                et per consequens quod ipsum sit motus 
                 <app>
                   <lem>vel</lem>
-                  <rdg type="variation-substance" wit="#M">visa</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/38">visa</rdg>
                 </app> 
-                quod 
-                <app>
-                  <lem n="quod"/>
-                  <rdg type="variation-present" wit="#V">ad</rdg>
-                </app> 
+                quod  
                 ipsum sit quies, 
-                quamvis mediante 
+                quamvis 
                 <app>
-                  <lem n="mediante"/>
-                  <rdg type="variation-present" wit="#S">v</rdg>
-                  <rdg type="correction-deletion" wit="#V">
-                    <del>v</del>
+                  <lem>mediate</lem>
+                  <rdg wit="#V" type="correction-substitution" facs="109r/43">
+                    <subst>
+                      <del>mediatem</del>
+                      <add>mediate</add>
+                    </subst>
                   </rdg>
+                </app>
+                <app>
+                  <lem n="mediate"/>
+                  <rdg type="variation-present" wit="#S" facs="81v/4">v</rdg>
                 </app> 
                 visione 
                 <app>
                   <lem>possit</lem>
-                  <rdg type="variation-substance" wit="#V">posset</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109r/43">posset</rdg>
                 </app> 
-                evidenter iudicari vel saltem apparere quod res 
-                <app>
-                  <lem>visa</lem>
-                  <rdg type="variation-substance" wit="#T"><sic>vivisa</sic></rdg>
-                </app> 
-                moveatur. Et ideo dicatur motus esse 
+                evidenter iudicari vel saltem apparere quod res visa
+                moveatur, 
+                et ideo dicatur motus esse 
                 <app>
                   <lem>de numero</lem>
-                  <rdg type="variation-substance" wit="#M">per se</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/40">per se</rdg>
                 </app>
                 <app>
                   <lem n="numero"/>
-                  <rdg type="variation-present" wit="#V">per se</rdg>
-                </app> sensibilium <app>
-                  <lem>et</lem>
-                  <rdg type="variation-absent" wit="#S #T"/>
-                </app> ideo <app>
-                  <lem>hic</lem>
-                  <rdg type="variation-substance" wit="#M">hoc</rdg>
-                </app>
+                  <rdg type="variation-present" wit="#V" facs="109r/44">per se</rdg>
+                </app> 
+                sensibilium. 
+                <app>
+                  <lem>Et</lem>
+                  <rdg type="variation-absent" wit="#S" facs="81v/7"/>
+                </app> 
+                ideo hic
                 <app>
                   <lem>est</lem>
-                  <rdg type="variation-absent" wit="#S #T"/>
+                  <rdg type="variation-absent" wit="#S" facs="81v/7"/>
+                  <rdg type="variation-absent" wit="#T" facs="58r/60"/>
                 </app> 
                 dicendum 
                 <app>
                   <lem n="dicendum"/>
-                  <rdg type="correction-deletion" wit="#V">
+                  <rdg type="correction-deletion" wit="#V" facs="109r/44">
                     <del rend="strikethrough">sensibiliter</del>
                   </rdg>
                 </app> 
                 consequenter sicut 
-                <app>
-                  <lem>supra</lem>
-                  <rdg type="variation-substance" wit="#M">sumpto</rdg>
-                </app> 
-                ad tertium.
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-atsdia">
+                    <app>
+                      <lem>supra</lem>
+                      <rdg type="variation-substance" wit="#M" facs="68r/41">supposito</rdg>
+                    </app> 
+                    ad tertium
+                  </ref>
+                </cit>.
               </p>
               <p xml:id="b1d3qun-aqdaps"> 
                 <cit>
                   <ref xml:id="b1d3qun-Rd1e10277" target="http://scta.info/resource/b1d3qun-qdipie">Ad quartum decimum</ref>
                   <bibl>Vide supra</bibl>
                 </cit> 
-                sicut ad probationem septimi.
+                sicut 
+                <cit>
+                  <ref target="http://scta.info/resource/b1d3qun-ascpps">ad probationem septimi</ref>
+                </cit>.
               </p>
               <p xml:id="b1d3qun-arvssc">
                 <cit>
