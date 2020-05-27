@@ -6804,70 +6804,96 @@
                 Similiter est de actu virtuoso 
                 <app>
                   <lem>tam</lem>
-                  <rdg type="variation-substance" wit="#M">ipsa</rdg>
-                </app> appetitivo quam <app>
-                  <lem>cogitativo</lem>
-                  <rdg type="variation-substance" wit="#S">cognitivo</rdg>
-                </app> quod potest esse <app>
+                  <rdg type="variation-substance" wit="#M" facs="68r/61">ipsa</rdg>
+                </app> 
+                appetitivo quam 
+                <app>
+                  <lem>cognitivo</lem>
+                  <rdg type="variation-substance" wit="#T" facs="58r/76">intellective</rdg>
+                </app> 
+                quod potest esse 
+                <app>
                   <lem>sic</lem>
-                  <rdg type="variation-substance" wit="#T">sicut</rdg>
-                </app> bonus et talis qualis <app>
+                  <rdg type="variation-substance" wit="#T" facs="58r/76">sicut</rdg>
+                </app> 
+                bonus et talis qualis 
+                <app>
                   <lem>debet</lem>
-                  <rdg type="variation-substance" wit="#V #T">debent</rdg>
-                </app> esse postquam non fuit talis sine <app>
+                  <rdg type="variation-substance" wit="#V" facs="109v/5">debent</rdg>
+                </app> 
+                esse postquam non fuit talis sine 
+                <app>
                   <lem>novitate</lem>
-                  <rdg type="variation-substance" wit="#S">mutatione</rdg>
-                </app> alicuius sibi <app>
-                  <lem>additi</lem>
-                  <rdg type="variation-substance" wit="#M">addita</rdg>
-                  <rdg type="variation-substance" wit="#V #T">addito</rdg>
-                </app> in subiecto <app>
+                  <rdg type="variation-substance" wit="#S" facs="81v/31">mutatione</rdg>
+                  <rdg type="variation-substance" wit="#T" facs="58r/77">mutatione</rdg>
+                </app> 
+                alicuius sibi 
+                <app>
+                  <lem wit="#S" facs="81v/31">additi</lem>
+                  <rdg type="variation-substance" wit="#M" facs="68r/63">addita</rdg>
+                  <rdg type="variation-substance" wit="#V" facs="109v/6">addito</rdg> <!-- addito might be better -->
+                  <rdg type="variation-substance" wit="#V" facs="58r/77">addito</rdg> 
+                </app> 
+                in subiecto 
+                <app>
                   <lem n="subiecto"/>
-                  <rdg type="correction-addition" wit="#V">
+                  <rdg type="correction-addition" wit="#V" facs="109v/6">
                     <add place="margin">scilicet</add>
                   </rdg>
-                </app> per novitatem praecepti vel huiusmodi. Similiter de pulchritudine <app>
-                  <lem>et</lem>
-                  <rdg type="variation-absent" wit="#M #S"/>
-                </app> de sanitate, et ita de multis quae ponitur in prima specie qualitatis, nam <app>
-                  <lem>alia</lem>
-                  <rdg type="variation-substance" wit="#V #T">aliqua</rdg>
-                </app>
+                </app> 
+                per novitatem praecepti vel huiusmodi. 
+                Similiter 
+                de pulchritudine et 
+                de sanitate, 
+                et ita de multis quae ponitur in prima specie qualitatis, 
+                nam 
                 <app>
-                  <lem>fiunt</lem>
-                  <rdg type="variation-substance" wit="#M">fuerit</rdg>
-                </app> pulchritudo et sanitas <app>
+                  <lem wit="#V" facs="109v/7">aliqua</lem>
+                  <rdg type="variation-substance" wit="#T" facs="58r/78">alia</rdg>
+                  <rdg type="variation-substance" wit="#S" facs="81v/33">alia</rdg>
+                  <rdg type="variation-substance" wit="#M" facs="68r/64">alia</rdg>
+                </app>
+                fiunt pulchritudo et sanitas 
+                <app>
                   <lem>
                     <app>
-                      <lem>ad</lem>
-                      <rdg type="variation-substance" wit="#M">per</rdg>
-                    </app> amotionem aliorum sine additione vel subtractione ab illa vel <app>
+                      <lem wit="#M" facs="68r/65">per</lem>
+                      <rdg wit="#S" facs="81v/34">ad</rdg>
+                      <rdg wit="#T" facs="58r/79">ad</rdg>
+                    </app> 
+                    amotionem aliorum sine additione vel subtractione ab illa vel 
+                    <app>
                       <lem>ab</lem>
-                      <rdg type="variation-absent" wit="#S"/>
-                    </app> illis quae <app>
-                      <lem>erunt</lem>
-                      <rdg type="variation-substance" wit="#M">erit</rdg>
-                    </app> pulchritudo <app>
-                      <lem>vel</lem>
-                      <rdg type="variation-substance" wit="#T">et</rdg>
-                    </app> sanitas. </lem>
-                  <rdg type="correction-addition" wit="#V">
-                    <add place="margin"> ad amotionem aliorum sine additione vel subtractione ab
-                      illa vel ab illis quae erunt pulchritudo vel sanitas </add>
+                      <rdg type="variation-absent" wit="#S" facs="81v/35"/>
+                      <rdg type="variation-absent" wit="#T" facs="58r/79"/>
+                    </app> 
+                    illis quae 
+                    erunt pulchritudo sanitas.
+                  </lem>
+                  <rdg type="correction-addition" wit="#V" facs="109v/7">
+                    <add place="margin">
+                      ad amotionem aliorum sine additione vel subtractione ab
+                      illa vel ab illis quae erunt pulchritudo vel sanitas 
+                    </add>
                   </rdg>
                 </app>
               </p>
             </div>
             <div xml:id="b1d3qun-Drapapa">
-              <head xml:id="b1d3qun-Hrapapa"><supplied>Responsio ad principales argumenta</supplied></head>
+              <head xml:id="b1d3qun-Hrapapa">
+                <supplied>Responsio ad principales argumenta</supplied>
+              </head>
               <div xml:id="b1d3qun-Dapaapa">
-                <head xml:id="b1d3qun-Hapaapa"><supplied>Ad prima argumenta</supplied></head>
-
+                <head xml:id="b1d3qun-Hapaapa">
+                  <supplied>Ad prima argumenta</supplied>
+                </head>
                 <p xml:id="b1d3qun-apasis">
                   <cit>
-                    <ref xml:id="b1d3qun-Rd1e10907">Ad primum argumentum principale istius dubii</ref>
-                    <bibl>[cross reference] vide supra (pars 2 of second dubium)</bibl>
-                  </cit>, <app>
+                    <ref xml:id="b1d3qun-Rd1e10907" target="http://scta.info/resource/b1d3qun-pqqsee">
+                      Ad primum argumentum principale istius dubii
+                    </ref>
+                  </cit>, 
+                  <app>
                     <lem>cum inquiritur</lem>
                     <rdg type="correction-substitution" wit="#V">
                       <subst>
@@ -6875,7 +6901,9 @@
                         <add place="margin">cum inquiritur</add>
                       </subst>
                     </rdg>
-                  </app> quid vocaretur memoria, videtur <app>
+                  </app> 
+                  quid vocaretur memoria, videtur 
+                  <app>
                     <lem>mihi</lem>
                     <rdg type="variation-absent" wit="#S"/>
                   </app> quod respectu primi actus intuitivi <app>
@@ -6948,15 +6976,22 @@
                     <rdg type="correction-addition" wit="#V">
                       <add place="above-line">verum</add>
                     </rdg>
-                  </app>, et <app>
+                  </app>.
+                </p>
+                <p xml:id="b1d3qun-dqsiea"> 
+                  Et 
+                  <app>
                     <lem>cum</lem>
                     <rdg type="variation-substance" wit="#M">tamen</rdg>
-                  </app> probatur quod habitus vel species non distinguitur ab actu <app>
+                  </app> 
+                  probatur quod habitus vel species non distinguitur ab actu 
+                  <app>
                     <lem>nec</lem>
                     <rdg type="variation-substance" wit="#S">neque</rdg>
-                  </app> econtra per speciem in sensu. </p>
-
-                <p xml:id="b1d3qun-dqsiea"> Dicendum quod <mentioned>sensus</mentioned>
+                  </app> 
+                  econtra per speciem in sensu,
+                  dicendum quod 
+                  <mentioned>sensus</mentioned>
                   <app>
                     <lem>dupliciter</lem>
                     <rdg type="correction-substitution" wit="#M">
@@ -7110,8 +7145,7 @@
 
                 <p xml:id="b1d3qun-asanis">
                   <cit>
-                    <ref xml:id="b1d3qun-Rd1e11524">Ad secundum</ref>
-                    <bibl>vide supra [cross reference]</bibl>
+                    <ref xml:id="b1d3qun-Rd1e11524" target="http://scta.info/resource/b1d3qun-ssqsap">Ad secundum</ref>
                   </cit> 
                   de mutua circulatione in causatione alicuius portionis habitus 
                   <app>
