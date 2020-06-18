@@ -6911,7 +6911,6 @@
                   quod respectu primi actus intuitivi 
                   <app>
                     <lem n="intuitivi"/>
-                    <!-- check with nick -->
                     <rdg type="variation-present" wit="#T" facs="58r/81"><unclear>est</unclear></rdg> 
                   </app> 
                   intellectus, 
@@ -6932,9 +6931,15 @@
                   </app>, 
                   se 
                   <app>
-                    <!-- dbcheck; subject seems sigular, but plural matches parallel use of se habent below -->
-                    <lem>habent</lem>
-                    <rdg type="variation-substance" wit="#S" facs="81v/38">habet</rdg>
+                    <lem wit="#S" facs="81v/38">habet</lem>
+                    <rdg wit="#M" facs="68r/69">habent</rdg>
+                    <rdg wit="#V" facs="109v/9">habent</rdg>
+                    <rdg wit="#T" facs="58r/82">habent</rdg>
+                    <note xml:lang="en">
+                      While three witness have the plural "habent", the candidates for the antecedent subject, 
+                      "actus primus" or "obiectum" are both singular, therefore the singular use of "habet" in S
+                      seem like the best reading
+                    </note>
                   </app> 
                   sicut parens 
                   <app>
@@ -7101,7 +7106,8 @@
                     <lem>forma</lem>
                     <rdg type="variation-substance" wit="#M"><sic>figura</sic></rdg>
                   </app>, 
-                  et sic loquendo in sensu, id est, in organo 
+                  et sic loquendo in sensu, 
+                  id est in organo 
                   <app>
                     <lem n="organo"/>
                     <rdg type="variation-present" wit="#M #V">sensus</rdg>
@@ -7117,24 +7123,32 @@
                       <add place="margin">altera pars</add>
                     </rdg>
                   </app> 
-                  sic accepti, 
-                  sensus recipitur species quae est 
+                  sic accepti sensus, 
+                  recipitur species,
+                  quae 
                   <app>
-                    <lem>compositum</lem>
-                    <rdg type="variation-substance" wit="#M">principium</rdg>
-                    <rdg type="variation-substance" wit="#S">composita</rdg>
+                    <lem>est</lem>
+                    <rdg wit="#S" type="correction-addition" facs="81v/53">
+                      <add place="in-line">est</add>
+                    </rdg>
                   </app>
                   <app>
-                    <lem n="compositum"/>
-                    <rdg type="correction-deletion" wit="#S">
+                    <lem wit="#V #T">conprincipium</lem> <!-- #T facs="58r/91" #V 109v/16 -->
+                    <rdg type="variation-substance" wit="#M" facs="68r/82">principium</rdg>
+                    <rdg type="variation-substance" wit="#S" facs="81v/53">composita</rdg>
+                  </app>
+                  <app>
+                    <lem n="conprincipium"/>
+                    <rdg type="correction-deletion" wit="#S" facs="81v/53">
                       <del rend="expunctuated">est</del>
                     </rdg>
                   </app>
                   <app>
                     <lem>activum</lem>
-                    <rdg type="variation-substance" wit="#S">activa</rdg>
+                    <rdg type="variation-substance" wit="#S" facs="81v/53">activa</rdg>
                   </app> 
-                  sensationis requisita necessario ad naturalem 
+                  sensationis, 
+                  requisita necessario ad naturalem 
                   <app>
                     <lem>causationem</lem>
                     <rdg type="variation-substance" wit="#M">actionem</rdg>
