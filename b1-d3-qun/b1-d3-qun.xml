@@ -6885,7 +6885,7 @@
               </head>
               <div xml:id="b1d3qun-Dapaapa">
                 <head xml:id="b1d3qun-Hapaapa">
-                  <supplied>Ad prima argumenta</supplied>
+                  <supplied>Ad primum argumentum</supplied>
                 </head>
                 <p xml:id="b1d3qun-apasis">
                   <cit>
@@ -6895,116 +6895,127 @@
                   </cit>, 
                   <app>
                     <lem>cum inquiritur</lem>
-                    <rdg type="correction-substitution" wit="#V">
+                    <rdg type="correction-substitution" wit="#V" facs="109v/8">
                       <subst>
                         <del rend="strikethrough">cum inquiritur</del>
                         <add place="margin">cum inquiritur</add>
                       </subst>
                     </rdg>
                   </app> 
-                  quid vocaretur memoria, videtur 
+                  quid vocaretur memoria, 
+                  videtur 
                   <app>
                     <lem>mihi</lem>
-                    <rdg type="variation-absent" wit="#S"/>
+                    <rdg type="variation-absent" wit="#S" facs="81v/37"/>
                   </app> 
-                  quod respectu primi actus intuitivi <app>
+                  quod respectu primi actus intuitivi 
+                  <app>
                     <lem n="intuitivi"/>
-                    <rdg type="variation-present" wit="#T">instanti</rdg>
+                    <rdg type="variation-present" wit="#T" facs="58r/81"><unclear>est</unclear></rdg> 
                   </app> 
                   intellectus, 
                   <app>
-                    <lem n="intellectus,"/>
-                    <!-- watch the comma -->
-                    <rdg type="variation-present" wit="#V">cum</rdg>
-                  </app>
-                  <app>
                     <lem>obiecto</lem>
-                    <rdg type="variation-substance" wit="#M">cum aliquio</rdg>
+                    <rdg wit="#M" facs="68r/68">cum aliquo</rdg>
+                    <rdg wit="#V" facs="109v/8">cum obiecto</rdg>
                   </app>
                   <app>
                     <lem>sufficienter praesente</lem>
-                    <rdg type="variation-inversion" wit="#T">praesente sufficienter</rdg>
+                    <rdg type="variation-inversion" wit="#T" facs="58r/81">praesente sufficienter</rdg>
                   </app> 
                   ad causandum actum 
                   <app>
                     <lem>illum</lem>
-                    <rdg type="variation-substance" wit="#M">istum</rdg>
+                    <!--should we begin to mark these as "variation-orthography" ?? are they really "substance" -->
+                    <rdg type="variation-substance" wit="#M" facs="68r/69">istum</rdg>
                   </app>, 
                   se 
                   <app>
-                    <lem>habet</lem>
-                    <rdg type="variation-substance" wit="#S">habet</rdg>
+                    <lem wit="#S" facs="81v/38">habet</lem>
+                    <rdg wit="#M" facs="68r/69">habent</rdg>
+                    <rdg wit="#V" facs="109v/9">habent</rdg>
+                    <rdg wit="#T" facs="58r/82">habent</rdg>
+                    <note xml:lang="en">
+                      While three witness have the plural "habent", the candidates for the antecedent subject, 
+                      "actus primus" or "obiectum" are both singular, therefore the singular use of "habet" in S
+                      seem like the best reading
+                    </note>
                   </app> 
-                  sicut praesens 
+                  sicut parens 
                   <app>
                     <lem>respectu</lem>
-                    <rdg type="variation-absent" wit="#M"/>
+                    <rdg type="variation-absent" wit="#M" facs="68r/69"/>
                   </app> 
-                  illius notitiae tamquam prolis. 
-                  <app>
-                    <lem>Respectu</lem>
-                    <rdg type="variation-absent" wit="#M"/>
-                  </app>
+                  illius notitiae tamquam prolis,
+                  respectu
                   <app>
                     <lem>autem</lem>
-                    <rdg type="variation-absent" wit="#S"/>
+                    <rdg type="variation-absent" wit="#S" facs="81v/39"/>
                   </app> 
                   actuum abstractivorum post 
                   <app>
                     <lem>primum</lem>
-                    <rdg type="variation-substance" wit="#M">ipsum</rdg>
+                    <rdg type="variation-substance" wit="#M" facs="68r/70">ipsum</rdg>
                   </app>, 
                   qui 
                   <app>
                     <lem>causantur</lem>
-                    <rdg type="variation-substance" wit="#S">causatur</rdg>
+                    <rdg type="variation-substance" wit="#S" facs="81v/40">causatur</rdg>
                   </app> 
                   ab intellectu et actu intuitivo 
                   <app>
-                    <lem>intellectivo</lem>
-                    <rdg type="variation-substance" wit="#M">intellectio</rdg>
+                    <lem>intellectus</lem>
+                    <!--<rdg type="variation-substance" wit="#S" facs="81v/40">intellectus</rdg>
+                    <rdg type="variation-substance" wit="#V" facs="109v/10">intellectus</rdg>
+                    <rdg type="variation-substance" wit="#V" facs="58r/83">intellectus</rdg>-->
+                    <rdg type="variation-substance" wit="#M" facs="68r/71">intellectio</rdg>
                   </app>, 
-                  cum habitu vel specie vel quovis, 
-                  alio nomine appelletur. 
-                  Apud me 
+                  cum habitu vel specie 
+                  (vel quovis alio nomine appelletur, 
+                  apud me 
                   <app>
                     <lem>tamen</lem>
-                    <rdg type="variation-substance" wit="#M">cum</rdg>
-                  </app> 
-                  magis, proprie loquendo, 
+                    <rdg type="variation-substance" wit="#M" facs="68r/72">cum</rdg>
+                  </app>,
+                  magis proprie loquendo, 
                   <app>
                     <lem>vocari</lem>
-                    <rdg type="variation-substance" wit="#S">nominari</rdg>
+                    <rdg type="variation-substance" wit="#S" facs="81v/42">nominari</rdg>
                   </app> 
-                  debet habitus quia species, stricte loquendo, solet vocari 
+                  debet habitus 
+                  quia species, 
+                  stricte loquendo, 
+                  solet vocari - 
                   <app>
                     <lem>a</lem>
-                    <rdg type="variation-absent" wit="#M"/>
+                    <rdg type="variation-absent" wit="#M" facs="68r/73"/>
                   </app> 
                   ponentibus 
                   <app>
                     <lem>eam</lem>
-                    <rdg type="variation-absent" wit="#M"/>
+                    <rdg type="variation-absent" wit="#M" facs="68r/73"/>
                   </app> 
+                  -
                   aliquid in 
                   <app>
                     <lem>potentia praevium</lem>
-                    <rdg type="variation-substance" wit="#M">posito primum</rdg>
+                    <rdg type="variation-substance" wit="#M" facs="68r/73">posito primum</rdg>
                   </app> 
-                  primo actui quod non credo esse necessarium 
+                  primo actui, 
+                  quod non credo esse necessarium 
                   <app>
                     <lem>nec</lem>
-                    <rdg type="correction-addition" wit="#V">
+                    <rdg type="correction-addition" wit="#V" facs="109v/12">
                       <add place="above-line">nec</add>
                     </rdg>
                   </app>
                   <app>
                     <lem n="nec"/>
-                    <rdg type="variation-present" wit="#V">et</rdg>
+                    <rdg type="variation-present" wit="#V" facs="109v/12">et</rdg>
                   </app>
                   <app>
                     <lem>verum</lem>
-                    <rdg type="correction-addition" wit="#V">
+                    <rdg type="correction-addition" wit="#V" facs="109v/12">
                       <add place="above-line">verum</add>
                     </rdg>
                   </app>.
@@ -7031,10 +7042,15 @@
                         <add place="in-line">dupliciter</add>
                       </subst>
                     </rdg>
-                  </app> sumitur: uno modo pro <app>
+                  </app> 
+                  sumitur: uno modo pro 
+                  <app>
                     <lem>potentia seu</lem>
                     <rdg type="variation-substance" wit="#M">posito videtur</rdg>
-                  </app> natura vitali receptiva immediate sensationis, et in illa non recipitur <app>
+                  </app> 
+                  natura vitali receptiva immediate sensationis, 
+                  et in illa non recipitur 
+                  <app>
                     <lem>species</lem>
                     <rdg type="variation-absent" wit="#M #V"/>
                   </app>
@@ -7090,7 +7106,8 @@
                     <lem>forma</lem>
                     <rdg type="variation-substance" wit="#M"><sic>figura</sic></rdg>
                   </app>, 
-                  et sic loquendo in sensu, id est, in organo 
+                  et sic loquendo in sensu, 
+                  id est in organo 
                   <app>
                     <lem n="organo"/>
                     <rdg type="variation-present" wit="#M #V">sensus</rdg>
@@ -7106,24 +7123,32 @@
                       <add place="margin">altera pars</add>
                     </rdg>
                   </app> 
-                  sic accepti, 
-                  sensus recipitur species quae est 
+                  sic accepti sensus, 
+                  recipitur species,
+                  quae 
                   <app>
-                    <lem>compositum</lem>
-                    <rdg type="variation-substance" wit="#M">principium</rdg>
-                    <rdg type="variation-substance" wit="#S">composita</rdg>
+                    <lem>est</lem>
+                    <rdg wit="#S" type="correction-addition" facs="81v/53">
+                      <add place="in-line">est</add>
+                    </rdg>
                   </app>
                   <app>
-                    <lem n="compositum"/>
-                    <rdg type="correction-deletion" wit="#S">
+                    <lem wit="#V #T">conprincipium</lem> <!-- #T facs="58r/91" #V 109v/16 -->
+                    <rdg type="variation-substance" wit="#M" facs="68r/82">principium</rdg>
+                    <rdg type="variation-substance" wit="#S" facs="81v/53">composita</rdg>
+                  </app>
+                  <app>
+                    <lem n="conprincipium"/>
+                    <rdg type="correction-deletion" wit="#S" facs="81v/53">
                       <del rend="expunctuated">est</del>
                     </rdg>
                   </app>
                   <app>
                     <lem>activum</lem>
-                    <rdg type="variation-substance" wit="#S">activa</rdg>
+                    <rdg type="variation-substance" wit="#S" facs="81v/53">activa</rdg>
                   </app> 
-                  sensationis requisita necessario ad naturalem 
+                  sensationis, 
+                  requisita necessario ad naturalem 
                   <app>
                     <lem>causationem</lem>
                     <rdg type="variation-substance" wit="#M">actionem</rdg>
@@ -7215,15 +7240,18 @@
                 </p>
               </div>
               <div xml:id="b1d3qun-Daspasp">
-                <head xml:id="b1d3qun-Haspasp"><supplied>Ad secundum principale argumentum huius dubii
-                  secundi</supplied></head>
+                <head xml:id="b1d3qun-Haspasp">
+                  <supplied>
+                    Ad secundum principale argumentum huius dubii secundi</supplied>
+                </head>
                 <!--  -->
                 <!-- #T is unreadable from this point until next page. -->
                 <!--  -->
-
                 <p xml:id="b1d3qun-asanis">
                   <cit>
-                    <ref xml:id="b1d3qun-Rd1e11524" target="http://scta.info/resource/b1d3qun-ssqsap">Ad secundum</ref>
+                    <ref xml:id="b1d3qun-Rd1e11524" target="http://scta.info/resource/b1d3qun-ssqsap">
+                      Ad secundum
+                    </ref>
                   </cit> 
                   de mutua circulatione in causatione alicuius portionis habitus 
                   <app>
@@ -7232,16 +7260,12 @@
                   </app>, 
                   et econtra, 
                   <app>
-                    <lem> usque ad summum statum, cum potentia sit summe disposita et ita activa,
+                    <lem>usque ad summum statum, cum potentia sit summe disposita et ita activa,
                       mere naturaliter agant actus, scilicet, ad causationem portionis habitus, et
                       econtra ista portio ad causandum particulam novam actus. Et sic deinceps </lem>
                     <rdg type="variation-absent" wit="#M #V"/>
                   </app> 
-                  respondeo ut alias alibi 
-                  <app>
-                    <lem>positio</lem>
-                    <rdg type="variation-substance" wit="#M">primo</rdg>
-                  </app> 
+                  respondeo ut alias alibi pono
                   quod concesso tali processu mutuo primus 
                   <app>
                     <lem>actus</lem>
