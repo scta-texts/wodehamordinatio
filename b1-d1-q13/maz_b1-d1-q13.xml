@@ -10,15 +10,17 @@
         </respStmt>
         <respStmt>
           <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
           <resp>Tei Encoder</resp>
         </respStmt>
         <respStmt>
           <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
           <resp>Tei Encoder</resp>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="1.0.0">
+        <edition n="1.0.0-dev">
           <title>Liber 1, Distinctio 1, Quaestio 13 [Mazarine Transcription]</title>
           <date when="2020-09-03">September 03, 2020</date>
         </edition>
@@ -60,12 +62,22 @@
     </front>
     <body>
       <div xml:id="b1-d1-q13">
-        <p xml:id="b1d1q13-d1e125">
+        <head xml:id="b1-q13-Hd1e127">Liber 1, Distinctio 1, Quaestio 13 [Mazarine Transcription]</head>
+        <head xml:id="b1-q13-Hd1e130" type="question-title">utrum liceat Filum Dei plus diligere vel frui eo quam Patrem vel Spiritum Sanctum</head>
+        <div xml:id="b1-q13-Dd1e133">
+          <head xml:id="b1-q13-Hd1e135">Quaestio</head>
+          <p xml:id="b1d1q13-d1e125">
           <pb ed="#M" n="58-r"/>
           <cb ed="#M" n="a"/>
           <lb ed="#M"/>
             <note type="marginal-note" place="margin">Conclusio 15 mg. M</note> 
-          Tertiodecimo circa distinctionem primam quaero occasione tertiae conclusionis, q. 12, utrum liceat Filium Dei plus diligere vel frui eo quam Patrem vel Spiritum Sanctum. Quod sic probo, quia Filius videtur esse mediante Patre, igitur et diligibilior. Igitur licite potest plus appreciari vel diligi.
+          Tertiodecimo circa distinctionem primam quaero occasione tertiae conclusionis, q. 12, utrum liceat Filium Dei plus diligere vel frui eo quam Patrem vel Spiritum Sanctum.
+          </p>
+        </div>
+        <div xml:id="b1-q13-Dd1e151" type="rationes-principales">
+          <head xml:id="b1-q13-Hd1e153">Rationes principales</head>
+          <p xml:id="b1-q13-d1e156">
+          Quod sic probo, quia Filius videtur esse mediante Patre, igitur et diligibilior. Igitur licite potest plus appreciari vel diligi.
             Primum assumptum patet, quia Filius est bonus bonitate Patris, et praeter hoc bonitate humanitatis assumptae. Nec sic Pater, nec Spiritus Sanctus, igitur etc.
         </p>
         <p xml:id="b1d1q13-d1e137">
@@ -74,9 +86,15 @@
         <p xml:id="b1d1q13-d1e140">
           Contra: quilibet tenetur quamlibet personam divinam diligere et appreciari infinite, quia plus quam hanc creaturam determinata alia et plus quam duplam, si daretur, et plus quam quadruplam, et sic in infinitum. Et si infinite quam licet non plus, igitur potest licite diligere unam quam aliam, quia nec plus potest aliquam diligere quam infinite vere minus, sibi licet.
         </p>
+        </div>
+        <div xml:id="b1-q13-Dd1e166">
+          <head xml:id="b1-q13-Hd1e168">Divisio quaestionis</head>
         <p xml:id="b1d1q13-d1e143">
           Hic primo praemitam conclusionem quasi eandem cum quaestione 2a prioris, et probabo eam. Secundo prosequar aliquantulum difficultatem tactam in duobus primis argumentis. Ex hiis duobus ad quaestionem patebit. Tertio propter aliquas formas sophisticas prosequar difficultatem tactam in 3o argumento.
         </p>
+        </div>
+        <div xml:id="b1-q13-Dd1e176">
+          <head xml:id="b1-q13-Hd1e178">Articulus 1</head>
         <p xml:id="b1d1q13-d1e146">
           <note type="marginal-note" place="margin">Primus articulus. Quod aliqua cognitione vel visione potuit per accidens videri Filius Dei Christus, qua non cognoscebatur Pater nec Spiritus Sanctus. A add. mg. M</note>
           Conclusio igitur primi articuli est haec: quod de Christo habebatur vel poterat haberi amor et cognitio qua non cognoscebatur Pater nec diligebatur, nec Spiritus Sanctus, quia Christus potuit videri oculo corporali medinate eius humanitate et diligere 
@@ -134,7 +152,7 @@
           Aliter potest dici et probabiliter ad argumentum secundum quendam doctorem quod ille actus beatificus qui videtur essentiae et personae non repraesentat personam respective sed solum absolutive. Nec sequitur beatus per illum actum congruit personas ut distinguuntur relative, quia hoc quod beatus percipit distincte personarum per illum actum est propter hoc quod illae personae distinctae et earum distinctio sunt essentialiter quam actus repraesentat absolutive, non quod actus ille repraesentet relative illas personas. Sed responsio praecedens est mihi probabilior exponendo actum relative vel absolutive posteriore sicut ibi exposui.
         </p>
         <p xml:id="b1d1q13-d1e224">
-          <note type="marginal-note" place="margin">Quod conceptus qui distincte repraesentaret Deum et quamlibet personam divinam non propter hoc esset communis communitate praedicationis sed singularis, sicus iste terminus “Deus.” F. mg. M</note>
+          <note type="marginal-note" place="margin">Quod conceptus qui distincte repraesentaret Deum et quamlibet personam divinam non propter hoc esset communis communitate praedicationis sed singularis, sicus iste terminus "Deus." F. mg. M</note>
           Ad secundum, quod ille actus est equaliter signum utriusque naturale, nec tamen primo contingit huic vel illi nisi exponendo ly primo negative, si primo primitate adequationis significat ipsam deitatem, et eo ipso omne illud quod est ipsa deitas, et eo modo convenit eis per modum signi naturalis, quomodo proportionaliter deitas ipsa convenit eis per modum naturae communis eis reali et essentiali communitate, quia cum illud natura quam primo significat singulariter et individualiter est natura singularissima, ideo licet significaret multa, homo est cognitio universalis sed individualis potius. Ymmo dato quod individualiter et non per modum generis vel speciei significaret primo multa, utpote si Deus mihi inprimeret unicam visionem quam distincte videret albedinem simul et nigredinem, sicut per duas distinctas visiones ab ipsis causabiles, non tamen propter hoc esset visio cognitio universalis vel communis, eo modo quo cognitio universalis distinguitur contra cognitionem individualem, sicut nec una distincta cognitio quae est signum omnium et cognitio sit communis sed individualis, quia omnis cognitio vel distincta contra individualem est cognitio confusa et indistincta. Talis autem cognitio esset distinctissima et individualissime singularissime significat albedinem et nigredinem, licet esset alio modo communis communitate, scilicet, virtutis in significando proportionaliter illi communitati contradicimus soror causam universalem in causando.
         </p>
         <p xml:id="b1d1q13-d1e230">
@@ -143,6 +161,9 @@
         <p xml:id="b1d1q13-d1e233">
         Dicendum quod talis communitas praedicationis sola non sufficit ad universalitatem proprie loquendo et logice dictam, alioquin iste terminus “haec divinitas” esset terminus universalis proprie loquendo contra Augustinum, qui dicit quod nec est genus nec species VII De Trinitate, c. 9, allegaret d. 19 primi libri. Oportet igitur addere albedinem et confusionem signi talis vel quod non abstractive, ita quod non singulariter et communiter, sed universaliter significo tamen hoc quam illud. Sed in proposito non est sic. Ymmo ille conceptus singulariter et distincte significat utrumque, et hoc ita distincte, sicut conceptus sibi proprius solus significaret.
         </p>
+        </div>
+        <div xml:id="b1-q13-Dd1e272">
+          <head xml:id="b1-q13-Hd1e274">Articulus 2</head>
         <p xml:id="b1d1q13-d1e236">
           <note type="marginal-note" place="margin">An Filius licite potuerit diligi vel illicite plus quam Pater vel alia dilectione diligi qua non Pater. G. mg. M</note>
         Secundus articulus est an una persona divina posset licite vel etiam absolute plus diligi quam alia, utpote Filius qui nos humanitate redemit non sit Pater. Et videtur quod non, quia si una persona plus amari posset quam alia, igitur eadem ratione posset una persona amari alia non amata, quia illud plus est amatur quidam. Et est ita respectu unius personae quod non respectu alterius, si detur antecedens. Igitur in oppositum procedunt principalia argumenta.
@@ -171,7 +192,7 @@
         Dicendum est ut prius quod toti Trinitati equaliter tenemur ex hoc quod voluerunt nos per divinam personam redimi. Sed istae tamen est proprie amor Dei fruitivus sive propter seipsum, sed est amor propter utile. Sed cum illo totam Trinitatem diligere ex gratitudine obligamur, sicut et propter creationem, quia tota simul Trinitas redemptionem nostram concorditer voluit et disposuit, quod autem ultra hoc Filius fuit suppositum per quod redempti sumus. Ideo bene volo quod ipse sit per quem assurgere debemus in amorem totius Trinitatis, et plus certe sibi regratiari et per eum toti Trinitati quod placuit omnibus personis nos redimere per suppositum increatum quam per creaturam. Licet secundum sanctos per puram creaturam potuisset redemptio fieri, secundum Deo placuisset. Sed non sibi placuit quod tantum alicui creaturae tantum tenerentur, sed illi supposito non ex hoc solo obligamur singulariter quod ipse est suppositum redimens nos vel obligatione speciali debita suae humanitati, quae singulariter illi supposito unita est, et non illi naturae debetur, et supposito, cuius est mediante et per accidens, aut per aliud. Non sic alteri supposito, nec prius visum est. Et maxime ista responsio ex hoc confirmari habet, quia amor et gratitudo plus debetur affectui quam exteriori operi. Immo in nobis non sunt ipsa opera bona moraliter nisi propter bonitatem affectionis, ex qua fuerit executiones exteriores et multos nihil debetur supposito operanti vel exequenti nisi quod debetur naturae vel naturis et affectione earum. Et tunc satis patet ex praehabitis quid est dicendum.
         </p>
         <p xml:id="b1d1q13-d1e275">
-        Cum hac praedicta responsione mea antiqua invenio iam unum doctorem modernum concordantem, qui inquirens utrum beatus plus diligat Filium hominem quam Deum Patrem dico quod ly magis potest significare operationem in intentione amoris vel multitudinem. “Et si primo modo, tunc beatus,” inquit, “non magis vel non intentius amat Filium quam aliam personam.” “Sed iste,” inquit, “amor additus amori deitatis non est fruitio, et ideo non sequitur quod beatus magis fruitur Filio quam alia persona, igitur ille amor est Filii inquantum est homo,” haec ille. Et probatur et bene excepto ultimo dicto quod ille amor additus non est fruitio. Potest enim bene esse quod sit fruitio. Immo omnia quae amant beati amant in Deum, et, per consequens, amore relativo ad Deum. Videtur quod ille amor elicitivus saltem sit fruitio, non quidem humanitatis, sed potius deitatis. Sed tunc ille amor additus <note type="marginal-note" place="margin">amori deitatis non est fruitio, et ideo non sequitur quod beatus magis fruitur Filio quam alia persona, igitur ille amor est Filii inquantum est homo,” haec ille. Et probatur et bene excepto ultimo dicto quod ille amor additus non est fruitio. Potest enim bene esse quod sit fruitio. Immo omnia quae amant rep. sed del. M</note> non est aliter fruitio Filii quam alterius personae, licet sit amor intendi respectu humanitatis Christi. Et sic per accidens seu per additum utitur Filio illo actu nec Patre per se aut ipso eodem actu tota fruitur Trinitate.
+        Cum hac praedicta responsione mea antiqua invenio iam unum doctorem modernum concordantem, qui inquirens utrum beatus plus diligat Filium hominem quam Deum Patrem dico quod ly magis potest significare operationem in intentione amoris vel multitudinem. “Et si primo modo, tunc beatus,” inquit, “non magis vel non intentius amat Filium quam aliam personam.” “Sed iste,” inquit, “amor additus amori deitatis non est fruitio, et ideo non sequitur quod beatus magis fruitur Filio quam alia persona, igitur ille amor est Filii inquantum est homo,” haec ille. Et probatur et bene excepto ultimo dicto quod ille amor additus non est fruitio. Potest enim bene esse quod sit fruitio. Immo omnia quae amant beati amant in Deum, et, per consequens, amore relativo ad Deum. Videtur quod ille amor elicitivus saltem sit fruitio, non quidem humanitatis, sed potius deitatis. Sed tunc ille amor additus <del>amori deitatis non est fruitio, et ideo non sequitur quod beatus magis fruitur Filio quam alia persona, igitur ille amor est Filii inquantum est homo,” haec ille. Et probatur et bene excepto ultimo dicto quod ille amor additus non est fruitio. Potest enim bene esse quod sit fruitio. Immo omnia quae amant <!--rep. sed del. M--></del> non est aliter fruitio Filii quam alterius personae, licet sit amor intendi respectu humanitatis Christi. Et sic per accidens seu per additum utitur Filio illo actu nec Patre per se aut ipso eodem actu tota fruitur Trinitate.
         </p>
         <p xml:id="b1d1q13-d1e281">
         Ex isto eodem medio patet quod minus bene respondet ad instantiam de redemptione, arguit enim contra se sicut ego argui contra me supra, quod praeter amorem deitatis habet beatus amorem Filii inquantum est mediator sive redemptor, et non est redemptor nisi inquantum Deus homo, ut sic est bonum infinitum, igitur ut sic est obiectum fruibile, igitur beatus sic fruitur Filio et non alia persona.
@@ -212,9 +233,13 @@
         <p xml:id="b1d1q13-d1e325">
         Ex hiis satis patet quid sit dicendum ad titulum quaestionis.
         </p>
+        
         <p xml:id="b1d1q13-d1e328">
         Ad primum argumentum principale dicendum quod Filium esse meliorem Patre potest dupliciter intelligi, et, similiter, etiam, quod sit diligibilior, vel, scilicet, quod pluribus bonitatibus sit bonus, vel quod intentiori bonitate sit bonus et eodem modo diligibilior, quia pluribus dilectionibus vel pluribus modis diligere, vel quia intelligere. Et patet ulterius ex praedictis qualiter sit deductio, et per idem patet ad secundum argumentum principale.
         </p>
+        </div>
+        <div xml:id="b1-q13-Dd1e374">
+          <head xml:id="b1-q13-Hd1e376">Articulus 3</head>
         <p xml:id="b1d1q13-d1e331">
           <note type="marginal-note" place="margin">Tertium principale mg. M</note>
           <note type="marginal-note" place="margin">De istis propositionibus Trinitatem scivit se Deus diligere et consimilibus. L. mg. M</note>
@@ -296,8 +321,7 @@
         <p xml:id="b1d1q13-d1e428">
           Praeterea, per istum Verbum reputat iste se non diligere, et etiam Verbum est illud quod reputat se diligere, puta Deus per ipsum tunc sic ipse reputat Verbum se non diligere, igitur Verbum reputat non se diligere, quia da oppositum, et stabunt simul quod Verbum reputat ille se diligere et non diligere, et ultra, si Verbum non reputat se diligere, et Verbum est illud quod reputat se diligere, per eum, quod Verbum est Deus quem reputat se diligere, cuius oppositum deducit ad primam formam, et bene. Aliter igitur responsio negando minorem secundae formae, sicut et primae, et etiam conclusionem. Et cum ipse probat minorem per hoc quod Verbum quod reputat se non diligere est Deus quem scit se diligere, nego illud assumptum. Nam prima pars eius est falsa si secunda sit vera, ut prius deduxi. Secundum dubium sequens tenet re propter quod sic propter rationem ibi positam deducentem ad conclusionem falsam, cuius falsitatem probavi dummodo sit vera, ut supponit. Sed ego teneo contrarium propter illud argumentum ad contrarium, et ad probationem suam dico quod discursus non valet sed est fallacia accidentis, sicut et hic “Clinicus scio me percutere et non scio me percutere Clinicum, igitur quod scio me percutere Clinicum.” Praemissae sunt possibiles et compossibiles in veritate, et conclusio impossibilis. Igitur consequentia nulla tantum enim est quod Clinicus non scio esse Clinicum vel quod illud quod scio me percutere non scio esse Clinicum. Et eodem modo concedo in proposito quod bene sequitur quod Trinitatem non scio esse Trinitatem in sensu semper diviso loquendo, vel quod scio me diligere non scio esse Trinitatem, et hoc concedo, et causa est quia praedicatum appellat suam formam et quod in proposito idem est quod hic scit se diligere Trinitatem determinat sibi sensum compositionis vel infert illum.
         </p>
-        <p xml:id="b1d1q13-d1e431">
-        </p>
+        </div>
       </div>
     </body>
   </text>
