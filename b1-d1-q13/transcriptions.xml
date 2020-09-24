@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/tdf-schema/master/src/tdf-1.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<list>
+  <manifestation manifestationDefault="true">
+    <name>maz</name>
+    <title>Mazarine</title>
+    <transcriptions>
+      <transcription transcriptionDefault="true">
+        <type>diplomatic</type>
+        <version versionDefault="true">
+          <hash>transcription</hash>
+          <versionNo n="1.0.0-dev">Version 1.0.0-dev</versionNo>
+          <url>maz_b1-d1-q13.xml</url>
+        </version>
+        <version>
+          <hash>QmPyRD8mAGaKF7t4TQkCR9SEkeQDpjheq7eiCFQcLzXjAV</hash>
+          <versionNo n="1.0.0">Version 1.0.0</versionNo>
+          <url>https://gateway.scta.info/ipfs/QmPyRD8mAGaKF7t4TQkCR9SEkeQDpjheq7eiCFQcLzXjAV</url>
+          <!-- IPFS (Sha 256 base encode ?? QmPyRD8mAGaKF7t4TQkCR9SEkeQDpjheq7eiCFQcLzXjAV -->
+          <!-- SHA 256 7d70e7b5132acfc31eccff9344ce33a8d81557b52210a585e892958df69abf96 
+          commit 52d17618b80f39385af5a139552673ed2d39cecc
+          -->
+        </version>
+      </transcription>
+    </transcriptions>
+  </manifestation>
+    
+</list>
