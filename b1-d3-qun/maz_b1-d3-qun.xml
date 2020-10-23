@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +29,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
           guidelines for a diplomatic edition.</p>
@@ -45,8 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-      </div>
+      <div xml:id="include-list"> </div>
       <div xml:id="starts-on">
         <pb ed="#M" n="66-r"/>
         <cb ed="#M" n="b"/>
@@ -56,7 +59,11 @@
       <div xml:id="b1-d3-qun">
         <head xml:id="b1d3qun-Hd3d3d3">Distinctio 3, Quaestio Unica [Mazarine Transcription]</head>
         <div xml:id="b1d3qun-Dquuvet">
-          <head xml:id="b1d3qun-Hquuvet">Quaestio unica: Utrum mens humana sit<choice><orig>ymago</orig><reg>imago</reg></choice> Trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium eiusdem Trinitatis</head>
+          <head xml:id="b1d3qun-Hquuvet">Quaestio unica: Utrum mens humana sit<choice>
+              <orig>ymago</orig>
+              <reg>imago</reg>
+            </choice> Trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium
+            eiusdem Trinitatis</head>
           <p xml:id="b1d3qun-cdtvet">
             <lb ed="#M" n="11"/>Circa distinctionem tertiam quaero utrum mens humana sit <choice><orig>ymago</orig><reg>imago</reg></choice> trinitatis
             <lb ed="#M" n="12"/>increatae sicut in rebus aliis factis propter hominem est
@@ -64,7 +71,7 @@
           </p>
           <div xml:id="b1d3qun-Drprprp" type="rationes-principales">
             <head xml:id="b1d3qun-Hrprprp">Rationes Principales</head>
-              
+
             <p xml:id="b1d3qun-qnveid">
               quod non videtur quia secundum <ref><name ref="#Augustine">augustinum</name>
                 <lb ed="#M" n="14"/>in <title>sermone communi de uno martyre</title></ref> <quote xml:id="b1d3qun-Qd1e160">si servasset
@@ -72,7 +79,7 @@
               <lb ed="#M" n="16"/>servavit in se bonum illud secundum <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> dei et tamen si servat mentem
               <lb ed="#M" n="17"/>suam tunc mens humana non est <choice><orig>ymago</orig><reg>imago</reg></choice> dei <pc ana="#punctus"/>
             </p>
-              
+
             <p xml:id="b1d3qun-idteit">
             <pc ana="#pilcrow"/>Item <ref>14 <title ref="#deTrinitate">trinitate</title> capitulo 7 de parvis</ref>
               <lb ed="#M" n="18"/>dicit <del rend="expunctuated">n</del>iuxta illud <title ref="#ps">psalmum</title> verumtamen in <choice><orig>ymagine</orig><reg>imagine</reg></choice> pertransit homo quod haec <choice><orig>ymago</orig><reg>imago</reg></choice>
@@ -80,7 +87,7 @@
               <lb ed="#M" n="20"/>humana secundum substantiam suam integre manet cui secundum substantiam suam non est <choice><orig>ymago</orig><reg>imago</reg></choice>
               <lb ed="#M" n="21"/>trinitatis <pc ana="#punctus"/>
             </p>
-              
+
             <p xml:id="b1d3qun-immnsm">
             <pc ana="#pilcrow"/>Item mens maius esset <choice><orig>ymago</orig><reg>imago</reg></choice> dei quam homo quia unumquodque
               <lb ed="#M" n="22"/>propter quod et illud magis consequens falsum est quia homo magis est similis Deo quam mens
@@ -95,7 +102,7 @@
               <lb ed="#M" n="31"/>cum quocumque bono est melior quam ipsa solitaria igitur compositum ex ipsa et
               <lb ed="#M" n="32"/>corpore scilicet homo est nobilius sola mente
             </p>
-              
+
             <p xml:id="b1d3qun-ismnrd">
             <pc ana="#pilcrow"/>Item si mens humana sit <choice><orig>ymago</orig><reg>imago</reg></choice>
               <lb ed="#M" n="33"/>trinitatis increatae aut igitur ratione substantiae suae et hoc non quia illa repraesentat distinctionem
@@ -109,7 +116,7 @@
               <lb ed="#M" n="41"/>personae essent partes dei vel accidentia in eo et ita non deus si autem non tunc
               fa<lb ed="#M" n="42" break="no"/>ceret aestimare personas non realiter distingui <pc ana="#punctus"/>
             </p>
-              
+
             <p xml:id="b1d3qun-isqati">
             <pc ana="#pilcrow"/>Item specialiter quod mens non sit
               <lb ed="#M" n="43"/><choice><orig>ymago</orig><reg>imago</reg></choice> suorum actuum quia <ref>48 <title ref="#deTrinitate">trinitate</title> capitulo 6 de parvis dicit <name ref="#Augustine">augustinus</name></ref> quod <choice><orig>ymago</orig><reg>imago</reg></choice>
@@ -117,11 +124,11 @@
               <lb ed="#M" n="45"/>actus non immortaliter et ibidem etiam capitulo 5 vult <name ref="#Augustine">augustinus</name> quod <choice><orig>ymago</orig><reg>imago</reg></choice> illa non est
               <lb ed="#M" n="46"/>attendenda in rebus transeuntibus sed actus transeunt igitur <pc ana="#punctus"/>
             </p>
-              </div>
-              
-              <div xml:id="b1d3qun-Daomaom">
-              <head xml:id="b1d3qun-Haomaom">Oppositum</head>
-              
+          </div>
+
+          <div xml:id="b1d3qun-Daomaom">
+            <head xml:id="b1d3qun-Haomaom">Oppositum</head>
+
             <p xml:id="b1d3qun-aopmld">
             <pc ana="#pilcrow"/>Ad oppositum
               <lb ed="#M" n="47"/><ref><title ref="#gen">genesis</title> primo</ref> <quote>faciamus hominem ad <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> etc. </quote> et <name ref="#Augustine">augustinus</name> <ref><title ref="#DeGenesiAdLitteram">super genesem ad
@@ -130,14 +137,14 @@
               <lb ed="#M" n="50"/>quod <quote>in mente factus est homo ad <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> dei</quote> eiusdem sententiae est <ref><name ref="#Lombard">magister</name> in
               <lb ed="#M" n="51"/>littera libro 2 distinctione 26</ref>
             </p>
-              
+
             <p xml:id="b1d3qun-aieqce">
             <pc ana="#pilcrow"/>Ad idem est <ref><name ref="#Augustine">augustinus</name> 12 <title ref="#deTrinitate">de trinitate</title> capitulo 17 de parvis</ref> <quote><seg type="qs">nulli</seg>
               <lb ed="#M" n="52"/>inquit <seg type="qs">dubium est non secundum corpus neque secundum quamlibet aliam partem sed secundum mentem
               <lb ed="#M" n="53"/>rationalem ubi potest esse agnitio dei <quote>factum hominem ad<choice><orig>ymaginem</orig><reg>imaginem</reg></choice> eius qui
               crea<lb ed="#M" n="54" break="no"/>vit eum</quote></seg></quote>
             </p>
-              
+
             <p xml:id="b1d3qun-iehpep">
             <pc ana="#pilcrow"/>Tunc et haec auctoritas recte praetendit contrarium primae
               <lb ed="#M" n="55"/>et <pc ana="#punctus"/> secundae ad primam partem dicit enim <ref><name ref="#Augustine">augustinus</name> 14 <title ref="#deTrinitate">de trinitate</title> capitulo 14 de parvis</ref>
@@ -147,17 +154,17 @@
               per<lb ed="#M" n="59" break="no"/>manere eo quippe proprie est quo capax eius est eiusque particeps
               <lb ed="#M" n="60"/>esse potest</quote>
             </p>
-              
+
             <p xml:id="b1d3qun-qsalpd">
             <pc ana="#pilcrow"/>Quinto sunt ad idem istam partem auctoritates aliae multae tam quo
               <lb ed="#M" n="61"/>ad<choice><orig>ymaginem</orig><reg>imaginem</reg></choice> quam quo ad vestigium quas ponit <name ref="#Lombard">magister</name> in littera praesentis
               <lb ed="#M" n="62"/>distinctionis et libro 2 et aliquas alias distinctione 16
             </p>
-              </div>
-              
-              <div xml:id="b1d3qun-Ddqdqdq">
-              <head xml:id="b1d3qun-Hdqdqdq"><supplied>Divisio quaestionis</supplied></head>
-              
+          </div>
+
+          <div xml:id="b1d3qun-Ddqdqdq">
+            <head xml:id="b1d3qun-Hdqdqdq"><supplied>Divisio quaestionis</supplied></head>
+
             <p xml:id="b1d3qun-iiqadm">
             <pc ana="#pilcrow"/>In ista quaestione est conclusio certa
               <lb ed="#M" n="63"/>quod sic <pc ana="#punctus"/> <pc ana="#pilcrow"/>Sed videndum quare sit in creatura vestigium <sic>trinitati</sic> in homine <choice><orig>ymago</orig><reg>imago</reg></choice>
@@ -170,14 +177,17 @@
               <!--  -->
               <lb ed="#M" n="1"/>et <pc ana="#punctus"/> Secundo contra dicta aliqua dubia movebuntur
             </p>
-              </div>
-              
-              <div xml:id="b1d3qun-Dpaspas" type="articulus">
-              <head xml:id="b1d3qun-Hpaspas">Primus articulus</head>
-              <div xml:id="b1d3qun-Dccvvei">
-              <head xml:id="b1d3qun-Hccvvei">Conditiones communes vestigio et<choice><orig>ymagini</orig><reg>imagini</reg></choice></head>
-              
-            <p xml:id="b1d3qun-cpcscc">
+          </div>
+
+          <div xml:id="b1d3qun-Dpaspas" type="articulus">
+            <head xml:id="b1d3qun-Hpaspas">Primus articulus</head>
+            <div xml:id="b1d3qun-Dccvvei">
+              <head xml:id="b1d3qun-Hccvvei">Conditiones communes vestigio et<choice>
+                  <orig>ymagini</orig>
+                  <reg>imagini</reg>
+                </choice></head>
+
+              <p xml:id="b1d3qun-cpcscc">
               <note type="marginal-note" place="margin-left">primus articulus</note>
               <note type="marginal-note" place="margin-bottom">Qui est vestigium et qui<choice><orig>ymago</orig><reg>imago</reg></choice> et quodammodo in creaturis sit vestigium et in anima<choice><orig>ymago</orig><reg>imago</reg></choice> trinitatis</note>
             <pc ana="#pilcrow"/>Contra primum sciendum quod
@@ -193,11 +203,11 @@
               rememo<lb ed="#M" n="11" break="no"/>rationis alterius rei habitualiter notae ita quod notitia habitualis necessario
               <lb ed="#M" n="12"/>concurrit <choice><orig>sicud</orig><reg>sicut</reg></choice> causa compartialis <pc ana="#punctus"/>
             </p>
-              </div>
-              <div>
+            </div>
+            <div>
               <head>Opinio Ockham</head>
-              
-            <p xml:id="b1d3qun-idovis">
+
+              <p xml:id="b1d3qun-idovis">
               <note type="marginal-note" place="margin-left">Ockham</note>
             <pc ana="#pilcrow"/>Istud declarat <name ref="#Ockham">Ockham</name> per experientiam
               <lb ed="#M" n="13"/>et bene posito enim quod quis nullam penitus habeat cognitionem de
@@ -209,36 +219,39 @@
               <lb ed="#M" n="19"/>et statuae poterit recordari <name ref="#Hercules">Herculis</name> et posito quod numquam prius vidisset
               <lb ed="#M" n="20"/>illam statuam <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-sehids">
+
+              <p xml:id="b1d3qun-sehids">
             <pc ana="#pilcrow"/>Similem etiam huius est quod aliquando videntes arborem vel
               <lb ed="#M" n="21"/>lapidem a remotis statim cogitamus de homine et aestimamus ibi
               sta<lb ed="#M" n="22" break="no"/>re hominem quod utique non contingeret nisi praehabita notitia habituali hominis
               <lb ed="#M" n="23"/>cum lapis vel arbor non contineat virtualiter primam notitiam hominis et
               <lb ed="#M" n="24"/>ita de similibus <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-eseqda">
+
+              <p xml:id="b1d3qun-eseqda">
             <pc ana="#pilcrow"/>Et sicut est de <choice><orig>ymagine</orig><reg>imagine</reg></choice> <name ref="#Hercules">herculis</name> respectu rememorationis
               <lb ed="#M" n="25"/><name ref="#Hercules">Herculis</name> tertia est de vestigio quod quis videat vestigium <sic>bovia</sic>
               <lb ed="#M" n="26"/>recordabitur de bove habitualiter viso sed si numquam prius habuisset
               <lb ed="#M" n="27"/>aliquam notitiam de bove non plus recordaretur de bove quam de asino<pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-peiuaa">
+
+              <p xml:id="b1d3qun-peiuaa">
               <lb ed="#M" n="28"/><pc ana="#pilcrow"/>per istum etiam modum duo similia possent mutuo ducere in
               <lb ed="#M" n="29"/>notitiam similis recordativam prius noti propter similem unius ad aliud<pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aeppit">
+
+              <p xml:id="b1d3qun-aeppit">
               <lb ed="#M" n="30"/><pc ana="#pilcrow"/>Aliae etiam possent assignari conditiones in quibus conveniunt sed sunt minoris
               <lb ed="#M" n="31"/>ponderis ideo transeo <pc ana="#punctus"/>
             </p>
-              
+
               <div>
-              <head>Differentia inter vestigium et<choice><orig>ymaginem</orig><reg>imaginem</reg></choice></head>
-              
-            <p xml:id="b1d3qun-advqah">
+                <head>Differentia inter vestigium et<choice>
+                    <orig>ymaginem</orig>
+                    <reg>imaginem</reg>
+                  </choice></head>
+
+                <p xml:id="b1d3qun-advqah">
             <pc ana="#pilcrow"/>Sed <quote>differunt vestigium et <choice><orig>ymago</orig><reg>imago</reg></choice> quia de ratione
               <lb ed="#M" n="32"/>vestigii est quod causetur ab illo in specie cuius est vestigium aliquo modo
               <lb ed="#M" n="33"/><choice><orig>sicud</orig><reg>sicut</reg></choice> patet inductive de vestigio bovis combustionis et sic de
@@ -246,8 +259,8 @@
               <lb ed="#M" n="35"/>de ratione autem <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> non est quod causetur ab illo cuius est <choice><orig>ymago</orig><reg>imago</reg></choice> sufficit
               <lb ed="#M" n="36"/>enim quod<choice><orig>ymago</orig><reg>imago</reg></choice> <name ref="#Hercules">herculis</name> ab alio causetur quam ab <name ref="#Hercules">hercule</name></quote>
             </p>
-              
-            <p xml:id="b1d3qun-ntqiqr">
+
+                <p xml:id="b1d3qun-ntqiqr">
             <pc ana="#pilcrow"/>Nota tamen quod
               <lb ed="#M" n="37"/>strictissime seu propriissime et non sic communiter ut prius loquendo de <choice><orig>ymagine</orig><reg>imagine</reg></choice>
               <lb ed="#M" n="38"/>de ratione <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> est quod ipsa sit similitudo expressa seu genita ab
@@ -261,8 +274,8 @@
               <lb ed="#M" n="46"/>repraesentandum facta est sicut<choice><orig>ymago</orig><reg>imago</reg></choice> <name ref="#JuliusCaesar" type="variable">caesaris</name> quae ipsius similitudinem praeferebat
               <lb ed="#M" n="47"/>ipsum quodammodo repraesentabat</seg></quote> <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ehdspi">
+
+                <p xml:id="b1d3qun-ehdspi">
             <pc ana="#pilcrow"/>Ex hac differentia sequitur alia quod
               <lb ed="#M" n="48"/>vestigium ducit vel ducere potest non tantum in notitiam complexam
               re<lb ed="#M" n="49" break="no"/>cordativam illius cuius est habitualiter noti sed etiam incomplexas alias sibi conformes
@@ -273,8 +286,8 @@
               pertran<lb ed="#M" n="54" break="no"/>sivit</quote> et huiusmodi
             <pc ana="#pilcrow"/>Vestigium autem et <choice><orig>ymago</orig><reg>imago</reg></choice> multipliciter accipiunt sicut patet in <name ref="#Ockham">okam</name>
             </p>
-              
-            <p xml:id="b1d3qun-qaqndr">
+
+                <p xml:id="b1d3qun-qaqndr">
               <lb ed="#M" n="55"/>qualiter autem quaelibet creatura potest aliquo modo dici vestigium trinitatis pro quanto
               <lb ed="#M" n="56"/>scilicet quod in ea sicut unitas speciei et ordo possit aliquo modo
               <lb ed="#M" n="57"/>dici vestigium ducere in notitiam appropriatorum divinis personis incomplexam
@@ -282,8 +295,8 @@
               <lb ed="#M" n="59"/>bene <name ref="#Ockham">okham</name> quaestione de vestigio articulo primo et etiam ibidem in quibus in creatura
               consis<lb ed="#M" n="60" break="no"/>tit vestigium quia aliquando in distinctis realiter aliquando in non distinctis realiter
             </p>
-              
-            <p xml:id="b1d3qun-esiidp">
+
+                <p xml:id="b1d3qun-esiidp">
             <pc ana="#pilcrow"/>Et
               <lb ed="#M" n="61"/>similiter in quaestione de <choice><orig>ymagine</orig><reg>imagine</reg></choice> articulo secundo primo illius in <choice><orig>oppinione</orig><reg>opinione</reg></choice> propria docet qualiter
               <lb ed="#M" n="62"/>in creatura rationali magis dicitur esse <choice><orig>ymago</orig><reg>imago</reg></choice> quam in aliqua alia creatura <pc ana="#punctus"/> <pc ana="#pilcrow"/>Et conclusio consequenter
@@ -301,8 +314,8 @@
               <lb ed="#M" n="68"/>consequens exprimit anima cum illis actibus ordinem et originem aliter diversas
               <lb ed="#M" n="69"/>personas <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-qaacee">
+
+                <p xml:id="b1d3qun-qaacee">
             <pc ana="#pilcrow"/>Quod autem actus volendi sit effective ab actu intellegendi
               <lb ed="#M" n="70"/>probat et bene et ego concedo conclusionem et teneo eam pro illa distinctione prima quia
               <lb ed="#M" n="71"/>omne absolutum necessario praesuppositum alteri habet respectu illius in aliquo genere
@@ -311,18 +324,18 @@
               <lb ed="#M" n="73"/><ref><name ref="#Scotus">scotus</name> distinctione 3 primi</ref> et utitur illa quia secundum eum omnis effectus absolutus sufficienter
               <lb ed="#M" n="74"/>dependet a suis causis essentialibus igitur etc.
             </p>
-              
+
               </div>
-              </div>
-              </div>
-              
-              <div xml:id="b1d3qun-Dseclus" type="articulus">
-              <head xml:id="b1d3qun-Hseclus"><supplied>Secundus Articulus</supplied></head>
-              
-              <div xml:id="b1d3qun-Dsaprdu" type="dubium">
+            </div>
+          </div>
+
+          <div xml:id="b1d3qun-Dseclus" type="articulus">
+            <head xml:id="b1d3qun-Hseclus"><supplied>Secundus Articulus</supplied></head>
+
+            <div xml:id="b1d3qun-Dsaprdu" type="dubium">
               <head><supplied>Primum Dubium</supplied></head>
-              
-            <p xml:id="b1d3qun-scihri">
+
+              <p xml:id="b1d3qun-scihri">
               <note type="marginal-note" place="margin-right">secundus articulus</note>
               <note type="summary">Quodammodo licet in anima sic<choice><orig>ymago</orig><reg>imago</reg></choice> Trinitatis non tamen est omnimoda conformalitas M</note>
             <pc ana="#pilcrow"/>Pro secundo articulo
@@ -331,22 +344,22 @@
               <lb ed="#M" n="77"/>quia <choice><orig>ymago</orig><reg>imago</reg></choice> necessario requirit distinctionem <unclear>aliam <!-- could be aliquam --></unclear> <pc ana="#punctus"/> sed in substantia animae nulla
               <lb ed="#M" n="78"/>est distinctio igitur nullo modo habet rationem <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-siqcie">
+
+              <p xml:id="b1d3qun-siqcie">
             <pc ana="#pilcrow"/>Item quod tunc in
               <lb ed="#M" n="79"/>substantia animae et 2us actibus <pc ana="#punctus"/> videtur quod inter partes <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> debet esse
               con<lb ed="#M" n="80" break="no"/>substantialitas
               <add place="margin-left" hand="different">sed</add> inter substantiam animae et illius actus nulla est consubstantialitas igitur
               <lb ed="#M" n="81"/>etc. <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-tisine">
+
+              <p xml:id="b1d3qun-tisine">
             <pc ana="#pilcrow"/>Item ut supra secundum <ref><name ref="#Augustine">augustinus</name> 18 <title ref="#deTrinitate">de trinitate</title> capitulo 3 de magnis</ref> <choice><orig>ymago</orig><reg>imago</reg></choice>
               <lb ed="#M" n="82"/>dei in creatura rationali est immortalis <pc ana="#punctus"/> sed isti actus 2i non sunt
               immorta<lb ed="#M" n="83" break="no"/>les nec incorruptibiles igitur <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-qisqfe">
+
+              <p xml:id="b1d3qun-qisqfe">
             <pc ana="#pilcrow"/>Item secundum hoc posset in mente rationali
               <lb ed="#M" n="84"/>invenire <choice><orig>ymago</orig><reg>imago</reg></choice> respectu cuiuslibet obiecti intelligibilis et divisibilis cuius oppositum innuit
               <lb ed="#M" n="85"/><ref><name ref="#Augustine">augustinus</name> 12 <title ref="#deTrinitate">trinitate</title> capitulo 4 de magnis</ref> in eo solo quod ad contemplationem
@@ -357,16 +370,16 @@
               <lb ed="#M" n="89"/>trinitas mentis <choice><orig>ymago</orig><reg>imago</reg></choice> dei quia sui meminit mens et intelligit
               <lb ed="#M" n="90"/>ac diligit intelligere et memorare et amare eum a quo facta est <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-qqscie">
+
+              <p xml:id="b1d3qun-qqscie">
               <lb ed="#M" n="91"/><pc ana="#pilcrow"/>5o quia eadem ratione in parte sensitiva esset<choice><orig>ymago</orig><reg>imago</reg></choice> trinitatis nam etiam
               <lb ed="#M" n="92"/>sibi substantia animae cum obiecto comprincipat cognitionem et cum cognitione actum
               <lb ed="#M" n="93"/>apprehendi sensitivum ibi igitur aeque <add place="above-line">est</add> <seg type="correction">ori<subst><del>d</del><add place="above-line">g</add></subst>inatio</seg> et ordo conformis trinitati <choice><orig>sicud</orig><reg>sicut</reg></choice>
               <lb ed="#M" n="94"/>in intellectu dato quod sic sit assignanda ratio <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> consequens non conceditur
               <lb ed="#M" n="95"/>etc
             </p>
-              
-            <p xml:id="b1d3qun-rapaoe">
+
+              <p xml:id="b1d3qun-rapaoe">
             <pc ana="#pilcrow"/>ad primum verum est quod ad salvandum rationem <choice><orig>ymaginis</orig><reg>imaginis</reg></choice>
               <lb ed="#M" n="96"/>in mente rationali aliqui ponunt aliquam distinctionem vel non <choice><orig>ydentitatem</orig><reg>identitatem</reg></choice> inter substantiam
               <lb ed="#M" n="97"/>animae et intellectum et voluntatem sicut <ref><name ref="#Scotus">scotus</name> in 4 distinctione 16</ref> per eundem
@@ -375,8 +388,8 @@
               <lb ed="#M" n="100"/>quia et si plures potentiae essent idem requiritur non salvaretur inter illas potentias
               <lb ed="#M" n="101"/><choice><orig>alica</orig><reg>aliqua</reg></choice> originatio etc. <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-sqeesa">
+
+              <p xml:id="b1d3qun-sqeesa">
               sed quia ego non teneo ibi talem distinctionem inter
               <lb ed="#M" n="102"/>potentias animae dico cum <name ref="#Scotus">doctore subtili</name> et <name ref="#Lombard">magistro</name> in littera in ista
               <lb ed="#M" n="103"/>distinctione 3 quod non potest in nobis reperiri similitudo <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> ad <sic>prototipum <!-- could be prototypum --></sic> quia
@@ -388,8 +401,8 @@
               <lb ed="#M" n="109"/>maxime hoc non est inconveniens de illo in quo tantum principale et virtualiter
               <lb ed="#M" n="110"/>consistit ratio <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> cuius est substantia animae igitur etc. <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-asdssa">
+
+              <p xml:id="b1d3qun-asdssa">
               Ad secundum dico quod
               <lb ed="#M" n="111"/>in consubstantialitate deficit <choice><orig>ymago</orig><reg>imago</reg></choice> a trinitate personarum inter quas est
               consubstantiali<lb ed="#M" n="112" break="no"/>tas verum est tamen quod <choice><orig>alica</orig><reg>aliqua</reg></choice> possunt haberi signa expressiva istarum partium
@@ -399,8 +412,8 @@
               <lb ed="#M" n="116"/>dicuntur ad invicem quod non esset nisi significarent <choice><orig>alica</orig><reg>aliqua</reg></choice> distincta quae sunt
               <lb ed="#M" n="117"/>substantia animae <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-atdmiv">
+
+              <p xml:id="b1d3qun-atdmiv">
             <pc ana="#pilcrow"/>ad 3 dico quod aliquando per quae exprimuntur distinctae partes
               <lb ed="#M" n="118"/><choice><orig>ymaginis</orig><reg>imaginis</reg></choice> numquam vere removentur ab anima rationali <pc ana="#punctus"/> unde haec pro specie
               <lb ed="#M" n="119"/>vera et <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> si formetur anima est intelligentia memoria et voluntas nec aliud
@@ -408,8 +421,8 @@
               <lb ed="#M" n="121"/><choice><orig>necessario</orig><reg>neccessario</reg></choice> et immortaliter est talis qualis exprimitur cum de memoria intelligentia
               <lb ed="#M" n="122"/>et voluntas <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aqbiao">
+
+              <p xml:id="b1d3qun-aqbiao">
               Ad 4 bene respondet <name ref="#Scotus">scotus</name> quod respectu dei ut obiecti rerum
               <lb ed="#M" n="123"/>in mente causata ultima et perfectissima <seg type="correction">ratio<del rend="erasure">nis</del></seg> <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> quia tunc illa tria
               <lb ed="#M" n="124"/>non solum sunt expressa similitudo trinitatis increatae <pc ana="#pilcrow"/>Ex hoc quod sunt 3es
@@ -427,8 +440,8 @@
               <lb ed="#M" n="3"/>obiectiva correspondens quodammodo in mente trinitati subiectivae quod non
               <lb ed="#M" n="4"/>contingit in aliis obiectis <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aqetis">
+
+              <p xml:id="b1d3qun-aqetis">
             <pc ana="#pilcrow"/>Ex istis patet ad 5m quod perfectissima
               <lb ed="#M" n="5"/>ratio <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> possibilis haberi in creatura respectu trinitatis non est in anima et actibus
               <lb ed="#M" n="6"/>sensitivis quia <subst><del rend="strikethrough">ibi</del><add place="above-line">illi</add></subst> actus non possunt habere deum pro obiecto tamen videtur mihi
@@ -441,18 +454,18 @@
               est vere bruto verbi tales formae sunt extensae et ideo est
               <lb ed="#M" n="13"/>perfectior similitudo ad trinitatem increatam simplicissimam <pc ana="#punctus"/>
             </p>
-              </div>
-                <div xml:id="b1d3qun-Dsasedu" type="dubium">
-                  <head xml:id="b1d3qun-Hsecdub"><supplied>Secundum Dubium</supplied></head>
-                  <p xml:id="b1d3qun-spevqn">
+            </div>
+            <div xml:id="b1d3qun-Dsasedu" type="dubium">
+              <head xml:id="b1d3qun-Hsecdub"><supplied>Secundum Dubium</supplied></head>
+              <p xml:id="b1d3qun-spevqn">
                     <note type="marginal-note" place="margin-left">dubium</note>
                     2m dubium
                     <lb ed="#M" n="14"/>principale est utrum 2 pars <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> creatae scilicet actus intensis
                     <lb ed="#M" n="15"/>gignatur a prima scilicet a memoria 
                   </p>
-                  <div xml:id="b1d3qun-Drpppds">
-                    <head xml:id="b1d3qun-Hrpppds">Rationes principales pro dubio secundo</head>
-                    <p xml:id="b1d3qun-pqqsee">
+              <div xml:id="b1d3qun-Drpppds">
+                <head xml:id="b1d3qun-Hrpppds">Rationes principales pro dubio secundo</head>
+                <p xml:id="b1d3qun-pqqsee">
                       et videtur quod non <pc ana="#punctus"/> quia quid vocaretur
                       <lb ed="#M" n="16"/>ibi memoria vel nuda substantia animae et illa non sufficit sine obiecto vel
                       <lb ed="#M" n="17"/>specie vel habitu principare actum tunc enim semper intelligeret <choice><orig>sicud</orig><reg>sicut</reg></choice> arguit <ref><name ref="#Aristotle">philosophus</name> 2
@@ -467,8 +480,8 @@
                       so<lb ed="#M" n="23" break="no"/>nantis
                       id est sonare est eadem
                     </p>
-              
-            <p xml:id="b1d3qun-ssqsap">Similiter quod actualis intellectio non distinguitur
+
+                <p xml:id="b1d3qun-ssqsap">Similiter quod actualis intellectio non distinguitur
               <lb ed="#M" n="24"/>ab habitu videtur quod ille generaretur ex actibus et tunc statim
               <lb ed="#M" n="25"/>haberetur habitus et actus perfectissimus receptibilis in tali potentia cum haberetur
               <lb ed="#M" n="26"/>primus actus causativus habitus <pc ana="#punctus"/> <pc ana="#pilcrow"/>consequens falsum consequentia patet quia primus
@@ -483,9 +496,9 @@
             </p>
               </div>
               <div>
-              <head>Responsio ad secundum dubium</head>
-              
-            <p xml:id="b1d3qun-aidicd">
+                <head>Responsio ad secundum dubium</head>
+
+                <p xml:id="b1d3qun-aidicd">
             <pc ana="#pilcrow"/>ad istud dubium dico ad praesens quod <choice><orig>ymmo</orig><reg>immo</reg></choice> intellectio
               <lb ed="#M" n="34"/>actualis distinguitur proles a memoria scilicet ab actu existens in actu primo
               <lb ed="#M" n="35"/>sufficienti respectu intellectionis gignendae vel per praesentiam obiecti respectu primi actus
@@ -502,8 +515,8 @@
               <lb ed="#M" n="45"/>inquit cognitio ab ea re quam scimus verbum quicquid cordis
               <lb ed="#M" n="46"/>dicimus
             </p>
-              
-            <p xml:id="b1d3qun-icdpad">
+
+                <p xml:id="b1d3qun-icdpad">
               Item capitulo 28 dicit quod verbum gignitur de scientia
               <lb ed="#M" n="47"/>quae manet in anima capitulo 36 simile ex quibus et utentis similibus eius
               <lb ed="#M" n="48"/>auctoritatibus satis patet quod <name ref="#Augustine">augustinus</name> sensit intellectualem intellectionem realiter
@@ -513,9 +526,9 @@
             </p>
               </div>
               <div xml:id="b1d3qun-Dacracr">
-              <head xml:id="b1d3qun-Hacracr">Argumenta contra responsionem</head>
-              
-            <p xml:id="b1d3qun-pctdqg">contra tamen hanc sententiam eius et meam quin potest per argumenta
+                <head xml:id="b1d3qun-Hacracr">Argumenta contra responsionem</head>
+
+                <p xml:id="b1d3qun-pctdqg">contra tamen hanc sententiam eius et meam quin potest per argumenta
               <lb ed="#M" n="52"/>eorum qui tenent quod actualis cogitatio potest <add place="in-line" hand="different">remanendo</add> in mente subiective
               <lb ed="#M" n="53"/>cessare esse intellectio ita quod tunc remaneat ista qualitas non
               <lb ed="#M" n="54"/>existendo tunc intellectio sed species vel habitus <pc ana="#punctus"/> igitur illud idem quod est
@@ -530,8 +543,8 @@
               <lb ed="#M" n="62"/>actu ab habitu vel specie 9 <title ref="#deTrinitate">de trinitate</title> capitulo 15 et multis locis actualis
               <lb ed="#M" n="63"/>cogitatio est simillima speciei de qua gignitur
             </p>
-              
-            <p xml:id="b1d3qun-siecva">
+
+                <p xml:id="b1d3qun-siecva">
             <pc ana="#pilcrow"/>Item eodem actu
               <!-- -->
               <!-- -->
@@ -544,23 +557,23 @@
               <lb ed="#M" n="66"/>ratione posset manere et sic non esse intellectio istius cuius fuit intellectus
               <lb ed="#M" n="67"/>pari ratione et cuius vis alterius
             </p>
-              
-            <p xml:id="b1d3qun-tpcrdi">
+
+                <p xml:id="b1d3qun-tpcrdi">
               Praeterea cum diligo uno
               <lb ed="#M" n="68"/>actu virtuoso omnes bonos si quis eorum me ignorante aut
               <lb ed="#M" n="69"/>malus cesso illum illo amore diligere quo eum dilexi
               <lb ed="#M" n="70"/>omnes tales bonos quia tales et tamen non cessat iste actus igitur pari
               <lb ed="#M" n="71"/>ratione de intellectione
             </p>
-              
-            <p xml:id="b1d3qun-qpnrdi">
+
+                <p xml:id="b1d3qun-qpnrdi">
               Praeterea nihil diligitur nisi cognitum sed cognitio
               <lb ed="#M" n="72"/>potest a deo destrui sine destructione qualitatis quae est distinctio
               <lb ed="#M" n="73"/>igitur tunc remanebit et tamen non esset dilectio et pari ratione de
               in<lb ed="#M" n="74" break="no"/>tellectione <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-qppepv">
+
+                <p xml:id="b1d3qun-qppepv">
               Praeterea ponatur dilectio qua <name ref="#Sortes">Sortes</name> diligit seipsum in <name ref="#Plato">platone</name>
               <lb ed="#M" n="75"/>tunc <name ref="#Plato">plato</name> experietur se diligere igitur aliquid diligetur per istam
               <lb ed="#M" n="76"/>dilectionem qua prius et non diligetur per eam illud quod prius <pc ana="#pilcrow"/>
@@ -573,8 +586,8 @@
               <lb ed="#M" n="81"/><name ref="#Plato">platone</name> <name ref="#Plato">plato</name> experietur se intelligere angelum igitur similiter etc. <pc ana="#punctus"/> per
               <lb ed="#M" n="82"/>volitionem <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-spdsdv">
+
+                <p xml:id="b1d3qun-spdsdv">
             <pc ana="#pilcrow"/>Praeterea dilectio <name ref="#Sortes">sortis</name> et odium <name ref="#Plato">platonis</name> naturaliter compatiuntur
               <lb ed="#M" n="83"/>se in voluntate <name ref="#Sortes">sortis</name> igitur cum odium <name ref="#Sortes">sortis</name> et odium <name ref="#Plato">platonis</name> sint
               <lb ed="#M" n="84"/>qualitates eiusdem speciei cum qualibet forma in subiecto aliquo potest una stare
@@ -584,8 +597,8 @@
               <lb ed="#M" n="88"/>odium <name ref="#Sortes">sortis</name> et pari ratione potest hoc contingere de cogitatione sicut de
               <lb ed="#M" n="89"/>volitione igitur <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-spvive">
+
+                <p xml:id="b1d3qun-spvive">
             <pc ana="#pilcrow"/>praeterea visio <unclear>7a</unclear> potest esse in sensu quando ipsa non erit visio
               <lb ed="#M" n="90"/>igitur similiter de intellectione in intellectu antecedens probatur quia pars <choice><orig>alica</orig><reg>aliqua</reg></choice> intellectualis
               <lb ed="#M" n="91"/>albedinis pedalis visae ab aliqua distantia multo minor
@@ -595,8 +608,8 @@
               <lb ed="#M" n="94"/>cessaret visibiliter sine hoc quod ista qualitatis cessaret esse quae nunc
               <lb ed="#M" n="95"/>est visio eius igitur etc
             </p>
-              
-            <p xml:id="b1d3qun-qinros">
+
+                <p xml:id="b1d3qun-qinros">
             <pc ana="#pilcrow"/>Illa nunc non videatur patet quia si tota
               <lb ed="#M" n="96"/>albedo secundum superficiem versum ad colum videtur quaelibet eius pars secundum
               <lb ed="#M" n="97"/>eandem superficiem videtur tamen quod quaelibet talis pars cooperatur ad visionem
@@ -613,8 +626,8 @@
               <lb ed="#M" n="108"/>delectatur appetitus huiusmodi ita minor visio ceteris paribus imperfectius
               <lb ed="#M" n="109"/>repraesentat obiectum suum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-oivthc">
+
+                <p xml:id="b1d3qun-oivthc">
               Item vel oportet hoc ponere scilicet quod non est dare
               <lb ed="#M" n="110"/>minimum visibile ab <pc ana="#punctus"/><c>a</c><pc ana="#punctus"/> distantia <pc ana="#punctus"/> vel quod si sic tunc erit dare
               <lb ed="#M" n="111"/>ultimum rei permanentis in esse puta visionis illius albedinis scilicet ab
@@ -622,8 +635,8 @@
               <lb ed="#M" n="113"/>paribus utrumque 2m apud alios <pc ana="#punctus"/> est inconveniens igitur tales habens
               <lb ed="#M" n="114"/>concedere primum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-npspev">
+
+                <p xml:id="b1d3qun-npspev">
             <pc ana="#pilcrow"/>praeterea si parte albedinis visae per superficiem
               <lb ed="#M" n="115"/>visam ad oculum continue corrumpatur secundum latum donec residuae
               <lb ed="#M" n="116"/>cessent videri a bruto quaero autem in omni instanti habet tale brutum
@@ -637,8 +650,8 @@
               <lb ed="#M" n="124"/>igitur oportet quod haec sit quia eadem qualitas manens cessat esse visio
               <lb ed="#M" n="125"/>illorum quorum prius erat visio <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-dpspau">
+
+                <p xml:id="b1d3qun-dpspau">
               praeterea sit albedo <c>a</c> visa visione
               <lb ed="#M" n="126"/><c>b</c> et post hoc instans ponatur una alia albedo simillima quae vocetur <c>c</c>
               
@@ -665,8 +678,8 @@
               <lb ed="#M" n="14"/>speciei consequens est falsum tunc enim periret via probandi per indeterminatam
               <lb ed="#M" n="15"/>aliam universalem <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-sidapi">
+
+                <p xml:id="b1d3qun-sidapi">
             <pc ana="#pilcrow"/>Similiter <ref>primo <name ref="#Aristotle"/> <title ref="#deCaelo">de caelo</title></ref> arguitur quod si haec terra
               na<lb ed="#M" n="16" break="no"/>ta sit descendere ad centrum hoc quod quaelibet terra istius mundi
               <lb ed="#M" n="17"/>vel alterius nata sit descendere ad hoc centrum et sicut habere
@@ -677,8 +690,8 @@
               <lb ed="#M" n="22"/>his ibi <unclear>78</unclear> <pc ana="#punctus"/> <pc ana="#pilcrow"/>Sed haec ratio <name ref="#Aristotle">philosophi</name> non valet negato principio
               <lb ed="#M" n="23"/>hic assumpto ad propositum igitur <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-uiiqao">
+
+                <p xml:id="b1d3qun-uiiqao">
               <pc ana="#pilcrow"/>Item intellectus qui modo non intelligit
               <lb ed="#M" n="24"/>per intellectionem <c>a</c> potest intelligere per <c>a</c> igitur similiter obiectum modo non
               <lb ed="#M" n="25"/>intellectum per <c>a</c> poterit per ipsum intelligi loquor de intellectionibus
@@ -686,7 +699,7 @@
               <lb ed="#M" n="27"/>in Platone et consequentia patet quia notitia essentialius dependet a subiecto quam
               <lb ed="#M" n="28"/>ab obiecto <pc ana="#punctus"/>
             </p>
-            <p xml:id="b1d3qun-diciad">
+                <p xml:id="b1d3qun-diciad">
               <pc ana="#pilcrow"/>Item conceptus numerales omnes sunt eiusdem speciei aliter partes
               <lb ed="#M" n="29"/>albedinis divisae possent causare infinitas qualitates specifice distinctas
               <lb ed="#M" n="30"/>nam illis visis potest intellectus habere conceptus numerales quot sibi formare
@@ -695,15 +708,15 @@
               <lb ed="#M" n="33"/>alius cui fuit simillimus quia si quid convenit uni simillimorum simile convenit
               <lb ed="#M" n="34"/>vel convenire potest reliquo aliter sequitur inconveniens illatum in argumento 10 <pc ana="#punctus"/>
             </p>
-              
-              
-            <p xml:id="b1d3qun-tdienm">
+
+
+                <p xml:id="b1d3qun-tdienm">
               <lb ed="#M" n="35"/><pc ana="#pilcrow"/> Item si oculus videat continue aliquid prius motum et post
               <lb ed="#M" n="36"/>quiescens eadem visio quae prius repraesentavit motum
               re<lb ed="#M" n="37" break="no"/>praesentabit quietem et non motum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-qdipie">
+
+                <p xml:id="b1d3qun-qdipie">
             <pc ana="#pilcrow"/>Item quaelibet pars
               <lb ed="#M" n="38"/>quantitativa visionis bruti quae visio est visio perceptiva
               <lb ed="#M" n="39"/>vel perceptio et multae sunt partes ita minime quod si essent per se
@@ -716,14 +729,14 @@
               <lb ed="#M" n="46"/>perceptio et praeter haec sunt eiusdem speciei igitur si una est perceptio
               <lb ed="#M" n="47"/>et reliqua igitur etc. <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-psvasp">
+
+                <p xml:id="b1d3qun-psvasp">
             <pc ana="#pilcrow"/>Praeterea si visio vel intellectio separarentur
               <lb ed="#M" n="48"/>a subiectis suis non essent cognitiones igitur quod sint cognitiones
               <lb ed="#M" n="49"/>accidit eis cum antecedens sit impossibile
             </p>
-              
-            <p xml:id="b1d3qun-sdipie">
+
+                <p xml:id="b1d3qun-sdipie">
             <pc ana="#pilcrow"/>Item per <ref><name ref="#Aristotle">Philosophum</name> 7 <title ref="#Physics">Physicorum</title></ref>
               <lb ed="#M" n="50"/>ad qualitates de prima specie non est motus quia sunt ad aliquid <pc ana="#punctus"/> <pc ana="#pilcrow"/> Istud
               <lb ed="#M" n="51"/>quia non sufficit nisi specialiter intellectum quia omnia de mundo sunt ad aliquid
@@ -733,18 +746,19 @@
               <lb ed="#M" n="55"/>augeatur tunc habetur propositum et cum hoc declaratum est dictum <name ref="#Aristotle">philosophi</name>
               <lb ed="#M" n="56"/>igitur etc.<pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aeahio">
+
+                <p xml:id="b1d3qun-aeahio">
             <pc ana="#pilcrow"/>Aliqua etiam argumenta sunt quae apud me nullum vel
               mo<lb ed="#M" n="57" break="no"/>dicum habent colorem ideo omittantur <pc ana="#punctus"/>
             </p>
-              
+
               </div>
-              
+
               <div xml:id="b1d3qun-Drpapaa">
-              <head xml:id="b1d3qun-Hrpapaa"><supplied>Responsio propria ad argumenta</supplied></head>
-              
-            <p xml:id="b1d3qun-inoads">
+                <head xml:id="b1d3qun-Hrpapaa"><supplied>Responsio propria ad
+                  argumenta</supplied></head>
+
+                <p xml:id="b1d3qun-inoads">
             <pc ana="#pilcrow"/>Istis non obstantibus
               <lb ed="#M" n="58"/>teneo conclusionem contrariam quam alias probavi <ref><name ref="#Wodeham"/><title/>distinctione <unclear>1</unclear></ref> licet haec conclusio sit multorum
               <lb ed="#M" n="59"/>modernorum et arguit <name ref="#RichardFitzRalph">Fitzralph</name> contra eam per auctoritatem <ref><name ref="#Augustine">Augustini</name>
@@ -752,8 +766,8 @@
               <lb ed="#M" n="61"/>est ab eo quod in memoria conservatur et ab eo sicut proles
               <lb ed="#M" n="62"/>a parente</quote> et in multis passibus quos allegat similia <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ipresq">
+
+                <p xml:id="b1d3qun-ipresq">
               <lb ed="#M" n="63"/><pc ana="#pilcrow"/>Item per rationem si qualitas quae est cogitatio potest cessare esse
               <!--  -->
               <!-- 67vb -->
@@ -770,20 +784,20 @@
               <lb ed="#M" n="70"/>in contradictorium et quod rationabilius poneretur hoc de ipsa potentia animae quam
               <lb ed="#M" n="71"/>de accidente <sic>recepte</sic> et similia quaedam <pc ana="#punctus"/>
             </p>
-            <p xml:id="b1d3qun-apiigp">
+                <p xml:id="b1d3qun-apiigp">
               <pc ana="#pilcrow"/>Ad primum in contrarium dicendum
               <lb ed="#M" n="72"/>quod conclusio est vera saepe de similibus quarum est tantum habitualis
               repraesen<lb ed="#M" n="73" break="no"/>tatio illius obiecti et alia actualis immo de actualibus non est
               <lb ed="#M" n="74"/>inconveniens dummodo sint alterius rationis sicut de <unclear>intelligendo cognitione</unclear>
               <lb ed="#M" n="75"/>alicuius rei in verbo et eiusdem in genere proprio <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-asrean">
+
+                <p xml:id="b1d3qun-asrean">
             <pc ana="#pilcrow"/>Ad secundum responderi potest
               <lb ed="#M" n="76"/>in <ref>prologo</ref> quod hoc non sit per eundem actum numero <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-atsdia">
+
+                <p xml:id="b1d3qun-atsdia">
             <pc ana="#pilcrow"/>Ad tertium obiectum
               <lb ed="#M" n="77"/>istius quod per se diligitur scilicet bonitatis moralis non diligitur nisi per <unclear>accidens</unclear><!-- could also be "actus" -->
               <lb ed="#M" n="78"/>in casu argumenti et de talibus concessi supra <ref><name ref="#Wodeham"/><title/>distinctione prima</ref> quod possunt non
@@ -794,14 +808,14 @@
               <lb ed="#M" n="83"/>ignorante desinunt aliqui esse boni desinunt et a me
               <lb ed="#M" n="84"/>diligi illo actu <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aqqnci">
+
+                <p xml:id="b1d3qun-aqqnci">
               <pc ana="#pilcrow"/> Ad aliud quod tunc posset aliquid diligi et non
               <lb ed="#M" n="85"/>cognosci patet ex <ref><name ref="#Wodeham"/><title/>prima distinctione</ref> ubi tenui quod dilectio est cognitio
               <lb ed="#M" n="86"/>et tunc nego consequentiam illam <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aqdcaa">
+
+                <p xml:id="b1d3qun-aqdcaa">
             <pc ana="#pilcrow"/>Ad quintum dicendum quod si dilectio
               <lb ed="#M" n="87"/>qua Sortes diligeret se ipsum in platone <pc ana="#punctus"/> plato per istam non
               di<lb ed="#M" n="88" break="no"/>ligeret platonem sed sortem <pc ana="#punctus"/> <pc ana="#pilcrow"/> Et similiter si dilectio qua sortes
@@ -811,8 +825,8 @@
               <lb ed="#M" n="92"/>intelligere vel experiretur nisi experientia aliud connotet in hoc
               <lb ed="#M" n="93"/>vocabulum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-asbpeo">
+
+                <p xml:id="b1d3qun-asbpeo">
             <pc ana="#pilcrow"/>Ad sextum bene volo quod dilectio sortis et odium
               <lb ed="#M" n="94"/>platonis naturaliter se compatiuntur in eodem dici tamen potest quod non omne
               <lb ed="#M" n="95"/>odium eiusdem speciei cum odio platonis compatitur secum sortis
@@ -827,8 +841,8 @@
               <lb ed="#M" n="104"/>est speciale in actibus vitalibus qui sunt ipsius motus et
               or<lb ed="#M" n="105" break="no"/>dines potentiarum erga obiecta <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-pcscqe">
+
+                <p xml:id="b1d3qun-pcscqe">
             <pc ana="#pilcrow"/>Praeterea contrarietas si esset inter illas
               <lb ed="#M" n="106"/>qualitates non cessarent esse contrariae ex hoc quod cessarent
               re<lb ed="#M" n="107" break="no"/>ferri ad quae prius videretur posse uno modo <pc ana="#punctus"/> <pc ana="#pilcrow"/> Aliter etiam
@@ -837,8 +851,8 @@
               <lb ed="#M" n="110"/>omnia alia procedunt ex non causa ut causa <pc ana="#punctus"/> quia difficultas est
               <lb ed="#M" n="111"/>communis isto non posito et quaeritur eius causa quomodo evadetur <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ascpps">
+
+                <p xml:id="b1d3qun-ascpps">
             <pc ana="#pilcrow"/>Ad
               <lb ed="#M" n="112"/>septimum cum accipitur quod visio potest esse in sensu subiective sine hoc quod
               <lb ed="#M" n="113"/>ipsa sit visio nego et tum probatur quod albedo minor in toto
@@ -856,19 +870,19 @@
               <lb ed="#M" n="125"/>nego quia nullus talis actus in sensu vel in intellectu distincte percipitur per se
               <lb ed="#M" n="126"/>ipsum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aonadd">
+
+                <p xml:id="b1d3qun-aonadd">
               <pc ana="#pilcrow"/>Ad octavum non pono aliquod minimum visibile ab aliqua distantia
               <pb ed="#M" n="68-r"/>
               <cb ed="#M" n="a"/>
               <lb ed="#M" n="1"/>dividi 
             </p>
-            <p xml:id="b1d3qun-antsis">
+                <p xml:id="b1d3qun-antsis">
               <pc ana="#pilcrow"/>Ad nonum tenendo augmentationem et diminutionem gradualem 
               <lb ed="#M" n="2"/>in formis fieri per additionem et subtractionem similis in specie
             </p>
-              
-            <p xml:id="b1d3qun-addeva">
+
+                <p xml:id="b1d3qun-addeva">
               Ad 10<pc ana="#punctus"/>
               <lb ed="#M" n="3"/>dicendum quod alia albedo non est nota videri visione qua <space extent="oneWordLength"/> albedo
               <lb ed="#M" n="4"/>de facto videtur et conclusio ad quam deducitur non est inconveniens non plus
@@ -881,8 +895,8 @@
               <lb ed="#M" n="11"/>visio <pc ana="#punctus"/><c>b</c><pc ana="#punctus"/> perit via vera inducendi sed non hanc <pc ana="#punctus"/> omnis talis
               <lb ed="#M" n="12"/>visio est visio albedinis <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aspcmd">
+
+                <p xml:id="b1d3qun-aspcmd">
             <pc ana="#pilcrow"/>ad secundam <unclear>propositionem <!-- probationem --></unclear> de <name ref="#Aristotle">philosopho</name> et <name ref="#Averroes">commentatore</name> primo <name ref="#deCaelo">de caeli</name>
               <lb ed="#M" n="13"/>et tamen nullus catholicus debet tenere istud argumentum valere nisi qui negaret
               <lb ed="#M" n="14"/>dei omnipotentiam posse extra hunc mundum alium omnino similem producere
@@ -891,8 +905,8 @@
               <lb ed="#M" n="17"/>impossibilitatem plurium mundorum haec igitur ratio movisse catholicum
               <lb ed="#M" n="18"/>minime debuisset <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aubqif">
+
+                <p xml:id="b1d3qun-aubqif">
               Ad <pc ana="#punctus"/>11<pc ana="#punctus"/> bene volo quod aliquo modo non
               <lb ed="#M" n="19"/>intelligitur per intellectionem <pc ana="#punctus"/><c>a</c><pc ana="#punctus"/> potest in casu per accidens esse obiectum illius intellectionis
               <lb ed="#M" n="20"/>non per se et tamen probatur quod sic quia <sic>aiius</sic> potest per istam intelligere si
@@ -904,8 +918,8 @@
               <lb ed="#M" n="25"/>et in hoc nec ab obiecto dependet nec oportet quod <pc ana="#punctus"/><c>a</c><pc ana="#punctus"/> subiecto active <pc ana="#punctus"/> sed
               <lb ed="#M" n="26"/>ab isto qui active conservat eam in subiecto quodcumque illud fuerit
             </p>
-              
-            <p xml:id="b1d3qun-aseudi">
+
+                <p xml:id="b1d3qun-aseudi">
               <lb ed="#M" n="27"/><pc ana="#pilcrow"/>ad <pc ana="#punctus"/>12<pc ana="#punctus"/> quod conceptus pure naturales non sunt eiusdem speciei sed sunt conceptus
               <lb ed="#M" n="28"/>mere <sic>cincategorematica</sic> <choice><orig>sicud</orig><reg>sicut</reg></choice> <mentioned>omnis</mentioned> et <mentioned>aliquis</mentioned> quod patet quia terminum mediante sequentem
               <lb ed="#M" n="29"/>faciunt stare confuse tantum sicut omnis non enim sequitur bis <pc ana="#punctus"/>
@@ -916,14 +930,14 @@
               <lb ed="#M" n="33"/>per hanc vocem omnis et consequenter per omnia <pc ana="#punctus"/> <pc ana="#pilcrow"/>Ad propositum respondeo de illis
               <lb ed="#M" n="34"/>sicut de istis
             </p>
-              
-            <p xml:id="b1d3qun-uteqsc">
+
+                <p xml:id="b1d3qun-uteqsc">
               unum tamen est advertendum quia nominaliter expressa sumuntur
               <lb ed="#M" n="35"/>quasi collective et non faciunt terminum mediate sequentem stare confuse
               <lb ed="#M" n="36"/>tantum sicut nec omnis quando sumitur collective <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-atdsat">
+
+                <p xml:id="b1d3qun-atdsat">
             <pc ana="#pilcrow"/>Ad <pc ana="#punctus"/>13<pc ana="#punctus"/> dicendum quod
               ac<lb ed="#M" n="37" break="no"/>cedit
               visioni quod eius per se obiectum moveatur vel quiescat
@@ -932,12 +946,12 @@
               <lb ed="#M" n="40"/>quod res visa moveatur et ideo dicatur motus esse per se sensibilium
               <lb ed="#M" n="41"/>et ideo hic est dicendum consequenter sicut <sic>supposito</sic> ad <pc ana="#punctus"/> 3m
             </p>
-              
-            <p xml:id="b1d3qun-aqdaps">Ad 14 <pc ana="#punctus"/> sicut
+
+                <p xml:id="b1d3qun-aqdaps">Ad 14 <pc ana="#punctus"/> sicut
               <lb ed="#M" n="42"/>ad probationem 7i <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-arvssc">
+
+                <p xml:id="b1d3qun-arvssc">
               Ad <pc ana="#punctus"/>15<pc ana="#punctus"/> verum est quod omnis cognitio repraesentat
               <lb ed="#M" n="43"/>alicui illud cuius est signum et ideo si in nullo est subiective nullius est signum
               <lb ed="#M" n="44"/>tale naturaliter offerens obiectum cuius natum est esse signum nisi forte per
@@ -953,7 +967,7 @@
               <lb ed="#M" n="52"/>non potest illi in esse subiective quin ipsum qualificet ita nec quin sit sibi
               <lb ed="#M" n="53"/>cognitio
             </p>
-            <p xml:id="b1d3qun-addvvf">
+                <p xml:id="b1d3qun-addvvf">
               <pc ana="#pilcrow"/>ad <pc ana="#punctus"/>16<pc ana="#punctus"/> dicendum quod ista conceptio non solvat in talibus
               <lb ed="#M" n="54"/>non esse motum ad mentem <name ref="#Aristotle">philosophi</name> quia ista conceptio ponit formam omnem
               <lb ed="#M" n="55"/>in qua <name ref="#Aristotle">philosophus</name> ponit motum secundum qualitatem esse sine additione vel
@@ -963,7 +977,7 @@
               <lb ed="#M" n="59"/>post incipiat ita se habere sic talis notitia significat tunc habetur scientia sine
               <lb ed="#M" n="60"/>mutatione scientis quia eo ipso quod res est vel non est oratio dicitur etc. <pc ana="#punctus"/>
             </p>
-            <p xml:id="b1d3qun-sedpvs">Similiter est
+                <p xml:id="b1d3qun-sedpvs">Similiter est
               <lb ed="#M" n="61"/>de actu virtuoso ipsa appetitivo quam cognitivo quod potest esse sic bonus
               <lb ed="#M" n="62"/>et talis qualis debet esse postquam non fuit talis sine novitate alicuius
               <lb ed="#M" n="63"/>sibi addita in subiecto per novitatem praecepti vel huiusmodi similiter de pulchritudine
@@ -978,11 +992,11 @@
             </p>
               </div>
               <div xml:id="b1d3qun-Drapapa">
-              <head xml:id="b1d3qun-Hrapapa">Responsio ad principales argumenta</head>
-              <div xml:id="b1d3qun-Dapaapa">
-              <head xml:id="b1d3qun-Hapaapa">Ad primum principale argumentum</head>
-              
-            <p xml:id="b1d3qun-apasis">
+                <head xml:id="b1d3qun-Hrapapa">Responsio ad principales argumenta</head>
+                <div xml:id="b1d3qun-Dapaapa">
+                  <head xml:id="b1d3qun-Hapaapa">Ad primum principale argumentum</head>
+
+                  <p xml:id="b1d3qun-apasis">
               <lb ed="#M" n="67"/> <pc ana="#pilcrow"/>ad primum argumentum principale istius dubii cum inquiritur quid vocaretur
               me<lb ed="#M" n="68" break="no"/>moria videtur mihi quod respectu primi actus intuitivi intellectus cum aliquo sufficienter
               prae<lb ed="#M" n="69" break="no"/>sente ad causandum actum istum se habent sicut parens illius notitiae
@@ -993,7 +1007,7 @@
               quia species stricte loquendo solet vocari ponentibus aliquid in <unclear>posito</unclear>
               <lb ed="#M" n="74"/>primum primo actui quod non credo esse <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> 
             </p>
-            <p xml:id="b1d3qun-dqsiea">
+                  <p xml:id="b1d3qun-dqsiea">
               et tamen probatur quod habitus
               <lb ed="#M" n="75"/>vel species non distinguitur ab actu nec econtra per speciem in sensu <pc ana="#punctus"/> <pc ana="#pilcrow"/>dicendum
               <lb ed="#M" n="76"/>quod sensus <seg type="correction">dupl<subst><add>iciter</add><del rend="strikethrough">um</del></subst></seg> sumitur Uno modo pro posito videtur natura vitali
@@ -1014,11 +1028,11 @@
               audi<lb ed="#M" n="90" break="no"/>tus
               vel sonantis scilicet ipsam audire sicut ipsamet exprimit auctoritas <pc ana="#punctus"/>
             </p>
-              </div>
-              <div xml:id="b1d3qun-Daspasp">
-              <head xml:id="b1d3qun-Haspasp">Ad secundum principale argumentum</head>
-              
-            <p xml:id="b1d3qun-asanis">
+                </div>
+                <div xml:id="b1d3qun-Daspasp">
+                  <head xml:id="b1d3qun-Haspasp">Ad secundum principale argumentum</head>
+
+                  <p xml:id="b1d3qun-asanis">
               <lb ed="#M" n="91"/><pc ana="#pilcrow"/>ad 2m de mutua circulatione in causatione alicuius portionis
               <lb ed="#M" n="92"/>habitus et econtra <pc ana="#punctus"/> Respondeo ut alias alibi pono quod concesso tali processu
               <lb ed="#M" n="93"/>mutuo primus causans habitum inclinatum ad actum similem
@@ -1042,8 +1056,8 @@
               <lb ed="#M" n="109"/>tales quales iterato inclinat habitus in illis nec sunt nisi abstractivi
               <lb ed="#M" n="110"/>nec in intellectu nec in sensu <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-hqcsif">haec est Responsio modo communior huic
+
+                  <p xml:id="b1d3qun-hqcsif">haec est Responsio modo communior huic
               <lb ed="#M" n="111"/>etiam addi aliam talem quae aliquibus magis scilicet quod cum habetur actus
               <lb ed="#M" n="112"/>primus sensationis intuitivae vel intensionis intuitivae simul tempore
               <lb ed="#M" n="113"/>semper illa virtute habetur duplex in bonis notitia actualis abstractiva
@@ -1077,8 +1091,8 @@
               <lb ed="#M" n="7"/>aliquem cum primo est <pc ana="#punctus"/> sed ideo potius illa nova portio accrescit
               <lb ed="#M" n="8"/>ut illa serviat in futurum
             </p>
-              
-            <p xml:id="b1d3qun-esissn">
+
+                  <p xml:id="b1d3qun-esissn">
               et secundum hanc responsionem negatur tota illa <unclear>fantasia</unclear>
               <lb ed="#M" n="9"/>de mutuis reflexionibus habituum et actuum in causando
               sta<lb ed="#M" n="10" break="no"/>tim
@@ -1092,8 +1106,8 @@
               <lb ed="#M" n="17"/>reddere claram causam aliam quam nunc dictam sive ista sufficiat
               <lb ed="#M" n="18"/>sive non <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ctpasd">
+
+                  <p xml:id="b1d3qun-ctpasd">
             <pc ana="#pilcrow"/>contra tamen per priorem Responsionem est argumentum unum probabile
               <lb ed="#M" n="19"/>quia quantumcumque sic decrescat augmentum habitus ex una parte
               <lb ed="#M" n="20"/>et actus ex alia et bene intelligitur actus et habitus ex infinita
@@ -1112,8 +1126,8 @@
               sit <pc ana="#punctus"/><c>a</c><pc ana="#punctus"/> habitus et actus compositus ex illo et sequentibus sit <pc ana="#punctus"/><c>c</c><pc ana="#punctus"/>
               <lb ed="#M" n="32"/>et positus ex residuis partibus praeter <pc ana="#punctus"/><c>a</c><pc ana="#punctus"/> sit <pc ana="#punctus"/><c>d</c><pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-prhmvm">
+
+                  <p xml:id="b1d3qun-prhmvm">
               Hic possunt
               <lb ed="#M" n="33"/>responderi secundum duplicem fantasiam una est quod tandem devenietur vel ad
               <lb ed="#M" n="34"/>actum ita debilem et remissum quod iste non sufficiet ulterius
@@ -1126,8 +1140,8 @@
               <lb ed="#M" n="40"/>ex alia secundum portionem et exigentiam quantitatis virtutis primae maioris
               vel minoris
             </p>
-              
-            <p xml:id="b1d3qun-echmvr">
+
+                  <p xml:id="b1d3qun-echmvr">
             <pc ana="#pilcrow"/>Et contra hanc responsionem obstare non video li
               <lb ed="#M" n="41"/>quod non est dare minimum actum in specie <choice><orig>alica</orig><reg>aliqua</reg></choice> mere naturaliter agentium
               in<lb ed="#M" n="42" break="no"/>existens
@@ -1161,8 +1175,8 @@
               <!-- -->
               <lb ed="#M" n="62"/>operatur nihil agit quod non esset ut mihi videtur rationale <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-apftpr">
+
+                  <p xml:id="b1d3qun-apftpr">
               <lb ed="#M" n="63"/><pc ana="#pilcrow"/>aliter poterit fantasari quod non sit dare ultimam portionem
               <lb ed="#M" n="64"/>habitus quae sufficiat causare aliquid de actu nec econtra sed sit uterque
               <lb ed="#M" n="65"/>processus hinc inde sine fine ex ea parte <pc ana="#punctus"/> versus quam hinc inde
@@ -1171,8 +1185,8 @@
               <lb ed="#M" n="68"/>residui et sic sine fine id est sine ultima et cui videbitur hoc
               <lb ed="#M" n="69"/>falsa <choice><orig>fantasia</orig><reg>phantasia</reg></choice> non vera <choice><orig>neccesse</orig><reg>necesse</reg></choice> habebit totam primam Responsionem
             </p>
-              
-            <p xml:id="b1d3qun-aapeas">
+
+                  <p xml:id="b1d3qun-aapeas">
               ad argumentum <pc ana="#punctus"/>
               <lb ed="#M" n="70"/>principale cursum in Respondendo <unclear>directe</unclear> et se ponere ad 2am <pc ana="#punctus"/> sed
               <lb ed="#M" n="71"/>hanc <choice><orig>substinendo</orig><reg>sustinendo</reg></choice> cum quaeretur aut totus habitus causetur ibi ab aliquo vel
@@ -1192,8 +1206,8 @@
               <lb ed="#M" n="84"/>catholice causet ibi actum aliquem et pari ratione econtra uter totus
               <lb ed="#M" n="85"/>actus <pc ana="#punctus"/><c>d</c><pc ana="#punctus"/> causet ibi habitum aliquem vel effectum adaequatum sibi
             </p>
-              
-            <p xml:id="b1d3qun-rmvpsc">
+
+                  <p xml:id="b1d3qun-rmvpsc">
             <pc ana="#pilcrow"/>Respondendum
               <lb ed="#M" n="86"/>mihi videtur quod licet uterque totus causetur ut praedixi neuter cum
               <lb ed="#M" n="87"/>totus aliquid causet neuter enim ibi totus habet aliquid posterius se secundum
@@ -1201,8 +1215,8 @@
               <lb ed="#M" n="89"/>parte fuerit processus in generationibus huius sine fine id est sine ultimo genito
               <lb ed="#M" n="90"/>et tamen omnis effectus sed naturam est posterius sua causa <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ciqieb">
+
+                  <p xml:id="b1d3qun-ciqieb">
               Contra in quocumque
               <lb ed="#M" n="91"/>passu uniformiter praesente utrique potest causa alia mere naturaliter activa alicuius
               <lb ed="#M" n="92"/>speciei habere effectum ab eo causatum potest et causa perfectior et intensior
@@ -1213,8 +1227,8 @@
               <lb ed="#M" n="96"/>et <pc ana="#punctus"/><c>c<!-- c are sort of looking like 'e's --></c><pc ana="#punctus"/> in potentia ista utraque aequaliter praesenti habet effectum posteriorem
               <lb ed="#M" n="97"/>secundum se naturam igitur et <pc ana="#punctus"/><c>b</c><pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-reqcie">
+
+                  <p xml:id="b1d3qun-reqcie">
             <pc ana="#pilcrow"/>Respondendum quod maior licet sit valde
               <lb ed="#M" n="98"/>apparens falsa est tamen in casu argumenti secundum hanc Responsionem fantasiae quam
               per<lb ed="#M" n="99" break="no"/>tracto
@@ -1254,22 +1268,22 @@
               <!-- -->
               <lb ed="#M" n="1"/>agere isto remanente in ista potentia quam iam egit
             </p>
+                </div>
               </div>
-              </div>
-              </div>
-              
-              <div xml:id="b1d3qun-Dtdtdtd" type="dubium">
+            </div>
+
+            <div xml:id="b1d3qun-Dtdtdtd" type="dubium">
               <head xml:id="b1d3qun-Htdtdtd">Tertium Dubium </head>
-              
-            <p xml:id="b1d3qun-tdsan">
+
+              <p xml:id="b1d3qun-tdsan">
               <note type="marginal-note" place="margin-left">3m dubium</note>
               3m dubium 2i articuli
               <lb ed="#M" n="2"/>est utrum 3a pars <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> procedat realiter a 2a amor scilicet a notitia
             </p>
               <div xml:id="b1d3qun-Dd3rprp">
-              <head xml:id="b1d3qun-Hd3rprp">Rationes principales</head>
-              
-            <p xml:id="b1d3qun-evqtej">
+                <head xml:id="b1d3qun-Hd3rprp">Rationes principales</head>
+
+                <p xml:id="b1d3qun-evqtej">
               Et videtur quod non <pc ana="#punctus"/> quia si sic tunc amor angeli qui peccavit
               <lb ed="#M" n="3"/>quo affectavit aequalitatem dei processit ab alia notitia dei
               aut igitur obscura notitia dei <pc ana="#punctus"/> aut a clara <pc ana="#punctus"/> si igitur ab
@@ -1283,8 +1297,8 @@
               cog<lb ed="#M" n="10" break="no"/>noscat
               te etc. <ref><title ref="#io">Iohannes</title> 17</ref>
             </p>
-              
-            <p xml:id="b1d3qun-itpics"><pc ana="#pilcrow"/>Item tunc primus amor
+
+                <p xml:id="b1d3qun-itpics"><pc ana="#pilcrow"/>Item tunc primus amor
               <lb ed="#M" n="11"/>in mente alicuius procederet a notitia et supposito quod iste amor
               <lb ed="#M" n="12"/>sit respectu alicuius delectabilis non tunc illa notitia sit verbum quia est cognitio
               <lb ed="#M" n="13"/>alicuius respectu placentis igitur verbum per <choice><orig>diffinitionem</orig><reg>definitionem</reg></choice> verbi ex quo sequitur quod
@@ -1295,8 +1309,8 @@
               <lb ed="#M" n="18"/>verbum ab aliquo amore tunc primus amor procederet ab
               <lb ed="#M" n="19"/>amore et ita idem causa sui <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-pqppaa"><pc ana="#pilcrow"/>praeterea quod primus amor non procedat
+
+                <p xml:id="b1d3qun-pqppaa"><pc ana="#pilcrow"/>praeterea quod primus amor non procedat
               <lb ed="#M" n="20"/>ab alia notitia videtur quia prima notitia procedit ab amore igitur non econtra <pc ana="#punctus"/>
               <lb ed="#M" n="21"/><pc ana="#pilcrow"/>assumptum probatur quia prima cognitio sensitiva procedit ab amore igitur et
               <lb ed="#M" n="22"/>intellectiva <pc ana="#punctus"/> ultimum assumptum probatur quia prima notitia sensitiva fit a voluntate
@@ -1305,15 +1319,15 @@
               <lb ed="#M" n="25"/>habeat actum aliquem alium quo sic copulet igitur quaelibet cogitatio sensitiva
               <lb ed="#M" n="26"/>procedit ab amore <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-qpaaci"><pc ana="#pilcrow"/>praeterea appetitus sensitivus potest esse sine cogitatione
+
+                <p xml:id="b1d3qun-qpaaci"><pc ana="#pilcrow"/>praeterea appetitus sensitivus potest esse sine cogitatione
               <lb ed="#M" n="27"/>igitur et appetitus intellectivus assumptum probo quia naturaliter haberes
               fa<lb ed="#M" n="28" break="no"/>mem
               et sitim et si numquam haberes vel sentire aliquid ab extrinseco
               <lb ed="#M" n="29"/>sed fames et sitis sunt appetitus per <ref><name ref="#Averroes">commentatorem</name> 2 <title>de anima</title> commento 28</ref>
             </p>
-              
-            <p xml:id="b1d3qun-qiqecc">
+
+                <p xml:id="b1d3qun-qiqecc">
               <lb ed="#M" n="30"/><pc ana="#pilcrow"/>5o talis dilectio haec elicita a voluntate aut est eadem cum intellectione
               <lb ed="#M" n="31"/>praesupposita ad hoc quod aliquid haec diligatur aut non <pc ana="#punctus"/> si sic cum
               <lb ed="#M" n="32"/>non sit maior ratio quod ista res potest fieri dilectio quam odium <pc ana="#punctus"/>
@@ -1330,14 +1344,14 @@
               <lb ed="#M" n="43"/>in prima hoc erat contra casum <pc ana="#punctus"/></p>
               </div>
               <div xml:id="b1d3qun-D3opum">
-              <head xml:id="b1d3qun-H3opum">Oppositum</head>
-              
-            <p xml:id="b1d3qun-aocdim"><pc ana="#pilcrow"/>ad oppositum 15 <title ref="#deTrinitate">de trinitate</title> capitulo 67
+                <head xml:id="b1d3qun-H3opum">Oppositum</head>
+
+                <p xml:id="b1d3qun-aocdim"><pc ana="#pilcrow"/>ad oppositum 15 <title ref="#deTrinitate">de trinitate</title> capitulo 67
               <lb ed="#M" n="44"/>et 77 utrobique enim dicit quod amor procedit ex scientia de ipsa
               <lb ed="#M" n="45"/>mente <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-pnppan"><pc ana="#pilcrow"/>praeterea notitia praesupponitur amori sicut probat <name ref="#Augustine">augustinus</name>
+
+                <p xml:id="b1d3qun-pnppan"><pc ana="#pilcrow"/>praeterea notitia praesupponitur amori sicut probat <name ref="#Augustine">augustinus</name>
               <lb ed="#M" n="46"/>8 <title ref="#deTrinitate">de trinitate</title> capitulo 16 et 10 <title ref="#deTrinitate">de trinitate</title> capitulo 48 et quasi per totum librum et 3
               <lb ed="#M" n="47"/><title ref="#DeLiberoArbitrio">de libero arbitrio</title> dicit hoc capitulo 42 quod nihil potest amari nisi cognitum
               <lb ed="#M" n="48"/>quamvis possit aliquid cognosci et non amari sicut vult <name ref="#Augustine">augustinus</name>
@@ -1345,27 +1359,27 @@
               <lb ed="#M" n="50"/>est quod non materialis nec finalis igitur effectiva <pc ana="#punctus"/> igitur amor procedit a notitia
               <lb ed="#M" n="51"/>actuali <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-pnadtc"><pc ana="#pilcrow"/>Praeterea nisi amor procederet a notitia actuali
+
+                <p xml:id="b1d3qun-pnadtc"><pc ana="#pilcrow"/>Praeterea nisi amor procederet a notitia actuali
               <lb ed="#M" n="52"/>seu cogitatione non esset amor inter ista 3a proportionaliter spiritus sanctus cuius
               <lb ed="#M" n="53"/>oppositum declarat <name ref="#Augustine">augustinus</name> 9 <title ref="#deTrinitate">de trinitate</title> capitulo 29 et 15 <title ref="#deTrinitate">de trinitate</title> capitulo 67
             </p>
-              
-              
-            <p xml:id="b1d3qun-ppeeac"><pc ana="#pilcrow"/>praeterea <name ref="#Aristotle">philosophus</name> et <name ref="#Averroes">commentator</name> 3 <title ref="#deAnima">de anima</title> commento 50 determinantes modum per quem
+
+
+                <p xml:id="b1d3qun-ppeeac"><pc ana="#pilcrow"/>praeterea <name ref="#Aristotle">philosophus</name> et <name ref="#Averroes">commentator</name> 3 <title ref="#deAnima">de anima</title> commento 50 determinantes modum per quem
               <lb ed="#M" n="54"/>generantur in animali desiderium vel appetitus dicunt quod hoc fit ex hoc quod
               <lb ed="#M" n="55"/><choice><orig>ymaginatio</orig><reg>imaginatio</reg></choice> <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> rem primo vel intellectus et postea res ipsa con<lb ed="#M" n="56" break="no"/>cupiscitur
               vel res praesentatur igitur ipsi volunt quod amor sive de<lb ed="#M" n="57" break="no"/>siderium
               quod ipsi vocant ibi appetitum intellectivum sicut ibi dicit <name ref="#Averroes">commentator</name>
               <lb ed="#M" n="58"/>fiat ex actuali cognitione <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-pcdiia">
+
+                <p xml:id="b1d3qun-pcdiia">
             <pc ana="#pilcrow"/>praeterea commento 54 dicit <name ref="#Averroes">commentator</name> quod omnis
               <lb ed="#M" n="59"/>appetitus fuerit ab intellectu in actu <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-pcdqsp">
+
+                <p xml:id="b1d3qun-pcdqsp">
               praeterea commento 56 dicit <name ref="#Averroes">commentator</name>
               <!-- -->
               <!-- 69rb -->
@@ -1375,8 +1389,8 @@
               <lb ed="#M" n="60"/>quod omnis appetitus fit ex <choice><orig>ymaginatione</orig><reg>imaginatione</reg></choice> et <choice><orig>ymaginatio</orig><reg>imaginatio</reg></choice> ex 5
               <lb ed="#M" n="61"/>sensibilibus partibus <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-pmcdie">
+
+                <p xml:id="b1d3qun-pmcdie">
             <pc ana="#pilcrow"/>praeterea 12 <title ref="#Metaphysics">metaphysicae</title> commento 36 sit appetitus
               <lb ed="#M" n="62"/>in brutis animalibus est propter sensum qui apprehendit voluptuosum
               <lb ed="#M" n="63"/>ita voluntas sive desiderium intellectus est propter intellectum et statim
@@ -1385,9 +1399,9 @@
             </p>
               </div>
               <div xml:id="b1d3qun-Dratdtd">
-              <head xml:id="b1d3qun-Hratdtd">Responsio ad tertium dubium</head>
-              
-            <p xml:id="b1d3qun-aidaps">
+                <head xml:id="b1d3qun-Hratdtd">Responsio ad tertium dubium</head>
+
+                <p xml:id="b1d3qun-aidaps">
               <lb ed="#M" n="66"/><pc ana="#pilcrow"/>ad istud dubium <pc ana="#punctus"/> dicendum est quod sic loquendo de amore qui est actus
               a<lb ed="#M" n="67" break="no"/>mandi
               vel appetendi per viam naturae causatur et ideo amor huiusmodi inter partes
@@ -1395,8 +1409,8 @@
               <lb ed="#M" n="69"/>partem oppositam dubitationis huius haec conclusio satis patet per argumentum supra positum
               <lb ed="#M" n="70"/>in primo articulo quaestionis et per haec argumenta ad partem <pc ana="#punctus"/> 2am <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-siptap">
+
+                <p xml:id="b1d3qun-siptap">
             <pc ana="#pilcrow"/>Si instes per
               <lb ed="#M" n="71"/><name ref="#Augustine">augustinum</name> 9 <title ref="#deTrinitate">de trinitate</title> ubi quasi per totum dicit quod mens humana est <choice><orig>ymago</orig><reg>imago</reg></choice> trinitatis
               increatae ratione istius trinitatis scilicet mentis notitiae et amoris in qua
@@ -1404,8 +1418,8 @@
               <lb ed="#M" n="73"/>mentis igitur <sic>isor</sic> ibi non distinguitur realiter a notitia actuali a qua procedit nec
               <lb ed="#M" n="74"/>notitia actualis quae est ibi proles a mente ipsa tamquam a parente <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-rudtau">
+
+                <p xml:id="b1d3qun-rudtau">
             <pc ana="#pilcrow"/>Respondet
               <lb ed="#M" n="75"/>unus doctor quod amor et similiter notitia tripliciter accipiuntur uno modo
               <lb ed="#M" n="76"/>pro potentiis <pc ana="#punctus"/> 2o pro habitibus 3o pro actibus et ultra secundum hanc distinctionem
@@ -1418,11 +1432,11 @@
             </p>
               </div>
               <div xml:id="b1d3qun-Dd3arprp">
-              <head xml:id="b1d3qun-Hd3arprp">Ad rationes principales</head>
-              <div xml:id="b1d3qun-Dd3appr">
-              <head xml:id="b1d3qun-Hd3appr">Ad prima ratio</head>
-              
-            <p xml:id="b1d3qun-apapai">
+                <head xml:id="b1d3qun-Hd3arprp">Ad rationes principales</head>
+                <div xml:id="b1d3qun-Dd3appr">
+                  <head xml:id="b1d3qun-Hd3appr">Ad prima ratio</head>
+
+                  <p xml:id="b1d3qun-apapai">
               ad primum argumentum in contrarium respondet <name ref="#RichardFitzRalph">siranf</name> quod ista notitia
               ac<lb ed="#M" n="83" break="no"/>tualis
               quae primo fuerit clara dei notitia scilicet quando deus ostendit se clare illi
@@ -1431,8 +1445,8 @@
               <lb ed="#M" n="86"/>processit a notitia obscura et non a clara sed tamen processit ab
               <lb ed="#M" n="87"/>ista notitia quae fuit clara quando ille amor processit ab ista <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ecippp">
+
+                  <p xml:id="b1d3qun-ecippp">
             <pc ana="#pilcrow"/>Et concedo inquit quod iste amor et peccatum primum processit a pena
               <lb ed="#M" n="88"/>peccati sed tamen non ut pena <pc ana="#punctus"/> sed ut actualis cognitio sufficiens ad
               <lb ed="#M" n="89"/>productionem amoris quoniam non est impossibile quod pena peccati praecessit
@@ -1442,22 +1456,22 @@
               <lb ed="#M" n="93"/>quae prius erat clara postea fiebat obscura et ita ipsa ut pena
               <lb ed="#M" n="94"/>fuit posterior peccato primo <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-sqeidp">
+
+                  <p xml:id="b1d3qun-sqeidp">
               sed quod eadem notitia fuit prius clara
               <lb ed="#M" n="95"/>et post obscura est apud me inpossibile per istum modum <choice><orig>sicud</orig><reg>sicut</reg></choice> per argumenta
               <lb ed="#M" n="96"/>ipsius alibi potest probari quia pari ratione posset movere et desinere
               <lb ed="#M" n="97"/>omnino esse cognitio istius cuius oppositum tenet alibi et etiam in dubio praecedenti
             </p>
-              
-            <p xml:id="b1d3qun-sadnpc">
+
+                  <p xml:id="b1d3qun-sadnpc">
             <pc ana="#pilcrow"/>Sed aliter dicas tu quod notitia angeli qui peccavit non erat clara
               <lb ed="#M" n="98"/>dei visio unquam sed cum claritate prima male voluit nisi forte
               <lb ed="#M" n="99"/>det quod ipsa volitio fuit causa subtractionis vel remotionis primae notitiae
               <lb ed="#M" n="100"/>clarae <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-atdcvo">
+
+                  <p xml:id="b1d3qun-atdcvo">
             <pc ana="#pilcrow"/>aliter tamen dicendum quod tam argumentum quam dicta Responsio currit in fantasia
               <lb ed="#M" n="101"/>quidem falsa quasi visio dei vel aliqua simplex apprehensio suffecisset pro notitia
               <lb ed="#M" n="102"/>a qua procederet amor dei culpabilis et non sic erat quia amor
@@ -1466,11 +1480,11 @@
               <lb ed="#M" n="105"/>refrenandus cum omissione littera vere vel interpretative refrenandi secundum <unclear>regulam</unclear>
               <lb ed="#M" n="106"/>iudicii et affectionem iustitiae impeditum affectionis commodi apparentis
               <lb ed="#M" n="107"/>et talia iudicia apprehensionis non erant dei apprehensio clara vel obscura <pc ana="#punctus"/></p>
-              </div>
-              <div xml:id="b1d3qun-Dd3assr">
-              <head xml:id="b1d3qun-Hd3assr">Ad secundam rationem</head>
-              
-            <p xml:id="b1d3qun-asbscd">
+                </div>
+                <div xml:id="b1d3qun-Dd3assr">
+                  <head xml:id="b1d3qun-Hd3assr">Ad secundam rationem</head>
+
+                  <p xml:id="b1d3qun-asbscd">
             <pc ana="#pilcrow"/>ad secundum bene Respondet <name ref="#RichardFitzRalph">firalph</name> concedo quod primus amor processit a notitia
               <lb ed="#M" n="108"/>accidentali et a verbo communiter loquendo de verbo <pc ana="#punctus"/> unde verbum communiter loquendo
               ac<lb ed="#M" n="109" break="no"/>cipitur
@@ -1481,8 +1495,8 @@
               <lb ed="#M" n="113"/>auctoritas <name ref="#Augustine">augustini</name> allegata et primus amor non procedit de verbo proprie
               <lb ed="#M" n="114"/>dicto sed communiter dicto <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-hnqmgi">
+
+                  <p xml:id="b1d3qun-hnqmgi">
             <pc ana="#pilcrow"/>hic tamen notandum quod verbum multiplicius sumitur
               <lb ed="#M" n="115"/>quam istis modis <unclear>suprascripta</unclear> modis in universo primo generaliter pro omni actu intelligendi
               <lb ed="#M" n="116"/>vel cogitandi Isto modo accipit <name ref="#Augustine">augustinus</name> in <title>sermone de sancto ioanno baptista</title> similiter
@@ -1499,34 +1513,34 @@
               <lb ed="#M" n="2"/>11 in principio quod foris signum est verbi quod intellectus latet et 10
               <lb ed="#M" n="3"/><unclear>capitulo</unclear> per signa corporalia verbum quod mente igitur minus innotesceret <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-smlvee">
+
+                  <p xml:id="b1d3qun-smlvee">
               <lb ed="#M" n="4"/><pc ana="#pilcrow"/>2o modo latius ad hoc sumitur pro praedictis et actu fantasiendi
               <lb ed="#M" n="5"/>unde 8 <title ref="#deTrinitate">de trinitate</title> capitulo 10 fantasia carnis in memoria mea verbum
               <lb ed="#M" n="6"/>eius est <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-tmsdqd">
+
+                  <p xml:id="b1d3qun-tmsdqd">
             <pc ana="#pilcrow"/>3o modo sumitur ab isto specialius pro omni actu assentiendi
               <lb ed="#M" n="7"/>vel dissentiendi vero vel falso <pc ana="#punctus"/> sic loquitur 15 <title ref="#deTrinitate">de trinitate</title> capitulo 15 falsum est verbum
               <lb ed="#M" n="8"/>nostrum cum falluntur et isto modo dubio non est verbum primo modo quia
               <lb ed="#M" n="9"/>ibidem dicit cum autem dubitamus non verbum de re de qua dubitamus <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-qmptnv">
+
+                  <p xml:id="b1d3qun-qmptnv">
               <lb ed="#M" n="10"/><pc ana="#pilcrow"/>4o modo pro actu indicativo qui natus est gigni vel ex habitu scientifico
               <lb ed="#M" n="11"/>vel saltem vero 15 <title ref="#deTrinitate">de trinitate</title> capitulo 10 <choice><orig>neccesse</orig><reg>necesse</reg></choice> est cum verbo loquimur id est quod
               <lb ed="#M" n="12"/>scimus loquitur ex ipsa scientia quam memoria tenemus nascitur verbum
             </p>
-              
-            <p xml:id="b1d3qun-qmscan">
+
+                  <p xml:id="b1d3qun-qmscan">
               <lb ed="#M" n="13"/><pc ana="#pilcrow"/>5o modo sumitur pro amata notitia 5 <title ref="#deTrinitate">de trinitate</title> capitulo 8 verbum amoris
               concipitur et capitulo 10 recte quaeritur <pc ana="#punctus"/> an omnis notitia verbum an tantum
               <lb ed="#M" n="14"/>amata notitia et concludit naturaliter quod verbum quod nunc insinuare
               <lb ed="#M" n="15"/>volumus est cum amore notitia <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-sspfse">
+
+                  <p xml:id="b1d3qun-sspfse">
             <pc ana="#pilcrow"/>6o sumitur pro obiecto cognito 15 <title ref="#deTrinitate">de trinitate</title>
               <lb ed="#M" n="16"/>capitulo 15 tunc sit verbum verum quando nos vel quod illud quod diximus voluntabili
               <lb ed="#M" n="17"/>motione iactare ad illud quod scimus pervenit ut quomodo res quae scitur
@@ -1537,24 +1551,24 @@
               <lb ed="#M" n="22"/>non possumus <pc ana="#pilcrow"/>Secundo illud facit supra adductum primo sensu verbum quod
               <lb ed="#M" n="23"/><name ref="#Sortes">sortis</name> sonat etc. <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ssveve">
+
+                  <p xml:id="b1d3qun-ssveve">
             <pc ana="#pilcrow"/>7o sumitur pro <choice><orig>diffinitione</orig><reg>definitione</reg></choice> alicuius iuxta illud <name ref="#Augustine">augustinus</name>
               <lb ed="#M" n="24"/>9 <title ref="#deTrinitate">de trinitate</title> capitulo 10 definitio quid sit temperantia et haec est verbum eius <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-osaviv">
+
+                  <p xml:id="b1d3qun-osaviv">
             <pc ana="#pilcrow"/>8o sumitur
               <lb ed="#M" n="25"/>ab eo pro verbo vocabili 15 <title ref="#deTrinitate">de trinitate</title> capitulo 15 cum mentimur volen<lb ed="#M" n="26" break="no"/>tes
               et scientes falsum verbum habemus ubi verorum verbum est mentiri
               <lb ed="#M" n="27"/>nos et tamen mentitos nos esse confitemur sistendo in verbo men<lb ed="#M" n="28" break="no"/>tali
               ad intra non mentimur igitur vocem extra vocat ibi verbum
             </p>
-              </div>
-              <div xml:id="b1d3qun-Dd3atta">
-              <head xml:id="b1d3qun-Hd3atta">Ad tertiam rationem</head>
-              
-            <p xml:id="b1d3qun-atvoac"><pc ana="#pilcrow"/>Ad
+                </div>
+                <div xml:id="b1d3qun-Dd3atta">
+                  <head xml:id="b1d3qun-Hd3atta">Ad tertiam rationem</head>
+
+                  <p xml:id="b1d3qun-atvoac"><pc ana="#pilcrow"/>Ad
               <lb ed="#M" n="29"/>3m verum est quod primus amor procedit a notitia <choice><orig>alica</orig><reg>aliqua</reg></choice> actuali et per
               <lb ed="#M" n="30"/>consequens notitia praesupposita primo amori non procedit ab amore actuali aliquo
               <lb ed="#M" n="31"/>et cum probatur quod <choice><orig>ymmo</orig><reg>immo</reg></choice> quia prima sensatio vel intellectio fit per amorem
@@ -1568,11 +1582,11 @@
               vel tenens potentiam in actuali cognitione vel notitia talis obiecti et hoc quandoque
               <lb ed="#M" n="39"/>libere et elicitive et quandoque mere naturaliter et aliquando praeveniet et est in casu
               <lb ed="#M" n="40"/>ut pariatur notitia explicativa et distinctiva alicuius obiecti certi</p>
-              </div>
-              <div xml:id="b1d3qun-Dd3aqqr">
-              <head xml:id="b1d3qun-Hd3aqqr">Ad quartam rationem</head>
-              
-            <p xml:id="b1d3qun-aqropt">Ad
+                </div>
+                <div xml:id="b1d3qun-Dd3aqqr">
+                  <head xml:id="b1d3qun-Hd3aqqr">Ad quartam rationem</head>
+
+                  <p xml:id="b1d3qun-aqropt">Ad
               <lb ed="#M" n="41"/>
               <note target="marginal-note" place="margin-bottom">T: Quod fames et sitis praesupponit aliquam sensationem licet non semper exteriorem tamen semper interiorem</note>
               4 Respondet <name ref="#RichardFitzRalph">firalf</name> quod appetitus sensitivus non potest esse sine cognitione sensitiva
@@ -1588,15 +1602,15 @@
               <lb ed="#M" n="50"/>actu elicito quia talis praesupponet notitiam nisi dicatur quod intellectus
               <lb ed="#M" n="51"/>habeat ibi talia obiecta praecognita tactae <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ehsoae">
+
+                  <p xml:id="b1d3qun-ehsoae">
             <pc ana="#pilcrow"/>Exemplum huius sensationis
               <lb ed="#M" n="52"/>interioris vel exterioris posset esse de dolore capitis vel dentium
               <lb ed="#M" n="53"/>et huiusmodi ubi habentur sensationes sensus tactus et afflictio secundum <sic>sensum</sic> appetitum
               <lb ed="#M" n="54"/>sine immutatione ab obiecto aliquo extrinseco
             </p>
-              
-            <p xml:id="b1d3qun-aetsqe">advertendum tamen hic est quod fames
+
+                  <p xml:id="b1d3qun-aetsqe">advertendum tamen hic est quod fames
               <lb ed="#M" n="55"/>et sitis sit distincta non sunt proprie actus appetendi eliciti respectu cibi et
               <lb ed="#M" n="56"/>potus sed quidam quasi languor ex defectum cibi vel potus quidam
               <lb ed="#M" n="57"/><sic>quidam</sic> tamen actus eliciti sensitivi sunt tactivi sicut et gustus est
@@ -1618,11 +1632,11 @@
               <lb ed="#M" n="67"/>quia potest competere habenti venirem plenum et aliquando communicantur se
               <lb ed="#M" n="68"/>et tunc vehementius appetuntur cibus et potus sicut quilibet experitur <pc ana="#punctus"/>
             </p>
-              </div>
-              <div xml:id="b1d3qun-Dd3aqnr">
-              <head xml:id="b1d3qun-Hd3aqnr">Ad quintam rationem</head>
-              
-            <p xml:id="b1d3qun-aqqenc">
+                </div>
+                <div xml:id="b1d3qun-Dd3aqnr">
+                  <head xml:id="b1d3qun-Hd3aqnr">Ad quintam rationem</head>
+
+                  <p xml:id="b1d3qun-aqqenc">
               <lb ed="#M" n="69"/><pc ana="#pilcrow"/><unclear>dicto</unclear> 5m dicendum quod volitio non est eadem res cum cognitione sibi
               <lb ed="#M" n="70"/>praesupposita tempore vel natura <pc ana="#punctus"/> nihil enim praesupponit seipsum sed experientia
               <lb ed="#M" n="71"/>dat quod cognitio praesupponit tempore vel natura ita quod cum volito ibi concurrit
@@ -1645,8 +1659,8 @@
               <lb ed="#M" n="87"/>et haec est apud me probabilior ex 3a quaestione primae distinctionis per hoc patet ulterius
               <lb ed="#M" n="88"/>quod non sequitur quod aliquid possit esse volitum et non cognitum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-acecam">
+
+                  <p xml:id="b1d3qun-acecam">
             <pc ana="#pilcrow"/>Ad
               <lb ed="#M" n="89"/>confirmationem etiam dico quod voluntas libere potest imperare cogitationem actualem et
               <lb ed="#M" n="90"/>distinctam de aliquo de quo non cogitatur actu distincte utpote
@@ -1664,17 +1678,17 @@
               <lb ed="#M" n="100"/>vidi eum in loco aliquo sed non distincte videtur quia haec inquiretur et ideo patet
               <lb ed="#M" n="101"/>quod cognoscitur uno modo et praecipitur cognosci alio modo
             </p>
+                </div>
               </div>
-              </div>
-              </div>
-              
-              <div xml:id="b1d3qun-Dd4qdqd" type="dubium">
+            </div>
+
+            <div xml:id="b1d3qun-Dd4qdqd" type="dubium">
               <head xml:id="b1d3qun-Hd4qdqd">Quartum dubium</head>
-              
+
               <div xml:id="b1d3qun-Dd4oaoa">
-              <head xml:id="b1d3qun-Hd4oaoa">Opinio Adam</head>
-              
-            <p xml:id="b1d3qun-uavpin">
+                <head xml:id="b1d3qun-Hd4oaoa">Opinio Adam</head>
+
+                <p xml:id="b1d3qun-uavpin">
               <note type="marginal-note" place="margin-bottom">X: Probatur per multa media quod voluntas diligere potest incognitum et oppositum deinde</note>
               Utrum autem
               <lb ed="#M" n="102"/>voluntas possit diligere <sic>ingratum</sic> est dubium magnum in se et ad
@@ -1683,22 +1697,22 @@
               <lb ed="#M" n="105"/>distinctione 1 quaestio 3 tamen quia secundum <name ref="#Augustine">augustinum</name> in visa diligere possumus incognita
               <lb ed="#M" n="106"/>nequaquam <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-pnpcai">
+
+                <p xml:id="b1d3qun-pnpcai">
             <pc ana="#pilcrow"/>praeterea non plus potest voluntas velle incognitum quam intellectus
               <lb ed="#M" n="107"/>assentire non apprehenso quia volitio non minus in suo fieri et esse de<lb ed="#M" n="108" break="no"/>pendet
               ab apprehensione quam assensus sed assensus non potest naturaliter causari sine
               <lb ed="#M" n="109"/>apprehensione illius cui assentitur igitur <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-iasoip">
+
+                <p xml:id="b1d3qun-iasoip">
             <pc ana="#pilcrow"/>Iterum apprehensio sensitiva non potest
               <lb ed="#M" n="110"/>naturaliter haberi sine exteriori a sensatione vel interiori praesupposita
               <lb ed="#M" n="111"/>naturaliter igitur similiter in proposito quia libertas non tollit similem ordinem in
               <lb ed="#M" n="112"/>proposito
             </p>
-              
-            <p xml:id="b1d3qun-ioepei">
+
+                <p xml:id="b1d3qun-ioepei">
             <pc ana="#pilcrow"/>Iterum omnis effectus praesupponit causam suam sed omnis volitio
               <lb ed="#M" n="113"/>naturaliter causata est effectus alicuius cognitionis et nullius potius quam istius
               <lb ed="#M" n="114"/>quod diligitur tali volitione <pc ana="#punctus"/> <pc ana="#pilcrow"/>assumptum patet quia illud est causa quo posito
@@ -1710,23 +1724,23 @@
             </p>
               </div>
               <div xml:id="b1d3qun-Dd4cooa">
-              <head xml:id="b1d3qun-Hd4cooa">Contra opinionem Adam</head>
-              
-            <p xml:id="b1d3qun-schehp">
+                <head xml:id="b1d3qun-Hd4cooa">Contra opinionem Adam</head>
+
+                <p xml:id="b1d3qun-schehp">
               <note type="marginal-note" place="margin-right">1</note>
             <pc ana="#pilcrow"/>Sed contra hoc arguitur quod
               <lb ed="#M" n="119"/>voluntas praecipit intellectui quod consideret <pc ana="#punctus"/><c>a</c><pc ana="#punctus"/> aut igitur tunc est <pc ana="#punctus"/><c>a</c><pc ana="#punctus"/> actu
               <lb ed="#M" n="120"/>consideratum et tunc superflue praeciperet voluntas aut non et habetur propositum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ivpeai">
+
+                <p xml:id="b1d3qun-ivpeai">
               <note type="marginal-note" place="margin-right">2</note>
             <pc ana="#pilcrow"/>Item voluntas potest conformare se intellectui et suspendere actus
               <lb ed="#M" n="121"/>proprios et velle istos et etiam sensationes quas experitur etiam si eas
               <lb ed="#M" n="122"/>actu intelligat <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-inmins">
+
+                <p xml:id="b1d3qun-inmins">
               <note type="marginal-note" place="margin-right">3</note>
               Item non videtur minus quod requirit effectum suum
               <lb ed="#M" n="123"/>praecognosci quam subiectum quia effectum suum libere a proposito producit et contingenter
@@ -1739,8 +1753,8 @@
               <!-- -->
               <lb ed="#M" n="1"/>sed primum non requirit secundum omnes igitur nec secundum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ivppqi">
+
+                <p xml:id="b1d3qun-ivppqi">
               <note type="marginal-note" place="margin-left">4</note>
               Item voluntas potest
               <lb ed="#M" n="2"/>velle intellectum non habere aliquam cognitionem et potest continuare
@@ -1749,8 +1763,8 @@
               aut non <pc ana="#punctus"/> et tunc voluntas non esset potentia libera non plus quam
               <lb ed="#M" n="5"/>ignis
             </p>
-              
-            <p xml:id="b1d3qun-isncnu">
+
+                <p xml:id="b1d3qun-isncnu">
               <note type="marginal-note" place="margin-left">5</note>
               Item si non hoc maxime videretur quia cognitio ista
               <lb ed="#M" n="6"/>intellectiva eiusdem obiecti naturaliter sibi praesupposita causa esset volitionis
@@ -1761,16 +1775,16 @@
               <lb ed="#M" n="9"/>potest voluntas velle vel nolle indifferenter illud quod intelligitur igitur non
               <lb ed="#M" n="10"/>est causa naturalis utriusque <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ichrca">
+
+                <p xml:id="b1d3qun-ichrca">
               <note type="marginal-note" place="margin-left">6</note>
             <pc ana="#pilcrow"/>Item cogitatio habitualis videtur sufficere
               <lb ed="#M" n="11"/>quod habitibus uti possumus cum volumus secundum <name ref="#Aristotle">philosophum</name> igitur non videtur
               re<lb ed="#M" n="12" break="no"/>quiri
               cognitio actualis <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-idqaid">
+
+                <p xml:id="b1d3qun-idqaid">
               <note type="marginal-note" place="margin-left">7</note>
               Item dato quod <del rend="expunctuated">mors</del> actualis intellectio
               <lb ed="#M" n="13"/>requireretur ad causationem volitionis cum videtur quod voluntas ex sua
@@ -1787,8 +1801,8 @@
               <lb ed="#M" n="21"/>de claudente oculos postquam vidit res suades
               <lb ed="#M" n="22"/>et <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> ibidem dicit <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-idqsie">
+
+                <p xml:id="b1d3qun-idqsie">
               <note type="marginal-note" place="margin-left">8</note>
             <pc ana="#pilcrow"/>Item dato quod requiratur cognitio actualis
               <lb ed="#M" n="23"/>illius quod debet esse volitum ita quod volitio non esset nisi intellectio
@@ -1802,8 +1816,8 @@
               <lb ed="#M" n="31"/>actum voluntatis sed ista exsecutio exterior non requirit quod actus
               <lb ed="#M" n="32"/>voluntatis tunc actu sit igitur etc
             </p>
-              
-            <p xml:id="b1d3qun-ivqvni">
+
+                <p xml:id="b1d3qun-ivqvni">
               <note type="marginal-note" place="margin-left">9</note>
               Item videtur quod saltem respectu alicuius
               <lb ed="#M" n="33"/>obiecti potest voluntas habere actum suum licet pro tunc illud obiectum non sit
@@ -1821,9 +1835,9 @@
             </p>
               </div>
               <div xml:id="b1d3qun-Dd4roro">
-              <head xml:id="b1d3qun-Hd4roro">Responsio</head>
-              
-            <p xml:id="b1d3qun-apiivh">
+                <head xml:id="b1d3qun-Hd4roro">Responsio</head>
+
+                <p xml:id="b1d3qun-apiivh">
               <note type="marginal-note" place="margin-bottom">Y: Respondet ad argumenta quae probant quod voluntas possit diligere incognitum M</note>
               Ad primum istorum responsum
               <lb ed="#M" n="45"/>est immediate ante ultimam introductum dubitationem vel enim
@@ -1840,16 +1854,16 @@
               <lb ed="#M" n="55"/>causari quia habet eam sed potius habitam actu vel aliam eiusdem cognitionem
               <lb ed="#M" n="56"/>causari puta <choice><orig>diffinitivam</orig><reg>definitivam</reg></choice> vel intellectivam vel huiusmodi <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-asdsoc">
+
+                <p xml:id="b1d3qun-asdsoc">
             <pc ana="#pilcrow"/>ad 2 dicendum
               <lb ed="#M" n="57"/>quod oportet voluntatem si quem actum debet suspendere istum apprehendere distincte
               <lb ed="#M" n="58"/>si particulariter et distincte istum vel illum communi si in communi et ideo assumitur
               <lb ed="#M" n="59"/>illud falsum ibi quod additur de conformatione verum est sed hoc non est
               <lb ed="#M" n="60"/>velle cognitionem sed obiectum cognitionis <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-atapee">
+
+                <p xml:id="b1d3qun-atapee">
             <pc ana="#pilcrow"/>ad 3 assumptum falsum
               <lb ed="#M" n="61"/>est quia non vult effectum suum quaelibet quae libere <seg type="correction"><subst><add>ad</add><del>pro</del></subst>ducit</seg> <choice><orig>sicud</orig><reg>sicut</reg></choice> obiectum
               <lb ed="#M" n="62"/>quodlibet quod diligit quem tamen si vellet et illum proportionaliter cognosceret
@@ -1862,8 +1876,8 @@
               <!-- -->
               <lb ed="#M" n="64"/>dictamini illi tunc enim praecognoscitur eius effectus <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aqconv">
+
+                <p xml:id="b1d3qun-aqconv">
             <pc ana="#pilcrow"/>ad 4m concedo
               <lb ed="#M" n="65"/>assumptum et cum quaeris aut obediet ei intellectus etc. <pc ana="#pilcrow"/>dicendum
               <lb ed="#M" n="66"/>quod si intellectus debeat sibi obedire oportet quod ipsamet obediat
@@ -1875,20 +1889,20 @@
               <lb ed="#M" n="71"/>libertatem cessandi ab omni intellectione nisi cessando simul
               <lb ed="#M" n="72"/>vel prius ab omni volitione <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aqmeip">
+
+                <p xml:id="b1d3qun-aqmeip">
             <pc ana="#pilcrow"/>ad 5m minor falsa est
               <lb ed="#M" n="73"/>de causa partiali ad varios effectus determinabili libere ab alia causa
               <lb ed="#M" n="74"/>sicut est in proposito <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-asndca">
+
+                <p xml:id="b1d3qun-asndca">
               Ad 6m negandum est assumptum et ad probationem
               <lb ed="#M" n="75"/>dicendum est quod habitibus uti non volumus nisi cum de eorum usu
               <lb ed="#M" n="76"/>confuse vel distincte cogitamus actu <unclear>actualiter <!-- aliter --></unclear> <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-asdeep">
+
+                <p xml:id="b1d3qun-asdeep">
               Ad 7 dicendum
               quod<lb ed="#M" n="77" break="no"/>libet
               species rei sensibilis causata in organo sensus exterioris non
@@ -1901,8 +1915,8 @@
               <lb ed="#M" n="84"/>et in suo toto conservari intellectionem a qua in essendo naturaliter de<lb ed="#M" n="85" break="no"/>pendet
               quam radius solis in medio requirit solem et eius praesentiam
             </p>
-              
-            <p xml:id="b1d3qun-aodsid">
+
+                <p xml:id="b1d3qun-aodsid">
               <lb ed="#M" n="86"/>
               <note type="marginal-note" place="margin-right">octavum</note>
               <note type="marginal-note" place="margin-bottom">Z: Quod executio exterior potest esse meritoria ubi actus voluntatis iam defecit</note>
@@ -1946,19 +1960,19 @@
               <lb ed="#M" n="120"/>maiorem falsam vel minorem secundum quod diversimode possunt secundum iam
               <lb ed="#M" n="121"/>declarata <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-andscp"><pc ana="#pilcrow"/>Ad 9 dicendum quod assumitur falsum licet enim
+
+                <p xml:id="b1d3qun-andscp"><pc ana="#pilcrow"/>Ad 9 dicendum quod assumitur falsum licet enim
               <lb ed="#M" n="122"/>experientia doceat quod quandoque delectantur de ordinata et debita
               <lb ed="#M" n="123"/>cogitatione rei odibilis experientia tamen docet non quod hoc
               <lb ed="#M" n="124"/>sit sine apprehensione istius cogitationis convenientis sed contrarium potius <pc ana="#punctus"/>
             </p>
               </div>
-              </div>
-              
-              <div xml:id="b1d3qun-Dd5qdqd" type="dubium">
+            </div>
+
+            <div xml:id="b1d3qun-Dd5qdqd" type="dubium">
               <head xml:id="b1d3qun-Hd5qdqd">Quintum Dubium</head>
-              
-            <p xml:id="b1d3qun-qdphev">
+
+              <p xml:id="b1d3qun-qdphev">
               <!-- possible missing line break -->
               <note type="marginal-note" place="margin-right">quintum dubium M</note>
               <note type="marginal-note" place="margin-bottom">AA: An partes<choice><orig>ymaginis</orig><reg>imaginis</reg></choice> sint aequales: arguitur ad utrumque partem</note>
@@ -1976,16 +1990,16 @@
               quod ipse probat per hoc quod non sunt aequales secundum suos actus
               <lb ed="#M" n="4"/>in via et hoc est verum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-pcssma">
+
+              <p xml:id="b1d3qun-pcssma">
             <pc ana="#pilcrow"/>contra si hoc intelligit tunc accipit
               <lb ed="#M" n="5"/>falsum quod a singulis singula vincuntur quia numquam vincitur
               <lb ed="#M" n="6"/>memoria ab intellegentia <pc ana="#punctus"/> quia quicquid intelligentia intelligit actu
               me<lb ed="#M" n="7" break="no"/>moria
               meminit suo modo actu <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-sisnac">
+
+              <p xml:id="b1d3qun-sisnac">
             <pc ana="#pilcrow"/>Item si sint aequales
               <lb ed="#M" n="8"/>tunc quicquid memoria <unclear>memineret</unclear> intellectus intelligeret sicut dicit
               <lb ed="#M" n="9"/><name ref="#Augustine">augustinus</name> 10 <title ref="#deTrinitate">de trinitate</title> capitulo 28 et <name ref="#Lombard">magister</name> allegat primo libro distinctione 3
@@ -1997,16 +2011,16 @@
               <lb ed="#M" n="15"/>falsum scilicet quia quicquid meminit intelligit quia multa habeo in me<lb ed="#M" n="16" break="no"/>moria
               quae non actualiter cogito <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-titedr">
+
+              <p xml:id="b1d3qun-titedr">
             <pc ana="#pilcrow"/>Item tunc memoria intelligentia
               <lb ed="#M" n="17"/>et voluntas essent aequales consequens est falsum quia ista non distinguuntur
               <lb ed="#M" n="18"/>realiter <pc ana="#punctus"/> igitur ista non sunt aequalia consequentia patet per <name ref="#HilaryOfPoitiers">hillarium</name> 3 <title>de trinitate</title> et
               <lb ed="#M" n="19"/>per <name ref="#Lombard">magistrum</name> primo libro distinctione 31 ubi dicit quod aequalitas et similitudo
               <lb ed="#M" n="20"/>non sunt nisi ubi est distinctio realis
             </p>
-              
-            <p xml:id="b1d3qun-qisqii">
+
+              <p xml:id="b1d3qun-qisqii">
             <pc ana="#pilcrow"/>Item si sic tunc istae
               <lb ed="#M" n="21"/>partes forent aequales ratione suorum actuum in patria tamen ibi
               <lb ed="#M" n="22"/>erunt sanatae a languore <choice><orig>sicud</orig><reg>sicut</reg></choice> dicit <name ref="#Augustine">augustinus</name> 15 <title ref="#deTrinitate">de trinitate</title> capitulo 68
@@ -2017,8 +2031,8 @@
               ex<lb ed="#M" n="27" break="no"/>cidit
               secundum <name ref="#Paul">apostolum</name> <pc ana="#punctus"/> sequitur quod voluntas plus amabit quam intelliget
             </p>
-              
-            <p xml:id="b1d3qun-qitqei">
+
+              <p xml:id="b1d3qun-qitqei">
             <pc ana="#pilcrow"/>Item
               <lb ed="#M" n="28"/>tunc in patria cognitio mentis et eius amor forent aequales
               <lb ed="#M" n="29"/>consequens videtur inconveniens quia ibi amor eius erit perfectus sicut dicit
@@ -2027,8 +2041,8 @@
               <lb ed="#M" n="32"/>sed deus ibi ipsam non cognoscit nisi tantum quantum ipsa mens ibi
               <lb ed="#M" n="33"/>tantum se cognoscit quantum deus eam cognoscit quod est impossibile
             </p>
-              
-            <p xml:id="b1d3qun-isseie">
+
+              <p xml:id="b1d3qun-isseie">
             <pc ana="#pilcrow"/>Item si sic tunc beatus in <unclear>purum <!-- probably should be patria and looks a scribal mistake --></unclear> aequaliter amaret deum et omnia alia
               <lb ed="#M" n="34"/>posito quod aequae clare cognoscat deum et omnia alia quod est
               <lb ed="#M" n="35"/>impossibile quia cogitatis bonis in aequalibus aequaliter magis amat
@@ -2038,22 +2052,22 @@
               <lb ed="#M" n="39"/>quicquid vult et ita non esset beatus et tamen talem actum cognoscit
               <lb ed="#M" n="40"/>igitur non aequantur in eo igitur etc
             </p>
-              </div>
-              <div xml:id="b1d3qun-Dd5aoao">
+            </div>
+            <div xml:id="b1d3qun-Dd5aoao">
               <head xml:id="b1d3qun-Hd5aoao">Ad oppositum</head>
-              
-            <p xml:id="b1d3qun-aoavsa">
+
+              <p xml:id="b1d3qun-aoavsa">
             <pc ana="#pilcrow"/>ad oppositum arguitur per <name ref="#Augustine">augustinum</name> 10 <title ref="#deTrinitate">de trinitate</title>
               <lb ed="#M" n="41"/>capitulo 28 et <name ref="#Lombard">magister</name> allegat distinctione 3a primi ubi probat <name ref="#Augustine">augustinus</name> quod memoria
               <lb ed="#M" n="42"/>intelligentia et voluntas sunt aequales
             </p>
-              
-            <p xml:id="b1d3qun-pdtols">
+
+              <p xml:id="b1d3qun-pdtols">
               Praeterea 15 <title ref="#deTrinitate">de trinitate</title> capitulo 68 dicit quod erunt
               <lb ed="#M" n="43"/>haec aequalia quando erunt ab omni languore sanata
             </p>
-              
-            <p xml:id="b1d3qun-pifase">
+
+              <p xml:id="b1d3qun-pifase">
             <pc ana="#pilcrow"/>praeterea 9
               <lb ed="#M" n="44"/><title ref="#deTrinitate">de trinitate</title> in fine mens amor et notitia 3a quaedam sunt et
               tamen perfecta sunt aequalia sunt si enim mens minus se amat quam est verbi gratia
@@ -2062,18 +2076,18 @@
               a<lb ed="#M" n="47" break="no"/>moris
               sui etc. <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-enbida">
+
+              <p xml:id="b1d3qun-enbida">
               Et notitia bene hanc auctoritatem cuius quia
               <lb ed="#M" n="48"/>probat solutionem quam alias Respondi quod tunc apprehendit intellectus creatus
               <lb ed="#M" n="49"/>aliquid cum cognoscit illud ita perfecte
             </p>
-              </div>
-              <div xml:id="b1d3qun-Dd5rfrf">
+            </div>
+            <div xml:id="b1d3qun-Dd5rfrf">
               <head xml:id="b1d3qun-Hd5rfrf">Responsio <name>Fitzralph</name></head>
               <!-- reason for break here is not clear. No indication whatsoever in ms M -->
-              
-            <p xml:id="b1d3qun-aidadt">
+
+              <p xml:id="b1d3qun-aidadt">
               secundum fidem illud quod in re est pars
               <lb ed="#M" n="50"/>et partem secundum <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> voco ipsum totum consideratum per modum
               <lb ed="#M" n="51"/>partis et suppono quod per <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> causatam intelligamus mentem
@@ -2085,8 +2099,8 @@
               <lb ed="#M" n="57"/>eorum et quicquid est obiectum unius est obiectum alterius eodem modo
               <lb ed="#M" n="58"/>habitu scilicet vel actu et sic loquitur <name ref="#Augustine">augustinus</name> 9 <title ref="#deTrinitate">de trinitate</title> capitulo 14
             </p>
-              
-            <p xml:id="b1d3qun-ampced">
+
+              <p xml:id="b1d3qun-ampced">
               <note type="marginal-note" place="margin-bottom">BB Quod in via partes<choice><orig>ymaginis</orig><reg>imaginis</reg></choice> non sic sunt aequales quoniam in uno homine plus vigeat memoria quam intellectus et intellectus quam voluntas et e converso et plus sit impedita in via quam alia non sic in patria M</note>
             <pc ana="#pilcrow"/>alio
               <lb ed="#M" n="59"/>modo possunt intelligi esse tales ratione suorum actuum scilicet quod nulla earum sit magis impedita a suo actu quam alia a
@@ -2122,8 +2136,8 @@
               <lb ed="#M" n="81"/>certum est et virtutibus sensitivis secundum earum dispositionem in bonitate comprehensionis
               <lb ed="#M" n="82"/>et debilitate
             </p>
-              
-            <p xml:id="b1d3qun-eshssa">
+
+              <p xml:id="b1d3qun-eshssa">
               et secundum hoc et bene Respondet <name>doctor ille</name> ad dubium
               <lb ed="#M" n="83"/>praenotatum quod loquendo de partibus secundum <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> quae sunt memoria
               <lb ed="#M" n="84"/>intelligentia et voluntas et de aequalitate primo modo dicta scilicet quae
@@ -2134,8 +2148,8 @@
               <lb ed="#M" n="88"/><name ref="#Augustine">augustini</name> tam de aequalitate patriae quam de inaequalitate viae in <choice><orig>2o</orig><reg>secundo</reg></choice> sensu
               <lb ed="#M" n="89"/>aequalitatis
             </p>
-              
-            <p xml:id="b1d3qun-tmpepc">
+
+              <p xml:id="b1d3qun-tmpepc">
               <note type="marginal-note" place="margin-bottom">CC: An in patria beatus aequaliter diliget et cognoscet M</note>
             <pc ana="#dbslash"/>3o modo possunt intelligi sic esse aequales ratione actuum
               <lb ed="#M" n="90"/>quia respectu eiusdem obiecti habeant actus aeque intensos et de isto
@@ -2149,8 +2163,8 @@
               <lb ed="#M" n="98"/>videlicet quod seraphim plus cognoscat deum quam cherubim quia
               <lb ed="#M" n="99"/>plus diligunt igitur plus cognoscunt
             </p>
-              
-            <p xml:id="b1d3qun-eqicfs">
+
+              <p xml:id="b1d3qun-eqicfs">
               et quod impossibile sit ibi
               amo<lb ed="#M" n="100" break="no"/>rem esse praecise aequalis intensioris cum cogitatione probatur per hoc quod
               ca<lb ed="#M" n="101" break="no"/>ritas intendit actum dilectionis ita quod sit intensior distinctio
@@ -2161,8 +2175,8 @@
               <lb ed="#M" n="106"/>apprehensum quam intense apprehenditur <pc ana="#punctus"/> quia solet etiam dici quod amor intrat
               <lb ed="#M" n="107"/>ubi cognitio foris stat
             </p>
-              
-            <p xml:id="b1d3qun-nvdari">
+
+              <p xml:id="b1d3qun-nvdari">
               nec valet instare quod in patria tantum
               <lb ed="#M" n="108"/>promovetur intellectus ad intensionem visionis per lumen gloriae quantum caritas
               <lb ed="#M" n="109"/>promovet voluntatem ad intendendum actus suos ultra illud quod
@@ -2174,8 +2188,8 @@
               <lb ed="#M" n="115"/>caritas non intendit actum amoris nec se habet actu respectu
               <lb ed="#M" n="116"/>istius <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-saddie">
+
+              <p xml:id="b1d3qun-saddie">
               <choice><orig>2o</orig><reg>secundo</reg></choice> arguit <name>doctor ille</name> sic <choice><orig>alica</orig><reg>aliqua</reg></choice> claritate cognitionis
               <lb ed="#M" n="117"/>cognoscitur deus sit illa <pc ana="#punctus"/><c>a</c><pc ana="#punctus"/> et <name ref="#Peter">petrus</name> etiam cognoscitur aliqua claritate
               cogni<lb ed="#M" n="118" break="no"/>tionis sit ista <pc ana="#punctus"/> <c>b</c> <pc ana="#punctus"/> <c>a</c><pc ana="#punctus"/> ad <pc ana="#punctus"/><c>b</c><pc ana="#punctus"/> est aliqua certa proportio sic quod
@@ -2185,11 +2199,11 @@
               <lb ed="#M" n="122"/>non est dicendum de beatis igitur amor respectu dei est intensior quam cognitio
               <lb ed="#M" n="123"/>respectu dei igitur etc. <pc ana="#punctus"/>
             </p>
-              </div>
-              <div xml:id="b1d3qun-Dd5caca">
+            </div>
+            <div xml:id="b1d3qun-Dd5caca">
               <head xml:id="b1d3qun-Hd5caca">Contra</head>
-              
-            <p xml:id="b1d3qun-shfaap">
+
+              <p xml:id="b1d3qun-shfaap">
             <pc ana="#pilcrow"/>Sed primum motivum potest impediri sic quia
               <!-- -->
               <!-- 71ra -->
@@ -2207,8 +2221,8 @@
               <lb ed="#M" n="7"/>et per consequens si habebit ex se quasi naturaliter amorem intensioni ubi
               <lb ed="#M" n="8"/>omnis requirit aliquod aliud promotivum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aasria">
+
+              <p xml:id="b1d3qun-aasria">
               <note type="marginal-note" place="margin-bottom">DD: Quod ubi plures causae concurrunt ad eundum effectum licet una dupletur alia non duplata non oportet effectum duplari</note>
               Assumptum arguo sic ubi
               <lb ed="#M" n="9"/>multae causae effectivae alterius rationis concurrunt et requiruntur
@@ -2224,11 +2238,11 @@
               <lb ed="#M" n="19"/>tali proportione ut <unclear>ad hoc <!-- adhuc ? --></unclear> sufficiat et sic excluditur prima eius
               <lb ed="#M" n="20"/>ratio in aliquo
             </p>
-              </div>
-              <div xml:id="b1d3qun-Dd5raap">
+            </div>
+            <div xml:id="b1d3qun-Dd5raap">
               <head xml:id="b1d3qun-Hd5raap">Responsio ad primum</head>
-              
-            <p xml:id="b1d3qun-ecpvac">
+
+              <p xml:id="b1d3qun-ecpvac">
               et cum arguitur quod voluntas potest semper aeque ferventur diligere
               <lb ed="#M" n="21"/>obiectum summe delectabile et placibile <pc ana="#pilcrow"/> intellectus istud
               in<lb ed="#M" n="22" break="no"/>telligit etiam amota caritate negandum est istud <pc ana="#punctus"/> haec tamen concedenda est
@@ -2244,8 +2258,8 @@
               <lb ed="#M" n="32"/>et intensior quam esset intensio amoris quam cum ista visione
               <lb ed="#M" n="33"/>seu promotivo sufficeret voluntas causandi
             </p>
-              
-            <p xml:id="b1d3qun-ehqasc">
+
+              <p xml:id="b1d3qun-ehqasc">
               exemplum huius quod
               <lb ed="#M" n="34"/>velim dicere ecce brutum animal vel homo videt rem multum
               <lb ed="#M" n="35"/>placibilem visione naturaliter causata vel causabili a tali re placibili
@@ -2265,11 +2279,11 @@
               <lb ed="#M" n="49"/>ex natura potentiae et obiecti sed a causa voluntaria vel tali modo receditur
               <lb ed="#M" n="50"/>a proportione aequalitatis huiusmodi nisi aliud adiuvet sicut credo
             </p>
-              </div>
-              <div xml:id="b1d3qun-Dd5raas">
+            </div>
+            <div xml:id="b1d3qun-Dd5raas">
               <head xml:id="b1d3qun-Hd5raas">Responsio ad secundum</head>
-              
-            <p xml:id="b1d3qun-eepacc"><pc ana="#pilcrow"/>Ex eodem patet planissime ad 2m dato enim quod dupletur
+
+              <p xml:id="b1d3qun-eepacc"><pc ana="#pilcrow"/>Ex eodem patet planissime ad 2m dato enim quod dupletur
               <lb ed="#M" n="51"/>visio <name ref="#Peter">Petri</name> etc. igitur
               <lb ed="#M" n="52"/>bonitas dummodo non dupletur activitas
               <lb ed="#M" n="53"/>propria voluntatis sit duplatio clarius videntis eum non sequitur quod
@@ -2277,8 +2291,8 @@
               <lb ed="#M" n="55"/>non infert duplationem effectus naturaliter <unclear>consequenter <!-- consequentis --></unclear> ex causa collecta vel ex
               <lb ed="#M" n="56"/>collectione causarum ex illa et alia vel aliis cum causis
             </p>
-              
-            <p xml:id="b1d3qun-aeddar">
+
+              <p xml:id="b1d3qun-aeddar">
             <pc ana="#pilcrow"/>aliter
               <lb ed="#M" n="57"/>enim dici potest ex eodem principio Respondendi quod licet duplaretur bonitas
               <lb ed="#M" n="58"/><name ref="#Peter">petri</name> vel caperetur bonum aliud duplatum <name ref="#Peter">petro</name> quod obiceretur
@@ -2299,19 +2313,20 @@
               <lb ed="#M" n="67"/>et non est nobis scibile in via peregrinantibus nisi fuerit a deo vel
               <lb ed="#M" n="68"/>aliter revelatum
             </p>
-              </div>
-              <div xml:id="b1d3qun-Dd5rfrp">
-              <head xml:id="b1d3qun-Hd5rfrp">Responsio <name>Fitzralph</name> ad rationes principales</head>
-              
-            <p xml:id="b1d3qun-apliqa">
+            </div>
+            <div xml:id="b1d3qun-Dd5rfrp">
+              <head xml:id="b1d3qun-Hd5rfrp">Responsio <name>Fitzralph</name> ad rationes
+                principales</head>
+
+              <p xml:id="b1d3qun-apliqa">
             <pc ana="#pilcrow"/>ad primum argumentum istius dubii <name ref="#Augustine">augustinus</name> loquitur
               <lb ed="#M" n="69"/>ibi de aequalitate 2o dicta in positione et isto modo verum est quod
               <lb ed="#M" n="70"/>non sunt partes illae <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> aequales <unclear>in viatoribus</unclear> communiter quia ut
               <lb ed="#M" n="71"/>saepius una pars sic loquendo est in viatore magis impedita
               <lb ed="#M" n="72"/>quam alia <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-ascaqo">
+
+              <p xml:id="b1d3qun-ascaqo">
             <pc ana="#pilcrow"/>ad secundum Respondet <name ref="#RichardFitzRalph">fir</name> cum accipitur quod tunc intellectus
               <lb ed="#M" n="73"/>intelligeret quicquid memoria memineret dico inquit quod intelligere
               <lb ed="#M" n="74"/>est 2us modis scilicet in actu et in habitu et in 2o modo loquitur
@@ -2322,31 +2337,31 @@
               cogni<lb ed="#M" n="79" break="no"/>tivus quae rationes diversae sunt sicut intellectus et memoria unde bene
               <lb ed="#M" n="80"/>probatur per idem medium quod memoria intelligentia sunt aequales quo ad obiectum
             </p>
-              
-            <p xml:id="b1d3qun-atpvac">
+
+              <p xml:id="b1d3qun-atpvac">
               <lb ed="#M" n="81"/><pc ana="#pilcrow"/>Aliter tamen potest responderi quod illa auctoritas et consimiles intelligendae
               <lb ed="#M" n="82"/>sunt sic quod quicquid meminerit potest intelligere et econtra et ita
               <lb ed="#M" n="83"/>de velle vel de nolle sub distinctione respectu eiusdem sui vel alterius
               <lb ed="#M" n="84"/>cuiuscumque <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-atphtc">
+
+              <p xml:id="b1d3qun-atphtc">
             <pc ana="#pilcrow"/>ad tertium patet quod memoria intelligentia et voluntas in eadem
               <lb ed="#M" n="85"/>mente non sunt naturales proprie sicut nec sunt partis mentis proprie sed sunt
               aequa<lb ed="#M" n="86" break="no"/>les per modum in positione dictum scilicet quo ad obiectum et 2o modo similiter
               <lb ed="#M" n="87"/>sed auctoritas <name ref="#HilaryOfPoitiers">hillarius</name> solum probat quod non proprie distinguuntur aequales quia
               <lb ed="#M" n="88"/>non realiter distinguuntur et hoc totum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aqrtei">
+
+              <p xml:id="b1d3qun-aqrtei">
             <pc ana="#pilcrow"/>ad quartum Respondet quod amor
               <lb ed="#M" n="89"/>est intensior in patria propter causam superius improbatam sed patuit quod
               <lb ed="#M" n="90"/>illud medium non <choice><orig>neccessitat</orig><reg>necessitat</reg></choice> illud ponere <pc ana="#punctus"/> sed argumentum tangit dubium
               <lb ed="#M" n="91"/>unum facti ubi posset esse sic et aliter et ideo qualiter sit de facto
               <lb ed="#M" n="92"/>nobis totaliter est incertum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-aqrdai">
+
+              <p xml:id="b1d3qun-aqrdai">
             <pc ana="#pilcrow"/>ad 5 respondet <name ref="#RichardFitzRalph">fir</name> quod <name ref="#Augustine">augustinus</name> dicens
               <lb ed="#M" n="93"/>quod quando amor erit perfectus tunc mens amat se quantum est intelligit
               <lb ed="#M" n="94"/>quod amat se quantum est vel quantum ipsa sit a se tunc amanda
@@ -2354,8 +2369,8 @@
               <lb ed="#M" n="96"/>ideo non sequitur ad intellectum <name ref="#Augustine">augustini</name> quod ipsa tantum amet se quantum
               <lb ed="#M" n="97"/>deus amat ipsum <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-shrimo">
+
+              <p xml:id="b1d3qun-shrimo">
               <note type="marginal-note" place="margin-bottom">EE: Quomodo intelligitur illud quod mens beati diligit seipsam quantum Deus diligit ipsam et de modis dilectionum M</note>
             <pc ana="#pilcrow"/>Sed haec Responsio est glossa obscurior
               <lb ed="#M" n="98"/>textu vel potius obscuratio textus clari cuius causa non est alia
@@ -2376,11 +2391,11 @@
               <lb ed="#M" n="112"/>et appretiatur secundum gradum sui valoris et secundum hoc optat sibi
               <lb ed="#M" n="113"/>proportionaliter tantum bonum quantum ipsa meretur obiective
             </p>
-              </div>
-              <div xml:id="b1d3qun-Dd5rwrw">
+            </div>
+            <div xml:id="b1d3qun-Dd5rwrw">
               <head xml:id="b1d3qun-Hd5rwrw">Responsio Wodeham</head>
-              
-            <p xml:id="b1d3qun-sicffa">
+
+              <p xml:id="b1d3qun-sicffa">
               sic igitur concedenda est
               <lb ed="#M" n="114"/>conclusio quod sic loquendo mens quando amor suus erit perfectus ipsa tantum
               <lb ed="#M" n="115"/>amat sed quantum est et deus etiam ipsam unde quantumcumque ipsa est et ideo
@@ -2390,8 +2405,8 @@
               a<lb ed="#M" n="119" break="no"/>moris et creatura nihil diligit nec deum nec creaturam nisi finite finitae
               <lb ed="#M" n="120"/>amoris <pc ana="#punctus"/>
             </p>
-              
-            <p xml:id="b1d3qun-asdpnd">
+
+              <p xml:id="b1d3qun-asdpnd">
               <note type="marginal-note" place="margin-bottom">FF: An voluntas videat vel cognoscat ita clare creaturam aliquam in genere proprio sicut dictum Et dicitur quod non</note>
               Ad 6a dicendum quod mente aequae clare cognoscere deum
               <lb ed="#M" n="121"/>et alia potest dupliciter intelligi vel aeque proportionare et aeque comprehensare ut
@@ -2418,8 +2433,8 @@
               <lb ed="#M" n="10"/>licet non duplo intensiorem quia altera causa puta <pc ana="#punctus"/> obiectum est <unclear>actius</unclear> quam primo
               <lb ed="#M" n="11"/>datum totale tamen principium non duplatur
             </p>
-              
-            <p xml:id="b1d3qun-deiipe">
+
+              <p xml:id="b1d3qun-deiipe">
               <note target="marginal-note" place="margiBottom">GG:</note>
             <pc ana="#pilcrow"/>dicendum est igitur quod nihil aliud a
               <lb ed="#M" n="12"/>deo potest cognosci in genere proprio ita clare id est ita intense in specie cognitionis
@@ -2445,8 +2460,8 @@
               <lb ed="#M" n="30"/>loquendo infinite plus diligeret mens ista deum quam creaturam istam quantum
               <lb ed="#M" n="31"/>aeque intenso actu diligit quanto Deum ut iam praedeclaratum est
             </p>
-              
-            <p xml:id="b1d3qun-aureso">
+
+              <p xml:id="b1d3qun-aureso">
               <lb ed="#M" n="32"/>
               <note type="marginal-note" place="margin-bottom">HH: Quod beati possunt aliquas habere displicentias quae tamen eorum statui beatifico non repungant</note>
             <pc ana="#pilcrow"/>Ad ultimum Respondetur quod peccatum si sit aliquis in mundo est volitum
@@ -2457,14 +2472,14 @@
               <lb ed="#M" n="37"/>damnabuntur et hoc posito sicut possibile est quod non reveletur eis
               <lb ed="#M" n="38"/>quid erit similiter de tali pro quo erat et cuius salutem optat
             </p>
-              
-            <p xml:id="b1d3qun-iilfis">
+
+              <p xml:id="b1d3qun-iilfis">
             <pc ana="#pilcrow"/>Item
               <lb ed="#M" n="39"/>in legenda <title>beati Ioannes evangelia</title> habetur <quote>vidi angelos viros flentes</quote>
               <lb ed="#M" n="40"/>igitur vel angelis displicuit <unclear>ruina</unclear> istorum iuvenum
             </p>
-              
-            <p xml:id="b1d3qun-iieids">
+
+              <p xml:id="b1d3qun-iieids">
             <pc ana="#pilcrow"/>Item
               <lb ed="#M" n="41"/>in <title>evangelio</title> <quote>magnum gaudium erit in caelo super uno peccatore</quote> etc. <pc ana="#punctus"/>
               <lb ed="#M" n="42"/>credo quod tales displicentiae quae procedunt ex caritate ad proximos
@@ -2476,8 +2491,8 @@
               <lb ed="#M" n="48"/>eis <unclear>tristitia</unclear> sit adepta et si vellerent quod eis non
               displi<lb ed="#M" n="49" break="no"/>ceret ruina talium non eis displiceret eis et ita de similibus
             </p>
-              
-            <p xml:id="b1d3qun-etavvm">
+
+              <p xml:id="b1d3qun-etavvm">
             <pc ana="#pilcrow"/>Et
               <lb ed="#M" n="50"/>tunc ad argumentum de actu peccati bene credo quod vellerent illum non
               <lb ed="#M" n="51"/>esse in aliquo eis devoto nec aestimo quod tenentur in omni volito
@@ -2492,7 +2507,7 @@
           </div>
           <div xml:id="b1d3qun-Darparp">
             <head xml:id="b1d3qun-Harparp">Ad rationes principales</head>
-              
+
             <p xml:id="b1d3qun-apaaat">
               <lb ed="#M" n="58"/>
               <note type="marginal-note" place="margin-left">Ad argumentum principale</note>
@@ -2513,11 +2528,11 @@
               <lb ed="#M" n="66"/>et maxime non tunc conservit peccatis a dei notitia et amoris
               <lb ed="#M" n="67"/>distrahitur et advertitur ad terrena <pc ana="#punctus"/>
             </p>
-              
+
             <p xml:id="b1d3qun-asp">
             <pc ana="#pilcrow"/>ad secundum per idem <pc ana="#punctus"/>
             </p>
-              
+
             <p xml:id="b1d3qun-atccmi">
             <pc ana="#pilcrow"/>ad 3 concedendum est quod tam mens est <choice><orig>ymago</orig><reg>imago</reg></choice> dei quam homo
               <lb ed="#M" n="68"/>secundum mentem quia mens seu anima rationalis est nobilius inter partes
@@ -2525,7 +2540,7 @@
               dei <pc ana="#pilcrow"/>Respondet <name>unus doctor</name> quod mens et cum arguitur quod homo
               <lb ed="#M" n="70"/>sit nobilius et per consequens magis <choice><orig>ymago</orig><reg>imago</reg></choice>
             </p>
-              
+
             <p xml:id="b1d3qun-rqhpms">
               <note type="marginal-note" place="margin-bottom">JJ: Quare mens magis sit<choice><orig>ymago</orig><reg>imago</reg></choice> Dei quam homo M</note>
             <pc ana="#pilcrow"/>Respondet quod homo
@@ -2540,7 +2555,7 @@
               <lb ed="#M" n="79"/>non est dei <choice><orig>ymago</orig><reg>imago</reg></choice> dei ut nunc loquimur nisi secundum mentem et
               unumquod<lb ed="#M" n="80" break="no"/>que propter quod et illud magis etc. <pc ana="#punctus"/>
             </p>
-              
+
             <p xml:id="b1d3qun-aqacev">
             <pc ana="#pilcrow"/>ad 4m ait ratione substantiae
               <lb ed="#M" n="81"/>suae aut ratione accidentium <pc ana="#punctus"/> Respondetur bene quod magis ratione
@@ -2556,12 +2571,12 @@
               <lb ed="#M" n="90"/>de ratione <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> vestigii ducere in primam notitiam istius
               <lb ed="#M" n="91"/>cuius est <pc ana="#punctus"/>
             </p>
-              
+
             <p xml:id="b1d3qun-arcasd">
             <pc ana="#pilcrow"/>ad rationes contra in argumento factas patet supra quod
               <lb ed="#M" n="92"/>non est ibi secundum <name ref="#Lombard">magistrum</name> tanta similitudo quin maior sit dissimilitudo
             </p>
-              
+
             <p xml:id="b1d3qun-aqrcme">
             <pc ana="#pilcrow"/>Ad 5 Respondetur et bene quoad aliquid cognitio eius est nata
               <lb ed="#M" n="93"/>abducere et quoad aliquid nata est iuvare ad cognitionem
@@ -2577,7 +2592,7 @@
               <lb ed="#M" n="103"/>fides igitur excludit abductionem et hoc facto magis illuminatur
               <lb ed="#M" n="104"/>cognitio mentis etc. <pc ana="#punctus"/>
             </p>
-              
+
             <p xml:id="b1d3qun-asqrpd">
             <pc ana="#pilcrow"/>ad 6 quod intelligit infinita est
               <lb ed="#M" n="105"/>etc. Responsum est supra in solvendo rationes primi dubii <pc ana="#punctus"/>
