@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -83,8 +82,13 @@
             <app>
               <lem>hominem</lem>
               <rdg wit="#S" type="correction-addition"><add place="margin">hominem</add></rdg>
-            </app>
-            . Nam si scivissent, secundum Apostolum, nunquam Dominum gloriae crucifixissent. Et tamen iste idem fuit Deus, igitur etc. Et ultra pari ratione poterit plus diligi. </p>
+            </app>. 
+            <cit>
+              <quote xml:id="b1d1q13-Qd1e200" source="http://scta.info/resource/Icor2_8" synch="7-13">
+                <seg type="qs">Nam si scivissent</seg>, secundum Apostolum, <seg type="qs">nunquam Dominum gloriae crucifixissent</seg>
+              </quote>
+            </cit>
+              . Et tamen iste idem fuit Deus, igitur etc. Et ultra pari ratione poterit plus diligi. </p>
           <p xml:id="b1d1q13-d1e140"> Contra: quilibet tenetur quamlibet personam divinam diligere et appreciari infinite, quia plus quam hanc creaturam determinata alia, et plus quam duplam, si daretur,
             <app>
               <lem>et</lem>
@@ -251,14 +255,14 @@
             </app>
             , et, per consequens, a est signum commune communitate praedicationis, igitur et illa cognitio. </p>
           <p xml:id="b1d1q13-d1e233"> Dicendum quod talis communitas praedicationis sola non sufficit ad universalitatem proprie et loyce dictam, alioquin iste terminus <mentioned>Deus</mentioned> esset universalis proprie loquendo contra Augustinum, qui dicit quod non est genus nec species
-            <ref>VII Trinitate, c. 9</ref>
+            <ref xml:id="b1-q13-Rd1e550">VII Trinitate, c. 9</ref>
             ,
             <app>
               <lem>et</lem>
               <rdg wit="#S" type="correction-addition"><add place="above-line">et</add></rdg>
             </app>
             allegatur
-            <ref>d. 19 primi libri</ref>
+            <ref xml:id="b1-q13-Rd1e563">d. 19 primi libri</ref>
             . Oportet igitur addere abstractionem et confusionem signi talis debet esse vel
             <app>
               <lem>quod</lem>
@@ -405,7 +409,7 @@
             </app>
             <supplied>propter <!-- should be removed in diplomatics and only supplied in critical--></supplied> affectiones earum. Et tunc satis patet ex praehabitis quid est dicendum. </p>
           <p xml:id="b1d1q13-d1e275"> Cum hac praedicta responsione mea antiqua invenio iam unum doctorem modernum concordantem, qui inquirens utrum beatus plus diligat Filium hominem quam Deum Patrem dicit quod ly magis posset significare comparationem in intentione amoris vel in multitudine.
-            <quote>“Et si primo modo, tunc beatus,” inquit, non magis, idest, non intentius amat Filium quam aliam personam. “Sed iste,” inquit, “amor additus amore deitatis non est fruitio, et ideo non sequitur quod beatus magis fruitur Filio quam alia persona, quia
+            <quote xml:id="b1-q13-Qd1e877">“Et si primo modo, tunc beatus,” inquit, non magis, idest, non intentius amat Filium quam aliam personam. “Sed iste,” inquit, “amor additus amore deitatis non est fruitio, et ideo non sequitur quod beatus magis fruitur Filio quam alia persona, quia
               <app>
                 <lem n="quia"/>
                 <rdg wit="#S" type="correction-deletion"><del>igitur</del></rdg>
@@ -436,15 +440,37 @@
               <lem>omnia</lem>
               <rdg wit="#S" type="correction-addition"><add place="margin">omnia</add></rdg>
             </app>
-             etiam animalia vel odibilia sunt in Deum, quo fruendum est et qui propter se diligendus est referenda. Unde
-            <ref>Augustinus, lib. X De Trinitate, cap. 9</ref>
-            , et ponitur
-            <ref> Io Sententiarum, d. prima</ref>
-            :
-            <quote>Fruimur cognitis in quibus voluntas ipsis propter se delectanta conquescit, utimur vero eis quae ad aliquid referimus quo fruendum est</quote>
-            . Item ibidem planius de eodem dicitur sic cito post principium capituli
-            <quote>frui est amore inhaerere alicui propter se ipsum, uti vero aliquid quod in usum venerit refere ad optinendum illud quo fruendum est</quote>
-            . Igitur actus debitus utendi est amor relativus unius quo quis utitur ad aliud ut ad finem. Igitur cum humanitas Christi sit maxime inter creaturas ductiva nostri amoris in Deum, et simul ipsa obiectum utile, non autem fruibile, ipsa est amabilis amore relativo ipsius in Deum. Et si hoc, igitur Deus amabitur actu illo. Et tamen tali actu non per se loquendo uteretur quis Deo, igitur frueretur. Igitur eodem amore simplici in essendo potest quis amare humanitatem Christi et etiam
+             etiam animalia vel odibilia sunt in Deum, 
+             quo fruendum est et qui propter se diligendus est referenda. Unde
+            <ref xml:id="b1-q13-Rd1e656" corresp="#b1-q13-Qd1e662">
+              Augustinus, 
+              libro X De Trinitate, 
+              capitulo 9
+            </ref>, 
+            et ponitur
+            <ref xml:id="b1-q13-Rd1e659" corresp="#b1-q13-Qd1e662" target="http://scta.info/resource/pl-l1d1c2-Qd1e243">
+              Io Sententiarum, distinctione prima
+            </ref>:
+            <cit>
+              <quote xml:id="b1-q13-Qd1e662" source="http://scta.info/resource/adt-l10-d1e1166" synch="209-230">
+                Fruimur cognitis in quibus voluntas ipsis propter se delectata conquiescit, 
+                utimur vero eis quae ad aliquid referimus quo fruendum est
+              </quote>
+            </cit>. 
+            Item 
+            <ref xml:id="b1-q13-Rd1e961" target="http://scta.info/resource/pl-l1d1c2-Qd1e243" corresp="b1-q13-Qd1e666">
+              <!-- seems like ref to Lombard not Augustine; but quotation is from Augustine -->
+              ibidem planius de eodem dicitur sic cito post principium capituli
+            </ref>
+            <cit>
+              <quote xml:id="b1-q13-Qd1e666" source="http://scta.info/resource/addc-l1-d1e143" synch="3-27">
+                frui est amore inhaerere alicui propter se ipsum, 
+                uti vero aliquid quod in usum venerit referre ad optinendum 
+                illud quo fruendum est
+              </quote>
+            </cit>
+            . Igitur actus debitus utendi est amor relativus unius quo quis utitur ad aliud ut ad finem.
+            Igitur cum humanitas Christi sit maxime inter creaturas ductiva nostri amoris in Deum, et simul ipsa obiectum utile, non autem fruibile, ipsa est amabilis amore relativo ipsius in Deum. Et si hoc, igitur Deus amabitur actu illo. Et tamen tali actu non per se loquendo uteretur quis Deo, igitur frueretur. Igitur eodem amore simplici in essendo potest quis amare humanitatem Christi et etiam
             deitatem, et, pari ratione, potest quis unico actu simplici amoris diligere Deum et hominem, quia redemptor. </p>
           <p xml:id="b1d1q13-d1e30X"> Praeterea, non minus possem diligere Deum hominem unico actu simplici amoris, quia redemptor sufficiens est redimens me quam hunc hominem quia genuit me, vel quam hunc hominem sacerdotem quia celebrat mihi missam, vel hunc hominem episcopum quia promovit me. Sed in istis possum unico actu simplici amoris diligere pro tali vel tali causa, alioquin oporteret ibi habere plures amores necessario illius quem sic diligeremus, quod non videtur, cum ratio diligendi
             talem sit unica, quamvis ipsum dilectum includat multa requisita ad rationem diligibilis isto actu, et potest etiam esse quod pro nulla alia causa actualiter eum diligam. </p>
