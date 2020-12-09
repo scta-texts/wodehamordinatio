@@ -31,7 +31,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="V" n="vatlat955">Vatican Library, Cod. Vat. lat. 955</witness>
+          <witness xml:id="T" n="tara">Tarazona, Bibl. de la Catedral, Cod. 7</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -54,7 +54,8 @@
   <text xml:lang="la">
     <front>
       <div xml:id="starts-on">
-        <pb ed="#V" n="93"/>
+        <pb ed="#T" n="49-r"/>
+        <pb ed="#T" n="b"/>
       </div>
     </front>
     <body>
@@ -64,221 +65,667 @@
         <div xml:id="b1-q13-Dd1e133">
           <head xml:id="b1-q13-Hd1e135">Quaestio</head>
           <p xml:id="b1d1q13-d1e125">
-            
-            <cb ed="#T" n="b"/><!--49rb--> <a>15 mg. T</a> Tertiodecimo circa distinctionem primam quaero occasione secundae conclusionis, q. 12, utrum liceat Filio Dei plus diligere vel frui eo quam Patrem vel Spiritum Sanctum. 
+            <note type="marginal-note" place="margin-right">15</note> 
+            <lb ed="#T"/>Tertiodecimo circa distinctionem primam quaero occasione <unclear>2ae<!-- 3ae--></unclear> conclusionis quaestione <unclear>11<!-- Sev had 12 --></unclear> utrum liceat 
+            <lb ed="#T"/>filio dei plus diligere vel frui eo quam patrem vel spiritum sanctum 
           </p>
         </div>
         <div xml:id="b1-q13-Dd1e151" type="rationes-principales">
           <head xml:id="b1-q13-Hd1e153">Rationes principales</head>
           <p xml:id="b1-q13-d1e156">
-            Quod sic primo, quia Filius videtur esse mediante Patre, igitur et diligibilior. Igitur licite potest plus appreciari vel diligi.
-            Primum assumptum patet, quia Filius est bonus bonitate Patris, et praeter hoc bonitate humanitatis assumptae. Non sic Pater, nec Spiritus Sanctus, igitur etc.
+            quod sic primo quia filius 
+            <lb ed="#T"/>videtur esse <unclear>mediante</unclear> patre igitur et diligibilior igitur licite potest plus appreciari vel diligi
+            <lb ed="#T"/>primum assumptum patet, quia filius est bonus bonitate patris et praeter hoc bonitate humanitatis assumptae non 
+            <lb ed="#T"/>sic pater nec spiritus sanctus igitur etc.
           </p>
           <p xml:id="b1d1q13-d1e137">
-            Item, Filius est amabilis tam quia Deus quam quia redemptor. Non sic Pater. Praeterea, aliquid potest sciri de persona Filii et ignorari vel non sciri de Deo, et econtra. Igitur multo fortius de persona Filii sine hoc quod sciatur de persona Patris vel Spiritus Sancti. Assumptum probatur, quia <pb ed="#T" n="49-v"/><cb ed="#T" n="a"/> illum quem Iudei crucifixerunt sciverunt esse hominem. Deum autem non scierunt esse. Nam si scivissent, secundum Apostulum, nunquam Dominum gloriae crucifixissent. Et tamen iste idem fuit Deus, igitur etc. Et ultra pari ratione poterit plus diligi.
+            <pc type="pilcrow">¶</pc> Item filius est amabilis tam quia deus quam quia redemptor non 
+            <lb ed="#T"/>sic pater <!-- break here --><pc type="pilcrow">¶</pc> praeterea aliquid potest sciri de persona filii et ignorari vel non sciri de deo et econtra 
+            <lb ed="#T"/>igitur multo fortius de persona filii sine hoc quod sciatur de persona patris vel spiritus sancti assumptum probatur quia 
+            <pb ed="#T" n="49-v"/>
+            <cb ed="#T" n="a"/> 
+            <lb ed="#T"/>illum quem iudaei crucifixerunt sciverunt esse hominem deum autem non scierunt esse nam si scivissent 
+            <lb ed="#T"/>secundum apostolum nunquam dominum gloriae crucifixissent et tamen iste idem fuit Deus igitur etc. et ultra pari 
+            <lb ed="#T"/>ratione poterit plus diligi
           </p>
           <p xml:id="b1d1q13-d1e140">
-            Contra: quilibet tenetur quamlibet personam divinam diligere et appreciari infinite, quia plus quam hanc creaturam determinata/demonstrata aliqua et plus quam duplam, si daretur, et plus quam quadruplam, et sic in infinitum. Et si infinite quamlibet, non plus igitur potest licite diligere unam quam aliam, quia nec plus potest aliam diligere quam infinite nec minus, sibi licet.
+            <pc type="pilcrow">¶</pc> contra quilibet tenetur quamlibet personam divinam diligere et appreciari infinite 
+            <lb ed="#T"/>quia plus quam hanc creaturam <unclear>determinata<!--demonstrata--></unclear> aliqua et plus quam duplam si daretur et plus quam quadruplam 
+            <lb ed="#T"/>et sic in infinitum et si infinite quamlibet non plus igitur potest licite diligere unam quam aliam quia nec plus 
+            <lb ed="#T"/>potest aliam diligere quam infinite nec minus sibi licet
           </p>
         </div>
         <div xml:id="b1-q13-Dd1e166">
           <head xml:id="b1-q13-Hd1e168">Divisio quaestionis</head>
           <p xml:id="b1d1q13-d1e143">
-            Hic primo praemitam conclusionem quasi eandem quibus/ipsius conclusione 2a prioris, et probo eam. Secundo prosequar aliquantulum difficultatem tactam in duobus primis argumentis. Et ex hiis duobus ad quaestionem patebit. Tertio propter aliquas formas sophisticas prosequar difficultatem tactam in 3o argumento.
+            <pc type="pilcrow">¶</pc> Hic primo praemittam conclusionem <unclear>quasi</unclear> eandem quibus 
+            <lb ed="#T"/>conclusione 2a prioris et probo eam 2o prosequar aliquantulum difficultatem tactam in duobus 
+            <lb ed="#T"/>primis argumentis et ex his duobus ad quaestionem patebit <pc type="pilcrow">¶</pc> 3o propter aliquas formas sophisticas prose<lb ed="#T"/>quar 
+            difficultatem tactam in 3o argumento
           </p>
         </div>
         <div xml:id="b1-q13-Dd1e176">
           <head xml:id="b1-q13-Hd1e178">Articulus 1</head>
           <p xml:id="b1d1q13-d1e146">
-            <note type="marginal-note" place="margin">>Primus articulus, conclusio prima mg. V</note>
-            Conclusio igitur primi articuli est haec quod de Christo habebatur vel poterat haberi amor et cognitio qua non cognoscebatur Pater nec diligebatur, nec Spiritus Sanctus, quia Christus potuit videri oculo corporali mediante eius humanitate et diligi per accidens ex hoc, scilicet, solo quod humanitas Filii unita propter aliquam conditionem placibilem humanitas per se diligebatur ad modum loquendi Philosophi IIo De anima, cum dicit quod Dyarrii filius solum per accidens sentitur et non per se sicut obiecta propria sensus et etiam sensibilia communia, et constat quod tali dilectione vel cognitione non diligebatur nec cognoscebatur Pater, quia haec sibi non conveniunt, igitur etc.
+              <note type="marginal-note" place="margin-left">primus articulus conclusio prima</note>
+            <pc type="pilcrow">¶</pc> conclusio igitur primi articuli est haec quod de christo habebatur vel 
+            <lb ed="#T"/>poterat haberi amor et cognitio qua non cognoscebatur pater nec diligebatur nec spiritus sanctus quia christus 
+            <lb ed="#T"/>potuit videri oculo corporali <unclear>mediante</unclear> eius humanitate et diligi per accidens ex hoc scilicet solo quod 
+            <lb ed="#T"/>humanitas filii unita propter aliquam conditionem placibilem humanitas per se diligebatur ad modum 
+            <lb ed="#T"/>loquendi <ref>philosophi 2o de anima</ref> cum dicit quod dyarrii filius solum per accidens sentitur et non per se sicud 
+            <lb ed="#T"/>obiecta propria sensus et etiam sensibilia communia et constat quod tali dilectione vel cognitione non diligebatur 
+            <lb ed="#T"/>nec cognoscebatur pater quia haec sibi non conveniunt igitur etc
           </p>
           <p xml:id="b1d1q13-d1e159">
-            Praeterea, una persona potest odiri alia non odita, igitur et diligi alia non dilecta, pari ratione et simili. Igitur et una potest plus diligi quam alia. Assumptum patuit de Christo, quia aliqui eum odierunt propter aliquam displicibilem conditionem in natura assumpta vel saltem hoc satis possibile fuisset, quae conditio nulli alteri personae competisset.
+            <pc type="pilcrow">¶</pc> Praeterea una persona potest odiri alia non odi<lb ed="#T"/>ta 
+            igitur et diligi alia non dilecta pari ratione et simili igitur et una potest plus diligi quam alia 
+            <lb ed="#T"/>assumptum patuit de christo quia aliqui eum odierunt propter aliquam displicibilem conditionem in natura as<lb ed="#T"/>sumpta 
+            vel saltem haec satis possibile fuisset, quae conditio nulli alteri personae competisset
           </p>
           <p xml:id="b1d1q13-d1e162">
-            Praeterea, Christus potuit diligi a quibusdam, et forte diligebatur praecise quia erat filius Ioseph vel quia consanguineus vel propter multas similes rationes causales, quarum nulla conveniebat Patri nec Spiritui Sancto. Ex hoc sic: Quando aliquid diligitur propter causam praecise sibi propriam vel certam alteri non convenientem, non oportet ista dilectione illum alium cui ratio praescita non conveniet diligi, sed sic est in proposito, igutur etc.
+            <pc type="pilcrow">¶</pc> praeterea christus 
+            <lb ed="#T"/>potuit diligi a quibusdam et forte diligebatur praecise quia erat filius <name>ioseph</name> vel quia 
+            <lb ed="#T"/>consanguineus vel propter multas similes rationes causales quarum nulla conveniebat patri nec spiritui sancto <pc type="pilcrow">¶</pc> Ex 
+            <lb ed="#T"/>hoc sic quando aliquid diligitur propter causam praecise sibi propriam vel certam alteri non convenientem non oportet ista di<lb ed="#T"/>lectione 
+            illum alium cui ratio praescita non convenit diligi sed sic est in proposito igitur etc
           </p>
           <p xml:id="b1d1q13-d1e165">
-            Contra istam conclusionem potest sic argui. Sequitur deitas est cognita vel amata a actu, igitur Pater ex praecedenti quaestione. Nihil enim negandum est a persona aliqua quod convenit deitati nisi illud repugnet tali personae, vel ratione aut auctoritate innotescat convenire essentiae et non quilibet personae et propter causas praetactas in praecedenti quaestione. Sed si Christus cognoscitur vel diligitur a actu persona Filii illo cognoscitur vel diligitur certum est. Et si persona Filii illo actu diligitur, igitur et deitas Filii. Quidquid enim convenit Filio vel alicui personae quod essentiae non repugnat, eo ipso convenit essentiae. Propter hoc enim conceditur a sanctis doctoribus quod deitas est incarnata, quia persona Filii est incarnata. Sic patet per Magistrum, lib. III, dist. 3. Igitur a primo ad ultimum, si Christus diligitur vel cognoscitur a actu, igitur et Pater et Spiritus Sanctus.
+            <pc type="pilcrow">¶</pc> contra istam 
+            <lb ed="#T"/>conclusionem potest sic argui sequitur deitas est cognita vel amata a actu igitur pater ex priori quaestione 
+            <lb ed="#T"/>nihil enim negandum est a persona aliqua quod convenit deitati nisi illud repugnet tali personae vel ratione aut auctoritate 
+            <lb ed="#T"/>innotescat convenire essentiae et non quilibet personae et propter causas praetactas in praecedenti quaestione sed si christus cognoscitur 
+            <lb ed="#T"/>vel diligitur a actu persona filii illo cognoscitur vel diligitur certum est et si persona filii illo actu 
+            <lb ed="#T"/>diligitur igitur et deitas filii quidquid enim convenit filio vel alicui personae quod essentiae non repugnat 
+            <lb ed="#T"/>eo ipso convenit essentiae propter hoc enim conceditur a sanctis doctoribus quod deitas est incarnata quia persona 
+            <lb ed="#T"/>filii est incarnata sic patet per <ref>magistrum libro 3 distinctione 3</ref> igitur a primo ad ultimum, si christus diligitur vel 
+            <lb ed="#T"/>cognoscitur a actu igitur et pater et spiritus sanctus.
           </p>
           <p xml:id="b1d1q13-d1e168">
-            Contra praedictam conclusionem et contra secundam conclusionem praecedentis quaestionis dicendum quod prima consequentia est satis bona. Si tamen deitas sit per se obiectum a actus sed vel consequentia secunda principalis non valet haec, scilicet, ‘Filius diligitur vel cognoscitur, igitur deitas,’ vel si detur quod deitas per accidens cognoscitur illo actu, non est ulterius propter hoc concedendum quod Pater per accidens isto actu videatur. Et cum probatur secunda consequentia per exemplum de incarnatione et per medium appositum.
+            Contra <unclear>supra</unclear> praedictam conclusionem et contra 2am conclusionem praecedentis quaestionis 
+            <lb ed="#T"/><pc type="pilcrow">¶</pc> Dicendum quod prima consequentia est satis bona si tamen deitas sit per se obiectum a actus sed vel consequentia 2a principalis non 
+            <lb ed="#T"/>valet haec scilicet <mentioned>filius diligitur vel cognoscitur igitur deitas</mentioned> vel si detur quod deitas per accidens cognoscitur 
+            <lb ed="#T"/>illo actu non est ulterius propter <unclear>haec</unclear> concedendum quod Pater per accidens isto actu videatur et cum probatur 2a 
+            <lb ed="#T"/>consequentia per exemplum de incarnatione et per medium appositum
           </p>
           <p xml:id="b1d1q13-d1e177">
-            Dicendum quod omne illud quod immediate convenit personae Filii sic quod per ipsam personalitatem divinam sibi conveniat, convenit essentiae, si sibi non repugnet. Et ita est de incarnatione. Personalitas enim Filii seipsa immediate incarnatur, et ideo bene sequitur quod deitas incarnatur. Secus autem est de hiis quae conveniunt Filio non per Filii personalitatem sed per humanitatem. Unde licet Filius fuerit mortuus, famescens et fatigatus, natus de virgine, et sic de similibus quae sibi conveniebant non per personalitatem suam aeternam, sed per humanitatem temporaliter assumptam. Tamen non est concedendum vel saltem non oportet propter hoc concedere quod deitas fuerit mortua vel vulnerata vel famescens, et sic de similibus. Et si quis vellet illa essentiae tribuere per accidens, quia essentiae unitae humanitati haec concedebat. Tamen propter hoc non haberet ista concedere de Patre, et simili modo potest dici quod non sequitur quod essentia propria fuerit cognita vel dilecta dilectione vel cognitione cuius per se obiectum fuerit praecise humanitas Christi, vel huius accidentia. Quis enim dicerent quod unus asinus qui Christum portavit et ipsum vidit, propter hoc videret deitatem. Et si haec velit dicere de Patre tamen propter hoc nullo sensu est concedendum. Sic igitur dicendum quod nulla cognitione vel dilectione qua cognoscitur vel diligitur Christus praecise per aliud a sua personalitate conveniens sibi et non Patri, cognoscitur vel diligitur Pater. Quid enim mirum si Pater non cognoscitur illa visione secunda vel quacumque cognitione qua tantum per accidens vel aliud cognoscitur Filius. Sic autem est cum cognoscitur vel diligitur Filius praecise ratione suae humanitatis. Posset enim in illo casu stare naturaliter eadem visio omnino sine hoc quod Filius per illam videretur, utpote si Christi humanitas, stante visione qua corporaliter vel intellectualiter ipsa videtur, sicut patet in exemplo de eucharistia. Nam si ante consecrationem eucharistiae videatur substantia panis, eo modo quo Dyarri filius per accidens videtur, quia tamen illa visio non habet substantiam panis pro per se obiecto. Et ideo vere <cb ed="#T" n="b"/><!--49vb--> videtur per accidens dici posset, ideo bene posset stare etiam naturaliter eadem visio. Et si substantia panis per istam visionem nullatenus videretur, ymmo illa est de facto, si post consecrationem remaneat eadem visio qua antea videbatur, et cum videantur ipsa accidentia sine subiecto remanentia. Sed de per se obiecto actus est apud me impossibile quin informante potentiam cognitivam actu eodem omnino idem. Ymmo eadem per se obiecta eius similiter cognoscantur. Et sic bene concedo quod omni cognitione qua cognoscitur una persona in divinis, cognoscitur et quaelibet.
+            dicendum quod omne illud quod immediate convenit personae 
+            <lb ed="#T"/>filii sic quod per ipsam personalitatem divinam sibi conveniat convenit essentiae si sibi non repugnet et ita est 
+            <lb ed="#T"/>de incarnatione personalitas enim filii seipsa immediate incarnatur et ideo bene sequitur quod deitas 
+            <lb ed="#T"/>incarnatur secus autem est de his quae conveniunt filio non per filii personalitatem sed per humanitatem unde licet filius 
+            <lb ed="#T"/>fuerit mortuus famescens et fatigatus natus de virgine et sic de similibus quae 
+            <lb ed="#T"/>sibi conveniebant non per personalitatem suam aeternam sed per humanitatem temporaliter assumptam tamen non est 
+            <lb ed="#T"/>concedendum vel saltem non oportet propter hoc concedere quod deitas fuerit mortua vel vulnerata vel 
+            <lb ed="#T"/>famescens et sic de similibus et si quis vellet illa essentiae tribuere per accidens quia 
+            <lb ed="#T"/>essentiae unitae humanitati haec concedebat tamen propter hoc non haberet ista concedere de patre et 
+            <lb ed="#T"/>simili modo potest dici quod non sequitur quod essentia propria fuerit cognita vel dilecta dilectione vel 
+            <lb ed="#T"/>cognitione cuius per se obiectum fuerit praecise humanitas christi vel huius accidentia quis enim diceret quod unus 
+            <lb ed="#T"/>asinus qui christum portavit et ipsum vidit propter hoc videret deitatem et si haec velit dicere de 
+            <lb ed="#T"/>patre tamen propter hoc nullo sensu est concedendum sic igitur dicendum quod nulla cognitione vel dilectione qua cognoscitur 
+            <lb ed="#T"/>vel diligitur christus praecise per aliud a sua personalitate conveniens sibi et non patri cognoscitur vel diligitur 
+            <lb ed="#T"/>pater quid enim mirum si pater non cognoscitur illa visione 2a vel quacumque cognitione qua tantum per accidens 
+            <lb ed="#T"/>vel aliud cognoscitur filius sic autem est cum cognoscitur vel diligitur filius praecise ratione suae humanitatis posset enim 
+            <lb ed="#T"/>in illo casu stare naturaliter eadem visio omnino sine hoc quod filius per illam videretur utpote si christi 
+            <lb ed="#T"/>humanitas stante visione qua corporaliter vel intellectualiter ipsa videtur sicut patet in exemplo de eukaristia 
+            <lb ed="#T"/>nam si ante consecrationem eukaristiae videatur substantia panis eo modo quo dyarri 
+            <lb ed="#T"/>filius per accidens videtur quia tamen illa visio non habet substantiam panis pro per se obiecto et ideo vere 
+            <cb ed="#T" n="b"/><!--49vb--> 
+            <lb ed="#T"/>videtur per accidens dici posset ideo bene posset stare etiam naturaliter eadem visio et si substantia panis per istam 
+            <lb ed="#T"/>visionem nullatenus videretur ymmo illa est de facto si post consecrationem remaneat eadem visio qua antea videbatur 
+            <lb ed="#T"/>et cum videantur ipsa accidentia sine subiecto remanentia sed de per se obiecto actus est apud me impossibile quin 
+            <lb ed="#T"/>informante potentiam cognitivam actu eodem omnino idem ymmo eadem per se obiecta eius similiter cognoscantur et sic bene 
+            <lb ed="#T"/>concedo <unclear>quod substantia <unclear>potest<!-- guess; extremely unclear --></unclear><!-- 3 word string def present in ms, but not included by severin --></unclear> quod omni cognitione qua cognoscitur una persona in divinis cognoscitur et quaelibet
           </p>
           <p xml:id="b1d1q13-d1e187">
-            Sed tamen contra hoc potest ad huc obici, quia si omni actu quo videretur una persona sicut per se obiectum actus, videretur essentia et quaelibet persona. Tunc capio unum talem actum visionis Dei quo habito eo ipso sine ulteriori investigatione vel discursu, sive potest intellectus Deum iudicare esse trinum personarum, et unum essentialiter, qualis ut speramus erit cuilibet nostrum visio beatifica iste actus, oportet quod sic distincte ipsius essentiae et distincte cuiuslibet personae divinae. Et si hoc, igitur idem actus omnino repraesentaret aliquid absolute et relative, illud idem in ordine ad alium, quod non videtur in actu aliquo creaturae, quia tunc de illo conceptu praedicarentur per se et essentialiter diversa praedicamenta, utpote <a>vel scr. sed del. T</a> conceptus essentiae vel substantie, et conceptus relativus Patris vel Filii, ymmo quod plus est idem conceptus esset absolutus et relativus, puta conceptus essentiae ad se, et Patris ad Filium, quod non videtur, quia idem etiam negaretur a se ipso posita constantia subiecti, idest, illius pro quo subiectum supponit, quando vere negaretur Pater a Filio, et eadem propositio omnino esset simul vera et falsa, puta illa cuius praedicatum et etiam subiectum esset conceptus ille unicus essentiae et omnium personarum, quia ille, ex hoc quod denotaret Patrem esse Filium, vel Spiritum Sanctum esse Filium, ex hoc esset falsa, et quando eadem denotaret Patrem esse Patrem, esset vera, eo quod res ita se haberet sicut propositio significaret, et in eo quod res est vel non est, etc.
+            <pc type="pilcrow">¶</pc> Sed tamen contra 
+            <lb ed="#T"/><unclear>hoc <!-- hoc vs haec unclear throughout; sev has "hoc" here, but I would normally consider this "haec"; but judging from the example of "ex hoc" below I think severin is correct and this shoudl be "hoc", but it needs a global check for consistency--></unclear> potest adhuc obici quia si omni actu quo videretur una persona sicut per se obiectum actus videretur essentia 
+            <lb ed="#T"/>et quaelibet persona tunc capio unum talem actum visionis dei quo habito eo ipso sine ulteriori 
+            <lb ed="#T"/>investigatione vel discursu sive potest intellectus deum iudicare esse trinum personarum et unum essentialiter 
+            <lb ed="#T"/>qualis ut speramus erit cuilibet nostrum visio beatifica iste actus oportet quod sic distincte ipsius essentiae 
+            <lb ed="#T"/>et distincte cuiuslibet personae divinae et si hoc igitur idem actus omnino repraesentaret aliquid absolute et relative illud 
+            <lb ed="#T"/>idem in ordine ad alium quod non videtur in actu aliquo creaturae quia tunc de illo conceptu praedicarentur per se et 
+            <lb ed="#T"/>essentialiter diversa praedicamenta <unclear><!-- strikethrough unclear; strikethrough could be part of "vel" abbreviation --><del rend="strikethrough">vel</del></unclear> ut pote conceptus essentiae vel substantiae et conceptus relativus patris vel filii 
+            <lb ed="#T"/>ymmo quod plus est idem conceptus esset absolutus et relativus puta conceptus essentiae ad se et patris ad 
+            <lb ed="#T"/>filium quod non videtur quia idem etiam negaretur a se ipso posita constantia subiecti id est illius pro quo subiectum 
+            <lb ed="#T"/>supponit quando vere negaretur pater a filio et eadem propositio omnino esset simul vera et falsa puta illa 
+            <lb ed="#T"/>cuius <unclear>praedicatum<!-- principium, primum ?? --></unclear> et etiam subiectum esset conceptus ille unicus essentiae et omnium personarum quia ille ex hoc quod denota<lb ed="#T"/>ret 
+            patrem esse filium vel spiritum sanctum esse filium ex hoc esset falsa et quando eadem denotaret patrem 
+            <lb ed="#T"/>esse patrem esset vera eo quod res ita se haberet sicut propositio significaret et in eo quod res est vel non est 
+            <lb ed="#T"/>etc
           </p>
           <p xml:id="b1d1q13-d1e190">
-            Praeterea, si unicus sit actus respectu essentiae et trium personarum, tunc iste actus aut primo inpartat paternitatem, et secundo filiationem, aut econverso, aut eque primo utrumque, quia tunc esset conceptus communis, cum significet univoce duo vel tria distincte, et, per consequens, non est actus fruitionis nec visionis beatificae, quia talis debet esse distinctissimus, et, per consequens, singularissimus et particularissimus. Nec primo inpartat unam illarum, et secundo aliam, quia non est maior ratio de una quam de alia, tum quia tunc prius amaret beatus unam personam quam aliam, et tunc prius una frueretur quam alia, quod falsum est.
+            <pc type="pilcrow">¶</pc> praeterea si unicus sit actus respectu essentiae et trium personarum tunc iste actus aut primo importat 
+            <lb ed="#T"/>paternitatem et 2o filiationem aut econverso aut aeque primo utrumque quia tunc esset conceptus communis cum 
+            <lb ed="#T"/>significet univoce duo vel tria distincte et per consequens non est actus fruitionis nec visionis beatificae 
+            <lb ed="#T"/>quia talis debet esse distinctissimus et per consequens singularissimus et particularissimus nec primo importat u<lb ed="#T"/>nam 
+            illarum et secundo aliam quia non est maior ratio de una quam de alia tum quia tunc prius ama<lb ed="#T"/>ret 
+            beatus unam personam quam aliam et tunc prius una frueretur quam alia quod falsum est
           </p>
           <p xml:id="b1d1q13-d1e193">
-            Ad primum istorum dicendum quod, primo, infertur, scilicet, quod idem actus omnino repraesentat ibi personam quamlibet absolute et relative sic intelligendo quod iste conceptus si est sufficienter in sua specie est talis virtute cuius, cum habetur, potest clare et evidenter iudicare de qualibet persona quod ipsa est deitas, et, similiter, quod ipsa est persona talis distincta ab alia quam producit, nec est hoc inconveniens ubi totum quod actus relative repraesentat et est essentialiter et vere idem quod repraesentat absolute. Et credo hoc est ibi significare quod conceptioni simplici praevia compositioni et divisioni concipiatur aliquid relative, quia hoc est quod significare in re eadem singularissima entitas est essentia etiam per se primo modo ad aliud se, puta deitas et entitas ad aliud, vel alium, puta haec personalitas relativa, et haec secundum opinionem communem quod personae divinae sunt essentialiter relative. Et per hoc patet ad multa consequenter illata quomodo sunt ibi vera usque illud quod tunc vere idem negaretur a se ipso.
+            <pc type="pilcrow">¶</pc> Ad primum 
+            <lb ed="#T"/>istorum dicendum quod primo infertur scilicet quod idem actus omnino repraesentat ibi personam quamlibet absolute et relative 
+            <lb ed="#T"/>sic intelligendo quod iste conceptus si est sufficienter in sua specie est talis virtute cuius cum habetur potest clare 
+            <lb ed="#T"/>et evidenter iudicare de qualibet persona quod ipsa est deitas <unclear>et similiter <!-- looks like "20" --></unclear> quod ipsa est persona talis distincta ab alia quam 
+            <lb ed="#T"/>producit nec est hoc inconveniens ubi totum quod actus relative repraesentat et est essentialiter et vere idem quod 
+            <lb ed="#T"/>repraesentat absolute et credo hoc est ibi significare quod conceptioni simplici praevia compositioni et divisioni 
+            <lb ed="#T"/>concipiatur aliquid relative quia hoc est quod significare in re eadem singularissima entitas est essentia etiam per se 
+            <lb ed="#T"/>primo modo ad aliud se puta deitas et entitas ad aliud vel alium puta haec personalitas relativa et <unclear>haec<!-- identical abbreviation to earlier instances of "hoc" --></unclear> secundum 
+            <lb ed="#T"/>opinionem communem quod personae divinae sunt essentialiter relativae et per hoc patet ad multa consequenter illata quomodo 
+            <lb ed="#T"/>sunt ibi vera usque illud quod tunc vere idem negaretur a se ipso
           </p>
           <p xml:id="b1d1q13-d1e199">
-            Ad quod dicendum quod hoc non est inconveniens sive pro alio et alio sumatur in praedicato quam in subiecto, sed ad aliud quod infertur, quia tunc eadem mentalis propositio esset simul vera et falsa.
+            <pc type="pilcrow">¶</pc> Ad quod dicendum quod hoc non est inconveniens 
+            <lb ed="#T"/>sive pro alio et alio sumatur in praedicato quam in subiecto sed ad aliud quod infertur quia tunc <unclear>illud</unclear> mentalis 
+            <lb ed="#T"/>propositio esset simul vera et falsa
           </p>
           <p xml:id="b1d1q13-d1e202">
-            Dicendum quod eadem vocalis ubi termini equivoce sumerentur non esset hoc mirum, nec de mentali apud illos qui ponunt omnem intentionem esse cognitionem sui ipsius. Hoc tamen non concederem esse, nec in proposito isto, nec alibi, etiam dato quod omnes eedem sint partes propositionis quando ipsae sunt propositio vera et ipsae sunt alias propositio falsa, sicut enim idem non est sessio et statio, licet successive bene posset idem quod est nunc sessio alias esse statio, quia aliter disponitur secundum situm quando est sessio, et aliter quando est statio, sic mentaliter aliter disponitur et aliter sumitur, et alio modo sunt se intellectus in aliqua complexe significabilia quando illa signa vera, et aliter quando falsa. Et per idem solvitur illud commune quod arguitur quod ‘omnis homo est animal, et omne animal est homo’ sint unica propositio in mente, et, per consequens, eadem propositio vera et falsa, nulla enim signa simul in mente significant omnem hominem esse animal et omne animal esse hominem, dato etiam quod successive faciant hoc et illud.
+            dicendum quod eadem vocalis ubi termini aequivoce sumerentur non esset 
+            <lb ed="#T"/>hoc mirum nec de mentali apud illos qui ponunt omnem intentionem esse cognitionem sui ipsius 
+            <lb ed="#T"/>hoc tamen non concederem esse nec in proposito isto nec alibi etiam dato quod omnes eaedem sint partes 
+            <lb ed="#T"/>propositionis quando ipsae sunt propositio vera et ipsae sunt alias propositio falsa sicut enim idem non est sessio et 
+            <lb ed="#T"/>statio licet successive bene posset idem quod est nunc sessio alias esse statio quia aliter disponitur 
+            <lb ed="#T"/>secundum situm quando est sessio et aliter quando est statio sic mentaliter aliter disponitur et aliter sumitur et alio 
+            <lb ed="#T"/>modo sunt se intellectus in aliqua complexe significabilia quando illa signa vera et aliter quando falsa et per idem 
+            <lb ed="#T"/>solvitur illud commune quod arguitur quod ‘omnis homo est animal et omne animal est homo sint unica propositio 
+            <lb ed="#T"/>in mente et per consequens eadem propositio vera et falsa nulla enim signa simul in mente significant omnem hominem 
+            <lb ed="#T"/>esse animal et omne animal esse hominem dato etiam quod successive faciant hoc et illud
           </p>
           <p xml:id="b1d1q13-d1e208">
-            Aliter tamen potest dici, et hoc est mihi verisimilius, quod copula non <a>non s. lin. T</a> est eadem hinc inde, quia mihi est valde verisimile quod omnis copula mentalis est una quaedam obiecti vel obiectorum conceptiva compositio, et ipsa ordo vel ordinatio obiectorum conceptorum per subiectum et praedicatum ibidem combinatorum, nec est eadem copula mentalis quae illa obiecta contrario ordine disponitur, et quae, econverso. Et propter hoc iterum patet quid dicendum sit tam in proposito, quod non est eadem mentalis propositio simul vera et falsa quam in communi dubio iam praetacta.
+            <pc type="pilcrow">¶</pc> Aliter tamen potest dici 
+            <lb ed="#T"/>et hoc est mihi verisimilius quod copula <add place="above-line">non</add> est eadem hinc inde quia <unclear>nihil</unclear> est valde verisimile quod 
+            <lb ed="#T"/>omnis copula mentalis est una quaedam obiecti vel obiectorum conceptiva compositio et ipsa ordo 
+            <lb ed="#T"/>vel ordinatio obiectorum conceptorum per subiectum et praedicatum ibidem combinatorum nec est eadem copula 
+            <lb ed="#T"/>mentalis quae illa obiecta contrario ordine disponitur et quae econverso et propter hoc iterum patet quid dicendum sit 
+            <lb ed="#T"/>tam in proposito quod non est eadem mentalis propositio simul vera et falsa quam in omni dubio iam praetac<lb ed="#T"/>ta
           </p>
           <p xml:id="b1d1q13-d1e221">
-            Aliter potest dici, et probabiliter, ad argumentum secundum quendam doctorem quod ille actus beatificus qui videtur essentiae et personae non repraesentat personam respective sed solum absolute. Nec sequitur beatus per illum actum cognoscit personas ut distinguuntur relative, quia hoc quod beatus percipit distinctionem personarum per illum actum est propter hoc quod istae personae distinctae et earum distinctio sunt essentialiter, quam actus repraesentat absolute <pb ed="#T" n="50-r"/><cb ed="#T" n="a"/>, non quod actus ille repraesentet relative illas personas. Sed responsio praecedens est mihi probabilior exponendo actum relative vel absolute posteriore sicut ibi exposui.
+            <pc type="pilcrow">¶</pc> aliter potest dici et probabiliter ad argumentum secundum quendam doctorem quod ille actus beatificus qui videtur essentiae 
+            <lb ed="#T"/>et personae non repraesentat personam respective sed solum absolute nec sequitur beatus per illum actum 
+            <lb ed="#T"/>cognoscit personas ut distinguuntur relative quia hoc quod beatus percipit distinctionem personarum per illum actum 
+            <lb ed="#T"/>est propter hoc quod istae personae distinctae et earum distinctio sunt essentialiter quam actus repraesentat absolute 
+            <pb ed="#T" n="50-r"/>
+            <cb ed="#T" n="a"/>
+            <lb ed="#T"/>non quod actus ille repraesentet relative illas personas sed responsio praecedens est mihi probabilior exponendo actum re<lb ed="#T"/>lative 
+            vel absolute posteriore sicud ibi exposui
           </p>
           <p xml:id="b1d1q13-d1e224">
-            Ad secundum, quod ille actus est equaliter signum utriusque naturale, nec tamen primo contingit huic vel illi nisi exponendo ly primo negative, si primo primitate adequationis significat ipsam deitatem, et eo ipso omne illud quod est ipsa deitas, et eo modo convenit eis per modum signi naturalis, quomodo proportionaliter deitas ipsa convenit eis per modum naturae communis eis reali et essentiali communitate, quia cum idem natura quam primo significat singulariter et individualiter est natura singularissima, ideo licet significaret multa, non est cognitio universalis sed individualis potius. Ymmo dato quod individualiter et non per modum generis vel speciei significaret primo multa, ut pote si Deus mihi inprimeret unicam visionem quam ista distincte viderem albedinem simul et nigredinem, sicut per duas distinctas visiones ab ipsis causabiles, non tamen propter hoc esset ista visio cognitio universalis vel communis, eo modo quo cognitio universalis distinguitur contra cognitionem individualem, sicut nec una distincta cognitio quae est signum omnium et cognitio sic communis sed individualis, quia omnis cognitio universalis distincta contra individualem est cognitio confusa et indistincta. Talis autem cognitio esset distinctissima et individualissime vel singularissime significans albedinem et nigredinem, licet esset alio modo communis communitate, scilicet, virtutis in significando proportionaliter illi communitati qua dicimus solem causam universalem in causando.
+            <pc type="virgula">//</pc> ad 2 quod ille actus est aequaliter signum 
+            <lb ed="#T"/>utriusque naturale nec tamen primo contingit huic vel illi nisi exponendo ly primo negative si primo primitate 
+            <lb ed="#T"/>adaequationis significat ipsam deitatem et eo ipso omne illud quod est ipsa deitas et eo modo convenit 
+            <lb ed="#T"/>eis per modum signi naturalis quomodo proportionaliter deitas ipsa convenit eis per modum naturae communis 
+            <lb ed="#T"/>eis reali et essentiali communitate quia cum idem natura quam primo significat singulariter et individualiter est natura 
+            <lb ed="#T"/>singularissima ideo licet significaret multa non est cognitio universalis sed individualis potius ymmo dato 
+            <lb ed="#T"/>quod individualiter et non per modum generis vel speciei significaret primo multa ut pote si 
+            <lb ed="#T"/>deus mihi imprimeret unicam visionem quam ista distincte viderem albedinem simul et nigredinem 
+            <lb ed="#T"/>sicut per duas distinctas visiones ab ipsis causabiles non tamen propter hoc esset ista visio cognitio 
+            <lb ed="#T"/>universalis vel communis eo modo quo cognitio universalis distinguitur contra cognitionem individualem sicud nec u<lb ed="#T"/>na 
+            <unclear>distincta<!-- divina ? --></unclear> cognitio quae est signum omnium et cognitio sic communis sed individualis quia omnis cognitio universalis 
+            <lb ed="#T"/>distincta contra individualem est cognitio confusa et indistincta talis autem cognitio esset distinctissima 
+            <lb ed="#T"/>et individualissime vel singularissime significat albedinem et nigredinem licet esset alio modo communis communitate 
+            <lb ed="#T"/>scilicet virtutis in significando proportionaliter illi communitati qua dicimus solem causam universalem in causando
           </p>
           <p xml:id="b1d1q13-d1e230">
-            Dices talis cognitio esset communis communitate praedicationis, igitur universalis propositio loquendo. Assumptum patet, quia sit a signum vocale idem et omne idem significans, quod ista cognitio contradistincta est distincta cognitio albedinis et nigredinis modo praedicto, haec tunc est vera ‘albedo est a, et haec similiter nigredo est a,’ sumpto utrobique praedicato personaliter, igitur et converse earumdem, et, per consequens, albedo est a, et similiter albedo est nigredo, et, per consequens, a est signum commune communitate praedicationis, igitur et illa cognitio.
+            <pc type="pilcrow">¶</pc> dices talis cognitio esset communis communitate praedicationis igitur universalis propositio logice loquendo assumptum 
+            <lb ed="#T"/>patet quia sit a signum vocale idem et omne idem significans quod ista cognitio contradistincta est distincta 
+            <lb ed="#T"/>cognitio albedinis et nigredinis modo praedicto haec tunc est vera <mentioned>albedo est <c>a</c> et haec similiter nigredo 
+            <lb ed="#T"/>est <c>a</c></mentioned> sumpto utrobique praedicato personaliter igitur et converse earumdem et per consequens albedo est a et 
+            <lb ed="#T"/>similiter albedo est nigredo et per consequens <c>a</c> est signum commune communitate praedicationis igitur et illa cognitio.
           </p>
           <p xml:id="b1d1q13-d1e233">
-            Dicendum quod talis communitas praedicationis sola non sufficit ad universalitatem proprie loquendo et logice dictam, alioquin ille terminus ‘haec deitas’ esset universalis proprie loquendo contra Augustinum, qui dicit quod nec est genus nec est species VII De Trinitate, c. 9, allegat d. 19 primi libri. Oportet igitur addere abstractionem et confusionem signi talis vel quod non abstracte, ita quod non singulariter et communiter, sed universaliter significet tam hoc quam illud. Sed in proposito non est sic. Ymmo ille conceptus singulariter et distincte significat utrumque, et hoc ita distincte, sicut conceptus sibi proprius solus significaret.
+            <pc type="pilcrow">¶</pc> Dicendum 
+            <lb ed="#T"/>quod talis communitas praedicationis sola non sufficit ad universalitatem proprie loquendo et logice dictam 
+            <lb ed="#T"/>alioquin ille terminus <mentioned>haec deitas</mentioned> esset terminus universalis proprie loquendo contra <name>augustinum</name> qui dicit quod nec est genus 
+            <lb ed="#T"/>nec est species 7 de trinitate capitulo 9 allegat distinctione 19 primi libri oportet igitur addere abstractionem et confusionem 
+            <lb ed="#T"/><unclear>signi</unclear> talis vel quod non abstracte ita quod non singulariter et communiter sed universaliter significet tam 
+            <lb ed="#T"/>hoc quam illud sed in proposito non est sic ymmo ille conceptus singulariter et distincte significat utrumque 
+            <lb ed="#T"/>et hoc ita distincte sicut conceptus sibi proprius solus significaret
           </p>
         </div>
         <div xml:id="b1-q13-Dd1e272">
           <head xml:id="b1-q13-Hd1e274">Articulus 2</head>
           <p xml:id="b1d1q13-d1e236">
-            <a>Secundus articulus. mg. T</a>
-            Secundus articulus est an una persona divina posset licite vel etiam absolute plus diligi quam alia, utpote Filius qui nos in humanitate redemit non sic Pater. Et videtur quod non, quia si una persona plus amari posset quam alia, igitur eadem ratione posset una persona amari alia non amata, quia illud plus esset amor quidam. Et est ita respectu unius personae quod non respectu alterius, si detur antecedens. Igitur in oppositum procedunt principalia argumenta.
+            <note place="margin-left">2us articuli</note>
+            <pc type="pilcrow">¶</pc> 2us articulus est an una persona 
+            <lb ed="#T"/>divina posset licite vel etiam absolute plus diligi quam alia ut pote filius qui nos humanitate re<lb ed="#T"/>demit 
+            non sic pater et videtur quod non quia si una persona plus amari posset quam alia 
+            <lb ed="#T"/>igitur eadem ratione posset una persona amari alia non amata quia illud plus esset amor 
+            <lb ed="#T"/>quidam et est ita respectu unius personae quod non respectu alterius si detur antecedens igitur in oppositum procedunt 
+            <lb ed="#T"/>principalia argumenta
           </p>
           <p xml:id="b1d1q13-d1e242">
-            Ad illud dubium mihi videtur dicendum quod est ut sic, et est ut non. Si autem istud antecedens quod est etiam dubium discutiendum potest etiam dupliciter intelligi, scilicet, vel de personis divinis in eo quod tales personae sunt naturaliter, et secundum etiam quod divinae sunt et deitate operantur active ad extra, vel specialiter pro persona Filii ratione humanitatis assumptae et eorum quae per eam in ea singulariter passus vel per eam fuit. Et primo modo verum est quod aliqui prima facie videntur quandoque sic loquendo maiorem habere devotionem ad unam personam divinam quam ad aliam, sicut ad Spiritum Sanctum quam ad Patrem et Filium, aliquando maiorem ad Filium, aliquando minorem ad totam Trinitatem quam ad aliquam personam per se, cui concordare videtur Ecclesia faciens quandoque orationem ad unam non sic diligendo eam ad aliam. Et tamen non est sic licet pro tunc, credatur forsan sic esse, nam illae devotiones concipiuntur non ex propriis sed appropriatis operationibus seu affectibus earum, quando enim peccator cogitat de Dei clementia et misericordia quae appropriatur Spiritui Sancto magis excitatur saepe ad devotionem quam quando cogitat de Dei omnipotentia quae appropriatur Patri, et quando cogitat de eius sapientia et iustitia quae appropriatur Filio. Et tamen secundum veritatem illa tunc est causa quare diligit, et illa tam equaliter convenit Patri et Filio sicut Spiritui Sancto. Sed hoc forte non attendat, ita nunc diligit Filium sicut Spiritum Sanctum, quamvis non semper advertat, sic in hoc est exemplificatum ita intelligatur de aliis casibus. In hoc igitur casu sumendo antecedens, nego ipsum. Alio modo potest intelligi specialiter de persona Filii propter duplicem naturam et duplicem bonitatem eius amabilem divinam, scilicet, et creatam, sicut procedit probatio assumpti. Et tunc potest intelligi vel de amore pluri licito vel illicito. Si de illicito, consequens est satis possibile, vel fuisset, saltem quia alia creatura potuisset plus dilexisse eius humanitatem quam aliquando eius divinitatem, sicut una puella plus diligit suum amasium quam Deum. Et si quae creatura sic praedilexisset eius humanitatem suae deitati plus dilexisset Filium quam Patrem. Et sic loquendo tenet ulterior consequentia. Et consequens possibile est, sicut et antecedens. Si autem intelligatur antecedens, quod una persona <cb ed="#T" n="b"/><!--50rb--> potest plus diligi quam alia, ut persona Filii, pro eo quod habet in se duplicem amabilitatem, non sic persona alia. Tunc antecedens potest esset verum ad hunc intellectum potest plus diligi, idest, pluribus dilectionibus vel amoribus diligi, quia amore fruitivo propter hoc quod Deus est, et amore usus propter humanitatem, vel uno amore forte equivalente talibus duobus amoribus. Et tunc plus diligitur, idest, amore plurium diligitur et extensius, non autem intensius amore fruitivo diligitur quam alia persona. Ex hoc licet eam <a>eam s. lin. T</a> per humanitatem surgat voluntas in magis fervidum amorem non tantum Filii sed potius Trinitatis, in quibus omnibus est omnino eadem bonitas fruibilis licite et sola ultimate finaliter fruitur communis omnibus personis deitatis, <a>hoc et quod natura s. lin. T</a>, potest etiam antecedens aliter accipi de persona Filii, quae in humanitate redemit nos natus, passus, sepultus pro nobis. Et ideo potest licite plus diligi quam persona alia. Haec autem sibi conveniunt non solum ratione humanitatis, quia non ista sola nos redemit, nec sola pro nobis passa est et mortua, sed Filius Dei in ipsa et mediante ipsa, et certe haec merentur magnum amorem. Igitur licite, ut videtur, propter hoc Filium magno amore diligere possumus. Ideo certissimum est quod ad hoc tenemur, non tamen propter has rationes possumus alias personas diligere, quia ipsae non redemiunt nos nec pro nobis passae sunt.
+            <pc type="pilcrow">¶</pc> ad illud dubium mihi videtur dicendum quod est ut sic et est ut non si autem istud antecedens 
+            <lb ed="#T"/>quod est etiam dubium discutiendum potest etiam dupliciter intelligi scilicet vel de personis divinis in eo quod tales personae 
+            <lb ed="#T"/>sunt naturaliter et secundum etiam quod divinae sunt et deitate operantur active ad extra vel specialiter pro persona filii 
+            <lb ed="#T"/>ratione humanitatis assumptae et eorum quae per eam in ea singulariter passus vel per eam fuit 
+            <lb ed="#T"/>et primo modo verum est quod aliqui prima facie videntur quandoque sic loquendo maiorem habere de<lb ed="#T"/>votionem 
+            ad unam personam divinam quam ad aliam sicut ad spiritum sanctum quam ad patrem et filium 
+            <lb ed="#T"/>aliquando maiorem ad filium aliquando minorem ad totam trinitatem quam ad aliquam personam per se cui 
+            <lb ed="#T"/>concordare videtur ecclesia faciens quandoque orationem ad unam non sic diligendo eam 
+            <lb ed="#T"/>ad aliam et tamen non est sic licet pro tunc credatur forsan sic esse nam illae devotiones 
+            <lb ed="#T"/>concipiuntur non ex propriis sed appropriatis operationibus seu affectibus earum quando 
+            <lb ed="#T"/>enim peccator cogitat de dei clementia et misericordia quae appropriatur spiritui sancto magis 
+            <lb ed="#T"/>excitatur saepe ad devotionem quam quando cogitat de dei omnipotentia quae appropri<lb ed="#T"/>atur 
+            patri vel quando cogitat de eius sapientia et iustitia quae appropriatur filio et tamen 
+            <lb ed="#T"/>secundum veritatem illa tunc est causa quare diligit et illa tam aequaliter convenit patri et filio sicud spiritui sancto 
+            <lb ed="#T"/>sed hoc forte non attendat ita nunc diligit filium sicut spiritum sanctum quamvis non semper advertat 
+            <lb ed="#T"/>sic in hoc est exemplificatum ita intelligatur de aliis casibus in hoc igitur casu sumendo antecedens nego 
+            <lb ed="#T"/>ipsum <pc type="pilcrow">¶</pc> alio modo potest intelligi specialiter de persona filii propter duplicem naturam et duplicem bonitatem 
+            <lb ed="#T"/>eius amabilem divinam scilicet et creatam sicud procedit probatio assumpti et tunc potest intelligi vel de 
+            <lb ed="#T"/>amore pluri licito vel illicito si de illicito consequens est satis possibile vel fuisset sal<lb ed="#T"/>tem 
+            quia alia creatura potuisset plus dilexisse eius humanitatem quam aliquando eius divinitatem sicud 
+            <lb ed="#T"/>una puella plus diligit suum amasium quam deum et si quae creatura sic prae<lb ed="#T"/>dilexisset 
+            eius humanitatem suae deitati plus dilexisset filium quam patrem et sic loquendo tenet 
+            <lb ed="#T"/>ulterior consequentia et consequens possibile est sicud et antecedens si autem intelligatur antecedens quod una persona 
+            <cb ed="#T" n="b"/><!--50rb--> 
+            <lb ed="#T"/>potest plus diligi quam alia ut persona filii pro eo quod habet in se duplicem amabilitatem non sic persona 
+            <lb ed="#T"/>alia tunc antecedens potest esset verum ad hunc intellectum potest plus diligi id est pluribus dilectionibus 
+            <lb ed="#T"/>vel amoribus diligi quia amore fruitivo propter hoc quod deus est et amore usus propter humanitatem 
+            <lb ed="#T"/>vel uno amore forte equivalente talibus duobus amoribus et tunc plus diligitur et 
+            <lb ed="#T"/>amore plurium diligitur et extensius non autem intensius amore fruitivo diligitur quam alia persona 
+            <lb ed="#T"/>ex hoc licet <add place="above-line">eam</add> per humanitatem surgat voluntas in magis fervidum amorem non tantum filii sed potius 
+            <lb ed="#T"/>trinitatis in quibus omnibus est omnino eadem bonitas fruibilis licite et sola ultimate finaliter fruitur 
+            <lb ed="#T"/>communis omnibus personis deitatis <add place="above-line">hoc et quod natura</add> potest etiam antecedens aliter accipi de persona filii quae in humanitate redemit 
+            <lb ed="#T"/>nos natus passus sepultus pro nobis et ideo potest licite plus diligi quam persona alia haec 
+            <lb ed="#T"/>autem sibi conveniunt non solum ratione humanitatis quia non ista sola nos redemit nec sola pro nobis 
+            <lb ed="#T"/>passa est et mortua sed filius dei in ipsa et mediante ipsa et certe haec<!-- same abbreviation as "hoc" --> merentur magnum 
+            <lb ed="#T"/>amorem igitur licite ut videtur propter hoc filium magno amore diligere possumus ideo certissimum 
+            <lb ed="#T"/>est quod ad hoc tenemur non tamen propter has rationes possumus alias personas diligere quia ipsae 
+            <lb ed="#T"/>non redemiunt nos nec pro nobis passae sunt
           </p>
           <p xml:id="b1d1q13-d1e252">
-            Respondeo primo quod ideo Filius meruit diligi amore magno, quia spontanee tantum dilexit nos quod haec voluit pro nobis sponte et gratuito pati vel facere. Nam si solum coacepimus obligare, videtur coactori quam sibi et certe quo ad hoc tantum obligamur Patri sicut sibi secundum velle suum spontaneum divinum, quia illud velle spontaneum commune fuit omnibus personis, licet enim Pater vel Spiritus Sanctus pro nobis voluerunt, voluit tamen Filium in humanitate pro nobis pati eadem volitione omnino qua et Filius pro nobis voluit, licet enim haec alia volitione creata Filius voluerit propter quam sibi obligamur, sicut in 2ndo intellectu antecedentis expressum est, nec per se loquendo passio illa plus generavit personalitatem aeternam Filii quam Patris, nisi quatenus vera passio humanitatis sibi contingit per communicationem ydiomatum, hoc est quia generavit humanitatem suam, quae humanitas sibi fuit personaliter unita.
+            <pc type="pilcrow">¶</pc> Respondeo primo quod ideo filius meruit 
+            <lb ed="#T"/>diligi amore magno quia spontaneae tantum dilexit nos quod haec voluit pro nobis 
+            <lb ed="#T"/>sponte et gratuito pati vel facere nam si solum coacepimus obligare 
+            <lb ed="#T"/>videtur coactori quam sibi et certe quo ad hoc tantum obligamur patri sicut sibi secundum velle 
+            <lb ed="#T"/>suum spontaneum divinum quia illud velle spontaneum commune fuit omnibus personis 
+            <lb ed="#T"/>licet enim pater vel spiritus sanctus pro nobis voluerunt voluit tamen filium in humanitate pro nobis pati 
+            <lb ed="#T"/>eadem volitione omnino qua et filius pro nobis voluit licet enim haec alia volitione creata filius volu<lb ed="#T"/>erit 
+            propter quam sibi obligamur sicud in 2o intellectu antecedentis expressum est nec per se loquendo passio 
+            <lb ed="#T"/>illa plus generavit personalitatem aeternam filii quam patris nisi quatenus vera passio humanitatis sibi 
+            <lb ed="#T"/>contingit per communicationem ydiomatum hoc est quia generavit humanitatem suam quae humanitas sibi fuit 
+            <lb ed="#T"/>personaliter unita
           </p>
           <p xml:id="b1d1q13-d1e255">
-            Secundo dico hic quod quo ad opus operatum quo, videlicet, non solum voluit nos redimi, sed quo in exsecutione nos redemit et multa pro nobis passus est propter amorem quo obligamur suae humanitati, quae etiam licet voluit volitione creata, et haec poenalius per se et directe perpessa est, pro quo etiam sibi plus quam alicui creaturae obligamur, qui etiam amor in Filium, qui in humanitate ipsa substitit referendus est non plus diligimus Filium licite quam Patrem per se loquendo, sed per accidens, quia semper redemit nos, nos redimi, vel ipsum nostrum redimi principalius illo actu visivo quodammodo diligentis vel potius forsitan nosmet ipsos, nam unumquodque propter quod et illud magis. Unde et si unus angelus vel purus homo nos redemisset, eque ex causa sola tantum diligeremus eum sicut nunc diligimus Filium ceteris paribus, quia cum Filius simul cum hoc quod nos redemit Deus est, et ideo propter hoc praecise quando hoc attendimus plus eum diligimus quam faceremus creaturam quae nos redemisset, sed tunc ex illa causa alia, scilicet, quia Deus est eque diligimus Patrem.
+            <pc type="pilcrow">¶</pc> 2o dico hic quod quo ad opus operatum quo videlicet non solum voluit 
+            <lb ed="#T"/>nos redimi sed quo in executione nos redemit et multa pro nobis passus est propter 
+            <lb ed="#T"/>amorem quo obligamur suae humanitati quae etiam licet voluit volitione creata et haec poe<lb ed="#T"/>nalius 
+            per se et directe perpessa est pro quo etiam sibi plus quam alicui creaturae obligamur 
+            <lb ed="#T"/>qui etiam amor in filium qui in humanitate ipsa substitit referendus est non plus diligimus 
+            <lb ed="#T"/>filium licite quam patrem per se loquendo sed per accidens quia semper redemit nos nos 
+            <lb ed="#T"/>redimi vel ipsum nostrum redimi principalius illo actu <unclear>visivo</unclear> quodammodo diligentis 
+            <lb ed="#T"/>vel potius forsitan nosmet ipsos nam unumquodque propter quod et illud magis unde 
+            <lb ed="#T"/>et si unus angelus vel purus homo nos redemisset aeque ex causa sola tantum dil<lb ed="#T"/>igeremus 
+            eum sicud nunc diligimus filium ceteris paribus quia cum filius simul cum hoc quod nos 
+            <lb ed="#T"/>redemit deus est et ideo propter hoc praecise quando hoc attendimus plus eum diligimus quam 
+            <lb ed="#T"/>faceremus creaturam quae nos redemisset sed tunc ex illa causa alia scilicet quia deus est aeque 
+            <lb ed="#T"/>diligimus patrem
           </p>
           <p xml:id="b1d1q13-d1e260">
-            <a>Nota bene. mg. T</a> Dices ipse meruit nobis redemptionem ex hoc quod Deus erat, quia pro nobis passus est, quia pura creatura humana de stirpe Adam redimere nos non potuisset, secundum Anselmum, libro 2ndo Cur Deus Homo, cap. 6 et 7. Igitur ex hoc quod Deus redemit nos, debemus ei amorem quali non est creatura alia de stirpe Adam diligenda. Et, per consequens, sibi Deo debitum. Et illum non debemus Patri, quia Pater non redemit nos. Igitur plus tenemur diligere Filium quam Patrem et amore soli Deo debito.
+            <pc type="pilcrow">¶</pc> dices ipse meruit nobis redemptionem ex hoc quod deus erat 
+            <lb ed="#T"/>quia pro nobis passus est quia pura creatura humana de stirpe <name>adam</name> redimere nos 
+            <lb ed="#T"/>non potuisset secundum <ref><name>anselmum</name> libro 2 cur deus homo capitulo 6 et 7</ref> igitur ex hoc quod deus redemit nos 
+            <lb ed="#T"/>debemus ei amorem quali non est creatura alia de stirpe <name>adam</name> diligenda et per consequens 
+            <lb ed="#T"/>sibi deo debitum et illum non debemus patri quia pater non redemit nos igitur plus te<lb ed="#T"/>nemur 
+            diligere filium quam patrem et amore soli deo debito
           </p>
           <p xml:id="b1d1q13-d1e269">
-            Dicendum est ut prius quod toti Trinitati equaliter tenemur ex hoc quod voluerunt nos per divinam personam redimi. Sed istae non est proprie amor Dei fruitivus sive propter seipsum, sed est amor propter utile. Sed tamen illo totam Trinitatem diligere ex gratitudine obligamur, sicut et propter creationem, quia tota simul Trinitas redemptionem nostram concorditer voluit et disponit, quod autem ultra hoc Filius fuit suppositum per quod redempti sumus. Ideo bene volo quod ipse sit per quem assurgere debemus in amore totius Trinitatis, et plus certe sibi regratiari et per eum toti Trinitati quod placuit omnibus personis redimere per suppositum increatum quam per creaturam. Licet secundum sanctos per puram creaturam potuisset redemptio fieri, si Deo placuisset. Sed non sibi placuit quod tantum alicui alteri teneremur, sed illo supposito non ex hoc solo obligamur singulariter quod ipse est suppositum redimens nos nisi obligatione speciali debita suae humanitati, quae singulariter uni supposito unita est, et non illi naturae debetur, et supposito cuius est mediante et per accidens aut per aliud. Non sic alteri supposito, ut prius visum est. Et maxime ista responsio ex hoc confirmari habet, <pb ed="#T" n="50-v"/><cb ed="#T" n="a"/> quia amor et gratitudo plus debetur affectui quam exteriori operi. Immo in nobis non sunt ipsa opera exteriora bona moraliter nisi propter bonitatem affectionis, ex qua fiunt executiones exteriores. Et multo igitur nihil debetur supposito operanti vel exequenti nisi quod debetur naturae vel naturis et affectione earum. Et tunc satis patet ex praehabitis quid est dicendum.
+            <pc type="pilcrow">¶</pc> dicendum est ut prius quod 
+            <lb ed="#T"/>toti trinitati aequaliter tenemur ex hoc quod voluerunt nos per divinam personam redimi sed 
+            <lb ed="#T"/>istae non est proprie amor dei fruitivus sive propter seipsum sed est amor propter utile sed tamen illo totam 
+            <lb ed="#T"/>trinitatem diligere ex gratitudine obligamur sicud et propter creationem quia tota simul trinitas redemptionem 
+            <lb ed="#T"/>nostram concorditer voluit et disponit quod autem ultra hoc filius fuit suppositum per quod 
+            <lb ed="#T"/>redempti sumus ideo bene volo quod ipse sit per quem assurgere debemus in amore totius 
+            <lb ed="#T"/>trinitatis et plus certe sibi regratiari et per eum toti trinitati quod placuit omnibus personis redimere 
+            <lb ed="#T"/>per suppositum increatum quam per creaturam licet secundum sanctos per puram creaturam potuisset redemptio 
+            <lb ed="#T"/>fieri si deo placuisset sed non sibi placuit quod tantum alicui alteri teneremur sed illo 
+            <lb ed="#T"/>supposito non ex hoc solo obligamur singulariter quod ipse est suppositum redimens nos 
+            <lb ed="#T"/>nisi obligatione speciali debita suae humanitati quae singulariter uni supposito unita est 
+            <lb ed="#T"/>et non illi naturae debetur et supposito cuius est mediante et per accidens aut per aliud 
+            <lb ed="#T"/>non sic alteri supposito ut prius visum est et maxime ista responsio ex hoc confirmari habet 
+            <pb ed="#T" n="50-v"/>
+            <cb ed="#T" n="a"/> 
+            <lb ed="#T"/>quia amor et gratitudo plus debetur affectui quam exteriori operi ymmo in nobis non sunt ipsa opera 
+            <lb ed="#T"/>exteriora bona moraliter nisi propter bonitatem affectionis ex qua fiunt executiones exteriores et multo 
+            <lb ed="#T"/>igitur nihil debetur supposito operanti vel exequenti nisi quod debetur naturae vel naturis et affectione 
+            <lb ed="#T"/>earum et tunc satis patet ex praehabitis quid est dicendum
           </p>
           <p xml:id="b1d1q13-d1e275">
-            Cum hac praedicta responsione mea antiqua invenio iam unum doctorem modernum concordantem, qui inquirens utrum beatus plus diligat Filium hominem quam Deum Patrem dicit quod ly magis potest significare comparationem in intentione amoris vel multitudinem. “Et si primo modo, tunc beato,” inquit, “non magis vel non intensius amat Filium quam aliam personam.” “Sed iste,” inquit, “amor additus amori deitatis non est fruitio, et ideo non sequitur quod beatus magis fruitur Filio quam alia persona. Igitur quod iste amor est Filii inquantum est homo,” haec ille. Et probabiliter et bene excepto ultimo dicto quod ille amor additus non est fruitio. Potest enim bene esse quod sit fruitio. Immo cum omnia quae amant beati amant in Deum, et, per consequens, amore relativo ad Deum. Videtur quod iste amor elicitivus saltem sit fruitio, non quidem humanitatis, sed potius deitatis. Sed tunc iste amor additus non est aliter fruitio Filii quam alterius personae, licet sit amor utendi respectu humanitatis Christi. Et sic per accidens seu per additum utitur Filio illo actu non Patre per se aut ipso eodem actu tota fruitur Trinitate.
+            cum hac praedicta responsione mea antiqua 
+            <lb ed="#T"/>invenio iam unum doctorem modernum concordantem qui inquirens utrum beatus plus diligat 
+            <lb ed="#T"/>filium hominem quam deum patrem dicit quod ly magis potest significare comparationem in intentione amoris 
+            <lb ed="#T"/>vel multitudinem <quote>et si primo modo tunc beato inquit non magis vel non intensius amat filium 
+            <lb ed="#T"/>quam aliam personam sed iste inquit amor additus amori deitatis non est fruitio et ideo non sequitur quod 
+            <lb ed="#T"/>beatus magis fruitur filio quam alia persona igitur quod iste amor est filii inquantum est homo</quote> haec ille et 
+            <lb ed="#T"/>probabiliter et bene excepto ultimo dicto quod ille amor additus non est fruitio potest enim bene esse 
+            <lb ed="#T"/>quod sit fruitio immo cum omnia quae amant beati amant in deum et per consequens amore re<lb ed="#T"/><sic><pc type="pilcrow">¶</pc></sic>lativo 
+            ad deum videtur quod iste amor elicitivus saltem sit fruitio non quidem humanitatis sed potius 
+            <lb ed="#T"/>deitatis sed tunc iste amor additus non est aliter fruitio filii quam alterius personae licet sit amor 
+            <lb ed="#T"/>utendi respectu humanitatis christi et sic per accidens seu per additum utitur filio illo actu non 
+            <lb ed="#T"/>patre per se aut ipso eodem actu tota fruitur trinitate
           </p>
           <p xml:id="b1d1q13-d1e281">
-            Ex isto eodem medio patet quod minus bene respondet ad instantiam de redemptione, arguit enim contra se, sicut ego argui contra me supra, quod praeter amorem deitatis habet beatus amorem Filii inquantum est mediator sive redemptor, et non est redemptor non inquantum Deus, et ut sic est bonum infinitum, igitur sic est obiectum fruibile, igitur beatus sic fruitur Filio et non alia persona.
+            <pc type="pilcrow">¶</pc> Ex isto eodem medio patet quod minus 
+            <lb ed="#T"/>bene respondet ad instantiam de redemptione arguit enim contra se sicut ego argui contra me supra 
+            <lb ed="#T"/>quod praeter amorem deitatis habet beatus amorem filii inquantum est mediator sive redemptor et non est 
+            <lb ed="#T"/>redemptor non inquantum deus et ut sic est bonum infinitum igitur sic est obiectum fruibile igitur beatus sic 
+            <lb ed="#T"/>fruitur filio et non alia persona
           </p>
           <p xml:id="b1d1q13-d1e285">
-            Hic respondet quod in patria non est aliquis amor respectu Filii inquantum est sufficiens redemptor, sed sunt respectu illius duo amores sicut et redemptor includit duas naturas, quae duae naturae unico amore amari non possunt, et hoc distincte, quia non possunt cognosci unico actu simplici, actu tamen intellectus componendo possunt cognosci. Sed non sequitur ex hoc quod possit sic amari, quia actus amoris oportet quod sit simplex. Si enim, inquit, idem esset actus amoris respectu diversorum, tunc, ut videtur, esset eadem fruitio intensior respectu alterius personae quam respectu alterius.
+            Hic respondet quod in patria non est aliquis amor respectu filii inquantum est 
+            <lb ed="#T"/>sufficiens redemptor sed sunt respectu illius duo amores sicud et redemptor includit duas 
+            <lb ed="#T"/>naturas quae duae naturae unico amore amari non possunt et hoc distincte quia non possunt 
+            <lb ed="#T"/>cognosci unico actu simplici actu tamen intellectus componendo possunt cognosci sed non sequitur ex hoc 
+            <lb ed="#T"/>quod possit sic amari quia actus amoris oportet quod sit simplex si enim inquit idem esset 
+            <lb ed="#T"/>actus amoris respectu diversorum tunc ut videtur esset eadem fruitio intensior respectu alterius personae quam respectu 
+            <lb ed="#T"/>alterius
           </p>
           <p xml:id="b1d1q13-d1e288">
-            <a>Probat quod idem actus sit usus et fruitio. mg. T</a>
-            STOPPED HERE
-            Contra hoc est medium praeassumptum quod contingit humanitate Christi amari ea utendo intentione. Sed talis usus respectu humanitatis est fruitio Dei sicut cum odio propter Deum peccatum iste idem actus qui est odium peccati est amor respectu Dei omnia etiam animalia vel odibilia sunt in Deum, quo fruendum est et <a>et s. lin. T</a> qui propter se diligendus est referenda. Unde Augustinus, lib. X De Trinitate, cap. 9, ponitur etiam Io Sententiarum, d. prima: “Fruimur cognitis in quibus ipsis voluntas propter se delectata conquescit, utimur vero eis quae ad aliquid referimus quo fruendum est.” Item, ibidem planius de eodem dicitur sic cito post principium capituli “frui est amore inhaerere alicui propter se ipsum, uti vero aliquid quod in usum venit refere ad optinendum illud quo fruendum est.” Igitur actus debitus utendi est amor relativus unius quo quis utitur ad aliud ut ad finem. Igitur cum humanitas Christi sit maxime inter creaturas ductiva nostri amoris in Deum, et sic ipsa obiectum utile, non autem fruibile ipsa est amabilis amore relativo ipsius in Deum. Et si hoc, igitur Deus amabitur actu illo. Et tamen tali actu non per se loquendo uteretur quis Deo, igitur frueretur. Igitur eodem amore simplici in essendo potest quis amare humanitatem Christi et etiam deitatem, et, pari ratione, potest quis unico actu simplici amoris diligere Deum et hominem, quia redemptor.
+            <pc type="pilcrow">¶</pc>
+              <note type="marginal-note" place="margin-left">Probat quod idem actus sit usus et fruitio</note>
+            <!-- there was a note that said "Stopped" here; perhaps Sevein stopped corrections here?? not sure yet  -->
+              contra hoc est medium praeassumptum quod contingit humanitate christi amari ea utendo 
+            <lb ed="#T"/><unclear>meritorie<!--Sev had intentione.--></unclear> sed talis usus respectu humanitatis est fruitio dei sicut cum odio propter deum peccatum iste 
+            <lb ed="#T"/>idem actus qui est odium peccati est amor respectu dei omnia etiam animalia vel odibilia sunt in deum 
+            <lb ed="#T"/>quo fruendum est et <add place="above-line">et</add> qui propter se diligendus est referenda unde augustinus libro 10 de trinitate capitulo 9 ponitur 
+            <lb ed="#T"/>etiam primo sententiarum distinctione prima <quote>fruimur cognitis in quibus ipsis voluntas propter se delectata conquiescit 
+            <lb ed="#T"/>utimur vero eis quae ad aliquid referimus quo fruendum est</quote> <pc type="pilcrow">¶</pc> Item ibidem planius de eodem 
+            <lb ed="#T"/>dicitur sic cito post principium capituli <quote>frui est amore inhaerere alicui propter se ipsum uti vero 
+            <lb ed="#T"/>ad quod in usum venit referre ad optinendum illud quo fruendum est</quote> igitur actus debitus u<lb ed="#T"/>tendi 
+            est amor relativus unius quo quis utitur ad aliud ut ad finem igitur cum humanitas 
+            <lb ed="#T"/>christi sit maxime inter creaturas ductiva nostri amoris in deum et sic ipsa obiectum utile non autem 
+            <lb ed="#T"/>fruibile ipsa est amabilis amore relativo ipsius in deum et si hoc igitur deus ama<lb ed="#T"/>bitur 
+            actu illo et tamen tali actu non per se loquendo uteretur quis deo igitur frueretur igitur eodem 
+            <lb ed="#T"/>amore simplici in essendo potest quis amare humanitatem christi et etiam deitatem et pari ratione potest 
+            <lb ed="#T"/>quis unico actu simplici amoris diligere deum et hominem quia redemptor
           </p>
           <p xml:id="b1d1q13-d1e30X">
-            Praeterea, non minus possum diligere Deum hominem unico actu simplici amoris, quia redemptor <a>diligere Deum...quia redemptor mg. V</a> sufficiens est redimens me quam hunc hominem quia genuit me, vel quam hunc hominem sacerdotem quia celebrat mihi missam, vel hunc hominem episcopum quia promovit me. Sed in istis possum unico actu simplici amoris diligere pro tali vel tali causa, alioquin oporteret ibi habere plures amores necessario illius quem sic diligeremus, quod non videtur, cum ratio diligendi talem sit unica, quamvis ipsum dilectum includat multa requisita ad rationem diligibilis isto actu, et potest etiam esse quod pro nulla alia causa actualiter eum diligat.
+            <pc type="pilcrow">¶</pc> praeterea non 
+            <lb ed="#T"/>minus <unclear>posse</unclear> diligere deum hominem unico actu simplici amoris quia redemptor suf<lb ed="#T"/>ficiens 
+            redimens me quam hunc hominem quia genuit me vel quam hunc hominem sacerdo<lb ed="#T"/>tem 
+            quia celebrat mihi missam vel hunc hominem episcopum quia promovit me sed in istis 
+            <lb ed="#T"/>possum unico actu simplici amoris diligere pro tali vel tali causa alioquin oporteret ibi habere 
+            <lb ed="#T"/>plures amores necessario illius quem sic diligeremus quod non videtur cum ratio diligendi talem sit 
+            <lb ed="#T"/>unica quamvis ipsum dilectum includat multa requisita ad rationem diligibilis isto actu et potest 
+            <lb ed="#T"/>etiam esse quod pro nulla alia causa actualiter eum diligat
           </p>
-          <p xml:id="b1d1q13-d1e300">Praeterea, antiqui patres intense desideraverunt eum habere unicus sufficiens redemptionem, sed desiderium huius videtur esse vel fuisse vel esse potuisse actus amoris simplex in essendo, sed compositus esset in significando vel in essendo amor actus compositus.
+          <p xml:id="b1d1q13-d1e300">
+            <pc type="pilcrow">¶</pc> Praeterea antiqui patres intense 
+            <lb ed="#T"/>desideraverunt eum habere unicus sufficiens redemptionem sed desiderium huius videtur esse vel 
+            <lb ed="#T"/>fuisse vel esse potuisse actus amoris simplex in essendo sed compositus esset in significando vel 
+            cin essendo amor actus compositus
           </p>
           <p xml:id="b1d1q13-d1e303">
-            Praeterea, aut amor ille quo beatus diligit humanitatem Christi relative in Deum per actum voluntatis utendi ea est amor Dei vel non, sed solius humanitatis. Si primo modo, habetur propositum, quia eodem simplici actu amoris potest redemptor diligi secundum utramque naturam requisitam in persona redemptoris. Si secundo modo, tunc non videtur ratio quare debeat dici amor relativus nec, per consequens, actus est utendi secundum descriptionem propositam Augustini, cum ipse tunc esset solius humanitatis sicut obiecti.
+            <pc type="pilcrow">¶</pc> praeterea aut amor ille quo beatus diligit humanitatem christi relative 
+            <lb ed="#T"/>in deum per actum voluntatis utendi ea est amor dei vel non sed solius humanitatis si primo 
+            <lb ed="#T"/>modo habetur propositum quia eodem simplici actu amoris potest redemptor diligi secundum utramque 
+            <lb ed="#T"/>naturam requisitam in persona redemptoris si 2o modo tunc non videtur ratio quare debeat dici amor 
+            <lb ed="#T"/>relativus nec per consequens actus est utendi secundum descriptionem propositam augustini cum ipse tunc 
+            <lb ed="#T"/>esset solius humanitatis sicut obiecti
           </p>
           <p xml:id="b1d1q13-d1e306">
-            Si dicatur quod sufficit ad hoc quod amor huius sit amor <cb ed="#T" n="b"/> relativus humanitatis ad aliud quod sit solum respectu humanitatis sicut obiecti, dummodo non haberetur nisi esset amor respectu Dei vel respectu alterius, quae sit de facto causa una sine qua non haberetur talis amor respectu humanitatis. Tunc videtur quod ille idem amor numero quo nunc diligitur aliquid praecise propter Deum posset postea esse amor quo illud praecise diligatur propter dyabolum vel propter voluntatem malam vel aliud simile, quia constat quod idem successive potest diligi nunc propter unum finem et alias propter alium. Et si amor illius quod nunc amat propter unum, nunc propter aliud habet praecise ipsum pro obiecto, et non finem hunc vel illum, non apparet quin idem manere possit in casu et nunc esse amor illius ad hunc finem, tunc ad illum, et ita sequitur hoc probandum.
+            <pc type="pilcrow">¶</pc> Si dicatur quod sufficit ad hoc quod amor huius sit amor 
+            <cb ed="#T" n="b"/>
+            <lb ed="#T"/>relativus humanitatis ad aliud quod sit solum respectu humanitatis sicud obiecti dummodo non haberetur nisi esset amor 
+            <lb ed="#T"/>respectu dei vel respectu alterius, quae sit de facto causa una sine qua non haberetur talis amor respectu humanitatis 
+            <lb ed="#T"/>tunc videtur quod ille idem amor numero quo nunc diligitur aliquid praecise propter deum posset postea esse 
+            <lb ed="#T"/>amor quo illud praecise diligatur propter dyabolum vel propter voluntatem malam vel aliud simile quia constat 
+            <lb ed="#T"/>quod idem successive potest diligi nunc propter unum finem et alias propter alium et si amor illius quod nunc 
+            <lb ed="#T"/>amat propter unum nunc propter aliud habet praecise ipsum pro obiecto et non finem hunc vel illum non 
+            <lb ed="#T"/>apparet quin idem manere possit in casu et nunc esse amor illius ad hunc finem tunc 
+            <lb ed="#T"/>ad illum et ita sequitur hoc probandum
           </p>
           <p xml:id="b1d1q13-d1e309">
-            Quarto principaliter non videtur verum quod dicit in probatione iam improbati quod illae naturae distincte redemptoris non possunt cognosci unico actu simplici, igitur, inquit, nec sic diligi.
+            <pc type="pilcrow">¶</pc> quarto principaliter non videtur verum quod dicit in probatione iam improbati quod 
+            <lb ed="#T"/>illae naturae distincte redemptoris non possunt cognosci unico actu simplici igitur inquit nec sic diligi
           </p>
           <p xml:id="b1d1q13-d1e316">
-            Oppositum huius probavi 2nda quaestione Prologui, contra quemdam socium, et est ibi dicta et argumenta ad praesens sufficiant contra istud, nisi quod hoc addo quod illud iudicium quo iudicatur vel assensus quo assentitur quod triangulus habet tres, vel quod albedo non est nigredo est actus simplex in essendo, et tamen est apprehensio tam albedinis quam nigredinis, sicut credo et ponitur ut communiter.
+            <lb ed="#T"/>oppositum huius probavi 2a quaestione prologi contra quemdam socium et est ibi dicta et argumenta ad praesens 
+            <lb ed="#T"/>sufficiant contra istud nisi quod hoc addo quod illud iudicium quo iudicatur vel assensus qui assentitur 
+            <lb ed="#T"/>quod triangulus habet tres vel quod albedo non est nigredo est actus simplex in essendo et tamen est ap<lb ed="#T"/>prehensio 
+            <add place="above-line">tam</add> albedinis quam nigredinis sicud credo et ponitur ut communiter
           </p>
           <p xml:id="b1d1q13-d1e319">
-            Praeterea, eodem actu videtur Verbum et vel videri potest res in Verbo, quia aliter nulla est clara via qualiter res in Verbo videantur. Dico igitur sicut prius ed medium istius in contrarium.
+            <pc type="pilcrow">¶</pc> praeterea eodem actu videtur verbum vel 
+            <lb ed="#T"/>videri potest res in verbo quia aliter nulla est clara via qualiter res in verbo videantur 
+            <lb ed="#T"/>dico igitur sicut prius ad medium istius in contrarium
           </p>
           <p xml:id="b1d1q13-d1e322">
-            Dicendum quod licet amor idem sit respectu utriusque naturae in supposito redemptoris, tamen iste actus est uniformiter fruitio omnium personarum, et non est intensius respectu Filii quam respectu Patris, ut supra in praecedenti responsione dictum est.
+            dicendum quod licet amor idem sit respectu utriusque naturae 
+            <lb ed="#T"/>in supposito redemptoris tamen iste actus est uniformiter fruitio omnium personarum et non est intensius 
+            <lb ed="#T"/>respectu filii quam respectu patris ut supra in praecedenti responsione dictum est
           </p>
           <p xml:id="b1d1q13-d1e325">
-            Ex hiis satis patet quid sit dicendum ad titulum quaestionis.
+            <pc type="pilcrow">¶</pc> Ex hiis satis patet quid sit dicendum 
+            <lb ed="#T"/>ad titulum quaestionis
           </p>
           <p xml:id="b1d1q13-d1e328">
-            Ad primum argumentum principale dicendum quod Filium esse meliorem Patre potest dupliciter intelligi, et, similiter, etiam, quod sit diligibilior vel, scilicet, quod pluribus bonitatibus sit bonus, vel quod intentiori bonitate sit bonus et eodem modo diligibilior, quia pluribus dilectionibus vel pluribus modis diligibilis, vel quia intentior. Et patet ulterius ex praedictis qualiter sit deductio applicanda, et per idem patet ad secundum argumentum principale.
+            <pc type="pilcrow">¶</pc> ad primum argumentum principale dicendum quod filium esse meliorem patre potest dupliciter 
+            <lb ed="#T"/>intelligi et similiter etiam quod sit diligibilior vel scilicet quod pluribus bonitatibus sit bonus vel quod intentiori bonitate 
+            <lb ed="#T"/>sit bonus et eodem modo diligibilior quia pluribus dilectionibus vel pluribus modis diligibilis vel 
+            <lb ed="#T"/>quia intentior et patet ulterius ex praedictis qualiter sit deductio applicanda 
+            
+            <!-- should be a paragraph break here --> <pc type="pilcrow">¶</pc> Et per idem 
+            <lb ed="#T"/>patet ad 2m argumentum principale.
           </p>
         </div>
         <div xml:id="b1-q13-Dd1e374">
           <head xml:id="b1-q13-Hd1e376">Articulus 3</head>
           <p xml:id="b1d1q13-d1e331">
-            Nota bene quod sequitur. <a>mg. T</a>
-              Tertio principaliter quo ad difficultatem tactam in tertio argumento principali, potest primo responderi secundum veritatem quod immo Deum scivit esse hominem sumendo hanc non in sensu composito, sed in sensu diviso, licet nesciverunt se scire, quia sequitur per sillogismum expositorium “iste homo scitur ab eis esse homo; iste homo est Deus; igitur, Deus scitur ab eis esse homo.” Praemissae sunt verae, igitur conclusio.
+            <note type="marginal-note" place="margin-right">Nota bene quod sequitur</note>
+            <pc type="pilcrow">¶</pc> 3o principaliter quo ad difficultatem tactam in 3o argumento principali 
+            <lb ed="#T"/>potest primo responderi secundum veritatem quod ymmo deum scivit esse hominem sumendo hanc non in sensu 
+            <lb ed="#T"/>composito sed in sensu diviso licet nesciverunt se scire quia sequitur per sillogismum expositorium <mentioned>iste homo 
+            <lb ed="#T"/>scitur ab eis esse homo iste homo est deus igitur deus scitur ab eis esse homo</mentioned> praemis<lb ed="#T"/>sae 
+            sunt verae igitur conclusio
           </p>
           <p xml:id="b1d1q13-d1e341">
-            Contra: tunc eadem ratione debet concedi per similem deductionem quod ipsi Deum ignoraverunt esse Deum, quia iste homo quem <a>igitur scr. sed del. T</a> crucifixerunt ignorabatur ab eis esse Deus. Sed iste homo fuit Deus, et est. Igitur Deum ignoraverunt esse Deum, quod est absurdum, et dato quod non reputetur hoc inconveniens.
+            <pc type="pilcrow">¶</pc> Contra tunc eadem ratione debet concedi per similem deductionem quod ipsi 
+            <lb ed="#T"/>deum ignoraverunt esse deum quia iste homo quem <del rend="strikethrough">igitur</del> crucifixerunt ignorabatur ab 
+            <lb ed="#T"/>eis esse Deus sed iste homo fuit deus et est igitur deum ignoraverunt esse deum 
+            <lb ed="#T"/>quod est absurdum et dato quod non reputetur hoc inconveniens
           </p>
           <p xml:id="b1d1q13-d1e352">
-            Contra: Si Deum ignoraverunt esse Deum, multo fortius ignoraverunt Deum esse hominem, et hoc repugnat primo data, scilicet, quod Deum sciverunt esse hominem.
+            contra si deum ignoraverunt 
+            <lb ed="#T"/>esse deum multo fortius ignoraverunt deum esse hominem et hoc repugnat primo data scilicet 
+            <lb ed="#T"/>quod deum sciverunt esse hominem
           </p>
           <p xml:id="b1d1q13-d1e355">
-            Praeterea, de Filio Dei nescit iudeus quod ipse sit homo, tum quia nescit Deum habere Filium, tum quia credit nihil quod est Deus esse hominem. Sed Filius Dei est homo a iudeis crucifixus. Igitur de homine a iudeis crucifixo nescit iudeus quod ipse sit homo, et, multo fortius, nescit Deum esse hominem.
+            <pc type="pilcrow">¶</pc> praeterea de filio dei nescit iudaeus quod ipse sit 
+            <lb ed="#T"/>homo tum quia nescit deum habere filium tum quia credit nihil quod est deus esse hominem 
+            <lb ed="#T"/>sed filius dei est homo a iudaeis crucifixus igitur de homine a iudaeis crucifixo 
+            <lb ed="#T"/>nescit iudaeus quod ipse sit homo et multo fortius nescit deum esse hominem
           </p>
           <p xml:id="b1d1q13-d1e358">
-            Praeterea, qua ratione valeret iste sicut expositorius, valeret et iste discursus: “omne quod iudeus <a>corr. mg. ex intellectus T</a> iste scit se diligere, ille scit se diligere. Igitur aliquid quod iudeus iste repugnat se non diligere, scit se diligere, quod videtur includere repugnantiam planam, quia licet stent simul quod diligam a et tamen nesciam me diligere a, et, similiter, quod non credam me diligere a et nullo tamen modo, ut videtur simul stant quod non credam me diligere a, immo credam me non diligere a, et tamen sciam me diligere a. Et tamen maior vera est, quod suppono quod iudeus diligat Deum et hoc advertat et sciat. Minor vera est, quia quem crucifixerunt ex odio, crediderunt se non diligere.
+            <pc type="pilcrow">¶</pc> Praeterea qua ratione valeret iste sicud expositorius valeret et iste discursus: omne quod <subst><del>intellectus</del> <add place="margin-right">iudeus</add></subst> iste 
+            <lb ed="#T"/>scit se diligere ille scit se diligere igitur aliquid quod iudaeus iste reputat se 
+            <lb ed="#T"/>non diligere scit se diligere quod videtur includere repugnantiam planam quia licet stent 
+            <lb ed="#T"/>simul quod diligam a et tamen nesciam me diligere a et similiter quod non credam me 
+            <lb ed="#T"/>diligere a et nullo tamen modo ut videtur simul stant quod non credam me diligere a ymmo 
+            <lb ed="#T"/>credam me non diligere a et tamen sciam me diligere a et tamen maior vera est quod 
+            <lb ed="#T"/>suppono quod Iudaeus diligat deum et hoc advertat et sciat minor vera est quia 
+            <lb ed="#T"/>quem crucifixerunt ex odio crediderunt se non diligere
             <!-- para break here? -->
-            Sed istis non obstantibus dicendum est ad argumentum principale quod ymmo quidquid scitur de persona aliqua divina, scitur de Deo, licet non de deitate, generare spirare, generari spirari sciuntur de personis, et tamen non sciuntur de deitate. Quodlibet tamen horum sicut scitur de persona, ita scitur de Deo, licet econverso non oporteat, nam esse tres personas vel esse Trinitatem scitur de Deo, et tamen illud de nulla scitur. Idem tamen argumentum non est contra dicta, quia concessum est in praecedenti quaestione quod aliquid potest sciri de persona sine hoc quod sciatur ipsum de alia, sed non sine hoc quod habeatur cognitio de alia, si tamen aliqua earum sit per se obiectum illius cognitionis.
+            <pc type="virgula">/</pc> Sed istis non obstantibus 
+            <lb ed="#T"/>dicendum est ad argumentum principale quod ymmo quidquid scitur de persona aliqua divina scitur de deo licet non de 
+            <lb ed="#T"/>deitate generare spirare generari spirari sciuntur de personis et tamen non sciuntur 
+            <lb ed="#T"/>de deitate quodlibet tamen horum sicut scitur de persona ita scitur de deo licet econverso non oporteat nam 
+            <lb ed="#T"/>esse 3 personas vel esse trinitatem scitur de deo et tamen illud de nulla scitur idem tamen argumentum non est 
+            <lb ed="#T"/>contra dicta quia concessum est in praecedenti quaestione quod aliquid potest sciri de persona sine hoc quod sciatur 
+            <lb ed="#T"/>ipsum de alia sed non sine hoc quod habeatur cognitio de alia si tamen alia earum sit per se 
+            <lb ed="#T"/>obiectum illius cognitionis
           </p>
           <p xml:id="b1d1q13-d1e361">
-            Et comprobatur quod aliquid potest sciri de persona sine hoc quod sciatur de Deo, quia illum quem iudei etc., dicendum quod minor in sensu diviso pro secunda sui parte falsa est, licet supposita in sensu composito sit vera. Haec enim non fuit ab eis scita “Deus est homo, et tamen Deus fuit ab eo scitus esse homo.” Et hoc forte crederunt aliqui idem esse ac si diceretur Deum sciverunt esse hominem, tamen Deum nescierunt se scire esse hominem. Sed non <pb ed="#T" n="51-r"/><cb ed="#T" n="a"/> est sic, quia contra istam responsionem stat difficultas insoluta terminis variatis, sicut si argueretur hominem istum sciverunt iudei se scire <a>scire s. lin. T</a> hominem, sed homo iste est Deus, et tunc fuit Deus, igitur Deum sciverunt iudei se scire esse hominem, vere est syllogismus expositorius, et praemissae verae, igitur et conclusio. Et concedo signanter in sensu diviso, falsa in sensu <a>in sensu s. lin. T</a> composito. De minore autem principali responsum est, quod Deum sciverunt esse hominem. Et ideo vera erat responsio in argumento principali dato ibidem, et haec sint dicta, si quis velit concedere maiorem illius primae rationis, scilicet, quod illum quem iudei crucifixerunt, sciverunt esse hominem, tamen poterit rationabiliter dici quod ista sit falsa, quia sive ly “illum” demonstraret Christi humanitatem, constat quod est falsa, sive aeternam Filii personalitatem, posset rationabiliter dici quod illum non sciverunt esse hominem, nec per se, nec per accidens, seu per aliud, quia hoc non nisi propter humanitatem eius, et illum nesciverunt esse hominem, quia nec fuit homo, quamvis crederent esse hominem. Sed ad praesens sustinere volo gratia disputationis priorem responsionem, et cum primo in contrarium arguitur quod ipsi Deum pari ratione ignoraverunt esse Deum, quia illum hominem quem crucifixerunt ignoraverunt esse Deum, concedo conclusionem sumptam in sensu diviso, sed falsa est in sensu composito. Sed ulteriorem consequentiam nego hanc, scilicet, “Deum ignoraverunt esse hominem,” sumendo similiter consequens in sensu diviso, quia tunc simul eundem scivissent esse hominem per aliquam deductionem, et ignorassent esse hominem per istam.
+            et comprobatur quod aliquid potest sciri de persona sine hoc quod sciatur de deo 
+            <lb ed="#T"/>quia illum quem Iudaei etc dicendum quod minor in sensu diviso pro secunda sui parte falsa est licet sup<lb ed="#T"/>posita 
+            in sensu composito sit vera haec enim non fuit ab eis scita <mentioned>deus est homo et tamen deus 
+            <lb ed="#T"/>fuit ab eo scitus esse homo</mentioned> et hoc forte <unclear>crederunt</unclear> aliqui idem esse ac si diceretur 
+            <lb ed="#T"/>deum sciverunt esse hominem tamen deum nescierunt se scire esse hominem sed non 
+            <pb ed="#T" n="51-r"/>
+            <cb ed="#T" n="a"/> 
+            <lb ed="#T"/>est sic quia contra istam responsionem stat difficultas insoluta terminis variatis sicud si argueretur hominem 
+            <lb ed="#T"/>istum sciverunt iudaei se <add place="above-line">scire</add> hominem sed homo iste est deus et tunc fuit deus igitur deum 
+            <lb ed="#T"/>sciverunt Iudaei se scire esse hominem vere est syllogismus expositorius et praemissae verae igitur et 
+            <lb ed="#T"/>conclusio et concedo signanter in sensu diviso falsa <add place="above-line">in sensu</add> composito de minore autem principali responsum est quod deum 
+            <lb ed="#T"/>sciverunt esse hominem et ideo vera erat responsio in argumento principali dato ibidem et haec sint dicta 
+            <lb ed="#T"/>si quis velit concedere maiorem illius primae rationis scilicet quod illum quem iudaei crucifixerunt scive<lb ed="#T"/>runt 
+            esse hominem tamen poterit rationabiliter dici quod ista sit falsa quia sive ly <mentioned>illum</mentioned> demonstraret 
+            <lb ed="#T"/>christi humanitatem constat quod est falsa sive aeternam filii personalitatem posset rationabiliter dici quod illum non sciverunt 
+            <lb ed="#T"/>esse hominem nec per se nec per accidens seu per aliud quia hoc non nisi propter humanitatem eius et illum ne<lb ed="#T"/>sciverunt 
+            esse hominem quia nec fuit homo quamvis crederent esse hominem sed ad praesens sustinere 
+            <lb ed="#T"/>volo gratia disputationis priorem responsionem Et cum primo in contrarium arguitur quia ipsi deum pari ratione 
+            <lb ed="#T"/>ignoraverunt esse deum quia illum hominem quem crucifixerunt ignoraverunt esse deum concedo conclusionem sump<lb ed="#T"/>tam 
+            in sensu diviso sed falsa est in sensu composito sed ulteriorem consequentiam nego hanc scilicet <mentioned>deum ignoraverunt 
+            <lb ed="#T"/>esse hominem</mentioned> sumendo similiter consequens in sensu diviso quia tunc simul eundem scivissent esse hominem 
+            <lb ed="#T"/>per aliquam deductionem et ignorassent esse hominem per istam
           </p>
           <p xml:id="b1d1q13-d1e366">
-            Ad secundum in contrarium maior neganda fuit pro tempore quo illum hominem quem crucifixerunt sciverunt esse hominem, sicut probareret syllogismus expositorius. Ista tamen non fuit ab eis scita “Filius Dei est homo,” et hoc tantum probat prima probatio maioris. Assumptum autem in secunda probatione falsum est, si sumatur in sensu diviso. Verum autem in sensu composito. Sed in illo, vero, non infert probandam maiorem.
+            <pc type="pilcrow">¶</pc> Ad 2m in contrarium maior neganda 
+            <lb ed="#T"/>fuit pro tempore quo illum hominem quem crucifixerunt sciverunt esse hominem sicut probareret syllogismus expositorius ista tamen 
+            <lb ed="#T"/>non fuit ab eis scita <mentioned>filius dei est homo</mentioned> et hoc tantum probat prima probatio maioris assumptum autem 
+            <lb ed="#T"/>in 2a probatione falsum est si sumatur in sensu diviso verum autem in sensu composito sed in illo vero non infert probandam 
+            <lb ed="#T"/>maiorem
           </p>
           <p xml:id="b1d1q13-d1e370">
-            Ad tertium maior vera est, dummodo iudeus aliquid sciat se diligere ita quod non sit falsa implicatio. Minor autem falsa est, quia si aliquid sciat se diligere, hoc posito, arguo quod non reputat se diligere, reputat se diligere <a>reputat se diligere mg. T</a>. Conclusio est falsa, et maior vera. Igitur minor falsa. Et ideo bene poterat sequi conclusio falsa. Eius etiam falsitatis satis in argumento illo reductio principalis argumenti deducta est. Licet autem  minor illa sit falsa. Haec tamen est vera, quae apparet illi prima facie eadem esse. Sed non est eadem sibi “iudeus iste credit vel reputat se non diligere quoddam, puta hominem istum,” secundum hanc relationem, quod tamen illud quod iudeus iste scit se diligere est Deus. Sed cum hoc inferendo sibi inclusum sit fallacia accidentis. Juxta hoc dubitari potest de formis arguendi quibusdam similibus istis an similiter solvi habeant, una est hoc posito quod iudeus aliquis vel paganus diligat Deum qui credit quod in divinis non sit realis trinitas personarum sed tantum unius suppositum absolutum. Hoc, inquam, fit forma <a>forma mg. T</a> arguendi. Tunc omne quod iudeus iste vel paganus scit se diligere, scit se diligere. Sed illud quod non reputat se diligere, puta homo vel Trinitas, est illud quod scit se diligere. Igitur quod non reputat se diligere, scit <a>scit corr. s. lin. ex reputat T</a> se diligere.
+            ad 3m maior vera est dummodo Iudaeus aliquid sciat se diligere ita quod non sit 
+            <lb ed="#T"/>falsa implicatio minor autem falsa est quia si aliquid sciat se diligere hoc posito arguo quod non re<lb ed="#T"/>putat 
+            se diligere <add place="margin-left">reputat se diligere</add> conclusio est falsa et maior vera igitur minor falsa et ideo bene poterat sequi 
+            <lb ed="#T"/>conclusio falsa eius etiam falsitatis satis in argumento illo reductio principalis argumenti deducta est licet autem 
+            <lb ed="#T"/>minor illa sit falsa haec tamen est vera quae apparet illi prima facie eadem esse sed non est eadem sibi <mentioned>Iu<lb ed="#T"/>daeus 
+            iste credit vel reputat se non diligere quoddam puta hominem istum</mentioned> <unclear>secundum</unclear> hanc relationem 
+            <lb ed="#T"/>quod tamen illud quod iudaeus iste scit se diligere est deus sed cum hoc inferendo sibi inclusum 
+            <lb ed="#T"/>sit fallacia accidentis <pc type="pilcrow">¶</pc> Iuxta hoc dubitari potest de formis arguendi quibusdam similibus istis an 
+            <lb ed="#T"/>similiter solvi habeant una est hoc posito quod Iudaeus aliquis vel paganus diligat deum qui 
+            <lb ed="#T"/>credit quod in divinis non sit realis trinitas personarum sed tantum unius suppositum absolutum hoc inquam fit 
+            <lb ed="#T"/><add place="margin-left">forma</add> arguendi tunc omne quod Iudaeus iste vel paganus scit se diligere scit se diligere sed illud quod 
+            <lb ed="#T"/>non reputat se diligere puta homo vel trinitas est illud quod scit se diligere igitur quod 
+            <lb ed="#T"/>non reputat se diligere  <subst><del>reputat</del> <add place="above-line">scit</add></subst> se diligere
           </p>
           <p xml:id="b1d1q13-d1e379">
-            Secunda forma habeat eandem maiorem, et habeat minorem. Sed illud quod iste reputat se non diligere, est illud quod iste scit se diligere. Igitur quod reputat se non diligere, scit se diligere.
+            <pc type="pilcrow">¶</pc> 2a forma habeat eandem maiorem et 
+            <lb ed="#T"/>habeat minorem sed illud quod iste reputat se non diligere est illud quod iste scit se diligere 
+            <lb ed="#T"/>igitur quod reputat se non diligere scit se diligere
           </p>
           <p xml:id="b1d1q13-d1e382">
-            Item, isto proposito dubium est an haec sit concedenda—“iudeus iste scit se diligere Trinitatem, et non scit se diligere Trinitatem,” ponit quia Trinitatem scit se diligere <a>ponit...diligere mg. T</a>. Igitur quod scit se diligere, non scit se diligere. Conclusio falsa, et maior vera, quia deitatem scit se iudeus iste diligere, sed omnis deitas est Trinitas, igitur Trinitatem scit se diligere, sumpta hac conclusione sicut hac eadem prius maior in sensu diviso. Igitur minor dicens quod iudeus iste non scit se diligere Trinitatem falsa est, et, per consequens, prima vera, quae est sua opposita haec, scilicet, “iudeus iste scit se diligere Trinitatem.”
+            <pc type="pilcrow">¶</pc> Item isto proposito dubium est 
+            <lb ed="#T"/>an haec sit concedenda <mentioned>iudaeus iste scit se diligere <!--possible correction addition here; unclear --> trinitatem et non scit se diligere trinitatem</mentioned> <add place="margin-center"> ponit quia Trinitatem scit se diligere</add> 
+            <lb ed="#T"/>igitur quod scit se diligere non scit se diligere conclusio falsa et maior vera quia deitatem 
+            <lb ed="#T"/>scit se <seg type="correction"><add place="above-line">iu</add>deus</seg> iste diligere sed omnis deitas est trinitas igitur trinitatem scit se diligere 
+            <lb ed="#T"/>sumpta hac conclusione sicut hac eadem prius maior in sensu diviso igitur minor dicens quod 
+            <lb ed="#T"/>Iudaeus iste non scit se diligere trinitatem falsa est et per consequens prima vera quae est sua opposita 
+            <lb ed="#T"/>haec scilicet <mentioned>Iudaeus iste scit se diligere trinitatem</mentioned>
           </p>
           <p xml:id="b1d1q13-d1e385">
-            Contra: haec non esset vera nisi quia sciret se diligere Deum, qui Deus secundum veritatem est Trinitas. Nam casus est quod non credat Deum esse Trinitatem, sed eadem ratione iste sciret se interficere Patrem suum quicumque sciret se interficere aliquem qui vere est Pater suus, licet nesciret illum esse Patrem suum, et tunc qui occideret Patrem suum, quem valde diligeret, credens unum alium, scilicet, inimicum suum interficere, sciret se interficere Patrem suum, quod tamen falsum est. Quia et tunc etiam Jacob scivisset sibi supponi Lyam quando credidit sibi supponi Rachelem, quod falsum est, et consequentia patet, quia scivit sibi supponi aliquam, et illa fuit, Lya etiam scivisset Ysaac se benedixisse Jacob quando benedixit eum.
+            <pc type="pilcrow">¶</pc> contra haec non esset vera nisi quia sciret se 
+            <lb ed="#T"/>diligere deum qui deus secundum veritatem est trinitas nam casus est quod non credat deum esse trinitatem 
+            <lb ed="#T"/>sed eadem ratione iste sciret se interficere patrem suum quicumque sciret se interficere aliquem qui vere 
+            <lb ed="#T"/>est pater suus licet nesciret illum esse patrem suum et tunc qui occideret patrem suum quem 
+            <lb ed="#T"/>valde diligeret credens unum alium scilicet inimicum suum interficere sciret se interficere 
+            <lb ed="#T"/>patrem suum quod tamen falsum est quia et tunc etiam <name>iacob</name> scivisset sibi supponi <name>lyam</name> 
+            <lb ed="#T"/>quando credidit sibi supponi <name>Rachelem</name> quod falsum est et consequentia patet quia scivit sibi supponi 
+            <lb ed="#T"/>aliquam et illa fuit <unclear>lya</unclear> etiam scivisset <name>ysaac</name> se benedixisse <name>Iacob</name> quando bene<lb ed="#T"/>dixit 
+            eum
           </p>
           <p xml:id="b1d1q13-d1e388">
-            Similiter tunc quicumque scienter percuteret hominem qui esset Talicus, scienter percuteret Talicum, etc.
+            <pc type="pilcrow">¶</pc> Similiter tunc quicumque scienter percuteret hominem qui esset talicus scienter percuteret 
+            <lb ed="#T"/>talicum etc
           </p>
           <p xml:id="b1d1q13-d1e391">
-            Ad primam formam dicendum quod maior vera est, si aliquis iudeus sciat se diligere, ita quod non sit falsa implicatio, sicut prius tactum est, et minorem similiter nego, ut prius, et si probas eam, quia Trinitatem vel personam aliquam relativam non reputat se diligere, quia per causam ipse credit Trinitatem non esse aliquam talem vel personam relativam modo quo ponunt Christiani, et Trinitas est illud quod scit se diligere. Nam Trinitas est Deus, et Deum scit se diligere. Advertat igitur actum suum, tunc sciet se diligere Deum, et, per consequens, Deum sciet se diligere, <cb ed="#T" n="b"/><!--51rb--> et ita habetur probandum, scilicet, quod aliquid quod non reputat se diligere, puta Trinitas, est aliquid, puta Deus, quod scit se diligere.
+            <pc type="pilcrow">¶</pc> Ad primam formam dicendum quod maior vera est si aliquis Iudaeus sciat 
+            <lb ed="#T"/>se diligere ita quod non sit falsa implicatio sicut prius tactum est et minorem similiter nego ut prius 
+            <lb ed="#T"/>et si probas eam quia trinitatem vel personam aliquam relativam non reputat se diligere quia per causam ipse 
+            <lb ed="#T"/>credit trinitatem non esse aliquam talem vel personam relativam modo quo ponunt christiani et trinitas 
+            <lb ed="#T"/>est illud quod scit se diligere nam trinitas est <unclear>deus<!-- possible correction--></unclear> et deum scit se diligere adver<lb ed="#T"/>tat 
+            igitur actum suum tunc sciet se diligere deum et per consequens deum sciet se diligere 
+            <cb ed="#T" n="b"/><!--51rb--> 
+            <lb ed="#T"/>et ita habetur probandum scilicet quod aliquid quod non reputat se diligere puta trinitas est aliquid puta 
+            <lb ed="#T"/>deus quod scit se diligere
           </p>
           <p xml:id="b1d1q13-d1e395">
-            Ad istud primo dico quod isto casu posito, maior istius probationis sumpta in sensu diviso falsa est. Si tamen Deum sciat se diligere, sumpta ista in sensu eodem diviso, nec probatur in illo sensu, sed tantum in sensu composito. Ista tamen propositio non est clara in sensu diviso “Deum scit ille se diligere,” nam ex hoc casu ex hoc quod ipse perpendit actum suum diligendi Deum non habetur ista propositio nisi in sensu composito. Dato enim quod talis diligat Deum et nihil aliud actu elicito et ignoraret quod de entibus sit Deus, haec est vera in sensu diviso: “nullum ens scit iste se diligere, igitur nec Deum scit iste se diligere,” in eodem sensu antecedens possibile posito casu, igitur consequens. Exemplum: diligo proprium distincte, et tamen cum hoc stat quod nullum hominem distincte diligo.
+            <pc type="pilcrow">¶</pc> ad istud primo dico quod isto casu posito maior istius probationis 
+            <lb ed="#T"/>sumpta in sensu diviso falsa est si tamen deum sciat se diligere sumpta ista in sensu 
+            <lb ed="#T"/>eodem diviso nec probatur in illo sensu sed tantum in sensu composito ista tamen propositio non est clara 
+            <lb ed="#T"/>in sensu diviso <mentioned>deum scit ille se diligere</mentioned> nam ex hoc casu ex hoc quod ipse perpendit 
+            <lb ed="#T"/>actum suum diligendi deum non habetur ista propositio nisi in sensu composito dato enim quod talis 
+            <lb ed="#T"/>diligat deum et nihil aliud actu elicito et ignoraret quod de entibus sit deus haec 
+            <lb ed="#T"/>est vera in sensu diviso <mentioned>nullum ens scit iste se diligere igitur nec deum scit iste se diligere</mentioned> 
+            <lb ed="#T"/>in eodem sensu antecedens possibile posito casu igitur consequens <pc type="pilcrow">¶</pc> exemplum diligo proprium distincte et 
+            <lb ed="#T"/>tamen cum hoc stat quod nullum hominem distincte diligo
           </p>
           <p xml:id="b1d1q13-d1e398">
-            Aliud exemplum: “nullam naturam scio scibilem,” haec est vera in sensu diviso, sed, similiter, “nullam avem scio esse fenicem,” in eodem sensu, et tamen in sensu composito utraque falsa est, et eius contradictoria vera. Sed hoc relinquo sub dubio an videlicet haec sit vera in sensu diviso “Deum scivit Aristoteles se diligere vel Deum novit Christianus communis viator se diligere,” non obstante quod sit certum tali se diligere scit quam sciat se diligere Deum. Dato quod sic, consequenter dico quod talis iudeus vel paganus Trinitatem sciret se diligere, sumendo in sensu diviso dictum istud. Et ideo tertio dico quod haec consequentia non valet—“scio me diligere Deum, igitur scio Deum me diligere,” sumpto consequente in sensu diviso. Nam antecedens determinat sibi sensum compositum, vel infert illum, sicut non sequitur “ignoro me percutere patrem meum, igitur patrem meum ignoro me percutere.” Antecedens est verum in casu quo credo inimicum percutere, et tamen consequens falsum sumptum in sensu diviso, dato quod ille quem percutio in rei veritate sit pater meus, sicut patet, quia tunc in sillogismo expositorio composito ex veris infertur oppositum. Sequitur enim “hunc hominem scio me percutere, hic homo est pater meus; igitur patrem meum scio me percutere,” sumendo tam maiorem quam minorem in sensu diviso.
+            <pc type="pilcrow">¶</pc> aliud exemplum <mentioned>nullam naturam scio scibilem</mentioned> 
+            <lb ed="#T"/>haec est vera in sensu diviso sed similiter <mentioned>nullam avem scio esse fenicem</mentioned> in eodem sensu et tamen in sensu 
+            <lb ed="#T"/>composito utraque falsa est et eius contradictoria vera sed hoc relinquo sub dubio an videlicet haec sit vera in sensu 
+            <lb ed="#T"/>diviso <mentioned>deum scivit aristoteles se diligere vel deum novit christianus communis viator se di<lb ed="#T"/>ligere</mentioned> 
+            non obstante quod sit certum tali se diligere scit quam sciat se diligere deum da<lb ed="#T"/>to 
+            quod sic consequenter dico quod talis iudaeus vel paganus trinitatem sciret se diligere sumendo in sensu 
+            <lb ed="#T"/>diviso dictum istud et ideo 3o dico quod haec consequentia non valet <quote>scio me diligere deum igitur scio deum 
+            <lb ed="#T"/>me diligere</quote> sumpto consequente in sensu diviso nam antecedens determinat sibi sensum compositum vel infert 
+            <lb ed="#T"/>illum sicud non sequitur <mentioned>ignoro me percutere patrem meum igitur patrem meum ignoro 
+            <lb ed="#T"/>me percutere</mentioned> antecedens est verum in casu quo credo inimicum percutere et tamen consequens falsum sumptum 
+            <lb ed="#T"/>in sensu diviso dato quod ille quem percutio in rei veritate sit pater meus sicud patet quia tunc 
+            <lb ed="#T"/>in sillogismo expositorio composito ex veris infertur oppositum sequitur enim <mentioned>hunc hominem scio me 
+            <lb ed="#T"/>percutere hic homo est pater meus igitur patrem meum scio me percutere</mentioned> sumendo tam 
+            <lb ed="#T"/>maiorem quam minorem in sensu diviso
           </p>
           <p xml:id="b1d1q13-d1e406">
-            Ad secundam formam concedit minorem, et conclusionem, videlicet, quod illud quod reputat se talis non <a>non s. lin. T</a> diligere, scit se diligere.
+            <pc type="pilcrow">¶</pc> ad 2am formam concedit minorem et conclusionem videlicet quod illud 
+            <lb ed="#T"/>quod reputat se talis <add place="above-line">non</add> diligere scit se diligere
           </p>
           <p xml:id="b1d1q13-d1e409">
-            Contra hoc arguo sicut ipse arguit contra se, si omne quod iste scit se diligere se reputat diligere. Sed illud quod reputat se non diligere est illud quod reputat scit <a>scit s. lin. T</a> se diligere ex datis. Igitur illud quod iste reputat se non diligere est illud quod iste reputat se diligere.
+            <pc type="pilcrow">¶</pc> contra hoc arguo sic sicud ipse arguit 
+            <lb ed="#T"/>contra se si omne quod iste scit se diligere se reputat diligere sed illud quod reputat 
+            <lb ed="#T"/>se non diligere est illud quod reputat <add place="above-line">scit</add> se diligere ex datis igitur illud quod iste reputat 
+            <lb ed="#T"/>se non diligere est illud quod iste reputat se diligere
           </p>
           <p xml:id="b1d1q13-d1e412">
-            Sed contra hanc conclusionem concedit quod Verbum vel Filius quem reputat se non diligere est Deus quem reputat se diligere.
-            
+            <pc type="pilcrow">¶</pc> Sed contra hanc conclusionem concedit quod 
+            <lb ed="#T"/>verbum vel filius quem reputat se non diligere est deus quem reputat se diligere
           </p>
           <p xml:id="b1d1q13-d1e415">
-            Contra: “hunc hominem reputat se diligere, sic ita hic homo est Verbum, igitur Verbum reputat se diligere.” Praemissae sunt verae, dato aliquo iudeo, tunc licet demonstrato aliquo falsa esset maior secundum responsionem quam prosequor hic.
+            <pc type="pilcrow">¶</pc> contra 
+            <lb ed="#T"/><mentioned>hunc hominem reputat se diligere sic ita hic homo est verbum igitur verbum reputat 
+            <lb ed="#T"/>se diligere</mentioned> praemissae sunt verae dato aliquo iudaeo tunc licet demonstrato aliquo falsa esset 
+            <lb ed="#T"/>maior secundum Responsionem quam prosequor hic
           </p>
           <p xml:id="b1d1q13-d1e419">
-            Item, sequitur in divinis hoc Verbum vel omne Verbum in divinis reputat se non diligere, et non magis unum Deum, idest, unum qui est Deus quam alium. Igitur omnem Deum reputat se non diligere. Igitur aliquid idem reputat se diligere et non diligere, quod falsum est.
+            <pc type="pilcrow">¶</pc> Item sequitur in divinis hoc verbum vel omne verbum 
+            <lb ed="#T"/>in divinis reputat se non diligere et non magis unum deum id est unum qui est deus 
+            <lb ed="#T"/>quam alium igitur omnem deum reputat se non diligere igitur aliquid idem reputat se diligere 
+            <lb ed="#T"/>et non diligere quod falsum est
           </p>
           <p xml:id="b1d1q13-d1e422">
-            Item, si haec sit vera in sensu diviso—“Deum reputat se diligere”—igutur aliqua singularis huius particularis est vera puta, idest, “hunc Deum reputat se diligere, tunc sic, “hunc Deum reputat se diligere, iste et hic Deus est Verbum vel Pater vel Spiritus Sanctus, tota Trinitas, igitur Verbum vel Spiritum Sanctum vel totam Trinitatem reputat se diligere,” semper procedendo in sensu diviso.
+            <pc type="pilcrow">¶</pc> Item si haec sit vera in sensu diviso <mentioned>deum reputat se di<lb ed="#T"/>ligere</mentioned> 
+            igitur aliqua singularis huius particularis est vera puta id est <mentioned>hunc deum reputat se diligere</mentioned> tunc 
+            <lb ed="#T"/>sic <mentioned>hunc deum reputat se diligere iste et hic deus est verbum vel pater vel spiritus sanctus tota trinitas 
+            <lb ed="#T"/>igitur verbum vel spiritum sanctum vel totam trinitatem reputat se diligere</mentioned> semper procedendo in sensu diviso
           </p>
           <p xml:id="b1d1q13-d1e425">
-            Item, iste Deum reputat se non <a>non s. lin. T</a> diligere, per sillogismum expositorium, ut supra, et quidquid reputat se non diligere non reputat se diligere, alioquin idem reputaret se diligere et non diligere. Sed si Deum non reputat se diligere, igitur Deum non scit se diligere, quia per eum, et secundum veritatem, omne quod quis scit se diligere reputat se diligere.
+            <pc type="pilcrow">¶</pc> Item iste 
+            <lb ed="#T"/>deum reputat se <add place="above-line">non</add> diligere per sillogismum expositorium ut supra et quidquid reputat se non diligere 
+            <lb ed="#T"/>non reputat se diligere alioquin idem reputaret se diligere et non diligere sed si 
+            <lb ed="#T"/>deum non reputat se diligere igitur deum non scit se diligere quia per eum et secundum veritatem 
+            <lb ed="#T"/>omne quod quis scit se diligere reputat se diligere
           </p>
           <p xml:id="b1d1q13-d1e428">
-            Praeterea, per istum Verbum reputat iste se non diligere, et etiam Verbum est idem quod reputat se diligere, puta Deus per ipsum tunc sic ipse reputat Verbum se non diligere, igitur Verbum reputat non se diligere, quia da oppositum, et stabunt simul quod Verbum reputat iste se diligere et non diligere, et ultra, si Verbum non reputat se diligere, et Verbum est illud quod reputat se diligere, per eum, quia Verbum est Deus quem reputat se diligere, cuius oppositum dedit ad primam formam, et bene. 
-            Aliter igitur responsio negando minorem secundae formae, sicut et primae, et etiam conclusionem. Et cum ipse probat minorem per hoc quod Verbum quod reputat se non diligere est Deus quem scit se diligere, nego illud assumptum. Nam prima pars eius est falsa si secunda sit vera, ut primum deduxi. Ad dubium sequens tenet Reportator? quod sic propter rationem ibi positam deducentem ad conclusionem falsam, cuius falsitatem probavi dummodo sit vera, ut supponit. Sed ego teneo contrarium propter illud argumentum ad contrarium, et ad probationem suam dico quod discursus non valet sed est fallacia accidentis, sicut et hic “Clinicus scio me percutere et non scio me percutere Clinicum, igitur quod scio me percutere Clinicum et non scio <pb ed="#V" n="51-v"/><cb ed="#V" n="a"/> me percutere Clinicum.” Praemissae sunt possibiles et compossibiles in veritate, et conclusio impossibilis. Igitur consequentia nulla tantum enim sequitur quod Clinicum non scio esse Clinicum vel quod illud quod scio me percutere non scio esse Clinicum. Et eodem modo concedo in proposito quod bene sequitur quod Trinitatem non scio esse Trinitatem in sensu semper diviso loquendo, vel quod scio me diligere non scio esse Trinitatem, et hoc concedo, et causa est quia praedicatum appellat suam formam et quod in proposito idem est quod hic scit se diligere Trinitatem determinat sibi sensum compositum vel infert illum.
+            <pc type="pilcrow">¶</pc> praeterea per istum verbum reputat 
+            <lb ed="#T"/>iste se non diligere et etiam verbum est idem quod reputat se diligere puta deus per ipsum tunc 
+            <lb ed="#T"/>sic ipse reputat verbum se non diligere igitur verbum reputat non se diligere quia da 
+            <lb ed="#T"/>oppositum et stabunt simul quod verbum reputat iste se diligere et non diligere et 
+            <lb ed="#T"/>ultra si verbum non reputat se diligere et verbum est illud quod reputat se diligere 
+            <lb ed="#T"/>per eum quia verbum est deus quem reputat se diligere cuius oppositum dedit ad primam formam 
+            <lb ed="#T"/>et bene <pc type="pilcrow">¶</pc> aliter igitur responsio negando minorem secundae formae sicud et primae et etiam conclusionem et cum ipse probat 
+            <lb ed="#T"/>minorem per hoc quod verbum quod reputat se non diligere est deus quem scit se diligere 
+            <lb ed="#T"/>nego illud assumptum nam prima pars eius est falsa si 2a sit vera ut primum deduxi <pc type="pilcrow">¶</pc> ad 
+            <lb ed="#T"/>dubium sequens tenet <unclear>resp?</unclear> quod sic propter rationem ibi positam deducentem ad conclusionem falsam cuius falsitatem 
+            <lb ed="#T"/>probavi dummodo sit vera ut supponit sed ego teneo contrarium propter illud argumentum ad contrarium et ad 
+            <lb ed="#T"/>probationem suam dico quod discursus non valet sed est fallacia accidentis sicud et hic <mentioned>clinicus scio me per<lb ed="#T"/>cutere 
+            et non scio me percutere clinicum igitur quod scio me percutere clinicum et non 
+            <pb ed="#T" n="51-v"/>
+            <cb ed="#T" n="a"/> 
+            scio me percutere clinicum</mentioned> praemissae sunt possibiles et compossibiles in veritate et conclusio impossibilis igitur consequentia nulla 
+            <lb ed="#T"/>tantum enim sequitur quod clinicum non scio esse clinicum vel quod illud quod scio me percutere non scio esse clini<lb ed="#T"/>cum 
+            et eodem modo concedo in proposito quod bene sequitur quod trinitatem non scio esse trinitatem in sensu semper diviso loquendo 
+            <lb ed="#T"/>vel quod scio me diligere non scio esse trinitatem et hoc concedo et causa est quia praedicatum appellat 
+            <lb ed="#T"/>suam formam et quod in proposito idem est quod hic scit se diligere trinitatem determinat sibi sensum compositum vel infert illum
           </p>
         </div>
       </div>
