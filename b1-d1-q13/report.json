@@ -1,4 +1,12 @@
-{
+{ 
+    "principles": {
+      "p1": "The majority of witnesses have the variant.",
+      "p2.1": "The rejected reading is clearly wrong in the context.",
+      "p2.2": "The rejected reading is not as fitting in the context.",
+      "p3": "We have defaulted to the main (Sorbonne) witness.",
+      "p4": "We choose the more explicit reading; gives more information",
+      "i1": "variation is insubstantial" 
+    },
     "http://scta.info/resource/b1d1q13-d1e125": {
       "segments": [
         {
@@ -6,32 +14,77 @@
           "appId": "b1d1q13-d1e125-Aasdfdd"
         },
         {
-          "status": "invariant"
-        },
-        {
           "status": "not-yet-added",
           "appId": "b1d1q13-d1e125-Aasdfdd",
-          "note": "2ae vs 3ae"
-        },
-        {
-          "status": "invariant"
+          "note": "2ae vs 3ae; requires checking on acccuracy of reference to previous questions"
         },
         {
           "status": "not-yet-added",
           "appId": "b1d1q13-d1e125-A4dajvd",
-          "note": "12 vs 11"
-        },
-        {
-          "status": "invariant"
+          "note": "12 vs 11; requires checking on acccuracy of reference to previous questions"
         },
         {
           "status": "added",
           "appId": "b1d1q13-d1e125-Ac8dana",
           "note": "filio vs filium"
+        }
+      ]
+    },
+    "http://scta.info/resource/b1-q13-d1e156": {
+      "segments": [
+        {
+          "status": "added",
+          "appId": "b1d1q13-d1e125-Ac94had",
+          "reasons": ["p1", "p3"]
         },
         {
-          "status": "invariant"
+          "status": "added",
+          "appId": "b1d1q13-d1e125-Axxxaa3",
+          "note": "majority of witnesses have primo rather probo and probo seem as correct",
+          "reasons": ["p1", "p2.2", "p3"]
+        },
+        {
+          "status": "added",
+          "appId": "b1d1q13-d1e125-Ayu787d",
+          "note": "",
+          "reasons": ["p2.1", "p3"]
+        },
+        {
+          "status": "ignored",
+          "appId": "b1d1q13-d1e125-Au7y6td",
+          "note": "same id as below because it is part of the same larger variation",
+          "reasons": ["i1"]
+        },
+        {
+          "status": "ignored",
+          "appId": "b1d1q13-d1e125-Au7y6td",
+          "note": "same id as above because it is part of the same larger variation",
+          "reasons": ["i1"]
+        },
+        {
+          "status": "not-yet-added",
+          "appId": "b1d1q13-d1e125-Axc83ad",
+          "note": "",
+          "reasons": ["p4"],
+          "opposes": ["p1","p3"]
+        },
+        {
+          "status": "ignored",
+          "certainty": "medium",
+          "appId": "b1d1q13-d1e125-Aa3da38",
+          "note": "sorbonne seems to correct from nec to non, but it still seems insubstantial",
+          "reasons": ["i1"],
+          "opposes": []
+        },
+        {
+          "status": "added",
+          "appId": "b1d1q13-d1e125-Ax48haaa",
+          "note": "the addition of the holy spirit seems like semi-irrelevant add on since the major premise only discusses the Son and the Father; it might be tempting to see this as more explicit, but we see rather as distracting and surplus",
+          "reasons": ["p2.2", "p3"],
+          "opposes": []
         }
+        
+        
       ]
     }
 }
