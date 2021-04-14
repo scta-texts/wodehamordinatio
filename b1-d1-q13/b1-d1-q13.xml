@@ -46,9 +46,9 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition. </p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a critical edition. </p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -72,11 +72,29 @@
         <head xml:id="b1-q13-Hd1e130" type="question-title">utrum liceat Filum Dei plus diligere vel frui eo quam Patrem vel Spiritum Sanctum</head>
         <div xml:id="b1-q13-Dd1e133">
           <head xml:id="b1-q13-Hd1e135">Quaestio</head>
-          <p xml:id="b1d1q13-d1e125"> Tertiodecimo circa distinctionem primam quaero occasione secundae conclusionis, q. 12, utrum liceat Filium Dei plus diligere vel frui eo quam Patrem vel Spiritum Sanctum. </p>
+          <p xml:id="b1d1q13-d1e125">
+            <app xml:id="b1d1q13-d1e125-Aasdfdd">
+              <lem>Tertiodecimo</lem>
+              <rdg wit="#V" type="variation-choice">
+                <choice>
+                  <seg n="1">tertiodecimo</seg>
+                  <seg n="2">dertiodecimo</seg>
+                </choice>
+              </rdg>
+            </app> 
+            circa distinctionem primam quaero occasione secundae conclusionis, quaestione 12, utrum liceat 
+            <app xml:id="b1d1q13-d1e125-Ac8dana">
+              <lem>Filium</lem>
+              <rdg wit="#T" facs="49r/101">filio</rdg>
+            </app> 
+            Dei plus diligere
+            vel frui eo quam Patrem vel Spiritum Sanctum.
+          </p>
         </div>
         <div xml:id="b1-q13-Dd1e151" type="rationes-principales">
           <head xml:id="b1-q13-Hd1e153">Rationes principales</head>
-          <p xml:id="b1-q13-d1e156"> Quod sic primo, quia Filius videtur esse melior Patre, igitur et diligibilior. Igitur licite potest plus appreciari vel diligi. Primum assumptum patet, quia Filius est bonus bonitate Patris, et praeter hoc bonitate humanitatis
+          <p xml:id="b1-q13-d1e156"> 
+            Quod sic primo, quia Filius videtur esse melior Patre, igitur et diligibilior. Igitur licite potest plus appreciari vel diligi. Primum assumptum patet, quia Filius est bonus bonitate Patris, et praeter hoc bonitate humanitatis
             <cb ed="#S" n="b"/><!-- 69-v b --> assumptae. Non sic Pater, igitur etc. </p>
           <p xml:id="b1d1q13-d1e137"> Item, Filius est amabilis tam quia Deus tam quia redemptor. Non sic Pater. Praeterea, aliquid potest sciri de persona Filii et ignorari vel non sciri de Deo, et econtra. Igitur multo fortius de persona Filii sine hoc quod sciatur de persona Patris vel Spiritus Sancti. Assumptum probatur, quia illum quem iudei crucifixerunt sciverunt esse hominem. Deum autem nescierunt esse
             <app>
