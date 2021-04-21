@@ -83,8 +83,33 @@
           "reasons": ["p2.2", "p3"],
           "opposes": []
         }
+      ]
+    },
+    "http://scta.info/resource/b1d1q13-d1e137": {
+      "segments": [
+        {
+          "status": "added",
+          "appId": "b1d1q13-d1e137-Aasdss1",
+          "note": "",
+          "reasons": ["p1", "p3", "p2.2"],
+          "opposes": []
+        },
+        {
+          "status": "added",
+          "appId": "b1d1q13-d1e137-Aasdss2",
+          "note": "",
+          "reasons": ["p1", "p2.2"],
+          "opposes": ["p3"]
+        },
+        {
+          "status": "added",
+          "appId": "b1d1q13-d1e137-Aasdss3",
+          "note": "",
+          "reasons": ["p1", "p3"],
+          "opposes": []
+        }
         
-        
+      
       ]
     }
 }
