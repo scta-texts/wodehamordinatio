@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5 [Sorb193 Transcription]</title>
+        <author ref="#Wodeham">Adam Wodeham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 1, Quaestio 13 [Sorb193 Transcription]</title>
+          <date when="2021-04-22">April 22, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="sorb193">Sorbonne 193</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-04-22" status="draft" n="0.0.0">
+          <p>Basic encoding of word file submitted by Severin</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="23-r"/>
+        <cb ed="#S" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="b1-d1-q5">
+        <head xml:id="b1-q13-Hd1e127">Quaestio 5 [Sorb 193 Transcription]</head>
+        <p>
+          <lb ed="#S"/>Viso de delectione beatifica verum sit fruitio quaerendum 
+          <lb ed="#S"/>est in generali utrum generaliter omnis delectio sit dilectio 
+          <lb ed="#S"/>vel odium seu volitio aut nolitio et potest argui pro 
+          <lb ed="#S"/>et contra sicut in praecedenti quaestione
+        </p>
+        <p>
+          <pc type="pilcrow">¶</pc> prima conclusio est quod omnis delectio 
+          <lb ed="#S"/>vel tristitia sensitiva est quoddam appetere vel non appetere contrariae ita non est 
+          <lb ed="#S"/>de hoc a parte appetitus sensitivi sicut a parte appetitus intellectui sed ibi sit 
+          <lb ed="#S"/>est quod omnis actus tristitiae vel delectionis volitive est quoddam velle 
+          <lb ed="#S"/>vel nolle tum quia non est assignare plures actus in voluntate vitales 
+          <lb ed="#S"/>et appetivos tum quia omnis actus complacentiae vel displicentiae volitivae 
+          <lb ed="#S"/>est velle vel nolle sed omnis delectio vel tristitia volitiva est quaedam 
+          <lb ed="#S"/>complacentia vel displicentia tum quia non minus una delectio <unclear>voliti</unclear> 
+          <lb ed="#S"/>est volitio quam complacentia vel delectio alicuius oppositi <subst><del>iste</del> <add place="above-line">istius</add></subst> actus quam 
+          <lb ed="#S"/>alia sed delectio beatifica <unclear>ex<!-- possibile correction--></unclear> primo articulo <add place="margin-right">praecedentis quaestionis</add> est delectio beatifica ergo etc
+        </p>
+        <p>
+          <lb ed="#S"/><pc type="pilcrow">¶</pc> Sed tunc restant hic dubia primum utrum econtra omnis amor vel 
+          <lb ed="#S"/>odium sic delectio vel tristitia Et hoc tenetur <unclear>concorditer</unclear> quod non supponendo 
+          <lb ed="#S"/>etiam econverso quod omnis delectio vel tristitia sic amore vle odium 
+          <lb ed="#S"/>Et haec arguit <name>petrus aureoli</name> quia amor est amor delectionis 
+          <lb ed="#S"/>et aliquis non delectionis sed desiderii ita quod aliquod sit velle desiderii 
+          <lb ed="#S"/>respectu iam non habiti Et similiter ex alia parte quoddam nolle est ab <unclear>hominiri</unclear> 
+          <lb ed="#S"/>et fugere et quoddam tristari et displicere ita quod ponuntur ita 4or 
+          <lb ed="#S"/>scilicet nolle fugae et nolle tristitiae et velle desiderii et velle de<lb ed="#S"/>lectionis 
+          <pc type="#punctus"/> Quamvis ita concllusio sic forte vera tamen medium non videtur suficiens 
+          <lb ed="#S"/>quia stat in hoc quod amore desiderii non esset tristitia nec delectio 
+          <lb ed="#S"/>cuius oppositum nimit <ref>commentor 12 metaphysicae commento 39</ref> dicens <unclear>quod</unclear> in principio 
+          <lb ed="#S"/>commenti quod <quote source="http://scta.info/resource/xch7dn-d1e143-d1e10471" synch="50-57">desiderium tale magis est dolor quam volumptas</quote> non igitur <sic>in</sic>
+          <lb ed="#S"/>intendum est huic medio sed posterius tangendo 
+        </p>
+        <p>
+          <pc type="pilcrow">¶</pc> Sed restat 
+          <lb ed="#S"/>ad hoc dubium verum omnis amor <unclear>distinctus</unclear> contra amorem desiderii sic de<lb ed="#S"/>lectio 
+          et omne odium distinctum contra nolle fugae et <unclear>resilitionis</unclear> sic 
+          <lb ed="#S"/>tristitia et videtur primo quod sic nam appetitus naturalis non habet nisi duos actus 
+          <lb ed="#S"/>positivos <unclear>moveri</unclear> scilicet in finem et quiescere in ipso nam lapis 
+          <lb ed="#S"/>per gravitatem movetur ad centrum et quiescit <unclear>sive</unclear> tenet se in ipso et duos 
+          <lb ed="#S"/>privationis scilicet fugere ab ipso et inquietari dum est in ipso patet in ipso 
+          <lb ed="#S"/>gravi <unclear>g?e</unclear> a simili appetitus sensitivus irrationalis non habet nisi 4or actus 
+          <lb ed="#S"/>duos positivos quorum unus est moveri ad finem scilicet desiderium 
+          <lb ed="#S"/>et prosecutio
+        </p>
+        <p>
+          <pc type="pilcrow">¶</pc> 3o quiescere in opposito scilicet delectari et duos priva<lb ed="#S"/>tivos 
+          quorum primus correspondeat fugae et resilitioni scilicet <sic>abhomi<lb ed="#S"/>natio</sic> 
+          sue detestatio et 2us correspondat inquietationi scilicet 
+          <pb ed="#S" n="23-v"/>
+          <cb ed="#S" n="a"/>
+          <lb ed="#S"/>scilicet displicentia et contristatio 
+        </p>
+        <p>
+          <pc type="pilcrow">¶</pc> Dices 
+          
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
