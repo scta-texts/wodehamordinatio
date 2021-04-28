@@ -111,5 +111,64 @@
         
       
       ]
-    }
+    },
+    "http://scta.info/resource/b1d1q13-d1eXXX": {
+      "segments": [
+        {
+          "status": "",
+          "appId": "",
+          "note": "",
+          "reasons": [],
+          "opposes": []
+        }
+      ],
+      "note": "we skipped this because maz paragraph was missing id and couldn't be compared"  
+     },
+     "http://scta.info/resource/b1d1q13-d1e140": {
+       "segments": [
+        {
+          "status": "added",
+          "appId": "b1d1q13-d1e140-Axcvnej",
+          "note": "",
+          "reasons": ["p1", "p2.1", "p3"],
+          "opposes": []
+        },
+        {
+          "status": "ignored and chosen",
+          "appId": "b1d1q13-d1e140-Ay76t5x",
+          "note": "this is really just a transposition related to the segment below, but we followed this segment in the main text",
+          "reasons": ["i1", "p3"],
+          "opposes": []
+         },
+         {
+          "status": "ignored and not chosen",
+          "appId": "b1d1q13-d1e140-Ay76t5x",
+          "note": "this is really just a transposition related to the segment above, but we DID NOT followed this segment in the main text",
+          "reasons": ["i1", "p3"],
+          "opposes": []
+         },
+         {
+          "status": "added",
+          "appId": "b1d1q13-d1e140-A3vn3vn",
+          "note": "",
+          "reasons": ["p1", "p2.1", "p3"],
+          "opposes": []
+         },
+         {
+          "status": "added",
+          "appId": "b1d1q13-d1e140-AcyX76y",
+          "note": "",
+          "reasons": ["p1", "p2.1", "p3"],
+          "opposes": []
+         },
+         {
+          "status": "added",
+          "appId": "b1d1q13-d1e140-AcyX76y",
+          "note": "",
+          "reasons": ["p1", "p2.1", "p3"],
+          "opposes": []
+         }
+         
+      ]
+     }
 }
