@@ -148,21 +148,39 @@
               <rdg wit="#M" facs="58r/44">quod</rdg>
             </app>
             redemptor. 
-            Non sic Pater.
+            <app xml:id="b1d1q13-d1e137-Aasdss4">
+              <lem>Non</lem>
+              <rdg wit="#M" facs="58r/44">nec</rdg>
+            </app> 
+            sic Pater.
           </p>
           <p xml:id="b1d1q13-d1eXXX"> 
             Praeterea,
             aliquid potest sciri de persona Filii 
             et ignorari vel non sciri de Deo, et econtra. 
-            Igitur multo fortius de persona Filii sine hoc quod sciatur de persona Patris vel Spiritus Sancti. 
-            Assumptum probatur, quia illum quem Iudaei crucifixerunt sciverunt esse hominem. Deum autem nescierunt esse
-            <app>
-              <lem>hominem</lem>
-              <rdg wit="#S" type="correction-addition"><add place="margin">hominem</add></rdg>
+            Igitur multo fortius de persona Filii sine hoc 
+            quod sciatur de persona Patris vel Spiritus Sancti. 
+            Assumptum probatur, 
+            quia illum quem Iudaei crucifixerunt sciverunt esse hominem. 
+            Deum autem 
+            <app xml:id="b1d1q13-d1e137-Ac82na1">
+              <lem wit="#S #V">nescierunt</lem>
+              <rdg wit="#M" facs="58r/48">non scierunt</rdg>
+              <rdg wit="#T" facs="49v/1">non scierunt</rdg>
+            </app> 
+            esse
+            <app xml:id="b1d1q13-d1e137-Ac82na2">
+              <lem n="esse"/>
+              <rdg wit="#S" type="correction-addition" facs="69v/64">
+                <add place="margin">hominem</add>
+              </rdg>
             </app>. 
             <cit>
               <quote xml:id="b1d1q13-Qd1e200" source="http://scta.info/resource/Icor2_8" synch="7-13">
-                <seg type="qs">Nam si scivissent</seg>, secundum Apostolum, <seg type="qs">nunquam Dominum gloriae crucifixissent</seg>
+                <seg type="qs">Nam si scivissent</seg>, 
+                secundum Apostolum, 
+                <seg type="qs">nunquam Dominum gloriae crucifixissent
+                </seg>
               </quote>
             </cit>. 
             Et tamen iste idem fuit Deus, igitur etc. 
@@ -180,7 +198,9 @@
             et plus quam duplam, si daretur,
             <app>
               <lem>et</lem>
-              <rdg wit="#S" type="correction-addition"><add place="above-line">et</add></rdg>
+              <rdg wit="#S" type="correction-addition">
+                <add place="above-line">et</add>
+              </rdg>
             </app>
             plus quam quadruplam, et sic in infinitum. 
             Et si infinite quamlibet, 
@@ -206,7 +226,33 @@
         </div>
         <div xml:id="b1d1q13-Dd1e166">
           <head xml:id="b1d1q13-Hd1e168">Divisio quaestionis</head>
-          <p xml:id="b1d1q13-d1e143"> Hic primo praemitam conclusionem quasi eandem cum conclusione 2a prioris quaestionis, et probabo eam. Secundo prosequar aliquanticulum difficultatem tactam in duobus primis argumentis. Ex hiis duobus ad quaestionem patebit. Tertio propter aliquas formas sophisticas prosequar difficultatem tactam in 3o argumento. </p>
+          <p xml:id="b1d1q13-d1e143"> 
+            Hic primo praemittam conclusionem 
+            <app xml:id="b1d1q13-d1e143-Acdjds2">
+              <lem>quaestionis</lem>
+              <rdg wit="#S" facs="69v/72">quasi</rdg>
+            </app> 
+            eandem 
+            <app xml:id="b1d1q13-d1e143-Acdjds1">
+              <lem>cum</lem>
+              <rdg wit="#T" facs="49v/6">
+                quibus
+              </rdg>
+            </app> 
+            <cit>
+              <ref>
+                <app xml:id="b1d1q13-d1e143-Acdjds3">
+                  <lem>conclusione</lem>
+                  <rdg wit="#M" facs="58r/56">conclusione</rdg>
+                </app> 
+                secunda prioris quaestionis
+              </ref>
+            </cit>, 
+            et probabo eam. 
+            Secundo prosequar aliquanticulum difficultatem tactam in duobus primis argumentis. 
+            Ex hiis duobus ad quaestionem patebit. 
+            Tertio propter aliquas formas sophisticas prosequar difficultatem tactam in 3o argumento. =
+          </p>
         </div>
         <div xml:id="b1d1q13-Dd1e176">
           <head xml:id="b1d1q13-Hd1e178">Articulus 1</head>

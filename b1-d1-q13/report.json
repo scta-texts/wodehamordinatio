@@ -1,174 +1,265 @@
-{ 
-    "principles": {
-      "p1": "The majority of witnesses have the variant.",
-      "p2.1": "The rejected reading is clearly wrong in the context.",
-      "p2.2": "The rejected reading is not as fitting in the context.",
-      "p3": "We have defaulted to the main (Sorbonne) witness.",
-      "p4": "We choose the more explicit reading; gives more information",
-      "i1": "variation is insubstantial" 
-    },
-    "http://scta.info/resource/b1d1q13-d1e125": {
-      "segments": [
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e125-Aasdfdd"
-        },
-        {
-          "status": "not-yet-added",
-          "appId": "b1d1q13-d1e125-Aasdfdd",
-          "note": "2ae vs 3ae; requires checking on acccuracy of reference to previous questions"
-        },
-        {
-          "status": "not-yet-added",
-          "appId": "b1d1q13-d1e125-A4dajvd",
-          "note": "12 vs 11; requires checking on acccuracy of reference to previous questions"
-        },
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e125-Ac8dana",
-          "note": "filio vs filium"
-        }
-      ]
-    },
-    "http://scta.info/resource/b1d1q13-d1e156": {
-      "segments": [
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e125-Ac94had",
-          "reasons": ["p1", "p3"]
-        },
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e125-Axxxaa3",
-          "note": "majority of witnesses have primo rather probo and probo seem as correct",
-          "reasons": ["p1", "p2.2", "p3"]
-        },
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e125-Ayu787d",
-          "note": "",
-          "reasons": ["p2.1", "p3"]
-        },
-        {
-          "status": "ignored",
-          "appId": "b1d1q13-d1e125-Au7y6td",
-          "note": "same id as below because it is part of the same larger variation",
-          "reasons": ["i1"]
-        },
-        {
-          "status": "ignored",
-          "appId": "b1d1q13-d1e125-Au7y6td",
-          "note": "same id as above because it is part of the same larger variation",
-          "reasons": ["i1"]
-        },
-        {
-          "status": "not-yet-added",
-          "appId": "b1d1q13-d1e125-Axc83ad",
-          "note": "",
-          "reasons": ["p4"],
-          "opposes": ["p1","p3"]
-        },
-        {
-          "status": "ignored",
-          "certainty": "medium",
-          "appId": "b1d1q13-d1e125-Aa3da38",
-          "note": "sorbonne seems to correct from nec to non, but it still seems insubstantial",
-          "reasons": ["i1"],
-          "opposes": []
-        },
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e125-Ax48haaa",
-          "note": "the addition of the holy spirit seems like semi-irrelevant add on since the major premise only discusses the Son and the Father; it might be tempting to see this as more explicit, but we see rather as distracting and surplus",
-          "reasons": ["p2.2", "p3"],
-          "opposes": []
-        }
-      ]
-    },
-    "http://scta.info/resource/b1d1q13-d1e137": {
-      "segments": [
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e137-Aasdss1",
-          "note": "",
-          "reasons": ["p1", "p3", "p2.2"],
-          "opposes": []
-        },
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e137-Aasdss2",
-          "note": "",
-          "reasons": ["p1", "p2.2"],
-          "opposes": ["p3"]
-        },
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e137-Aasdss3",
-          "note": "",
-          "reasons": ["p1", "p3"],
-          "opposes": []
-        }
-        
-      
-      ]
-    },
-    "http://scta.info/resource/b1d1q13-d1eXXX": {
-      "segments": [
-        {
-          "status": "",
-          "appId": "",
-          "note": "",
-          "reasons": [],
-          "opposes": []
-        }
-      ],
-      "note": "we skipped this because maz paragraph was missing id and couldn't be compared"  
-     },
-     "http://scta.info/resource/b1d1q13-d1e140": {
-       "segments": [
-        {
-          "status": "added",
-          "appId": "b1d1q13-d1e140-Axcvnej",
-          "note": "",
-          "reasons": ["p1", "p2.1", "p3"],
-          "opposes": []
-        },
-        {
-          "status": "ignored and chosen",
-          "appId": "b1d1q13-d1e140-Ay76t5x",
-          "note": "this is really just a transposition related to the segment below, but we followed this segment in the main text",
-          "reasons": ["i1", "p3"],
-          "opposes": []
-         },
-         {
-          "status": "ignored and not chosen",
-          "appId": "b1d1q13-d1e140-Ay76t5x",
-          "note": "this is really just a transposition related to the segment above, but we DID NOT followed this segment in the main text",
-          "reasons": ["i1", "p3"],
-          "opposes": []
-         },
-         {
-          "status": "added",
-          "appId": "b1d1q13-d1e140-A3vn3vn",
-          "note": "",
-          "reasons": ["p1", "p2.1", "p3"],
-          "opposes": []
-         },
-         {
-          "status": "added",
-          "appId": "b1d1q13-d1e140-AcyX76y",
-          "note": "",
-          "reasons": ["p1", "p2.1", "p3"],
-          "opposes": []
-         },
-         {
-          "status": "added",
-          "appId": "b1d1q13-d1e140-AcyX76y",
-          "note": "",
-          "reasons": ["p1", "p2.1", "p3"],
-          "opposes": []
-         }
-         
-      ]
-     }
+{
+  "principles": {
+    "p1": "The majority of witnesses have the variant.",
+    "p2.1": "The rejected reading is clearly wrong in the context.",
+    "p2.2": "The rejected reading is not as fitting in the context.",
+    "p3": "We have defaulted to the main (Sorbonne) witness.",
+    "p4": "We choose the more explicit reading; gives more information",
+    "p5": "Weight obvious later scribal interventions lower in our consideration, especially if they deviate from the majority of witnesses",
+    "i1": "variation is insubstantial"
+  },
+  "http://scta.info/resource/b1d1q13-d1e125": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e125-Aasdfdd"
+      },
+      {
+        "status": "not-yet-added",
+        "appId": "b1d1q13-d1e125-Aasdfdd",
+        "note": "2ae vs 3ae; requires checking on acccuracy of reference to previous questions"
+      },
+      {
+        "status": "not-yet-added",
+        "appId": "b1d1q13-d1e125-A4dajvd",
+        "note": "12 vs 11; requires checking on acccuracy of reference to previous questions"
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e125-Ac8dana",
+        "note": "filio vs filium"
+      }
+    ]
+  },
+  "http://scta.info/resource/b1d1q13-d1e156": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e125-Ac94had",
+        "reasons": [
+          "p1",
+          "p3"
+        ]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e125-Axxxaa3",
+        "note": "majority of witnesses have primo rather probo and probo seem as correct",
+        "reasons": [
+          "p1",
+          "p2.2",
+          "p3"
+        ]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e125-Ayu787d",
+        "note": "",
+        "reasons": [
+          "p2.1",
+          "p3"
+        ]
+      },
+      {
+        "status": "ignored",
+        "appId": "b1d1q13-d1e125-Au7y6td",
+        "note": "same id as below because it is part of the same larger variation",
+        "reasons": ["i1"]
+      },
+      {
+        "status": "ignored",
+        "appId": "b1d1q13-d1e125-Au7y6td",
+        "note": "same id as above because it is part of the same larger variation",
+        "reasons": ["i1"]
+      },
+      {
+        "status": "not-yet-added",
+        "appId": "b1d1q13-d1e125-Axc83ad",
+        "note": "",
+        "reasons": ["p4"],
+        "opposes": [
+          "p1",
+          "p3"
+        ]
+      },
+      {
+        "status": "ignored",
+        "certainty": "medium",
+        "appId": "b1d1q13-d1e125-Aa3da38",
+        "note": "sorbonne seems to correct from nec to non, but it still seems insubstantial",
+        "reasons": ["i1"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e125-Ax48haaa",
+        "note": "the addition of the holy spirit seems like semi-irrelevant add on since the major premise only discusses the Son and the Father; it might be tempting to see this as more explicit, but we see rather as distracting and surplus",
+        "reasons": [
+          "p2.2",
+          "p3"
+        ],
+        "opposes": []
+      }
+    ]
+  },
+  "http://scta.info/resource/b1d1q13-d1e137": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e137-Aasdss1",
+        "note": "",
+        "reasons": [
+          "p1",
+          "p3",
+          "p2.2"
+        ],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e137-Aasdss2",
+        "note": "",
+        "reasons": [
+          "p1",
+          "p2.2"
+        ],
+        "opposes": ["p3"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e137-Aasdss3",
+        "note": "",
+        "reasons": [
+          "p1",
+          "p3"
+        ],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e137-Aasdss4",
+        "note": "",
+        "reasons": [
+          "p1",
+          "p2.2",
+          "p3"
+        ],
+        "opposes": []
+      }
+    ]
+  },
+  "http://scta.info/resource/b1d1q13-d1eXXX": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e137-Ac82na1",
+        "note": "",
+        "reasons": ["p2"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e137-Ac82na2",
+        "note": "This is tricky because while S does contain this more explicit reading, it contains it as a correction which is in a different hand and therefore is likely a scribal intervention not original to the Sorbonne witness. Thus in this case we only appear to oppose p3 and p4, but if we think the intervention as not part of the original sorbonne witness, then in actuality there is not real variation and no opposition to p3 and p4.",
+        "reasons": [
+          "p1",
+          "p5"
+        ],
+        "opposes": []
+      }
+    ]
+  },
+  "http://scta.info/resource/b1d1q13-d1e140": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e140-Axcvnej",
+        "note": "",
+        "reasons": [
+          "p1",
+          "p2.1",
+          "p3"
+        ],
+        "opposes": []
+      },
+      {
+        "status": "ignored and chosen",
+        "appId": "b1d1q13-d1e140-Ay76t5x",
+        "note": "this is really just a transposition related to the segment below, but we followed this segment in the main text",
+        "reasons": [
+          "i1",
+          "p3"
+        ],
+        "opposes": []
+      },
+      {
+        "status": "ignored and not chosen",
+        "appId": "b1d1q13-d1e140-Ay76t5x",
+        "note": "this is really just a transposition related to the segment above, but we DID NOT followed this segment in the main text",
+        "reasons": [
+          "i1",
+          "p3"
+        ],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e140-A3vn3vn",
+        "note": "",
+        "reasons": [
+          "p1",
+          "p2.1",
+          "p3"
+        ],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e140-AcyX76y",
+        "note": "",
+        "reasons": [
+          "p1",
+          "p2.1",
+          "p3"
+        ],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e140-AcyX76y",
+        "note": "",
+        "reasons": [
+          "p1",
+          "p2.1",
+          "p3"
+        ],
+        "opposes": []
+      }
+    ]
+  },
+  "http://scta.info/resource/b1d1q13-d1e143": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e143-Acdjds2",
+        "note": "",
+        "reasons": ["p1", "p2.1"],
+        "opposes": ["p3"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e143-Acdjds1",
+        "note": "",
+        "reasons": ["p1", "p2.1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e143-Acdjds3",
+        "note": "",
+        "reasons": ["p1", "p2.1", "p3"],
+        "opposes": []
+      }
+    ]
+  }
 }
