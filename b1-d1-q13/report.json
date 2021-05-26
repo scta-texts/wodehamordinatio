@@ -261,5 +261,51 @@
         "opposes": []
       }
     ]
+  },
+  "http://scta.info/resource/b1d1q13-d1e146": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e147-AnvhZe1",
+        "note": "",
+        "reasons": ["p3"],
+        "opposes": ["p1"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e147-AnvhZe2",
+        "note": "",
+        "reasons": ["p3", "p4"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e147-AnvhZe3",
+        "note": "",
+        "reasons": ["p1","p4"],
+        "opposes": ["p3"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e147-AnvhZe4",
+        "note": "part of the same app as below; although V omits the 'fuit' we see this a tacit agreement with the Sorbonne reading; therefore the decision does not violate p1",
+        "reasons": ["p2.1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e147-AnvhZe4",
+        "note": "part of the same as above",
+        "reasons": ["p2.1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e147-AnvhZe5",
+        "note": "",
+        "reasons": ["p2.1", "p3"],
+        "opposes": ["p1"]
+      }
+    ]
   }
 }
