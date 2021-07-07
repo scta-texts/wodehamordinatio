@@ -6,7 +6,8 @@
     "p3": "We have defaulted to the main (Sorbonne) witness.",
     "p4": "We choose the more explicit reading; gives more information",
     "p5": "Weight obvious later scribal interventions lower in our consideration, especially if they deviate from the majority of witnesses",
-    "i1": "variation is insubstantial"
+    "i1": "variation is insubstantial", 
+    "i2": "difference caused by normalization in critical text"
   },
   "http://scta.info/resource/b1d1q13-d1e125": {
     "segments": [
@@ -305,6 +306,48 @@
         "note": "",
         "reasons": ["p2.1", "p3"],
         "opposes": ["p1"]
+      },
+      {
+        "status": "ignored",
+        "appId": "",
+        "note": "",
+        "reasons": ["i2"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e147-AnvhZe7",
+        "note": "",
+        "reasons": ["p1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "ignored",
+        "appId": "",
+        "note": "",
+        "reasons": ["i1"],
+        "opposes": []
+      },
+      {
+        "status": "ignored",
+        "appId": "",
+        "note": "",
+        "reasons": ["i1"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e147-AnvhZe8",
+        "note": "",
+        "reasons": ["p1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e147-AnvhZe9",
+        "note": "",
+        "reasons": ["p4"],
+        "opposes": ["p3"]
       }
     ]
   }
