@@ -350,5 +350,118 @@
         "opposes": ["p3"]
       }
     ]
+  },
+  "http://scta.info/resource/b1d1q13-d1e159": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e159-Aa31a1",
+        "note": "",
+        "reasons": ["p1", "p2.1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e159-Aa31a2",
+        "note": "",
+        "reasons": ["p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e159-Aa31a3",
+        "note": "",
+        "reasons": ["p3"],
+        "opposes": ["p1"]
+      },
+      {
+        "status": "",
+        "appId": "b1d1q13-d1e159-Aa31a3",
+        "note": "",
+        "reasons": ["p3"],
+        "opposes": ["p1"]
+      }, 
+      {
+        "status": "ignored",
+        "appId": "",
+        "note": "",
+        "reasons": ["i1"],
+        "opposes": [""]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e159-Aa31a4",
+        "note": "",
+        "reasons": ["p3"],
+        "opposes": []
+      }
+    ]
+  },
+  "http://scta.info/resource/b1d1q13-d1e162": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e162-Acaxx1",
+        "note": "not included because doesn't seem as accurate, but also seems like an addition from another hand",
+        "reasons": ["p1", "p2.2"],
+        "opposes": ["p3"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e162-Acaxx2",
+        "note": "seems like a clear homeoteluton and EXCELLENT example/evidence of M and T's reliance on a common ancestor, since both make this same mistake",
+        "reasons": ["p1", "p2.1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e162-Acaxx3",
+        "note": "",
+        "reasons": ["p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e162-Acaxx4",
+        "note": "part of inversion in following segment",
+        "reasons": ["p1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e162-Acaxx4",
+        "note": "part of inverstion in previous segment",
+        "reasons": ["p1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e162-Acaxx5",
+        "note": "",
+        "reasons": ["p2.1"],
+        "opposes": ["p3"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e162-Acaxx6",
+        "note": "",
+        "reasons": ["p1", "p2.1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e162-Acaxx7",
+        "note": "",
+        "reasons": ["p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e162-Acaxx8",
+        "note": "",
+        "reasons": ["p2.1", "p3"],
+        "opposes": []
+      }
+    ]
   }
 }
