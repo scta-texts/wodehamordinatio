@@ -320,8 +320,8 @@
             et constat quod tali dilectione vel cognitione non diligebatur 
             <app xml:id="b1d1q13-d1e147-AnvhZe9">
               <lem>nec cognoscebatur</lem>
-              <rdg wit="#S" type="variation-absent" facs="69v/85"></rdg>
-              <rdg wit="#V" type="variation-absent" facs="93v/45"></rdg>
+              <rdg wit="#S" type="variation-absent" facs="69v/85"/>
+              <rdg wit="#V" type="variation-absent" facs="93v/45"/>
             </app>
             Pater, 
             quia haec sibi non conveniunt, 
@@ -377,7 +377,7 @@
             Christus potuit diligi a quibusdam, 
             et forte
             <app xml:id="b1d1q13-d1e162-Acaxx1">
-              <lem  n="forte"/>
+              <lem n="forte"/>
               <rdg wit="#S" type="correction-addition" facs="69v/91">
                 <add place="margin">de facto</add>
               </rdg>
@@ -427,8 +427,8 @@
             cui 
             <app xml:id="b1d1q13-d1e162-Acaxx7">
               <lem>illa</lem>
-              <rdg wit="#T" type="variation-absent" facs="49v/22" />
-              <rdg wit="#M" type="variation-absent" facs="58r/79"></rdg>
+              <rdg wit="#T" type="variation-absent" facs="49v/22"/>
+              <rdg wit="#M" type="variation-absent" facs="58r/79"/>
             </app> 
             ratio 
             <app>
@@ -448,7 +448,7 @@
             igitur Pater, 
             ex 
             <cit>
-              <ref>
+              <ref xml:id="b1-q13-Rd1e696">
                 <app xml:id="b1d1q13-d1e165-Acj8j1">
                   <lem>praecedenti</lem>
                   <rdg wit="#M" facs="49v/23">
@@ -476,12 +476,23 @@
             persona Filii illo
             <app xml:id="b1d1q13-d1e165-Acj8j4">
               <lem n="illo"/>
-              <rdg wit="#S" type="correction-addition">
+              <rdg wit="#S" type="correction-addition" facs="69v/102">
                 <add place="margin">actu</add>
               </rdg>
             </app>
              cognoscitur vel diligitur certum est. 
-             Et si persona Filii diligitur illo actu, 
+             Et si persona Filii 
+            <app xml:id="b1d1q13-d1e165-Acj8j5">
+               <lem>diligitur illo actu</lem>
+               <rdg wit="#M" type="variation-inversion" facs="58r/85">
+                 <seg>illo actu</seg>
+                 <seg>diligitur</seg>
+               </rdg>
+               <rdg wit="#T" type="variation-inversion" facs="49v/26">
+                 <seg>illo actu</seg>
+                 <seg>diligitur</seg>
+               </rdg>
+             </app>, 
              igitur et deitas Filii. 
              Quidquid enim convenit Filio vel alicui personae quod essentiae non repugnat, 
              eo ipso convenit essentiae. 
@@ -490,7 +501,15 @@
              quia persona Filii est incarnata, 
              sicut patet per 
             <cit>
-              <ref>Magistrum, lib. III, dist. 3.</ref>
+              <ref xml:id="b1-q13-Rd1e764" target="http://scta.info/resource/pl-l3d5c1-d1e289@1-48">
+                <name xml:id="b1-q13-Nd1e766">Magistrum</name>, libro 3, distinctione 
+                <app xml:id="b1d1q13-d1e165-Acj8j6">
+                  <lem>5</lem>
+                  <rdg wit="#S" facs="69v/106">3</rdg>
+                  <rdg wit="#M" facs="58r/89">3</rdg>
+                  <rdg wit="#T" facs="49v/29">3</rdg>
+                </app>
+              </ref>
             </cit>.
             Igitur a primo ad ultimum, 
             si Christus diligitur vel cognoscitur a actu, 
@@ -521,7 +540,7 @@
             vel consequentia secunda principalis non valet haec, 
             scilicet, 
             <cit>
-              <quote source="http://scta.info/resource/b1d1q13-d1e165@70-80">
+              <quote xml:id="b1-q13-Qd1e818" source="http://scta.info/resource/b1d1q13-d1e165@70-80">
                 Filius diligitur vel cognoscitur
                 <app xml:id="b1d1q13-d1e168-Anvbd4">
                   <lem>per <c>a</c></lem>
@@ -532,13 +551,37 @@
                   <rdg wit="#T" type="variation-absent" facs="49v/32"/>
                   <rdg wit="#V" type="variation-absent" facs="94r/9"/>
                 </app>, 
-                igitur et deitas
+                igitur 
+                <app xml:id="b1d1q13-d1e168-Anvbd5">
+                  <lem>et</lem>
+                  <rdg wit="#T" type="variation-absent" facs="49v/32"/>
+                </app> 
+                deitas
               </quote>
             </cit>, 
-            <!-- left in the here http://scta.info/resource/b1d1q13-d1e168 -->
-            vel si detur quod deitas per accidens cognoscitur illo actu, 
-            non est ulterius propter hoc concedendum quod Pater per accidens isto actu videatur. 
-            Et tamen probatur secunda consequentia per exemplum de incarnatione et per medium appositum. </p>
+            vel si detur 
+            quod deitas per accidens cognoscitur illo actu, 
+            non est ulterius propter 
+            <app xml:id="b1d1q13-d1e168-Anvbd6">
+              <lem>hoc</lem>
+              <rdg wit="#T" facs="49v/33">haec</rdg>
+            </app> 
+            concedendum quod 
+            Pater per accidens isto actu videatur. 
+            Et 
+            <app xml:id="b1d1q13-d1e168-Anvbd7">
+              <lem wit="#S">tamen</lem>
+              <rdg wit="#T" facs="49v/33">cum</rdg>
+              <rdg wit="#V" facs="94r/11">cum</rdg>
+              <rdg wit="#M" facs="58r/96">cum</rdg>
+            </app> 
+            probatur secunda consequentia 
+            <app xml:id="b1d1q13-d1e168-Anvbd8">
+              <lem>per exemplum</lem>
+              <rdg wit="#V" facs="94r/11">exemplo</rdg>
+            </app> 
+            de incarnatione et per medium appositum.
+          </p>
           <p xml:id="b1d1q13-d1e177">
             <!-- remove b1d1q13-d1e171 --> 
             Dicendum quod omne illud quod immediate convenit personae Filii sic quod per ipsam personalitatem divinam sibi conveniat, convenit essentiae, si sibi non repugnet. Et ita est de incarnatione. Personalitas
