@@ -618,7 +618,14 @@
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdhd4",
-        "note": "",
+        "note": "related immediate segment below as part of inversion variant",
+        "reasons": ["p3"],
+        "opposes": ["p1"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e177-Axdhd4",
+        "note": "related immediate segment above as part of inversion variant",
         "reasons": ["p3"],
         "opposes": ["p1"]
       },
@@ -634,13 +641,6 @@
         "appId": "b1d1q13-d1e177-Axdhd7",
         "note": "",
         "reasons": ["p1", "p2.1", "p3"],
-        "opposes": []
-      },
-      {
-        "status": "added",
-        "appId": "b1d1q13-d1e177-Axdhd6",
-        "note": "",
-        "reasons": ["p2.2", "p3"],
         "opposes": []
       },
       {
@@ -662,6 +662,13 @@
         "appId": "b1d1q13-d1e177-Axdh10",
         "note": "",
         "reasons": ["p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e177-Axdhd6",
+        "note": "",
+        "reasons": ["p2.2", "p3"],
         "opposes": []
       },
       {
@@ -695,15 +702,22 @@
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdh15",
-        "note": "part of this segment is related to the segment below and handle in app=b1d1q13-d1e177-Axdh16",
+        "note": "",
         "reasons": ["p1", "p4"],
         "opposes": ["p3"]
       },
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdh16",
-        "note": "the above segment includes part of the variation seen in this segment and handled in this app (namely the 'videret' portion of the above segment)",
+        "note": "",
         "reasons": ["p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e177-Axdh18",
+        "note": "",
+        "reasons": ["p1","p3"],
         "opposes": []
       },
       {
