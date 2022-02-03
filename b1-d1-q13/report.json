@@ -726,6 +726,27 @@
         "note": "the scribal addition is clearly later, doesn't make a lot of sense, and is not supported by any other witness",
         "reasons": ["p5"],
         "opposes": []
+      },
+      {
+        "status": "ignored",
+        "appId": "",
+        "note": "this is minor orthograph difference between illa and ista; we just silently folowed the S reading",
+        "reasons": ["i1", "p3"],
+        "opposes": ["p1"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e177-Axdh19",
+        "note": "sorbonne has the reading in the margin as a scribal addition; its not clear how late this addition; by treating it more less as an original part of S (which sort of opposed p5) it allows us to justify this reading with p3; extra support comes from the fact that V contains this reading in the main text ",
+        "reasons": ["p4"],
+        "opposes": ["p5"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e177-Axdh20",
+        "note": "",
+        "reasons": ["p1", "p2.1", "p3"],
+        "opposes": []
       }
     ]
    }
