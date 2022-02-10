@@ -743,36 +743,74 @@
             <app xml:id="b1d1q13-d1e177-Axdh20">
                <lem>qua</lem>
                <rdg wit="#M" facs="58r/116">quae</rdg>
-             </app> 
-            <!-- left of with nick on 2/3 -->
-             tantum per accidens vel
-            <app>
+             </app>
+            tantum per accidens vel
+            <app xml:id="b1d1q13-d1e177-Axdh21">
               <lem>tantum per</lem>
               <rdg wit="#S" type="correction-addition" facs="70r/19">
                 <add place="margin">tantum per</add>
               </rdg>
+              <rdg wit="#M" type="variation-absent" facs="58r/117" />
+              <rdg wit="#T" type="variation-absent" facs="49v/49"/>
+              <rdg wit="#V" facs="94r/23">per</rdg>
             </app>
-             aliud cognoscitur Filius. 
-             Sic autem est cum cognoscitur vel diligitur Filius praecise ratione suae humanitatis. 
-             Potest enim in isto casu stare naturaliter eadem visio omnino sine hoc quod Filius per illam videretur, 
-             utpote si Christi humanitas, stante visione qua corporaliter vel intellectualiter ipsa videtur,
-            <app>
+            aliud cognoscitur Filius.
+            Sic autem est cum cognoscitur 
+            vel diligitur Filius praecise ratione suae humanitatis. 
+            Posset 
+            enim in 
+            <app xml:id="b1d1q13-d1e177-Axdh22">
+              <lem>isto</lem>
+              <rdg wit="#M" facs="58r/118">illo</rdg>
+              <rdg wit="#T" facs="49v/50">illo</rdg>
+              <rdg wit="#V" facs="95v/24">illo</rdg>
+            </app> 
+            casu stare naturaliter eadem visio omnino 
+            sine hoc quod Filius 
+            per 
+            <app xml:id="b1d1q13-d1e177-Axdh23">
+              <lem>illam videretur</lem>
+              <rdg wit="#M">illa videre</rdg>
+            </app>, 
+            utpote si Christi humanitas, 
+            stante visione qua corporaliter 
+            vel intellectualiter ipsa videtur,
+            <app xml:id="b1d1q13-d1e177-Axdh25">
               <lem>a verbo deponeretur</lem>
-              <rdg wit="#S" type="correction-addition">
+              <rdg wit="#S" type="correction-addition" facs="70r/23">
                 <add place="margin">a verbo deponeretur</add>
               </rdg>
+              <rdg wit="#V" type="correction-addition" facs="94r/25">
+                <add place="margin">a verbo deponeretur</add>
+              </rdg>
+              <rdg wit="#M" type="variation-absent" facs="58r/119"/>
+              <rdg wit="#M" type="variation-absent" facs="49v/51"/>
             </app>, 
             sicut patet in exemplo de eucharistia. 
-            Nam si ante consecrationem eucharistiae corporaliter videatur substantia panis, 
-            eo modo quo Dyarrii filius per accidens videtur, 
+            Nam si ante consecrationem eucharistiae
+            <app xml:id="b1d1q13-d1e177-Axdh26">
+              <lem>corporaliter</lem>
+              <rdg wit="#T" facs="59v/52" type="variation-absent"/>
+            </app> 
+            videatur substantia panis, 
+            eo modo quo <name>Diarii</name> filius per accidens videtur, 
             quia tamen illa visio non habet substantiam panis pro per se obiecto,
             <app>
               <lem>sed eius accidens</lem>
-              <rdg wit="#S" type="correction-addition">
-                <add place="margin">sed eius accidens</add>
+              <rdg wit="#S" type="correction-addition" facs="70r/27">
+                <add place="margin-left">sed eius accidens</add>
               </rdg>
-            </app>. 
-            Ut ideo vere videretur per accidens dici posset, 
+              <rdg wit="#V" type="correction-addition" facs="94r/27">
+                <add place="margin-right">sed eius accidens</add>
+              </rdg>
+              <rdg wit="#M" type="variation-absent" facs="58r/124"/>
+              <rdg wit="#T" type="variation-absent" facs="49v/53"/>
+            </app>, 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#S" facs="70r/27">ut</rdg>
+            </app>
+            ideo vere videretur per accidens dici posset, 
             ideo bene posset stare etiam naturaliter eadem visio. 
             Et si substantia panis per illam nullatenus videretur, 
             ymmo ita est de facto, si post consecrationem remaneat eadem visio qua antea videbatur, 
