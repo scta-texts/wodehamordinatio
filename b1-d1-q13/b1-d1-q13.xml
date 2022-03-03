@@ -722,8 +722,7 @@
             praecise per aliud a sua personalitate conveniens sibi et non Patri, 
             cognoscitur vel diligitur Pater. 
             Quid enim mirum si Pater non cognoscitur 
-            ista 
-            visione
+            ista visione
             <app xml:id="b1d1q13-d1e177-Axdh19">
               <lem>sensitiva</lem>
               <rdg wit="#S" type="correction-addition" facs="70r/18">
@@ -732,7 +731,12 @@
               <rdg wit="#M" type="variation-absent" facs="58r/116"/>
               <rdg wit="#T" type="variation-absent" facs="49v/48"/>
             </app>
-            secunda vel quacumque
+            <app xml:id="b1d1q13-d1e177-Axdh37">
+              <lem>secunda</lem>
+              <rdg wit="#V" type="variation-absent" facs="94r/23"/>
+            </app> 
+            vel quacumque
+            <!-- doesn't have an id in report since it is deleted; it doesn't show up in collation segments -->
             <app>
               <lem n="quacumque"/>
               <rdg wit="#S" type="correction-deletion">

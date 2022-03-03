@@ -741,11 +741,20 @@
         "reasons": ["p4"],
         "opposes": ["p5"]
       },
+     
+     
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdh20",
         "note": "",
         "reasons": ["p1", "p2.1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e177-Axdh37",
+        "note": "secunda missing in vat",
+        "reasons": ["p1", "p3"],
         "opposes": []
       },
       {
@@ -793,7 +802,7 @@
       {
         "status": "ignored",
         "appId": "",
-        "note": "",
+        "note": "ignore orthographic diff between diarii and dyarii",
         "reasons": ["i1"],
         "opposes": []
       },
@@ -807,28 +816,28 @@
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdh28",
-        "note": "",
+        "note": "et vs ut",
         "reasons": ["p1", "p2"],
         "opposes": ["p3"]
       },
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdh29",
-        "note": "",
+        "note": "visionem added in T",
         "reasons": ["p1", "p3"],
         "opposes": ["p4"]
       },
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdh30",
-        "note": "",
+        "note": "sed vs si",
         "reasons": ["p1", "p2.1", "p3"],
         "opposes": []
       },
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdh31",
-        "note": "",
+        "note": "videbatur vs videbitur",
         "reasons": ["p1", "p2.1", "p3"],
         "opposes": []
       },
@@ -849,7 +858,14 @@
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdh34",
-        "note": "inversion of omnino and idem",
+        "note": "inversion of omnino and idem; continued in next segment",
+        "reasons": ["p1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e177-Axdh34",
+        "note": "inversion of omnino and idem; continues previous segment",
         "reasons": ["p1", "p3"],
         "opposes": []
       },
