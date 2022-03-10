@@ -741,8 +741,6 @@
         "reasons": ["p4"],
         "opposes": ["p5"]
       },
-     
-     
       {
         "status": "added",
         "appId": "b1d1q13-d1e177-Axdh20",
@@ -884,5 +882,65 @@
         "opposes": ["p5"]
       }
     ]
-   }
+   },
+   "http://scta.info/resource/b1d1q13-d1e187": {
+    "segments": [
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e187-Aixah1",
+        "note": "missing videretur",
+        "reasons": ["p1", "p2.1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e187-Aixah2",
+        "note": "esse instead of essentiae",
+        "reasons": ["p1", "p2.1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e187-Aixah3",
+        "note": "evidenter in vat and added into sorb; another example of sorb seemingly corrected against Vat",
+        "reasons": ["p1","p3", "p4"],
+        "opposes": ["p5"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e187-Aixah4",
+        "note": "inversion; related to segment below",
+        "reasons": ["p2.1"],
+        "opposes": ["p1", "p3"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e187-Aixah4",
+        "note": "inversion; related to segment above",
+        "reasons": ["p2.1"],
+        "opposes": ["p1", "p3"]
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e187-Aixah5",
+        "note": "personarum vs personaliter",
+        "reasons": ["p1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e187-Aixah6",
+        "note": "qualis vs quare",
+        "reasons": ["p1", "p3"],
+        "opposes": []
+      },
+      {
+        "status": "added",
+        "appId": "b1d1q13-d1e187-Aixah7",
+        "note": "de vs in; another example of sorb seemingly corrected against Vat",
+        "reasons": ["p1","p3", "p4"],
+        "opposes": ["p5"]
+      }
+    ]
+  }
 }
