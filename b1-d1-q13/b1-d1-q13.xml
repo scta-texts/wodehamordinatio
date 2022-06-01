@@ -1034,10 +1034,10 @@
               <rdg wit="#T" facs="49v/71">etc</rdg>
             </app>
           </p>
-          <!-- left off with Nick on 4/12 -->
           <p xml:id="b1d1q13-d1e190"> 
             Praeterea, 
-            si unicus sit actus respectu essentiae et trium personarum, 
+            si unicus sit actus respectu 
+            essentiae et trium personarum, 
             tunc 
             <app xml:id="b1d1q13-d1e190-Accjn1">
               <lem>iste</lem>
@@ -1045,28 +1045,76 @@
               <rdg wit="#T" facs="49v/72">ille</rdg>
               <rdg wit="#V" facs="94r/44">ille</rdg>
             </app> 
-            actus aut primo importat paternitatem, 
-            et 
+            actus 
+            aut primo importat paternitatem et 
             <app xml:id="b1d1q13-d1e190-Accjn2">
               <lem>secundo</lem>
-              <rdg wit="#V" facs="94r/44"/>
+              <rdg wit="#V" facs="94r/44">filio</rdg>
             </app> 
             filiationem, 
             aut econverso, 
-            aut aeque primo utrumque.
-            <!-- left of here on 5/5 with nick -->
-            Non utrumque 
+            <app>
+              <lem>aut aeque primo 
+                <app xml:id="b1d1q13-d1e190-Accjn3">
+                  <lem>utramque</lem>
+                  <rdg wit="#M" type="variation-absent" cause="homeotelueton"/>
+                  <rdg wit="#T" type="variation-absent" cause="homeotelueton"/>
+                </app>
+              </lem>
+              <rdg wit="#S" type="correction-addition">
+                <add>aut aeque primo utramque</add>
+              </rdg>
+            </app>.
+            <app xml:id="b1d1q13-d1e190-Accjn4">
+              <lem>Non</lem>
+              <rdg wit="#M" type="variation-absent" cause="homeotelueton"/>
+              <rdg wit="#T" type="variation-absent" cause="homeotelueton"/>
+            </app>
+            <app xml:id="b1d1q13-d1e190-Accjn5">
+              <lem>aeque primo</lem>
+              <rdg wit="#M" type="variation-absent" cause="homeotelueton"/>
+              <rdg wit="#T" type="variation-absent" cause="homeotelueton"/>
+              <rdg wit="#S" type="variation-absent"/>
+            </app> 
+            utramque 
             quia tunc esset conceptus communis, 
             cum significet univoce
             <cb ed="#S" n="b"/><!-- 70-r b --> 
-            duo vel tria distincte, et, per consequens, 
-            non est actus fruitionis nec visionis beatificae, 
+            duo vel tria 
+            <app>
+              <lem>distincte</lem>
+              <rdg wit="#V">distincta</rdg>
+            </app>, 
+            et, per consequens, 
+            non est actus fruitionis nec visionis beatificae
             quia talis debet esse distinctissimus, 
             et, per consequens, singularissimus et particularissimus. 
-            Nec primo inpartat unam illarum, et secundo aliam, 
-            quia non est ratio maior de una quam de alia, tum 
-            quia tunc prius amaret beatus unam personam quam aliam, 
-            et tunc prius una frueretur, quod falsum est. 
+            Nec primo importat unam illarum et secundo aliam
+            quia non est 
+            <app xml:id="b1d1q13-d1e190-Accjn7">
+              <lem>ratio maior</lem>
+              <rdg wit="#M" type="variation-inversion">maior ratio</rdg>
+              <rdg wit="#T" type="variation-inversion">maior ratio</rdg>
+            </app> 
+            de una quam de alia,
+            tum quia tunc prius amaret beatus unam personam quam aliam, 
+            et 
+            <app xml:id="b1d1q13-d1e190-Accjn8">
+              <lem>tunc</lem>
+              <rdg wit="#V" type="variation-absent"/>
+            </app> 
+            prius 
+            <app xml:id="b1d1q13-d1e190-Accjn9">
+              <lem>una</lem>
+              <rdg wit="#V">illa</rdg>
+            </app> 
+            frueretur
+            <app xml:id="b1d1q13-d1e190-Accjn10">
+              <lem wit="#M #T">quam alia</lem>
+              <rdg wit="#V" type="variation-absent"/>
+              <rdg wit="#S" type="variation-absent"/>
+            </app>, 
+            quod falsum est. 
           </p>
           <p xml:id="b1d1q13-d1e193"> 
             Ad primum istorum concedendum est quod, 
