@@ -9,11 +9,6 @@
           <resp>Transcription Editor</resp>
           <resp>Tei Encoder</resp>
         </respStmt>
-        <respStmt>
-          <name ref="#nivaca">Nicolas Vaughan</name>
-          <resp>Transcription Editor</resp>
-          <resp>Tei Encoder</resp>
-        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
@@ -58,14 +53,762 @@
     </front>
     <body>
       <div xml:id="b1-d1-q7">
-        <head>Quaestio 7 [Sorb 193 Transcription]</head>
-        <head type="question-title"></head>
-        <p>
-          <lb ed="#S"/>Iuxta hoc quaero utrum voluntas sola sit causa effectiva suae 
-          <lb ed="#S"/>volitionis liberae supposita communi dei influentia vel con<lb ed="#S"/>causatione
+        <head xml:id="b1-d1q7-Hd1e99">Quaestio 7 [Sorb 193 Transcription]</head>
+        <head xml:id="b1-d1q7-Hd1e101" type="question-title"/>
+        <p xml:id="b1-d1q7-d1e103">
+          <lb ed="#S" n="88"/>Iuxta hoc quaero utrum voluntas sola sit causa effectiva suae 
+          <lb ed="#S" n="89"/>volitionis liberae supposita communi dei influentia vel con<lb ed="#S" break="no" n="90"/>causatione
         </p>
-        <p>
-          quia sic videtur quia
+        <p xml:id="b1-d1q7-d1e112">
+          quod sic videtur quia si alia causa naturalis conprinciparet actum 
+          <lb ed="#S" n="91"/>volitionis libere cum igitur respectu eiusdem oppositi eodem praesen<lb ed="#S" break="no" n="92"/>tati 
+          modo potest voluntas primo habere volitionem 2o nolitionem omnibus a
+          <lb ed="#S" n="93"/>his uniformiter concurrentibus sicud per <name xml:id="b1-d1q7-Nd1e120">augustinum</name> deduci posset ex 
+          <lb ed="#S" n="94"/>praeallegato in praecedenti quaestione processu eius 1<ref xml:id="b1-d1q7-Rd1e125">2 de trinitate capitulo 6</ref>
+          <lb ed="#S" n="95"/>et verum est et praeconcessum quaestione praecedenti et experientia docet hic 
+          <lb ed="#S" n="96"/>sequitur quod idem omnino actum mere naturale posset in eodem passo 
+          <lb ed="#S" n="97"/>uniformiter disposito contrarios effectus producere quod videtur in<lb ed="#S" break="no" n="98"/>conveniens 
+        </p>
+        <p xml:id="b1-d1q7-d1e136">
+          <pc type="pilcrow"/> ad oppositum voluntas non est causa ut videtur volitionum 
+          <lb ed="#S" n="99"/>talium productiva <pc type="punctus"/> igitur nec sola voluntas est sic causa antecedens probatur 
+          <lb ed="#S" n="100"/>quia unde probaretur hoc nisi ad potentiam eius poni posset talis vo<lb ed="#S" break="no" n="101"/>litio 
+          et sine ea non et non est materia nec forma <del rend="expunctuation">ita</del> igitur effi<lb ed="#S" break="no" n="102"/>ciens 
+          ita arguam ego quod cum ad <unclear>positionem</unclear> cognitionis ponatur 
+          <lb ed="#S" n="103"/>volitio talis et sine cognitione praevia poni naturaliter non posset sequitur 
+          <lb ed="#S" n="104"/>quod cognitio sit causa effectiva volitionis consequens falsum <unclear>propter</unclear> causam tactam 
+          <lb ed="#S" n="105"/>in ratione priori quia tunc eadem cognitio omnino posset esse causa suc<lb ed="#S" break="no" n="106"/>cessive 
+          contrariorum effectuum in eodem passo omnino et uniformaliter 
+          <lb ed="#S" n="107"/>disposito quod non videtur dandum igitur
+        </p>
+        <p xml:id="b1-d1q7-d1e171">
+          <pc type="virgula">/</pc> praeterea si voluntas esset causa 
+          <lb ed="#S" n="108"/>activa volitionis suae tunc idem simul esset movens et motum
+          <lb ed="#S" n="109"/>in actu et potentia respectu eiusdem quod saepe <add place="margin-right">videtur</add> philosophus habere per inconvenien<lb ed="#S" break="no" n="110"/>ti 
+          et tunc etiam non videretur apertere ut omne quod movetur ab aliquo 
+          <lb ed="#S" n="111"/>moveatur et deficeret medium philosophus 7 et 8 physicorum ad proban<lb ed="#S" break="no" n="112"/>dum 
+          esse aliquod movens simpliciter immobile
+        </p>
+        <p xml:id="b1-d1q7-d1e191">
+          <pc type="pilcrow"/> hic primo ponam 
+          <lb ed="#S" n="113"/>duas conclusiones 2o obiciam contra eas dubia aliqua et solvam
+        </p>
+        <p xml:id="b1-d1q7-d1e198">
+          <pb ed="#S" n="35-v"/>
+          <lb ed="#S" n="1"/>
+          <lb ed="#S" n="2"/><pc type="pilcrow"/> prima conclusio est quod voluntas est causa activa suae libere volitionis et haec 
+          <lb ed="#S" n="3"/>sufficienter probata fuit in <ref xml:id="b1-d1q7-Rd1e209">proxima praecedit quaestio articulo primo</ref>
+        </p>
+        <p xml:id="b1-d1q7-d1e212">
+          <pc type="pilcrow"/> 2a conclusio est quod 
+          <lb ed="#S" n="4"/>aliud a voluntate comprincipiat active talem volitionem vel nolitionem quia 
+          <lb ed="#S" n="5"/>cognitio sibi naturaliter praesupposita et necessario requisita ad hoc quod ipsa 
+          <lb ed="#S" n="6"/>sine miraculo esse possit est conprincipium actum ipsius <add place="margin-below">et ipsa causalis distinguitur a voluntate igitur aliud a voluntate conprincipiat active volitionem</add> quando naturaliter ipsa 
+          <lb ed="#S" n="7"/>causatur sibi
+        </p>
+        <p xml:id="b1-d1q7-d1e229">
+          <pc type="pilcrow"/>aliud assumptum probatur <ref xml:id="b1-d1q7-Rd1e233">distinctione 3a</ref> ubi tractabitur de hoc in 
+          <lb ed="#S" n="8"/>materia de ymagine et ad praesens facio ad hoc argumentum <name xml:id="b1-d1q7-Nd1e237">scoti</name> quo 
+          <lb ed="#S" n="9"/>probat <ref xml:id="b1-d1q7-Rd1e242">distinctione 3a primi libri</ref> obiectum active conprincipare <unclear>ince?h?em</unclear> ipsius et 
+          <lb ed="#S" n="10"/>est etiam argumentum <name xml:id="b1-d1q7-Nd1e248">okam</name> ad praesens punctum et est evidens sibi 
+          <lb ed="#S" n="11"/>quod omnis forma praesupposita et necessario requisita ad hoc quod talis 
+          <lb ed="#S" n="12"/>effectus naturaliter id est sine miraculo id est non a deo praeter viam 
+          <lb ed="#S" n="13"/>negatur communem producatur quia effectus huius non naturaliter producitur est causa in 
+          <lb ed="#S" n="14"/>aliquo genere causae hoc enim negato nulla restat via con<lb ed="#S" break="no" n="15"/>cludendi 
+          evidenter aliquid esse causam alterius naturaliter in hiis inferioribus 
+          <lb ed="#S" n="16"/>sicut patet inductive sed sic praesupponitur et necessario requiritur 
+          <lb ed="#S" n="17"/>cognitio ad hoc quod a voluntate naturaliter id est sine miraculo producatur vo<lb ed="#S" break="no" n="18"/>litio 
+          et ipsa talis cognitio non est causa huius volitionis nisi efficiens igitur 
+          <lb ed="#S" n="19"/>etc <pc type="punctus"/> Contra ambas conclusiones simul est argumentum ad oppositum quaestionis 
+          <lb ed="#S" n="20"/>ubi scilicet probabitur voluntatem vel intentionem esse causam libere volitionis
+        </p>
+        <p xml:id="b1-d1q7-d1e275">
+          <lb ed="#S" n="21"/><pc type="pilcrow"/>Item contra prima conclusionem est 2a ratio ad partem oppositam quaestionis quod idem 
+          <lb ed="#S" n="22"/>moveret se et esset idem in actu et potentia respectu eiusdem contra philosophiam 
+        </p>
+        <p xml:id="b1-d1q7-d1e284">
+          <lb ed="#S" n="23"/><pc type="virgula">/</pc> praeterea contra primam conclusionem si voluntas sit causa activa suae volitionis 
+          <lb ed="#S" n="24"/>libere tunc ipsa sufficienter approximata vel praesens alteri 
+          <lb ed="#S" n="25"/>voluntati simili posset volitionem in illa causare sicut et in se ipsa consequens 
+          <lb ed="#S" n="26"/>falsum consequentiam probo per medium quo probat hic <name xml:id="b1-d1q7-Nd1e296">doctor subtilis</name> 
+          <lb ed="#S" n="27"/>de intellectione in materia de locutionibus angelorum libro 2o 
+          <lb ed="#S" n="28"/>quia omne agens effectum aliquem in aliquo passo in quocumque 
+          <lb ed="#S" n="29"/>passo simili et similiter disposito potest nisi inpediatur consimilem 
+          <lb ed="#S" n="30"/>effectum agere sed voluntas secundum dictam quaestionem causat in se vo<lb ed="#S" break="no" n="31"/>litionem 
+          et alia voluntas sibi similis est sibi sufficienter praesens et 
+          <lb ed="#S" n="32"/>consimile passivum etc
+        </p>
+        <p xml:id="b1-d1q7-d1e312">
+          <pc type="pilcrow"/> praeterea specialiter contra 2am conclusionem est quod 
+          <lb ed="#S" n="33"/>tactum est in duobus principalibus argumentis scilicet quod principium 
+          <lb ed="#S" n="34"/>actum mere naturale posset in eodem passo uniformiter ad 
+          <lb ed="#S" n="35"/>receptionem disposito contrarios effectus producere successive 
+        </p>
+        <p xml:id="b1-d1q7-d1e323">
+          <lb ed="#S" n="36"/><pc type="pilcrow"/> Praeterea si notitia esset causa partialis activa respectu dilectionis tandem tunc 
+          <lb ed="#S" n="37"/>ceteris paribus crescente notitia cresceret amore consequens falsum 
+          <lb ed="#S" n="38"/>quia velit voluntas crescente notitia amare praecise in gradu 
+          <lb ed="#S" n="39"/>priori et nisi detur probandum sequitur quod in vita augebit actum 
+          <lb ed="#S" n="40"/>suum quod videtur inconveniens et contra <name xml:id="b1-d1q7-Nd1e337">anselmum</name> quod fuit alias alle<lb ed="#S" break="no" n="41"/>gatum 
+          consequentia probatur quia crescente causa notitiae aliqua si caetera 
+          <lb ed="#S" n="42"/>sint paria crescit effectus
+        </p>
+        <p xml:id="b1-d1q7-d1e344">
+          <pc type="pilcrow"/> Praeterea per idem medium omnibus aliis 
+          <lb ed="#S" n="43"/>uniformiter se habentibus et nullo alioru requisitorum effi<lb ed="#S" break="no" n="44"/>catius
+          vel minus efficaciter agente quam prius et sola notitia 
+          <lb ed="#S" n="45"/>crescente crescit dilectio secundu gradum aliquem secundum te saltem qui 
+          <lb ed="#S" n="46"/><unclear>ponis</unclear> augmentationem informis per gradus realiter additos consequens 
+          <lb ed="#S" n="47"/>falsum quia tunc gradus adveniens et concrescens ex <unclear>ce?<lb ed="#S" n="48"/>mento</unclear> 
+          solius notitiae esset ut videtur a tota sola notitia 
+          <lb ed="#S" n="49"/>effective et pari ratione prior gradus dilectionis cum sit 
+          <lb ed="#S" n="50"/>eiusdem rationis cum gradu cuius ipda sola cognitio est 
+          <lb ed="#S" n="51"/>tam posset esset active a sola cognitione absque actio<lb ed="#S" break="no" n="52"/>ne 
+          voluntatis et pari ratione omnis dilectio naturaliter causata 
+          <lb ed="#S" n="53"/>consequens falsum est certum est igitur antecedens et ultima consequentia patet secundum 
+          <lb ed="#S" n="54"/><ref xml:id="b1-d1q7-Rd1e377"><name xml:id="b1-d1q7-Nd1e378">philosophum</name> 2o ethicorum</ref> ab eisdem vel similibus fiunt alia a 
+          <lb ed="#S" n="55"/>quibus augentur
+        </p>
+        <p xml:id="b1-d1q7-d1e384">
+          <pc type="pilcrow"/> Praeterea tunc ille gradus additus ad <unclear>tc?<lb ed="#S" n="56"/>mentum</unclear> 
+          notitiae non libere produceretur et pari ratione nec prio<lb ed="#S" break="no" n="57"/>resque 
+          quia sicut ille acquiritur ex augmentatione solius cognitionis
+          <cb ed="#S" n="b"/>
+          <lb ed="#S" n="58"/>ceteris paribus ita prior dilectio decresceret decrescente sola 
+          <lb ed="#S" n="59"/>cognitione et per consequens gradus decrescens a sola cogntione ac<lb ed="#S" break="no" n="60"/>tive 
+          dependebant et per consequens non libere agebatur et ita 
+          <lb ed="#S" n="61"/>non fuisset meritum nec demeritum cuius oppositum <ref xml:id="b1-d1q7-Rd1e406">in praecedent quaestione</ref> 
+          <lb ed="#S" n="62"/>dictum est
+        </p>
+        <p xml:id="b1-d1q7-d1e411">
+          <pc type="pilcrow"/> ad primum istorum apparet mihi pro nunc quod causa ista 
+          <lb ed="#S" n="63"/>satis arguit ad esse causam ipsam scilicet necessario praesupponi et requiri 
+          <lb ed="#S" n="64"/>ad hoc quod effectus iste qui naturaliiter capit esse naturaliter producatur 
+          <lb ed="#S" n="65"/>si aut alias aliqua instantia videatur mihi <add place="margin-right">inducere</add> quam addere <unclear>oporteat <!-- possible correction --></unclear> addam
+          <lb ed="#S" n="66"/>actum <unclear>unde</unclear> video quod haec consequentia non valet hoc posito ponitur illud et sine 
+          <lb ed="#S" n="67"/>illo non poneretur igitur haec est causa istius sic est de verbis quae homo 
+          <lb ed="#S" n="68"/>dicit in orando vel vocaliter vel mentaliter respectu gratiae tunc a deo 
+          <lb ed="#S" n="69"/>collate et demerito nostro respectu gratiae quam confert deus et ideo est 
+          <lb ed="#S" n="70"/>ibi bene ponere causam sine qua non et talia forte movere 
+          <lb ed="#S" n="71"/>poterant seniores nostros ut ponerent causam sine qua 
+          <lb ed="#S" n="72"/>non saepe <pc type="punctus"/> sed non rationaliter ponerunt in casu illo ubi per naturam 
+          <lb ed="#S" n="73"/>poni non posset effectus sine tali causa et tum ea naturaliter poni 
+          <lb ed="#S" n="74"/>posset et metum concordat <ref xml:id="b1-d1q7-Rd1e453"><name xml:id="b1-d1q7-Nd1e454">scotus</name> distinctione 3 primi libri</ref> ubi probat obiectum 
+          <lb ed="#S" n="75"/>esse causam activam intellectionis saltem partialem actum solum stan<lb ed="#S" break="no" n="76"/>do 
+          in hac consequentia hoc posito cum aliis requisitis illud ponitur et sine 
+          <lb ed="#S" n="77"/>fieri possunt ut pace positis aliis requisitis si velim pal<lb ed="#S" break="no" n="78"/>pebras 
+          <sic>apperire</sic> videbo colorem praesentem et si nollem non 
+          <lb ed="#S" n="79"/><sic>apperirem</sic> palpebras nec sine qua non <unclear>fiet<!-- corrected? --></unclear> et ratio mea est quia unde<lb ed="#S" break="no" n="80"/>cumque 
+          apperirentur palpebre ceteris uniformiter se habentibus 
+          <lb ed="#S" n="81"/>ut pote per violentia vel casu poneretur idem effectus et aeque 
+          <lb ed="#S" n="82"/>intensus similiter est de approximante ignem stuppae vel lignae 
+          <lb ed="#S" n="83"/>respectu ignis ibi <unclear>active</unclear> geniti
+        </p>
+        <p xml:id="b1-d1q7-d1e488">
+          <pc type="pilcrow"/> verumptamen dico quod ista cognitio quae 
+          <lb ed="#S" n="84"/>per naturam causari non posset sine volitione naturaliter praevia quaecumque illa 
+          <lb ed="#S" n="85"/>fuerit habet volitionem per causa effectiva sicut forte <add place="above-line">est</add> de reflexis 
+          <lb ed="#S" n="86"/>actibus et de non millis aliis <pc type="punctus"/> unde quantum video pro modo haec 
+          <lb ed="#S" n="87"/>est ars generalis probandi aliquid esse causam hoc posito ac praesupposito 
+          <lb ed="#S" n="88"/>naturaliter ponitur effectus ille et sine illo poni non posset per naturam haec est causa 
+          <lb ed="#S" n="89"/>eius addo naturaliter quia aliter contingit invenire instantiam <pc type="punctus"/> lumen 
+          <lb ed="#S" n="90"/>enim in medio poni potest et ponatur in esse quod sic fiat a solo deo 
+          <lb ed="#S" n="91"/>ad praesentiam tamen solis et non sine praesentia eius sicut est de effectu 
+          <lb ed="#S" n="92"/>saturni ponatur sic et illud <add place="margin-right">lumen</add> per naturam poni non posset sine sole igitur 
+          <lb ed="#S" n="93"/>sol est causa eius patet quod non sequitur aliquibus tamen videtur quod nulla sic ars 
+          <lb ed="#S" n="94"/>generalis arguendi aliquid esse causam sed in diversis materiebus probatur
+          <lb ed="#S" n="95"/>per diversa <add place="margin-right">et diversa</add> media sed quia illud dictum non probatur sufficienter nec est visibile 
+          <lb ed="#S" n="96"/>in se nego illud et concedo illud quod intellectio naturaliter praesupposita dilectioni 
+          <lb ed="#S" n="97"/>est causa effectiva partialis ipsius sicut deducit ratio principalis 
+          <lb ed="#S" n="98"/>quando ipsa dilectio causatur naturaliter
+        </p>
+        <p xml:id="b1-d1q7-d1e539">
+          <pc type="pilcrow"/> Et contra hoc arguitur sic actio qua 
+          <lb ed="#S" n="99"/>causatur dilectio non habet pro principio immediate elicitivo aliquod aliud ab 
+          <lb ed="#S" n="100"/>anima igitur nec intentionem antecedens probatur quia in anaim est una actio re<lb ed="#S" break="no" n="101"/>lativa 
+          distincta ab omnibus absolutis qua agitur dilectio sed ita actio non 
+          <lb ed="#S" n="102"/>potest habere pro principio <unclear>olititio</unclear> aliquid aliud ab anima quia experior quod 
+          <lb ed="#S" n="103"/>omnibus absolutis principibus inpossibilitate mea est quod diligam vel 
+          <lb ed="#S" n="104"/>non diligam igitur principium elicitium illius actionis est tale quod omnibus 
+          <lb ed="#S" n="105"/>talibus parentibus ipsum contingenter elicit actionem sed tale non potest esse 
+          <lb ed="#S" n="106"/>aliqua res mere non viva et mere naturaliter activa ergo oportet quod 
+          <lb ed="#S" n="107"/>sic anima seu voluntas et illud patet inductive non enim ipse habitus quia 
+          <lb ed="#S" n="108"/>dilectio causatur sine habitu nec ipsa cognitio quia aliquando intenditur cognitio 
+          <lb ed="#S" n="109"/>quando remittitur dilectio et econtra nec aliqua alia res distincta ab anima 
+          <lb ed="#S" n="110"/>intellectiva quia illud idem quod causat dilectionem oportet quod causat scienter aliter 
+          <lb ed="#S" n="111"/>non causaret virtuose igitur efficitur ab ipsa anima sola
+        </p>
+        <p xml:id="b1-d1q7-d1e574">
+          <pc type="pilcrow"/> ad 
+          <lb ed="#S" n="112"/>illud dicendum quod primum assumptum falsum est ad probationem maior falsa est 
+          <lb ed="#S" n="113"/>data tamen maiore minor neganda esset nec probatur bene 
+          <lb ed="#S" n="114"/>ultra quod nihil aliud ab anima principet huius actionem si poneretur sed 
+          <pb ed="#S" n="36-r"/>
+          <cb ed="#S" n="a"/>
+          <lb ed="#S" n="1"/>quod aliquid animae vel anima et hoc non est oppositum dati ab illo 
+          <lb ed="#S" n="2"/>qui ponit intentionem esse <sic>concausam</sic>
+        </p>
+        <p xml:id="b1-d1q7-d1e596">
+          <pc type="pilcrow"/>Ad aliud de habitu et cognitione 
+          <lb ed="#S" n="3"/>dico quod utrumque conprincipiat dilectionem cum anima quando habetur habitus et 
+          <lb ed="#S" n="4"/>idem dicerem de actione relativa si ponerem tunc illam et quod 
+          <lb ed="#S" n="5"/>dicis ibi consequenter quod hoc dato quod concurrant hoc non erit active 
+          <lb ed="#S" n="6"/>proprie sed sint circumstantiae principii activi in agendo intantum forte 
+          <lb ed="#S" n="7"/>quod ad variationem earum variatur actio illa et minus perfecta 
+          <lb ed="#S" n="8"/>et minus est intensa sine illis quam cum illis dicendum quod licet sint circumstantiae 
+          <lb ed="#S" n="9"/>principii activi quod est ipsa anima sunt tamen inter causas a quibus naturaliter provenit 
+          <lb ed="#S" n="10"/>huius actio quod tamen dicitur quod non vere active se habent probari deberet 
+          <lb ed="#S" n="11"/>in contrarium resumatur ratio tua et <name xml:id="b1-d1q7-Nd1e619">scoti</name> et <name xml:id="b1-d1q7-Nd1e622">okam<!-- little unclear here --></name>
+        </p>
+        <p xml:id="b1-d1q7-d1e627">
+          <pc type="pilcrow"/> ad probationem hic 
+          <lb ed="#S" n="12"/>positam dicendum quod non remittitur dilectio quando intenditur cognitio si ce<lb ed="#S" break="no" n="13"/>terea 
+          sint paria et uniformiter concurrentia ut superdictum est <pc type="punctus"/> actum cres<lb ed="#S" break="no" n="14"/>cente 
+          cognitione totaliter dilectio tolli potest aliis uniformiter concurren<lb ed="#S" break="no" n="15"/>tibus 
+          et decrescere crescente cognitione propter alia impedimenta magis im<lb ed="#S" break="no" n="16"/>pedimentia 
+          quam <unclear>crementum</unclear> cognitionis sufficiat ad augendum 
+          <lb ed="#S" n="17"/>de quilibet impedimentis habitum est <ref xml:id="b1-d1q7-Rd1e648">proxima quaestione praecedenti</ref>
+        </p>
+        <p xml:id="b1-d1q7-d1e651">
+          <pc type="pilcrow"/> di<lb ed="#S" break="no" n="18"/>ces 
+          ubi una res ponitur ad positionem alterius <add place="margin-left">sicut ibi</add> si habeatur necessi<lb ed="#S" break="no" n="19"/>tas 
+          ponendi primam non causare effective 2am non debet ibi poni
+          <lb ed="#S" n="20"/><subst><del>cognitio</del> <add place="above-line">causa</add></subst> effectiva <subst><del rend="expunctuation">volitionis</del> <add place="margin-left">vere eius</add></subst> sed ita est de cognitione respectu vo<lb ed="#S" break="no" n="21"/>litionis 
+          quia non plus hoc causat volitionem quam notitia causata per principium 
+          <lb ed="#S" n="22"/>causat notitiam correspondentem conclusioni et aeque ibi experimur quod perfectiorem 
+          <lb ed="#S" n="23"/>assensum causat anima conformem conclusioni post formationem primarii quam ante 
+          <lb ed="#S" n="24"/>et propter hoc oportet quod requireatur vel praesupponatur ad hoc quod anima 
+          <lb ed="#S" n="25"/>agat perfecte sicut ex alia parte experimur cognitionem requiri 
+          <lb ed="#S" n="26"/>vel praesupponi ad hoc quod causetur ab anima effective volitio 
+          <lb ed="#S" n="27"/>vel dilectio sed eius principium vel eius formatio vel eius notitia sibi 
+          <lb ed="#S" n="28"/>correspondens non vere effective causat conclusioni assensum conformem 
+          <lb ed="#S" n="29"/>istis non obstantibus igitur nec cognitio volitionem cui praesup<lb ed="#S" break="no" n="30"/>ponitur 
+          minor patet quia illud quod non est quando aliud primo capit esse non 
+          <lb ed="#S" n="31"/>est causa vere effectiva sed quando cauatur assensus conformis consoni principium 
+          <lb ed="#S" n="32"/>non est vel saltem non oportet quod sic eo quod discursus iste fuit 
+          <lb ed="#S" n="33"/><del rend="expunctuation">sic</del> successivus igitur etc
+        </p>
+        <p xml:id="b1-d1q7-d1e709">
+          <pc type="pilcrow"/>dicendum quod minor neganda est et ad 
+          <lb ed="#S" n="34"/>probationem dicendum quod iste assensus conformis conclusioni qui non posset naturaliter causari 
+          <lb ed="#S" n="35"/>sine formatione praemissarum vel non sine iudiciis conformibus praemissis 
+          <lb ed="#S" n="36"/>habet illas praemissas vel assensus eis conformes pro causis vere 
+          <lb ed="#S" n="37"/>effectivis partialibus <add place="margin-left">saltem</add> meritis vel immeritis et tamen probatur quod non 
+          <lb ed="#S" n="38"/>dicendum quod licet discursus volibilis sic successivus actum mentalis secundum 
+          <lb ed="#S" n="39"/>philosophus simul inducens cognovit slatem quanod primo habetur prius actus 
+          <lb ed="#S" n="40"/>sciendi hoc oportet quia si ibi sic successio mentalis conformis silligismo 
+          <lb ed="#S" n="41"/>vocali cum primo causabitur huius actus sciendi illa successio 
+          <lb ed="#S" n="42"/>erit incognitione proferendarum vocum seu propositionum non in ipsis 
+          <lb ed="#S" n="43"/><seg type="correction">assentibus</seg> qui causant assensum sciendi conformem conclusioni
+        </p>
+        <p xml:id="b1-d1q7-d1e741">
+          <pc type="pilcrow"/> pro
+          <lb ed="#S" n="44"/>quo notandum secundum conceptionem augustini <unclear>15</unclear> de trinitate capitulo 15 quod licet sae<lb ed="#S" break="no" n="45"/>pe 
+          volubili cogitatione iactemus nos mentaliter hinc inde 
+          <lb ed="#S" n="46"/>inquirendo et studendo circa aliquod scibile et per talem successivam 
+          <lb ed="#S" n="47"/>et volubilem investigationem tandem perveniamus ad actum scientiae per 
+          <lb ed="#S" n="48"/>hoc quod iam invenimus principia ex quibus evidenter concludimus 
+          <lb ed="#S" n="49"/>quod volimus sicut si quis studeret demonstrate vel scire <unclear>contradictativam</unclear> 
+          <lb ed="#S" n="50"/>circuli quae secundum <name xml:id="b1-d1q7-Nd1e764">aristotelem</name> suo tempore scilibilis erat sed non scita tamen tunc 
+          <lb ed="#S" n="51"/>in fine talium inquisitionum medii mentaliter sicud dicit <name xml:id="b1-d1q7-Nd1e769">philosophus</name> simul 
+          <lb ed="#S" n="52"/>inducens cognovit et hoc quando res <seg type="correction">quae<del rend="expunctuation">cum</del>quae</seg> per <name xml:id="b1-d1q7-Nd1e779">augustini</name> ibi sic scitur 
+          <lb ed="#S" n="53"/>et sic cognitatur quando sine voce incordedici et sine cognitione 
+          <lb ed="#S" n="54"/>vocis quae alicuius lingue fit et ex hoc elicere possumus unam 
+          <lb ed="#S" n="55"/>esse ibi successionem non quidem scientalem nec <unclear>inter</unclear> actus aliquibus 
+          <lb ed="#S" n="56"/>immediate proventi actus sciendi et ipsum actum promensitatem sed 
+          <lb ed="#S" n="57"/>successionem etiam mentalem in ex cogitatione principiorum seu me<cb ed="#S" n="b"/><lb ed="#S" break="no" n="58"/>diorum 
+          successionem ad hoc etiam in conceptibus ut cum quibus ex 
+          <lb ed="#S" n="59"/><unclear>primedius</unclear> successive et simul habemus in corde quia ibi primo potest esse 
+          <lb ed="#S" n="60"/>mora deliberando in qua lingua exprimere volumus iam 
+          <lb ed="#S" n="61"/>simul concepta et certa hoc non facimus sine actibus reflexis quibus 
+          <lb ed="#S" n="62"/>redeundo super interiores actus cogitamus quae signa exteri<lb ed="#S" break="no" n="63"/>ora 
+          talibus signis naturalibus interioribus subordinantur in significa<lb ed="#S" break="no" n="64"/>do 
+          <pc type="punctus"/> unde verum est ut credo quod actus scientialis numquam scientialiter 
+          <lb ed="#S" n="65"/>exprimitur quin conclusio et etiam praemisse praeconcipiantur et forte quin prae<lb ed="#S" break="no" n="66"/>concipiantur 
+          esse vere et hinc <seg type="correction"><del rend="expunctuation">c</del>orieb<del rend="expunctuation">or</del>atur</seg> ut aestimo quod <name xml:id="b1-d1q7-Nd1e827">aristoteles</name> et 
+          <lb ed="#S" n="67"/>doctores ita indistincte dicerentur quod scientia est <unclear>conclusionum</unclear> et intellectus 
+          <lb ed="#S" n="68"/>principiorum quia numquam exterius veraciter exprimitur scientia vel intellectus sine hoc 
+          <lb ed="#S" n="69"/>quod propositiones mentales praeconcipiantur et vera esse cogitentur verax 
+          <lb ed="#S" n="70"/>enim nihil asserit nisi quod verum esse novit et bene concedo quod cogitationes 
+          <lb ed="#S" n="71"/>votum per quas exprimuntur conceptiones et concepta possunt habere et 
+          <lb ed="#S" n="72"/>communiter habent successionem interius conformem successioni vocum exterius forma 
+          <lb ed="#S" n="73"/>causarum sed iste cogitationes succedentes <unclear>inparti?ces</unclear> sunt secundum se ad 
+          <lb ed="#S" n="74"/>actum scientiae licet pertineant ad eius successionem unde ibi concurrunt 
+          <lb ed="#S" n="75"/>duplices cogitationes quaedam de rebus quaedam de vocibus sig<lb ed="#S" break="no" n="76"/>nificantibus 
+          res et saepe aestimamus nos cogitare de 
+          <lb ed="#S" n="77"/>rebus quando de ipsis vocibus cogitamus quae sunt nobis signa illarum 
+          <lb ed="#S" n="78"/>realiter hoc idcirco dicerem quia ita successio quam credimus saepe ex 
+          <lb ed="#S" n="79"/>in deliberatione esse <add place="margin-right">inter</add> actus mentis in causatione scientiae non est ibi 
+          <lb ed="#S" n="80"/>sed est ex cognitione vocum quibus exprimere intendimus praecon<lb ed="#S" break="no" n="81"/>cepta 
+          et hoc dico circa actum sciendi primum conformem scilicet primae conclusioni 
+          <lb ed="#S" n="82"/>in oratione aliquo quod ideo addo quia iste consensus conformis 10 vel 12
+          <lb ed="#S" n="83"/><unclear>conclusionum</unclear> non requirit <unclear>co?m</unclear> illum ordinem esse vel sicud patet in 
+          <lb ed="#S" n="84"/>geometria ubi antequam perveniatur ad <unclear>3o?am</unclear> oblita est prima for<lb ed="#S" break="no" n="85"/>te 
+          id est non actualiter cogitata nec formata in mente ista 
+          <lb ed="#S" n="86"/>cum scitur evidenter vera esse ex certa et indubitabili memoria quod 
+          <lb ed="#S" n="87"/>inter memoria a prima evidenti evidenter deducta sunt ex quibus 
+          <lb ed="#S" n="88"/>haec ultima licet mediate sequitur evidenter et saepe etiam scitur conclusio talis 
+          <lb ed="#S" n="89"/>esse vera quando non habetur actus conformis conclusioni quae sic eviden<lb ed="#S" break="no" n="90"/>ter 
+          scitur vera esse sicut mihi nunc evidentissimum et certissimum <unclear>est</unclear> 
+          <lb ed="#S" n="91"/>hanc esse veram triangulus habet 3es etc <pc type="punctus"/> et tamen non habeo 
+          <lb ed="#S" n="92"/>actum scientialem conformem huic conclusioni quia scientifice dedux<lb ed="#S" break="no" n="93"/>i 
+          eam sicut memoraliter retineo et tamen ipsa deductio et de<lb ed="#S" break="no" n="94"/>monstrativa 
+          eius probatio ab actuali memoria elapsa est 
+          <lb ed="#S" n="95"/>et eodem modo posset esse de prima conclusione elapsa a me<lb ed="#S" break="no" n="96"/>moria 
+          vel oblita eius demonstratione et retento in memoria 
+          <lb ed="#S" n="97"/>certa quod ipsam prius evidenter demonstraverim haec enim <del rend="expunctuation">habeo</del> habito 
+          <lb ed="#S" n="98"/>evidenter sciam conclusionem talem veram esse et tamen scientiam conformem 
+          <lb ed="#S" n="99"/>illi conclusioni non habeo sed quod haec conclusio est vera si sic haec enim de<lb ed="#S" break="no" n="100"/>ducere 
+          <lb ed="#S" n="101"/>possem ex evidenter mihi notis sic omnis conclusio 
+          <lb ed="#S" n="102"/>demonstrabilis vera est si sic sed hoc triangulus habet 3es etc est conclusio de<lb ed="#S" break="no" n="103"/>monstrabilis 
+          quod memoriter retineo quia eam demonstravi igitur est haec 
+          <lb ed="#S" n="104"/>vera si sic non tamen scio quod triangulus habet tres quia demonstratio 
+          <lb ed="#S" n="105"/>qua hoc sit demonstrabile a memoria mea actuali elapsa est et 
+          <lb ed="#S" n="106"/>ideo falsum est et evidenter falsum est quod sufficiat demonstrationem prae<lb ed="#S" break="no" n="107"/>exstitisse 
+          et actu non esse cum primo sciatur actus sciendi nisi 
+          <lb ed="#S" n="108"/>forte remanere possint per naturam iudicia conformia 
+          <lb ed="#S" n="109"/>praemissis sine ipsis praemissis actum remanentibus hoc enim tunc suf<lb ed="#S" break="no" n="110"/>ficeret 
+          sine praemissis ad primo causandum actum scientiae et ideo falsum est 
+          <lb ed="#S" n="111"/>quod sumebatur in argumento quia tunc praemissae nec iudicia conforma 
+          <lb ed="#S" n="112"/>praemissis essent quando actus scientiae primo causatur
+        </p>
+        <p xml:id="b1-d1q7-d1e950">
+          <pc type="pilcrow"/> dices non oportet quod 
+          <lb ed="#S" n="113"/>causae sint quando effectus causabitur verum est quod non oportet quod effectus 
+          <lb ed="#S" n="114"/>causetur sed bene sequitur actus sciendi primo est vel nunc causatur 
+          <lb ed="#S" n="115"/>igitur actus conformes praemissis illis sunt ideo est necessitas 
+          <pb ed="#S" n="36-v"/>
+          <lb ed="#S" n="1"/>consequentiae ab effectu ad causam non autem necessitas antecedentis nec 
+          <lb ed="#S" n="2"/>consequentis
+        </p>
+        <p xml:id="b1-d1q7-d1e968">
+          <pc type="pilcrow"/> ad 2m argumentum concedendum est quod idem potest esse movens et in potentia 
+          <lb ed="#S" n="3"/>ad <unclear>hnon</unclear> formaliter illud respuectu cuius iam est in actu virtuali et hoc aliquando 
+          <lb ed="#S" n="4"/>a semetipso et tunc habet illud in actum si ipsum sic causa naturalis sufficiens 
+          <lb ed="#S" n="5"/>non inpedita vel est in acquirendo si non habet et aliquando non a 
+          <lb ed="#S" n="6"/>semetipso sed solum ab alio sicut unum et <unclear>ziriberium</unclear> virtualiter ca<lb ed="#S" break="no" n="7"/>lidu 
+          licet possint esse formaliter calida sicut patet de unio 
+          <lb ed="#S" n="8"/>quod potest calefieri ad ignem non tamen a semetipso sed ab alio 
+          <lb ed="#S" n="9"/>cuius ratio est principium intrinsecum inpediens scilicet forma frigidi<lb ed="#S" break="no" n="10"/>tatis 
+          qua informatur ymmo simul est virtualiter calidum et virtu<lb ed="#S" break="no" n="11"/>aliter 
+          frigidum qua potest frigefacere manum etc sed tamen quando 
+          <lb ed="#S" n="12"/>motio vel causatio est univoca id est quod principium agendi sic 
+          <lb ed="#S" n="13"/>forma eiusdem speciei specialissime cum forma producta non est hoc 
+          <lb ed="#S" n="14"/>possibile utpote calidum per suum calorem non potest immediate 
+          <lb ed="#S" n="15"/>calefacere semetipsum et similiter est in aliis ut dicit <ref xml:id="b1-d1q7-Rd1e1004">philosophus 
+          <lb ed="#S" n="16"/>8 physicorum</ref> primo capitulo necesse est similiter autem inquit et aliorum unumquod que 
+          <lb ed="#S" n="17"/>quorumcumque motivitas necesse est habere unicum et ideo dicit 
+          <lb ed="#S" n="18"/><ref xml:id="b1-d1q7-Rd1e1013"><name xml:id="b1-d1q7-Nd1e1014">commentator</name> in commento <unclear>credo</unclear> 40</ref> quod hoc scilicet quod aliquid moveat secundum quod movetur 
+          <lb ed="#S" n="19"/>est inpossibile immotis et moventibus quae dicuntur unitate et dicit 
+          <lb ed="#S" n="20"/>hoc secundum commentatorem quia hoc none st inpossibile nisi in motoribus qui sunt corpora 
+          <lb ed="#S" n="21"/>aut virtutes incorporibus nam in aliis non invenitur motio u<lb ed="#S" break="no" n="22"/>nivoca 
+          id est principium motionis eiusdem specie specialissime cum effectu 
+          <lb ed="#S" n="23"/>immediate producto et ideo in aliis sicut in intellectu et voluntate bene potest 
+          <lb ed="#S" n="24"/>idem movere se et esse in potentia et in actu modo quo expositum est 
+          <lb ed="#S" n="25"/>et etiam interioribus non <unclear>milus</unclear> in actionibus aequivocis sicud aliqua 
+          <lb ed="#S" n="26"/>potest se ipsam frigefacere et calorem inductum in ipsa expellere 
+          <lb ed="#S" n="27"/>vel corrumpere
+        </p>
+        <p xml:id="b1-d1q7-d1e1042">
+          <pc type="pilcrow"/> Contra arguitur quod movetur ab altero movetur per <name xml:id="b1-d1q7-Nd1e1046">philosophum</name> 7 et 8 
+          <lb ed="#S" n="28"/>physicorum alias tollitur via probandi ipsum motorem esse immobilem 
+          <lb ed="#S" n="29"/>ut accidit argumentum principale
+        </p>
+        <p xml:id="b1-d1q7-d1e1053">
+          <pc type="pilcrow"/> Item si aliquid movere posset seipsum 
+          <lb ed="#S" n="30"/>hoc maxime verum esset in animalibus et gravibus et levibus secundum <ref xml:id="b1-d1q7-Rd1e1059"><name xml:id="b1-d1q7-Nd1e1060">philosophum</name> 
+          <lb ed="#S" n="31"/>8 physicorum</ref> sed de animalibus non est sic secundum <name xml:id="b1-d1q7-Nd1e1065">philosophum</name> ibidem quia ita dividuntur 
+          <lb ed="#S" n="32"/>in duo quorum unum est per se movens et non movetur nisi per accidens 
+          <lb ed="#S" n="33"/>et aliud per se movetur et non movet nisi per accidens de gravius et le<lb ed="#S" break="no" n="34"/>vibus 
+          dicit ibi <name xml:id="b1-d1q7-Nd1e1074">philosophus</name> quod hic est proprium animatorum tum quia tunc possent 
+          <lb ed="#S" n="35"/>sistere motum suum et moveri naturaliter ad diversas differentias po<lb ed="#S" break="no" n="36"/>sitionis 
+          tum quia dividentur in duo sicut <unclear>animal</unclear> quorum unum <unclear>yatum</unclear> 
+          <lb ed="#S" n="37"/>est facere et aliud pati motum et in fine etiam capituli sequentis 
+          <lb ed="#S" n="38"/>scilicet accidit vult quod non moventur a seipsis gravia et le<lb ed="#S" break="no" n="39"/>via 
+          sed a generante et faciente level aut grave aut im<lb ed="#S" break="no" n="40"/>pedimentia 
+          et prohibitia saltem tum quia nichil movetur a seipso 
+          <lb ed="#S" n="41"/>primo quia quiesceret ad quietem alterius tum quia eadem ratione 
+          <lb ed="#S" n="42"/>docens doceretur a seipso <pc type="punctus"/> consequens falsum quia si est docens habet 
+          <lb ed="#S" n="43"/>scientiam per quam docere valeat si autem indiget doceri ta<lb ed="#S" break="no" n="44"/>ret 
+          ista scientia quia indiget <unclear>moveri</unclear> ad illam et ita simul 
+          <lb ed="#S" n="45"/>haberet illam et non haberet consequens falsum et inpossibile
+        </p>
+        <p xml:id="b1-d1q7-d1e1110">
+          <pc type="pilcrow"/> Item 9
+          <lb ed="#S" n="46"/>metaphysicae capitulo 1 quoniam autem ipsum dicit quod potentia activa suple dicitur 
+          <lb ed="#S" n="47"/><seg type="correction">permutationem</seg> in alio inquantum aliud se habens non obstantibus dico 
+          <lb ed="#S" n="48"/>sicut prius quod voluntas potest movere se et similiter alia non nulla 
+          <lb ed="#S" n="49"/>quod de voluntate superius probavi et iterum adhuc persuadeo 
+          <lb ed="#S" n="50"/>quia voluntas non inpedita per corpus maxime post deum dili<lb ed="#S" break="no" n="51"/>geret 
+          se ipsam saltem voluntas angeli igitur est motiva sui ipsius 
+          <lb ed="#S" n="52"/>quia ibi licet mediante <unclear>intentione</unclear> quam casaret in intellectu et per consequens 
+          <lb ed="#S" n="53"/>in seipsa moveret id est active se haberet et etiam passive respectu 
+          <lb ed="#S" n="54"/>istius dilectionis et eodem modo intellectus causaret in se eadem 
+          <lb ed="#S" n="55"/>ratione et multo fortius intentionem suimet
+        </p>
+        <p xml:id="b1-d1q7-d1e1141">
+          <pc type="pilcrow"/> praeterea generalius 
+          <lb ed="#S" n="56"/>illud quod respectu alicuius passionis realiter ab ipso differentis est praecise 
+          <lb ed="#S" n="57"/>potentia passiva et receptiva non ex se determinat sibi talem passionem 
+          <lb ed="#S" n="58"/>quia potentia praecise passiva respectu alicuius actus se formae est 
+          <lb ed="#S" n="59"/>potentia contradictionis ex 9 metaphysicae sed ignis naturaliter determinat 
+          <lb ed="#S" n="60"/>sibi caliditatem et levitatem et siccitatem et aqua frigiditatem 
+          <cb ed="#S" n="b"/>
+          <lb ed="#S" n="61"/>licet aqua violenter calefieri posset igitur ignis non est 
+          <lb ed="#S" n="62"/>praecise potentia passiva respectu istorum
+        </p>
+        <p xml:id="b1-d1q7-d1e1163">
+          <pc type="pilcrow"/>Item arguitur <ref xml:id="b1-d1q7-Rd1e1167">7 metaphysicae</ref> 
+          <lb ed="#S" n="63"/>dat differentiam inter generationem substantiae et accidentis dicens quod cum substantia generatur 
+          <lb ed="#S" n="64"/>oportet substantiam actum praeexistere a qua generetur tantum verba aristotelis 
+          <lb ed="#S" n="65"/>sunt haec necesse est igitur quod substantia existat per aliam praeexistentem 
+          <lb ed="#S" n="66"/>substantiam in actum quae fiat ut <unclear>animal <!-- alias--></unclear> quale vero aut quantum 
+          <lb ed="#S" n="67"/>non necessario nisi potestate tantum super quo dicit <name xml:id="b1-d1q7-Nd1e1184">commentator</name> commento 32 quod proprium 
+          <lb ed="#S" n="68"/>est substantiae inter alia praedicata ut quando generatur sic alia substantia 
+          <lb ed="#S" n="69"/>generans ipsam quae sic in actu vel animal generans animal sed non 
+          <lb ed="#S" n="70"/>est necesse ut ante quantitatem generatam sic alia quantitas a<lb ed="#S" break="no" n="71"/>gens 
+          substantia autem praecedens non plus potest causare accidens in 
+          <lb ed="#S" n="72"/>substantia genita eiusdem speciei cum generante quam ipsa manet 
+          <lb ed="#S" n="73"/>substantia genita cum non sic sibi proximior igitur etc
+        </p>
+        <p xml:id="b1-d1q7-d1e1200">
+          <pc type="pilcrow"/> Item idem 
+          <lb ed="#S" n="74"/>potest movere se localiter sicut angelus et anima separata et ita gravi<lb ed="#S" break="no" n="75"/>a
+          et levia localiter movent semet ipsa vel per naturas suas vel 
+          <lb ed="#S" n="76"/>per accidentia intrinseca
+        </p>
+        <p xml:id="b1-d1q7-d1e1211">
+          <pc type="pilcrow"/> de primis patet ex creditis in theologia 
+          <lb ed="#S" n="77"/>de gravibus et levibus patet per <name xml:id="b1-d1q7-Nd1e1217">philosophum</name> 8 physicorum ubi comparat gra<lb ed="#S" break="no" n="78"/>ve 
+          scienti in illo <unclear>capitulo</unclear> sed accidit etc quod grave habeat formam 
+          <lb ed="#S" n="79"/>gravitatis in materia sciens tamen habet habitum scientiae acquisitum per doc<lb ed="#S" break="no" n="80"/>trinam 
+          et dicit quod sicut sciens habens habitum scientiae acquisitum per doc<lb ed="#S" break="no" n="81"/>trinam 
+          potest exire in actum considerationis per se remoto pro<lb ed="#S" break="no" n="82"/>hibente 
+          ut grave cum removetur prohibens potest in actum des<lb ed="#S" break="no" n="83"/>cendendi 
+          per se nam generans grave dat eis formam per quam 
+          <lb ed="#S" n="84"/>potest movere se deorsum sed habitus effective <add place="margin-right">se</add> habet in oratione 
+          <lb ed="#S" n="85"/>suo respectu considerationis igitur et grave active se habet respectu suae 
+          <lb ed="#S" n="86"/>motionis habitus enim non requiritur ad receptionem actus cum ante 
+          <lb ed="#S" n="87"/>omnem habitum recipiatur actus et enim potentia de se sufficienter dis<lb ed="#S" break="no" n="88"/>ponitur 
+          ad recipiendum 
+        </p>
+        <p xml:id="b1-d1q7-d1e1249">
+          <pc type="pilcrow"/> et praeterea hoc patet secundum <name xml:id="b1-d1q7-Nd1e1253">augustinum</name> in multis locis 
+          <lb ed="#S" n="89"/>libro de trinitate ubi dicit quod intellectus habens habitum scientiae est memoria 
+          <lb ed="#S" n="90"/><unclear>per?stan</unclear> et parens respectu notitia genitae
+        </p>
+        <p xml:id="b1-d1q7-d1e1262">
+          <pc type="pilcrow"/>Praeterea experientia sensus facit 
+          <lb ed="#S" n="91"/>ad hoc quod gravae seipsum moveat deorsum ymmo et leve 
+          <lb ed="#S" n="92"/>sibi alligatum vel in ipso violenter inclusum utpote 
+          <lb ed="#S" n="93"/>ignem vel aerem secum violenter traherent gravia qua ipsorum 
+          <lb ed="#S" n="94"/>naturalem inclinationem dummodo praevaleant in virtute etiam in 
+          <lb ed="#S" n="95"/><unclear>a?c</unclear> profundissimam <pc type="punctus"/> non videtur <add place="margin-right"><unclear>auctoritas</unclear></add> prohibita alia sensum tam paten<lb ed="#S" break="no" n="96"/>ti 
+          praeferenda <pc type="punctus"/> nec valet dicere sicut dicit <ref xml:id="b1-d1q7-Rd1e1288">commentator 3 caeli et mundi et 4o</ref> 
+          <lb ed="#S" n="97"/>quod grave movet ratione formae et movetur ratione materiae et ita non secundum idem 
+          <lb ed="#S" n="98"/>movet et movetur quia materia non potest poni ratio quare moveatur sursum 
+          <lb ed="#S" n="99"/>leve vel deorsum grave plus quam econtra quia eadem materia quae nunc est 
+          <lb ed="#S" n="100"/>materia levis potest postea esse materia gravius
+        </p>
+        <p xml:id="b1-d1q7-d1e1299">
+          <pc type="pilcrow"/> Praeterea nulla auctoritas <del rend="expunctuation">prae</del>
+          <lb ed="#S" n="101"/>prohibita debet catholicum movere quia quantitas separata causa a materia quam 
+          <lb ed="#S" n="102"/>a forma movet seipsam deorsum in sacramento altaris etc nec 
+          <lb ed="#S" n="103"/>valet dicere quod grave movetur a generante quia si ille modus est novus 
+          <lb ed="#S" n="104"/>id est illud nunc noviter movetur et non a non ente active et possibile est 
+          <lb ed="#S" n="105"/>quod generans tunc non sic ens igitur effectus in actu requirit causam 
+          <lb ed="#S" n="106"/>in actu et hoc confirmatur per philosophus 8 physicorum ubi prius ubi vult quod illud 
+          <lb ed="#S" n="107"/>quod est in potentia essentiali ad actum indiget motore extrinseco 
+          <lb ed="#S" n="108"/>per se illud autem quod est in potentia accidentali non indiget motore ex<lb ed="#S" break="no" n="109"/>trinseco 
+          per se sed per se ipsum potest <add place="margin-below">exire in actum <unclear>a moto prohibente</unclear></add> grave autem est in potentia accidentali 
+          <lb ed="#S" n="110"/>ad motum deorsum ut ibidem patet ergo non indiget motore 
+          <lb ed="#S" n="111"/>extrinseco per se monente ipsum et per consequens per se movetur a seipso 
+          <lb ed="#S" n="112"/>quod concedo
+        </p>
+        <p xml:id="b1-d1q7-d1e1337">
+          <pc type="pilcrow"/> ad <del>contrarium</del> primum in contrarium omne quod movetur <del rend="expunctuation">vel</del> non oportet 
+          <lb ed="#S" n="113"/>si voluntas possit se movere concedo tamen quod omne quod movetur <sic>movetur</sic> ab 
+          <lb ed="#S" n="114"/>alio vel ad actum primum id est ad formam per quam moveat vel ad 
+          <lb ed="#S" n="115"/>actum 2m sicut est de baculo quo aliud percutitur et de lapi<lb ed="#S" break="no" n="116"/>de 
+          proiecto sursum vel indirecte <add place="margin-right">tamen</add> secundum veritatem theologicam ipse deus 
+          <lb ed="#S" n="117"/>concurrit ut principium actum in omni motione et actione ex quo 
+          <lb ed="#S" n="118"/>igitur omne quod movetur <sic>movetur</sic> a deo et deus non movetur omne movetur 
+          <lb ed="#S" n="119"/>movetur ab alio primum autem ens cum sit actus purus in causa<lb ed="#S" break="no" n="120"/>bilis 
+          penitus non potest moveri primo modo ad formam scilicet
+          <pb ed="#S" n="37-r"/>
+          <cb ed="#S" n="a"/>
+          <lb ed="#S" n="1"/>ad actum primum <pc type="punctus"/> nec 2o modo quia tunc stabitur ad aliquod aliud movens 
+          <lb ed="#S" n="2"/>inmobile quod est intentum vel proceditur in infinitum in <seg type="correction">mo<add place="above-line">ven</add>tibus</seg> et mo<lb ed="#S" break="no" n="3"/>tis 
+          actum requisitis ad hoc ut aliquid puta caelum actum mo<lb ed="#S" break="no" n="4"/>veatur 
+          quod <name xml:id="b1-d1q7-Nd1e1392">philosophus</name> habet pro inconvenienti et pro demonstrative inprobato quia tunc 
+          <lb ed="#S" n="5"/>essent infinita mobilia situ distincta simul mota si huius mo<lb ed="#S" break="no" n="6"/>ventia 
+          essent corpora et aequivalerent uni infinito quod si esset immobile 
+          <lb ed="#S" n="7"/>esset ex <ref xml:id="b1-d1q7-Rd1e1401">primo caeli et mundi</ref> quia nec circulariter nec recte moveri posset quod 
+          <lb ed="#S" n="8"/>iterum infinite <unclear>ince?tie</unclear> requirerentur non probat quia hoc de se sa<lb ed="#S" break="no" n="9"/>tis 
+          apparet falsum vel dabitur quod primum movens omninoo sic immobile 
+          <lb ed="#S" n="10"/>saltem per accidens quia quod non per se supponit se probasse libro 3o 
+          <lb ed="#S" n="11"/>6o ubi probat indivisibile non posset per se moveri primum autem mo<lb ed="#S" break="no" n="12"/>vens 
+          est indivisibile cum sit substantia intellectualiter supponit enim philosophus quod 
+          <lb ed="#S" n="13"/>caelum cum sic corpus non possit <unclear>perpetuerare</unclear> motum circu<lb ed="#S" break="no" n="14"/>larem 
+          sine principio intellectuali movente saltem partialiter sed nullum 
+          <lb ed="#S" n="15"/>accidens perpetuari potest secundum philosophum in primo processu vel si per se mo<lb ed="#S" break="no" n="16"/>ventur 
+          tunc ab alio ut prius quod instatur de voluntate si movet 
+          <lb ed="#S" n="17"/>se non valet quia numquam movet se nisi quando movetur ab alio 
+          <lb ed="#S" n="18"/>puta a cognitione vel deo vel opposito haec est deductio philosophus quae verum 
+          <lb ed="#S" n="19"/>concludit licet non intellectu evidenter procedet aut probet esse 
+          <lb ed="#S" n="20"/>verum primum simpliciter immobile unde plane dicunt aliqui quod totus 
+          <lb ed="#S" n="21"/>iste processus <unclear>destructuosus</unclear> est ratio scilicet iam dicta alia ratio <name xml:id="b1-d1q7-Nd1e1440">philosophi</name> 
+          <lb ed="#S" n="22"/>ad idem verisimilis est valet contingit dare motum non movens et 
+          <lb ed="#S" n="23"/>motum simul et movens igitur et movens non motum
+        </p>
+        <p xml:id="b1-d1q7-d1e1447">
+          <pc type="pilcrow"/> Item 3a ratio 
+          <lb ed="#S" n="24"/>sua est quod oraret devenire ad aliquid quod eodem motu moveret 
+          <lb ed="#S" n="25"/>quo moveretur mediate saltem vel immediate sicud satis aperte 
+          <lb ed="#S" n="26"/>probatu consequentiam illam nisi sic status ad motorem immobilem oporteret 
+          <lb ed="#S" n="27"/>habere infinitas <unclear>species</unclear> motus vel easdem species saepe <sic>recirculari</sic> 
+          <lb ed="#S" n="28"/>quorum primum est in possibile et etiam secundum <unclear>probaret</unclear> intentum. Et ex hoc vult 
+          <lb ed="#S" n="29"/>philosophus habere quod si omne movens necessario movetur tunc docens et ipse do<lb ed="#S" break="no" n="30"/>cetur
+          quod alicubi in simili oportet hoc tunc dare consequnes inpossibile 
+          <lb ed="#S" n="31"/>igitur antecedens igitur non omne movens necessario movetur et si hoc potissime 
+          <lb ed="#S" n="32"/>igitur primum movens non movetur 
+        </p>
+        <p xml:id="b1-d1q7-d1e1478">
+          <pc type="pilcrow"/> Haec sunt rationes philosophi tales quales u<lb ed="#S" break="no" n="33"/>nam 
+          tamen conclusionem inferentes supponendo tamen quod primum ens sit actus 
+          <lb ed="#S" n="34"/>purus omnino immobilis quia aliter esset in potentia ad aliquid quod posset habere et 
+          <lb ed="#S" n="35"/>non habet quod <unclear>an?tur</unclear> inconveniens quia si posset habere vel a se et tunc haberet 
+          <lb ed="#S" n="36"/>vel ab alio et tunc non esset primum supponendo similiter quod aliquas intel<lb ed="#S" break="no" n="37"/>ligentias 
+          moventes perpetuo caelum movet primum ens sicut ama<lb ed="#S" break="no" n="38"/>tum 
+          et desideratum sicut habet <ref xml:id="b1-d1q7-Rd1e1497">12 metaphysica</ref> si tamen hoc aliunde quam 
+          <lb ed="#S" n="39"/>ex motu aliquorum probare posset satis essent aliquae eius rationes evi<lb ed="#S" break="no" n="40"/>dentes 
+          prima scilicet et 3a <add place="margin-left">nisi</add> diceretur <unclear>proc?ui?endo</unclear> quod primum aeternaliter movet se 
+          <lb ed="#S" n="41"/>ad formam aliquam utpote ad <unclear>intentionem</unclear> vel nolitionem vel huius 
+          <lb ed="#S" n="42"/>sed hic rationale minus apparet
+        </p>
+        <p xml:id="b1-d1q7-d1e1516">
+          <pc type="pilcrow"/> ad 2m de motione alium probabiliter dicit 
+          <lb ed="#S" n="43"/>nec ita vere quin potius virtus motiva movere potest primo seipsam 
+          <lb ed="#S" n="44"/>et hic declarat sed per modum saltus sed melius <unclear>motum</unclear> est hoc 
+          <lb ed="#S" n="45"/>theologis de motu angelorum et animae separatae <pc type="punctus"/> de motu gra<lb ed="#S" break="no" n="46"/>vium 
+          et levium
+        </p>
+        <p xml:id="b1-d1q7-d1e1535">
+          <pc type="pilcrow"/> dicendum movent seipsa licet non ad actum primum 
+          <lb ed="#S" n="47"/>qui est forma substantialis <add place="margin-left">sed</add> ad actum 2m qui est forma accidentalis bene possunt se 
+          <lb ed="#S" n="48"/>movere licet hoc non faciant de novo ad gravitatem et 
+          <lb ed="#S" n="49"/>levitatem postquam faciant sed statim a principio et hoc ibi sufficit 
+          <lb ed="#S" n="50"/>philosophus quia ibi nititur multum diffuse salvare instantiam aliam 
+          <lb ed="#S" n="51"/>quomodo sunt alia quae quandoque moverentur quandoque non contra aeternitatem 
+          <lb ed="#S" n="52"/>motus caeli seu contra necessitatem potius suae perpetuitatis gravia 
+          <lb ed="#S" n="53"/>igitur et levia moventur ab alio ad formam a qua mediante vel 
+          <lb ed="#S" n="54"/>immediate actu moventur cum descendunt vel ascendunt haec ad 
+          <lb ed="#S" n="55"/>litteram est ibi mens philosophi scilicet quod ab alio suscipiunt formam per 
+          <lb ed="#S" n="56"/>quam moventur cum generantur et ideo dicit quod moventur a generan<lb ed="#S" break="no" n="57"/>te 
+          scilicet ad formam substantialem a qua provenit accidentalis forma scilicet gra<lb ed="#S" break="no" n="58"/>vitas 
+          a qua est motus vel moventur a generante ad u<lb ed="#S" break="no" n="59"/>tramque
+        </p>
+        <p xml:id="b1-d1q7-d1e1571">
+          <pc type="pilcrow"/> Item 2o concedendum est quod movetur ab alio active immediate 
+          scilicet a gravitate et levitate et ille movent seipsas et moventur 
+          <lb ed="#S" n="60"/>et separate a substantiis 
+        </p>
+        <p xml:id="b1-d1q7-d1e1578">
+          <pc type="pilcrow"/>Item 3o ad motum gravium et levium
+          <cb ed="#S" n="b"/>
+          <lb ed="#S" n="61"/>requiritur alia conditio in qua non possunt se facere utpote quando 
+          <lb ed="#S" n="62"/>sunt extra loca sua et non inpedita et propter hoc non dicuntur 
+          <lb ed="#S" n="63"/>movere se nec posset sufficienter movere quia non possunt ponere 
+          <lb ed="#S" n="64"/>se in tali dispositione sed vel a generante per violentiam vel per 
+          <lb ed="#S" n="65"/>solvens prohibens sic disponuntur quod sint extra loca sua natura<lb ed="#S" break="no" n="66"/>lia 
+          non prohibita et hanc causam etiam dictae negativae exprimit 
+          <lb ed="#S" n="67"/>satis philosophus cum dicit gravia et levia moveri a dissolvente 
+          <lb ed="#S" n="68"/>perhibens id est creatura solvente prohibens proventi eis sic dis<lb ed="#S" break="no" n="69"/>poni 
+          et conditionari ut se moveat ac moveri valeant 
+          <lb ed="#S" n="70"/>ad loca sua
+        </p>
+        <p xml:id="b1-d1q7-d1e1607">
+          <pc type="pilcrow"/> Et per hoc patet ad argumenta philosphus verum enim est quod proprium 
+          <lb ed="#S" n="71"/>est alium movere seipsa in conditione et dispositione requisita 
+          <lb ed="#S" n="72"/>ad modum postquam non fuerunt in tali dispositione et ideo possunt modum 
+          <lb ed="#S" n="73"/>suum sistere et moveri ad omnem differentiam positionis vel ad multas 
+          <lb ed="#S" n="74"/>saltem de animali rationali est hoc planum nec sit gravia et levia 
+          <lb ed="#S" n="75"/>ex hoc patet quasi ad duo argumenta
+        </p>
+        <p xml:id="b1-d1q7-d1e1623">
+          <pc type="pilcrow"/> ad 3m concedo quod dividuntur 
+          <lb ed="#S" n="76"/>in gravitatem quae est accidens et in substantiam gravitatis per quam movet se grave 
+          <lb ed="#S" n="77"/>et movetur per subiectum gravitatis dico simul cum hoc quod graitas prius et 
+          <lb ed="#S" n="78"/>primo movet seipsam per <unclear>concommunicantiam</unclear> subiectum suum licet philosophus diceret 
+          <lb ed="#S" n="79"/>quod semet ipsam non movet nisi per accidens sicut nec anima laium 
+          <lb ed="#S" n="80"/>movetur nisi per accidens et bene intelligi potest dictum suum quod scilicet est 
+          <lb ed="#S" n="81"/>accidens vel forma subiecti quod per se movetur
+        </p>
+        <p xml:id="b1-d1q7-d1e1643">
+          <pc type="pilcrow"/> Ad 4m de 7 physicorum concedendum 
+          <lb ed="#S" n="82"/>est quod omne compositum ex diversis partibus si movetur <sic>movetur</sic> ab altero 
+          <lb ed="#S" n="83"/>vel extrinseco sicut cum moveo baculum <subst><del rend="expunctuation">in</del> <add place="above-line">ab</add></subst> <seg><subst><del rend="expunctuation">ex</del><add place="above-line">in</add></subst>trinseco</seg> per necessitatem 
+          <lb ed="#S" n="84"/>sicut grave movetur deorsum non per se et primo sic quod non per partem 
+          <lb ed="#S" n="85"/>vel partes quia sicut eius entitas integratur ex entibus par<lb ed="#S" break="no" n="86"/>tium 
+          ita et eius motio vel motus ex motionibus vel motibus 
+          <lb ed="#S" n="87"/>partium ymmo et aliqua partium aliam pellendo et alia aliam trahen<lb ed="#S" break="no" n="88"/>do 
+          movet sed cum illa negativa cuius negatio cadit super <unclear>mo<lb ed="#S" break="no" n="89"/>di?nem</unclear> 
+          illo modo <unclear>ince?cam</unclear> bene stat et verum est quod grave movet 
+          <lb ed="#S" n="90"/>seipsam et quod ignis causat calorem proprium et voluntas actum suum 
+          <lb ed="#S" n="91"/>et sic de aliis cum hoc toto tamen bene stat etiam quod grave etc 
+          <lb ed="#S" n="92"/>quae vere movent seipsa moveantur ab alio non solum intrinseco 
+          <lb ed="#S" n="93"/>sed extrinseco partialiter licet enim intellectus moveat seipsam ad actum 
+          <lb ed="#S" n="94"/>suum movetur tamen simul ab alio ut ab obiecto vel habitu et similiter voluntas 
+          <lb ed="#S" n="95"/>licet moveat se ad actum tamen ad actum talem movetur 
+          ab alio scilicet a deo ad minus ad cognitionem et amorem ita quod 
+          <lb ed="#S" n="96"/>deus movet eam ut finis amatus et ut efficiens causans 
+          <lb ed="#S" n="97"/>mediate vel immediate amorem illum sine ita intelligat et amet 
+          <lb ed="#S" n="98"/>per substantiam suam sive per actus a se distinctos
+        </p>
+        <p xml:id="b1-d1q7-d1e1708">
+          <pc type="pilcrow"/> <unclear>Responsio<!-- possible correction here ? --></unclear> cum 
+          <lb ed="#S" n="99"/>iam dicta <name xml:id="b1-d1q7-Nd1e1718">aristotelis</name> tantummodo procedit de re composita et talem substantiam 
+          <lb ed="#S" n="100"/>ponit posse per se moveri loquendo proprie unde versus finem illius 
+          <lb ed="#S" n="101"/>capituli primi <unclear>di?7</unclear> <unclear>resiunt</unclear> vim totius rationis dicens si aliquid in<lb ed="#S" break="no" n="102"/>quiescendo 
+          aliud stat et pausat moveri hoc ab altero 
+          <lb ed="#S" n="103"/>movetur igitur omne quod movetur ab altero movetur et probat consequentiam dicens 
+          <lb ed="#S" n="104"/>divisibile est enim omne quod movetur in parte quiescente quiescit 
+          <lb ed="#S" n="105"/>et totum sed bene tunc probabitur primum movens inmobile dico quod ad 
+          <lb ed="#S" n="106"/>probandum illud iuvat dicta ratio sicut supra dictum fuit suppo<lb ed="#S" break="no" n="107"/>nit 
+          caelum moveri a proposito et non a casu nec a seipso in 
+          <lb ed="#S" n="108"/>perpetuum quia nulla non viva nec hoc habet nec viva etc finita 
+          <lb ed="#S" n="109"/>nisi veritate amabilis tamquam finis infiniti ex cuius amore 
+          <lb ed="#S" n="110"/><unclear>infatigabili</unclear> propter <unclear>infatigationem</unclear> et intentionem boni illius apprehen<lb ed="#S" break="no" n="111"/>si 
+          absque omni fastidio ymmo cum infatigabili desiderio 
+          <lb ed="#S" n="112"/>uniformiter caelum moveat secundum philosophum <add place="margin-right">sine</add> fine et hanc conclusionem quod 
+          <lb ed="#S" n="113"/>non per naturam corporis probat <ref xml:id="b1-d1q7-Rd1e1762"><name xml:id="b1-d1q7-Nd1e1763">avicenna</name> diffuse in secundo de caeli
+          <lb ed="#S" n="114"/>et mundi</ref>
+        </p>
+        <p xml:id="b1-d1q7-d1e1769">
+          <pc type="pilcrow"/> Ad 5 neganda est consequentia nisi loquendo de motu gravis 
+          <lb ed="#S" n="115"/>ad actum primum substantialem quia ibi fit sermo de causatione <unclear>univoca</unclear> 
+          <lb ed="#S" n="116"/>immotione autem gravis nulla est causatio per se loquendo ex hoc 
+          <lb ed="#S" n="117"/>quod movetur sed acquisitio rei praeexistentis scilicet loci vel dato
+          <lb ed="#S" n="118"/>quod sit ista erit regulus aliquis de genere ubi vel alius et per consequens 
+          <lb ed="#S" n="119"/>nec erit causatio <unclear>univoca</unclear> quia principium actum <unclear>motus <!-- possible correction here --></unclear> 
+          non est eiusdem rationis cum tali respectu si ponatur
+        </p>
+        <p xml:id="b1-d1q7-d1e1793">
+          <pc type="pilcrow"/> Ad 
+          <pb ed="#S" n="37-v"/>
+          <cb ed="#S" n="a"/>
+          <lb ed="#S" n="1"/>2m contra dicta dicendum quod ita auctoritas intelligenda est de potentia factiva cuius 
+          <lb ed="#S" n="2"/>scilicet effectu recipitur in obiecto extrinseco non de activa communiter 
+          <lb ed="#S" n="3"/>dicta et haec patet ex <ref xml:id="b1-d1q7-Rd1e1808">5 metaphysicae capitulo de potestate</ref> ubi describens potentiam 
+          <lb ed="#S" n="4"/>communiter dictam dicit quod non est principium motus aut mutationis aut 
+          <lb ed="#S" n="5"/>in altero aut in quantum alterum ut aedificativa potestas est 
+          <lb ed="#S" n="6"/>quae non existit in aedificando sed ars medicinalis existeret 
+          <lb ed="#S" n="7"/>utique in sanato sed quod non in quam satiatur etc expositione 
+          <lb ed="#S" n="8"/>ad propositionem
+        </p>
+        <p xml:id="b1-d1q7-d1e1822">
+          <pc type="pilcrow"/> ad 3m principale quod est contra primam conclusionem dicendum 
+          <lb ed="#S" n="9"/>quod mihi videtur quod una voluntas sufficienter approximata alteri simili voluntati 
+          <lb ed="#S" n="10"/>non potest in ea agere volitionem nisi per modum oppositi causando scilicet 
+          <lb ed="#S" n="11"/>mere naturaliter cum intellectu praesente alterius naturae intellectualis cognitionem 
+          <lb ed="#S" n="12"/>qua habita potest ita alia diligere voluntatem sibi obiectam sed supplere 
+          <lb ed="#S" n="13"/>efficiam principii vitalis respectu alterius similis principii vitalis quo in 
+          <lb ed="#S" n="14"/>se causat actum vitalem non per modum obiecti sed per modum in<lb ed="#S" break="no" n="15"/>tellectus 
+          et voluntatis et sensus et universaliter appetitus non potest nisi olus deus 
+          <lb ed="#S" n="16"/>alioquin hoc posset voluntas facere in alia voluntate ita non cognoscen<lb ed="#S" break="no" n="17"/>te 
+          quia cognitio non disponit eam ad receptionem sed ad 
+          <lb ed="#S" n="18"/>actionem volitionis <pc type="punctus"/>
+        </p>
+        <p xml:id="b1-d1q7-d1e1851">
+          <pc type="pilcrow"/> Item tunc si voluntas una active con<lb ed="#S" break="no" n="19"/>principiet 
+          suam beatitudinem posset in aliam voluntatem beatitudinem consimilem 
+          <lb ed="#S" n="20"/>conprincipare et per consequens eam active beatificare consequens non est dan<lb ed="#S" break="no" n="21"/>dum
+        </p>
+        <p xml:id="b1-d1q7-d1e1862">
+          <pc type="pilcrow"/> Item angelus cadens et deum odiens potuis<lb ed="#S" break="no" n="22"/>set 
+          angelum illum necessitasse ad odium dei consimile et necessi<lb ed="#S" break="no" n="23"/>tare 
+          etiam <unclear>actum </unclear> ad non diligendum deum per actum contrarium 
+          <lb ed="#S" n="24"/>quem in eo causaret et posset facere eam quae nocetur <c>a</c> velle 
+          <lb ed="#S" n="25"/><subst><del rend="expunctuation">et</del> <add place="margin-left">se</add></subst> non esse vel velle se esse summe miseram et nolle <c>a</c> 
+          <lb ed="#S" n="26"/>esse beatam haec enim quam posset una alia velle de <c>a</c> igitur si 
+          <lb ed="#S" n="27"/>similes actus poterit causare in <c>a</c> <c>a</c> poterit talia velle 
+          <lb ed="#S" n="28"/>circa <c>a</c> et multa similia sequerentur quae omnia probarentur 
+          <lb ed="#S" n="29"/>per idem medium per quod in principali obiective est hic argumentum igitur ma<lb ed="#S" break="no" n="30"/>ior 
+          ita <name xml:id="b1-d1q7-Nd1e1907">scoto</name> concedi potest de actionibus transeuntibus cuius 
+          <lb ed="#S" n="31"/>sunt aedificare comburere calefacere frigefacere et similibus 
+          <lb ed="#S" n="32"/>de operationibus autem immanentibus <unclear>ci?us</unclear> sunt visio intellectio di<lb ed="#S" break="no" n="33"/>lectio 
+          gaudium et tristitia et huiusmodi quam distinctionem interfacit 
+          <lb ed="#S" n="34"/><ref xml:id="b1-d1q7-Rd1e1919">philosophus 9 metaphysicae per 16</ref> falsum est universaliter quod potens talem actum 
+          <lb ed="#S" n="35"/>in seipso principare non per modum obiecti sed vitalis principii 
+          <lb ed="#S" n="36"/>condistincti scilicet contra conprincipiationem per modum obiecti possit 
+          <lb ed="#S" n="37"/>isto modo principare similem actum indistincta simili potentia quia 
+          <lb ed="#S" n="38"/>nullum ens mundi principare potest actum aliquem vitalem 
+          <lb ed="#S" n="39"/>illo modo nisi in alio principio vitali nisi deus qui simpliciter 
+          <lb ed="#S" n="40"/>omnem efficaciam supplere potest et quidquid potest mediate eam 2a potest 
+          <lb ed="#S" n="41"/>sine ea sicut docet articulus quidam parysiensis et theologi communiter 
+          <lb ed="#S" n="42"/>hoc concedunt causam autem quare principium vitale non possit 
+          <lb ed="#S" n="43"/>isto modo agere in alio simili sicut in seipso nescio 
+          <lb ed="#S" n="44"/>claram assignare licet scientiam ducere ad <seg type="correction"><add>in</add>conveniens</seg> sicud feci 
+          <lb ed="#S" n="45"/>sicut scio causam assignare quare forma receptiva in subiecto 
+          <lb ed="#S" n="46"/>aliquo disposito ad formam intentiorem istius speciei non 
+          <lb ed="#S" n="47"/>potest in illo ulteriorem gradum inducere sicut potest in subiecto 
+          <lb ed="#S" n="48"/>alio facere et tamen per experientiam et rationem etiam ducentem ad 
+          <lb ed="#S" n="49"/>inpossibile hoc est mihi notum
+        </p>
+        <p xml:id="b1-d1q7-d1e1959">
+          <pc type="pilcrow"/> ad 4m dicendum quod conclusio il<lb ed="#S" break="no" n="50"/>lata 
+          non est inconveniens de causa principali concurrentibus principiis 
+          <lb ed="#S" n="51"/>diversis vel eodem principio libero posito eisdem cum causis natura<lb ed="#S" break="no" n="52"/>libus 
+          effectus oppositos producere Exemplum primi idem intellectus
+          <lb ed="#S" n="53"/>per demosntrationem evidentem necessitiatur in se ipso producere actum 
+          <lb ed="#S" n="54"/>scientiae qui prius per <unclear>falsigraphum</unclear> causaverat fortem errorem 
+          <lb ed="#S" n="55"/>contrarium
+        </p>
+        <p xml:id="b1-d1q7-d1e1979">
+          <pc type="pilcrow"/> ad 5m concedo quod ceteris paribus in essendo id est nullo 
+          <lb ed="#S" n="56"/>eorum crescente in entitate sua ad crementum solius notitiae 
+          <lb ed="#S" n="57"/>quae conprincipiavit amorem ad crementum inquam cogni<lb ed="#S" break="no" n="58"/>tionis 
+          huius secundum gradum eiusdem speciei solum modo cresceret 
+          <lb ed="#S" n="59"/>amore sed certe licet notitia communicans crescat in entitate 
+          <lb ed="#S" n="60"/>quibus tamen potest ex cremento solius notitiae efficacius agere 
+          <pb ed="#S" n="b"/>
+          <lb ed="#S" n="1"/>quam agebat et ideo non sequitur quod gradus amoris accrescens 
+          <lb ed="#S" n="2"/>sic active a sola notitia et illud sufficiat pro 6o argumento ulterius 
+          <lb ed="#S" n="3"/>tamen tum sumitur in argumento 5 quod consequens illatum de cremento amoris 
+          <lb ed="#S" n="4"/>ad augmentum solius notitiae est falsum quia velit voluntas cres<lb ed="#S" break="no" n="5"/>cente 
+          notitia diligere praecise in priori gradu amoris 
+          <lb ed="#S" n="6"/>etc
+        </p>
+        <p xml:id="b1-d1q7-d1e2010">
+          <pc type="pilcrow"/> dicendum quod satis est possibile quod sit velit etiam satis 
+          <lb ed="#S" n="7"/>possibile est quod ipsa voluntas velit nullum actum habere non tamen propter 
+          <lb ed="#S" n="8"/>hoc ipsa nichil vult tunc <pc type="punctus"/> verumptamen sicud supra dixi si vo<lb ed="#S" break="no" n="9"/>luntas 
+          non potest velle vel nolle nisi sic aliquid cur ipsa 
+          <lb ed="#S" n="10"/>velit vel nolit illa eam concepta cum tali nolle bene 
+          <lb ed="#S" n="11"/>posset inpedire ne actus amoris crescat sicud cresceret sine 
+          <lb ed="#S" n="12"/>eis sed non est hoc nisi a casu in illo gradu praecise quo nolle illud 
+          <lb ed="#S" n="13"/>praescivit <pc type="punctus"/> possum enim velle nisi inpossibile et similiter nolle 
+          <lb ed="#S" n="14"/>et iste qui vult per istam volitionem nihil velle perseverans 
+          <lb ed="#S" n="15"/>nihilominus in quodam velle sed cresceret tunc in casu argumenti amor 
+          <lb ed="#S" n="16"/>ad crementum etiam notitiae decresceret ad crementum vel notitiam 
+          <lb ed="#S" n="17"/>vel praesentiam inpedimenti secundum quantitatem notitiarum et efficiam natura<lb ed="#S" break="no" n="18"/>lem 
+          in agendo secundum quod unum istorum fuerit fortius ad 
+          <lb ed="#S" n="19"/>inpedimentum quam ad promvendum vel econtra vel ambo
+        </p>
+        <p xml:id="b1-d1q7-d1e2047">
+          <pc type="pilcrow"/> Et cum 
+          <lb ed="#S" n="20"/>arguitur quod si crescat amor ultra praescitum <unclear>terminum</unclear> per ispum vel<lb ed="#S" break="no" n="21"/>le 
+          tunc amabit quis invite secundum illum saltem gradum 
+          <lb ed="#S" n="22"/>ulteriorem dicendum quod quia aliunde est amor iste spontaneus 
+          <lb ed="#S" n="23"/>et libere fit ita non sequitur quod amabit secundum istum gradum invi<lb ed="#S" break="no" n="24"/>te 
+          nisi secundum quid si autem esset affectio sensualitatis vel commodi 
+          <lb ed="#S" n="25"/>non libere causata nec libere retenta seu conservata sed 
+          <lb ed="#S" n="26"/>omnino contra motum omnem liberum voluntas et necessitate naturae unde 
+          <lb ed="#S" n="27"/>bene posset concedi quod invite amaret 
+        </p>
+        <p xml:id="b1-d1q7-d1e2071">
+          <pc type="pilcrow"/> ad argumenta prin<lb ed="#S" break="no" n="28"/>cipalia 
+          satis patet ex solutionibus argumentorum contra conclusiones
         </p>
       </div>
     </body>
